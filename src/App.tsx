@@ -1,11 +1,7 @@
-import React from 'react';
+import { FunctionComponent } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      Jueletrado: Donde jugar y aprender a escribir van de la mano
-    </div>
-  );
-}
+const App: FunctionComponent = () => {
+    return <div className="App">Jueletrado: Donde jugar y aprender a escribir van de la mano</div>;
+};
 
 export default App;
