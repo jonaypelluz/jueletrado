@@ -1,13 +1,16 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import App from 'src/components/App';
+import { WordsContextProvider } from 'src/store/WordsContext';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
     <React.StrictMode>
-        <App />
+        <WordsContextProvider>
+            <App />
+        </WordsContextProvider>
     </React.StrictMode>,
 );
 

@@ -1,3 +1,5 @@
+.DS_Store
+
 ## Directories
 node_modules
 build
@@ -6,3 +8,4 @@ coverage
 ## Files
 .env
 yarn-error.log
+words.txt
