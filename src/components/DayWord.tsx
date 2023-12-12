@@ -16,7 +16,9 @@ const DayWord: React.FC<DayWordProps> = ({ word }) => {
                 Palabra del día:
             </Title>
             <Paragraph style={{ textAlign: 'center' }}>
-                <Text italic style={{ fontSize: '30px' }}>{word}</Text>
+                <Text italic style={{ fontSize: '30px' }}>
+                    {word}
+                </Text>
             </Paragraph>
         </Content>
     );

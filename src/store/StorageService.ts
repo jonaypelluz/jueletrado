@@ -1,17 +1,27 @@
 import Logger from 'src/services/Logger';
 
-type StorageKey = 'WORDS_SELECTED' | 'GAME_WORDS_SELECTED' | 'DAY_WORD_SELECTED';
+type StorageKey = 'WORDS_SELECTED' | 'DAY_WORD_SELECTED';
+
+type StoredItem<T> = {
+    value: T;
+    timestamp: number;
+    expireIn?: number;
+};
 
 const StorageService = {
     WORDS_SELECTED: 'WORDS_SELECTED' as const,
-    GAME_WORDS_SELECTED: 'GAME_WORDS_SELECTED' as const,
     DAY_WORD_SELECTED: 'DAY_WORD_SELECTED' as const,
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    setItem(key: StorageKey, value: any): void {
+    setItem<T>(key: StorageKey, value: T, expireIn?: number): void {
         Logger.log(`Setting localStorage key: ${key}`, value);
         try {
-            const serializedValue = JSON.stringify(value);
+            const item: StoredItem<T> = {
+                value,
+                timestamp: new Date().getTime(),
+                expireIn,
+            };
+            const serializedValue = JSON.stringify(item);
             localStorage.setItem(key, serializedValue);
         } catch (error) {
             Logger.error('Error storing data:', error);
@@ -21,8 +31,18 @@ const StorageService = {
     getItem<T = unknown>(key: StorageKey): T | null {
         Logger.info('Getting from localStorage the key:', key);
         try {
-            const serializedValue = localStorage.getItem(key);
-            return serializedValue ? (JSON.parse(serializedValue) as T) : null;
+            const serializedItem = localStorage.getItem(key);
+            if (!serializedItem) return null;
+
+            const { value, timestamp, expireIn } = JSON.parse(serializedItem) as StoredItem<T>;
+            const now = new Date().getTime();
+
+            if (expireIn && now - timestamp > expireIn) {
+                this.removeItem(key);
+                return null;
+            }
+
+            return value;
         } catch (error) {
             Logger.error('Error retrieving data:', error);
             return null;

@@ -4,7 +4,6 @@ import { LoadWords, getRandomWord } from 'src/services/WordsService';
 import LoadingScreen from 'src/components/LoadingScreen';
 import DayWord from 'src/components/DayWord';
 import StorageService from 'src/store/StorageService';
-import Logger from 'src/services/Logger';
 import { Layout, Typography } from 'antd';
 import MainLayout from 'src/layouts/MainLayout';
 
@@ -16,6 +15,8 @@ const heroStyles = {
     padding: '60px 20px',
 };
 
+const EXPIRE_TIME_24H = 86400000;
+
 const Home: React.FC = () => {
     const { isLoading, error, setLoadingProgress, setError, setLoading } = useWordsContext();
     const [dailyWord, setDailyWord] = useState<string | undefined>(() => {
@@ -25,16 +26,14 @@ const Home: React.FC = () => {
     const [areWordsLoaded, setAreWordsLoaded] = useState(false);
 
     useEffect(() => {
-        Logger.debug('LoadWords');
         LoadWords(setError, setLoadingProgress, setLoading);
         setAreWordsLoaded(true);
     }, []);
 
     useEffect(() => {
         async function fetchRandomWord() {
-            Logger.debug('fetchRandomWord');
             const word = await getRandomWord(setError, setLoading);
-            StorageService.setItem(StorageService.DAY_WORD_SELECTED, word);
+            StorageService.setItem(StorageService.DAY_WORD_SELECTED, word, EXPIRE_TIME_24H);
             setDailyWord(word);
         }
 

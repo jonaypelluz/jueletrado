@@ -51,7 +51,6 @@ const getRandomWord = async (
         await dbService.initDB();
 
         const randomWord = await dbService.getRandomWord();
-        Logger.debug('randomWord', randomWord);
         return randomWord;
     } catch (error) {
         Logger.error('Error retrieving random word:', error);
