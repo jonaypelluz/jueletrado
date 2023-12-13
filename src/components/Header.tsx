@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu } from 'antd';
-import { HomeOutlined } from '@ant-design/icons';
+import { HomeOutlined, PlaySquareOutlined } from '@ant-design/icons';
 import { Link, useLocation } from 'react-router-dom';
 
 const { Header } = Layout;
@@ -16,6 +16,11 @@ const Head: React.FC = () => {
                 </Link>
             ),
             key: '/',
+        },
+        {
+            label: <Link to="/games">Juegos</Link>,
+            icon: <PlaySquareOutlined />,
+            key: '/games',
         },
     ];
 

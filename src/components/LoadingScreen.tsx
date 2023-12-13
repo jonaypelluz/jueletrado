@@ -1,14 +1,12 @@
 import React from 'react';
-import { Spin, Layout } from 'antd';
+import { Spin } from 'antd';
 import { useWordsContext } from 'src/store/WordsContext';
-
-const { Content } = Layout;
 
 const LoadingScreen: React.FC = () => {
     const { loadingProgress, error } = useWordsContext();
 
     return (
-        <Content
+        <div
             style={{
                 minHeight: '100vh',
                 display: 'flex',
@@ -25,7 +23,7 @@ const LoadingScreen: React.FC = () => {
                     <Spin size="large" />
                 </>
             )}
-        </Content>
+        </div>
     );
 };
 

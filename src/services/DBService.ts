@@ -101,6 +101,25 @@ class DBService {
         });
     }
 
+    async getRandomWords(count: number): Promise<string[]> {
+        const words: string[] = [];
+        const promises: Promise<string | undefined>[] = [];
+
+        for (let i = 0; i < count; i++) {
+            promises.push(this.getRandomWord());
+        }
+
+        const results = await Promise.all(promises);
+
+        results.forEach((word) => {
+            if (word) {
+                words.push(word);
+            }
+        });
+
+        return words;
+    }
+
     async getRandomWord(): Promise<string | undefined> {
         return new Promise((resolve, reject) => {
             if (!this.db) {
@@ -110,37 +129,32 @@ class DBService {
 
             const transaction = this.db.transaction([STORE_NAME], 'readonly');
             const store = transaction.objectStore(STORE_NAME);
-            const request = store.count();
+            const request = store.getAllKeys();
 
             request.onsuccess = () => {
-                const totalCount = request.result;
+                const keys = request.result;
 
-                const randomIndex = Math.floor(Math.random() * totalCount);
+                if (keys.length === 0) {
+                    resolve(undefined);
+                    return;
+                }
 
-                const requestCursor = store.openCursor();
-                let currentIndex = 0;
+                const randomIndex = Math.floor(Math.random() * keys.length);
+                const randomKey = keys[randomIndex];
 
-                requestCursor.onsuccess = () => {
-                    const cursor = requestCursor.result;
-                    if (cursor) {
-                        if (currentIndex === randomIndex) {
-                            resolve(cursor.value as string);
-                        } else {
-                            currentIndex++;
-                            cursor.continue();
-                        }
-                    } else {
-                        resolve(undefined);
-                    }
+                const dataRequest = store.get(randomKey);
+
+                dataRequest.onsuccess = () => {
+                    resolve(dataRequest.result as string);
                 };
 
-                requestCursor.onerror = () => {
-                    reject(`Error retrieving random word: ${requestCursor.error?.message}`);
+                dataRequest.onerror = () => {
+                    reject(`Error retrieving word: ${dataRequest.error?.message}`);
                 };
             };
 
             request.onerror = () => {
-                reject(`Error counting words: ${request.error?.message}`);
+                reject(`Error retrieving keys: ${request.error?.message}`);
             };
         });
     }

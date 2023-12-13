@@ -42,6 +42,25 @@ const LoadWords = async (
     }
 };
 
+const getGameWords = async (
+    count: number,
+    setError: SetErrorFunction,
+    setLoading: SetLoadingFunction,
+): Promise<string[] | undefined> => {
+    setLoading(true);
+    try {
+        await dbService.initDB();
+
+        const words = await dbService.getRandomWords(count);
+        return words;
+    } catch (error) {
+        Logger.error('Error retrieving game words:', error);
+        setError(error as Error);
+    } finally {
+        setLoading(false);
+    }
+};
+
 const getRandomWord = async (
     setError: SetErrorFunction,
     setLoading: SetLoadingFunction,
@@ -60,4 +79,4 @@ const getRandomWord = async (
     }
 };
 
-export { LoadWords, getRandomWord };
+export { LoadWords, getRandomWord, getGameWords };

@@ -1,4 +1,4 @@
-import { LogLevels } from 'src/types/types';
+import { LogLevels } from 'src/models/interfaces';
 
 const appConfig = (): LogLevels => {
     switch (process.env.REACT_APP_APP_ENV) {

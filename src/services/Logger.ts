@@ -1,5 +1,5 @@
 import appConfig from 'src/config/AppConfig';
-import { LogLevels } from 'src/types/types';
+import { LogLevels } from 'src/models/interfaces';
 
 const NO_OP = (message?: any, ...optionalParams: any[]): void => {}; // eslint-disable-line
 

@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import StorageService from 'src/store/StorageService';
-import { WordObject } from 'src/types/types';
+import { WordObject } from 'src/models/interfaces';
 
 interface WordsContextValue {
     words: WordObject[];
