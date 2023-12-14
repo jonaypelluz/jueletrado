@@ -8,7 +8,7 @@ const Games: React.FC = () => {
             <Row>
                 <Col>
                     <Card
-                        title="La torre del acento"
+                        title="La torre de la ortografía"
                         bordered={false}
                         extra={
                             <a href="/games/spelltower">

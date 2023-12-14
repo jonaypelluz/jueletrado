@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useWordsContext } from 'src/store/WordsContext';
-import { LoadWords, getRandomWord } from 'src/services/WordsService';
+import { populateWordsDB, getGameWords } from 'src/services/WordsService';
 import LoadingScreen from 'src/components/LoadingScreen';
 import DayWord from 'src/components/DayWord';
-import StorageService from 'src/store/StorageService';
+import StorageService, { StorageKey } from 'src/store/StorageService';
 import MainLayout from 'src/layouts/MainLayout';
 import Games from 'src/components/Games';
 import Hero from 'src/components/Hero';
@@ -17,23 +17,63 @@ const Home: React.FC = () => {
         return storedWord || undefined;
     });
     const [areWordsLoaded, setAreWordsLoaded] = useState(false);
+    const [wordGroupsLoaded, setWordGroupsLoaded] = useState(false);
 
     useEffect(() => {
-        LoadWords(setError, setLoadingProgress, setLoading);
+        setLoading(true);
+        populateWordsDB(setError, setLoadingProgress);
         setAreWordsLoaded(true);
     }, []);
 
     useEffect(() => {
-        async function fetchRandomWord() {
-            const word = await getRandomWord(setError, setLoading);
-            StorageService.setItem(StorageService.DAY_WORD_SELECTED, word, EXPIRE_TIME_24H);
-            setDailyWord(word);
+        const wordGroups: { count: number; key: StorageKey }[] = [
+            { count: 20, key: StorageService.WORDS_GROUP_20 },
+            { count: 40, key: StorageService.WORDS_GROUP_40 },
+            { count: 60, key: StorageService.WORDS_GROUP_60 },
+            { count: 80, key: StorageService.WORDS_GROUP_80 },
+        ];
+
+        async function fetchAndStoreWords(group: { count: number; key: StorageKey }) {
+            const storedWords = StorageService.getItem<string[]>(group.key);
+
+            if (!storedWords) {
+                const words = await getGameWords(group.count, setError);
+                if (words) {
+                    StorageService.setItem(group.key, words, 3600000);
+                }
+            }
         }
 
-        if (!dailyWord) {
-            fetchRandomWord();
-        }
+        Promise.all(wordGroups.map((group) => fetchAndStoreWords(group))).then(() => {
+            setWordGroupsLoaded(true);
+        });
     }, [areWordsLoaded]);
+
+    useEffect(() => {
+        if (wordGroupsLoaded) {
+            const storedDailyWord = StorageService.getItem<string>(
+                StorageService.DAY_WORD_SELECTED,
+            );
+
+            if (!storedDailyWord) {
+                const wordsGroup20 = StorageService.getItem<string[]>(
+                    StorageService.WORDS_GROUP_20,
+                );
+                if (wordsGroup20 && wordsGroup20.length > 0) {
+                    const dailyWord = wordsGroup20[0];
+                    StorageService.setItem(
+                        StorageService.DAY_WORD_SELECTED,
+                        dailyWord,
+                        EXPIRE_TIME_24H,
+                    );
+                    setDailyWord(dailyWord);
+                }
+            } else {
+                setDailyWord(storedDailyWord);
+            }
+            setLoading(false);
+        }
+    }, [wordGroupsLoaded]);
 
     if (isLoading || error) {
         return <LoadingScreen />;

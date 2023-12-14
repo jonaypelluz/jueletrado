@@ -1,6 +1,11 @@
 import Logger from 'src/services/Logger';
 
-type StorageKey = 'WORDS_SELECTED' | 'DAY_WORD_SELECTED';
+export type StorageKey =
+    | 'DAY_WORD_SELECTED'
+    | 'WORDS_GROUP_20'
+    | 'WORDS_GROUP_40'
+    | 'WORDS_GROUP_60'
+    | 'WORDS_GROUP_80';
 
 type StoredItem<T> = {
     value: T;
@@ -9,8 +14,11 @@ type StoredItem<T> = {
 };
 
 const StorageService = {
-    WORDS_SELECTED: 'WORDS_SELECTED' as const,
     DAY_WORD_SELECTED: 'DAY_WORD_SELECTED' as const,
+    WORDS_GROUP_20: 'WORDS_GROUP_20' as const,
+    WORDS_GROUP_40: 'WORDS_GROUP_40' as const,
+    WORDS_GROUP_60: 'WORDS_GROUP_60' as const,
+    WORDS_GROUP_80: 'WORDS_GROUP_80' as const,
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     setItem<T>(key: StorageKey, value: T, expireIn?: number): void {

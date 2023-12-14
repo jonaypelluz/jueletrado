@@ -19,10 +19,13 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+        "@games/*": ["src/components/games/*"],
+    },
   },
   "include": [
-    "src"
+    "src/**/*"
   ],
   "exclude": [
     "dist",

@@ -3,20 +3,16 @@ import Logger from 'src/services/Logger';
 
 type SetErrorFunction = (error: Error | null) => void;
 type SetLoadingProgressFunction = (progress: number) => void;
-type SetLoadingFunction = React.Dispatch<React.SetStateAction<boolean>>;
 
-const LoadWords = async (
+const populateWordsDB = async (
     setError: SetErrorFunction,
     setLoadingProgress: SetLoadingProgressFunction,
-    setLoading: SetLoadingFunction,
 ) => {
-    setLoading(true);
     try {
         await dbService.initDB();
 
         const isPopulated = await dbService.checkIfPopulated();
         if (isPopulated) {
-            setLoading(false);
             return;
         }
 
@@ -37,17 +33,13 @@ const LoadWords = async (
     } catch (error) {
         Logger.error('Error loading words:', error);
         setError(error as Error);
-    } finally {
-        setLoading(false);
     }
 };
 
 const getGameWords = async (
     count: number,
     setError: SetErrorFunction,
-    setLoading: SetLoadingFunction,
 ): Promise<string[] | undefined> => {
-    setLoading(true);
     try {
         await dbService.initDB();
 
@@ -56,27 +48,7 @@ const getGameWords = async (
     } catch (error) {
         Logger.error('Error retrieving game words:', error);
         setError(error as Error);
-    } finally {
-        setLoading(false);
     }
 };
 
-const getRandomWord = async (
-    setError: SetErrorFunction,
-    setLoading: SetLoadingFunction,
-): Promise<string | undefined> => {
-    setLoading(true);
-    try {
-        await dbService.initDB();
-
-        const randomWord = await dbService.getRandomWord();
-        return randomWord;
-    } catch (error) {
-        Logger.error('Error retrieving random word:', error);
-        setError(error as Error);
-    } finally {
-        setLoading(false);
-    }
-};
-
-export { LoadWords, getRandomWord, getGameWords };
+export { populateWordsDB, getGameWords };

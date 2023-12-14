@@ -1,10 +1,6 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import StorageService from 'src/store/StorageService';
-import { WordObject } from 'src/models/interfaces';
+import React, { createContext, useContext, useState, ReactNode } from 'react';
 
 interface WordsContextValue {
-    words: WordObject[];
-    setWords: React.Dispatch<React.SetStateAction<WordObject[]>>;
     isLoading: boolean;
     setLoading: React.Dispatch<React.SetStateAction<boolean>>;
     loadingProgress: number;
@@ -20,21 +16,11 @@ interface WordsContextProviderProps {
 }
 
 const WordsContextProviderImpl: React.FC<WordsContextProviderProps> = ({ children }) => {
-    const [words, setWords] = useState<WordObject[]>([]);
     const [isLoading, setIsLoading] = useState(false);
     const [loadingProgress, setLoadingProgress] = useState(0);
     const [error, setError] = useState<Error | null>(null);
 
-    useEffect(() => {
-        const storedWords = StorageService.getItem(StorageService.WORDS_SELECTED);
-        if (storedWords && Array.isArray(storedWords)) {
-            setWords(storedWords);
-        }
-    }, []);
-
     const value = {
-        words,
-        setWords,
         isLoading,
         setLoading: setIsLoading,
         loadingProgress,

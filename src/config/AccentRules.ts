@@ -1,16 +1,17 @@
-import { ChangeRule } from 'src/models/types';
+const NonAccentedVowels: { [key: string]: string } = {
+    a: 'á',
+    e: 'é',
+    i: 'í',
+    o: 'ó',
+    u: 'ú',
+};
 
-const AccentRulesChanges: ChangeRule[] = [
-    { a: ['á', 'a'] },
-    { á: ['a', 'á'] },
-    { e: ['é', 'e'] },
-    { é: ['e', 'é'] },
-    { i: ['í', 'i'] },
-    { í: ['i', 'í'] },
-    { o: ['ó', 'o'] },
-    { ó: ['o', 'ó'] },
-    { u: ['ú', 'u'] },
-    { ú: ['u', 'ú'] },
-];
+const AccentedVowels: { [key: string]: string } = {
+    á: 'a',
+    é: 'e',
+    í: 'i',
+    ó: 'o',
+    ú: 'u',
+};
 
-export default AccentRulesChanges;
+export { NonAccentedVowels, AccentedVowels };

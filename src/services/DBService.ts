@@ -102,25 +102,6 @@ class DBService {
     }
 
     async getRandomWords(count: number): Promise<string[]> {
-        const words: string[] = [];
-        const promises: Promise<string | undefined>[] = [];
-
-        for (let i = 0; i < count; i++) {
-            promises.push(this.getRandomWord());
-        }
-
-        const results = await Promise.all(promises);
-
-        results.forEach((word) => {
-            if (word) {
-                words.push(word);
-            }
-        });
-
-        return words;
-    }
-
-    async getRandomWord(): Promise<string | undefined> {
         return new Promise((resolve, reject) => {
             if (!this.db) {
                 reject('Database has not been initialized');
@@ -135,22 +116,25 @@ class DBService {
                 const keys = request.result;
 
                 if (keys.length === 0) {
-                    resolve(undefined);
+                    resolve([]);
                     return;
                 }
 
-                const randomIndex = Math.floor(Math.random() * keys.length);
-                const randomKey = keys[randomIndex];
+                const randomKeys = [];
+                for (let i = 0; i < count; i++) {
+                    const randomIndex = Math.floor(Math.random() * keys.length);
+                    randomKeys.push(keys[randomIndex]);
+                }
 
-                const dataRequest = store.get(randomKey);
+                const wordPromises = randomKeys.map((key) => {
+                    return new Promise<string>((resolve, reject) => {
+                        const wordRequest = store.get(key);
+                        wordRequest.onsuccess = () => resolve(wordRequest.result);
+                        wordRequest.onerror = () => reject(wordRequest.error);
+                    });
+                });
 
-                dataRequest.onsuccess = () => {
-                    resolve(dataRequest.result as string);
-                };
-
-                dataRequest.onerror = () => {
-                    reject(`Error retrieving word: ${dataRequest.error?.message}`);
-                };
+                Promise.all(wordPromises).then(resolve).catch(reject);
             };
 
             request.onerror = () => {
