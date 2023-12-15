@@ -1,19 +1,21 @@
 import React from 'react';
-import { Col, Row, Button } from 'antd';
-import MainLayout from 'src/layouts/MainLayout';
+import { Button, Col, Flex, Row } from 'antd';
 import Hero from 'src/components/Hero';
-import LoadingSpinner from 'src/components/LoadingSpinner';
 import LoadingScreen from 'src/components/LoadingScreen';
+import LoadingSpinner from 'src/components/LoadingSpinner';
+import MainLayout from 'src/layouts/MainLayout';
 
 type SpellTowerUIProps = {
     error: Error | null;
     countdown: number;
     showButton: boolean;
     isGameActive: boolean;
-    handleButtonClick: () => void;
-    displayWordVariations: () => JSX.Element[];
-    renderTowerBlocks: () => JSX.Element[];
+    correctAnswers: number;
     isLoading: boolean;
+    handleButtonClick: () => void;
+    renderTowerBlocks: () => JSX.Element[];
+    displayWordVariations: () => JSX.Element[];
+    renderGameResult: () => JSX.Element;
 };
 
 const UI: React.FC<SpellTowerUIProps> = ({
@@ -21,10 +23,12 @@ const UI: React.FC<SpellTowerUIProps> = ({
     countdown,
     showButton,
     isGameActive,
-    handleButtonClick,
-    displayWordVariations,
-    renderTowerBlocks,
+    correctAnswers,
     isLoading,
+    handleButtonClick,
+    renderTowerBlocks,
+    displayWordVariations,
+    renderGameResult,
 }) => {
     if (error) {
         return <LoadingScreen />;
@@ -54,10 +58,15 @@ const UI: React.FC<SpellTowerUIProps> = ({
             ) : (
                 <Row>
                     <Col span={18}>
-                        <div className="jenga-game">{isGameActive && displayWordVariations()}</div>
+                        <div className="jenga-game">
+                            <Flex vertical gap="small" style={{ width: '100%' }}>
+                                {isGameActive ? displayWordVariations() : renderGameResult()}
+                            </Flex>
+                        </div>
                     </Col>
                     <Col span={6}>
                         <div className="jenga-wrapper">
+                            <div className="jenga-tower-top">{correctAnswers}</div>
                             <div className="jenga-tower">{renderTowerBlocks()}</div>
                         </div>
                     </Col>

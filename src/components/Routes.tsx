@@ -1,9 +1,9 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AllGames from 'src/pages/AllGames';
 import Home from 'src/pages/Home';
 import NotFound from 'src/pages/NotFound';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SpellTower from 'src/pages/SpellTower';
-import AllGames from 'src/pages/AllGames';
 
 const Router: React.FC = () => {
     return (

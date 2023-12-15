@@ -1,7 +1,7 @@
 $jenga-block-width: 100px;
 $jenga-block-height: 20px;
 $jenga-block-count: 40;
-$jenga-background-colors: #ffcc00, #ff5733, #33ff57, #5733ff, #ff33a6, #33a6ff, #a6ff33, #a633ff, #ffb833;
+$jenga-background-colors: #1677ff, #722ed1, #52c41a, #f5222d, #fa8c16, #fadb14;
 
 .jenga-wrapper {
     display: flex;
@@ -50,4 +50,5 @@ $jenga-background-colors: #ffcc00, #ff5733, #33ff57, #5733ff, #ff33a6, #33a6ff, 
     border-radius: 10px;
     margin-top: 24px;
     margin-right: 24px;
+    min-height: 460px;
 }

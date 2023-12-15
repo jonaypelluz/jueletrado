@@ -1,7 +1,7 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import { HomeOutlined, PlaySquareOutlined } from '@ant-design/icons';
-import { Link, useLocation } from 'react-router-dom';
 
 const { Header } = Layout;
 

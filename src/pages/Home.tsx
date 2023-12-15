@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import { useWordsContext } from 'src/store/WordsContext';
-import { populateWordsDB, getGameWords } from 'src/services/WordsService';
-import LoadingScreen from 'src/components/LoadingScreen';
+import React, { useEffect, useRef, useState } from 'react';
 import DayWord from 'src/components/DayWord';
-import StorageService, { StorageKey } from 'src/store/StorageService';
-import MainLayout from 'src/layouts/MainLayout';
 import Games from 'src/components/Games';
 import Hero from 'src/components/Hero';
+import LoadingScreen from 'src/components/LoadingScreen';
+import MainLayout from 'src/layouts/MainLayout';
+import Logger from 'src/services/Logger';
+import { getGameWords, populateWordsDB } from 'src/services/WordsService';
+import StorageService, { StorageKey } from 'src/store/StorageService';
+import { useWordsContext } from 'src/store/WordsContext';
 
 const EXPIRE_TIME_24H = 86400000;
 
@@ -18,11 +19,20 @@ const Home: React.FC = () => {
     });
     const [areWordsLoaded, setAreWordsLoaded] = useState(false);
     const [wordGroupsLoaded, setWordGroupsLoaded] = useState(false);
+    const isDBBeingPopulated = useRef(false);
 
     useEffect(() => {
-        setLoading(true);
-        populateWordsDB(setError, setLoadingProgress);
-        setAreWordsLoaded(true);
+        if (!isDBBeingPopulated.current) {
+            setLoading(true);
+            isDBBeingPopulated.current = true;
+            populateWordsDB(setError, setLoadingProgress).then((isPopulated) => {
+                if (isPopulated) {
+                    setAreWordsLoaded(true);
+                } else {
+                    Logger.warn('Database is not populated yet. Waiting...');
+                }
+            });
+        }
     }, []);
 
     useEffect(() => {
@@ -33,20 +43,34 @@ const Home: React.FC = () => {
             { count: 80, key: StorageService.WORDS_GROUP_80 },
         ];
 
-        async function fetchAndStoreWords(group: { count: number; key: StorageKey }) {
+        async function fetchAndStoreWords(group: {
+            count: number;
+            key: StorageKey;
+        }): Promise<void> {
             const storedWords = StorageService.getItem<string[]>(group.key);
 
-            if (!storedWords) {
-                const words = await getGameWords(group.count, setError);
-                if (words) {
-                    StorageService.setItem(group.key, words, 3600000);
+            if (!storedWords || storedWords.length === 0) {
+                try {
+                    const words = await getGameWords(group.count, setError);
+                    if (words && words.length > 0) {
+                        StorageService.setItem(group.key, words, 3600000);
+                    } else {
+                        throw new Error(`No words fetched for group: ${group.key}`);
+                    }
+                } catch (error) {
+                    Logger.error('Error fetching words for group:', group.key, error);
+                    throw error;
                 }
             }
         }
 
-        Promise.all(wordGroups.map((group) => fetchAndStoreWords(group))).then(() => {
-            setWordGroupsLoaded(true);
-        });
+        Promise.all(wordGroups.map((group) => fetchAndStoreWords(group)))
+            .then(() => {
+                setWordGroupsLoaded(true);
+            })
+            .catch((error) => {
+                Logger.error('Error in loading word groups:', error);
+            });
     }, [areWordsLoaded]);
 
     useEffect(() => {
@@ -67,15 +91,16 @@ const Home: React.FC = () => {
                         EXPIRE_TIME_24H,
                     );
                     setDailyWord(dailyWord);
+                    setLoading(false);
                 }
             } else {
                 setDailyWord(storedDailyWord);
+                setLoading(false);
             }
-            setLoading(false);
         }
     }, [wordGroupsLoaded]);
 
-    if (isLoading || error) {
+    if (isLoading || error || !wordGroupsLoaded) {
         return <LoadingScreen />;
     }
 

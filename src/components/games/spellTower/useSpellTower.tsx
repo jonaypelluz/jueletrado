@@ -1,16 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Button } from 'antd';
-import { useWordsContext } from 'src/store/WordsContext';
-import { useWordProcessor } from 'src/hooks/useWordProcessor';
-import WordRules from 'src/config/WordRules';
 import ExclusionsRules from 'src/config/ExclusionRules';
+import WordRules from 'src/config/WordRules';
+import { useWordProcessor } from 'src/hooks/useWordProcessor';
 import Logger from 'src/services/Logger';
 import StorageService from 'src/store/StorageService';
+import { useWordsContext } from 'src/store/WordsContext';
 
 const GAME_TIME = 30;
 
 const useSpellTower = () => {
     const { error, setError, setLoading, isLoading } = useWordsContext();
+
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
     const [words, setWords] = useState<string[][] | null>(null);
@@ -18,6 +19,7 @@ const useSpellTower = () => {
     const [isGameActive, setIsGameActive] = useState<boolean>(false);
     const [randomizedVariations, setRandomizedVariations] = useState<string[]>([]);
     const [correctAnswers, setCorrectAnswers] = useState<number>(0);
+    const [incorrectAnswers, setIncorrectAnswers] = useState<[string, string][]>([]);
 
     const { processWords, processLastWords } = useWordProcessor();
 
@@ -29,7 +31,7 @@ const useSpellTower = () => {
             if (clickedWord === correctWord) {
                 setCorrectAnswers(correctAnswers + 1);
             } else {
-                Logger.log('Incorrect choice');
+                setIncorrectAnswers([...incorrectAnswers, [clickedWord, correctWord]]);
             }
 
             if (currentWordIndex < words.length - 1) {
@@ -75,6 +77,7 @@ const useSpellTower = () => {
         if (countdown > 0) {
             timer = setTimeout(() => setCountdown(countdown - 1), 1000);
         } else {
+            setIsGameActive(false);
             setShowButton(true);
         }
 
@@ -90,28 +93,51 @@ const useSpellTower = () => {
         setIsGameActive(true);
     };
 
+    const renderGameResult = (): JSX.Element => {
+        return (
+            <div>
+                <p>Palabras incorrectas: {incorrectAnswers.length}</p>
+                {incorrectAnswers.map(([wrong, correct], index) => (
+                    <p key={index}>
+                        {wrong} - {correct}
+                    </p>
+                ))}
+            </div>
+        );
+    };
+
+    const renderTowerBlocks = (): JSX.Element[] => {
+        return Array.from({ length: correctAnswers }, (_, index) => (
+            <div key={index} className="tower-block"></div>
+        ));
+    };
+
+    const displayWordVariations = (): JSX.Element[] => {
+        return randomizedVariations.map((variation, index) => (
+            <Button
+                size="large"
+                block
+                key={index}
+                onClick={() => handleWordClick(index)}
+                style={{ fontSize: '24px', height: '60px' }}
+            >
+                {variation}
+            </Button>
+        ));
+    };
+
     return {
         error,
         countdown,
         showButton,
         words,
-        currentWordIndex,
         isGameActive,
-        randomizedVariations,
         correctAnswers,
-        handleWordClick,
-        handleButtonClick,
-        renderTowerBlocks: () =>
-            Array.from({ length: correctAnswers }, (_, index) => (
-                <div key={index} className="tower-block"></div>
-            )),
-        displayWordVariations: () =>
-            randomizedVariations.map((variation, index) => (
-                <Button key={index} onClick={() => handleWordClick(index)}>
-                    {variation}
-                </Button>
-            )),
         isLoading,
+        handleButtonClick,
+        renderTowerBlocks,
+        displayWordVariations,
+        renderGameResult,
     };
 };
 

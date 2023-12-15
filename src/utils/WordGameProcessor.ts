@@ -1,5 +1,5 @@
-import { ChangeRule } from 'src/models/types';
 import { AccentedVowels, NonAccentedVowels } from 'src/config/AccentRules';
+import { ChangeRule } from 'src/models/types';
 
 class WordGameProcessor {
     private changeRules: ChangeRule[] = [];

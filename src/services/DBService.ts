@@ -3,144 +3,206 @@ import Logger from './Logger';
 const DB_NAME = 'jueletrado-db';
 const STORE_NAME = 'words';
 const DB_VERSION = 1;
+const MINIMUM_POPULATED_COUNT = 646614;
 
 class DBService {
-    db: IDBDatabase | null = null;
-    isPopulated: boolean = false;
+    private db: IDBDatabase | null = null;
+    private isPopulated: boolean = false;
+    private activeTransactions: IDBTransaction[] = [];
+    private operationQueue: (() => Promise<void>)[] = [];
+    private isProcessingQueue: boolean = false;
+
+    startTransaction(storeNames: string[], mode: IDBTransactionMode): IDBTransaction {
+        if (!this.db) {
+            throw new Error('Database has not been initialized');
+        }
+
+        const transaction = this.db.transaction(storeNames, mode);
+        this.activeTransactions.push(transaction);
+
+        transaction.oncomplete =
+            transaction.onerror =
+            transaction.onabort =
+                () => {
+                    this.activeTransactions = this.activeTransactions.filter(
+                        (tr) => tr !== transaction,
+                    );
+                };
+
+        return transaction;
+    }
+
+    abortAllTransactions() {
+        this.activeTransactions.forEach((transaction) => transaction.abort());
+        this.activeTransactions = [];
+    }
+
+    async ensureDBInitialized(): Promise<void> {
+        if (!this.db) {
+            await this.initDB();
+        }
+    }
 
     async initDB(): Promise<void> {
         return new Promise((resolve, reject) => {
             const request = indexedDB.open(DB_NAME, DB_VERSION);
 
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            request.onupgradeneeded = (_event) => {
+            request.onupgradeneeded = () => {
                 const db = request.result;
                 if (!db.objectStoreNames.contains(STORE_NAME)) {
                     db.createObjectStore(STORE_NAME, { autoIncrement: true });
                 }
             };
 
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            request.onsuccess = (_event) => {
+            request.onsuccess = () => {
                 this.db = request.result;
                 resolve();
             };
 
-            // eslint-disable-next-line @typescript-eslint/no-unused-vars
-            request.onerror = (_event) => {
+            request.onerror = () => {
+                Logger.error('DB Initialization Error', request.error?.message);
                 reject(`Database error: ${request.error?.message}`);
+            };
+
+            request.onblocked = () => {
+                Logger.warn('DB Initialization Blocked', 'The database request was blocked.');
             };
         });
     }
 
     async addWords(words: string[]): Promise<void> {
+        const populated = await this.checkIfPopulated();
+        if (populated) {
+            Logger.log('The database is already populated. Skipping adding words.');
+            return;
+        }
+
         return new Promise((resolve, reject) => {
-            if (!this.db) {
-                reject('Database has not been initialized');
-                return;
-            }
+            this.enqueueOperation(async () => {
+                await this.ensureDBInitialized();
+                const transaction = this.startTransaction([STORE_NAME], 'readwrite');
+                const store = transaction.objectStore(STORE_NAME);
 
-            const transaction = this.db.transaction([STORE_NAME], 'readwrite');
-            const store = transaction.objectStore(STORE_NAME);
+                for (const word of words) {
+                    store.add(word);
+                }
 
-            for (const word of words) {
-                store.add(word);
-            }
-
-            transaction.oncomplete = () => resolve();
-            transaction.onerror = () => reject(transaction.error);
+                transaction.oncomplete = () => resolve();
+                transaction.onerror = () => {
+                    Logger.error('Transaction Error', transaction.error?.message);
+                    reject(transaction.error);
+                };
+            });
         });
     }
 
     getWord(id: number): Promise<string | undefined> {
         return new Promise((resolve, reject) => {
-            if (!this.db) {
-                reject('Database has not been initialized');
-                return;
-            }
+            this.ensureDBInitialized()
+                .then(() => {
+                    const transaction = this.startTransaction([STORE_NAME], 'readonly');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.get(id);
 
-            const transaction = this.db.transaction([STORE_NAME], 'readonly');
-            const store = transaction.objectStore(STORE_NAME);
-            const request = store.get(id);
+                    request.onsuccess = () => {
+                        resolve(request.result as string);
+                    };
 
-            request.onsuccess = () => {
-                resolve(request.result as string);
-            };
-
-            request.onerror = () => {
-                reject(`Error reading word: ${request.error?.message}`);
-            };
+                    request.onerror = () => {
+                        Logger.error(`Error reading word: ${request.error?.message}`);
+                        reject(request.error);
+                    };
+                })
+                .catch(reject);
         });
     }
 
     async checkIfPopulated(): Promise<boolean> {
-        if (this.isPopulated) {
-            Logger.log('Database check: Already marked as populated.');
-            return true;
-        }
-
         return new Promise((resolve, reject) => {
-            if (!this.db) {
-                reject('Database has not been initialized');
+            if (this.isPopulated) {
+                Logger.log('Database check: Already marked as populated.');
+                resolve(true);
                 return;
             }
 
-            const transaction = this.db.transaction([STORE_NAME], 'readonly');
-            const store = transaction.objectStore(STORE_NAME);
-            const request = store.count();
+            this.ensureDBInitialized()
+                .then(() => {
+                    const transaction = this.startTransaction([STORE_NAME], 'readonly');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const request = store.count();
 
-            request.onsuccess = () => {
-                this.isPopulated = request.result > 0;
-                Logger.log(`Database check: Populated status - ${this.isPopulated}`);
-                resolve(this.isPopulated);
-            };
+                    request.onsuccess = () => {
+                        this.isPopulated = request.result > MINIMUM_POPULATED_COUNT;
+                        Logger.log(`Database check: Populated status - ${this.isPopulated}`);
+                        resolve(this.isPopulated);
+                    };
 
-            request.onerror = () => {
-                reject(`Error checking if populated: ${request.error?.message}`);
-            };
+                    request.onerror = () => {
+                        Logger.error(`Error checking if populated: ${request.error?.message}`);
+                        reject(request.error);
+                    };
+                })
+                .catch(reject);
         });
     }
 
     async getRandomWords(count: number): Promise<string[]> {
         return new Promise((resolve, reject) => {
-            if (!this.db) {
-                reject('Database has not been initialized');
-                return;
-            }
+            this.ensureDBInitialized()
+                .then(() => {
+                    const transaction = this.startTransaction([STORE_NAME], 'readonly');
+                    const store = transaction.objectStore(STORE_NAME);
+                    const countRequest = store.count();
 
-            const transaction = this.db.transaction([STORE_NAME], 'readonly');
-            const store = transaction.objectStore(STORE_NAME);
-            const request = store.getAllKeys();
+                    countRequest.onsuccess = () => {
+                        const totalRecords = countRequest.result;
+                        if (totalRecords === 0) {
+                            resolve([]);
+                            return;
+                        }
 
-            request.onsuccess = () => {
-                const keys = request.result;
+                        const randomKeys = new Set<number>();
+                        while (randomKeys.size < count) {
+                            const randomIndex = Math.floor(Math.random() * totalRecords) + 1;
+                            randomKeys.add(randomIndex);
+                        }
 
-                if (keys.length === 0) {
-                    resolve([]);
-                    return;
-                }
+                        const wordPromises = Array.from(randomKeys).map((key) => {
+                            return new Promise<string>((resolve, reject) => {
+                                const wordRequest = store.get(key);
+                                wordRequest.onsuccess = () => resolve(wordRequest.result as string);
+                                wordRequest.onerror = () => reject(wordRequest.error);
+                            });
+                        });
 
-                const randomKeys = [];
-                for (let i = 0; i < count; i++) {
-                    const randomIndex = Math.floor(Math.random() * keys.length);
-                    randomKeys.push(keys[randomIndex]);
-                }
+                        Promise.all(wordPromises).then(resolve).catch(reject);
+                    };
 
-                const wordPromises = randomKeys.map((key) => {
-                    return new Promise<string>((resolve, reject) => {
-                        const wordRequest = store.get(key);
-                        wordRequest.onsuccess = () => resolve(wordRequest.result);
-                        wordRequest.onerror = () => reject(wordRequest.error);
-                    });
-                });
-
-                Promise.all(wordPromises).then(resolve).catch(reject);
-            };
-
-            request.onerror = () => {
-                reject(`Error retrieving keys: ${request.error?.message}`);
-            };
+                    countRequest.onerror = () => {
+                        Logger.error(`Error counting records: ${countRequest.error?.message}`);
+                        reject(countRequest.error);
+                    };
+                })
+                .catch(reject);
         });
+    }
+
+    private async processQueue() {
+        if (this.isProcessingQueue || this.operationQueue.length === 0) {
+            return;
+        }
+        this.isProcessingQueue = true;
+        const operation = this.operationQueue.shift();
+        if (operation) {
+            await operation();
+        }
+        this.isProcessingQueue = false;
+        this.processQueue();
+    }
+
+    private enqueueOperation(operation: () => Promise<void>) {
+        this.operationQueue.push(operation);
+        this.processQueue();
     }
 }
 

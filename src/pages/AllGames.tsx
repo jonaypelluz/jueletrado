@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Games from 'src/components/Games';
-import MainLayout from 'src/layouts/MainLayout';
 import Hero from 'src/components/Hero';
+import MainLayout from 'src/layouts/MainLayout';
 import StorageService from 'src/store/StorageService';
 
 const App: React.FC = () => {

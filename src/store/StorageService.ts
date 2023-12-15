@@ -5,7 +5,8 @@ export type StorageKey =
     | 'WORDS_GROUP_20'
     | 'WORDS_GROUP_40'
     | 'WORDS_GROUP_60'
-    | 'WORDS_GROUP_80';
+    | 'WORDS_GROUP_80'
+    | 'LOADED_CHUNKS';
 
 type StoredItem<T> = {
     value: T;
@@ -19,6 +20,7 @@ const StorageService = {
     WORDS_GROUP_40: 'WORDS_GROUP_40' as const,
     WORDS_GROUP_60: 'WORDS_GROUP_60' as const,
     WORDS_GROUP_80: 'WORDS_GROUP_80' as const,
+    LOADED_CHUNKS: 'LOADED_CHUNKS' as const,
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     setItem<T>(key: StorageKey, value: T, expireIn?: number): void {

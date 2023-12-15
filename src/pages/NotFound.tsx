@@ -1,6 +1,6 @@
 import React from 'react';
-import MainLayout from 'src/layouts/MainLayout';
 import Hero from 'src/components/Hero';
+import MainLayout from 'src/layouts/MainLayout';
 
 const NotFound: React.FC = () => {
     return (

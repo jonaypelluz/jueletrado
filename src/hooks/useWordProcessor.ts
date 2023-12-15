@@ -1,5 +1,5 @@
-import WordGameProcessor from 'src/utils/WordGameProcessor';
 import { ChangeRule } from 'src/models/types';
+import WordGameProcessor from 'src/utils/WordGameProcessor';
 
 export const useWordProcessor = () => {
     const processor = new WordGameProcessor();
