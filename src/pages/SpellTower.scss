@@ -1,0 +1,72 @@
+$spell-tower-block-width: 100px;
+$spell-tower-block-height: 30px;
+$spell-tower-block-count: 40;
+$spell-tower-background-colors: #3399ff, #8ebc79;
+$spell-tower-background-borders: #0c3f91, #486e3f;
+
+.spell-tower-wrapper {
+    padding: 24px;
+    min-height: 460px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-top: 24px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+    .spell-tower-top {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 24px;
+    }
+
+    .spell-tower-wrapper-inner {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        .spell-tower {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            position: relative;
+
+            @for $i from 1 through $spell-tower-block-count {
+                $random-margin: random(20) + 1;
+                $random-direction: random(2);
+                $background-color: nth($spell-tower-background-colors, 1 + ($i % 2));
+                $border-color: nth($spell-tower-background-borders, 1 + ($i % 2));
+
+                div:nth-child(#{$i}) {
+                    width: $spell-tower-block-width;
+                    height: $spell-tower-block-height;
+                    background-color: $background-color;
+                    margin-bottom: -2px;
+                    border-radius: 6px;
+                    border: 1px solid $border-color;
+                    box-shadow: inset 0 0 6px $border-color;
+                    position: relative;
+
+                    @if $random-direction == 1 {
+                        left: $random-margin + px;
+                    } @else {
+                        right: $random-margin + px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.spell-tower-game {
+    padding: 24px;
+    margin-top: 24px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 24px;
+    margin-right: 24px;
+    min-height: 460px;
+}

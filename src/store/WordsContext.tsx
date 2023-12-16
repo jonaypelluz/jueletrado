@@ -1,4 +1,5 @@
 import React, { ReactNode, createContext, useContext, useState } from 'react';
+import StorageService from 'src/store/StorageService';
 
 interface WordsContextValue {
     isLoading: boolean;
@@ -7,6 +8,8 @@ interface WordsContextValue {
     setLoadingProgress: React.Dispatch<React.SetStateAction<number>>;
     error: Error | null;
     setError: React.Dispatch<React.SetStateAction<Error | null>>;
+    wordOfTheDay: string | null;
+    setWordOfTheDay: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
 const WordsContext = createContext<WordsContextValue | undefined>(undefined);
@@ -19,6 +22,9 @@ const WordsContextProviderImpl: React.FC<WordsContextProviderProps> = ({ childre
     const [isLoading, setIsLoading] = useState(false);
     const [loadingProgress, setLoadingProgress] = useState(0);
     const [error, setError] = useState<Error | null>(null);
+    const [wordOfTheDay, setWordOfTheDay] = useState<string | null>(() => {
+        return StorageService.getItem<string>(StorageService.DAY_WORD_SELECTED) || null;
+    });
 
     const value = {
         isLoading,
@@ -27,6 +33,8 @@ const WordsContextProviderImpl: React.FC<WordsContextProviderProps> = ({ childre
         setLoadingProgress,
         error,
         setError,
+        wordOfTheDay,
+        setWordOfTheDay,
     };
 
     return <WordsContext.Provider value={value}>{children}</WordsContext.Provider>;

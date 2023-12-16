@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Button } from 'antd';
+import { Button, Typography } from 'antd';
+import { ForwardOutlined } from '@ant-design/icons';
 import ExclusionsRules from 'src/config/ExclusionRules';
 import WordRules from 'src/config/WordRules';
 import { useWordProcessor } from 'src/hooks/useWordProcessor';
@@ -7,7 +8,9 @@ import Logger from 'src/services/Logger';
 import StorageService from 'src/store/StorageService';
 import { useWordsContext } from 'src/store/WordsContext';
 
-const GAME_TIME = 30;
+const { Text } = Typography;
+
+const GAME_TIME = 10;
 
 const useSpellTower = () => {
     const { error, setError, setLoading, isLoading } = useWordsContext();
@@ -87,20 +90,37 @@ const useSpellTower = () => {
     }, [countdown]);
 
     const handleButtonClick = () => {
-        setCountdown(GAME_TIME);
         setShowButton(false);
         setCurrentWordIndex(0);
+        setCorrectAnswers(0);
+        setIncorrectAnswers([]);
+        setCountdown(GAME_TIME);
         setIsGameActive(true);
     };
 
     const renderGameResult = (): JSX.Element => {
         return (
             <div>
-                <p>Palabras incorrectas: {incorrectAnswers.length}</p>
+                {incorrectAnswers.length > 0 && (
+                    <div>
+                        <Text italic style={{ fontSize: '24px', marginRight: '5px' }}>
+                            Palabras incorrectas:
+                        </Text>
+                        <Text strong type="danger" style={{ fontSize: '24px' }}>
+                            {incorrectAnswers.length}
+                        </Text>
+                    </div>
+                )}
                 {incorrectAnswers.map(([wrong, correct], index) => (
-                    <p key={index}>
-                        {wrong} - {correct}
-                    </p>
+                    <div key={index}>
+                        <Text type="danger" style={{ fontSize: '20px', marginRight: '5px' }}>
+                            {wrong}
+                        </Text>
+                        <ForwardOutlined />
+                        <Text strong type="success" style={{ fontSize: '24px', marginLeft: '5px' }}>
+                            {correct}
+                        </Text>
+                    </div>
                 ))}
             </div>
         );

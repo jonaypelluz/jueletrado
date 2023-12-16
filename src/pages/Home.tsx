@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import DayWord from 'src/components/DayWord';
 import Games from 'src/components/Games';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
@@ -11,15 +10,21 @@ import { useWordsContext } from 'src/store/WordsContext';
 
 const EXPIRE_TIME_24H = 86400000;
 
+const mainImageArray = [
+    '/home/Jueletrado_1.png',
+    '/home/Jueletrado_2.png',
+    '/home/Jueletrado_3.png',
+];
+
 const Home: React.FC = () => {
-    const { isLoading, error, setLoadingProgress, setError, setLoading } = useWordsContext();
-    const [dailyWord, setDailyWord] = useState<string | undefined>(() => {
-        const storedWord = StorageService.getItem<string>(StorageService.DAY_WORD_SELECTED);
-        return storedWord || undefined;
-    });
+    const { isLoading, error, setLoadingProgress, setError, setLoading, setWordOfTheDay } =
+        useWordsContext();
     const [areWordsLoaded, setAreWordsLoaded] = useState(false);
     const [wordGroupsLoaded, setWordGroupsLoaded] = useState(false);
     const isDBBeingPopulated = useRef(false);
+    const [currentImage] = useState(
+        mainImageArray[Math.floor(Math.random() * mainImageArray.length)],
+    );
 
     useEffect(() => {
         if (!isDBBeingPopulated.current) {
@@ -90,11 +95,11 @@ const Home: React.FC = () => {
                         dailyWord,
                         EXPIRE_TIME_24H,
                     );
-                    setDailyWord(dailyWord);
+                    setWordOfTheDay(dailyWord);
                     setLoading(false);
                 }
             } else {
-                setDailyWord(storedDailyWord);
+                setWordOfTheDay(storedDailyWord);
                 setLoading(false);
             }
         }
@@ -107,11 +112,11 @@ const Home: React.FC = () => {
     return (
         <MainLayout>
             <Hero
+                image={currentImage}
                 title="Jueletrado"
-                subtitle="Donde jugar y aprender a escribir van de la mano"
-                backgroundColor="#CCC"
+                subtitle="Donde jugar y aprender a escribir bien van de la mano"
+                styles={{ border: '1px solid #000' }}
             />
-            {dailyWord ? <DayWord word={dailyWord} /> : ''}
             <Games />
         </MainLayout>
     );

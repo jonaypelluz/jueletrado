@@ -1,5 +1,5 @@
 import React from 'react';
-import { Spin } from 'antd';
+import LoadingSpinner from 'src/components/LoadingSpinner';
 import { useWordsContext } from 'src/store/WordsContext';
 
 const LoadingScreen: React.FC = () => {
@@ -18,10 +18,7 @@ const LoadingScreen: React.FC = () => {
             {error ? (
                 <p>Error loading words: {error.message}</p>
             ) : (
-                <>
-                    <p>Cargando palabras... {loadingProgress.toFixed(0)}%</p>
-                    <Spin size="large" />
-                </>
+                <LoadingSpinner rotateMessages loadingProgress={loadingProgress} />
             )}
         </div>
     );

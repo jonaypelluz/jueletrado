@@ -3,7 +3,6 @@ import { Button, Col, Flex, Row } from 'antd';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 import LoadingSpinner from 'src/components/LoadingSpinner';
-import MainLayout from 'src/layouts/MainLayout';
 
 type SpellTowerUIProps = {
     error: Error | null;
@@ -35,10 +34,13 @@ const UI: React.FC<SpellTowerUIProps> = ({
     }
 
     return (
-        <MainLayout>
+        <>
             <Hero
+                image="/games/SpellTower.png"
                 title="La torre de la ortografía"
-                subtitle="Un juego de construcción de torres donde cada palabra bien escrita agrega un bloque a la torre. El juego desafía a los jugadores a construir la torre más alta que puedan escribiendo o eligiendo correctamente una serie de palabras donde la ortografía debe ser la correcta."
+                subtitle="Un juego de construcción de torres donde cada palabra bien escrita agrega un bloque a la torre. 
+                El juego desafía a los jugadores a construir la torre más alta que puedan escribiendo o eligiendo 
+                correctamente una serie de palabras donde la ortografía debe ser la correcta."
             >
                 {showButton && !isLoading && (
                     <Button
@@ -49,7 +51,11 @@ const UI: React.FC<SpellTowerUIProps> = ({
                         Jugar
                     </Button>
                 )}
-                {!showButton && <div>{countdown} segundos restantes</div>}
+                {!showButton && (
+                    <p style={{ fontSize: '24px', fontWeight: '800' }}>
+                        {countdown} segundos restantes
+                    </p>
+                )}
             </Hero>
             {isLoading ? (
                 <div style={{ marginTop: '48px', textAlign: 'center' }}>
@@ -58,21 +64,23 @@ const UI: React.FC<SpellTowerUIProps> = ({
             ) : (
                 <Row>
                     <Col span={18}>
-                        <div className="jenga-game">
+                        <div className="spell-tower-game">
                             <Flex vertical gap="small" style={{ width: '100%' }}>
                                 {isGameActive ? displayWordVariations() : renderGameResult()}
                             </Flex>
                         </div>
                     </Col>
                     <Col span={6}>
-                        <div className="jenga-wrapper">
-                            <div className="jenga-tower-top">{correctAnswers}</div>
-                            <div className="jenga-tower">{renderTowerBlocks()}</div>
+                        <div className="spell-tower-wrapper">
+                            <div className="spell-tower-top">{correctAnswers}</div>
+                            <div className="spell-tower-wrapper-inner">
+                                <div className="spell-tower">{renderTowerBlocks()}</div>
+                            </div>
                         </div>
                     </Col>
                 </Row>
             )}
-        </MainLayout>
+        </>
     );
 };
 

@@ -1,12 +1,16 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Layout, Menu } from 'antd';
+import { Layout, Menu, Typography } from 'antd';
 import { HomeOutlined, PlaySquareOutlined } from '@ant-design/icons';
+import { useWordsContext } from 'src/store/WordsContext';
+
+const { Text } = Typography;
 
 const { Header } = Layout;
 
 const Head: React.FC = () => {
     const location = useLocation();
+    const { wordOfTheDay } = useWordsContext();
 
     const items = [
         {
@@ -25,7 +29,15 @@ const Head: React.FC = () => {
     ];
 
     return (
-        <Header style={{ backgroundColor: '#000', height: '78px', paddingInline: '20px' }}>
+        <Header
+            style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                backgroundColor: '#000',
+                height: '78px',
+                paddingInline: '20px',
+            }}
+        >
             <Menu
                 style={{ lineHeight: '78px', backgroundColor: '#000' }}
                 theme="dark"
@@ -33,6 +45,18 @@ const Head: React.FC = () => {
                 items={items}
                 selectedKeys={[location.pathname]}
             />
+            {wordOfTheDay ? (
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <Text italic style={{ fontSize: '14px', color: '#FFF' }}>
+                        Palabra del dia:
+                    </Text>
+                    <Text strong style={{ fontSize: '14px', color: '#FFF', marginLeft: '6px' }}>
+                        {wordOfTheDay}
+                    </Text>
+                </div>
+            ) : (
+                ''
+            )}
         </Header>
     );
 };

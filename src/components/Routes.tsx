@@ -4,6 +4,7 @@ import AllGames from 'src/pages/AllGames';
 import Home from 'src/pages/Home';
 import NotFound from 'src/pages/NotFound';
 import SpellTower from 'src/pages/SpellTower';
+import WordsRain from 'src/pages/WordsRain';
 
 const Router: React.FC = () => {
     return (
@@ -12,6 +13,7 @@ const Router: React.FC = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/games" element={<AllGames />} />
                 <Route path="/games/spelltower" element={<SpellTower />} />
+                <Route path="/games/wordsrain" element={<WordsRain />} />
                 <Route path="*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>
