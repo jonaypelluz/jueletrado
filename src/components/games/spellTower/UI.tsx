@@ -8,10 +8,10 @@ type SpellTowerUIProps = {
     error: Error | null;
     countdown: number;
     showButton: boolean;
-    isGameActive: boolean;
+    gameStarted: boolean;
     correctAnswers: number;
     isLoading: boolean;
-    handleButtonClick: () => void;
+    handleGameStartClick: () => void;
     renderTowerBlocks: () => JSX.Element[];
     displayWordVariations: () => JSX.Element[];
     renderGameResult: () => JSX.Element;
@@ -21,10 +21,10 @@ const UI: React.FC<SpellTowerUIProps> = ({
     error,
     countdown,
     showButton,
-    isGameActive,
+    gameStarted,
     correctAnswers,
     isLoading,
-    handleButtonClick,
+    handleGameStartClick,
     renderTowerBlocks,
     displayWordVariations,
     renderGameResult,
@@ -38,7 +38,7 @@ const UI: React.FC<SpellTowerUIProps> = ({
             <Hero
                 image="/games/SpellTower.png"
                 title="La torre de la ortografía"
-                subtitle="Un juego de construcción de torres donde cada palabra bien escrita agrega un bloque a la torre. 
+                subtitle="Un juego de construcción de torres donde cada palabra bien escrita agrega un bloque y mal escrita lo retira de la torre. 
                 El juego desafía a los jugadores a construir la torre más alta que puedan escribiendo o eligiendo 
                 correctamente una serie de palabras donde la ortografía debe ser la correcta."
             >
@@ -46,7 +46,7 @@ const UI: React.FC<SpellTowerUIProps> = ({
                     <Button
                         type="primary"
                         style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
-                        onClick={handleButtonClick}
+                        onClick={handleGameStartClick}
                     >
                         Jugar
                     </Button>
@@ -66,7 +66,7 @@ const UI: React.FC<SpellTowerUIProps> = ({
                     <Col span={18}>
                         <div className="spell-tower-game">
                             <Flex vertical gap="small" style={{ width: '100%' }}>
-                                {isGameActive ? displayWordVariations() : renderGameResult()}
+                                {gameStarted ? displayWordVariations() : renderGameResult()}
                             </Flex>
                         </div>
                     </Col>

@@ -48,7 +48,7 @@ const Head: React.FC = () => {
             {wordOfTheDay ? (
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                     <Text italic style={{ fontSize: '14px', color: '#FFF' }}>
-                        Palabra del dia:
+                        Palabra del día:
                     </Text>
                     <Text strong style={{ fontSize: '14px', color: '#FFF', marginLeft: '6px' }}>
                         {wordOfTheDay}

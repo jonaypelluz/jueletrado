@@ -3,7 +3,7 @@ import Logger from './Logger';
 const DB_NAME = 'jueletrado-db';
 const STORE_NAME = 'words';
 const DB_VERSION = 1;
-const MINIMUM_POPULATED_COUNT = 646614;
+const MINIMUM_POPULATED_COUNT = 108789;
 
 class DBService {
     private db: IDBDatabase | null = null;

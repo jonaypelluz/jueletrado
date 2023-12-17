@@ -76,11 +76,13 @@ class WordGameProcessor {
             vowelIndices = vowelIndices.filter(
                 (v, i, self) => v !== randomVariant.index || self.indexOf(v) !== i,
             );
-            randomVariant = this.addRandomAccent(word, vowelIndices);
-            wordVariant2 = randomVariant.variant;
+            if (vowelIndices.length > 0) {
+                randomVariant = this.addRandomAccent(word, vowelIndices);
+                wordVariant2 = randomVariant.variant;
+            }
         }
 
-        if (word === wordVariant2) {
+        if (word === wordVariant2 || wordVariant2 === '') {
             return [word, wordVariant1];
         }
 
@@ -88,6 +90,7 @@ class WordGameProcessor {
     }
 
     private addRandomAccent(word: string, indices: number[]): { index: number; variant: string } {
+        // Logger.debug('INDEXES', indices);
         const randomIndex = indices[Math.floor(Math.random() * indices.length)];
         const vowel = word[randomIndex];
         const accentedVowel = NonAccentedVowels[vowel] || vowel;

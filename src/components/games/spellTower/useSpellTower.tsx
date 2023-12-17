@@ -10,7 +10,7 @@ import { useWordsContext } from 'src/store/WordsContext';
 
 const { Text } = Typography;
 
-const GAME_TIME = 10;
+const GAME_TIME = 30;
 
 const useSpellTower = () => {
     const { error, setError, setLoading, isLoading } = useWordsContext();
@@ -19,7 +19,7 @@ const useSpellTower = () => {
     const [showButton, setShowButton] = useState<boolean>(false);
     const [words, setWords] = useState<string[][] | null>(null);
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
-    const [isGameActive, setIsGameActive] = useState<boolean>(false);
+    const [gameStarted, setGameStarted] = useState<boolean>(false);
     const [randomizedVariations, setRandomizedVariations] = useState<string[]>([]);
     const [correctAnswers, setCorrectAnswers] = useState<number>(0);
     const [incorrectAnswers, setIncorrectAnswers] = useState<[string, string][]>([]);
@@ -35,12 +35,14 @@ const useSpellTower = () => {
                 setCorrectAnswers(correctAnswers + 1);
             } else {
                 setIncorrectAnswers([...incorrectAnswers, [clickedWord, correctWord]]);
+                setCorrectAnswers((prevCorrectAnswers: number) => Math.max(0, prevCorrectAnswers - 1));
             }
 
             if (currentWordIndex < words.length - 1) {
                 setCurrentWordIndex(currentWordIndex + 1);
             } else {
-                Logger.log('All words processed');
+                setGameStarted(false);
+                setShowButton(true);
             }
         }
     };
@@ -80,7 +82,7 @@ const useSpellTower = () => {
         if (countdown > 0) {
             timer = setTimeout(() => setCountdown(countdown - 1), 1000);
         } else {
-            setIsGameActive(false);
+            setGameStarted(false);
             setShowButton(true);
         }
 
@@ -89,13 +91,13 @@ const useSpellTower = () => {
         };
     }, [countdown]);
 
-    const handleButtonClick = () => {
+    const handleGameStartClick = () => {
         setShowButton(false);
         setCurrentWordIndex(0);
         setCorrectAnswers(0);
         setIncorrectAnswers([]);
         setCountdown(GAME_TIME);
-        setIsGameActive(true);
+        setGameStarted(true);
     };
 
     const renderGameResult = (): JSX.Element => {
@@ -151,10 +153,10 @@ const useSpellTower = () => {
         countdown,
         showButton,
         words,
-        isGameActive,
+        gameStarted,
         correctAnswers,
         isLoading,
-        handleButtonClick,
+        handleGameStartClick,
         renderTowerBlocks,
         displayWordVariations,
         renderGameResult,

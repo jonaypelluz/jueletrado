@@ -8,7 +8,7 @@ const Games: React.FC = () => {
     return (
         <div style={{ padding: '60px 20px' }}>
             <Row gutter={16}>
-                <Col span={12}>
+                <Col md={12} lg={8}>
                     <Link to="/games/spelltower">
                         <Card
                             hoverable
@@ -24,7 +24,7 @@ const Games: React.FC = () => {
                         </Card>
                     </Link>
                 </Col>
-                <Col span={12}>
+                <Col md={12} lg={8}>
                     <Link to="/games/wordsrain">
                         <Card
                             hoverable

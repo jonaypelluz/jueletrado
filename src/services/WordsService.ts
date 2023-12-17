@@ -18,7 +18,7 @@ const populateWordsDB = async (
             return true;
         }
 
-        const totalChunks = 7;
+        const totalChunks = 2;
         const chunkSize = 100000;
         for (let i = 0; i < totalChunks; i++) {
             const loadedChunks =
