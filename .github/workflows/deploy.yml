@@ -30,13 +30,21 @@ jobs:
         run: yarn build --verbose
         env:
           CI: false
+      - name: Upload App Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-artifact
+          path: build
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-22.04
     needs: build
-    steps:
+    steps: 
+      - uses: actions/download-artifact@v3
+        with:
+          name: build-artifact
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
