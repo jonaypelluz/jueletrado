@@ -1,7 +1,13 @@
+name: Merge main branch with develop
+
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
   merge:
