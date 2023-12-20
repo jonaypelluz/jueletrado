@@ -30,15 +30,10 @@ jobs:
         run: yarn build --verbose
         env:
           CI: false
-      - name: Fix permissions
-        run: |
-          chmod -c -R +rX "./build" | while read line; do
-            echo "::warning title=Invalid file permissions automatically fixed::$line"
-          done
       - name: Upload App Artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v3
         with:
-          name: github-pages
+          name: app-artifact
           path: ./build
   deploy:
     environment:
@@ -49,9 +44,10 @@ jobs:
     steps: 
       - uses: actions/download-artifact@v3
         with:
-          name: github-pages
-          path: ./build
+          name: app-artifact
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: app-artifact
 
