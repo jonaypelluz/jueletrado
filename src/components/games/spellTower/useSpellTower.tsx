@@ -35,7 +35,9 @@ const useSpellTower = () => {
                 setCorrectAnswers(correctAnswers + 1);
             } else {
                 setIncorrectAnswers([...incorrectAnswers, [clickedWord, correctWord]]);
-                setCorrectAnswers((prevCorrectAnswers: number) => Math.max(0, prevCorrectAnswers - 1));
+                setCorrectAnswers((prevCorrectAnswers: number) =>
+                    Math.max(0, prevCorrectAnswers - 1),
+                );
             }
 
             if (currentWordIndex < words.length - 1) {

@@ -106,7 +106,7 @@ const Home: React.FC = () => {
     }, [wordGroupsLoaded]);
 
     if (isLoading || error || !wordGroupsLoaded) {
-        return <LoadingScreen />;
+        return <LoadingScreen rotateMessages />;
     }
 
     return (

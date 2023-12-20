@@ -90,7 +90,6 @@ class WordGameProcessor {
     }
 
     private addRandomAccent(word: string, indices: number[]): { index: number; variant: string } {
-        // Logger.debug('INDEXES', indices);
         const randomIndex = indices[Math.floor(Math.random() * indices.length)];
         const vowel = word[randomIndex];
         const accentedVowel = NonAccentedVowels[vowel] || vowel;

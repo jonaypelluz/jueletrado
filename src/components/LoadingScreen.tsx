@@ -2,7 +2,11 @@ import React from 'react';
 import LoadingSpinner from 'src/components/LoadingSpinner';
 import { useWordsContext } from 'src/store/WordsContext';
 
-const LoadingScreen: React.FC = () => {
+interface LoadingScreenProps {
+    rotateMessages?: boolean;
+}
+
+const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false }) => {
     const { loadingProgress, error } = useWordsContext();
 
     return (
@@ -18,7 +22,7 @@ const LoadingScreen: React.FC = () => {
             {error ? (
                 <p>Error loading words: {error.message}</p>
             ) : (
-                <LoadingSpinner rotateMessages loadingProgress={loadingProgress} />
+                <LoadingSpinner rotateMessages={rotateMessages} loadingProgress={loadingProgress} />
             )}
         </div>
     );

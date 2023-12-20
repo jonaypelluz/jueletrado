@@ -24,7 +24,7 @@ const UI: React.FC<WordsRainUIProps> = ({
     wrapperRef,
     handleGameStartClick,
 }) => {
-    if (error) {
+    if (error || isLoading) {
         return <LoadingScreen />;
     }
 
@@ -36,7 +36,7 @@ const UI: React.FC<WordsRainUIProps> = ({
                 subtitle="Un juego donde debes evitar que las palabras bien escritas caigan, ya que las mal escritas harán 
                 que pierdas. Debes durar el mayor tiempo posible; quien dure más tiempo, gana."
             >
-                {showButton && !isLoading && (
+                {showButton && (
                     <Button
                         type="primary"
                         style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
@@ -46,10 +46,7 @@ const UI: React.FC<WordsRainUIProps> = ({
                     </Button>
                 )}
             </Hero>
-            <div
-                className="words-rain-wrapper"
-                ref={wrapperRef}
-            >
+            <div className="words-rain-wrapper" ref={wrapperRef}>
                 {fallingWords}
                 <div className="words-rain-lifes">
                     <Text strong style={{ fontSize: '48px' }}>
