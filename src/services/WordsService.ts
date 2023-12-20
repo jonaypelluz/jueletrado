@@ -34,7 +34,7 @@ const populateWordsDB = async (
             const end = (i + 1) * chunkSize;
 
             const words: string[] = await import(
-                `src/data/words_from_${start}_to_${end}.json`
+                `/words_from_${start}_to_${end}.json`
             ).then((module) => module.default);
 
             await dbService.addWords(words);
