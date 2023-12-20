@@ -30,9 +30,15 @@ jobs:
         run: yarn build --verbose
         env:
           CI: false
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX "./build" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
       - name: Upload App Artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages
           path: ./build
   deploy:
     environment:
@@ -41,6 +47,9 @@ jobs:
     runs-on: ubuntu-22.04
     needs: build
     steps: 
+      - uses: actions/download-artifact@v3
+        with:
+          name: github-pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
