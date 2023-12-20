@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -26,13 +26,13 @@ jobs:
           node-version: '20.10.0'
       - name: Install Dependencies
         run: yarn install
-      - name: Build React App
-        run: yarn build
+      - name: Build App
+        run: yarn build --verbose
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: build
     steps:
       - name: Deploy to GitHub Pages
