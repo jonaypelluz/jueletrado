@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { Typography } from 'antd';
+import { ForwardOutlined } from '@ant-design/icons';
 import ExclusionsRules from 'src/config/ExclusionRules';
 import WordRules from 'src/config/WordRules';
 import { useWordProcessor } from 'src/hooks/useWordProcessor';
@@ -6,12 +8,14 @@ import Logger from 'src/services/Logger';
 import StorageService from 'src/store/StorageService';
 import { useWordsContext } from 'src/store/WordsContext';
 
-const HEARTS = 15;
+const { Text } = Typography;
+
+const HEARTS = 10;
 const WORD_WIDTH = 150;
-const WORDS_INTERVAL = 3000;
-const MIN_WORDS_PER_ITERATION = 1;
-const MAX_WORDS_PER_ITERATION = 3;
-const MIN_ANIMATION_DURATION = 7;
+const BASE_SPEED = 6;
+const SPEED_REDUCTION_INTERVAL = 10;
+const MINIMUM_SPEED = 1;
+const MIN_ANIMATION_DURATION = 5;
 const MAX_ANIMATION_DURATION = 10;
 const MIN_ANIMATION_DELAY = 0;
 const MAX_ANIMATION_DELAY = 2;
@@ -25,9 +29,12 @@ interface WordItem {
 const useWordsRain = () => {
     const { error, setError, setLoading, isLoading } = useWordsContext();
 
+    const [timer, setTimer] = useState(0);
     const [gameStarted, setGameStarted] = useState<boolean>(false);
     const [showButton, setShowButton] = useState<boolean>(false);
     const [words, setWords] = useState<WordItem[] | null>(null);
+    const [incorrectWords, setIncorrectWords] = useState<WordItem[]>([]);
+    const [points, setPoints] = useState<number>(0);
     const [fallingWords, setFallingWords] = useState<JSX.Element[]>([]);
     const [keyCount, setKeyCount] = useState<number>(0);
     const [hearts, setHearts] = useState<number>(HEARTS);
@@ -36,40 +43,80 @@ const useWordsRain = () => {
     const { processWords, processLastWords } = useWordProcessor();
 
     const animationHasEnded = useCallback(
-        (key: number, wordCorrectness: string) => removeWord(key, wordCorrectness === 'ok'),
+        (key: number, word: WordItem) => removeWord(key, word?.correct === 'ok', word),
         [],
     );
 
-    const removeWord = (key: number, removeHeart: boolean) => {
+    const removeWord = (key: number, removeHeart: boolean, word: WordItem) => {
         if (removeHeart) {
+            setIncorrectWords((prevIncorrectWords: WordItem[]) => [...prevIncorrectWords, word]);
             setHearts((prevHearts: number) => {
                 const newHearts = prevHearts - 1;
                 if (newHearts <= 0) {
-                    resetGame();
+                    renderGameResult();
+                    return 0;
                 }
                 return newHearts;
             });
+        } else {
+            setPoints((prevPoints: number) => prevPoints + 1);
         }
         setFallingWords((currentWords: JSX.Element[]) =>
             currentWords.filter((word) => word.key !== key.toString()),
         );
     };
 
-    const resetGame = () => {
+    const renderGameResult = (): JSX.Element => {
         setShowButton(true);
         setGameStarted(false);
+
+        return (
+            <div className="words-rain-results">
+                {incorrectWords.length > 0 && (
+                    <div>
+                        <Text italic style={{ fontSize: '24px', marginRight: '5px' }}>
+                            Palabras incorrectas:
+                        </Text>
+                        <Text strong type="danger" style={{ fontSize: '24px' }}>
+                            {incorrectWords.length}
+                        </Text>
+                    </div>
+                )}
+                {incorrectWords.map((item, index) => (
+                    <div key={index}>
+                        <Text strong type="danger" style={{ fontSize: '20px', marginRight: '5px' }}>
+                            {item.word !== item.correctWord ? item.word : 'No viste'}
+                        </Text>
+                        <ForwardOutlined />
+                        <Text strong style={{ fontSize: '24px', marginLeft: '5px', color: '#000' }}>
+                            {item.correctWord}
+                        </Text>
+                    </div>
+                ))}
+            </div>
+        );
+    };
+
+    const resetGame = () => {
         setHearts(HEARTS);
         setFallingWords([]);
+        setIncorrectWords([]);
         setKeyCount(0);
+        setPoints(0);
+        setTimer(0);
     };
 
     const handleGameStartClick = () => {
+        resetGame();
         setShowButton(false);
         setGameStarted(true);
     };
 
-    const handleWordClick = (key: number, wordCorrectness: string): void => {
-        removeWord(key, wordCorrectness === 'ko');
+    const handleWordClick = (key: number, word: WordItem): void => {
+        if (word?.correct === 'ok') {
+            setHearts((prevHearts: number) => prevHearts + 1);
+        }
+        removeWord(key, word?.correct === 'ko', word);
     };
 
     const createWordBlock = (
@@ -93,16 +140,27 @@ const useWordsRain = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}
-                onClick={() => handleWordClick(key, word?.correct)}
-                onAnimationEnd={() => animationHasEnded(key, word?.correct)}
+                onClick={() => handleWordClick(key, word)}
+                onAnimationEnd={() => animationHasEnded(key, word)}
             >
                 <span className="word-text">{word?.word}</span>
             </div>
         );
     };
 
+    const calculateSpeed = () => {
+        const speedReduction = Math.floor(points / SPEED_REDUCTION_INTERVAL);
+        return Math.max(BASE_SPEED - speedReduction, MINIMUM_SPEED);
+    };
+
     const handleGameLogic = () => {
-        if (wrapperRef.current && words) {
+        setTimer((prevTimer: number) => prevTimer + 1);
+        const GAME_SPEED = calculateSpeed();
+        const GAME_SPEED_MULTIPLIER = Math.floor(points / 10) + 1;
+        const MIN_WORDS_PER_ITERATION = 1 * GAME_SPEED_MULTIPLIER;
+        const MAX_WORDS_PER_ITERATION = 3 * GAME_SPEED_MULTIPLIER - 1;
+
+        if (wrapperRef.current && words && timer % GAME_SPEED === 0) {
             const wrapperWidth = wrapperRef.current.offsetWidth;
             const segmentWidth = wrapperWidth / MAX_WORDS_PER_ITERATION;
             const numberOfWords =
@@ -138,10 +196,10 @@ const useWordsRain = () => {
                     randomDelay,
                     randomDuration,
                 );
-                setFallingWords((prevWords) => [...prevWords, newWord]);
+                setFallingWords((prevWords: JSX.Element[]) => [...prevWords, newWord]);
             }
 
-            setKeyCount((prevCount) => prevCount + numberOfWords);
+            setKeyCount((prevCount: number) => prevCount + numberOfWords);
         }
     };
 
@@ -176,19 +234,23 @@ const useWordsRain = () => {
 
     useEffect(() => {
         if (gameStarted) {
-            const interval = setInterval(handleGameLogic, WORDS_INTERVAL);
+            const interval = setInterval(handleGameLogic, 1000);
             return () => clearInterval(interval);
         }
     }, [gameStarted, keyCount, words, removeWord]);
 
     return {
         error,
+        timer,
         isLoading,
         showButton,
+        gameStarted,
         fallingWords,
         hearts,
+        points,
         wrapperRef,
         handleGameStartClick,
+        renderGameResult,
     };
 };
 

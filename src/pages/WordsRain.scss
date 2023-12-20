@@ -1,3 +1,7 @@
+$heart-base-width: 30px;
+$heart-side-width: 32px;
+$heart-width: $heart-base-width + $heart-side-width;
+
 .words-rain-wrapper {
     position: relative;
     min-height: 460px;
@@ -16,8 +20,14 @@
         left: 0;
         width: 100%;
         height: 100%;
-        opacity: 0.4;
+        opacity: 0.3;
         background-image: url('../assets/games/WordsRainBg.png');
+    }
+
+    .words-rain-results {
+        z-index: 2;
+        position: relative;
+        padding: 24px;
     }
 
     .words-rain-word {
@@ -36,6 +46,54 @@
         right: 24px;
         bottom: 12px;
         user-select: none;
+
+        #heart {
+            position: relative;
+            width: $heart-width;
+            height: 50px;
+            text-align: center;
+
+            span {
+                position: relative;
+                z-index: 1;
+                top: 3px;
+            }
+        }
+
+        #heart::before,
+        #heart::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: $heart-side-width;
+            height: 50px;
+            border-radius: 50px 50px 0 0;
+            background: #f45;
+        }
+
+        #heart::before {
+            left: $heart-side-width;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+
+        #heart::after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
+    }
+
+    .words-rain-points {
+        position: absolute;
+        right: 24px;
+        top: 12px;
+        user-select: none;
+
+        span {
+            display: block;
+            text-align: center;
+        }
     }
 }
 

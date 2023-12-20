@@ -8,7 +8,7 @@ const Games: React.FC = () => {
     return (
         <div style={{ padding: '60px 20px' }}>
             <Row gutter={16}>
-                <Col md={12} lg={8}>
+                <Col md={8} lg={6}>
                     <Link to="/games/spelltower">
                         <Card
                             hoverable
@@ -24,7 +24,7 @@ const Games: React.FC = () => {
                         </Card>
                     </Link>
                 </Col>
-                <Col md={12} lg={8}>
+                <Col md={8} lg={6}>
                     <Link to="/games/wordsrain">
                         <Card
                             hoverable
@@ -32,8 +32,7 @@ const Games: React.FC = () => {
                         >
                             <Meta
                                 title="Lluvia de palabras"
-                                description="Un juego dónde hay que evitar que las palabras bien escritas caigan y las
-                                mal escritas haran que pierdas."
+                                description="Un juego dónde hay que evitar que las palabras bien escritas caigan o perderás."
                             />
                         </Card>
                     </Link>

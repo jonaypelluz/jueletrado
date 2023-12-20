@@ -1,4 +1,6 @@
 PROJECT_NAME = jueletrado
+
+# Containers
 CONTAINER = $$(docker ps | grep ${PROJECT_NAME} | awk '{print $$1}')
 DOCKER_COMPOSE := --env-file .env -p ${PROJECT_NAME} -f ops/docker/docker-compose.yml
 
@@ -16,6 +18,7 @@ hosts:
 start:
 	docker-compose ${DOCKER_COMPOSE} up -d
 
+## Restart the container
 restart: stop start
 
 ## Stops the container
@@ -25,6 +28,10 @@ stop: is-running
 ## Attach shell to the container that is running
 enter: is-running
 	@docker exec -it ${CONTAINER} /bin/bash
+
+## Check javascript formatting errors
+prettier: is-running
+	@docker exec -it ${CONTAINER} yarn format
 
 ## Check javascript formatting errors
 lint: is-running

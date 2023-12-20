@@ -7,22 +7,30 @@ const { Text } = Typography;
 
 type WordsRainUIProps = {
     error: Error | null;
+    timer: number;
     isLoading: boolean;
     showButton: boolean;
+    gameStarted: boolean;
     fallingWords: JSX.Element[];
     hearts: number;
+    points: number;
     wrapperRef: React.RefObject<HTMLDivElement>;
     handleGameStartClick: () => void;
+    renderGameResult: () => JSX.Element;
 };
 
 const UI: React.FC<WordsRainUIProps> = ({
     error,
+    timer,
     isLoading,
     showButton,
+    gameStarted,
     fallingWords,
     hearts,
+    points,
     wrapperRef,
     handleGameStartClick,
+    renderGameResult,
 }) => {
     if (error || isLoading) {
         return <LoadingScreen />;
@@ -45,14 +53,31 @@ const UI: React.FC<WordsRainUIProps> = ({
                         Jugar
                     </Button>
                 )}
+                {timer > 0 && (
+                    <p style={{ fontSize: '24px', fontWeight: '800' }}>{timer} segundos</p>
+                )}
             </Hero>
             <div className="words-rain-wrapper" ref={wrapperRef}>
-                {fallingWords}
-                <div className="words-rain-lifes">
-                    <Text strong style={{ fontSize: '48px' }}>
-                        {hearts}
-                    </Text>
-                </div>
+                {gameStarted ? (
+                    <>
+                        {fallingWords}
+                        <div className="words-rain-points">
+                            <Text style={{ fontSize: '12px' }}>Velocidad</Text>
+                            <Text strong style={{ fontSize: '24px', lineHeight: '0.8' }}>
+                                {Math.floor(points / 10) + 1}
+                            </Text>
+                        </div>
+                        <div className="words-rain-lifes">
+                            <div id="heart">
+                                <Text strong style={{ fontSize: '24px', color: '#fff' }}>
+                                    {hearts}
+                                </Text>
+                            </div>
+                        </div>
+                    </>
+                ) : (
+                    renderGameResult()
+                )}
             </div>
         </>
     );
