@@ -31,10 +31,9 @@ jobs:
         env:
           CI: false
       - name: Upload App Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: app-artifact
-          path: build
+          path: ./build
   deploy:
     environment:
       name: github-pages
@@ -42,12 +41,7 @@ jobs:
     runs-on: ubuntu-22.04
     needs: build
     steps: 
-      - uses: actions/download-artifact@v3
-        with:
-          name: app-artifact
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-        with:
-          artifact_name: app-artifact
 
