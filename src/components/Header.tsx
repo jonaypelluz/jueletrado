@@ -51,13 +51,7 @@ const Head: React.FC = () => {
                         Palabra del día:
                     </Text>
                     <Text strong style={{ fontSize: '14px', color: '#FFF', marginLeft: '6px' }}>
-                        <a
-                            href={'https://dle.rae.es/' + wordOfTheDay}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            {wordOfTheDay}
-                        </a>
+                        {wordOfTheDay}
                     </Text>
                 </div>
             ) : (
