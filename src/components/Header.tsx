@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Layout, Menu, Typography } from 'antd';
 import { HomeOutlined, PlaySquareOutlined } from '@ant-design/icons';
 import { useWordsContext } from 'src/store/WordsContext';
+import './Header.scss';
 
 const { Text } = Typography;
 
@@ -29,15 +30,7 @@ const Head: React.FC = () => {
     ];
 
     return (
-        <Header
-            style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                backgroundColor: '#000',
-                height: '78px',
-                paddingInline: '20px',
-            }}
-        >
+        <Header className="header">
             <Menu
                 style={{ lineHeight: '78px', backgroundColor: '#000' }}
                 theme="dark"
@@ -46,12 +39,18 @@ const Head: React.FC = () => {
                 selectedKeys={[location.pathname]}
             />
             {wordOfTheDay ? (
-                <div style={{ display: 'flex', alignItems: 'center' }}>
+                <div className="word-of-the-day">
                     <Text italic style={{ fontSize: '14px', color: '#FFF' }}>
                         Palabra del día:
                     </Text>
                     <Text strong style={{ fontSize: '14px', color: '#FFF', marginLeft: '6px' }}>
-                        {wordOfTheDay}
+                        <a
+                            href={'https://dle.rae.es/' + wordOfTheDay}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            {wordOfTheDay}
+                        </a>
                     </Text>
                 </div>
             ) : (

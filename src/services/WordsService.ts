@@ -7,16 +7,15 @@ type SetLoadingProgressFunction = (progress: number) => void;
 
 async function loadWords(start: number, end: number) {
     try {
-      const response = await fetch(`/words_from_${start}_to_${end}.json`);
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return await response.json();
+        const response = await fetch(`/words_from_${start}_to_${end}.json`);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return await response.json();
     } catch (error) {
-      console.error('Error fetching words:', error);
+        console.error('Error fetching words:', error);
     }
-  }
-  
+}
 
 const populateWordsDB = async (
     setError: SetErrorFunction,

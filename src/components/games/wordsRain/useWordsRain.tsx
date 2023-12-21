@@ -71,24 +71,24 @@ const useWordsRain = () => {
         setGameStarted(false);
 
         return (
-            <div className="words-rain-results">
+            <div className="results-wrapper words-rain-results">
                 {incorrectWords.length > 0 && (
                     <div>
-                        <Text italic style={{ fontSize: '24px', marginRight: '5px' }}>
+                        <Text italic className="results-title">
                             Palabras incorrectas:
                         </Text>
-                        <Text strong type="danger" style={{ fontSize: '24px' }}>
+                        <Text strong type="danger" className="results-title">
                             {incorrectWords.length}
                         </Text>
                     </div>
                 )}
                 {incorrectWords.map((item, index) => (
                     <div key={index}>
-                        <Text strong type="danger" style={{ fontSize: '20px', marginRight: '5px' }}>
+                        <Text strong type="danger" className="results-ko">
                             {item.word !== item.correctWord ? item.word : 'No viste'}
                         </Text>
                         <ForwardOutlined />
-                        <Text strong style={{ fontSize: '24px', marginLeft: '5px', color: '#000' }}>
+                        <Text strong className="results-ok" style={{ color: '#000' }}>
                             {item.correctWord}
                         </Text>
                     </div>

@@ -104,24 +104,24 @@ const useSpellTower = () => {
 
     const renderGameResult = (): JSX.Element => {
         return (
-            <div>
+            <div className="results-wrapper">
                 {incorrectAnswers.length > 0 && (
                     <div>
-                        <Text italic style={{ fontSize: '24px', marginRight: '5px' }}>
+                        <Text italic className="results-title">
                             Palabras incorrectas:
                         </Text>
-                        <Text strong type="danger" style={{ fontSize: '24px' }}>
+                        <Text strong type="danger" className="results-title">
                             {incorrectAnswers.length}
                         </Text>
                     </div>
                 )}
                 {incorrectAnswers.map(([wrong, correct], index) => (
                     <div key={index}>
-                        <Text type="danger" style={{ fontSize: '20px', marginRight: '5px' }}>
+                        <Text type="danger" className="results-ko">
                             {wrong}
                         </Text>
                         <ForwardOutlined />
-                        <Text strong type="success" style={{ fontSize: '24px', marginLeft: '5px' }}>
+                        <Text strong type="success" className="results-ok">
                             {correct}
                         </Text>
                     </div>

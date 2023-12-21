@@ -4,39 +4,54 @@ import { Card, Col, Row } from 'antd';
 
 const { Meta } = Card;
 
+type Game = {
+    link: string;
+    imgSrc: string;
+    altText: string;
+    title: string;
+    description: string;
+};
+
+const games: Game[] = [
+    {
+        link: '/games/spelltower',
+        imgSrc: '/games/SpellTower.png',
+        altText: 'La torre de la ortografía',
+        title: 'La torre de la ortografía',
+        description:
+            'Un juego de construcción de torres donde cada palabra bien escrita agrega un bloque a la torre.',
+    },
+    {
+        link: '/games/wordsrain',
+        imgSrc: '/games/WordsRain.png',
+        altText: 'Lluvia de palabras',
+        title: 'Lluvia de palabras',
+        description:
+            'Un juego dónde hay que evitar que las palabras bien escritas caigan o perderás.',
+    },
+];
+
+const GamesList: React.FC = () => {
+    return (
+        <>
+            {games.map((game, index) => (
+                <Col key={index} xs={12} sm={8} md={8} lg={6}>
+                    <Link to={game.link}>
+                        <Card hoverable cover={<img alt={game.altText} src={game.imgSrc} />}>
+                            <Meta title={game.title} description={game.description} />
+                        </Card>
+                    </Link>
+                </Col>
+            ))}
+        </>
+    );
+};
+
 const Games: React.FC = () => {
     return (
-        <div style={{ padding: '60px 20px' }}>
-            <Row gutter={16}>
-                <Col md={8} lg={6}>
-                    <Link to="/games/spelltower">
-                        <Card
-                            hoverable
-                            cover={
-                                <img alt="La torre de la ortografía" src="/games/SpellTower.png" />
-                            }
-                        >
-                            <Meta
-                                title="La torre de la ortografía"
-                                description="Un juego de construcción de torres donde cada palabra bien escrita agrega un
-                                bloque a la torre."
-                            />
-                        </Card>
-                    </Link>
-                </Col>
-                <Col md={8} lg={6}>
-                    <Link to="/games/wordsrain">
-                        <Card
-                            hoverable
-                            cover={<img alt="Lluvia de palabras" src="/games/WordsRain.png" />}
-                        >
-                            <Meta
-                                title="Lluvia de palabras"
-                                description="Un juego dónde hay que evitar que las palabras bien escritas caigan o perderás."
-                            />
-                        </Card>
-                    </Link>
-                </Col>
+        <div className="content-wrapper">
+            <Row gutter={[16, 16]}>
+                <GamesList />
             </Row>
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography } from 'antd';
+import './Hero.scss';
 
 const { Title, Paragraph, Text } = Typography;
 
@@ -12,38 +13,20 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ title, subtitle, image, styles, children }) => {
-    const heroStyles = {
-        backgroundColor: '#FFF',
-        borderRadius: '10px',
-        padding: '24px',
-        display: 'flex',
-        flexDirection: 'row' as const,
-        ...styles,
-    };
-
-    const titleStyles = {
-        marginTop: '0',
-    };
-
     const subtitleStyles = {};
 
-    const textStyles = {
-        fontSize: '18px',
-    };
-
-    const imageStyles = {
-        maxWidth: '240px',
-        marginRight: '24px',
-    };
-
     return (
-        <div style={heroStyles}>
-            {image && <img src={image} alt={title} style={imageStyles} />}
+        <div className="hero" style={{ ...styles }}>
+            {image && (
+                <div>
+                    <img src={image} alt={title} />
+                </div>
+            )}
             <div>
-                <Title style={titleStyles}>{title}</Title>
+                <Title>{title}</Title>
                 {subtitle && (
                     <Paragraph style={subtitleStyles}>
-                        <Text style={textStyles}>{subtitle}</Text>
+                        <Text>{subtitle}</Text>
                     </Paragraph>
                 )}
                 {children && <>{children}</>}

@@ -56,8 +56,8 @@ const UI: React.FC<SpellTowerUIProps> = ({
                     </p>
                 )}
             </Hero>
-            <Row gutter={16}>
-                <Col span={18}>
+            <Row gutter={[16, 16]}>
+                <Col xs={16} sm={16} md={16} lg={18}>
                     <div className="spell-tower-game">
                         <div className="spell-tower-game-inner">
                             <Flex vertical gap="small" style={{ width: '100%' }}>
@@ -66,7 +66,7 @@ const UI: React.FC<SpellTowerUIProps> = ({
                         </div>
                     </div>
                 </Col>
-                <Col span={6}>
+                <Col xs={8} sm={8} md={8} lg={6}>
                     <div className="spell-tower-wrapper">
                         <div className="spell-tower-top">{correctAnswers}</div>
                         <div className="spell-tower-wrapper-inner">

@@ -12,7 +12,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     return (
         <Layout>
             <Header />
-            <Content style={{ padding: '60px 20px' }}>{children}</Content>
+            <Content>{children}</Content>
         </Layout>
     );
 };
