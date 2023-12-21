@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
 import { Layout } from 'antd';
+import Footer from 'src/components/Footer';
 import Header from 'src/components/Header';
 
 const { Content } = Layout;
@@ -13,6 +14,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
         <Layout>
             <Header />
             <Content>{children}</Content>
+            <Footer />
         </Layout>
     );
 };

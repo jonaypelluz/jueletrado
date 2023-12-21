@@ -68,7 +68,7 @@ $spell-tower-background-borders: #0c3f91, #486e3f;
                         right: $random-margin + px;
                     }
 
-                    @media only screen and (min-width: 320px) and (max-width: 479px) {
+                    @media only screen and (max-width: 479px) {
                         width: 80px;
                     }
                 }

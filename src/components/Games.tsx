@@ -19,7 +19,7 @@ const games: Game[] = [
         altText: 'La torre de la ortografía',
         title: 'La torre de la ortografía',
         description:
-            'Un juego de construcción de torres donde cada palabra bien escrita agrega un bloque a la torre.',
+            'Un juego donde construyes torres, añadiendo un bloque por cada palabra bien escrita.',
     },
     {
         link: '/games/wordsrain',

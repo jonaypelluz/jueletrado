@@ -37,7 +37,7 @@ const UI: React.FC<SpellTowerUIProps> = ({
             <Hero
                 image="/games/SpellTower.png"
                 title="La torre de la ortografía"
-                subtitle="Un juego de construcción de torres donde cada palabra bien escrita agrega un bloque y mal escrita lo retira de la torre. 
+                subtitle="Un juego donde construyes torres, añadiendo un bloque por cada palabra bien escrita. 
                 El juego desafía a los jugadores a construir la torre más alta que puedan escribiendo o eligiendo 
                 correctamente una serie de palabras donde la ortografía debe ser la correcta."
             >
