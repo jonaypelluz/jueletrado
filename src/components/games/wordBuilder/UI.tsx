@@ -55,7 +55,7 @@ const UI: React.FC<WordBuilderUIProps> = ({
             </Hero>
             <div className="word-builder-wrapper">
                 <Row gutter={[16, 16]}>
-                    <Col xs={10} sm={10} md={10} lg={10}>
+                    <Col xs={24} sm={14} md={14} lg={10}>
                         {letters.length > 0 && (
                             <div className="word-builder-letters">
                                 {letters.map((letter: string, index: number) => (
@@ -67,7 +67,7 @@ const UI: React.FC<WordBuilderUIProps> = ({
                             </div>
                         )}
                     </Col>
-                    <Col xs={14} sm={14} md={14} lg={14}>
+                    <Col xs={24} sm={10} md={10} lg={14}>
                         <div className="word-builder-temporary-word">
                             {tempWord && (
                                 <>
