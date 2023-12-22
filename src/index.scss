@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 body {
     margin: 0;
     background-color: #f5f5f5;
@@ -31,49 +33,6 @@ code {
     }
 }
 
-.results-wrapper {
-    .results-title {
-        &.ant-typography {
-            font-size: 24px;
-            margin-right: 5px;
-        }
-    }
-
-    .results-ok {
-        &.ant-typography {
-            font-size: 24px;
-            margin-left: 5px;
-        }
-    }
-
-    .results-ko {
-        &.ant-typography {
-            font-size: 20px;
-            margin-right: 5px;
-        }
-    }
-
-    @media only screen and (max-width: 479px) {
-        .results-title {
-            &.ant-typography {
-                font-size: 18px;
-            }
-        }
-
-        .results-ok {
-            &.ant-typography {
-                font-size: 18px;
-            }
-        }
-
-        .results-ko {
-            &.ant-typography {
-                font-size: 16px;
-            }
-        }
-    }
-}
-
 // Antd Overrides
 .ant-card {
     .ant-card-meta-title {
@@ -89,7 +48,9 @@ code {
 }
 
 main.ant-layout-content {
-    padding: 60px 20px;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 20px;
 
     @media only screen and (max-width: 479px) {
         padding: 40px 12px;

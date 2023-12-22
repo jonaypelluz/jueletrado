@@ -4,7 +4,7 @@ import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 import MainLayout from 'src/layouts/MainLayout';
 import Logger from 'src/services/Logger';
-import { getGameWords, populateWordsDB } from 'src/services/WordsService';
+import { getWords, populateWordsDB } from 'src/services/WordsService';
 import StorageService, { StorageKey } from 'src/store/StorageService';
 import { useWordsContext } from 'src/store/WordsContext';
 
@@ -14,15 +14,16 @@ const mainImageArray = [
     '/home/Jueletrado_1.png',
     '/home/Jueletrado_2.png',
     '/home/Jueletrado_3.png',
+    '/home/Jueletrado_4.png',
 ];
 
 const Home: React.FC = () => {
     const { isLoading, error, setLoadingProgress, setError, setLoading, setWordOfTheDay } =
         useWordsContext();
-    const [areWordsLoaded, setAreWordsLoaded] = useState(false);
-    const [wordGroupsLoaded, setWordGroupsLoaded] = useState(false);
-    const isDBBeingPopulated = useRef(false);
-    const [currentImage] = useState(
+    const [areWordsLoaded, setAreWordsLoaded] = useState<boolean>(false);
+    const [wordGroupsLoaded, setWordGroupsLoaded] = useState<boolean>(false);
+    const isDBBeingPopulated = useRef<boolean>(false);
+    const [currentImage] = useState<string>(
         mainImageArray[Math.floor(Math.random() * mainImageArray.length)],
     );
 
@@ -56,7 +57,7 @@ const Home: React.FC = () => {
 
             if (!storedWords || storedWords.length === 0) {
                 try {
-                    const words = await getGameWords(group.count, setError);
+                    const words = await getWords(group.count, setError);
                     if (words && words.length > 0) {
                         StorageService.setItem(group.key, words, 3600000);
                     } else {

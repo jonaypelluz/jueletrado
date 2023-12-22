@@ -89,6 +89,17 @@ class WordGameProcessor {
         return [word, wordVariant1, wordVariant2];
     }
 
+    filterWordsByLetters(letters: string[], allWords: string[]): string[] {
+        const letterSet = new Set(letters);
+        return allWords.filter((word) => {
+            if (word.length <= 1) {
+                return false;
+            }
+
+            return Array.from(word).every((char) => letterSet.has(char));
+        });
+    }
+
     private addRandomAccent(word: string, indices: number[]): { index: number; variant: string } {
         const randomIndex = indices[Math.floor(Math.random() * indices.length)];
         const vowel = word[randomIndex];

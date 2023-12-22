@@ -3,6 +3,9 @@ import { LogLevels } from 'src/models/interfaces';
 const appConfig = (): LogLevels => {
     switch (process.env.REACT_APP_APP_ENV) {
         case 'production':
+            return {
+                LOG_LEVEL: 'error',
+            };
         case 'development':
             return {
                 LOG_LEVEL: 'info',

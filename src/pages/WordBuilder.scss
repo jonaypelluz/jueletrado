@@ -1,0 +1,91 @@
+@import '../variables.scss';
+@import '../common.scss';
+
+.word-builder-wrapper {
+    @extend .game-wrapper;
+
+    &::before {
+        opacity: 0.2;
+        background-image: url('../assets/games/WordBuilderBg.png');
+    }
+
+    .word-builder-temporary-word {
+        min-height: 200px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 24px;
+        margin: 12px;
+
+        .ant-typography {
+            display: block;
+            text-align: center;
+            margin-top: 24px;
+            font-size: 48px;
+        }
+    }
+
+    .word-builder-found-words {
+        min-height: 200px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 24px;
+        margin: 12px;
+        padding: 12px;
+
+        .ant-typography {
+            font-size: 24px;
+        }
+    }
+}
+
+$circle-radius: 150px;
+
+.word-builder-letters {
+    position: relative;
+    width: $circle-radius * 3;
+    height: $circle-radius * 3;
+
+    span {
+        position: absolute;
+        padding: 28px 20px 20px;
+        border-radius: 50px;
+        line-height: 0.4;
+        border: 1px solid $main-color-dark;
+        top: 40%;
+        left: 40%;
+        min-height: 75px;
+        min-width: 75px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+
+        &.ant-typography {
+            font-size: 35px;
+            color: #fff;
+            background-color: $main-color;
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: $main-color-dark;
+            }
+        }
+
+        &.total-words {
+            font-size: 30px;
+            background-color: $secondary-color;
+            border-color: $secondary-color-dark;
+            line-height: 0.6;
+        }
+
+        @for $i from 1 through 6 {
+            &:nth-child(#{$i}) {
+                transform: rotate(#{($i - 1) * 60deg})
+                    translate($circle-radius)
+                    rotate(-#{($i - 1) * 60deg});
+            }
+        }
+    }
+}

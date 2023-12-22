@@ -16,7 +16,10 @@ const Foot: React.FC = () => {
                     src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
                     alt="Buy Me a Coffee"
                 />
-                <span>Buy<br /> Me a<br /> Coffee</span>
+                <span>
+                    Buy
+                    <br /> Me a<br /> Coffee
+                </span>
             </a>
         </Footer>
     );

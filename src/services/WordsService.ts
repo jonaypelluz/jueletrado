@@ -62,7 +62,20 @@ const populateWordsDB = async (
     }
 };
 
-const getGameWords = async (
+const getAllWords = async (setError: SetErrorFunction): Promise<string[] | undefined> => {
+    try {
+        await dbService.initDB();
+
+        const words = await dbService.getAllWords();
+
+        return words;
+    } catch (error) {
+        Logger.error('Error retrieving all words:', error);
+        setError(error as Error);
+    }
+};
+
+const getWords = async (
     count: number,
     setError: SetErrorFunction,
 ): Promise<string[] | undefined> => {
@@ -78,4 +91,4 @@ const getGameWords = async (
     }
 };
 
-export { populateWordsDB, getGameWords };
+export { populateWordsDB, getWords, getAllWords };

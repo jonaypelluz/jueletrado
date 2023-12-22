@@ -96,20 +96,20 @@ class DBService {
         });
     }
 
-    getWord(id: number): Promise<string | undefined> {
+    async getAllWords(): Promise<string[] | undefined> {
         return new Promise((resolve, reject) => {
             this.ensureDBInitialized()
                 .then(() => {
                     const transaction = this.startTransaction([STORE_NAME], 'readonly');
                     const store = transaction.objectStore(STORE_NAME);
-                    const request = store.get(id);
+                    const request = store.getAll();
 
                     request.onsuccess = () => {
-                        resolve(request.result as string);
+                        resolve(request.result as string[]);
                     };
 
                     request.onerror = () => {
-                        Logger.error(`Error reading word: ${request.error?.message}`);
+                        Logger.error(`Error getting all words: ${request.error?.message}`);
                         reject(request.error);
                     };
                 })

@@ -1,25 +1,13 @@
+@import '../common.scss';
+
 $heart-base-width: 30px;
 $heart-side-width: 32px;
 $heart-width: $heart-base-width + $heart-side-width;
 
 .words-rain-wrapper {
-    position: relative;
-    min-height: 460px;
-    overflow: hidden;
-    width: 100%;
-    margin-top: 24px;
-    border: 1px solid #000;
-    border-radius: 12px;
+    @extend .game-wrapper;
 
     &::before {
-        content: '';
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
         opacity: 0.3;
         background-image: url('../assets/games/WordsRainBg.png');
     }

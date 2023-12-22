@@ -13,7 +13,7 @@ type WordsRainUIProps = {
     gameStarted: boolean;
     fallingWords: JSX.Element[];
     hearts: number;
-    points: number;
+    speed: number;
     wrapperRef: React.RefObject<HTMLDivElement>;
     handleGameStartClick: () => void;
     renderGameResult: () => JSX.Element;
@@ -27,7 +27,7 @@ const UI: React.FC<WordsRainUIProps> = ({
     gameStarted,
     fallingWords,
     hearts,
-    points,
+    speed,
     wrapperRef,
     handleGameStartClick,
     renderGameResult,
@@ -64,7 +64,7 @@ const UI: React.FC<WordsRainUIProps> = ({
                         <div className="words-rain-points">
                             <Text style={{ fontSize: '12px' }}>Velocidad</Text>
                             <Text strong style={{ fontSize: '24px', lineHeight: '0.8' }}>
-                                {Math.floor(points / 10) + 1}
+                                {speed}
                             </Text>
                         </div>
                         <div className="words-rain-lifes">

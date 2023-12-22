@@ -11,11 +11,13 @@ type MainLayoutProps = {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     return (
-        <Layout>
+        <>
             <Header />
-            <Content>{children}</Content>
+            <Layout>
+                <Content>{children}</Content>
+            </Layout>
             <Footer />
-        </Layout>
+        </>
     );
 };
 
