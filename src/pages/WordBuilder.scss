@@ -46,10 +46,17 @@ $circle-radius: 150px;
     position: relative;
     width: $circle-radius * 3;
     height: $circle-radius * 3;
+    margin: 0 auto;
 
-    @media only screen and (max-width: 479px) {
-        width: 380px;
-        height: 380px;
+    .ant-col:nth-child(1) {
+        display: flex;
+        align-items: center;
+    }
+
+    @media only screen and (max-width: 767px) {
+        width: 350px;
+        height: 320px;
+        margin: 0 auto;
     }
 
     span {
@@ -66,10 +73,20 @@ $circle-radius: 150px;
         user-select: none;
         cursor: pointer;
 
+        @media only screen and (max-width: 767px) {
+            min-width: 60px;
+            min-height: 60px;
+            padding: 21px 10px 10px;
+        }
+
         &.ant-typography {
             font-size: 35px;
             color: #fff;
             background-color: $main-color;
+
+            @media only screen and (max-width: 767px) {
+                font-size: 30px;
+            }
 
             &:hover,
             &:active,
@@ -90,6 +107,18 @@ $circle-radius: 150px;
                 transform: rotate(#{($i - 1) * 60deg})
                     translate($circle-radius)
                     rotate(-#{($i - 1) * 60deg});
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            $circle-radius: 120px;
+
+            @for $i from 1 through 6 {
+                &:nth-child(#{$i}) {
+                    transform: rotate(#{($i - 1) * 60deg})
+                        translate($circle-radius)
+                        rotate(-#{($i - 1) * 60deg});
+                }
             }
         }
     }
