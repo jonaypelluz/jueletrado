@@ -1,4 +1,4 @@
-import { dbService } from 'src/services/DBService';
+import { MINIMUM_POPULATED_COUNT, dbService } from 'src/services/DBService';
 import Logger from 'src/services/Logger';
 import StorageService from 'src/store/StorageService';
 
@@ -13,14 +13,29 @@ async function loadWords(start: number, end: number) {
         }
         return await response.json();
     } catch (error) {
-        console.error('Error fetching words:', error);
+        Logger.error('Error fetching words:', error);
     }
 }
+
+const checkProgressAndUpdate = async (totalWords: number, setLoadingProgress: SetLoadingProgressFunction) => {
+    const progressCheckInterval = 1000;
+    const progressInterval = setInterval(async () => {
+        const currentCount: string[] | undefined = await dbService.getAllWords();
+        if (currentCount) {
+            const currentProgress = (currentCount.length / totalWords) * 100;
+            setLoadingProgress(currentProgress);
+        }
+    }, progressCheckInterval);
+
+    return () => clearInterval(progressInterval);
+};
 
 const populateWordsDB = async (
     setError: SetErrorFunction,
     setLoadingProgress: SetLoadingProgressFunction,
 ): Promise<boolean> => {
+    let clearProgressCheck;
+
     try {
         await dbService.initDB();
 
@@ -29,6 +44,8 @@ const populateWordsDB = async (
             Logger.log('Database is already populated.');
             return true;
         }
+
+        clearProgressCheck = await checkProgressAndUpdate(MINIMUM_POPULATED_COUNT, setLoadingProgress);
 
         const totalChunks = 2;
         const chunkSize = 100000;
@@ -50,14 +67,19 @@ const populateWordsDB = async (
             await dbService.addWords(words);
             loadedChunks.push(i);
             StorageService.setItem(StorageService.LOADED_CHUNKS, loadedChunks);
+        }
 
-            setLoadingProgress(((i + 1) / totalChunks) * 100);
+        if (clearProgressCheck) {
+            clearProgressCheck();
         }
 
         return await dbService.checkIfPopulated();
     } catch (error) {
         Logger.error('Error loading words:', error);
         setError(error as Error);
+        if (clearProgressCheck) {
+            clearProgressCheck();
+        }
         return false;
     }
 };

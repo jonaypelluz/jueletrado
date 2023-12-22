@@ -20,20 +20,16 @@ const MIN_ANIMATION_DURATION = 1;
 const LEVEL_UP_INTERVAL = 5;
 const MINIMUM_TIMER_SPEED = 1;
 const BASE_TIMER_SPEED = 4;
-const MIN_ANIMATION_DELAY = 0;
-const MAX_ANIMATION_DELAY = 2;
-const NO_ANIMATION_DELAY_SPEED = 6;
 
-interface WordItem {
+type WordItem = {
     word: string;
     correct: string;
     correctWord: string;
-}
+};
 
 const useWordsRain = () => {
     const { error, setError, setLoading, isLoading } = useWordsContext();
 
-    const [usedSegments, setUsedSegments] = useState<number[]>([]);
     const [timer, setTimer] = useState(0);
     const [gameStarted, setGameStarted] = useState<boolean>(false);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -41,8 +37,9 @@ const useWordsRain = () => {
     const [incorrectWords, setIncorrectWords] = useState<WordItem[]>([]);
     const [speed, setSpeed] = useState<number>(1);
     const [fallingWords, setFallingWords] = useState<JSX.Element[]>([]);
-    const [keyCount, setKeyCount] = useState<number>(0);
     const [hearts, setHearts] = useState<number>(HEARTS);
+
+    const keyCountRef = useRef<number>(0);
     const wrapperRef = useRef<HTMLDivElement>(null);
 
     const { processWords, processLastWords } = useWordProcessor();
@@ -73,9 +70,9 @@ const useWordsRain = () => {
         setHearts(HEARTS);
         setFallingWords([]);
         setIncorrectWords([]);
-        setKeyCount(0);
         setSpeed(1);
         setTimer(0);
+        keyCountRef.current = 0;
     };
 
     const handleGameStartClick = () => {
@@ -104,11 +101,7 @@ const useWordsRain = () => {
     };
 
     const calculateAnimationPosition = (segmentIndex: number, totalSegments: number): number => {
-        return (segmentIndex / totalSegments) * 100;
-    };
-
-    const calculateAnimationDelay = (): number => {
-        return Math.random() * (MAX_ANIMATION_DELAY - MIN_ANIMATION_DELAY) + MIN_ANIMATION_DELAY;
+        return Math.max((segmentIndex / totalSegments) * 100, 1);
     };
 
     const calculateGameSpeed = (timer: number): number => {
@@ -117,19 +110,11 @@ const useWordsRain = () => {
         return GAME_SPEED;
     };
 
-    const calculateNumberOfWords = (): number => {
-        return (
+    const calculateNumberOfWords = (totalSegments: number): number => {
+        const numOfWords =
             Math.floor(Math.random() * (MAX_WORDS_PER_ITERATION - MIN_WORDS_PER_ITERATION + 1)) +
-            MIN_WORDS_PER_ITERATION
-        );
-    };
-
-    const calculateSegments = (segmentIndex: number, totalSegments: number): void => {
-        if (usedSegments.length >= totalSegments) {
-            setUsedSegments([segmentIndex]);
-        } else {
-            setUsedSegments((prevUsedSegments: number[]) => [...prevUsedSegments, segmentIndex]);
-        }
+            MIN_WORDS_PER_ITERATION;
+        return numOfWords > totalSegments ? totalSegments : numOfWords;
     };
 
     const handleGameLogic = (): void => {
@@ -137,33 +122,26 @@ const useWordsRain = () => {
 
         const GAME_SPEED = calculateGameSpeed(timer);
         const timerDivider = calculateTimerDivider(GAME_SPEED);
+        const tempKeyCount = keyCountRef.current;
 
         if (wrapperRef.current && words && timer % timerDivider === 0) {
-            const numberOfWords = calculateNumberOfWords();
-            const animationDuration = calculatteAnimationDuration(GAME_SPEED);
-            const animationDelay =
-                GAME_SPEED > NO_ANIMATION_DELAY_SPEED ? 0 : calculateAnimationDelay();
-
             const totalSegments = Math.floor(wrapperRef.current.offsetWidth / WORD_WIDTH);
-            const attemptedSegments = usedSegments;
+            const numberOfWords = calculateNumberOfWords(totalSegments);
+            const animationDuration = calculatteAnimationDuration(GAME_SPEED);
+
+            const usedSegmentsInIteration = new Set<number>();
 
             for (let i = 0; i < numberOfWords; i++) {
                 let segmentIndex;
                 do {
                     segmentIndex = Math.floor(Math.random() * totalSegments);
-                    if (attemptedSegments.length >= totalSegments) {
-                        setUsedSegments([segmentIndex]);
-                        break;
-                    }
-                    if (!attemptedSegments.includes(segmentIndex)) {
-                        attemptedSegments.push(segmentIndex);
-                    }
-                } while (usedSegments.includes(segmentIndex));
-                calculateSegments(segmentIndex, totalSegments);
+                } while (usedSegmentsInIteration.has(segmentIndex));
+
+                usedSegmentsInIteration.add(segmentIndex);
 
                 const animationPosition = calculateAnimationPosition(segmentIndex, totalSegments);
 
-                const key = keyCount + i;
+                const key = tempKeyCount + i;
                 const wordIndex = key % words.length;
                 const currentWord = words[wordIndex];
 
@@ -171,13 +149,13 @@ const useWordsRain = () => {
                     key,
                     currentWord,
                     animationPosition,
-                    animationDelay,
                     animationDuration,
                 );
+
                 setFallingWords((prevWords: JSX.Element[]) => [...prevWords, newWord]);
             }
 
-            setKeyCount((prevCount: number) => prevCount + numberOfWords);
+            keyCountRef.current += numberOfWords;
         }
     };
 
@@ -185,7 +163,6 @@ const useWordsRain = () => {
         key: number,
         word: WordItem,
         leftPercentage: number,
-        delay: number,
         duration: number,
     ) => {
         return (
@@ -195,7 +172,6 @@ const useWordsRain = () => {
                 style={{
                     width: `${WORD_WIDTH}px`,
                     left: `${leftPercentage}%`,
-                    animationDelay: `${delay}s`,
                     animationDuration: `${duration}s`,
                     display: 'inline-flex',
                     userSelect: 'none',
@@ -273,9 +249,11 @@ const useWordsRain = () => {
     useEffect(() => {
         if (gameStarted) {
             const interval = setInterval(handleGameLogic, 1000);
-            return () => clearInterval(interval);
+            return () => {
+                clearInterval(interval);
+            };
         }
-    }, [gameStarted, keyCount, words, removeWord]);
+    }, [gameStarted, words, removeWord]);
 
     return {
         error,
