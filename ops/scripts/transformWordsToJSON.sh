@@ -1,12 +1,13 @@
 #!/bin/bash
 
-if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <filename> <level>"
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <filename>"
     exit 1
 fi
 
 inputFile=$1
-level=$2
+filename=$(basename "$inputFile")
+level=${filename%%_*}
 chunkSize=100000
 offset=1
 firstElement=true

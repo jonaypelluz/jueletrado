@@ -36,9 +36,9 @@ func main() {
 			if _, found := basicWords[word]; !found {
 				basicFile.WriteString(word + "\n")
 				basicWords[word] = struct{}{}
+			} else {
+				outputFile.WriteString(word + "\n")
 			}
-		} else {
-			outputFile.WriteString(word + "\n")
 		}
 	}
 }
