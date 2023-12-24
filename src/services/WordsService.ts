@@ -1,3 +1,4 @@
+import { LevelConfig } from 'src/models/types';
 import { dbService } from 'src/services/DBService';
 import Logger from 'src/services/Logger';
 import StorageService from 'src/store/StorageService';
@@ -5,9 +6,30 @@ import StorageService from 'src/store/StorageService';
 type SetErrorFunction = (error: Error | null) => void;
 type SetLoadingProgressFunction = (progress: number) => void;
 
-async function loadWords(start: number, end: number) {
+const levelConfigs: LevelConfig[] = [
+    {
+        level: 'basic',
+        totalChunks: 1,
+        chunkSize: 100000,
+        minimumPopulatedCount: 8947,
+    },
+    {
+        level: 'intermediate',
+        totalChunks: 2,
+        chunkSize: 100000,
+        minimumPopulatedCount: 108789,
+    },
+    {
+        level: 'hard',
+        totalChunks: 7,
+        chunkSize: 100000,
+        minimumPopulatedCount: 646615,
+    },
+];
+
+async function loadWords(level: string, start: number, end: number) {
     try {
-        const response = await fetch(`/words_from_${start}_to_${end}.json`);
+        const response = await fetch(`/words/${level}_words_from_${start}_to_${end}.json`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
@@ -18,20 +40,27 @@ async function loadWords(start: number, end: number) {
 }
 
 const populateWordsDB = async (
+    level: string | null,
     setError: SetErrorFunction,
     setLoadingProgress: SetLoadingProgressFunction,
 ): Promise<boolean> => {
+    const levelConfig = levelConfigs.find((config) => config.level === level);
+    if (!levelConfig) {
+        const errorMsg = 'Invalid level specified';
+        Logger.error(errorMsg);
+        setError(new Error(errorMsg));
+        return false;
+    }
+
     try {
+        dbService.setStoreName(levelConfig.level);
         await dbService.initDB();
 
-        const isAlreadyPopulated = await dbService.checkIfPopulated();
-        if (isAlreadyPopulated) {
-            Logger.log('Database is already populated.');
-            return true;
-        }
+        setLoadingProgress(0);
+        StorageService.clearStorage();
 
-        const totalChunks = 2;
-        const chunkSize = 100000;
+        const totalChunks = levelConfig.totalChunks;
+        const chunkSize = levelConfig.chunkSize;
         for (let i = 0; i < totalChunks; i++) {
             const loadedChunks =
                 StorageService.getItem<number[]>(StorageService.LOADED_CHUNKS) || [];
@@ -44,17 +73,19 @@ const populateWordsDB = async (
 
             const start = i * chunkSize + 1;
             const end = (i + 1) * chunkSize;
+            const words = await loadWords(levelConfig.level, start, end);
 
-            const words = await loadWords(start, end);
-
-            await dbService.addWords(words);
+            await dbService.addWords(levelConfig.level, words, levelConfig.minimumPopulatedCount);
             loadedChunks.push(i);
             StorageService.setItem(StorageService.LOADED_CHUNKS, loadedChunks);
 
             setLoadingProgress(((i + 1) / totalChunks) * 100);
         }
 
-        return await dbService.checkIfPopulated();
+        return await dbService.checkIfPopulated(
+            levelConfig.level,
+            levelConfig.minimumPopulatedCount,
+        );
     } catch (error) {
         Logger.error('Error loading words:', error);
         setError(error as Error);
@@ -62,8 +93,20 @@ const populateWordsDB = async (
     }
 };
 
-const getAllWords = async (setError: SetErrorFunction): Promise<string[] | undefined> => {
+const getAllWords = async (
+    level: string | null,
+    setError: SetErrorFunction,
+): Promise<string[] | undefined> => {
+    const levelConfig = levelConfigs.find((config) => config.level === level);
+    if (!levelConfig) {
+        const errorMsg = 'Invalid level specified';
+        Logger.error(errorMsg);
+        setError(new Error(errorMsg));
+        return;
+    }
+
     try {
+        dbService.setStoreName(levelConfig.level);
         await dbService.initDB();
 
         const words = await dbService.getAllWords();
@@ -76,10 +119,20 @@ const getAllWords = async (setError: SetErrorFunction): Promise<string[] | undef
 };
 
 const getWords = async (
+    level: string | null,
     count: number,
     setError: SetErrorFunction,
 ): Promise<string[] | undefined> => {
+    const levelConfig = levelConfigs.find((config) => config.level === level);
+    if (!levelConfig) {
+        const errorMsg = 'Invalid level specified';
+        Logger.error(errorMsg);
+        setError(new Error(errorMsg));
+        return;
+    }
+
     try {
+        dbService.setStoreName(levelConfig.level);
         await dbService.initDB();
 
         const words = await dbService.getRandomWords(count);
@@ -91,4 +144,4 @@ const getWords = async (
     }
 };
 
-export { populateWordsDB, getWords, getAllWords };
+export { populateWordsDB, getWords, getAllWords, levelConfigs };

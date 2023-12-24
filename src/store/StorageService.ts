@@ -1,7 +1,8 @@
 import Logger from 'src/services/Logger';
 
 export type StorageKey =
-    | 'DAY_WORD_SELECTED'
+    | 'SELECTED_DAY_WORD'
+    | 'SELECTED_LEVEL'
     | 'WORDS_GROUP_20'
     | 'WORDS_GROUP_40'
     | 'WORDS_GROUP_60'
@@ -15,7 +16,8 @@ type StoredItem<T> = {
 };
 
 const StorageService = {
-    DAY_WORD_SELECTED: 'DAY_WORD_SELECTED' as const,
+    SELECTED_DAY_WORD: 'SELECTED_DAY_WORD' as const,
+    SELECTED_LEVEL: 'SELECTED_LEVEL' as const,
     WORDS_GROUP_20: 'WORDS_GROUP_20' as const,
     WORDS_GROUP_40: 'WORDS_GROUP_40' as const,
     WORDS_GROUP_60: 'WORDS_GROUP_60' as const,

@@ -7,7 +7,7 @@ module.exports = {
         ...webpackConfig.resolve,
         alias: {
           ...webpackConfig.resolve.alias,
-          '@games': path.resolve(__dirname, 'src/components/games'),
+          '@games': path.resolve(__dirname, 'src/games'),
         },
       };
       return webpackConfig;

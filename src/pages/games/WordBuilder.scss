@@ -1,12 +1,13 @@
-@import '../variables.scss';
-@import '../common.scss';
+@import '../../variables.scss';
+@import '../../common.scss';
 
 .word-builder-wrapper {
     @extend .game-wrapper;
+    padding: 24px;
 
     &::before {
         opacity: 0.2;
-        background-image: url('../assets/games/WordBuilderBg.png');
+        background-image: url('../../assets/games/WordBuilderBg.png');
     }
 
     .word-builder-temporary-word {

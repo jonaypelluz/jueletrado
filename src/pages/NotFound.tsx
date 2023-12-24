@@ -5,7 +5,7 @@ import MainLayout from 'src/layouts/MainLayout';
 const NotFound: React.FC = () => {
     return (
         <MainLayout>
-            <Hero title="¡Ops!" subtitle="Lo sentimos, ¡no encontramos la página!" />
+            <Hero title="¡Ops!" subtitle="Lo sentimos, ¡no encontramos las palabras que buscas!" />
         </MainLayout>
     );
 };

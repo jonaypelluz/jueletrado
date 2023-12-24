@@ -1,6 +1,12 @@
 #!/bin/bash
 
-inputFile="words.txt"
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <filename> <level>"
+    exit 1
+fi
+
+inputFile=$1
+level=$2
 chunkSize=100000
 offset=1
 firstElement=true
@@ -14,7 +20,7 @@ while IFS= read -r line; do
 
         startOffset=$offset
         endOffset=$(($startOffset + chunkSize - 1))
-        currentOutputFile="words_from_${startOffset}_to_${endOffset}.json"
+        currentOutputFile="${level}_words_from_${startOffset}_to_${endOffset}.json"
         printf "[" > "$currentOutputFile"
         firstElement=true
     fi

@@ -1,4 +1,4 @@
-@import '../common.scss';
+@import '../../common.scss';
 
 $heart-base-width: 30px;
 $heart-side-width: 32px;
@@ -9,9 +9,10 @@ $heart-width: $heart-base-width + $heart-side-width;
 
     &::before {
         opacity: 0.3;
-        background-image: url('../assets/games/WordsRainBg.png');
+        background-image: url('../../assets/games/WordsRainBg.png');
     }
 
+    .words-rain-inner,
     .words-rain-results {
         z-index: 2;
         position: relative;

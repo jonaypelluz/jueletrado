@@ -9,7 +9,7 @@ const NUMBER_OF_VOWELS = 2;
 const NUMBER_OF_CONSONANTS = 4;
 
 const useWordBuilder = () => {
-    const { error, setError, setLoading, isLoading } = useWordsContext();
+    const { error, setError, setLoading, isLoading, gameLevel } = useWordsContext();
     const wordProcessor = new WordGameProcessor();
 
     const [letters, setLetters] = useState<string[]>([]);
@@ -39,7 +39,7 @@ const useWordBuilder = () => {
         setWords(possibleWords);
     };
 
-    const generateLetters = () => {
+    const handleGameStartClick = () => {
         setWords([]);
         setFoundWords([]);
         setTempWord('');
@@ -90,7 +90,7 @@ const useWordBuilder = () => {
 
     useEffect(() => {
         const fetchAllWords = async () => {
-            const theWords = await getAllWords(setError);
+            const theWords = await getAllWords(gameLevel, setError);
             if (theWords) {
                 setAllWords(theWords);
             }
@@ -109,7 +109,7 @@ const useWordBuilder = () => {
         letters,
         tempWord,
         foundWords,
-        generateLetters,
+        handleGameStartClick,
         handleLetterClick,
         handleCheckWordClick,
     };

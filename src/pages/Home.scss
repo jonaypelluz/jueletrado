@@ -1,0 +1,51 @@
+@import '../variables.scss';
+
+.level-wrapper {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .btn-levels {
+        max-width: 250px;
+        border: 1px solid #000;
+        border-radius: 12px;
+        margin: 12px;
+        padding: 12px;
+        cursor: pointer;
+        text-align: center;
+
+        &.selected {
+            box-shadow: 0 0 5px #000;
+            background-color: $secondary-color;
+
+            img {
+                box-shadow: 0 0 5px #000;
+            }
+        }
+
+        &:hover,
+        &:active,
+        &:focus {
+            box-shadow: 0 0 5px #000;
+            background-color: $main-color;
+
+            img {
+                box-shadow: 0 0 5px #000;
+            }
+        }
+
+        .ant-typography {
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            border: 1px solid #000;
+        }
+    }
+}

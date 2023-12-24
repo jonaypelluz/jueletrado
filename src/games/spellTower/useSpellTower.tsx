@@ -17,6 +17,7 @@ const useSpellTower = () => {
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
+    const [hasBeenPlayed, setHasBeenPlayed] = useState<boolean>(false);
     const [words, setWords] = useState<string[][] | null>(null);
     const [currentWordIndex, setCurrentWordIndex] = useState(0);
     const [gameStarted, setGameStarted] = useState<boolean>(false);
@@ -94,6 +95,7 @@ const useSpellTower = () => {
     }, [countdown]);
 
     const handleGameStartClick = () => {
+        setHasBeenPlayed(true);
         setShowButton(false);
         setCurrentWordIndex(0);
         setCorrectAnswers(0);
@@ -156,6 +158,7 @@ const useSpellTower = () => {
         showButton,
         words,
         gameStarted,
+        hasBeenPlayed,
         correctAnswers,
         isLoading,
         handleGameStartClick,

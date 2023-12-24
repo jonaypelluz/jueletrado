@@ -19,6 +19,30 @@
     }
 }
 
+.game-rules {
+    background: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    position: relative;
+    z-index: 1;
+
+    h2 {
+        margin-top: 0;
+
+        &.ant-typography {
+            font-size: 24px;
+        }
+    }
+
+    .ant-typography {
+        font-size: 16px;
+
+        strong {
+            font-size: 18px;
+        }
+    }
+}
+
 .results-wrapper {
     .results-title {
         &.ant-typography {

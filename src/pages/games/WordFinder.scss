@@ -1,0 +1,124 @@
+@import '../../variables.scss';
+@import '../../common.scss';
+
+.word-finder-wrapper {
+    @extend .game-wrapper;
+
+    &::before {
+        opacity: 0.2;
+        background-image: url('../../assets/games/WordFinderBg.png');
+    }
+
+    .word-finder-inner {
+        padding: 24px;
+        position: relative;
+        z-index: 1;
+
+        .word-finder-found-words {
+            min-height: 200px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #000;
+            border-radius: 24px;
+            margin: 12px;
+            padding: 12px;
+
+            .ant-typography {
+                font-size: 24px;
+
+                &.found {
+                    color: $main-color;
+                }
+
+                &.not-found {
+                    color: $danger-color;
+                }
+            }
+        }
+
+        .word-finder-word-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 12px;
+
+            div,
+            input {
+                width: 15%;
+                height: 100px;
+                border: 1px solid #000;
+                background-color: #fff;
+                margin-right: 12px;
+            }
+
+            input {
+                text-align: center;
+                font-size: 48px;
+            }
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &.ok {
+                    background-color: $secondary-color;
+                }
+
+                &.not-ok {
+                    background-color: $warning-color;
+                }
+
+                &.ko {
+                    background-color: $danger-color;
+                }
+
+                .ant-typography {
+                    font-size: 48px;
+                }
+            }
+
+            @media only screen and (min-width: 480px) and (max-width: 767px) {  
+                flex-wrap: wrap;
+
+                div, input {
+                    width: 13%;
+                    margin-right: 9px;
+                    margin-bottom: 9px;
+                    height: 60px;
+                }
+
+                div {
+                    .ant-typography {
+                        font-size: 24px;
+                    }
+                }
+
+                input {
+                    font-size: 24px;
+                }
+            }
+
+            @media only screen and (max-width: 479px) { 
+                flex-wrap: wrap;
+
+                div, input {
+                    width: 10%;
+                    margin-right: 6px;
+                    margin-bottom: 6px;
+                    height: 50px;
+                }
+
+                div {
+                    .ant-typography {
+                        font-size: 24px;
+                    }
+                }
+
+                input {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}

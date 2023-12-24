@@ -1,40 +1,48 @@
+import { levelConfigs } from 'src/services/WordsService';
 import Logger from './Logger';
 
 const DB_NAME = 'jueletrado-db';
-const STORE_NAME = 'words';
 const DB_VERSION = 1;
-export const MINIMUM_POPULATED_COUNT = 108789;
 
 class DBService {
     private db: IDBDatabase | null = null;
-    private isPopulated: boolean = false;
-    private activeTransactions: IDBTransaction[] = [];
+    private isPopulatedMap: Map<string, boolean> = new Map();
+    private activeTransactions: Set<IDBTransaction> = new Set();
     private operationQueue: (() => Promise<void>)[] = [];
     private isProcessingQueue: boolean = false;
 
-    startTransaction(storeNames: string[], mode: IDBTransactionMode): IDBTransaction {
+    private storeName: string = '';
+
+    setStoreName(level: string) {
+        this.storeName = `words_level_${level}`;
+    }
+
+    startTransaction(mode: IDBTransactionMode): IDBTransaction {
         if (!this.db) {
             throw new Error('Database has not been initialized');
         }
 
-        const transaction = this.db.transaction(storeNames, mode);
-        this.activeTransactions.push(transaction);
+        const transaction = this.db.transaction([this.storeName], mode);
+        this.activeTransactions.add(transaction);
 
-        transaction.oncomplete =
-            transaction.onerror =
-            transaction.onabort =
-                () => {
-                    this.activeTransactions = this.activeTransactions.filter(
-                        (tr) => tr !== transaction,
-                    );
-                };
+        const completionCallback = () => this.activeTransactions.delete(transaction);
+        transaction.oncomplete = completionCallback;
+        transaction.onerror = completionCallback;
+        transaction.onabort = completionCallback;
 
         return transaction;
     }
 
     abortAllTransactions() {
-        this.activeTransactions.forEach((transaction) => transaction.abort());
-        this.activeTransactions = [];
+        this.activeTransactions.forEach((transaction) => {
+            try {
+                transaction.abort();
+            } catch (error) {
+                Logger.error('Error aborting transaction:', error);
+            }
+        });
+
+        this.activeTransactions.clear();
     }
 
     async ensureDBInitialized(): Promise<void> {
@@ -49,9 +57,12 @@ class DBService {
 
             request.onupgradeneeded = () => {
                 const db = request.result;
-                if (!db.objectStoreNames.contains(STORE_NAME)) {
-                    db.createObjectStore(STORE_NAME, { autoIncrement: true });
-                }
+                levelConfigs.forEach((config) => {
+                    const storeName = `words_level_${config.level}`;
+                    if (!db.objectStoreNames.contains(storeName)) {
+                        db.createObjectStore(storeName, { autoIncrement: true });
+                    }
+                });
             };
 
             request.onsuccess = () => {
@@ -70,18 +81,20 @@ class DBService {
         });
     }
 
-    async addWords(words: string[]): Promise<void> {
-        const populated = await this.checkIfPopulated();
+    async addWords(level: string, words: string[], minimumPopulatedCount: number): Promise<void> {
+        const populated = await this.checkIfPopulated(level, minimumPopulatedCount);
         if (populated) {
-            Logger.log('The database is already populated. Skipping adding words.');
+            Logger.log(
+                `The database is already populated for level ${level}. Skipping adding words.`,
+            );
             return;
         }
 
         return new Promise((resolve, reject) => {
             this.enqueueOperation(async () => {
                 await this.ensureDBInitialized();
-                const transaction = this.startTransaction([STORE_NAME], 'readwrite');
-                const store = transaction.objectStore(STORE_NAME);
+                const transaction = this.startTransaction('readwrite');
+                const store = transaction.objectStore(this.storeName);
 
                 for (const word of words) {
                     store.add(word);
@@ -100,8 +113,8 @@ class DBService {
         return new Promise((resolve, reject) => {
             this.ensureDBInitialized()
                 .then(() => {
-                    const transaction = this.startTransaction([STORE_NAME], 'readonly');
-                    const store = transaction.objectStore(STORE_NAME);
+                    const transaction = this.startTransaction('readonly');
+                    const store = transaction.objectStore(this.storeName);
                     const request = store.getAll();
 
                     request.onsuccess = () => {
@@ -117,28 +130,32 @@ class DBService {
         });
     }
 
-    async checkIfPopulated(): Promise<boolean> {
-        return new Promise((resolve, reject) => {
-            if (this.isPopulated) {
-                Logger.log('Database check: Already marked as populated.');
-                resolve(true);
-                return;
-            }
+    async checkIfPopulated(level: string, minimumPopulatedCount: number): Promise<boolean> {
+        if (this.isPopulatedMap.get(level)) {
+            Logger.log(`Database check: Already marked as populated for level ${level}.`);
+            return true;
+        }
 
+        return new Promise((resolve, reject) => {
             this.ensureDBInitialized()
                 .then(() => {
-                    const transaction = this.startTransaction([STORE_NAME], 'readonly');
-                    const store = transaction.objectStore(STORE_NAME);
+                    const transaction = this.startTransaction('readonly');
+                    const store = transaction.objectStore(this.storeName);
                     const request = store.count();
 
                     request.onsuccess = () => {
-                        this.isPopulated = request.result > MINIMUM_POPULATED_COUNT;
-                        Logger.log(`Database check: Populated status - ${this.isPopulated}`);
-                        resolve(this.isPopulated);
+                        const isPopulated = request.result > minimumPopulatedCount;
+                        this.isPopulatedMap.set(level, isPopulated);
+                        Logger.log(
+                            `Database check: Populated status for level ${level} - ${isPopulated}`,
+                        );
+                        resolve(isPopulated);
                     };
 
                     request.onerror = () => {
-                        Logger.error(`Error checking if populated: ${request.error?.message}`);
+                        Logger.error(
+                            `Error checking if populated for level ${level}: ${request.error?.message}`,
+                        );
                         reject(request.error);
                     };
                 })
@@ -150,8 +167,8 @@ class DBService {
         return new Promise((resolve, reject) => {
             this.ensureDBInitialized()
                 .then(() => {
-                    const transaction = this.startTransaction([STORE_NAME], 'readonly');
-                    const store = transaction.objectStore(STORE_NAME);
+                    const transaction = this.startTransaction('readonly');
+                    const store = transaction.objectStore(this.storeName);
                     const countRequest = store.count();
 
                     countRequest.onsuccess = () => {
@@ -184,6 +201,37 @@ class DBService {
                     };
                 })
                 .catch(reject);
+        });
+    }
+
+    async deleteDatabase(): Promise<void> {
+        return new Promise((resolve, reject) => {
+            if (this.db) {
+                this.db.close();
+                this.db = null;
+            }
+
+            this.abortAllTransactions();
+
+            const request = indexedDB.deleteDatabase(DB_NAME);
+
+            request.onsuccess = () => {
+                this.isPopulatedMap.clear();
+                Logger.log('Database successfully deleted');
+                resolve();
+            };
+
+            request.onerror = () => {
+                Logger.error('Error deleting database', request.error?.message);
+                reject(request.error);
+            };
+
+            request.onblocked = () => {
+                Logger.warn('Database deletion blocked. Retrying...');
+                setTimeout(() => {
+                    this.deleteDatabase().then(resolve).catch(reject);
+                }, 1000);
+            };
         });
     }
 

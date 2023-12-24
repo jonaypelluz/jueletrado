@@ -10,6 +10,8 @@ interface WordsContextValue {
     setError: React.Dispatch<React.SetStateAction<Error | null>>;
     wordOfTheDay: string | null;
     setWordOfTheDay: React.Dispatch<React.SetStateAction<string | null>>;
+    gameLevel: string | null;
+    setGameLevel: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
 const WordsContext = createContext<WordsContextValue | undefined>(undefined);
@@ -23,7 +25,10 @@ const WordsContextProviderImpl: React.FC<WordsContextProviderProps> = ({ childre
     const [loadingProgress, setLoadingProgress] = useState(0);
     const [error, setError] = useState<Error | null>(null);
     const [wordOfTheDay, setWordOfTheDay] = useState<string | null>(() => {
-        return StorageService.getItem<string>(StorageService.DAY_WORD_SELECTED) || null;
+        return StorageService.getItem<string>(StorageService.SELECTED_DAY_WORD) || null;
+    });
+    const [gameLevel, setGameLevel] = useState<string | null>(() => {
+        return StorageService.getItem<string>(StorageService.SELECTED_LEVEL) || null;
     });
 
     const value = {
@@ -35,6 +40,8 @@ const WordsContextProviderImpl: React.FC<WordsContextProviderProps> = ({ childre
         setError,
         wordOfTheDay,
         setWordOfTheDay,
+        gameLevel,
+        setGameLevel,
     };
 
     return <WordsContext.Provider value={value}>{children}</WordsContext.Provider>;

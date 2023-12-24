@@ -21,7 +21,7 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-        "@games/*": ["src/components/games/*"],
+        "@games/*": ["src/games/*"],
     },
   },
   "include": [

@@ -1,25 +1,45 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Typography } from 'antd';
 import Games from 'src/components/Games';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 import MainLayout from 'src/layouts/MainLayout';
+import { LevelConfig } from 'src/models/types';
 import Logger from 'src/services/Logger';
-import { getWords, populateWordsDB } from 'src/services/WordsService';
+import { getWords, levelConfigs, populateWordsDB } from 'src/services/WordsService';
 import StorageService, { StorageKey } from 'src/store/StorageService';
 import { useWordsContext } from 'src/store/WordsContext';
+import './Home.scss';
 
-const EXPIRE_TIME_24H = 86400000;
+const { Text } = Typography;
 
-const mainImageArray = [
+const EXPIRE_TIME_24H: number = 86400000;
+
+const mainImageArray: string[] = [
     '/home/Jueletrado_1.png',
     '/home/Jueletrado_2.png',
     '/home/Jueletrado_3.png',
     '/home/Jueletrado_4.png',
+    '/home/Jueletrado_5.png',
 ];
 
+const levelTranslations: { [key: string]: string } = {
+    basic: 'Principiante',
+    intermediate: 'Intermedio',
+    hard: 'Difícil',
+};
+
 const Home: React.FC = () => {
-    const { isLoading, error, setLoadingProgress, setError, setLoading, setWordOfTheDay } =
-        useWordsContext();
+    const {
+        isLoading,
+        error,
+        gameLevel,
+        setLoadingProgress,
+        setError,
+        setLoading,
+        setWordOfTheDay,
+        setGameLevel,
+    } = useWordsContext();
     const [areWordsLoaded, setAreWordsLoaded] = useState<boolean>(false);
     const [wordGroupsLoaded, setWordGroupsLoaded] = useState<boolean>(false);
     const isDBBeingPopulated = useRef<boolean>(false);
@@ -27,62 +47,69 @@ const Home: React.FC = () => {
         mainImageArray[Math.floor(Math.random() * mainImageArray.length)],
     );
 
-    useEffect(() => {
+    const handlePopulateDBClick = (level: string) => {
         if (!isDBBeingPopulated.current) {
+            setAreWordsLoaded(false);
+            setWordGroupsLoaded(false);
             setLoading(true);
             isDBBeingPopulated.current = true;
-            populateWordsDB(setError, setLoadingProgress).then((isPopulated) => {
+            populateWordsDB(level, setError, setLoadingProgress).then((isPopulated) => {
                 if (isPopulated) {
+                    StorageService.setItem(StorageService.SELECTED_LEVEL, level, EXPIRE_TIME_24H);
+                    setGameLevel(level);
                     setAreWordsLoaded(true);
+                    isDBBeingPopulated.current = false;
                 } else {
                     Logger.warn('Database is not populated yet. Waiting...');
                 }
             });
         }
-    }, []);
+    };
 
     useEffect(() => {
-        const wordGroups: { count: number; key: StorageKey }[] = [
-            { count: 20, key: StorageService.WORDS_GROUP_20 },
-            { count: 40, key: StorageService.WORDS_GROUP_40 },
-            { count: 60, key: StorageService.WORDS_GROUP_60 },
-            { count: 80, key: StorageService.WORDS_GROUP_80 },
-        ];
+        if (areWordsLoaded) {
+            const wordGroups: { count: number; key: StorageKey }[] = [
+                { count: 20, key: StorageService.WORDS_GROUP_20 },
+                { count: 40, key: StorageService.WORDS_GROUP_40 },
+                { count: 60, key: StorageService.WORDS_GROUP_60 },
+                { count: 80, key: StorageService.WORDS_GROUP_80 },
+            ];
 
-        async function fetchAndStoreWords(group: {
-            count: number;
-            key: StorageKey;
-        }): Promise<void> {
-            const storedWords = StorageService.getItem<string[]>(group.key);
+            const fetchAndStoreWords = async (group: {
+                count: number;
+                key: StorageKey;
+            }): Promise<void> => {
+                const storedWords = StorageService.getItem<string[]>(group.key);
 
-            if (!storedWords || storedWords.length === 0) {
-                try {
-                    const words = await getWords(group.count, setError);
-                    if (words && words.length > 0) {
-                        StorageService.setItem(group.key, words, 3600000);
-                    } else {
-                        throw new Error(`No words fetched for group: ${group.key}`);
+                if (!storedWords || storedWords.length === 0) {
+                    try {
+                        const words = await getWords(gameLevel, group.count, setError);
+                        if (words && words.length > 0) {
+                            StorageService.setItem(group.key, words, 3600000);
+                        } else {
+                            throw new Error(`No words fetched for group: ${group.key}`);
+                        }
+                    } catch (error) {
+                        Logger.error('Error fetching words for group:', group.key, error);
+                        throw error;
                     }
-                } catch (error) {
-                    Logger.error('Error fetching words for group:', group.key, error);
-                    throw error;
                 }
-            }
-        }
+            };
 
-        Promise.all(wordGroups.map((group) => fetchAndStoreWords(group)))
-            .then(() => {
-                setWordGroupsLoaded(true);
-            })
-            .catch((error) => {
-                Logger.error('Error in loading word groups:', error);
-            });
+            Promise.all(wordGroups.map((group) => fetchAndStoreWords(group)))
+                .then(() => {
+                    setWordGroupsLoaded(true);
+                })
+                .catch((error) => {
+                    Logger.error('Error in loading word groups:', error);
+                });
+        }
     }, [areWordsLoaded]);
 
     useEffect(() => {
         if (wordGroupsLoaded) {
             const storedDailyWord = StorageService.getItem<string>(
-                StorageService.DAY_WORD_SELECTED,
+                StorageService.SELECTED_DAY_WORD,
             );
 
             if (!storedDailyWord) {
@@ -92,7 +119,7 @@ const Home: React.FC = () => {
                 if (wordsGroup20 && wordsGroup20.length > 0) {
                     const dailyWord = wordsGroup20[0];
                     StorageService.setItem(
-                        StorageService.DAY_WORD_SELECTED,
+                        StorageService.SELECTED_DAY_WORD,
                         dailyWord,
                         EXPIRE_TIME_24H,
                     );
@@ -106,7 +133,7 @@ const Home: React.FC = () => {
         }
     }, [wordGroupsLoaded]);
 
-    if (isLoading || error || !wordGroupsLoaded) {
+    if (isLoading || error) {
         return <LoadingScreen rotateMessages />;
     }
 
@@ -118,6 +145,20 @@ const Home: React.FC = () => {
                 subtitle="Donde jugar y aprender a escribir bien van de la mano"
                 styles={{ border: '1px solid #000' }}
             />
+            <div className="level-wrapper">
+                {levelConfigs.map((level: LevelConfig, idx: number) => (
+                    <div
+                        key={idx}
+                        onClick={() => handlePopulateDBClick(level.level)}
+                        className={`btn-${level.level} btn-levels ${
+                            gameLevel === level.level ? 'selected' : ''
+                        }`}
+                    >
+                        <img src={`/levels/${level.level}.png`} alt={level.level} />
+                        <Text strong>{levelTranslations[level.level]}</Text>
+                    </div>
+                ))}
+            </div>
             <Games />
         </MainLayout>
     );
