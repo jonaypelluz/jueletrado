@@ -147,7 +147,7 @@ const UI: React.FC<WordBuilderUIProps> = ({
                                     )}
                                 </div>
                                 <div className="word-builder-found-words">
-                                    {foundWords.map((word, index) => (
+                                    {foundWords.map((word: string, index: number) => (
                                         <Text strong key={index}>
                                             {index < foundWords.length - 1 ? `${word} - ` : word}
                                         </Text>

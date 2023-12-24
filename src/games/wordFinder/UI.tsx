@@ -160,9 +160,7 @@ const UI: React.FC<WordFinderUIProps> = ({
                                         ))}
                                     </div>
                                 ))}
-                            <div className="word-finder-word-wrapper">
-                                {renderInputs()}
-                            </div>
+                            <div className="word-finder-word-wrapper">{renderInputs()}</div>
                             {isWordComplete && (
                                 <p style={{ textAlign: 'center' }}>
                                     <Button
@@ -174,7 +172,8 @@ const UI: React.FC<WordFinderUIProps> = ({
                                         }}
                                         onClick={handleCheckClick}
                                     >
-                                        Comprobar palabra ({word.split('').length - attempts.length + 1})
+                                        Comprobar palabra (
+                                        {word.split('').length - attempts.length + 1})
                                     </Button>
                                 </p>
                             )}
@@ -182,17 +181,19 @@ const UI: React.FC<WordFinderUIProps> = ({
                     )}
                     {foundWords.length > 0 && (
                         <div className="word-finder-found-words">
-                            {foundWords.map((foundWord, index) => (
-                                <Text
-                                    strong
-                                    key={index}
-                                    className={foundWord.found ? 'found' : 'not-found'}
-                                >
-                                    {index < foundWords.length - 1
-                                        ? `${foundWord.word} - `
-                                        : foundWord.word}
-                                </Text>
-                            ))}
+                            {foundWords.map(
+                                (foundWord: { word: string; found: boolean }, index: number) => (
+                                    <Text
+                                        strong
+                                        key={index}
+                                        className={foundWord.found ? 'found' : 'not-found'}
+                                    >
+                                        {index < foundWords.length - 1
+                                            ? `${foundWord.word} - `
+                                            : foundWord.word}
+                                    </Text>
+                                ),
+                            )}
                         </div>
                     )}
                 </div>

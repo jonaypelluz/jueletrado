@@ -3,10 +3,11 @@ import { Typography } from 'antd';
 import Games from 'src/components/Games';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
+import LevelsConfig from 'src/config/LevelConfig';
 import MainLayout from 'src/layouts/MainLayout';
 import { LevelConfig } from 'src/models/types';
 import Logger from 'src/services/Logger';
-import { getWords, levelConfigs, populateWordsDB } from 'src/services/WordsService';
+import { getWords, populateWordsDB } from 'src/services/WordsService';
 import StorageService, { StorageKey } from 'src/store/StorageService';
 import { useWordsContext } from 'src/store/WordsContext';
 import './Home.scss';
@@ -146,7 +147,7 @@ const Home: React.FC = () => {
                 styles={{ border: '1px solid #000' }}
             />
             <div className="level-wrapper">
-                {levelConfigs.map((level: LevelConfig, idx: number) => (
+                {LevelsConfig.map((level: LevelConfig, idx: number) => (
                     <div
                         key={idx}
                         onClick={() => handlePopulateDBClick(level.level)}

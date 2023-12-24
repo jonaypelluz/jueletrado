@@ -32,7 +32,7 @@ while IFS= read -r line; do
     fi
     printf "\"%s\"" "$line" >> "$currentOutputFile"
 
-    ((offset++))
+    offset=$(($offset + 1))
 done < "$inputFile"
 
 if [ $(( (offset - 1) % chunkSize)) -ne 0 ]; then

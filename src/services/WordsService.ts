@@ -1,31 +1,10 @@
-import { LevelConfig } from 'src/models/types';
+import LevelsConfig from 'src/config/LevelConfig';
 import { dbService } from 'src/services/DBService';
 import Logger from 'src/services/Logger';
 import StorageService from 'src/store/StorageService';
 
 type SetErrorFunction = (error: Error | null) => void;
 type SetLoadingProgressFunction = (progress: number) => void;
-
-const levelConfigs: LevelConfig[] = [
-    {
-        level: 'basic',
-        totalChunks: 1,
-        chunkSize: 100000,
-        minimumPopulatedCount: 8947,
-    },
-    {
-        level: 'intermediate',
-        totalChunks: 2,
-        chunkSize: 100000,
-        minimumPopulatedCount: 108789,
-    },
-    {
-        level: 'hard',
-        totalChunks: 7,
-        chunkSize: 100000,
-        minimumPopulatedCount: 646615,
-    },
-];
 
 async function loadWords(level: string, start: number, end: number) {
     try {
@@ -44,7 +23,7 @@ const populateWordsDB = async (
     setError: SetErrorFunction,
     setLoadingProgress: SetLoadingProgressFunction,
 ): Promise<boolean> => {
-    const levelConfig = levelConfigs.find((config) => config.level === level);
+    const levelConfig = LevelsConfig.find((config) => config.level === level);
     if (!levelConfig) {
         const errorMsg = 'Invalid level specified';
         Logger.error(errorMsg);
@@ -97,7 +76,7 @@ const getAllWords = async (
     level: string | null,
     setError: SetErrorFunction,
 ): Promise<string[] | undefined> => {
-    const levelConfig = levelConfigs.find((config) => config.level === level);
+    const levelConfig = LevelsConfig.find((config) => config.level === level);
     if (!levelConfig) {
         const errorMsg = 'Invalid level specified';
         Logger.error(errorMsg);
@@ -123,7 +102,7 @@ const getWords = async (
     count: number,
     setError: SetErrorFunction,
 ): Promise<string[] | undefined> => {
-    const levelConfig = levelConfigs.find((config) => config.level === level);
+    const levelConfig = LevelsConfig.find((config) => config.level === level);
     if (!levelConfig) {
         const errorMsg = 'Invalid level specified';
         Logger.error(errorMsg);
@@ -144,4 +123,4 @@ const getWords = async (
     }
 };
 
-export { populateWordsDB, getWords, getAllWords, levelConfigs };
+export { populateWordsDB, getWords, getAllWords };

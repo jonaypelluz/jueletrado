@@ -1,4 +1,4 @@
-import { levelConfigs } from 'src/services/WordsService';
+import LevelsConfig from 'src/config/LevelConfig';
 import Logger from './Logger';
 
 const DB_NAME = 'jueletrado-db';
@@ -57,7 +57,7 @@ class DBService {
 
             request.onupgradeneeded = () => {
                 const db = request.result;
-                levelConfigs.forEach((config) => {
+                LevelsConfig.forEach((config) => {
                     const storeName = `words_level_${config.level}`;
                     if (!db.objectStoreNames.contains(storeName)) {
                         db.createObjectStore(storeName, { autoIncrement: true });

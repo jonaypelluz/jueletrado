@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { NonAccentedVowels } from 'src/config/AccentRules';
 import Logger from 'src/services/Logger';
 import StorageService from 'src/store/StorageService';
@@ -54,11 +54,14 @@ const useWordFinder = () => {
     };
 
     const nextWord = (word: string, found: boolean): void => {
-        setFoundWords((prevFoundWords) => [...prevFoundWords, { word, found }]);
+        setFoundWords((prevFoundWords: { word: string; found: boolean }[]) => [
+            ...prevFoundWords,
+            { word, found },
+        ]);
 
         setAttempts([]);
         setWord(undefined);
-        inputRefs.current.forEach((input) => {
+        inputRefs.current.forEach((input: HTMLInputElement | null) => {
             if (input) input.value = '';
         });
 
@@ -75,7 +78,9 @@ const useWordFinder = () => {
         const isMatch =
             word &&
             currentWord.length === word.length &&
-            currentWord.split('').every((letter, index) => compareLetters(letter, word[index]));
+            currentWord
+                .split('')
+                .every((letter: string, index: number) => compareLetters(letter, word[index]));
 
         setEnteredLetters([]);
         setIsWordComplete(false);
@@ -84,7 +89,7 @@ const useWordFinder = () => {
             nextWord(word, isMatch);
         } else {
             setAttempts([...attempts, enteredLetters]);
-            inputRefs.current.forEach((input) => {
+            inputRefs.current.forEach((input: HTMLInputElement | null) => {
                 if (input) input.value = '';
             });
         }
@@ -93,7 +98,7 @@ const useWordFinder = () => {
     const getClassForLetter = (attemptLetter: string, index: number): string => {
         if (compareLetters(attemptLetter, letters[index])) {
             return 'ok';
-        } else if (letters.some((letter) => compareLetters(attemptLetter, letter))) {
+        } else if (letters.some((letter: string) => compareLetters(attemptLetter, letter))) {
             return 'not-ok';
         }
         return 'ko';
@@ -102,7 +107,7 @@ const useWordFinder = () => {
     const renderInputs = (): JSX.Element[] => {
         return (
             letters &&
-            letters.map((_, index) => (
+            letters.map((_, index: number) => (
                 <input
                     key={`input-${index}`}
                     ref={(el) => (inputRefs.current[index] = el)}
@@ -153,7 +158,7 @@ const useWordFinder = () => {
         let interval: NodeJS.Timeout;
         if (countdown > 0) {
             interval = setInterval(() => {
-                setCountdown((prevCountdown) => prevCountdown - 1);
+                setCountdown((prevCountdown: number) => prevCountdown - 1);
             }, 1000);
         } else if (countdown === 0) {
             resetGame();

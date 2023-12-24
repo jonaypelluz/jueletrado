@@ -117,7 +117,7 @@ const useSpellTower = () => {
                         </Text>
                     </div>
                 )}
-                {incorrectAnswers.map(([wrong, correct], index) => (
+                {incorrectAnswers.map(([wrong, correct]: [string, string], index: number) => (
                     <div key={index}>
                         <Text type="danger" className="results-ko">
                             {wrong}
