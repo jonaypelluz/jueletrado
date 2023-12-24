@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from 'antd';
 import LoadingSpinner from 'src/components/LoadingSpinner';
 import Logger from 'src/services/Logger';
+import { deleteWordsDB } from 'src/services/WordsService';
 import { useWordsContext } from 'src/store/WordsContext';
 
 type LoadingScreenProps = {
@@ -22,10 +23,16 @@ const errorMessages = [
 ];
 
 const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false }) => {
-    const { loadingProgress, error } = useWordsContext();
+    const { loadingProgress, error, setLoading, setError } = useWordsContext();
 
     const getRandomErrorMessage = () => {
         return errorMessages[Math.floor(Math.random() * errorMessages.length)];
+    };
+
+    const handleDeleteDatabaseClick = async () => {
+        setLoading(true);
+        await deleteWordsDB(setError);
+        setLoading(false);
     };
 
     if (error) {
@@ -44,10 +51,26 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false })
         >
             {error ? (
                 <>
-                    <p>{getRandomErrorMessage()}</p>
-                    <Button type="link" href="/" style={{ marginTop: '20px' }}>
+                    <p style={{ textAlign: 'center', margin: '0 auto' }}>
+                        {getRandomErrorMessage()}
+                    </p>
+                    <Button
+                        type="link"
+                        href="/"
+                        style={{ marginTop: '20px', border: '1px solid #000' }}
+                    >
                         Ir al inicio a buscar las letras
                     </Button>
+                    <p style={{ textAlign: 'center', margin: '20px auto 0' }}>
+                        Si no se encuentran las letras y el error sigue ocurriendo probemos a borrar
+                        todo el contenido descargado.
+                    </p>
+                    <span
+                        style={{ marginTop: '20px', cursor: 'pointer', fontSize: '12px' }}
+                        onClick={handleDeleteDatabaseClick}
+                    >
+                        Borrar contenido descargado
+                    </span>
                 </>
             ) : (
                 <LoadingSpinner rotateMessages={rotateMessages} loadingProgress={loadingProgress} />

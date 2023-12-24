@@ -7,6 +7,10 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: 479px) {
+        margin-top: 24px;
+    }
+
     .btn-levels {
         max-width: 250px;
         border: 1px solid #000;
@@ -46,6 +50,15 @@
             height: auto;
             border-radius: 12px;
             border: 1px solid #000;
+        }
+
+        @media only screen and (max-width: 479px) {
+            margin: 6px;
+            padding: 6px;
+
+            .ant-typography {
+                font-size: 12px;
+            }
         }
     }
 }

@@ -123,4 +123,14 @@ const getWords = async (
     }
 };
 
-export { populateWordsDB, getWords, getAllWords };
+const deleteWordsDB = async (setError: SetErrorFunction): Promise<void> => {
+    try {
+        await dbService.deleteDatabase();
+        Logger.log('Words database successfully deleted');
+    } catch (error) {
+        Logger.error('Error deleting words database:', error);
+        setError(error as Error);
+    }
+};
+
+export { populateWordsDB, getWords, getAllWords, deleteWordsDB };
