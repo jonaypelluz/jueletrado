@@ -154,7 +154,7 @@ const Home: React.FC = () => {
                             gameLevel === level.level ? 'selected' : ''
                         }`}
                     >
-                        <img src={`/levels/${level.level}.png`} alt={level.level} />
+                        <img src={`/levels/${level.level}Bg.png`} alt={level.level} />
                         <Text strong>{levelTranslations[level.level]}</Text>
                     </div>
                 ))}
