@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Layout, Menu, Typography } from 'antd';
 import { HomeOutlined, PlaySquareOutlined } from '@ant-design/icons';
-import { useWordsContext } from 'src/store/WordsContext';
+import { useWordsContext } from '@store/WordsContext';
 import './Header.scss';
 
 const { Text } = Typography;

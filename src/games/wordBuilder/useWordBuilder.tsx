@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import { consonants, vowels } from 'src/config/Abc';
-import { NonAccentedVowels } from 'src/config/AccentRules';
-import { getAllWords } from 'src/services/WordsService';
-import { useWordsContext } from 'src/store/WordsContext';
+import { consonants, vowels } from '@config/Abc';
+import { NonAccentedVowels } from '@config/AccentRules';
+import { getAllWords } from '@services/WordsService';
+import { useWordsContext } from '@store/WordsContext';
 import WordGameProcessor from 'src/utils/WordGameProcessor';
 
 const NUMBER_OF_VOWELS = 2;

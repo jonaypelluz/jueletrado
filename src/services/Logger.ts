@@ -1,9 +1,9 @@
-import appConfig from 'src/config/AppConfig';
-import { LogLevels } from 'src/models/interfaces';
+import LogConfig from '@config/LogConfig';
+import { LogLevels } from '@models/interfaces';
 
 const NO_OP = (message?: any, ...optionalParams: any[]): void => {}; // eslint-disable-line
 
-const config: LogLevels = appConfig();
+const config: LogLevels = LogConfig();
 
 const COLOR_CYAN = 36;
 const COLOR_BLUE = 34;
@@ -17,7 +17,7 @@ class ConsoleLogger {
     info: (message?: any, ...optionalParams: any[]) => void; // eslint-disable-line
     debug: (message?: any, ...optionalParams: any[]) => void; // eslint-disable-line
 
-    constructor(options: { level?: 'error' | 'warn' | 'info' | 'log' | 'debug' } = {}) {
+    constructor(options: { level?: 'error' | 'warn' | 'test' | 'info' } = {}) {
         const { level } = options;
 
         const bindConsoleWithColor = (
@@ -33,6 +33,10 @@ class ConsoleLogger {
         };
 
         this.error = console.error.bind(console);
+        this.warn = console.warn.bind(console);
+        this.info = bindConsoleWithColor(console.log, COLOR_CYAN);
+        this.log = bindConsoleWithColor(console.log, COLOR_BLUE);
+        this.debug = bindConsoleWithColor(console.log, COLOR_DEBUG, BG_COLOR_DEBUG);
 
         if (level === 'error') {
             this.warn = NO_OP;
@@ -42,7 +46,12 @@ class ConsoleLogger {
             return;
         }
 
-        this.warn = console.warn.bind(console);
+        if (level === 'test') {
+            this.warn = NO_OP;
+            this.log = NO_OP;
+            this.info = NO_OP;
+            return;
+        }
 
         if (level === 'warn') {
             this.log = NO_OP;
@@ -50,13 +59,9 @@ class ConsoleLogger {
             this.debug = NO_OP;
             return;
         }
-
-        this.info = bindConsoleWithColor(console.log, COLOR_CYAN);
-        this.log = bindConsoleWithColor(console.log, COLOR_BLUE);
-        this.debug = bindConsoleWithColor(console.log, COLOR_DEBUG, BG_COLOR_DEBUG);
     }
 }
 
-const Logger = new ConsoleLogger({ level: config.LOG_LEVEL ?? 'error' });
+const Logger = new ConsoleLogger({ level: config.LOG_LEVEL });
 
 export default Logger;

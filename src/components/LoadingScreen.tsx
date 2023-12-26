@@ -1,9 +1,9 @@
 import React from 'react';
 import { Button } from 'antd';
+import Logger from '@services/Logger';
+import { deleteWordsDB } from '@services/WordsService';
+import { useWordsContext } from '@store/WordsContext';
 import LoadingSpinner from 'src/components/LoadingSpinner';
-import Logger from 'src/services/Logger';
-import { deleteWordsDB } from 'src/services/WordsService';
-import { useWordsContext } from 'src/store/WordsContext';
 
 type LoadingScreenProps = {
     rotateMessages?: boolean;
@@ -47,6 +47,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false })
                 justifyContent: 'center',
                 alignItems: 'center',
                 flexDirection: 'column',
+                padding: '0 12px',
             }}
         >
             {error ? (

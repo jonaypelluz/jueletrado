@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { WordsContextProvider } from '@store/WordsContext';
 import App from 'src/components/App';
-import { WordsContextProvider } from 'src/store/WordsContext';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
 

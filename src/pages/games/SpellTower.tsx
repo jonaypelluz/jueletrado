@@ -1,9 +1,9 @@
 import React from 'react';
+import GamesConfig from '@config/GamesConfig';
 import SpellTowerUI from '@games/spellTower/UI';
 import useSpellTower from '@games/spellTower/useSpellTower';
-import GamesConfig from 'src/config/GamesConfig';
+import { Game } from '@models/types';
 import MainLayout from 'src/layouts/MainLayout';
-import { Game } from 'src/models/types';
 import './SpellTower.scss';
 
 const SpellTower: React.FC = () => {

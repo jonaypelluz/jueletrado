@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Typography } from 'antd';
+import { Game, WordItem } from '@models/types';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
-import { Game } from 'src/models/types';
 
 const { Text, Title } = Typography;
 
@@ -16,6 +16,7 @@ type WordsRainUIProps = {
     fallingWords: JSX.Element[];
     hearts: number;
     speed: number;
+    incorrectWords: WordItem[];
     wrapperRef: React.RefObject<HTMLDivElement>;
     handleGameStartClick: () => void;
     renderGameResult: () => JSX.Element;
@@ -32,6 +33,7 @@ const UI: React.FC<WordsRainUIProps> = ({
     hearts,
     speed,
     wrapperRef,
+    incorrectWords,
     handleGameStartClick,
     renderGameResult,
 }) => {
@@ -60,7 +62,7 @@ const UI: React.FC<WordsRainUIProps> = ({
                 )}
             </Hero>
             <div className="words-rain-wrapper" ref={wrapperRef}>
-                {showButton && fallingWords.length === 0 && (
+                {showButton && incorrectWords.length === 0 && (
                     <div className="words-rain-inner">
                         <div className="game-rules">
                             <Title level={2}>Reglas</Title>

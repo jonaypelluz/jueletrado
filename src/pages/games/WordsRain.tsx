@@ -1,9 +1,9 @@
 import React from 'react';
+import GamesConfig from '@config/GamesConfig';
 import WordsRainUI from '@games/wordsRain/UI';
 import useWordsRain from '@games/wordsRain/useWordsRain';
-import GamesConfig from 'src/config/GamesConfig';
+import { Game } from '@models/types';
 import MainLayout from 'src/layouts/MainLayout';
-import { Game } from 'src/models/types';
 import './WordsRain.scss';
 
 const WordsRain: React.FC = () => {

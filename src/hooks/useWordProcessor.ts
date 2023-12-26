@@ -1,4 +1,4 @@
-import { ChangeRule } from 'src/models/types';
+import { ChangeRule } from '@models/types';
 import WordGameProcessor from 'src/utils/WordGameProcessor';
 
 export const useWordProcessor = () => {

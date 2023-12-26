@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Typography } from 'antd';
+import { Game } from '@models/types';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
-import { Game } from 'src/models/types';
 
 const { Text, Title } = Typography;
 

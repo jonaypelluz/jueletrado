@@ -1,5 +1,5 @@
 import React, { ReactNode, createContext, useContext, useState } from 'react';
-import StorageService from 'src/store/StorageService';
+import StorageService from '@store/StorageService';
 
 interface WordsContextValue {
     isLoading: boolean;

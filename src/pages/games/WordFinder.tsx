@@ -1,9 +1,9 @@
 import React from 'react';
+import GamesConfig from '@config/GamesConfig';
 import WordFinderUI from '@games/wordFinder/UI';
 import useWordFinder from '@games/wordFinder/useWordFinder';
-import GamesConfig from 'src/config/GamesConfig';
+import { Game } from '@models/types';
 import MainLayout from 'src/layouts/MainLayout';
-import { Game } from 'src/models/types';
 import './WordFinder.scss';
 
 const App: React.FC = () => {

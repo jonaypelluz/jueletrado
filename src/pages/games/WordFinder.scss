@@ -14,6 +14,10 @@
         position: relative;
         z-index: 1;
 
+        @media only screen and (max-width: 767px) {
+            padding: 24px 12px;
+        }
+
         .word-finder-found-words {
             min-height: 200px;
             text-align: center;
@@ -105,9 +109,9 @@
 
                 div,
                 input {
-                    width: 10%;
-                    margin-right: 6px;
-                    margin-bottom: 6px;
+                    width: 12%;
+                    margin-right: 3px;
+                    margin-bottom: 3px;
                     height: 50px;
                 }
 

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { NonAccentedVowels } from 'src/config/AccentRules';
-import Logger from 'src/services/Logger';
-import StorageService from 'src/store/StorageService';
-import { useWordsContext } from 'src/store/WordsContext';
+import { NonAccentedVowels } from '@config/AccentRules';
+import Logger from '@services/Logger';
+import StorageService from '@store/StorageService';
+import { useWordsContext } from '@store/WordsContext';
 
 const GAME_TIMER = 180;
 
@@ -169,7 +169,9 @@ const useWordFinder = () => {
 
     useEffect(() => {
         const fetchWordsFromStorage = async () => {
-            const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_GROUP_60);
+            const storedWords = StorageService.getItem<string[]>(
+                StorageService.WORDS_GROUP_40_UNDER_9,
+            );
             if (storedWords) {
                 storedWords.shift();
                 setWords(storedWords);

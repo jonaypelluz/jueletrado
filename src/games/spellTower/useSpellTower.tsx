@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Button, Typography } from 'antd';
 import { ForwardOutlined } from '@ant-design/icons';
-import ExclusionsRules from 'src/config/ExclusionRules';
-import WordRules from 'src/config/WordRules';
+import ChangeRules from '@config/ChangeRules';
+import ExclusionsRules from '@config/ExclusionRules';
+import Logger from '@services/Logger';
+import StorageService from '@store/StorageService';
+import { useWordsContext } from '@store/WordsContext';
 import { useWordProcessor } from 'src/hooks/useWordProcessor';
-import Logger from 'src/services/Logger';
-import StorageService from 'src/store/StorageService';
-import { useWordsContext } from 'src/store/WordsContext';
 
 const { Text } = Typography;
 
@@ -62,7 +62,7 @@ const useSpellTower = () => {
             const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_GROUP_60);
 
             if (storedWords) {
-                const gameWords = processWords(storedWords, WordRules, ExclusionsRules);
+                const gameWords = processWords(storedWords, ChangeRules, ExclusionsRules);
                 const finalGameWords = processLastWords(gameWords);
                 setWords(finalGameWords);
                 setShowButton(true);

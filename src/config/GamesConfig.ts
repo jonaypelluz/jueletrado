@@ -1,4 +1,4 @@
-import { Game } from 'src/models/types';
+import { Game } from '@models/types';
 
 const GamesConfig: Game[] = [
     {

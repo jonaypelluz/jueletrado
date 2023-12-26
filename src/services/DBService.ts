@@ -1,20 +1,34 @@
-import LevelsConfig from 'src/config/LevelConfig';
-import Logger from './Logger';
+import LevelsConfig from '@config/LevelConfig';
+import { LevelConfig } from '@models/types';
+import Logger from '@services/Logger';
 
 const DB_NAME = 'jueletrado-db';
 const DB_VERSION = 1;
 
+export interface IDbServiceOptions {
+    dbFactory: IDBFactory;
+    logger: typeof Logger;
+}
+
 class DBService {
     private db: IDBDatabase | null = null;
     private isPopulatedMap: Map<string, boolean> = new Map();
-    private activeTransactions: Set<IDBTransaction> = new Set();
-    private operationQueue: (() => Promise<void>)[] = [];
-    private isProcessingQueue: boolean = false;
 
     private storeName: string = '';
+    private logger: typeof Logger;
+    private dbFactory: IDBFactory;
+
+    constructor(options: IDbServiceOptions) {
+        this.dbFactory = options.dbFactory;
+        this.logger = options.logger;
+    }
 
     setStoreName(level: string) {
         this.storeName = `words_level_${level}`;
+    }
+
+    getStoreName() {
+        return this.storeName;
     }
 
     startTransaction(mode: IDBTransactionMode): IDBTransaction {
@@ -23,26 +37,8 @@ class DBService {
         }
 
         const transaction = this.db.transaction([this.storeName], mode);
-        this.activeTransactions.add(transaction);
-
-        const completionCallback = () => this.activeTransactions.delete(transaction);
-        transaction.oncomplete = completionCallback;
-        transaction.onerror = completionCallback;
-        transaction.onabort = completionCallback;
 
         return transaction;
-    }
-
-    abortAllTransactions() {
-        this.activeTransactions.forEach((transaction) => {
-            try {
-                transaction.abort();
-            } catch (error) {
-                Logger.error('Error aborting transaction:', error);
-            }
-        });
-
-        this.activeTransactions.clear();
     }
 
     async ensureDBInitialized(): Promise<void> {
@@ -53,11 +49,11 @@ class DBService {
 
     async initDB(): Promise<void> {
         return new Promise((resolve, reject) => {
-            const request = indexedDB.open(DB_NAME, DB_VERSION);
+            const request = this.dbFactory.open(DB_NAME, DB_VERSION);
 
             request.onupgradeneeded = () => {
                 const db = request.result;
-                LevelsConfig.forEach((config) => {
+                LevelsConfig.forEach((config: LevelConfig) => {
                     const storeName = `words_level_${config.level}`;
                     if (!db.objectStoreNames.contains(storeName)) {
                         db.createObjectStore(storeName, { autoIncrement: true });
@@ -71,12 +67,12 @@ class DBService {
             };
 
             request.onerror = () => {
-                Logger.error('DB Initialization Error', request.error?.message);
+                this.logger.error('DB Initialization Error', request.error?.message);
                 reject(`Database error: ${request.error?.message}`);
             };
 
             request.onblocked = () => {
-                Logger.warn('DB Initialization Blocked', 'The database request was blocked.');
+                this.logger.warn('DB Initialization Blocked', 'The database request was blocked.');
             };
         });
     }
@@ -84,28 +80,29 @@ class DBService {
     async addWords(level: string, words: string[], minimumPopulatedCount: number): Promise<void> {
         const populated = await this.checkIfPopulated(level, minimumPopulatedCount);
         if (populated) {
-            Logger.log(
+            this.logger.log(
                 `The database is already populated for level ${level}. Skipping adding words.`,
             );
             return;
         }
 
         return new Promise((resolve, reject) => {
-            this.enqueueOperation(async () => {
-                await this.ensureDBInitialized();
-                const transaction = this.startTransaction('readwrite');
-                const store = transaction.objectStore(this.storeName);
+            this.ensureDBInitialized()
+                .then(() => {
+                    const transaction = this.startTransaction('readwrite');
+                    const store = transaction.objectStore(this.storeName);
 
-                for (const word of words) {
-                    store.add(word);
-                }
+                    for (const word of words) {
+                        store.add(word);
+                    }
 
-                transaction.oncomplete = () => resolve();
-                transaction.onerror = () => {
-                    Logger.error('Transaction Error', transaction.error?.message);
-                    reject(transaction.error);
-                };
-            });
+                    transaction.oncomplete = () => resolve();
+                    transaction.onerror = () => {
+                        this.logger.error('Transaction Error', transaction.error?.message);
+                        reject(transaction.error);
+                    };
+                })
+                .catch(reject);
         });
     }
 
@@ -122,7 +119,7 @@ class DBService {
                     };
 
                     request.onerror = () => {
-                        Logger.error(`Error getting all words: ${request.error?.message}`);
+                        this.logger.error(`Error getting all words: ${request.error?.message}`);
                         reject(request.error);
                     };
                 })
@@ -132,7 +129,7 @@ class DBService {
 
     async checkIfPopulated(level: string, minimumPopulatedCount: number): Promise<boolean> {
         if (this.isPopulatedMap.get(level)) {
-            Logger.log(`Database check: Already marked as populated for level ${level}.`);
+            this.logger.log(`Database check: Already marked as populated for level ${level}.`);
             return true;
         }
 
@@ -146,20 +143,44 @@ class DBService {
                     request.onsuccess = () => {
                         const isPopulated = request.result > minimumPopulatedCount;
                         this.isPopulatedMap.set(level, isPopulated);
-                        Logger.log(
+                        this.logger.log(
                             `Database check: Populated status for level ${level} - ${isPopulated}`,
                         );
                         resolve(isPopulated);
                     };
 
                     request.onerror = () => {
-                        Logger.error(
+                        this.logger.error(
                             `Error checking if populated for level ${level}: ${request.error?.message}`,
                         );
                         reject(request.error);
                     };
                 })
                 .catch(reject);
+        });
+    }
+
+    async getRandomWordsWithMaxLength(count: number, maxLength: number): Promise<string[]> {
+        return new Promise((resolve, reject) => {
+            const fetchAndFilterWords = async (attempt = 1) => {
+                const maxAttempts = 5;
+                const sampleSize = count * attempt * 2;
+
+                try {
+                    const words = await this.getRandomWords(sampleSize);
+                    const filteredWords = words.filter((word) => word.length < maxLength);
+
+                    if (filteredWords.length >= count || attempt >= maxAttempts) {
+                        resolve(filteredWords.slice(0, count));
+                    } else {
+                        await fetchAndFilterWords(attempt + 1);
+                    }
+                } catch (error) {
+                    reject(error);
+                }
+            };
+
+            fetchAndFilterWords();
         });
     }
 
@@ -196,7 +217,7 @@ class DBService {
                     };
 
                     countRequest.onerror = () => {
-                        Logger.error(`Error counting records: ${countRequest.error?.message}`);
+                        this.logger.error(`Error counting records: ${countRequest.error?.message}`);
                         reject(countRequest.error);
                     };
                 })
@@ -211,47 +232,32 @@ class DBService {
                 this.db = null;
             }
 
-            this.abortAllTransactions();
-
             const request = indexedDB.deleteDatabase(DB_NAME);
 
             request.onsuccess = () => {
                 this.isPopulatedMap.clear();
-                Logger.log('Database successfully deleted');
+                this.logger.log('Database successfully deleted');
                 resolve();
             };
 
             request.onerror = () => {
-                Logger.error('Error deleting database', request.error?.message);
+                this.logger.error('Error deleting database', request.error?.message);
                 reject(request.error);
             };
 
             request.onblocked = () => {
-                Logger.warn('Database deletion blocked. Retrying...');
+                this.logger.warn('Database deletion blocked. Retrying...');
                 setTimeout(() => {
                     this.deleteDatabase().then(resolve).catch(reject);
                 }, 1000);
             };
         });
     }
-
-    private async processQueue() {
-        if (this.isProcessingQueue || this.operationQueue.length === 0) {
-            return;
-        }
-        this.isProcessingQueue = true;
-        const operation = this.operationQueue.shift();
-        if (operation) {
-            await operation();
-        }
-        this.isProcessingQueue = false;
-        this.processQueue();
-    }
-
-    private enqueueOperation(operation: () => Promise<void>) {
-        this.operationQueue.push(operation);
-        this.processQueue();
-    }
 }
 
-export const dbService = new DBService();
+const dbService = new DBService({
+    dbFactory: indexedDB as IDBFactory,
+    logger: Logger,
+});
+
+export { dbService };

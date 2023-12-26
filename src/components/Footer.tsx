@@ -1,11 +1,12 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { Layout, Typography } from 'antd';
 
 const { Footer } = Layout;
+const { Text } = Typography;
 
 const Foot: React.FC = () => {
     return (
-        <Footer>
+        <Footer className="footer">
             <a
                 target="_blank"
                 href="https://www.buymeacoffee.com/jonaypelluz"
@@ -21,6 +22,7 @@ const Foot: React.FC = () => {
                     <br /> Me a<br /> Coffee
                 </span>
             </a>
+            <Text strong>powered by @jonaypelluz</Text>
         </Footer>
     );
 };

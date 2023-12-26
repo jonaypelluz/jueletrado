@@ -1,4 +1,4 @@
-import { LevelConfig } from 'src/models/types';
+import { LevelConfig } from '@models/types';
 
 const LevelsConfig: LevelConfig[] = [
     {

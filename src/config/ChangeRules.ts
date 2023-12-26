@@ -1,6 +1,6 @@
-import { ChangeRule } from 'src/models/types';
+import { ChangeRule } from '@models/types';
 
-const WordRules: ChangeRule[] = [
+const ChangeRules: ChangeRule[] = [
     { ge: ['je', 'ge'] },
     { gé: ['jé', 'gé'] },
     { gi: ['ji', 'gi'] },
@@ -23,4 +23,4 @@ const WordRules: ChangeRule[] = [
     { y: ['ll', 'y'] },
 ];
 
-export default WordRules;
+export default ChangeRules;

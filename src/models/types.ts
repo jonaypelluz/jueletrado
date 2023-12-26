@@ -15,3 +15,9 @@ export type Game = {
     subtitle: string;
     description: string;
 };
+
+export type WordItem = {
+    word: string;
+    correct: string;
+    correctWord: string;
+};

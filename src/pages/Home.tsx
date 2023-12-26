@@ -1,15 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Typography } from 'antd';
+import LevelsConfig from '@config/LevelConfig';
+import { LevelConfig } from '@models/types';
+import Logger from '@services/Logger';
+import { getWords, populateWordsDB } from '@services/WordsService';
+import StorageService, { StorageKey } from '@store/StorageService';
+import { useWordsContext } from '@store/WordsContext';
 import Games from 'src/components/Games';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
-import LevelsConfig from 'src/config/LevelConfig';
 import MainLayout from 'src/layouts/MainLayout';
-import { LevelConfig } from 'src/models/types';
-import Logger from 'src/services/Logger';
-import { getWords, populateWordsDB } from 'src/services/WordsService';
-import StorageService, { StorageKey } from 'src/store/StorageService';
-import { useWordsContext } from 'src/store/WordsContext';
 import './Home.scss';
 
 const { Text } = Typography;
@@ -69,9 +69,10 @@ const Home: React.FC = () => {
 
     useEffect(() => {
         if (areWordsLoaded) {
-            const wordGroups: { count: number; key: StorageKey }[] = [
+            const wordGroups: { count: number; key: StorageKey; maxLength?: number }[] = [
                 { count: 20, key: StorageService.WORDS_GROUP_20 },
                 { count: 40, key: StorageService.WORDS_GROUP_40 },
+                { count: 40, key: StorageService.WORDS_GROUP_40_UNDER_9, maxLength: 9 },
                 { count: 60, key: StorageService.WORDS_GROUP_60 },
                 { count: 80, key: StorageService.WORDS_GROUP_80 },
             ];
@@ -79,12 +80,18 @@ const Home: React.FC = () => {
             const fetchAndStoreWords = async (group: {
                 count: number;
                 key: StorageKey;
+                maxLength?: number;
             }): Promise<void> => {
                 const storedWords = StorageService.getItem<string[]>(group.key);
 
                 if (!storedWords || storedWords.length === 0) {
                     try {
-                        const words = await getWords(gameLevel, group.count, setError);
+                        const words = await getWords(
+                            gameLevel,
+                            group.count,
+                            setError,
+                            group.maxLength,
+                        );
                         if (words && words.length > 0) {
                             StorageService.setItem(group.key, words, 3600000);
                         } else {
@@ -105,7 +112,7 @@ const Home: React.FC = () => {
                     Logger.error('Error in loading word groups:', error);
                 });
         }
-    }, [areWordsLoaded]);
+    }, [areWordsLoaded, gameLevel, setError]);
 
     useEffect(() => {
         if (wordGroupsLoaded) {

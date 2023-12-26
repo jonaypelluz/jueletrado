@@ -1,12 +1,13 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Typography } from 'antd';
 import { ForwardOutlined } from '@ant-design/icons';
-import ExclusionsRules from 'src/config/ExclusionRules';
-import WordRules from 'src/config/WordRules';
+import ChangeRules from '@config/ChangeRules';
+import ExclusionsRules from '@config/ExclusionRules';
+import { WordItem } from '@models/types';
+import Logger from '@services/Logger';
+import StorageService from '@store/StorageService';
+import { useWordsContext } from '@store/WordsContext';
 import { useWordProcessor } from 'src/hooks/useWordProcessor';
-import Logger from 'src/services/Logger';
-import StorageService from 'src/store/StorageService';
-import { useWordsContext } from 'src/store/WordsContext';
 
 const { Text } = Typography;
 
@@ -20,12 +21,6 @@ const MIN_ANIMATION_DURATION = 1;
 const LEVEL_UP_INTERVAL = 5;
 const MINIMUM_TIMER_SPEED = 1;
 const BASE_TIMER_SPEED = 4;
-
-type WordItem = {
-    word: string;
-    correct: string;
-    correctWord: string;
-};
 
 const useWordsRain = () => {
     const { error, setError, setLoading, isLoading } = useWordsContext();
@@ -55,7 +50,7 @@ const useWordsRain = () => {
             setHearts((prevHearts: number) => {
                 const newHearts = prevHearts - 1;
                 if (newHearts <= 0) {
-                    renderGameResult();
+                    stopGame();
                     return 0;
                 }
                 return newHearts;
@@ -66,13 +61,19 @@ const useWordsRain = () => {
         );
     };
 
-    const resetGame = () => {
+    const stopGame = () => {
+        setShowButton(true);
+        setGameStarted(false);
+        setFallingWords([]);
         setHearts(HEARTS);
         setFallingWords([]);
-        setIncorrectWords([]);
         setSpeed(1);
         setTimer(0);
         keyCountRef.current = 0;
+    };
+
+    const resetGame = () => {
+        setIncorrectWords([]);
     };
 
     const handleGameStartClick = () => {
@@ -186,43 +187,38 @@ const useWordsRain = () => {
         );
     };
 
-    const renderGameResult = (): JSX.Element => {
-        setShowButton(true);
-        setGameStarted(false);
-
-        return (
-            <div className="results-wrapper words-rain-results">
-                {incorrectWords.length > 0 && (
-                    <div>
-                        <Text italic className="results-title">
-                            Palabras incorrectas:
-                        </Text>
-                        <Text strong type="danger" className="results-title">
-                            {incorrectWords.length}
-                        </Text>
-                    </div>
-                )}
-                {incorrectWords.map((item, index) => (
-                    <div key={index}>
-                        <Text strong type="danger" className="results-ko">
-                            {item.word !== item.correctWord ? item.word : 'No viste'}
-                        </Text>
-                        <ForwardOutlined />
-                        <Text strong className="results-ok" style={{ color: '#000' }}>
-                            {item.correctWord}
-                        </Text>
-                    </div>
-                ))}
-            </div>
-        );
-    };
+    const renderGameResult = (): JSX.Element => (
+        <div className="results-wrapper words-rain-results">
+            {incorrectWords.length > 0 && (
+                <div>
+                    <Text italic className="results-title">
+                        Palabras incorrectas:
+                    </Text>
+                    <Text strong type="danger" className="results-title">
+                        {incorrectWords.length}
+                    </Text>
+                </div>
+            )}
+            {incorrectWords.map((item, index) => (
+                <div key={index}>
+                    <Text strong type="danger" className="results-ko">
+                        {item.word !== item.correctWord ? item.word : 'No viste'}
+                    </Text>
+                    <ForwardOutlined />
+                    <Text strong className="results-ok" style={{ color: '#000' }}>
+                        {item.correctWord}
+                    </Text>
+                </div>
+            ))}
+        </div>
+    );
 
     useEffect(() => {
         const fetchWordsFromStorage = async () => {
             const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_GROUP_80);
 
             if (storedWords) {
-                const gameWords = processWords(storedWords, WordRules, ExclusionsRules);
+                const gameWords = processWords(storedWords, ChangeRules, ExclusionsRules);
                 const finalGameWords = processLastWords(gameWords);
                 const theGameWords = finalGameWords.flatMap((subArray) =>
                     subArray.map((word, index) => ({
@@ -265,6 +261,7 @@ const useWordsRain = () => {
         hearts,
         speed,
         wrapperRef,
+        incorrectWords,
         handleGameStartClick,
         renderGameResult,
     };

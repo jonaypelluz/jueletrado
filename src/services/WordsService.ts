@@ -1,7 +1,7 @@
-import LevelsConfig from 'src/config/LevelConfig';
-import { dbService } from 'src/services/DBService';
-import Logger from 'src/services/Logger';
-import StorageService from 'src/store/StorageService';
+import LevelsConfig from '@config/LevelConfig';
+import { dbService } from '@services/DBService';
+import Logger from '@services/Logger';
+import StorageService from '@store/StorageService';
 
 type SetErrorFunction = (error: Error | null) => void;
 type SetLoadingProgressFunction = (progress: number) => void;
@@ -101,6 +101,7 @@ const getWords = async (
     level: string | null,
     count: number,
     setError: SetErrorFunction,
+    maxLength: number | null = null,
 ): Promise<string[] | undefined> => {
     const levelConfig = LevelsConfig.find((config) => config.level === level);
     if (!levelConfig) {
@@ -114,7 +115,12 @@ const getWords = async (
         dbService.setStoreName(levelConfig.level);
         await dbService.initDB();
 
-        const words = await dbService.getRandomWords(count);
+        let words;
+        if (maxLength !== null) {
+            words = await dbService.getRandomWordsWithMaxLength(count, maxLength);
+        } else {
+            words = await dbService.getRandomWords(count);
+        }
 
         return words;
     } catch (error) {

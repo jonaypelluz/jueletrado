@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, Col, Row } from 'antd';
-import GamesConfig from 'src/config/GamesConfig';
-import { Game } from 'src/models/types';
+import GamesConfig from '@config/GamesConfig';
+import { Game } from '@models/types';
 
 const { Meta } = Card;
 
