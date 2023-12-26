@@ -55,7 +55,8 @@
         "test:coverage": "REACT_APP_APP_ENV=test jest --coverage",
         "lint": "eslint '{src,__tests__}/**/*.{js,jsx,ts,tsx}'",
         "lint:fix": "eslint --fix '{src,__tests__}/**/*.{js,jsx,ts,tsx}'",
-        "format": "prettier --write '{src,__tests__,public,ops}/**/*.{js,jsx,ts,tsx,css,md,scss,html}' --config ./.prettierrc.js"
+        "format": "prettier --write '{src,__tests__,public,ops}/**/*.{js,jsx,ts,tsx,css,md,scss,html}' --config ./.prettierrc.js",
+        "format:json": "prettier --write '{src,ops,public}/**/*.json' --config ./.prettierrc.js"
     },
     "eslintConfig": {
         "extends": [
