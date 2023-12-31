@@ -1,13 +1,13 @@
 import React from 'react';
 import { Button, Col, Row, Typography } from 'antd';
-import { Game } from '@models/types';
+import { CardInfo } from '@models/types';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 
 const { Text, Title } = Typography;
 
 type WordBuilderUIProps = {
-    gameConfig: Game;
+    gameConfig: CardInfo;
     error: Error | null;
     isLoading: boolean;
     words: string[];

@@ -12,11 +12,14 @@ chunkSize=100000
 offset=1
 firstElement=true
 
+declare -a generatedFiles
+
 while IFS= read -r line; do
     if [ $((offset % chunkSize)) -eq 1 ]; then
         if [ "$offset" -ne 1 ]; then
             printf "]" >> "$currentOutputFile"
             echo "File has been saved as $currentOutputFile"
+            generatedFiles+=("$currentOutputFile")
         fi
 
         startOffset=$offset
@@ -39,4 +42,11 @@ done < "$inputFile"
 if [ $(( (offset - 1) % chunkSize)) -ne 0 ]; then
     printf "]" >> "$currentOutputFile"
     echo "File has been saved as $currentOutputFile"
+    generatedFiles+=("$currentOutputFile")
 fi
+
+for file in "${generatedFiles[@]}"; do
+    mv "$file" "../../public/words/"
+done
+
+echo "All files have been moved to ../public/words"

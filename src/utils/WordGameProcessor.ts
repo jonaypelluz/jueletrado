@@ -1,45 +1,38 @@
 import { AccentedVowels, NonAccentedVowels } from '@config/AccentRules';
+import ChangeRules from '@config/ChangeRules';
 import { ChangeRule } from '@models/types';
 
 class WordGameProcessor {
-    private changeRules: ChangeRule[] = [];
-    private exclusions: string[] = [];
-
-    setChangeRules(rules: ChangeRule[]): void {
-        this.changeRules = rules;
-    }
-
-    setExclusions(exclusions: string[]): void {
-        this.exclusions = exclusions;
-    }
+    private changeRules: ChangeRule[] = ChangeRules;
 
     processWord(word: string): string[] {
         const applicableRules = this.changeRules.filter((rule) => {
             const key = Object.keys(rule)[0];
-
-            const hasExclusion = this.exclusions.some((exclusion) => word.includes(exclusion));
-            if (hasExclusion) {
-                return false;
-            }
-
-            return word.includes(key);
+            const regex = new RegExp(key);
+            return regex.test(word);
         });
 
         if (applicableRules.length === 0) {
             return [word];
+        } else if (applicableRules.length === 1) {
+            const [search, replace] = Object.entries(applicableRules[0])[0];
+            return [word, word.replace(new RegExp(search), replace)];
+        } else {
+            const variants: string[] = [];
+
+            while (variants.length < Math.min(2, applicableRules.length)) {
+                const randomRule =
+                    applicableRules[Math.floor(Math.random() * applicableRules.length)];
+                const [search, replace] = Object.entries(randomRule)[0];
+                const newVariant = word.replace(new RegExp(search), replace);
+
+                if (!variants.includes(newVariant)) {
+                    variants.push(newVariant);
+                }
+            }
+
+            return [word, ...variants];
         }
-
-        const randomRule = applicableRules[Math.floor(Math.random() * applicableRules.length)];
-        const [search, [replace1, replace2]] = Object.entries(randomRule)[0];
-
-        const wordVariant1 = word.replace(search, replace1);
-        const wordVariant2 = word.replace(search, replace2);
-
-        if (word === wordVariant2) {
-            return [word, wordVariant1];
-        }
-
-        return [word, wordVariant1, wordVariant2];
     }
 
     processWordWithAccent(word: string): string[] {

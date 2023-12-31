@@ -1,26 +1,15 @@
 import { ChangeRule } from '@models/types';
 
 const ChangeRules: ChangeRule[] = [
-    { ge: ['je', 'ge'] },
-    { gé: ['jé', 'gé'] },
-    { gi: ['ji', 'gi'] },
-    { gí: ['jí', 'gí'] },
-    { je: ['ge', 'je'] },
-    { jé: ['gé', 'jé'] },
-    { ji: ['gi', 'ji'] },
-    { jí: ['gí', 'jí'] },
-    { ce: ['se', 'ce'] },
-    { cé: ['sé', 'cé'] },
-    { se: ['ce', 'se'] },
-    { sé: ['cé', 'sé'] },
-    { ci: ['si', 'ci'] },
-    { cí: ['sí', 'cí'] },
-    { si: ['ci', 'si'] },
-    { sí: ['cí', 'sí'] },
-    { b: ['v', 'b'] },
-    { v: ['b', 'v'] },
-    { ll: ['y', 'll'] },
-    { y: ['ll', 'y'] },
+    { '^ha': 'a' },
+    { '^he': 'e' },
+    { 'j(?=e|é|i|í)': 'g' },
+    { 'g(?=e|é|i|í)': 'j' },
+    { '(?<!c)c(?=e|é|i|í)': 's' },
+    { '(?<!m)b': 'v' },
+    { v: 'b' },
+    { ll: 'y' },
+    { y: 'll' },
 ];
 
 export default ChangeRules;

@@ -1,0 +1,13 @@
+@import '../../variables.scss';
+@import '../../common.scss';
+
+.accentuation-wrapper {
+    @extend .game-wrapper;
+
+    background-color: #fff;
+    padding: 24px;
+
+    span.ant-typography {
+        font-size: 18px;
+    }
+}

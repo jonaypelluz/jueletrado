@@ -1,17 +1,13 @@
-import { ChangeRule } from '@models/types';
 import WordGameProcessor from 'src/utils/WordGameProcessor';
 
 export const useWordProcessor = () => {
     const processor = new WordGameProcessor();
 
-    const processWords = (words: string[], rules: ChangeRule[], exclusions: string[]) => {
-        processor.setChangeRules(rules);
-        processor.setExclusions(exclusions);
+    const processWords = (words: string[]) => {
         return words.map((word) => processor.processWord(word));
     };
 
-    const processWordsWithAccents = (words: string[], rules: ChangeRule[]) => {
-        processor.setChangeRules(rules);
+    const processWordsWithAccents = (words: string[]) => {
         return words.map((word) => processor.processWordWithAccent(word));
     };
 

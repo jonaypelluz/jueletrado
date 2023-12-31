@@ -1,4 +1,4 @@
-export type ChangeRule = { [key: string]: [string, string] };
+export type ChangeRule = { [key: string]: string };
 
 export type LevelConfig = {
     level: string;
@@ -7,7 +7,7 @@ export type LevelConfig = {
     minimumPopulatedCount: number;
 };
 
-export type Game = {
+export type CardInfo = {
     id: string;
     link: string;
     imgSrc: string;

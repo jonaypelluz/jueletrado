@@ -1,13 +1,13 @@
 import React from 'react';
 import { Button, Typography } from 'antd';
-import { Game, WordItem } from '@models/types';
+import { CardInfo, WordItem } from '@models/types';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 
 const { Text, Title } = Typography;
 
 type WordsRainUIProps = {
-    gameConfig: Game;
+    gameConfig: CardInfo;
     error: Error | null;
     timer: number;
     isLoading: boolean;

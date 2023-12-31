@@ -1,8 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Typography } from 'antd';
 import { ForwardOutlined } from '@ant-design/icons';
-import ChangeRules from '@config/ChangeRules';
-import ExclusionsRules from '@config/ExclusionRules';
 import { WordItem } from '@models/types';
 import Logger from '@services/Logger';
 import StorageService from '@store/StorageService';
@@ -218,7 +216,7 @@ const useWordsRain = () => {
             const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_GROUP_80);
 
             if (storedWords) {
-                const gameWords = processWords(storedWords, ChangeRules, ExclusionsRules);
+                const gameWords = processWords(storedWords);
                 const finalGameWords = processLastWords(gameWords);
                 const theGameWords = finalGameWords.flatMap((subArray) =>
                     subArray.map((word, index) => ({

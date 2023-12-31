@@ -11,6 +11,16 @@ header {
         }
     }
 
+    .ant-menu  {
+        line-height: 78px;
+        background-color: #000;
+        width: auto;
+
+        @media only screen and (max-width: 550px) {
+            width: 70px;
+        }
+    }
+
     .word-of-the-day {
         display: flex;
         align-items: center;

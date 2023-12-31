@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Typography } from 'antd';
+import { Collapse, Typography } from 'antd';
 import LevelsConfig from '@config/LevelConfig';
 import { LevelConfig } from '@models/types';
 import Logger from '@services/Logger';
@@ -17,11 +17,11 @@ const { Text } = Typography;
 const EXPIRE_TIME_24H: number = 86400000;
 
 const mainImageArray: string[] = [
-    '/home/Jueletrado_1.png',
-    '/home/Jueletrado_2.png',
-    '/home/Jueletrado_3.png',
-    '/home/Jueletrado_4.png',
-    '/home/Jueletrado_5.png',
+    '/images/home/Jueletrado_1.png',
+    '/images/home/Jueletrado_2.png',
+    '/images/home/Jueletrado_3.png',
+    '/images/home/Jueletrado_4.png',
+    '/images/home/Jueletrado_5.png',
 ];
 
 const levelTranslations: { [key: string]: string } = {
@@ -29,6 +29,31 @@ const levelTranslations: { [key: string]: string } = {
     intermediate: 'Intermedio',
     hard: 'Difícil',
 };
+
+interface LevelListProps {
+    handlePopulateDBClick: (level: string) => void;
+    gameLevel: string | null;
+}
+
+const LevelList: React.FC<LevelListProps> = ({
+    handlePopulateDBClick,
+    gameLevel,
+}: LevelListProps) => (
+    <>
+        {LevelsConfig.map((level: LevelConfig, idx: number) => (
+            <div
+                key={idx}
+                onClick={() => handlePopulateDBClick(level.level)}
+                className={`btn-${level.level} btn-levels ${
+                    gameLevel && gameLevel === level.level ? 'selected' : ''
+                }`}
+            >
+                <img src={`/images/levels/${level.level}Bg.png`} alt={level.level} />
+                <Text strong>{levelTranslations[level.level]}</Text>
+            </div>
+        ))}
+    </>
+);
 
 const Home: React.FC = () => {
     const {
@@ -154,18 +179,23 @@ const Home: React.FC = () => {
                 styles={{ border: '1px solid #000' }}
             />
             <div className="level-wrapper">
-                {LevelsConfig.map((level: LevelConfig, idx: number) => (
-                    <div
-                        key={idx}
-                        onClick={() => handlePopulateDBClick(level.level)}
-                        className={`btn-${level.level} btn-levels ${
-                            gameLevel === level.level ? 'selected' : ''
-                        }`}
-                    >
-                        <img src={`/levels/${level.level}Bg.png`} alt={level.level} />
-                        <Text strong>{levelTranslations[level.level]}</Text>
-                    </div>
-                ))}
+                <Collapse
+                    collapsible="header"
+                    defaultActiveKey={gameLevel === null ? ['1']: []}
+                    ghost={true}
+                    items={[
+                        {
+                            key: '1',
+                            label: gameLevel ? `Nivel: ${levelTranslations[gameLevel]}` : 'Elige el nivel',
+                            children: (
+                                <LevelList
+                                    handlePopulateDBClick={handlePopulateDBClick}
+                                    gameLevel={gameLevel}
+                                />
+                            ),
+                        },
+                    ]}
+                />
             </div>
             <Games />
         </MainLayout>

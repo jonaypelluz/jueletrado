@@ -27,12 +27,16 @@ const Head: React.FC = () => {
             icon: <PlaySquareOutlined />,
             key: '/games',
         },
+        {
+            label: <Link to="/spelling-rules">Normas de ortografía</Link>,
+            icon: <PlaySquareOutlined />,
+            key: '/spelling-rules',
+        },
     ];
 
     return (
         <Header className="header">
             <Menu
-                style={{ lineHeight: '78px', backgroundColor: '#000' }}
                 theme="dark"
                 mode="horizontal"
                 items={items}
