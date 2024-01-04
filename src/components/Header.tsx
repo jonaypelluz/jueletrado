@@ -45,7 +45,7 @@ const Head: React.FC = () => {
                             <HomeOutlined />&nbsp;&nbsp;&nbsp;Inicio
                         </>
                     ) : (
-                        <img src="/jueletrado.jpg" className="logo" alt="Jueletrado" />
+                        <img src="/logo-jueletrado.jpg" className="logo" alt="Jueletrado" />
                     )}
                 </Link>
             ),
