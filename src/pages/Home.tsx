@@ -181,12 +181,14 @@ const Home: React.FC = () => {
             <div className="level-wrapper">
                 <Collapse
                     collapsible="header"
-                    defaultActiveKey={gameLevel === null ? ['1']: []}
+                    defaultActiveKey={gameLevel === null ? ['1'] : []}
                     ghost={true}
                     items={[
                         {
                             key: '1',
-                            label: gameLevel ? `Nivel: ${levelTranslations[gameLevel]}` : 'Elige el nivel',
+                            label: gameLevel
+                                ? `Nivel: ${levelTranslations[gameLevel]}`
+                                : 'Elige el nivel',
                             children: (
                                 <LevelList
                                     handlePopulateDBClick={handlePopulateDBClick}
