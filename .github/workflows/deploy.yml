@@ -34,6 +34,8 @@ jobs:
               ${{ runner.os }}-npm-cache
       - name: Install Dependencies
         run: yarn install
+      - name: Prepare Environment File
+        run: mv ops/docker/app/.env.production .env.production
       - name: Run Tests
         run: yarn test
       - name: Build App
