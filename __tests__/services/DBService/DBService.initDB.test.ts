@@ -1,7 +1,6 @@
 import LevelsConfig from '@config/LevelConfig';
 import { dbService } from '@services/DBService';
 import Logger from '@services/Logger';
-// import 'core-js/stable/structured-clone';
 import 'fake-indexeddb/auto';
 
 jest.mock('@services/Logger', () => ({

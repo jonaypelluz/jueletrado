@@ -42,7 +42,8 @@ const Head: React.FC = () => {
                 <Link to="/">
                     {isCollapsed ? (
                         <>
-                            <HomeOutlined />&nbsp;&nbsp;&nbsp;Inicio
+                            <HomeOutlined />
+                            &nbsp;&nbsp;&nbsp;Inicio
                         </>
                     ) : (
                         <img src="/logo-jueletrado.jpg" className="logo" alt="Jueletrado" />

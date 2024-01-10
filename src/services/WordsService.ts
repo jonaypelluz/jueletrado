@@ -6,7 +6,7 @@ import StorageService from '@store/StorageService';
 type SetErrorFunction = (error: Error | null) => void;
 type SetLoadingProgressFunction = (progress: number) => void;
 
-async function loadWords(level: string, start: number, end: number) {
+const loadWords = async (level: string, start: number, end: number) => {
     try {
         const response = await fetch(`/words/${level}_words_from_${start}_to_${end}.json`);
         if (!response.ok) {
@@ -139,4 +139,4 @@ const deleteWordsDB = async (setError: SetErrorFunction): Promise<void> => {
     }
 };
 
-export { populateWordsDB, getWords, getAllWords, deleteWordsDB };
+export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords };
