@@ -18,13 +18,6 @@ func main() {
 	}
 	defer basicFile.Close()
 
-	outputFile, err := os.OpenFile("output.txt", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
-	if err != nil {
-		fmt.Println("Error opening output file:", err)
-		return
-	}
-	defer outputFile.Close()
-
 	fmt.Println("Enter words (type 'exit' to finish):")
 	for scanner.Scan() {
 		word := scanner.Text()
@@ -36,8 +29,6 @@ func main() {
 			if _, found := basicWords[word]; !found {
 				basicFile.WriteString(word + "\n")
 				basicWords[word] = struct{}{}
-			} else {
-				outputFile.WriteString(word + "\n")
 			}
 		}
 	}
