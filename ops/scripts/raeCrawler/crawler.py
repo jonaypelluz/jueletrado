@@ -114,10 +114,7 @@ def parse_html(html_content, word):
             else:
                 results.append(word_object)
 
-    for duplicate in duplicates:
-        max_number += 1
-        duplicate['number'] = str(max_number)
-        results.append(duplicate)
+    # Add Section with expresions
 
     if not results:
         print(f"No matching definitions found for word: {word}")
@@ -145,14 +142,12 @@ def clean_definition_extra(definition_extra):
 
 def beautifier(word_obj):
     def format_content(content):
-        content = content.strip().replace(" :", ":").replace(" ,", ",").replace(" .", ".").replace("‖ ", "")
+        content = content.strip().replace(" :", ":").replace(" ,", ",").replace(" .", ".").replace("‖ ", "").replace(" )", ")").replace(",.", ".")
         if not content.endswith("."):
             content += "."
         return content
     
-    if word_obj['definition'].endswith(" ."):
-        word_obj['definition'] = word_obj['definition'][:-2] + "."
-    elif not word_obj['definition'].endswith("."):
+    if not word_obj['definition'].endswith("."):
         word_obj['definition'] += "."
 
     word_obj['definition'] = format_content(word_obj['definition'])

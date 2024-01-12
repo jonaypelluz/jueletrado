@@ -23,5 +23,116 @@
                 ]
             }
         ]
+    },
+    "waterpolo": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Deportes",
+                "definition": "Juego practicado en una piscina entre dos equipos de siete jugadores cada uno, que consiste en introducir el balón con la mano en la portería contraria mientras se nada."
+            }
+        ]
+    },
+    "wéstern": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Género de películas del lejano Oeste."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Película del lejano Oeste."
+            }
+        ]
+    },
+    "watt": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Electricidad, electrónica",
+                "definition": "vatio.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "vatio."
+                    }
+                ]
+            }
+        ]
+    },
+    "windsurf": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Deporte que consiste en deslizarse por el agua sobre una tabla especial provista de una vela.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "windsurfing."
+                    }
+                ]
+            }
+        ]
+    },
+    "windsurfing": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Deporte que consiste en deslizarse por el agua sobre una tabla especial provista de una vela.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "windsurf."
+                    }
+                ]
+            }
+        ]
+    },
+    "windsurfista": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que practica el windsurf."
+            }
+        ]
+    },
+    "wincha": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Bolivia",
+                "definition": "vincha.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "vincha."
+                    }
+                ]
+            }
+        ]
+    },
+    "wolframio": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "número atómico, Símbolo",
+                "definition": "Elemento químico metálico, de 74, de color gris acerado, muy duro y denso, escaso en la corteza terrestre, con el punto de fusión más elevado de todos los elementos y usado en los filamentos de las lámparas incandescentes, en resistencias eléctricas y, aleado con el acero, en la fabricación de herramientas. ( W).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "tungsteno."
+                    }
+                ]
+            }
+        ]
     }
 }
