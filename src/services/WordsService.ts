@@ -16,7 +16,19 @@ const loadWords = async (level: string, start: number, end: number) => {
     } catch (error) {
         Logger.error('Error fetching words:', error);
     }
-}
+};
+
+const loadDefinition = async (letter: string) => {
+    try {
+        const response = await fetch(`/definitions/${letter}_definitions.json`);
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return await response.json();
+    } catch (error) {
+        Logger.error('Error fetching definitions:', error);
+    }
+};
 
 const populateWordsDB = async (
     level: string | null,
@@ -139,4 +151,4 @@ const deleteWordsDB = async (setError: SetErrorFunction): Promise<void> => {
     }
 };
 
-export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords };
+export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords, loadDefinition };

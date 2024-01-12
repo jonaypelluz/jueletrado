@@ -1,6 +1,6 @@
 import { dbService } from '@services/DBService';
 import Logger from '@services/Logger';
-import { populateWordsDB, deleteWordsDB } from '@services/WordsService';
+import { deleteWordsDB, populateWordsDB } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import '@testing-library/jest-dom';
 import 'core-js/stable/structured-clone';
@@ -81,11 +81,15 @@ describe('WordsService data management tests', () => {
         expect(result).toBe(false);
         expect(mockLoggerError).toHaveBeenCalled();
         expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));
-        expect(setErrorMock.mock.calls[0][0].message).toBe(`Error: Chunk ${CHUNK} is already loaded.`);
+        expect(setErrorMock.mock.calls[0][0].message).toBe(
+            `Error: Chunk ${CHUNK} is already loaded.`,
+        );
     });
 
     test('Successful database deletion', async () => {
-        const mockDeleteDatabase = jest.spyOn(dbService, 'deleteDatabase').mockImplementation(() => Promise.resolve());
+        const mockDeleteDatabase = jest
+            .spyOn(dbService, 'deleteDatabase')
+            .mockImplementation(() => Promise.resolve());
         const mockLoggerLog = jest.spyOn(Logger, 'log').mockImplementation(() => {});
         const setErrorMock = jest.fn();
 
@@ -100,8 +104,10 @@ describe('WordsService data management tests', () => {
         const testError = new Error('Test error');
 
         jest.spyOn(Logger, 'log').mockImplementation(() => {});
-        
-        const mockDeleteDatabase = jest.spyOn(dbService, 'deleteDatabase').mockRejectedValue(testError);
+
+        const mockDeleteDatabase = jest
+            .spyOn(dbService, 'deleteDatabase')
+            .mockRejectedValue(testError);
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
         const setErrorMock = jest.fn();
 
