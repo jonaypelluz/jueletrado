@@ -1,0 +1,27 @@
+{
+    "web": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Informática",
+                "definition": "Red informática."
+            }
+        ]
+    },
+    "whisky": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "güisqui.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "güisqui."
+                    }
+                ]
+            }
+        ]
+    }
+}

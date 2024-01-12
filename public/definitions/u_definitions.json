@@ -1,0 +1,4135 @@
+{
+    "ubicación": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de ubicar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplazamiento, colocación, disposición, localización, situación, lugar, sitio."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Lugar en que está ubicado algo."
+            }
+        ]
+    },
+    "ubicada": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Argentina y Uruguay",
+                "definition": "sensato.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "sensato, prudente, cauto."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Cuba, Nicaragua y Uruguay",
+                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
+            }
+        ]
+    },
+    "ubicado": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Argentina y Uruguay",
+                "definition": "sensato.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "sensato, prudente, cauto."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Cuba, Nicaragua y Uruguay",
+                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
+            }
+        ]
+    },
+    "última": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que está al final de una línea, de una serie o de una sucesión. Don Rodrigo fue el último rey de los godos.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "final, postrero, supremo, definitivo."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "primero."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que se sitúa en lo más remoto, retirado o escondido."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Final, definitivo."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Extremado en su línea. La última miseria."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Dicho de una cosa: Que representa el fin o término a que deben dirigirse todas las acciones y designios de alguien."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "definition": "Dicho de precio: Que se pide como mínimo o se ofrece como máximo."
+            },
+            {
+                "number": "7",
+                "type": "adverbio desusado",
+                "definition": "por último."
+            },
+            {
+                "number": "8",
+                "type": "locución adverbial coloquial",
+                "definition": "A la última moda."
+            },
+            {
+                "number": "9",
+                "type": "locuciones adverbiales",
+                "definition": "En los últimos días del período de tiempo que se indica o se sobrentiende. Estará aquí a últimos. Ven a últimos de semana."
+            },
+            {
+                "number": "10",
+                "type": "locución verbal coloquial",
+                "definition": "estar al cabo."
+            },
+            {
+                "number": "11",
+                "type": "locución verbal coloquial",
+                "definition": "estar al cabo de algo."
+            },
+            {
+                "number": "12",
+                "type": "locuciones verbales coloquiales",
+                "definition": "estar al cabo."
+            },
+            {
+                "number": "13",
+                "type": "locuciones verbales",
+                "type_extra": "coloquiales",
+                "definition": "Estar muy apurado de algo, especialmente de dinero."
+            },
+            {
+                "number": "14",
+                "type": "locución adverbial",
+                "definition": "Después o detrás de todo, finalmente."
+            },
+            {
+                "number": "15",
+                "type": "locución verbal coloquial",
+                "definition": "Ser el colmo de lo admirativo o de lo peyorativo."
+            }
+        ]
+    },
+    "último": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que está al final de una línea, de una serie o de una sucesión. Don Rodrigo fue el último rey de los godos.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "final, postrero, supremo, definitivo."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "primero."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que se sitúa en lo más remoto, retirado o escondido."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Final, definitivo."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Extremado en su línea. La última miseria."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Dicho de una cosa: Que representa el fin o término a que deben dirigirse todas las acciones y designios de alguien."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "definition": "Dicho de precio: Que se pide como mínimo o se ofrece como máximo."
+            },
+            {
+                "number": "7",
+                "type": "adverbio desusado",
+                "definition": "por último."
+            },
+            {
+                "number": "8",
+                "type": "locución adverbial coloquial",
+                "definition": "A la última moda."
+            },
+            {
+                "number": "9",
+                "type": "locuciones adverbiales",
+                "definition": "En los últimos días del período de tiempo que se indica o se sobrentiende. Estará aquí a últimos. Ven a últimos de semana."
+            },
+            {
+                "number": "10",
+                "type": "locución verbal coloquial",
+                "definition": "estar al cabo."
+            },
+            {
+                "number": "11",
+                "type": "locución verbal coloquial",
+                "definition": "estar al cabo de algo."
+            },
+            {
+                "number": "12",
+                "type": "locuciones verbales coloquiales",
+                "definition": "estar al cabo."
+            },
+            {
+                "number": "13",
+                "type": "locuciones verbales",
+                "type_extra": "coloquiales",
+                "definition": "Estar muy apurado de algo, especialmente de dinero."
+            },
+            {
+                "number": "14",
+                "type": "locución adverbial",
+                "definition": "Después o detrás de todo, finalmente."
+            },
+            {
+                "number": "15",
+                "type": "locución verbal coloquial",
+                "definition": "Ser el colmo de lo admirativo o de lo peyorativo."
+            }
+        ]
+    },
+    "umbral": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Parte inferior o escalón, por lo común de piedra y contrapuesto al dintel, en la puerta o entrada de una casa.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "limen, tranco, lumbral, tranquillo, entrada, acceso, paso, comienzo, inicio, principio."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "término, fin."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Paso primero y principal o entrada de cualquier cosa."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Valor mínimo de una magnitud a partir del cual se produce un efecto determinado."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Construcción",
+                "definition": "Pieza que se atraviesa en lo alto de un vano para sostener el muro que hay encima."
+            },
+            {
+                "number": "5",
+                "type": "locuciones verbales",
+                "type_extra": "Usadas más con negación",
+                "definition": "Entrar en él."
+            }
+        ]
+    },
+    "una": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado",
+                "definition": "Expresa unidad. Quiero solo una manzana, por favor. Sus vestidos no caben en un armario. ante nombres contables en singular.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "primero, único, alguno."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado pospuesto al sustantivo, Aplicado, usado también como sustantivo masculino",
+                "definition": "primero (que precede a los demás de su especie ). Me voy de vacaciones el día uno. a los días del mes, El uno de noviembre."
+            },
+            {
+                "number": "3",
+                "type": "pronombre masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas, Usado o usada también",
+                "definition": "Denota un elemento de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. Empezaron la carrera diez participantes y terminó solo uno. con un sintagma nominal pospuesto e introducido por la preposición de. Uno de los pozos se secó."
+            },
+            {
+                "number": "4",
+                "type": "pronombre masculino y femenino",
+                "definition": "El mismo, uno solo. El objetivo del partido es que el discurso sea uno. Tú y yo somos uno."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Unidad, cantidad que se toma como término de comparación."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Signo con que se representa el número uno."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "etcétera",
+                "definition": "En la baraja, el dado, el dominó, elemento marcado con una sola señal."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Individuo de cualquier especie."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "definition": "Primera hora en punto después de mediodía o de medianoche. El reloj ha dado la una."
+            },
+            {
+                "number": "10",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "contrapuesto a otro, con sentido distributivo. Unos leían y otros miraban la televisión."
+            },
+            {
+                "number": "11",
+                "type": "pronombre indefinido masculino singular",
+                "definition": "Designa a una persona indeterminada. Uno debería saber cómo comportarse en esos casos."
+            },
+            {
+                "number": "12",
+                "type": "locución adverbial",
+                "definition": "de una vez."
+            },
+            {
+                "number": "13",
+                "type": "locución adverbial",
+                "definition": "uno a uno."
+            },
+            {
+                "number": "14",
+                "type": "locución adverbial",
+                "definition": "Con unión o de conformidad."
+            },
+            {
+                "number": "15",
+                "type": "locución adverbial",
+                "definition": "juntamente."
+            },
+            {
+                "number": "16",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal",
+                "definition": "Algunos o muchos."
+            },
+            {
+                "number": "17",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, España",
+                "definition": "En completa soledad o con sensación de desamparo."
+            },
+            {
+                "number": "18",
+                "type": "locución adverbial",
+                "definition": "Para estar o vivir unidos o conformes."
+            },
+            {
+                "number": "19",
+                "type": "locución verbal desusada",
+                "definition": "Ser muy parecidas o complementarias."
+            },
+            {
+                "number": "20",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para contraponer los dos términos de una alternativa. Una de dos, o te enmiendas, o rompemos las amistades."
+            },
+            {
+                "number": "21",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para manifestar que una sola cosa, por oposición a varias, no se considera suficiente."
+            },
+            {
+                "number": "22",
+                "type": "locución adverbial",
+                "type_extra": "desusada",
+                "definition": "En todo caso, en realidad, efectivamente."
+            },
+            {
+                "number": "23",
+                "type": "expresión",
+                "definition": "Denota la resolución o propósito firme de no volver a caer en algo que nos ha dejado escarmentados."
+            },
+            {
+                "number": "24",
+                "type": "locución adverbial",
+                "type_extra": "Usada",
+                "definition": "para explicar la separación o distinción por orden de personas y cosas."
+            },
+            {
+                "number": "25",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Usada también como locución pronominal",
+                "definition": "Que no se distingue entre los de su grupo por ninguna cualidad especial. Es una de tantas compositoras."
+            },
+            {
+                "number": "26",
+                "type": "locución adverbial",
+                "type_extra": "Usada",
+                "definition": "uno a uno. para expresar mayor separación o distinción."
+            },
+            {
+                "number": "27",
+                "type": "artículo indeterminado",
+                "definition": "Indica que lo designado por el nombre o el grupo nominal al que precede se refiere a entidades no consabidas por los interlocutores. Vieron una montaña a lo lejos. Has tenido una idea estupenda."
+            },
+            {
+                "number": "28",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "definition": "Indica valoración cualitativa o cuantitativa de una propiedad no manifiesta. seguido de una subordinada introducida por la conjunción que. Tiene un desparpajo que no hay quien se le resista. a veces sin la subordinada y con entonación suspendida. Lleva un día …."
+            },
+            {
+                "number": "29",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado más en singular",
+                "definition": "Indica que lo denotado por el nombre o el grupo nominal al que precede no designa un individuo particular, sino un tipo. Un político debería tener una conducta ejemplar."
+            },
+            {
+                "number": "30",
+                "type": "artículo indeterminado",
+                "definition": "Con nombres propios de persona, designa a alguien con las cualidades de quien se menciona. Canta como una María Callas."
+            },
+            {
+                "number": "31",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado en plural",
+                "definition": "alguno (indica un número no elevado ). Unos años después. Trajeron unas cervezas."
+            },
+            {
+                "number": "32",
+                "type": "adjetivo",
+                "type_extra": "Usado en plural",
+                "definition": "Indica que la cantidad que lo sigue es aproximada. antepuesto a un numeral cardinal. Tiene unos treinta años."
+            },
+            {
+                "number": "33",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "Indica que lo designado se refiere a entidades no consabidas por los interlocutores. referido a un sintagma nominal mencionado o sobrentendido. Buscaban ideas nuevas y ella tuvo una estupenda."
+            },
+            {
+                "number": "34",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "una persona. Sale con uno del trabajo."
+            },
+            {
+                "number": "35",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Designa al hablante. Una no está para sustos."
+            },
+            {
+                "number": "36",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para indicar que se establece la compensación de una cosa por otra."
+            },
+            {
+                "number": "37",
+                "type": "locuciones verbales coloquiales",
+                "definition": "Estar siempre desacertado."
+            },
+            {
+                "number": "38",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Usada, plural, singular",
+                "definition": "Gran cantidad de. con valor ponderativo, con entonación suspendida y seguido de nombres contables en o no contables en Había una de gente …."
+            },
+            {
+                "number": "39",
+                "type": "expresiones",
+                "type_extra": "Usadas",
+                "definition": "para aludir a algo característico de alguien."
+            },
+            {
+                "number": "40",
+                "type": "locución adverbial",
+                "definition": "Mutua o recíprocamente."
+            },
+            {
+                "number": "41",
+                "type": "locución adverbial",
+                "definition": "Tomadas en conjunto varias cosas, compensando lo que excede una con lo que falta a otra. Uno con otro se venden a euro."
+            },
+            {
+                "number": "42",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal",
+                "definition": "alguno (indica un número no elevado )."
+            },
+            {
+                "number": "43",
+                "type": "locución adverbial",
+                "definition": "Sucesivamente o por orden sucesivo."
+            },
+            {
+                "number": "44",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal plural",
+                "definition": "Los dos."
+            }
+        ]
+    },
+    "unánime": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Dicho de dos o más personas: Que tienen un mismo parecer, dictamen, voluntad o sentimiento.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "conforme, acorde, concorde, coincidente, uniforme, general, total."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "disconforme."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Propio de personas unánimes."
+            }
+        ]
+    },
+    "unanimidad": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad de unánime.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "conformidad, coincidencia, concordancia, avenencia, concordia."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "disconformidad, discrepancia, desavenencia."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "locución adverbial",
+                "definition": "Sin discrepancia, unánimemente."
+            }
+        ]
+    },
+    "une": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "unen": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "única": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Solo y sin otro de su especie.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "solo, singular, señero, exclusivo, irrepetible, excelente, magnífico, extraordinario, inmejorable, bacán, bacano, unigénito."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "normal, común, ordinario, corriente."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "singular (extraordinario, excelente )."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de un hijo: Que carece de hermanos."
+            }
+        ]
+    },
+    "único": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Solo y sin otro de su especie.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "solo, singular, señero, exclusivo, irrepetible, excelente, magnífico, extraordinario, inmejorable, bacán, bacano, unigénito."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "normal, común, ordinario, corriente."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "singular (extraordinario, excelente )."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de un hijo: Que carece de hermanos."
+            }
+        ]
+    },
+    "unida": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "unidad": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Propiedad de todo ser, en virtud de la cual no puede dividirse sin que su esencia se destruya o altere.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "entidad, individualidad, unión, conformidad, unanimidad, acuerdo, coincidencia, elemento, parte, número, cifra, sección, departamento, división, destacamento, pelotón, patrulla, vanguardia."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunión, disconformidad, diferencia."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Singularidad en número o calidad."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Unión o conformidad."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Cada uno de los elementos de una serie o conjunto."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Sección de un organismo o institución con una función específica. Unidad de reanimación. Unidad de negocio."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "etcétera",
+                "definition": "Cada uno de los elementos que forman un convoy, un tren,."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Cualidad de la obra literaria o artística en que solo hay un asunto o pensamiento principal, generador y lazo de unión de todo lo que en ella ocurre, se dice o representa."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas",
+                "definition": "Cantidad que se toma por medida o término de comparación de las demás de su especie."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Milicia",
+                "definition": "Fracción, constitutiva o independiente, de una fuerza militar."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "Uruguay",
+                "definition": "Apartamento en un edificio."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "type_extra": "Milicia",
+                "definition": "unidad de efectivos numerosos, y que en general es de constitución heterogénea."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
+                "type_extra": "metro(s)",
+                "definition": "unidad de longitud, usada en astronomía, igual a la distancia media de la Tierra al Sol y aproximadamente igual a 1,495 878 706 91 × 10 11."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "type_extra": "Teoría literaria",
+                "definition": "Cualidad, en la obra dramática o en cualquier otra, de tener una sola acción principal."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "definition": "Sección hospitalaria donde se concentran aparatos y personal especializado para la vigilancia y el tratamiento de enfermos muy graves."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "type_extra": "Teoría literaria",
+                "definition": "Cualidad, en la obra dramática, de desarrollarse su acción en un solo lugar."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "definition": "Cada uno de los elementos que forman un universo o conjunto sometido a estudio estadístico."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "type_extra": "Teoría literaria, hora(s)",
+                "definition": "Cualidad, en la obra dramática, de durar la acción el tiempo, sobre poco más o menos, que dure la representación, o 24 aproximadamente."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "definition": "unidad de cuidados intensivos."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "definition": "Moneda real o imaginaria que sirve legalmente de patrón en cada país y de la cual se derivan las demás."
+            },
+            {
+                "number": "20",
+                "type": "nombre femenino plural",
+                "type_extra": "Física",
+                "definition": "unidades elegidas para que satisfagan las fórmulas en las que intervienen."
+            }
+        ]
+    },
+    "unidades": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Propiedad de todo ser, en virtud de la cual no puede dividirse sin que su esencia se destruya o altere.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "entidad, individualidad, unión, conformidad, unanimidad, acuerdo, coincidencia, elemento, parte, número, cifra, sección, departamento, división, destacamento, pelotón, patrulla, vanguardia."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunión, disconformidad, diferencia."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Singularidad en número o calidad."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Unión o conformidad."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Cada uno de los elementos de una serie o conjunto."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Sección de un organismo o institución con una función específica. Unidad de reanimación. Unidad de negocio."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "etcétera",
+                "definition": "Cada uno de los elementos que forman un convoy, un tren,."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Cualidad de la obra literaria o artística en que solo hay un asunto o pensamiento principal, generador y lazo de unión de todo lo que en ella ocurre, se dice o representa."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas",
+                "definition": "Cantidad que se toma por medida o término de comparación de las demás de su especie."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Milicia",
+                "definition": "Fracción, constitutiva o independiente, de una fuerza militar."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "Uruguay",
+                "definition": "Apartamento en un edificio."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "type_extra": "Milicia",
+                "definition": "unidad de efectivos numerosos, y que en general es de constitución heterogénea."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
+                "type_extra": "metro(s)",
+                "definition": "unidad de longitud, usada en astronomía, igual a la distancia media de la Tierra al Sol y aproximadamente igual a 1,495 878 706 91 × 10 11."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "type_extra": "Teoría literaria",
+                "definition": "Cualidad, en la obra dramática o en cualquier otra, de tener una sola acción principal."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "definition": "Sección hospitalaria donde se concentran aparatos y personal especializado para la vigilancia y el tratamiento de enfermos muy graves."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "type_extra": "Teoría literaria",
+                "definition": "Cualidad, en la obra dramática, de desarrollarse su acción en un solo lugar."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "definition": "Cada uno de los elementos que forman un universo o conjunto sometido a estudio estadístico."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "type_extra": "Teoría literaria, hora(s)",
+                "definition": "Cualidad, en la obra dramática, de durar la acción el tiempo, sobre poco más o menos, que dure la representación, o 24 aproximadamente."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "definition": "unidad de cuidados intensivos."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "definition": "Moneda real o imaginaria que sirve legalmente de patrón en cada país y de la cual se derivan las demás."
+            },
+            {
+                "number": "20",
+                "type": "nombre femenino plural",
+                "type_extra": "Física",
+                "definition": "unidades elegidas para que satisfagan las fórmulas en las que intervienen."
+            }
+        ]
+    },
+    "unidas": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "unido": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "unidos": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "unificación": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de unificar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "unión, agrupación, igualación, igualamiento, homogeneización."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "separación, diversificación."
+                    }
+                ]
+            }
+        ]
+    },
+    "uniforme": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Dicho de dos o más cosas: Que tienen la misma forma.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "igual, idéntico, coincidente, parejo, semejante, similar, parecido, traje, liso, llano, plano, raso, sistemático, monótono."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desigual, heterogéneo, diverso."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Igual, conforme, semejante."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Traje peculiar y distintivo que por establecimiento o concesión usan los militares y otros empleados o los individuos que pertenecen a un mismo cuerpo o colegio."
+            }
+        ]
+    },
+    "unió": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "unir": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "unirse": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa esté al lado de otra, o en contacto con ella formando un todo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "juntar, unificar, reunir, aunar, fusionar, cohesionar, agregar, adicionar, amontonar, incorporar, combinar, amalgamar, mezclar, trabar, fundir, alear 2, atar, anudar, vincular, soldar, pegar, ensamblar, acercar, anexar, aproximar, casar, desposar, emparejar, matrimoniar, asociarse, aliarse, coligarse, coaligarse, federarse, mancomunarse, hermanarse, unificarse, confederarse, sindicarse, asociar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desunir, separar, distanciar, disociar, disgregar, desintegrar, desvincular, desligar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Mezclar o trabar algunas cosas entre sí, incorporándolas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Atar o juntar una cosa con otra, física o moralmente."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra, para que formen un conjunto o concurran al mismo objeto o fin."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "casar (autorizar el matrimonio )."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dicho de un padre o de un superior: Disponer el casamiento de alguien que está bajo su autoridad."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Concordar o conformar las voluntades, ánimos o pareceres."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Agregar un beneficio o prebenda eclesiástica a otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Medicina",
+                "definition": "Consolidar o cerrar la herida."
+            },
+            {
+                "number": "10",
+                "type": "verbo pronominal",
+                "definition": "Dicho de varias personas: Confederarse o convenirse para el logro de algún intento, ayudándose mutuamente."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más cosas antes separadas y distintas: Juntarse en una persona."
+            },
+            {
+                "number": "12",
+                "type": "verbo pronominal",
+                "definition": "Cesar la oposición positiva o aparente que había entre dos o más cosas."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Estar muy cercana, contigua o inmediata a otra."
+            },
+            {
+                "number": "14",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Agregarse o juntarse a la compañía de otra."
+            }
+        ]
+    },
+    "universales": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo al universo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "cósmico, total, general, colectivo, absoluto, genérico, mundial, global, internacional, ecuménico, universo."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "particular, parcial, local."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que comprende o es común a todos en su especie, sin excepción de ninguno."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que lo comprende todo en la especie de que se habla."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Que pertenece o se extiende a todo el mundo, a todos los países, a todos los tiempos."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Filosofía",
+                "definition": "Que por su naturaleza es apto para ser predicado de muchos."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "type_extra": "Lingüística",
+                "definition": "Propio de un cuantificador. Cualquier tiene valor universal en Se enfada con cualquier cosa."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una persona: Versada en muchos saberes."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Propiedad común a todas las lenguas. Los universales del lenguaje."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "plural, Filosofía",
+                "definition": "ideas universales."
+            }
+        ]
+    },
+    "universidad": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "etcétera",
+                "definition": "Institución de enseñanza superior que comprende diversas facultades, y que confiere los grados académicos correspondientes. Según las épocas y países puede comprender colegios, institutos, departamentos, centros de investigación, escuelas profesionales, Universidad de Salamanca, universidades populares.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "universalidad, generalidad, totalidad."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Edificio o conjunto de edificios destinado a las cátedras y oficinas de una universidad."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas que forman una corporación."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Conjunto de las cosas creadas."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "universalidad (cualidad de universal )."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Instituto público de enseñanza donde se hacían los estudios mayores de ciencias y letras, y con autoridad para la colación de grados en las facultades correspondientes."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Conjunto de poblaciones o de barrios que estaban unidos por intereses comunes, bajo una misma representación jurídica."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "Conjunto de poblaciones o barrios que estaban unidos bajo una misma representación."
+            }
+        ]
+    },
+    "universidades": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "etcétera",
+                "definition": "Institución de enseñanza superior que comprende diversas facultades, y que confiere los grados académicos correspondientes. Según las épocas y países puede comprender colegios, institutos, departamentos, centros de investigación, escuelas profesionales, Universidad de Salamanca, universidades populares.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "universalidad, generalidad, totalidad."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Edificio o conjunto de edificios destinado a las cátedras y oficinas de una universidad."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas que forman una corporación."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Conjunto de las cosas creadas."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "universalidad (cualidad de universal )."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Instituto público de enseñanza donde se hacían los estudios mayores de ciencias y letras, y con autoridad para la colación de grados en las facultades correspondientes."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Conjunto de poblaciones o de barrios que estaban unidos por intereses comunes, bajo una misma representación jurídica."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "Conjunto de poblaciones o barrios que estaban unidos bajo una misma representación."
+            }
+        ]
+    },
+    "universitaria": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (institución de enseñanza superior ).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "profesor, catedrático, académico, adjunto, asociado, titulado, diplomado, graduado, licenciado, doctorado, alumno, estudiante."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (instituto público de enseñanza )."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (edificio o conjunto de edificios )."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Profesor, graduado o estudiante de universidad."
+            }
+        ]
+    },
+    "universitario": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (institución de enseñanza superior ).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "profesor, catedrático, académico, adjunto, asociado, titulado, diplomado, graduado, licenciado, doctorado, alumno, estudiante."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (instituto público de enseñanza )."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (edificio o conjunto de edificios )."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Profesor, graduado o estudiante de universidad."
+            }
+        ]
+    },
+    "universitarios": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (institución de enseñanza superior ).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "profesor, catedrático, académico, adjunto, asociado, titulado, diplomado, graduado, licenciado, doctorado, alumno, estudiante."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (instituto público de enseñanza )."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la universidad (edificio o conjunto de edificios )."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Profesor, graduado o estudiante de universidad."
+            }
+        ]
+    },
+    "universo": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "universal.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "universal, ecuménico, mundo, cosmos, orbe, globo, creación, naturaleza."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "mundo (conjunto de todo lo existente )."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Conjunto de individuos o elementos cualesquiera en los cuales se consideran una o más características que se someten a estudio estadístico."
+            }
+        ]
+    },
+    "uno": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado",
+                "definition": "Expresa unidad. Quiero solo una manzana, por favor. Sus vestidos no caben en un armario. ante nombres contables en singular.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "primero, único, alguno."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado pospuesto al sustantivo, Aplicado, usado también como sustantivo masculino",
+                "definition": "primero (que precede a los demás de su especie ). Me voy de vacaciones el día uno. a los días del mes, El uno de noviembre."
+            },
+            {
+                "number": "3",
+                "type": "pronombre masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas, Usado o usada también",
+                "definition": "Denota un elemento de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. Empezaron la carrera diez participantes y terminó solo uno. con un sintagma nominal pospuesto e introducido por la preposición de. Uno de los pozos se secó."
+            },
+            {
+                "number": "4",
+                "type": "pronombre masculino y femenino",
+                "definition": "El mismo, uno solo. El objetivo del partido es que el discurso sea uno. Tú y yo somos uno."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Unidad, cantidad que se toma como término de comparación."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Signo con que se representa el número uno."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "etcétera",
+                "definition": "En la baraja, el dado, el dominó, elemento marcado con una sola señal."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Individuo de cualquier especie."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "definition": "Primera hora en punto después de mediodía o de medianoche. El reloj ha dado la una."
+            },
+            {
+                "number": "10",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "contrapuesto a otro, con sentido distributivo. Unos leían y otros miraban la televisión."
+            },
+            {
+                "number": "11",
+                "type": "pronombre indefinido masculino singular",
+                "definition": "Designa a una persona indeterminada. Uno debería saber cómo comportarse en esos casos."
+            },
+            {
+                "number": "12",
+                "type": "locución adverbial",
+                "definition": "de una vez."
+            },
+            {
+                "number": "13",
+                "type": "locución adverbial",
+                "definition": "uno a uno."
+            },
+            {
+                "number": "14",
+                "type": "locución adverbial",
+                "definition": "Con unión o de conformidad."
+            },
+            {
+                "number": "15",
+                "type": "locución adverbial",
+                "definition": "juntamente."
+            },
+            {
+                "number": "16",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal",
+                "definition": "Algunos o muchos."
+            },
+            {
+                "number": "17",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, España",
+                "definition": "En completa soledad o con sensación de desamparo."
+            },
+            {
+                "number": "18",
+                "type": "locución adverbial",
+                "definition": "Para estar o vivir unidos o conformes."
+            },
+            {
+                "number": "19",
+                "type": "locución verbal desusada",
+                "definition": "Ser muy parecidas o complementarias."
+            },
+            {
+                "number": "20",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para contraponer los dos términos de una alternativa. Una de dos, o te enmiendas, o rompemos las amistades."
+            },
+            {
+                "number": "21",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para manifestar que una sola cosa, por oposición a varias, no se considera suficiente."
+            },
+            {
+                "number": "22",
+                "type": "locución adverbial",
+                "type_extra": "desusada",
+                "definition": "En todo caso, en realidad, efectivamente."
+            },
+            {
+                "number": "23",
+                "type": "expresión",
+                "definition": "Denota la resolución o propósito firme de no volver a caer en algo que nos ha dejado escarmentados."
+            },
+            {
+                "number": "24",
+                "type": "locución adverbial",
+                "type_extra": "Usada",
+                "definition": "para explicar la separación o distinción por orden de personas y cosas."
+            },
+            {
+                "number": "25",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Usada también como locución pronominal",
+                "definition": "Que no se distingue entre los de su grupo por ninguna cualidad especial. Es una de tantas compositoras."
+            },
+            {
+                "number": "26",
+                "type": "locución adverbial",
+                "type_extra": "Usada",
+                "definition": "uno a uno. para expresar mayor separación o distinción."
+            },
+            {
+                "number": "27",
+                "type": "artículo indeterminado",
+                "definition": "Indica que lo designado por el nombre o el grupo nominal al que precede se refiere a entidades no consabidas por los interlocutores. Vieron una montaña a lo lejos. Has tenido una idea estupenda."
+            },
+            {
+                "number": "28",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "definition": "Indica valoración cualitativa o cuantitativa de una propiedad no manifiesta. seguido de una subordinada introducida por la conjunción que. Tiene un desparpajo que no hay quien se le resista. a veces sin la subordinada y con entonación suspendida. Lleva un día …."
+            },
+            {
+                "number": "29",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado más en singular",
+                "definition": "Indica que lo denotado por el nombre o el grupo nominal al que precede no designa un individuo particular, sino un tipo. Un político debería tener una conducta ejemplar."
+            },
+            {
+                "number": "30",
+                "type": "artículo indeterminado",
+                "definition": "Con nombres propios de persona, designa a alguien con las cualidades de quien se menciona. Canta como una María Callas."
+            },
+            {
+                "number": "31",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado en plural",
+                "definition": "alguno (indica un número no elevado ). Unos años después. Trajeron unas cervezas."
+            },
+            {
+                "number": "32",
+                "type": "adjetivo",
+                "type_extra": "Usado en plural",
+                "definition": "Indica que la cantidad que lo sigue es aproximada. antepuesto a un numeral cardinal. Tiene unos treinta años."
+            },
+            {
+                "number": "33",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "Indica que lo designado se refiere a entidades no consabidas por los interlocutores. referido a un sintagma nominal mencionado o sobrentendido. Buscaban ideas nuevas y ella tuvo una estupenda."
+            },
+            {
+                "number": "34",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "una persona. Sale con uno del trabajo."
+            },
+            {
+                "number": "35",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Designa al hablante. Una no está para sustos."
+            },
+            {
+                "number": "36",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para indicar que se establece la compensación de una cosa por otra."
+            },
+            {
+                "number": "37",
+                "type": "locuciones verbales coloquiales",
+                "definition": "Estar siempre desacertado."
+            },
+            {
+                "number": "38",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Usada, plural, singular",
+                "definition": "Gran cantidad de. con valor ponderativo, con entonación suspendida y seguido de nombres contables en o no contables en Había una de gente …."
+            },
+            {
+                "number": "39",
+                "type": "expresiones",
+                "type_extra": "Usadas",
+                "definition": "para aludir a algo característico de alguien."
+            },
+            {
+                "number": "40",
+                "type": "locución adverbial",
+                "definition": "Mutua o recíprocamente."
+            },
+            {
+                "number": "41",
+                "type": "locución adverbial",
+                "definition": "Tomadas en conjunto varias cosas, compensando lo que excede una con lo que falta a otra. Uno con otro se venden a euro."
+            },
+            {
+                "number": "42",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal",
+                "definition": "alguno (indica un número no elevado )."
+            },
+            {
+                "number": "43",
+                "type": "locución adverbial",
+                "definition": "Sucesivamente o por orden sucesivo."
+            },
+            {
+                "number": "44",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal plural",
+                "definition": "Los dos."
+            }
+        ]
+    },
+    "unos": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado",
+                "definition": "Expresa unidad. Quiero solo una manzana, por favor. Sus vestidos no caben en un armario. ante nombres contables en singular.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "primero, único, alguno."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado pospuesto al sustantivo, Aplicado, usado también como sustantivo masculino",
+                "definition": "primero (que precede a los demás de su especie ). Me voy de vacaciones el día uno. a los días del mes, El uno de noviembre."
+            },
+            {
+                "number": "3",
+                "type": "pronombre masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas, Usado o usada también",
+                "definition": "Denota un elemento de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. Empezaron la carrera diez participantes y terminó solo uno. con un sintagma nominal pospuesto e introducido por la preposición de. Uno de los pozos se secó."
+            },
+            {
+                "number": "4",
+                "type": "pronombre masculino y femenino",
+                "definition": "El mismo, uno solo. El objetivo del partido es que el discurso sea uno. Tú y yo somos uno."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Unidad, cantidad que se toma como término de comparación."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Signo con que se representa el número uno."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "etcétera",
+                "definition": "En la baraja, el dado, el dominó, elemento marcado con una sola señal."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Individuo de cualquier especie."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "definition": "Primera hora en punto después de mediodía o de medianoche. El reloj ha dado la una."
+            },
+            {
+                "number": "10",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "contrapuesto a otro, con sentido distributivo. Unos leían y otros miraban la televisión."
+            },
+            {
+                "number": "11",
+                "type": "pronombre indefinido masculino singular",
+                "definition": "Designa a una persona indeterminada. Uno debería saber cómo comportarse en esos casos."
+            },
+            {
+                "number": "12",
+                "type": "locución adverbial",
+                "definition": "de una vez."
+            },
+            {
+                "number": "13",
+                "type": "locución adverbial",
+                "definition": "uno a uno."
+            },
+            {
+                "number": "14",
+                "type": "locución adverbial",
+                "definition": "Con unión o de conformidad."
+            },
+            {
+                "number": "15",
+                "type": "locución adverbial",
+                "definition": "juntamente."
+            },
+            {
+                "number": "16",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal",
+                "definition": "Algunos o muchos."
+            },
+            {
+                "number": "17",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, España",
+                "definition": "En completa soledad o con sensación de desamparo."
+            },
+            {
+                "number": "18",
+                "type": "locución adverbial",
+                "definition": "Para estar o vivir unidos o conformes."
+            },
+            {
+                "number": "19",
+                "type": "locución verbal desusada",
+                "definition": "Ser muy parecidas o complementarias."
+            },
+            {
+                "number": "20",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para contraponer los dos términos de una alternativa. Una de dos, o te enmiendas, o rompemos las amistades."
+            },
+            {
+                "number": "21",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para manifestar que una sola cosa, por oposición a varias, no se considera suficiente."
+            },
+            {
+                "number": "22",
+                "type": "locución adverbial",
+                "type_extra": "desusada",
+                "definition": "En todo caso, en realidad, efectivamente."
+            },
+            {
+                "number": "23",
+                "type": "expresión",
+                "definition": "Denota la resolución o propósito firme de no volver a caer en algo que nos ha dejado escarmentados."
+            },
+            {
+                "number": "24",
+                "type": "locución adverbial",
+                "type_extra": "Usada",
+                "definition": "para explicar la separación o distinción por orden de personas y cosas."
+            },
+            {
+                "number": "25",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Usada también como locución pronominal",
+                "definition": "Que no se distingue entre los de su grupo por ninguna cualidad especial. Es una de tantas compositoras."
+            },
+            {
+                "number": "26",
+                "type": "locución adverbial",
+                "type_extra": "Usada",
+                "definition": "uno a uno. para expresar mayor separación o distinción."
+            },
+            {
+                "number": "27",
+                "type": "artículo indeterminado",
+                "definition": "Indica que lo designado por el nombre o el grupo nominal al que precede se refiere a entidades no consabidas por los interlocutores. Vieron una montaña a lo lejos. Has tenido una idea estupenda."
+            },
+            {
+                "number": "28",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "definition": "Indica valoración cualitativa o cuantitativa de una propiedad no manifiesta. seguido de una subordinada introducida por la conjunción que. Tiene un desparpajo que no hay quien se le resista. a veces sin la subordinada y con entonación suspendida. Lleva un día …."
+            },
+            {
+                "number": "29",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado más en singular",
+                "definition": "Indica que lo denotado por el nombre o el grupo nominal al que precede no designa un individuo particular, sino un tipo. Un político debería tener una conducta ejemplar."
+            },
+            {
+                "number": "30",
+                "type": "artículo indeterminado",
+                "definition": "Con nombres propios de persona, designa a alguien con las cualidades de quien se menciona. Canta como una María Callas."
+            },
+            {
+                "number": "31",
+                "type": "artículo indeterminado",
+                "type_extra": "Usado en plural",
+                "definition": "alguno (indica un número no elevado ). Unos años después. Trajeron unas cervezas."
+            },
+            {
+                "number": "32",
+                "type": "adjetivo",
+                "type_extra": "Usado en plural",
+                "definition": "Indica que la cantidad que lo sigue es aproximada. antepuesto a un numeral cardinal. Tiene unos treinta años."
+            },
+            {
+                "number": "33",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "Indica que lo designado se refiere a entidades no consabidas por los interlocutores. referido a un sintagma nominal mencionado o sobrentendido. Buscaban ideas nuevas y ella tuvo una estupenda."
+            },
+            {
+                "number": "34",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "una persona. Sale con uno del trabajo."
+            },
+            {
+                "number": "35",
+                "type": "pronombre indefinido masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Designa al hablante. Una no está para sustos."
+            },
+            {
+                "number": "36",
+                "type": "expresión",
+                "type_extra": "Usada",
+                "definition": "para indicar que se establece la compensación de una cosa por otra."
+            },
+            {
+                "number": "37",
+                "type": "locuciones verbales coloquiales",
+                "definition": "Estar siempre desacertado."
+            },
+            {
+                "number": "38",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Usada, plural, singular",
+                "definition": "Gran cantidad de. con valor ponderativo, con entonación suspendida y seguido de nombres contables en o no contables en Había una de gente …."
+            },
+            {
+                "number": "39",
+                "type": "expresiones",
+                "type_extra": "Usadas",
+                "definition": "para aludir a algo característico de alguien."
+            },
+            {
+                "number": "40",
+                "type": "locución adverbial",
+                "definition": "Mutua o recíprocamente."
+            },
+            {
+                "number": "41",
+                "type": "locución adverbial",
+                "definition": "Tomadas en conjunto varias cosas, compensando lo que excede una con lo que falta a otra. Uno con otro se venden a euro."
+            },
+            {
+                "number": "42",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal",
+                "definition": "alguno (indica un número no elevado )."
+            },
+            {
+                "number": "43",
+                "type": "locución adverbial",
+                "definition": "Sucesivamente o por orden sucesivo."
+            },
+            {
+                "number": "44",
+                "type": "locución adjetiva",
+                "type_extra": "Usada también como locución pronominal plural",
+                "definition": "Los dos."
+            }
+        ]
+    },
+    "urbana": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "por extensión",
+                "definition": "Perteneciente o relativo a la ciudad y, a otros núcleos de población.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "ciudadano, civil, cívico, metropolitano, educado, correcto, atento, cortés."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "rural, campestre."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Cortés, atento y de buen modo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Individuo de la milicia urbana."
+            }
+        ]
+    },
+    "urbanas": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "por extensión",
+                "definition": "Perteneciente o relativo a la ciudad y, a otros núcleos de población.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "ciudadano, civil, cívico, metropolitano, educado, correcto, atento, cortés."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "rural, campestre."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Cortés, atento y de buen modo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Individuo de la milicia urbana."
+            }
+        ]
+    },
+    "urbanismo": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "por extensión",
+                "definition": "Conjunto de conocimientos relacionados con la planificación y desarrollo de las ciudades y, de otros núcleos de población.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "urbanística, urbanización."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Organización u ordenación de los edificios y espacios de una ciudad. El urbanismo de Madrid."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Concentración y distribución de la población en ciudades."
+            }
+        ]
+    },
+    "urbanización": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de urbanizar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "fraccionamiento, colonia."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Núcleo residencial urbanizado."
+            }
+        ]
+    },
+    "urbano": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "por extensión",
+                "definition": "Perteneciente o relativo a la ciudad y, a otros núcleos de población.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "ciudadano, civil, cívico, metropolitano, educado, correcto, atento, cortés."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "rural, campestre."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Cortés, atento y de buen modo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Individuo de la milicia urbana."
+            }
+        ]
+    },
+    "urbanos": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "por extensión",
+                "definition": "Perteneciente o relativo a la ciudad y, a otros núcleos de población.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "ciudadano, civil, cívico, metropolitano, educado, correcto, atento, cortés."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "rural, campestre."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Cortés, atento y de buen modo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Individuo de la milicia urbana."
+            }
+        ]
+    },
+    "urgencia": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad de urgente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "prisa, premura, apremio, celeridad, rapidez, diligencia, presteza, perentoriedad, agigolón, agigolones."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "calma, parsimonia."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Necesidad o falta apremiante de lo que es menester para algún negocio."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Caso urgente. Lo necesito para una urgencia. El hospital quedó saturado por las urgencias."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Inmediata obligación de cumplir una ley o un precepto."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "plural",
+                "definition": "Sección de los hospitales en que se atiende a los enfermos y heridos graves que necesitan cuidados médicos inmediatos."
+            }
+        ]
+    },
+    "urgencias": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad de urgente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "prisa, premura, apremio, celeridad, rapidez, diligencia, presteza, perentoriedad, agigolón, agigolones."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "calma, parsimonia."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Necesidad o falta apremiante de lo que es menester para algún negocio."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Caso urgente. Lo necesito para una urgencia. El hospital quedó saturado por las urgencias."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Inmediata obligación de cumplir una ley o un precepto."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "plural",
+                "definition": "Sección de los hospitales en que se atiende a los enfermos y heridos graves que necesitan cuidados médicos inmediatos."
+            }
+        ]
+    },
+    "urgente": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que urge.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "apremiante, perentorio, inaplazable, impostergable, acuciante, inminente, imperioso, precisado."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "aplazable, postergable."
+                    }
+                ]
+            }
+        ]
+    },
+    "urnas": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Caja para depositar las papeletas o números en los sorteos y en las votaciones secretas.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "arca, arqueta, receptáculo, caja, envase, ataúd, cajón."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Caja de cristales planos a propósito para tener dentro visibles y resguardados del polvo efigies u otros objetos preciosos."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "etcétera",
+                "definition": "Caja de metal, piedra u otra materia, que sirve para varios usos, como guardar dinero, los restos o las cenizas de los cadáveres humanos,."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Medida antigua para líquidos."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Venezuela",
+                "definition": "ataúd."
+            }
+        ]
+    },
+    "uruguayo": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Natural de Uruguay, país de América.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "charrúa."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a Uruguay o a los uruguayos."
+            }
+        ]
+    },
+    "usa": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo",
+                "definition": "Hacer servir una cosa para algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "utilizar, emplear, consumir, disponer, manejar, explotar, servirse, valerse, acostumbrar, soler, frecuentar, estilarse."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desusar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Dicho de una persona: Disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Ejecutar o practicar algo habitualmente o por costumbre."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Llevar una prenda de vestir, un adorno personal o tener por costumbre ponerse algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Ejercer o servir un empleo u oficio."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "definition": "Tener costumbre."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Estar de moda."
+            }
+        ]
+    },
+    "usaba": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo",
+                "definition": "Hacer servir una cosa para algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "utilizar, emplear, consumir, disponer, manejar, explotar, servirse, valerse, acostumbrar, soler, frecuentar, estilarse."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desusar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Dicho de una persona: Disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Ejecutar o practicar algo habitualmente o por costumbre."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Llevar una prenda de vestir, un adorno personal o tener por costumbre ponerse algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Ejercer o servir un empleo u oficio."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "definition": "Tener costumbre."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Estar de moda."
+            }
+        ]
+    },
+    "usado": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Gastado y deslucido por el uso.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "gastado, raído, viejo."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "nuevo."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Habituado, ejercitado, práctico en algo."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de un sello de correos: Que ya ha sido matado, por lo que su único valor es el que le conceden los filatelistas."
+            },
+            {
+                "number": "4",
+                "type": "locución adverbial",
+                "type_extra": "Usada",
+                "definition": "para explicar los cambistas que las letras se han de pagar en el tiempo o modo que es costumbre."
+            }
+        ]
+    },
+    "usan": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo",
+                "definition": "Hacer servir una cosa para algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "utilizar, emplear, consumir, disponer, manejar, explotar, servirse, valerse, acostumbrar, soler, frecuentar, estilarse."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desusar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Dicho de una persona: Disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Ejecutar o practicar algo habitualmente o por costumbre."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Llevar una prenda de vestir, un adorno personal o tener por costumbre ponerse algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Ejercer o servir un empleo u oficio."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "definition": "Tener costumbre."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Estar de moda."
+            }
+        ]
+    },
+    "usando": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo",
+                "definition": "Hacer servir una cosa para algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "utilizar, emplear, consumir, disponer, manejar, explotar, servirse, valerse, acostumbrar, soler, frecuentar, estilarse."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desusar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Dicho de una persona: Disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Ejecutar o practicar algo habitualmente o por costumbre."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Llevar una prenda de vestir, un adorno personal o tener por costumbre ponerse algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Ejercer o servir un empleo u oficio."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "definition": "Tener costumbre."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Estar de moda."
+            }
+        ]
+    },
+    "usar": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo",
+                "definition": "Hacer servir una cosa para algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "utilizar, emplear, consumir, disponer, manejar, explotar, servirse, valerse, acostumbrar, soler, frecuentar, estilarse."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desusar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Dicho de una persona: Disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Ejecutar o practicar algo habitualmente o por costumbre."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Llevar una prenda de vestir, un adorno personal o tener por costumbre ponerse algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Ejercer o servir un empleo u oficio."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "definition": "Tener costumbre."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Estar de moda."
+            }
+        ]
+    },
+    "uso": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción de usar. Se prohíbe el uso del pantalón corto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "utilización, empleo, dedicación, ocupación, fin, costumbre, hábito, rutina, práctica, usanza, desgaste, deterioro, ajamiento, envejecimiento, deslucimiento, decadencia, roce."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desuso."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "uso específico y práctico a que se destina algo. Utensilios de uso desconocido."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Capacidad o posibilidad de usar algo. Ha recuperado el uso de sus piernas."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en plural",
+                "definition": "Costumbre o hábito."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Derecho no transmisible a percibir de los frutos de la cosa ajena los que basten a las necesidades del usuario y de su familia."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Forma del derecho consuetudinario inicial de la costumbre, menos solemne que esta y que suele convivir como supletorio con algunas leyes escritas."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Moda en el vestido y arreglo."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Capacidad de razonar como un adulto."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Edad a la que se adquiere uso de razón."
+            },
+            {
+                "number": "10",
+                "type": "locución adverbial",
+                "type_extra": "poco usada",
+                "definition": "al uso."
+            },
+            {
+                "number": "11",
+                "type": "locución adjetiva",
+                "definition": "Usual y común en un tiempo. El cine comercial al uso."
+            },
+            {
+                "number": "12",
+                "type": "locución adverbial",
+                "definition": "Conforme a la costumbre. Elaborado al uso tradicional."
+            },
+            {
+                "number": "13",
+                "type": "locución verbal desusada",
+                "definition": "Seguir la moda o la costumbre del momento."
+            },
+            {
+                "number": "14",
+                "type": "locución adjetiva",
+                "definition": "Dicho de una cosa usada: En buen estado."
+            },
+            {
+                "number": "15",
+                "type": "locución adjetiva",
+                "definition": "Dicho de una cosa usada: En mal estado."
+            },
+            {
+                "number": "16",
+                "type": "locución verbal",
+                "definition": "Usarlo. Hacen uso de su derecho."
+            }
+        ]
+    },
+    "usos": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción de usar. Se prohíbe el uso del pantalón corto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "utilización, empleo, dedicación, ocupación, fin, costumbre, hábito, rutina, práctica, usanza, desgaste, deterioro, ajamiento, envejecimiento, deslucimiento, decadencia, roce."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desuso."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "uso específico y práctico a que se destina algo. Utensilios de uso desconocido."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Capacidad o posibilidad de usar algo. Ha recuperado el uso de sus piernas."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en plural",
+                "definition": "Costumbre o hábito."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Derecho no transmisible a percibir de los frutos de la cosa ajena los que basten a las necesidades del usuario y de su familia."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Forma del derecho consuetudinario inicial de la costumbre, menos solemne que esta y que suele convivir como supletorio con algunas leyes escritas."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Moda en el vestido y arreglo."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Capacidad de razonar como un adulto."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Edad a la que se adquiere uso de razón."
+            },
+            {
+                "number": "10",
+                "type": "locución adverbial",
+                "type_extra": "poco usada",
+                "definition": "al uso."
+            },
+            {
+                "number": "11",
+                "type": "locución adjetiva",
+                "definition": "Usual y común en un tiempo. El cine comercial al uso."
+            },
+            {
+                "number": "12",
+                "type": "locución adverbial",
+                "definition": "Conforme a la costumbre. Elaborado al uso tradicional."
+            },
+            {
+                "number": "13",
+                "type": "locución verbal desusada",
+                "definition": "Seguir la moda o la costumbre del momento."
+            },
+            {
+                "number": "14",
+                "type": "locución adjetiva",
+                "definition": "Dicho de una cosa usada: En buen estado."
+            },
+            {
+                "number": "15",
+                "type": "locución adjetiva",
+                "definition": "Dicho de una cosa usada: En mal estado."
+            },
+            {
+                "number": "16",
+                "type": "locución verbal",
+                "definition": "Usarlo. Hacen uso de su derecho."
+            }
+        ]
+    },
+    "usted": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "pronombre personal tercera persona masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "Forma que, en nominativo, en vocativo o precedida de preposición, designa a la persona a la que se dirige quien habla o escribe. generalmente como tratamiento de cortesía, respeto o distanciamiento. Son ustedes muy amables."
+            },
+            {
+                "number": "2",
+                "type": "pronombre personal tercera persona masculino y femenino plural",
+                "definition": "Forma que, en nominativo, en vocativo o precedida de preposición, designa a los miembros de un grupo que incluye al destinatario o los destinatarios de lo que se enuncia. Ustedes los artistas."
+            },
+            {
+                "number": "3",
+                "type": "pronombre personal tercera persona masculino y femenino plural",
+                "definition": "Forma que, en nominativo, en vocativo o precedida de preposición, designa, en Canarias, en parte de Andalucía y en América, a las personas a las que se dirige quien habla o escribe, sin hacer distinción de familiaridad, respeto o cortesía. Niños, hay merienda para ustedes en la cocina."
+            },
+            {
+                "number": "4",
+                "type": "expresiones",
+                "type_extra": "coloquiales, Usadas",
+                "definition": "para pedir a alguien que se sosiegue y deponga la cólera o el enfado, especialmente cuando carece de fundamento."
+            }
+        ]
+    },
+    "ustedes": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "pronombre personal tercera persona masculino y femenino",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "Forma que, en nominativo, en vocativo o precedida de preposición, designa a la persona a la que se dirige quien habla o escribe. generalmente como tratamiento de cortesía, respeto o distanciamiento. Son ustedes muy amables."
+            },
+            {
+                "number": "2",
+                "type": "pronombre personal tercera persona masculino y femenino plural",
+                "definition": "Forma que, en nominativo, en vocativo o precedida de preposición, designa a los miembros de un grupo que incluye al destinatario o los destinatarios de lo que se enuncia. Ustedes los artistas."
+            },
+            {
+                "number": "3",
+                "type": "pronombre personal tercera persona masculino y femenino plural",
+                "definition": "Forma que, en nominativo, en vocativo o precedida de preposición, designa, en Canarias, en parte de Andalucía y en América, a las personas a las que se dirige quien habla o escribe, sin hacer distinción de familiaridad, respeto o cortesía. Niños, hay merienda para ustedes en la cocina."
+            },
+            {
+                "number": "4",
+                "type": "expresiones",
+                "type_extra": "coloquiales, Usadas",
+                "definition": "para pedir a alguien que se sosiegue y deponga la cólera o el enfado, especialmente cuando carece de fundamento."
+            }
+        ]
+    },
+    "usuario": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Que usa algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "consumidor, beneficiario, cliente, usufructuario."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Derecho, Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que tiene derecho de usar de una cosa ajena con cierta limitación."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Derecho, Usado también como sustantivo",
+                "definition": "Dicho de una persona: Que, por concesión gubernativa o por otro título legítimo, goza un aprovechamiento de aguas derivadas de corriente pública."
+            }
+        ]
+    },
+    "usuarios": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Que usa algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "consumidor, beneficiario, cliente, usufructuario."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Derecho, Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que tiene derecho de usar de una cosa ajena con cierta limitación."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Derecho, Usado también como sustantivo",
+                "definition": "Dicho de una persona: Que, por concesión gubernativa o por otro título legítimo, goza un aprovechamiento de aguas derivadas de corriente pública."
+            }
+        ]
+    },
+    "útil": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que sirve para algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "práctico, apropiado, eficaz, eficiente, conveniente, provechoso, beneficioso, ventajoso, favorable, rentable, servicial, valioso, fructífero, hábil, laborable, herramienta, utensilio, instrumento, implementos."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "inútil, ineficaz, inhábil."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que proporciona provecho, comodidad, fruto o interés."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Derecho",
+                "definition": "Dicho de un período de tiempo: hábil."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Cualidad de útil."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en plural",
+                "definition": "Utensilio destinado a un uso manual o a una actividad profesional. Útiles de aseo, de labranza."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Instrumento que sirve para hacer algo o conseguir un fin."
+            }
+        ]
+    },
+    "utilidad": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad de útil 1.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "provecho, beneficio, rendimiento, fruto, ganancia, lucro, interés, valor, renta, cómodo, empleo, uso, función, aplicación, objeto, fin."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "inutilidad, ineficacia, pérdida, perjuicio."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Provecho, conveniencia, interés o fruto que se saca de algo."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "plural, América",
+                "definition": "Parte de los beneficios que una empresa reparte entre sus trabajadores al final del año fiscal."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Economía",
+                "definition": "Satisfacción que reporta el consumo de una cantidad adicional de un bien o un servicio."
+            }
+        ]
+    },
+    "utiliza": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilización": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de utilizar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "uso, empleo."
+                    }
+                ]
+            }
+        ]
+    },
+    "utilizada": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizadas": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizado": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizados": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizan": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizando": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizar": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizo": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utilizó": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo sirva para un fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "emplear, usar, servirse, manejar, beneficiarse, disfrutar, gastar, consumir, aprovechar, dedicar, destinar, aplicar."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "desaprovechar, desperdiciar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Aprovecharse de algo o de alguien."
+            }
+        ]
+    },
+    "utopía": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Plan, proyecto, doctrina o sistema ideales que parecen de muy difícil realización.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "quimera, fantasía, ilusión, sueño, invención, fábula, idealización, imaginación, ficción, alucinación, ideal, anhelo."
+                    },
+                    {
+                        "type": "Antónimos u opuestos",
+                        "content": "distopía."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Representación imaginativa de una sociedad futura de características favorecedoras del bien humano."
+            }
+        ]
+    },
+    "uva": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Baya o grano más o menos redondo y jugoso, fruto de la vid, que forma racimos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Baya de ciertos arbustos."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Enfermedad de la campanilla, que consiste en un tumor pequeño de la forma de una uva."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Especie de verrugas pequeñas que suelen formarse en el párpado, juntas y como pegadas unas con otras."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Aragón, La Mancha, Navarra y La Rioja",
+                "definition": "Racimo de uvas."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino coloquial",
+                "type_extra": "España",
+                "definition": "Mala intención. El examen está puesto con mala uva."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "coloquial, España",
+                "definition": "Mal carácter. Luis tiene mala uva."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "coloquial, España",
+                "definition": "mal humor. Hoy viene de mala uva porque se le ha pinchado una rueda."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, de grano más grueso, menos jugoso y con hollejo más duro que la albilla, que apetecen con preferencia las abejas y avispas."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, de color rojo, que producen ciertas cepas altas y de sarmientos duros."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, común en Andalucía, que tiene el hollejo jaspeado."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, de hollejo tierno y delgado y muy gustosa."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "definition": "uva alarije."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva negra, que tiene los granos gordos y los racimos largos y ralos."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "uvero (árbol )."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "Fruto del uvero."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "definition": "uva de gato."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva blanca, parecida a la albilla."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "definition": "uva espina."
+            },
+            {
+                "number": "20",
+                "type": "nombre femenino",
+                "definition": "Hierba anual de la familia de las crasuláceas, que se cría comúnmente en los tejados, con tallos de dos a tres centímetros, hojas pequeñas, carnosas, casi elipsoidales, obtusas, lampiñas, que parecen racimos de grosellas no maduras, y flores blancas en corimbos."
+            },
+            {
+                "number": "21",
+                "type": "nombre femenino",
+                "type_extra": "La Rioja",
+                "definition": "uva de gato."
+            },
+            {
+                "number": "22",
+                "type": "nombre femenino",
+                "type_extra": "León",
+                "definition": "uva de gato."
+            },
+            {
+                "number": "23",
+                "type": "nombre femenino",
+                "definition": "Fruto del uvero, del tamaño de una cereza grande, morado, tierno, muy jugoso y dulce. Encierra una sola semilla negra, de volumen igual a las dos terceras partes del fruto."
+            },
+            {
+                "number": "24",
+                "type": "nombre femenino",
+                "definition": "Hierba perenne de la familia de las liliáceas, con tallos sencillos terminados por cuatro hojas ovales, en cruz, de en medio de las cuales sale una flor verdosa que produce una baya negra, del tamaño del guisante y narcótica."
+            },
+            {
+                "number": "25",
+                "type": "nombre femenino",
+                "definition": "Variedad de grosellero, que crece espontáneamente en Europa y América y tiene las hojas vellosas y los frutos menos dulces."
+            },
+            {
+                "number": "26",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, blanca, gorda y vellosa, parecida a la moscatel en el sabor, la cual forma el racimo largo y ralo."
+            },
+            {
+                "number": "27",
+                "type": "nombre femenino",
+                "definition": "uva palomina."
+            },
+            {
+                "number": "28",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, gruesa y tinta, cuyos racimos son muy gruesos."
+            },
+            {
+                "number": "29",
+                "type": "nombre femenino",
+                "definition": "jabí 1."
+            },
+            {
+                "number": "30",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, blanca, algo crecida y de hollejo grueso y duro."
+            },
+            {
+                "number": "31",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, de grano crecido y de hollejo duro."
+            },
+            {
+                "number": "32",
+                "type": "nombre femenino",
+                "definition": "uva alarije."
+            },
+            {
+                "number": "33",
+                "type": "nombre femenino",
+                "definition": "uva temprana."
+            },
+            {
+                "number": "34",
+                "type": "nombre femenino",
+                "definition": "acónito (planta )."
+            },
+            {
+                "number": "35",
+                "type": "nombre femenino",
+                "definition": "belcho."
+            },
+            {
+                "number": "36",
+                "type": "nombre femenino",
+                "definition": "Racimo de huevas de jibia."
+            },
+            {
+                "number": "37",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, blanca o morada, de grano redondo y muy liso y gusto muy dulce."
+            },
+            {
+                "number": "38",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva negra en racimos largos y ralos."
+            },
+            {
+                "number": "39",
+                "type": "nombre femenino",
+                "type_extra": "Albacete",
+                "definition": "Variedad de uva muy fina, de color de grosella."
+            },
+            {
+                "number": "40",
+                "type": "nombre femenino",
+                "definition": "estafisagria."
+            },
+            {
+                "number": "41",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva temprana muy apreciada de la que se obtiene vino tinto."
+            },
+            {
+                "number": "42",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva que tiene gruesos y largos los granos."
+            },
+            {
+                "number": "43",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, blanca, muy transparente y que tiene el grano pequeño y el hollejo muy tierno y delgado, por lo cual se pudre pronto. De ella se hace vino muy oloroso, suave y claro, que se conserva mucho tiempo."
+            },
+            {
+                "number": "44",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva, de grano grueso y racimos grandes, de la cual se hace un vino que se conserva poco."
+            },
+            {
+                "number": "45",
+                "type": "nombre femenino",
+                "definition": "Variedad de uva fuerte."
+            },
+            {
+                "number": "46",
+                "type": "nombre femenino",
+                "definition": "uva que tiene color muy verde aunque esté madura."
+            },
+            {
+                "number": "47",
+                "type": "nombre femenino",
+                "definition": "acónito (planta )."
+            },
+            {
+                "number": "48",
+                "type": "nombre femenino plural",
+                "definition": "belcho."
+            },
+            {
+                "number": "49",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Venezuela",
+                "definition": "como una rosa (con una buena salud )."
+            },
+            {
+                "number": "50",
+                "type": "locución verbal coloquial",
+                "definition": "Tener conocimiento del negocio que maneja."
+            },
+            {
+                "number": "51",
+                "type": "locución verbal coloquial",
+                "type_extra": "España",
+                "definition": "Hacérsele muy tarde, pasar más tiempo del esperado. Pedro, date prisa que nos van a dar las uvas."
+            },
+            {
+                "number": "52",
+                "type": "locución adjetiva",
+                "type_extra": "México",
+                "definition": "Excelente en su clase."
+            },
+            {
+                "number": "53",
+                "type": "locuciones adverbiales",
+                "type_extra": "coloquiales",
+                "definition": "de tarde en tarde."
+            },
+            {
+                "number": "54",
+                "type": "locución verbal coloquial",
+                "type_extra": "Usada más con negación",
+                "definition": "Arriesgarse a tomar parte o intervenir en un asunto."
+            },
+            {
+                "number": "55",
+                "type": "locución adjetiva",
+                "type_extra": "coloquial, Usada también como locución adverbial",
+                "definition": "Muy borracho."
+            },
+            {
+                "number": "56",
+                "type": "locución adjetiva",
+                "type_extra": "México",
+                "definition": "de pura uva."
+            },
+            {
+                "number": "57",
+                "type": "locución verbal coloquial",
+                "definition": "Confundir unas cosas con otras, traer a cuento cosas inconexas."
+            },
+            {
+                "number": "58",
+                "type": "nombre masculino",
+                "type_extra": "plural",
+                "definition": "rayos UVA."
+            }
+        ]
+    },
+    "uy": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "para denotar dolor físico agudo, vergüenza o asombro."
+            }
+        ]
+    }
+}

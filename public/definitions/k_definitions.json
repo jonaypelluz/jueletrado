@@ -1,0 +1,69 @@
+{
+    "kilo": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "kilogramo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "kilogramo."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Millón de pesetas."
+            }
+        ]
+    },
+    "kilometro": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "etcétera",
+                "definition": "Señalar las distancias medidas en kilómetros con postes, mojones,."
+            }
+        ]
+    },
+    "kilos": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "kilogramo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "kilogramo."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Millón de pesetas."
+            }
+        ]
+    },
+    "kohl": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cosmético para ennegrecer los bordes de los párpados, las pestañas o las cejas.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos o afines",
+                        "content": "kohol."
+                    }
+                ]
+            }
+        ]
+    }
+}

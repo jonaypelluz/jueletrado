@@ -81,10 +81,10 @@ def parse_html(html_content, word):
                             if definition:
                                 definition["content"] += " " + rest_of_text if definition["content"] else rest_of_text
                                 ul_active = 1
-                    
                     div.decompose()
 
             definition_extra = [item for item in definition_extra if item["content"]]
+            definition_extra = clean_definition_extra(definition_extra)
 
             abbr_elements = p.find_all('abbr')
             def_type = ''
@@ -124,9 +124,28 @@ def parse_html(html_content, word):
 
     return results
 
+def clean_definition_extra(definition_extra):
+    for item in definition_extra:
+        cleaned_content = re.sub(r'\[.*?\]', '', item['content'])
+
+        phrases = re.split(r'[.,]\s*', cleaned_content)
+        
+        cleaned_phrases = []
+        seen_phrases = set()
+        for phrase in phrases:
+            trimmed_phrase = phrase.strip()
+            if trimmed_phrase and trimmed_phrase not in seen_phrases:
+                seen_phrases.add(trimmed_phrase)
+                cleaned_phrases.append(trimmed_phrase)
+
+        if cleaned_phrases:
+            item['content'] = ', '.join(cleaned_phrases[:-1]) + (', ' if len(cleaned_phrases) > 1 else '') + cleaned_phrases[-1] + '.'
+
+    return definition_extra
+
 def beautifier(word_obj):
     def format_content(content):
-        content = content.strip().replace(" :", ":").replace(" ,", ",").replace(" .", ".")
+        content = content.strip().replace(" :", ":").replace(" ,", ",").replace(" .", ".").replace("‖ ", "")
         if not content.endswith("."):
             content += "."
         return content
@@ -136,8 +155,7 @@ def beautifier(word_obj):
     elif not word_obj['definition'].endswith("."):
         word_obj['definition'] += "."
 
-    word_obj['definition'] = word_obj['definition'].replace(" :", ":")
-    word_obj['definition'] = word_obj['definition'].replace(" ,", ",")
+    word_obj['definition'] = format_content(word_obj['definition'])
 
     if not word_obj.get('definition_extra'):
         word_obj.pop('definition_extra', None)
@@ -150,6 +168,14 @@ def beautifier(word_obj):
 
     return word_obj
 
+
+def is_deeply_changed(existing, new):
+    if isinstance(existing, dict) and isinstance(new, dict):
+        return any(is_deeply_changed(existing.get(key), new.get(key)) for key in new)
+    elif isinstance(existing, list) and isinstance(new, list):
+        return len(existing) != len(new) or any(is_deeply_changed(e, n) for e, n in zip(existing, new))
+    else:
+        return existing != new
 
 def update_json_file(word_object):
     vowel_mapping = {
@@ -174,7 +200,7 @@ def update_json_file(word_object):
             for existing_def in data[word]['definitions']:
                 if existing_def['number'] == word_object['number']:
                     is_duplicate = True
-                    fields_changed = any(existing_def[key] != word_object[key] for key in word_object if key != 'number')
+                    fields_changed = is_deeply_changed(existing_def, word_object)
                     if fields_changed:
                         existing_def.update(word_object)
                     break
