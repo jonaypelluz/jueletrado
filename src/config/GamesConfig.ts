@@ -39,6 +39,15 @@ const GamesConfig: CardInfo[] = [
             'Busca y acierta la palabra secreta adivinando letras y su ubicación exacta. Un desafío mental estimulante que pone a prueba tu vocabulario y agilidad mental.',
         subtitle: 'Busca y acierta la palabra secreta adivinando letras y su ubicación exacta.',
     },
+    {
+        id: 'DefinitionMaster',
+        link: '/games/definitionmaster',
+        imgSrc: '/images/games/DefinitionMaster.png',
+        title: 'Maestro de las definiciones',
+        description:
+            'Es un emocionante juego de adivinanzas en el que los jugadores compiten por encontrar la definición precisa de una palabra dada, poniendo a prueba su conocimiento y habilidades lingüísticas en un ambiente desafiante y divertido.',
+        subtitle: 'Es un juego competitivo donde los jugadores adivinan definiciones de palabras.',
+    },
 ];
 
 export default GamesConfig;

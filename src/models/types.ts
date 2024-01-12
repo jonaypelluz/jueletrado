@@ -16,6 +16,22 @@ export type CardInfo = {
     description: string;
 };
 
+export type DefinitionWords = { [key: string]: Definition[] };
+
+export type Definition = {
+    definition: string;
+    number: number;
+    type: string;
+    typeExtra?: string;
+    definitionExtra?: string;
+};
+
+export type QuizDefinition = {
+    isCorrect: boolean;
+    definition: string;
+    word: string;
+};
+
 export type WordItem = {
     word: string;
     correct: string;
