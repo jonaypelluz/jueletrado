@@ -21,7 +21,7 @@ func main() {
 	hardWords := loadWordsFromFile(hardWordsFilePath)
 	basicWords := loadWordsFromFile(basicWordsFilePath)
 
-	basicFile, err := os.OpenFile("../basic_words.txt", os.O_APPEND|os.O_WRONLY, 0644)
+	basicFile, err := os.OpenFile(basicWordsFilePath, os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
 		fmt.Println("Error opening basic words file:", err)
 		return

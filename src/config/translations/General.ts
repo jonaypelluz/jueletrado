@@ -6,7 +6,7 @@ const GeneralTranslations: Translations = {
         errorDescription: 'Words not found!',
         gamesAllGames: 'All games',
         gameCheckWord: 'Check word',
-        gameMissed: "You didn't see",
+        gameMissed: 'You didn&#39;t see',
         gamePlay: 'Start',
         gameRulesAdditionalRules: 'Additional rules:',
         gameRulesGoaloftheGame: 'Goal of the Game:',
