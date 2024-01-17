@@ -6,7 +6,8 @@ const GeneralTranslations: Translations = {
         errorDescription: 'Words not found!',
         gamesAllGames: 'All games',
         gameCheckWord: 'Check word',
-        gameMissed: 'You didn&#39;t see',
+        // prettier-ignore
+        gameMissed: 'You didn\'t see',
         gamePlay: 'Start',
         gameRulesAdditionalRules: 'Additional rules:',
         gameRulesGoaloftheGame: 'Goal of the Game:',

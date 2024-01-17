@@ -18,7 +18,7 @@ const App: React.FC = () => {
             }
             const pathname = window.location.pathname;
             if (pathname !== '/') {
-                window.location.pathname =  '/';
+                window.location.pathname = '/';
             }
         };
 

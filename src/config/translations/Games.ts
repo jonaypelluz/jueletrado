@@ -40,9 +40,10 @@ const GamesTranslations: GamePreConfig[] = [
                     'If you choose a word spelled incorrectly, a block will be removed from your tower.',
                 ],
                 additionalRules: [],
+                // prettier-ignore
                 tips: [
                     'Take your time to carefully read each word.',
-                    'Remember that going faster doesn&apos;t always mean getting there first.',
+                    'Remember that going faster doesn\'t always mean getting there first.',
                 ],
             },
             es: {
@@ -224,7 +225,8 @@ const GamesTranslations: GamePreConfig[] = [
             es: 'Maestro de las definiciones',
         },
         description: {
-            en: 'It&apos;s an exciting guessing game in which players compete to find the precise definition of a given word, testing their knowledge and language skills in a challenging and fun environment.',
+            // prettier-ignore
+            en: 'It\'s an exciting guessing game in which players compete to find the precise definition of a given word, testing their knowledge and language skills in a challenging and fun environment.',
             es: 'Es un emocionante juego de adivinanzas en el que los jugadores compiten por encontrar la definición precisa de una palabra dada, poniendo a prueba su conocimiento y habilidades lingüísticas en un ambiente desafiante y divertido.',
         },
         subtitle: {
@@ -235,9 +237,10 @@ const GamesTranslations: GamePreConfig[] = [
             en: {
                 gameGoal:
                     'The goal is to learn and guess the definitions of as many words as possible.',
+                // prettier-ignore
                 howToPlay: [
                     'At the beginning of the game, a word is presented along with several possible definitions.',
-                    'The player selects the definition they believe is correct. If it&apos;s correct, it will be highlighted in blue.',
+                    'The player selects the definition they believe is correct. If it\'s correct, it will be highlighted in blue.',
                     'If the definition is incorrect, it will be displayed in red, and the correct word corresponding to that definition will be revealed.',
                 ],
                 additionalRules: [
