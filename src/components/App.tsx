@@ -12,8 +12,8 @@ const App: React.FC = () => {
 
     useEffect(() => {
         const setLocaleFromUrl = () => {
-            const path = window.location.pathname;
-            if (path.startsWith('/en/') && locale !== 'en') {
+            const hash = window.location.hash;
+            if (hash.startsWith('#/en/') && locale !== 'en') {
                 setLocale('en');
             }
             const pathname = window.location.pathname;
