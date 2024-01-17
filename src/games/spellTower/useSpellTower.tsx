@@ -62,9 +62,7 @@ const useSpellTower = () => {
 
             if (storedWords) {
                 const gameWords = processWords(storedWords);
-                Logger.debug('gameWords', gameWords);
                 const finalGameWords = processLastWords(gameWords);
-                Logger.debug('finalGameWords', finalGameWords);
                 setWords(finalGameWords);
                 setShowButton(true);
             } else {

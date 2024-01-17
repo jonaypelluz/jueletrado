@@ -1,7 +1,6 @@
 import { AccentedVowels, NonAccentedVowels } from '@config/AccentRules';
 import createChangeRules from '@config/ChangeRules';
 import { ChangeRule } from '@models/types';
-import Logger from '@services/Logger';
 
 class WordGameProcessor {
     private changeRules: ChangeRule[];
@@ -89,7 +88,6 @@ class WordGameProcessor {
 
     filterWordsByLetters(letters: string[], allWords: string[]): string[] {
         const letterSet = new Set(letters);
-        Logger.debug('letterSet', letterSet);
         return allWords.filter((word) => {
             if (word.length <= 1) {
                 return false;
