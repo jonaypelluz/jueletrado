@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button, Col, Row, Typography } from 'antd';
 import { GameConfig } from '@models/types';
 import GameRules from 'src/components/GameRules';
@@ -53,7 +54,11 @@ const UI: React.FC<WordBuilderUIProps> = ({
                     }}
                     onClick={handleGameStartClick}
                 >
-                    {letters.length > 0 ? 'Generar otras letras' : 'Jugar'}
+                    {letters.length > 0 ? (
+                        <FormattedMessage id="gameWordBuilderGenerate" />
+                    ) : (
+                        <FormattedMessage id="gamePlay" />
+                    )}
                 </Button>
             </Hero>
             <div className="word-builder-wrapper">
@@ -87,7 +92,7 @@ const UI: React.FC<WordBuilderUIProps> = ({
                                                 }}
                                                 onClick={handleCheckWordClick}
                                             >
-                                                Comprobar palabra
+                                                <FormattedMessage id="gameCheckWord" />
                                             </Button>
                                         </>
                                     )}

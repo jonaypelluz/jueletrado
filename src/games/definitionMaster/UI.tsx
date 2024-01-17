@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button } from 'antd';
 import { GameConfig, QuizDefinition } from '@models/types';
 import GameRules from 'src/components/GameRules';
@@ -37,7 +38,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                         style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
                         onClick={handleResetLetterClick}
                     >
-                        Elegir otra letra
+                        <FormattedMessage id="gameQuizWordChoose" />
                     </Button>
                 )}
                 {!isGameStarted && (
@@ -46,7 +47,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                         style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
                         onClick={handleGameStartClick}
                     >
-                        Jugar
+                        <FormattedMessage id="gamePlay" />
                     </Button>
                 )}
             </Hero>

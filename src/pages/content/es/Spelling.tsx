@@ -1,11 +1,11 @@
 import React from 'react';
 import { Col, Row, Typography } from 'antd';
 import { CheckCircleTwoTone } from '@ant-design/icons';
+import { createContentConfig } from '@hooks/useContentConfig';
+import { useWordsContext } from '@store/WordsContext';
 import Hero from 'src/components/Hero';
 import MainLayout from 'src/layouts/MainLayout';
 import './Spelling.scss';
-import { useWordsContext } from '@store/WordsContext';
-import { createContentConfig } from '@hooks/useContentConfig';
 
 const { Text, Title } = Typography;
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button, Col, Flex, Row } from 'antd';
 import { GameConfig } from '@models/types';
 import GameRules from 'src/components/GameRules';
@@ -51,12 +52,12 @@ const UI: React.FC<SpellTowerUIProps> = ({
                         style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
                         onClick={handleGameStartClick}
                     >
-                        Jugar
+                        <FormattedMessage id="gamePlay" />
                     </Button>
                 )}
                 {!showButton && (
                     <p style={{ fontSize: '24px', fontWeight: '800' }}>
-                        {countdown} segundos restantes
+                        {countdown} <FormattedMessage id="gameSeconds" />
                     </p>
                 )}
             </Hero>

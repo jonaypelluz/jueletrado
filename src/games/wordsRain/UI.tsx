@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button, Typography } from 'antd';
 import { GameConfig, RainWordItem } from '@models/types';
 import GameRules from 'src/components/GameRules';
@@ -55,7 +56,7 @@ const UI: React.FC<WordsRainUIProps> = ({
                         style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
                         onClick={handleGameStartClick}
                     >
-                        Jugar
+                        <FormattedMessage id="gamePlay" />
                     </Button>
                 )}
                 {timer > 0 && (

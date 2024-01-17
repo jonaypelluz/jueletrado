@@ -204,7 +204,11 @@ const useWordsRain = () => {
             {incorrectWords.map((item, index) => (
                 <div key={index}>
                     <Text strong type="danger" className="results-ko">
-                        {item.word !== item.correctWord ? item.word : 'No viste'}
+                        {item.word !== item.correctWord ? (
+                            item.word
+                        ) : (
+                            <FormattedMessage id="gameMissed" />
+                        )}
                     </Text>
                     <ForwardOutlined />
                     <Text strong className="results-ok" style={{ color: '#000' }}>

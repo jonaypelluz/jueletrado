@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button, Typography } from 'antd';
 import { Definition, DefinitionWords, QuizDefinition } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
@@ -178,7 +179,7 @@ const useDefinitionMaster = () => {
             return (
                 <div className="definition-master-quiz">
                     <Title level={2} style={{ textAlign: 'center' }}>
-                        La definición de {quizWord} es:
+                        <FormattedMessage id="gameQuizWord" values={{ quizWord: quizWord }} />
                     </Title>
                     {quizWords[currentQuizIndex].map((word: QuizDefinition, index: number) => {
                         const isCorrect = selectedAnswers[word.word];
@@ -205,7 +206,7 @@ const useDefinitionMaster = () => {
                             className="next-btn"
                             onClick={() => handleNextQuizWord()}
                         >
-                            Siguiente palabra
+                            <FormattedMessage id="gameQuizWordNextWord" />
                         </Button>
                     )}
                 </div>

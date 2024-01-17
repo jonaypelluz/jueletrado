@@ -1,7 +1,7 @@
 import React, { ReactNode, createContext, useContext, useState } from 'react';
+import { ContentRoutes } from '@config/translations/Content';
 import { GamesRoutes } from '@config/translations/Games';
 import StorageService from '@store/StorageService';
-import { ContentRoutes } from '@config/translations/Content';
 
 interface WordsContextValue {
     isLoading: boolean;

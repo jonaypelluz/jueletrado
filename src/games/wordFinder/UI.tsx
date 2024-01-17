@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button, Typography } from 'antd';
 import { GameConfig } from '@models/types';
 import GameRules from 'src/components/GameRules';
@@ -60,12 +61,12 @@ const UI: React.FC<WordFinderUIProps> = ({
                         }}
                         onClick={handleGameStartClick}
                     >
-                        Jugar
+                        <FormattedMessage id="gamePlay" />
                     </Button>
                 )}
                 {!showButton && (
                     <p style={{ fontSize: '24px', fontWeight: '800' }}>
-                        {countdown} segundos restantes
+                        {countdown} <FormattedMessage id="gameSeconds" />
                     </p>
                 )}
             </Hero>
@@ -104,7 +105,7 @@ const UI: React.FC<WordFinderUIProps> = ({
                                         }}
                                         onClick={handleCheckClick}
                                     >
-                                        Comprobar palabra (
+                                        <FormattedMessage id="gameCheckWord" /> (
                                         {word.split('').length - attempts.length + 1})
                                     </Button>
                                 </p>
