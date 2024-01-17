@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useIntl } from 'react-intl';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import { useWordsContext } from '@store/WordsContext';
 import AllGames from 'src/pages/AllGames';
 import Home from 'src/pages/Home';
@@ -52,12 +52,12 @@ const Router: React.FC = () => {
     }, [locale]);
 
     return (
-        <BrowserRouter>
+        <HashRouter basename="/">
             <Routes>
                 {routes}
                 <Route path="*" element={<NotFound />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 
