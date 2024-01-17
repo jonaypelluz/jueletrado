@@ -62,9 +62,9 @@ describe('WordsService data handler tests', () => {
             }),
         );
 
-        const result = await loadWords('basic', 1, 3, 'es');
+        const result = await loadWords('beginner', 1, 3, 'es');
 
-        expect(global.fetch).toHaveBeenCalledWith('/words/es/basic_words_from_1_to_3.json');
+        expect(global.fetch).toHaveBeenCalledWith('/words/es/beginner_words_from_1_to_3.json');
         expect(result).toEqual(mockWords);
     });
 
@@ -77,9 +77,9 @@ describe('WordsService data handler tests', () => {
 
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const result = await loadWords('basic', 1, 3, 'es');
+        const result = await loadWords('beginner', 1, 3, 'es');
 
-        expect(global.fetch).toHaveBeenCalledWith('/words/es/basic_words_from_1_to_3.json');
+        expect(global.fetch).toHaveBeenCalledWith('/words/es/beginner_words_from_1_to_3.json');
         expect(mockLoggerError).toHaveBeenCalledWith('Error fetching words:', expect.any(Error));
         expect(result).toBeUndefined();
     });
@@ -93,7 +93,7 @@ describe('WordsService data handler tests', () => {
             .spyOn(dbService, 'getAllWords')
             .mockImplementation(() => Promise.resolve(['word1', 'word2']));
         const setErrorMock = jest.fn();
-        const level = 'basic';
+        const level = 'beginner';
         const locale = 'es';
 
         const result = await getAllWords(level, locale, setErrorMock);
@@ -130,7 +130,7 @@ describe('WordsService data handler tests', () => {
             .mockImplementation(() => Promise.reject(new Error('Database error')));
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
         const setErrorMock = jest.fn();
-        const level = 'basic';
+        const level = 'beginner';
         const locale = 'es';
 
         const result = await getAllWords(level, locale, setErrorMock);
@@ -156,7 +156,7 @@ describe('WordsService data handler tests', () => {
             .mockImplementation(() => Promise.resolve(['word1', 'word2']));
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
         const setErrorMock = jest.fn();
-        const level = 'basic';
+        const level = 'beginner';
         const locale = 'es';
         const count = 2;
 

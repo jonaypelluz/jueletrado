@@ -18,9 +18,9 @@ const LevelList: React.FC<LevelListProps> = ({
     const intl = useIntl();
 
     const levelTranslations: { [key: string]: string } = {
-        basic: intl.formatMessage({ id: 'levelBasic' }),
+        beginner: intl.formatMessage({ id: 'levelBeginner' }),
         intermediate: intl.formatMessage({ id: 'levelIntermediate' }),
-        hard: intl.formatMessage({ id: 'levelHard' }),
+        advanced: intl.formatMessage({ id: 'levelAdvanced' }),
     };
 
     return (

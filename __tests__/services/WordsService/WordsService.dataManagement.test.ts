@@ -29,7 +29,7 @@ describe('WordsService data management tests', () => {
     test('Successful populate database', async () => {
         const setErrorMock = jest.fn();
         const setLoadingProgressMock = jest.fn();
-        const level = 'basic';
+        const level = 'beginner';
         const locale = 'es';
 
         const mockCheckIfPopulated = jest
@@ -77,7 +77,7 @@ describe('WordsService data management tests', () => {
         const CHUNK = 0;
         const setErrorMock = jest.fn();
         const setLoadingProgressMock = jest.fn();
-        const level = 'basic';
+        const level = 'beginner';
         const locale = 'es';
 
         jest.spyOn(StorageService, 'getItem').mockReturnValue([CHUNK]);

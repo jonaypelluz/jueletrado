@@ -15,7 +15,13 @@ fi
 
 TMP_FILE=$(mktemp)
 
-LC_COLLATE=es_ES.UTF-8 sort -u "$FILE" > "$TMP_FILE"
+if [ "$LOCALE" = "en" ]; then
+    LC_COLLATE="en_GB.UTF-8"
+else
+    LC_COLLATE="es_ES.UTF-8"
+fi
+
+LC_COLLATE=$LC_COLLATE sort -u "$FILE" > "$TMP_FILE"
 
 mv "$TMP_FILE" "$FILE"
 

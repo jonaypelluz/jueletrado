@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import { consonants, vowels } from '@config/Abc';
 import { NonAccentedVowels } from '@config/AccentRules';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import { getAllWords } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
+import { consonants, vowels } from '@config/translations/Letters';
 
 const NUMBER_OF_VOWELS = 2;
 const NUMBER_OF_CONSONANTS = 4;
@@ -47,7 +47,7 @@ const useWordBuilder = () => {
         setWords([]);
         setFoundWords([]);
         setTempWord('');
-        const selectedConsonants = getRandomLetters(consonants, NUMBER_OF_CONSONANTS);
+        const selectedConsonants = getRandomLetters(consonants[locale], NUMBER_OF_CONSONANTS);
         const selectedVowels = getRandomLetters(vowels, NUMBER_OF_VOWELS);
         const selectedLetters = [...selectedConsonants, ...selectedVowels];
         setLetters(selectedLetters);

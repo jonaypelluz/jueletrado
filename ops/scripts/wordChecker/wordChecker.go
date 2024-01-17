@@ -14,19 +14,19 @@ func main() {
 
 	locale := os.Args[1]
 
-	hardWordsFilePath := fmt.Sprintf("../words/%s/hard_words.txt", locale)
-	basicWordsFilePath := fmt.Sprintf("../words/%s/basic_words.txt", locale)
+	advancedWordsFilePath := fmt.Sprintf("../words/%s/advanced_words.txt", locale)
+	beginnerWordsFilePath := fmt.Sprintf("../words/%s/beginner_words.txt", locale)
 
 	scanner := bufio.NewScanner(os.Stdin)
-	hardWords := loadWordsFromFile(hardWordsFilePath)
-	basicWords := loadWordsFromFile(basicWordsFilePath)
+	advancedWords := loadWordsFromFile(advancedWordsFilePath)
+	beginnerWords := loadWordsFromFile(beginnerWordsFilePath)
 
-	basicFile, err := os.OpenFile(basicWordsFilePath, os.O_APPEND|os.O_WRONLY, 0644)
+	beginnerFile, err := os.OpenFile(beginnerWordsFilePath, os.O_APPEND|os.O_WRONLY, 0644)
 	if err != nil {
-		fmt.Println("Error opening basic words file:", err)
+		fmt.Println("Error opening beginner words file:", err)
 		return
 	}
-	defer basicFile.Close()
+	defer beginnerFile.Close()
 
 	fmt.Println("Enter words (type 'exit' to finish):")
 	for scanner.Scan() {
@@ -35,10 +35,10 @@ func main() {
 			break
 		}
 
-		if _, found := hardWords[word]; found {
-			if _, found := basicWords[word]; !found {
-				basicFile.WriteString(word + "\n")
-				basicWords[word] = struct{}{}
+		if _, found := advancedWords[word]; found {
+			if _, found := beginnerWords[word]; !found {
+				beginnerFile.WriteString(word + "\n")
+				beginnerWords[word] = struct{}{}
 			}
 		}
 	}

@@ -95,10 +95,10 @@ def save_to_file(json_content, first_letter):
     with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
-def main(word, basic_words_file):
+def main(word, beginner_words_file):
     start_processing = not word
 
-    with open(basic_words_file, 'r', encoding='utf-8') as file:
+    with open(beginner_words_file, 'r', encoding='utf-8') as file:
         for line in file:
             current_word = line.strip()
             if current_word == word:
@@ -115,8 +115,8 @@ def main(word, basic_words_file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Fetch and parse HTML from the RAE dictionary.")
-    parser.add_argument("basic_words_file", help="The text file containing words to fetch from the RAE dictionary.")
+    parser.add_argument("beginner_words_file", help="The text file containing words to fetch from the RAE dictionary.")
     parser.add_argument("--word", help="Optional: Starting word for processing. If not provided, starts from the beginning of the file.", default="")
     args = parser.parse_args()
 
-    main(args.word, args.basic_words_file)
+    main(args.word, args.beginner_words_file)

@@ -1,4 +1,4 @@
-import { BaseInfo, GameRules, Translation } from '@models/types';
+import { BaseInfo, GameRules, LocaleType, Translation } from '@models/types';
 
 export interface LogLevels {
     LOG_LEVEL?: 'error' | 'warn' | 'info' | 'test';
@@ -16,8 +16,8 @@ export interface ContentPreConfig {
 
 export interface GamePreConfig
     extends Omit<BaseInfo, 'title' | 'link' | 'description' | 'subtitle'> {
-    title: { en: string; es: string };
-    description: { en: string; es: string };
-    subtitle: { en: string; es: string };
+    title: LocaleType;
+    description: LocaleType;
+    subtitle: LocaleType;
     gameRules: { [key: string]: GameRules };
 }

@@ -2,22 +2,22 @@ import { LevelConfig } from '@models/types';
 
 const LevelsConfig: LevelConfig[] = [
     {
-        level: 'basic',
+        level: 'beginner',
         totalChunks: 1,
         chunkSize: 100000,
-        minimumPopulatedCount: { en: 1977, es: 9086 },
+        minimumPopulatedCount: { en: 1980, es: 9086 },
     },
     {
         level: 'intermediate',
         totalChunks: 2,
         chunkSize: 100000,
-        minimumPopulatedCount: { en: 28113, es: 108764 },
+        minimumPopulatedCount: { en: 27384, es: 108764 },
     },
     {
-        level: 'hard',
+        level: 'advanced',
         totalChunks: 7,
         chunkSize: 100000,
-        minimumPopulatedCount: { en: 166468, es: 646408 },
+        minimumPopulatedCount: { en: 177026, es: 646408 },
     },
 ];
 

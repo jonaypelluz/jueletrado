@@ -6,7 +6,7 @@ describe('DBService Store Management', () => {
     test('addWords stores words and getAllWords retrive them successfully', async () => {
         await dbService.initDB();
 
-        const level: string = 'basic';
+        const level: string = 'beginner';
         const locale: string = 'es';
         const testWords: string[] = ['testWord1', 'testWord2'];
         const minimumPopulatedCount = { es: 0 };
@@ -23,7 +23,7 @@ describe('DBService Store Management', () => {
 
         await dbService.initDB();
 
-        const level: string = 'basic';
+        const level: string = 'beginner';
         const locale: string = 'es';
         const testWords: string[] = ['testWord1', 'testWord2'];
         const noWordsWillBeStored: string[] = [];

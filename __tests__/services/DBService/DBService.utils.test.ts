@@ -3,7 +3,7 @@ import 'fake-indexeddb/auto';
 
 describe('DBService utils methods', () => {
     test('setStoreName correctly sets the storeName', () => {
-        const level = 'basic';
+        const level = 'beginner';
         const locale = 'es';
         dbService.setStoreName(level, locale);
 

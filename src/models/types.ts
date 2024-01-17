@@ -43,6 +43,11 @@ export type LevelConfig = {
     minimumPopulatedCount: { [key: string]: number };
 };
 
+export type LocaleType = {
+    en: string;
+    es: string;
+}
+
 export type LocaleConfig = {
     lang: string;
     name: string;
