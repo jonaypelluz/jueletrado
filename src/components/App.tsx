@@ -16,6 +16,10 @@ const App: React.FC = () => {
             if (path.startsWith('/en/') && locale !== 'en') {
                 setLocale('en');
             }
+            const pathname = window.location.pathname;
+            if (pathname !== '/') {
+                window.location.pathname =  '/';
+            }
         };
 
         setLocaleFromUrl();
