@@ -1,16 +1,16 @@
 import { useEffect, useState } from 'react';
 import { consonants, vowels } from '@config/Abc';
 import { NonAccentedVowels } from '@config/AccentRules';
+import { useWordProcessor } from '@hooks/useWordProcessor';
 import { getAllWords } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
-import WordGameProcessor from 'src/utils/WordGameProcessor';
 
 const NUMBER_OF_VOWELS = 2;
 const NUMBER_OF_CONSONANTS = 4;
 
 const useWordBuilder = () => {
-    const { error, setError, setLoading, isLoading, gameLevel } = useWordsContext();
-    const wordProcessor = new WordGameProcessor();
+    const { locale, error, setError, setLoading, isLoading, gameLevel } = useWordsContext();
+    const wordProcessor = useWordProcessor(locale);
 
     const [letters, setLetters] = useState<string[]>([]);
     const [tempWord, setTempWord] = useState<string>('');
@@ -30,11 +30,15 @@ const useWordBuilder = () => {
     };
 
     const calculatePossibleWords = async () => {
-        const expandedLetters = letters.flatMap((letter: string) =>
-            NonAccentedVowels[letter.toLowerCase()]
-                ? [letter, NonAccentedVowels[letter.toLowerCase()]]
-                : [letter],
-        );
+        let expandedLetters = letters;
+        if (locale === 'es') {
+            // We have to add accented vowels to the possible words in spanish or catalan
+            expandedLetters = letters.flatMap((letter: string) =>
+                NonAccentedVowels[letter.toLowerCase()]
+                    ? [letter, NonAccentedVowels[letter.toLowerCase()]]
+                    : [letter],
+            );
+        }
         const possibleWords = await wordProcessor.filterWordsByLetters(expandedLetters, allWords);
         setWords(possibleWords);
     };
@@ -90,7 +94,7 @@ const useWordBuilder = () => {
 
     useEffect(() => {
         const fetchAllWords = async () => {
-            const theWords = await getAllWords(gameLevel, setError);
+            const theWords = await getAllWords(gameLevel, locale, setError);
             if (theWords) {
                 setAllWords(theWords);
             }

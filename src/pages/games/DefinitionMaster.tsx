@@ -1,16 +1,16 @@
 import React from 'react';
-import GamesConfig from '@config/GamesConfig';
 import DefinitionMasterUI from '@games/definitionMaster/UI';
 import useDefinitionMaster from '@games/definitionMaster/useDefinitionMaster';
-import { CardInfo } from '@models/types';
+import { createGamesConfig } from '@hooks/useGamesConfig';
+import { useWordsContext } from '@store/WordsContext';
 import MainLayout from 'src/layouts/MainLayout';
 import './DefinitionMaster.scss';
 
 const DefinitionMaster: React.FC = () => {
+    const { locale } = useWordsContext();
+
     const definitionMasterLogic = useDefinitionMaster();
-    const definitionMasterConfig = GamesConfig.find(
-        (game: CardInfo) => game.id === 'DefinitionMaster',
-    );
+    const definitionMasterConfig = createGamesConfig(locale, 'definitionMaster');
 
     return (
         <MainLayout>

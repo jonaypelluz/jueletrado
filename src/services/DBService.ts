@@ -1,5 +1,6 @@
 import LevelsConfig from '@config/LevelConfig';
-import { LevelConfig } from '@models/types';
+import LocalesConfig from '@config/LocaleConfig';
+import { LevelConfig, LocaleConfig } from '@models/types';
 import Logger from '@services/Logger';
 
 const DB_NAME = 'jueletrado-db';
@@ -23,8 +24,8 @@ class DBService {
         this.logger = options.logger;
     }
 
-    setStoreName(level: string) {
-        this.storeName = `words_level_${level}`;
+    setStoreName(level: string, locale: string) {
+        this.storeName = `words_level_${level}_${locale}`;
     }
 
     getStoreName() {
@@ -54,10 +55,12 @@ class DBService {
             request.onupgradeneeded = () => {
                 const db = request.result;
                 LevelsConfig.forEach((config: LevelConfig) => {
-                    const storeName = `words_level_${config.level}`;
-                    if (!db.objectStoreNames.contains(storeName)) {
-                        db.createObjectStore(storeName, { autoIncrement: true });
-                    }
+                    LocalesConfig.forEach((locale: LocaleConfig) => {
+                        const storeName = `words_level_${config.level}_${locale.lang}`;
+                        if (!db.objectStoreNames.contains(storeName)) {
+                            db.createObjectStore(storeName, { autoIncrement: true });
+                        }
+                    });
                 });
             };
 
@@ -77,8 +80,13 @@ class DBService {
         });
     }
 
-    async addWords(level: string, words: string[], minimumPopulatedCount: number): Promise<void> {
-        const populated = await this.checkIfPopulated(level, minimumPopulatedCount);
+    async addWords(
+        level: string,
+        locale: string,
+        words: string[],
+        minimumPopulatedCount: { [key: string]: number },
+    ): Promise<void> {
+        const populated = await this.checkIfPopulated(level, locale, minimumPopulatedCount[locale]);
         if (populated) {
             this.logger.log(
                 `The database is already populated for level ${level}. Skipping adding words.`,
@@ -127,8 +135,12 @@ class DBService {
         });
     }
 
-    async checkIfPopulated(level: string, minimumPopulatedCount: number): Promise<boolean> {
-        if (this.isPopulatedMap.get(level)) {
+    async checkIfPopulated(
+        level: string,
+        locale: string,
+        minimumPopulatedCount: number,
+    ): Promise<boolean> {
+        if (this.isPopulatedMap.get(`${level}_${locale}`)) {
             this.logger.log(`Database check: Already marked as populated for level ${level}.`);
             return true;
         }
@@ -142,16 +154,16 @@ class DBService {
 
                     request.onsuccess = () => {
                         const isPopulated = request.result > minimumPopulatedCount;
-                        this.isPopulatedMap.set(level, isPopulated);
+                        this.isPopulatedMap.set(`${level}_${locale}`, isPopulated);
                         this.logger.log(
-                            `Database check: Populated status for level ${level} - ${isPopulated}`,
+                            `Database check: Populated status for ${level} ${locale} - ${isPopulated}`,
                         );
                         resolve(isPopulated);
                     };
 
                     request.onerror = () => {
                         this.logger.error(
-                            `Error checking if populated for level ${level}: ${request.error?.message}`,
+                            `Error checking if populated for ${level} ${locale}: ${request.error?.message}`,
                         );
                         reject(request.error);
                     };

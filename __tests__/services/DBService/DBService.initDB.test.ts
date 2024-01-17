@@ -1,4 +1,5 @@
 import LevelsConfig from '@config/LevelConfig';
+import LocalesConfig from '@config/LocaleConfig';
 import { dbService } from '@services/DBService';
 import Logger from '@services/Logger';
 import 'fake-indexeddb/auto';
@@ -26,9 +27,11 @@ describe('DBService.initDB', () => {
         });
 
         for (const config of LevelsConfig) {
-            const storeName = `words_level_${config.level}`;
-            const storeExists = db.objectStoreNames.contains(storeName);
-            expect(storeExists).toBe(true);
+            for (const locale of LocalesConfig) {
+                const storeName = `words_level_${config.level}_${locale.lang}`;
+                const storeExists = db.objectStoreNames.contains(storeName);
+                expect(storeExists).toBe(true);
+            }
         }
 
         db.close();

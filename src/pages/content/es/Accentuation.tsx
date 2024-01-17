@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Row, Typography } from 'antd';
 import { CheckCircleTwoTone } from '@ant-design/icons';
-import ContentConfig from '@config/ContentConfig';
-import { CardInfo } from '@models/types';
+import { createContentConfig } from '@hooks/useContentConfig';
+import { useWordsContext } from '@store/WordsContext';
 import Hero from 'src/components/Hero';
 import MainLayout from 'src/layouts/MainLayout';
 import './Accentuation.scss';
@@ -10,15 +10,16 @@ import './Accentuation.scss';
 const { Text, Title } = Typography;
 
 const Accentuation: React.FC = () => {
-    const contentConfig = ContentConfig.find((content: CardInfo) => content.id === 'Accentuation');
+    const { locale } = useWordsContext();
+    const ContentConfig = createContentConfig(locale, 'accentuation');
 
     return (
         <MainLayout>
-            {contentConfig && (
+            {ContentConfig && (
                 <Hero
-                    image={contentConfig.imgSrc}
-                    title={contentConfig.title}
-                    subtitle={contentConfig.description}
+                    image={ContentConfig.imgSrc}
+                    title={ContentConfig.title}
+                    subtitle={ContentConfig.description}
                 />
             )}
 

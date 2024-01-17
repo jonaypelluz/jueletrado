@@ -13,7 +13,7 @@ $spell-tower-background-borders: $main-color-dark, $secondary-color-dark;
 
     &::before {
         opacity: 0.3;
-        background-image: url('../../assets/games/SpellTowerBg.png');
+        background-image: url('../../assets/games/spellTowerBg.png');
     }
 
     .spell-tower-top {
@@ -75,6 +75,6 @@ $spell-tower-background-borders: $main-color-dark, $secondary-color-dark;
 
     &::before {
         opacity: 0.2;
-        background-image: url('../../assets/games/SpellTowerBg.png');
+        background-image: url('../../assets/games/spellTowerBg.png');
     }
 }

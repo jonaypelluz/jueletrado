@@ -1,0 +1,124 @@
+{
+    "yell": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A shout.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A phrase to be shouted.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Shout; holler; make a loud sound with the voice.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To convey by shouting.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To tell someone off (in a loud and angry manner).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "Dry (of cow).",
+                "type": "adjective"
+            }
+        ]
+    },
+    "yield": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To pay, give in payment; repay, recompense; reward; requite.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To furnish; to afford; to render; to give forth.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To give way; to allow another to pass first.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To give as required; to surrender, relinquish or capitulate.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To give, or give forth, (anything).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To give way; to succumb to a force.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To produce as return, as from an investment.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To produce as a result.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To produce a particular sound as the result of a sound law.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "(of a material specimen) To pass the material's yield point and undergo plastic deformation.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To admit to be true; to concede; to allow.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "Payment; tribute.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A product; the quantity of something produced.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "The current return as a percentage of the price of a stock or bond.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "Profit earned from an investment; return on investment.",
+                "type": "noun"
+            }
+        ]
+    },
+    "youngster": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A young person.",
+                "type": "noun"
+            }
+        ]
+    }
+}

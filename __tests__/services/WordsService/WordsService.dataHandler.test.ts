@@ -28,9 +28,9 @@ describe('WordsService data handler tests', () => {
             }),
         );
 
-        const result = await loadDefinition('a');
+        const result = await loadDefinition('a', 'es');
 
-        expect(global.fetch).toHaveBeenCalledWith('/definitions/a_definitions.json');
+        expect(global.fetch).toHaveBeenCalledWith('/definitions/es/a_definitions.json');
         expect(result).toEqual(mockDefinition);
     });
 
@@ -43,9 +43,9 @@ describe('WordsService data handler tests', () => {
 
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const result = await loadDefinition('a');
+        const result = await loadDefinition('a', 'es');
 
-        expect(global.fetch).toHaveBeenCalledWith('/definitions/a_definitions.json');
+        expect(global.fetch).toHaveBeenCalledWith('/definitions/es/a_definitions.json');
         expect(mockLoggerError).toHaveBeenCalledWith(
             'Error fetching definitions:',
             expect.any(Error),
@@ -62,9 +62,9 @@ describe('WordsService data handler tests', () => {
             }),
         );
 
-        const result = await loadWords('basic', 1, 3);
+        const result = await loadWords('basic', 1, 3, 'es');
 
-        expect(global.fetch).toHaveBeenCalledWith('/words/basic_words_from_1_to_3.json');
+        expect(global.fetch).toHaveBeenCalledWith('/words/es/basic_words_from_1_to_3.json');
         expect(result).toEqual(mockWords);
     });
 
@@ -77,9 +77,9 @@ describe('WordsService data handler tests', () => {
 
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const result = await loadWords('basic', 1, 3);
+        const result = await loadWords('basic', 1, 3, 'es');
 
-        expect(global.fetch).toHaveBeenCalledWith('/words/basic_words_from_1_to_3.json');
+        expect(global.fetch).toHaveBeenCalledWith('/words/es/basic_words_from_1_to_3.json');
         expect(mockLoggerError).toHaveBeenCalledWith('Error fetching words:', expect.any(Error));
         expect(result).toBeUndefined();
     });
@@ -94,10 +94,11 @@ describe('WordsService data handler tests', () => {
             .mockImplementation(() => Promise.resolve(['word1', 'word2']));
         const setErrorMock = jest.fn();
         const level = 'basic';
+        const locale = 'es';
 
-        const result = await getAllWords(level, setErrorMock);
+        const result = await getAllWords(level, locale, setErrorMock);
 
-        expect(mockSetStoreName).toHaveBeenCalledWith(level);
+        expect(mockSetStoreName).toHaveBeenCalledWith(level, locale);
         expect(mockInitDB).toHaveBeenCalled();
         expect(mockGetAllWords).toHaveBeenCalled();
         expect(result).toEqual(['word1', 'word2']);
@@ -107,10 +108,11 @@ describe('WordsService data handler tests', () => {
     test('Error handling for invalid level in getAllWords', async () => {
         const setErrorMock = jest.fn();
         const invalidLevel = 'invalid_level';
+        const locale = 'es';
 
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const result = await getAllWords(invalidLevel, setErrorMock);
+        const result = await getAllWords(invalidLevel, locale, setErrorMock);
 
         expect(mockLoggerError).toHaveBeenCalled();
         expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));
@@ -129,10 +131,11 @@ describe('WordsService data handler tests', () => {
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
         const setErrorMock = jest.fn();
         const level = 'basic';
+        const locale = 'es';
 
-        const result = await getAllWords(level, setErrorMock);
+        const result = await getAllWords(level, locale, setErrorMock);
 
-        expect(mockSetStoreName).toHaveBeenCalledWith(level);
+        expect(mockSetStoreName).toHaveBeenCalledWith(level, locale);
         expect(mockInitDB).toHaveBeenCalled();
         expect(mockGetAllWords).toHaveBeenCalled();
         expect(mockLoggerError).toHaveBeenCalledWith(
@@ -154,11 +157,12 @@ describe('WordsService data handler tests', () => {
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
         const setErrorMock = jest.fn();
         const level = 'basic';
+        const locale = 'es';
         const count = 2;
 
-        const result = await getWords(level, count, setErrorMock);
+        const result = await getWords(level, locale, count, setErrorMock);
 
-        expect(mockSetStoreName).toHaveBeenCalledWith(level);
+        expect(mockSetStoreName).toHaveBeenCalledWith(level, locale);
         expect(mockInitDB).toHaveBeenCalled();
         expect(mockGetRandomWords).toHaveBeenCalledWith(count);
         expect(result).toEqual(['word1', 'word2']);
@@ -169,11 +173,12 @@ describe('WordsService data handler tests', () => {
     test('Handles invalid level error in getWords', async () => {
         const setErrorMock = jest.fn();
         const level = 'invalid_level';
+        const locale = 'es';
         const count = 10;
 
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const result = await getWords(level, count, setErrorMock);
+        const result = await getWords(level, locale, count, setErrorMock);
 
         expect(mockLoggerError).toHaveBeenCalledWith('Invalid level specified');
         expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));

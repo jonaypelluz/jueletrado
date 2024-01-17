@@ -4,9 +4,10 @@ import 'fake-indexeddb/auto';
 describe('DBService utils methods', () => {
     test('setStoreName correctly sets the storeName', () => {
         const level = 'basic';
-        dbService.setStoreName(level);
+        const locale = 'es';
+        dbService.setStoreName(level, locale);
 
-        expect(dbService.getStoreName()).toBe(`words_level_${level}`);
+        expect(dbService.getStoreName()).toBe(`words_level_${level}_${locale}`);
     });
 
     test('startTransaction throws an error if DB is not initialized', () => {

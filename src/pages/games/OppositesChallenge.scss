@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+@import '../../common.scss';
+
+.opposites-challenge-wrapper {
+    @extend .game-wrapper;
+
+    &::before {
+        opacity: 0.3;
+        background-image: url('../../assets/games/oppositesChallengeBg.png');
+    }
+
+    .opposites-challenge-inner {
+        padding: 24px;
+    }
+}

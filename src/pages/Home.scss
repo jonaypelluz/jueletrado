@@ -1,5 +1,15 @@
 @import '../variables.scss';
 
+.home-hero {
+    img {
+        max-width: 140px;
+
+        @media only screen and (max-width: 479px) {
+            max-width: 100px;
+        }
+    }
+}
+
 .level-wrapper {
     margin-top: 48px;
     border: 1px solid #000;
@@ -74,7 +84,7 @@
             padding: 6px;
 
             .ant-typography {
-                font-size: 12px;
+                font-size: 11px;
             }
         }
     }

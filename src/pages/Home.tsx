@@ -1,18 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Collapse, Typography } from 'antd';
-import LevelsConfig from '@config/LevelConfig';
-import { LevelConfig } from '@models/types';
+import { useIntl } from 'react-intl';
 import Logger from '@services/Logger';
 import { getWords, populateWordsDB } from '@services/WordsService';
 import StorageService, { StorageKey } from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 import Games from 'src/components/Games';
 import Hero from 'src/components/Hero';
+import LevelList from 'src/components/LevelList';
 import LoadingScreen from 'src/components/LoadingScreen';
 import MainLayout from 'src/layouts/MainLayout';
 import './Home.scss';
-
-const { Text } = Typography;
 
 const EXPIRE_TIME_24H: number = 86400000;
 
@@ -24,39 +21,10 @@ const mainImageArray: string[] = [
     '/images/home/Jueletrado_5.png',
 ];
 
-const levelTranslations: { [key: string]: string } = {
-    basic: 'Principiante',
-    intermediate: 'Intermedio',
-    hard: 'Difícil',
-};
-
-interface LevelListProps {
-    handlePopulateDBClick: (level: string) => void;
-    gameLevel: string | null;
-}
-
-const LevelList: React.FC<LevelListProps> = ({
-    handlePopulateDBClick,
-    gameLevel,
-}: LevelListProps) => (
-    <>
-        {LevelsConfig.map((level: LevelConfig, idx: number) => (
-            <div
-                key={idx}
-                onClick={() => handlePopulateDBClick(level.level)}
-                className={`btn-${level.level} btn-levels ${
-                    gameLevel && gameLevel === level.level ? 'selected' : ''
-                }`}
-            >
-                <img src={`/images/levels/${level.level}Bg.png`} alt={level.level} />
-                <Text strong>{levelTranslations[level.level]}</Text>
-            </div>
-        ))}
-    </>
-);
-
 const Home: React.FC = () => {
+    const intl = useIntl();
     const {
+        locale,
         isLoading,
         error,
         gameLevel,
@@ -79,7 +47,7 @@ const Home: React.FC = () => {
             setWordGroupsLoaded(false);
             setLoading(true);
             isDBBeingPopulated.current = true;
-            populateWordsDB(level, setError, setLoadingProgress).then((isPopulated) => {
+            populateWordsDB(level, locale, setError, setLoadingProgress).then((isPopulated) => {
                 if (isPopulated) {
                     StorageService.setItem(StorageService.SELECTED_LEVEL, level, EXPIRE_TIME_24H);
                     setGameLevel(level);
@@ -113,6 +81,7 @@ const Home: React.FC = () => {
                     try {
                         const words = await getWords(
                             gameLevel,
+                            locale,
                             group.count,
                             setError,
                             group.maxLength,
@@ -174,31 +143,12 @@ const Home: React.FC = () => {
         <MainLayout>
             <Hero
                 image={currentImage}
-                title="Jueletrado"
-                subtitle="Donde jugar y aprender a escribir bien van de la mano"
+                className="home-hero"
+                title={intl.formatMessage({ id: 'mainTitle' })}
+                subtitle={intl.formatMessage({ id: 'mainDescription' })}
                 styles={{ border: '1px solid #000' }}
             />
-            <div className="level-wrapper">
-                <Collapse
-                    collapsible="header"
-                    defaultActiveKey={gameLevel === null ? ['1'] : []}
-                    ghost={true}
-                    items={[
-                        {
-                            key: '1',
-                            label: gameLevel
-                                ? `Nivel: ${levelTranslations[gameLevel]}`
-                                : 'Elige el nivel',
-                            children: (
-                                <LevelList
-                                    handlePopulateDBClick={handlePopulateDBClick}
-                                    gameLevel={gameLevel}
-                                />
-                            ),
-                        },
-                    ]}
-                />
-            </div>
+            <LevelList handlePopulateDBClick={handlePopulateDBClick} gameLevel={gameLevel} />
             <Games />
         </MainLayout>
     );

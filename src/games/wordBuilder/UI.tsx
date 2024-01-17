@@ -1,13 +1,14 @@
 import React from 'react';
 import { Button, Col, Row, Typography } from 'antd';
-import { CardInfo } from '@models/types';
+import { GameConfig } from '@models/types';
+import GameRules from 'src/components/GameRules';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 
-const { Text, Title } = Typography;
+const { Text } = Typography;
 
 type WordBuilderUIProps = {
-    gameConfig: CardInfo;
+    gameConfig: GameConfig;
     error: Error | null;
     isLoading: boolean;
     words: string[];
@@ -57,62 +58,7 @@ const UI: React.FC<WordBuilderUIProps> = ({
             </Hero>
             <div className="word-builder-wrapper">
                 {letters.length === 0 && foundWords.length === 0 && (
-                    <div className="game-rules">
-                        <Title level={2}>Reglas</Title>
-                        <p>
-                            <Text strong>Objetivo del Juego:</Text>
-                        </p>
-                        <p>
-                            <Text>
-                                El objetivo es adivinar la mayor cantidad de palabras posibles
-                                utilizando las letras que se muestran.
-                            </Text>
-                        </p>
-                        <p>
-                            <Text strong>Cómo Jugar:</Text>
-                        </p>
-                        <div>
-                            <Text>
-                                <ul>
-                                    <li>
-                                        Al inicio del juego, se presentan letras dispuestas en un
-                                        círculo, y en el centro, un número indica el total de
-                                        posibles combinaciones de palabras.
-                                    </li>
-                                    <li>
-                                        Selecciona una letra para que aparezca junto a un botón de
-                                        verificación, que te permite comprobar si la palabra existe.
-                                    </li>
-                                    <li>
-                                        Las palabras adivinadas correctamente se mostrarán
-                                        secuencialmente una detrás de otra.
-                                    </li>
-                                </ul>
-                            </Text>
-                        </div>
-                        <p>
-                            <Text strong>Reglas Adicionales:</Text>
-                        </p>
-                        <p>
-                            <Text>
-                                Las palabras con acentos serán aceptadas aunque la combinación de
-                                letras no incluya acentos.
-                                <br />
-                                El juego concluye cuando se hayan encontrado todas las combinaciones
-                                posibles de palabras.
-                            </Text>
-                        </p>
-                        <p>
-                            <Text strong>Consejos:</Text>
-                        </p>
-                        <p>
-                            <Text>
-                                Combinaciones de palabras que tengan dos sílabas es posible. <br />
-                                Ten en cuenta que entre las opciones posibles, no se incluyen
-                                palabras de una sola sílaba.
-                            </Text>
-                        </p>
-                    </div>
+                    <GameRules {...gameConfig.gameRules} />
                 )}
                 {letters.length > 0 && (
                     <>

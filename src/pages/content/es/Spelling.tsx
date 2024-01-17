@@ -1,24 +1,25 @@
 import React from 'react';
 import { Col, Row, Typography } from 'antd';
 import { CheckCircleTwoTone } from '@ant-design/icons';
-import ContentConfig from '@config/ContentConfig';
-import { CardInfo } from '@models/types';
 import Hero from 'src/components/Hero';
 import MainLayout from 'src/layouts/MainLayout';
 import './Spelling.scss';
+import { useWordsContext } from '@store/WordsContext';
+import { createContentConfig } from '@hooks/useContentConfig';
 
 const { Text, Title } = Typography;
 
 const Spelling: React.FC = () => {
-    const contentConfig = ContentConfig.find((content: CardInfo) => content.id === 'Spelling');
+    const { locale } = useWordsContext();
+    const ContentConfig = createContentConfig(locale, 'spelling');
 
     return (
         <MainLayout>
-            {contentConfig && (
+            {ContentConfig && (
                 <Hero
-                    image={contentConfig.imgSrc}
-                    title={contentConfig.title}
-                    subtitle={contentConfig.description}
+                    image={ContentConfig.imgSrc}
+                    title={ContentConfig.title}
+                    subtitle={ContentConfig.description}
                 />
             )}
             <div className="spelling-rules-wrapper">

@@ -17,7 +17,14 @@ code {
 .footer {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    padding: 24px;
+
+    .ant-typography {
+        &.powered {
+            text-align: right;
+        }
+    }
 }
 
 .content-wrapper {
@@ -56,10 +63,10 @@ code {
 main.ant-layout-content {
     max-width: 1620px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 100px 20px 40px;
 
     @media only screen and (max-width: 479px) {
-        padding: 20px 12px;
+        padding: 100px 12px 20px;
     }
 }
 

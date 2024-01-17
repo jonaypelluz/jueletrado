@@ -1,0 +1,5179 @@
+{
+    "racial": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A skill possessed by all characters of a certain race.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Of or relating to a race (or a people).",
+                "type": "adjective"
+            }
+        ]
+    },
+    "racism": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Belief that there are distinct human races with inherent differences which determine their abilities, and generally that some are superior and others inferior.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The policies, practices, or systems (e.g. government or political) promoting this belief or promoting the dominance of one or more races over others.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Prejudice or discrimination based upon race or ethnicity; an action of such discrimination.",
+                "type": "noun"
+            }
+        ]
+    },
+    "racist": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person who believes in or supports racism; a person who believes that a particular race is superior to others.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Constituting, exhibiting, advocating or pertaining to racism.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Discriminatory.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "radar": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A method of detecting distant objects and determining their position, velocity, or other characteristics by analysis of sent radio waves (usually microwaves) reflected from their surfaces.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A type of system using such method, differentiated by platform, configuration, frequency, power, and other technical attributes.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An installation of such a system or of the transmitting and receiving apparatus.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A superior ability to detect something.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To scan with radar, or as if with radar.",
+                "type": "verb"
+            }
+        ]
+    },
+    "radiation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The shooting forth of anything from a point or surface, like diverging rays of light.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The process of radiating waves or particles.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The transfer of energy via radiation (as opposed to convection or conduction).",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Radioactive energy.",
+                "type": "noun"
+            }
+        ]
+    },
+    "radical": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(historical: 19th-century Britain) A member of the most progressive wing of the Liberal Party; someone favouring social reform (but generally stopping short of socialism).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(historical: early 20th-century France) A member of an influential, centrist political party favouring moderate social reform, a republican constitution, and secular politics.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person with radical opinions.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A root (of a number or quantity).",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "In logographic writing systems such as the Chinese writing system, the portion of a character (if any) that provides an indication of its meaning, as opposed to phonetic.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "In Semitic languages, any one of the set of consonants (typically three) that make up a root.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A group of atoms, joined by covalent bonds, that take part in reactions as a single unit.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A free radical.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "(commutative algebra, of an ideal) Given an ideal I in a commutative ring R, another ideal, denoted Rad(I) or \\sqrt{I}, such that an element x ∈ R is in Rad(I) if, for some positive integer n, xn ∈ I; equivalently, the intersection of all prime ideals containing I.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "(of a ring) Given a ring R, an ideal containing elements of R that share a property considered, in some sense, \"not good\".",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "(of a module) The intersection of maximal submodules of a given module.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "The product of the distinct prime factors of a given positive integer.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "Favoring fundamental change, or change at the root cause of a matter.",
+                "type": "adjective"
+            },
+            {
+                "number": 14,
+                "definition": "Pertaining to a root (of a plant).",
+                "type": "adjective"
+            },
+            {
+                "number": 15,
+                "definition": "Pertaining to the basic or intrinsic nature of something.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fundamental"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "ignorable, trivial"
+                    }
+                ]
+            },
+            {
+                "number": 16,
+                "definition": "Thoroughgoing; far-reaching.",
+                "type": "adjective"
+            },
+            {
+                "number": 17,
+                "definition": "Of or pertaining to the root of a word.",
+                "type": "adjective"
+            },
+            {
+                "number": 18,
+                "definition": "(of a sound) Produced using the root of the tongue.",
+                "type": "adjective"
+            },
+            {
+                "number": 19,
+                "definition": "Involving free radicals.",
+                "type": "adjective"
+            },
+            {
+                "number": 20,
+                "definition": "Relating to a radix or mathematical root.",
+                "type": "adjective"
+            },
+            {
+                "number": 21,
+                "definition": "(1980s & 1990s) Excellent; awesome.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rage": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Violent uncontrolled anger.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A current fashion or fad.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Any vehement passion.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To act or speak in heightened anger.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(sometimes figurative) To move with great violence, as a storm etc.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To enrage.",
+                "type": "verb"
+            }
+        ]
+    },
+    "raid": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A quick hostile or predatory incursion or invasion in a battle.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An attack or invasion for the purpose of making arrests, seizing property, or plundering.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An attacking movement.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An activity initiated at or towards the end of a live broadcast by the broadcaster that sends its viewers to a different broadcast, primarily intended to boost the viewership of the receiving broadcaster. This is frequently accompanied by a message in the form of a hashtag that is posted in the broadcast's chat by the viewers.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A large group in a massively multiplayer online game, consisting of multiple parties who team up to defeat a powerful enemy.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To engage in a raid against.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To lure from another; to entice away from.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To indulge oneself by taking from.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rail": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A horizontal bar extending between supports and used for support or as a barrier; a railing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The metal bar that makes the track for a railroad.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A railroad; a railway, as a means of transportation.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A horizontal piece of wood that serves to separate sections of a door or window.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "One of the lengthwise edges of a surfboard.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A vertical section on one side of a web page.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A large line (portion or serving of a powdery illegal drug).",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To travel by railway.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To enclose with rails or a railing.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To range in a line.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To criticize severely.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "Any of several birds in the family Rallidae.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "To complain violently (against, about).",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "An item of clothing; a cloak or other garment; a dress.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "Specifically, a woman's headscarf or neckerchief.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "(of a liquid) To gush, flow.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rally": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A public gathering or mass meeting that is not mainly a protest and is organized to inspire enthusiasm for a cause.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A protest or demonstration for or against something, but often with speeches and often without marching, especially in North America.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A sequence of strokes between serving and scoring a point.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An event in which competitors drive through a series of timed special stages at intervals. The winner is the driver who completes all stages with the shortest cumulative time.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A recovery after a decline in prices (said of the market, stocks, etc.).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To collect, and reduce to order, as troops dispersed or thrown into confusion; to gather again; to reunite.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To come into orderly arrangement; to renew order, or united effort, as troops scattered or put to flight; to assemble; to unite.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To collect one's vital powers or forces; to regain health or consciousness; to recuperate.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To recover strength after a decline in prices; -- said of the market, stocks, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "Good-humoured raillery.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "To tease; to chaff good-humouredly.",
+                "type": "verb"
+            }
+        ]
+    },
+    "random": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A roving motion; course without definite direction; lack of rule or method; chance.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Speed, full speed; impetuosity, force.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The full range of a bullet or other projectile; hence, the angle at which a weapon is tilted to allow the greatest range.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An undefined, unknown or unimportant person; a person of no consequence.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The direction of a rake-vein.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Having unpredictable outcomes and, in the ideal case, all outcomes equally probable; resulting from such selection; lacking statistical correlation.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Of or relating to probability distribution.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Pseudorandom; mimicking the result of random selection.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "(somewhat colloquial) Representative and undistinguished; typical and average; selected for no particular reason.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "(somewhat colloquial) Apropos of nothing; lacking context; unexpected; having apparent lack of plan, cause or reason.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Characterized by or often saying random things; habitually using non sequiturs.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "ranking": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To place abreast, or in a line.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To have a ranking.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To assign a suitable place in a class or order; to classify.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To take rank of; to outrank.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "One’s relative placement in a list.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "(in combination) Having a specified rank.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Superior in rank.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rat": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A medium-sized rodent belonging to the genus Rattus.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any of the numerous members of several rodent families (e.g. voles and mice) that resemble true rats in appearance, usually having a pointy snout, a long, bare tail, and body length greater than about 12 cm, or 5 inches.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person who is known for betrayal; a scoundrel; a quisling.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An informant or snitch.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A scab: a worker who acts against trade union policies.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A person who routinely spends time at a particular location.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A wad of shed hair used as part of a hairstyle.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A roll of material used to puff out the hair, which is turned over it.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Vagina.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Short for muskrat.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "(usually with “on” or “out”) To betray a person or party, especially by telling their secret to an authority or an enemy; to turn someone in.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To work as a scab, going against trade union policies.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(of a dog, etc.) To kill rats.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "A scratch or a score.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A place in the sea with rapid currents and crags where a ship is likely to be torn apart in stormy weather.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "To scratch or score.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To tear, rip, rend.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "Damn, drat, blast; used in oaths.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "A ration.",
+                "type": "noun"
+            }
+        ]
+    },
+    "rating": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To assign or be assigned a particular rank or level.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To evaluate or estimate the value of.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To consider or regard.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To deserve; to be worth.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To determine the limits of safe functioning for a machine or electrical device.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To evaluate a property's value for the purposes of local taxation.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To like; to think highly of.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To have position (in a certain class).",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To have value or standing.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To ratify.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To ascertain the exact rate of the gain or loss of (a chronometer) as compared with true time.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To berate, scold.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "A position on a scale.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "An evaluation of status, especially of financial status.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A number, letter, or other mark that refers to the ability of something.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A seaman in a warship.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "The status of a seaman, corresponding to rank in officers.",
+                "type": "noun"
+            }
+        ]
+    },
+    "ratio": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A number representing a comparison between two named things.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The relative magnitudes of two quantities (usually expressed as a quotient).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Short for ratio decidendi.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The amount of comments to a post or other expression on social media relative to the number of likes.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(social media) To respond to a post or message on social media in a greater number than the number of likes the post receives.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rational": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A rational number: a number that can be expressed as the quotient of two integers.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Capable of reasoning.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Logically sound; not contradictory or otherwise absurd.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "(of a person or personal characteristics) Healthy or balanced intellectually; exhibiting reasonableness.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Of a number, capable of being expressed as the ratio of two integers.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Of an algebraic expression, capable of being expressed as the ratio of two polynomials.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Expressing the type, structure, relations, and reactions of a compound; graphic; said of formulae.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Expressing a physical object.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "The breastplate worn by Israelite high priests.",
+                "type": "noun"
+            }
+        ]
+    },
+    "ray": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A beam of light or radiation.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A rib-like reinforcement of bone or cartilage in a fish's fin.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One of the spheromeres of a radiate, especially one of the arms of a starfish or an ophiuran.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A radiating part of a flower or plant; the marginal florets of a compound flower, such as an aster or a sunflower; one of the pedicels of an umbel or other circular flower cluster; radius.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Sight; perception; vision; from an old theory of vision, that sight was something which proceeded from the eye to the object seen.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A line extending indefinitely in one direction from a point.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A tiny amount.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To emit something as if in rays.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To radiate as if in rays.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "A marine fish with a flat body, large wing-like fins, and a whip-like tail.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "Array; order; arrangement; dress.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To arrange.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To dress, array (someone).",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To stain or soil; to defile.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "The letter ⟨/⟩, one of two which represent the r sound in Pitman shorthand.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A syllable used in solfège to represent the second note of a major scale.",
+                "type": "noun"
+            }
+        ]
+    },
+    "readily": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Without unwillingness or hesitation; showing readiness.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Without impediment, easily.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "realization": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of realizing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The result of an artistic effort.",
+                "type": "noun"
+            }
+        ]
+    },
+    "realm": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An abstract sphere of influence, real or imagined.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The domain of a certain abstraction.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A scope of operation in networking or security.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A territory or state, as ruled by a specific power, especially by a king.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An otherworldly dimension or domain — magical, ethereal, or otherwise — usually ruled or created by a mystical character.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A taxonomic rank in the phylogeny of viruses, higher than kingdoms.",
+                "type": "noun"
+            }
+        ]
+    },
+    "rear": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To bring up to maturity, as offspring; to educate; to instruct; to foster.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "(said of people towards animals) To breed and raise.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To rise up on the hind legs.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "(usually with \"up\") To get angry.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To rise high above, tower above.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To raise physically or metaphorically; to lift up; to cause to rise, to elevate.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To construct by building; to set up.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To raise spiritually; to lift up; to elevate morally.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To lift and take up.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To rouse; to strip up.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To move; stir.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "(of geese) To carve.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(regional, obsolete) To revive, bring to life, quicken. (only in the phrase, to rear to life).",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "(of eggs) Underdone; nearly raw.",
+                "type": "adjective"
+            },
+            {
+                "number": 15,
+                "definition": "(of meats) Rare.",
+                "type": "adjective"
+            },
+            {
+                "number": 16,
+                "definition": "The back or hindmost part; that which is behind, or last on order; - opposed to front.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "Specifically, the part of an army or fleet which comes last, or is stationed behind the rest.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "The buttocks, a creature's bottom.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "To place in the rear; to secure the rear of.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To sodomize (perform anal sex).",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "Being behind, or in the hindmost part; hindmost.",
+                "type": "adjective"
+            },
+            {
+                "number": 22,
+                "definition": "Early; soon.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "reasonably": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In accordance with reason.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Fairly; satisfactorily; not extremely.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "Quite; fairly; satisfactorily.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "reasoning": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To deduce or come to a conclusion by being rational.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To perform a process of deduction or of induction, in order to convince or to confute; to argue.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To converse; to compare opinions.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To arrange and present the reasons for or against; to examine or discuss by arguments; to debate or discuss.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To support with reasons, as a request.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To persuade by reasoning or argument.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "(with down) To overcome or conquer by adducing reasons.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "(usually with out) To find by logical process; to explain or justify by reason or argument.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "The deduction of inferences or interpretations from premises; abstract thought; ratiocination.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A Rastafari meeting held for the purposes of chanting, prayer and discussion.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reassure": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To assure anew; to restore confidence to; to free from fear or self-doubt.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To reinsure.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rebel": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person who resists an established authority, often violently.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person from the Confederate States of America.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To resist or become defiant toward an authority.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rebellion": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Armed resistance to an established government or ruler.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Defiance of authority or control; the act of rebelling.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An organized, forceful subversion of the law of the land in an attempt to replace it with another form of government.",
+                "type": "noun"
+            }
+        ]
+    },
+    "rebuild": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A process or result of rebuilding.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To build again.",
+                "type": "verb"
+            }
+        ]
+    },
+    "receiver": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person who or thing that receives or is intended to receive something. More formal, usually referring to one who receives such things as an award or medal.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "recipient"
+                    }
+                ]
+            }
+        ]
+    },
+    "recession": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act or an instance of receding or withdrawing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A period of reduced economic activity.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The ceremonial filing out of clergy and/or choir at the end of a church service.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The act of ceding something back.",
+                "type": "noun"
+            }
+        ]
+    },
+    "recipient": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who receives.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An individual receiving donor organs or tissues.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The portion of an alembic or other still in which the distilled liquid is collected.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Receiving.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "reckon": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To count; to enumerate; to number; also, to compute; to calculate.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To count as in a number, rank, or series; to estimate by rank or quality; to place by estimation; to account; to esteem; to repute.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To charge, attribute, or adjudge to one, as having a certain quality or value.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To conclude, as by an enumeration and balancing of chances; hence, to think; to suppose; -- followed by an objective clause.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To reckon with something or somebody or not, i.e to reckon without something or somebody: to take into account, deal with, consider or not, i.e. to misjudge, ignore, not take into account, not deal with, not consider or fail to consider; e.g. reckon without one's host.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To make an enumeration or computation; to engage in numbering or computing.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To come to an accounting; to draw up or settle accounts; to examine and strike the balance of debt and credit; to adjust relations of desert or penalty.",
+                "type": "verb"
+            }
+        ]
+    },
+    "recognition": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of recognizing or the condition of being recognized (matching a current observation with a memory of a prior observation of the same entity).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Acceptance as valid or true.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Official acceptance of the status of a new government by that of another country.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Honour, favourable note, or attention.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The propriety consisting for antibodies to bind to some specific antigens and not to others.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A return of the feu to the superior.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reconstruction": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A thing that has been reconstructed or restored to an earlier state.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of restoring something to an earlier state.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A result of an attempt to understand in detail how a certain result or event occurred.",
+                "type": "noun"
+            }
+        ]
+    },
+    "recount": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Narration, account, description, rendering.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To tell; narrate; to relate in detail.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To rehearse; to enumerate.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "A counting again, as of votes.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To count again.",
+                "type": "verb"
+            }
+        ]
+    },
+    "recovery": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act or process of regaining or repossession of something lost.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A return to normal health.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A return to former status or position.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Renewed growth after a slump.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A verdict giving somebody the right to recover debts or costs.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The extraction of an ore from a mine, or of a metal from an ore.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The ability to recover or regain health.",
+                "type": "noun"
+            }
+        ]
+    },
+    "recruit": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A supply of anything wasted or exhausted; a reinforcement.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person enlisted for service in the army; a newly enlisted soldier.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A hired worker.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A new member of a certain population, usually a juvenile.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To enroll or enlist new members or potential employees on behalf of an employer, organization, sports team, the military, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To supply with new men, as an army; to fill up or make up by enlistment; also, to muster.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To replenish, renew, or reinvigorate by fresh supplies; to remedy a lack or deficiency in.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To recuperate; to gain health, flesh, spirits, or the like.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To prompt a protein, leucocyte. etc. to intervene in a given region of the body.",
+                "type": "verb"
+            }
+        ]
+    },
+    "recruitment": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The process or art of finding candidates for a post in an organization, or recruits for the armed forces.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A style or process of recruiting.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The addition of new recruits to a population.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The full aeration of a lung.",
+                "type": "noun"
+            }
+        ]
+    },
+    "referee": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An umpire or judge; an official who makes sure the rules are followed during a game.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person who settles a dispute.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person who writes a letter of reference or provides a reference by phone call for someone.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An expert who judges the manuscript of an article or book to decide if it should be published.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To act as a referee.",
+                "type": "verb"
+            }
+        ]
+    },
+    "referendum": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A direct popular vote on a proposed law or constitutional amendment. The adposition on is usually used before the related subject of the vote.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An action, choice, etc., which is perceived as passing judgment on another matter.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reflection": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of reflecting or the state of being reflected.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The property of a propagated wave being thrown back from a surface (such as a mirror).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something, such as an image, that is reflected.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Careful thought or consideration.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An implied criticism.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The process or mechanism of determining the capabilities of an object at run-time.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The folding of a part; a fold.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reform": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The change of something that is defective, broken, inefficient or otherwise negative, in order to correct or improve it.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To put into a new and improved form or condition; to restore to a former good state, or bring from bad to good; to change from worse to better.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To return to a good state; to amend or correct one's own character or habits.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To form again or in a new configuration.",
+                "type": "verb"
+            }
+        ]
+    },
+    "refuge": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A state of safety, protection or shelter.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A place providing safety, protection or shelter.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something or someone turned to for safety or assistance; a recourse or resort.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An expedient to secure protection or defence.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A refuge island.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To return to a place of shelter.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To shelter; to protect.",
+                "type": "verb"
+            }
+        ]
+    },
+    "refugee": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person seeking refuge in a foreign country out of fear of political persecution or the prospect of such persecution in their home country, i.e., a person seeking political asylum.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person seeking refuge due to a natural disaster, war, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person formally granted political or economic asylum by a country other than their home country.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(by extension) A person who flees one place or institution for another.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To convey (slaves) away from the advance of the federal forces.",
+                "type": "verb"
+            }
+        ]
+    },
+    "refusal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of refusing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Depth or point at which well or borehole drilling cannot continue.",
+                "type": "noun"
+            }
+        ]
+    },
+    "regain": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To get back; to recover possession of.",
+                "type": "verb"
+            }
+        ]
+    },
+    "regardless": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Having no regard; heedless; careless.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Without attention to warnings or indications of bad consequences.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "Paying no attention to; regardless of.",
+                "type": "preposition"
+            }
+        ]
+    },
+    "regime": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Mode of rule or management.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A form of government, or the government in power.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A period of rule.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A regulated system; a regimen.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A division of a Mafia crime family, led by a caporegime.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A set of characteristics.",
+                "type": "noun"
+            }
+        ]
+    },
+    "registration": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of signing up or registering for something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "That which registers or makes something official, e.g. the form or paper that registers.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Alignment, e.g. of colors or other elements in a printing process.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The location where guests register, especially with a hotel.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The art of selecting and combining the stops or registers of an organ.",
+                "type": "noun"
+            }
+        ]
+    },
+    "regulate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To dictate policy.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To control or direct according to rule, principle, or law.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To adjust to a particular specification or requirement: regulate temperature.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To adjust (a mechanism) for accurate and proper functioning.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To put or maintain in order.",
+                "type": "verb"
+            }
+        ]
+    },
+    "regulator": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A device that controls or limits something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person or group that sets standards of practice, especially those established by law.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A very accurate clock, used by clockmakers to measure the timekeeping of each newly made clock.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A gene involved in controlling the expression of one or more other genes.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A device that controls the supply of steam to the cylinders of a steam locomotive.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A bulldozer (member of intimidating group of white US Southerners).",
+                "type": "noun"
+            }
+        ]
+    },
+    "regulatory": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Of or pertaining to regulation.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rehabilitation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The process of rehabilitating somebody or something.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reign": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The exercise of sovereign power.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The period during which a monarch rules.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The territory or sphere over which a kingdom; empire; realm; dominion, etc. is ruled.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To exercise sovereign power, to rule as a monarch.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To reign over (a country).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To be the winner of the most recent iteration of a competition.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To be a dominant quality of a place or situation; to prevail, predominate, rule.",
+                "type": "verb"
+            }
+        ]
+    },
+    "reinforce": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To strengthen, especially by addition or augmentation.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To emphasize or review.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To encourage (a behavior or idea) through repeated stimulus.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rejection": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of rejecting.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The state of being rejected.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A blocked shot.",
+                "type": "noun"
+            }
+        ]
+    },
+    "relevance": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The property or state of being relevant or pertinent.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reliability": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The quality of being reliable, dependable or trustworthy.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "unreliable, dependable"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "The ability to measure the same thing consistently (of a measurement indicating the degree to which the measure is consistent); that is, repeated measurements would give the same result (See also validity).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Measurable time of work before failure.",
+                "type": "noun"
+            }
+        ]
+    },
+    "relieve": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To ease (a person, person's thoughts etc.) from mental distress; to stop (someone) feeling anxious or worried, to alleviate the distress of.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To ease (someone, a part of the body etc.) or give relief from physical pain or discomfort.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To alleviate (pain, distress, mental discomfort etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To provide comfort or assistance to (someone in need, especially in poverty).",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To lift up; to raise again.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To raise (someone) out of danger or from (a specified difficulty etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To free (someone) from debt or legal obligations; to give legal relief to.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To bring military help to (a besieged town); to lift the siege on.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To release (someone) from or of a difficulty, unwanted task, responsibility etc.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "(job) To free (someone) from their post, task etc. by taking their place.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To make (something) stand out; to make prominent, bring into relief.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To go to the toilet; to defecate or urinate.",
+                "type": "verb"
+            }
+        ]
+    },
+    "relieved": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To ease (a person, person's thoughts etc.) from mental distress; to stop (someone) feeling anxious or worried, to alleviate the distress of.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To ease (someone, a part of the body etc.) or give relief from physical pain or discomfort.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To alleviate (pain, distress, mental discomfort etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To provide comfort or assistance to (someone in need, especially in poverty).",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To lift up; to raise again.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To raise (someone) out of danger or from (a specified difficulty etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To free (someone) from debt or legal obligations; to give legal relief to.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To bring military help to (a besieged town); to lift the siege on.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To release (someone) from or of a difficulty, unwanted task, responsibility etc.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "(job) To free (someone) from their post, task etc. by taking their place.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To make (something) stand out; to make prominent, bring into relief.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To go to the toilet; to defecate or urinate.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "Experiencing or exhibiting relief; freed from stress or discomfort.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "reluctant": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Opposing; offering resistance (to).",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Not wanting to take some action; unwilling.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Tending to match as little text as possible.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "greedy"
+                    }
+                ]
+            }
+        ]
+    },
+    "remainder": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A part or parts remaining after some has/have been removed.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The amount left over after subtracting the divisor as many times as possible from the dividend without producing a negative result. If (n) (dividend) and d (divisor) are integers, then (n) can always be expressed in the form n = dq + r, where q (quotient) and r (remainder) are also integers and 0 ≤ r < d.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The number left over after a simple subtraction.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Excess stock items left unsold and subject to reduction in price.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An estate in expectancy which only comes in its heir's possession after an estate created by the same instrument has been determined.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To mark or declare items left unsold as subject to reduction in price.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "Remaining.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "remains": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(chiefly in the plural) That which is left; relic; remainder.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(in the plural) That which is left of a human being after the life is gone; relics; a dead body.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Posthumous works or productions, especially literary works.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "State of remaining; stay.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To stay behind while others withdraw; to be left after others have been removed or destroyed; to be left after a number or quantity has been subtracted or cut off; to be left as not included or comprised.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To continue unchanged in place, form, or condition, or undiminished in quantity; to abide; to stay; to endure; to last.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To await; to be left to.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To continue in a state of being.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "What is left after a person (or any organism) dies; a corpse.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Historical or archaeological relics.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The extant writings of a deceased person.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "All that is left of the stock of some things; remnants.",
+                "type": "noun"
+            }
+        ]
+    },
+    "remarkable": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Worthy of being remarked or noted; notable.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "eminent, extraordinary, notable, noticeable, observable, outstanding, rare, strange, unusual, wonderful"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "unremarkable"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "Uncommon; unusual.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "abnormal, queer, singular"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "normal"
+                    }
+                ]
+            }
+        ]
+    },
+    "remarkably": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(manner) In a remarkable manner.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "(degree) To a noteworthy extent.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "(evaluative) Used to draw special attention to a proposition.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "remedy": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that corrects or counteracts.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The legal means to recover a right or to prevent or obtain redress for a wrong.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A medicine, application, or treatment that relieves or cures a disease.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The accepted tolerance or deviation in fineness or weight in the production of gold coins etc.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To provide or serve as a remedy for.",
+                "type": "verb"
+            }
+        ]
+    },
+    "reminder": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Someone or something that reminds.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Writing that reminds of open payments.",
+                "type": "noun"
+            }
+        ]
+    },
+    "removal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The process of moving, or the fact of being removed.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The relocation of a business etc.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The dismissal of someone from office.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An evening funeral ritual in which the coffin holding the deceased is brought, usually from a funeral home, to the church where the funeral mass will be celebrated the following day. Prayers are said before and after the journey, after which mourners are typically received at the home of the deceased.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Murder.",
+                "type": "noun"
+            }
+        ]
+    },
+    "render": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Stucco or plaster applied to walls (mostly to outside masonry walls).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A digital image produced by rendering a model.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A surrender.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A return; a payment of rent.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An account given; a statement.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "(ditransitive) To cause to become.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To interpret, give an interpretation or rendition of.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To translate into another language.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To pass down.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To make over as a return.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To give; to give back; to deliver.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To give up; to yield; to surrender.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To transform (a model) into a display on the screen or other media.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To capture and turn over to another country secretly and extrajudicially.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To convert waste animal tissue into a usable byproduct.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To have fat drip off meat from cooking.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To cover a wall with a layer of plaster.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To pass; to run; said of the passage of a rope through a block, eyelet, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To yield or give way.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To return; to pay back; to restore.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To inflict, as a retribution; to requite.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "One who rends.",
+                "type": "noun"
+            }
+        ]
+    },
+    "renew": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To make (something) new again; to restore to freshness or original condition.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To replace (something which has broken etc.); to replenish (something which has been exhausted), to keep up a required supply of.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To make new spiritually; to regenerate.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To become new, or as new; to revive.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To begin again; to recommence.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To repeat.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To extend a period of loan, especially a library book that is due to be returned.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "The act of renewing.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "An offensive action made immediately after a parried one.",
+                "type": "noun"
+            }
+        ]
+    },
+    "renowned": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Famous, celebrated, or well-known.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rental": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that is rented.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The payment made to rent something.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A business that rents out something to its customers.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An act of renting.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A player traded to a team with a year or less on his contract.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Relating to rent.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Relating to renting.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "replacement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person or thing that takes the place of another; a substitute.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of replacing something.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The removal of an edge of crystal, by one plane or more.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reportedly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "According to reports or rumors; supposedly.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "reporting": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To relate details of (an event or incident); to recount, describe (something).",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To repeat (something one has heard), to retell; to pass on, convey (a message, information etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To take oneself (to someone or something) for guidance or support; to appeal.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To notify someone of (particular intelligence, suspicions, illegality, misconduct etc.); to make notification to relevant authorities; to submit a formal report of.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To make a formal statement, especially of complaint, about (someone).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To show up or appear at an appointed time; to present oneself.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To write news reports (for); to cover as a journalist or reporter.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To be accountable to or subordinate to (someone) in a hierarchy; to receive orders from (someone); to give official updates to (someone who is above oneself in a hierarchy).",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To return or present as the result of an examination or consideration of any matter officially referred.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To take minutes of (a speech, the doings of a public body, etc.); to write down from the lips of a speaker.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To refer.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To return or repeat, as sound; to echo.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "The creation of reports, as for a business or a journal.",
+                "type": "noun"
+            }
+        ]
+    },
+    "representation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "That which represents something else.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of representing.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The lawyers and staff who argue on behalf of another in court.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The ability to elect a representative to speak on one's behalf in government; the role of this representative in government.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An object that describes an abstract group in terms of linear transformations of vector spaces; (more formally) a homomorphism from a group on a vector space to the general linear group (group of all bijective linear transformations) on the space.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A figure, image or idea that substitutes reality.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A theatrical performance.",
+                "type": "noun"
+            }
+        ]
+    },
+    "reproduce": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To produce an image or copy of.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To generate offspring (sexually or asexually), or organisms.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To produce again; to recreate.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To bring something to mind; to recall.",
+                "type": "verb"
+            }
+        ]
+    },
+    "reproduction": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of reproducing new individuals biologically.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of making copies.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A copy of something, as in a piece of art; a duplicate.",
+                "type": "noun"
+            }
+        ]
+    },
+    "republic": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A state where sovereignty rests with the people or their representatives, rather than with a monarch or emperor; a country with no monarchy.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A state, which may or may not be a monarchy, in which the executive and legislative branches of government are separate.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One of the subdivisions constituting Russia. See oblast.",
+                "type": "noun"
+            }
+        ]
+    },
+    "resemble": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To be like or similar to (something); to represent as similar.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To compare; to regard as similar, to liken.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To counterfeit; to imitate.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To cause to imitate or be like; to make similar.",
+                "type": "verb"
+            }
+        ]
+    },
+    "reside": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To dwell permanently or for a considerable time; to have a settled abode for a time; to remain for a long time.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To have a seat or fixed position; to inhere; to lie or be as in attribute or element.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To sink; to settle, as sediment.",
+                "type": "verb"
+            }
+        ]
+    },
+    "residence": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The place where one lives; one's home.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A building used as a home.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The place where a corporation is established.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The state of living in a particular place or environment.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Accommodation for students at a university or college.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The place where anything rests permanently.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Subsidence, as of a sediment.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "That which falls to the bottom of liquors; sediment; also, refuse; residuum.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A base of Russian espionage operations within a foreign country.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "residence, residency"
+                    }
+                ]
+            }
+        ]
+    },
+    "residential": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A trip during which people temporarily live together.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Of or pertaining to a place of personal residence or to a location for such places.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Used as a residence or by residents.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Of or pertaining to residency.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "residue": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Whatever remains after something else has been removed.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The substance that remains after evaporation, distillation, filtration or any similar process.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A molecule that is released from a polymer after bonds between neighbouring monomers are broken, such as an amino acid in a polypeptide chain.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Whatever property or effects are left in an estate after payment of all debts, other charges and deduction of what is specifically bequeathed by the testator.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A form of complex number, proportional to the contour integral of a meromorphic function along a path enclosing one of its singularities.",
+                "type": "noun"
+            }
+        ]
+    },
+    "resign": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To give up; to relinquish ownership of.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To hand over (something to someone), place into the care or control of another.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To quit (a job or position).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To submit passively; to give up as hopeless or inevitable.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To sign again; to provide one's signature again.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "(by extension) To sign a contract renewing or restarting a professional relationship, such as that of a professional athlete with a sports team.",
+                "type": "verb"
+            }
+        ]
+    },
+    "resignation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of resigning.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A written or oral declaration that one resigns.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "State of uncomplaining acceptance in the face of something undesirable but unavoidable.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The form by which a vassal returns the feu into the hands of a superior.",
+                "type": "noun"
+            }
+        ]
+    },
+    "resistance": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of resisting, or the capacity to resist.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "opposition"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A force that tends to oppose motion.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Electrical resistance.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An underground organisation engaged in a struggle for liberation from forceful occupation; a resistance movement.",
+                "type": "noun"
+            }
+        ]
+    },
+    "resolution": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A strong will, determination.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The state of being resolute.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A statement of intent, a vow.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The act of discerning detail.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(computing, photography) The degree of fineness with which an image can be recorded or produced, often expressed as the number of pixels per unit of length (typically an inch).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The number of pixels in an image being stored or displayed.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The process of determining the meaning of a symbol or address; lookup.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The act or process of solving; solution.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A formal statement adopted by an assembly, or during any other formal meeting.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The separation of the constituent parts (of a spectrum etc).",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The degree of fineness of such a separation.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Progression from dissonance to consonance; a chord to which such progression is made.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "The moment in which the conflict ends and the outcome of the action is clear.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "In a pathological process, the phase during which pathogens and damaged tissues are removed by macrophages.",
+                "type": "noun"
+            }
+        ]
+    },
+    "respective": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Relating to particular persons or things, each to each; particular; own.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Noticing with attention; careful; wary.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Looking toward; having reference to; relative, not absolute.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Fitted to awaken respect.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Rendering respect; respectful; regardful.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "respectively": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In a relative manner; often used when comparing lists, where the term denotes that the items in the lists correspond to each other in the order they are given.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "restoration": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The process of bringing an object back to its original state; the process of restoring something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The return of a former monarchy or monarch to power, usually after having been forced to step down.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The receiving of a sinner to divine favor.",
+                "type": "noun"
+            }
+        ]
+    },
+    "restore": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of recovering data or a system from a backup.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To reestablish, or bring back into existence.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To bring back to good condition from a state of decay or ruin.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To give or bring back (that which has been lost or taken); to bring back to the owner; to replace.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To give in place of, or as restitution for.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To recover (data, etc.) from a backup.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To bring (a note) back to its original signification.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To make good; to make amends for.",
+                "type": "verb"
+            }
+        ]
+    },
+    "restraint": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that restrains, ties, fastens or secures.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Control or caution; reserve.",
+                "type": "noun"
+            }
+        ]
+    },
+    "restrict": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To restrain within boundaries; to limit; to confine.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "(specifically) To consider (a function) as defined on a subset of its original domain.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "Restricted.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "restriction": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of restricting, or the state of being restricted.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A regulation or limitation that restricts.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The mechanism by which a cell degrades foreign DNA material.",
+                "type": "noun"
+            }
+        ]
+    },
+    "resume": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To take back possession of (something).",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To summarise.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To start (something) again that has been stopped or paused from the point at which it was stopped or paused; continue, carry on.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "suspend"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "A summary or synopsis.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "précis"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "A summary or account of education and employment experiences and qualifications, a curriculum vitae (often for presentation to a potential future employer when applying for a job).",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "CV, curriculum vitae"
+                    }
+                ]
+            }
+        ]
+    },
+    "retail": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The sale of goods directly to the consumer, encompassing the storefronts, mail-order, websites, etc., and the corporate mechanisms, branding, advertising, etc. that support them.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Retail price; full price; an abbreviated expression, meaning the full suggested price of a particular good or service, before any sale, discount, or other deal.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To sell at retail, or in small quantities directly to customers.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To sell secondhand, or in broken parts.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To repeat or circulate (news or rumours) to others.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "Of or relating to the (actual or figurative) sale of goods or services directly to individuals.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Direct to consumers, in retail quantities, or at retail prices.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "retirement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An act of retiring; withdrawal.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The state of being retired; seclusion.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A place of seclusion or privacy; a retreat.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The state of having permanently left one's employment, now especially at reaching pensionable age; the portion of one's life after retiring from one's career.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The act of leaving one's career or employment permanently.",
+                "type": "noun"
+            }
+        ]
+    },
+    "retreat": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of pulling back or withdrawing, as from something dangerous, or unpleasant.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of reversing direction and receding from a forward position.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A peaceful, quiet place affording privacy or security.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A peaceful, quiet place in which to urinate and defecate: an outhouse; a lavatory.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A period of retirement, seclusion, or solitude.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A period of meditation, prayer or study.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Withdrawal by military force from a dangerous position or from enemy attack.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A signal for a military withdrawal.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A bugle call or drumbeat signaling the lowering of the flag at sunset, as on a military base.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A military ceremony to lower the flag.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The move of a piece from a threatened position.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To withdraw from a position, go back.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(of a glacier) To shrink back due to generally warmer temperatures.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To slope back.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To treat or deal with (a topic) again or differently.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To apply treatment to (an injury, a surface, etc.) again.",
+                "type": "verb"
+            }
+        ]
+    },
+    "retrieve": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A retrieval.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The return of a difficult ball.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A seeking again; a discovery.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The recovery of game once sprung.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To regain or get back something.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To rescue (a creature).",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To salvage something.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To remedy or rectify something.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To remember or recall something.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To fetch or carry back something.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To fetch and bring in game.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To fetch and bring in game systematically.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To fetch or carry back systematically, notably as a game.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To make a difficult but successful return of the ball.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To remedy the evil consequence of, to repair (a loss or damage).",
+                "type": "verb"
+            }
+        ]
+    },
+    "revelation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of revealing or disclosing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something that is revealed.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something dramatically disclosed.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A manifestation of divine truth.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A great success.",
+                "type": "noun"
+            }
+        ]
+    },
+    "revenge": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any form of personal retaliatory action against an individual, institution, or group for some alleged or perceived harm or injustice.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "payback, wreak"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A win by a previous loser.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To take revenge for (a particular harmful action) or on behalf of (its victim); to avenge.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To take one's revenge (on or upon someone).",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To take vengeance; to revenge itself.",
+                "type": "verb"
+            }
+        ]
+    },
+    "revenue": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The income returned by an investment.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The total income received from a given source.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "All income generated for some political entity's treasury by taxation and other means.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The total sales; turnover.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The net income from normal business operations; net sales.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A return; something paid back.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To generate revenue.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To supply with revenue.",
+                "type": "verb"
+            }
+        ]
+    },
+    "reverse": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The opposite of something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of going backwards; a reversal.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A piece of misfortune; a setback.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The tails side of a coin, or the side of a medal or badge that is opposite the obverse.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The side of something facing away from a viewer, or from what is considered the front; the other side.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The gear setting of an automobile that makes it travel backwards.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A thrust in fencing made with a backward turn of the hand; a backhanded stroke.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A turn or fold made in bandaging, by which the direction of the bandage is changed.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "To turn something around so that it faces the opposite direction or runs in the opposite sequence.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To turn something inside out or upside down.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To transpose the positions of two things.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To change totally; to alter to the opposite.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To return, come back.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To turn away; to cause to depart.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To cause to return; to recall.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To revoke a law, or to change a decision into its opposite.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To cause a mechanism or a vehicle to operate or move in the opposite direction to normal.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To change the direction of a reaction such that the products become the reactants and vice-versa.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To place a set of points in the reverse position.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "(of points) to move from the normal position to the reverse position.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To overthrow; to subvert.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "Opposite, contrary; going in the opposite direction.",
+                "type": "adjective"
+            },
+            {
+                "number": 23,
+                "definition": "Pertaining to engines, vehicle movement etc. moving in a direction opposite to the usual direction.",
+                "type": "adjective"
+            },
+            {
+                "number": 24,
+                "definition": "(of points) To be in the non-default position; to be set for the lesser-used route.",
+                "type": "adjective"
+            },
+            {
+                "number": 25,
+                "definition": "Turned upside down; greatly disturbed.",
+                "type": "adjective"
+            },
+            {
+                "number": 26,
+                "definition": "Reversed.",
+                "type": "adjective"
+            },
+            {
+                "number": 27,
+                "definition": "In which cDNA synthetization is obtained from an RNA template.",
+                "type": "adjective"
+            },
+            {
+                "number": 28,
+                "definition": "In a reverse way or direction; in reverse; upside-down.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "revision": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The process of revising:.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A changed edition, or new version; a modification.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A story corrected or expanded by a writer commissioned by the original author.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To provide with a new vision.",
+                "type": "verb"
+            }
+        ]
+    },
+    "revival": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of reviving, or the state of being revived.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Renewed attention to something, as to letters or literature.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Renewed performance of, or interest in, something, such as drama or literature.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Renewed interest in religion, after indifference and decline; a period of religious awakening; special religious interest.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A Christian religious meeting held to inspire active members of a church body or to gain new converts.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Reanimation from a state of languor or depression; applied to health, a person's spirits, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Renewed pursuit, or cultivation, or flourishing state of something, as of commerce, arts, agriculture.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Renewed prevalence of something, as a practice or a fashion.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Restoration of force, validity, or effect; renewal; reinstatement of a legal action.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Revivification, as of a metal.",
+                "type": "noun"
+            }
+        ]
+    },
+    "revive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To return to life; to become reanimated or reinvigorated.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To return to life; to cause to recover life or strength; to cause to live anew.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To recover from a state of oblivion, obscurity, neglect, or depression.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To restore, or bring again to life; to reanimate.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To raise from coma, languor, depression, or discouragement; to bring into action after a suspension.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To renew in the mind or memory; to bring to recollection; to recall attention to; to reawaken.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To recover its natural or metallic state, as a metal.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To restore or reduce to its natural or metallic state.",
+                "type": "verb"
+            }
+        ]
+    },
+    "revolutionary": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A revolutionist; a person who revolts.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": ", Chopin's 'Revolutionary Etude' Op. 10 no. 12.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Of or pertaining to a revolution in government; tending to, or promoting, revolution.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Pertaining to something that portends of great change; overthrowing a standing mindset.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Pertaining to something that revolves.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rhetoric": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The art of using language, especially public speaking, as a means to persuade.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Meaningless language with an exaggerated style intended to impress.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Part of or similar to rhetoric, the use of language as a means to persuade.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Not earnest, or presented only for the purpose of an argument.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "ridiculous": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Deserving of ridicule; foolish; absurd.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Astonishing; unbelievable.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rifle": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A shouldered firearm with a long, rifled barrel to improve range and accuracy.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(usually plural) A rifleman.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An artillery piece with a rifled barrel.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A strip of wood covered with emery or a similar material, used for sharpening scythes.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To quickly search through many items (such as papers, the contents of a drawer, a pile of clothing). (See also rifflehttp//verbmall.blogspot.com/2008/05/riffle-or-rifle.html).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To commit robbery or theft.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To search with intent to steal; to ransack, pillage or plunder.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To strip of goods; to rob; to pillage.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To seize and bear away by force; to snatch away; to carry off.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To add a spiral groove to a gun bore to make a fired bullet spin in flight in order to improve range and accuracy.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To cause (a projectile, as a rifle bullet) to travel in a flat ballistic trajectory.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To move in a flat ballistic trajectory (as a rifle bullet).",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To dispose of in a raffle.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To engage in a raffle.",
+                "type": "verb"
+            }
+        ]
+    },
+    "riot": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Wanton or unrestrained behavior; uproar; tumult.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The tumultuous disturbance of the public peace by an unlawful assembly of three or more persons in the execution of some private object.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A wide and unconstrained variety.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Excessive and expensive feasting; wild and loose festivity; revelry.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To create or take part in a riot; to raise an uproar or sedition.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To act in an unrestrained or wanton manner; to indulge in excess of feasting, luxury, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To cause to riot; to throw into a tumult.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To annoy.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rip": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A tear (in paper, etc.).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A type of tide or current.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A comical, embarrassing, or hypocritical event or action.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A hit (dose) of marijuana.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(Eton College) A black mark given for substandard schoolwork.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Something unfairly expensive, a rip-off.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Data or audio copied from a CD, DVD, Internet stream, etc. to a hard drive, portable device, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Something ripped off or stolen; plagiarism.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A kind of glissando leading up to the main note to be played.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "To divide or separate the parts of (especially something flimsy such as paper or fabric), by cutting or tearing; to tear off or out by violence.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To tear apart; to rapidly become two parts.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To get by, or as if by, cutting or tearing.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To move quickly and destructively.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To cut wood along (parallel to) the grain.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To copy data from CD, DVD, Internet stream, etc. to a hard drive, portable device, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "(narcotics) To take a \"hit\" of marijuana.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To fart.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To mock or criticize (someone or something). (often used with on).",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To steal; to rip off.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To move or act fast, to rush headlong.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To tear up for search or disclosure, or for alteration; to search to the bottom; to discover; to disclose; usually with up.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To surf extremely well.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "A wicker basket for fish.",
+                "type": "noun"
+            },
+            {
+                "number": 24,
+                "definition": "A worthless horse; a nag.",
+                "type": "noun"
+            },
+            {
+                "number": 25,
+                "definition": "An immoral man; a rake, a scoundrel.",
+                "type": "noun"
+            },
+            {
+                "number": 26,
+                "definition": "A handful of unthreshed grain.",
+                "type": "noun"
+            }
+        ]
+    },
+    "risky": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Dangerous, involving risks.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "ritual": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Rite; a repeated set of actions.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Related to a rite or repeated set of actions.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rival": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A competitor (person, team, company, etc.) with the same goal as another, or striving to attain the same thing. Defeating a rival may be a primary or necessary goal of a competitor.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Someone or something with similar claims of quality or distinction as another.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One having a common right or privilege with another; a partner.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To oppose or compete with.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To be equal to, or match, or to surpass another.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To strive to equal or excel; to emulate.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "Having the same pretensions or claims; standing in competition for superiority.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rob": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To steal from, especially using force or violence.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To deprive of, or withhold from, unjustly or injuriously; to defraud.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "(used with \"of\") To deprive (of).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To burgle.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To steal.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To commit robbery.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To take possession of the ball, puck etc. from.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "The inspissated juice of ripe fruit, obtained by evaporation of the juice over a fire until it reaches a syrupy consistency. It is sometimes mixed with honey or sugar.",
+                "type": "noun"
+            }
+        ]
+    },
+    "robbery": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act or practice of robbing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The offense of taking or attempting to take the property of another by force or threat of force.",
+                "type": "noun"
+            }
+        ]
+    },
+    "robust": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Evincing strength and health; strong.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Violent; rough; rude.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Requiring strength or vigor.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Sensible (of intellect etc.); straightforward, not given to or confused by uncertainty or subtlety.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Designed or evolved in such a way as to be resistant to total failure despite partial damage.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Resistant or impervious to failure regardless of user input or unexpected conditions.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Not greatly influenced by errors in assumptions about the distribution of sample errors.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rock": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A formation of minerals, specifically:.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A large hill or island having no vegetation.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something that is strong, stable, and dependable; a person who provides security or support to another.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A lump or cube of ice.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A type of confectionery made from sugar in the shape of a stick, traditionally having some text running through its length.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A crystallized lump of crack cocaine.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "candy, crack rock"
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "definition": "An unintelligent person, especially one who repeats mistakes.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "An Afrikaner.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "An extremely conservative player who is willing to play only the very strongest hands.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Any of several fish:.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A basketball.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "(rock paper scissors) A closed hand (a handshape resembling a rock), that beats scissors and loses to paper. It beats lizard and loses to Spock in rock-paper-scissors-lizard-Spock.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A cricket ball, especially a new one that has not been softened by use.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A crystal used to control the radio frequency.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "An act of rocking; a rocking motion; a sway.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "To move gently back and forth.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To cause to shake or sway violently.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To sway or tilt violently back and forth.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "(of ore etc.) To be washed and panned in a cradle or in a rocker.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To disturb the emotional equilibrium of; to distress; to greatly impact (most often positively).",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To do well or to be operating at high efficiency.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To make love to or have sex with.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "A style of music characterized by basic drum-beat, generally 4/4 riffs, based on (usually electric) guitar, bass guitar, drums and vocals.",
+                "type": "noun"
+            },
+            {
+                "number": 24,
+                "definition": "To play, perform, or enjoy rock music, especially with a lot of skill or energy.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To be very favourable or skilful; excel; be fantastic.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "To thrill or excite, especially with rock music.",
+                "type": "verb"
+            },
+            {
+                "number": 27,
+                "definition": "To do something with excitement yet skillfully.",
+                "type": "verb"
+            },
+            {
+                "number": 28,
+                "definition": "To wear (a piece of clothing, outfit etc.) successfully or with style; to carry off (a particular look, style).",
+                "type": "verb"
+            },
+            {
+                "number": 29,
+                "definition": "Distaff.",
+                "type": "noun"
+            },
+            {
+                "number": 30,
+                "definition": "The flax or wool on a distaff.",
+                "type": "noun"
+            },
+            {
+                "number": 31,
+                "definition": "An enormous mythical bird in Eastern legend.",
+                "type": "noun"
+            },
+            {
+                "number": 32,
+                "definition": "Rocuronium.",
+                "type": "noun"
+            }
+        ]
+    },
+    "rocket": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A rocket engine.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A non-guided missile propelled by a rocket engine.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A vehicle propelled by a rocket engine.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A rocket propelled firework, a skyrocket.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An ace (the playing card).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "An angry communication (such as a letter or telegram) to a subordinate.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A blunt lance head used in jousting.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Something that shoots high in the air.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A stupid or crazy person.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "To accelerate swiftly and powerfully.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To fly vertically.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To rise or soar rapidly.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To carry something in a rocket.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To attack something with rockets.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "The leaf vegetable Eruca sativa or Eruca vesicaria.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "Rocket larkspur (Consolida regalis).",
+                "type": "noun"
+            }
+        ]
+    },
+    "rod": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A straight, round stick, shaft, bar, cane, or staff.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A longitudinal pole used for forming part of a framework such as an awning or tent.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A long slender usually tapering pole used for angling; fishing rod.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A stick, pole, or bundle of switches or twigs (such as a birch), used for personal defense or to administer corporal punishment by whipping.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An implement resembling and/or supplanting a rod (particularly a cane) that is used for corporal punishment, and metonymically called the rod, regardless of its actual shape and composition.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A stick used to measure distance, by using its established length or task-specific temporary marks along its length, or by dint of specific graduated marks.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A unit of length equal to 1 pole, a perch, 1/4 chain, 5 1/2 yards, 16 1/2 feet, or exactly 5.0292 meters (these being all equivalent).",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "An implement held vertically and viewed through an optical surveying instrument such as a transit, used to measure distance in land surveying and construction layout; an engineer's rod, surveyor's rod, surveying rod, leveling rod, ranging rod. The modern engineer's or surveyor's rod commonly is eight or ten feet long and often designed to extend higher. In former times a surveyor's rod often was a single wooden pole or composed of multiple sectioned and socketed pieces, and besides serving as a sighting target was used to measure distance on the ground horizontally, hence for convenience was of one rod or pole in length, that is, 5 1/2 yards.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A unit of area equal to a square rod, 30 1/4 square yards or 1/160 acre.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A straight bar that unites moving parts of a machine, for holding parts together as a connecting rod or for transferring power as a drive-shaft.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A rod cell: a rod-shaped cell in the eye that is sensitive to light.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Any of a number of long, slender microorganisms.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A stirring rod: a glass rod, typically about 6 inches to 1 foot long and 1/8 to 1/4 inch in diameter that can be used to stir liquids in flasks or beakers.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A pistol; a gun.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A penis.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A hot rod, an automobile or other passenger motor vehicle modified to run faster and often with exterior cosmetic alterations, especially one based originally on a pre-1940s model or (currently) denoting any older vehicle thus modified.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "A rod-shaped object that appears in photographs or videos traveling at high speed, not seen by the person recording the event, often associated with extraterrestrial entities.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "A Cuisenaire rod.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "A coupling rod or connecting rod, which links the driving wheels of a steam locomotive.",
+                "type": "noun"
+            },
+            {
+                "number": 20,
+                "definition": "To reinforce concrete with metal rods.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To furnish with rods, especially lightning rods.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To penetrate sexually.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To hot rod.",
+                "type": "verb"
+            }
+        ]
+    },
+    "romance": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A story relating to chivalry; a story involving knights, heroes, adventures, quests, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An intimate relationship between two people; a love affair.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A strong obsession or attachment for something or someone.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Idealized love which is pure or beautiful.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A mysterious, exciting, or fascinating quality.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A story or novel dealing with idealized love.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "An embellished account of something; an idealized lie.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "An adventure, or series of extraordinary events, resembling those narrated in romances.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A dreamy, imaginative habit of mind; a disposition to ignore what is real.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A romanza, or sentimental ballad.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "To woo; to court.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To write or tell romantic stories, poetry, letters, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To talk extravagantly and imaginatively; to build castles in the air.",
+                "type": "verb"
+            }
+        ]
+    },
+    "rose": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A shrub of the genus Rosa, with red, pink, white or yellow flowers.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A flower of the rose plant.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A plant or species in the rose family. (Rosaceae).",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Something resembling a rose flower.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The rose flower, usually depicted with five petals, five barbs, and a circular seed.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A purplish-red or pink colour, the colour of some rose flowers.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A round nozzle for a sprinkling can or hose.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The base of a light socket.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Any of various large, red-bodied, papilionid butterflies of the genus Pachliopta.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Any of various flower-like polar graphs of sinusoids or their squares.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A graph with only one vertex.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To make rose-coloured; to redden or flush.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To perfume, as with roses.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "Having a purplish-red or pink colour. See rosy.",
+                "type": "adjective"
+            },
+            {
+                "number": 15,
+                "definition": "To move, or appear to move, physically upwards relative to the ground.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To increase in value or standing.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To begin; to develop.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To go up; to ascend; to climb.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To cause to go up or ascend.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To retire; to give up a siege.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To come; to offer itself.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To be lifted, or capable of being lifted, from the imposing stone without dropping any of the type; said of a form.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "A pale pink wine made by removing the dark grape skins at the required point during fermentation.",
+                "type": "noun"
+            }
+        ]
+    },
+    "rotate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To spin, turn, or revolve.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To advance through a sequence; to take turns.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "(of aircraft) To lift the nose, just prior to takeoff.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To spin, turn, or revolve something.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To advance something through a sequence; to allocate or deploy in turns.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To replace older materials or to place older materials in front of newer ones so that older ones get used first.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To grow or plant (crops) in a certain order.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "Having the parts spreading out like a wheel; wheel-shaped.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rotation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of turning around a centre or an axis.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A single complete cycle around a centre or an axis.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A regular variation in a sequence, such as to even-out wear, or people taking turns in a task; a duty roster.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An operation on a metric space that is a continuous isometry and fixes at least one point.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The set of starting pitchers of a team.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The step during takeoff when the pilot commands the vehicle to lift the nose wheel off the ground during the takeoff roll. (see also: V2).",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Repeated play on a radio station, etc.",
+                "type": "noun"
+            }
+        ]
+    },
+    "roughly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In a rough manner; without kindness, softness, or gentleness.",
+                "type": "adverb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "austerely, harshly, rudely, severely"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "Unevenly or irregularly.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "Without precision or exactness; imprecise but close to in quantity or amount; approximately.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "ruin": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(sometimes in the plural) The remains of a destroyed or dilapidated construction, such as a house or castle.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The state of being a ruin, destroyed or decayed.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something that leads to serious trouble or destruction.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A fall or tumble.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A change that destroys or defeats something; destruction; overthrow.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Complete financial loss; bankruptcy.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To cause the fiscal ruin of.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To destroy or make something no longer usable.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To cause severe financial loss to; to bankrupt or drive out of business.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To upset or overturn the plans or progress of, or to have a disastrous effect on something.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To make something less enjoyable or likeable.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To reveal the ending of (a story); to spoil.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To fall into a state of decay.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To seduce or debauch, and thus harm the social standing of.",
+                "type": "verb"
+            }
+        ]
+    },
+    "ruling": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To regulate, be in charge of, make decisions for, reign over.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To excel.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To mark (paper or the like) with rules (lines).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To decide judicially.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To establish or settle by, or as by, a rule; to fix by universal or general consent, or by common practice.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To revel.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "An order or a decision on a point of law from someone in authority.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "That rules; predominant; chief; reigning; controlling.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "rumour": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A statement or claim of questionable accuracy, from no known reliable source, usually spread by word of mouth.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Information or misinformation of the kind contained in such claims.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(usually used in the passive voice) To tell a rumor about; to gossip.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "A prolonged, indistinct noise.",
+                "type": "noun"
+            }
+        ]
+    }
+}

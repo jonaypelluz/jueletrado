@@ -9,6 +9,7 @@ module.exports = {
                     ...webpackConfig.resolve.alias,
                     '@games': path.resolve(__dirname, 'src/games'),
                     '@config': path.resolve(__dirname, 'src/config'),
+                    '@hooks': path.resolve(__dirname, 'src/hooks'),
                     '@models': path.resolve(__dirname, 'src/models'),
                     '@store': path.resolve(__dirname, 'src/store'),
                     '@services': path.resolve(__dirname, 'src/services'),

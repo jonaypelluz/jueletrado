@@ -1,17 +1,18 @@
 import { useEffect, useState } from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Button, Typography } from 'antd';
 import { ForwardOutlined } from '@ant-design/icons';
+import { useWordProcessor } from '@hooks/useWordProcessor';
 import Logger from '@services/Logger';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
-import { useWordProcessor } from 'src/hooks/useWordProcessor';
 
 const { Text } = Typography;
 
 const GAME_TIME = 30;
 
 const useSpellTower = () => {
-    const { error, setError, setLoading, isLoading } = useWordsContext();
+    const { locale, error, setError, setLoading, isLoading } = useWordsContext();
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -23,7 +24,7 @@ const useSpellTower = () => {
     const [correctAnswers, setCorrectAnswers] = useState<number>(0);
     const [incorrectAnswers, setIncorrectAnswers] = useState<[string, string][]>([]);
 
-    const { processWords, processLastWords } = useWordProcessor();
+    const { processWords, processLastWords } = useWordProcessor(locale);
 
     const handleWordClick = (clickedIndex: number) => {
         if (words && currentWordIndex < words.length) {
@@ -61,7 +62,9 @@ const useSpellTower = () => {
 
             if (storedWords) {
                 const gameWords = processWords(storedWords);
+                Logger.debug('gameWords', gameWords);
                 const finalGameWords = processLastWords(gameWords);
+                Logger.debug('finalGameWords', finalGameWords);
                 setWords(finalGameWords);
                 setShowButton(true);
             } else {
@@ -108,7 +111,7 @@ const useSpellTower = () => {
                 {incorrectAnswers.length > 0 && (
                     <div>
                         <Text italic className="results-title">
-                            Palabras incorrectas:
+                            <FormattedMessage id="incorrectWords" />
                         </Text>
                         <Text strong type="danger" className="results-title">
                             {incorrectAnswers.length}

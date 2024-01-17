@@ -7,10 +7,12 @@ describe('DBService Store Management', () => {
         await dbService.initDB();
 
         const level: string = 'basic';
+        const locale: string = 'es';
         const testWords: string[] = ['testWord1', 'testWord2'];
+        const minimumPopulatedCount = { es: 0 };
 
-        dbService.setStoreName(level);
-        await dbService.addWords(level, testWords, 0);
+        dbService.setStoreName(level, locale);
+        await dbService.addWords(level, locale, testWords, minimumPopulatedCount);
 
         const retrievedWords = await dbService.getAllWords();
         expect(retrievedWords).toEqual(expect.arrayContaining(testWords));
@@ -22,11 +24,13 @@ describe('DBService Store Management', () => {
         await dbService.initDB();
 
         const level: string = 'basic';
+        const locale: string = 'es';
         const testWords: string[] = ['testWord1', 'testWord2'];
         const noWordsWillBeStored: string[] = [];
+        const minimumPopulatedCount = { es: 0 };
 
-        dbService.setStoreName(level);
-        await dbService.addWords(level, testWords, 0);
+        dbService.setStoreName(level, locale);
+        await dbService.addWords(level, locale, testWords, minimumPopulatedCount);
 
         const retrievedWords = await dbService.getAllWords();
         expect(retrievedWords).toEqual(expect.arrayContaining(noWordsWillBeStored));

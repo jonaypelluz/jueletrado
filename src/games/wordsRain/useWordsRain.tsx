@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Typography } from 'antd';
 import { ForwardOutlined } from '@ant-design/icons';
-import { WordItem } from '@models/types';
+import { useWordProcessor } from '@hooks/useWordProcessor';
+import { RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
-import { useWordProcessor } from 'src/hooks/useWordProcessor';
 
 const { Text } = Typography;
 
@@ -21,13 +22,13 @@ const MINIMUM_TIMER_SPEED = 1;
 const BASE_TIMER_SPEED = 4;
 
 const useWordsRain = () => {
-    const { error, setError, setLoading, isLoading } = useWordsContext();
+    const { locale, error, setError, setLoading, isLoading } = useWordsContext();
 
     const [timer, setTimer] = useState(0);
     const [gameStarted, setGameStarted] = useState<boolean>(false);
     const [showButton, setShowButton] = useState<boolean>(false);
-    const [words, setWords] = useState<WordItem[] | null>(null);
-    const [incorrectWords, setIncorrectWords] = useState<WordItem[]>([]);
+    const [words, setWords] = useState<RainWordItem[] | null>(null);
+    const [incorrectWords, setIncorrectWords] = useState<RainWordItem[]>([]);
     const [speed, setSpeed] = useState<number>(1);
     const [fallingWords, setFallingWords] = useState<JSX.Element[]>([]);
     const [hearts, setHearts] = useState<number>(HEARTS);
@@ -35,16 +36,19 @@ const useWordsRain = () => {
     const keyCountRef = useRef<number>(0);
     const wrapperRef = useRef<HTMLDivElement>(null);
 
-    const { processWords, processLastWords } = useWordProcessor();
+    const { processWords, processLastWords } = useWordProcessor(locale);
 
     const animationHasEnded = useCallback(
-        (key: number, word: WordItem) => removeWord(key, word?.correct === 'ok', word),
+        (key: number, word: RainWordItem) => removeWord(key, word?.correct === 'ok', word),
         [],
     );
 
-    const removeWord = (key: number, removeHeart: boolean, word: WordItem) => {
+    const removeWord = (key: number, removeHeart: boolean, word: RainWordItem) => {
         if (removeHeart) {
-            setIncorrectWords((prevIncorrectWords: WordItem[]) => [...prevIncorrectWords, word]);
+            setIncorrectWords((prevIncorrectWords: RainWordItem[]) => [
+                ...prevIncorrectWords,
+                word,
+            ]);
             setHearts((prevHearts: number) => {
                 const newHearts = prevHearts - 1;
                 if (newHearts <= 0) {
@@ -80,7 +84,7 @@ const useWordsRain = () => {
         setGameStarted(true);
     };
 
-    const handleWordClick = (key: number, word: WordItem): void => {
+    const handleWordClick = (key: number, word: RainWordItem): void => {
         removeWord(key, word?.correct === 'ko', word);
     };
 
@@ -160,7 +164,7 @@ const useWordsRain = () => {
 
     const createWordBlock = (
         key: number,
-        word: WordItem,
+        word: RainWordItem,
         leftPercentage: number,
         duration: number,
     ) => {
@@ -190,7 +194,7 @@ const useWordsRain = () => {
             {incorrectWords.length > 0 && (
                 <div>
                     <Text italic className="results-title">
-                        Palabras incorrectas:
+                        <FormattedMessage id="incorrectWords" />
                     </Text>
                     <Text strong type="danger" className="results-title">
                         {incorrectWords.length}

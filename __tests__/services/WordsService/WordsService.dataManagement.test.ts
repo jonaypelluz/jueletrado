@@ -30,6 +30,7 @@ describe('WordsService data management tests', () => {
         const setErrorMock = jest.fn();
         const setLoadingProgressMock = jest.fn();
         const level = 'basic';
+        const locale = 'es';
 
         const mockCheckIfPopulated = jest
             .spyOn(dbService, 'checkIfPopulated')
@@ -39,7 +40,7 @@ describe('WordsService data management tests', () => {
         const mockSetItem = jest.spyOn(StorageService, 'setItem');
         const mockClearStorage = jest.spyOn(StorageService, 'clearStorage');
 
-        const result = await populateWordsDB(level, setErrorMock, setLoadingProgressMock);
+        const result = await populateWordsDB(level, locale, setErrorMock, setLoadingProgressMock);
 
         expect(setErrorMock).not.toHaveBeenCalled();
         expect(mockClearStorage).toHaveBeenCalled();
@@ -54,10 +55,16 @@ describe('WordsService data management tests', () => {
         const setErrorMock = jest.fn();
         const setLoadingProgressMock = jest.fn();
         const invalidLevel = 'invalid_level';
+        const locale = 'es';
 
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const result = await populateWordsDB(invalidLevel, setErrorMock, setLoadingProgressMock);
+        const result = await populateWordsDB(
+            invalidLevel,
+            locale,
+            setErrorMock,
+            setLoadingProgressMock,
+        );
 
         expect(mockLoggerError).toHaveBeenCalled();
         expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));
@@ -71,12 +78,13 @@ describe('WordsService data management tests', () => {
         const setErrorMock = jest.fn();
         const setLoadingProgressMock = jest.fn();
         const level = 'basic';
+        const locale = 'es';
 
         jest.spyOn(StorageService, 'getItem').mockReturnValue([CHUNK]);
         jest.spyOn(dbService, 'checkIfPopulated').mockImplementation(() => Promise.resolve(true));
         const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const result = await populateWordsDB(level, setErrorMock, setLoadingProgressMock);
+        const result = await populateWordsDB(level, locale, setErrorMock, setLoadingProgressMock);
 
         expect(result).toBe(false);
         expect(mockLoggerError).toHaveBeenCalled();

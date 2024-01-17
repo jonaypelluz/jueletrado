@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { Link, useLocation } from 'react-router-dom';
 import { Layout, Menu, Typography } from 'antd';
-import { HomeOutlined, PlaySquareOutlined } from '@ant-design/icons';
+import { BarsOutlined, PlaySquareOutlined } from '@ant-design/icons';
 import { useWordsContext } from '@store/WordsContext';
 import './Header.scss';
 
@@ -9,8 +10,9 @@ const { Text } = Typography;
 const { Header } = Layout;
 
 const Head: React.FC = () => {
+    const intl = useIntl();
     const location = useLocation();
-    const { wordOfTheDay } = useWordsContext();
+    const { locale, wordOfTheDay, currentRoutes } = useWordsContext();
 
     const headerRef = useRef(null);
     const [isCollapsed, setIsCollapsed] = useState(false);
@@ -39,42 +41,49 @@ const Head: React.FC = () => {
     const items = [
         {
             label: (
-                <Link to="/">
-                    {isCollapsed ? (
-                        <>
-                            <HomeOutlined />
-                            &nbsp;&nbsp;&nbsp;Inicio
-                        </>
-                    ) : (
-                        <img src="/logo-jueletrado.jpg" className="logo" alt="Jueletrado" />
-                    )}
+                <Link to={currentRoutes.games}>
+                    <FormattedMessage id="headerGames" />
                 </Link>
             ),
-            key: '/',
-        },
-        {
-            label: <Link to="/games">Juegos</Link>,
             icon: <PlaySquareOutlined />,
-            key: '/games',
-        },
-        {
-            label: <Link to="/spelling-rules">Normas de ortografía</Link>,
-            icon: <PlaySquareOutlined />,
-            key: '/spelling-rules',
+            key: `${currentRoutes.games}`,
         },
     ];
 
+    if (locale === 'es') {
+        items.push({
+            label: (
+                <Link to={currentRoutes.spellingRules}>
+                    <FormattedMessage id="headerRules" />
+                </Link>
+            ),
+            icon: <PlaySquareOutlined />,
+            key: `${currentRoutes.spellingRules}`,
+        });
+    }
+
     return (
         <Header className="header" ref={headerRef}>
-            <Menu theme="dark" mode="horizontal" items={items} selectedKeys={[location.pathname]} />
-            {wordOfTheDay ? (
+            <Link to={currentRoutes.home} className="logo">
+                <img src="/jueletradoLogo.png" alt={intl.formatMessage({ id: 'mainTitle' })} />
+            </Link>
+            <Menu
+                theme="dark"
+                mode="horizontal"
+                items={items}
+                selectedKeys={[location.pathname]}
+                overflowedIndicator={<BarsOutlined />}
+            />
+            {!isCollapsed && wordOfTheDay && (
                 <div className="word-of-the-day">
                     <Text italic style={{ fontSize: '14px', color: '#FFF' }}>
-                        Palabra del día:
+                        <FormattedMessage id="headerWordOfTheDay" />
                     </Text>
                     <Text strong style={{ fontSize: '14px', color: '#FFF', marginLeft: '6px' }}>
                         <a
-                            href={'https://dle.rae.es/' + wordOfTheDay}
+                            href={
+                                intl.formatMessage({ id: 'headerWordOfTheDayUrl' }) + wordOfTheDay
+                            }
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -82,8 +91,6 @@ const Head: React.FC = () => {
                         </a>
                     </Text>
                 </div>
-            ) : (
-                ''
             )}
         </Header>
     );

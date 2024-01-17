@@ -1,9 +1,13 @@
 import { AccentedVowels, NonAccentedVowels } from '@config/AccentRules';
-import ChangeRules from '@config/ChangeRules';
+import createChangeRules from '@config/ChangeRules';
 import { ChangeRule } from '@models/types';
 
 class WordGameProcessor {
-    private changeRules: ChangeRule[] = ChangeRules;
+    private changeRules: ChangeRule[];
+
+    constructor(locale: string) {
+        this.changeRules = createChangeRules(locale);
+    }
 
     processWord(word: string): string[] {
         const applicableRules = this.changeRules.filter((rule) => {

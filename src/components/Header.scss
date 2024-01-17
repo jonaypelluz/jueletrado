@@ -2,9 +2,13 @@ header {
     &.header.ant-layout-header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         background-color: #000;
         height: 78px;
         padding-inline: 20px;
+        position: fixed;
+        z-index: 10;
+        width: 100%;
 
         @media only screen and (max-width: 991px) {
             padding-inline: 0;
@@ -12,7 +16,19 @@ header {
     }
 
     .logo {
-        height: 78px;
+        line-height: 1;
+
+        img {
+            height: 78px;
+        }
+
+        @media only screen and (max-width: 850px) {
+            margin-left: 12px;
+
+            img {
+                height: 40px;
+            }
+        }
     }
 
     .ant-menu {
@@ -32,13 +48,10 @@ header {
 
     .word-of-the-day {
         display: flex;
-        align-items: center;
-
-        @media only screen and (max-width: 991px) {
-            padding-right: 10px;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-end;
-        }
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+        min-width: 130px;
+        padding-right: 10px;
     }
 }

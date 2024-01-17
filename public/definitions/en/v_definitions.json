@@ -1,0 +1,1329 @@
+{
+    "vacuum": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A region of space that contains no matter.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(plural only \"vacuums\") A vacuum cleaner.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The condition of rarefaction, or reduction of pressure below that of the atmosphere, in a vessel, such as the condenser of a steam engine, which is nearly exhausted of air or steam, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A spacetime having tensors of zero magnitude.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To clean (something) with a vacuum cleaner.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To use a vacuum cleaner.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To optimise a database or database table by physically removing deleted tuples.",
+                "type": "verb"
+            }
+        ]
+    },
+    "vague": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A wandering; a vagary.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An indefinite expanse.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To wander; to roam; to stray.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To become vague or act in a vague manner.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "Not clearly expressed; stated in indefinite terms.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "unclear"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "Not having a precise meaning.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "ambiguous, equivocal"
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "definition": "Not clearly defined, grasped, or understood; indistinct; slight.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "ambiguous, equivocal, indistinct, obscure"
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "definition": "Not clearly felt or sensed; somewhat subconscious.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Not thinking or expressing one’s thoughts clearly or precisely.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "dazed"
+                    }
+                ]
+            },
+            {
+                "number": 10,
+                "definition": "Lacking expression; vacant.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "vacant, vacuous"
+                    }
+                ]
+            },
+            {
+                "number": 11,
+                "definition": "Not sharply outlined; hazy.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fuzzy, hazy, ill-defined"
+                    }
+                ]
+            },
+            {
+                "number": 12,
+                "definition": "Wandering; vagrant; vagabond.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "erratic, roaming, unsettled, vagabond, vagrant"
+                    }
+                ]
+            }
+        ]
+    },
+    "valid": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Well grounded or justifiable, pertinent.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Acceptable, proper or correct; in accordance with the rules.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Related to the current topic, or presented within context, relevant.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Of a formula or system: such that it evaluates to true regardless of the input values.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Of an argument: whose conclusion is always true whenever its premises are true.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Effective.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "validity": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The state of being valid, authentic or genuine.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "State of having legal force.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A quality of a measurement indicating the degree to which the measure reflects the underlying construct, that is, whether it measures what it purports to measure (see reliability).",
+                "type": "noun"
+            }
+        ]
+    },
+    "vanish": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The brief terminal part of a vowel or vocal element, differing more or less in quality from the main part.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A magic trick in which something seems to disappear.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To become invisible or to move out of view unnoticed.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To become equal to zero.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To disappear; to kidnap.",
+                "type": "verb"
+            }
+        ]
+    },
+    "variable": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that is variable.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something whose value may be dictated or discovered.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A quantity that may assume any one of a set of values.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A symbol representing a variable.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A named memory location in which a program can store intermediate results and from which it can read them.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A variable star.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A shifting wind, or one that varies in force.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "(in the plural) Those parts of the sea where a steady wind is not expected, especially the parts between the trade-wind belts.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Able to vary or be varied.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Likely to vary.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Marked by diversity or difference.",
+                "type": "adjective"
+            },
+            {
+                "number": 12,
+                "definition": "Having no fixed quantitative value.",
+                "type": "adjective"
+            },
+            {
+                "number": 13,
+                "definition": "Tending to deviate from a normal or recognized type.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "variation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of varying; a partial change in the form, position, state, or qualities of a thing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A related but distinct thing.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The angular difference at the vessel between the direction of true north and magnetic north.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "magnetic declination"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "A line of play that differs from the original.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A technique where material is repeated with alterations to the melody, harmony, rhythm, timbre, texture, counterpoint or orchestration; but with some invariant characteristic, e.g. a ground bass.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The modification of a hereditary trait.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Deviation from the mean orbit of a heavenly body.",
+                "type": "noun"
+            }
+        ]
+    },
+    "varied": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Diverse or miscellaneous.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Having been changed or modified.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Variegated.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "To change with time or a similar parameter.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To institute a change in, from a current state; to modify.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "Not to remain constant: to change with time or a similar parameter.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "(of the members of a group) To display differences.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To be or act different from the usual.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To make of different kinds; to make different from one another; to diversity; to variegate.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To embellish; to change fancifully; to present under new aspects, as of form, key, measure, etc. See variation.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To disagree; to be at variance or in dissension.",
+                "type": "verb"
+            }
+        ]
+    },
+    "vein": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A blood vessel that transports blood from the capillaries back to the heart.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(in plural) The entrails of a shrimp.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "In leaves, a thickened portion of the leaf containing the vascular bundle.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The nervure of an insect’s wing.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A stripe or streak of a different colour or composition in materials such as wood, cheese, marble or other rocks.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A topic of discussion; a train of association, thoughts, emotions, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A style, tendency, or quality.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A fissure, cleft or cavity, as in the earth or other substance.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "To mark with veins or a vein-like pattern.",
+                "type": "verb"
+            }
+        ]
+    },
+    "venture": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A risky or daring undertaking or journey.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An event that is not, or cannot be, foreseen.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "accident, chance, contingency"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "The thing risked; especially, something sent to sea in trade.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "stake"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "To undertake a risky or daring journey.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To risk or offer.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To dare to engage in; to attempt without any certainty of success. Used with at or on.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To put or send on a venture or chance.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To confide in; to rely on; to trust.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To say something.",
+                "type": "verb"
+            }
+        ]
+    },
+    "verbal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(grammar) A verb form which does not function as a predicate, or a word derived from a verb. In English, infinitives, participles and gerunds are verbals.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "non-finite verb"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A confession given to police.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To induce into fabricating a confession.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Of or relating to words.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "wordish"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "Concerned with the words, rather than the substance of a text.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Consisting of words only.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "non-verbal, substantive"
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "definition": "Expressly spoken rather than written; oral.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "(grammar) Derived from, or having the nature of a verb.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "rhematic"
+                    }
+                ]
+            },
+            {
+                "number": 9,
+                "definition": "(grammar) Used to form a verb.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Capable of speech.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "preverbal"
+                    }
+                ]
+            },
+            {
+                "number": 11,
+                "definition": "Word for word.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "literal, verbatim"
+                    }
+                ]
+            },
+            {
+                "number": 12,
+                "definition": "Abounding with words; verbose.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "verdict": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A decision on an issue of fact in a civil or criminal case or an inquest.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An opinion or judgement.",
+                "type": "noun"
+            }
+        ]
+    },
+    "verify": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To substantiate or prove the truth of something.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To confirm or test the truth or accuracy of something.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To affirm something formally, under oath.",
+                "type": "verb"
+            }
+        ]
+    },
+    "verse": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A poetic form with regular meter and a fixed rhyme scheme.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "poetry"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "Poetic form in general.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One of several similar units of a song, consisting of several lines, generally rhymed.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "stanza"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "A small section of the Jewish or Christian Bible.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A portion of an anthem to be performed by a single voice to each part.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To compose verses.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To tell in verse, or poetry.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To educate about, to teach about.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To oppose, to compete against, especially in a video game.",
+                "type": "verb"
+            }
+        ]
+    },
+    "versus": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Against; in opposition to.",
+                "type": "preposition",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "v, vs, vs."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "Compared with, as opposed to.",
+                "type": "preposition"
+            },
+            {
+                "number": 3,
+                "definition": "Bringing a legal action against, as used in the title of a court case in which the first party indicates the plaintiff (or appellant or the like), and the second indicates the defendant (or respondent or the like).",
+                "type": "preposition",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "v, v."
+                    }
+                ]
+            }
+        ]
+    },
+    "vertical": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A vertex or zenith.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A vertical geometrical figure; a perpendicular.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An individual slat in a set of vertical blinds.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A vertical component of a structure.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A vertical market.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Standing, pointing, or moving straight up or down; along the direction of a plumb line; perpendicular to something horizontal.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "In a two-dimensional Cartesian co-ordinate system, describing the axis y oriented normal (perpendicular, at right angles) to the horizontal axis x.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "In a three-dimensional co-ordinate system, describing the axis z oriented normal (perpendicular, orthogonal) to the basic plane xy.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Of or pertaining to vertical markets.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "(wine tasting) Involving different vintages of the same wine type from the same winery.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Of an interval: having the two notes sound simultaneously.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "harmonic"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "horizontal"
+                    }
+                ]
+            }
+        ]
+    },
+    "vessel": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any craft designed for transportation on water, such as a ship or boat.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A craft designed for transportation through air or space.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Dishes and cutlery collectively, especially if made of precious metals.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A container of liquid or other substance, such as a glass, goblet, cup, bottle, bowl, or pitcher.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A person as a container of qualities or feelings.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A tube or canal that carries fluid in an animal or plant.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To put into a vessel.",
+                "type": "verb"
+            }
+        ]
+    },
+    "veteran": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person with long experience of a particular activity.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A group, animal, etc. with long experience of a particular activity.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person who has served in the armed forces, especially an old soldier who has seen long service; also called a war veteran to distinguish from veterans that weren't in armed conflict.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Having had long experience, practice, or service.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Of or relating to former members of the military armed forces, especially those who served during wartime.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "viable": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An organism that is able to live and develop.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Able to live on its own (as for a newborn).",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Able to be done, possible.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Able to live and develop.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "vibrant": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Pulsing with energy or activity.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Lively and vigorous.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Vibrating, resonant or resounding.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "(of a colour) Bright.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "vice": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A bad habit.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any of various crimes related (depending on jurisdiction) to prostitution, pornography, gambling, alcohol, or drugs.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A defect in the temper or behaviour of a horse, such as to make the animal dangerous, to injure its health, or to diminish its usefulness.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A mechanical screw apparatus used for clamping or holding (also spelled vise).",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A tool for drawing lead into cames, or flat grooved rods, for casements.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A grip or grasp.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A winding or spiral staircase.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To hold or squeeze with a vice, or as if with a vice.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "One who acts in place of a superior.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "In place of; subordinate to; designating a person below another in rank.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Instead of, in place of.",
+                "type": "preposition"
+            }
+        ]
+    },
+    "vicious": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Violent, destructive and cruel.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Savage and aggressive.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Pertaining to vice; characterised by immorality or depravity.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "viewpoint": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The position from which something is observed or considered; an angle, outlook or point of view.",
+                "type": "noun"
+            }
+        ]
+    },
+    "villager": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person who lives in, or comes from, a village.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(strategy games) A worker unit.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "peasant, peon, serf"
+                    }
+                ]
+            }
+        ]
+    },
+    "violate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To break or disregard (a rule or convention).",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "comply, obey"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "To rape.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To cite (a person) for a parole violation.",
+                "type": "verb"
+            }
+        ]
+    },
+    "violation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act or an instance of violating or the condition of being violated.",
+                "type": "noun"
+            }
+        ]
+    },
+    "virtue": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Accordance with moral principles; conformity of behaviour or thought with the strictures of morality; good moral conduct.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A particular manifestation of moral excellence in a person; an admirable quality.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Specifically, each of several qualities held to be particularly important, including the four cardinal virtues, the three theological virtues, or the seven virtues opposed to the seven deadly sins.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An inherently advantageous or excellent quality of something or someone; a favourable point, an advantage.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A creature embodying divine power, specifically one of the orders of heavenly beings, traditionally ranked above angels and below archangels.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Specifically, moral conduct in sexual behaviour, especially of women; chastity.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The inherent power of a god, or other supernatural being.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The inherent power or efficacy of something (now only in phrases).",
+                "type": "noun"
+            }
+        ]
+    },
+    "visa": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A permit to enter and leave a country, normally issued by the authorities of the country to be visited.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To endorse (a passport, etc.).",
+                "type": "verb"
+            }
+        ]
+    },
+    "visible": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Able to be seen.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "apparent"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "hidden, invisible"
+                    }
+                ]
+            }
+        ]
+    },
+    "vocal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A vocal sound; specifically, a purely vocal element of speech, unmodified except by resonance; a vowel or a diphthong; a tonic element; a tonic; distinguished from a subvocal, and a nonvocal.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(Roman Catholic Church) A man who has a right to vote in certain elections.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Of or pertaining to the voice or speech.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Having a voice.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Uttered or modulated by the voice; oral.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Of or pertaining to a voice sound; spoken.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Consisting of, or characterized by, voice, or tone produced in the larynx, which may be modified, either by resonance, as in the case of the vowels, or by obstructive action, as in certain consonants, such as v, l, etc., or by both, as in the nasals (m), (n), ng; sonant; intonated; voiced. See voice, and vowel.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Of or pertaining to a vowel; having the character of a vowel; vowel.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Loud; getting oneself heard.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "voluntary": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A short piece of music, often having improvisation, played on a solo instrument.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A volunteer.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A supporter of voluntarism; a voluntarist.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Done, given, or acting of one's own free will.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Done by design or intention; intentional.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Working or done without payment.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Endowed with the power of willing.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Of or relating to voluntarism.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Voluntarily.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "voting": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To cast a vote; to assert a formalized choice in an election.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To choose or grant by means of a vote, or by general consent.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "Action of the verb to vote.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Having an associated right for the holder to vote as an owner of business.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "vow": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A solemn promise to perform some act, or behave in a specified manner, especially a promise to live and act in accordance with the rules of a religious order.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A declaration or assertion.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A votive offering.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To make a vow; to promise.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To make a vow regarding (something).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To declare publicly that one has made a vow, usually to show one's determination or to announce an act of retaliation.",
+                "type": "verb"
+            }
+        ]
+    },
+    "vulnerability": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Susceptibility to attack or injury; the state or condition of being weak or poorly defended.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A specific weakness in the protections or defences surrounding someone or something.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A weakness which allows an attacker to reduce a system's security.",
+                "type": "noun"
+            }
+        ]
+    },
+    "vulnerable": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "More or most likely to be exposed to the chance of being attacked or harmed, either physically or emotionally.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "More likely to be exposed to malicious programs or viruses.",
+                "type": "adjective"
+            }
+        ]
+    }
+}

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Button, Typography } from 'antd';
-import { CardInfo, WordItem } from '@models/types';
+import { GameConfig, RainWordItem } from '@models/types';
+import GameRules from 'src/components/GameRules';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 
-const { Text, Title } = Typography;
+const { Text } = Typography;
 
 type WordsRainUIProps = {
-    gameConfig: CardInfo;
+    gameConfig: GameConfig;
     error: Error | null;
     timer: number;
     isLoading: boolean;
@@ -16,7 +17,7 @@ type WordsRainUIProps = {
     fallingWords: JSX.Element[];
     hearts: number;
     speed: number;
-    incorrectWords: WordItem[];
+    incorrectWords: RainWordItem[];
     wrapperRef: React.RefObject<HTMLDivElement>;
     handleGameStartClick: () => void;
     renderGameResult: () => JSX.Element;
@@ -64,68 +65,7 @@ const UI: React.FC<WordsRainUIProps> = ({
             <div className="words-rain-wrapper" ref={wrapperRef}>
                 {showButton && incorrectWords.length === 0 && (
                     <div className="words-rain-inner">
-                        <div className="game-rules">
-                            <Title level={2}>Reglas</Title>
-                            <p>
-                                <Text strong>Objetivo del Juego:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    Mantente en juego el mayor tiempo posible sin perder todas tus
-                                    vidas.
-                                </Text>
-                            </p>
-                            <p>
-                                <Text strong>Cómo Jugar:</Text>
-                            </p>
-                            <div>
-                                <Text>
-                                    <ul>
-                                        <li>
-                                            El juego inicia a velocidad {speed} y el jugador
-                                            comienza con {hearts} vidas.
-                                        </li>
-                                        <li>
-                                            Palabras, bien y mal escritas, caerán desde la parte
-                                            superior de la pantalla. El jugador debe seleccionar las
-                                            palabras escritas correctamente.
-                                        </li>
-                                        <li>
-                                            Si el jugador elige una palabra incorrecta, perderá una
-                                            vida.
-                                        </li>
-                                        <li>
-                                            No hay penalización por seleccionar una palabra
-                                            correcta. Sin embargo, si una palabra correcta llega al
-                                            suelo, el jugador perderá una vida.
-                                        </li>
-                                    </ul>
-                                </Text>
-                            </div>
-                            <p>
-                                <Text strong>Reglas Adicionales:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    Conforme avance el tiempo, la velocidad del juego aumentará y
-                                    podrían aparecer más palabras.
-                                    <br />
-                                    El juego termina cuando el jugador pierde todas sus vidas.
-                                </Text>
-                            </p>
-                            <p>
-                                <Text strong>Consejos:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    Las palabras suelen aparecer en grupos, lo que puede ayudarte a
-                                    deducir cuáles están escritas correctamente. <br />
-                                    Si pierdes una vida por seleccionar una palabra incorrecta,
-                                    actúa rápidamente para elegir la correcta antes de que llegue al
-                                    suelo.
-                                </Text>
-                            </p>
-                        </div>
+                        <GameRules {...gameConfig.gameRules} />
                     </div>
                 )}
                 {gameStarted ? (

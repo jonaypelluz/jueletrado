@@ -1,0 +1,128 @@
+{
+    "query": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A question, an inquiry (US), an enquiry (UK).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A question mark.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A set of instructions passed to a database.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To ask a question.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To ask, inquire.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To question or call into doubt.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To pass a set of instructions to a database to retrieve information from it.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To send a private message to (a user on IRC).",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To send out a query letter.",
+                "type": "verb"
+            }
+        ]
+    },
+    "quest": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A journey or effort in pursuit of a goal (often lengthy, ambitious, or fervent); a mission.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of seeking, or looking after anything; attempt to find or obtain; search; pursuit.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Request; desire; solicitation.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A group of people making search or inquiry.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Inquest; jury of inquest.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To seek or pursue a goal; to undertake a mission or job.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To search for; to examine.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "(of a tick) To locate and attach to a host animal.",
+                "type": "verb"
+            }
+        ]
+    },
+    "questionnaire": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A form containing a list of questions; a means of gathering information for a survey.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To survey using questionnaires.",
+                "type": "verb"
+            }
+        ]
+    },
+    "quota": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A proportional part or share; the share or proportion assigned to each in a division.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A prescribed number or percentage that may serve as, for example, a maximum, a minimum, or a goal.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A restriction on the import of something to a specific quantity.",
+                "type": "noun"
+            }
+        ]
+    }
+}

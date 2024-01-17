@@ -1,0 +1,3103 @@
+{
+    "fabric": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An edifice or building.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of constructing, construction, fabrication.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The structure of anything, the manner in which the parts of a thing are united; workmanship, texture, make.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The framework underlying a structure.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A material made of fibers, a textile or cloth.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The appearance of crystalline grains in a rock.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Interconnected nodes that look like a textile fabric when diagrammed.",
+                "type": "noun"
+            }
+        ]
+    },
+    "fabulous": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Of or relating to fable, myth or legend.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Characteristic of fables; marvelous, extraordinary, incredible.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Fictional or not believable; made up.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Known for telling fables or falsehoods; unreliable.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Very good; outstanding, wonderful.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Gay or pertaining to gay people.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Camp, effeminate.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Fashionable, glamorous.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "facilitate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To make easy or easier.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To help bring about.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To preside over (a meeting, a seminar).",
+                "type": "verb"
+            }
+        ]
+    },
+    "faction": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A group of people, especially within a political organization, which expresses a shared belief or opinion different from people who are not part of the group.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Strife; discord.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A form of literature, film etc., that treats real people or events as if they were fiction; a mix of fact and fiction.",
+                "type": "noun"
+            }
+        ]
+    },
+    "faculty": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The academic staff at schools, colleges, universities or not-for-profit research institutes, as opposed to the students or support staff.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A division of a university.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An ability, skill, or power, often plural.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A power, authority or privilege conferred by a higher authority.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(Church of England) A licence to make alterations to a church.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The members of a profession.",
+                "type": "noun"
+            }
+        ]
+    },
+    "fade": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A golf shot that (for the right-handed player) curves intentionally to the right. See slice, hook, draw.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A haircut where the hair is short or shaved on the sides of the head and longer on top. See also high-top fade and low fade.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A fight.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A gradual decrease in the brightness of a shot or the volume of sound or music (as a means of cutting to a new scene or starting a new song).",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The act of disappearing from a place so as not to be found; covert departure.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To grow weak; to lose strength; to decay; to perish gradually; to wither, as a plant.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To lose freshness, color, or brightness; to become faint in hue or tint; hence, to be wanting in color.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To sink away; to disappear gradually; to grow dim; to vanish.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To cause to fade.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To bet against.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "Weak; insipid; tasteless.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "dull"
+                    }
+                ]
+            },
+            {
+                "number": 12,
+                "definition": "Strong; bold; doughty.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "failed": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To be unsuccessful.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "Not to achieve a particular stated goal. (Usage note: The direct object of this word is usually an infinitive.).",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To neglect.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Of a machine, etc.: to cease to operate correctly.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To be wanting to, to be insufficient for, to disappoint, to desert.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To receive one or more non-passing grades in academic pursuits.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To give a student a non-passing grade in an academic endeavour.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To miss attaining; to lose.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To be wanting; to fall short; to be or become deficient in any measure or degree up to total absence.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To be affected with want; to come short; to lack; to be deficient or unprovided; used with of.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To fall away; to become diminished; to decline; to decay; to sink.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To deteriorate in respect to vigour, activity, resources, etc.; to become weaker.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To perish; to die; used of a person.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To err in judgment; to be mistaken.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To become unable to meet one's engagements; especially, to be unable to pay one's debts or discharge one's business obligation; to become bankrupt or insolvent.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "Unsuccessful.",
+                "type": "adjective"
+            },
+            {
+                "number": 17,
+                "definition": "Decayed; worn out.",
+                "type": "adjective"
+            },
+            {
+                "number": 18,
+                "definition": "Bankrupt.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "fairness": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The property of being fair or equitable.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The property of being fair or beautiful.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "beauty, fairhood"
+                    }
+                ]
+            }
+        ]
+    },
+    "fake": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something which is not genuine, or is presented fraudulently.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A trick; a swindle.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A move meant to deceive an opposing player, used for gaining advantage for example when dribbling an opponent.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To cheat; to swindle; to steal; to rob.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To modify fraudulently, so as to make an object appear better or other than it really is.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To make a counterfeit, to counterfeit, to forge, to falsify.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To make a false display of, to affect, to feign, to simulate.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "Not real; false, fraudulent.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "(of people) Insincere.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "One of the circles or windings of a cable or hawser, as it lies in a coil; a single turn or coil.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "To coil (a rope, line, or hawser), by winding alternately in opposite directions, in layers usually of zigzag or figure of eight form, to prevent twisting when running out.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fame": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "What is said or reported; gossip, rumour.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "One's reputation.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The state of being famous or well-known and spoken of.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "obscurity, unknownness"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "To make (someone or something) famous.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fantasy": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "That which comes from one's imagination.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The literary genre generally dealing with themes of magic and the supernatural, imaginary worlds and creatures, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A fantastical design.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The drug gamma-hydroxybutyric acid.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To fantasize (about).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To have a fancy for; to be pleased with; to like.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To imagine; to conceive mentally.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fare": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A going; journey; travel; voyage; course; passage.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Money paid for a transport ticket.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A paying passenger, especially in a taxi.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Food and drink.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Supplies for consumption or pleasure.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A prostitute's client.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To go, travel.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To get along, succeed (well or badly); to be in any state, or pass through any experience, good or bad; to be attended with any circumstances or train of events.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To eat, dine.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To happen well, or ill.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To move along; proceed; progress; advance.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fatal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A fatality; an event that leads to death.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A fatal error; a failure that causes a program to terminate.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Proceeding from, or appointed by, fate or destiny.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Foreboding death or great disaster.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Causing death or destruction.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Causing a sudden end to the running of a program.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "fate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The presumed cause, force, principle, or divine will that predetermines events.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The effect, consequence, outcome, or inevitable events predetermined by this cause.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An event or a situation which is inevitable in the fullness of time.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Destiny; often with a connotation of death, ruin, misfortune, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Alternative letter-case form of Fate (one of the goddesses said to control the destiny of human beings).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To foreordain or predetermine, to make inevitable.",
+                "type": "verb"
+            }
+        ]
+    },
+    "favourable": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Pleasing, encouraging or approving.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "approving, encouraging, good, pleasing"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "bad, discouraging, displeasing, unfavorable"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "Useful or helpful.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "advantageous, helpful, useful"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "unhelpful"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "Convenient or at a suitable time; opportune.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "convenient, good, handy, opportune, suitable"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "bad, inconvenient, inopportune, unsuitable"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "Auspicious or lucky.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "auspicious, fortunate, lucky"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "inauspicious, unfavourable, unlucky"
+                    }
+                ]
+            }
+        ]
+    },
+    "feat": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A relatively rare or difficult accomplishment.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To form; to fashion.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "Dexterous in movements or service; skilful; neat; pretty.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "To feature. I.",
+                "type": "verb"
+            }
+        ]
+    },
+    "federal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A law-enforcement official of the FBI; a federal agent.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A supporter of federation.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A unionist soldier in the American Civil War.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Pertaining to a league or treaty; derived from an agreement or covenant between parties, especially between nations.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Pertaining to the national government level, as opposed to state, provincial, county, city, or town.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "feminist": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An advocate of feminism; a person who believes in bringing about the equality of the sexes (of women and men) in all aspects of public and private life.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A member of a feminist political movement.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Relating to or in accordance with feminism.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "fever": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A higher than normal body temperature of a person (or, generally, a mammal), usually caused by disease.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(usually in combination with one or more preceding words) Any of various diseases.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A state of excitement or anxiety.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A group of stingrays.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To put into a fever; to affect with fever.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To become fevered.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fibre": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A single piece of a given material, elongated and roughly round in cross-section, often twisted with other fibres to form thread.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Material in the form of fibres.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Dietary fibre.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Moral strength and resolve.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The preimage of a given point in the range of a map.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Said to be of a morphism over a global element: The pullback of the said morphism along the said global element.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A kind of lightweight thread of execution.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A long tubular cell found in muscle tissue; myocyte.",
+                "type": "noun"
+            }
+        ]
+    },
+    "fierce": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Exceedingly violent, severe, ferocious, cruel or savage.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Resolute or strenuously active.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Threatening in appearance or demeanor.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "(rural) Excellent, very good.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Of exceptional quality, exhibiting boldness or chutzpah.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "(rural) Extremely; very.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "filter": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A device which separates a suspended, dissolved, or particulate matter from a fluid, solution, or other substance; any device that separates one substance from another.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Electronics or software that separates unwanted signals (for example noise) from wanted signals or that attenuates selected frequencies.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Any item, mechanism, device or procedure that acts to separate or isolate.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Self-restraint in speech.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A non-empty upper set (of a partially ordered set) which is closed under binary infima (a.k.a. meets).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To sort, sift, or isolate.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To diffuse; to cause to be less concentrated or focused.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To pass through a filter or to act as though passing through a filter.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To move slowly or gradually; to come or go a few at a time.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To ride a motorcycle between lanes on a road.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fine": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Fine champagne; French brandy.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(usually in the plural) Something that is fine; fine particles.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To make finer, purer, or cleaner; to purify or clarify.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To become finer, purer, or cleaner.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To make finer, or less coarse, as in bulk, texture, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To change by fine gradations.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To clarify (wine and beer) by filtration.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To become gradually fine; to diminish; to dwindle (with away, down, or off).",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "Senses referring to subjective quality.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Senses referring to objective quality.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Behind the batsman and at a small angle to the line between the wickets.",
+                "type": "adjective"
+            },
+            {
+                "number": 12,
+                "definition": "Subtle; thin; tenuous.",
+                "type": "adjective"
+            },
+            {
+                "number": 13,
+                "definition": "Expression of (typically) reluctant agreement.",
+                "type": "adverb"
+            },
+            {
+                "number": 14,
+                "definition": "Well, nicely, in a positive way.",
+                "type": "adverb"
+            },
+            {
+                "number": 15,
+                "definition": "Finely; elegantly; delicately.",
+                "type": "adverb"
+            },
+            {
+                "number": 16,
+                "definition": "In a manner so that the driven ball strikes the object ball so far to one side as to be barely deflected, the object ball being driven to one side.",
+                "type": "adverb"
+            },
+            {
+                "number": 17,
+                "definition": "A fee levied as punishment for breaking the law.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "To issue a fine as punishment to (someone).",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To pay a fine.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "The end of a musical composition.",
+                "type": "noun"
+            },
+            {
+                "number": 21,
+                "definition": "The location in a musical score that indicates the end of the piece, particularly when the piece ends somewhere in the middle of the score due to a section of the music being repeated.",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "End; conclusion; termination; extinction.",
+                "type": "noun"
+            },
+            {
+                "number": 23,
+                "definition": "A final agreement concerning lands or rents between persons, as the lord and his vassal.",
+                "type": "noun"
+            },
+            {
+                "number": 24,
+                "definition": "A sum of money or price paid for obtaining a benefit, favor, or privilege, as for admission to a copyhold, or for obtaining or renewing a lease.",
+                "type": "noun"
+            },
+            {
+                "number": 25,
+                "definition": "To finish; to cease.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "To cause to cease; to stop.",
+                "type": "verb"
+            }
+        ]
+    },
+    "firearm": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A personal weapon that uses explosive powder to propel a projectile often made of lead.",
+                "type": "noun"
+            }
+        ]
+    },
+    "firefighter": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person who puts out fires.",
+                "type": "noun"
+            }
+        ]
+    },
+    "firework": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A device using gunpowder and other chemicals which, when lit, emits a combination of coloured flames, sparks, whistles or bangs, and sometimes made to rocket high into the sky before exploding, used for entertainment or celebration.",
+                "type": "noun"
+            }
+        ]
+    },
+    "firm": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A business partnership; the name under which it trades.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A business enterprise, however organized.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A criminal gang, especially based around football hooliganism.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To make firm or strong; fix securely.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To make compact or resistant to pressure; solidify.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To become firm; stabilise.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To improve after decline.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To shorten (of betting odds).",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To select (a higher education institution) as one's preferred choice, so as to enrol automatically if one's grades match the conditional offer.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "Steadfast, secure, solid (in position).",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Fixed (in opinion).",
+                "type": "adjective"
+            },
+            {
+                "number": 12,
+                "definition": "Durable, rigid (material state).",
+                "type": "adjective"
+            }
+        ]
+    },
+    "firmly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(manner) In a firm or definite or strong manner.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "(manner) Securely.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "fit": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The degree to which something fits.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Conformity of elements one to another.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The part of an object upon which anything fits tightly.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Measure of how well a particular commercial execution captures the character or values of a brand.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Goodness of fit.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The quality of a partnership's combined holding of cards in a suit, particularly of trump.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To be suitable for.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To conform to in size and shape.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To be of the right size and shape.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "(with to) To make conform in size and shape.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To be in agreement with.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To adjust.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To attach, especially when requiring exact positioning or sizing.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To equip or supply.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To make ready.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To be seemly.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To be proper or becoming.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To be in harmony.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "Suitable, proper.",
+                "type": "adjective"
+            },
+            {
+                "number": 20,
+                "definition": "Adapted to a purpose or environment.",
+                "type": "adjective"
+            },
+            {
+                "number": 21,
+                "definition": "In good shape; physically well.",
+                "type": "adjective"
+            },
+            {
+                "number": 22,
+                "definition": "Sexually attractive; good-looking; fanciable.",
+                "type": "adjective"
+            },
+            {
+                "number": 23,
+                "definition": "Prepared; ready.",
+                "type": "adjective"
+            },
+            {
+                "number": 24,
+                "definition": "A section of a poem or ballad.",
+                "type": "noun"
+            },
+            {
+                "number": 25,
+                "definition": "A seizure or convulsion.",
+                "type": "noun"
+            },
+            {
+                "number": 26,
+                "definition": "A sudden and vigorous appearance of a symptom over a short period of time.",
+                "type": "noun"
+            },
+            {
+                "number": 27,
+                "definition": "A sudden outburst of emotion.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "blowout, hissy, moment, spell, tantrum"
+                    }
+                ]
+            },
+            {
+                "number": 28,
+                "definition": "A sudden burst (of an activity).",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "flurry, frenzy, paroxysm"
+                    }
+                ]
+            },
+            {
+                "number": 29,
+                "definition": "To suffer a fit.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fixture": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that is fixed in place, especially a permanent appliance or other item of personal property that is considered part of a house and is sold with it; compare fitting, furnishing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A regular patron of a place or institution.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A lighting unit; a luminaire.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A scheduled match.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A state that can be recreated, used as a baseline for running software tests.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A work-holding or support device used in the manufacturing industry.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To furnish with, as, or in a fixture.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To schedule (a match).",
+                "type": "verb"
+            }
+        ]
+    },
+    "flavour": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The quality produced by the sensation of taste or, especially, of taste and smell in combined effect.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A substance used to produce a taste. Flavoring.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A variety (of taste) attributed to an object.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The characteristic quality of something.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A kind or type.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "One of the six types of quarks (top, bottom, strange, charmed, up, and down) or three types of leptons (electron, muon, and tauon).",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The quality produced by the sensation of smell; odour; fragrance.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To add flavoring to something.",
+                "type": "verb"
+            }
+        ]
+    },
+    "flaw": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A flake, fragment, or shiver.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A thin cake, as of ice.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A crack or breach, a gap or fissure; a defect of continuity or cohesion.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A defect, fault, or imperfection, especially one that is hidden.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To add a flaw to, to make imperfect or defective.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To become imperfect or defective; to crack or break.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "A sudden burst or gust of wind of short duration; windflaw.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A storm of short duration.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A sudden burst of noise and disorder.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "quarrel, tumult, uproar"
+                    }
+                ]
+            }
+        ]
+    },
+    "flawed": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Having a flaw or imperfection.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "flee": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To run away; to escape.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To escape from.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To disappear quickly; to vanish.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fleet": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A group of vessels or vehicles.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any group of associated items.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A large, coordinated group of people.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A number of vessels in company, especially war vessels; also, the collective naval force of a country, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(British Royal Navy) Any command of vessels exceeding a squadron in size, or a rear admiral's command, composed of five sail-of-the-line, with any number of smaller vessels.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "An arm of the sea; a run of water, such as an inlet or a creek.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A location, as on a navigable river, where barges are secured.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To float.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To pass over rapidly; to skim the surface of.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To hasten over; to cause to pass away lightly, or in mirth and joy.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To flee, to escape, to speed away.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To evanesce, disappear, die out.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To move up a rope, so as to haul to more advantage; especially to draw apart the blocks of a tackle.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "(of people) To move or change in position.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To shift the position of dead-eyes when the shrouds are become too long.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To cause to slip down the barrel of a capstan or windlass, as a rope or chain.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To take the cream from; to skim.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "Swift in motion; light and quick in going from place to place.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fast, nimble"
+                    }
+                ]
+            },
+            {
+                "number": 19,
+                "definition": "Light; superficially thin; not penetrating deep, as soil.",
+                "type": "adjective"
+            },
+            {
+                "number": 20,
+                "definition": "Floor; bottom; lower surface.",
+                "type": "noun"
+            },
+            {
+                "number": 21,
+                "definition": "A house; home.",
+                "type": "noun"
+            }
+        ]
+    },
+    "flesh": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The soft tissue of the body, especially muscle and fat.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The skin of a human or animal.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(by extension) Bare arms, bare legs, bare torso.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Animal tissue regarded as food; meat (but sometimes excluding fish).",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The human body as a physical entity.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The mortal body of a human being, contrasted with the spirit or soul.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The evil and corrupting principle working in man.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The soft, often edible, parts of fruits or vegetables.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Tenderness of feeling; gentleness.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Kindred; stock; race.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A yellowish pink colour; the colour of some Caucasian human skin.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To reward (a hound, bird of prey etc.) with flesh of the animal killed, to excite it for further hunting; to train (an animal) to have an appetite for flesh.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To bury (something, especially a weapon) in flesh.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To inure or habituate someone in or to a given practice.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To glut.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To put flesh on; to fatten.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To remove the flesh from the skin during the making of leather.",
+                "type": "verb"
+            }
+        ]
+    },
+    "flexibility": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The quality of being flexible; suppleness; pliability.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The quality of having options.",
+                "type": "noun"
+            }
+        ]
+    },
+    "flourish": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A dramatic gesture such as the waving of a flag.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An ornamentation.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A ceremonious passage such as a fanfare.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A decorative embellishment on a building.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To thrive or grow well.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To prosper or fare well.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To be in a period of greatest influence.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To develop; to make thrive; to expand.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To make bold, sweeping movements with.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To make bold and sweeping, fanciful, or wanton movements, by way of ornament, parade, bravado, etc.; to play with fantastic and irregular motion.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To use florid language; to indulge in rhetorical figures and lofty expressions.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To make ornamental strokes with the pen; to write graceful, decorative figures.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To adorn with beautiful figures or rhetoric; to ornament with anything showy; to embellish.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To execute an irregular or fanciful strain of music, by way of ornament or prelude.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To boast; to vaunt; to brag.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fluid": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any substance which can flow with relative ease, tends to assume the shape of its container, and obeys Bernoulli's principle; a liquid, gas or plasma.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A liquid (as opposed to a solid or gas).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(specifically, typically in the plural) Intravenous fluids.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Of or relating to fluid.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "In a state of flux; subject to change.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Moving smoothly, or giving the impression of a liquid in motion.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "(of an asset) Convertible into cash.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Genderfluid.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "fond": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To have a foolish affection for, to be fond of.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To caress; to fondle.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "(chiefly with of) Having a liking or affection (for).",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Affectionate.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Indulgent.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Outlandish; foolish; silly.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Foolish; simple; weak.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Doted on; regarded with affection.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "The background design in lace-making.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Brown residue in pans from cooking meats and vegetables.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A group of records having shared provenance.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Foundation; bottom; groundwork.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "Fund, stock, or store.",
+                "type": "noun"
+            }
+        ]
+    },
+    "fool": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person with poor judgment or little intelligence.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A jester; a person whose role was to entertain a sovereign and the court (or lower personages).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Someone who derives pleasure from something specified.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Buddy, dude, man.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A type of dessert made of puréed fruit and custard or cream.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "(often capitalized, Fool) A particular card in a tarot deck, representing a jester.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To trick; to deceive.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To act in an idiotic manner; to act foolishly.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "Foolish.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "footage": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An amount of film or tape that has been used to record something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A measurement in feet.",
+                "type": "noun"
+            }
+        ]
+    },
+    "forbid": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To disallow; to proscribe.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "(ditransitive) To deny, exclude from, or warn off, by express command.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To oppose, hinder, or prevent, as if by an effectual command.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To accurse; to blast.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To defy; to challenge.",
+                "type": "verb"
+            }
+        ]
+    },
+    "forecast": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An estimation of a future condition.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(betting) exacta.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To estimate how something will be in the future.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To foreshadow; to suggest something in advance.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To contrive or plan beforehand.",
+                "type": "verb"
+            }
+        ]
+    },
+    "foreigner": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person from a foreign country.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A private job run by an employee at a trade factory rather than going through the business.",
+                "type": "noun"
+            }
+        ]
+    },
+    "forge": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Furnace or hearth where metals are heated prior to hammering them into shape.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Workshop in which metals are shaped by heating and hammering them.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The act of beating or working iron or steel.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To shape a metal by heating and hammering.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To form or create with concerted effort.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To create a forgery of; to make a counterfeit item of; to copy or imitate unlawfully.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To make falsely; to produce, as that which is untrue or not genuine; to fabricate.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "(often as forge ahead) To move forward heavily and slowly (originally as a ship); to advance gradually but steadily; to proceed towards a goal in the face of resistance or difficulty.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "(sometimes as forge ahead) To advance, move or act with an abrupt increase in speed or energy.",
+                "type": "verb"
+            }
+        ]
+    },
+    "format": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The layout of a publication or document.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(hence) The form of presentation of something.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The type of programming that a radio station broadcasts; such as a certain genre of music, news, sports, talk, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A file type.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To create or edit the layout of a document.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "Change a document so it will fit onto a different type of page.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To prepare a mass storage medium for initial use, erasing any existing data in the process.",
+                "type": "verb"
+            }
+        ]
+    },
+    "formation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something possessing structure or form.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of assembling a group or structure.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The process during which something comes into being and gains its characteristics.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A rock or face of a mountain.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A grouping of military units or smaller formations under a command, such as a brigade, division, wing, etc.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "battle group, brigade group, combat team, task force"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "An arrangement of moving troops, ships, or aircraft, such as a wedge, line abreast, or echelon. Often \"in formation\".",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "battle formation, tactical formation"
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "definition": "An arrangement of players designed to facilitate certain plays.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The process of influencing or guiding a person to a deeper understanding of a particular vocation.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A structure made of two categories, two functors from the first to the second category, and a transformation from one of the functors to the other.",
+                "type": "noun"
+            }
+        ]
+    },
+    "formerly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "At some time in the past.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Previously; once.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "formula": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any mathematical rule expressed symbolically.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "mathematical formula"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A symbolic expression of the structure of a compound.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "chemical formula"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "A plan or method for dealing with a problem or for achieving a result.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A formulation; a prescription; a mixture or solution made in a prescribed manner; the identity and quantities of ingredients of such a mixture.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A formal statement of doctrine, as in religion.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A syntactic expression of a proposition, built up from quantifiers, logical connectives, variables, relation and operation symbols, and, depending on the type of logic, possibly other operators such as modal, temporal, deontic or epistemic ones.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A manufactured food simulating human breast milk, designed to be fed to babies and infants under 12 months of age.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "baby formula, formula"
+                    }
+                ]
+            }
+        ]
+    },
+    "formulate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To reduce to, or express in, a formula; to put in a clear and definite form of statement or expression.",
+                "type": "verb"
+            }
+        ]
+    },
+    "forth": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Forward in time, place or degree.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Out into view; from a particular place or position.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "Beyond a (certain) boundary; away; abroad; out.",
+                "type": "adverb"
+            },
+            {
+                "number": 4,
+                "definition": "Thoroughly; from beginning to end.",
+                "type": "adverb"
+            },
+            {
+                "number": 5,
+                "definition": "Forth from; out of.",
+                "type": "preposition"
+            }
+        ]
+    },
+    "forthcoming": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An act of coming forth.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something that is yet to come.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Approaching or about to take place.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "imminent, impending"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "Available when needed; in place, ready.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "unforthcoming"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "Willing to co-operate or provide information; candid, frank, responsive.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "To come forth.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fortunate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Auspicious.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Happening by good luck or favorable chance.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Favored by fortune.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "forum": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A place for discussion.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A gathering for the purpose of discussion.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A form of discussion involving a panel of presenters and often participation by members of the audience.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An Internet message board where users can post messages regarding one or more topics of discussion.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A square or marketplace in a Roman town, used for public business and commerce.",
+                "type": "noun"
+            }
+        ]
+    },
+    "fossil": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The mineralized remains of an animal or plant.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any preserved evidence of ancient life, including shells, imprints, burrows, coprolites, and organically-produced chemicals.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A fossil word.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Anything extremely old, extinct, or outdated.",
+                "type": "noun"
+            }
+        ]
+    },
+    "foster": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A foster parent.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The care given to another; guardianship.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To nurture or bring up offspring, or to provide similar parental care to an unrelated child.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To cultivate and grow something.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To nurse or cherish something.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To be nurtured or trained up together.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "Providing parental care to children not related to oneself.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Receiving such care.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Related by such care.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "A forester.",
+                "type": "noun"
+            }
+        ]
+    },
+    "foundation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of founding, fixing, establishing, or beginning to erect.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "establishment"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "abolition, dissolution, ruination"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "That upon which anything is founded; that on which anything stands, and by which it is supported; the lowest and supporting layer of a superstructure; underbuilding.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "basis, groundwork"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "The result of the work to begin something; that which stabilizes and allows an enterprise or system to develop.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "groundwork, platform, stage"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "In solitaire or patience games, one of the piles of cards that the player attempts to build, usually holding all cards of a suit in ascending order.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The lowest and supporting part or member of a wall, including the base course and footing courses; in a frame house, the whole substructure of masonry.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "base, groundwall"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "A donation or legacy appropriated to support a charitable institution, and constituting a permanent fund; endowment.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "That which is founded, or established by endowment; an endowed institution or charity.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Cosmetic cream roughly skin-colored, designed to make the face appear uniform in color and texture.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A basis for social bodies or intellectual disciplines.",
+                "type": "noun"
+            }
+        ]
+    },
+    "founder": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who founds or establishes (especially said of a company, project, organisation, state).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Someone for whose parents one has no data.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The iron worker in charge of the blast furnace and the smelting operation.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "One who casts metals in various forms; a caster.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A severe laminitis of a horse, caused by untreated internal inflammation in the hooves.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Of a ship, to fill with water and sink.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To fall; to stumble and go lame, as a horse.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To fail; to miscarry.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To cause to fill and sink, as a ship.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To disable or lame (a horse) by causing internal inflammation and soreness in the feet or limbs.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fraction": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A part of a whole, especially a comparatively small part.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A ratio of two numbers, the numerator and the denominator, usually written one above the other and separated by a horizontal bar.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A component of a mixture, separated by fractionation.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "In a eucharistic service, the breaking of the host.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A small amount.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The act of breaking, or state of being broken, especially by violence.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To divide or break into fractions.",
+                "type": "verb"
+            }
+        ]
+    },
+    "fragile": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Easily broken or destroyed, and thus often of subtle or intricate structure.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Feeling weak or easily disturbed as a result of illness.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "fragment": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A part broken off; a small, detached portion; an imperfect part, either physically or not.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(grammar) A sentence not containing a subject or a predicate.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An incomplete portion of code.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A portion of a URL referring to a subordinate resource (such as a specific point on a web page), introduced by the # sign.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To break apart.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To cause to be broken into pieces.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To break up and disperse (a file) into non-contiguous areas of a disk.",
+                "type": "verb"
+            }
+        ]
+    },
+    "framework": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A support structure comprising joined parts or conglomerated particles and intervening open spaces of similar or larger size.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The arrangement of support beams that represent a building's general shape and size.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The larger branches of a tree that determine its shape.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A basic conceptual structure.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A reusable piece of code (and, sometimes, other utilities) providing a standard environment within which an application can be implemented.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The identification and categorisation of processes or steps that constitute a complex task or mindset in order to render explicit the tacit and implicit.",
+                "type": "noun"
+            }
+        ]
+    },
+    "franchise": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The right to vote at a public election or referendum; see: suffrage, suffragette.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A right or privilege officially granted to a person, a group of people, or a company by a government.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An acknowledgment of a corporation's existence and ownership.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The authorization granted by a company to sell or distribute its goods or services in a certain area.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A business operating under such authorization, a franchisee.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A legal exemption from jurisdiction.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The membership of a corporation or state; citizenship.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The district or jurisdiction to which a particular privilege extends; the limits of an immunity; hence, an asylum or sanctuary.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The collection of organizations in the history of a sports team; the tradition of a sports team as an entity, extending beyond the contemporary organization.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The positive influence on the buying behavior of customers exerted by the reputation of a company or a brand.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The loose collection of fictional works pertaining to a particular universe, including literary, film or television series from various sources.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Exemption from constraint or oppression; freedom; liberty.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "Magnanimity; generosity; liberality; frankness; nobility.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "To confer certain powers on; grant a franchise to; authorize.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To set free; invest with a franchise or privilege; enfranchise.",
+                "type": "verb"
+            }
+        ]
+    },
+    "frankly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(manner) In a frank, open or (too) honest manner.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "(sentence adverb) In truth, to tell the truth.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "fraud": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The crime of stealing or otherwise illegally obtaining money by use of deception tactics.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any act of deception carried out for the purpose of unfair, undeserved and/or unlawful gain.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The assumption of a false identity to such deceptive end.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A person who performs any such trick.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A trap or snare.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To defraud.",
+                "type": "verb"
+            }
+        ]
+    },
+    "freely": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Free; frank.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Generous; noble; excellent; beautiful; lovely.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "In a free manner.",
+                "type": "adverb"
+            },
+            {
+                "number": 4,
+                "definition": "Without interference or restriction.",
+                "type": "adverb"
+            },
+            {
+                "number": 5,
+                "definition": "Of one's own free will.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "frequent": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Done or occurring often; common.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Occurring at short intervals.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Addicted to any course of conduct; inclined to indulge in any practice; habitual; persistent.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Full; crowded; thronged.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Often or commonly reported.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "To visit often.",
+                "type": "verb"
+            }
+        ]
+    },
+    "frustrated": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To disappoint or defeat; to vex by depriving of something expected or desired.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To hinder or thwart.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To cause stress or annoyance.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Foiled, stopped, disappointed.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Suffering from frustration; dissatisfied, agitated, and/or discontent because one is unable to perform an action or fulfill a desire.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "frustrating": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To disappoint or defeat; to vex by depriving of something expected or desired.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To hinder or thwart.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To cause stress or annoyance.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Discouraging; causing annoyance or anger by excessive difficulty.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "frustration": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The feeling of annoyance when one's actions are criticized or hindered.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of frustrating, or the state, or an instance of being frustrated.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A thing that frustrates.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Anger not directed at anything or anyone in particular.",
+                "type": "noun"
+            }
+        ]
+    },
+    "fulfil": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To satisfy, carry out, bring to completion (an obligation, a requirement, etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To emotionally or artistically satisfy; to develop one's gifts to the fullest.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To obey, follow, comply with (a rule, requirement etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To package, distribute, or ship goods.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To fill full; fill to the utmost capacity; fill up.",
+                "type": "verb"
+            }
+        ]
+    },
+    "functional": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A function that takes a function as its argument; More precisely: A function y=f(x) whose argument x varies in a space of (real valued, complex valued) functions and whose value belongs to a monodimensional space. An example: the definite integration of integrable real functions in a real interval.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A scalar-valued linear function on a vector space.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An object encapsulating a function pointer (or equivalent).",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "In good working order.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Useful; serving a purpose, fulfilling a function.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Only for functional purposes, notably in architecture.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Having semantics defined purely in terms of mathematical functions, without side-effects.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "imperative"
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "definition": "Of a disease, such that its symptoms cannot be referred to any appreciable lesion or change of structure; opposed to organic disease, in which the organ itself is affected.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "fundamentally": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In a fundamental or basic sense; reaching the very core of the matter.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "fundraising": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The process of collecting money by requesting donations from individuals and businesses.",
+                "type": "noun"
+            }
+        ]
+    },
+    "funeral": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A ceremony to honour and remember a deceased person. Often distinguished from a memorial service by the presence of the body of the deceased.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(chiefly in the plural) A funeral sermon.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Of or relating to a funeral.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Similar to a funeral in mood; dignified or solemn.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "furious": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Feeling great anger; raging; violent.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Rushing with impetuosity; moving with violence.",
+                "type": "adjective"
+            }
+        ]
+    }
+}

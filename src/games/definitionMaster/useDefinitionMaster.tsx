@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Button, Typography } from 'antd';
 import { Definition, DefinitionWords, QuizDefinition } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
+import { useWordsContext } from '@store/WordsContext';
 
 const { Title } = Typography;
 
@@ -10,6 +11,8 @@ const TOTAL_QUIZ_DEFINITIONS = 5;
 type SelectedAnswersType = { [key: string]: boolean };
 
 const useDefinitionMaster = () => {
+    const { locale } = useWordsContext();
+
     const [quizWord, setQuizWord] = useState<string>('');
     const [currentQuizIndex, setCurrentQuizIndex] = useState<number>(0);
     const [chosenWords, setChosenWords] = useState<DefinitionWords>({});
@@ -87,7 +90,7 @@ const useDefinitionMaster = () => {
     };
 
     const handleLetterClick = async (letter: string) => {
-        const words = await loadDefinition(letter);
+        const words = await loadDefinition(letter, locale);
         if (words) {
             const preChosenWords: DefinitionWords = {};
             for (const key in words as DefinitionWords) {

@@ -1,14 +1,16 @@
 import React from 'react';
-import GamesConfig from '@config/GamesConfig';
 import SpellTowerUI from '@games/spellTower/UI';
 import useSpellTower from '@games/spellTower/useSpellTower';
-import { CardInfo } from '@models/types';
+import { createGamesConfig } from '@hooks/useGamesConfig';
+import { useWordsContext } from '@store/WordsContext';
 import MainLayout from 'src/layouts/MainLayout';
 import './SpellTower.scss';
 
 const SpellTower: React.FC = () => {
+    const { locale } = useWordsContext();
+
     const spellTowerLogic = useSpellTower();
-    const spellTowerConfig = GamesConfig.find((game: CardInfo) => game.id === 'SpellTower');
+    const spellTowerConfig = createGamesConfig(locale, 'spellTower');
 
     return (
         <MainLayout>

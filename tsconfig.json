@@ -19,6 +19,7 @@
         "paths": {
             "@games/*": ["src/games/*"],
             "@models/*": ["src/models/*"],
+            "@hooks/*": ["src/hooks/*"],
             "@config/*": ["src/config/*"],
             "@store/*": ["src/store/*"],
             "@services/*": ["src/services/*"],

@@ -1,13 +1,12 @@
 import React from 'react';
-import { Button, Col, Flex, Row, Typography } from 'antd';
-import { CardInfo } from '@models/types';
+import { Button, Col, Flex, Row } from 'antd';
+import { GameConfig } from '@models/types';
+import GameRules from 'src/components/GameRules';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 
-const { Text, Title } = Typography;
-
 type SpellTowerUIProps = {
-    gameConfig: CardInfo;
+    gameConfig: GameConfig;
     error: Error | null;
     countdown: number;
     showButton: boolean;
@@ -64,48 +63,7 @@ const UI: React.FC<SpellTowerUIProps> = ({
             {!hasBeenPlayed ? (
                 <div className="spell-tower-game">
                     <div className="spell-tower-game-inner">
-                        <div className="game-rules">
-                            <Title level={2}>Reglas</Title>
-                            <p>
-                                <Text strong>Objetivo del Juego:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    El objetivo del juego es construir la torre más alta posible.
-                                </Text>
-                            </p>
-                            <p>
-                                <Text strong>Cómo Jugar:</Text>
-                            </p>
-                            <div>
-                                <Text>
-                                    <ul>
-                                        <li>
-                                            Al comenzar el juego, se mostrarán palabras, algunas
-                                            escritas correctamente y otras incorrectamente.
-                                        </li>
-                                        <li>
-                                            Elige una palabra: si está escrita correctamente, se
-                                            añadirá un bloque a tu torre.
-                                        </li>
-                                        <li>
-                                            Si eliges una palabra escrita incorrectamente, se
-                                            eliminará un bloque de tu torre.
-                                        </li>
-                                    </ul>
-                                </Text>
-                            </div>
-                            <p>
-                                <Text strong>Consejos:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    Dedica tiempo a leer cuidadosamente cada palabra.
-                                    <br />
-                                    Recuerda que ir más rápido no siempre significa llegar primero.
-                                </Text>
-                            </p>
-                        </div>
+                        <GameRules {...gameConfig.gameRules} />
                     </div>
                 </div>
             ) : (

@@ -6,6 +6,7 @@ if [ "$#" -ne 1 ]; then
 fi
 
 FILE=$1
+LOCALE=$(echo "$FILE" | grep -oE 'words/([a-z]+)/' | cut -d'/' -f2)
 
 if [ ! -f "$FILE" ]; then
     echo "File not found: $FILE"
@@ -14,7 +15,7 @@ fi
 
 TMP_FILE=$(mktemp)
 
-LC_COLLATE=es_ES.UTF-8 sort "$FILE" > "$TMP_FILE"
+LC_COLLATE=es_ES.UTF-8 sort -u "$FILE" > "$TMP_FILE"
 
 mv "$TMP_FILE" "$FILE"
 
@@ -59,7 +60,7 @@ if [ $(( (OFFSET - 1) % CHUNK_SIZE)) -ne 0 ]; then
 fi
 
 for file in "${GENERATED_FILES[@]}"; do
-    mv "$file" "../../public/words/"
+    mv "$file" "../../public/words/$LOCALE/"
 done
 
-echo "All files have been moved to ../public/words"
+echo "All files have been moved to ../public/words/$LOCALE"

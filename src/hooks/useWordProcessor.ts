@@ -1,7 +1,7 @@
 import WordGameProcessor from 'src/utils/WordGameProcessor';
 
-export const useWordProcessor = () => {
-    const processor = new WordGameProcessor();
+export const useWordProcessor = (locale: string) => {
+    const processor = new WordGameProcessor(locale);
 
     const processWords = (words: string[]) => {
         return words.map((word) => processor.processWord(word));
@@ -9,6 +9,10 @@ export const useWordProcessor = () => {
 
     const processWordsWithAccents = (words: string[]) => {
         return words.map((word) => processor.processWordWithAccent(word));
+    };
+
+    const filterWordsByLetters = (letters: string[], allWords: string[]) => {
+        return processor.filterWordsByLetters(letters, allWords);
     };
 
     const processLastWords = (words: string[][]) => {
@@ -26,5 +30,5 @@ export const useWordProcessor = () => {
         return processedWords;
     };
 
-    return { processWords, processWordsWithAccents, processLastWords };
+    return { processWords, processWordsWithAccents, processLastWords, filterWordsByLetters };
 };

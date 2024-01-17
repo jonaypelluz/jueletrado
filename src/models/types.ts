@@ -1,13 +1,4 @@
-export type ChangeRule = { [key: string]: string };
-
-export type LevelConfig = {
-    level: string;
-    totalChunks: number;
-    chunkSize: number;
-    minimumPopulatedCount: number;
-};
-
-export type CardInfo = {
+export type BaseInfo = {
     id: string;
     link: string;
     imgSrc: string;
@@ -16,7 +7,17 @@ export type CardInfo = {
     description: string;
 };
 
-export type DefinitionWords = { [key: string]: Definition[] };
+export type CardInfo = BaseInfo;
+
+export type GameConfig = BaseInfo & {
+    gameRules: GameRules;
+};
+
+export type ChangeRule = { [key: string]: string };
+
+export type CurrentRoutes = {
+    [key: string]: string;
+};
 
 export type Definition = {
     definition: string;
@@ -26,13 +27,38 @@ export type Definition = {
     definitionExtra?: string;
 };
 
+export type DefinitionWords = { [key: string]: Definition[] };
+
+export type GameRules = {
+    additionalRules: string[];
+    howToPlay: string[];
+    gameGoal: string;
+    tips: string[];
+};
+
+export type LevelConfig = {
+    level: string;
+    totalChunks: number;
+    chunkSize: number;
+    minimumPopulatedCount: { [key: string]: number };
+};
+
+export type LocaleConfig = {
+    lang: string;
+    name: string;
+};
+
+export type Translation = {
+    [key: string]: string;
+};
+
 export type QuizDefinition = {
     isCorrect: boolean;
     definition: string;
     word: string;
 };
 
-export type WordItem = {
+export type RainWordItem = {
     word: string;
     correct: string;
     correctWord: string;

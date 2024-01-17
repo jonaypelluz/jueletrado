@@ -1,5 +1,7 @@
 import React, { ReactNode, createContext, useContext, useState } from 'react';
+import { GamesRoutes } from '@config/translations/Games';
 import StorageService from '@store/StorageService';
+import { ContentRoutes } from '@config/translations/Content';
 
 interface WordsContextValue {
     isLoading: boolean;
@@ -12,6 +14,9 @@ interface WordsContextValue {
     setWordOfTheDay: React.Dispatch<React.SetStateAction<string | null>>;
     gameLevel: string | null;
     setGameLevel: React.Dispatch<React.SetStateAction<string | null>>;
+    locale: string;
+    setLocale: (newLocale: string) => void;
+    currentRoutes: { [key: string]: string };
 }
 
 const WordsContext = createContext<WordsContextValue | undefined>(undefined);
@@ -31,6 +36,25 @@ const WordsContextProviderImpl: React.FC<WordsContextProviderProps> = ({ childre
         return StorageService.getItem<string>(StorageService.SELECTED_LEVEL) || null;
     });
 
+    const defaultLocale = 'es';
+    const [locale, setLocaleState] = useState<string>(() => {
+        return StorageService.getItem<string>(StorageService.LOCALE) || defaultLocale;
+    });
+
+    const setLocale = (newLocale: string) => {
+        if (newLocale !== locale) {
+            StorageService.clearStorage();
+            StorageService.setItem(StorageService.LOCALE, newLocale);
+            setLocaleState(newLocale);
+        }
+    };
+
+    const getCurrentRoutes = (locale: string) => {
+        return { ...ContentRoutes[locale], ...GamesRoutes[locale] };
+    };
+
+    const currentRoutes = getCurrentRoutes(locale);
+
     const value = {
         isLoading,
         setLoading: setIsLoading,
@@ -42,6 +66,9 @@ const WordsContextProviderImpl: React.FC<WordsContextProviderProps> = ({ childre
         setWordOfTheDay,
         gameLevel,
         setGameLevel,
+        locale,
+        setLocale,
+        currentRoutes,
     };
 
     return <WordsContext.Provider value={value}>{children}</WordsContext.Provider>;

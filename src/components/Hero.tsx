@@ -9,14 +9,15 @@ interface HeroProps {
     subtitle?: string;
     image?: string;
     styles?: React.CSSProperties;
+    className?: string;
     children?: React.ReactNode;
 }
 
-const Hero: React.FC<HeroProps> = ({ title, subtitle, image, styles, children }) => {
+const Hero: React.FC<HeroProps> = ({ title, subtitle, image, styles, className, children }) => {
     const subtitleStyles = {};
 
     return (
-        <div className="hero" style={{ ...styles }}>
+        <div className={`hero ${className}`} style={{ ...styles }}>
             {image && (
                 <div>
                     <img src={image} alt={title} />

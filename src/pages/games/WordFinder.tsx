@@ -1,14 +1,16 @@
 import React from 'react';
-import GamesConfig from '@config/GamesConfig';
 import WordFinderUI from '@games/wordFinder/UI';
 import useWordFinder from '@games/wordFinder/useWordFinder';
-import { CardInfo } from '@models/types';
+import { createGamesConfig } from '@hooks/useGamesConfig';
+import { useWordsContext } from '@store/WordsContext';
 import MainLayout from 'src/layouts/MainLayout';
 import './WordFinder.scss';
 
-const App: React.FC = () => {
+const WorldFinder: React.FC = () => {
+    const { locale } = useWordsContext();
+
     const worldFinderLogic = useWordFinder();
-    const worldFinderConfig = GamesConfig.find((game: CardInfo) => game.id === 'WordFinder');
+    const worldFinderConfig = createGamesConfig(locale, 'wordFinder');
 
     return (
         <MainLayout>
@@ -19,4 +21,4 @@ const App: React.FC = () => {
     );
 };
 
-export default App;
+export default WorldFinder;

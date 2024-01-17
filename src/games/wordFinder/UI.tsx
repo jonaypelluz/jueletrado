@@ -1,13 +1,14 @@
 import React from 'react';
 import { Button, Typography } from 'antd';
-import { CardInfo } from '@models/types';
+import { GameConfig } from '@models/types';
+import GameRules from 'src/components/GameRules';
 import Hero from 'src/components/Hero';
 import LoadingScreen from 'src/components/LoadingScreen';
 
-const { Text, Title } = Typography;
+const { Text } = Typography;
 
 type WordFinderUIProps = {
-    gameConfig: CardInfo;
+    gameConfig: GameConfig;
     error: Error | null;
     isLoading: boolean;
     showButton: boolean;
@@ -71,76 +72,7 @@ const UI: React.FC<WordFinderUIProps> = ({
             <div className="word-finder-wrapper">
                 <div className="word-finder-inner">
                     {showButton && foundWords.length === 0 && (
-                        <div className="game-rules">
-                            <Title level={2}>Reglas</Title>
-                            <p>
-                                <Text strong>Objetivo del Juego:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    El jugador debe adivinar el mayor número de palabras secretas en
-                                    un número limitado de intentos por cada palabra y un tiempo
-                                    limitado.
-                                </Text>
-                            </p>
-                            <p>
-                                <Text strong>Cómo Jugar:</Text>
-                            </p>
-                            <div>
-                                <Text>
-                                    <ul>
-                                        <li>
-                                            El juego comienza mostrando una serie de espacios en
-                                            blanco, cada uno representando una letra de la palabra
-                                            secreta.
-                                        </li>
-                                        <li>
-                                            El jugador escribe una palabra del mismo largo que la
-                                            palabra secreta, intentando adivinarla.
-                                        </li>
-                                        <li>
-                                            Después de cada intento, el juego proporciona
-                                            retroalimentación de la siguiente manera:
-                                            <ul>
-                                                <li>
-                                                    <Text type="success">Verde:</Text> La letra está
-                                                    en la palabra secreta y en la posición correcta.
-                                                </li>
-                                                <li>
-                                                    <Text type="warning">Amarillo:</Text> La letra
-                                                    está en la palabra secreta pero en una posición
-                                                    incorrecta.
-                                                </li>
-                                                <li>
-                                                    <Text type="danger">Rojo:</Text> La letra no
-                                                    está en la palabra secreta.
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </Text>
-                            </div>
-                            <p>
-                                <Text strong>Reglas Adicionales:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    Las letras pueden repetirse en la palabra secreta.
-                                    <br />
-                                    El juego termina cuando se acaba el tiempo.
-                                </Text>
-                            </p>
-                            <p>
-                                <Text strong>Consejos:</Text>
-                            </p>
-                            <p>
-                                <Text>
-                                    Presta atención a las pistas de color para ajustar tus
-                                    siguientes intentos. Usa palabras comunes para tus primeros
-                                    intentos y así descubrir más letras.
-                                </Text>
-                            </p>
-                        </div>
+                        <GameRules {...gameConfig.gameRules} />
                     )}
                     {word && (
                         <>

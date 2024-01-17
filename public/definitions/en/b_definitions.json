@@ -1,0 +1,5361 @@
+{
+    "backdrop": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A decorated cloth hung at the back of a stage.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An image that serves as a visual background.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The setting or background of an acted performance.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Any background situation.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To serve as a backdrop for.",
+                "type": "verb"
+            }
+        ]
+    },
+    "backing": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To go in the reverse direction.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To support.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "(of the wind) To change direction contrary to the normal pattern; that is, to shift anticlockwise in the northern hemisphere, or clockwise in the southern hemisphere.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "(of a square sail) To brace the yards so that the wind presses on the front of the sail, to slow the ship.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(of an anchor) To lay out a second, smaller anchor to provide additional holding power.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "(of a hunting dog) To stand still behind another dog which has pointed.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To push or force backwards.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To get upon the back of; to mount.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To place or seat upon the back.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To make a back for; to furnish with a back.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To adjoin behind; to be at the back of.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To write upon the back of, possibly as an endorsement.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(of a justice of the peace) To sign or endorse (a warrant, issued in another county, to apprehend an offender).",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To row backward with (oars).",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "Support, especially financial.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A liner or other material added behind or underneath.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "A backdrop.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "Musicians and vocalists who support the main performer.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "The mounting of a horse or other animal.",
+                "type": "noun"
+            },
+            {
+                "number": 20,
+                "definition": "The action of putting something back; a switching into reverse.",
+                "type": "noun"
+            },
+            {
+                "number": 21,
+                "definition": "Providing support for the main performer.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "backup": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A reserve or substitute.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A copy of a file or record, stored separately from the original, that can be used to recover the original if it is destroyed or damaged.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An accumulation of material caused by a (partial) obstruction or (complete) blockage of the flow or movement of the material, or an accumulation of material that causes an overflow due to the flow being greater than the maximum possible flow.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(law enforcement) reinforcements.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Standby, reserve or extra.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "That is intended as a backup.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Supporting, reinforcing; of or related to accompaniment.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "badge": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A distinctive mark, token, sign, emblem or cognizance, worn on one's clothing, as an insignia of some rank, or of the membership of an organization.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A small nameplate, identifying the wearer, and often giving additional information.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A card, sometimes with a barcode or magnetic strip, granting access to a certain area.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Something characteristic; a mark; a token.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(thieves' cant) A brand on the hand of a thief, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A carved ornament on the stern of a vessel, containing a window or the representation of one.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A distinctive mark worn by servants, retainers, and followers of royalty or nobility, who, being beneath the rank of gentlemen, have no right to armorial bearings.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A small overlay on an icon that shows additional information about that item, such as the number of new alerts or messages.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "An icon or emblem awarded to a user for some achievement.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "To mark or distinguish with a badge.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To show a badge to.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To enter a restricted area by showing one's badge.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bail": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Security, usually a sum of money, exchanged for the release of an arrested person as a guarantee of that person's appearance for trial.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Release from imprisonment on payment of such money.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The person providing such payment.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A bucket or scoop used for removing water from a boat etc.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A person who bails water out of a boat.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Custody; keeping.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To secure the release of an arrested person by providing bail.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To release a person under such guarantee.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To hand over personal property to be held temporarily by another as a bailment.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To remove (water) from a boat by scooping it out.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To remove water from (a boat) by scooping it out.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To set free; to deliver; to release.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To exit quickly.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To fail to meet a commitment.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "A hoop, ring or handle (especially of a kettle or bucket).",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A stall for a cow (or other animal) (usually tethered with a semi-circular hoop).",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "A hinged bar as a restraint for animals, or on a typewriter.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "A frame to restrain a cow during milking or feeding.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "A hoop, ring, or other object used to connect a pendant to a necklace.",
+                "type": "noun"
+            },
+            {
+                "number": 20,
+                "definition": "One of the two wooden crosspieces that rest on top of the stumps to form a wicket.",
+                "type": "noun"
+            },
+            {
+                "number": 21,
+                "definition": "(furniture) Normally curved handle suspended between sockets as a drawer pull. This may also be on a kettle or pail.",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "To secure the head of a cow during milking.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To confine.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To secure (a cow) by placing its head in a bail for milking.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To keep (a traveller) detained in order to rob them; to corner (a wild animal); loosely, to detain, hold up. (Usually with up.).",
+                "type": "verb"
+            }
+        ]
+    },
+    "balanced": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To bring (items) to an equipoise, as the scales of a balance by adjusting the weights.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To make (concepts) agree.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To hold (an object or objects) precariously; to support on a narrow base, so as to keep from falling.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To compare in relative force, importance, value, etc.; to estimate.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(dancing) To move toward, and then back from, reciprocally.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To contract, as a sail, into a narrower compass.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To make the credits and debits of (an account) correspond.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To be in equilibrium.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To have matching credits and debits.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To weigh in a balance.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To hesitate or fluctuate.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "Containing elements in appropriate proportion; proportionately weighted on all dimensions and therefore unlikely to tip over.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "ballet": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A classical form of dance.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A theatrical presentation of such dancing, usually with music, sometimes in the form of a story.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The company of persons who perform this dance.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A light part song, frequently with a fa-la-la chorus, common among Elizabethan and Italian Renaissance composers.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A bearing in coats of arms representing one or more balls, called bezants, plates, etc., according to colour.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Any intricate series of operations involving coordination between individuals.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To perform an action reminiscent of ballet dancing.",
+                "type": "verb"
+            }
+        ]
+    },
+    "balloon": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An inflatable buoyant object, often (but not necessarily) round and flexible.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Such an object as a child’s toy or party decoration.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Such an object designed to transport people through the air.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A sac inserted into part of the body for therapeutic reasons; such as angioplasty.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A speech bubble.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A type of glass cup, sometimes used for brandy.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A ball or globe on the top of a pillar, church, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A round vessel, usually with a short neck, to hold or receive whatever is distilled; a glass vessel of a spherical form.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A bomb or shell.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A game played with a large inflated ball.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "(engraving) The outline enclosing words represented as coming from the mouth of a pictured figure.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A woman's breast.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A small container for illicit drugs made from a condom or the finger of a latex glove, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "To increase or expand rapidly.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To go up or voyage in a balloon.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To take up in, or as if in, a balloon.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To inflate like a balloon.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To strike (a ball) so that it flies high in the air.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "An unusually large payment due at the end of the term of a loan agreement.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "lump sum"
+                    }
+                ]
+            }
+        ]
+    },
+    "ballot": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Originally, a small ball placed in a container to cast a vote; now, by extension, a piece of paper or card used for this purpose, or some other means used to signify a vote.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The process of voting, especially in secret; a round of voting.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The total of all the votes cast in an election.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A list of candidates running for office; a ticket.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To vote or decide by ballot.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To draw lots.",
+                "type": "verb"
+            }
+        ]
+    },
+    "banner": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A flag or standard used by a military commander, monarch or nation.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(by extension) The military unit under such a flag or standard.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(by extension) A military or administrative subdivision.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Any large sign, especially when made of soft material or fabric.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A large piece of cloth with a slogan, motto, or emblem carried in a demonstration or other procession or suspended in some conspicuous place.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "(by extension) A cause or purpose; a campaign or movement.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The title of a newspaper as printed on its front page; the nameplate; masthead.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A type of advertisement on a web page or on television, usually taking the form of a graphic or animation above or alongside the content.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The principal standard of a knight.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A type of administrative division in Inner Mongolia, China (хошуу/旗) and Tuva (кожуун), made during the Qing dynasty. At this time, Outer Mongolia and part of Xinjiang were also divided this way.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "To adorn with a banner.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To display as a banner headline.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "Exceptional; very good.",
+                "type": "adjective"
+            },
+            {
+                "number": 14,
+                "definition": "One who bans something.",
+                "type": "noun"
+            }
+        ]
+    },
+    "bare": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(‘the bare’) The surface, the (bare) skin.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Surface; body; substance.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "That part of a roofing slate, shingle, tile, or metal plate, which is exposed to the weather.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Minimal; that is or are just sufficient.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Naked, uncovered.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Having no supplies.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Having no decoration.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Having had what usually covers (something) removed.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "(Toronto) A lot or lots of.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "With head uncovered; bareheaded.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Without anything to cover up or conceal one's thoughts or actions; open to view; exposed.",
+                "type": "adjective"
+            },
+            {
+                "number": 12,
+                "definition": "Mere; without embellishment.",
+                "type": "adjective"
+            },
+            {
+                "number": 13,
+                "definition": "Threadbare, very worn.",
+                "type": "adjective"
+            },
+            {
+                "number": 14,
+                "definition": "Not insured.",
+                "type": "adjective"
+            },
+            {
+                "number": 15,
+                "definition": "Very; significantly.",
+                "type": "adverb"
+            },
+            {
+                "number": 16,
+                "definition": "Barely.",
+                "type": "adverb"
+            },
+            {
+                "number": 17,
+                "definition": "Without a condom.",
+                "type": "adverb"
+            },
+            {
+                "number": 18,
+                "definition": "To uncover; to reveal.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To carry or convey, literally or figuratively.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To support, sustain, or endure.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To support, keep up, or maintain.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To press or impinge upon.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To produce, yield, give birth to.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "(originally nautical) To be, or head, in a specific direction or azimuth (from somewhere).",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To gain or win.",
+                "type": "verb"
+            }
+        ]
+    },
+    "barely": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(degree) By a small margin.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "(degree) Almost not at all.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "Merely.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "bargain": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An agreement between parties concerning the sale of property; or a contract by which one party binds himself to transfer the right to some property for a consideration, and the other party binds himself to receive the property and pay the consideration.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An agreement or stipulation; mutual pledge.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "contract, engagement, stipulation"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "An item purchased for significantly less than the usual, or recommended, price.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "steal, rip-off"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "A gainful transaction; an advantageous purchase.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The thing stipulated or purchased.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "purchase"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "To make a bargain; to make a deal or contract for the exchange of property or services; to negotiate.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To transfer for a consideration; to barter; to trade.",
+                "type": "verb"
+            }
+        ]
+    },
+    "barrel": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A round vessel or cask, of greater length than breadth, and bulging in the middle, made of staves bound with hoops, and having flat ends or heads. Sometimes applied to a similar cylindrical container made of metal, usually called a drum.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The quantity which constitutes a full barrel: the volume or weight this represents varies by local law and custom.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A solid drum, or a hollow cylinder or case.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A metallic tube, as of a gun, from which a projectile is discharged.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A tube.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The hollow basal part of a feather.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The part of a clarinet which connects the mouthpiece and upper joint, and looks rather like a barrel (1).",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A wave that breaks with a hollow compartment.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A waste receptacle.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The ribs and belly of a horse or pony.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A jar.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Any of the dark-staining regions in the somatosensory cortex of rodents, etc., where somatosensory inputs from the contralateral side of the body come in from the thalamus.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A statistic derived from launch angle and exit velocity of a ball hit in play.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "To put or to pack in a barrel or barrels.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To move quickly or in an uncontrolled manner.",
+                "type": "verb"
+            }
+        ]
+    },
+    "basement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A floor of a building below ground level.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A mass of igneous or metamorphic rock forming the foundation over which a platform of sedimentary rocks is laid.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Last place in a sports conference standings.",
+                "type": "noun"
+            }
+        ]
+    },
+    "basket": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A lightweight container, generally round, open at the top, and tapering toward the bottom.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A wire or plastic container similar in shape to a basket, used for carrying articles for purchase in a shop.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "In an online shop, a notional place to store items before ordering them.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A circular hoop, from which a net is suspended, which is the goal through which the players try to throw the ball.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The act of putting the ball through the basket, thereby scoring points.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The game of basketball.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A dance movement in some line dances, where men put their arms round the women's lower backs, and the women put their arms over the mens' shoulders, and the group (usually of four, any more is difficult) spins round, which should result in the women's feet leaving the ground.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The bulge of the male genitals seen through clothing.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "In a stage-coach, two outside seats facing each other.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A protection for the hand on a sword or a singlestick; a guard of a bladed weapon.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "(ballooning) The gondola or wicker basket suspended from the balloon, in which the pilot and passengers travel.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "The bell or vase of the Corinthian capital.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "Bastard.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "To place in a basket or baskets.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To cross-collateralize the royalty advances for multiple works so that the creator is not paid until all of those works have achieved a certain level of success.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bass": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A low spectrum of sound tones.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A section of musical group that produces low-pitched sound, lower than the baritone and tenor.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One who sings in the bass range.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An instrument that plays in the bass range, in particular a double bass, bass guitar, electric bass or bass synthesiser.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The clef sign that indicates that the pitch of the notes is below middle C; a bass clef.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To sound in a deep tone.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "Of sound, a voice or an instrument, low in pitch or frequency.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "The perch; any of various marine and freshwater fish resembling the perch, all within the order of Perciformes.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The fibrous inner bark of the linden or lime tree, used for making mats.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Fibers from other plants, especially palm trees.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "Anything made from such fibers, such as a hassock, basket or thick mat.",
+                "type": "noun"
+            }
+        ]
+    },
+    "bat": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any of the flying mammals of the order Chiroptera, usually small and nocturnal, insectivorous or frugivorous.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An old woman.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A club made of wood or aluminium used for striking the ball in sports such as baseball, softball and cricket.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A turn at hitting the ball with a bat in a game.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The piece of wood on which the spinner places the coins and then uses for throwing them.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Shale or bituminous shale.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A sheet of cotton used for filling quilts or comfortables; batting.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A part of a brick with one whole end.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A stroke; a sharp blow.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A stroke of work.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "Rate of motion; speed.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A spree; a jollification.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "Manner; rate; condition; state of health.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "To hit with a bat or (figuratively) as if with a bat.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To take a turn at hitting a ball with a bat in sports like cricket, baseball and softball, as opposed to fielding.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To strike or swipe as though with a bat.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To flutter.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To wink.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To bate or flutter, as a hawk.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "(usually with 'around' or 'about') To flit quickly from place to place.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "A packsaddle.",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "The official currency of Thailand, equal to 100 satang.",
+                "type": "noun"
+            }
+        ]
+    },
+    "battlefield": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The area where a land battle is or was fought, which is not necessarily a field.",
+                "type": "noun"
+            }
+        ]
+    },
+    "bay": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A berry.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Laurus nobilis, a tree or shrub of the family Lauraceae, having dark green leaves and berries.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Bay leaf, the leaf of this or certain other species of tree or shrub, used as a herb.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(in the plural) The leaves of this shrub, woven into a garland used to reward a champion or victor; hence, fame, victory.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A tract covered with bay trees.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A kind of mahogany obtained from Campeche in Mexico.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A body of water (especially the sea) more or less three-quarters surrounded by land.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A bank or dam to keep back water.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "An opening in a wall, especially between two columns.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "An internal recess; a compartment or area surrounded on three sides.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The distance between two supports in a vault or building with a pitched roof.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Each of the spaces, port and starboard, between decks, forward of the bitts, in sailing warships.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A bay platform.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A bay window.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "The excited howling of dogs when hunting or being attacked.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "(by extension) The climactic confrontation between hunting-dogs and their prey.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "A state of being obliged to face an antagonist or a difficulty, when escape has become impossible.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "To howl.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To bark at; hence, to follow with barking; to bring or drive to bay.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To pursue noisily, like a pack of hounds.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "A brown colour/color of the coat of some horses.",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "A horse of this color.",
+                "type": "noun"
+            },
+            {
+                "number": 23,
+                "definition": "Of a reddish-brown colour (especially of horses).",
+                "type": "adjective"
+            }
+        ]
+    },
+    "beam": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any large piece of timber or iron long in proportion to its thickness, and prepared for use.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "One of the principal horizontal timbers of a building; one of the transverse members of a ship's frame on which the decks are laid — supported at the sides by knees in wooden ships and by stringers in steel ones.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The maximum width of a vessel (note that a vessel with a beam of 15 foot can also be said to be 15 foot abeam).",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "breadth"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "The crossbar of a mechanical balance, from the ends of which the scales are suspended.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The principal stem of the antler of a deer.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The pole of a carriage or chariot.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A cylinder of wood, making part of a loom, on which weavers wind the warp before weaving and the cylinder on which the cloth is rolled, as it is woven.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The straight part or shank of an anchor.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The central bar of a plow, to which the handles and colter are secured, and to the end of which are attached the oxen or horses that draw it.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "In steam engines, a heavy iron lever having an oscillating motion on a central axis, one end of which is connected with the piston rod from which it receives motion, and the other with the crank of the wheel shaft.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "walking beam, working beam"
+                    }
+                ]
+            },
+            {
+                "number": 11,
+                "definition": "A ray or collection of approximately parallel rays emitted from the sun or other luminous body.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A ray; a gleam.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "One of the long feathers in the wing of a hawk.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "beam feather"
+                    }
+                ]
+            },
+            {
+                "number": 14,
+                "definition": "A horizontal bar which connects the stems of two or more notes to group them and to indicate metric value.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "An elevated rectangular dirt pile used to cheaply build an elevated portion of a railway.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "To emit beams of light; shine; radiate.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To smile broadly or especially cheerfully.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To furnish or supply with beams.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To give the appearance of beams to.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To transmit matter or information via a high-tech wireless mechanism.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "(currying) To stretch something (for example an animal hide) on a beam.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To put (something) on a beam.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To connect (musical notes) with a beam, or thick line, in music notation.",
+                "type": "verb"
+            }
+        ]
+    },
+    "beast": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any animal other than a human; usually only applied to land vertebrates, especially large or dangerous four-footed ones.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(more specific) A domestic animal, especially a bovine farm animal.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person who behaves in a violent, antisocial or uncivilized manner.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Anything regarded as larger or more powerful than one of its normal size or strength.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Someone who is particularly impressive, especially athletically or physically.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "(prisons) A sex offender.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Something unpleasant and difficult.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A thing or matter, especially a difficult or unruly one.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "To impose arduous exercises, either as training or as punishment.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "(chiefly Midwestern and northeastern US) great; excellent; powerful.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "beloved": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To please.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To be pleased with; like.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To love.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Someone who is loved; something that is loved.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Much loved, dearly loved.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "bench": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A long seat with or without a back, found for example in parks and schools.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The people who decide on the verdict; the judiciary.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The place where the judges sit.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The dignity of holding an official seat.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The place where players (substitutes) and coaches sit when not playing.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The number of players on a team able to participate, expressed in terms of length.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A place where assembly or hand work is performed; a workbench.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A horizontal padded surface, usually adjustable in height and inclination and often with attached weight rack, used for proper posture during exercise.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A bracket used to mount land surveying equipment onto a stone or a wall.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A flat ledge in the slope of an earthwork, work of masonry, or similar.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A thin strip of relatively flat land bounded by steeper slopes above and below.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A kitchen surface on which to prepare food, a counter.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A bathroom surface which holds the washbasin, a vanity.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A collection or group of dogs exhibited to the public, traditionally on benches or raised platforms.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "To remove a player from play.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "sideline"
+                    }
+                ]
+            },
+            {
+                "number": 16,
+                "definition": "To remove someone from a position of responsibility temporarily.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To push a person backward against a conspirator behind them who is on their hands and knees, causing them to fall over.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To furnish with benches.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To place on a bench or seat of honour.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "The weight one is able to bench press, especially the maximum weight capable of being pressed.",
+                "type": "noun"
+            },
+            {
+                "number": 21,
+                "definition": "To lift by bench pressing.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To recite the Birkat Hamazon.",
+                "type": "verb"
+            }
+        ]
+    },
+    "benchmark": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A standard by which something is evaluated or measured.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A surveyor's mark made on some stationary object and shown on a map; used as a reference point.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A computer program that is executed to assess the performance of the runtime environment.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To measure the performance or quality of (an item) relative to another similar item in an impartial scientific manner.",
+                "type": "verb"
+            }
+        ]
+    },
+    "beneath": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Below or underneath.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Below.",
+                "type": "preposition"
+            },
+            {
+                "number": 3,
+                "definition": "In a position that is lower in rank, dignity, etc.",
+                "type": "preposition"
+            },
+            {
+                "number": 4,
+                "definition": "Covered up or concealed by something.",
+                "type": "preposition"
+            }
+        ]
+    },
+    "beneficial": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that is beneficial.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Helpful or good to something or someone.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Relating to a benefice.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "beneficiary": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who benefits or receives an advantage.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "One who benefits from the distribution, especially of an estate.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One who benefits from the payout of an insurance policy.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Holding some office or valuable possession, in subordination to another; holding under a feudal or other superior; having a dependent and secondary possession.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Bestowed as a gratuity.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "beside": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Otherwise; else.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Next to; at the side of.",
+                "type": "preposition"
+            },
+            {
+                "number": 3,
+                "definition": "Not relevant to.",
+                "type": "preposition"
+            },
+            {
+                "number": 4,
+                "definition": "Besides; in addition to.",
+                "type": "preposition"
+            }
+        ]
+    },
+    "besides": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Also; in addition.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Used to emphasize an additional point, especially an important or stronger reason; Moreover; furthermore.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "Otherwise; else.",
+                "type": "adverb"
+            },
+            {
+                "number": 4,
+                "definition": "On one side.",
+                "type": "adverb"
+            },
+            {
+                "number": 5,
+                "definition": "In addition, in addition to.",
+                "type": "preposition"
+            },
+            {
+                "number": 6,
+                "definition": "Other than; except for; instead of.",
+                "type": "preposition"
+            },
+            {
+                "number": 7,
+                "definition": "Beside.",
+                "type": "preposition"
+            }
+        ]
+    },
+    "betray": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To deliver into the hands of an enemy by treachery or fraud, in violation of trust; to give up treacherously or faithlessly.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To prove faithless or treacherous to, as to a trust or one who trusts; to be false to; to deceive.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To violate the confidence of, by disclosing a secret, or that which one is bound in honor not to make known.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To disclose or indicate, for example something which prudence would conceal; to reveal unintentionally.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To mislead; to expose to inconvenience not foreseen; to lead into error or sin.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To lead astray; to seduce (as under promise of marriage) and then abandon.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bias": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Inclination towards something; predisposition, partiality, prejudice, preference, predilection.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The diagonal line between warp and weft in a woven fabric.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A wedge-shaped piece of cloth taken out of a garment (such as the waist of a dress) to diminish its circumference.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A voltage or current applied to an electronic device, such as a transistor electrode, to move its operating point to a desired part of its transfer function.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The difference between the expectation of the sample estimator and the true population value, which reduces the representativeness of the estimator by systematically distorting it.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "In the games of crown green bowls and lawn bowls: a weight added to one side of a bowl so that as it rolls, it will follow a curved rather than a straight path; the oblique line followed by such a bowl; the lopsided shape or structure of such a bowl. In lawn bowls, the curved course is caused only by the shape of the bowl. The use of weights is prohibited.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A person's favourite member of a K-pop band.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To place bias upon; to influence.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "Inclined to one side; swelled on one side.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Cut slanting or diagonally, as cloth.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "In a slanting manner; crosswise; obliquely; diagonally.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "bid": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To issue a command; to tell.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To invite; to summon.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To utter a greeting or salutation.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To make an offer to pay or accept a certain price.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To offer as a price.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To make an attempt.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To announce (one's goal), before starting play.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To proclaim (a bede, prayer); to pray.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To issue a command; to tell.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To invite; to summon.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To utter a greeting or salutation.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "An offer at an auction, or to carry out a piece of work.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "(ultimate frisbee) A (failed) attempt to receive or intercept a pass.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "An attempt, effort, or pursuit (of a goal).",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "To make an offer to pay or accept a certain price.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To offer as a price.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To make an attempt.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To announce (one's goal), before starting play.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To proclaim (a bede, prayer); to pray.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bind": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "That which binds or ties.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A troublesome situation; a problem; a predicament or quandary.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Any twining or climbing plant or stem, especially a hop vine; a bine.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A ligature or tie for grouping notes.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A strong grip or stranglehold on a position that is difficult for the opponent to break.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The indurated clay of coal mines.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To tie; to confine by any ligature.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To cohere or stick together in a mass.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To be restrained from motion, or from customary or natural action, as by friction.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To exert a binding or restraining influence.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To tie or fasten tightly together, with a cord, band, ligature, chain, etc.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fasten, fetter, make fast, restrain, tie"
+                    }
+                ]
+            },
+            {
+                "number": 12,
+                "definition": "To confine, restrain, or hold by physical force or influence of any kind.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To couple.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To oblige, restrain, or hold, by authority, law, duty, promise, vow, affection, or other social tie.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "obligate, restrain, restrict"
+                    }
+                ]
+            },
+            {
+                "number": 15,
+                "definition": "To put (a person) under definite legal obligations, especially, under the obligation of a bond or covenant.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To place under legal obligation to serve.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "indenture"
+                    }
+                ]
+            },
+            {
+                "number": 17,
+                "definition": "To protect or strengthen by applying a band or binding, as the edge of a carpet or garment.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To make fast (a thing) about or upon something, as by tying; to encircle with something.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To cover, as with a bandage.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bandage, dress"
+                    }
+                ]
+            },
+            {
+                "number": 20,
+                "definition": "To prevent or restrain from customary or natural action, as by producing constipation.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To put together in a cover, as of books.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To make two or more elements stick together.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To associate an identifier with a value; to associate a variable name, method name, etc. with the content of a storage location.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To complain; to whine about something.",
+                "type": "verb"
+            }
+        ]
+    },
+    "biography": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person's life story, especially one published.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The art of writing this kind of story.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To write a biography of.",
+                "type": "verb"
+            }
+        ]
+    },
+    "biological": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A biological product.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Of or relating to biology.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Related by consanguinity, especially as to parents and children.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "(an error in NNES) Organic (grown without agrochemicals).",
+                "type": "adjective"
+            }
+        ]
+    },
+    "bishop": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An overseer of congregations: either any such overseer, generally speaking, or (in Eastern Orthodoxy, Catholicism, Anglicanism, etc.) an official in the church hierarchy (actively or nominally) governing a diocese, supervising the church's priests, deacons, and property in its territory.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The holder of the Greek or Roman position of episcopus, supervisor over the public dole of grain, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Any watchman, inspector, or overlooker.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A chief of the Festival of Fools or St. Nicholas Day.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The chess piece denoted ♗ or ♝ which moves along diagonal lines and developed from the shatranj alfil (\"elephant\") and was originally known as the aufil or archer in English.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Any of various African birds of the genus Euplectes; a kind of weaverbird closely related to the widowbirds.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A ladybug or ladybird, beetles of the family Coccinellidae.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A sweet drink made from wine, usually with oranges, lemons, and sugar; mulled and spiced port.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A bustle.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A children's smock or pinafore.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "To act as a bishop, to perform the duties of a bishop, especially to confirm another's membership in the church.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To make a bishop.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To provide with bishops.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To permit food (especially milk) to burn while cooking (from bishops' role in the inquisition or as mentioned in the quotation below, of horses).",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "(by extension, of horses) To make a horse seem younger, particularly by manipulation of its teeth.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To murder by drowning.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bizarre": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Strangely unconventional in style or appearance.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "blade": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The sharp cutting edge of a knife, chisel, or other tool, a razor blade/sword.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The flat functional end of a propeller, oar, hockey stick, screwdriver, skate, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The narrow leaf of a grass or cereal.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The thin, flat part of a plant leaf, attached to a stem (petiole). The lamina.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A flat bone, especially the shoulder blade.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A cut of beef from near the shoulder blade (part of the chuck).",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The part of the tongue just behind the tip, used to make laminal consonants.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A sword or knife.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A piece of prepared, sharp-edged stone, often flint, at least twice as long as it is wide; a long flake of ground-edge stone or knapped vitreous stone.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "(ultimate frisbee) A throw characterized by a tight parabolic trajectory due to a steep lateral attitude.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The rudder, daggerboard, or centerboard of a vessel.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A bulldozer or surface-grading machine with mechanically adjustable blade that is nominally perpendicular to the forward motion of the vehicle.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A dashing young man.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A homosexual, usually male.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "Thin plate, foil.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "One of a series of small plates that make up the aperture or the shutter of a camera.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "(in the plural) The principal rafters of a roof.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "The four large shell plates on the sides, and the five large ones of the middle, of the carapace of the sea turtle, which yield the best tortoise shell.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "Airfoil in windmills and windturbines.",
+                "type": "noun"
+            },
+            {
+                "number": 20,
+                "definition": "A blade server.",
+                "type": "noun"
+            },
+            {
+                "number": 21,
+                "definition": "An exterior product of vectors. (The product may have more than two factors. Also, a scalar counts as a 0-blade, a vector as a 1-blade; an exterior product of k vectors may be called a k-blade.).",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "The part of a key that is inserted into the lock.",
+                "type": "noun"
+            },
+            {
+                "number": 23,
+                "definition": "To skate on rollerblades.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To furnish with a blade.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To put forth or have a blade.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "To stab with a blade.",
+                "type": "verb"
+            },
+            {
+                "number": 27,
+                "definition": "To cut (a person) so as to provoke bleeding.",
+                "type": "verb"
+            },
+            {
+                "number": 28,
+                "definition": "A kind of piton used in thin cracks.",
+                "type": "noun"
+            }
+        ]
+    },
+    "blanket": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A heavy, loosely woven fabric, usually large and woollen, used for warmth while sleeping or resting.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A layer of anything.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A thick rubber mat used in the offset printing process to transfer ink from the plate to the paper being printed.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A streak or layer of blubber in whales.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To cover with, or as if with, a blanket.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To traverse or complete thoroughly.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To toss in a blanket by way of punishment.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To take the wind out of the sails of (another vessel) by sailing to windward of it.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To nullify the impact of someone or something.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "General; covering or encompassing everything.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "blast": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A violent gust of wind.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A forcible stream of gas or liquid from an orifice, for example from a bellows, the mouth, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A hit from a pipe.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The continuous blowing to which one charge of ore or metal is subjected in a furnace.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The exhaust steam from an engine, driving a column of air out of a boiler chimney, and thus creating an intense draught through the fire; also, any draught produced by the blast.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "An explosion, especially for the purpose of destroying a mass of rock, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "An explosive charge for blasting.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A loud, sudden sound.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A sudden, pernicious effect, as if by a noxious wind, especially on animals and plants; a blight.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A good time; an enjoyable moment.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A promotional message sent to an entire mailing list.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A flatulent disease of sheep.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "To make an impression on, by making a loud blast or din.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To make a loud noise.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To shatter, as if by an explosion.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To open up a hole in, usually by means of a sudden and imprecise method (such as an explosion).",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To curse; to damn.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "(sci-fi) To shoot, especially with an energy weapon (as opposed to one which fires projectiles).",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To shoot; kick the ball in hope of scoring a goal.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To criticize or reprimand severely; to verbally discipline or punish.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To blight or wither.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To be blighted or withered.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To blow, for example on a trumpet.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "(chiefly British) To show displeasure; damn.",
+                "type": "interjection"
+            },
+            {
+                "number": 25,
+                "definition": "An immature or undifferentiated cell (e.g., lymphoblast, myeloblast).",
+                "type": "noun"
+            },
+            {
+                "number": 26,
+                "definition": "To run a nucleotide sequence (for nucleic acids) or an amino acid sequence (for proteins) through a BLAST (Basic Local Alignment Search Tool).",
+                "type": "verb"
+            }
+        ]
+    },
+    "bleed": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An incident of bleeding, as in haemophilia.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A narrow edge around a page layout, to be printed but cut off afterwards (added to allow for slight misalignment, especially with pictures that should run to the edge of the finished sheet).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(sound recording) The situation where sound is picked up by a microphone from a source other than that which is intended.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The removal of air bubbles from a pipe containing other fluids.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(of a person or animal) To lose blood through an injured blood vessel.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To let or draw blood from.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To take large amounts of money from.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To steadily lose (something vital).",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "(of an ink or dye) To spread from the intended location and stain the surrounding cloth or paper.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To remove air bubbles from a pipe containing other fluids.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To bleed on; to make bloody.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To show one's group loyalty by showing (its associated color) in one's blood.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To lose sap, gum, or juice.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To issue forth, or drop, like blood from an incision.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "(of a phonological rule) To destroy the environment where another phonological rule would have applied.",
+                "type": "verb"
+            }
+        ]
+    },
+    "blend": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A mixture of two or more things.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A word formed by combining two other words; a grammatical contamination, portmanteau word.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To mingle; to mix; to unite intimately; to pass or shade insensibly into each other.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To be mingled or mixed.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To pollute by mixture or association; to spoil or corrupt; to blot; to stain.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bless": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To make something holy by religious rite, sanctify.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To make the sign of the cross upon, so as to sanctify.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To invoke divine favor upon.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To honor as holy, glorify; to extol for excellence.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To esteem or account happy; to felicitate.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To wave; to brandish.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "(past tense only blessed) To turn (a reference) into an object.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "(with from) To secure, defend, or prevent from.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "Used as an expression of endearment, gratitude, or (ironically) belittlement.",
+                "type": "interjection"
+            }
+        ]
+    },
+    "blessing": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To make something holy by religious rite, sanctify.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To make the sign of the cross upon, so as to sanctify.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To invoke divine favor upon.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To honor as holy, glorify; to extol for excellence.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To esteem or account happy; to felicitate.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To wave; to brandish.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "(past tense only blessed) To turn (a reference) into an object.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "(with from) To secure, defend, or prevent from.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "Some kind of divine or supernatural aid, or reward.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A pronouncement invoking divine aid.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "Good fortune.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A modern pagan ceremony.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "The act of declaring or bestowing favor; approval.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "Something someone is glad of.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A prayer before a meal; grace.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A group of unicorns.",
+                "type": "noun"
+            }
+        ]
+    },
+    "blow": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A strong wind.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A chance to catch one’s breath.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Cocaine.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Cannabis.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(US Chicago Regional) Heroin.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To produce an air current.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To propel by an air current.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To be propelled by an air current.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To create or shape by blowing; as in to blow bubbles, to blow glass.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To force a current of air upon with the mouth, or by other means.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To clear of contents by forcing air through.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To cause to make sound by blowing, as a musical instrument.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To make a sound as the result of being blown.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "(of a cetacean) To exhale visibly through the spout the seawater which it has taken in while feeding.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To explode.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "(with \"up\" or with prep phrase headed by \"to\") To cause to explode, shatter, or be utterly destroyed.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To cause sudden destruction of.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To suddenly fail destructively.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "(used to express displeasure or frustration) Damn.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To be very undesirable. (See also suck.).",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To recklessly squander.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To fellate; to perform oral sex on (usually a man).",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To leave, especially suddenly or in a hurry.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To make flyblown, to defile, especially with fly eggs.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To spread by report; to publish; to disclose.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "To inflate, as with pride; to puff up.",
+                "type": "verb"
+            },
+            {
+                "number": 27,
+                "definition": "To breathe hard or quick; to pant; to puff.",
+                "type": "verb"
+            },
+            {
+                "number": 28,
+                "definition": "To put out of breath; to cause to blow from fatigue.",
+                "type": "verb"
+            },
+            {
+                "number": 29,
+                "definition": "To talk loudly; to boast; to storm.",
+                "type": "verb"
+            },
+            {
+                "number": 30,
+                "definition": "To sing.",
+                "type": "verb"
+            },
+            {
+                "number": 31,
+                "definition": "To leave the Church of Scientology in an unauthorized manner.",
+                "type": "verb"
+            },
+            {
+                "number": 32,
+                "definition": "Blue.",
+                "type": "adjective"
+            },
+            {
+                "number": 33,
+                "definition": "The act of striking or hitting.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bace, hit, punch, strike"
+                    }
+                ]
+            },
+            {
+                "number": 34,
+                "definition": "A sudden or forcible act or effort; an assault.",
+                "type": "noun"
+            },
+            {
+                "number": 35,
+                "definition": "A damaging occurrence.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "calamity, disaster"
+                    }
+                ]
+            },
+            {
+                "number": 36,
+                "definition": "A mass or display of flowers; a yield.",
+                "type": "noun"
+            },
+            {
+                "number": 37,
+                "definition": "A display of anything brilliant or bright.",
+                "type": "noun"
+            },
+            {
+                "number": 38,
+                "definition": "A bloom, state of flowering.",
+                "type": "noun"
+            },
+            {
+                "number": 39,
+                "definition": "To blossom; to cause to bloom or blossom.",
+                "type": "verb"
+            }
+        ]
+    },
+    "boast": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A brag; ostentatious positive appraisal of oneself.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something that one brags about.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A shot where the ball is driven off a side wall and then strikes the front wall.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To brag; to talk loudly in praise of oneself.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To speak of with pride, vanity, or exultation, with a view to self-commendation; to extol.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To speak in exulting language of another; to glory; to exult.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To play a boast shot.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To possess something special.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To dress, as a stone, with a broad chisel.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "(sculpting) To shape roughly as a preparation for the finer work to follow; to cut to the general form required.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bold": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A dwelling; habitation; building.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Courageous, daring.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Visually striking; conspicuous.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "(of typefaces) Having thicker strokes than the ordinary form of the typeface.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Presumptuous, forward or impudent.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Naughty; insolent; badly-behaved.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Full-bodied.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Pornographic; depicting nudity.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Steep or abrupt.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "To make (a font or some text) bold.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To make bold or daring.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To become bold.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bombing": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To attack using one or more bombs; to bombard.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To fail dismally.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To jump into water in a squatting position, with the arms wrapped around the legs.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To sound; to boom; to make a humming or buzzing sound.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To cover an area in many graffiti tags.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To add an excessive amount of chlorine to a pool when it has not been maintained properly.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To make oneself drunk.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "(especially with along, down, up etc.) To move at high speed.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "The action of dropping bombs from the air.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The action of placing and detonating bombs.",
+                "type": "noun"
+            }
+        ]
+    },
+    "bonus": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something extra that is good; an added benefit.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An extra sum given as a premium, e.g. to an employee or to a shareholder.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An addition to the player's score based on performance, e.g. for time remaining.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "One or more free throws awarded to a team when the opposing team has accumulated enough fouls.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To pay a bonus, premium.",
+                "type": "verb"
+            }
+        ]
+    },
+    "booking": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To reserve (something) for future use.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "reserve"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "To write down, to register or record in a book or as in a book.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "make a note of, note down, record, write down"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "(law enforcement) To record the name and other details of a suspected offender and the offence for later judicial action.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To issue with a caution, usually a yellow card, or a red card if a yellow card has already been issued.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To travel very fast.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bomb, hurtle, rocket, shoot, speed, whiz"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "To record bets as bookmaker.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "(law student slang) To receive the highest grade in a class.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To leave.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "The act or process of writing something down in a book or books, e.g. in accounting.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A reservation for a service, such as accommodation in an hotel.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The engagement of a performer for a particular performance.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "The issuing of a caution which is usually written down in a book, and results in a yellow card or (after two bookings) a red card, that is to say, the player is sent from the field of play.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "The process of photographing, fingerprinting and recording the identifying data of a suspect following arrest.",
+                "type": "noun"
+            }
+        ]
+    },
+    "boom": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A low-pitched, resonant sound, such as of an explosion.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A rapid expansion or increase.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One of the calls of certain monkeys or birds.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To make a loud, hollow, resonant sound.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(of speech) To exclaim with force, to shout, to thunder.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To make something boom.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To publicly praise.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To rush with violence and noise, as a ship under a press of sail, before a free wind.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "Used to suggest the sound of an explosion.",
+                "type": "interjection"
+            },
+            {
+                "number": 10,
+                "definition": "Used to suggest something happening suddenly and unexpectedly.",
+                "type": "interjection"
+            },
+            {
+                "number": 11,
+                "definition": "A spar extending the foot of a sail; a spar rigged outboard from a ship's side to which boats are secured in harbour.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A movable pole used to support a microphone or camera.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A horizontal member of a crane or derrick, used for lifting.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "The longest element of a Yagi antenna, on which the other, smaller ones are transversally mounted.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A floating barrier used to obstruct navigation, for military or other purposes; or used for the containment of an oil spill or to control the flow of logs from logging operations.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A wishbone-shaped piece of windsurfing equipment.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "The section of the arm on a backhoe closest to the tractor.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "A gymnastics apparatus similar to a balance beam.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "To extend, or push, with a boom or pole.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "(usually with \"up\" or \"down\") To raise or lower with a crane boom.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "A period of prosperity, growth, progress, or high market activity.",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "To flourish, grow, or progress.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To cause to advance rapidly in price.",
+                "type": "verb"
+            }
+        ]
+    },
+    "boost": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A push from behind, as to one who is endeavoring to climb.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something that helps, or adds power or effectiveness; assistance.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(automotive engineering) A positive intake manifold pressure in cars with turbochargers or superchargers.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To lift or push from behind (one who is endeavoring to climb); to push up.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(by extension) To help or encourage (something) to increase or improve; to assist in overcoming obstacles.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To steal.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To jump-start a vehicle by using cables to connect the battery in a running vehicle to the battery in a vehicle that won't start.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To give a booster shot to.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To amplify; to signal boost.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bounce": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A change of direction of motion after hitting the ground or an obstacle.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A movement up and then down (or vice versa), once or repeatedly.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An email return with any error.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The sack, licensing.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A bang, boom.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A drink based on brandyW.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A heavy, sudden, and often noisy, blow or thump.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Bluster; brag; untruthful boasting; audacious exaggeration; an impudent lie; a bouncer.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Scyliorhinus canicula, a European dogfish.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A genre of New Orleans music.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "Drugs.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Swagger.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A 'good' beat.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A talent for leaping.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "To change the direction of motion after hitting an obstacle.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To move quickly up and then down, or vice versa, once or repeatedly.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To cause to move quickly up and down, or back and forth, once or repeatedly.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To suggest or introduce (an idea, etc.) to (off or by) somebody, in order to gain feedback.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To leap or spring suddenly or unceremoniously; to bound.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To move rapidly (between).",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "(of a cheque/check) To be refused by a bank because it is drawn on insufficient funds.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To fail to cover (have sufficient funds for) (a draft presented against one's account).",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To leave.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To eject violently, as from a room; to discharge unceremoniously, as from employment.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "(sometimes employing the preposition with) To have sexual intercourse.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "(air combat) To attack unexpectedly.",
+                "type": "verb"
+            },
+            {
+                "number": 27,
+                "definition": "To turn power off and back on; to reset.",
+                "type": "verb"
+            },
+            {
+                "number": 28,
+                "definition": "(of an e-mail message or address) To return undelivered.",
+                "type": "verb"
+            },
+            {
+                "number": 29,
+                "definition": "To land hard and lift off again due to excess momentum.",
+                "type": "verb"
+            },
+            {
+                "number": 30,
+                "definition": "(skydiving) To land hard at unsurvivable velocity with fatal results.",
+                "type": "verb"
+            },
+            {
+                "number": 31,
+                "definition": "(sound recording) To mix (two or more tracks of a multi-track audio tape recording) and record the result onto a single track, in order to free up tracks for further material to be added.",
+                "type": "verb"
+            },
+            {
+                "number": 32,
+                "definition": "To bully; to scold.",
+                "type": "verb"
+            },
+            {
+                "number": 33,
+                "definition": "To strike or thump, so as to rebound, or to make a sudden noise; to knock loudly.",
+                "type": "verb"
+            },
+            {
+                "number": 34,
+                "definition": "To boast; to bluster.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bound": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To tie; to confine by any ligature.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To cohere or stick together in a mass.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To be restrained from motion, or from customary or natural action, as by friction.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To exert a binding or restraining influence.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To tie or fasten tightly together, with a cord, band, ligature, chain, etc.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fasten, fetter, make fast, restrain, tie"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "To confine, restrain, or hold by physical force or influence of any kind.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To couple.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To oblige, restrain, or hold, by authority, law, duty, promise, vow, affection, or other social tie.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "obligate, restrain, restrict"
+                    }
+                ]
+            },
+            {
+                "number": 9,
+                "definition": "To put (a person) under definite legal obligations, especially, under the obligation of a bond or covenant.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To place under legal obligation to serve.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "indenture"
+                    }
+                ]
+            },
+            {
+                "number": 11,
+                "definition": "To protect or strengthen by applying a band or binding, as the edge of a carpet or garment.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To make fast (a thing) about or upon something, as by tying; to encircle with something.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To cover, as with a bandage.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bandage, dress"
+                    }
+                ]
+            },
+            {
+                "number": 14,
+                "definition": "To prevent or restrain from customary or natural action, as by producing constipation.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To put together in a cover, as of books.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To make two or more elements stick together.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To associate an identifier with a value; to associate a variable name, method name, etc. with the content of a storage location.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To complain; to whine about something.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "(with infinitive) Obliged (to).",
+                "type": "adjective"
+            },
+            {
+                "number": 20,
+                "definition": "(of a morpheme) That cannot stand alone as a free word.",
+                "type": "adjective"
+            },
+            {
+                "number": 21,
+                "definition": "(of a variable) Constrained by a quantifier.",
+                "type": "adjective"
+            },
+            {
+                "number": 22,
+                "definition": "Constipated; costive.",
+                "type": "adjective"
+            },
+            {
+                "number": 23,
+                "definition": "Confined or restricted to a certain place; e.g. railbound.",
+                "type": "adjective"
+            },
+            {
+                "number": 24,
+                "definition": "Unable to move in certain conditions; e.g. snowbound.",
+                "type": "adjective"
+            },
+            {
+                "number": 25,
+                "definition": "Ready, prepared.",
+                "type": "adjective"
+            },
+            {
+                "number": 26,
+                "definition": "Ready to start or go (to); moving in the direction (of).",
+                "type": "adjective"
+            },
+            {
+                "number": 27,
+                "definition": "(with infinitive) Very likely (to), certain to.",
+                "type": "adjective"
+            },
+            {
+                "number": 28,
+                "definition": "(often used in plural) A boundary, the border which one must cross in order to enter or leave a territory.",
+                "type": "noun"
+            },
+            {
+                "number": 29,
+                "definition": "A value which is known to be greater or smaller than a given set of values.",
+                "type": "noun"
+            },
+            {
+                "number": 30,
+                "definition": "To surround a territory or other geographical entity.",
+                "type": "verb"
+            },
+            {
+                "number": 31,
+                "definition": "To be the boundary of.",
+                "type": "verb"
+            },
+            {
+                "number": 32,
+                "definition": "A sizeable jump, great leap.",
+                "type": "noun"
+            },
+            {
+                "number": 33,
+                "definition": "A spring from one foot to the other in dancing.",
+                "type": "noun"
+            },
+            {
+                "number": 34,
+                "definition": "A bounce; a rebound.",
+                "type": "noun"
+            },
+            {
+                "number": 35,
+                "definition": "To leap, move by jumping.",
+                "type": "verb"
+            },
+            {
+                "number": 36,
+                "definition": "To cause to leap.",
+                "type": "verb"
+            },
+            {
+                "number": 37,
+                "definition": "To rebound; to bounce.",
+                "type": "verb"
+            },
+            {
+                "number": 38,
+                "definition": "To cause to rebound; to throw so that it will rebound; to bounce.",
+                "type": "verb"
+            }
+        ]
+    },
+    "boundary": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The dividing line or location between two areas.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(often in the plural) The bounds, confines, or limits between immaterial things (such as one’s comfort zone, privacy, or professional sphere and the realm beyond).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An edge or line marking an edge of the playing field.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An event whereby the ball is struck and either touches or passes over a boundary (with or without bouncing), usually resulting in an award of 4 (four) or 6 (six) runs respectively for the batting team.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(of a set) The set of points in the closure of a set S, not belonging to the interior of that set.",
+                "type": "noun"
+            }
+        ]
+    },
+    "bow": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A weapon made of a curved piece of wood or other flexible material whose ends are connected by a string, used for shooting arrows.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A curved bend in a rod or planar surface, or in a linear formation such as a river (see oxbow).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A rod with horsehair (or an artificial substitute) stretched between the ends, used for playing various stringed musical instruments.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A stringed instrument (chordophone), consisting of a stick with a single taut cord stretched between the ends, most often played by plucking.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A type of knot with two loops, used to tie together two cords such as shoelaces or apron strings, and frequently used as decoration, such as in gift-wrapping.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Anything bent or curved, such as a rainbow.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The U-shaped piece which goes around the neck of an ox and fastens it to the yoke.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Either of the arms of a pair of spectacles, running from the side of the lens to behind the wearer's ear.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Any instrument consisting of an elastic rod, with ends connected by a string, employed for giving reciprocating motion to a drill, or for preparing and arranging hair, fur, etc., used by hatters.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A crude sort of quadrant formerly used for taking the sun's altitude at sea.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "(saddlery) Two pieces of wood which form the arched forward part of a saddletree.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "The part of a key that is not inserted into the lock and that is used to turn the key.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "To play music on (a stringed) instrument using a bow.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To become bent or curved.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To make something bend or curve.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To exercise powerful or controlling influence over; to bend, figuratively; to turn; to incline.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To premiere.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "A gesture, usually showing respect, made by inclining the head or bending forward at the waist; a reverence.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "To bend oneself as a gesture of respect or deference.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To debut.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To defer (to something).",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To give a direction, indication, or command to by bowing.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "The front of a boat or ship.",
+                "type": "noun"
+            },
+            {
+                "number": 24,
+                "definition": "The rower that sits in the seat closest to the bow of the boat.",
+                "type": "noun"
+            },
+            {
+                "number": 25,
+                "definition": "A firm branch of a tree.",
+                "type": "noun"
+            },
+            {
+                "number": 26,
+                "definition": "The gallows.",
+                "type": "noun"
+            }
+        ]
+    },
+    "breach": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A gap or opening made by breaking or battering, as in a wall, fortification or levee / embankment; the space between the parts of a solid body rent by violence.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "break, fissure, rupture"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A breaking up of amicable relations, a falling-out.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A breaking of waters, as over a vessel or a coastal defence; the waters themselves.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "surf, surge"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "A breaking out upon; an assault.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A bruise; a wound.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A hernia; a rupture.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A breaking or infraction of a law, or of any obligation or tie; violation; non-fulfillment.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A difference in opinions, social class etc.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The act of breaking, in a figurative sense.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "To make a breach in.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To violate or break.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "(of the sea) To break into a ship or into a coastal defence.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(of a whale) To leap out of the water.",
+                "type": "verb"
+            }
+        ]
+    },
+    "breakdown": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A failure, particularly mechanical; something that has failed.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A physical collapse or lapse of mental stability.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Listing, division or categorization in great detail.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A detailed description of a forthcoming project, including the characters and roles required.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Breaking of chemical bonds within a compound to produce simpler compounds or elements.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A musical technique by which the music is stripped down, becoming simpler, varying in heaviness depending on the genre.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A loss of organization (of the parts of a system).",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A noisy, rapid, shuffling dance engaged in competitively by a number of persons or pairs in succession, common in Southern United States African American music.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Any crude, noisy dance performed by shuffling the feet, usually by one person at a time.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Any rapid bluegrass dance tune, especially featuring a five-string banjo.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The percussion break of songs chosen by a DJ for use in hip-hop music.",
+                "type": "noun"
+            }
+        ]
+    },
+    "breakthrough": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An advance through and past enemy lines.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any major progress; such as a great innovation or discovery that overcomes a significant obstacle.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The penetration of the opposition defence.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The penetration of a separating wall or the remaining distance to an adjacent hollow (a crosscut in mining) or between two parts of a tunnel build from both ends; knockthrough.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Characterized by major progress or overcoming some obstacle.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "breed": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "All animals or plants of the same species or subspecies.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A race or lineage; offspring or issue.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A group of people with shared characteristics.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To produce offspring sexually; to bear young.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To give birth to; to be the native place of.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "Of animals, to mate.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To keep animals and have them reproduce in a way that improves the next generation’s qualities.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To arrange the mating of specific animals.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To propagate or grow plants trying to give them certain qualities.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To take care of in infancy and through childhood; to bring up.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To yield or result in.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To be formed in the parent or dam; to be generated, or to grow, like young before birth.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(sometimes as breed up) To educate; to instruct; to bring up.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To produce or obtain by any natural process.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To have birth; to be produced, developed or multiplied.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To ejaculate inside someone's ass.",
+                "type": "verb"
+            }
+        ]
+    },
+    "brick": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A hardened rectangular block of mud, clay etc., used for building.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Such hardened mud, clay, etc. considered collectively, as a building material.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something shaped like a brick.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A helpful and reliable person.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A shot which misses, particularly one which bounces directly out of the basket because of a too-flat trajectory, as if the ball were a heavier object.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A power brick; an external power supply consisting of a small box with an integral male power plug and an attached electric cord terminating in another power plug.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "An electronic device, especially a heavy box-shaped one, that has become non-functional or obsolete.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A carton of 500 rimfire cartridges, which forms the approximate size and shape of a brick.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A community card (usually the turn or the river) which does not improve a player's hand.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The colour brick red.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "One kilo of cocaine.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To build with bricks.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To make into bricks.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To hit someone or something with a brick.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To make an electronic device nonfunctional and usually beyond repair, essentially making it no more useful than a brick.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "(of weather) Extremely cold.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "briefly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(manner) In a brief manner, summarily.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "(duration) For a brief period.",
+                "type": "adverb"
+            },
+            {
+                "number": 3,
+                "definition": "To be brief, in short.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "broadband": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A wide band of electromagnetic frequencies.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An internet connection provisioned over an existing service using alternate signal frequencies such as ADSL or cable modem.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Of, pertaining to, or carrying a wide band of electromagnetic frequencies.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "broadcaster": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An organisation that engages in the activity of broadcasting.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person whose job it is to broadcast.",
+                "type": "noun"
+            }
+        ]
+    },
+    "broadly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Widely and openly.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "In a wide manner; liberally; in a loose sense.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "browser": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person or animal who browses.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person who examines goods for sale but purchases nothing.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "nonbrowser"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "A web browser.",
+                "type": "noun"
+            }
+        ]
+    },
+    "brutal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Savagely violent, vicious, ruthless, or cruel.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Crude or unfeeling in manner or speech.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Harsh; unrelenting.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Disagreeably precise or penetrating.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "In extreme metal, to describe the speed of the music and the density of riffs.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "buck": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A male deer, antelope, sheep, goat, rabbit, hare, and sometimes the male of other animals such as the hamster, ferret and shad.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An uncastrated sheep, a ram.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A young buck; an adventurous, impetuous, dashing, or high-spirited young man.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A fop or dandy.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A black or Native American man.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A dollar (one hundred cents).",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A rand (currency unit).",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "(by extension) Money.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "One hundred.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "An object of various types, placed on a table to indicate turn or status; such as a brass object, placed in rotation on a US Navy wardroom dining table to indicate which officer is to be served first, or an item passed around a poker table indicating the dealer or placed in the pot to remind the winner of some privilege or obligation when his or her turn to deal next comes.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "(in certain metaphors or phrases) Blame; responsibility; scapegoating; finger-pointing.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "The body of a post mill, particularly in East Anglia. See Wikipedia:Windmill machinery.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "One million dollars.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A euro.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A frame on which firewood is sawed; a sawhorse; a sawbuck.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A leather-covered frame used for gymnastic vaulting.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "A wood or metal frame used by automotive customizers and restorers to assist in the shaping of sheet metal bodywork. See Street Rodder \"Making a Wood Buck\".",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "To copulate, as bucks and does.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "A type of African American traditional clogging.",
+                "type": "noun"
+            },
+            {
+                "number": 20,
+                "definition": "The generally sterile male or female hybrid offspring of a male donkey and a female horse.",
+                "type": "noun"
+            },
+            {
+                "number": 21,
+                "definition": "The generally sterile hybrid offspring of any two species of animals.",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "A hybrid plant.",
+                "type": "noun"
+            },
+            {
+                "number": 23,
+                "definition": "A stubborn person.",
+                "type": "noun"
+            },
+            {
+                "number": 24,
+                "definition": "A person paid to smuggle drugs.",
+                "type": "noun"
+            },
+            {
+                "number": 25,
+                "definition": "A coin or medal minted with obverse and reverse designs not normally seen on the same piece, either intentionally or in error.",
+                "type": "noun"
+            },
+            {
+                "number": 26,
+                "definition": "A MMORPG character, or NPC companion in a tabletop RPG, used mainly to store extra inventory for the owner's primary character.",
+                "type": "noun"
+            },
+            {
+                "number": 27,
+                "definition": "Any of a group of cocktails involving ginger ale or ginger beer, citrus juice, and various liquors.",
+                "type": "noun"
+            },
+            {
+                "number": 28,
+                "definition": "A kind of triangular sail for a yacht.",
+                "type": "noun"
+            },
+            {
+                "number": 29,
+                "definition": "A kind of cotton-spinning machine.",
+                "type": "noun"
+            },
+            {
+                "number": 30,
+                "definition": "A shoe that has no fitting or strap around the heel, but which covers the foot.",
+                "type": "noun"
+            },
+            {
+                "number": 31,
+                "definition": "To bend; buckle.",
+                "type": "verb"
+            },
+            {
+                "number": 32,
+                "definition": "(of a horse or similar saddle or pack animal) To leap upward arching its back, coming down with head low and forelegs stiff, forcefully kicking its hind legs upward, often in an attempt to dislodge or throw a rider or pack.",
+                "type": "verb"
+            },
+            {
+                "number": 33,
+                "definition": "(of a horse or similar saddle or pack animal) To throw (a rider or pack) by bucking.",
+                "type": "verb"
+            },
+            {
+                "number": 34,
+                "definition": "To subject to a mode of punishment which consists of tying the wrists together, passing the arms over the bent knees, and putting a stick across the arms and in the angle formed by the knees.",
+                "type": "verb"
+            },
+            {
+                "number": 35,
+                "definition": "(by extension) To resist obstinately; oppose or object strongly.",
+                "type": "verb"
+            },
+            {
+                "number": 36,
+                "definition": "(by extension) To move or operate in a sharp, jerking, or uneven manner.",
+                "type": "verb"
+            },
+            {
+                "number": 37,
+                "definition": "(by extension) To overcome or shed (e.g., an impediment or expectation), in pursuit of a goal; to force a way through despite (an obstacle); to resist or proceed against.",
+                "type": "verb"
+            },
+            {
+                "number": 38,
+                "definition": "(riveting) To press a reinforcing device (bucking bar) against (the force of a rivet) in order to absorb vibration and increase expansion. See Wikipedia: Rivet:Installation.",
+                "type": "verb"
+            },
+            {
+                "number": 39,
+                "definition": "To saw a felled tree into shorter lengths, as for firewood.",
+                "type": "verb"
+            },
+            {
+                "number": 40,
+                "definition": "To output a voltage that is lower than the input voltage. See Wikipedia: Buck converter.",
+                "type": "verb"
+            },
+            {
+                "number": 41,
+                "definition": "The beech tree.",
+                "type": "noun"
+            },
+            {
+                "number": 42,
+                "definition": "Lye or suds in which cloth is soaked in the operation of bleaching, or in which clothes are washed.",
+                "type": "noun"
+            },
+            {
+                "number": 43,
+                "definition": "The cloth or clothes soaked or washed.",
+                "type": "noun"
+            },
+            {
+                "number": 44,
+                "definition": "To soak, steep or boil in lye or suds, as part of the bleaching process.",
+                "type": "verb"
+            },
+            {
+                "number": 45,
+                "definition": "To wash (clothes) in lye or suds, or, in later usage, by beating them on stones in running water.",
+                "type": "verb"
+            },
+            {
+                "number": 46,
+                "definition": "To break up or pulverize, as ores.",
+                "type": "verb"
+            }
+        ]
+    },
+    "buddy": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A friend or casual acquaintance.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bud, mate"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A partner for a particular activity.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "companion, partner"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "An informal and friendly address to a stranger; a friendly (or occasionally antagonistic) placeholder name for a person one does not know.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fellow, mate"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "To assign a buddy, or partner, to.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "Resembling a bud.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "buffer": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Of the color of buff leather, a brownish yellow.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Unusually muscular. (also buffed or buffed out).",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Physically attractive.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Someone or something that buffs.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A solution used to stabilize the pH (acidity) of a liquid.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A portion of memory set aside to store data, often before it is sent to an external device or as it is received from an external device.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "(mechanical) Anything used to maintain slack or isolate different objects.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A routine or storage medium used to compensate for a difference in rate of flow of data, or time of occurrence of events, when transferring data from one device to another.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A device on trains and carriages designed to cushion the impact between them.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The metal barrier to help prevent trains from running off the end of the track.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "An isolating circuit, often an amplifier, used to minimize the influence of a driven circuit on the driving circuit.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "(international relations) A buffer zone (such as a demilitarized zone) or a buffer state.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A good-humoured, slow-witted fellow, usually an elderly man.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A gap that isolates or separates two things.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "To use a buffer or buffers; to isolate or minimize the effects of one thing on another.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To store data in memory temporarily.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To maintain the acidity of a solution near a chosen value by adding an acid or a base.",
+                "type": "verb"
+            }
+        ]
+    },
+    "bug": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An insect of the order Hemiptera (the “true bugs”).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any of various species of marine or freshwater crustaceans; e.g. a Morton Bay bug, mudbug.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Any insect, arachnid, or other terrestrial arthropod that is a pest.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Any insect, arachnid, myriapod or entognath.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(chiefly computing and engineering jargon) A problem that needs fixing.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "defect, glitch"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "A contagious illness; a bacterium or virus causing it.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "An enthusiasm for something; an obsession.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A keen enthusiast or hobbyist.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A concealed electronic eavesdropping or intercept device.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A small and usually invisible file (traditionally a single-pixel image) on a World Wide Web page, primarily used to track users.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A small, usually transparent or translucent image placed in a corner of a television program to indicate what network or cable channel is televising it.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A manually positioned marker in flight instruments.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A semi-automated telegraph key.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "Hobgoblin, scarecrow; anything that terrifies.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bog, bogey, boggard, boggle, bogle, bugbear"
+                    }
+                ]
+            },
+            {
+                "number": 15,
+                "definition": "(\"the bug\") HIV.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A limited form of wild card in some variants of poker.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "A trilobite.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "A young apprentice jockey.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "To annoy.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To install an electronic listening device or devices in.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "A microfossil, particularly a foraminiferan.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bug"
+                    }
+                ]
+            }
+        ]
+    },
+    "bulk": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Size, specifically, volume.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any huge body or structure.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The major part of something.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Dietary fibre.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Unpackaged goods when transported in large volumes, e.g. coal, ore or grain.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A cargo or any items moved or communicated in the manner of cargo.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Excess body mass, especially muscle.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A period where one tries to gain muscle.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "(brane cosmology) A hypothetical higher-dimensional space within which our own four-dimensional universe may exist.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The body.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "To appear or seem to be, as to bulk or extent.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To grow in size; to swell or expand.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To gain body mass by means of diet, exercise, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To put or hold in bulk.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To add bulk to, to bulk out.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "Being large in size, mass or volume (of goods, etc.).",
+                "type": "adjective"
+            },
+            {
+                "number": 17,
+                "definition": "Total.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "burden": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A heavy load.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A responsibility, onus.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A cause of worry; that which is grievous, wearisome, or oppressive.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The capacity of a vessel, or the weight of cargo that she will carry.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The tops or heads of stream-work which lie over the stream of tin.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The proportion of ore and flux to fuel, in the charge of a blast furnace.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A fixed quantity of certain commodities.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A birth.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The total amount of toxins, parasites, cancer cells, plaque or similar present in an organism.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "To encumber with a literal or figurative burden.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To impose, as a load or burden; to lay or place as a burden (something heavy or objectionable).",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "A phrase or theme that recurs at the end of each verse in a folk song or ballad.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "The drone of a bagpipe.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "Theme, core idea.",
+                "type": "noun"
+            }
+        ]
+    },
+    "bureaucracy": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Government by bureaus or their administrators or officers.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(organizational theory) A system of administration based upon organisation into bureaus, division of labour, a hierarchy of authority, etc., designed to dispose of a large body of work in a routine manner.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The body of officers and administrators, especially of a government.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Excessive red tape and routine in any administration, body or behaviour.",
+                "type": "noun"
+            }
+        ]
+    },
+    "burial": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of burying; interment.",
+                "type": "noun"
+            }
+        ]
+    },
+    "burst": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An act or instance of bursting.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A sudden, often intense, expression, manifestation or display.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "spurt"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "A series of shots fired from an automatic firearm.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A drinking spree.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To break from internal pressure.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To cause to break from internal pressure.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To cause to break by any means.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To separate (printer paper) at perforation lines.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To enter or exit hurriedly and unexpectedly.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To erupt; to change state suddenly as if bursting.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To produce as an effect of bursting.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To interrupt suddenly in a violent or explosive manner; to shatter.",
+                "type": "verb"
+            }
+        ]
+    }
+}
