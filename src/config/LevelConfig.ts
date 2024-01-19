@@ -11,13 +11,13 @@ const LevelsConfig: LevelConfig[] = [
         level: 'intermediate',
         totalChunks: 2,
         chunkSize: 100000,
-        minimumPopulatedCount: { en: 72180, es: 108764 },
+        minimumPopulatedCount: { en: 72180, es: 108698 },
     },
     {
         level: 'advanced',
         totalChunks: 7,
         chunkSize: 100000,
-        minimumPopulatedCount: { en: 312831, es: 646408 },
+        minimumPopulatedCount: { en: 312831, es: 646407 },
     },
 ];
 

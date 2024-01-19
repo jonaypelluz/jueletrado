@@ -1,72 +1,83 @@
 #!/bin/bash
 
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 FILENAME"
-    exit 1
-fi
+WORDS_DIR="words"
+for LOCALE in en es; do
+    for FILE in "$WORDS_DIR"/"$LOCALE"/*; do
+        if [ ! -f "$FILE" ]; then
+            echo "Skipping non-file: $FILE"
+            continue
+        fi
 
-FILE=$1
-LOCALE=$(echo "$FILE" | grep -oE 'words/([a-z]+)/' | cut -d'/' -f2)
+        echo "Processing $FILE for locale $LOCALE..."
 
-if [ ! -f "$FILE" ]; then
-    echo "File not found: $FILE"
-    exit 1
-fi
+        TMP_FILE=$(mktemp)
 
-TMP_FILE=$(mktemp)
+        if [ "$LOCALE" = "en" ]; then
+            LC_COLLATE="en_GB.UTF-8"
+        else
+            LC_COLLATE="es_ES.UTF-8"
+        fi
 
-if [ "$LOCALE" = "en" ]; then
-    LC_COLLATE="en_GB.UTF-8"
-else
-    LC_COLLATE="es_ES.UTF-8"
-fi
+        LC_COLLATE=$LC_COLLATE sort -u "$FILE" > "$TMP_FILE"
+        mv "$TMP_FILE" "$FILE"
 
-LC_COLLATE=$LC_COLLATE sort -u "$FILE" > "$TMP_FILE"
+        FILENAME=$(basename "$FILE")
+        LEVEL=${FILENAME%%_*}
+        CHUNK_SIZE=100000
+        OFFSET=1
+        FIRST_ELEMENT=true
 
-mv "$TMP_FILE" "$FILE"
+        declare -a GENERATED_FILES
 
-FILE=$1
-FILENAME=$(basename "$FILE")
-LEVEL=${FILENAME%%_*}
-CHUNK_SIZE=100000
-OFFSET=1
-FIRST_ELEMENT=true
+        while IFS= read -r line; do
+            if [ $((OFFSET % CHUNK_SIZE)) -eq 1 ]; then
+                if [ "$OFFSET" -ne 1 ]; then
+                    printf "]" >> "$CURRENT_OUTPUT_FILE"
+                    echo "File has been saved as $CURRENT_OUTPUT_FILE"
+                    GENERATED_FILES+=("$CURRENT_OUTPUT_FILE")
+                fi
 
-declare -a GENERATED_FILES
+                START_OFFSET=$OFFSET
+                END_OFFSET=$(($START_OFFSET + CHUNK_SIZE - 1))
+                CURRENT_OUTPUT_FILE="${LEVEL}_words_from_${START_OFFSET}_to_${END_OFFSET}.json"
+                printf "[" > "$CURRENT_OUTPUT_FILE"
+                FIRST_ELEMENT=true
+            fi
 
-while IFS= read -r line; do
-    if [ $((OFFSET % CHUNK_SIZE)) -eq 1 ]; then
-        if [ "$OFFSET" -ne 1 ]; then
+            if [ "$FIRST_ELEMENT" = true ]; then
+                FIRST_ELEMENT=false
+            else
+                printf "," >> "$CURRENT_OUTPUT_FILE"
+            fi
+            printf "\"%s\"" "$line" >> "$CURRENT_OUTPUT_FILE"
+
+            OFFSET=$(($OFFSET + 1))
+        done < "$FILE"
+
+        if [ $(( (OFFSET - 1) % CHUNK_SIZE)) -ne 0 ]; then
             printf "]" >> "$CURRENT_OUTPUT_FILE"
             echo "File has been saved as $CURRENT_OUTPUT_FILE"
             GENERATED_FILES+=("$CURRENT_OUTPUT_FILE")
         fi
 
-        START_OFFSET=$OFFSET
-        END_OFFSET=$(($START_OFFSET + CHUNK_SIZE - 1))
-        CURRENT_OUTPUT_FILE="${LEVEL}_words_from_${START_OFFSET}_to_${END_OFFSET}.json"
-        printf "[" > "$CURRENT_OUTPUT_FILE"
-        FIRST_ELEMENT=true
-    fi
+        for gen_file in "${GENERATED_FILES[@]}"; do
+            mv "$gen_file" "../../public/words/$LOCALE/"
+        done
 
-    if [ "$FIRST_ELEMENT" = true ]; then
-        FIRST_ELEMENT=false
-    else
-        printf "," >> "$CURRENT_OUTPUT_FILE"
-    fi
-    printf "\"%s\"" "$line" >> "$CURRENT_OUTPUT_FILE"
+        echo "All files have been moved to ../public/words/$LOCALE"
 
-    OFFSET=$(($OFFSET + 1))
-done < "$FILE"
+        # Update LevelsConfig.js
+        WORD_COUNT=$(($(wc -w < "$FILE") - 1))
+        LEVELS_CONFIG="../../src/config/LevelConfig.ts"
 
-if [ $(( (OFFSET - 1) % CHUNK_SIZE)) -ne 0 ]; then
-    printf "]" >> "$CURRENT_OUTPUT_FILE"
-    echo "File has been saved as $CURRENT_OUTPUT_FILE"
-    GENERATED_FILES+=("$CURRENT_OUTPUT_FILE")
-fi
+        awk -v level="$LEVEL" -v lang="$LOCALE" -v newcount="$WORD_COUNT" '
+        BEGIN { RS="},\n"; ORS="},\n"; FS=OFS="\n" }
+        $0 ~ "level: \x27" level "\x27" {
+            sub(lang ": [0-9]+", lang ": " newcount)
+        }
+        { print }
+        ' "$LEVELS_CONFIG" > temp_file && mv temp_file "$LEVELS_CONFIG"
 
-for file in "${GENERATED_FILES[@]}"; do
-    mv "$file" "../../public/words/$LOCALE/"
+        echo "Word count for $LEVEL in $LOCALE updated to $WORD_COUNT in LevelsConfig.js"
+    done
 done
-
-echo "All files have been moved to ../public/words/$LOCALE"
