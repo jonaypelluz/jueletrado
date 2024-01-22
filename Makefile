@@ -9,7 +9,7 @@ build: copy-env hosts
 	docker-compose ${DOCKER_COMPOSE} up -d --build
 
 copy-env:
-	sh ops/scripts/copy_env.sh
+	sh ops/scripts/copyEnv.sh
 
 hosts:
 	sh ops/scripts/hosts.sh
