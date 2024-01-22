@@ -22,4 +22,3 @@ const LevelsConfig: LevelConfig[] = [
 ];
 
 export default LevelsConfig;
-},
