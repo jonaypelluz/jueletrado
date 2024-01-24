@@ -5,7 +5,7 @@ const LevelsConfig: LevelConfig[] = [
         level: 'beginner',
         totalChunks: 1,
         chunkSize: 100000,
-        minimumPopulatedCount: { en: 10160, es: 10963 },
+        minimumPopulatedCount: { en: 10160, es: 11275 },
     },
     {
         level: 'intermediate',

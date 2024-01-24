@@ -8,7 +8,7 @@ import (
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: wordChecker <locale>")
+		fmt.Println("Usage: wordChecker <locale> [file]")
 		return
 	}
 
@@ -17,7 +17,6 @@ func main() {
 	advancedWordsFilePath := fmt.Sprintf("../words/%s/advanced_words.txt", locale)
 	beginnerWordsFilePath := fmt.Sprintf("../words/%s/beginner_words.txt", locale)
 
-	scanner := bufio.NewScanner(os.Stdin)
 	advancedWords := loadWordsFromFile(advancedWordsFilePath)
 	beginnerWords := loadWordsFromFile(beginnerWordsFilePath)
 
@@ -28,18 +27,48 @@ func main() {
 	}
 	defer beginnerFile.Close()
 
+	if len(os.Args) == 3 {
+		processFile(os.Args[2], advancedWords, beginnerWords, beginnerFile)
+	} else {
+		processStdin(advancedWords, beginnerWords, beginnerFile)
+	}
+}
+
+func processFile(filePath string, advancedWords, beginnerWords map[string]struct{}, beginnerFile *os.File) {
+	file, err := os.Open(filePath)
+	if err != nil {
+		fmt.Println("Error opening input file:", err)
+		return
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		processWord(scanner.Text(), advancedWords, beginnerWords, beginnerFile)
+	}
+
+	if err := scanner.Err(); err != nil {
+		fmt.Println("Error reading from file:", err)
+	}
+}
+
+func processStdin(advancedWords, beginnerWords map[string]struct{}, beginnerFile *os.File) {
 	fmt.Println("Enter words (type 'exit' to finish):")
+	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 		word := scanner.Text()
 		if word == "exit" {
 			break
 		}
+		processWord(word, advancedWords, beginnerWords, beginnerFile)
+	}
+}
 
-		if _, found := advancedWords[word]; found {
-			if _, found := beginnerWords[word]; !found {
-				beginnerFile.WriteString(word + "\n")
-				beginnerWords[word] = struct{}{}
-			}
+func processWord(word string, advancedWords, beginnerWords map[string]struct{}, beginnerFile *os.File) {
+	if _, found := advancedWords[word]; found {
+		if _, found := beginnerWords[word]; !found {
+			beginnerFile.WriteString(word + "\n")
+			beginnerWords[word] = struct{}{}
 		}
 	}
 }
