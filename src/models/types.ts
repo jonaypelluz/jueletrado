@@ -38,15 +38,18 @@ export type GameRules = {
 
 export type LevelConfig = {
     level: string;
-    totalChunks: number;
-    chunkSize: number;
+    totalChunks: { [key: string]: number };
     minimumPopulatedCount: { [key: string]: number };
 };
 
 export type LocaleType = {
     en: string;
     es: string;
-}
+};
+
+export type LoadingMessagesType = {
+    [key: string]: string[];
+};
 
 export type LocaleConfig = {
     lang: string;

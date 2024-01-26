@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
+import { FormattedMessage } from 'react-intl';
+import { LoadingMessages } from '@config/translations/General';
 import Logger from '@services/Logger';
 import { deleteWordsDB } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
@@ -9,24 +11,12 @@ type LoadingScreenProps = {
     rotateMessages?: boolean;
 };
 
-const errorMessages = [
-    'Oops, las letras se han rebelado. ¡Algo ha ido mal!',
-    'Parece que nuestras palabras están jugando al escondite. ¡Error detectado!',
-    '¡Vaya! Alguien derramó café en el código. Estamos arreglándolo.',
-    'Las tildes se han escapado, y con ellas, la estabilidad del sistema. Error en proceso.',
-    'Estamos experimentando una tormenta de ideas... y de errores. Por favor, espera.',
-    'Error en el sistema. Las letras están bailando salsa en vez de trabajar.',
-    'Algo se ha torcido... posiblemente sean las eses. Trabajando para solucionarlo.',
-    'Nuestros puntos y comas hicieron una pausa demasiado larga. Error encontrado.',
-    'El alfabeto ha decidido tomarse un descanso. Error inesperado.',
-    'Las palabras están haciendo huelga. Nos disculpamos por este error técnico.',
-];
-
 const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false }) => {
-    const { loadingProgress, error, setLoading, setError } = useWordsContext();
+    const { locale, loadingProgress, error, setLoading, setError } = useWordsContext();
+    const messages = LoadingMessages[locale];
 
     const getRandomErrorMessage = () => {
-        return errorMessages[Math.floor(Math.random() * errorMessages.length)];
+        return LoadingMessages[locale][Math.floor(Math.random() * LoadingMessages[locale].length)];
     };
 
     const handleDeleteDatabaseClick = async () => {
@@ -60,21 +50,20 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false })
                         href="/"
                         style={{ marginTop: '20px', border: '1px solid #000' }}
                     >
-                        Ir al inicio a buscar las letras
+                        <FormattedMessage id="errorMessageTitle" />
                     </Button>
                     <p style={{ textAlign: 'center', margin: '20px auto 0' }}>
-                        Si no se encuentran las letras y el error sigue ocurriendo probemos a borrar
-                        todo el contenido descargado.
+                        <FormattedMessage id="errorMessageDescription" />
                     </p>
                     <span
                         style={{ marginTop: '20px', cursor: 'pointer', fontSize: '12px' }}
                         onClick={handleDeleteDatabaseClick}
                     >
-                        Borrar contenido descargado
+                        <FormattedMessage id="errorMessageAction" />
                     </span>
                 </>
             ) : (
-                <LoadingSpinner rotateMessages={rotateMessages} loadingProgress={loadingProgress} />
+                <LoadingSpinner rotateMessages={rotateMessages} loadingProgress={loadingProgress} messages={messages} />
             )}
         </div>
     );

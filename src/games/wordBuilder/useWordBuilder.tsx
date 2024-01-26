@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
+import { consonants, vowels } from '@config/translations/Letters';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import { getAllWords } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
-import { consonants, vowels } from '@config/translations/Letters';
 
 const NUMBER_OF_VOWELS = 2;
 const NUMBER_OF_CONSONANTS = 4;

@@ -71,11 +71,26 @@ for LOCALE in en es; do
         LEVELS_CONFIG="../../src/config/LevelConfig.ts"
 
         awk -v level="$LEVEL" -v lang="$LOCALE" -v newcount="$WORD_COUNT" '
-        BEGIN { RS="},\n"; ORS="},\n"; FS=OFS="\n" }
-        $0 ~ "level: \x27" level "\x27" {
-            sub(lang ": [0-9]+", lang ": " newcount)
+        BEGIN { inMinPopulated = 0; levelFound = 0 }
+        {
+            if ($0 ~ "level: \x27" level "\x27,") {
+                levelFound = 1
+            }
+            if (levelFound && $0 ~ "minimumPopulatedCount: {") {
+                inMinPopulated = 1
+            }
+            if (inMinPopulated && $0 ~ lang ": [0-9]+") {
+                sub(lang ": [0-9]+", lang ": " newcount)
+            }
+            if (inMinPopulated && $0 ~ "},") {
+                inMinPopulated = 0; levelFound = 0
+            }
+            if ($0 ~ /^export default LevelsConfig;/) {
+                print $0
+                next
+            }
+            print
         }
-        { print }
         ' "$LEVELS_CONFIG" > temp_file && mv temp_file "$LEVELS_CONFIG"
 
         echo "Word count for $LEVEL in $LOCALE updated to $WORD_COUNT in LevelsConfig.js"

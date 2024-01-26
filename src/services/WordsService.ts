@@ -54,8 +54,8 @@ const populateWordsDB = async (
         StorageService.clearStorage();
         StorageService.setItem(StorageService.LOCALE, locale);
 
-        const totalChunks = levelConfig.totalChunks;
-        const chunkSize = levelConfig.chunkSize;
+        const totalChunks = levelConfig.totalChunks[locale];
+        const chunkSize = 100000;
         for (let i = 0; i < totalChunks; i++) {
             const loadedChunks =
                 StorageService.getItem<number[]>(StorageService.LOADED_CHUNKS) || [];

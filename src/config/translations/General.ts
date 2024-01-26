@@ -1,9 +1,44 @@
 import { Translations } from '@models/interfaces';
+import { LoadingMessagesType } from '@models/types';
+
+const LoadingMessages: LoadingMessagesType = {
+    es: [
+        'Oops, las letras se han rebelado. ¡Algo ha ido mal!',
+        'Parece que nuestras palabras están jugando al escondite. ¡Error detectado!',
+        '¡Vaya! Alguien derramó café en el código. Estamos arreglándolo.',
+        'Las tildes se han escapado, y con ellas, la estabilidad del sistema. Error en proceso.',
+        'Estamos experimentando una tormenta de ideas... y de errores. Por favor, espera.',
+        'Error en el sistema. Las letras están bailando salsa en vez de trabajar.',
+        'Algo se ha torcido... posiblemente sean las eses. Trabajando para solucionarlo.',
+        'Nuestros puntos y comas hicieron una pausa demasiado larga. Error encontrado.',
+        'El alfabeto ha decidido tomarse un descanso. Error inesperado.',
+        'Las palabras están haciendo huelga. Nos disculpamos por este error técnico.',
+    ],
+    en: [
+        'Oops, the letters have rebelled. Something has gone wrong!',
+        'It seems our words are playing hide and seek. Error detected!',
+        // prettier-ignore
+        'Oops! Someone spilled coffee on the code. We\'re fixing it.',
+        // prettier-ignore
+        'The accent marks have escaped, and with them, the system\'s stability. Error in process.',
+        'We are experiencing a brainstorm... and errors. Please wait.',
+        'System error. The letters are dancing salsa instead of working.',
+        // prettier-ignore
+        'Something has gone wrong... possibly the S\'s. Working to solve it.',
+        'Our semicolons took a pause that was too long. Error found.',
+        'The alphabet has decided to take a break. Unexpected error.',
+        'The words are on strike. We apologize for this technical error.',
+    ],
+};
 
 const GeneralTranslations: Translations = {
     en: {
         errorTitle: 'Ops!',
         errorDescription: 'Words not found!',
+        errorMessageTitle: 'Go to the beginning to look for the letters',
+        // prettier-ignore
+        errorMessageDescription: 'If the letters are not found and the error continues to occur, let\'s try to delete all the downloaded content.',
+        errorMessageAction: 'Delete downloaded content',
         gamesAllGames: 'All games',
         gameCheckWord: 'Check word',
         // prettier-ignore
@@ -38,6 +73,10 @@ const GeneralTranslations: Translations = {
     es: {
         errorTitle: '¡Ops!',
         errorDescription: 'Lo sentimos, ¡no encontramos las palabras que buscas!',
+        errorMessageTitle: 'Ir al inicio a buscar las letras',
+        errorMessageDescription:
+            'Si no se encuentran las letras y el error sigue ocurriendo probemos a borrar todo el contenido descargado.',
+        errorMessageAction: 'Borrar contenido descargado',
         gamesAllGames: 'Todos los juegos',
         gameCheckWord: 'Comprobar palabra',
         gameMissed: 'No viste',
@@ -70,4 +109,4 @@ const GeneralTranslations: Translations = {
     },
 };
 
-export default GeneralTranslations;
+export { GeneralTranslations, LoadingMessages };

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { IntlProvider } from 'react-intl';
-import GeneralTranslations from '@config/translations/General';
+import { GeneralTranslations } from '@config/translations/General';
 import { Translation } from '@models/types';
 import { useWordsContext } from '@store/WordsContext';
 import Routes from 'src/components/Routes';
