@@ -14,6 +14,13 @@ export interface ContentPreConfig {
     [key: string]: ContentItemPreConfig[];
 }
 
+export interface ICell {
+    char: string;
+    color: string;
+    filled: boolean;
+    isCorrect: boolean;
+}
+
 export interface GamePreConfig
     extends Omit<BaseInfo, 'title' | 'link' | 'description' | 'subtitle'> {
     title: LocaleType;

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from 'antd';
 import { FormattedMessage } from 'react-intl';
+import { Button } from 'antd';
 import { LoadingMessages } from '@config/translations/General';
 import Logger from '@services/Logger';
 import { deleteWordsDB } from '@services/WordsService';
@@ -63,7 +63,11 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false })
                     </span>
                 </>
             ) : (
-                <LoadingSpinner rotateMessages={rotateMessages} loadingProgress={loadingProgress} messages={messages} />
+                <LoadingSpinner
+                    rotateMessages={rotateMessages}
+                    loadingProgress={loadingProgress}
+                    messages={messages}
+                />
             )}
         </div>
     );

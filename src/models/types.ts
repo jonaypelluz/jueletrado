@@ -29,6 +29,20 @@ export type Definition = {
 
 export type DefinitionWords = { [key: string]: Definition[] };
 
+export type Position = {
+    row: number;
+    col: number;
+};
+
+export type SelectedWord = {
+    [key: string]: {
+        definition: Definition[];
+        position: Position;
+        direction: string;
+        color: string;
+    }
+};
+
 export type GameRules = {
     additionalRules: string[];
     howToPlay: string[];

@@ -9,6 +9,7 @@ import Accentuation from 'src/pages/content/es/Accentuation';
 import Orthography from 'src/pages/content/es/Orthography';
 import Spelling from 'src/pages/content/es/Spelling';
 import SpellingRules from 'src/pages/content/es/SpellingRules';
+import CrossWordPuzzle from 'src/pages/games/CrossWordPuzzle';
 import DefinitionMaster from 'src/pages/games/DefinitionMaster';
 import SpellTower from 'src/pages/games/SpellTower';
 import WordBuilder from 'src/pages/games/WordBuilder';
@@ -27,6 +28,7 @@ const componentMap: { [key: string]: JSX.Element } = {
     wordBuilder: <WordBuilder />,
     wordFinder: <WordFinder />,
     definitionMaster: <DefinitionMaster />,
+    crossWordPuzzle: <CrossWordPuzzle />,
 };
 
 const Router: React.FC = () => {
