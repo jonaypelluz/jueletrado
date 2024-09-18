@@ -1,0 +1,31 @@
+#cookieConsent {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 250px;
+
+        .accept,
+        .decline {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .decline {
+            background-color: #999;
+        }
+    }
+}

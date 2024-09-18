@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { AccentedVowels } from '@config/AccentRules';
+import { ICell } from '@models/interfaces';
 import { Definition, DefinitionWords, Position, SelectedWord } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
-import { ICell } from '@models/interfaces';
 
 type crosswordWord = {
     word: string;
@@ -70,7 +70,7 @@ const originalColors: string[] = [
     '#FFD700', // Gold
 ];
 
-let commonColors = [...originalColors]; 
+let commonColors = [...originalColors];
 
 const matrixInitialState = (): ICell[][] => {
     const matrix: ICell[][] = Array(GRID_SIZE)
@@ -93,7 +93,7 @@ const useCrossWordPuzzle = () => {
     const [crossword, setCrossword] = useState<ICell[][]>(matrixInitialState);
     const [firstWord, setFirstWord] = useState<string>('');
     const [crosswordWords, setCrosswordWords] = useState<crosswordWord[]>([]);
-    const liRefs = useRef<(HTMLLIElement | null)[]>([]); 
+    const liRefs = useRef<(HTMLLIElement | null)[]>([]);
 
     useEffect(() => {
         if (wordsList.length > 0) {
@@ -199,7 +199,7 @@ const useCrossWordPuzzle = () => {
                 definition: allDefinitions[word],
                 position: position,
                 direction: wordDirection,
-                color: color
+                color: color,
             },
         }));
 
@@ -283,13 +283,13 @@ const useCrossWordPuzzle = () => {
         const randomIndex = Math.floor(Math.random() * commonColors.length);
         const [color] = commonColors.splice(randomIndex, 1);
         return color;
-    }
+    };
 
     const addWordToCrosswordMatrix = (
         word: string,
         position: Position,
         direction: string,
-        color: string
+        color: string,
     ): void => {
         const matrix = crossword;
 
@@ -321,7 +321,7 @@ const useCrossWordPuzzle = () => {
     ): boolean => {
         const positionsToCheck = findWordPositions(startRow, startCol, wordLength, direction);
         for (const pos of positionsToCheck) {
-            if(checkCollisionPoints(pos.row, pos.col)) {
+            if (checkCollisionPoints(pos.row, pos.col)) {
                 return true;
             }
         }
@@ -329,9 +329,14 @@ const useCrossWordPuzzle = () => {
         return false;
     };
 
-    const findWordPositions = (startRow: number, startCol: number, wordLength: number, direction: string) => {
+    const findWordPositions = (
+        startRow: number,
+        startCol: number,
+        wordLength: number,
+        direction: string,
+    ) => {
         const positions = [];
-    
+
         if (direction === 'horizontal') {
             if (startCol + wordLength <= crossword[0].length) {
                 for (let i = 0; i < wordLength; i++) {
@@ -345,27 +350,27 @@ const useCrossWordPuzzle = () => {
                 }
             }
         }
-    
-        return positions.slice(3);
-    }
 
-    const checkCollisionPoints = (row: number, col: number): boolean =>{
+        return positions.slice(3);
+    };
+
+    const checkCollisionPoints = (row: number, col: number): boolean => {
         const positions = [
             { r: row - 1, c: col - 1 }, // Top-left
             { r: row - 1, c: col + 1 }, // Top-right
             { r: row + 1, c: col - 1 }, // Bottom-left
-            { r: row + 1, c: col + 1 }  // Bottom-right
+            { r: row + 1, c: col + 1 }, // Bottom-right
         ];
-    
+
         const isInBounds = (r: number, c: number) => {
             return r >= 0 && r < crossword.length && c >= 0 && c < crossword[0].length;
-        }
-    
-        return positions.some(pos => {
+        };
+
+        return positions.some((pos) => {
             const { r, c } = pos;
             return isInBounds(r, c) && crossword[r][c].filled;
         });
-    }
+    };
 
     const tryPlaceWord = (possibleWords: PossibleWord[], anchorWord: crosswordWord) => {
         const matrix = crossword;
@@ -441,7 +446,7 @@ const useCrossWordPuzzle = () => {
                             definition: allDefinitions[word],
                             position: newWordPosition,
                             direction: newDirection,
-                            color: color
+                            color: color,
                         },
                     }));
                     setCrosswordWords((prevWords: crosswordWord[]) => [
@@ -464,35 +469,42 @@ const useCrossWordPuzzle = () => {
         }
     };
 
-    const checkCellValue = (i: number, j: number) => (event: React.ChangeEvent<HTMLInputElement>) => {
-        const value = event.target.value;
-        if (value.length === 0) {
-            event.target.style.backgroundColor = '#ff4d4f';
-            crossword[i][j].isCorrect = false;
-        } else {
-            if(value.toLowerCase() === crossword[i][j].char.toLowerCase()) {
-                event.target.style.backgroundColor = '#fff';
-                event.target.style.borderColor = '#000';
-                crossword[i][j].isCorrect = true;
-            } else {
+    const checkCellValue =
+        (i: number, j: number) => (event: React.ChangeEvent<HTMLInputElement>) => {
+            const value = event.target.value;
+            if (value.length === 0) {
                 event.target.style.backgroundColor = '#ff4d4f';
                 crossword[i][j].isCorrect = false;
+            } else {
+                if (value.toLowerCase() === crossword[i][j].char.toLowerCase()) {
+                    event.target.style.backgroundColor = '#fff';
+                    event.target.style.borderColor = '#000';
+                    crossword[i][j].isCorrect = true;
+                } else {
+                    event.target.style.backgroundColor = '#ff4d4f';
+                    crossword[i][j].isCorrect = false;
+                }
             }
-        }
-        checkCompletedWords();
-        isCrosswordFilledCorrectly();
-    };
+            checkCompletedWords();
+            isCrosswordFilledCorrectly();
+        };
 
     const checkCompletedWords = (): void => {
         Object.entries(selectedWords).forEach(([wordKey, wordData], index) => {
             let isCompleted = true;
             for (let i = 0; i < wordKey.length; i++) {
                 if (wordData.direction === 'horizontal') {
-                    if (false === crossword[wordData.position.row][wordData.position.col + i].isCorrect) {
+                    if (
+                        false ===
+                        crossword[wordData.position.row][wordData.position.col + i].isCorrect
+                    ) {
                         isCompleted = false;
                     }
                 } else {
-                    if (false === crossword[wordData.position.row + i][wordData.position.col].isCorrect) {
+                    if (
+                        false ===
+                        crossword[wordData.position.row + i][wordData.position.col].isCorrect
+                    ) {
                         isCompleted = false;
                     }
                 }
@@ -505,28 +517,28 @@ const useCrossWordPuzzle = () => {
                     liElement.classList.remove('completed');
                 }
             }
-        });        
-    }
+        });
+    };
 
     const isCrosswordFilledCorrectly = () => {
         let allCorrect = true;
-    
-        crossword.forEach(row => {
-            row.forEach(cell => {
+
+        crossword.forEach((row) => {
+            row.forEach((cell) => {
                 if (cell.filled && false === cell.isCorrect) {
                     allCorrect = false;
                     return;
                 }
             });
         });
-    
+
         if (allCorrect) {
             const inputs = document.querySelectorAll('div.crossword-grid-item input');
-            inputs.forEach(input => {
+            inputs.forEach((input) => {
                 (input as HTMLInputElement).disabled = true;
             });
         }
-    }
+    };
 
     return {
         gridSize: GRID_SIZE,

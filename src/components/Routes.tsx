@@ -3,8 +3,10 @@ import { useIntl } from 'react-intl';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import { useWordsContext } from '@store/WordsContext';
 import AllGames from 'src/pages/AllGames';
+import Cookies from 'src/pages/Cookies';
 import Home from 'src/pages/Home';
 import NotFound from 'src/pages/NotFound';
+import Privacy from 'src/pages/Privacy';
 import Accentuation from 'src/pages/content/es/Accentuation';
 import Orthography from 'src/pages/content/es/Orthography';
 import Spelling from 'src/pages/content/es/Spelling';
@@ -23,6 +25,8 @@ const componentMap: { [key: string]: JSX.Element } = {
     accentuation: <Accentuation />,
     spelling: <Spelling />,
     games: <AllGames />,
+    privacy: <Privacy />,
+    cookies: <Cookies />,
     spellTower: <SpellTower />,
     wordsRain: <WordsRain />,
     wordBuilder: <WordBuilder />,

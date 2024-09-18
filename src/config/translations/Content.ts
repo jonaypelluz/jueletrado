@@ -4,6 +4,8 @@ const ContentRoutes: Translations = {
     en: {
         home: '/en/',
         games: '/en/games',
+        privacy: '/en/privacy',
+        cookies: '/en/cookies',
     },
     es: {
         home: '/',
@@ -12,6 +14,8 @@ const ContentRoutes: Translations = {
         spelling: '/reglas-de-ortografia/deletreo',
         accentuation: '/reglas-de-ortografia/acentuacion',
         orthography: '/reglas-de-ortografia/ortografia',
+        privacy: '/politica-de-privacidad',
+        cookies: '/politica-de-cookies',
     },
 };
 

@@ -39,6 +39,13 @@ const GeneralTranslations: Translations = {
         // prettier-ignore
         errorMessageDescription: 'If the letters are not found and the error continues to occur, let\'s try to delete all the downloaded content.',
         errorMessageAction: 'Delete downloaded content',
+        privacyTitle: 'Privacy Policy',
+        cookiesTitle: 'Cookies Policy',
+        cookiesConsent:
+            'This website uses cookies to analyze traffic. By continuing to browse, you accept their use.',
+        cookiesAccept: 'Accept',
+        cookiesDecline: 'Decline',
+        cookiesMoreInfo: 'Learn more',
         gamesAllGames: 'All games',
         gameCheckWord: 'Check word',
         // prettier-ignore
@@ -77,6 +84,13 @@ const GeneralTranslations: Translations = {
         errorMessageDescription:
             'Si no se encuentran las letras y el error sigue ocurriendo probemos a borrar todo el contenido descargado.',
         errorMessageAction: 'Borrar contenido descargado',
+        privacyTitle: 'Política de Privacidad',
+        cookiesTitle: 'Política de Cookies',
+        cookiesConsent:
+            'Este sitio web utiliza cookies para analizar el tráfico. Al continuar navegando, aceptas su uso.',
+        cookiesAccept: 'Aceptar',
+        cookiesDecline: 'Rechazar',
+        cookiesMoreInfo: 'Más información',
         gamesAllGames: 'Todos los juegos',
         gameCheckWord: 'Comprobar palabra',
         gameMissed: 'No viste',

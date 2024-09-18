@@ -1,10 +1,10 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Button } from 'antd';
-import { GameConfig, SelectedWord } from '@models/types';
-import Hero from 'src/components/Hero';
 import { ICell } from '@models/interfaces';
+import { GameConfig, SelectedWord } from '@models/types';
 import GameRules from 'src/components/GameRules';
+import Hero from 'src/components/Hero';
 
 type CrossWordPuzzleUIProps = {
     gameConfig: GameConfig;
@@ -16,7 +16,7 @@ type CrossWordPuzzleUIProps = {
     isGameStarted: boolean;
     checkCellValue: (i: number, j: number) => (event: React.ChangeEvent<HTMLInputElement>) => void;
     handleGameStartClick: () => void;
-}
+};
 
 const hexToRgb = (hex: string): string => {
     hex = hex.replace(/^#/, '');
@@ -26,7 +26,7 @@ const hexToRgb = (hex: string): string => {
     const b = parseInt(hex.substring(4, 6), 16);
 
     return `${r}, ${g}, ${b}`;
-}
+};
 
 const UI: React.FC<CrossWordPuzzleUIProps> = ({
     gameConfig,
@@ -37,7 +37,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
     selectedWords,
     isGameStarted,
     checkCellValue,
-    handleGameStartClick
+    handleGameStartClick,
 }) => {
     return (
         <>
@@ -47,36 +47,36 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                 subtitle={gameConfig.description}
             >
                 {/* {!isGameStarted && ( */}
-                    <Button
-                        type='primary'
-                        style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
-                        onClick={handleGameStartClick}
-                    >
-                        <FormattedMessage id='gamePlay' />
-                    </Button>
+                <Button
+                    type="primary"
+                    style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
+                    onClick={handleGameStartClick}
+                >
+                    <FormattedMessage id="gamePlay" />
+                </Button>
                 {/* )} */}
             </Hero>
             {isGameStarted ? (
-                <div className='crossword-container'>
-                    <div className='crossword-sidebar'>
+                <div className="crossword-container">
+                    <div className="crossword-sidebar">
                         <ul>
-                        {Object.entries(selectedWords).map(([word, data], index) => {
-                            const randomIndex = Math.floor(Math.random() * data.definition.length);
-                            const randomDefinition = data.definition[randomIndex];
-                            const color = data.color;
-                            return (
-                                <li
-                                    key={word}
-                                    ref={(el) => (liRefs.current[index] = el)}>
-                                    <span style={{ backgroundColor: color }}></span>
-                                    {randomDefinition.definition}
-                                </li>
-                            );
-                        })}
+                            {Object.entries(selectedWords).map(([word, data], index) => {
+                                const randomIndex = Math.floor(
+                                    Math.random() * data.definition.length,
+                                );
+                                const randomDefinition = data.definition[randomIndex];
+                                const color = data.color;
+                                return (
+                                    <li key={word} ref={(el) => (liRefs.current[index] = el)}>
+                                        <span style={{ backgroundColor: color }}></span>
+                                        {randomDefinition.definition}
+                                    </li>
+                                );
+                            })}
                         </ul>
                     </div>
                     <div
-                        className='crossword-grid-container'
+                        className="crossword-grid-container"
                         style={{
                             gridTemplateColumns: `repeat(${gridSize}, ${gridSizePixels}px)`,
                         }}
@@ -85,7 +85,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                             row.map((cell, j) => (
                                 <div
                                     key={`${i}-${j}`}
-                                    className='crossword-grid-item'
+                                    className="crossword-grid-item"
                                     style={{
                                         width: `${gridSizePixels}px`,
                                         height: `${gridSizePixels}px`,
@@ -93,7 +93,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                                 >
                                     {cell.filled ? (
                                         <input
-                                            type='text'
+                                            type="text"
                                             maxLength={1}
                                             onChange={(event) => checkCellValue(i, j)(event)}
                                             style={{
@@ -120,7 +120,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                         )}
                     </div>
                 </div>
-            ): (
+            ) : (
                 <GameRules {...gameConfig.gameRules} />
             )}
         </>

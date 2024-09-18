@@ -1,9 +1,9 @@
 import React from 'react';
-import MainLayout from 'src/layouts/MainLayout';
-import useCrossWordPuzzle from '@games/crossWordPuzzle/useCrossWordPuzzle';
-import { useWordsContext } from '@store/WordsContext';
-import { createGamesConfig } from '@hooks/useGamesConfig';
 import CrossWordPuzzleUI from '@games/crossWordPuzzle/UI';
+import useCrossWordPuzzle from '@games/crossWordPuzzle/useCrossWordPuzzle';
+import { createGamesConfig } from '@hooks/useGamesConfig';
+import { useWordsContext } from '@store/WordsContext';
+import MainLayout from 'src/layouts/MainLayout';
 import './CrossWordPuzzle.scss';
 
 const CrossWordPuzzle: React.FC = () => {
@@ -15,9 +15,7 @@ const CrossWordPuzzle: React.FC = () => {
     return (
         <MainLayout>
             {crossWordPuzzleConfig && (
-                <CrossWordPuzzleUI
-                    gameConfig={crossWordPuzzleConfig}
-                    {...crossWordPuzzleLogic}                />
+                <CrossWordPuzzleUI gameConfig={crossWordPuzzleConfig} {...crossWordPuzzleLogic} />
             )}
         </MainLayout>
     );

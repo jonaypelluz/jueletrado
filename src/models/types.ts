@@ -40,7 +40,7 @@ export type SelectedWord = {
         position: Position;
         direction: string;
         color: string;
-    }
+    };
 };
 
 export type GameRules = {

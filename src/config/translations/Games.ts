@@ -286,40 +286,42 @@ const GamesTranslations: GamePreConfig[] = [
         },
         gameRules: {
             en: {
-                gameGoal: 'The goal of the crossword puzzle is to fill in the grid with words based on the given clues, such that all the words intersect correctly and fit the provided definitions.',
+                gameGoal:
+                    'The goal of the crossword puzzle is to fill in the grid with words based on the given clues, such that all the words intersect correctly and fit the provided definitions.',
                 howToPlay: [
                     'Read the clues provided for both across and down entries.',
                     'Fill in the empty squares in the grid with letters to form words that match the clues.',
-                    'Ensure that the words intersect correctly at shared letters.'
+                    'Ensure that the words intersect correctly at shared letters.',
                 ],
                 additionalRules: [
                     'Each word must be spelled correctly and fit the length specified by the empty squares in the grid.',
-                    'All words should be valid and found in a standard dictionary.'
+                    'All words should be valid and found in a standard dictionary.',
                 ],
                 tips: [
                     'Start with the easiest clues to fill in some letters and get a sense of the puzzle.',
                     'Use the intersecting letters to help solve more difficult clues.',
-                    'Double-check spelling and word length to ensure accuracy.'
+                    'Double-check spelling and word length to ensure accuracy.',
                 ],
             },
             es: {
-                gameGoal: 'El objetivo del crucigrama es llenar la cuadrícula con palabras basadas en las pistas dadas, de manera que todas las palabras se crucen correctamente y se ajusten a las definiciones proporcionadas.',
+                gameGoal:
+                    'El objetivo del crucigrama es llenar la cuadrícula con palabras basadas en las pistas dadas, de manera que todas las palabras se crucen correctamente y se ajusten a las definiciones proporcionadas.',
                 howToPlay: [
                     'Lee las pistas proporcionadas para las entradas tanto horizontales como verticales.',
                     'Llena los espacios vacíos en la cuadrícula con letras para formar palabras que coincidan con las pistas.',
-                    'Asegúrate de que las palabras se crucen correctamente en las letras compartidas.'
+                    'Asegúrate de que las palabras se crucen correctamente en las letras compartidas.',
                 ],
                 additionalRules: [
                     'Cada palabra debe estar escrita correctamente y ajustarse a la longitud especificada por los espacios vacíos en la cuadrícula.',
-                    'Todas las palabras deben ser válidas y encontrarse en un diccionario estándar.'
+                    'Todas las palabras deben ser válidas y encontrarse en un diccionario estándar.',
                 ],
                 tips: [
                     'Comienza con las pistas más fáciles para llenar algunas letras y tener una idea del rompecabezas.',
                     'Utiliza las letras que se cruzan para ayudar a resolver las pistas más difíciles.',
-                    'Verifica la ortografía y la longitud de las palabras para asegurar la precisión.'
+                    'Verifica la ortografía y la longitud de las palabras para asegurar la precisión.',
                 ],
             },
-        }
+        },
     },
 ];
 
