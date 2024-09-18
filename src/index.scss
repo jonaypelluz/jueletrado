@@ -38,6 +38,10 @@ code {
             }
         }
     }
+
+    .ant-select .ant-select-selection-item {
+        overflow: unset !important;
+    }
 }
 
 .content-wrapper {
