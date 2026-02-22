@@ -15,6 +15,7 @@ module.exports = {
                     '@services': path.resolve(__dirname, 'src/services'),
                     '@tests': path.resolve(__dirname, '__tests__'),
                     '@mocks': path.resolve(__dirname, '__tests__/__mocks__'),
+                    '@context': path.resolve(__dirname, 'src/context'),
                 },
             };
             return webpackConfig;

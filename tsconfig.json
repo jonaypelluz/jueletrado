@@ -24,9 +24,21 @@
             "@store/*": ["src/store/*"],
             "@services/*": ["src/services/*"],
             "@tests/*": ["__tests__/*"],
-            "@mocks/*": ["__tests__/__mocks__/*"]
+            "@mocks/*": ["__tests__/__mocks__/*"],
+            "@context/*": ["src/context/*"]
         }
     },
-    "include": ["src/**/*", "__tests__/**/*.test.tsx"],
-    "exclude": ["dist", "node_modules"]
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "__tests__/**/*.test.tsx"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules",
+        "ops/**/*",
+        "next.config.js",
+        "craco.config.js"
+    ]
 }

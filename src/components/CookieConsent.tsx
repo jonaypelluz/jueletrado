@@ -1,50 +1,83 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useIntl } from 'react-intl';
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
+import { type ConsentStatus, LOCAL_STORAGE_KEY, useCookieConsent } from '@context/CookieContext';
 import { useWordsContext } from '@store/WordsContext';
-import Cookie from 'universal-cookie';
 import './CookieConsent.scss';
 
-const CookieConsent: React.FC<{ setShowModal: React.Dispatch<React.SetStateAction<boolean>> }> = ({
-    setShowModal,
-}) => {
+const CookieConsent: React.FC<{
+    showModal: boolean;
+    setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
+}> = ({ showModal, setShowModal }) => {
+    useEffect(() => {
+        if (consent !== null) {
+            setShowModal(false);
+        }
+    }, []);
+
     const intl = useIntl();
     const { currentRoutes } = useWordsContext();
+    const { consent, setConsent } = useCookieConsent();
 
-    const declineCookies = (): void => {
-        const cookie = new Cookie();
-        cookie.set('jueletrado-analytics', false, {
-            path: '/',
-            expires: new Date(Date.now() + 31536000000),
-        });
+    const handleSetConsent = (value: ConsentStatus): void => {
+        setConsent(value);
         setShowModal(false);
     };
 
-    const acceptCookies = (): void => {
-        const cookie = new Cookie();
-        cookie.set('jueletrado-analytics', true, {
-            path: '/',
-            expires: new Date(Date.now() + 31536000000),
-        });
+    const deleteConsent = (): void => {
+        setConsent(null);
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
         setShowModal(false);
     };
 
     return (
-        <div id="cookieConsent">
-            <p>
-                {intl.formatMessage({ id: 'cookiesConsent' })}&nbsp;
-                <Link to={currentRoutes.cookies}>
-                    {intl.formatMessage({ id: 'cookiesMoreInfo' })}
-                </Link>
-            </p>
-            <div>
-                <Button onClick={declineCookies} className="decline">
-                    {intl.formatMessage({ id: 'cookiesDecline' })}
-                </Button>
-                <Button onClick={acceptCookies} className="accept">
-                    {intl.formatMessage({ id: 'cookiesAccept' })}
-                </Button>
+        <div id="cookieConsent" style={{ display: showModal ? 'block' : 'none' }}>
+            <div className="cookie-wrapper">
+                <p>
+                    {intl.formatMessage({ id: 'cookiesConsent' })}&nbsp;
+                    <Link to={currentRoutes.cookies}>
+                        {intl.formatMessage({ id: 'cookiesMoreInfo' })}
+                    </Link>
+                </p>
+                {consent !== null && (
+                    <p className="cookie-consent">
+                        {intl.formatMessage({ id: 'cookiesConsentCurrent' })}:{' '}
+                        <b>
+                            {consent === 'accepted'
+                                ? intl.formatMessage({ id: 'cookiesConsentAccepted' })
+                                : intl.formatMessage({ id: 'cookiesConsentRejected' })}
+                        </b>
+                    </p>
+                )}
+                <div>
+                    <Button
+                        onClick={() => {
+                            handleSetConsent('rejected');
+                        }}
+                        className="decline"
+                    >
+                        {intl.formatMessage({ id: 'cookiesDecline' })}
+                    </Button>
+                    <Button
+                        onClick={() => {
+                            handleSetConsent('accepted');
+                        }}
+                        className="accept"
+                    >
+                        {intl.formatMessage({ id: 'cookiesAccept' })}
+                    </Button>
+                    {consent !== null && (
+                        <Button
+                            onClick={() => {
+                                deleteConsent();
+                            }}
+                            className="delete"
+                        >
+                            {intl.formatMessage({ id: 'cookiesDelete' })}
+                        </Button>
+                    )}
+                </div>
             </div>
         </div>
     );

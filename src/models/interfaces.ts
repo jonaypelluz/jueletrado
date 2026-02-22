@@ -21,8 +21,10 @@ export interface ICell {
     isCorrect: boolean;
 }
 
-export interface GamePreConfig
-    extends Omit<BaseInfo, 'title' | 'link' | 'description' | 'subtitle'> {
+export interface GamePreConfig extends Omit<
+    BaseInfo,
+    'title' | 'link' | 'description' | 'subtitle'
+> {
     title: LocaleType;
     description: LocaleType;
     subtitle: LocaleType;

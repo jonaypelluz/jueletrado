@@ -3,31 +3,41 @@
     "version": "1.0.0",
     "homepage": "https://jueletrado.es/",
     "private": true,
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "REACT_APP_APP_ENV=test jest",
+        "test:watch": "REACT_APP_APP_ENV=test jest --watch",
+        "test:coverage": "REACT_APP_APP_ENV=test jest --coverage",
+        "lint": "eslint '{src,__tests__}/**/*.{js,jsx,ts,tsx}'",
+        "lint:fix": "eslint --fix '{src,__tests__}/**/*.{js,jsx,ts,tsx}'",
+        "format": "prettier --write '{src,__tests__,public,ops}/**/*.{js,jsx,ts,tsx,css,md,scss,html}' --config ./.prettierrc.js",
+        "format:json": "prettier --write '{src,ops,public}/**/*.json' --config ./.prettierrc.js"
+    },
     "dependencies": {
         "@ant-design/icons": "^5.2.6",
-        "@testing-library/jest-dom": "^6.5.0",
-        "@testing-library/react": "^14.1.2",
-        "@testing-library/user-event": "^14.5.2",
-        "@types/jest": "^29.5.11",
-        "@types/node": "^20.10.5",
-        "@types/react": "^18.2.46",
-        "@types/react-dom": "^18.2.18",
         "antd": "^5.12.5",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
+        "react": "^19.2.4",
+        "react-dom": "^19.2.4",
         "react-ga4": "^2.1.0",
         "react-intl": "^6.5.5",
         "react-router-dom": "^6.21.1",
         "react-scripts": "5.0.1",
         "typescript": "^5.3.3",
-        "universal-cookie": "^7.2.0",
         "web-vitals": "^3.5.1"
     },
     "devDependencies": {
         "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
         "@craco/types": "^7.1.0",
+        "@testing-library/jest-dom": "^6.5.0",
+        "@testing-library/react": "^14.1.2",
+        "@testing-library/user-event": "^14.5.2",
         "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+        "@types/jest": "^29.5.11",
+        "@types/node": "^20.10.5",
         "@types/node-fetch": "^2.6.10",
+        "@types/react": "^18.2.46",
+        "@types/react-dom": "^18.2.18",
         "@typescript-eslint/eslint-plugin": "^6.16.0",
         "@typescript-eslint/parser": "^6.16.0",
         "core-js": "^3.35.0",
@@ -50,37 +60,16 @@
         "ts-jest": "^29.1.1",
         "ts-node": "^10.9.2"
     },
-    "scripts": {
-        "start": "craco start",
-        "build": "craco build",
-        "test": "REACT_APP_APP_ENV=test jest",
-        "test:watch": "REACT_APP_APP_ENV=test jest --watch",
-        "test:coverage": "REACT_APP_APP_ENV=test jest --coverage",
-        "lint": "eslint '{src,__tests__}/**/*.{js,jsx,ts,tsx}'",
-        "lint:fix": "eslint --fix '{src,__tests__}/**/*.{js,jsx,ts,tsx}'",
-        "format": "prettier --write '{src,__tests__,public,ops}/**/*.{js,jsx,ts,tsx,css,md,scss,html}' --config ./.prettierrc.js",
-        "format:json": "prettier --write '{src,ops,public}/**/*.json' --config ./.prettierrc.js"
-    },
     "eslintConfig": {
         "extends": [
             "react-app",
             "react-app/jest"
         ]
     },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "engines": {
-        "npm": ">=10.2.3 <11.0.0",
-        "node": ">=20.10.0 <21.0.0"
-    }
+    "browserslist": [
+        "last 2 versions",
+        "> 0.5%",
+        "not dead",
+        "not ie 11"
+    ]
 }

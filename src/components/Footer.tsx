@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useIntl } from 'react-intl';
 import { Link, useNavigate } from 'react-router-dom';
 import { Layout, Select, Typography } from 'antd';
 import LocalesConfig from '@config/LocaleConfig';
 import { LocaleConfig } from '@models/types';
 import { useWordsContext } from '@store/WordsContext';
-import Cookie from 'universal-cookie';
 import CookieConsent from './CookieConsent';
 
 const { Footer } = Layout;
@@ -17,21 +16,7 @@ const Foot: React.FC = () => {
     const { locale, setLocale, currentRoutes } = useWordsContext();
     const navigate = useNavigate();
 
-    const [showModal, setShowModal] = useState(false);
-    useEffect(() => {
-        const cookie = new Cookie();
-        const cookieValue = cookie.get('jueletrado-analytics');
-
-        if (cookieValue === undefined) {
-            setShowModal(true);
-        } else if (cookieValue === 'false') {
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            (window as any)['ga-disable-G-K3L9E7NYFT'] = true;
-        } else if (cookieValue === 'true') {
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            (window as any)['ga-disable-G-K3L9E7NYFT'] = false;
-        }
-    }, []);
+    const [showModal, setShowModal] = useState(true);
 
     const handleLocaleChange = (value: string) => {
         setLocale(value);
@@ -76,15 +61,25 @@ const Foot: React.FC = () => {
                     <Link className="first-link" to={currentRoutes.privacy}>
                         {intl.formatMessage({ id: 'privacyTitle' })}
                     </Link>
-                    <Link to={currentRoutes.cookies}>
+                    <Link className="first-link" to={currentRoutes.cookies}>
                         {intl.formatMessage({ id: 'cookiesTitle' })}
+                    </Link>
+                    <Link
+                        to="#"
+                        className="cookie-button"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            setShowModal(true);
+                        }}
+                    >
+                        {intl.formatMessage({ id: 'cookiesSettings' })}
                     </Link>
                 </p>
                 <Text strong className="powered">
                     powered by @jonaypelluz
                 </Text>
             </div>
-            {showModal && <CookieConsent setShowModal={setShowModal} />}
+            <CookieConsent showModal={showModal} setShowModal={setShowModal} />
         </Footer>
     );
 };
