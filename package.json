@@ -16,7 +16,7 @@
     },
     "dependencies": {
         "@ant-design/icons": "^5.2.6",
-        "antd": "^5.12.5",
+        "antd": "^6.3.0",
         "react": "^19.2.4",
         "react-dom": "^19.2.4",
         "react-ga4": "^2.1.0",
@@ -66,7 +66,7 @@
             "react-app/jest"
         ]
     },
-    "browserslist": [
+    "browserslist": [  
         "last 2 versions",
         "> 0.5%",
         "not dead",
