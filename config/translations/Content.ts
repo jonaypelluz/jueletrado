@@ -4,6 +4,10 @@ const ContentRoutes: Translations = {
     en: {
         home: '/en/',
         games: '/en/games',
+        spellingRules: '/en/spelling-rules',
+        spelling: '/en/spelling-rules/spelling',
+        accentuation: '/en/spelling-rules/accentuation',
+        orthography: '/en/spelling-rules/orthography',
         privacy: '/en/privacy',
         cookies: '/en/cookies',
     },
@@ -20,7 +24,35 @@ const ContentRoutes: Translations = {
 };
 
 const ContentTranslations: ContentPreConfig = {
-    en: [],
+    en: [
+        {
+            id: 'spelling',
+            imgSrc: '/images/Spelling.png',
+            title: 'Punctuation marks',
+            description:
+                'Symbols used in writing to clarify the meaning and structure of a text, indicating pauses, intonation, and organization. They include periods, commas, question and exclamation marks, parentheses, among others, and each one has a specific purpose in grammar and syntax.',
+            subtitle:
+                'Symbols that clarify the meaning and structure of a text, including punctuation marks.',
+        },
+        {
+            id: 'accentuation',
+            imgSrc: '/images/Accentuation.png',
+            title: 'Accentuation',
+            description:
+                'Refers to placing accent marks on words to mark the stressed syllable or change their meaning. Accentuation follows specific rules in each language and can vary depending on the grammatical category of the word, as in the cases of monosyllables, esdrújulas, or interrogative words.',
+            subtitle:
+                'Placement of accent marks on syllables to indicate emphasis or change a word\'s meaning.',
+        },
+        {
+            id: 'orthography',
+            imgSrc: '/images/Orthography.png',
+            title: 'Orthography',
+            description:
+                'Involves the rules and principles that govern the correct use of letters in writing a language. It includes rules on how words are written, the correct use of uppercase and lowercase letters, and the rules for correctly forming words and sentences, such as the use of "b" and "v", "g" and "j", among others.',
+            subtitle:
+                'Rules for the correct use of letters in writing, including capitalization and spelling.',
+        },
+    ],
     es: [
         {
             id: 'spelling',

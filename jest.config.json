@@ -23,5 +23,6 @@
         "\\.(css|less|sass|scss)$": "identity-obj-proxy",
         "\\.svg$": "<rootDir>/tests/__mocks__/svgMock.tsx"
     },
-    "setupFilesAfterEnv": ["@testing-library/jest-dom"]
+    "setupFiles": ["<rootDir>/tests/settings/env-setup.ts"],
+    "setupFilesAfterEnv": ["<rootDir>/tests/settings/jest.setup.ts"]
 }

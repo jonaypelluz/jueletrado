@@ -10,6 +10,8 @@ const GamesRoutes: Translations = {
         crossWordPuzzle: '/juegos/crucigramas',
     },
     en: {
+        spellTower: '/en/games/spell-tower',
+        wordsRain: '/en/games/words-rain',
         wordBuilder: '/en/games/word-builder',
         wordFinder: '/en/games/word-finder',
         definitionMaster: '/en/games/definition-master',
