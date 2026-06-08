@@ -17,8 +17,13 @@
 .DS_Store
 *.pem
 
-# claude config (local only)
-.claude/
+# claude config (local only, except shared docs below)
+.claude/*
+!.claude/STACK.md
+!.claude/PROJECT.md
+!.claude/settings.json
+!.claude/hooks/
+!.claude/hooks/**
 
 # debug
 npm-debug.log*

@@ -1,0 +1,27 @@
+{
+    "testEnvironment": "jsdom",
+    "roots": ["<rootDir>/tests"],
+    "transform": {
+        "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleNameMapper": {
+        "^@/(.*)$": "<rootDir>/$1",
+        "^@games/(.*)$": "<rootDir>/games/$1",
+        "^@models/(.*)$": "<rootDir>/models/$1",
+        "^@hooks/(.*)$": "<rootDir>/hooks/$1",
+        "^@config/(.*)$": "<rootDir>/config/$1",
+        "^@store/(.*)$": "<rootDir>/store/$1",
+        "^@services/(.*)$": "<rootDir>/services/$1",
+        "^@context/(.*)$": "<rootDir>/contexts/$1",
+        "^@components/(.*)$": "<rootDir>/components/$1",
+        "^@layouts/(.*)$": "<rootDir>/layouts/$1",
+        "^@utils/(.*)$": "<rootDir>/utils/$1",
+        "^@styles/(.*)$": "<rootDir>/styles/$1",
+        "^next/link$": "<rootDir>/tests/__mocks__/nextLink.tsx",
+        "^next/router$": "<rootDir>/tests/__mocks__/nextRouter.ts",
+        "^next/dynamic$": "<rootDir>/tests/__mocks__/nextDynamic.tsx",
+        "\\.(css|less|sass|scss)$": "identity-obj-proxy",
+        "\\.svg$": "<rootDir>/tests/__mocks__/svgMock.tsx"
+    },
+    "setupFilesAfterEnv": ["@testing-library/jest-dom"]
+}
