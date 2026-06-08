@@ -303,7 +303,11 @@ const dbService: DBService = new Proxy({} as DBService, {
             prop as string | symbol
         ];
         if (typeof value === 'function') {
-            // Bind so `this` inside the method is the real instance, not the Proxy.
+            // Jest mocks carry _isMockFunction — return them as-is so jest.spyOn keeps mock identity.
+            // Regular prototype methods are bound so `this` is the real instance, not the Proxy.
+            if ((value as { _isMockFunction?: boolean })._isMockFunction) {
+                return value;
+            }
             return (value as (...args: unknown[]) => unknown).bind(instance);
         }
         return value;
@@ -312,6 +316,11 @@ const dbService: DBService = new Proxy({} as DBService, {
         const instance = getInstance();
         (instance as unknown as Record<string | symbol, unknown>)[prop as string | symbol] =
             newValue;
+        return true;
+    },
+    deleteProperty(_target, prop) {
+        const instance = getInstance();
+        delete (instance as unknown as Record<string | symbol, unknown>)[prop as string | symbol];
         return true;
     },
 });
