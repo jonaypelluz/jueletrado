@@ -1,0 +1,3478 @@
+{
+    "e": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The name of the Latin-script letter E.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The base of the natural logarithm, 2.718281828459045….",
+                "type": "noun"
+            }
+        ]
+    },
+    "eager": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Sharp; sour; acid.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Sharp; keen; bitter; severe.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Desirous; keen to do or obtain something.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Brittle; inflexible; not ductile.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Not employing lazy evaluation; calculating results immediately, rather than deferring calculation until they are required.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "A tidal bore.",
+                "type": "noun"
+            }
+        ]
+    },
+    "earnings": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Wages, money earned, income.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Business profits.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Gains on investments; returns.",
+                "type": "noun"
+            }
+        ]
+    },
+    "ease": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Ability, the means to do something, particularly:.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Comfort, a state or quality lacking unpleasantness, particularly:.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Relief, an end to discomfort, particularly:.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A convenience; a luxury.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A relief; an easement.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To free (something) from pain, worry, agitation, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To alleviate, assuage or lessen (pain).",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To give respite to (someone).",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To loosen or slacken the tension on a line.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To reduce the difficulty of (something).",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To move (something) slowly and carefully.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To lessen in severity.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To proceed with little effort.",
+                "type": "verb"
+            }
+        ]
+    },
+    "ecological": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Relating to ecology, the interrelationships of organisms and their environment.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Not harmful to the environment.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "economics": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The study of resource allocation, distribution and consumption; of capital and investment; and of management of the factors of production.",
+                "type": "noun"
+            }
+        ]
+    },
+    "economist": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An expert in economics, especially one who studies economic data and extracts higher-level information or proposes theories.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "One concerned with political economy.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "One who manages a household.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "One who economizes, or manages domestic or other concerns with frugality; one who expends money, time, or labor, judiciously, and without waste.",
+                "type": "noun"
+            }
+        ]
+    },
+    "echo": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A reflected sound that is heard again by its initial observer.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An utterance repeating what has just been said.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A device in verse in which a line ends with a word which recalls the sound of the last word of the preceding line.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Sympathetic recognition; response; answer.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The displaying on the command line of the command that has just been executed.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The letter E in the ICAO spelling alphabet.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "(whist) A signal, played in the same manner as a trump signal, made by a player who holds four or more trumps (or, as played by some, exactly three trumps) and whose partner has led trumps or signalled for trumps.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "(whist) A signal showing the number held of a plain suit when a high card in that suit is led by one's partner.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "(of a sound or sound waves) To reflect off a surface and return.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To reflect back (a sound).",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "(by extension) To repeat (another's speech, opinion etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To repeat its input as input to some other device or system.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(whist) To give the echo signal, informing one's partner about cards one holds.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "The visual image formed by an echocardiograph.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "The use of ultrasound to produce images of the heart.",
+                "type": "noun"
+            }
+        ]
+    },
+    "editorial": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An article in a publication giving the opinion of its editors on a given topic or current event.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A similar commentary on radio or television.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Of or relating to an editor, editing or an editorial.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Appropriate for high fashion magazines.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "educator": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person distinguished for his/her educational work, a teacher.",
+                "type": "noun"
+            }
+        ]
+    },
+    "effectiveness": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The property of being effective, of achieving results.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The capacity or potential for achieving results.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The degree to which something achieves results.",
+                "type": "noun"
+            }
+        ]
+    },
+    "efficiency": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The extent to which time is well used for the intended task.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "inefficiency, wastefulness"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "The quality of producing an effect or effects.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The extent to which a resource, such as electricity, is used for the intended purpose; the ratio of useful work to energy expended.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "inefficiency, wastefulness"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "A one-room apartment.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bedsit, efficiency apartment"
+                    }
+                ]
+            }
+        ]
+    },
+    "efficiently": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In an efficient manner.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "ego": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The self, especially with a sense of self-importance.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(Freudian) The most central part of the mind, which mediates with one's surroundings.",
+                "type": "noun"
+            }
+        ]
+    },
+    "elaborate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To develop in detail or complexity.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "(sometimes followed by on or upon, and then the object of the preposition) to expand/enlarge in detail.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "Complex, detailed, or sophisticated.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Intricate, fancy, flashy, or showy.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "elbow": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The joint between the upper arm and the forearm.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(by extension) Any turn or bend like that of the elbow, in a wall, building, coastline, etc.; an angular or jointed part of any structure, such as the raised arm of a chair or sofa, or a short pipe fitting, turning at an angle or bent.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A detective.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Part of a basketball court located at the intersection of the free-throw line and the free-throw lane.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A hit with the elbow.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To push with the elbow.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "(by extension) To nudge, jostle or push.",
+                "type": "verb"
+            }
+        ]
+    },
+    "electoral": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Relating to or composed of electors.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Of, or relating to elections.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "electronics": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The study and use of electrical devices that operate by controlling the flow of electrons or other electrically charged particles or by converting the flow of charged particles to or from other forms of energy.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(in the plural) A device or devices which require the flow of electrons through conductors and semiconductors in order to perform their function; devices that operate on electrical power (battery or outlet).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Electronic circuitry.",
+                "type": "noun"
+            }
+        ]
+    },
+    "elegant": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Characterised by or exhibiting elegance.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Characterised by minimalism and intuitiveness while preserving exactness and precision.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Fine; doing well.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "elementary": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An elementary school.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(mysticism) A supernatural being which is associated with the elements.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Relating to the basic, essential or fundamental part of something.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Relating to an elementary school.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Relating to a subatomic particle.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Sublunary; not celestial; belonging to the sublunary sphere, to which the four classical elements (earth, air, fire and water) were confined; composed of or pertaining to these four elements.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "elevate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To raise (something) to a higher position.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "lift, raise"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "drop, lower"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "To promote (someone) to a higher rank.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "exalt, promote"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "demote"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "To confer honor or nobility on (someone).",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "ennoble, exalt, honor"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "To make (something or someone) more worthy or of greater value.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To direct (the mind, thoughts, etc.) toward more worthy things.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To increase the intensity or degree of (something).",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "increase, raise"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "decrease, diminish, lower, reduce"
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "definition": "To lift the spirits of (someone).",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "cheer up, elate"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "depress, sadden"
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "definition": "To intoxicate in a slight degree; to make (someone) tipsy.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "(Latinism) To attempt to make (something) seem less important, remarkable, etc.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "detract, disparage, lessen"
+                    }
+                ]
+            },
+            {
+                "number": 10,
+                "definition": "Elevated; raised aloft.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "eligible": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who is eligible.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Allowed to and meeting the necessary conditions required to participate in or be chosen for something.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Worthy of being chosen (for marriage).",
+                "type": "adjective"
+            }
+        ]
+    },
+    "eliminate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To completely remove, get rid of, put an end to.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To kill (a person or animal).",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To excrete (waste products).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To exclude (from investigation or from further competition).",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To record amounts in a consolidation statement to remove the effects of inter-company transactions.",
+                "type": "verb"
+            }
+        ]
+    },
+    "elite": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A special group or social class of people which have a superior intellectual, social or economic status as, the elite of society.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Someone who is among the best at a certain task.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Of high birth or social position; aristocratic or patrician.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Representing the choicest or most select of a group.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "embark": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To get on a boat or ship or (outside the USA) an aeroplane.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To start, begin.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To cause to go on board a vessel or boat; to put on shipboard.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To engage, enlist, or invest (as persons, money, etc.) in any affair.",
+                "type": "verb"
+            }
+        ]
+    },
+    "embarrassment": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A state of discomfort arising from bashfulness or consciousness of having violated a social rule; humiliation.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A state of confusion arising from hesitation or difficulty in choosing.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person or thing which is the cause of humiliation to another.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A large collection of good or valuable things, especially one that exceeds requirements.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Impairment of function due to disease: respiratory embarrassment.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Difficulty in financial matters; poverty.",
+                "type": "noun"
+            }
+        ]
+    },
+    "embassy": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The function or duty of an ambassador.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An organization or group of officials who permanently represent a sovereign state in a second sovereign state or with respect to an international organization such as the United Nations.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A temporary mission representing a sovereign state.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The official residence of such a group, or of an ambassador.",
+                "type": "noun"
+            }
+        ]
+    },
+    "embed": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An embedded reporter or journalist, such as a war reporter assigned to and travelling with a military unit, or a political reporter assigned to follow and report on the campaign of a candidate.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An element of an advertisement, etc. serving as a subliminal message.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An item embedded in another document.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To lay as in a bed; to lay in surrounding matter; to bed.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(by extension) To include in surrounding matter.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To encapsulate within another document or data file.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To define a one-to-one function from (one set) to another so that certain properties of the domain are preserved when considering the image as a subset of the codomain.",
+                "type": "verb"
+            }
+        ]
+    },
+    "embody": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To represent in a physical or concrete form; to incarnate or personify.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To represent in some other form, such as a code of laws.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To comprise or include as part of a cohesive whole; to be made up of.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To unite in a body or mass.",
+                "type": "verb"
+            }
+        ]
+    },
+    "embrace": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An act of putting arms around someone and bringing the person close to the chest; a hug.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An enclosure partially or fully surrounding someone or something.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Full acceptance (of something).",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An act of enfolding or including.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To clasp (someone or each other) in the arms with affection; to take in the arms; to hug.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fall on someone's neck"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "To seize (something) eagerly or with alacrity; to accept or take up with cordiality; to welcome.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To submit to; to undergo.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "accept"
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "definition": "To encircle; to enclose, to encompass.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "entwine, surround"
+                    }
+                ]
+            },
+            {
+                "number": 9,
+                "definition": "To enfold, to include (ideas, principles, etc.); to encompass.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To fasten on, as armour.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To accept (someone) as a friend; to accept (someone's) help gladly.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To attempt to influence (a court, jury, etc.) corruptly; to practise embracery.",
+                "type": "verb"
+            }
+        ]
+    },
+    "emergence": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of rising out of a fluid, or coming forth from envelopment or concealment, or of rising into view; sudden uprising or appearance.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "In particular: the arising of emergent structure in complex systems.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An emergency.",
+                "type": "noun"
+            }
+        ]
+    },
+    "emission": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something which is emitted or sent out; issue.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of emitting; the act of sending forth or putting into circulation.",
+                "type": "noun"
+            }
+        ]
+    },
+    "emotionally": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In an emotional manner; displaying emotion.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "Regarding emotions.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "empire": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(furniture) Following or imitating a style popular during the First French Empire (1804–1814).",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "(of wine) Produced in a dependency of the British Empire or Commonwealth of Nations.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "A political unit, typically having an extensive territory or comprising a number of territories or nations (especially one comprising one or more kingdoms) and ruled by a single supreme authority.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A political unit ruled by an emperor or empress.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A group of states or other territories that owe allegiance to a foreign power.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "An expansive and powerful enterprise under the control of one person or group.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "(Absolute) control, dominion, sway.",
+                "type": "noun"
+            }
+        ]
+    },
+    "empirical": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Pertaining to or based on experience.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Pertaining to, derived from, or testable by observations made using the physical senses or using instruments which extend the senses.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "(philosophy of science) Verifiable by means of scientific experimentation.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "empower": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To give permission, power, or the legal right to do something.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To give someone more confidence and/or strength to do something, often by enabling them to increase their control over their own life or situation.",
+                "type": "verb"
+            }
+        ]
+    },
+    "enact": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Purpose; determination.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To make (a bill) into law.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To act the part of; to play.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To do; to effect.",
+                "type": "verb"
+            }
+        ]
+    },
+    "encompass": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To form a circle around; to encircle.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To include within its scope; to circumscribe or go round so as to surround; to enclose; to contain.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "embrace"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "To include completely; to describe fully or comprehensively.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "comprehend"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "To go around, especially, to circumnavigate.",
+                "type": "verb"
+            }
+        ]
+    },
+    "encouragement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of encouraging.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something that incites, supports, promotes, protects or advances; incentive.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Words or actions that increase someone's confidence.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The feeling of being encouraged.",
+                "type": "noun"
+            }
+        ]
+    },
+    "encouraging": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To mentally support; to motivate, give courage, hope or spirit.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To spur on, strongly recommend.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To foster, give help or patronage.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Encouragement.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Giving courage, confidence or hope.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Supporting by giving encouragement.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Auspicious, or bringing good luck.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "endeavour": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To exert oneself.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To attempt through application of effort (to do something); to try strenuously.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To attempt (something).",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To work with purpose.",
+                "type": "verb"
+            }
+        ]
+    },
+    "endless": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Having no end.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Extending indefinitely.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Without profitable end; fruitless; unsatisfying.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "endorse": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A diminutive of the pale, usually appearing in pairs on either side of a pale.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To support, to back, to give one's approval to, especially officially or by signature.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To write one's signature on the back of a cheque, or other negotiable instrument, when transferring it to a third party, or cashing it.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To give an endorsement.",
+                "type": "verb"
+            }
+        ]
+    },
+    "endorsement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act or quality of endorsing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An amendment or annotation to an insurance contract or other official document (such as a driving licence).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An instructor's signed acknowledgement of time practising specific flying skills.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(certification) Permission to carry out a specific skill or application in a field in which the practitioner already has a general licence.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Sponsorship, in means of money, by a company, business or enterprise.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Support from an important, renowned figure of a media (celebrity, politics, sports, etc.), to get back up.",
+                "type": "noun"
+            }
+        ]
+    },
+    "endure": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To continue or carry on, despite obstacles or hardships; to persist.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To tolerate or put up with something unpleasant.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To last.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To remain firm, as under trial or suffering; to suffer patiently or without yielding; to bear up under adversity; to hold out.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To suffer patiently.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To indurate.",
+                "type": "verb"
+            }
+        ]
+    },
+    "enforce": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To keep up, impose or bring into effect something, not necessarily by force.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To give strength or force to; to affirm, to emphasize.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To strengthen (a castle, town etc.) with extra troops, fortifications etc.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To intensify, make stronger, add force to.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To exert oneself, to try hard.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To compel, oblige (someone or something); to force.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To make or gain by force; to force.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To put in motion or action by violence; to drive.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To give force to; to strengthen; to invigorate; to urge with energy.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To urge; to ply hard; to lay much stress upon.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To prove; to evince.",
+                "type": "verb"
+            }
+        ]
+    },
+    "enforcement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of enforcing; compulsion.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A giving force to; a putting in execution.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "That which enforces, constraints, gives force, authority, or effect to; constraint; force applied.",
+                "type": "noun"
+            }
+        ]
+    },
+    "engagement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An appointment, especially to speak or perform.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Connection or attachment.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(by extension, about human emotional state) The feeling of being compelled, drawn in, connected to what is happening, interested in what will happen next.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The period of time when marriage is planned or promised.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "In any situation of conflict, an actual instance of active hostilities.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The point at which the fencers are close enough to join blades, or to make an effective attack during an encounter.",
+                "type": "noun"
+            }
+        ]
+    },
+    "engaging": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(heading) To interact socially.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "(heading) To interact antagonistically.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "(heading) To interact contractually.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "(heading) To interact mechanically.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To enter into (an activity), to participate (construed with in).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To entangle.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "That engages the attention; engrossing, interesting; enthralling.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Charming; attractive, especially of a manner or behaviour.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "enjoyable": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Pleasant, capable of giving pleasure.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "enquire": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To make an enquiry.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To ask about (something).",
+                "type": "verb"
+            }
+        ]
+    },
+    "enrich": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To enhance.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To make (someone or something) rich or richer.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "endow"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "impoverish"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "To adorn, ornate more richly.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To add nutrients or fertilizer to the soil; to fertilize.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "impoverish"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "To increase the amount of one isotope in a mixture of isotopes, especially in a nuclear fuel.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "deplete"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "To add nutrients to foodstuffs; to fortify.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To make to rise the proportion of a given constituent.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To add new elements, to complete.",
+                "type": "verb"
+            }
+        ]
+    },
+    "enrol": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To enter (a name, etc.) in a register, roll or list.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To enlist (someone) or make (someone) a member of.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To enlist oneself (in something) or become a member (of something).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To envelop; to enwrap.",
+                "type": "verb"
+            }
+        ]
+    },
+    "ensue": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To follow (a leader, inclination etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To follow (in time), to be subsequent to.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To occur afterwards, as a result or effect.",
+                "type": "verb"
+            }
+        ]
+    },
+    "ent": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A fictional, large, humanoid, mobile talking tree in works by J. R. R. Tolkien.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To empty or pour.",
+                "type": "verb"
+            }
+        ]
+    },
+    "enterprise": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A company, business, organization, or other purposeful endeavor.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An undertaking, venture, or project, especially a daring and courageous one.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A willingness to undertake new or risky projects; energy and initiative.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Active participation in projects.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To undertake an enterprise, or something hazardous or difficult.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To undertake; to begin and attempt to perform; to venture upon.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To treat with hospitality; to entertain.",
+                "type": "verb"
+            }
+        ]
+    },
+    "entertaining": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To amuse (someone); to engage the attention of agreeably.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To have someone over at one's home for a party or visit.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To receive and take into consideration; to have a thought in mind.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To take or keep in one's service; to maintain; to support; to harbour; to keep.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To meet or encounter, as an enemy.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To lead on; to bring along; to introduce.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "Entertainment.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Very amusing; that entertains.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "enthusiast": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person filled with or guided by enthusiasm.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "addict, aficionado, amateur, fan, fanatic, fancier, fiend, freak, geek, junkie, maniac, partisan, power user, prosumer, rooter, zealot"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A person exhibiting over-zealous religious fervour.",
+                "type": "noun"
+            }
+        ]
+    },
+    "entitle": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To give a title to.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To dignify by an honorary designation.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To give power or authority (to do something).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To give rightful ownership.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To give a title to a book, film, play, etc.",
+                "type": "verb"
+            }
+        ]
+    },
+    "entity": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "That which has a distinct existence as an individual unit. Often used for organisations which have no physical form.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The existence of something considered apart from its properties.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Anything about which information or data can be stored in a database; in particular, an organised array or set of individual elements or parts.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The state or quality of being or existence.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A spirit, ghost, or the like.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "An alien lifeform that has no corporeal body.",
+                "type": "noun"
+            }
+        ]
+    },
+    "entrepreneur": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person who organizes and operates a business venture and assumes much of the associated risk.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A person who organizes a risky activity of any kind and acts substantially in the manner of a business entrepreneur.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A person who strives for success and takes on risk by starting their own venture, service, etc.",
+                "type": "noun"
+            }
+        ]
+    },
+    "envelope": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A paper or cardboard wrapper used to enclose small, flat items, especially letters, for mailing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something that envelops; a wrapping.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A bag containing the lifting gas of a balloon or airship; fabric that encloses the gas-bags of an airship.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A mathematical curve, surface, or higher-dimensional object that is the tangent to a given family of lines, curves, surfaces, or higher-dimensional objects.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A curve that bounds another curve or set of curves, as the modulation envelope of an amplitude-modulated carrier wave in electronics.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The shape of a sound, which may be controlled by a synthesizer or sampler.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The information used for routing a message that is transmitted with the message but not part of its contents.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "An enclosing structure or cover, such as a membrane; a space between two membranes.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The set of limitations within which a technological system can perform safely and effectively.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The nebulous covering of the head or nucleus of a comet; a coma.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "An earthwork in the form of a single parapet or a small rampart, sometimes raised in the ditch and sometimes beyond it.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To surround or enclose.",
+                "type": "verb"
+            }
+        ]
+    },
+    "epidemic": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A widespread disease that affects many individuals in a population.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An occurrence of a disease or disorder in a population at a frequency higher than that expected in a given time period.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Like or having to do with an epidemic; widespread.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "equality": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The fact of being equal.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The fact of being equal, of having the same value.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The equal treatment of people irrespective of social or cultural differences.",
+                "type": "noun"
+            }
+        ]
+    },
+    "equation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act or process of equating two or more things, or the state of those things being equal (that is, identical).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An assertion that two expressions are equal, expressed by writing the two expressions separated by an equal sign; from which one is to determine a particular quantity.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A small correction to observed values to remove the effects of systematic errors in an observation.",
+                "type": "noun"
+            }
+        ]
+    },
+    "equip": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To supply with something necessary in order to carry out a specific action or task; to provide with (e.g. weapons, provisions, munitions, rigging).",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To dress up; to array; to clothe.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To prepare (someone) with a skill.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To equip oneself with (an item).",
+                "type": "verb"
+            }
+        ]
+    },
+    "equivalent": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Anything that is virtually equal to something else, or has the same value, force, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An equivalent weight.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To make equivalent to; to equal.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Similar or identical in value, meaning or effect; virtually equal.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Of two sets, having a one-to-one correspondence; equinumerous.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Relating to the corresponding elements of an equivalence relation.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Having the equal ability to combine.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Of a map, equal-area.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Equal in measure but not admitting of superposition; applied to magnitudes.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "era": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A time period of indeterminate length, generally more than one year.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A unit of time, smaller than eons and greater than periods.",
+                "type": "noun"
+            }
+        ]
+    },
+    "erect": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Upright; vertical or reaching broadly upwards.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "(of body parts) Rigid, firm; standing out perpendicularly, especially as the result of stimulation.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "hard, stiff"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "(of a man) Having an erect penis.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "hard, stiff"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "Bold; confident; free from depression; undismayed.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Directed upward; raised; uplifted.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Watchful; alert.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Elevated, as the tips of wings, heads of serpents, etc.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "To put up by the fitting together of materials or parts.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To cause to stand up or out.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To raise and place in an upright or perpendicular position; to set upright; to raise.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To lift up; to elevate; to exalt; to magnify.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To animate; to encourage; to cheer.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To cast or draw up (a figure of the heavens, horoscope etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To set up as an assertion or consequence from premises, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To set up or establish; to found; to form; to institute.",
+                "type": "verb"
+            }
+        ]
+    },
+    "erupt": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To eject something violently (such as lava or water, as from a volcano or geyser).",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To burst forth; to break out.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To spontaneously release pressure or tension.",
+                "type": "verb"
+            }
+        ]
+    },
+    "escalate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To increase (something) in extent or intensity; to intensify or step up.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "In technical support, to transfer a customer, a problem, etc. to the next higher level of authority.",
+                "type": "verb"
+            }
+        ]
+    },
+    "essence": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The inherent nature of a thing or idea.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The true nature of anything, not accidental or illusory.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Constituent substance.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A being; especially, a purely spiritual being.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A significant feature of something.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The concentrated form of a plant or drug obtained through a distillation process.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "An extract or concentrate obtained from a plant or other matter used for flavouring.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Fragrance, a perfume.",
+                "type": "noun"
+            }
+        ]
+    },
+    "essentially": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In an essential manner; in essence.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "establishment": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of establishing; a ratifying or ordaining; settlement; confirmation.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The state of being established, founded, etc.; fixed state.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "That which is established; as a form of government, a permanent organization, business or force, or the place where one is permanently fixed for residence.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(usually with \"the\") The ruling class or authority group in a society; especially, an entrenched authority dedicated to preserving the status quo. Also Establishment.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The number of staff required to run a department or organisation (often used in the context of healthcare and other public services).",
+                "type": "noun"
+            }
+        ]
+    },
+    "eternal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who lives forever; an immortal.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Lasting forever; unending.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "agelong, endless, everlasting, permanent, sempiternal, unending"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "ephemeral, momentary, transient"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "Existing outside time; as opposed to sempiternal, existing within time but everlastingly.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "atemporal, timeless"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "Exceedingly great or bad; used as an intensifier.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "awful"
+                    }
+                ]
+            }
+        ]
+    },
+    "ethic": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A set of principles of right and wrong behaviour guiding, or representative of, a specific culture, society, group, or individual.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The morality of an action.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Moral, relating to morals.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "ethnic": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An ethnic person, especially a foreigner or member of an immigrant community.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An ethnic minority.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A heathen, a pagan.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(in classical scholarship) the demonym of an Ancient Greek city.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Of or relating to a group of people having common racial, ancestral, national, religious or cultural origins.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Characteristic of a foreign, usually non-Western culture.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Representative of a folk or traditional mode of expression.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Heathen, not Jewish, Christian, or Muslim.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "evacuate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To leave or withdraw from; to quit; to retire from.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To cause to leave or withdraw from.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To make empty; to empty out; to remove the contents of, including to create a vacuum.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To make empty; to deprive.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To remove; to eject; to void; to discharge, as the contents of a vessel, or of the bowels.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To make void; to nullify; to vacate.",
+                "type": "verb"
+            }
+        ]
+    },
+    "evaluation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An assessment, such as an annual personnel performance review used as the basis for a salary increase or bonus, or a summary of a particular situation.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A completion of a mathematical operation; a valuation.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Determination of the value of a variable or expression.",
+                "type": "noun"
+            }
+        ]
+    },
+    "evident": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Obviously true by simple observation.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "evoke": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To call out; to draw out or bring forth.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To cause the manifestation of something (emotion, picture, etc.) in someone's mind or imagination.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To elicit a response.",
+                "type": "verb"
+            }
+        ]
+    },
+    "evolution": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A change of position.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An unfolding.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Process of development.",
+                "type": "noun"
+            }
+        ]
+    },
+    "evolutionary": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Of or relating to the biological theory of evolution.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Having formal similarities to the biological theory of evolution.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "evolve": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To move in regular procession through a system.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To change; transform.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To come into being; develop.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Of a population, to change genetic composition over successive generations through the process of evolution.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To give off (gas, such as oxygen or carbon dioxide during a reaction).",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To cause something to change or transform.",
+                "type": "verb"
+            }
+        ]
+    },
+    "exaggerate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To overstate, to describe more than is fact.",
+                "type": "verb"
+            }
+        ]
+    },
+    "exceed": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To be larger, greater than (something).",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To be better than (something).",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To go beyond (some limit); to surpass; to be longer than.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To predominate.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To go too far; to be excessive.",
+                "type": "verb"
+            }
+        ]
+    },
+    "excellence": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The quality of being excellent; brilliance.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Something in which one excels.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An excellent or valuable quality; something at which any someone excels; a virtue.",
+                "type": "noun"
+            }
+        ]
+    },
+    "exception": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of excepting or excluding; exclusion; restriction by taking out something which would otherwise be included, as in a class, statement, rule.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "That which is excepted or taken out from others; a person, thing, or case, specified as distinct, or not included.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An objection, on legal grounds; also, as in conveyancing, a clause by which the grantor excepts or reserves something before the right is transferred.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An objection; cavil; dissent; disapprobation; offense; cause of offense; — usually followed by to or against.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An interruption in normal processing, typically caused by an error condition, that can be handled by another part of the program.",
+                "type": "noun"
+            }
+        ]
+    },
+    "exceptional": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An exception, or something having an exceptional value.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Forming an exception; not ordinary; uncommon; rare.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Better than the average; superior due to exception or rarity.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Corresponding to something of lower dimension under a birational correspondence.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "excess": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The state of surpassing or going beyond limits; the being of a measure beyond sufficiency, necessity, or duty; that which exceeds what is usual or proper.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The degree or amount by which one thing or number exceeds another; remainder.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An undue indulgence of the appetite; transgression of proper moderation in natural gratifications; intemperance; dissipation.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Spherical excess, the amount by which the sum of the three angles of a spherical triangle exceeds two right angles. The spherical excess is proportional to the area of the triangle.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A condition on an insurance policy by which the insured pays for a part of the claim.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To declare (an employee) surplus to requirements, such that he or she might not be given work.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "More than is normal, necessary or specified.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "excessive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Exceeding the usual bounds of something; extravagant; immoderate.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "exclude": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To bar (someone) from entering; to keep out.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To expel; to put out.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To omit from consideration.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To refuse to accept (evidence) as valid.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To eliminate from diagnostic consideration.",
+                "type": "verb"
+            }
+        ]
+    },
+    "exclusion": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of excluding or shutting out; removal from consideration or taking part.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of pushing or forcing something out.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An item not covered by an insurance policy.",
+                "type": "noun"
+            }
+        ]
+    },
+    "exclusive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Information (or an artefact) that is granted or obtained exclusively.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A member of a group who exclude others from their society.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(grammar) A word or phrase that restricts something, such as only, solely, or simply.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Excluding items or members that do not meet certain conditions.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Referring to a membership organisation, service or product: of high quality and/or renown, for superior members only. A snobbish usage, suggesting that members who do not meet requirements, which may be financial, of celebrity, religion, skin colour etc., are excluded.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Exclusionary.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Whole, undivided, entire.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Of or relating to the first-person plural pronoun when excluding the person being addressed.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "(of two people in a romantic or sexual relationship) Having a romantic or sexual relationship with one another, to the exclusion of others.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "exclusively": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(focus) to the exclusion of anything or anyone else; solely or entirely.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "execute": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To kill as punishment for capital crimes.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To carry out; to put into effect.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To perform.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To carry out, to perform an act; to put into effect or cause to become legally binding or valid (as a contract) by so doing.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To start, launch or run.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "launch, open, run, start"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "To run, usually successfully.",
+                "type": "verb"
+            }
+        ]
+    },
+    "execution": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act, manner or style of executing (actions, maneuvers, performances).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The state of being accomplished.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The act of putting to death or being put to death as a penalty, or actions so associated.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The carrying into effect of a court judgment, or of a will.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The formal process by which a contract is made valid and put into binding effect.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The carrying out of an instruction, program or program segment by a computer.",
+                "type": "noun"
+            }
+        ]
+    },
+    "exert": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To put in vigorous action.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To make use of, to apply, especially of something non-material.",
+                "type": "verb"
+            }
+        ]
+    },
+    "exhibit": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An instance of exhibiting.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "That which is exhibited.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A public showing; an exhibition.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An article formally introduced as evidence in a court.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To display or show (something) for others to see, especially at an exhibition or contest.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To demonstrate.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To submit (a physical object) to a court as evidence.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To put on a public display.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To administer as a remedy.",
+                "type": "verb"
+            }
+        ]
+    },
+    "exile": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The state of being banished from one's home or country.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "banishment"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "Someone who is banished from their home or country.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "expat, expatriate"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "To send into exile.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "banish, forban"
+                    }
+                ]
+            }
+        ]
+    },
+    "exit": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An act of going out or going away, or leaving; a departure.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "egress, outgoing"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "entrance, entry, ingoing, ingress"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A way out.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The act of departing from life; death.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To go out or go away from a place or situation; to depart, to leave.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "arrive, come, enter, ingress"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "To depart from life; to die.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To end or terminate (a program, subroutine, etc.).",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "(originally United States) To depart from or leave (a place or situation).",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "enter"
+                    }
+                ]
+            }
+        ]
+    },
+    "exotic": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An organism that is exotic to an environment.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An exotic dancer; a stripteaser.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Any exotic particle.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Foreign, especially in an exciting way.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Non-native to the ecosystem.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Being or relating to an option with features that make it more complex than commonly traded options.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "expansion": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act or process of expanding.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The fractional change in unit length per unit length per unit temperature change.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A new addition.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A product to be used with a previous product.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "That which is expanded; expanse; extended surface.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "(steam engines) The operation of steam in a cylinder after its communication with the boiler has been cut off, by which it continues to exert pressure upon the moving piston.",
+                "type": "noun"
+            }
+        ]
+    },
+    "expenditure": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Act of expending or paying out.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The amount expended; expense; outlay.",
+                "type": "noun"
+            }
+        ]
+    },
+    "experimental": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The subject of an experiment.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Pertaining to or founded on experiment.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Serving to be experimented upon; used in an experiment.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Serving as an experiment; serving to experiment.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Experiential, empirical.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "expertise": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Great skill or knowledge in a particular field or hobby.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Advice, or opinion, of an expert.",
+                "type": "noun"
+            }
+        ]
+    },
+    "expire": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To die.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To lapse and become invalid.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To exhale; to breathe out.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To give forth insensibly or gently, as a fluid or vapour; to emit in minute particles.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To bring to a close; to terminate.",
+                "type": "verb"
+            }
+        ]
+    },
+    "explicit": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Very specific, clear, or detailed.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Containing material (e.g. language or film footage) that might be deemed offensive or graphic.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "explicitly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In an explicit manner.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "exploit": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A heroic or extraordinary deed.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An achievement.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A program or technique that exploits a vulnerability in other software.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To use for one’s own advantage.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "take advantage of, use"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "To forcibly deprive someone of something to which she or he has a natural right.",
+                "type": "verb"
+            }
+        ]
+    },
+    "exploitation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of utilizing something; industry.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The improper use of something for selfish purposes.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The act or result of forcibly depriving someone of something to which he or she has a natural right.",
+                "type": "noun"
+            }
+        ]
+    },
+    "explosive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any explosive substance.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "With the capability to, or likely to, explode.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Having the character of an explosion.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Shocking; startling.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Easily driven to anger, usually with reference to a person.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "exposure": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The condition of being exposed, uncovered, or unprotected.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Lack of protection from weather or the elements.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The act of exposing something, such as a scandal.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "That part which is facing or exposed to something, e.g. the sun, weather, sky, or a view.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An instance of taking a photograph.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The piece of film exposed to light.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Details of the time and f-number used.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The amount of sun, wind etc. experienced by a particular site.",
+                "type": "noun"
+            }
+        ]
+    },
+    "extension": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of extending; a stretching out; enlargement in length or breadth; an increase.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The state of being extended.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "That property of a body by which it occupies a portion of space (or time, e.g. \"spatiotemporal extension\").",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A part of a building that has been extended from the original.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Capacity of a concept or general term to include a greater or smaller number of objects; — correlative of intension.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A written engagement on the part of a creditor, allowing a debtor further time to pay a debt.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The operation of stretching a broken bone so as to bring the fragments into the same straight line.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "An exercise in which an arm or leg is straightened against resistance.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A simple offensive action, consisting of extending the weapon arm forward.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A numerical code used to specify a specific telephone in a telecommunication network.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A file extension.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "An optional software component that adds functionality to an application.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "The set of tuples of values that, used as arguments, satisfy the predicate.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "(grammar) A kind of derivative morpheme applied to verbs in Bantu languages.",
+                "type": "noun"
+            }
+        ]
+    },
+    "extensive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Having a great extent; covering a large area; vast.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Considerable in amount.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Serving to extend or lengthen; characterized by extension.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Having a combined system entropy that equals the sum of the entropies of the independent systems.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "extensively": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In an extensive manner, widely.",
+                "type": "adverb"
+            },
+            {
+                "number": 2,
+                "definition": "To a great extent.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "extract": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that is extracted or drawn out.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A portion of a book or document, incorporated distinctly in another work; a citation; a quotation.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A decoction, solution, or infusion made by drawing out from any substance that which gives it its essential and characteristic virtue.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Any substance extracted is such a way, and characteristic of that from which it is obtained.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A solid preparation obtained by evaporating a solution of a drug, etc., or the fresh juice of a plant (distinguished from an abstract).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A peculiar principle (fundamental essence) once erroneously supposed to form the basis of all vegetable extracts.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Ancestry; descent.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A draft or copy of writing; a certified copy of the proceedings in an action and the judgment therein, with an order for execution.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "To draw out; to pull out; to remove forcibly from a fixed position, as by traction or suction, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To withdraw by expression, distillation, or other mechanical or chemical process. Compare abstract (transitive verb).",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To take by selection; to choose out; to cite or quote, as a passage from a book.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To select parts of a whole.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To determine (a root of a number).",
+                "type": "verb"
+            }
+        ]
+    },
+    "extremist": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person who holds extreme views, especially one who advocates such views; a radical or fanatic.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Holding extreme views, especially on a political subject.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Of or relating to extremism.",
+                "type": "adjective"
+            }
+        ]
+    }
+}

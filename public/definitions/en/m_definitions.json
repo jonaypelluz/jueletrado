@@ -1,0 +1,1370 @@
+{
+    "minute": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A unit of time equal to sixty seconds (one-sixtieth of an hour).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A short but unspecified time period.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "instant, jiffy, mo, moment, sec, second, tic"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "A unit of angle equal to one-sixtieth of a degree.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "minute of arc"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "(chiefly in the plural, minutes) A (usually formal) written record of a meeting or a part of a meeting.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A unit of purchase on a telephone or other network, especially a cell phone network, roughly equivalent in gross form to sixty seconds' use of the network.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A point in time; a moment.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A nautical or a geographic mile.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "An old coin, a half farthing.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A very small part of anything, or anything very small; a jot; a whit.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A fixed part of a module.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A while or a long unspecified period of time.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "Of an event, to write in a memo or the minutes of a meeting.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To set down a short sketch or note of; to jot down; to make a minute or a brief summary of.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "Very small.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "infinitesimal, insignificant, minuscule, tiny, trace"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "big, colossal, enormous, huge, significant, tremendous, vast"
+                    }
+                ]
+            },
+            {
+                "number": 15,
+                "definition": "Very careful and exact, giving small details.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "exact, exacting, excruciating, precise, scrupulous"
+                    }
+                ]
+            }
+        ]
+    },
+    "miracle": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An event that appears inexplicable by the laws of nature and so is held to be supernatural in origin.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A fortunate outcome that prevails despite overwhelming odds against it.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An awesome and exceptional example of something.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To affect by a miracle; to work a miracle upon.",
+                "type": "verb"
+            }
+        ]
+    },
+    "miserable": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A miserable person; a wretch.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "In a state of misery: very sad, ill, or poor.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Very bad (at something); unskilled, incompetent.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Wretched; worthless; mean.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Causing unhappiness or misery.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Avaricious; niggardly; miserly.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "misery": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Great unhappiness; extreme pain of body or mind; wretchedness; distress; woe.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A bodily ache or pain.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Cause of misery; calamity; misfortune.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(Extreme) poverty.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Greed; avarice.",
+                "type": "noun"
+            }
+        ]
+    },
+    "misleading": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To lead astray, in a false direction.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To deceive by telling lies or otherwise giving a false impression.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To deceptively trick into something wrong.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To accidentally or intentionally confuse.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "A deception that misleads.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Deceptive or tending to mislead or create a false impression.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "missile": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Any object used as a weapon by being thrown or fired through the air, such as stone, arrow or bullet.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A self-propelled projectile whose trajectory can be adjusted after it is launched.",
+                "type": "noun"
+            }
+        ]
+    },
+    "mob": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A large or disorderly group of people; especially one bent on riotous or destructive action.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A group of animals such as horses or cattle.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A flock of emus.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The Mafia, or a similar group that engages in organized crime (preceded by the).",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A non-player character, especially one that exists to be fought or killed to further the progression of the story or game.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The lower classes of a community; the rabble.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "(Australian Aboriginal) A group of Aboriginal people associated with an extended family group, clan group or wider community group, from a particular place or country.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To crowd around (someone), sometimes with hostility.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To crowd into or around a place.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "A promiscuous woman; a harlot or wench; a prostitute.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A mob cap.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To wrap up in, or cover with, a cowl.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "Mobile phone.",
+                "type": "noun"
+            }
+        ]
+    },
+    "mobility": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The ability to move; capacity for movement.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A tendency to sudden change; mutability, changeableness.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The ability of a military unit to move or be transported to a new position.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The degree to which particles of a liquid or gas are in movement.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "People's ability to move between different social levels or professional occupations.",
+                "type": "noun"
+            }
+        ]
+    },
+    "mobilize": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To make something mobile.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To assemble troops and their equipment in a coordinated fashion so as to be ready for war.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To become made ready for war.",
+                "type": "verb"
+            }
+        ]
+    },
+    "mode": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One of several ancient Greek scales.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "One of several common scales in modern Western music, one of which corresponds to the modern major scale and one to the natural minor scale.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A particular means of accomplishing something.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A particular state of being, or frame of mind.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The most frequently occurring value in a distribution.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A state of a system that is represented by an eigenfunction of that system.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "One of various related sets of rules for processing data; more generally, any state of the system associated with certain behaviours.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A series of settings on a device used for a specific purpose.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A variation in gameplay, such as a difficulty level.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "(grammar) A verb form that depends on how its containing clause relates to the speaker’s or writer’s wish, intent, or assertion about reality.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "grammatical mood, mood"
+                    }
+                ]
+            },
+            {
+                "number": 11,
+                "definition": "That which exists only as a quality of substance.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "In lace-making, a small decorative piece inserted into a pattern.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "The openwork between the solid parts of a pattern.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A woman's mantle with a hood.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "Style or fashion; popular trend.",
+                "type": "noun"
+            }
+        ]
+    },
+    "moderate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who holds an intermediate position between extremes, as in politics.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "One of a party in Scottish Church history dominant in the 18th century, lax in doctrine and discipline, but intolerant of evangelicalism and popular rights. It caused the secessions of 1733 and 1761, and its final resultant was the Disruption of 1843.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To reduce the excessiveness of (something).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To become less excessive.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To preside over (something) as a moderator.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To act as a moderator; to assist in bringing to compromise.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "Not excessive; acting in moderation.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Mediocre.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Average priced; standard-deal.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Not violent or rigorous; temperate; mild; gentle.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Having an intermediate position between liberal and conservative.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "modest": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Not bragging or boasting about oneself or one's achievements; unpretentious, humble.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Small, moderate in size.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Pure and delicate from a sense of propriety.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "(especially of behaviour or clothing) Intending to avoid the encouraging of sexual attraction in others.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "modification": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The form of existence belonging to a particular object, entity etc.; a mode of being.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The change undergone by a word when used in a construction (for instance am => 'm in I'm).",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The result of modifying something; a new or changed form.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The act of making a change to something while keeping its essential character intact; an alteration or adjustment.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A change to an organism as a result of its environment that is not transmissable to offspring.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A change to a word when it is borrowed by another language.",
+                "type": "noun"
+            }
+        ]
+    },
+    "momentum": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Of a body in motion: the tendency of a body to maintain its inertial motion; the product of its mass and velocity.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The impetus, either of a body in motion, or of an idea or course of events; a moment.",
+                "type": "noun"
+            }
+        ]
+    },
+    "monk": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A male member of a monastic order who has devoted his life for religious service.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "In earlier usage, an eremite or hermit devoted to solitude, as opposed to a cenobite, who lived communally.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A male who leads an isolated life; a loner, a hermit.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An unmarried man who does not have sexual relationships.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A judge.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A blotch or spot of ink on a printed page, caused by the ink not being properly distributed; distinguished from a friar, or white spot caused by a deficiency of ink.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A piece of tinder made of agaric, used in firing the powder hose or train of a mine.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A South American monkey (Pithecia monachus); also applied to other species, as Cebus xanthosternos.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The bullfinch, common bullfinch, European bullfinch, or Eurasian bullfinch (Pyrrhula pyrrhula).",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The monkfish.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A fuse for firing mines.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "To be a monk.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To act like a monk; especially to be contemplative.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To monkey or meddle; to behave in a manner that is not systematic.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To be intoxicated or confused.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To be attached in a way that sticks out.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "A monkey.",
+                "type": "noun"
+            }
+        ]
+    },
+    "monopoly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A situation, by legal privilege or other agreement, in which solely one party (company, cartel etc.) exclusively provides a particular product or service, dominating that market and generally exerting powerful control over it.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "monopsony"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "An exclusive control over the trade or production of a commodity or service through exclusive possession.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The privilege granting the exclusive right to exert such control.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "(metonymy) The market thus controlled.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(metonymy) The holder (person, company or other) of such market domination in one of the above manners.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "monopolist"
+                    }
+                ]
+            }
+        ]
+    },
+    "monster": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A terrifying and dangerous creature.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A bizarre or whimsical creature.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A cruel or antisocial person, especially a criminal.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A horribly deformed person.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A badly behaved child, a brat.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Something unusually large.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A prodigy; someone very talented in a specific domain.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A non-player character that player(s) fight against in role-playing games.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "To make into a monster; to categorise as a monster; to demonise.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To behave as a monster to; to terrorise.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To harass.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "Very large; worthy of a monster.",
+                "type": "adjective"
+            },
+            {
+                "number": 13,
+                "definition": "Great; very good; excellent.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "monthly": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A publication that is published once a month.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The menstrual period.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Occurring every month.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Every month.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "monument": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A structure built for commemorative or symbolic reasons, or as a memorial; a commemoration.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An important site owned by the community as a whole.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An exceptional or proud achievement.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An important burial vault or tomb.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A legal document.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A surveying reference point marked by a permanently fixed marker (a survey monument).",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A pile of stones left by a prospector to claim ownership of ore etc. found in a mine.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To mark or memorialize with a monument.",
+                "type": "verb"
+            }
+        ]
+    },
+    "morality": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Recognition of the distinction between good and evil or between right and wrong; respect for and obedience to the rules of right conduct; the mental disposition or characteristic of behaving in a manner intended to produce morally good results.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A set of social rules, customs, traditions, beliefs, or practices which specify proper, acceptable forms of conduct.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A set of personal guiding principles for conduct or a general notion of how to behave, whether respectable or not.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A lesson or pronouncement which contains advice about proper behavior.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A morality play.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Moral philosophy, the branch of philosophy which studies the grounds and nature of rightness, wrongness, good, and evil.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A particular theory concerning the grounds and nature of rightness, wrongness, good, and evil.",
+                "type": "noun"
+            }
+        ]
+    },
+    "moreover": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In addition to what has been said; furthermore; additionally.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "mortgage": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A special form of secured loan where the purpose of the loan must be specified to the lender, to purchase assets that must be fixed (not movable) property, such as a house or piece of farm land. The assets are registered as the legal property of the borrower but the lender can seize them and dispose of them if they are not satisfied with the manner in which the repayment of the loan is conducted by the borrower. Once the loan is fully repaid, the lender loses this right of seizure and the assets are then deemed to be unencumbered.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "State of being pledged.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To borrow against a property, to obtain a loan for another purpose by giving away the right of seizure to the lender over a fixed property such as a house or piece of land; to pledge a property in order to get a loan.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To pledge and make liable; to make subject to obligation; to achieve an immediate result by paying for it in the long term.",
+                "type": "verb"
+            }
+        ]
+    },
+    "mosque": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A place of worship for Muslims, often having at least one minaret; a masjid.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "masjid"
+                    }
+                ]
+            }
+        ]
+    },
+    "motion": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A state of progression from one place to another.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "movement"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "rest"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "A change of position with respect to time.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A change from one place to another.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "move, movement"
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "rest"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "A parliamentary action to propose something. A similar procedure in any official or business meeting.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An entertainment or show, especially a puppet show.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "From κίνησις (kinesis); any change. Traditionally of four types: generation and corruption, alteration, augmentation and diminution, and change of place.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Movement of the mind, desires, or passions; mental act, or impulse to any action; internal activity.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A formal request, oral or written, made to a judge or court of law to obtain an official court ruling or order for a legal action to be taken by, or on behalf of, the movant.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A movement of the bowels; the product of such movement.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Change of pitch in successive sounds, whether in the same part or in groups of parts. (Conjunct motion is that by single degrees of the scale. Contrary motion is when parts move in opposite directions. Disjunct motion is motion by skips. Oblique motion is when one part is stationary while another moves. Similar or direct motion is when parts move in the same direction.).",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A puppet, or puppet show.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A piece of moving mechanism, such as on a steam locomotive.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "To gesture indicating a desired movement.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To introduce a motion in parliamentary procedure.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To make a proposal; to offer plans.",
+                "type": "verb"
+            }
+        ]
+    },
+    "motivate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To provide someone with an incentive to do something; to encourage.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To animate; to propel; to cause to take action.",
+                "type": "verb"
+            }
+        ]
+    },
+    "motivation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Willingness of action especially in behavior.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The action of motivating.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something which motivates.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An incentive or reason for doing something.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A research rating that measures how the rational and emotional elements of a commercial affect consumer intention to consider, visit, or buy something.",
+                "type": "noun"
+            }
+        ]
+    },
+    "motive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An idea or communication that makes one want to act, especially from spiritual sources; a divine prompting.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An incentive to act in a particular way; a reason or emotion that makes one want to do something; anything that prompts a choice of action.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "motivation"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "A limb or other bodily organ that can move.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Something which causes someone to want to commit a crime; a reason for criminal behaviour.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A motif.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A motif; a theme or subject, especially one that is central to the work or often repeated.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To prompt or incite by a motive or motives; to move.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "motivate"
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "definition": "Causing motion; having power to move, or tending to move.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "moving"
+                    }
+                ]
+            },
+            {
+                "number": 9,
+                "definition": "Relating to motion and/or to its cause.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "motional"
+                    }
+                ]
+            }
+        ]
+    },
+    "motorist": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who drives a motor vehicle.",
+                "type": "noun"
+            }
+        ]
+    },
+    "moving": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To change place or posture; to go, in any manner, from one place or position to another.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "stir"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "To act; to take action; to begin to act.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "get moving, stir"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "To change residence, for example from one house, town, or state, to another; to go and live at another place. See also move out and move in.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "(and other games) To change the place of a piece in accordance with the rules of the game.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To cause to change place or posture in any manner; to set in motion; to carry, convey, draw, or push from one place to another.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "impel, stir"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "To transfer (a piece or man) from one space or position to another, according to the rules of the game.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To excite to action by the presentation of motives; to rouse by representation, persuasion, or appeal; to influence.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To arouse the feelings or passions of; especially, to excite to tenderness or compassion, to excite (for example, an emotion).",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "affect, trouble"
+                    }
+                ]
+            },
+            {
+                "number": 9,
+                "definition": "To propose; to recommend; specifically, to propose formally for consideration and determination, in a deliberative assembly; to submit.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To mention; to raise (a question); to suggest (a course of action); to lodge (a complaint).",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To incite, urge (someone to do something); to solicit (someone for or of an issue); to make a proposal to.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To apply to, as for aid.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To request an action from the court.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To bow or salute upon meeting.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To sell, to market (especially, but not exclusively, illegal products).",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "The relocation of goods.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "A causing of a movement.",
+                "type": "noun"
+            },
+            {
+                "number": 18,
+                "definition": "That moves or move.",
+                "type": "adjective"
+            },
+            {
+                "number": 19,
+                "definition": "That causes someone to feel emotion.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "municipal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A financial instrument issued by a municipality.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Of or pertaining to a municipality (a city or a corporation having the right of administering local government).",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Of or pertaining to the internal affairs of a nation.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "mutual": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A mutual fund.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A mutual organization.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Either of a pair of people who follow each other's social media accounts.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Having the same relationship, each to each other.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Collective, done or held in common.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Reciprocal.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Possessed in common.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "(Relating to a company, insurance or financial institution) Owned by the members.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "myth": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A traditional story which embodies a belief regarding some fact or phenomenon of experience, and in which often the forces of nature and of the soul are personified; a sacred narrative regarding a god, a hero, the origin of the world or of a people, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Such stories as a genre.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A commonly-held but false belief, a common misconception; a fictitious or imaginary person or thing; a popular conception about a real person or event which exaggerates or idealizes reality.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A person or thing held in excessive or quasi-religious awe or admiration based on popular legend.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A person or thing existing only in imagination, or whose actual existence is not verifiable.",
+                "type": "noun"
+            }
+        ]
+    }
+}

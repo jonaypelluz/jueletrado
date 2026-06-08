@@ -1,0 +1,126 @@
+@import '@styles/variables.scss';
+@import '@styles/common.scss';
+
+.word-builder-wrapper {
+    @extend .game-wrapper;
+    padding: 24px;
+
+    &::before {
+        opacity: 0.2;
+        background-image: url('/games/wordBuilderBg.png');
+    }
+
+    .word-builder-temporary-word {
+        min-height: 200px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 24px;
+        margin: 12px;
+
+        .ant-typography {
+            display: block;
+            text-align: center;
+            margin-top: 24px;
+            font-size: 48px;
+        }
+    }
+
+    .word-builder-found-words {
+        min-height: 200px;
+        text-align: center;
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 24px;
+        margin: 12px;
+        padding: 12px;
+
+        .ant-typography {
+            font-size: 24px;
+        }
+    }
+}
+
+$circle-radius: 150px;
+
+.word-builder-letters {
+    position: relative;
+    width: $circle-radius * 3;
+    height: $circle-radius * 3;
+    margin: 0 auto;
+
+    .ant-col:nth-child(1) {
+        display: flex;
+        align-items: center;
+    }
+
+    @media only screen and (max-width: 767px) {
+        width: 350px;
+        height: 320px;
+        margin: 0 auto;
+    }
+
+    span {
+        position: absolute;
+        padding: 28px 20px 20px;
+        border-radius: 50px;
+        line-height: 0.4;
+        border: 1px solid $main-color-dark;
+        top: 40%;
+        left: 40%;
+        min-height: 75px;
+        min-width: 75px;
+        text-align: center;
+        user-select: none;
+        cursor: pointer;
+
+        @media only screen and (max-width: 767px) {
+            min-width: 60px;
+            min-height: 60px;
+            padding: 21px 10px 10px;
+        }
+
+        &.ant-typography {
+            font-size: 35px;
+            color: #fff;
+            background-color: $main-color;
+
+            @media only screen and (max-width: 767px) {
+                font-size: 30px;
+            }
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: $main-color-dark;
+            }
+        }
+
+        &.total-words {
+            font-size: 30px;
+            background-color: $secondary-color;
+            border-color: $secondary-color-dark;
+            line-height: 0.6;
+        }
+
+        @for $i from 1 through 6 {
+            &:nth-child(#{$i}) {
+                transform: rotate(#{($i - 1) * 60deg})
+                    translate($circle-radius)
+                    rotate(-#{($i - 1) * 60deg});
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            $circle-radius: 120px;
+
+            @for $i from 1 through 6 {
+                &:nth-child(#{$i}) {
+                    transform: rotate(#{($i - 1) * 60deg})
+                        translate($circle-radius)
+                        rotate(-#{($i - 1) * 60deg});
+                }
+            }
+        }
+    }
+}

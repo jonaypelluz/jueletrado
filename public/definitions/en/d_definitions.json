@@ -1,0 +1,3207 @@
+{
+    "differentiate": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something that has been differentiated or stratified.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To show, or be the distinction between two things.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To perceive the difference between things; to discriminate.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To modify, or be modified.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To calculate the derivative of a function.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To calculate the differential of a function of multiple variables.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To produce distinct organs or to achieve specific functions by a process of development called differentiation.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dignity": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The state of being dignified or worthy of esteem: elevation of mind or character.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Decorum, formality, stateliness.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "High office, rank, or station.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "One holding high rank; a dignitary.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Fundamental principle; axiom; maxim.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dilemma": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A circumstance in which a choice must be made between two or more alternatives that seem equally undesirable.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A difficult circumstance or problem.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bind, fix, pickle, problem, quandary"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "A type of syllogism of the form \"if A is true then B is true; if C is true then D is true; either A or C is true; therefore either B or D is true\".",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Offering to an opponent a choice between two (equally unfavorable) alternatives.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dimension": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A single aspect of a given thing.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A measure of spatial extent in a particular direction, such as height, width or breadth, or depth.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A construct whereby objects or individuals can be distinguished.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The number of independent coordinates needed to specify uniquely the location of a point in a space; also, any of such independent coordinates.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The number of elements of any basis of a vector space.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "One of the physical properties that are regarded as fundamental measures of a physical quantity, such as mass, length and time.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Any of the independent ranges of indices in a multidimensional array.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A universe or plane of existence.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "To mark, cut or shape something to specified dimensions.",
+                "type": "verb"
+            }
+        ]
+    },
+    "diminish": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To make smaller.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To become smaller.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To lessen the authority or dignity of; to put down; to degrade; to abase; to weaken; to nerf (in gaming).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To taper.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To disappear gradually.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To take away; to subtract.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dip": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A lower section of a road or geological feature.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Inclination downward; direction below a horizontal line; slope; pitch.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The action of dipping or plunging for a moment into a liquid.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A tank or trough where cattle or sheep are immersed in chemicals to kill parasites.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A dip stick.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A swim, usually a short swim to refresh.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A pickpocket.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A sauce for dipping.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The angle from horizontal of a planar geologic surface, such as a fault line.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A dipped candle.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A move in many different styles of partner dances, often performed at the end of a dance, in which the follower leans far to the side and is supported by the leader.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A gymnastic exercise on the parallel bars in which the performer, resting on his hands, lets his arms bend and his body sink until his chin is level with the bars, and then raises himself by straightening his arms.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "In the turpentine industry, the viscid exudation that is dipped out from incisions in the trees. Virgin dip is the runnings of the first year, yellow dip the runnings of subsequent years.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A sudden drop followed by a climb, usually to avoid obstacles or as the result of getting into an airhole.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "The moist form of snuff tobacco.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "The act of missing out on seeing a sought after bird.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "To lower into a liquid.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To immerse oneself; to become plunged in a liquid; to sink.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "(of a value or rate) To decrease slightly.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To lower a light's beam.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To lower (a flag), particularly a national ensign, to a partially hoisted position in order to render or to return a salute. While lowered, the flag is said to be “at the dip.” A flag being carried on a staff may be dipped by leaning it forward at an approximate angle of 45 degrees.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To treat cattle or sheep by immersion in chemical solution.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To use a dip stick to check oil level in an engine.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To consume snuff by placing a pinch behind the lip or under the tongue so that the active chemical constituents of the snuff may be absorbed into the system for their narcotic effect.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To immerse for baptism.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "To wet, as if by immersing; to moisten.",
+                "type": "verb"
+            },
+            {
+                "number": 27,
+                "definition": "To plunge or engage thoroughly in any affair.",
+                "type": "verb"
+            },
+            {
+                "number": 28,
+                "definition": "To take out, by dipping a dipper, ladle, or other receptacle, into a fluid and removing a part; often with out.",
+                "type": "verb"
+            },
+            {
+                "number": 29,
+                "definition": "To perform the action of plunging a dipper, ladle. etc. into a liquid or soft substance and removing a part.",
+                "type": "verb"
+            },
+            {
+                "number": 30,
+                "definition": "To engage as a pledge; to mortgage.",
+                "type": "verb"
+            },
+            {
+                "number": 31,
+                "definition": "To perform (a bow or curtsey) by inclining the body.",
+                "type": "verb"
+            },
+            {
+                "number": 32,
+                "definition": "To incline downward from the plane of the horizon.",
+                "type": "verb"
+            },
+            {
+                "number": 33,
+                "definition": "To perform a dip dance move (often phrased with the leader as the subject noun and the follower as the subject noun being dipped).",
+                "type": "verb"
+            },
+            {
+                "number": 34,
+                "definition": "To lower the body by bending the knees while keeping the body in an upright position, as in movement to the rhythm of music.",
+                "type": "verb"
+            },
+            {
+                "number": 35,
+                "definition": "To leave.",
+                "type": "verb"
+            },
+            {
+                "number": 36,
+                "definition": "To miss out on seeing a sought after bird.",
+                "type": "verb"
+            },
+            {
+                "number": 37,
+                "definition": "A foolish person.",
+                "type": "noun"
+            },
+            {
+                "number": 38,
+                "definition": "Initialism of device-independent pixel.",
+                "type": "noun"
+            },
+            {
+                "number": 39,
+                "definition": "A diplomat.",
+                "type": "noun"
+            }
+        ]
+    },
+    "diplomat": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A person, such as an ambassador, who is accredited to represent a government officially in its relations with other governments or international organisations.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Someone who uses skill and tact in dealing with other people.",
+                "type": "noun"
+            }
+        ]
+    },
+    "diplomatic": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The science of diplomas, or the art of deciphering ancient writings and determining their age, authenticity, etc.; paleography.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Concerning the relationships between the governments of countries.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Exhibiting diplomacy; exercising tact or courtesy; using discussion to avoid hard feelings, fights or arguments.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Describing a publication of a text which follows a single basic manuscript, but with variants in other manuscripts noted in the critical apparatus.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Relating to diplomatics, or the study of old texts; paleographic.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "directory": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A list of names, addresses etc, of specific classes of people or organizations, often in alphabetical order or in some classification.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A structured listing of the names and characteristics of the files on a storage device.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A virtual container in a computer's file system, in which files and other directories may be stored. The files and subdirectories in a directory are usually related.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Containing directions; instructing; directorial.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "disability": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "State of being disabled; deprivation or want of ability; absence of competent physical, intellectual, or moral power, means, fitness, and the like.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A mental condition causing a difficulty with an intellectual task.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Want of legal qualification to do a thing; legal incapacity or incompetency.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Regular payments received by a disabled person, usually from the state.",
+                "type": "noun"
+            }
+        ]
+    },
+    "disabled": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To render unable; to take away an ability of, as by crippling.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "(chiefly of a person) To impair the physical or mental abilities of; to cause a serious, permanent injury.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To deactivate, to make inoperational (especially of a function of an electronic or mechanical device).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "One who is disabled. (often used collectively as the disabled, but sometimes also singular).",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Made incapable of use or action.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Having a disability.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Legally disqualified.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "disagreement": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An argument or debate.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A condition of not agreeing or concurring.",
+                "type": "noun"
+            }
+        ]
+    },
+    "disappoint": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To sadden or displease (someone) by underperforming, or by not delivering something promised or hoped for.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To deprive (someone of something expected or hoped for).",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To fail to meet (an expectation); to fail to fulfil (a hope).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To show (an opinion, belief, etc.) to be mistaken.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To prevent (something planned or attempted).",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "frustrate, thwart"
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "definition": "Disappointed.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "disappointment": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A feeling of sadness or frustration when a strongly held expectation is not met.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A circumstance in which a strongly held expectation is not met.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "That which causes feelings of disappointment.",
+                "type": "noun"
+            }
+        ]
+    },
+    "disastrous": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Of the nature of a disaster; calamitous.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Foreboding disaster; ill-omened.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "discard": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Anything discarded.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A discarded playing card in a card game.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A temporary variable used to receive a value of no importance and unable to be read later.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To throw away, to reject.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To make a discard; to throw out a card.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To dismiss from employment, confidence, or favour; to discharge.",
+                "type": "verb"
+            }
+        ]
+    },
+    "disclose": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A disclosure.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To open up, unfasten.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To uncover, physically expose to view.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "reveal, unveil"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "To expose to the knowledge of others; to make known, state openly, reveal.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "divulge, impart, publish, reveal, unveil"
+                    }
+                ]
+            }
+        ]
+    },
+    "disclosure": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of revealing something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The making known of a previously hidden fact or series of facts to another party; the act of disclosing.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A previously hidden fact or series of facts that is made known.",
+                "type": "noun"
+            }
+        ]
+    },
+    "discourage": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Lack of courage.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To extinguish the courage of; to dishearten; to depress the spirits of; to deprive of confidence; to deject.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To persuade somebody not to do (something).",
+                "type": "verb"
+            }
+        ]
+    },
+    "discourse": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Verbal exchange, conversation.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Expression in words, either speech or writing.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A formal lengthy exposition of some subject, either spoken or written.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Any rational expression, reason.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "An institutionalized way of thinking, a social boundary defining what can be said about a specific topic (after Michel Foucault).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Dealing; transaction.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "To engage in discussion or conversation; to converse.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To write or speak formally and at length.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To debate.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To exercise reason; to employ the mind in judging and inferring; to reason.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To produce or emit (musical sounds).",
+                "type": "verb"
+            }
+        ]
+    },
+    "discretion": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The quality of being discreet or circumspect.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The ability to make wise choices or decisions.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The freedom to make one's own judgements.",
+                "type": "noun"
+            }
+        ]
+    },
+    "discrimination": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Discernment, the act of discriminating, discerning, distinguishing, noting or perceiving differences between things, with intent to understand rightly and make correct decisions.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of recognizing the 'good' and 'bad' in situations and choosing good.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(sometimes discrimination against) Distinct treatment of an individual or group to their disadvantage; treatment or consideration based on class or category rather than individual merit; partiality; prejudice; bigotry.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The quality of being discriminating, acute discernment, specifically in a learning situation; as to show great discrimination in the choice of means.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "That which discriminates; mark of distinction, a characteristic.",
+                "type": "noun"
+            }
+        ]
+    },
+    "discharge": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Pus or exudate (other than blood) from a wound or orifice, usually due to infection or pathology.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of accomplishing (an obligation) or repaying a debt etc.; performance.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The act of expelling or letting go.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The act of firing a projectile, especially from a firearm.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "firing"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "The process of unloading something.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The process of flowing out.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The act of releasing an accumulated charge.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "The act of releasing an inpatient from hospital.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The act of releasing a member of the armed forces from service.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "The volume of water transported by a river in a certain amount of time, usually in units of m3/s (cubic meters per second).",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "To accomplish or complete, as an obligation.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To free of a debt, claim, obligation, responsibility, accusation, etc.; to absolve; to acquit; to forgive; to clear.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To send away (a creditor) satisfied by payment; to pay one's debt or obligation to.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To set aside; to annul; to dismiss.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To expel or let go.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To let fly, as a missile; to shoot.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To release (an accumulated charge).",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To relieve of an office or employment; to send away from service; to dismiss.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fire, let go, terminate"
+                    }
+                ]
+            },
+            {
+                "number": 19,
+                "definition": "To release legally from confinement; to set at liberty.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To operate (any weapon that fires a projectile, such as a shotgun or sling).",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To release (an auxiliary assumption) from the list of assumptions used in arguments, and return to the main argument.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To unload a ship or another means of transport.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To put forth, or remove, as a charge or burden; to take out, as that with which anything is loaded or filled.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To give forth; to emit or send out.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To let fly; to give expression to; to utter.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "To bleach out or to remove or efface, as by a chemical process.",
+                "type": "verb"
+            },
+            {
+                "number": 27,
+                "definition": "To prohibit; to forbid.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dismissal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The act of sending someone away.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Deprivation of office; the fact or process of being fired from employment or stripped of rank.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A written or spoken statement of such an act.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Release from confinement; liberation.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "Removal from consideration; putting something out of one's mind, mentally disregarding something or someone.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "The rejection of a legal proceeding, or a claim or charge made therein.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "The event of a batsman getting out; a wicket.",
+                "type": "noun"
+            }
+        ]
+    },
+    "disorder": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Absence of order; state of not being arranged in an orderly manner.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A disturbance of civic peace or of public order.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A physical or mental malfunction.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To throw into a state of disorder.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To knock out of order or sequence.",
+                "type": "verb"
+            }
+        ]
+    },
+    "displace": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To put out of place; to disarrange.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To move something, or someone, especially to forcibly move people from their homeland.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To supplant, or take the place of something or someone; to substitute.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To replace, on account of being superior to or more suitable than that which is being replaced.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(of a floating ship) To have a weight equal to that of the water displaced.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To repress.",
+                "type": "verb"
+            }
+        ]
+    },
+    "disposal": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An arrangement, categorization or classification of things.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A disposing of or getting rid of something.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The power to use something or someone.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dispose": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The disposal or management of something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Behaviour; disposition.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(used with \"of\") To eliminate or to get rid of something.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To distribute or arrange; to put in place.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To deal out; to assign to a use.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To incline.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To bargain; to make terms.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To regulate; to adjust; to settle; to determine.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dispute": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An argument or disagreement, a failure to agree.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Verbal controversy or disagreement; altercation; debate.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "To contend in argument; to argue against something maintained, upheld, or claimed, by another.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To make a subject of disputation; to argue pro and con; to discuss.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To oppose by argument or assertion; to controvert; to express dissent or opposition to; to call in question; to deny the truth or validity of.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To strive or contend about; to contest.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To struggle against; to resist.",
+                "type": "verb"
+            }
+        ]
+    },
+    "disrupt": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To throw into confusion or disorder.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To interrupt or impede.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To improve a product or service in ways that displace an established one and surprise the market.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Torn off or torn asunder; severed; disrupted.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "disruption": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An interruption to the regular flow or sequence of something.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A continuing act of disorder.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A breaking or bursting apart; a breach.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dissolve": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A form of film punctuation in which there is a gradual transition from one scene to the next.",
+                "type": "noun",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fade out"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "To terminate a union of multiple members actively, as by disbanding.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "establish, found"
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "definition": "To destroy, make disappear.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To liquify, melt into a fluid.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "formelt, melt"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "To be melted, changed into a fluid.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To disintegrate chemically into a solution by immersion into a liquid or gas.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To be disintegrated by such immersion.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To disperse, drive apart a group of persons.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To break the continuity of; to disconnect; to loosen; to undo; to separate.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To annul; to rescind; to discharge or release.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To shift from one shot to another by having the former fade out as the latter fades in.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "fade out"
+                    }
+                ]
+            },
+            {
+                "number": 12,
+                "definition": "To resolve itself as by dissolution.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To solve; to clear up; to resolve.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To relax by pleasure; to make powerless.",
+                "type": "verb"
+            }
+        ]
+    },
+    "distant": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Far off (physically, logically or mentally).",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Emotionally unresponsive or unwilling to express genuine feelings.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "distinct": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Capable of being perceived very clearly.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Different from one another (with the preferable adposition being \"from\").",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Noticeably different from others; distinctive.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Separate in place; not conjunct or united; with from.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Distinguished; having the difference marked; separated by a visible sign; marked out; specified.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Marked; variegated.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "distinction": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "That which distinguishes; a single occurrence of a determining factor or feature, the fact of being divided; separation, discrimination.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of distinguishing, discriminating; discrimination.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Specifically, a feature that causes someone or something to stand out as being better; a mark of honour, rank, eminence or excellence; being distinguished.",
+                "type": "noun"
+            }
+        ]
+    },
+    "distinctive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A distinctive thing: a quality or property permitting distinguishing; a characteristic.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(Hebrew grammar) A distinctive accent.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A distinctive belief, tenet, or dogma of a denomination or sect.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Distinguishing, used to or enabling the distinguishing of some thing.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Discriminating, discerning, having the ability to distinguish between things.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Characteristic, typical.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Distinguished, being distinct in character or position.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "(Hebrew grammar, of accents) Used to separate clauses in place of stops.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "(of sounds) Distinguishing a particular sense of word.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "distinguish": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To recognize someone or something as different from others based on its characteristics.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To see someone or something clearly or distinctly.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To make oneself noticeably different or better from others through accomplishments.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To make to differ.",
+                "type": "verb"
+            }
+        ]
+    },
+    "distort": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To bring something out of shape, to misshape.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To become misshapen.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To give a false or misleading account of.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Distorted; misshapen.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "distract": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To divert the attention of.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To make crazy or insane; to drive to distraction.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "Separated; drawn asunder.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Insane; mad.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "distress": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(Cause of) discomfort.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Serious danger.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "An aversive state of stress to which a person cannot fully adapt.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A seizing of property without legal process to force payment of a debt.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The thing taken by distraining; that which is seized to procure satisfaction.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "To cause strain or anxiety to someone.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "anguish, harrow, martyr, tantalise, tantalize, torment, trouble, vex"
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "definition": "To retain someone’s property against the payment of a debt; to distrain.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "distrain"
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "definition": "To treat a new object to give it an appearance of age.",
+                "type": "verb",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "age, antique, patinate"
+                    }
+                ]
+            }
+        ]
+    },
+    "disturb": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Disturbance.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "To confuse a quiet, constant state or a calm, continuous flow, in particular: thoughts, actions or liquids.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To divert, redirect, or alter by disturbing.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To have a negative emotional impact; to cause emotional distress or confusion.",
+                "type": "verb"
+            }
+        ]
+    },
+    "disturbing": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To confuse a quiet, constant state or a calm, continuous flow, in particular: thoughts, actions or liquids.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To divert, redirect, or alter by disturbing.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To have a negative emotional impact; to cause emotional distress or confusion.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "Causing distress or worry; upsetting or unsettling.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "dive": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A jump or plunge into water.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A headfirst jump toward the ground or into another substance.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A downward swooping motion.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A swim under water.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A decline.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A seedy bar, nightclub, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Aerial descent with the nose pointed down.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A deliberate fall after a challenge.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "To swim under water.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To jump into water head-first.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To jump headfirst toward the ground or into another substance.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To descend sharply or steeply.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "(especially with in) To undertake with enthusiasm.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To deliberately fall down after a challenge, imitating being fouled, in the hope of getting one's opponent penalised.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To cause to descend, dunk; to plunge something into water.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To explore by diving; to plunge into.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To plunge or to go deeply into any subject, question, business, etc.; to penetrate; to explore.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "Any female celebrity, usually a well known singer or actress.",
+                "type": "noun"
+            },
+            {
+                "number": 19,
+                "definition": "A person who may be considered or who considers herself (or by extension himself) much more important than others, has high expectations of others and who is extremely demanding and fussy when it comes to personal privileges.",
+                "type": "noun"
+            },
+            {
+                "number": 20,
+                "definition": "A supernatural entity of disagreeable nature.",
+                "type": "noun"
+            }
+        ]
+    },
+    "diverse": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Consisting of many different elements; various.",
+                "type": "adjective"
+            },
+            {
+                "number": 2,
+                "definition": "Different; dissimilar; distinct; not the same.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "Capable of various forms; multiform.",
+                "type": "adjective"
+            },
+            {
+                "number": 4,
+                "definition": "Composed of people with a variety of different demographic characteristics in terms of, for example, ethnicity, gender, sexual orientation, socioeconomic status, etc., and having a sizeable representation of people that are minorities in a given area.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Belonging to a minority group.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "In different directions; diversely.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "diversity": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The quality of being diverse or different; difference or unlikeness.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A variety; diverse types or examples.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Equal-opportunity inclusion.",
+                "type": "noun"
+            }
+        ]
+    },
+    "divert": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To turn aside from a course.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To distract.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To entertain or amuse (by diverting the attention).",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To turn aside; to digress.",
+                "type": "verb"
+            }
+        ]
+    },
+    "divine": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One skilled in divinity; a theologian.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A minister of the gospel; a priest; a clergyman.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(often capitalized, with 'the') God or a god, particularly in its aspect as a transcendental concept.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Of or pertaining to a god.",
+                "type": "adjective"
+            },
+            {
+                "number": 5,
+                "definition": "Eternal, holy, or otherwise godlike.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Of superhuman or surpassing excellence.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Beautiful, heavenly.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Foreboding; prescient.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "(of souls) immortal; elect or saved after death.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Relating to divinity or theology.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "To foretell (something), especially by the use of divination.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To guess or discover (something) through intuition or insight.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To search for (underground objects or water) using a divining rod.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To render divine; to deify.",
+                "type": "verb"
+            }
+        ]
+    },
+    "divorce": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The legal dissolution of a marriage.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A separation of connected things.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "That which separates.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "To legally dissolve a marriage between two people.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "To end one's own marriage to (a person) in this way.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To obtain a legal divorce.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To separate something that was connected.",
+                "type": "verb"
+            }
+        ]
+    },
+    "doctrine": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A belief or tenet, especially about philosophical or theological matters.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The body of teachings of an ideology, most often a religion, or of an ideological or religious leader, organization, group or text.",
+                "type": "noun"
+            }
+        ]
+    },
+    "documentation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Something transposed from a thought to a document; the written account of an idea.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Documentary evidence and sources.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Documents that explain the operation of a particular machine or software program.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Comments that explain the usage of individual functions, libraries and blocks of code.",
+                "type": "noun"
+            }
+        ]
+    },
+    "domain": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A geographic area owned or controlled by a single person or organization.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A field or sphere of activity, influence or expertise.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A group of related items, topics, or subjects.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The set of all possible mathematical entities (points) where a given function is defined.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The set of input (argument) values for which a function is defined.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A ring with no zero divisors; that is, in which no product of nonzero elements is zero.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "An open and connected set in some topology. For example, the interval (0,1) as a subset of the real numbers.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Any DNS domain name, particularly one which has been delegated and has become representative of the delegated domain name and its subdomains.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "A collection of DNS or DNS-like domain names consisting of a delegated domain name and all its subdomains.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A collection of information having to do with a domain, the computers named in the domain, and the network on which the computers named in the domain reside.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "The collection of computers identified by a domain's domain names.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A small region of a magnetic material with a consistent magnetization direction.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "Such a region used as a data storage element in a bubble memory.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "(data processing) A form of technical metadata that represent the type of a data item, its characteristics, name, and usage.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "The highest rank in the classification of organisms, above kingdom; in the three-domain system, one of the taxa Bacteria, Archaea, or Eukaryota.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "A folded section of a protein molecule that has a discrete function; the equivalent section of a chromosome.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dominance": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The state of being dominant; of prime importance; supremacy.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Being in a position of power, authority or ascendancy over others.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The superior development of or preference for one side of the body or one of a pair of organs; such as being right-handed.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The property of a gene such that it suppresses the expression of its allele.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dominant": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The fifth major tone of a musical scale (five major steps above the note in question); thus G is the dominant of C, A of D, and so on.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The triad built on the dominant tone.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A gene that is dominant.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A species or organism that is dominant.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(BDSM) The dominating partner in sadomasochistic sexual activity.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Ruling; governing; prevailing.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Predominant, common, prevalent, of greatest importance.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Designating the follicle which will survive atresia and permit ovulation.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "donation": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A voluntary gift or contribution for a specific cause.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act of giving or bestowing; a grant.",
+                "type": "noun"
+            }
+        ]
+    },
+    "donor": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "One who makes a donation.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A group or molecule that donates either a radical, electrons or a moiety in a chemical reaction. Compare acceptor.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dot": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A small, round spot.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(grammar) A punctuation mark used to indicate the end of a sentence or an abbreviated part of a word; a full stop; a period.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A point used as a diacritical mark above or below various letters of the Latin script, as in Ȧ, Ạ, Ḅ, Ḃ, Ċ.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A symbol used for separating the fractional part of a decimal number from the whole part, for indicating multiplication or a scalar product, or for various other purposes.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "One of the two symbols used in Morse code.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A lump or clot.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "Anything small and like a speck comparatively; a small portion or specimen.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "A dot ball.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "Buckshot, projectile from a \"dotty\" or shotgun.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "To cover with small spots (of some liquid).",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To add a dot (the symbol) or dots to.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To mark by means of dots or small spots.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To mark or diversify with small detached objects.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To punch (a person).",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "Dot product of the previous vector and the following vector.",
+                "type": "preposition"
+            },
+            {
+                "number": 16,
+                "definition": "A dowry.",
+                "type": "noun"
+            }
+        ]
+    },
+    "downtown": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The main business part of a city or town, usually located at or near its center.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Of, relating to, or situated in the central business district.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "In or towards the central business district.",
+                "type": "adverb"
+            },
+            {
+                "number": 4,
+                "definition": "Outside the three-point line, or generally far from the basket.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "drain": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A conduit allowing liquid to flow out of an otherwise contained volume; a plughole (UK).",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "An access point or conduit for rainwater that drains directly downstream in a (drainage) basin without going through sewers or water treatment in order to prevent or belay floods.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Something consuming resources and providing nothing in return.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An act of urination.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "One terminal of a field effect transistor (FET).",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "An outhole.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A drink.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To lose liquid.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To flow gradually.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To cause liquid to flow out of.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To convert a perennially wet place into a dry one.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To deplete of energy or resources.",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To draw off by degrees; to cause to flow gradually out or off; hence, to exhaust.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To filter.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To fall off the bottom of the playfield.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dramatically": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "In a dramatic manner.",
+                "type": "adverb"
+            }
+        ]
+    },
+    "drift": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "(physical) Movement; that which moves or is moved.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "The act or motion of drifting; the force which impels or drives; an overpowering influence or impulse.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A place (a ford) along a river where the water is shallow enough to permit crossing to the opposite side.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "The tendency of an act, argument, course of conduct, or the like; object aimed at or intended; intention; hence, also, import or meaning of a sentence or discourse; aim.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "The horizontal thrust or pressure of an arch or vault upon the abutments.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "(handiwork) A tool.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "A deviation from the line of fire, peculiar to oblong projectiles.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "Minor deviation of audio or video playback from its correct speed.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "The situation where a performer gradually and unintentionally moves from their proper location within the scene.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "A passage driven or cut between shaft and shaft; a driftway; a small subterranean gallery; an adit or tunnel.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "Movement.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A sideways movement of the ball through the air, when bowled by a spin bowler.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "Slow, cumulative change.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "To move slowly, especially pushed by currents of water, air, etc.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To move haphazardly without any destination.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To deviate gently from the intended direction of travel.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To drive or carry, as currents do a floating body.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To drive into heaps.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To accumulate in heaps by the force of wind; to be driven into heaps.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To make a drift; to examine a vein or ledge for the purpose of ascertaining the presence of metals or ores; to follow a vein; to prospect.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To enlarge or shape, as a hole, with a drift.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To oversteer a vehicle, causing loss of traction, while maintaining control from entry to exit of a corner. See Drifting (motorsport).",
+                "type": "verb"
+            }
+        ]
+    },
+    "driving": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To provide an impetus for motion or other physical change, to move an object by means of the provision of force thereto.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To provide an impetus for a non-physical change, especially a change in one's state of mind.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To displace either physically or non-physically, through the application of force.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To cause intrinsic motivation through the application or demonstration of force: to impel or urge onward thusly, to compel to move on, to coerce, intimidate or threaten.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(especially of animals) To impel or urge onward by force; to push forward; to compel to move on.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To direct a vehicle powered by a horse, ox or similar animal.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To cause animals to flee out of.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To move (something) by hitting it with great force.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To cause (a mechanism) to operate.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "To operate (a wheeled motorized vehicle).",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "To motivate; to provide an incentive for.",
+                "type": "verb"
+            },
+            {
+                "number": 12,
+                "definition": "To compel (to do something).",
+                "type": "verb"
+            },
+            {
+                "number": 13,
+                "definition": "To cause to become.",
+                "type": "verb"
+            },
+            {
+                "number": 14,
+                "definition": "To hit the ball with a drive.",
+                "type": "verb"
+            },
+            {
+                "number": 15,
+                "definition": "To travel by operating a wheeled motorized vehicle.",
+                "type": "verb"
+            },
+            {
+                "number": 16,
+                "definition": "To convey (a person, etc) in a wheeled motorized vehicle.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To move forcefully.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To be moved or propelled forcefully (especially of a ship).",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To urge, press, or bring to a point or state.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To carry or to keep in motion; to conduct; to prosecute.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To clear, by forcing away what is contained.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To dig horizontally; to cut a horizontal gallery or tunnel.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To put together a drive (n.): to string together offensive plays and advance the ball down the field.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To distrain for rent.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "To separate the lighter (feathers or down) from the heavier, by exposing them to a current of air.",
+                "type": "verb"
+            },
+            {
+                "number": 26,
+                "definition": "To be the dominant party in a sex act.",
+                "type": "verb"
+            },
+            {
+                "number": 27,
+                "definition": "That drives (a mechanism or process).",
+                "type": "adjective"
+            },
+            {
+                "number": 28,
+                "definition": "Of wind, rain, etc That drives forcefully; strong; forceful; violent.",
+                "type": "adjective"
+            },
+            {
+                "number": 29,
+                "definition": "The action of the verb to drive in any sense.",
+                "type": "noun"
+            },
+            {
+                "number": 30,
+                "definition": "In particular, the action of operating a motor vehicle.",
+                "type": "noun"
+            }
+        ]
+    },
+    "drought": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A period of unusually low rainfall, longer and more severe than a dry spell.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(by extension) A longer than expected term without success, particularly in sport.",
+                "type": "noun"
+            }
+        ]
+    },
+    "drown": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To die from suffocation while immersed in water or other fluid.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To kill by suffocating in water or another liquid.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To be flooded: to be inundated with or submerged in (literally) water or (figuratively) other things; to be overwhelmed.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To inundate, submerge, overwhelm.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(usually passive) To obscure, particularly amid an overwhelming volume of other items.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dual": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Of an item that is one of a pair, the other item in the pair.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Of a regular polyhedron with V vertices and F faces, the regular polyhedron having F vertices and V faces.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(grammar) dual number The grammatical number of a noun marking two of something (as in singular, dual, plural), sometimes referring to two of anything (a couple of, exactly two of), or a chirality-marked pair (as in left and right, as with gloves or shoes) or in some languages as a discourse marker, \"between you and me\". A few languages display trial number.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "Of a vector in an inner product space, the linear functional corresponding to taking the inner product with that vector. The set of all duals is a vector space called the dual space.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "To convert from single to dual; specifically, to convert a single-carriageway road to a dual carriageway.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "Exhibiting duality; characterized by having two (usually equivalent) components.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Acting as a counterpart.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Double.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "(grammar) Pertaining to grammatical number (as in singular and plural), referring to two of something, such as a pair of shoes, in the context of the singular, plural and, in some languages, trial grammatical number.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Being the space of all linear functionals of (some other space).",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Being the dual of some other category; containing the same objects but with source and target reversed for all morphisms.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "dub": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To confer knighthood; the conclusion of the ceremony was marked by a tap on the shoulder with a sword.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To name, to entitle, to call.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To deem.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To clothe or invest; to ornament; to adorn.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "(heading) To strike, rub, or dress smooth; to dab.",
+                "type": "verb"
+            },
+            {
+                "number": 6,
+                "definition": "To prepare (a gamecock) for fighting, by trimming the hackles and cutting off the comb and wattles.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "A blow, thrust, or poke.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "To make a noise by brisk drumbeats.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To do something badly.",
+                "type": "verb"
+            },
+            {
+                "number": 10,
+                "definition": "In golf, to execute a shot poorly.",
+                "type": "verb"
+            },
+            {
+                "number": 11,
+                "definition": "An unskillful, awkward person.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A mostly instrumental remix with all or part of the vocals removed.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "A style of reggae music involving mixing of different audio tracks.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A trend in music starting in 2009, in which bass distortion is synced off timing to electronic dance music.",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A piece of graffiti in metallic colour with a thick black outline.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "The replacement of a voice part in a movie or cartoon, particularly with a translation; an instance of dubbing.",
+                "type": "noun"
+            },
+            {
+                "number": 17,
+                "definition": "To add sound to film or change audio on film.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To make a copy from an original or master audio tape.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To replace the original soundtrack of a film with a synchronized translation.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To mix audio tracks to produce a new sound; to remix.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "A pool or puddle.",
+                "type": "noun"
+            },
+            {
+                "number": 22,
+                "definition": "A twenty dollar sack of marijuana.",
+                "type": "noun"
+            },
+            {
+                "number": 23,
+                "definition": "A wheel rim measuring 20 inches or more.",
+                "type": "noun"
+            },
+            {
+                "number": 24,
+                "definition": "A lock.",
+                "type": "noun"
+            },
+            {
+                "number": 25,
+                "definition": "A key, especially a master key; a lockpick.",
+                "type": "noun"
+            },
+            {
+                "number": 26,
+                "definition": "To open or close.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dull": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "To render dull; to remove or blunt an edge or something that was sharp.",
+                "type": "verb"
+            },
+            {
+                "number": 2,
+                "definition": "To soften, moderate or blunt; to make dull, stupid, or sluggish; to stupefy.",
+                "type": "verb"
+            },
+            {
+                "number": 3,
+                "definition": "To lose a sharp edge; to become dull.",
+                "type": "verb"
+            },
+            {
+                "number": 4,
+                "definition": "To render dim or obscure; to sully; to tarnish.",
+                "type": "verb"
+            },
+            {
+                "number": 5,
+                "definition": "Lacking the ability to cut easily; not sharp.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "Boring; not exciting or interesting.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Not shiny; having a matte finish or no particular luster or brightness.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Not bright or intelligent; stupid; having slow understanding.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Sluggish, listless.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Cloudy, overcast.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Insensible; unfeeling.",
+                "type": "adjective"
+            },
+            {
+                "number": 12,
+                "definition": "Heavy; lifeless; inert.",
+                "type": "adjective"
+            },
+            {
+                "number": 13,
+                "definition": "(of pain etc) Not intense; felt indistinctly or only slightly.",
+                "type": "adjective"
+            },
+            {
+                "number": 14,
+                "definition": "(of a noise or sound) Not clear, muffled.",
+                "type": "adjective"
+            }
+        ]
+    },
+    "dumb": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Unable to speak; lacking power of speech (kept in \"deaf, dumb, and blind\").",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "dumbstruck, mute, speechless, wordless"
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "definition": "Silent; unaccompanied by words.",
+                "type": "adjective"
+            },
+            {
+                "number": 3,
+                "definition": "(especially of a person) Extremely stupid.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "feeble-minded, idiotic, moronic, stupid"
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "definition": "Pointless, foolish, lacking intellectual content or value.",
+                "type": "adjective",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "banal, brainless, dopey, ridiculous, silly, stupid, vulgar"
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "definition": "Lacking brightness or clearness, as a colour.",
+                "type": "adjective"
+            },
+            {
+                "number": 6,
+                "definition": "To silence.",
+                "type": "verb"
+            },
+            {
+                "number": 7,
+                "definition": "To make stupid.",
+                "type": "verb"
+            },
+            {
+                "number": 8,
+                "definition": "To represent as stupid.",
+                "type": "verb"
+            },
+            {
+                "number": 9,
+                "definition": "To reduce the intellectual demands of.",
+                "type": "verb"
+            }
+        ]
+    },
+    "dump": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A place where waste or garbage is left; a ground or place for dumping ashes, refuse, etc.; a disposal site.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A car or boat for dumping refuse, etc.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "That which is dumped, especially in a chaotic way; a mess.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "An act of dumping, or its result.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "A formatted listing of the contents of program storage, especially when produced automatically by a failing program.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "A storage place for supplies, especially military.",
+                "type": "noun"
+            },
+            {
+                "number": 7,
+                "definition": "An unpleasant, dirty, disreputable, unfashionable, boring or depressing looking place.",
+                "type": "noun"
+            },
+            {
+                "number": 8,
+                "definition": "(often with the verb \"take\") An act of defecation; a defecating.",
+                "type": "noun"
+            },
+            {
+                "number": 9,
+                "definition": "(usually in the plural) A sad, gloomy state of the mind; sadness; melancholy; despondency.",
+                "type": "noun"
+            },
+            {
+                "number": 10,
+                "definition": "Absence of mind; revery.",
+                "type": "noun"
+            },
+            {
+                "number": 11,
+                "definition": "A pile of ore or rock.",
+                "type": "noun"
+            },
+            {
+                "number": 12,
+                "definition": "A melancholy strain or tune in music; any tune.",
+                "type": "noun"
+            },
+            {
+                "number": 13,
+                "definition": "An old kind of dance.",
+                "type": "noun"
+            },
+            {
+                "number": 14,
+                "definition": "A small coin made by punching a hole in a larger coin (called a holey dollar).",
+                "type": "noun"
+            },
+            {
+                "number": 15,
+                "definition": "A temporary display case that holds many copies of an item being sold.",
+                "type": "noun"
+            },
+            {
+                "number": 16,
+                "definition": "To release, especially in large quantities and chaotic manner.",
+                "type": "verb"
+            },
+            {
+                "number": 17,
+                "definition": "To discard; to get rid of something one does not want anymore.",
+                "type": "verb"
+            },
+            {
+                "number": 18,
+                "definition": "To sell below cost or very cheaply; to engage in dumping.",
+                "type": "verb"
+            },
+            {
+                "number": 19,
+                "definition": "To copy data from a system to another place or system, usually in order to archive it.",
+                "type": "verb"
+            },
+            {
+                "number": 20,
+                "definition": "To output the contents of storage or a data structure, often in order to diagnose a bug.",
+                "type": "verb"
+            },
+            {
+                "number": 21,
+                "definition": "To end a relationship with.",
+                "type": "verb"
+            },
+            {
+                "number": 22,
+                "definition": "To knock heavily; to stump.",
+                "type": "verb"
+            },
+            {
+                "number": 23,
+                "definition": "To put or throw down with more or less of violence; hence, to unload from a cart by tilting it.",
+                "type": "verb"
+            },
+            {
+                "number": 24,
+                "definition": "To precipitate (especially snow) heavily.",
+                "type": "verb"
+            },
+            {
+                "number": 25,
+                "definition": "A thick, ill-shapen piece.",
+                "type": "noun"
+            },
+            {
+                "number": 26,
+                "definition": "A lead counter used in the game of chuck-farthing.",
+                "type": "noun"
+            },
+            {
+                "number": 27,
+                "definition": "A deep hole in a river bed; a pool.",
+                "type": "noun"
+            }
+        ]
+    },
+    "duo": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Two people who work or collaborate together as partners; especially, those who perform music together.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "Any pair of two people.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "Any cocktail consisting of a spirit and a liqueur.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A song in two parts; a duet.",
+                "type": "noun"
+            }
+        ]
+    },
+    "duration": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "An amount of time or a particular time interval.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(in the singular, not followed by \"of\") The time taken for the current situation to end, especially the current war.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "A measure of the sensitivity of the price of a financial asset to changes in interest rates, computed for a simple bond as a weighted average of the maturities of the interest and principal payments associated with it.",
+                "type": "noun"
+            }
+        ]
+    },
+    "dynamic": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A characteristic or manner of an interaction; a behavior.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A moving force.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "The varying loudness or volume of a song or the markings that indicate the loudness.",
+                "type": "noun"
+            },
+            {
+                "number": 4,
+                "definition": "A symbol in a musical score that indicates the desired level of volume.",
+                "type": "noun"
+            },
+            {
+                "number": 5,
+                "definition": "(grammar) A verb that indicates continued or progressive action on the part of the subject.",
+                "type": "noun"
+            },
+            {
+                "number": 6,
+                "definition": "Changing; active; in motion.",
+                "type": "adjective"
+            },
+            {
+                "number": 7,
+                "definition": "Powerful; energetic.",
+                "type": "adjective"
+            },
+            {
+                "number": 8,
+                "definition": "Able to change and adapt.",
+                "type": "adjective"
+            },
+            {
+                "number": 9,
+                "definition": "Having to do with the volume of sound.",
+                "type": "adjective"
+            },
+            {
+                "number": 10,
+                "definition": "Happening at runtime instead of being predetermined at compile time.",
+                "type": "adjective"
+            },
+            {
+                "number": 11,
+                "definition": "Pertaining to dynamics, the branch of mechanics concerned with the effects of forces on the motion of objects.",
+                "type": "adjective"
+            },
+            {
+                "number": 12,
+                "definition": "(grammar) Of a verb: not stative, but fientive; indicating continued or progressive action on the part of the subject.",
+                "type": "adjective"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+@import '@styles/variables.scss';
+@import '@styles/common.scss';
+
+.spelling-rules-wrapper {
+    @extend .game-wrapper;
+    background-color: #fff;
+    padding: 24px;
+
+    h3.ant-typography {
+        margin-top: 6px;
+    }
+}
