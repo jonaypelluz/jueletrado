@@ -1,0 +1,29 @@
+name: Test dependabot PR
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.actor == 'dependabot[bot]'
+    steps:
+        - name: Checkout
+          uses: actions/checkout@v4
+        - name: Setup Node
+          uses: actions/setup-node@v4
+          with:
+            node-version: '22.22'
+            cache: yarn
+        - name: Restore cache
+          uses: actions/cache@v4
+          with:
+              path: node_modules
+              key: yarn-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+              restore-keys: |
+                yarn-${{ hashFiles('**/yarn.lock') }}-
+        - name: Install Dependencies
+          run: yarn install
+
+        - name: Build App
+          run: yarn build

@@ -26,8 +26,10 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# local env files
+# local env files (generated via "make build" / copy_env.sh)
+.env
 .env*.local
+.env.production
 
 # typescript
 *.tsbuildinfo
