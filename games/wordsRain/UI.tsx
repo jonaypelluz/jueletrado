@@ -2,13 +2,11 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button, Typography } from 'antd';
 import { GameConfig, RainWordItem } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
 import LoadingScreen from '@components/LoadingScreen';
-
-const { Text } = Typography;
+import '@styles/Buttons.scss';
 
 type WordsRainUIProps = {
     gameConfig: GameConfig;
@@ -53,17 +51,11 @@ const UI: React.FC<WordsRainUIProps> = ({
                 subtitle={gameConfig.description}
             >
                 {showButton && (
-                    <Button
-                        type="primary"
-                        style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
-                        onClick={handleGameStartClick}
-                    >
+                    <button className="btn-primary game-btn" onClick={handleGameStartClick}>
                         <FormattedMessage id="gamePlay" />
-                    </Button>
+                    </button>
                 )}
-                {timer > 0 && (
-                    <p style={{ fontSize: '24px', fontWeight: '800' }}>{timer} segundos</p>
-                )}
+                {timer > 0 && <p className="game-timer">{timer} segundos</p>}
             </Hero>
             <div className="words-rain-wrapper" ref={wrapperRef}>
                 {showButton && incorrectWords.length === 0 && (
@@ -75,16 +67,12 @@ const UI: React.FC<WordsRainUIProps> = ({
                     <>
                         {fallingWords}
                         <div className="words-rain-points">
-                            <Text style={{ fontSize: '12px' }}>Velocidad</Text>
-                            <Text strong style={{ fontSize: '24px', lineHeight: '0.8' }}>
-                                {speed}
-                            </Text>
+                            <span className="label">Velocidad</span>
+                            <span className="value">{speed}</span>
                         </div>
                         <div className="words-rain-lifes">
                             <div id="heart">
-                                <Text strong style={{ fontSize: '24px', color: '#fff' }}>
-                                    {hearts}
-                                </Text>
+                                <span>{hearts}</span>
                             </div>
                         </div>
                     </>

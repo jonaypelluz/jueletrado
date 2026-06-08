@@ -2,11 +2,11 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button } from 'antd';
 import { ICell } from '@models/interfaces';
 import { GameConfig, SelectedWord } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
+import '@styles/Buttons.scss';
 
 type CrossWordPuzzleUIProps = {
     gameConfig: GameConfig;
@@ -48,15 +48,12 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                {/* {!isGameStarted && ( */}
-                <Button
-                    type="primary"
-                    style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
+                <button
+                    className="btn-primary game-btn"
                     onClick={handleGameStartClick}
                 >
                     <FormattedMessage id="gamePlay" />
-                </Button>
-                {/* )} */}
+                </button>
             </Hero>
             {isGameStarted ? (
                 <div className="crossword-container">

@@ -22,10 +22,8 @@ code {
     align-items: center;
     padding: 24px;
 
-    .ant-typography {
-        &.powered {
-            text-align: right;
-        }
+    .powered {
+        text-align: right;
     }
 
     div {
@@ -40,10 +38,6 @@ code {
             }
         }
     }
-
-    .ant-select .ant-select-selection-item {
-        overflow: unset !important;
-    }
 }
 
 .content-wrapper {
@@ -52,6 +46,16 @@ code {
     @media only screen and (max-width: 479px) {
         padding: 24px 0;
     }
+}
+
+.locale-select {
+    width: 120px;
+    margin-left: 20px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .buy-m-a-coffee {
@@ -65,21 +69,7 @@ code {
     }
 }
 
-// Antd Overrides
-.ant-card {
-    .ant-card-meta-title {
-        white-space: pre-line;
-        line-height: 1.2;
-    }
-
-    @media only screen and (max-width: 479px) {
-        .ant-card-body {
-            padding: 12px;
-        }
-    }
-}
-
-main.ant-layout-content {
+main {
     max-width: 1620px;
     margin: 0 auto;
     padding: 100px 20px 40px;

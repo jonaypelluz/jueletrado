@@ -1,10 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Typography } from 'antd';
-import './Hero.scss';
-
-const { Title, Paragraph, Text } = Typography;
+import '@styles/Hero.scss';
 
 interface HeroProps {
     title: string;
@@ -27,12 +24,8 @@ const Hero: React.FC<HeroProps> = ({ title, subtitle, image, styles, className, 
                 </div>
             )}
             <div>
-                <Title>{title}</Title>
-                {subtitle && (
-                    <Paragraph>
-                        <Text>{subtitle}</Text>
-                    </Paragraph>
-                )}
+                <h1>{title}</h1>
+                {subtitle && <p>{subtitle}</p>}
                 {children}
             </div>
         </div>

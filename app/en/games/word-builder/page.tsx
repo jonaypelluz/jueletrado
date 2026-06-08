@@ -6,7 +6,7 @@ import useWordBuilder from '@games/wordBuilder/useWordBuilder';
 import { createGamesConfig } from '@hooks/useGamesConfig';
 import MainLayout from '@layouts/MainLayout';
 import { useWordsContext } from '@store/WordsContext';
-import './WordBuilder.scss';
+import '@styles/WordBuilder.scss';
 
 const WordBuilderPage: React.FC = () => {
     const { locale } = useWordsContext();

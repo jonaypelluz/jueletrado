@@ -5,6 +5,29 @@ $spell-tower-block-count: 40;
 $spell-tower-background-colors: $main-color, $secondary-color;
 $spell-tower-background-borders: $main-color-dark, $secondary-color-dark;
 
+.spell-tower-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    .spell-tower-col-main {
+        flex: 2 1 200px;
+        min-width: 0;
+    }
+
+    .spell-tower-col-aside {
+        flex: 1 1 100px;
+        min-width: 0;
+    }
+}
+
+.spell-tower-variations {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
 .spell-tower-wrapper {
     @extend .game-wrapper;
     display: flex;

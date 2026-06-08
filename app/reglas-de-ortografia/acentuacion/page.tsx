@@ -1,19 +1,11 @@
-'use client';
-
 import React from 'react';
-import { Col, Row, Typography } from 'antd';
-import { CheckCircleTwoTone } from '@ant-design/icons';
 import { createContentConfig } from '@hooks/useContentConfig';
-import { useWordsContext } from '@store/WordsContext';
 import Hero from '@components/Hero';
 import MainLayout from '@layouts/MainLayout';
-import './Accentuation.scss';
-
-const { Text, Title } = Typography;
+import '@styles/SpellingRules.scss';
 
 const Accentuation: React.FC = () => {
-    const { locale } = useWordsContext();
-    const ContentConfig = createContentConfig(locale, 'accentuation');
+    const ContentConfig = createContentConfig('es', 'accentuation');
 
     return (
         <MainLayout>
@@ -24,42 +16,41 @@ const Accentuation: React.FC = () => {
                     subtitle={ContentConfig.description}
                 />
             )}
-
-            <div className="spelling-wrapper">
-                <Row gutter={[16, 16]}>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Agudas y llanas</Title>
-                        <Text>
+            <div className="spelling-section">
+                <div className="spelling-grid">
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Agudas y llanas</h3>
+                        <p>
                             Las palabras agudas llevan tilde si terminan en vocal, &quot;n&quot; o
                             &quot;s&quot;. Las llanas llevan tilde si acaban en una consonante
                             distinta de &quot;n&quot; o &quot;s&quot;.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Esdrújulas y sobresdrújulas.</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Esdrújulas y sobresdrújulas.</h3>
+                        <p>
                             Todas las palabras esdrújulas y sobresdrújulas en español llevan tilde,
                             independientemente de la letra en la que terminen.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Los diptongos, triptongos e hiatos</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Los diptongos, triptongos e hiatos</h3>
+                        <p>
                             En los diptongos y triptongos, la tilde se coloca en la vocal abierta
                             (a, e, o). En los hiatos formados por vocales abiertas (a, e, o) se
                             sigue la regla general. Sin embargo, en hiatos formados por
                             &quot;i&quot; o &quot;u&quot; tónicas (acentuadas) y una vocal abierta,
                             la tilde se coloca sobre la &quot;i&quot; o &quot;u&quot; (como en
                             &quot;país&quot; o &quot;día&quot;).
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Palabras compuestas</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Palabras compuestas</h3>
+                        <p>
                             En compuestos perfectos (decimoctavo, veintidós), se sigue la regla
                             general de acentuación. En compuestos imperfectos (reloj-despertador,
                             teórico-práctico), cada parte conserva su acento propio. Adverbios en
@@ -67,20 +58,20 @@ const Accentuation: React.FC = () => {
                             tímidamente). En verbos compuestos con pronombres átonos (me, te, se),
                             se mantiene la tilde del verbo si la tiene (propón-propónle) o se sigue
                             la regla general (dile, díselo).
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>La tilde diacrítica</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>La tilde diacrítica</h3>
+                        <p>
                             La mayoría de monosílabos no llevan tilde, excepto él, mí, tú, sí, dé,
                             sé, té, más, aún como tónicas. En interrogativas y exclamativas, qué,
                             quién, cuál, cómo, dónde, cuándo, cuánto llevan tilde. Demostrativos
                             (este, ese, aquel) llevan tilde como pronombres. &quot;Solo&quot; lleva
                             tilde como adverbio. Tildes se aplican también en mayúsculas.
-                        </Text>
-                    </Col>
-                </Row>
+                        </p>
+                    </div>
+                </div>
             </div>
         </MainLayout>
     );

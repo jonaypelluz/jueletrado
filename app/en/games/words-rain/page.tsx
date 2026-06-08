@@ -6,7 +6,7 @@ import useWordsRain from '@games/wordsRain/useWordsRain';
 import { createGamesConfig } from '@hooks/useGamesConfig';
 import MainLayout from '@layouts/MainLayout';
 import { useWordsContext } from '@store/WordsContext';
-import './WordsRain.scss';
+import '@styles/WordsRain.scss';
 
 const WordsRainPage: React.FC = () => {
     const { locale } = useWordsContext();

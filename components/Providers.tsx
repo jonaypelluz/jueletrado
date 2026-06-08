@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { usePathname } from 'next/navigation';
-import { AntdRegistry } from '@ant-design/nextjs-registry';
 import IntlProviderClient from '@components/IntlProviderClient';
 import { CookieConsentProvider } from '@context/CookieContext';
 import { WordsContextProvider } from '@store/WordsContext';
@@ -22,13 +21,11 @@ const Providers: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const initialLocale = inferLocaleFromPath(pathname);
 
     return (
-        <AntdRegistry>
-            <CookieConsentProvider>
-                <WordsContextProvider initialLocale={initialLocale}>
-                    <IntlProviderClient>{children}</IntlProviderClient>
-                </WordsContextProvider>
-            </CookieConsentProvider>
-        </AntdRegistry>
+        <CookieConsentProvider>
+            <WordsContextProvider initialLocale={initialLocale}>
+                <IntlProviderClient>{children}</IntlProviderClient>
+            </WordsContextProvider>
+        </CookieConsentProvider>
     );
 };
 

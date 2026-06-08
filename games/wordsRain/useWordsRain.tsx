@@ -1,16 +1,13 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Typography } from 'antd';
-import { ForwardOutlined } from '@ant-design/icons';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import { RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
-
-const { Text } = Typography;
 
 const HEARTS = 15;
 const WORD_WIDTH = 150;
@@ -195,27 +192,23 @@ const useWordsRain = () => {
         <div className="results-wrapper words-rain-results">
             {incorrectWords.length > 0 && (
                 <div>
-                    <Text italic className="results-title">
+                    <em className="results-title">
                         <FormattedMessage id="incorrectWords" />
-                    </Text>
-                    <Text strong type="danger" className="results-title">
-                        {incorrectWords.length}
-                    </Text>
+                    </em>
+                    <strong className="results-title text-danger">{incorrectWords.length}</strong>
                 </div>
             )}
             {incorrectWords.map((item, index) => (
                 <div key={index}>
-                    <Text strong type="danger" className="results-ko">
+                    <strong className="results-ko text-danger">
                         {item.word !== item.correctWord ? (
                             item.word
                         ) : (
                             <FormattedMessage id="gameMissed" />
                         )}
-                    </Text>
-                    <ForwardOutlined />
-                    <Text strong className="results-ok" style={{ color: '#000' }}>
-                        {item.correctWord}
-                    </Text>
+                    </strong>
+                    {' → '}
+                    <strong className="results-ok">{item.correctWord}</strong>
                 </div>
             ))}
         </div>

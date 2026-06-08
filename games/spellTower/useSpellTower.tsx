@@ -1,15 +1,12 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button, Typography } from 'antd';
-import { ForwardOutlined } from '@ant-design/icons';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import Logger from '@services/Logger';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
-
-const { Text } = Typography;
 
 const GAME_TIME = 30;
 
@@ -110,23 +107,19 @@ const useSpellTower = () => {
             <div className="results-wrapper">
                 {incorrectAnswers.length > 0 && (
                     <div>
-                        <Text italic className="results-title">
+                        <em className="results-title">
                             <FormattedMessage id="incorrectWords" />
-                        </Text>
-                        <Text strong type="danger" className="results-title">
+                        </em>
+                        <strong className="results-title text-danger">
                             {incorrectAnswers.length}
-                        </Text>
+                        </strong>
                     </div>
                 )}
                 {incorrectAnswers.map(([wrong, correct]: [string, string], index: number) => (
                     <div key={index}>
-                        <Text type="danger" className="results-ko">
-                            {wrong}
-                        </Text>
-                        <ForwardOutlined />
-                        <Text strong type="success" className="results-ok">
-                            {correct}
-                        </Text>
+                        <span className="results-ko text-danger">{wrong}</span>
+                        {' → '}
+                        <strong className="results-ok text-success">{correct}</strong>
                     </div>
                 ))}
             </div>
@@ -141,15 +134,9 @@ const useSpellTower = () => {
 
     const displayWordVariations = (): JSX.Element[] => {
         return randomizedVariations.map((variation, index) => (
-            <Button
-                size="large"
-                block
-                key={index}
-                onClick={() => handleWordClick(index)}
-                style={{ fontSize: '24px', height: '60px' }}
-            >
+            <button key={index} className="variation-btn" onClick={() => handleWordClick(index)}>
                 {variation}
-            </Button>
+            </button>
         ));
     };
 

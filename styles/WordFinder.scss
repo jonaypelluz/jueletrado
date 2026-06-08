@@ -27,7 +27,7 @@
             margin: 12px;
             padding: 12px;
 
-            .ant-typography {
+            span {
                 font-size: 24px;
 
                 &.found {
@@ -64,6 +64,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                font-size: 48px;
 
                 &.ok {
                     background-color: $secondary-color;
@@ -75,10 +76,6 @@
 
                 &.ko {
                     background-color: $danger-color;
-                }
-
-                .ant-typography {
-                    font-size: 48px;
                 }
             }
 
@@ -93,12 +90,7 @@
                     height: 60px;
                 }
 
-                div {
-                    .ant-typography {
-                        font-size: 24px;
-                    }
-                }
-
+                div,
                 input {
                     font-size: 24px;
                 }
@@ -113,15 +105,6 @@
                     margin-right: 3px;
                     margin-bottom: 3px;
                     height: 50px;
-                }
-
-                div {
-                    .ant-typography {
-                        font-size: 24px;
-                    }
-                }
-
-                input {
                     font-size: 24px;
                 }
             }

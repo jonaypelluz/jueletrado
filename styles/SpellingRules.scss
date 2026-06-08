@@ -1,0 +1,58 @@
+@import '@styles/variables.scss';
+@import '@styles/common.scss';
+
+.spelling-rules-wrapper {
+    @extend .game-wrapper;
+
+    background-color: #fff;
+    padding: 24px;
+
+    h3 {
+        margin-top: 6px;
+    }
+}
+
+.spelling-section {
+    @extend .game-wrapper;
+
+    background-color: #fff;
+    padding: 24px;
+}
+
+.spelling-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr;
+
+    @media only screen and (min-width: 480px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media only screen and (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.spelling-item {
+    p {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    h3 {
+        margin: 8px 0 4px;
+    }
+
+    .check-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background-color: #8ebc79;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

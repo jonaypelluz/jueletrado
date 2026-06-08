@@ -3,10 +3,9 @@
 import React, { useEffect } from 'react';
 import Link from 'next/link';
 import { useIntl } from 'react-intl';
-import { Button } from 'antd';
 import { type ConsentStatus, LOCAL_STORAGE_KEY, useCookieConsent } from '@context/CookieContext';
 import { useWordsContext } from '@store/WordsContext';
-import './CookieConsent.scss';
+import '@styles/CookieConsent.scss';
 
 const CookieConsent: React.FC<{
     showModal: boolean;
@@ -55,16 +54,16 @@ const CookieConsent: React.FC<{
                     </p>
                 )}
                 <div>
-                    <Button onClick={() => handleSetConsent('rejected')} className="decline">
+                    <button onClick={() => handleSetConsent('rejected')} className="decline">
                         {intl.formatMessage({ id: 'cookiesDecline' })}
-                    </Button>
-                    <Button onClick={() => handleSetConsent('accepted')} className="accept">
+                    </button>
+                    <button onClick={() => handleSetConsent('accepted')} className="accept">
                         {intl.formatMessage({ id: 'cookiesAccept' })}
-                    </Button>
+                    </button>
                     {consent !== null && (
-                        <Button onClick={deleteConsent} className="delete">
+                        <button onClick={deleteConsent} className="delete">
                             {intl.formatMessage({ id: 'cookiesDelete' })}
-                        </Button>
+                        </button>
                     )}
                 </div>
             </div>

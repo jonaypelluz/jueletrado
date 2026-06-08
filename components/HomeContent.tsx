@@ -11,7 +11,7 @@ import Logger from '@services/Logger';
 import { getWords, populateWordsDB } from '@services/WordsService';
 import StorageService, { StorageKey } from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
-import './HomeContent.scss';
+import '@styles/HomeContent.scss';
 
 const EXPIRE_TIME_24H: number = 86400000;
 

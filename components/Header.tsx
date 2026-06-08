@@ -1,85 +1,55 @@
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FormattedMessage, useIntl } from 'react-intl';
-import { Layout, Menu, Typography } from 'antd';
-import { BarsOutlined, PlaySquareOutlined } from '@ant-design/icons';
 import { useWordsContext } from '@store/WordsContext';
-import './Header.scss';
-
-const { Text } = Typography;
-const { Header } = Layout;
+import '@styles/Header.scss';
 
 const Head: React.FC = () => {
     const intl = useIntl();
     const pathname = usePathname() ?? '/';
     const { locale, wordOfTheDay, currentRoutes } = useWordsContext();
+    const [navOpen, setNavOpen] = useState(false);
 
-    const headerRef = useRef<HTMLElement>(null);
-    const [isCollapsed, setIsCollapsed] = useState(false);
-
-    useEffect(() => {
-        const headerElement = headerRef.current;
-        if (!headerElement) return;
-
-        const handleResize = (entries: ResizeObserverEntry[]) => {
-            const entry = entries[0];
-            setIsCollapsed(entry.contentRect.width < 851);
-        };
-
-        const observer = new ResizeObserver(handleResize);
-        observer.observe(headerElement);
-
-        return () => {
-            observer.disconnect();
-        };
-    }, []);
-
-    const items = [
-        {
-            label: (
-                <Link href={currentRoutes.games}>
-                    <FormattedMessage id="headerGames" />
-                </Link>
-            ),
-            icon: <PlaySquareOutlined />,
-            key: `${currentRoutes.games}`,
-        },
+    const navItems = [
+        { href: currentRoutes.games, labelId: 'headerGames' },
+        ...(locale === 'es' ? [{ href: currentRoutes.spellingRules, labelId: 'headerRules' }] : []),
     ];
 
-    if (locale === 'es') {
-        items.push({
-            label: (
-                <Link href={currentRoutes.spellingRules}>
-                    <FormattedMessage id="headerRules" />
-                </Link>
-            ),
-            icon: <PlaySquareOutlined />,
-            key: `${currentRoutes.spellingRules}`,
-        });
-    }
-
     return (
-        <Header className="header" ref={headerRef}>
+        <header className="header">
             <Link href={currentRoutes.home} className="logo">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src="/jueletradoLogo.png" alt={intl.formatMessage({ id: 'mainTitle' })} />
             </Link>
-            <Menu
-                theme="dark"
-                mode="horizontal"
-                items={items}
-                selectedKeys={[pathname]}
-                overflowedIndicator={<BarsOutlined />}
-            />
-            {!isCollapsed && wordOfTheDay && (
+            <nav>
+                <button
+                    className="nav-toggle"
+                    aria-label="Toggle navigation"
+                    onClick={() => setNavOpen((o) => !o)}
+                >
+                    ☰
+                </button>
+                <div className={`nav-items${navOpen ? ' open' : ''}`}>
+                    <ul>
+                        {navItems.map(({ href, labelId }) => (
+                            <li key={href} className={pathname === href ? 'active' : ''}>
+                                <Link href={href} onClick={() => setNavOpen(false)}>
+                                    <FormattedMessage id={labelId} />
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            </nav>
+            {wordOfTheDay && (
                 <div className="word-of-the-day">
-                    <Text italic style={{ fontSize: '14px', color: '#FFF' }}>
+                    <em>
                         <FormattedMessage id="headerWordOfTheDay" />
-                    </Text>
-                    <Text strong style={{ fontSize: '14px', color: '#FFF', marginLeft: '6px' }}>
+                    </em>
+                    <strong>
                         <a
                             href={
                                 intl.formatMessage({ id: 'headerWordOfTheDayUrl' }) + wordOfTheDay
@@ -89,10 +59,10 @@ const Head: React.FC = () => {
                         >
                             {wordOfTheDay}
                         </a>
-                    </Text>
+                    </strong>
                 </div>
             )}
-        </Header>
+        </header>
     );
 };
 

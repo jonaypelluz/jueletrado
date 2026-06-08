@@ -1,21 +1,16 @@
-'use client';
-
 import React from 'react';
-import { useIntl } from 'react-intl';
+import { GeneralTranslations } from '@config/translations/General';
 import Content from '@components/Content';
 import Hero from '@components/Hero';
 import MainLayout from '@layouts/MainLayout';
-import './SpellingRules.scss';
+import '@styles/SpellingRules.scss';
 
 const SpellingRules: React.FC = () => {
-    const intl = useIntl();
+    const { headerRules, headerRulesDescription } = GeneralTranslations.es;
 
     return (
         <MainLayout>
-            <Hero
-                title={intl.formatMessage({ id: 'headerRules' })}
-                subtitle={intl.formatMessage({ id: 'headerRulesDescription' })}
-            />
+            <Hero title={headerRules} subtitle={headerRulesDescription} />
             <Content />
         </MainLayout>
     );

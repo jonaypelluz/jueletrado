@@ -2,69 +2,56 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Typography } from 'antd';
 import { GameRules } from '@models/types';
-
-const { Text, Title } = Typography;
 
 const GameRulesInfo: React.FC<GameRules> = ({ additionalRules, howToPlay, gameGoal, tips }) => (
     <div className="game-rules">
-        <Title level={2}>
+        <h2>
             <FormattedMessage id="gameRulesRules" />
-        </Title>
+        </h2>
         <p>
-            <Text strong>
+            <strong>
                 <FormattedMessage id="gameRulesGoaloftheGame" />
-            </Text>
+            </strong>
         </p>
+        <p>{gameGoal}</p>
         <p>
-            <Text>{gameGoal}</Text>
-        </p>
-        <p>
-            <Text strong>
+            <strong>
                 <FormattedMessage id="gameRulesHowtoPlay" />
-            </Text>
+            </strong>
         </p>
-        <div>
-            <Text>
-                <ul>
-                    {howToPlay.map((rule: string, index: number) => (
-                        <li key={index}>{rule}</li>
-                    ))}
-                </ul>
-            </Text>
-        </div>
+        <ul>
+            {howToPlay.map((rule: string, index: number) => (
+                <li key={index}>{rule}</li>
+            ))}
+        </ul>
         <p>
-            <Text strong>
+            <strong>
                 <FormattedMessage id="gameRulesAdditionalRules" />
-            </Text>
+            </strong>
         </p>
         {additionalRules.length > 0 && (
             <p>
-                <Text>
-                    {additionalRules.map((rule: string, index: number) => (
-                        <span key={index}>
-                            {rule}
-                            {index !== additionalRules.length - 1 && <br />}
-                        </span>
-                    ))}
-                </Text>
+                {additionalRules.map((rule: string, index: number) => (
+                    <span key={index}>
+                        {rule}
+                        {index !== additionalRules.length - 1 && <br />}
+                    </span>
+                ))}
             </p>
         )}
         <p>
-            <Text strong>
+            <strong>
                 <FormattedMessage id="gameRulesTips" />
-            </Text>
+            </strong>
         </p>
         <p>
-            <Text>
-                {tips.map((tip: string, index: number) => (
-                    <span key={index}>
-                        {tip}
-                        {index !== tips.length - 1 && <br />}
-                    </span>
-                ))}
-            </Text>
+            {tips.map((tip: string, index: number) => (
+                <span key={index}>
+                    {tip}
+                    {index !== tips.length - 1 && <br />}
+                </span>
+            ))}
         </p>
     </div>
 );

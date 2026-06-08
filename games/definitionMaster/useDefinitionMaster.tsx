@@ -1,13 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button, Typography } from 'antd';
 import { Definition, DefinitionWords, QuizDefinition } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
-
-const { Title } = Typography;
 
 const TOTAL_QUIZ_DEFINITIONS = 5;
 
@@ -25,32 +23,8 @@ const useDefinitionMaster = () => {
     const [quizWords, setQuizWords] = useState<QuizDefinition[][]>([]);
     const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswersType>({});
     const letters: string[] = [
-        'a',
-        'b',
-        'c',
-        'd',
-        'e',
-        'f',
-        'g',
-        'h',
-        'i',
-        'j',
-        'k',
-        'l',
-        'm',
-        'n',
-        'o',
-        'p',
-        'q',
-        'r',
-        's',
-        't',
-        'u',
-        'v',
-        'w',
-        'x',
-        'y',
-        'z',
+        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+        'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
     ];
 
     const getRandomWord = (arr: DefinitionWords): string => {
@@ -180,9 +154,9 @@ const useDefinitionMaster = () => {
         ) {
             return (
                 <div className="definition-master-quiz">
-                    <Title level={2} style={{ textAlign: 'center' }}>
+                    <h2>
                         <FormattedMessage id="gameQuizWord" values={{ quizWord: quizWord }} />
-                    </Title>
+                    </h2>
                     {quizWords[currentQuizIndex].map((word: QuizDefinition, index: number) => {
                         const isCorrect = selectedAnswers[word.word];
                         let buttonClass = 'definition-btn';
@@ -190,7 +164,7 @@ const useDefinitionMaster = () => {
                             buttonClass += isCorrect ? ' correct-answer' : ' incorrect-answer';
                         }
                         return (
-                            <Button
+                            <button
                                 className={buttonClass}
                                 key={index}
                                 onClick={() => handleQuizWordClick(word.word, word.isCorrect)}
@@ -199,17 +173,16 @@ const useDefinitionMaster = () => {
                                     <strong>{word.word}: </strong>
                                 )}
                                 {beautifyDefinition(word.definition)}.
-                            </Button>
+                            </button>
                         );
                     })}
                     {isNextButtonActive && (
-                        <Button
-                            type="primary"
-                            className="next-btn"
+                        <button
+                            className="btn-primary next-btn"
                             onClick={() => handleNextQuizWord()}
                         >
                             <FormattedMessage id="gameQuizWordNextWord" />
-                        </Button>
+                        </button>
                     )}
                 </div>
             );

@@ -2,11 +2,11 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button, Col, Flex, Row } from 'antd';
 import { GameConfig } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
 import LoadingScreen from '@components/LoadingScreen';
+import '@styles/Buttons.scss';
 
 type SpellTowerUIProps = {
     gameConfig: GameConfig;
@@ -49,16 +49,12 @@ const UI: React.FC<SpellTowerUIProps> = ({
                 subtitle={gameConfig.description}
             >
                 {showButton && (
-                    <Button
-                        type="primary"
-                        style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
-                        onClick={handleGameStartClick}
-                    >
+                    <button className="btn-primary game-btn" onClick={handleGameStartClick}>
                         <FormattedMessage id="gamePlay" />
-                    </Button>
+                    </button>
                 )}
                 {!showButton && (
-                    <p style={{ fontSize: '24px', fontWeight: '800' }}>
+                    <p className="game-timer">
                         {countdown} <FormattedMessage id="gameSeconds" />
                     </p>
                 )}
@@ -70,25 +66,25 @@ const UI: React.FC<SpellTowerUIProps> = ({
                     </div>
                 </div>
             ) : (
-                <Row gutter={[16, 16]}>
-                    <Col xs={16} sm={16} md={16} lg={18}>
+                <div className="spell-tower-layout">
+                    <div className="spell-tower-col-main">
                         <div className="spell-tower-game">
                             <div className="spell-tower-game-inner">
-                                <Flex vertical gap="small" style={{ width: '100%' }}>
+                                <div className="spell-tower-variations">
                                     {gameStarted ? displayWordVariations() : renderGameResult()}
-                                </Flex>
+                                </div>
                             </div>
                         </div>
-                    </Col>
-                    <Col xs={8} sm={8} md={8} lg={6}>
+                    </div>
+                    <div className="spell-tower-col-aside">
                         <div className="spell-tower-wrapper">
                             <div className="spell-tower-top">{correctAnswers}</div>
                             <div className="spell-tower-wrapper-inner">
                                 <div className="spell-tower">{renderTowerBlocks()}</div>
                             </div>
                         </div>
-                    </Col>
-                </Row>
+                    </div>
+                </div>
             )}
         </>
     );

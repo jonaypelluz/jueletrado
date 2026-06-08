@@ -6,7 +6,7 @@ import useSpellTower from '@games/spellTower/useSpellTower';
 import { createGamesConfig } from '@hooks/useGamesConfig';
 import MainLayout from '@layouts/MainLayout';
 import { useWordsContext } from '@store/WordsContext';
-import './SpellTower.scss';
+import '@styles/SpellTower.scss';
 
 const SpellTowerPage: React.FC = () => {
     const { locale } = useWordsContext();

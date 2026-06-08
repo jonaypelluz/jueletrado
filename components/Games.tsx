@@ -2,13 +2,11 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { Card, Col, Row } from 'antd';
 import { GamesRoutes } from '@config/translations/Games';
 import { createAllGamesConfig } from '@hooks/useGamesConfig';
 import { CardInfo } from '@models/types';
 import { useWordsContext } from '@store/WordsContext';
-
-const { Meta } = Card;
+import '@styles/Cards.scss';
 
 const GamesList: React.FC = () => {
     const { locale } = useWordsContext();
@@ -22,14 +20,18 @@ const GamesList: React.FC = () => {
         <>
             {filteredGamesConfig.length > 0 &&
                 filteredGamesConfig.map((game: CardInfo, index: number) => (
-                    <Col key={index} xs={12} sm={8} md={8} lg={6}>
+                    <div key={index}>
                         <Link href={game.link}>
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <Card hoverable cover={<img alt={game.title} src={game.imgSrc} />}>
-                                <Meta title={game.title} description={game.subtitle} />
-                            </Card>
+                            <div className="card">
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img alt={game.title} src={game.imgSrc} />
+                                <div className="card-meta">
+                                    <h3>{game.title}</h3>
+                                    <p>{game.subtitle}</p>
+                                </div>
+                            </div>
                         </Link>
-                    </Col>
+                    </div>
                 ))}
         </>
     );
@@ -38,9 +40,9 @@ const GamesList: React.FC = () => {
 const Games: React.FC = () => {
     return (
         <div className="content-wrapper">
-            <Row gutter={[16, 16]}>
+            <div className="cards-grid">
                 <GamesList />
-            </Row>
+            </div>
         </div>
     );
 };

@@ -27,61 +27,46 @@
     z-index: 1;
 
     h2 {
+        font-size: 24px;
         margin-top: 0;
-
-        &.ant-typography {
-            font-size: 24px;
-        }
     }
 
-    .ant-typography {
+    p, span, li {
         font-size: 16px;
+    }
 
-        strong {
-            font-size: 18px;
-        }
+    strong {
+        font-size: 18px;
     }
 }
 
 .results-wrapper {
     .results-title {
-        &.ant-typography {
-            font-size: 24px;
-            margin-right: 5px;
-        }
+        font-size: 24px;
+        margin-right: 5px;
     }
 
     .results-ok {
-        &.ant-typography {
-            font-size: 24px;
-            margin-left: 5px;
-        }
+        font-size: 24px;
+        margin-left: 5px;
     }
 
     .results-ko {
-        &.ant-typography {
-            font-size: 20px;
-            margin-right: 5px;
-        }
+        font-size: 20px;
+        margin-right: 5px;
     }
 
     @media only screen and (max-width: 479px) {
         .results-title {
-            &.ant-typography {
-                font-size: 18px;
-            }
+            font-size: 18px;
         }
 
         .results-ok {
-            &.ant-typography {
-                font-size: 18px;
-            }
+            font-size: 18px;
         }
 
         .results-ko {
-            &.ant-typography {
-                font-size: 16px;
-            }
+            font-size: 16px;
         }
     }
 }

@@ -6,7 +6,7 @@ import useDefinitionMaster from '@games/definitionMaster/useDefinitionMaster';
 import { createGamesConfig } from '@hooks/useGamesConfig';
 import MainLayout from '@layouts/MainLayout';
 import { useWordsContext } from '@store/WordsContext';
-import './DefinitionMaster.scss';
+import '@styles/DefinitionMaster.scss';
 
 const DefinitionMasterPage: React.FC = () => {
     const { locale } = useWordsContext();

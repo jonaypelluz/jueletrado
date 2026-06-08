@@ -2,12 +2,12 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button } from 'antd';
 import { LoadingMessages } from '@config/translations/General';
 import Logger from '@services/Logger';
 import { deleteWordsDB } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import LoadingSpinner from '@components/LoadingSpinner';
+import '@styles/LoadingScreen.scss';
 
 type LoadingScreenProps = {
     rotateMessages?: boolean;
@@ -33,35 +33,17 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false })
     }
 
     return (
-        <div
-            style={{
-                minHeight: '100vh',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                flexDirection: 'column',
-                padding: '0 12px',
-            }}
-        >
+        <div className="loading-screen">
             {error ? (
                 <>
-                    <p style={{ textAlign: 'center', margin: '0 auto' }}>
-                        {getRandomErrorMessage()}
-                    </p>
-                    <Button
-                        type="link"
-                        href="/"
-                        style={{ marginTop: '20px', border: '1px solid #000' }}
-                    >
+                    <p>{getRandomErrorMessage()}</p>
+                    <a href="/" className="loading-home-link">
                         <FormattedMessage id="errorMessageTitle" />
-                    </Button>
-                    <p style={{ textAlign: 'center', margin: '20px auto 0' }}>
+                    </a>
+                    <p className="loading-error-description">
                         <FormattedMessage id="errorMessageDescription" />
                     </p>
-                    <span
-                        style={{ marginTop: '20px', cursor: 'pointer', fontSize: '12px' }}
-                        onClick={handleDeleteDatabaseClick}
-                    >
+                    <span className="loading-delete-action" onClick={handleDeleteDatabaseClick}>
                         <FormattedMessage id="errorMessageAction" />
                     </span>
                 </>

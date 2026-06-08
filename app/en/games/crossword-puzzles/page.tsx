@@ -6,7 +6,7 @@ import useCrossWordPuzzle from '@games/crossWordPuzzle/useCrossWordPuzzle';
 import { createGamesConfig } from '@hooks/useGamesConfig';
 import MainLayout from '@layouts/MainLayout';
 import { useWordsContext } from '@store/WordsContext';
-import './CrossWordPuzzle.scss';
+import '@styles/CrossWordPuzzle.scss';
 
 const CrossWordPuzzlePage: React.FC = () => {
     const { locale } = useWordsContext();

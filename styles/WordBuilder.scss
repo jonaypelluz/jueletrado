@@ -10,6 +10,22 @@
         background-image: url('/games/wordBuilderBg.png');
     }
 
+    .word-builder-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .word-builder-col-left {
+        flex: 1 1 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    .word-builder-col-right {
+        flex: 1 1 200px;
+    }
+
     .word-builder-temporary-word {
         min-height: 200px;
         text-align: center;
@@ -18,7 +34,7 @@
         border-radius: 24px;
         margin: 12px;
 
-        .ant-typography {
+        span {
             display: block;
             text-align: center;
             margin-top: 24px;
@@ -35,7 +51,7 @@
         margin: 12px;
         padding: 12px;
 
-        .ant-typography {
+        span {
             font-size: 24px;
         }
     }
@@ -48,11 +64,6 @@ $circle-radius: 150px;
     width: $circle-radius * 3;
     height: $circle-radius * 3;
     margin: 0 auto;
-
-    .ant-col:nth-child(1) {
-        display: flex;
-        align-items: center;
-    }
 
     @media only screen and (max-width: 767px) {
         width: 350px;
@@ -80,7 +91,7 @@ $circle-radius: 150px;
             padding: 21px 10px 10px;
         }
 
-        &.ant-typography {
+        &.letter-tile {
             font-size: 35px;
             color: #fff;
             background-color: $main-color;

@@ -2,13 +2,11 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button, Typography } from 'antd';
 import { GameConfig } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
 import LoadingScreen from '@components/LoadingScreen';
-
-const { Text } = Typography;
+import '@styles/Buttons.scss';
 
 type WordFinderUIProps = {
     gameConfig: GameConfig;
@@ -53,21 +51,12 @@ const UI: React.FC<WordFinderUIProps> = ({
                 subtitle={gameConfig.description}
             >
                 {showButton && (
-                    <Button
-                        type="primary"
-                        style={{
-                            fontSize: '18px',
-                            padding: '10px 22px',
-                            height: 'auto',
-                            marginRight: '5px',
-                        }}
-                        onClick={handleGameStartClick}
-                    >
+                    <button className="btn-primary game-btn" onClick={handleGameStartClick}>
                         <FormattedMessage id="gamePlay" />
-                    </Button>
+                    </button>
                 )}
                 {!showButton && (
-                    <p style={{ fontSize: '24px', fontWeight: '800' }}>
+                    <p className="game-timer">
                         {countdown} <FormattedMessage id="gameSeconds" />
                     </p>
                 )}
@@ -90,7 +79,7 @@ const UI: React.FC<WordFinderUIProps> = ({
                                                 key={`letter-${index}`}
                                                 className={getClassForLetter(letter, index)}
                                             >
-                                                <Text>{letter}</Text>
+                                                {letter}
                                             </div>
                                         ))}
                                     </div>
@@ -98,18 +87,13 @@ const UI: React.FC<WordFinderUIProps> = ({
                             <div className="word-finder-word-wrapper">{renderInputs()}</div>
                             {isWordComplete && (
                                 <p style={{ textAlign: 'center' }}>
-                                    <Button
-                                        type="primary"
-                                        style={{
-                                            fontSize: '18px',
-                                            padding: '10px 22px',
-                                            height: 'auto',
-                                        }}
+                                    <button
+                                        className="btn-primary game-btn"
                                         onClick={handleCheckClick}
                                     >
                                         <FormattedMessage id="gameCheckWord" /> (
                                         {word.split('').length - attempts.length + 1})
-                                    </Button>
+                                    </button>
                                 </p>
                             )}
                         </>
@@ -118,15 +102,14 @@ const UI: React.FC<WordFinderUIProps> = ({
                         <div className="word-finder-found-words">
                             {foundWords.map(
                                 (foundWord: { word: string; found: boolean }, index: number) => (
-                                    <Text
-                                        strong
+                                    <span
                                         key={index}
                                         className={foundWord.found ? 'found' : 'not-found'}
                                     >
                                         {index < foundWords.length - 1
                                             ? `${foundWord.word} - `
                                             : foundWord.word}
-                                    </Text>
+                                    </span>
                                 ),
                             )}
                         </div>

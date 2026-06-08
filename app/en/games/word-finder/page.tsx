@@ -6,7 +6,7 @@ import useWordFinder from '@games/wordFinder/useWordFinder';
 import { createGamesConfig } from '@hooks/useGamesConfig';
 import MainLayout from '@layouts/MainLayout';
 import { useWordsContext } from '@store/WordsContext';
-import './WordFinder.scss';
+import '@styles/WordFinder.scss';
 
 const WordFinderPage: React.FC = () => {
     const { locale } = useWordsContext();

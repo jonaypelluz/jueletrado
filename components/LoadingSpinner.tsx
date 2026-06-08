@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { Spin } from 'antd';
+import '@styles/LoadingSpinner.scss';
 
 interface LoadingSpinnerProps {
     rotateMessages: boolean;
@@ -31,10 +31,10 @@ const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({
 
     return (
         <>
-            <Spin size="large" />
+            <div className="spinner" />
             <p>{rotateMessages && currentMessage ? currentMessage : 'Cargando palabras'}</p>
             {loadingProgress != null && (
-                <p style={{ fontSize: '24px', fontWeight: '800' }}>{loadingProgress.toFixed(0)}%</p>
+                <p className="loading-progress">{loadingProgress.toFixed(0)}%</p>
             )}
         </>
     );

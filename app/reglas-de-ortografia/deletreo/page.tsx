@@ -1,19 +1,11 @@
-'use client';
-
 import React from 'react';
-import { Col, Row, Typography } from 'antd';
-import { CheckCircleTwoTone } from '@ant-design/icons';
 import { createContentConfig } from '@hooks/useContentConfig';
-import { useWordsContext } from '@store/WordsContext';
 import Hero from '@components/Hero';
 import MainLayout from '@layouts/MainLayout';
-import './Spelling.scss';
-
-const { Text, Title } = Typography;
+import '@styles/SpellingRules.scss';
 
 const Spelling: React.FC = () => {
-    const { locale } = useWordsContext();
-    const ContentConfig = createContentConfig(locale, 'spelling');
+    const ContentConfig = createContentConfig('es', 'spelling');
 
     return (
         <MainLayout>
@@ -24,109 +16,109 @@ const Spelling: React.FC = () => {
                     subtitle={ContentConfig.description}
                 />
             )}
-            <div className="spelling-rules-wrapper">
-                <Row gutter={[16, 16]}>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>El punto</Title>
-                        <Text>
+            <div className="spelling-section">
+                <div className="spelling-grid">
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>El punto</h3>
+                        <p>
                             El punto (.) finaliza enunciados y oraciones, sin espacio antes pero con
                             espacio después, excepto antes de un cierre. Hay tres tipos: punto y
                             seguido, punto y aparte, y punto final. Indica entonación descendente.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Los dos puntos</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Los dos puntos</h3>
+                        <p>
                             El signo de puntuación dos puntos (:) indica una pausa más larga que la
                             coma pero más corta que el punto, llamando la atención sobre lo que
                             sigue, estrechamente relacionado con el texto anterior. Se usa
                             comúnmente para introducir citas textuales.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>La coma</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>La coma</h3>
+                        <p>
                             La coma separa elementos en enumeraciones sin conjunciones (y, o, ni),
                             rodea el vocativo según su posición en la frase, delimita aclaraciones o
                             ampliaciones, y encierra expresiones como &quot;esto es&quot;, &quot;es
                             decir&quot;. Se usa también al invertir el orden habitual de la oración,
                             especialmente con expresiones largas de lugar, tiempo, causa, etc. No se
                             necesita si la expresión antepuesta es breve.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Punto y coma</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Punto y coma</h3>
+                        <p>
                             El punto y coma se usa para separar partes de una oración con comas
                             internas y delante de conjunciones como pero, aunque, sin embargo, no
                             obstante, en oraciones extensas.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>La interrogación y la admiración</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>La interrogación y la admiración</h3>
+                        <p>
                             Los signos de interrogación encierran preguntas formuladas directamente,
                             y los de admiración, oraciones exclamativas. No se usa punto tras estos
                             signos. Preguntas indirectas no llevan signos de interrogación.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>La raya</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>La raya</h3>
+                        <p>
                             La raya (—) se usa para incisos en enunciados y en diálogos para indicar
                             locutores o comentarios del narrador. Se escribe una al inicio y otra al
                             final del inciso, con espacio antes y pegada al texto interno. Puede
                             reemplazar comas o paréntesis para mayor énfasis.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>El paréntesis, corchetes y llaves</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>El paréntesis, corchetes y llaves</h3>
+                        <p>
                             Los paréntesis se usan en pares para separar o aclarar textos,
                             incluyendo paréntesis propiamente dichos ( ), corchetes [ ], y llaves {}
                             . Se nombran como paréntesis que abre (izquierdo) y cierra (derecho). Si
                             se usan varios tipos juntos, el orden es {'(...[...{...}...]...)'}.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Las comillas: simples y dobles</Title>
-                        <Text>
-                            Las comillas (« », “ ”, &apos; &apos;) enmarcan citas, palabras
-                            destacadas o con uso irónico. Se prefiere « » en español, luego “ ” para
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Las comillas: simples y dobles</h3>
+                        <p>
+                            Las comillas (« », " ", &apos; &apos;) enmarcan citas, palabras
+                            destacadas o con uso irónico. Se prefiere « » en español, luego " " para
                             citas dentro de citas y &apos; &apos; como último recurso. No se deja
                             espacio entre las comillas y el texto.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>Puntos suspensivos</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>Puntos suspensivos</h3>
+                        <p>
                             Los puntos suspensivos (...) son tres puntos consecutivos usados al
                             final de palabras, frases o oraciones, indicando duda, continuación o
                             suspenso, y a veces omisión de palabras por razones gramaticales o
                             estilísticas.
-                        </Text>
-                    </Col>
-                    <Col xs={24} sm={12} md={8}>
-                        <CheckCircleTwoTone twoToneColor="#8ebc79" style={{ fontSize: '36px' }} />
-                        <Title level={3}>El guión</Title>
-                        <Text>
+                        </p>
+                    </div>
+                    <div className="spelling-item">
+                        <span className="check-icon">✓</span>
+                        <h3>El guión</h3>
+                        <p>
                             El guión corto se utiliza para tres propósitos principales: formar
                             palabras compuestas (ej. &quot;teórico-práctico&quot;), dividir palabras
                             en sílabas al final de una línea (ej. &quot;aero-&quot; y
                             &quot;puerto&quot;), y señalar rangos de páginas en citas bibliográficas
                             (ej. &quot;pp. 23-29&quot;).
-                        </Text>
-                    </Col>
-                </Row>
+                        </p>
+                    </div>
+                </div>
             </div>
         </MainLayout>
     );

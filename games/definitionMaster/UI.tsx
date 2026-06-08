@@ -2,10 +2,10 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { Button } from 'antd';
 import { GameConfig, QuizDefinition } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
+import '@styles/Buttons.scss';
 
 type DefinitionMasterUIProps = {
     gameConfig: GameConfig;
@@ -36,21 +36,14 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                 subtitle={gameConfig.description}
             >
                 {isGameStarted && Object.keys(quizWords).length !== 0 && (
-                    <Button
-                        style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
-                        onClick={handleResetLetterClick}
-                    >
+                    <button className="btn-default game-btn" onClick={handleResetLetterClick}>
                         <FormattedMessage id="gameQuizWordChoose" />
-                    </Button>
+                    </button>
                 )}
                 {!isGameStarted && (
-                    <Button
-                        type="primary"
-                        style={{ fontSize: '18px', padding: '10px 22px', height: 'auto' }}
-                        onClick={handleGameStartClick}
-                    >
+                    <button className="btn-primary game-btn" onClick={handleGameStartClick}>
                         <FormattedMessage id="gamePlay" />
-                    </Button>
+                    </button>
                 )}
             </Hero>
             <div className="definition-master-wrapper">
@@ -58,13 +51,13 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                     {isGameStarted ? (
                         Object.keys(quizWords).length === 0 &&
                         letters.map((letter: string, index: number) => (
-                            <Button
+                            <button
                                 className="letter-btn"
                                 key={index}
                                 onClick={() => handleLetterClick(letter)}
                             >
                                 {letter.toUpperCase()}
-                            </Button>
+                            </button>
                         ))
                     ) : (
                         <GameRules {...gameConfig.gameRules} />

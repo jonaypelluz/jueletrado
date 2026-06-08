@@ -1,9 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Typography } from 'antd';
-
-const { Title, Paragraph, Text } = Typography;
+import '@styles/DayWord.scss';
 
 interface DayWordProps {
     word?: string;
@@ -11,15 +9,11 @@ interface DayWordProps {
 
 const DayWord: React.FC<DayWordProps> = ({ word }) => {
     return (
-        <div style={{ padding: '60px 20px' }}>
-            <Title level={2} style={{ textAlign: 'center' }}>
-                Palabra del día:
-            </Title>
-            <Paragraph style={{ textAlign: 'center' }}>
-                <Text italic style={{ fontSize: '30px' }}>
-                    {word}
-                </Text>
-            </Paragraph>
+        <div className="day-word">
+            <h2>Palabra del día:</h2>
+            <p>
+                <em>{word}</em>
+            </p>
         </div>
     );
 };

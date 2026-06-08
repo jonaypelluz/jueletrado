@@ -1,0 +1,82 @@
+@import '@styles/variables.scss';
+
+.btn-primary {
+    background-color: $main-color;
+    color: #fff;
+    border: 1px solid $main-color;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px 15px;
+    height: 32px;
+    line-height: 1.5714;
+    transition: background-color 0.2s, border-color 0.2s;
+
+    &:hover,
+    &:focus {
+        background-color: $main-color-dark;
+        border-color: $main-color-dark;
+        color: #fff;
+    }
+
+    &:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+}
+
+.btn-default {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.88);
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px 15px;
+    height: 32px;
+    line-height: 1.5714;
+    transition: border-color 0.2s, color 0.2s;
+
+    &:hover,
+    &:focus {
+        border-color: $main-color;
+        color: $main-color;
+    }
+}
+
+.game-btn {
+    font-size: 18px;
+    padding: 10px 22px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.variation-btn {
+    width: 100%;
+    font-size: 24px;
+    height: 60px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    background: #fff;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+
+    &:hover,
+    &:focus {
+        border-color: $main-color;
+        color: $main-color;
+    }
+}
+
+.game-timer {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text-danger {
+    color: $danger-color;
+}
+
+.text-success {
+    color: $secondary-color-dark;
+}

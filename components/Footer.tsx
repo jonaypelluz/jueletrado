@@ -4,15 +4,10 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useIntl } from 'react-intl';
-import { Layout, Select, Typography } from 'antd';
 import LocalesConfig from '@config/LocaleConfig';
 import { LocaleConfig } from '@models/types';
 import { useWordsContext } from '@store/WordsContext';
 import CookieConsent from './CookieConsent';
-
-const { Footer } = Layout;
-const { Text } = Typography;
-const { Option } = Select;
 
 const Foot: React.FC = () => {
     const intl = useIntl();
@@ -21,7 +16,8 @@ const Foot: React.FC = () => {
 
     const [showModal, setShowModal] = useState(true);
 
-    const handleLocaleChange = (value: string) => {
+    const handleLocaleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+        const value = e.target.value;
         setLocale(value);
         const url: { [key: string]: string } = {
             es: '/',
@@ -31,7 +27,7 @@ const Foot: React.FC = () => {
     };
 
     return (
-        <Footer className="footer">
+        <footer className="footer">
             <a
                 target="_blank"
                 href="https://www.buymeacoffee.com/jonaypelluz"
@@ -48,18 +44,13 @@ const Foot: React.FC = () => {
                     <br /> Me a<br /> Coffee
                 </span>
             </a>
-            <Select
-                value={locale}
-                defaultValue="es"
-                style={{ width: 120, marginLeft: '20px' }}
-                onChange={handleLocaleChange}
-            >
+            <select className="locale-select" value={locale} onChange={handleLocaleChange}>
                 {LocalesConfig.map((loc: LocaleConfig, index: number) => (
-                    <Option key={index} value={loc.lang}>
+                    <option key={index} value={loc.lang}>
                         {loc.name}
-                    </Option>
+                    </option>
                 ))}
-            </Select>
+            </select>
             <div>
                 <p>
                     <Link className="first-link" href={currentRoutes.privacy}>
@@ -79,12 +70,10 @@ const Foot: React.FC = () => {
                         {intl.formatMessage({ id: 'cookiesSettings' })}
                     </a>
                 </p>
-                <Text strong className="powered">
-                    powered by @jonaypelluz
-                </Text>
+                <strong className="powered">powered by @jonaypelluz</strong>
             </div>
             <CookieConsent showModal={showModal} setShowModal={setShowModal} />
-        </Footer>
+        </footer>
     );
 };
 

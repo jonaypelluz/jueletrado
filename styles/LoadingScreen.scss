@@ -1,0 +1,36 @@
+.loading-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 12px;
+
+    p {
+        text-align: center;
+        margin: 0 auto;
+
+        &.loading-error-description {
+            margin-top: 20px;
+        }
+    }
+
+    .loading-home-link {
+        margin-top: 20px;
+        border: 1px solid #000;
+        padding: 4px 12px;
+        border-radius: 6px;
+        color: #000;
+        text-decoration: none;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .loading-delete-action {
+        margin-top: 20px;
+        cursor: pointer;
+        font-size: 12px;
+    }
+}
