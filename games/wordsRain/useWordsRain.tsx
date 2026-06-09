@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-import { useWordProcessor } from '@hooks/useWordProcessor';
+import WordGameProcessor from '@utils/WordGameProcessor';
 import { RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
 import { getLevelWordSet } from '@services/WordsService';
@@ -25,7 +25,6 @@ const GAME_OVER_FREEZE_MS = 600;
 const useWordsRain = () => {
     const { locale, gameLevel, error, setError } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
-    const [wordSet, setWordSet] = useState<Set<string>>(new Set());
 
     const [timer, setTimer] = useState(0);
     const [gameStarted, setGameStarted] = useState<boolean>(false);
@@ -50,8 +49,6 @@ const useWordsRain = () => {
     const timerRef = useRef<number>(0);
     const wordsRef = useRef<RainWordItem[] | null>(null);
     const handleGameLogicRef = useRef<() => void>(() => {});
-
-    const { processWords, processLastWords } = useWordProcessor(locale, wordSet);
 
     // Keep wordsRef in sync
     useEffect(() => {
@@ -294,21 +291,19 @@ const useWordsRain = () => {
     );
 
     useEffect(() => {
-        if (!gameLevel) return;
-        getLevelWordSet(gameLevel, locale).then((set) => {
-            if (set.size > 0) setWordSet(set);
-        });
-    }, [gameLevel, locale]);
+        if (!gameLevel || words) return;
 
-    useEffect(() => {
-        if (!gameLevel) return;
+        const init = async () => {
+            setIsLoadingWords(true);
+            const set = await getLevelWordSet(gameLevel, locale);
+            const processor = new WordGameProcessor(locale, set);
 
-        const fetchWordsFromStorage = async () => {
             const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);
-
             if (storedWords) {
-                const gameWords = processWords(storedWords);
-                const finalGameWords = processLastWords(gameWords);
+                const gameWords = storedWords.map(w => processor.processWord(w));
+                const finalGameWords = gameWords.map(arr =>
+                    arr.length === 1 ? processor.processWordWithAccent(arr[0]) : arr
+                );
                 const theGameWords = finalGameWords.flatMap((subArray) =>
                     subArray.map((word, index) => ({
                         word,
@@ -323,13 +318,11 @@ const useWordsRain = () => {
                 setError(new Error(errorMsg));
                 Logger.error(errorMsg);
             }
+            setIsLoadingWords(false);
         };
 
-        if (!words) {
-            setIsLoadingWords(true);
-            fetchWordsFromStorage().then(() => setIsLoadingWords(false));
-        }
-    }, [gameLevel]);
+        init();
+    }, [gameLevel, locale]);
 
     // Interval only depends on gameStarted — uses ref to avoid stale closure and
     // prevent the interval from being torn down and recreated on every render.

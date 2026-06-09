@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { useWordProcessor } from '@hooks/useWordProcessor';
+import WordGameProcessor from '@utils/WordGameProcessor';
 import Logger from '@services/Logger';
 import { getLevelWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
@@ -12,7 +12,6 @@ const GAME_TIME = 30;
 const useSpellTower = () => {
     const { locale, gameLevel, error, setError } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
-    const [wordSet, setWordSet] = useState<Set<string>>(new Set());
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -27,8 +26,6 @@ const useSpellTower = () => {
     // Ref lets handleWordClick read current gameStarted without stale closure
     const gameStartedRef = useRef(gameStarted);
     useEffect(() => { gameStartedRef.current = gameStarted; }, [gameStarted]);
-
-    const { processWords, processLastWords } = useWordProcessor(locale, wordSet);
 
     const endGame = () => {
         setGameStarted(false);
@@ -72,16 +69,13 @@ const useSpellTower = () => {
     }, [words, currentWordIndex]);
 
     useEffect(() => {
-        if (!gameLevel) return;
-        getLevelWordSet(gameLevel, locale).then((set) => {
-            if (set.size > 0) setWordSet(set);
-        });
-    }, [gameLevel, locale]);
-
-    useEffect(() => {
-        if (!gameLevel) return;
+        if (!gameLevel || words) return;
 
         const fetchWords = async () => {
+            setIsLoadingWords(true);
+            const set = await getLevelWordSet(gameLevel, locale);
+            const processor = new WordGameProcessor(locale, set);
+
             const sessionWords = await getSessionWords(
                 StorageService.WORDS_TOWER,
                 15,
@@ -92,21 +86,22 @@ const useSpellTower = () => {
                 { count: 120, minLength: 4 },
                 30,
             );
+
             if (sessionWords.length > 0) {
-                const gameWords = processWords(sessionWords);
-                const finalGameWords = processLastWords(gameWords);
+                const gameWords = sessionWords.map(w => processor.processWord(w));
+                const finalGameWords = gameWords.map(arr =>
+                    arr.length === 1 ? processor.processWordWithAccent(arr[0]) : arr
+                );
                 setWords(finalGameWords);
                 setShowButton(true);
             } else {
                 Logger.error('No words found for spell tower');
             }
+            setIsLoadingWords(false);
         };
 
-        if (!words) {
-            setIsLoadingWords(true);
-            fetchWords().then(() => setIsLoadingWords(false));
-        }
-    }, [gameLevel]);
+        fetchWords();
+    }, [gameLevel, locale]);
 
     useEffect(() => {
         if (countdown <= 0) {

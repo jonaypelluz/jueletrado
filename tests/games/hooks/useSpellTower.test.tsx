@@ -9,14 +9,12 @@ jest.mock('@services/WordsService', () => ({
     getSessionWords: jest.fn(),
     getLevelWordSet: jest.fn().mockResolvedValue(new Set<string>()),
 }));
-jest.mock('@hooks/useWordProcessor', () => ({
-    useWordProcessor: () => ({
-        processWords: (words: string[]) => words.map((w) => [w, w + 'x']),
-        processLastWords: (words: string[][]) => words,
-        processWordsWithAccents: (words: string[]) => words,
-        filterWordsByLetters: async () => [],
-    }),
-}));
+jest.mock('@utils/WordGameProcessor', () => {
+    return jest.fn().mockImplementation(() => ({
+        processWord: (word: string) => [word, word + 'x'],
+        processWordWithAccent: (word: string) => [word, word + 'á'],
+    }));
+});
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
 const mockGetSessionWords = getSessionWords as jest.Mock;
