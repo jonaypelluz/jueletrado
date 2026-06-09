@@ -291,6 +291,48 @@ const getLevelWordSet = async (
     }
 };
 
+/**
+ * Returns the daily word for the given locale.
+ * Reads SELECTED_DAY_WORD from storage first (fast path, 24h TTL).
+ * If missing, silently ensures the beginner level is populated in IndexedDB
+ * (loads the single 28 KB chunk on first ever visit), draws one word,
+ * stores it with a 24h TTL, and returns it.
+ * Errors are swallowed — the caller should handle a null return gracefully.
+ */
+const loadDailyWordForLocale = async (locale: string): Promise<string | null> => {
+    const stored = StorageService.getItem<string>(StorageService.SELECTED_DAY_WORD);
+    if (stored) return stored;
+
+    const begConfig = LevelsConfig.find((c) => c.level === 'beginner');
+    if (!begConfig) return null;
+
+    try {
+        dbService.setStoreName('beginner', locale);
+        await dbService.initDB();
+
+        const minCount = begConfig.minimumPopulatedCount[locale];
+        const alreadyPopulated = await dbService.checkIfPopulated('beginner', locale, minCount);
+
+        if (!alreadyPopulated) {
+            const words = await loadWords('beginner', 1, 100000, locale);
+            if (words?.length) {
+                await dbService.addWords('beginner', locale, words, begConfig.minimumPopulatedCount);
+            }
+        }
+
+        markLevelPopulated('beginner', locale);
+
+        const [word] = await dbService.getRandomWords(1);
+        if (!word) return null;
+
+        StorageService.setItem(StorageService.SELECTED_DAY_WORD, word, 86400000);
+        return word;
+    } catch (err) {
+        Logger.error('Error loading daily word:', err);
+        return null;
+    }
+};
+
 export {
     populateWordsDB,
     getWords,
@@ -302,4 +344,5 @@ export {
     getSessionWords,
     clearWordGroupCaches,
     isLevelPopulated,
+    loadDailyWordForLocale,
 };

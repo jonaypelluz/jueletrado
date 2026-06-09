@@ -8,7 +8,7 @@ import LevelList from '@components/LevelList';
 import LoadingScreen from '@components/LoadingScreen';
 import MainLayout from '@layouts/MainLayout';
 import Logger from '@services/Logger';
-import { clearWordGroupCaches, getWords, isLevelPopulated, populateWordsDB } from '@services/WordsService';
+import { clearWordGroupCaches, getWords, isLevelPopulated, loadDailyWordForLocale, populateWordsDB } from '@services/WordsService';
 import StorageService, { StorageKey } from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 import '@styles/HomeContent.scss';
@@ -31,6 +31,7 @@ const HomeContent: React.FC = () => {
         error,
         gameLevel,
         hydrated,
+        wordOfTheDay,
         setLoadingProgress,
         setError,
         setLoading,
@@ -78,6 +79,14 @@ const HomeContent: React.FC = () => {
             }
         });
     };
+
+    // Load the daily word as soon as the locale is known — no level selection required.
+    useEffect(() => {
+        if (!hydrated || wordOfTheDay) return;
+        loadDailyWordForLocale(locale).then((word) => {
+            if (word) setWordOfTheDay(word);
+        });
+    }, [hydrated, locale]);
 
     // After hydration, if the user has a stored level but word groups have expired, re-fetch them.
     useEffect(() => {
