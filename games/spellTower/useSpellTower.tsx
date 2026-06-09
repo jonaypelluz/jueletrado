@@ -5,13 +5,14 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import Logger from '@services/Logger';
+import { getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
 const GAME_TIME = 30;
 
 const useSpellTower = () => {
-    const { locale, error, setError, setLoading, isLoading } = useWordsContext();
+    const { locale, gameLevel, error, setError, setLoading, isLoading } = useWordsContext();
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -56,24 +57,30 @@ const useSpellTower = () => {
     }, [words, currentWordIndex]);
 
     useEffect(() => {
-        const fetchWordsFromStorage = async () => {
-            const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_TOWER);
-
-            if (storedWords) {
-                const gameWords = processWords(storedWords);
+        const fetchWords = async () => {
+            const sessionWords = await getSessionWords(
+                StorageService.WORDS_TOWER,
+                15,
+                gameLevel,
+                locale,
+                setError,
+                { count: 75, minLength: 4 },
+                30,
+            );
+            if (sessionWords.length > 0) {
+                const gameWords = processWords(sessionWords);
                 const finalGameWords = processLastWords(gameWords);
                 setWords(finalGameWords);
                 setShowButton(true);
             } else {
-                const errorMsg = 'Words group 60 not found in storage';
-                setError(new Error(errorMsg));
+                const errorMsg = 'No words found for spell tower';
                 Logger.error(errorMsg);
             }
         };
 
         if (!words) {
             setLoading(true);
-            fetchWordsFromStorage().then(() => setLoading(false));
+            fetchWords().then(() => setLoading(false));
         }
     }, []);
 

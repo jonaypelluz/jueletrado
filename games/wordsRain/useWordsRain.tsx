@@ -231,7 +231,7 @@ const useWordsRain = () => {
                 setWords(theGameWords);
                 setShowButton(true);
             } else {
-                const errorMsg = 'Words group 80 not found in storage';
+                const errorMsg = 'No words found for words rain';
                 setError(new Error(errorMsg));
                 Logger.error(errorMsg);
             }

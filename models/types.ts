@@ -37,6 +37,7 @@ export type Position = {
 export type SelectedWord = {
     [key: string]: {
         definition: Definition[];
+        displayDefinition: string;
         position: Position;
         direction: string;
         color: string;

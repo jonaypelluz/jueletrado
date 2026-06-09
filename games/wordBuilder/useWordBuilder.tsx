@@ -4,14 +4,14 @@ import { useEffect, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
 import { consonants, vowels } from '@config/translations/Letters';
 import { useWordProcessor } from '@hooks/useWordProcessor';
-import { getAllWords } from '@services/WordsService';
+import { getLevelWordSet } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 
 const NUMBER_OF_VOWELS = 2;
 const NUMBER_OF_CONSONANTS = 4;
 
 const useWordBuilder = () => {
-    const { locale, error, setError, setLoading, isLoading, gameLevel } = useWordsContext();
+    const { locale, error, setLoading, isLoading, gameLevel } = useWordsContext();
     const wordProcessor = useWordProcessor(locale);
 
     const [letters, setLetters] = useState<string[]>([]);
@@ -96,9 +96,9 @@ const useWordBuilder = () => {
 
     useEffect(() => {
         const fetchAllWords = async () => {
-            const theWords = await getAllWords(gameLevel, locale, setError);
-            if (theWords) {
-                setAllWords(theWords);
+            const wordSet = await getLevelWordSet(gameLevel, locale);
+            if (wordSet.size > 0) {
+                setAllWords([...wordSet]);
             }
         };
 

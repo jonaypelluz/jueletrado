@@ -3,13 +3,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
 import Logger from '@services/Logger';
+import { getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
 const GAME_TIMER = 180;
 
 const useWordFinder = () => {
-    const { error, setError, isLoading, setLoading } = useWordsContext();
+    const { locale, gameLevel, error, setError, isLoading, setLoading } = useWordsContext();
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -170,24 +171,28 @@ const useWordFinder = () => {
     }, [countdown]);
 
     useEffect(() => {
-        const fetchWordsFromStorage = async () => {
-            const storedWords = StorageService.getItem<string[]>(
+        const fetchWords = async () => {
+            const sessionWords = await getSessionWords(
                 StorageService.WORDS_FINDER,
+                10,
+                gameLevel,
+                locale,
+                setError,
+                { count: 60, maxLength: 9, minLength: 4 },
+                20,
             );
-            if (storedWords) {
-                storedWords.shift();
-                setWords(storedWords);
+            if (sessionWords.length > 0) {
+                setWords(sessionWords);
                 setShowButton(true);
             } else {
-                const errorMsg = 'Words group 60 not found in storage';
-                setError(new Error(errorMsg));
+                const errorMsg = 'No words found for word finder';
                 Logger.error(errorMsg);
             }
         };
 
         if (words.length === 0) {
             setLoading(true);
-            fetchWordsFromStorage().then(() => setLoading(false));
+            fetchWords().then(() => setLoading(false));
         }
     }, []);
 

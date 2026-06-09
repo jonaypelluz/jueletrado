@@ -16,6 +16,7 @@ type CrossWordPuzzleUIProps = {
     crossword: ICell[][];
     selectedWords: SelectedWord;
     isGameStarted: boolean;
+    isComplete: boolean;
     checkCellValue: (i: number, j: number) => (event: React.ChangeEvent<HTMLInputElement>) => void;
     handleGameStartClick: () => void;
 };
@@ -38,6 +39,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
     crossword,
     selectedWords,
     isGameStarted,
+    isComplete,
     checkCellValue,
     handleGameStartClick,
 }) => {
@@ -59,19 +61,12 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                 <div className="crossword-container">
                     <div className="crossword-sidebar">
                         <ul>
-                            {Object.entries(selectedWords).map(([word, data], index) => {
-                                const randomIndex = Math.floor(
-                                    Math.random() * data.definition.length,
-                                );
-                                const randomDefinition = data.definition[randomIndex];
-                                const color = data.color;
-                                return (
-                                    <li key={word} ref={(el) => (liRefs.current[index] = el)}>
-                                        <span style={{ backgroundColor: color }}></span>
-                                        {randomDefinition.definition}
-                                    </li>
-                                );
-                            })}
+                            {Object.entries(selectedWords).map(([word, data], index) => (
+                                <li key={word} ref={(el) => (liRefs.current[index] = el)}>
+                                    <span style={{ backgroundColor: data.color }}></span>
+                                    {data.displayDefinition}
+                                </li>
+                            ))}
                         </ul>
                     </div>
                     <div
@@ -94,6 +89,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                                         <input
                                             type="text"
                                             maxLength={1}
+                                            disabled={isComplete}
                                             onChange={(event) => checkCellValue(i, j)(event)}
                                             style={{
                                                 width: `${gridSizePixels}px`,

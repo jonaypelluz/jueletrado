@@ -27,12 +27,6 @@ const useDefinitionMaster = () => {
         'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
     ];
 
-    const getRandomWord = (arr: DefinitionWords): string => {
-        const randomKey = Math.floor(Math.random() * Object.keys(arr).length);
-        const chosenKey: string = Object.keys(arr)[randomKey];
-        return chosenKey;
-    };
-
     const getRandomDefinition = (definitions: Definition[]): Definition => {
         const randomKey = Math.floor(Math.random() * definitions.length);
         return definitions[randomKey];
@@ -76,12 +70,14 @@ const useDefinitionMaster = () => {
                 }
             }
             const theChosenWords: DefinitionWords = {};
-            let i: number = 1;
-            do {
-                const chosenKey: string = getRandomWord(preChosenWords);
-                theChosenWords[chosenKey] = preChosenWords[chosenKey];
-                i++;
-            } while (i < 11);
+            const availableKeys = Object.keys(preChosenWords);
+            for (let i = availableKeys.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [availableKeys[i], availableKeys[j]] = [availableKeys[j], availableKeys[i]];
+            }
+            availableKeys.slice(0, 10).forEach((key) => {
+                theChosenWords[key] = preChosenWords[key];
+            });
             setChosenWords(theChosenWords);
         }
     };

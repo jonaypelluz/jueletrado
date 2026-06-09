@@ -92,6 +92,7 @@ const useCrossWordPuzzle = () => {
     const [allDefinitions, setAllDefinitions] = useState<DefinitionWords>({});
     const [selectedWords, setSelectedWords] = useState<SelectedWord>({});
     const [isGameStarted, setIsGameStarted] = useState<boolean>(false);
+    const [isComplete, setIsComplete] = useState<boolean>(false);
     const [crossword, setCrossword] = useState<ICell[][]>(matrixInitialState);
     const [firstWord, setFirstWord] = useState<string>('');
     const [crosswordWords, setCrosswordWords] = useState<crosswordWord[]>([]);
@@ -137,11 +138,12 @@ const useCrossWordPuzzle = () => {
         setCrosswordWords([]);
         setAllDefinitions({});
         setWordsList([]);
+        setIsComplete(false);
         commonColors = [...originalColors];
     };
 
     const getWordsFromRandomLetters = async (count: number): Promise<DefinitionWords> => {
-        const shuffledLetters = letters.sort(() => 0.5 - Math.random()).slice(0, count);
+        const shuffledLetters = [...letters].sort(() => 0.5 - Math.random()).slice(0, count);
 
         const promises = shuffledLetters.map((letter) => loadDefinition(letter, locale));
         const letterDefinitions = await Promise.all(promises);
@@ -195,10 +197,13 @@ const useCrossWordPuzzle = () => {
             addWordToCrosswordMatrix(word, position, wordDirection, color);
         }
 
+        const wordDefinitions = allDefinitions[word] ?? [];
+        const randomDef = wordDefinitions[Math.floor(Math.random() * wordDefinitions.length)];
         setSelectedWords((prevWords: SelectedWord) => ({
             ...prevWords,
             [word]: {
-                definition: allDefinitions[word],
+                definition: wordDefinitions,
+                displayDefinition: randomDef?.definition ?? '',
                 position: position,
                 direction: wordDirection,
                 color: color,
@@ -293,7 +298,7 @@ const useCrossWordPuzzle = () => {
         direction: string,
         color: string,
     ): void => {
-        const matrix = crossword;
+        const matrix = crossword.map((row) => [...row]);
 
         for (let i = 0; i < word.length; i++) {
             if (direction === 'horizontal') {
@@ -442,10 +447,13 @@ const useCrossWordPuzzle = () => {
                 if (canPlaceWord) {
                     const color = getRandomColor();
                     addWordToCrosswordMatrix(word, newWordPosition, newDirection, color);
+                    const wordDefs = allDefinitions[word] ?? [];
+                    const chosenDef = wordDefs[Math.floor(Math.random() * wordDefs.length)];
                     setSelectedWords((prevWords: SelectedWord) => ({
                         ...prevWords,
                         [word]: {
-                            definition: allDefinitions[word],
+                            definition: wordDefs,
+                            displayDefinition: chosenDef?.definition ?? '',
                             position: newWordPosition,
                             direction: newDirection,
                             color: color,
@@ -474,39 +482,35 @@ const useCrossWordPuzzle = () => {
     const checkCellValue =
         (i: number, j: number) => (event: React.ChangeEvent<HTMLInputElement>) => {
             const value = event.target.value;
+            const newCrossword = crossword.map((row) => [...row]);
             if (value.length === 0) {
                 event.target.style.backgroundColor = '#ff4d4f';
-                crossword[i][j].isCorrect = false;
+                newCrossword[i][j] = { ...newCrossword[i][j], isCorrect: false };
             } else {
                 if (value.toLowerCase() === crossword[i][j].char.toLowerCase()) {
                     event.target.style.backgroundColor = '#fff';
                     event.target.style.borderColor = '#000';
-                    crossword[i][j].isCorrect = true;
+                    newCrossword[i][j] = { ...newCrossword[i][j], isCorrect: true };
                 } else {
                     event.target.style.backgroundColor = '#ff4d4f';
-                    crossword[i][j].isCorrect = false;
+                    newCrossword[i][j] = { ...newCrossword[i][j], isCorrect: false };
                 }
             }
-            checkCompletedWords();
-            isCrosswordFilledCorrectly();
+            setCrossword(newCrossword);
+            checkCompletedWords(newCrossword);
+            checkCrosswordComplete(newCrossword);
         };
 
-    const checkCompletedWords = (): void => {
+    const checkCompletedWords = (matrix: ICell[][]): void => {
         Object.entries(selectedWords).forEach(([wordKey, wordData], index) => {
             let isCompleted = true;
             for (let i = 0; i < wordKey.length; i++) {
                 if (wordData.direction === 'horizontal') {
-                    if (
-                        false ===
-                        crossword[wordData.position.row][wordData.position.col + i].isCorrect
-                    ) {
+                    if (false === matrix[wordData.position.row][wordData.position.col + i].isCorrect) {
                         isCompleted = false;
                     }
                 } else {
-                    if (
-                        false ===
-                        crossword[wordData.position.row + i][wordData.position.col].isCorrect
-                    ) {
+                    if (false === matrix[wordData.position.row + i][wordData.position.col].isCorrect) {
                         isCompleted = false;
                     }
                 }
@@ -522,23 +526,12 @@ const useCrossWordPuzzle = () => {
         });
     };
 
-    const isCrosswordFilledCorrectly = () => {
-        let allCorrect = true;
-
-        crossword.forEach((row) => {
-            row.forEach((cell) => {
-                if (cell.filled && false === cell.isCorrect) {
-                    allCorrect = false;
-                    return;
-                }
-            });
-        });
-
+    const checkCrosswordComplete = (matrix: ICell[][]): void => {
+        const allCorrect = matrix.every((row) =>
+            row.every((cell) => !cell.filled || cell.isCorrect),
+        );
         if (allCorrect) {
-            const inputs = document.querySelectorAll('div.crossword-grid-item input');
-            inputs.forEach((input) => {
-                (input as HTMLInputElement).disabled = true;
-            });
+            setIsComplete(true);
         }
     };
 
@@ -549,6 +542,7 @@ const useCrossWordPuzzle = () => {
         crossword,
         selectedWords,
         isGameStarted,
+        isComplete,
         checkCellValue,
         handleGameStartClick,
     };
