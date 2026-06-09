@@ -14,12 +14,13 @@ const HEARTS = 15;
 const WORD_WIDTH = 150;
 const MIN_WORDS_PER_ITERATION = 1;
 const MAX_WORDS_PER_ITERATION = 3;
-const BASE_ANIMATION_DURATION = 14;
-const ANIMATION_DECREASE_FACTOR = 0.5;
-const MIN_ANIMATION_DURATION = 1;
-const LEVEL_UP_INTERVAL = 5;
+const BASE_ANIMATION_DURATION = 12;
+const ANIMATION_DECREASE_FACTOR = 0.35;
+const MIN_ANIMATION_DURATION = 2;
+const LEVEL_UP_INTERVAL = 10;
+const BASE_SPAWN_INTERVAL = 5;
 const MINIMUM_TIMER_SPEED = 1;
-const BASE_TIMER_SPEED = 4;
+const GAME_OVER_FREEZE_MS = 600;
 
 const useWordsRain = () => {
     const { locale, gameLevel, error, setError } = useWordsContext();
@@ -34,73 +35,140 @@ const useWordsRain = () => {
     const [speed, setSpeed] = useState<number>(1);
     const [fallingWords, setFallingWords] = useState<JSX.Element[]>([]);
     const [hearts, setHearts] = useState<number>(HEARTS);
+    const [isFreezing, setIsFreezing] = useState<boolean>(false);
+    const [isLevelUp, setIsLevelUp] = useState<boolean>(false);
+    const [heartsFlash, setHeartsFlash] = useState<boolean>(false);
 
     const keyCountRef = useRef<number>(0);
     const wrapperRef = useRef<HTMLDivElement>(null);
+    const prevSpeedRef = useRef<number>(1);
+    const freezeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+    const heartsFlashTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+    const clickedKeysRef = useRef<Set<number>>(new Set());
+    const isGameActiveRef = useRef<boolean>(false);
+    // Refs to avoid stale closures in the game interval
+    const timerRef = useRef<number>(0);
+    const wordsRef = useRef<RainWordItem[] | null>(null);
+    const handleGameLogicRef = useRef<() => void>(() => {});
 
     const { processWords, processLastWords } = useWordProcessor(locale, wordSet);
+
+    // Keep wordsRef in sync
+    useEffect(() => {
+        wordsRef.current = words;
+    }, [words]);
+
+    useEffect(() => {
+        isGameActiveRef.current = gameStarted;
+    }, [gameStarted]);
+
+    // Level-up flash
+    useEffect(() => {
+        if (speed > prevSpeedRef.current) {
+            prevSpeedRef.current = speed;
+            setIsLevelUp(true);
+            const t = setTimeout(() => setIsLevelUp(false), 600);
+            return () => clearTimeout(t);
+        }
+    }, [speed]);
+
+    // Cleanup timers on unmount
+    useEffect(() => {
+        return () => {
+            if (freezeTimerRef.current) clearTimeout(freezeTimerRef.current);
+            if (heartsFlashTimerRef.current) clearTimeout(heartsFlashTimerRef.current);
+        };
+    }, []);
+
+    const triggerHeartsFlash = useCallback(() => {
+        if (heartsFlashTimerRef.current) clearTimeout(heartsFlashTimerRef.current);
+        setHeartsFlash(true);
+        heartsFlashTimerRef.current = setTimeout(() => setHeartsFlash(false), 400);
+    }, []);
+
+    const triggerGameOver = useCallback(() => {
+        setGameStarted(false);
+        setIsFreezing(true);
+        if (freezeTimerRef.current) clearTimeout(freezeTimerRef.current);
+        freezeTimerRef.current = setTimeout(() => {
+            setIsFreezing(false);
+            setShowButton(true);
+            setFallingWords([]);
+            setHearts(HEARTS);
+            setSpeed(1);
+            setTimer(0);
+            timerRef.current = 0;
+            keyCountRef.current = 0;
+            prevSpeedRef.current = 1;
+        }, GAME_OVER_FREEZE_MS);
+    }, []);
+
+    // Game-over detection
+    useEffect(() => {
+        if (hearts === 0 && gameStarted) {
+            triggerGameOver();
+        }
+    }, [hearts, gameStarted, triggerGameOver]);
 
     const animationHasEnded = useCallback(
         (key: number, word: RainWordItem) => removeWord(key, word?.correct === 'ok', word),
         [],
     );
 
-    const removeWord = (key: number, removeHeart: boolean, word: RainWordItem) => {
+    const removeWord = (
+        key: number,
+        removeHeart: boolean,
+        word: RainWordItem,
+        skipFlash = false,
+    ) => {
+        if (!isGameActiveRef.current) return;
         if (removeHeart) {
-            setIncorrectWords((prevIncorrectWords: RainWordItem[]) => [
-                ...prevIncorrectWords,
-                word,
-            ]);
-            setHearts((prevHearts: number) => {
-                const newHearts = prevHearts - 1;
-                if (newHearts <= 0) {
-                    stopGame();
-                    return 0;
-                }
-                return newHearts;
-            });
+            if (!skipFlash) triggerHeartsFlash();
+            setIncorrectWords((prev) => [...prev, word]);
+            setHearts((prevHearts) => Math.max(prevHearts - 1, 0));
         }
         setFallingWords((currentWords: JSX.Element[]) =>
-            currentWords.filter((word) => word.key !== key.toString()),
+            currentWords.filter((w) => w.key !== key.toString()),
         );
-    };
-
-    const stopGame = () => {
-        setShowButton(true);
-        setGameStarted(false);
-        setFallingWords([]);
-        setHearts(HEARTS);
-        setFallingWords([]);
-        setSpeed(1);
-        setTimer(0);
-        keyCountRef.current = 0;
-    };
-
-    const resetGame = () => {
-        setIncorrectWords([]);
     };
 
     const handleGameStartClick = () => {
-        resetGame();
+        if (freezeTimerRef.current) clearTimeout(freezeTimerRef.current);
+        setIsFreezing(false);
+        setIncorrectWords([]);
         setShowButton(false);
         setGameStarted(true);
+        timerRef.current = 0;
+        clickedKeysRef.current = new Set();
     };
 
     const handleWordClick = (key: number, word: RainWordItem): void => {
-        removeWord(key, word?.correct === 'ko', word);
+        if (clickedKeysRef.current.has(key)) return;
+        clickedKeysRef.current.add(key);
+
+        if (word?.correct === 'ko') {
+            triggerHeartsFlash();
+            const el = document.querySelector(`[data-word-key="${key}"]`);
+            if (el) {
+                el.classList.add('word-error');
+                setTimeout(() => removeWord(key, true, word, true), 350);
+            } else {
+                removeWord(key, true, word, true);
+            }
+        } else {
+            removeWord(key, false, word);
+        }
     };
 
-    const calculateTimerDivider = (GAME_SPEED: number): number => {
-        const timerDivider = Math.max(
-            BASE_TIMER_SPEED - Math.floor(GAME_SPEED / 2),
-            MINIMUM_TIMER_SPEED,
-        );
-        return timerDivider;
+    const calculateTimerDivider = (gameSpeed: number): number => {
+        // Steps down every 5 speed levels: 5→4→3→2→1
+        // Each step lasts ~50s (5 levels × 10s/level)
+        return Math.max(BASE_SPAWN_INTERVAL - Math.floor((gameSpeed - 1) / 5), MINIMUM_TIMER_SPEED);
     };
 
-    const calculatteAnimationDuration = (GAME_SPEED: number): number => {
+    const calculateAnimationDuration = (gameSpeed: number): number => {
         return Math.max(
-            BASE_ANIMATION_DURATION - GAME_SPEED * ANIMATION_DECREASE_FACTOR,
+            BASE_ANIMATION_DURATION - (gameSpeed - 1) * ANIMATION_DECREASE_FACTOR,
             MIN_ANIMATION_DURATION,
         );
     };
@@ -109,10 +177,10 @@ const useWordsRain = () => {
         return Math.max((segmentIndex / totalSegments) * 100, 1);
     };
 
-    const calculateGameSpeed = (timer: number): number => {
-        const GAME_SPEED = Math.floor(timer / LEVEL_UP_INTERVAL) + 1;
-        setSpeed(GAME_SPEED);
-        return GAME_SPEED;
+    const calculateGameSpeed = (currentTimer: number): number => {
+        const gameSpeed = Math.floor(currentTimer / LEVEL_UP_INTERVAL) + 1;
+        setSpeed(gameSpeed);
+        return gameSpeed;
     };
 
     const calculateNumberOfWords = (totalSegments: number): number => {
@@ -123,16 +191,20 @@ const useWordsRain = () => {
     };
 
     const handleGameLogic = (): void => {
-        setTimer((prevTimer: number) => prevTimer + 1);
+        // Use ref to always have the current timer value — avoids stale closure
+        timerRef.current += 1;
+        setTimer(timerRef.current);
 
-        const GAME_SPEED = calculateGameSpeed(timer);
-        const timerDivider = calculateTimerDivider(GAME_SPEED);
+        const currentTimer = timerRef.current;
+        const gameSpeed = calculateGameSpeed(currentTimer);
+        const timerDivider = calculateTimerDivider(gameSpeed);
         const tempKeyCount = keyCountRef.current;
+        const currentWords = wordsRef.current;
 
-        if (wrapperRef.current && words && timer % timerDivider === 0) {
+        if (wrapperRef.current && currentWords && currentTimer % timerDivider === 0) {
             const totalSegments = Math.floor(wrapperRef.current.offsetWidth / WORD_WIDTH);
             const numberOfWords = calculateNumberOfWords(totalSegments);
-            const animationDuration = calculatteAnimationDuration(GAME_SPEED);
+            const animationDuration = calculateAnimationDuration(gameSpeed);
 
             const usedSegmentsInIteration = new Set<number>();
 
@@ -147,8 +219,8 @@ const useWordsRain = () => {
                 const animationPosition = calculateAnimationPosition(segmentIndex, totalSegments);
 
                 const key = tempKeyCount + i;
-                const wordIndex = key % words.length;
-                const currentWord = words[wordIndex];
+                const wordIndex = key % currentWords.length;
+                const currentWord = currentWords[wordIndex];
 
                 const newWord = createWordBlock(
                     key,
@@ -164,6 +236,9 @@ const useWordsRain = () => {
         }
     };
 
+    // Keep the ref current on every render so the interval always calls latest logic
+    handleGameLogicRef.current = handleGameLogic;
+
     const createWordBlock = (
         key: number,
         word: RainWordItem,
@@ -173,6 +248,7 @@ const useWordsRain = () => {
         return (
             <div
                 key={key}
+                data-word-key={key}
                 className="words-rain-word"
                 style={{
                     width: `${WORD_WIDTH}px`,
@@ -194,7 +270,7 @@ const useWordsRain = () => {
     const renderGameResult = (): JSX.Element => (
         <div className="results-wrapper words-rain-results">
             {incorrectWords.length > 0 && (
-                <div>
+                <div className="results-summary">
                     <em className="results-title">
                         <FormattedMessage id="incorrectWords" />
                     </em>
@@ -202,16 +278,16 @@ const useWordsRain = () => {
                 </div>
             )}
             {incorrectWords.map((item, index) => (
-                <div key={index}>
-                    <strong className="results-ko text-danger">
+                <div key={index} className="results-card">
+                    <span className="results-wrong">
                         {item.word !== item.correctWord ? (
                             item.word
                         ) : (
                             <FormattedMessage id="gameMissed" />
                         )}
-                    </strong>
-                    {' → '}
-                    <strong className="results-ok">{item.correctWord}</strong>
+                    </span>
+                    <span className="results-arrow">→</span>
+                    <span className="results-correct">{item.correctWord}</span>
                 </div>
             ))}
         </div>
@@ -255,14 +331,14 @@ const useWordsRain = () => {
         }
     }, [gameLevel]);
 
+    // Interval only depends on gameStarted — uses ref to avoid stale closure and
+    // prevent the interval from being torn down and recreated on every render.
     useEffect(() => {
         if (gameStarted) {
-            const interval = setInterval(handleGameLogic, 1000);
-            return () => {
-                clearInterval(interval);
-            };
+            const interval = setInterval(() => handleGameLogicRef.current(), 1000);
+            return () => clearInterval(interval);
         }
-    }, [gameStarted, words, removeWord]);
+    }, [gameStarted]);
 
     return {
         error,
@@ -271,8 +347,12 @@ const useWordsRain = () => {
         isLoading: isLoadingWords,
         showButton,
         gameStarted,
+        isFreezing,
+        isLevelUp,
+        heartsFlash,
         fallingWords,
         hearts,
+        totalHearts: HEARTS,
         speed,
         wrapperRef,
         incorrectWords,

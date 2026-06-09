@@ -15,8 +15,12 @@ type WordsRainUIProps = {
     isLoading: boolean;
     showButton: boolean;
     gameStarted: boolean;
+    isFreezing: boolean;
+    isLevelUp: boolean;
+    heartsFlash: boolean;
     fallingWords: JSX.Element[];
     hearts: number;
+    totalHearts: number;
     speed: number;
     incorrectWords: RainWordItem[];
     wrapperRef: React.RefObject<HTMLDivElement>;
@@ -31,8 +35,12 @@ const UI: React.FC<WordsRainUIProps> = ({
     isLoading,
     showButton,
     gameStarted,
+    isFreezing,
+    isLevelUp,
+    heartsFlash,
     fallingWords,
     hearts,
+    totalHearts,
     speed,
     wrapperRef,
     incorrectWords,
@@ -59,7 +67,11 @@ const UI: React.FC<WordsRainUIProps> = ({
                         <FormattedMessage id="gamePlay" />
                     </button>
                 ) : null}
-                {timer > 0 && <p className="game-timer">{timer} <FormattedMessage id="gameSeconds" /></p>}
+                {timer > 0 && (
+                    <p className="game-timer">
+                        {timer} <FormattedMessage id="gameSeconds" />
+                    </p>
+                )}
             </Hero>
             <div className="words-rain-wrapper" ref={wrapperRef}>
                 {(showButton || !gameLevel) && incorrectWords.length === 0 && (
@@ -67,17 +79,25 @@ const UI: React.FC<WordsRainUIProps> = ({
                         <GameRules {...gameConfig.gameRules} />
                     </div>
                 )}
-                {gameStarted ? (
+                {isFreezing ? (
+                    <>{fallingWords}</>
+                ) : gameStarted ? (
                     <>
                         {fallingWords}
                         <div className="words-rain-points">
-                            <span className="label"><FormattedMessage id="gameSpeed" /></span>
-                            <span className="value">{speed}</span>
+                            <span className={`level-value${isLevelUp ? ' level-up' : ''}`}>
+                                <FormattedMessage id="gameSpeedLevel" values={{ speed }} />
+                            </span>
                         </div>
-                        <div className="words-rain-lifes">
-                            <div id="heart">
-                                <span>{hearts}</span>
-                            </div>
+                        <div className={`words-rain-lifes${heartsFlash ? ' hearts-flash' : ''}`}>
+                            {Array.from({ length: totalHearts }, (_, i) => (
+                                <span
+                                    key={i}
+                                    className={`heart-icon ${i < hearts ? 'heart-active' : 'heart-inactive'}`}
+                                >
+                                    ❤
+                                </span>
+                            ))}
                         </div>
                     </>
                 ) : (
