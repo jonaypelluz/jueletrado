@@ -1,10 +1,8 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from 'react';
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
 import WordGameProcessor from '@utils/WordGameProcessor';
-import { RainWordItem } from '@models/types';
+import { FallingWordItem, RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
 import { getLevelWordSet } from '@services/WordsService';
 import StorageService from '@store/StorageService';
@@ -32,7 +30,7 @@ const useWordsRain = () => {
     const [words, setWords] = useState<RainWordItem[] | null>(null);
     const [incorrectWords, setIncorrectWords] = useState<RainWordItem[]>([]);
     const [speed, setSpeed] = useState<number>(1);
-    const [fallingWords, setFallingWords] = useState<JSX.Element[]>([]);
+    const [fallingWords, setFallingWords] = useState<FallingWordItem[]>([]);
     const [hearts, setHearts] = useState<number>(HEARTS);
     const [isFreezing, setIsFreezing] = useState<boolean>(false);
     const [isLevelUp, setIsLevelUp] = useState<boolean>(false);
@@ -124,9 +122,7 @@ const useWordsRain = () => {
             setIncorrectWords((prev) => [...prev, word]);
             setHearts((prevHearts) => Math.max(prevHearts - 1, 0));
         }
-        setFallingWords((currentWords: JSX.Element[]) =>
-            currentWords.filter((w) => w.key !== key.toString()),
-        );
+        setFallingWords((current) => current.filter((f) => f.key !== key));
     };
 
     const handleGameStartClick = () => {
@@ -219,14 +215,15 @@ const useWordsRain = () => {
                 const wordIndex = key % currentWords.length;
                 const currentWord = currentWords[wordIndex];
 
-                const newWord = createWordBlock(
+                const newWord: FallingWordItem = {
                     key,
-                    currentWord,
-                    animationPosition,
-                    animationDuration,
-                );
+                    word: currentWord,
+                    leftPercentage: animationPosition,
+                    duration: animationDuration,
+                    widthPx: WORD_WIDTH,
+                };
 
-                setFallingWords((prevWords: JSX.Element[]) => [...prevWords, newWord]);
+                setFallingWords((prev) => [...prev, newWord]);
             }
 
             keyCountRef.current += numberOfWords;
@@ -235,60 +232,6 @@ const useWordsRain = () => {
 
     // Keep the ref current on every render so the interval always calls latest logic
     handleGameLogicRef.current = handleGameLogic;
-
-    const createWordBlock = (
-        key: number,
-        word: RainWordItem,
-        leftPercentage: number,
-        duration: number,
-    ) => {
-        return (
-            <div
-                key={key}
-                data-word-key={key}
-                className="words-rain-word"
-                style={{
-                    width: `${WORD_WIDTH}px`,
-                    left: `${leftPercentage}%`,
-                    animationDuration: `${duration}s`,
-                    display: 'inline-flex',
-                    userSelect: 'none',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                }}
-                onClick={() => handleWordClick(key, word)}
-                onAnimationEnd={() => animationHasEnded(key, word)}
-            >
-                <span className="word-text">{word?.word}</span>
-            </div>
-        );
-    };
-
-    const renderGameResult = (): JSX.Element => (
-        <div className="results-wrapper words-rain-results">
-            {incorrectWords.length > 0 && (
-                <div className="results-summary">
-                    <em className="results-title">
-                        <FormattedMessage id="incorrectWords" />
-                    </em>
-                    <strong className="results-title text-danger">{incorrectWords.length}</strong>
-                </div>
-            )}
-            {incorrectWords.map((item, index) => (
-                <div key={index} className="results-card">
-                    <span className="results-wrong">
-                        {item.word !== item.correctWord ? (
-                            item.word
-                        ) : (
-                            <FormattedMessage id="gameMissed" />
-                        )}
-                    </span>
-                    <span className="results-arrow">→</span>
-                    <span className="results-correct">{item.correctWord}</span>
-                </div>
-            ))}
-        </div>
-    );
 
     useEffect(() => {
         if (!gameLevel || words) return;
@@ -349,8 +292,9 @@ const useWordsRain = () => {
         speed,
         wrapperRef,
         incorrectWords,
+        animationHasEnded,
         handleGameStartClick,
-        renderGameResult,
+        handleWordClick,
     };
 };
 

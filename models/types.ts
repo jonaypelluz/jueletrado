@@ -91,3 +91,11 @@ export type RainWordItem = {
     correct: string;
     correctWord: string;
 };
+
+export type FallingWordItem = {
+    key: number;
+    word: RainWordItem;
+    leftPercentage: number;
+    duration: number;
+    widthPx: number;
+};
