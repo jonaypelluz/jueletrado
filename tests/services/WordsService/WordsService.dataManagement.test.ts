@@ -36,18 +36,14 @@ describe('WordsService data management tests', () => {
             .spyOn(dbService, 'checkIfPopulated')
             .mockImplementation(() => Promise.resolve(true));
 
-        const mockGetItem = jest.spyOn(StorageService, 'getItem').mockReturnValue([]);
         const mockSetItem = jest.spyOn(StorageService, 'setItem');
-        const mockClearStorage = jest.spyOn(StorageService, 'clearStorage');
 
         const result = await populateWordsDB(level, locale, setErrorMock, setLoadingProgressMock);
 
         expect(setErrorMock).not.toHaveBeenCalled();
-        expect(mockClearStorage).toHaveBeenCalled();
         expect(mockSetItem).toHaveBeenCalled();
         expect(mockCheckIfPopulated).toHaveBeenCalled();
-        expect(mockGetItem).toHaveBeenCalled();
-        expect(setLoadingProgressMock).toHaveBeenCalledWith(100);
+        expect(setLoadingProgressMock).not.toHaveBeenCalled();
         expect(result).toBe(true);
     });
 
@@ -73,24 +69,33 @@ describe('WordsService data management tests', () => {
         expect(setLoadingProgressMock).not.toHaveBeenCalled();
     });
 
-    test('Error handling for already loaded chunk in Populate Database', async () => {
-        const CHUNK = 0;
+    test('Populate database slow path loads chunks and marks level populated', async () => {
         const setErrorMock = jest.fn();
         const setLoadingProgressMock = jest.fn();
         const level = 'beginner';
         const locale = 'es';
 
-        jest.spyOn(StorageService, 'getItem').mockReturnValue([CHUNK]);
-        jest.spyOn(dbService, 'checkIfPopulated').mockImplementation(() => Promise.resolve(true));
-        const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
+        let checkIfPopulatedCallCount = 0;
+        jest.spyOn(dbService, 'checkIfPopulated').mockImplementation(() => {
+            checkIfPopulatedCallCount += 1;
+            // First call: not yet populated → triggers slow path
+            // Second call: now populated → marks level and returns true
+            return Promise.resolve(checkIfPopulatedCallCount > 1);
+        });
+
+        jest.spyOn(dbService, 'addWords').mockResolvedValue(undefined);
+        jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
+        jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
+        const mockSetItem = jest.spyOn(StorageService, 'setItem');
 
         const result = await populateWordsDB(level, locale, setErrorMock, setLoadingProgressMock);
 
-        expect(result).toBe(false);
-        expect(mockLoggerError).toHaveBeenCalled();
-        expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));
-        expect(setErrorMock.mock.calls[0][0].message).toBe(
-            `Error: Chunk ${CHUNK} is already loaded.`,
+        expect(result).toBe(true);
+        expect(setErrorMock).not.toHaveBeenCalled();
+        expect(setLoadingProgressMock).toHaveBeenCalled();
+        expect(mockSetItem).toHaveBeenCalledWith(
+            StorageService.LEVELS_POPULATED,
+            expect.anything(),
         );
     });
 

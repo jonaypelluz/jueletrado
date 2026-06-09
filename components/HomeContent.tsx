@@ -1,19 +1,18 @@
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useIntl } from 'react-intl';
 import Games from '@components/Games';
 import Hero from '@components/Hero';
 import LevelList from '@components/LevelList';
 import LoadingScreen from '@components/LoadingScreen';
 import MainLayout from '@layouts/MainLayout';
+import useLevelLoader from '@hooks/useLevelLoader';
 import Logger from '@services/Logger';
-import { clearWordGroupCaches, getWords, isLevelPopulated, loadDailyWordForLocale, populateWordsDB } from '@services/WordsService';
+import { getWords, loadDailyWordForLocale } from '@services/WordsService';
 import StorageService, { StorageKey } from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 import '@styles/HomeContent.scss';
-
-const EXPIRE_TIME_24H: number = 86400000;
 
 const mainImageArray: string[] = [
     '/images/home/Jueletrado_1.png',
@@ -32,15 +31,13 @@ const HomeContent: React.FC = () => {
         gameLevel,
         hydrated,
         wordOfTheDay,
-        setLoadingProgress,
         setError,
         setLoading,
         setWordOfTheDay,
-        setGameLevel,
     } = useWordsContext();
+    const { selectLevel } = useLevelLoader();
     const [areWordsLoaded, setAreWordsLoaded] = useState<boolean>(false);
     const [wordGroupsLoaded, setWordGroupsLoaded] = useState<boolean>(false);
-    const isDBBeingPopulated = useRef<boolean>(false);
     // Keep the random hero image stable across renders. Picking it inside a
     // useState initializer would re-randomize between server and client; this
     // effect picks it once after mount to avoid hydration mismatch.
@@ -50,34 +47,9 @@ const HomeContent: React.FC = () => {
     }, []);
 
     const handlePopulateDBClick = (level: string) => {
-        if (isDBBeingPopulated.current) return;
-
         setAreWordsLoaded(false);
         setWordGroupsLoaded(false);
-        clearWordGroupCaches();
-
-        // Fast path: level already in IndexedDB — no loading screen needed.
-        if (isLevelPopulated(level, locale)) {
-            StorageService.setItem(StorageService.SELECTED_LEVEL, level, EXPIRE_TIME_24H);
-            setGameLevel(level);
-            setAreWordsLoaded(true);
-            return;
-        }
-
-        // Slow path: first time loading this level — show loading screen.
-        setLoading(true);
-        isDBBeingPopulated.current = true;
-        populateWordsDB(level, locale, setError, setLoadingProgress).then((isPopulated) => {
-            if (isPopulated) {
-                StorageService.setItem(StorageService.SELECTED_LEVEL, level, EXPIRE_TIME_24H);
-                setGameLevel(level);
-                setAreWordsLoaded(true);
-                isDBBeingPopulated.current = false;
-            } else {
-                Logger.warn('Database is not populated yet. Waiting...');
-                isDBBeingPopulated.current = false;
-            }
-        });
+        selectLevel(level, () => setAreWordsLoaded(true));
     };
 
     // Load the daily word as soon as the locale is known — no level selection required.
@@ -183,7 +155,7 @@ const HomeContent: React.FC = () => {
                     StorageService.setItem(
                         StorageService.SELECTED_DAY_WORD,
                         dailyWord,
-                        EXPIRE_TIME_24H,
+                        86400000,
                     );
                     setWordOfTheDay(dailyWord);
                     setLoading(false);
