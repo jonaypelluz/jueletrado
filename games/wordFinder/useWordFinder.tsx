@@ -45,8 +45,12 @@ const useWordFinder = () => {
         event.target.value = value.charAt(0);
         event.target.blur();
 
-        if (index + 1 < letters.length && inputRefs.current[index + 1]) {
-            inputRefs.current[index + 1]?.focus();
+        let nextIndex = index + 1;
+        while (nextIndex < letters.length && newEnteredLetters[nextIndex]) {
+            nextIndex++;
+        }
+        if (nextIndex < letters.length) {
+            inputRefs.current[nextIndex]?.focus();
         }
     };
 
