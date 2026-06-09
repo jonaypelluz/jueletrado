@@ -161,4 +161,29 @@ const deleteWordsDB = async (setError: SetErrorFunction): Promise<void> => {
     }
 };
 
-export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords, loadDefinition };
+const levelWordSetCache = new Map<string, Set<string>>();
+
+const getLevelWordSet = async (
+    level: string | null,
+    locale: string,
+): Promise<Set<string>> => {
+    const cacheKey = `${level}_${locale}`;
+    const cached = levelWordSetCache.get(cacheKey);
+    if (cached) return cached;
+
+    const levelConfig = LevelsConfig.find((config) => config.level === level);
+    if (!levelConfig) return new Set();
+
+    try {
+        dbService.setStoreName(levelConfig.level, locale);
+        await dbService.initDB();
+        const words = await dbService.getAllWords();
+        const wordSet = new Set<string>(words ?? []);
+        levelWordSetCache.set(cacheKey, wordSet);
+        return wordSet;
+    } catch {
+        return new Set();
+    }
+};
+
+export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords, loadDefinition, getLevelWordSet };
