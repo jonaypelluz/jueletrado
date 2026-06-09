@@ -9,6 +9,7 @@ import '@styles/Buttons.scss';
 
 type DefinitionMasterUIProps = {
     gameConfig: GameConfig;
+    gameLevel: string | null;
     isGameStarted: boolean;
     letters: string[];
     quizWords: QuizDefinition[][];
@@ -20,6 +21,7 @@ type DefinitionMasterUIProps = {
 
 const UI: React.FC<DefinitionMasterUIProps> = ({
     gameConfig,
+    gameLevel,
     isGameStarted,
     letters,
     quizWords,
@@ -41,9 +43,15 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                     </button>
                 )}
                 {!isGameStarted && (
-                    <button className="btn-primary game-btn" onClick={handleGameStartClick}>
-                        <FormattedMessage id="gamePlay" />
-                    </button>
+                    !gameLevel ? (
+                        <button className="btn-primary game-btn" disabled>
+                            <FormattedMessage id="gameSelectLevel" />
+                        </button>
+                    ) : (
+                        <button className="btn-primary game-btn" onClick={handleGameStartClick}>
+                            <FormattedMessage id="gamePlay" />
+                        </button>
+                    )
                 )}
             </Hero>
             <div className="definition-master-wrapper">

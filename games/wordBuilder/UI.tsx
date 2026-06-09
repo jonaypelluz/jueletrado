@@ -5,12 +5,12 @@ import { FormattedMessage } from 'react-intl';
 import { GameConfig } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
-import LoadingScreen from '@components/LoadingScreen';
 import '@styles/Buttons.scss';
 
 type WordBuilderUIProps = {
     gameConfig: GameConfig;
     error: Error | null;
+    gameLevel: string | null;
     isLoading: boolean;
     words: string[];
     letters: string[];
@@ -23,7 +23,7 @@ type WordBuilderUIProps = {
 
 const UI: React.FC<WordBuilderUIProps> = ({
     gameConfig,
-    error,
+    gameLevel,
     isLoading,
     words,
     letters,
@@ -33,10 +33,6 @@ const UI: React.FC<WordBuilderUIProps> = ({
     handleLetterClick,
     handleCheckWordClick,
 }) => {
-    if (error || isLoading) {
-        return <LoadingScreen />;
-    }
-
     return (
         <>
             <Hero
@@ -44,16 +40,30 @@ const UI: React.FC<WordBuilderUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                <button className="btn-primary game-btn" onClick={handleGameStartClick}>
-                    {letters.length > 0 ? (
-                        <FormattedMessage id="gameWordBuilderGenerate" />
-                    ) : (
-                        <FormattedMessage id="gamePlay" />
-                    )}
-                </button>
+                {!gameLevel ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gameSelectLevel" />
+                    </button>
+                ) : isLoading ? (
+                    <button className="btn-primary game-btn" disabled>
+                        {letters.length > 0 ? (
+                            <FormattedMessage id="gameWordBuilderGenerate" />
+                        ) : (
+                            <FormattedMessage id="gamePlay" />
+                        )}
+                    </button>
+                ) : (
+                    <button className="btn-primary game-btn" onClick={handleGameStartClick}>
+                        {letters.length > 0 ? (
+                            <FormattedMessage id="gameWordBuilderGenerate" />
+                        ) : (
+                            <FormattedMessage id="gamePlay" />
+                        )}
+                    </button>
+                )}
             </Hero>
             <div className="word-builder-wrapper">
-                {letters.length === 0 && foundWords.length === 0 && (
+                {(letters.length === 0 || !gameLevel) && foundWords.length === 0 && (
                     <GameRules {...gameConfig.gameRules} />
                 )}
                 {letters.length > 0 && (

@@ -5,12 +5,12 @@ import { FormattedMessage } from 'react-intl';
 import { GameConfig } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
-import LoadingScreen from '@components/LoadingScreen';
 import '@styles/Buttons.scss';
 
 type WordFinderUIProps = {
     gameConfig: GameConfig;
     error: Error | null;
+    gameLevel: string | null;
     isLoading: boolean;
     showButton: boolean;
     word: string | undefined;
@@ -26,7 +26,7 @@ type WordFinderUIProps = {
 
 const UI: React.FC<WordFinderUIProps> = ({
     gameConfig,
-    error,
+    gameLevel,
     isLoading,
     showButton,
     word,
@@ -39,10 +39,6 @@ const UI: React.FC<WordFinderUIProps> = ({
     handleCheckClick,
     handleGameStartClick,
 }) => {
-    if (error || isLoading) {
-        return <LoadingScreen />;
-    }
-
     return (
         <>
             <Hero
@@ -50,12 +46,19 @@ const UI: React.FC<WordFinderUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                {showButton && (
+                {!gameLevel ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gameSelectLevel" />
+                    </button>
+                ) : isLoading ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gamePlay" />
+                    </button>
+                ) : showButton ? (
                     <button className="btn-primary game-btn" onClick={handleGameStartClick}>
                         <FormattedMessage id="gamePlay" />
                     </button>
-                )}
-                {!showButton && (
+                ) : (
                     <p className="game-timer">
                         {countdown} <FormattedMessage id="gameSeconds" />
                     </p>
@@ -63,7 +66,7 @@ const UI: React.FC<WordFinderUIProps> = ({
             </Hero>
             <div className="word-finder-wrapper">
                 <div className="word-finder-inner">
-                    {showButton && foundWords.length === 0 && (
+                    {(showButton || !gameLevel) && foundWords.length === 0 && (
                         <GameRules {...gameConfig.gameRules} />
                     )}
                     {word && (

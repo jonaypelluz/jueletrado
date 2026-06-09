@@ -21,7 +21,8 @@ const MINIMUM_TIMER_SPEED = 1;
 const BASE_TIMER_SPEED = 4;
 
 const useWordsRain = () => {
-    const { locale, error, setError, setLoading, isLoading } = useWordsContext();
+    const { locale, gameLevel, error, setError } = useWordsContext();
+    const [isLoadingWords, setIsLoadingWords] = useState(false);
 
     const [timer, setTimer] = useState(0);
     const [gameStarted, setGameStarted] = useState<boolean>(false);
@@ -215,6 +216,8 @@ const useWordsRain = () => {
     );
 
     useEffect(() => {
+        if (!gameLevel) return;
+
         const fetchWordsFromStorage = async () => {
             const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);
 
@@ -238,10 +241,10 @@ const useWordsRain = () => {
         };
 
         if (!words) {
-            setLoading(true);
-            fetchWordsFromStorage().then(() => setLoading(false));
+            setIsLoadingWords(true);
+            fetchWordsFromStorage().then(() => setIsLoadingWords(false));
         }
-    }, []);
+    }, [gameLevel]);
 
     useEffect(() => {
         if (gameStarted) {
@@ -255,7 +258,8 @@ const useWordsRain = () => {
     return {
         error,
         timer,
-        isLoading,
+        gameLevel,
+        isLoading: isLoadingWords,
         showButton,
         gameStarted,
         fallingWords,

@@ -86,7 +86,7 @@ const matrixInitialState = (): ICell[][] => {
 };
 
 const useCrossWordPuzzle = () => {
-    const { locale } = useWordsContext();
+    const { locale, gameLevel } = useWordsContext();
 
     const [wordsList, setWordsList] = useState<string[]>([]);
     const [allDefinitions, setAllDefinitions] = useState<DefinitionWords>({});
@@ -538,6 +538,7 @@ const useCrossWordPuzzle = () => {
     return {
         gridSize: GRID_SIZE,
         gridSizePixels: GRID_SIZE_PX,
+        gameLevel,
         liRefs,
         crossword,
         selectedWords,

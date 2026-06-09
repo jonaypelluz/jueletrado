@@ -10,7 +10,8 @@ import { useWordsContext } from '@store/WordsContext';
 const GAME_TIMER = 180;
 
 const useWordFinder = () => {
-    const { locale, gameLevel, error, setError, isLoading, setLoading } = useWordsContext();
+    const { locale, gameLevel, error, setError } = useWordsContext();
+    const [isLoadingWords, setIsLoadingWords] = useState<boolean>(false);
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -171,6 +172,8 @@ const useWordFinder = () => {
     }, [countdown]);
 
     useEffect(() => {
+        if (!gameLevel) return;
+
         const fetchWords = async () => {
             const sessionWords = await getSessionWords(
                 StorageService.WORDS_FINDER,
@@ -191,14 +194,15 @@ const useWordFinder = () => {
         };
 
         if (words.length === 0) {
-            setLoading(true);
-            fetchWords().then(() => setLoading(false));
+            setIsLoadingWords(true);
+            fetchWords().then(() => setIsLoadingWords(false));
         }
-    }, []);
+    }, [gameLevel]);
 
     return {
         error,
-        isLoading,
+        gameLevel,
+        isLoading: isLoadingWords,
         showButton,
         word,
         isWordComplete,

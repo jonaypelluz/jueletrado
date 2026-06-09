@@ -12,7 +12,7 @@ const TOTAL_QUIZ_DEFINITIONS = 5;
 type SelectedAnswersType = { [key: string]: boolean };
 
 const useDefinitionMaster = () => {
-    const { locale } = useWordsContext();
+    const { locale, gameLevel } = useWordsContext();
 
     const [quizWord, setQuizWord] = useState<string>('');
     const [currentQuizIndex, setCurrentQuizIndex] = useState<number>(0);
@@ -212,6 +212,7 @@ const useDefinitionMaster = () => {
     }, [chosenWords]);
 
     return {
+        gameLevel,
         isGameStarted,
         letters,
         quizWords,

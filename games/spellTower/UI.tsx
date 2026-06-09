@@ -5,13 +5,13 @@ import { FormattedMessage } from 'react-intl';
 import { GameConfig } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
-import LoadingScreen from '@components/LoadingScreen';
 import '@styles/Buttons.scss';
 
 type SpellTowerUIProps = {
     gameConfig: GameConfig;
     error: Error | null;
     countdown: number;
+    gameLevel: string | null;
     showButton: boolean;
     gameStarted: boolean;
     hasBeenPlayed: boolean;
@@ -25,8 +25,8 @@ type SpellTowerUIProps = {
 
 const UI: React.FC<SpellTowerUIProps> = ({
     gameConfig,
-    error,
     countdown,
+    gameLevel,
     showButton,
     gameStarted,
     hasBeenPlayed,
@@ -37,10 +37,6 @@ const UI: React.FC<SpellTowerUIProps> = ({
     displayWordVariations,
     renderGameResult,
 }) => {
-    if (error || isLoading) {
-        return <LoadingScreen />;
-    }
-
     return (
         <>
             <Hero
@@ -48,18 +44,25 @@ const UI: React.FC<SpellTowerUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                {showButton && (
+                {!gameLevel ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gameSelectLevel" />
+                    </button>
+                ) : isLoading ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gamePlay" />
+                    </button>
+                ) : showButton ? (
                     <button className="btn-primary game-btn" onClick={handleGameStartClick}>
                         <FormattedMessage id="gamePlay" />
                     </button>
-                )}
-                {!showButton && (
+                ) : (
                     <p className="game-timer">
                         {countdown} <FormattedMessage id="gameSeconds" />
                     </p>
                 )}
             </Hero>
-            {!hasBeenPlayed ? (
+            {!hasBeenPlayed || !gameLevel ? (
                 <div className="spell-tower-game">
                     <div className="spell-tower-game-inner">
                         <GameRules {...gameConfig.gameRules} />

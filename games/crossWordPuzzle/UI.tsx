@@ -12,6 +12,7 @@ type CrossWordPuzzleUIProps = {
     gameConfig: GameConfig;
     gridSize: number;
     gridSizePixels: number;
+    gameLevel: string | null;
     liRefs: React.MutableRefObject<(HTMLLIElement | null)[]>;
     crossword: ICell[][];
     selectedWords: SelectedWord;
@@ -35,6 +36,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
     gameConfig,
     gridSize,
     gridSizePixels,
+    gameLevel,
     liRefs,
     crossword,
     selectedWords,
@@ -50,12 +52,18 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                <button
-                    className="btn-primary game-btn"
-                    onClick={handleGameStartClick}
-                >
-                    <FormattedMessage id="gamePlay" />
-                </button>
+                {!gameLevel ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gameSelectLevel" />
+                    </button>
+                ) : (
+                    <button
+                        className="btn-primary game-btn"
+                        onClick={handleGameStartClick}
+                    >
+                        <FormattedMessage id="gamePlay" />
+                    </button>
+                )}
             </Hero>
             {isGameStarted ? (
                 <div className="crossword-container">

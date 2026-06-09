@@ -56,6 +56,7 @@ const GeneralTranslations: Translations = {
         // prettier-ignore
         gameMissed: 'You didn\'t see',
         gamePlay: 'Start',
+        gameSelectLevel: 'Choose a level to play',
         gameRulesAdditionalRules: 'Additional rules:',
         gameRulesGoaloftheGame: 'Goal of the Game:',
         gameRulesHowtoPlay: 'How to Play:',
@@ -105,6 +106,7 @@ const GeneralTranslations: Translations = {
         gameCheckWord: 'Comprobar palabra',
         gameMissed: 'No viste',
         gamePlay: 'Jugar',
+        gameSelectLevel: 'Elige un nivel para jugar',
         gameRulesAdditionalRules: 'Reglas Adicionales:',
         gameRulesGoaloftheGame: 'Objetivo del Juego:',
         gameRulesHowtoPlay: 'Cómo Jugar:',

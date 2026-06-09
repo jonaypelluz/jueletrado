@@ -12,7 +12,8 @@ import { useWordsContext } from '@store/WordsContext';
 const GAME_TIME = 30;
 
 const useSpellTower = () => {
-    const { locale, gameLevel, error, setError, setLoading, isLoading } = useWordsContext();
+    const { locale, gameLevel, error, setError } = useWordsContext();
+    const [isLoadingWords, setIsLoadingWords] = useState(false);
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -57,6 +58,8 @@ const useSpellTower = () => {
     }, [words, currentWordIndex]);
 
     useEffect(() => {
+        if (!gameLevel) return;
+
         const fetchWords = async () => {
             const sessionWords = await getSessionWords(
                 StorageService.WORDS_TOWER,
@@ -79,10 +82,10 @@ const useSpellTower = () => {
         };
 
         if (!words) {
-            setLoading(true);
-            fetchWords().then(() => setLoading(false));
+            setIsLoadingWords(true);
+            fetchWords().then(() => setIsLoadingWords(false));
         }
-    }, []);
+    }, [gameLevel]);
 
     useEffect(() => {
         let timer: NodeJS.Timeout | null = null;
@@ -150,12 +153,13 @@ const useSpellTower = () => {
     return {
         error,
         countdown,
+        gameLevel,
         showButton,
         words,
         gameStarted,
         hasBeenPlayed,
         correctAnswers,
-        isLoading,
+        isLoading: isLoadingWords,
         handleGameStartClick,
         renderTowerBlocks,
         displayWordVariations,

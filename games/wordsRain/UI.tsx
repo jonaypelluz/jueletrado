@@ -5,13 +5,13 @@ import { FormattedMessage } from 'react-intl';
 import { GameConfig, RainWordItem } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
-import LoadingScreen from '@components/LoadingScreen';
 import '@styles/Buttons.scss';
 
 type WordsRainUIProps = {
     gameConfig: GameConfig;
     error: Error | null;
     timer: number;
+    gameLevel: string | null;
     isLoading: boolean;
     showButton: boolean;
     gameStarted: boolean;
@@ -26,8 +26,8 @@ type WordsRainUIProps = {
 
 const UI: React.FC<WordsRainUIProps> = ({
     gameConfig,
-    error,
     timer,
+    gameLevel,
     isLoading,
     showButton,
     gameStarted,
@@ -39,10 +39,6 @@ const UI: React.FC<WordsRainUIProps> = ({
     handleGameStartClick,
     renderGameResult,
 }) => {
-    if (error || isLoading) {
-        return <LoadingScreen />;
-    }
-
     return (
         <>
             <Hero
@@ -50,15 +46,23 @@ const UI: React.FC<WordsRainUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                {showButton && (
+                {!gameLevel ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gameSelectLevel" />
+                    </button>
+                ) : isLoading ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gamePlay" />
+                    </button>
+                ) : showButton ? (
                     <button className="btn-primary game-btn" onClick={handleGameStartClick}>
                         <FormattedMessage id="gamePlay" />
                     </button>
-                )}
+                ) : null}
                 {timer > 0 && <p className="game-timer">{timer} segundos</p>}
             </Hero>
             <div className="words-rain-wrapper" ref={wrapperRef}>
-                {showButton && incorrectWords.length === 0 && (
+                {(showButton || !gameLevel) && incorrectWords.length === 0 && (
                     <div className="words-rain-inner">
                         <GameRules {...gameConfig.gameRules} />
                     </div>

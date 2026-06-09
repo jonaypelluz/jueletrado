@@ -11,7 +11,8 @@ const NUMBER_OF_VOWELS = 2;
 const NUMBER_OF_CONSONANTS = 4;
 
 const useWordBuilder = () => {
-    const { locale, error, setLoading, isLoading, gameLevel } = useWordsContext();
+    const { locale, error, gameLevel } = useWordsContext();
+    const [isLoadingWords, setIsLoadingWords] = useState(false);
     const wordProcessor = useWordProcessor(locale);
 
     const [letters, setLetters] = useState<string[]>([]);
@@ -89,12 +90,14 @@ const useWordBuilder = () => {
 
     useEffect(() => {
         if (letters.length > 0) {
-            setLoading(true);
-            calculatePossibleWords().then(() => setLoading(false));
+            setIsLoadingWords(true);
+            calculatePossibleWords().then(() => setIsLoadingWords(false));
         }
     }, [letters]);
 
     useEffect(() => {
+        if (!gameLevel) return;
+
         const fetchAllWords = async () => {
             const wordSet = await getLevelWordSet(gameLevel, locale);
             if (wordSet.size > 0) {
@@ -103,14 +106,15 @@ const useWordBuilder = () => {
         };
 
         if (allWords.length === 0) {
-            setLoading(true);
-            fetchAllWords().then(() => setLoading(false));
+            setIsLoadingWords(true);
+            fetchAllWords().then(() => setIsLoadingWords(false));
         }
-    }, []);
+    }, [gameLevel]);
 
     return {
         error,
-        isLoading,
+        gameLevel,
+        isLoading: isLoadingWords,
         words,
         letters,
         tempWord,
