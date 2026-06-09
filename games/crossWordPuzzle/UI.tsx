@@ -13,7 +13,7 @@ type CrossWordPuzzleUIProps = {
     gridSize: number;
     gridSizePixels: number;
     gameLevel: string | null;
-    liRefs: React.MutableRefObject<(HTMLLIElement | null)[]>;
+    completedWords: Set<string>;
     crossword: ICell[][];
     selectedWords: SelectedWord;
     isGameStarted: boolean;
@@ -37,7 +37,7 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
     gridSize,
     gridSizePixels,
     gameLevel,
-    liRefs,
+    completedWords,
     crossword,
     selectedWords,
     isGameStarted,
@@ -69,8 +69,8 @@ const UI: React.FC<CrossWordPuzzleUIProps> = ({
                 <div className="crossword-container">
                     <div className="crossword-sidebar">
                         <ul>
-                            {Object.entries(selectedWords).map(([word, data], index) => (
-                                <li key={word} ref={(el) => (liRefs.current[index] = el)}>
+                            {Object.entries(selectedWords).map(([word, data]) => (
+                                <li key={word} className={completedWords.has(word) ? 'completed' : ''}>
                                     <span style={{ backgroundColor: data.color }}></span>
                                     {data.displayDefinition}
                                 </li>

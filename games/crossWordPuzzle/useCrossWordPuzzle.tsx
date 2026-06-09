@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
+import { ChangeEvent, useEffect, useRef, useState } from 'react';
 import { AccentedVowels } from '@config/AccentRules';
 import { ICell } from '@models/interfaces';
 import { Definition, DefinitionWords, Position, SelectedWord } from '@models/types';
@@ -27,63 +27,24 @@ const MAX_INITIAL_POSITION_RANGE = 4;
 const MAX_PLACEMENT_PER_WORD = 2;
 const MAX_POSSIBLE_WORDS_PER_WORD = 4;
 const letters: string[] = [
-    'a',
-    'b',
-    'c',
-    'd',
-    'e',
-    'f',
-    'g',
-    'h',
-    'i',
-    'j',
-    'k',
-    'l',
-    'm',
-    'n',
-    'o',
-    'p',
-    'q',
-    'r',
-    's',
-    't',
-    'u',
-    'v',
-    'w',
-    'x',
-    'y',
-    'z',
+    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+    'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
 const originalColors: string[] = [
-    '#1677FF', // Blue
-    '#008000', // Green
-    '#FFFF00', // Yellow
-    '#FFA500', // Orange
-    '#800080', // Purple
-    '#A52A2A', // Brown
-    '#FFC0CB', // Pink
-    '#00FFFF', // Cyan
-    '#FF00FF', // Magenta
-    '#008080', // Teal
-    '#000080', // Navy
-    '#800000', // Maroon
-    '#808000', // Olive
-    '#FFD700', // Gold
+    '#1677FF', '#008000', '#FFFF00', '#FFA500', '#800080',
+    '#A52A2A', '#FFC0CB', '#00FFFF', '#FF00FF', '#008080',
+    '#000080', '#800000', '#808000', '#FFD700',
 ];
 
-let commonColors = [...originalColors];
-
-const matrixInitialState = (): ICell[][] => {
-    const matrix: ICell[][] = Array(GRID_SIZE)
+const matrixInitialState = (): ICell[][] =>
+    Array(GRID_SIZE)
         .fill(null)
         .map(() =>
             Array(GRID_SIZE)
                 .fill(null)
                 .map(() => ({ char: '', color: '', filled: false, isCorrect: false })),
         );
-    return matrix;
-};
 
 const useCrossWordPuzzle = () => {
     const { locale, gameLevel } = useWordsContext();
@@ -96,7 +57,13 @@ const useCrossWordPuzzle = () => {
     const [crossword, setCrossword] = useState<ICell[][]>(matrixInitialState);
     const [firstWord, setFirstWord] = useState<string>('');
     const [crosswordWords, setCrosswordWords] = useState<crosswordWord[]>([]);
-    const liRefs = useRef<(HTMLLIElement | null)[]>([]);
+    const [completedWords, setCompletedWords] = useState<Set<string>>(new Set());
+
+    // Updated synchronously during generation so each word placement sees the
+    // full current grid — avoids the stale React state snapshot problem.
+    const workingMatrixRef = useRef<ICell[][]>(matrixInitialState());
+    // Kept in a ref to avoid shared module-level mutable state across instances.
+    const commonColorsRef = useRef([...originalColors]);
 
     useEffect(() => {
         if (wordsList.length > 0) {
@@ -132,14 +99,17 @@ const useCrossWordPuzzle = () => {
     };
 
     const resetCrossword = () => {
+        const freshMatrix = matrixInitialState();
+        workingMatrixRef.current = freshMatrix;
+        commonColorsRef.current = [...originalColors];
         setFirstWord('');
         setSelectedWords({});
-        setCrossword(matrixInitialState);
+        setCrossword(freshMatrix);
         setCrosswordWords([]);
         setAllDefinitions({});
         setWordsList([]);
         setIsComplete(false);
-        commonColors = [...originalColors];
+        setCompletedWords(new Set());
     };
 
     const getWordsFromRandomLetters = async (count: number): Promise<DefinitionWords> => {
@@ -148,9 +118,10 @@ const useCrossWordPuzzle = () => {
         const promises = shuffledLetters.map((letter) => loadDefinition(letter, locale));
         const letterDefinitions = await Promise.all(promises);
 
-        const mergedDefinitions = letterDefinitions.reduce((acc, definition) => {
-            return { ...acc, ...definition };
-        }, {});
+        const mergedDefinitions = letterDefinitions.reduce<Record<string, unknown>>(
+            (acc, definition) => ({ ...acc, ...(definition ?? {}) }),
+            {},
+        );
 
         const definitions: DefinitionWords = Object.entries(mergedDefinitions)
             .sort(() => Math.random() - 0.5)
@@ -210,18 +181,13 @@ const useCrossWordPuzzle = () => {
             },
         }));
 
-        return {
-            word: word,
-            position: position,
-            direction: wordDirection,
-        };
+        return { word, position, direction: wordDirection };
     };
 
     const collectPossibleWords = (selectedWord: string): PossibleWord[] => {
         const possibleWords: PossibleWord[] = [];
         const addedWords = new Set();
         const selectedWordsList = Object.keys(selectedWords);
-
         const charWordCount: { [key: string]: number } = {};
 
         const findNthOccurrence = (str: string, char: string, occurrence: number) => {
@@ -229,18 +195,14 @@ const useCrossWordPuzzle = () => {
             for (let i = 0; i < str.length; i++) {
                 if (str[i] === char) {
                     count++;
-                    if (count === occurrence) {
-                        return i;
-                    }
+                    if (count === occurrence) return i;
                 }
             }
             return -1;
         };
 
         wordsList.forEach((word: string) => {
-            if (selectedWordsList.includes(word)) {
-                return;
-            }
+            if (selectedWordsList.includes(word)) return;
 
             const charOccurrencesInSelectedWord: { [key: string]: number } = {};
 
@@ -252,13 +214,8 @@ const useCrossWordPuzzle = () => {
                 charOccurrencesInSelectedWord[char]++;
                 const charKey = char + charOccurrencesInSelectedWord[char];
 
-                if (!charWordCount[charKey]) {
-                    charWordCount[charKey] = 0;
-                }
-
-                if (charWordCount[charKey] >= MAX_POSSIBLE_WORDS_PER_WORD) {
-                    continue;
-                }
+                if (!charWordCount[charKey]) charWordCount[charKey] = 0;
+                if (charWordCount[charKey] >= MAX_POSSIBLE_WORDS_PER_WORD) continue;
 
                 const matchIndex = findNthOccurrence(
                     word,
@@ -267,18 +224,10 @@ const useCrossWordPuzzle = () => {
                 );
 
                 if (matchIndex !== -1 && !addedWords.has(word)) {
-                    possibleWords.push({
-                        word: word,
-                        previousWordIndex: i,
-                        wordIndex: matchIndex,
-                    });
+                    possibleWords.push({ word, previousWordIndex: i, wordIndex: matchIndex });
                     addedWords.add(word);
-
                     charWordCount[charKey] += 1;
-
-                    if (charWordCount[charKey] >= MAX_POSSIBLE_WORDS_PER_WORD) {
-                        break;
-                    }
+                    if (charWordCount[charKey] >= MAX_POSSIBLE_WORDS_PER_WORD) break;
                 }
             }
         });
@@ -287,8 +236,8 @@ const useCrossWordPuzzle = () => {
     };
 
     const getRandomColor = () => {
-        const randomIndex = Math.floor(Math.random() * commonColors.length);
-        const [color] = commonColors.splice(randomIndex, 1);
+        const randomIndex = Math.floor(Math.random() * commonColorsRef.current.length);
+        const [color] = commonColorsRef.current.splice(randomIndex, 1);
         return color;
     };
 
@@ -298,7 +247,7 @@ const useCrossWordPuzzle = () => {
         direction: string,
         color: string,
     ): void => {
-        const matrix = crossword.map((row) => [...row]);
+        const matrix = workingMatrixRef.current.map((row) => [...row]);
 
         for (let i = 0; i < word.length; i++) {
             if (direction === 'horizontal') {
@@ -317,6 +266,8 @@ const useCrossWordPuzzle = () => {
                 };
             }
         }
+
+        workingMatrixRef.current = matrix;
         setCrossword(matrix);
     };
 
@@ -328,11 +279,8 @@ const useCrossWordPuzzle = () => {
     ): boolean => {
         const positionsToCheck = findWordPositions(startRow, startCol, wordLength, direction);
         for (const pos of positionsToCheck) {
-            if (checkCollisionPoints(pos.row, pos.col)) {
-                return true;
-            }
+            if (checkCollisionPoints(pos.row, pos.col)) return true;
         }
-
         return false;
     };
 
@@ -345,13 +293,13 @@ const useCrossWordPuzzle = () => {
         const positions = [];
 
         if (direction === 'horizontal') {
-            if (startCol + wordLength <= crossword[0].length) {
+            if (startCol + wordLength <= GRID_SIZE) {
                 for (let i = 0; i < wordLength; i++) {
                     positions.push({ row: startRow, col: startCol + i });
                 }
             }
         } else if (direction === 'vertical') {
-            if (startRow + wordLength <= crossword.length) {
+            if (startRow + wordLength <= GRID_SIZE) {
                 for (let i = 0; i < wordLength; i++) {
                     positions.push({ row: startRow + i, col: startCol });
                 }
@@ -363,69 +311,63 @@ const useCrossWordPuzzle = () => {
 
     const checkCollisionPoints = (row: number, col: number): boolean => {
         const positions = [
-            { r: row - 1, c: col - 1 }, // Top-left
-            { r: row - 1, c: col + 1 }, // Top-right
-            { r: row + 1, c: col - 1 }, // Bottom-left
-            { r: row + 1, c: col + 1 }, // Bottom-right
+            { r: row - 1, c: col - 1 },
+            { r: row - 1, c: col + 1 },
+            { r: row + 1, c: col - 1 },
+            { r: row + 1, c: col + 1 },
         ];
 
-        const isInBounds = (r: number, c: number) => {
-            return r >= 0 && r < crossword.length && c >= 0 && c < crossword[0].length;
-        };
+        const isInBounds = (r: number, c: number) =>
+            r >= 0 && r < GRID_SIZE && c >= 0 && c < GRID_SIZE;
 
-        return positions.some((pos) => {
-            const { r, c } = pos;
-            return isInBounds(r, c) && crossword[r][c].filled;
-        });
+        return positions.some(
+            ({ r, c }) => isInBounds(r, c) && workingMatrixRef.current[r][c].filled,
+        );
     };
 
     const tryPlaceWord = (possibleWords: PossibleWord[], anchorWord: crosswordWord) => {
-        const matrix = crossword;
         const { direction, position } = anchorWord;
-        let wordsPlace: number = 0;
+        let wordsPlace = 0;
         let removeMainWord = false;
 
         for (let i = 0; i < possibleWords.length; i++) {
-            if (wordsPlace >= MAX_PLACEMENT_PER_WORD) {
-                break;
-            }
+            if (wordsPlace >= MAX_PLACEMENT_PER_WORD) break;
 
+            // Read fresh each iteration so prior placements in this loop are visible
+            const matrix = workingMatrixRef.current;
             const { word, previousWordIndex, wordIndex } = possibleWords[i];
-            const newWordPosition: Position = {
-                row: 0,
-                col: 0,
-            };
+            const newWordPosition: Position = { row: 0, col: 0 };
             const newDirection = direction === 'horizontal' ? 'vertical' : 'horizontal';
 
             if (direction === 'horizontal') {
-                newWordPosition['row'] = position.row - wordIndex;
-                newWordPosition['col'] = position.col + previousWordIndex;
+                newWordPosition.row = position.row - wordIndex;
+                newWordPosition.col = position.col + previousWordIndex;
             } else {
-                newWordPosition['row'] = position.row + previousWordIndex;
-                newWordPosition['col'] = position.col - wordIndex;
+                newWordPosition.row = position.row + previousWordIndex;
+                newWordPosition.col = position.col - wordIndex;
             }
 
             if (
-                newWordPosition['row'] >= 0 &&
-                newWordPosition['row'] + word.length <= GRID_SIZE &&
-                newWordPosition['col'] >= 0 &&
-                newWordPosition['col'] + word.length <= GRID_SIZE
+                newWordPosition.row >= 0 &&
+                newWordPosition.row + word.length <= GRID_SIZE &&
+                newWordPosition.col >= 0 &&
+                newWordPosition.col + word.length <= GRID_SIZE
             ) {
                 let canPlaceWord = true;
 
-                for (let i = 0; i < word.length; i++) {
+                for (let j = 0; j < word.length; j++) {
                     if (newDirection === 'horizontal') {
                         if (
-                            matrix[newWordPosition.row][newWordPosition.col + i].filled &&
-                            matrix[newWordPosition.row][newWordPosition.col + i].char !== word[i]
+                            matrix[newWordPosition.row][newWordPosition.col + j].filled &&
+                            matrix[newWordPosition.row][newWordPosition.col + j].char !== word[j]
                         ) {
                             canPlaceWord = false;
                             break;
                         }
                     } else {
                         if (
-                            matrix[newWordPosition.row + i][newWordPosition.col].filled &&
-                            matrix[newWordPosition.row + i][newWordPosition.col].char !== word[i]
+                            matrix[newWordPosition.row + j][newWordPosition.col].filled &&
+                            matrix[newWordPosition.row + j][newWordPosition.col].char !== word[j]
                         ) {
                             canPlaceWord = false;
                             break;
@@ -461,26 +403,23 @@ const useCrossWordPuzzle = () => {
                     }));
                     setCrosswordWords((prevWords: crosswordWord[]) => [
                         ...prevWords,
-                        {
-                            word: word,
-                            position: newWordPosition,
-                            direction: newDirection,
-                        },
+                        { word, position: newWordPosition, direction: newDirection },
                     ]);
                     removeMainWord = true;
                     wordsPlace++;
                 }
             }
         }
+
         if (removeMainWord) {
             setCrosswordWords((currentWords: crosswordWord[]) =>
-                currentWords.filter((currentWord) => currentWord.word !== anchorWord.word),
+                currentWords.filter((cw) => cw.word !== anchorWord.word),
             );
         }
     };
 
     const checkCellValue =
-        (i: number, j: number) => (event: React.ChangeEvent<HTMLInputElement>) => {
+        (i: number, j: number) => (event: ChangeEvent<HTMLInputElement>) => {
             const value = event.target.value;
             const newCrossword = crossword.map((row) => [...row]);
             if (value.length === 0) {
@@ -502,44 +441,36 @@ const useCrossWordPuzzle = () => {
         };
 
     const checkCompletedWords = (matrix: ICell[][]): void => {
-        Object.entries(selectedWords).forEach(([wordKey, wordData], index) => {
+        const newCompleted = new Set<string>();
+        Object.entries(selectedWords).forEach(([wordKey, wordData]) => {
             let isCompleted = true;
             for (let i = 0; i < wordKey.length; i++) {
-                if (wordData.direction === 'horizontal') {
-                    if (false === matrix[wordData.position.row][wordData.position.col + i].isCorrect) {
-                        isCompleted = false;
-                    }
-                } else {
-                    if (false === matrix[wordData.position.row + i][wordData.position.col].isCorrect) {
-                        isCompleted = false;
-                    }
+                const cell =
+                    wordData.direction === 'horizontal'
+                        ? matrix[wordData.position.row][wordData.position.col + i]
+                        : matrix[wordData.position.row + i][wordData.position.col];
+                if (!cell.isCorrect) {
+                    isCompleted = false;
+                    break;
                 }
             }
-            const liElement = liRefs.current[index];
-            if (liElement) {
-                if (true === isCompleted) {
-                    liElement.classList.add('completed');
-                } else {
-                    liElement.classList.remove('completed');
-                }
-            }
+            if (isCompleted) newCompleted.add(wordKey);
         });
+        setCompletedWords(newCompleted);
     };
 
     const checkCrosswordComplete = (matrix: ICell[][]): void => {
         const allCorrect = matrix.every((row) =>
             row.every((cell) => !cell.filled || cell.isCorrect),
         );
-        if (allCorrect) {
-            setIsComplete(true);
-        }
+        if (allCorrect) setIsComplete(true);
     };
 
     return {
         gridSize: GRID_SIZE,
         gridSizePixels: GRID_SIZE_PX,
         gameLevel,
-        liRefs,
+        completedWords,
         crossword,
         selectedWords,
         isGameStarted,
