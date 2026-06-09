@@ -151,4 +151,53 @@ describe('useDefinitionMaster', () => {
         expect(result.current.letters).toContain('a');
         expect(result.current.letters).toContain('z');
     });
+
+    test('isLetterDisabled returns true for missing ES letters', () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ locale: 'es' }));
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        expect(result.current.isLetterDisabled('j')).toBe(true);
+        expect(result.current.isLetterDisabled('k')).toBe(true);
+        expect(result.current.isLetterDisabled('l')).toBe(true);
+        expect(result.current.isLetterDisabled('x')).toBe(true);
+        expect(result.current.isLetterDisabled('a')).toBe(false);
+        expect(result.current.isLetterDisabled('z')).toBe(false);
+    });
+
+    test('isLetterDisabled returns true for missing EN letters', () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en' }));
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        expect(result.current.isLetterDisabled('j')).toBe(true);
+        expect(result.current.isLetterDisabled('k')).toBe(true);
+        expect(result.current.isLetterDisabled('l')).toBe(true);
+        expect(result.current.isLetterDisabled('x')).toBe(true);
+        expect(result.current.isLetterDisabled('z')).toBe(true);
+        expect(result.current.isLetterDisabled('a')).toBe(false);
+        expect(result.current.isLetterDisabled('w')).toBe(false);
+    });
+
+    test('isLoadingLetter is false initially', () => {
+        mockUseWordsContext.mockReturnValue(makeContext());
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        expect(result.current.isLoadingLetter).toBe(false);
+    });
+
+    test('isLoadingLetter is true during handleLetterClick fetch', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext());
+        let resolveLoad!: (v: unknown) => void;
+        mockLoadDefinition.mockReturnValue(new Promise((res) => { resolveLoad = res; }));
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        act(() => { result.current.handleLetterClick('a'); });
+        expect(result.current.isLoadingLetter).toBe(true);
+
+        await act(async () => { resolveLoad({}); });
+        expect(result.current.isLoadingLetter).toBe(false);
+    });
 });

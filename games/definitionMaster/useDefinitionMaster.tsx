@@ -9,6 +9,11 @@ import { useWordsContext } from '@store/WordsContext';
 
 const TOTAL_QUIZ_DEFINITIONS = 5;
 
+const LETTERS_WITHOUT_DEFINITIONS: Record<string, Set<string>> = {
+    es: new Set(['j', 'k', 'l', 'x']),
+    en: new Set(['j', 'k', 'l', 'x', 'z']),
+};
+
 type SelectedAnswersType = { [key: string]: boolean };
 
 const useDefinitionMaster = () => {
@@ -20,12 +25,17 @@ const useDefinitionMaster = () => {
     const [isGameStarted, setIsGameStarted] = useState<boolean>(false);
     const [isQuizFinished, setIsQuizFinished] = useState<boolean>(false);
     const [isNextButtonActive, setIsNextButtonActive] = useState<boolean>(false);
+    const [isLoadingLetter, setIsLoadingLetter] = useState<boolean>(false);
     const [quizWords, setQuizWords] = useState<QuizDefinition[][]>([]);
     const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswersType>({});
     const letters: string[] = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
         'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
     ];
+
+    const isLetterDisabled = (letter: string): boolean => {
+        return LETTERS_WITHOUT_DEFINITIONS[locale]?.has(letter) ?? false;
+    };
 
     const getRandomDefinition = (definitions: Definition[]): Definition => {
         const randomKey = Math.floor(Math.random() * definitions.length);
@@ -61,7 +71,9 @@ const useDefinitionMaster = () => {
     };
 
     const handleLetterClick = async (letter: string) => {
+        setIsLoadingLetter(true);
         const words = await loadDefinition(letter, locale);
+        setIsLoadingLetter(false);
         if (words) {
             const preChosenWords: DefinitionWords = {};
             for (const key in words as DefinitionWords) {
@@ -214,6 +226,8 @@ const useDefinitionMaster = () => {
     return {
         gameLevel,
         isGameStarted,
+        isLoadingLetter,
+        isLetterDisabled,
         letters,
         quizWords,
         renderQuiz,

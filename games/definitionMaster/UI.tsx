@@ -11,6 +11,8 @@ type DefinitionMasterUIProps = {
     gameConfig: GameConfig;
     gameLevel: string | null;
     isGameStarted: boolean;
+    isLoadingLetter: boolean;
+    isLetterDisabled: (letter: string) => boolean;
     letters: string[];
     quizWords: QuizDefinition[][];
     renderQuiz: () => JSX.Element | null;
@@ -23,6 +25,8 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
     gameConfig,
     gameLevel,
     isGameStarted,
+    isLoadingLetter,
+    isLetterDisabled,
     letters,
     quizWords,
     renderQuiz,
@@ -58,15 +62,19 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                 <div className="definition-master-inner">
                     {isGameStarted ? (
                         Object.keys(quizWords).length === 0 &&
-                        letters.map((letter: string, index: number) => (
-                            <button
-                                className="letter-btn"
-                                key={index}
-                                onClick={() => handleLetterClick(letter)}
-                            >
-                                {letter.toUpperCase()}
-                            </button>
-                        ))
+                        letters.map((letter: string, index: number) => {
+                            const disabled = isLetterDisabled(letter) || isLoadingLetter;
+                            return (
+                                <button
+                                    className={`letter-btn${isLetterDisabled(letter) ? ' letter-btn--disabled' : ''}`}
+                                    key={index}
+                                    disabled={disabled}
+                                    onClick={() => handleLetterClick(letter)}
+                                >
+                                    {letter.toUpperCase()}
+                                </button>
+                            );
+                        })
                     ) : (
                         <GameRules {...gameConfig.gameRules} />
                     )}

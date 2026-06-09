@@ -45,9 +45,16 @@
             background: #fff;
             cursor: pointer;
 
-            &:hover {
+            &:hover:not(:disabled) {
                 border-color: $main-color;
                 color: $main-color;
+            }
+
+            &--disabled,
+            &:disabled {
+                opacity: 0.3;
+                cursor: not-allowed;
+                border-color: #ccc;
             }
 
             @media only screen and (max-width: 479px) {
