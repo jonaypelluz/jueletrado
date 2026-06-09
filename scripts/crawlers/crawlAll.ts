@@ -87,6 +87,8 @@ async function main(): Promise<void> {
             console.log(`  words : ${wordsFile}`);
             console.log(`  output: ${out}`);
 
+            const notFoundFile = path.join(ROOT, `ops/crawl-output/${locale}/not-found.txt`);
+
             const ok = run([
                 CRAWLERS[locale],
                 wordsFile,
@@ -94,6 +96,7 @@ async function main(): Promise<void> {
                 '--skip-existing',
                 '--quiet-skip',
                 '--output', out,
+                '--not-found-file', notFoundFile,
             ]);
 
             if (!ok) {

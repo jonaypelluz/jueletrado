@@ -106,16 +106,26 @@ function formatDefinitions(meanings: ApiMeaning[], level?: string): Definition[]
     return defs;
 }
 
-async function fetchDefinitions(word: string): Promise<ApiResponse[] | null> {
+interface FetchResult {
+    status: number;
+    data: ApiResponse[] | null;
+}
+
+async function fetchDefinitions(word: string): Promise<FetchResult> {
     try {
         const res = await fetch(
             `https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`,
-            { headers: { 'User-Agent': 'Mozilla/5.0' } },
+            {
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+                    'Accept': 'application/json',
+                },
+            },
         );
-        if (!res.ok) return null;
-        return await res.json() as ApiResponse[];
+        if (!res.ok) return { status: res.status, data: null };
+        return { status: res.status, data: await res.json() as ApiResponse[] };
     } catch {
-        return null;
+        return { status: 0, data: null };
     }
 }
 
@@ -187,7 +197,21 @@ async function main(): Promise<void> {
         ? parseDelayFlag(flags[delayIdx + 1] ?? '')
         : { min: 3000, max: 10000 };
 
+    const notFoundIdx = flags.indexOf('--not-found-file');
+    const notFoundFile = notFoundIdx !== -1
+        ? flags[notFoundIdx + 1]
+        : path.join(ROOT, 'ops/crawl-output/en/not-found.txt');
+
     await mkdir(path.dirname(outputFile), { recursive: true });
+    await mkdir(path.dirname(notFoundFile), { recursive: true });
+
+    // Load previously-known not-found words
+    const notFoundWords = new Set<string>();
+    if (existsSync(notFoundFile)) {
+        const lines = (await readFile(notFoundFile, 'utf-8')).split('\n').filter(Boolean);
+        for (const l of lines) notFoundWords.add(l.trim());
+        console.log(`Loaded ${notFoundWords.size} known not-found words from ${notFoundFile}`);
+    }
 
     // Initialise output file if new
     if (!existsSync(outputFile)) {
@@ -200,6 +224,8 @@ async function main(): Promise<void> {
     let processing = !startWord;
     let processed = 0;
     let skipped = 0;
+    let notFound = 0;
+    let errors = 0;
 
     for (const word of words) {
         if (!processing) {
@@ -209,13 +235,19 @@ async function main(): Promise<void> {
 
         if (letterFilter && word[0]?.toLowerCase() !== letterFilter) continue;
 
+        if (notFoundWords.has(word)) {
+            if (!quietSkip) console.log(`${word}: skipped (not found)`);
+            skipped++;
+            continue;
+        }
+
         if (skipExisting && !forceUpdate && await wordHasDefinitions(word)) {
             if (!quietSkip) console.log(`${word}: skipped`);
             skipped++;
             continue;
         }
 
-        const data = await fetchDefinitions(word);
+        const { status, data } = await fetchDefinitions(word);
 
         if (data) {
             const defs = formatDefinitions(data.flatMap(e => e.meanings), levelTag);
@@ -231,10 +263,24 @@ async function main(): Promise<void> {
                 await appendFile(outputFile, JSON.stringify(entry) + '\n', 'utf-8');
                 console.log(`${word}: ${defs.length} def(s)${levelTag ? ` [${levelTag}]` : ''}`);
             } else {
-                console.log(`${word}: no definitions parsed`);
+                await appendFile(notFoundFile, word + '\n', 'utf-8');
+                notFoundWords.add(word);
+                console.log(`${word}: no definitions parsed (added to not-found)`);
+                notFound++;
             }
+        } else if (status === 404) {
+            await appendFile(notFoundFile, word + '\n', 'utf-8');
+            notFoundWords.add(word);
+            console.log(`${word}: 404 (added to not-found)`);
+            notFound++;
+        } else if (status === 429) {
+            console.warn(`${word}: 429 rate limited — waiting 60s`);
+            await sleep(60000);
+            errors++;
+            continue;
         } else {
-            console.log(`${word}: not found`);
+            console.log(`${word}: HTTP ${status || 'network error'}`);
+            errors++;
         }
 
         processed++;
@@ -242,7 +288,9 @@ async function main(): Promise<void> {
         await sleep(delay);
     }
 
-    console.log(`\nProcessed: ${processed}  Skipped: ${skipped}  Output: ${outputFile}`);
+    console.log(`\nProcessed: ${processed}  Skipped: ${skipped}  Not found: ${notFound}  Errors: ${errors}`);
+    console.log(`Output: ${outputFile}`);
+    console.log(`Not-found list: ${notFoundFile}`);
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

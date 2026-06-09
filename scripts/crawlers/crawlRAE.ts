@@ -12,8 +12,10 @@
  *   --level <level>       Tag entries with this level (beginner|intermediate|advanced)
  *   --skip-existing       Skip words already in public/definitions/es/
  *   --force-update        Fetch even if word already exists in public/definitions/es/
- *   --delay <min>-<max>   Random delay range in ms between requests (default: 4000-12000)
- *   --quiet-skip          Suppress per-word skip messages (shows total at end)
+ *   --delay <min>-<max>        Random delay range in ms between requests (default: 4000-12000)
+ *   --quiet-skip               Suppress per-word skip messages (shows total at end)
+ *   --not-found-file <file>    File tracking words with no RAE entry (default: ops/crawl-output/es/not-found.txt)
+ *                              Words in this file are skipped automatically on subsequent runs.
  *
  * Examples:
  *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --level beginner
@@ -113,17 +115,27 @@ function parseDefinitions(html: string, level?: string): Definition[] {
     return definitions;
 }
 
-async function fetchHTML(url: string): Promise<string | null> {
+interface FetchResult {
+    status: number;
+    html: string | null;
+}
+
+async function fetchHTML(url: string): Promise<FetchResult> {
     try {
         const res = await fetch(url, {
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+                'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+                'Cache-Control': 'no-cache',
+                'Pragma': 'no-cache',
             },
+            redirect: 'follow',
         });
-        if (!res.ok) return null;
-        return await res.text();
-    } catch {
-        return null;
+        if (!res.ok) return { status: res.status, html: null };
+        return { status: res.status, html: await res.text() };
+    } catch (err) {
+        return { status: 0, html: null };
     }
 }
 
@@ -195,7 +207,21 @@ async function main(): Promise<void> {
         ? parseDelayFlag(flags[delayIdx + 1] ?? '')
         : { min: 4000, max: 12000 };
 
+    const notFoundIdx = flags.indexOf('--not-found-file');
+    const notFoundFile = notFoundIdx !== -1
+        ? flags[notFoundIdx + 1]
+        : path.join(ROOT, 'ops/crawl-output/es/not-found.txt');
+
     await mkdir(path.dirname(outputFile), { recursive: true });
+    await mkdir(path.dirname(notFoundFile), { recursive: true });
+
+    // Load previously-known not-found words
+    const notFoundWords = new Set<string>();
+    if (existsSync(notFoundFile)) {
+        const lines = (await readFile(notFoundFile, 'utf-8')).split('\n').filter(Boolean);
+        for (const l of lines) notFoundWords.add(l.trim());
+        console.log(`Loaded ${notFoundWords.size} known not-found words from ${notFoundFile}`);
+    }
 
     // Initialise output file if new
     if (!existsSync(outputFile)) {
@@ -208,6 +234,8 @@ async function main(): Promise<void> {
     let processing = !startWord;
     let processed = 0;
     let skipped = 0;
+    let notFound = 0;
+    let errors = 0;
 
     for (const word of words) {
         if (!processing) {
@@ -218,6 +246,12 @@ async function main(): Promise<void> {
         const letter = firstLetter(word);
         if (letterFilter && letter !== letterFilter) continue;
 
+        if (notFoundWords.has(word)) {
+            if (!quietSkip) console.log(`${word}: skipped (not found)`);
+            skipped++;
+            continue;
+        }
+
         if (skipExisting && !forceUpdate && await wordHasDefinitions(word)) {
             if (!quietSkip) console.log(`${word}: skipped`);
             skipped++;
@@ -225,7 +259,7 @@ async function main(): Promise<void> {
         }
 
         const url = `https://dle.rae.es/${encodeURIComponent(word)}`;
-        const html = await fetchHTML(url);
+        const { status, html } = await fetchHTML(url);
 
         if (html) {
             const defs = parseDefinitions(html, levelTag);
@@ -241,10 +275,25 @@ async function main(): Promise<void> {
                 await appendFile(outputFile, JSON.stringify(entry) + '\n', 'utf-8');
                 console.log(`${word}: ${defs.length} def(s)${levelTag ? ` [${levelTag}]` : ''}`);
             } else {
-                console.log(`${word}: no definitions parsed`);
+                // Page exists but no definitions parsed — treat as not found
+                await appendFile(notFoundFile, word + '\n', 'utf-8');
+                notFoundWords.add(word);
+                console.log(`${word}: no definitions parsed (added to not-found)`);
+                notFound++;
             }
+        } else if (status === 404) {
+            await appendFile(notFoundFile, word + '\n', 'utf-8');
+            notFoundWords.add(word);
+            console.log(`${word}: 404 (added to not-found)`);
+            notFound++;
+        } else if (status === 429) {
+            console.warn(`${word}: 429 rate limited — waiting 60s`);
+            await sleep(60000);
+            errors++;
+            continue; // retry same word next iteration would require restructuring; skip for now
         } else {
-            console.log(`${word}: fetch failed`);
+            console.log(`${word}: HTTP ${status || 'network error'}`);
+            errors++;
         }
 
         processed++;
@@ -252,7 +301,9 @@ async function main(): Promise<void> {
         await sleep(delay);
     }
 
-    console.log(`\nProcessed: ${processed}  Skipped: ${skipped}  Output: ${outputFile}`);
+    console.log(`\nProcessed: ${processed}  Skipped: ${skipped}  Not found: ${notFound}  Errors: ${errors}`);
+    console.log(`Output: ${outputFile}`);
+    console.log(`Not-found list: ${notFoundFile}`);
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });
