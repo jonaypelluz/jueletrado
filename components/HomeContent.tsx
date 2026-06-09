@@ -30,6 +30,7 @@ const HomeContent: React.FC = () => {
         isLoading,
         error,
         gameLevel,
+        hydrated,
         setLoadingProgress,
         setError,
         setLoading,
@@ -70,20 +71,47 @@ const HomeContent: React.FC = () => {
         }
     };
 
+    // After hydration, if the user has a stored level but word groups have expired, re-fetch them.
+    useEffect(() => {
+        if (!hydrated || !gameLevel || areWordsLoaded) return;
+
+        const groupKeys: StorageKey[] = [
+            StorageService.WORDS_GROUP_20,
+            StorageService.WORDS_GROUP_40_UNDER_9,
+            StorageService.WORDS_GROUP_60,
+            StorageService.WORDS_GROUP_80,
+        ];
+        const allPresent = groupKeys.every((key) => {
+            const g = StorageService.getItem<string[]>(key);
+            return g && g.length > 0;
+        });
+
+        if (allPresent) {
+            setWordGroupsLoaded(true);
+        } else {
+            setAreWordsLoaded(true);
+        }
+    }, [hydrated, gameLevel]);
+
     useEffect(() => {
         if (areWordsLoaded) {
-            const wordGroups: { count: number; key: StorageKey; maxLength?: number }[] = [
-                { count: 20, key: StorageService.WORDS_GROUP_20 },
-                { count: 40, key: StorageService.WORDS_GROUP_40 },
-                { count: 40, key: StorageService.WORDS_GROUP_40_UNDER_9, maxLength: 9 },
-                { count: 60, key: StorageService.WORDS_GROUP_60 },
-                { count: 80, key: StorageService.WORDS_GROUP_80 },
+            const wordGroups: {
+                count: number;
+                key: StorageKey;
+                maxLength?: number;
+                minLength?: number;
+            }[] = [
+                { count: 20, key: StorageService.WORDS_GROUP_20, minLength: 4 },
+                { count: 40, key: StorageService.WORDS_GROUP_40_UNDER_9, maxLength: 9, minLength: 4 },
+                { count: 60, key: StorageService.WORDS_GROUP_60, minLength: 4 },
+                { count: 80, key: StorageService.WORDS_GROUP_80, minLength: 4 },
             ];
 
             const fetchAndStoreWords = async (group: {
                 count: number;
                 key: StorageKey;
                 maxLength?: number;
+                minLength?: number;
             }): Promise<void> => {
                 const storedWords = StorageService.getItem<string[]>(group.key);
 
@@ -94,7 +122,8 @@ const HomeContent: React.FC = () => {
                             locale,
                             group.count,
                             setError,
-                            group.maxLength,
+                            group.maxLength ?? null,
+                            group.minLength ?? null,
                         );
                         if (words && words.length > 0) {
                             StorageService.setItem(group.key, words, 3600000);

@@ -124,6 +124,7 @@ const getWords = async (
     count: number,
     setError: SetErrorFunction,
     maxLength: number | null = null,
+    minLength: number | null = null,
 ): Promise<string[] | undefined> => {
     const levelConfig = LevelsConfig.find((config) => config.level === level);
     if (!levelConfig) {
@@ -139,7 +140,13 @@ const getWords = async (
 
         let words;
         if (maxLength !== null) {
-            words = await dbService.getRandomWordsWithMaxLength(count, maxLength);
+            words = await dbService.getRandomWordsWithMaxLength(
+                count,
+                maxLength,
+                minLength ?? 3,
+            );
+        } else if (minLength !== null) {
+            words = await dbService.getRandomWordsWithMaxLength(count, Infinity, minLength);
         } else {
             words = await dbService.getRandomWords(count);
         }

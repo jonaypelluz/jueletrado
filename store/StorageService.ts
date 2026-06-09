@@ -4,7 +4,6 @@ export type StorageKey =
     | 'SELECTED_DAY_WORD'
     | 'SELECTED_LEVEL'
     | 'WORDS_GROUP_20'
-    | 'WORDS_GROUP_40'
     | 'WORDS_GROUP_60'
     | 'WORDS_GROUP_80'
     | 'WORDS_GROUP_40_UNDER_9'
@@ -23,7 +22,6 @@ const StorageService = {
     SELECTED_DAY_WORD: 'SELECTED_DAY_WORD' as const,
     SELECTED_LEVEL: 'SELECTED_LEVEL' as const,
     WORDS_GROUP_20: 'WORDS_GROUP_20' as const,
-    WORDS_GROUP_40: 'WORDS_GROUP_40' as const,
     WORDS_GROUP_60: 'WORDS_GROUP_60' as const,
     WORDS_GROUP_80: 'WORDS_GROUP_80' as const,
     WORDS_GROUP_40_UNDER_9: 'WORDS_GROUP_40_UNDER_9' as const,

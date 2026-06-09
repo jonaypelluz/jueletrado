@@ -172,7 +172,11 @@ class DBService {
         });
     }
 
-    async getRandomWordsWithMaxLength(count: number, maxLength: number): Promise<string[]> {
+    async getRandomWordsWithMaxLength(
+        count: number,
+        maxLength: number,
+        minLength = 3,
+    ): Promise<string[]> {
         return new Promise((resolve, reject) => {
             const fetchAndFilterWords = async (attempt = 1) => {
                 const maxAttempts = 5;
@@ -180,7 +184,9 @@ class DBService {
 
                 try {
                     const words = await this.getRandomWords(sampleSize);
-                    const filteredWords = words.filter((word) => word.length < maxLength);
+                    const filteredWords = words.filter(
+                        (word) => word.length >= minLength && (maxLength === Infinity || word.length < maxLength),
+                    );
 
                     if (filteredWords.length >= count || attempt >= maxAttempts) {
                         resolve(filteredWords.slice(0, count));
