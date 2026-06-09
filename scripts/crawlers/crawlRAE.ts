@@ -12,12 +12,14 @@
  *   --level <level>       Tag entries with this level (beginner|intermediate|advanced)
  *   --skip-existing       Skip words already in public/definitions/es/
  *   --force-update        Fetch even if word already exists in public/definitions/es/
+ *   --delay <min>-<max>   Random delay range in ms between requests (default: 4000-12000)
  *
  * Examples:
  *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --level beginner
  *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/intermediate_words.txt --letter x --level intermediate
  *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --skip-existing --level beginner
  *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --start abeja --output ops/crawl-output/es/my-run.jsonl
+ *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --delay 6000-15000
  */
 
 import { parse as parseHTML } from 'node-html-parser';
@@ -146,6 +148,21 @@ function sleep(ms: number): Promise<void> {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+function parseDelayFlag(raw: string): { min: number; max: number } {
+    const [minStr, maxStr] = raw.split('-');
+    const min = parseInt(minStr, 10);
+    const max = parseInt(maxStr, 10);
+    if (isNaN(min) || isNaN(max) || min < 0 || max <= min) {
+        console.error(`Invalid --delay value "${raw}". Expected format: <min>-<max> in ms, e.g. 4000-12000`);
+        process.exit(1);
+    }
+    return { min, max };
+}
+
+function randomDelay(min: number, max: number): number {
+    return min + Math.random() * (max - min);
+}
+
 async function main(): Promise<void> {
     const [, , wordsFile, ...flags] = process.argv;
 
@@ -170,6 +187,11 @@ async function main(): Promise<void> {
 
     const skipExisting = flags.includes('--skip-existing');
     const forceUpdate = flags.includes('--force-update');
+
+    const delayIdx = flags.indexOf('--delay');
+    const { min: delayMin, max: delayMax } = delayIdx !== -1
+        ? parseDelayFlag(flags[delayIdx + 1] ?? '')
+        : { min: 4000, max: 12000 };
 
     await mkdir(path.dirname(outputFile), { recursive: true });
 
@@ -224,7 +246,8 @@ async function main(): Promise<void> {
         }
 
         processed++;
-        await sleep(1000 + Math.random() * 2000);
+        const delay = randomDelay(delayMin, delayMax);
+        await sleep(delay);
     }
 
     console.log(`\nProcessed: ${processed}  Skipped: ${skipped}  Output: ${outputFile}`);
