@@ -1,7 +1,7 @@
 import WordGameProcessor from '@utils/WordGameProcessor';
 
-export const useWordProcessor = (locale: string) => {
-    const processor = new WordGameProcessor(locale);
+export const useWordProcessor = (locale: string, wordSet?: Set<string>) => {
+    const processor = new WordGameProcessor(locale, wordSet);
 
     const processWords = (words: string[]) => {
         return words.map((word) => processor.processWord(word));

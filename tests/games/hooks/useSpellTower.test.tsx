@@ -5,7 +5,10 @@ import { useWordsContext } from '@store/WordsContext';
 import useSpellTower from '@games/spellTower/useSpellTower';
 
 jest.mock('@store/WordsContext');
-jest.mock('@services/WordsService');
+jest.mock('@services/WordsService', () => ({
+    getSessionWords: jest.fn(),
+    getLevelWordSet: jest.fn().mockResolvedValue(new Set<string>()),
+}));
 jest.mock('@hooks/useWordProcessor', () => ({
     useWordProcessor: () => ({
         processWords: (words: string[]) => words.map((w) => [w, w + 'x']),
@@ -57,7 +60,7 @@ describe('useSpellTower', () => {
                 'beginner',
                 'es',
                 expect.any(Function),
-                { count: 75, minLength: 4 },
+                { count: 120, minLength: 4 },
                 30,
             );
             expect(result.current.showButton).toBe(true);

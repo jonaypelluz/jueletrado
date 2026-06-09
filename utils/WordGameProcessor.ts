@@ -4,42 +4,56 @@ import { ChangeRule } from '@models/types';
 
 class WordGameProcessor {
     private changeRules: ChangeRule[];
+    private wordSet: Set<string>;
+    private locale: string;
 
-    constructor(locale: string) {
+    constructor(locale: string, wordSet: Set<string> = new Set()) {
         this.changeRules = createChangeRules(locale);
+        this.wordSet = wordSet;
+        this.locale = locale;
+    }
+
+    private isValidWord(word: string): boolean {
+        if (this.wordSet.size === 0) return false;
+        return this.wordSet.has(word.toLowerCase());
+    }
+
+    private applyRule(word: string, rule: ChangeRule): string | null {
+        const [search, replace] = Object.entries(rule)[0];
+        const variant = word.replace(new RegExp(search), replace);
+        if (variant === word || this.isValidWord(variant)) return null;
+        return variant;
     }
 
     processWord(word: string): string[] {
         const applicableRules = this.changeRules.filter((rule) => {
             const key = Object.keys(rule)[0];
-            const regex = new RegExp(key);
-            return regex.test(word);
+            return new RegExp(key).test(word);
         });
 
-        if (applicableRules.length === 0) {
-            return [word];
-        } else if (applicableRules.length === 1) {
-            const [search, replace] = Object.entries(applicableRules[0])[0];
-            return [word, word.replace(new RegExp(search), replace)];
-        } else {
-            const variants: string[] = [];
+        if (applicableRules.length === 0) return [word];
 
-            while (variants.length < Math.min(2, applicableRules.length)) {
-                const randomRule =
-                    applicableRules[Math.floor(Math.random() * applicableRules.length)];
-                const [search, replace] = Object.entries(randomRule)[0];
-                const newVariant = word.replace(new RegExp(search), replace);
-
-                if (!variants.includes(newVariant)) {
-                    variants.push(newVariant);
-                }
-            }
-
-            return [word, ...variants];
+        if (applicableRules.length === 1) {
+            const variant = this.applyRule(word, applicableRules[0]);
+            return variant ? [word, variant] : [word];
         }
+
+        const variants: string[] = [];
+        const shuffled = [...applicableRules].sort(() => Math.random() - 0.5);
+
+        for (const rule of shuffled) {
+            if (variants.length >= 2) break;
+            const variant = this.applyRule(word, rule);
+            if (variant && !variants.includes(variant)) variants.push(variant);
+        }
+
+        return [word, ...variants];
     }
 
     processWordWithAccent(word: string): string[] {
+        // English has no accent marks — no variants to generate
+        if (this.locale === 'en') return [word];
+
         let wordVariant1 = '';
         let wordVariant2 = '';
         let randomVariant = { index: -1, variant: '' };
@@ -49,6 +63,7 @@ class WordGameProcessor {
 
         if (vowelIndices.length === 1) {
             wordVariant1 = this.replaceFirstVowelWithAccent(word);
+            if (this.isValidWord(wordVariant1)) return [word];
             return [word, wordVariant1];
         }
 
@@ -64,25 +79,29 @@ class WordGameProcessor {
             }
         });
 
+        if (this.isValidWord(wordVariant1)) wordVariant1 = '';
+
         if (wordVariant1 !== '') {
             randomVariant = this.addRandomAccent(wordVariant1, vowelIndices);
-            wordVariant2 = randomVariant.variant;
+            wordVariant2 = this.isValidWord(randomVariant.variant) ? '' : randomVariant.variant;
         } else {
             randomVariant = this.addRandomAccent(word, vowelIndices);
-            wordVariant1 = randomVariant.variant;
+            if (!this.isValidWord(randomVariant.variant)) {
+                wordVariant1 = randomVariant.variant;
+            }
             vowelIndices = vowelIndices.filter(
                 (v, i, self) => v !== randomVariant.index || self.indexOf(v) !== i,
             );
-            if (vowelIndices.length > 0) {
+            if (wordVariant1 !== '' && vowelIndices.length > 0) {
                 randomVariant = this.addRandomAccent(word, vowelIndices);
-                wordVariant2 = randomVariant.variant;
+                if (!this.isValidWord(randomVariant.variant)) {
+                    wordVariant2 = randomVariant.variant;
+                }
             }
         }
 
-        if (word === wordVariant2 || wordVariant2 === '') {
-            return [word, wordVariant1];
-        }
-
+        if (wordVariant1 === '') return [word];
+        if (word === wordVariant2 || wordVariant2 === '') return [word, wordVariant1];
         return [word, wordVariant1, wordVariant2];
     }
 

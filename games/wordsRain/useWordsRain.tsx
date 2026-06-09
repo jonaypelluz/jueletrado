@@ -6,6 +6,7 @@ import { FormattedMessage } from 'react-intl';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import { RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
+import { getLevelWordSet } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
@@ -23,6 +24,7 @@ const BASE_TIMER_SPEED = 4;
 const useWordsRain = () => {
     const { locale, gameLevel, error, setError } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
+    const [wordSet, setWordSet] = useState<Set<string>>(new Set());
 
     const [timer, setTimer] = useState(0);
     const [gameStarted, setGameStarted] = useState<boolean>(false);
@@ -36,7 +38,7 @@ const useWordsRain = () => {
     const keyCountRef = useRef<number>(0);
     const wrapperRef = useRef<HTMLDivElement>(null);
 
-    const { processWords, processLastWords } = useWordProcessor(locale);
+    const { processWords, processLastWords } = useWordProcessor(locale, wordSet);
 
     const animationHasEnded = useCallback(
         (key: number, word: RainWordItem) => removeWord(key, word?.correct === 'ok', word),
@@ -214,6 +216,13 @@ const useWordsRain = () => {
             ))}
         </div>
     );
+
+    useEffect(() => {
+        if (!gameLevel) return;
+        getLevelWordSet(gameLevel, locale).then((set) => {
+            if (set.size > 0) setWordSet(set);
+        });
+    }, [gameLevel, locale]);
 
     useEffect(() => {
         if (!gameLevel) return;

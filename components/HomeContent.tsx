@@ -94,10 +94,11 @@ const HomeContent: React.FC = () => {
                 { count: 7, key: StorageService.WORDS_DAILY, minLength: 4 },
                 // WORDS_FINDER: persistent queue, 10 words/session × 6 sessions before refetch.
                 { count: 60, key: StorageService.WORDS_FINDER, maxLength: 9, minLength: 4 },
-                // WORDS_TOWER: persistent queue, 15 words/session × 5 sessions before refetch.
-                { count: 75, key: StorageService.WORDS_TOWER, minLength: 4 },
-                // WORDS_RAIN: cycling pool, 80 words (looped, not consumed).
-                { count: 80, key: StorageService.WORDS_RAIN, minLength: 4 },
+                // WORDS_TOWER: persistent queue, 15 words/session × 8 sessions before refetch.
+                { count: 120, key: StorageService.WORDS_TOWER, minLength: 4 },
+                // WORDS_RAIN: cycling pool, 150 words (looped, not consumed).
+                // Oversized — some words lose all invalid variants after dictionary validation.
+                { count: 150, key: StorageService.WORDS_RAIN, minLength: 4 },
             ];
 
             const fetchAndStoreWords = async (group: {

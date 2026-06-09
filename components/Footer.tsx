@@ -37,11 +37,11 @@ const Foot: React.FC = () => {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                     src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg"
-                    alt="Buy Me a Coffee"
+                    alt={intl.formatMessage({ id: 'donateAction' })}
                 />
                 <span>
-                    Buy
-                    <br /> Me a<br /> Coffee
+                    <strong>{intl.formatMessage({ id: 'donateTitle' })}</strong>
+                    <em>{intl.formatMessage({ id: 'donateAction' })}</em>
                 </span>
             </a>
             <select className="locale-select" value={locale} onChange={handleLocaleChange}>

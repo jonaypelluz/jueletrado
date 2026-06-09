@@ -59,7 +59,7 @@ const UI: React.FC<WordsRainUIProps> = ({
                         <FormattedMessage id="gamePlay" />
                     </button>
                 ) : null}
-                {timer > 0 && <p className="game-timer">{timer} segundos</p>}
+                {timer > 0 && <p className="game-timer">{timer} <FormattedMessage id="gameSeconds" /></p>}
             </Hero>
             <div className="words-rain-wrapper" ref={wrapperRef}>
                 {(showButton || !gameLevel) && incorrectWords.length === 0 && (
@@ -71,7 +71,7 @@ const UI: React.FC<WordsRainUIProps> = ({
                     <>
                         {fallingWords}
                         <div className="words-rain-points">
-                            <span className="label">Velocidad</span>
+                            <span className="label"><FormattedMessage id="gameSpeed" /></span>
                             <span className="value">{speed}</span>
                         </div>
                         <div className="words-rain-lifes">

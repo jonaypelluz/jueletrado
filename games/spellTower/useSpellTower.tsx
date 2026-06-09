@@ -5,7 +5,7 @@ import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import Logger from '@services/Logger';
-import { getSessionWords } from '@services/WordsService';
+import { getLevelWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
@@ -14,6 +14,7 @@ const GAME_TIME = 30;
 const useSpellTower = () => {
     const { locale, gameLevel, error, setError } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
+    const [wordSet, setWordSet] = useState<Set<string>>(new Set());
 
     const [countdown, setCountdown] = useState<number>(0);
     const [showButton, setShowButton] = useState<boolean>(false);
@@ -25,7 +26,7 @@ const useSpellTower = () => {
     const [correctAnswers, setCorrectAnswers] = useState<number>(0);
     const [incorrectAnswers, setIncorrectAnswers] = useState<[string, string][]>([]);
 
-    const { processWords, processLastWords } = useWordProcessor(locale);
+    const { processWords, processLastWords } = useWordProcessor(locale, wordSet);
 
     const handleWordClick = (clickedIndex: number) => {
         if (words && currentWordIndex < words.length) {
@@ -59,6 +60,13 @@ const useSpellTower = () => {
 
     useEffect(() => {
         if (!gameLevel) return;
+        getLevelWordSet(gameLevel, locale).then((set) => {
+            if (set.size > 0) setWordSet(set);
+        });
+    }, [gameLevel, locale]);
+
+    useEffect(() => {
+        if (!gameLevel) return;
 
         const fetchWords = async () => {
             const sessionWords = await getSessionWords(
@@ -67,7 +75,8 @@ const useSpellTower = () => {
                 gameLevel,
                 locale,
                 setError,
-                { count: 75, minLength: 4 },
+                // Larger pool — some words lose all invalid variants after dictionary validation
+                { count: 120, minLength: 4 },
                 30,
             );
             if (sessionWords.length > 0) {

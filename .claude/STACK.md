@@ -1,5 +1,7 @@
 # Stack Profile: Next.js SSG (App Router) + TypeScript + Sass + Ant Design + IndexedDB
 
+**Package manager: yarn** (not npm). Use `yarn add`, `yarn remove`, `yarn dev`, `yarn build`, `yarn test`. Lock file is `yarn.lock`.
+
 Stack-level conventions for `jueletrado`: Next.js 15 App Router in full static-export mode (`output: 'export'`, no server runtime), TypeScript, Sass/SCSS, Ant Design v5, react-intl for i18n, IndexedDB/localStorage for client-side data, and Jest for tests. **Stack-specific, not project-specific** — no folder layout, no domain class names. Those live in the project's `PROJECT.md` / `CLAUDE.md`.
 
 ## Next.js (App Router, static export)
@@ -63,11 +65,11 @@ Stack-level conventions for `jueletrado`: Next.js 15 App Router in full static-e
 - `@testing-library/react` for component tests. No Enzyme, no manual `ReactDOM.render`.
 - `ts-jest` for TypeScript transformation.
 - `fake-indexeddb` is available for mocking `DBService`/IndexedDB in tests — use it rather than hitting real browser storage.
-- Run with `npm test` / `npm run test:watch`.
+- Run with `yarn test` / `yarn test:watch`.
 
 ## Linting / Formatting
 
-- ESLint via `next lint` (`eslint-config-next`). Run `npm run lint` before committing.
+- ESLint via `next lint` (`eslint-config-next`). Run `yarn lint` before committing.
 - Keep import grouping/order consistent with the existing files in each folder.
 
 ## Anti-patterns (do not do)
