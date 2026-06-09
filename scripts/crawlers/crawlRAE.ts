@@ -3,9 +3,19 @@
  * public/definitions/es/{letter}_definitions.json.
  *
  * Usage:
- *   tsx scripts/crawlers/crawlRAE.ts <wordsFile> [--start <word>]
- *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt
- *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --start abeja
+ *   tsx scripts/crawlers/crawlRAE.ts <wordsFile> [options]
+ *
+ * Options:
+ *   --start <word>        Resume from this word
+ *   --letter <l>          Only process words starting with this letter
+ *   --level <level>       Tag each definition with this level (beginner|intermediate|advanced)
+ *   --skip-existing       Skip words that already have definitions in the output file
+ *   --force-update        Re-fetch and overwrite definitions for words that already exist
+ *
+ * Examples:
+ *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --level beginner
+ *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/intermediate_words.txt --letter x --level intermediate
+ *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --skip-existing --level beginner
  */
 
 import { parse as parseHTML } from 'node-html-parser';
@@ -31,12 +41,15 @@ interface DefinitionExtra {
 interface Definition {
     number: string;
     type: string;
+    level?: string;
     type_extra?: string;
     definition: string;
     definition_extra?: DefinitionExtra[];
 }
 
 type DefinitionsFile = Record<string, { definitions: Definition[] }>;
+
+const fileCache = new Map<string, DefinitionsFile>();
 
 function beautify(text: string): string {
     let t = text
@@ -49,7 +62,7 @@ function beautify(text: string): string {
     return t;
 }
 
-function parseDefinitions(html: string): Definition[] {
+function parseDefinitions(html: string, level?: string): Definition[] {
     const root = parseHTML(html);
     const definitions: Definition[] = [];
     const seen = new Set<string>();
@@ -76,6 +89,7 @@ function parseDefinitions(html: string): Definition[] {
         if (!definition || definition === '.') continue;
 
         const def: Definition = { number, type, definition };
+        if (level) def.level = level;
         if (typeExtraParts.length > 0) def.type_extra = typeExtraParts.join(', ');
 
         definitions.push(def);
@@ -98,6 +112,24 @@ async function fetchHTML(url: string): Promise<string | null> {
     }
 }
 
+async function loadFile(filePath: string): Promise<DefinitionsFile> {
+    if (fileCache.has(filePath)) return fileCache.get(filePath)!;
+    if (!existsSync(filePath)) {
+        fileCache.set(filePath, {});
+        return {};
+    }
+    const data = JSON.parse(await readFile(filePath, 'utf-8')) as DefinitionsFile;
+    fileCache.set(filePath, data);
+    return data;
+}
+
+async function wordHasDefinitions(word: string): Promise<boolean> {
+    const letter = firstLetter(word);
+    const filePath = path.join(DEFINITIONS_DIR, `${letter}_definitions.json`);
+    const data = await loadFile(filePath);
+    return Boolean(data[word]);
+}
+
 async function updateDefinitionsFile(word: string, definitions: Definition[]): Promise<void> {
     if (definitions.length === 0) return;
 
@@ -106,10 +138,7 @@ async function updateDefinitionsFile(word: string, definitions: Definition[]): P
 
     await mkdir(DEFINITIONS_DIR, { recursive: true });
 
-    let data: DefinitionsFile = {};
-    if (existsSync(filePath)) {
-        data = JSON.parse(await readFile(filePath, 'utf-8')) as DefinitionsFile;
-    }
+    const data = await loadFile(filePath);
 
     if (!data[word]) data[word] = { definitions: [] };
 
@@ -133,18 +162,28 @@ async function main(): Promise<void> {
     const [, , wordsFile, ...flags] = process.argv;
 
     if (!wordsFile) {
-        console.error('Usage: tsx scripts/crawlers/crawlRAE.ts <wordsFile> [--start <word>]');
+        console.error('Usage: tsx scripts/crawlers/crawlRAE.ts <wordsFile> [--start <word>] [--letter <l>] [--level <level>] [--skip-existing] [--force-update]');
         process.exit(1);
     }
 
     const startIdx = flags.indexOf('--start');
     const startWord = startIdx !== -1 ? flags[startIdx + 1] : null;
 
+    const letterIdx = flags.indexOf('--letter');
+    const letterFilter = letterIdx !== -1 ? flags[letterIdx + 1]?.toLowerCase() : null;
+
+    const levelIdx = flags.indexOf('--level');
+    const levelTag = levelIdx !== -1 ? flags[levelIdx + 1] : undefined;
+
+    const skipExisting = flags.includes('--skip-existing');
+    const forceUpdate = flags.includes('--force-update');
+
     const words = (await readFile(wordsFile, 'utf-8'))
         .split('\n').map(w => w.trim()).filter(Boolean);
 
     let processing = !startWord;
     let processed = 0;
+    let skipped = 0;
 
     for (const word of words) {
         if (!processing) {
@@ -152,13 +191,22 @@ async function main(): Promise<void> {
             else continue;
         }
 
+        const letter = firstLetter(word);
+        if (letterFilter && letter !== letterFilter) continue;
+
+        if (skipExisting && !forceUpdate && await wordHasDefinitions(word)) {
+            console.log(`${word}: skipped`);
+            skipped++;
+            continue;
+        }
+
         const url = `https://dle.rae.es/${encodeURIComponent(word)}`;
         const html = await fetchHTML(url);
 
         if (html) {
-            const defs = parseDefinitions(html);
+            const defs = parseDefinitions(html, levelTag);
             await updateDefinitionsFile(word, defs);
-            console.log(`${word}: ${defs.length} def(s)`);
+            console.log(`${word}: ${defs.length} def(s)${levelTag ? ` [${levelTag}]` : ''}`);
         } else {
             console.log(`${word}: fetch failed`);
         }
@@ -167,7 +215,7 @@ async function main(): Promise<void> {
         await sleep(1000 + Math.random() * 2000);
     }
 
-    console.log(`\nProcessed ${processed} words.`);
+    console.log(`\nProcessed: ${processed}  Skipped: ${skipped}`);
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });
