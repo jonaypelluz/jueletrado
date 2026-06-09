@@ -1,28 +1,22 @@
 /**
- * Orchestrates a full crawl of all locales, levels, and word files.
+ * Orchestrates a full crawl of all locales and levels.
  * Runs crawlRAE.ts (ES) and crawlDictionary.ts (EN) sequentially.
- * Skips words already in public/definitions/. Merges output at the end.
+ * Skips words already in public/definitions/. Merges after each level.
+ *
+ * Output: ops/crawl-output/{locale}/{letter}.jsonl — fixed paths, no timestamp.
+ * Appends to existing JSONL files so runs are resumable.
  *
  * Usage:
- *   tsx scripts/crawlers/crawlAll.ts
+ *   yarn crawl:all
  *
  * No flags required. Edit LOCALES or LEVELS constants below to narrow scope.
- *
- * Output structure:
- *   ops/crawl-output/
- *     {locale}/
- *       {session}/           ← one folder per crawlAll run
- *         {level}.jsonl      ← one JSONL per level
- *
- * After crawling, each locale's session files are merged into public/definitions/.
  */
 
 import { spawnSync } from 'child_process';
-import { mkdirSync, readdirSync, existsSync } from 'fs';
+import { mkdirSync, readdirSync } from 'fs';
 import * as path from 'path';
 
 const ROOT = process.cwd();
-const SESSION = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
 
 const CRAWLERS: Record<string, string> = {
     es: path.join(ROOT, 'scripts/crawlers/crawlRAE.ts'),
@@ -47,17 +41,35 @@ const MERGE_SCRIPT = path.join(ROOT, 'scripts/crawlers/mergeDefinitions.ts');
 const LOCALES = ['es', 'en'] as const;
 const LEVELS  = ['beginner', 'intermediate', 'advanced'] as const;
 
-function run(args: string[]): boolean {
+// Exit code 2 from crawlRAE.ts means daily limit reached — stop ES crawling
+const EXIT_DAILY_LIMIT = 2;
+
+function outputDir(locale: string): string {
+    return path.join(ROOT, 'ops/crawl-output', locale);
+}
+
+function run(args: string[]): { ok: boolean; dailyLimit: boolean } {
     const result = spawnSync('tsx', args, { stdio: 'inherit', cwd: ROOT });
-    return result.status === 0;
+    return {
+        ok: result.status === 0,
+        dailyLimit: result.status === EXIT_DAILY_LIMIT,
+    };
 }
 
-function sessionDir(locale: string): string {
-    return path.join(ROOT, 'ops/crawl-output', locale, SESSION);
-}
+function mergeLocale(locale: string): void {
+    const dir = outputDir(locale);
+    const files = readdirSync(dir)
+        .filter(f => f.endsWith('.jsonl'))
+        .map(f => path.join(dir, f));
 
-function outputFile(locale: string, level: string): string {
-    return path.join(sessionDir(locale), `${level}.jsonl`);
+    if (files.length === 0) {
+        console.log(`[${locale}] No JSONL files to merge.`);
+        return;
+    }
+
+    banner(`Merging ${locale.toUpperCase()} (${files.length} file(s))`);
+    const { ok } = run([MERGE_SCRIPT, '--locale', locale, ...files]);
+    if (!ok) console.error(`[error] merge failed for ${locale}`);
 }
 
 function banner(msg: string): void {
@@ -68,60 +80,56 @@ function banner(msg: string): void {
 }
 
 async function main(): Promise<void> {
-    console.log(`\ncrawlAll  session: ${SESSION}`);
+    console.log('\ncrawlAll — output: ops/crawl-output/{locale}/{letter}.jsonl');
     console.log('Skipping words already in public/definitions/.\n');
 
     for (const locale of LOCALES) {
-        mkdirSync(sessionDir(locale), { recursive: true });
+        mkdirSync(outputDir(locale), { recursive: true });
+
+        let dailyLimitReached = false;
 
         for (const level of LEVELS) {
-            const wordsFile = WORD_FILES[locale][level];
-            const out = outputFile(locale, level);
+            if (dailyLimitReached) break;
 
+            const wordsFile = WORD_FILES[locale][level];
+            const dir = outputDir(locale);
+            const notFoundFile = path.join(dir, 'not-found.txt');
+
+            const { existsSync } = await import('fs');
             if (!existsSync(wordsFile)) {
                 console.warn(`  [skip] word file not found: ${wordsFile}`);
                 continue;
             }
 
             banner(`${locale.toUpperCase()} / ${level}`);
-            console.log(`  words : ${wordsFile}`);
-            console.log(`  output: ${out}`);
+            console.log(`  words      : ${wordsFile}`);
+            console.log(`  output dir : ${dir}`);
 
-            const notFoundFile = path.join(ROOT, `ops/crawl-output/${locale}/not-found.txt`);
-
-            const ok = run([
+            const crawlerArgs = [
                 CRAWLERS[locale],
                 wordsFile,
                 '--level', level,
                 '--skip-existing',
                 '--quiet-skip',
-                '--output', out,
+                '--output-dir', dir,
                 '--not-found-file', notFoundFile,
-            ]);
+            ];
 
-            if (!ok) {
+            const { ok, dailyLimit } = run(crawlerArgs);
+
+            if (dailyLimit) {
+                console.warn(`\n[${locale}] Daily API limit reached — stopping ES crawl. Merge what we have.\n`);
+                dailyLimitReached = true;
+            } else if (!ok) {
                 console.error(`  [error] crawler exited non-zero for ${locale}/${level} — continuing`);
             }
-        }
 
-        // Merge all JSONL files produced in this session for the locale
-        const files = readdirSync(sessionDir(locale))
-            .filter(f => f.endsWith('.jsonl'))
-            .map(f => path.join(sessionDir(locale), f));
-
-        if (files.length === 0) {
-            console.log(`\n[${locale}] No JSONL files produced — nothing to merge.`);
-            continue;
-        }
-
-        banner(`Merging ${locale.toUpperCase()} (${files.length} file(s))`);
-        const ok = run([MERGE_SCRIPT, ...files]);
-        if (!ok) {
-            console.error(`[error] merge failed for ${locale}`);
+            // Merge after each level so next level's --skip-existing sees updated public/
+            mergeLocale(locale);
         }
     }
 
-    console.log(`\n✓ crawlAll complete. Session: ops/crawl-output/{locale}/${SESSION}/`);
+    console.log('\ncrawlAll complete.');
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

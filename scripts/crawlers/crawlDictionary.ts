@@ -1,26 +1,23 @@
 /**
- * Fetches EN definitions from api.dictionaryapi.dev and writes them to a JSONL
- * staging file. Run mergeDefinitions.ts afterwards to incorporate into public/.
+ * Fetches EN definitions from api.dictionaryapi.dev and writes them to per-letter
+ * JSONL staging files. Run mergeDefinitions.ts afterwards.
+ *
+ * Output: ops/crawl-output/en/{letter}.jsonl (one file per letter, no timestamp folder).
+ * Appends to existing files so interrupted runs resume cleanly.
  *
  * Usage:
  *   tsx scripts/crawlers/crawlDictionary.ts <wordsFile> [options]
  *
  * Options:
- *   --output <file>       JSONL output path (default: ops/crawl-output/en/{timestamp}.jsonl)
- *   --start <word>        Resume from this word (appends to --output file)
+ *   --output-dir <dir>    JSONL output folder (default: ops/crawl-output/en)
+ *   --start <word>        Resume from this word
  *   --letter <l>          Only process words starting with this letter
  *   --level <level>       Tag entries with this level (beginner|intermediate|advanced)
  *   --skip-existing       Skip words already in public/definitions/en/
  *   --force-update        Fetch even if word already exists in public/definitions/en/
  *   --delay <min>-<max>   Random delay range in ms between requests (default: 3000-10000)
  *   --quiet-skip          Suppress per-word skip messages (shows total at end)
- *
- * Examples:
- *   tsx scripts/crawlers/crawlDictionary.ts ops/scripts/words/en/beginner_words.txt --level beginner
- *   tsx scripts/crawlers/crawlDictionary.ts ops/scripts/words/en/beginner_words.txt --letter j --level beginner
- *   tsx scripts/crawlers/crawlDictionary.ts ops/scripts/words/en/beginner_words.txt --skip-existing --level beginner
- *   tsx scripts/crawlers/crawlDictionary.ts ops/scripts/words/en/beginner_words.txt --start apple --output ops/crawl-output/en/my-run.jsonl
- *   tsx scripts/crawlers/crawlDictionary.ts ops/scripts/words/en/beginner_words.txt --delay 5000-15000
+ *   --not-found-file <f>  Track words with no entry (default: ops/crawl-output/en/not-found.txt)
  */
 
 import { readFile, writeFile, appendFile, mkdir } from 'fs/promises';
@@ -183,10 +180,8 @@ async function main(): Promise<void> {
     const levelIdx = flags.indexOf('--level');
     const levelTag = levelIdx !== -1 ? flags[levelIdx + 1] : undefined;
 
-    const outputIdx = flags.indexOf('--output');
-    const outputFile = outputIdx !== -1
-        ? flags[outputIdx + 1]
-        : path.join(OUTPUT_DIR, `${Date.now()}.jsonl`);
+    const outputDirIdx = flags.indexOf('--output-dir');
+    const outputDir = outputDirIdx !== -1 ? flags[outputDirIdx + 1] : OUTPUT_DIR;
 
     const skipExisting = flags.includes('--skip-existing');
     const forceUpdate = flags.includes('--force-update');
@@ -202,10 +197,9 @@ async function main(): Promise<void> {
         ? flags[notFoundIdx + 1]
         : path.join(ROOT, 'ops/crawl-output/en/not-found.txt');
 
-    await mkdir(path.dirname(outputFile), { recursive: true });
+    await mkdir(outputDir, { recursive: true });
     await mkdir(path.dirname(notFoundFile), { recursive: true });
 
-    // Load previously-known not-found words
     const notFoundWords = new Set<string>();
     if (existsSync(notFoundFile)) {
         const lines = (await readFile(notFoundFile, 'utf-8')).split('\n').filter(Boolean);
@@ -213,9 +207,15 @@ async function main(): Promise<void> {
         console.log(`Loaded ${notFoundWords.size} known not-found words from ${notFoundFile}`);
     }
 
-    // Initialise output file if new
-    if (!existsSync(outputFile)) {
-        await writeFile(outputFile, '', 'utf-8');
+    const initialisedLetters = new Set<string>();
+
+    async function letterFile(letter: string): Promise<string> {
+        const file = path.join(outputDir, `${letter}.jsonl`);
+        if (!initialisedLetters.has(letter)) {
+            if (!existsSync(file)) await writeFile(file, '', 'utf-8');
+            initialisedLetters.add(letter);
+        }
+        return file;
     }
 
     const words = (await readFile(wordsFile, 'utf-8'))
@@ -233,7 +233,8 @@ async function main(): Promise<void> {
             else continue;
         }
 
-        if (letterFilter && word[0]?.toLowerCase() !== letterFilter) continue;
+        const letter = word[0]?.toLowerCase() ?? 'a';
+        if (letterFilter && letter !== letterFilter) continue;
 
         if (notFoundWords.has(word)) {
             if (!quietSkip) console.log(`${word}: skipped (not found)`);
@@ -260,7 +261,8 @@ async function main(): Promise<void> {
                     definitions: defs,
                 };
                 if (levelTag) entry.level = levelTag;
-                await appendFile(outputFile, JSON.stringify(entry) + '\n', 'utf-8');
+                const out = await letterFile(letter);
+                await appendFile(out, JSON.stringify(entry) + '\n', 'utf-8');
                 console.log(`${word}: ${defs.length} def(s)${levelTag ? ` [${levelTag}]` : ''}`);
             } else {
                 await appendFile(notFoundFile, word + '\n', 'utf-8');
@@ -284,12 +286,11 @@ async function main(): Promise<void> {
         }
 
         processed++;
-        const delay = randomDelay(delayMin, delayMax);
-        await sleep(delay);
+        await sleep(randomDelay(delayMin, delayMax));
     }
 
     console.log(`\nProcessed: ${processed}  Skipped: ${skipped}  Not found: ${notFound}  Errors: ${errors}`);
-    console.log(`Output: ${outputFile}`);
+    console.log(`Output dir: ${outputDir}`);
     console.log(`Not-found list: ${notFoundFile}`);
 }
 

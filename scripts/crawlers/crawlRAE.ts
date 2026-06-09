@@ -1,38 +1,40 @@
 /**
- * Crawls dle.rae.es for each word in a file and writes them to a JSONL
- * staging file. Run mergeDefinitions.ts afterwards to incorporate into public/.
+ * Fetches ES definitions from rae-api.com (unofficial RAE API) and writes them
+ * to per-letter JSONL staging files. Run mergeDefinitions.ts afterwards.
+ *
+ * Output: ops/crawl-output/es/{letter}.jsonl (one file per letter, no timestamp folder).
+ * Appends to existing files so interrupted runs resume cleanly.
+ *
+ * Requires RAE_API_KEY in .env.local (never commit this file).
+ * Free tier: 10 req/min, 100 req/day.
  *
  * Usage:
  *   tsx scripts/crawlers/crawlRAE.ts <wordsFile> [options]
  *
  * Options:
- *   --output <file>       JSONL output path (default: ops/crawl-output/es/{timestamp}.jsonl)
- *   --start <word>        Resume from this word (appends to --output file)
- *   --letter <l>          Only process words starting with this letter
- *   --level <level>       Tag entries with this level (beginner|intermediate|advanced)
- *   --skip-existing       Skip words already in public/definitions/es/
- *   --force-update        Fetch even if word already exists in public/definitions/es/
- *   --delay <min>-<max>        Random delay range in ms between requests (default: 4000-12000)
+ *   --output-dir <dir>         JSONL output folder (default: ops/crawl-output/es)
+ *   --start <word>             Resume from this word
+ *   --letter <l>               Only process words starting with this letter
+ *   --level <level>            Tag entries with this level (beginner|intermediate|advanced)
+ *   --skip-existing            Skip words already in public/definitions/es/
+ *   --force-update             Fetch even if word already exists in public/definitions/es/
+ *   --delay <min>-<max>        Random delay in ms between requests (default: 7000-15000)
  *   --quiet-skip               Suppress per-word skip messages (shows total at end)
- *   --not-found-file <file>    File tracking words with no RAE entry (default: ops/crawl-output/es/not-found.txt)
- *                              Words in this file are skipped automatically on subsequent runs.
- *
- * Examples:
- *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --level beginner
- *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/intermediate_words.txt --letter x --level intermediate
- *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --skip-existing --level beginner
- *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --start abeja --output ops/crawl-output/es/my-run.jsonl
- *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --delay 6000-15000
+ *   --not-found-file <file>    Track words with no RAE entry (default: ops/crawl-output/es/not-found.txt)
  */
 
-import { parse as parseHTML } from 'node-html-parser';
 import { readFile, writeFile, appendFile, mkdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import * as path from 'path';
+import { config as loadEnv } from 'dotenv';
+
+loadEnv({ path: path.resolve(process.cwd(), '.env') });
+loadEnv({ path: path.resolve(process.cwd(), '.env.local'), override: true });
 
 const ROOT = process.cwd();
 const DEFINITIONS_DIR = path.join(ROOT, 'public/definitions/es');
 const OUTPUT_DIR = path.join(ROOT, 'ops/crawl-output/es');
+const RAE_API_BASE = 'https://rae-api.com/api/words';
 
 const ACCENT_MAP: Record<string, string> = { á: 'a', é: 'e', í: 'i', ó: 'o', ú: 'u', ñ: 'n' };
 
@@ -55,11 +57,37 @@ interface Definition {
     definition_extra?: DefinitionExtra[];
 }
 
+interface RaeApiSense {
+    meaning_number: number;
+    category: string;
+    gender?: string;
+    usage?: string;
+    description: string;
+    usage_notes?: string[];
+    synonyms?: string[];
+    antonyms?: string[];
+}
+
+interface RaeApiMeaning {
+    homonym_index: number;
+    senses: RaeApiSense[];
+}
+
+interface RaeApiResponse {
+    ok: boolean;
+    data?: {
+        word: string;
+        meanings: RaeApiMeaning[];
+    };
+    error?: string;
+    message?: string;
+}
+
 interface CrawlEntry {
     word: string;
     locale: 'es';
     level?: string;
-    source: 'rae';
+    source: 'rae-api';
     crawledAt: string;
     definitions: Definition[];
 }
@@ -69,73 +97,61 @@ type DefinitionsFile = Record<string, { definitions: Definition[] }>;
 const existingCache = new Map<string, DefinitionsFile>();
 
 function beautify(text: string): string {
-    let t = text
-        .trim()
-        .replace(/\s+/g, ' ')
-        .replace(/ ([,.:;)])/g, '$1')
-        .replace(/\( /g, '(')
-        .replace(/,\./g, '.');
+    let t = text.trim().replace(/\s+/g, ' ').replace(/ ([,.:;)])/g, '$1').replace(/\( /g, '(');
     if (!t.endsWith('.')) t += '.';
     return t;
 }
 
-function parseDefinitions(html: string, level?: string): Definition[] {
-    const root = parseHTML(html);
-    const definitions: Definition[] = [];
-    const seen = new Set<string>();
+function formatDefinitions(meanings: RaeApiMeaning[], level?: string): Definition[] {
+    const defs: Definition[] = [];
+    let num = 1;
 
-    for (const p of root.querySelectorAll('p')) {
-        const numSpan = p.querySelector('span.n_acep');
-        if (!numSpan) continue;
+    for (const meaning of meanings) {
+        for (const sense of meaning.senses) {
+            if (!sense.description) continue;
 
-        const number = numSpan.text.trim().replace(/\.$/, '');
-        if (seen.has(number)) continue;
-        seen.add(number);
+            const def: Definition = {
+                number: String(num++),
+                type: sense.category ?? '',
+                definition: beautify(sense.description),
+            };
 
-        numSpan.remove();
+            if (level) def.level = level;
+            if (sense.usage) def.type_extra = sense.usage;
 
-        const abbrs = p.querySelectorAll('abbr');
-        const type = abbrs[0]?.getAttribute('title')?.trim() ?? '';
-        const typeExtraParts = abbrs.slice(1)
-            .map(a => a.getAttribute('title')?.trim())
-            .filter((t): t is string => Boolean(t));
+            const extra: DefinitionExtra[] = [];
+            if (sense.synonyms?.length) extra.push({ type: 'Sinónimos', content: sense.synonyms.join(', ') + '.' });
+            if (sense.antonyms?.length) extra.push({ type: 'Antónimos', content: sense.antonyms.join(', ') + '.' });
+            if (extra.length > 0) def.definition_extra = extra;
 
-        for (const abbr of abbrs) abbr.remove();
-
-        const definition = beautify(p.text);
-        if (!definition || definition === '.') continue;
-
-        const def: Definition = { number, type, definition };
-        if (level) def.level = level;
-        if (typeExtraParts.length > 0) def.type_extra = typeExtraParts.join(', ');
-
-        definitions.push(def);
+            defs.push(def);
+        }
     }
 
-    return definitions;
+    return defs;
 }
 
 interface FetchResult {
     status: number;
-    html: string | null;
+    data: RaeApiResponse | null;
+    dailyLimitExceeded: boolean;
 }
 
-async function fetchHTML(url: string): Promise<FetchResult> {
+async function fetchWord(word: string, apiKey?: string): Promise<FetchResult> {
+    const url = `${RAE_API_BASE}/${encodeURIComponent(word)}${apiKey ? `?api_key=${apiKey}` : ''}`;
     try {
-        const res = await fetch(url, {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-                'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
-                'Cache-Control': 'no-cache',
-                'Pragma': 'no-cache',
-            },
-            redirect: 'follow',
-        });
-        if (!res.ok) return { status: res.status, html: null };
-        return { status: res.status, html: await res.text() };
-    } catch (err) {
-        return { status: 0, html: null };
+        const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+        if (!res.ok) {
+            let body: RaeApiResponse | null = null;
+            try { body = await res.json() as RaeApiResponse; } catch { /* ignore */ }
+            const msg = (body?.message ?? body?.error ?? '').toLowerCase();
+            const dailyLimitExceeded = res.status === 403 ||
+                (res.status === 429 && (msg.includes('daily') || msg.includes('quota') || msg.includes('exceeded')));
+            return { status: res.status, data: body, dailyLimitExceeded };
+        }
+        return { status: res.status, data: await res.json() as RaeApiResponse, dailyLimitExceeded: false };
+    } catch {
+        return { status: 0, data: null, dailyLimitExceeded: false };
     }
 }
 
@@ -166,7 +182,7 @@ function parseDelayFlag(raw: string): { min: number; max: number } {
     const min = parseInt(minStr, 10);
     const max = parseInt(maxStr, 10);
     if (isNaN(min) || isNaN(max) || min < 0 || max <= min) {
-        console.error(`Invalid --delay value "${raw}". Expected format: <min>-<max> in ms, e.g. 4000-12000`);
+        console.error(`Invalid --delay value "${raw}". Expected: <min>-<max> in ms, e.g. 7000-15000`);
         process.exit(1);
     }
     return { min, max };
@@ -184,6 +200,13 @@ async function main(): Promise<void> {
         process.exit(1);
     }
 
+    const apiKey = process.env.RAE_API_KEY;
+    if (!apiKey) {
+        console.warn('Warning: RAE_API_KEY not set in .env.local — using anonymous tier (100 req/day)');
+    } else {
+        console.log('RAE API key loaded.');
+    }
+
     const startIdx = flags.indexOf('--start');
     const startWord = startIdx !== -1 ? flags[startIdx + 1] : null;
 
@@ -193,10 +216,8 @@ async function main(): Promise<void> {
     const levelIdx = flags.indexOf('--level');
     const levelTag = levelIdx !== -1 ? flags[levelIdx + 1] : undefined;
 
-    const outputIdx = flags.indexOf('--output');
-    const outputFile = outputIdx !== -1
-        ? flags[outputIdx + 1]
-        : path.join(OUTPUT_DIR, `${Date.now()}.jsonl`);
+    const outputDirIdx = flags.indexOf('--output-dir');
+    const outputDir = outputDirIdx !== -1 ? flags[outputDirIdx + 1] : OUTPUT_DIR;
 
     const skipExisting = flags.includes('--skip-existing');
     const forceUpdate = flags.includes('--force-update');
@@ -205,17 +226,16 @@ async function main(): Promise<void> {
     const delayIdx = flags.indexOf('--delay');
     const { min: delayMin, max: delayMax } = delayIdx !== -1
         ? parseDelayFlag(flags[delayIdx + 1] ?? '')
-        : { min: 4000, max: 12000 };
+        : { min: 7000, max: 15000 };
 
     const notFoundIdx = flags.indexOf('--not-found-file');
     const notFoundFile = notFoundIdx !== -1
         ? flags[notFoundIdx + 1]
         : path.join(ROOT, 'ops/crawl-output/es/not-found.txt');
 
-    await mkdir(path.dirname(outputFile), { recursive: true });
+    await mkdir(outputDir, { recursive: true });
     await mkdir(path.dirname(notFoundFile), { recursive: true });
 
-    // Load previously-known not-found words
     const notFoundWords = new Set<string>();
     if (existsSync(notFoundFile)) {
         const lines = (await readFile(notFoundFile, 'utf-8')).split('\n').filter(Boolean);
@@ -223,9 +243,16 @@ async function main(): Promise<void> {
         console.log(`Loaded ${notFoundWords.size} known not-found words from ${notFoundFile}`);
     }
 
-    // Initialise output file if new
-    if (!existsSync(outputFile)) {
-        await writeFile(outputFile, '', 'utf-8');
+    // Track which letter files have been initialised this run (avoid stat per word)
+    const initialisedLetters = new Set<string>();
+
+    async function letterFile(letter: string): Promise<string> {
+        const file = path.join(outputDir, `${letter}.jsonl`);
+        if (!initialisedLetters.has(letter)) {
+            if (!existsSync(file)) await writeFile(file, '', 'utf-8');
+            initialisedLetters.add(letter);
+        }
+        return file;
     }
 
     const words = (await readFile(wordsFile, 'utf-8'))
@@ -258,51 +285,54 @@ async function main(): Promise<void> {
             continue;
         }
 
-        const url = `https://dle.rae.es/${encodeURIComponent(word)}`;
-        const { status, html } = await fetchHTML(url);
+        const { status, data, dailyLimitExceeded } = await fetchWord(word, apiKey);
 
-        if (html) {
-            const defs = parseDefinitions(html, levelTag);
+        if (dailyLimitExceeded) {
+            console.error(`\nRAE API daily limit reached. Stopping — resume tomorrow or upgrade plan.\n`);
+            process.exit(2);
+        }
+
+        if (data?.ok && data.data) {
+            const defs = formatDefinitions(data.data.meanings, levelTag);
             if (defs.length > 0) {
                 const entry: CrawlEntry = {
                     word,
                     locale: 'es',
-                    source: 'rae',
+                    source: 'rae-api',
                     crawledAt: new Date().toISOString(),
                     definitions: defs,
                 };
                 if (levelTag) entry.level = levelTag;
-                await appendFile(outputFile, JSON.stringify(entry) + '\n', 'utf-8');
+                const out = await letterFile(letter);
+                await appendFile(out, JSON.stringify(entry) + '\n', 'utf-8');
                 console.log(`${word}: ${defs.length} def(s)${levelTag ? ` [${levelTag}]` : ''}`);
             } else {
-                // Page exists but no definitions parsed — treat as not found
                 await appendFile(notFoundFile, word + '\n', 'utf-8');
                 notFoundWords.add(word);
-                console.log(`${word}: no definitions parsed (added to not-found)`);
+                console.log(`${word}: no definitions (added to not-found)`);
                 notFound++;
             }
-        } else if (status === 404) {
+        } else if (status === 404 || data?.error === 'NOT_FOUND') {
             await appendFile(notFoundFile, word + '\n', 'utf-8');
             notFoundWords.add(word);
-            console.log(`${word}: 404 (added to not-found)`);
+            if (!quietSkip) console.log(`${word}: not found (added to not-found)`);
             notFound++;
         } else if (status === 429) {
             console.warn(`${word}: 429 rate limited — waiting 60s`);
             await sleep(60000);
             errors++;
-            continue; // retry same word next iteration would require restructuring; skip for now
+            continue;
         } else {
             console.log(`${word}: HTTP ${status || 'network error'}`);
             errors++;
         }
 
         processed++;
-        const delay = randomDelay(delayMin, delayMax);
-        await sleep(delay);
+        await sleep(randomDelay(delayMin, delayMax));
     }
 
     console.log(`\nProcessed: ${processed}  Skipped: ${skipped}  Not found: ${notFound}  Errors: ${errors}`);
-    console.log(`Output: ${outputFile}`);
+    console.log(`Output dir: ${outputDir}`);
     console.log(`Not-found list: ${notFoundFile}`);
 }
 
