@@ -27,6 +27,8 @@ const useDefinitionMaster = () => {
     const [loadError, setLoadError] = useState<boolean>(false);
     const [quizWords, setQuizWords] = useState<QuizDefinition[][]>([]);
     const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswersType>({});
+    const [quizScore, setQuizScore] = useState<number>(0);
+    const [wrongClicksCount, setWrongClicksCount] = useState<number>(0);
 
     const letters: string[] = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
@@ -118,6 +120,8 @@ const useDefinitionMaster = () => {
         setIsNextButtonActive(false);
         setQuizWords([]);
         setSelectedAnswers({});
+        setQuizScore(0);
+        setWrongClicksCount(0);
         setLoadError(false);
     };
 
@@ -138,30 +142,39 @@ const useDefinitionMaster = () => {
     };
 
     const handleQuizWordClick = (word: string | undefined, isCorrect: boolean) => {
-        if (word !== undefined) {
-            if (isCorrect) {
-                setIsNextButtonActive(true);
-            }
+        if (word === undefined) return;
+
+        if (isCorrect) {
+            setQuizScore(prev => prev + 1);
+            setIsNextButtonActive(true);
+            setSelectedAnswers((prev: SelectedAnswersType) => ({ ...prev, [word]: true }));
+        } else {
             setSelectedAnswers((prev: SelectedAnswersType) => ({
                 ...prev,
-                [word]: isCorrect,
+                [word]: false,
+                [quizWord]: true,
             }));
+            setWrongClicksCount(prev => {
+                const next = prev + 1;
+                if (next >= TOTAL_QUIZ_DEFINITIONS - 1) {
+                    setIsNextButtonActive(true);
+                }
+                return next;
+            });
         }
     };
 
     const handleNextQuizWord = () => {
+        const nextIndex = currentQuizIndex + 1;
         setIsNextButtonActive(false);
         setSelectedAnswers({});
-        setCurrentQuizIndex((prevIndex: number) => {
-            const nextIndex = prevIndex + 1;
+        setWrongClicksCount(0);
 
-            if (nextIndex >= quizWords.length) {
-                handleResetLetterClick();
-                return 0;
-            }
-
-            return nextIndex;
-        });
+        if (nextIndex >= quizWords.length) {
+            setIsQuizFinished(true);
+        } else {
+            setCurrentQuizIndex(nextIndex);
+        }
     };
 
     useEffect(() => {
@@ -200,6 +213,7 @@ const useDefinitionMaster = () => {
         letters,
         quizWord,
         quizWords,
+        quizScore,
         currentQuizIndex,
         selectedAnswers,
         handleLetterClick,

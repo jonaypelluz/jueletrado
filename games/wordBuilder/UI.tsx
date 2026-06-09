@@ -6,6 +6,7 @@ import { GameConfig } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
 import '@styles/Buttons.scss';
+import '@styles/WordBuilder.scss';
 
 type WordBuilderUIProps = {
     gameConfig: GameConfig;
@@ -16,9 +17,12 @@ type WordBuilderUIProps = {
     letters: string[];
     tempWord: string;
     foundWords: string[];
+    isInvalidWord: boolean;
     handleGameStartClick: () => void;
     handleLetterClick: (letter: string) => void;
     handleCheckWordClick: () => void;
+    handleDeleteLastLetter: () => void;
+    handleClearWord: () => void;
 };
 
 const UI: React.FC<WordBuilderUIProps> = ({
@@ -29,9 +33,12 @@ const UI: React.FC<WordBuilderUIProps> = ({
     letters,
     tempWord,
     foundWords,
+    isInvalidWord,
     handleGameStartClick,
     handleLetterClick,
     handleCheckWordClick,
+    handleDeleteLastLetter,
+    handleClearWord,
 }) => {
     return (
         <>
@@ -83,16 +90,35 @@ const UI: React.FC<WordBuilderUIProps> = ({
                             </div>
                         </div>
                         <div className="word-builder-col-right">
-                            <div className="word-builder-temporary-word">
+                            <div className={`word-builder-temporary-word${isInvalidWord ? ' word-builder-invalid' : ''}`}>
+                                {isInvalidWord && (
+                                    <p className="word-builder-invalid-msg">
+                                        <FormattedMessage id="gameWordBuilderInvalid" />
+                                    </p>
+                                )}
                                 {tempWord && (
                                     <>
                                         <span>{tempWord.toUpperCase()}</span>
-                                        <button
-                                            className="btn-default game-btn"
-                                            onClick={handleCheckWordClick}
-                                        >
-                                            <FormattedMessage id="gameCheckWord" />
-                                        </button>
+                                        <div className="word-builder-actions">
+                                            <button
+                                                className="btn-default game-btn"
+                                                onClick={handleDeleteLastLetter}
+                                            >
+                                                <FormattedMessage id="gameWordBuilderDeleteLast" />
+                                            </button>
+                                            <button
+                                                className="btn-default game-btn"
+                                                onClick={handleClearWord}
+                                            >
+                                                <FormattedMessage id="gameWordBuilderClearAll" />
+                                            </button>
+                                            <button
+                                                className="btn-default game-btn"
+                                                onClick={handleCheckWordClick}
+                                            >
+                                                <FormattedMessage id="gameCheckWord" />
+                                            </button>
+                                        </div>
                                     </>
                                 )}
                             </div>

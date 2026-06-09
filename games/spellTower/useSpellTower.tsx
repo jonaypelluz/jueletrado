@@ -7,6 +7,8 @@ import { getLevelWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
+type PendingResult = { clickedIndex: number; correctIndex: number };
+
 const GAME_TIME = 30;
 
 const useSpellTower = () => {
@@ -22,9 +24,11 @@ const useSpellTower = () => {
     const [randomizedVariations, setRandomizedVariations] = useState<string[]>([]);
     const [correctAnswers, setCorrectAnswers] = useState<number>(0);
     const [incorrectAnswers, setIncorrectAnswers] = useState<[string, string][]>([]);
+    const [pendingResult, setPendingResult] = useState<PendingResult | null>(null);
 
     // Ref lets handleWordClick read current gameStarted without stale closure
     const gameStartedRef = useRef(gameStarted);
+    const pendingRef = useRef(false);
     useEffect(() => { gameStartedRef.current = gameStarted; }, [gameStarted]);
 
     const endGame = () => {
@@ -34,13 +38,15 @@ const useSpellTower = () => {
     };
 
     const handleWordClick = (clickedIndex: number) => {
-        if (!gameStartedRef.current) return;
+        if (!gameStartedRef.current || pendingRef.current) return;
 
         setRandomizedVariations(current => {
             const correctWord = words?.[currentWordIndex]?.[0];
             const clickedWord = current[clickedIndex];
 
             if (!correctWord || !clickedWord) return current;
+
+            const correctIndex = current.indexOf(correctWord);
 
             if (clickedWord === correctWord) {
                 setCorrectAnswers(prev => prev + 1);
@@ -49,6 +55,18 @@ const useSpellTower = () => {
                 setCorrectAnswers(prev => Math.max(0, prev - 1));
             }
 
+            pendingRef.current = true;
+            setPendingResult({ clickedIndex, correctIndex });
+
+            return current;
+        });
+    };
+
+    useEffect(() => {
+        if (!pendingResult) return;
+        const timer = setTimeout(() => {
+            pendingRef.current = false;
+            setPendingResult(null);
             setCurrentWordIndex(prev => {
                 const nextIndex = prev + 1;
                 if (!words || nextIndex >= words.length) {
@@ -56,10 +74,9 @@ const useSpellTower = () => {
                 }
                 return nextIndex;
             });
-
-            return current;
-        });
-    };
+        }, 600);
+        return () => clearTimeout(timer);
+    }, [pendingResult]);
 
     useEffect(() => {
         if (words && currentWordIndex < words.length) {
@@ -118,6 +135,8 @@ const useSpellTower = () => {
         setCurrentWordIndex(0);
         setCorrectAnswers(0);
         setIncorrectAnswers([]);
+        setPendingResult(null);
+        pendingRef.current = false;
         setCountdown(GAME_TIME);
         setGameStarted(true);
     };
@@ -134,6 +153,7 @@ const useSpellTower = () => {
         incorrectAnswers,
         currentWordIndex,
         randomizedVariations,
+        pendingResult,
         isLoading: isLoadingWords,
         handleGameStartClick,
         handleWordClick,

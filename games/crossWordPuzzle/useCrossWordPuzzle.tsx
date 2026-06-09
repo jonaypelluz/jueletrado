@@ -53,6 +53,7 @@ const useCrossWordPuzzle = () => {
     const [allDefinitions, setAllDefinitions] = useState<DefinitionWords>({});
     const [selectedWords, setSelectedWords] = useState<SelectedWord>({});
     const [isGameStarted, setIsGameStarted] = useState<boolean>(false);
+    const [isGenerating, setIsGenerating] = useState<boolean>(false);
     const [isComplete, setIsComplete] = useState<boolean>(false);
     const [crossword, setCrossword] = useState<ICell[][]>(matrixInitialState);
     const [firstWord, setFirstWord] = useState<string>('');
@@ -92,10 +93,12 @@ const useCrossWordPuzzle = () => {
         return Math.floor(Math.random() * (max - min) + min);
     };
 
-    const handleGameStartClick = () => {
+    const handleGameStartClick = async () => {
         resetCrossword();
-        generateCrossword();
         setIsGameStarted(true);
+        setIsGenerating(true);
+        await generateCrossword();
+        setIsGenerating(false);
     };
 
     const resetCrossword = () => {
@@ -474,6 +477,7 @@ const useCrossWordPuzzle = () => {
         crossword,
         selectedWords,
         isGameStarted,
+        isGenerating,
         isComplete,
         checkCellValue,
         handleGameStartClick,

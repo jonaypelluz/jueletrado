@@ -21,6 +21,7 @@ type DefinitionMasterUIProps = {
     letters: string[];
     quizWord: string;
     quizWords: QuizDefinition[][];
+    quizScore: number;
     currentQuizIndex: number;
     selectedAnswers: SelectedAnswersType;
     handleLetterClick: (letter: string) => Promise<void>;
@@ -49,6 +50,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
     letters,
     quizWord,
     quizWords,
+    quizScore,
     currentQuizIndex,
     selectedAnswers,
     handleLetterClick,
@@ -69,7 +71,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                {isGameStarted && quizWords.length !== 0 && (
+                {isGameStarted && (quizWords.length !== 0 || isQuizFinished) && (
                     <button className="btn-default game-btn" onClick={handleResetLetterClick}>
                         <FormattedMessage id="gameQuizWordChoose" />
                     </button>
@@ -90,59 +92,75 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                 <div className="definition-master-inner">
                     {isGameStarted ? (
                         <>
-                            {loadError && (
-                                <p className="load-error">
-                                    <FormattedMessage id="gameLoadError" />
-                                </p>
-                            )}
-                            {quizWords.length === 0 && !loadError &&
-                                letters.map((letter: string, index: number) => {
-                                    const disabled = isLetterDisabled(letter) || isLoadingLetter;
-                                    return (
-                                        <button
-                                            className={`letter-btn${isLetterDisabled(letter) ? ' letter-btn--disabled' : ''}`}
-                                            key={index}
-                                            disabled={disabled}
-                                            onClick={() => handleLetterClick(letter)}
-                                        >
-                                            {letter.toUpperCase()}
-                                        </button>
-                                    );
-                                })
-                            }
-                            {showQuiz && (
-                                <div className="definition-master-quiz">
+                            {isQuizFinished ? (
+                                <div className="definition-master-summary">
                                     <h2>
-                                        <FormattedMessage id="gameQuizWord" values={{ quizWord }} />
+                                        <FormattedMessage
+                                            id="gameQuizFinishedScore"
+                                            values={{ score: quizScore, total: quizWords.length }}
+                                        />
                                     </h2>
-                                    {quizWords[currentQuizIndex].map((word: QuizDefinition, index: number) => {
-                                        const isCorrect = selectedAnswers[word.word];
-                                        let buttonClass = 'definition-btn';
-                                        if (isCorrect !== undefined) {
-                                            buttonClass += isCorrect ? ' correct-answer' : ' incorrect-answer';
-                                        }
-                                        return (
-                                            <button
-                                                className={buttonClass}
-                                                key={index}
-                                                onClick={() => handleQuizWordClick(word.word, word.isCorrect)}
-                                            >
-                                                {isCorrect !== undefined && !isCorrect && (
-                                                    <strong>{word.word}: </strong>
-                                                )}
-                                                {beautifyDefinition(word.definition)}.
-                                            </button>
-                                        );
-                                    })}
-                                    {isNextButtonActive && (
-                                        <button
-                                            className="btn-primary next-btn"
-                                            onClick={handleNextQuizWord}
-                                        >
-                                            <FormattedMessage id="gameQuizWordNextWord" />
-                                        </button>
-                                    )}
+                                    <button className="btn-primary game-btn" onClick={handleResetLetterClick}>
+                                        <FormattedMessage id="gameQuizWordChoose" />
+                                    </button>
                                 </div>
+                            ) : (
+                                <>
+                                    {loadError && (
+                                        <p className="load-error">
+                                            <FormattedMessage id="gameLoadError" />
+                                        </p>
+                                    )}
+                                    {quizWords.length === 0 && !loadError &&
+                                        letters.map((letter: string, index: number) => {
+                                            const disabled = isLetterDisabled(letter) || isLoadingLetter;
+                                            return (
+                                                <button
+                                                    className={`letter-btn${isLetterDisabled(letter) ? ' letter-btn--disabled' : ''}`}
+                                                    key={index}
+                                                    disabled={disabled}
+                                                    onClick={() => handleLetterClick(letter)}
+                                                >
+                                                    {letter.toUpperCase()}
+                                                </button>
+                                            );
+                                        })
+                                    }
+                                    {showQuiz && (
+                                        <div className="definition-master-quiz">
+                                            <h2>
+                                                <FormattedMessage id="gameQuizWord" values={{ quizWord }} />
+                                            </h2>
+                                            {quizWords[currentQuizIndex].map((word: QuizDefinition, index: number) => {
+                                                const isCorrect = selectedAnswers[word.word];
+                                                let buttonClass = 'definition-btn';
+                                                if (isCorrect !== undefined) {
+                                                    buttonClass += isCorrect ? ' correct-answer' : ' incorrect-answer';
+                                                }
+                                                return (
+                                                    <button
+                                                        className={buttonClass}
+                                                        key={index}
+                                                        onClick={() => handleQuizWordClick(word.word, word.isCorrect)}
+                                                    >
+                                                        {isCorrect !== undefined && !isCorrect && (
+                                                            <strong>{word.word}: </strong>
+                                                        )}
+                                                        {beautifyDefinition(word.definition)}.
+                                                    </button>
+                                                );
+                                            })}
+                                            {isNextButtonActive && (
+                                                <button
+                                                    className="btn-primary next-btn"
+                                                    onClick={handleNextQuizWord}
+                                                >
+                                                    <FormattedMessage id="gameQuizWordNextWord" />
+                                                </button>
+                                            )}
+                                        </div>
+                                    )}
+                                </>
                             )}
                         </>
                     ) : (

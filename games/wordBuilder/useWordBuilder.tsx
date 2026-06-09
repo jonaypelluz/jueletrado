@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
 import { consonants, vowels } from '@config/translations/Letters';
 import { useWordProcessor } from '@hooks/useWordProcessor';
@@ -20,6 +20,8 @@ const useWordBuilder = () => {
     const [words, setWords] = useState<string[]>([]);
     const [allWords, setAllWords] = useState<string[]>([]);
     const [foundWords, setFoundWords] = useState<string[]>([]);
+    const [isInvalidWord, setIsInvalidWord] = useState<boolean>(false);
+    const invalidTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
     const getRandomLetters = <T,>(array: T[], numberOfElements: number): T[] => {
         const shuffledArray = [...array];
@@ -72,6 +74,7 @@ const useWordBuilder = () => {
     };
 
     const handleCheckWordClick = () => {
+        let found = false;
         const wordVariations = generateAccentedVariations(tempWord);
         for (const variation of wordVariations) {
             if (words.includes(variation)) {
@@ -79,8 +82,26 @@ const useWordBuilder = () => {
                 setWords((currentWords: string[]) =>
                     currentWords.filter((word) => word !== variation),
                 );
+                found = true;
             }
         }
+        if (!found && tempWord) {
+            if (invalidTimerRef.current) clearTimeout(invalidTimerRef.current);
+            setIsInvalidWord(true);
+            invalidTimerRef.current = setTimeout(() => {
+                setIsInvalidWord(false);
+                setTempWord('');
+            }, 800);
+            return;
+        }
+        setTempWord('');
+    };
+
+    const handleDeleteLastLetter = () => {
+        setTempWord(prev => prev.slice(0, -1));
+    };
+
+    const handleClearWord = () => {
         setTempWord('');
     };
 
@@ -119,9 +140,12 @@ const useWordBuilder = () => {
         letters,
         tempWord,
         foundWords,
+        isInvalidWord,
         handleGameStartClick,
         handleLetterClick,
         handleCheckWordClick,
+        handleDeleteLastLetter,
+        handleClearWord,
     };
 };
 

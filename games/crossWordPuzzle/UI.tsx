@@ -7,6 +7,7 @@ import { GameConfig, SelectedWord } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
 import '@styles/Buttons.scss';
+import '@styles/CrossWordPuzzle.scss';
 
 type CrossWordPuzzleUIProps = {
     gameConfig: GameConfig;
@@ -17,6 +18,7 @@ type CrossWordPuzzleUIProps = {
     crossword: ICell[][];
     selectedWords: SelectedWord;
     isGameStarted: boolean;
+    isGenerating: boolean;
     isComplete: boolean;
     checkCellValue: (i: number, j: number) => (event: ChangeEvent<HTMLInputElement>) => void;
     handleGameStartClick: () => void;
@@ -41,6 +43,7 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
     crossword,
     selectedWords,
     isGameStarted,
+    isGenerating,
     isComplete,
     checkCellValue,
     handleGameStartClick,
@@ -56,6 +59,10 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                     <button className="btn-primary game-btn" disabled>
                         <FormattedMessage id="gameSelectLevel" />
                     </button>
+                ) : isGenerating ? (
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gameCrossWordGenerating" />
+                    </button>
                 ) : (
                     <button
                         className="btn-primary game-btn"
@@ -66,6 +73,12 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                 )}
             </Hero>
             {isGameStarted ? (
+                isGenerating ? (
+                    <div className="crossword-loading">
+                        <div className="spinner" />
+                        <p><FormattedMessage id="gameCrossWordGenerating" /></p>
+                    </div>
+                ) :
                 <div className="crossword-container">
                     <div className="crossword-sidebar">
                         <ul>

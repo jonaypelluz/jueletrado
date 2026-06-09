@@ -7,6 +7,8 @@ import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
 import '@styles/Buttons.scss';
 
+type PendingResult = { clickedIndex: number; correctIndex: number };
+
 type SpellTowerUIProps = {
     gameConfig: GameConfig;
     error: Error | null;
@@ -19,6 +21,7 @@ type SpellTowerUIProps = {
     incorrectAnswers: [string, string][];
     currentWordIndex: number;
     randomizedVariations: string[];
+    pendingResult: PendingResult | null;
     isLoading: boolean;
     handleGameStartClick: () => void;
     handleWordClick: (index: number) => void;
@@ -35,6 +38,7 @@ const UI: React.FC<SpellTowerUIProps> = ({
     correctAnswers,
     incorrectAnswers,
     randomizedVariations,
+    pendingResult,
     isLoading,
     handleGameStartClick,
     handleWordClick,
@@ -77,15 +81,23 @@ const UI: React.FC<SpellTowerUIProps> = ({
                             <div className="spell-tower-game-inner">
                                 <div className="spell-tower-variations">
                                     {gameStarted ? (
-                                        randomizedVariations.map((variation, index) => (
-                                            <button
-                                                key={index}
-                                                className="variation-btn"
-                                                onClick={() => handleWordClick(index)}
-                                            >
-                                                {variation}
-                                            </button>
-                                        ))
+                                        randomizedVariations.map((variation, index) => {
+                                            let className = 'variation-btn';
+                                            if (pendingResult !== null) {
+                                                if (index === pendingResult.correctIndex) className += ' correct-answer';
+                                                else if (index === pendingResult.clickedIndex) className += ' incorrect-answer';
+                                            }
+                                            return (
+                                                <button
+                                                    key={index}
+                                                    className={className}
+                                                    disabled={pendingResult !== null}
+                                                    onClick={() => handleWordClick(index)}
+                                                >
+                                                    {variation}
+                                                </button>
+                                            );
+                                        })
                                     ) : (
                                         <div className="results-wrapper">
                                             {error && (

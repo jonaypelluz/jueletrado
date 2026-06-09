@@ -59,12 +59,28 @@
     border-radius: 6px;
     background: #fff;
     cursor: pointer;
-    transition: border-color 0.2s, color 0.2s;
+    transition: border-color 0.2s, color 0.2s, background-color 0.2s;
 
-    &:hover,
-    &:focus {
+    &:hover:not(:disabled),
+    &:focus:not(:disabled) {
         border-color: $main-color;
         color: $main-color;
+    }
+
+    &:disabled {
+        cursor: default;
+    }
+
+    &.correct-answer {
+        border-color: $secondary-color-dark;
+        color: $secondary-color-dark;
+        background-color: rgba(142, 188, 121, 0.15);
+    }
+
+    &.incorrect-answer {
+        border-color: $danger-color;
+        color: $danger-color;
+        background-color: rgba(255, 77, 79, 0.1);
     }
 }
 

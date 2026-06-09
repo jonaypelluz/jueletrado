@@ -33,6 +33,7 @@
         border: 1px solid #000;
         border-radius: 24px;
         margin: 12px;
+        transition: border-color 0.15s;
 
         span {
             display: block;
@@ -40,6 +41,33 @@
             margin-top: 24px;
             font-size: 48px;
         }
+
+        &.word-builder-invalid {
+            border-color: $danger-color;
+            animation: shake 0.4s ease;
+        }
+
+        .word-builder-invalid-msg {
+            color: $danger-color;
+            font-weight: 600;
+            margin: 12px 0 0;
+        }
+
+        .word-builder-actions {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            flex-wrap: wrap;
+            padding: 8px 12px 16px;
+        }
+    }
+
+    @keyframes shake {
+        0%, 100% { transform: translateX(0); }
+        20% { transform: translateX(-6px); }
+        40% { transform: translateX(6px); }
+        60% { transform: translateX(-4px); }
+        80% { transform: translateX(4px); }
     }
 
     .word-builder-found-words {
