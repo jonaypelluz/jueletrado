@@ -13,6 +13,7 @@
  *   --skip-existing       Skip words already in public/definitions/es/
  *   --force-update        Fetch even if word already exists in public/definitions/es/
  *   --delay <min>-<max>   Random delay range in ms between requests (default: 4000-12000)
+ *   --quiet-skip          Suppress per-word skip messages (shows total at end)
  *
  * Examples:
  *   tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt --level beginner
@@ -187,6 +188,7 @@ async function main(): Promise<void> {
 
     const skipExisting = flags.includes('--skip-existing');
     const forceUpdate = flags.includes('--force-update');
+    const quietSkip = flags.includes('--quiet-skip');
 
     const delayIdx = flags.indexOf('--delay');
     const { min: delayMin, max: delayMax } = delayIdx !== -1
@@ -217,7 +219,7 @@ async function main(): Promise<void> {
         if (letterFilter && letter !== letterFilter) continue;
 
         if (skipExisting && !forceUpdate && await wordHasDefinitions(word)) {
-            console.log(`${word}: skipped`);
+            if (!quietSkip) console.log(`${word}: skipped`);
             skipped++;
             continue;
         }
