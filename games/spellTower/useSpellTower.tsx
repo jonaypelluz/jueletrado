@@ -57,7 +57,7 @@ const useSpellTower = () => {
 
     useEffect(() => {
         const fetchWordsFromStorage = async () => {
-            const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_GROUP_60);
+            const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_TOWER);
 
             if (storedWords) {
                 const gameWords = processWords(storedWords);

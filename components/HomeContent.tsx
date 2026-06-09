@@ -76,10 +76,10 @@ const HomeContent: React.FC = () => {
         if (!hydrated || !gameLevel || areWordsLoaded) return;
 
         const groupKeys: StorageKey[] = [
-            StorageService.WORDS_GROUP_20,
-            StorageService.WORDS_GROUP_40_UNDER_9,
-            StorageService.WORDS_GROUP_60,
-            StorageService.WORDS_GROUP_80,
+            StorageService.WORDS_DAILY,
+            StorageService.WORDS_FINDER,
+            StorageService.WORDS_TOWER,
+            StorageService.WORDS_RAIN,
         ];
         const allPresent = groupKeys.every((key) => {
             const g = StorageService.getItem<string[]>(key);
@@ -101,10 +101,14 @@ const HomeContent: React.FC = () => {
                 maxLength?: number;
                 minLength?: number;
             }[] = [
-                { count: 20, key: StorageService.WORDS_GROUP_20, minLength: 4 },
-                { count: 40, key: StorageService.WORDS_GROUP_40_UNDER_9, maxLength: 9, minLength: 4 },
-                { count: 60, key: StorageService.WORDS_GROUP_60, minLength: 4 },
-                { count: 80, key: StorageService.WORDS_GROUP_80, minLength: 4 },
+                // WORDS_DAILY: 7 words, one drawn per day (24h TTL applied when storing the daily word).
+                { count: 7, key: StorageService.WORDS_DAILY, minLength: 4 },
+                // WORDS_FINDER: persistent queue, 10 words/session × 6 sessions before refetch.
+                { count: 60, key: StorageService.WORDS_FINDER, maxLength: 9, minLength: 4 },
+                // WORDS_TOWER: persistent queue, 15 words/session × 5 sessions before refetch.
+                { count: 75, key: StorageService.WORDS_TOWER, minLength: 4 },
+                // WORDS_RAIN: cycling pool, 80 words (looped, not consumed).
+                { count: 80, key: StorageService.WORDS_RAIN, minLength: 4 },
             ];
 
             const fetchAndStoreWords = async (group: {
@@ -155,7 +159,7 @@ const HomeContent: React.FC = () => {
 
             if (!storedDailyWord) {
                 const wordsGroup20 = StorageService.getItem<string[]>(
-                    StorageService.WORDS_GROUP_20,
+                    StorageService.WORDS_DAILY,
                 );
                 if (wordsGroup20 && wordsGroup20.length > 0) {
                     const dailyWord = wordsGroup20[0];

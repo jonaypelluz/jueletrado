@@ -216,7 +216,7 @@ const useWordsRain = () => {
 
     useEffect(() => {
         const fetchWordsFromStorage = async () => {
-            const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_GROUP_80);
+            const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);
 
             if (storedWords) {
                 const gameWords = processWords(storedWords);

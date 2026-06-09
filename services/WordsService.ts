@@ -168,6 +168,68 @@ const deleteWordsDB = async (setError: SetErrorFunction): Promise<void> => {
     }
 };
 
+/**
+ * Draws `sessionSize` words from the front of a persistent localStorage pool.
+ * Saves the remainder back. Triggers a silent background refetch when the
+ * remaining pool drops below `refetchThreshold` so future sessions don't wait.
+ *
+ * If the pool is empty (first visit or expired), fetches synchronously and
+ * returns `sessionSize` words immediately.
+ */
+const getSessionWords = async (
+    key: import('@store/StorageService').StorageKey,
+    sessionSize: number,
+    level: string | null,
+    locale: string,
+    setError: SetErrorFunction,
+    fetchOptions: { count: number; maxLength?: number; minLength?: number },
+    refetchThreshold?: number,
+): Promise<string[]> => {
+    const threshold = refetchThreshold ?? sessionSize;
+
+    const refetchInBackground = (currentPool: string[]) => {
+        getWords(
+            level,
+            locale,
+            fetchOptions.count,
+            setError,
+            fetchOptions.maxLength ?? null,
+            fetchOptions.minLength ?? null,
+        ).then((newWords) => {
+            if (newWords?.length) {
+                const latest = StorageService.getItem<string[]>(key) ?? [];
+                StorageService.setItem(key, [...latest, ...newWords]);
+            }
+        });
+    };
+
+    let pool = StorageService.getItem<string[]>(key) ?? [];
+
+    if (pool.length === 0) {
+        // First visit or expired — fetch synchronously so the game can start.
+        const fresh = await getWords(
+            level,
+            locale,
+            fetchOptions.count,
+            setError,
+            fetchOptions.maxLength ?? null,
+            fetchOptions.minLength ?? null,
+        );
+        pool = fresh ?? [];
+    }
+
+    const sessionWords = pool.slice(0, sessionSize);
+    const remaining = pool.slice(sessionSize);
+
+    StorageService.setItem(key, remaining);
+
+    if (remaining.length < threshold) {
+        refetchInBackground(remaining);
+    }
+
+    return sessionWords;
+};
+
 const levelWordSetCache = new Map<string, Set<string>>();
 
 const getLevelWordSet = async (
@@ -193,4 +255,4 @@ const getLevelWordSet = async (
     }
 };
 
-export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords, loadDefinition, getLevelWordSet };
+export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords, loadDefinition, getLevelWordSet, getSessionWords };

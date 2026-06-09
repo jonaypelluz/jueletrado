@@ -3,10 +3,10 @@ import Logger from '@services/Logger';
 export type StorageKey =
     | 'SELECTED_DAY_WORD'
     | 'SELECTED_LEVEL'
-    | 'WORDS_GROUP_20'
-    | 'WORDS_GROUP_60'
-    | 'WORDS_GROUP_80'
-    | 'WORDS_GROUP_40_UNDER_9'
+    | 'WORDS_DAILY'
+    | 'WORDS_RAIN'
+    | 'WORDS_FINDER'
+    | 'WORDS_TOWER'
     | 'LOCALE'
     | 'LOADED_CHUNKS';
 
@@ -21,10 +21,14 @@ const isBrowser = (): boolean => typeof window !== 'undefined';
 const StorageService = {
     SELECTED_DAY_WORD: 'SELECTED_DAY_WORD' as const,
     SELECTED_LEVEL: 'SELECTED_LEVEL' as const,
-    WORDS_GROUP_20: 'WORDS_GROUP_20' as const,
-    WORDS_GROUP_60: 'WORDS_GROUP_60' as const,
-    WORDS_GROUP_80: 'WORDS_GROUP_80' as const,
-    WORDS_GROUP_40_UNDER_9: 'WORDS_GROUP_40_UNDER_9' as const,
+    /** Pool of words for word-of-the-day (1 drawn per day, 24h TTL). */
+    WORDS_DAILY: 'WORDS_DAILY' as const,
+    /** Cycling word pool for wordsRain. */
+    WORDS_RAIN: 'WORDS_RAIN' as const,
+    /** Persistent queue for wordFinder (drawn N per session, background-refetched when low). */
+    WORDS_FINDER: 'WORDS_FINDER' as const,
+    /** Persistent queue for spellTower (drawn N per session, background-refetched when low). */
+    WORDS_TOWER: 'WORDS_TOWER' as const,
     LOCALE: 'LOCALE' as const,
     LOADED_CHUNKS: 'LOADED_CHUNKS' as const,
 

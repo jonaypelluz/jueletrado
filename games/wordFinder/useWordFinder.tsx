@@ -172,7 +172,7 @@ const useWordFinder = () => {
     useEffect(() => {
         const fetchWordsFromStorage = async () => {
             const storedWords = StorageService.getItem<string[]>(
-                StorageService.WORDS_GROUP_40_UNDER_9,
+                StorageService.WORDS_FINDER,
             );
             if (storedWords) {
                 storedWords.shift();
