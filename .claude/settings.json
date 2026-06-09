@@ -1,6 +1,7 @@
 {
   "cleanupPeriodDays": 30,
   "includeCoAuthoredBy": false,
+  "disableBundledSkills": true,
   "permissions": {
     "allow": [
       "Edit",

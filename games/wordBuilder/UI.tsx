@@ -40,6 +40,17 @@ const UI: React.FC<WordBuilderUIProps> = ({
     handleDeleteLastLetter,
     handleClearWord,
 }) => {
+    const letterCounts: Record<string, number> = {};
+    for (const l of letters) {
+        letterCounts[l] = (letterCounts[l] || 0) + 1;
+    }
+    const usedCounts: Record<string, number> = {};
+    for (const ch of tempWord) {
+        usedCounts[ch] = (usedCounts[ch] || 0) + 1;
+    }
+    const isLetterExhausted = (l: string): boolean =>
+        (usedCounts[l] || 0) >= (letterCounts[l] || 0);
+
     return (
         <>
             <Hero
@@ -80,7 +91,7 @@ const UI: React.FC<WordBuilderUIProps> = ({
                                 {letters.map((letter: string, index: number) => (
                                     <span
                                         key={index}
-                                        className="letter-tile"
+                                        className={`letter-tile${isLetterExhausted(letter) ? ' letter-tile--disabled' : ''}`}
                                         onClick={() => handleLetterClick(letter)}
                                     >
                                         {letter.toUpperCase()}

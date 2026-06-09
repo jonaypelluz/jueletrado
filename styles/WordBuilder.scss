@@ -133,6 +133,13 @@ $circle-radius: 150px;
             &:focus {
                 background-color: $main-color-dark;
             }
+
+            &.letter-tile--disabled {
+                background-color: #aaa;
+                cursor: not-allowed;
+                pointer-events: none;
+                opacity: 0.4;
+            }
         }
 
         &.total-words {
