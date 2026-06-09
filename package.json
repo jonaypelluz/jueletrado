@@ -12,6 +12,7 @@
         "words:transform": "tsx scripts/words/transformToJSON.ts",
         "words:merge": "tsx scripts/words/mergeWords.ts",
         "words:check": "tsx scripts/words/checkWords.ts",
+        "words:clean": "tsx scripts/words/cleanWords.ts",
         "words:sort-by-frequency": "tsx scripts/words/sortByFrequency.ts",
         "crawl:rae": "tsx scripts/crawlers/crawlRAE.ts",
         "crawl:en": "tsx scripts/crawlers/crawlDictionary.ts",
