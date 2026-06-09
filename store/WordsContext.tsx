@@ -65,6 +65,8 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
 
     const setLocale = (newLocale: string) => {
         if (newLocale !== locale) {
+            // clearStorage wipes everything including LEVELS_POPULATED — correct,
+            // because the new locale has different IndexedDB stores that need population.
             StorageService.clearStorage();
             StorageService.setItem(StorageService.LOCALE, newLocale);
             setLocaleState(newLocale);

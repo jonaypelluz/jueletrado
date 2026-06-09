@@ -8,7 +8,7 @@ import LevelList from '@components/LevelList';
 import LoadingScreen from '@components/LoadingScreen';
 import MainLayout from '@layouts/MainLayout';
 import Logger from '@services/Logger';
-import { getWords, populateWordsDB } from '@services/WordsService';
+import { clearWordGroupCaches, getWords, isLevelPopulated, populateWordsDB } from '@services/WordsService';
 import StorageService, { StorageKey } from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 import '@styles/HomeContent.scss';
@@ -49,26 +49,34 @@ const HomeContent: React.FC = () => {
     }, []);
 
     const handlePopulateDBClick = (level: string) => {
-        if (!isDBBeingPopulated.current) {
-            setAreWordsLoaded(false);
-            setWordGroupsLoaded(false);
-            setLoading(true);
-            isDBBeingPopulated.current = true;
-            populateWordsDB(level, locale, setError, setLoadingProgress).then((isPopulated) => {
-                if (isPopulated) {
-                    StorageService.setItem(
-                        StorageService.SELECTED_LEVEL,
-                        level,
-                        EXPIRE_TIME_24H,
-                    );
-                    setGameLevel(level);
-                    setAreWordsLoaded(true);
-                    isDBBeingPopulated.current = false;
-                } else {
-                    Logger.warn('Database is not populated yet. Waiting...');
-                }
-            });
+        if (isDBBeingPopulated.current) return;
+
+        setAreWordsLoaded(false);
+        setWordGroupsLoaded(false);
+        clearWordGroupCaches();
+
+        // Fast path: level already in IndexedDB — no loading screen needed.
+        if (isLevelPopulated(level, locale)) {
+            StorageService.setItem(StorageService.SELECTED_LEVEL, level, EXPIRE_TIME_24H);
+            setGameLevel(level);
+            setAreWordsLoaded(true);
+            return;
         }
+
+        // Slow path: first time loading this level — show loading screen.
+        setLoading(true);
+        isDBBeingPopulated.current = true;
+        populateWordsDB(level, locale, setError, setLoadingProgress).then((isPopulated) => {
+            if (isPopulated) {
+                StorageService.setItem(StorageService.SELECTED_LEVEL, level, EXPIRE_TIME_24H);
+                setGameLevel(level);
+                setAreWordsLoaded(true);
+                isDBBeingPopulated.current = false;
+            } else {
+                Logger.warn('Database is not populated yet. Waiting...');
+                isDBBeingPopulated.current = false;
+            }
+        });
     };
 
     // After hydration, if the user has a stored level but word groups have expired, re-fetch them.

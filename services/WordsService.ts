@@ -6,6 +6,34 @@ import StorageService from '@store/StorageService';
 type SetErrorFunction = (error: Error | null) => void;
 type SetLoadingProgressFunction = (progress: number) => void;
 
+type LevelsPopulatedMap = Record<string, Record<string, boolean>>;
+
+const WORD_GROUP_KEYS = [
+    StorageService.WORDS_DAILY,
+    StorageService.WORDS_FINDER,
+    StorageService.WORDS_TOWER,
+    StorageService.WORDS_RAIN,
+] as const;
+
+/** Clears only the per-game word caches, leaving level/locale settings intact. */
+const clearWordGroupCaches = (): void => {
+    for (const key of WORD_GROUP_KEYS) {
+        StorageService.removeItem(key);
+    }
+};
+
+const markLevelPopulated = (level: string, locale: string): void => {
+    const map = StorageService.getItem<LevelsPopulatedMap>(StorageService.LEVELS_POPULATED) ?? {};
+    if (!map[locale]) map[locale] = {};
+    map[locale][level] = true;
+    StorageService.setItem(StorageService.LEVELS_POPULATED, map);
+};
+
+const isLevelPopulated = (level: string, locale: string): boolean => {
+    const map = StorageService.getItem<LevelsPopulatedMap>(StorageService.LEVELS_POPULATED) ?? {};
+    return map[locale]?.[level] === true;
+};
+
 const loadWords = async (level: string, start: number, end: number, locale: string) => {
     try {
         const response = await fetch(
@@ -50,22 +78,28 @@ const populateWordsDB = async (
         dbService.setStoreName(levelConfig.level, locale);
         await dbService.initDB();
 
+        const minimumPopulatedCount = levelConfig.minimumPopulatedCount[locale];
+
+        // Fast path: DB already has words for this level+locale.
+        const alreadyPopulated = await dbService.checkIfPopulated(
+            levelConfig.level,
+            locale,
+            minimumPopulatedCount,
+        );
+        if (alreadyPopulated) {
+            markLevelPopulated(levelConfig.level, locale);
+            Logger.log(`Level ${level} already populated — skipping chunk load.`);
+            return true;
+        }
+
         setLoadingProgress(0);
-        StorageService.clearStorage();
+        // Clear only word group caches, not locale/level settings.
+        clearWordGroupCaches();
         StorageService.setItem(StorageService.LOCALE, locale);
 
         const totalChunks = levelConfig.totalChunks[locale];
         const chunkSize = 100000;
         for (let i = 0; i < totalChunks; i++) {
-            const loadedChunks =
-                StorageService.getItem<number[]>(StorageService.LOADED_CHUNKS) || [];
-
-            if (loadedChunks.includes(i)) {
-                const errorMessage = `Error: Chunk ${i} is already loaded.`;
-                Logger.error(errorMessage);
-                throw new Error(errorMessage);
-            }
-
             const start = i * chunkSize + 1;
             const end = (i + 1) * chunkSize;
             const words = await loadWords(levelConfig.level, start, end, locale);
@@ -76,15 +110,17 @@ const populateWordsDB = async (
                 words,
                 levelConfig.minimumPopulatedCount,
             );
-            loadedChunks.push(i);
-            StorageService.setItem(StorageService.LOADED_CHUNKS, loadedChunks);
 
             setLoadingProgress(((i + 1) / totalChunks) * 100);
         }
 
-        const minimumPopulatedCount = levelConfig.minimumPopulatedCount[locale];
-
-        return await dbService.checkIfPopulated(levelConfig.level, locale, minimumPopulatedCount);
+        const populated = await dbService.checkIfPopulated(
+            levelConfig.level,
+            locale,
+            minimumPopulatedCount,
+        );
+        if (populated) markLevelPopulated(levelConfig.level, locale);
+        return populated;
     } catch (error) {
         Logger.error('Error loading words:', error);
         setError(error as Error);
@@ -255,4 +291,15 @@ const getLevelWordSet = async (
     }
 };
 
-export { populateWordsDB, getWords, getAllWords, deleteWordsDB, loadWords, loadDefinition, getLevelWordSet, getSessionWords };
+export {
+    populateWordsDB,
+    getWords,
+    getAllWords,
+    deleteWordsDB,
+    loadWords,
+    loadDefinition,
+    getLevelWordSet,
+    getSessionWords,
+    clearWordGroupCaches,
+    isLevelPopulated,
+};

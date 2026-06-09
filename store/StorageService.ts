@@ -8,7 +8,7 @@ export type StorageKey =
     | 'WORDS_FINDER'
     | 'WORDS_TOWER'
     | 'LOCALE'
-    | 'LOADED_CHUNKS';
+    | 'LEVELS_POPULATED';
 
 type StoredItem<T> = {
     value: T;
@@ -30,7 +30,8 @@ const StorageService = {
     /** Persistent queue for spellTower (drawn N per session, background-refetched when low). */
     WORDS_TOWER: 'WORDS_TOWER' as const,
     LOCALE: 'LOCALE' as const,
-    LOADED_CHUNKS: 'LOADED_CHUNKS' as const,
+    /** Tracks which level+locale combinations are already populated in IndexedDB. */
+    LEVELS_POPULATED: 'LEVELS_POPULATED' as const,
 
     setItem<T>(key: StorageKey, value: T, expireIn?: number): void {
         if (!isBrowser()) return;
