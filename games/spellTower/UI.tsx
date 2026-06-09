@@ -16,26 +16,28 @@ type SpellTowerUIProps = {
     gameStarted: boolean;
     hasBeenPlayed: boolean;
     correctAnswers: number;
+    incorrectAnswers: [string, string][];
+    currentWordIndex: number;
+    randomizedVariations: string[];
     isLoading: boolean;
     handleGameStartClick: () => void;
-    renderTowerBlocks: () => JSX.Element[];
-    displayWordVariations: () => JSX.Element[];
-    renderGameResult: () => JSX.Element;
+    handleWordClick: (index: number) => void;
 };
 
 const UI: React.FC<SpellTowerUIProps> = ({
     gameConfig,
+    error,
     countdown,
     gameLevel,
     showButton,
     gameStarted,
     hasBeenPlayed,
     correctAnswers,
+    incorrectAnswers,
+    randomizedVariations,
     isLoading,
     handleGameStartClick,
-    renderTowerBlocks,
-    displayWordVariations,
-    renderGameResult,
+    handleWordClick,
 }) => {
     return (
         <>
@@ -74,7 +76,40 @@ const UI: React.FC<SpellTowerUIProps> = ({
                         <div className="spell-tower-game">
                             <div className="spell-tower-game-inner">
                                 <div className="spell-tower-variations">
-                                    {gameStarted ? displayWordVariations() : renderGameResult()}
+                                    {gameStarted ? (
+                                        randomizedVariations.map((variation, index) => (
+                                            <button
+                                                key={index}
+                                                className="variation-btn"
+                                                onClick={() => handleWordClick(index)}
+                                            >
+                                                {variation}
+                                            </button>
+                                        ))
+                                    ) : (
+                                        <div className="results-wrapper">
+                                            {error && (
+                                                <p className="load-error">{error.message}</p>
+                                            )}
+                                            {incorrectAnswers.length > 0 && (
+                                                <div>
+                                                    <em className="results-title">
+                                                        <FormattedMessage id="incorrectWords" />
+                                                    </em>
+                                                    <strong className="results-title text-danger">
+                                                        {incorrectAnswers.length}
+                                                    </strong>
+                                                </div>
+                                            )}
+                                            {incorrectAnswers.map(([wrong, correct]: [string, string], index: number) => (
+                                                <div key={index}>
+                                                    <span className="results-ko text-danger">{wrong}</span>
+                                                    {' → '}
+                                                    <strong className="results-ok text-success">{correct}</strong>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         </div>
@@ -83,7 +118,11 @@ const UI: React.FC<SpellTowerUIProps> = ({
                         <div className="spell-tower-wrapper">
                             <div className="spell-tower-top">{correctAnswers}</div>
                             <div className="spell-tower-wrapper-inner">
-                                <div className="spell-tower">{renderTowerBlocks()}</div>
+                                <div className="spell-tower">
+                                    {Array.from({ length: correctAnswers }, (_, index) => (
+                                        <div key={index} className="tower-block" />
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>

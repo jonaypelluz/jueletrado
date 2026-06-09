@@ -1,8 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import { useEffect, useRef, useState } from 'react';
 import { useWordProcessor } from '@hooks/useWordProcessor';
 import Logger from '@services/Logger';
 import { getLevelWordSet, getSessionWords } from '@services/WordsService';
@@ -26,29 +24,44 @@ const useSpellTower = () => {
     const [correctAnswers, setCorrectAnswers] = useState<number>(0);
     const [incorrectAnswers, setIncorrectAnswers] = useState<[string, string][]>([]);
 
+    // Ref lets handleWordClick read current gameStarted without stale closure
+    const gameStartedRef = useRef(gameStarted);
+    useEffect(() => { gameStartedRef.current = gameStarted; }, [gameStarted]);
+
     const { processWords, processLastWords } = useWordProcessor(locale, wordSet);
 
+    const endGame = () => {
+        setGameStarted(false);
+        setShowButton(true);
+        setCountdown(0);
+    };
+
     const handleWordClick = (clickedIndex: number) => {
-        if (words && currentWordIndex < words.length) {
-            const correctWord = words[currentWordIndex][0];
-            const clickedWord = randomizedVariations[clickedIndex];
+        if (!gameStartedRef.current) return;
+
+        setRandomizedVariations(current => {
+            const correctWord = words?.[currentWordIndex]?.[0];
+            const clickedWord = current[clickedIndex];
+
+            if (!correctWord || !clickedWord) return current;
 
             if (clickedWord === correctWord) {
-                setCorrectAnswers(correctAnswers + 1);
+                setCorrectAnswers(prev => prev + 1);
             } else {
-                setIncorrectAnswers([...incorrectAnswers, [clickedWord, correctWord]]);
-                setCorrectAnswers((prevCorrectAnswers: number) =>
-                    Math.max(0, prevCorrectAnswers - 1),
-                );
+                setIncorrectAnswers(prev => [...prev, [clickedWord, correctWord]]);
+                setCorrectAnswers(prev => Math.max(0, prev - 1));
             }
 
-            if (currentWordIndex < words.length - 1) {
-                setCurrentWordIndex(currentWordIndex + 1);
-            } else {
-                setGameStarted(false);
-                setShowButton(true);
-            }
-        }
+            setCurrentWordIndex(prev => {
+                const nextIndex = prev + 1;
+                if (!words || nextIndex >= words.length) {
+                    endGame();
+                }
+                return nextIndex;
+            });
+
+            return current;
+        });
     };
 
     useEffect(() => {
@@ -85,8 +98,7 @@ const useSpellTower = () => {
                 setWords(finalGameWords);
                 setShowButton(true);
             } else {
-                const errorMsg = 'No words found for spell tower';
-                Logger.error(errorMsg);
+                Logger.error('No words found for spell tower');
             }
         };
 
@@ -97,19 +109,13 @@ const useSpellTower = () => {
     }, [gameLevel]);
 
     useEffect(() => {
-        let timer: NodeJS.Timeout | null = null;
-
-        if (countdown > 0) {
-            timer = setTimeout(() => setCountdown(countdown - 1), 1000);
-        } else {
-            setGameStarted(false);
-            setShowButton(true);
+        if (countdown <= 0) {
+            if (gameStarted) endGame();
+            return;
         }
-
-        return () => {
-            if (timer) clearTimeout(timer);
-        };
-    }, [countdown]);
+        const timer = setTimeout(() => setCountdown(prev => prev - 1), 1000);
+        return () => clearTimeout(timer);
+    }, [countdown, gameStarted]);
 
     const handleGameStartClick = () => {
         setHasBeenPlayed(true);
@@ -121,44 +127,6 @@ const useSpellTower = () => {
         setGameStarted(true);
     };
 
-    const renderGameResult = (): JSX.Element => {
-        return (
-            <div className="results-wrapper">
-                {incorrectAnswers.length > 0 && (
-                    <div>
-                        <em className="results-title">
-                            <FormattedMessage id="incorrectWords" />
-                        </em>
-                        <strong className="results-title text-danger">
-                            {incorrectAnswers.length}
-                        </strong>
-                    </div>
-                )}
-                {incorrectAnswers.map(([wrong, correct]: [string, string], index: number) => (
-                    <div key={index}>
-                        <span className="results-ko text-danger">{wrong}</span>
-                        {' → '}
-                        <strong className="results-ok text-success">{correct}</strong>
-                    </div>
-                ))}
-            </div>
-        );
-    };
-
-    const renderTowerBlocks = (): JSX.Element[] => {
-        return Array.from({ length: correctAnswers }, (_, index) => (
-            <div key={index} className="tower-block"></div>
-        ));
-    };
-
-    const displayWordVariations = (): JSX.Element[] => {
-        return randomizedVariations.map((variation, index) => (
-            <button key={index} className="variation-btn" onClick={() => handleWordClick(index)}>
-                {variation}
-            </button>
-        ));
-    };
-
     return {
         error,
         countdown,
@@ -168,11 +136,12 @@ const useSpellTower = () => {
         gameStarted,
         hasBeenPlayed,
         correctAnswers,
+        incorrectAnswers,
+        currentWordIndex,
+        randomizedVariations,
         isLoading: isLoadingWords,
         handleGameStartClick,
-        renderTowerBlocks,
-        displayWordVariations,
-        renderGameResult,
+        handleWordClick,
     };
 };
 
