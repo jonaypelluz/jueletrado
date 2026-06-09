@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { ChangeEvent, FC } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { ICell } from '@models/interfaces';
 import { GameConfig, SelectedWord } from '@models/types';
@@ -18,7 +18,7 @@ type CrossWordPuzzleUIProps = {
     selectedWords: SelectedWord;
     isGameStarted: boolean;
     isComplete: boolean;
-    checkCellValue: (i: number, j: number) => (event: React.ChangeEvent<HTMLInputElement>) => void;
+    checkCellValue: (i: number, j: number) => (event: ChangeEvent<HTMLInputElement>) => void;
     handleGameStartClick: () => void;
 };
 
@@ -32,7 +32,7 @@ const hexToRgb = (hex: string): string => {
     return `${r}, ${g}, ${b}`;
 };
 
-const UI: React.FC<CrossWordPuzzleUIProps> = ({
+const UI: FC<CrossWordPuzzleUIProps> = ({
     gameConfig,
     gridSize,
     gridSizePixels,
