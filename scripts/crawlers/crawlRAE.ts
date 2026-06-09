@@ -116,7 +116,6 @@ function formatDefinitions(meanings: RaeApiMeaning[], level?: string): Definitio
                 definition: beautify(sense.description),
             };
 
-            if (level) def.level = level;
             if (sense.usage) def.type_extra = sense.usage;
 
             const extra: DefinitionExtra[] = [];

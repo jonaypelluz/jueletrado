@@ -59,43 +59,31 @@ tsx scripts/crawlers/mergeDefinitions.ts ops/crawl-output/es/*.jsonl --dry-run
 
 ---
 
-## Phase 3 — Data model decision (DISCUSS before implementing)
+## Phase 3 — Data model (DECIDED 2026-06-09)
 
-**Current structure:**
-```json
-{
-  "gato": {
-    "definitions": [
-      { "number": "1", "type": "sustantivo", "definition": "..." }
-    ]
-  }
-}
-```
+**Decision:** `level` lives only on the word entry, NOT on individual definitions.
 
-**Proposed structure:**
+**Final structure:**
 ```json
 {
   "gato": {
     "level": "beginner",
     "definitions": [
-      { "number": "1", "type": "sustantivo", "definition": "...", "level": "beginner" }
+      { "number": "1", "type": "sustantivo", "definition": "..." },
+      { "number": "2", "type": "sustantivo", "definition": "..." }
     ]
   }
 }
 ```
 
-**Open questions before deciding:**
-- Should `level` live on the word entry, each definition, or both?
-  - Word-level is simpler for filtering in the game
-  - Definition-level is more granular (same word could have a simple and a complex definition)
-  - Both is redundant but practical: word-level for loading, definition-level for display filtering
-- Should definitions be loaded into IndexedDB like word lists?
-  - Pro: offline support, faster queries, level-based filtering without fetching full letter files
-  - Con: increases DB size, definitions are only used in 2 games (definitionMaster, crossWordPuzzle)
-  - Current fetch-per-letter is fine for definitionMaster (loads on letter click)
-  - crossWordPuzzle fetches 6 letters at game start → already acceptable
+**Game-level → eligible definitions:**
+- beginner    → def number 1 only
+- intermediate → defs 1-3
+- advanced    → all defs (except cross-references)
 
-**Decision deferred to:** after Phase 1 + 2 are working.
+**Rationale:** Pool is large enough (8k+ ES words) that using only def 1 per beginner word avoids repetition without complex per-definition tagging. RAE orders by frequency — def 1 is always the most common meaning.
+
+**IndexedDB:** definitions stay as fetch-per-letter (no change). Only used in definitionMaster + crossWordPuzzle, current approach is fine.
 
 ---
 

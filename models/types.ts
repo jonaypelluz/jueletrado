@@ -23,9 +23,13 @@ export type Definition = {
     definition: string;
     number: number;
     type: string;
-    level?: string;
     typeExtra?: string;
     definitionExtra?: string;
+};
+
+export type WordEntry = {
+    level?: string;
+    definitions: Definition[];
 };
 
 export type DefinitionWords = { [key: string]: Definition[] };

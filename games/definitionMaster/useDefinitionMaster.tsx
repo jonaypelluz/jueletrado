@@ -1,8 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import React from 'react';
-import { FormattedMessage } from 'react-intl';
 import { Definition, DefinitionWords, QuizDefinition } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
@@ -10,7 +8,7 @@ import { useWordsContext } from '@store/WordsContext';
 const TOTAL_QUIZ_DEFINITIONS = 5;
 
 const LETTERS_WITHOUT_DEFINITIONS: Record<string, Set<string>> = {
-    es: new Set(['j', 'k', 'l', 'x']),
+    es: new Set(['x']),
     en: new Set(['j', 'k', 'l', 'x', 'z']),
 };
 
@@ -26,8 +24,10 @@ const useDefinitionMaster = () => {
     const [isQuizFinished, setIsQuizFinished] = useState<boolean>(false);
     const [isNextButtonActive, setIsNextButtonActive] = useState<boolean>(false);
     const [isLoadingLetter, setIsLoadingLetter] = useState<boolean>(false);
+    const [loadError, setLoadError] = useState<boolean>(false);
     const [quizWords, setQuizWords] = useState<QuizDefinition[][]>([]);
     const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswersType>({});
+
     const letters: string[] = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
         'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
@@ -37,15 +37,23 @@ const useDefinitionMaster = () => {
         return LETTERS_WITHOUT_DEFINITIONS[locale]?.has(letter) ?? false;
     };
 
-    const getRandomDefinition = (definitions: Definition[]): Definition => {
-        const randomKey = Math.floor(Math.random() * definitions.length);
-        return definitions[randomKey];
+    const getDefinitionForLevel = (definitions: Definition[]): Definition => {
+        let eligible: Definition[];
+        if (gameLevel === 'beginner') {
+            eligible = definitions.filter(d => Number(d.number) === 1);
+        } else if (gameLevel === 'intermediate') {
+            eligible = definitions.filter(d => Number(d.number) <= 3);
+        } else {
+            eligible = definitions;
+        }
+        if (eligible.length === 0) eligible = definitions;
+        return eligible[Math.floor(Math.random() * eligible.length)];
     };
 
     const getQuizWords = (arr: DefinitionWords, selectedWord: string): QuizDefinition[] => {
         const definitions: QuizDefinition[] = [];
 
-        const chosenDefinition = getRandomDefinition(arr[selectedWord]);
+        const chosenDefinition = getDefinitionForLevel(arr[selectedWord]);
         definitions.push({
             isCorrect: true,
             definition: chosenDefinition.definition,
@@ -56,7 +64,7 @@ const useDefinitionMaster = () => {
 
         shuffledKeys.forEach((key) => {
             if (key !== selectedWord && definitions.length < TOTAL_QUIZ_DEFINITIONS) {
-                const randomDefinition = getRandomDefinition(arr[key]);
+                const randomDefinition = getDefinitionForLevel(arr[key]);
                 definitions.push({
                     isCorrect: false,
                     definition: randomDefinition.definition,
@@ -72,26 +80,34 @@ const useDefinitionMaster = () => {
 
     const handleLetterClick = async (letter: string) => {
         setIsLoadingLetter(true);
+        setLoadError(false);
         const words = await loadDefinition(letter, locale);
         setIsLoadingLetter(false);
-        if (words) {
-            const preChosenWords: DefinitionWords = {};
-            for (const key in words as DefinitionWords) {
-                if (words[key].definitions.length > 2) {
-                    preChosenWords[key] = words[key].definitions;
-                }
-            }
-            const theChosenWords: DefinitionWords = {};
-            const availableKeys = Object.keys(preChosenWords);
-            for (let i = availableKeys.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [availableKeys[i], availableKeys[j]] = [availableKeys[j], availableKeys[i]];
-            }
-            availableKeys.slice(0, 10).forEach((key) => {
-                theChosenWords[key] = preChosenWords[key];
-            });
-            setChosenWords(theChosenWords);
+
+        if (!words) {
+            setLoadError(true);
+            return;
         }
+
+        const minDefs = gameLevel === 'beginner' ? 1 : gameLevel === 'intermediate' ? 2 : 3;
+        const preChosenWords: DefinitionWords = {};
+
+        for (const key in words) {
+            if (words[key].definitions.length >= minDefs) {
+                preChosenWords[key] = words[key].definitions;
+            }
+        }
+
+        const theChosenWords: DefinitionWords = {};
+        const availableKeys = Object.keys(preChosenWords);
+        for (let i = availableKeys.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [availableKeys[i], availableKeys[j]] = [availableKeys[j], availableKeys[i]];
+        }
+        availableKeys.slice(0, 10).forEach((key) => {
+            theChosenWords[key] = preChosenWords[key];
+        });
+        setChosenWords(theChosenWords);
     };
 
     const handleResetLetterClick = () => {
@@ -102,6 +118,7 @@ const useDefinitionMaster = () => {
         setIsNextButtonActive(false);
         setQuizWords([]);
         setSelectedAnswers({});
+        setLoadError(false);
     };
 
     const handleGameStartClick = () => {
@@ -147,57 +164,6 @@ const useDefinitionMaster = () => {
         });
     };
 
-    const beautifyDefinition = (definition: string): string => {
-        const capitalizedFirstLetter = definition.charAt(0).toUpperCase();
-        const withoutFirstLetter = definition.slice(1);
-        const withoutPeriodAndRest = withoutFirstLetter.split('.')[0];
-        return capitalizedFirstLetter + withoutPeriodAndRest;
-    };
-
-    const renderQuiz = (): JSX.Element | null => {
-        if (
-            !isQuizFinished &&
-            Object.keys(quizWords).length !== 0 &&
-            Object.prototype.hasOwnProperty.call(quizWords, currentQuizIndex)
-        ) {
-            return (
-                <div className="definition-master-quiz">
-                    <h2>
-                        <FormattedMessage id="gameQuizWord" values={{ quizWord: quizWord }} />
-                    </h2>
-                    {quizWords[currentQuizIndex].map((word: QuizDefinition, index: number) => {
-                        const isCorrect = selectedAnswers[word.word];
-                        let buttonClass = 'definition-btn';
-                        if (isCorrect !== undefined) {
-                            buttonClass += isCorrect ? ' correct-answer' : ' incorrect-answer';
-                        }
-                        return (
-                            <button
-                                className={buttonClass}
-                                key={index}
-                                onClick={() => handleQuizWordClick(word.word, word.isCorrect)}
-                            >
-                                {isCorrect !== undefined && !isCorrect && (
-                                    <strong>{word.word}: </strong>
-                                )}
-                                {beautifyDefinition(word.definition)}.
-                            </button>
-                        );
-                    })}
-                    {isNextButtonActive && (
-                        <button
-                            className="btn-primary next-btn"
-                            onClick={() => handleNextQuizWord()}
-                        >
-                            <FormattedMessage id="gameQuizWordNextWord" />
-                        </button>
-                    )}
-                </div>
-            );
-        }
-        return null;
-    };
-
     useEffect(() => {
         if (quizWords.length > 0) {
             setTheQuizWord();
@@ -228,12 +194,19 @@ const useDefinitionMaster = () => {
         isGameStarted,
         isLoadingLetter,
         isLetterDisabled,
+        isNextButtonActive,
+        isQuizFinished,
+        loadError,
         letters,
+        quizWord,
         quizWords,
-        renderQuiz,
+        currentQuizIndex,
+        selectedAnswers,
         handleLetterClick,
         handleGameStartClick,
         handleResetLetterClick,
+        handleQuizWordClick,
+        handleNextQuizWord,
     };
 };
 

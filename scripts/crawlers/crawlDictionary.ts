@@ -89,8 +89,6 @@ function formatDefinitions(meanings: ApiMeaning[], level?: string): Definition[]
                 definition: beautify(d.definition),
             };
 
-            if (level) def.level = level;
-
             const extra: DefinitionExtra[] = [];
             if (d.synonyms?.length) extra.push({ type: 'Synonyms', content: d.synonyms.join(', ') + '.' });
             if (d.antonyms?.length) extra.push({ type: 'Antonyms', content: d.antonyms.join(', ') + '.' });

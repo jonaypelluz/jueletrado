@@ -48,7 +48,7 @@ const loadWords = async (level: string, start: number, end: number, locale: stri
     }
 };
 
-const loadDefinition = async (letter: string, locale: string) => {
+const loadDefinition = async (letter: string, locale: string): Promise<Record<string, { level?: string; definitions: { number: number; type: string; definition: string }[] }> | undefined> => {
     try {
         const response = await fetch(`/definitions/${locale}/${letter}_definitions.json`);
         if (!response.ok) {

@@ -89,14 +89,14 @@ describe('useDefinitionMaster', () => {
     });
 
     test('handleLetterClick with rich definitions builds chosenWords', async () => {
+        // gameLevel=null falls through to advanced (minDefs=3); provide 3 defs to satisfy threshold
         mockUseWordsContext.mockReturnValue(makeContext());
-        // loadDefinition returns a word with >2 definitions (required by the hook)
         mockLoadDefinition.mockResolvedValue({
             gato: {
                 definitions: [
-                    { definition: 'Animal felino doméstico' },
-                    { definition: 'Dispositivo para levantar vehículos' },
-                    { definition: 'Moneda antigua' },
+                    { number: 1, definition: 'Animal felino doméstico' },
+                    { number: 2, definition: 'Dispositivo para levantar vehículos' },
+                    { number: 3, definition: 'Moneda antigua' },
                 ],
             },
         });
@@ -118,9 +118,9 @@ describe('useDefinitionMaster', () => {
         mockLoadDefinition.mockResolvedValue({
             gato: {
                 definitions: [
-                    { definition: 'Def 1' },
-                    { definition: 'Def 2' },
-                    { definition: 'Def 3' },
+                    { number: 1, definition: 'Def 1' },
+                    { number: 2, definition: 'Def 2' },
+                    { number: 3, definition: 'Def 3' },
                 ],
             },
         });
@@ -157,11 +157,11 @@ describe('useDefinitionMaster', () => {
 
         const { result } = renderHook(() => useDefinitionMaster());
 
-        expect(result.current.isLetterDisabled('j')).toBe(true);
-        expect(result.current.isLetterDisabled('k')).toBe(true);
-        expect(result.current.isLetterDisabled('l')).toBe(true);
         expect(result.current.isLetterDisabled('x')).toBe(true);
         expect(result.current.isLetterDisabled('a')).toBe(false);
+        expect(result.current.isLetterDisabled('j')).toBe(false);
+        expect(result.current.isLetterDisabled('k')).toBe(false);
+        expect(result.current.isLetterDisabled('l')).toBe(false);
         expect(result.current.isLetterDisabled('z')).toBe(false);
     });
 
@@ -177,6 +177,52 @@ describe('useDefinitionMaster', () => {
         expect(result.current.isLetterDisabled('z')).toBe(true);
         expect(result.current.isLetterDisabled('a')).toBe(false);
         expect(result.current.isLetterDisabled('w')).toBe(false);
+    });
+
+    test('loadError is false initially', () => {
+        mockUseWordsContext.mockReturnValue(makeContext());
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        expect(result.current.loadError).toBe(false);
+    });
+
+    test('loadError is true when loadDefinition returns undefined', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext());
+        mockLoadDefinition.mockResolvedValue(undefined);
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        await act(async () => {
+            await result.current.handleLetterClick('a');
+        });
+
+        expect(result.current.loadError).toBe(true);
+    });
+
+    test('beginner gameLevel uses only def number 1', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner' }));
+        mockLoadDefinition.mockResolvedValue({
+            gato: {
+                definitions: [
+                    { number: 1, definition: 'Animal felino doméstico' },
+                    { number: 2, definition: 'Dispositivo para levantar vehículos' },
+                ],
+            },
+        });
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        await act(async () => {
+            await result.current.handleLetterClick('g');
+        });
+
+        await waitFor(() => {
+            expect(result.current.quizWords.length).toBeGreaterThan(0);
+        });
+
+        const correctEntry = result.current.quizWords[0].find(q => q.isCorrect);
+        expect(correctEntry?.definition).toBe('Animal felino doméstico');
     });
 
     test('isLoadingLetter is false initially', () => {
