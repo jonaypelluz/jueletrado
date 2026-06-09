@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { ChangeEvent } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { GameConfig } from '@models/types';
 import GameRules from '@components/GameRules';
@@ -14,12 +14,14 @@ type WordFinderUIProps = {
     isLoading: boolean;
     showButton: boolean;
     word: string | undefined;
+    letters: string[];
+    inputRefs: React.MutableRefObject<(HTMLInputElement | null)[]>;
     isWordComplete: boolean;
     foundWords: { word: string; found: boolean }[];
     attempts: string[][];
     countdown: number;
-    renderInputs: () => JSX.Element[];
     getClassForLetter: (letter: string, index: number) => string;
+    handleInputChange: (event: ChangeEvent<HTMLInputElement>, index: number) => void;
     handleCheckClick: () => void;
     handleGameStartClick: () => void;
 };
@@ -30,12 +32,14 @@ const UI: React.FC<WordFinderUIProps> = ({
     isLoading,
     showButton,
     word,
+    letters,
+    inputRefs,
     isWordComplete,
     foundWords,
     attempts,
     countdown,
-    renderInputs,
     getClassForLetter,
+    handleInputChange,
     handleCheckClick,
     handleGameStartClick,
 }) => {
@@ -87,7 +91,18 @@ const UI: React.FC<WordFinderUIProps> = ({
                                         ))}
                                     </div>
                                 ))}
-                            <div className="word-finder-word-wrapper">{renderInputs()}</div>
+                            <div className="word-finder-word-wrapper">
+                                {letters.map((_, index: number) => (
+                                    <input
+                                        key={`input-${index}`}
+                                        ref={(el) => { inputRefs.current[index] = el; }}
+                                        type="text"
+                                        maxLength={1}
+                                        onChange={(event) => handleInputChange(event, index)}
+                                        aria-label={`Letra ${index + 1}`}
+                                    />
+                                ))}
+                            </div>
                             {isWordComplete && (
                                 <p style={{ textAlign: 'center' }}>
                                     <button

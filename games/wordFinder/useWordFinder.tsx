@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useRef, useState } from 'react';
+import { ChangeEvent, useEffect, useRef, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
 import Logger from '@services/Logger';
 import { getSessionWords } from '@services/WordsService';
@@ -35,7 +35,7 @@ const useWordFinder = () => {
         }
     };
 
-    const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>, index: number): void => {
+    const handleInputChange = (event: ChangeEvent<HTMLInputElement>, index: number): void => {
         const newEnteredLetters = enteredLetters.slice();
         const value = event.target.value.toUpperCase();
 
@@ -93,9 +93,20 @@ const useWordFinder = () => {
             nextWord(word, isMatch);
         } else {
             setAttempts([...attempts, enteredLetters]);
-            inputRefs.current.forEach((input: HTMLInputElement | null) => {
-                if (input) input.value = '';
+
+            const prefilledLetters = enteredLetters.map((letter, index) =>
+                getClassForLetter(letter, index) === 'ok' ? letter : ''
+            );
+            setEnteredLetters(prefilledLetters);
+
+            inputRefs.current.forEach((input, index) => {
+                if (input) input.value = prefilledLetters[index] ?? '';
             });
+
+            const firstEmptyIndex = prefilledLetters.findIndex((l) => l === '');
+            if (firstEmptyIndex >= 0) {
+                inputRefs.current[firstEmptyIndex]?.focus();
+            }
         }
     };
 
@@ -106,22 +117,6 @@ const useWordFinder = () => {
             return 'not-ok';
         }
         return 'ko';
-    };
-
-    const renderInputs = (): JSX.Element[] => {
-        return (
-            letters &&
-            letters.map((_, index: number) => (
-                <input
-                    key={`input-${index}`}
-                    ref={(el) => (inputRefs.current[index] = el)}
-                    type="text"
-                    maxLength={1}
-                    onChange={(event) => handleInputChange(event, index)}
-                    aria-label={`Letra ${index + 1}`}
-                />
-            ))
-        );
     };
 
     const resetGame = (): void => {
@@ -205,12 +200,14 @@ const useWordFinder = () => {
         isLoading: isLoadingWords,
         showButton,
         word,
+        letters,
+        inputRefs,
         isWordComplete,
         foundWords,
         attempts,
         countdown,
-        renderInputs,
         getClassForLetter,
+        handleInputChange,
         handleCheckClick,
         handleGameStartClick,
     };
