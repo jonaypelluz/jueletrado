@@ -68,6 +68,8 @@ const useWordFinder = () => {
         ]);
 
         setAttempts([]);
+        setEnteredLetters([]);
+        setIsWordComplete(false);
         setWord(undefined);
         inputRefs.current.forEach((input: HTMLInputElement | null) => {
             if (input) input.value = '';
@@ -143,6 +145,12 @@ const useWordFinder = () => {
             setIsWordComplete(enteredLetters.join('').length === letters.length);
         }
     }, [enteredLetters]);
+
+    useEffect(() => {
+        if (isWordComplete) {
+            handleCheckClick();
+        }
+    }, [isWordComplete]);
 
     useEffect(() => {
         if (letters.length > 0) {
