@@ -26,6 +26,7 @@
 !.claude/hooks/**
 !.claude/memory/
 !.claude/memory/**
+.claude/memory/plan_security_dependency_updates.md
 
 # debug
 npm-debug.log*
