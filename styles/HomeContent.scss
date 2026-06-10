@@ -1,4 +1,4 @@
-@import '@styles/variables.scss';
+@use '@styles/variables.scss' as vars;
 
 .home-hero {
     img {
@@ -67,7 +67,7 @@
 
         &.selected {
             box-shadow: 0 0 5px #000;
-            background-color: $secondary-color;
+            background-color: vars.$secondary-color;
 
             img {
                 box-shadow: 0 0 5px #000;
@@ -78,7 +78,7 @@
         &:active,
         &:focus {
             box-shadow: 0 0 5px #000;
-            background-color: $main-color;
+            background-color: vars.$main-color;
 
             img {
                 box-shadow: 0 0 5px #000;

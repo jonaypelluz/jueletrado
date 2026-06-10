@@ -1,9 +1,9 @@
-@import '@styles/variables.scss';
+@use '@styles/variables.scss' as vars;
 
 .btn-primary {
-    background-color: $main-color;
+    background-color: vars.$main-color;
     color: #fff;
-    border: 1px solid $main-color;
+    border: 1px solid vars.$main-color;
     border-radius: 6px;
     cursor: pointer;
     font-size: 14px;
@@ -14,8 +14,8 @@
 
     &:hover,
     &:focus {
-        background-color: $main-color-dark;
-        border-color: $main-color-dark;
+        background-color: vars.$main-color-dark;
+        border-color: vars.$main-color-dark;
         color: #fff;
     }
 
@@ -39,8 +39,8 @@
 
     &:hover,
     &:focus {
-        border-color: $main-color;
-        color: $main-color;
+        border-color: vars.$main-color;
+        color: vars.$main-color;
     }
 }
 
@@ -63,8 +63,8 @@
 
     &:hover:not(:disabled),
     &:focus:not(:disabled) {
-        border-color: $main-color;
-        color: $main-color;
+        border-color: vars.$main-color;
+        color: vars.$main-color;
     }
 
     &:disabled {
@@ -72,14 +72,14 @@
     }
 
     &.correct-answer {
-        border-color: $secondary-color-dark;
-        color: $secondary-color-dark;
+        border-color: vars.$secondary-color-dark;
+        color: vars.$secondary-color-dark;
         background-color: rgba(142, 188, 121, 0.15);
     }
 
     &.incorrect-answer {
-        border-color: $danger-color;
-        color: $danger-color;
+        border-color: vars.$danger-color;
+        color: vars.$danger-color;
         background-color: rgba(255, 77, 79, 0.1);
     }
 }
@@ -90,9 +90,9 @@
 }
 
 .text-danger {
-    color: $danger-color;
+    color: vars.$danger-color;
 }
 
 .text-success {
-    color: $secondary-color-dark;
+    color: vars.$secondary-color-dark;
 }

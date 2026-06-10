@@ -1,9 +1,11 @@
-@import '@styles/variables.scss';
-@import '@styles/common.scss';
+@use 'sass:math';
+@use 'sass:list';
+@use '@styles/variables.scss' as vars;
+@use '@styles/common.scss';
 
 $spell-tower-block-count: 40;
-$spell-tower-background-colors: $main-color, $secondary-color;
-$spell-tower-background-borders: $main-color-dark, $secondary-color-dark;
+$spell-tower-background-colors: vars.$main-color, vars.$secondary-color;
+$spell-tower-background-borders: vars.$main-color-dark, vars.$secondary-color-dark;
 
 .spell-tower-layout {
     display: flex;
@@ -59,10 +61,10 @@ $spell-tower-background-borders: $main-color-dark, $secondary-color-dark;
             position: relative;
 
             @for $i from 1 through $spell-tower-block-count {
-                $random-margin: random(20) + 1;
-                $random-direction: random(2);
-                $background-color: nth($spell-tower-background-colors, 1 + ($i % 2));
-                $border-color: nth($spell-tower-background-borders, 1 + ($i % 2));
+                $random-margin: math.random(20) + 1;
+                $random-direction: math.random(2);
+                $background-color: list.nth($spell-tower-background-colors, 1 + ($i % 2));
+                $border-color: list.nth($spell-tower-background-borders, 1 + ($i % 2));
 
                 div:nth-child(#{$i}) {
                     width: 100px;
@@ -94,6 +96,8 @@ $spell-tower-background-borders: $main-color-dark, $secondary-color-dark;
 
     &-inner {
         padding: 24px;
+        position: relative;
+        z-index: 1;
     }
 
     &::before {

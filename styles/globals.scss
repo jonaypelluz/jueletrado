@@ -1,5 +1,4 @@
-@import './variables.scss';
-@import './common.scss';
+@use './common.scss';
 
 body {
     margin: 0;

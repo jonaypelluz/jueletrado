@@ -1,5 +1,5 @@
-@import '@styles/variables.scss';
-@import '@styles/common.scss';
+@use '@styles/variables.scss' as vars;
+@use '@styles/common.scss';
 
 .words-rain-wrapper {
     @extend .game-wrapper;
@@ -30,7 +30,7 @@
 
         &.word-error {
             background-color: #ffe0e0;
-            border-color: $danger-color;
+            border-color: vars.$danger-color;
             animation: wordErrorPulse 0.35s ease-out forwards;
         }
     }
@@ -100,10 +100,10 @@
             margin-bottom: 8px;
             background: rgba(255, 255, 255, 0.85);
             border-radius: 8px;
-            border-left: 4px solid $danger-color;
+            border-left: 4px solid vars.$danger-color;
 
             .results-wrong {
-                color: $danger-color;
+                color: vars.$danger-color;
                 font-weight: bold;
                 font-size: 15px;
                 min-width: 90px;
@@ -115,7 +115,7 @@
             }
 
             .results-correct {
-                color: $secondary-color-dark;
+                color: vars.$secondary-color-dark;
                 font-weight: bold;
                 font-size: 17px;
             }
@@ -139,7 +139,7 @@
 @keyframes wordErrorPulse {
     0% {
         background-color: #ffe0e0;
-        border-color: $danger-color;
+        border-color: vars.$danger-color;
         transform: scale(1);
     }
     40% {
@@ -158,7 +158,7 @@
         color: #f45;
     }
     30% {
-        color: $danger-color;
+        color: vars.$danger-color;
         transform: scale(1.3);
     }
     100% {
@@ -173,7 +173,7 @@
         transform: scale(1);
     }
     40% {
-        color: $main-color;
+        color: vars.$main-color;
         transform: scale(1.3);
     }
     100% {

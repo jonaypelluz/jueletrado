@@ -1,6 +1,5 @@
-@import '@styles/variables.scss';
-@import '@styles/common.scss';
-@import '@styles/LoadingSpinner.scss';
+@use '@styles/common.scss';
+@use '@styles/LoadingSpinner.scss';
 
 .crossword-loading {
     display: flex;

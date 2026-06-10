@@ -1,5 +1,5 @@
-@import '@styles/variables.scss';
-@import '@styles/common.scss';
+@use '@styles/variables.scss' as vars;
+@use '@styles/common.scss';
 
 .word-finder-wrapper {
     @extend .game-wrapper;
@@ -31,11 +31,11 @@
                 font-size: 24px;
 
                 &.found {
-                    color: $main-color;
+                    color: vars.$main-color;
                 }
 
                 &.not-found {
-                    color: $danger-color;
+                    color: vars.$danger-color;
                 }
             }
         }
@@ -67,15 +67,15 @@
                 font-size: 48px;
 
                 &.ok {
-                    background-color: $secondary-color;
+                    background-color: vars.$secondary-color;
                 }
 
                 &.not-ok {
-                    background-color: $warning-color;
+                    background-color: vars.$warning-color;
                 }
 
                 &.ko {
-                    background-color: $danger-color;
+                    background-color: vars.$danger-color;
                 }
             }
 
