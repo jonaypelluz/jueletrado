@@ -3,6 +3,7 @@ import {
     clearWordGroupCaches,
     getSessionWords,
     getLevelWordSet,
+    getFullWordSet,
     isLevelPopulated,
     loadDailyWordForLocale,
 } from '@services/WordsService';
@@ -180,6 +181,27 @@ describe('WordsService session operations tests', () => {
             expect(second).toEqual(new Set(['apple', 'banana', 'cherry']));
             // Cache hit — DB should NOT be queried again
             expect(mockGetAllWords).toHaveBeenCalledTimes(1);
+        });
+    });
+
+    // ─────────────────────────────────────────────────────────
+    // getFullWordSet
+    // ─────────────────────────────────────────────────────────
+    describe('getFullWordSet', () => {
+        test('combines word sets from every level for the locale', async () => {
+            jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
+            jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
+            const mockGetAllWords = jest
+                .spyOn(dbService, 'getAllWords')
+                .mockResolvedValueOnce(['apple', 'banana'])
+                .mockResolvedValueOnce(['banana', 'cherry'])
+                .mockResolvedValueOnce(['date']);
+
+            // Use a locale not touched by other tests to avoid the module-level cache.
+            const result = await getFullWordSet('pt');
+
+            expect(result).toEqual(new Set(['apple', 'banana', 'cherry', 'date']));
+            expect(mockGetAllWords).toHaveBeenCalledTimes(3);
         });
     });
 

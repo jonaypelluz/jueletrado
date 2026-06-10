@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import WordGameProcessor from '@utils/WordGameProcessor';
 import Logger from '@services/Logger';
-import { getLevelWordSet, getSessionWords } from '@services/WordsService';
+import { getFullWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
@@ -40,26 +40,22 @@ const useSpellTower = () => {
     const handleWordClick = (clickedIndex: number) => {
         if (!gameStartedRef.current || pendingRef.current) return;
 
-        setRandomizedVariations(current => {
-            const correctWord = words?.[currentWordIndex]?.[0];
-            const clickedWord = current[clickedIndex];
+        const correctWord = words?.[currentWordIndex]?.[0];
+        const clickedWord = randomizedVariations[clickedIndex];
 
-            if (!correctWord || !clickedWord) return current;
+        if (!correctWord || !clickedWord) return;
 
-            const correctIndex = current.indexOf(correctWord);
+        const correctIndex = randomizedVariations.indexOf(correctWord);
 
-            if (clickedWord === correctWord) {
-                setCorrectAnswers(prev => prev + 1);
-            } else {
-                setIncorrectAnswers(prev => [...prev, [clickedWord, correctWord]]);
-                setCorrectAnswers(prev => Math.max(0, prev - 1));
-            }
+        if (clickedWord === correctWord) {
+            setCorrectAnswers(prev => prev + 1);
+        } else {
+            setIncorrectAnswers(prev => [...prev, [clickedWord, correctWord]]);
+            setCorrectAnswers(prev => Math.max(0, prev - 1));
+        }
 
-            pendingRef.current = true;
-            setPendingResult({ clickedIndex, correctIndex });
-
-            return current;
-        });
+        pendingRef.current = true;
+        setPendingResult({ clickedIndex, correctIndex });
     };
 
     useEffect(() => {
@@ -90,7 +86,7 @@ const useSpellTower = () => {
 
         const fetchWords = async () => {
             setIsLoadingWords(true);
-            const set = await getLevelWordSet(gameLevel, locale);
+            const set = await getFullWordSet(locale);
             const processor = new WordGameProcessor(locale, set);
 
             const sessionWords = await getSessionWords(

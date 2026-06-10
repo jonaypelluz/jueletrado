@@ -7,7 +7,7 @@ import useSpellTower from '@games/spellTower/useSpellTower';
 jest.mock('@store/WordsContext');
 jest.mock('@services/WordsService', () => ({
     getSessionWords: jest.fn(),
-    getLevelWordSet: jest.fn().mockResolvedValue(new Set<string>()),
+    getFullWordSet: jest.fn().mockResolvedValue(new Set<string>()),
 }));
 jest.mock('@utils/WordGameProcessor', () => {
     return jest.fn().mockImplementation(() => ({

@@ -292,6 +292,23 @@ const getLevelWordSet = async (
 };
 
 /**
+ * Combines the word sets of every level for the given locale, so a word
+ * classified at one level (e.g. "maduró" — advanced) isn't mistaken for a
+ * misspelling when validating accent variants of a word from another level
+ * (e.g. "maduro" — beginner). Levels not yet populated locally simply
+ * contribute an empty set — calls are sequential to avoid racing on the
+ * shared dbService store/connection state.
+ */
+const getFullWordSet = async (locale: string): Promise<Set<string>> => {
+    const combined = new Set<string>();
+    for (const config of LevelsConfig) {
+        const levelSet = await getLevelWordSet(config.level, locale);
+        levelSet.forEach((word) => combined.add(word));
+    }
+    return combined;
+};
+
+/**
  * Returns the daily word for the given locale.
  * Reads SELECTED_DAY_WORD from storage first (fast path, 24h TTL).
  * If missing, silently ensures the beginner level is populated in IndexedDB
@@ -341,6 +358,7 @@ export {
     loadWords,
     loadDefinition,
     getLevelWordSet,
+    getFullWordSet,
     getSessionWords,
     clearWordGroupCaches,
     isLevelPopulated,

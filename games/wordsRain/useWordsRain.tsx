@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import WordGameProcessor from '@utils/WordGameProcessor';
 import { FallingWordItem, RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
-import { getLevelWordSet } from '@services/WordsService';
+import { getFullWordSet } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
@@ -238,7 +238,7 @@ const useWordsRain = () => {
 
         const init = async () => {
             setIsLoadingWords(true);
-            const set = await getLevelWordSet(gameLevel, locale);
+            const set = await getFullWordSet(locale);
             const processor = new WordGameProcessor(locale, set);
 
             const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);
