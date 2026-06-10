@@ -185,7 +185,7 @@ class DBService {
                 try {
                     const words = await this.getRandomWords(sampleSize);
                     const filteredWords = words.filter(
-                        (word) => word.length >= minLength && (maxLength === Infinity || word.length < maxLength),
+                        (word) => word.length >= minLength && (maxLength === Infinity || word.length <= maxLength),
                     );
 
                     if (filteredWords.length >= count || attempt >= maxAttempts) {

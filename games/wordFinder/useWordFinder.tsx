@@ -9,6 +9,12 @@ import { useWordsContext } from '@store/WordsContext';
 
 const GAME_TIMER = 180;
 
+const WORD_LENGTH_BY_LEVEL: Record<string, { minLength?: number; maxLength?: number }> = {
+    beginner: { maxLength: 4 },
+    intermediate: { minLength: 4, maxLength: 6 },
+    advanced: { minLength: 6, maxLength: 9 },
+};
+
 const useWordFinder = () => {
     const { locale, gameLevel, error, setError } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState<boolean>(false);
@@ -79,11 +85,6 @@ const useWordFinder = () => {
     };
 
     const handleCheckClick = (): void => {
-        if (word && attempts.length >= letters.length) {
-            nextWord(word, false);
-            return;
-        }
-
         const currentWord = enteredLetters.join('');
         const isMatch =
             word &&
@@ -98,7 +99,14 @@ const useWordFinder = () => {
         if (isMatch) {
             nextWord(word, isMatch);
         } else {
-            setAttempts([...attempts, enteredLetters]);
+            const newAttempts = [...attempts, enteredLetters];
+
+            if (word && newAttempts.length >= letters.length) {
+                nextWord(word, false);
+                return;
+            }
+
+            setAttempts(newAttempts);
 
             const prefilledLetters = enteredLetters.map((letter, index) =>
                 getClassForLetter(letter, index) === 'ok' ? letter : ''
@@ -188,7 +196,7 @@ const useWordFinder = () => {
                 gameLevel,
                 locale,
                 setError,
-                { count: 60, maxLength: 9, minLength: 4 },
+                { count: 60, ...WORD_LENGTH_BY_LEVEL[gameLevel] },
                 20,
             );
             if (sessionWords.length > 0) {

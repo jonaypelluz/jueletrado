@@ -50,7 +50,7 @@ describe('useWordFinder', () => {
                 'beginner',
                 'es',
                 expect.any(Function),
-                { count: 60, maxLength: 9, minLength: 4 },
+                { count: 60, maxLength: 4 },
                 20,
             );
             expect(result.current.showButton).toBe(true);
