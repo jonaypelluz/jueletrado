@@ -21,7 +21,7 @@ const MINIMUM_TIMER_SPEED = 1;
 const GAME_OVER_FREEZE_MS = 600;
 
 const useWordsRain = () => {
-    const { locale, gameLevel, error, setError } = useWordsContext();
+    const { locale, gameLevel, error, setError, setLoadingProgress } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
 
     const [timer, setTimer] = useState(0);
@@ -238,7 +238,7 @@ const useWordsRain = () => {
 
         const init = async () => {
             setIsLoadingWords(true);
-            const set = await getFullWordSet(locale);
+            const set = await getFullWordSet(locale, setError, setLoadingProgress);
             const processor = new WordGameProcessor(locale, set);
 
             const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);

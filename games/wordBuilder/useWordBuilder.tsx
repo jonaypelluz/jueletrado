@@ -11,7 +11,7 @@ const NUMBER_OF_VOWELS = 2;
 const NUMBER_OF_CONSONANTS = 4;
 
 const useWordBuilder = () => {
-    const { locale, error, gameLevel } = useWordsContext();
+    const { locale, error, gameLevel, setError, setLoadingProgress } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
     const wordProcessor = useWordProcessor(locale);
 
@@ -120,7 +120,7 @@ const useWordBuilder = () => {
         if (!gameLevel) return;
 
         const fetchAllWords = async () => {
-            const wordSet = await getFullWordSet(locale);
+            const wordSet = await getFullWordSet(locale, setError, setLoadingProgress);
             if (wordSet.size > 0) {
                 setAllWords([...wordSet]);
             }

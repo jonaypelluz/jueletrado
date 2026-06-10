@@ -23,6 +23,7 @@ const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}
     gameLevel: null as string | null,
     error: null,
     setError: jest.fn(),
+    setLoadingProgress: jest.fn(),
     ...overrides,
 });
 
@@ -50,7 +51,7 @@ describe('useWordBuilder', () => {
         const { result } = renderHook(() => useWordBuilder());
 
         await waitFor(() => {
-            expect(mockGetFullWordSet).toHaveBeenCalledWith('es');
+            expect(mockGetFullWordSet).toHaveBeenCalledWith('es', expect.any(Function), expect.any(Function));
         });
 
         // allWords is internal state; verify no error in result

@@ -191,6 +191,9 @@ describe('WordsService session operations tests', () => {
         test('combines word sets from every level for the locale', async () => {
             jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
             jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
+            // Fast path: every level reports as already populated, so
+            // populateWordsDB skips chunk loading entirely.
+            jest.spyOn(dbService, 'checkIfPopulated').mockResolvedValue(true);
             const mockGetAllWords = jest
                 .spyOn(dbService, 'getAllWords')
                 .mockResolvedValueOnce(['apple', 'banana'])

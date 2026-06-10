@@ -295,13 +295,20 @@ const getLevelWordSet = async (
  * Combines the word sets of every level for the given locale, so a word
  * classified at one level (e.g. "maduró" — advanced) isn't mistaken for a
  * misspelling when validating accent variants of a word from another level
- * (e.g. "maduro" — beginner). Levels not yet populated locally simply
- * contribute an empty set — calls are sequential to avoid racing on the
- * shared dbService store/connection state.
+ * (e.g. "maduro" — beginner), and so words like "zoo" (advanced) are
+ * recognized even while playing a lower level. Levels not yet populated
+ * locally are populated first (populateWordsDB no-ops via its fast path if
+ * already populated) — calls are sequential to avoid racing on the shared
+ * dbService store/connection state.
  */
-const getFullWordSet = async (locale: string): Promise<Set<string>> => {
+const getFullWordSet = async (
+    locale: string,
+    setError: SetErrorFunction = () => {},
+    setLoadingProgress: SetLoadingProgressFunction = () => {},
+): Promise<Set<string>> => {
     const combined = new Set<string>();
     for (const config of LevelsConfig) {
+        await populateWordsDB(config.level, locale, setError, setLoadingProgress);
         const levelSet = await getLevelWordSet(config.level, locale);
         levelSet.forEach((word) => combined.add(word));
     }

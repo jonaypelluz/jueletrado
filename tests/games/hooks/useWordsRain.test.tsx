@@ -23,6 +23,7 @@ const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}
     gameLevel: null as string | null,
     error: null,
     setError: jest.fn(),
+    setLoadingProgress: jest.fn(),
     ...overrides,
 });
 

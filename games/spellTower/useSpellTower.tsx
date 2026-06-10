@@ -12,7 +12,7 @@ type PendingResult = { clickedIndex: number; correctIndex: number };
 const GAME_TIME = 30;
 
 const useSpellTower = () => {
-    const { locale, gameLevel, error, setError } = useWordsContext();
+    const { locale, gameLevel, error, setError, setLoadingProgress } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
 
     const [countdown, setCountdown] = useState<number>(0);
@@ -86,7 +86,7 @@ const useSpellTower = () => {
 
         const fetchWords = async () => {
             setIsLoadingWords(true);
-            const set = await getFullWordSet(locale);
+            const set = await getFullWordSet(locale, setError, setLoadingProgress);
             const processor = new WordGameProcessor(locale, set);
 
             const sessionWords = await getSessionWords(
