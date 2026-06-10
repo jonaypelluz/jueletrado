@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
 import { consonants, vowels } from '@config/translations/Letters';
 import { useWordProcessor } from '@hooks/useWordProcessor';
-import { getLevelWordSet } from '@services/WordsService';
+import { getFullWordSet } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 
 const NUMBER_OF_VOWELS = 2;
@@ -120,7 +120,7 @@ const useWordBuilder = () => {
         if (!gameLevel) return;
 
         const fetchAllWords = async () => {
-            const wordSet = await getLevelWordSet(gameLevel, locale);
+            const wordSet = await getFullWordSet(locale);
             if (wordSet.size > 0) {
                 setAllWords([...wordSet]);
             }

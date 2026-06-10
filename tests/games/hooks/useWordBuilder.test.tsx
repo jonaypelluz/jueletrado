@@ -1,5 +1,5 @@
 import { renderHook, waitFor } from '@testing-library/react';
-import { getLevelWordSet } from '@services/WordsService';
+import { getFullWordSet } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import useWordBuilder from '@games/wordBuilder/useWordBuilder';
 
@@ -16,7 +16,7 @@ jest.mock('@hooks/useWordProcessor', () => ({
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
-const mockGetLevelWordSet = getLevelWordSet as jest.Mock;
+const mockGetFullWordSet = getFullWordSet as jest.Mock;
 
 const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}) => ({
     locale: 'es',
@@ -31,26 +31,26 @@ describe('useWordBuilder', () => {
         jest.clearAllMocks();
     });
 
-    test('does not call getLevelWordSet when gameLevel is null', async () => {
+    test('does not call getFullWordSet when gameLevel is null', async () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: null }));
 
         renderHook(() => useWordBuilder());
 
         await waitFor(() => {
-            expect(mockGetLevelWordSet).not.toHaveBeenCalled();
+            expect(mockGetFullWordSet).not.toHaveBeenCalled();
         });
     });
 
-    test('calls getLevelWordSet and sets allWords when gameLevel is set', async () => {
+    test('calls getFullWordSet and sets allWords when gameLevel is set', async () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner' }));
 
         const fakeWordSet = new Set(['apple', 'banana', 'cherry', 'date']);
-        mockGetLevelWordSet.mockResolvedValue(fakeWordSet);
+        mockGetFullWordSet.mockResolvedValue(fakeWordSet);
 
         const { result } = renderHook(() => useWordBuilder());
 
         await waitFor(() => {
-            expect(mockGetLevelWordSet).toHaveBeenCalledWith('beginner', 'es');
+            expect(mockGetFullWordSet).toHaveBeenCalledWith('es');
         });
 
         // allWords is internal state; verify no error in result
@@ -59,7 +59,7 @@ describe('useWordBuilder', () => {
 
     test('returns gameLevel from context', () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'intermediate' }));
-        mockGetLevelWordSet.mockResolvedValue(new Set([]));
+        mockGetFullWordSet.mockResolvedValue(new Set([]));
 
         const { result } = renderHook(() => useWordBuilder());
 
