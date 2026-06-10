@@ -79,6 +79,12 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                         <p><FormattedMessage id="gameCrossWordGenerating" /></p>
                     </div>
                 ) :
+                <>
+                {isComplete && (
+                    <div className="crossword-complete-message">
+                        <FormattedMessage id="gameCrossWordComplete" />
+                    </div>
+                )}
                 <div className="crossword-container">
                     <div className="crossword-sidebar">
                         <ul>
@@ -136,6 +142,7 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                         )}
                     </div>
                 </div>
+                </>
             ) : (
                 <GameRules {...gameConfig.gameRules} />
             )}

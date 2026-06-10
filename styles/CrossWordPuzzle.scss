@@ -49,6 +49,17 @@
     }
 }
 
+.crossword-complete-message {
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    border: 1px solid #c3e6cb;
+    border-radius: 12px;
+    background-color: #d4edda;
+    color: #155724;
+    text-align: center;
+    font-weight: bold;
+}
+
 .crossword-grid-container {
     @extend .game-wrapper;
     padding: 12px;
@@ -67,6 +78,11 @@
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    box-sizing: border-box;
+
+    input {
+        box-sizing: border-box;
+    }
 }
 
 @media only screen and (max-width: 767px) {

@@ -28,7 +28,6 @@ const useDefinitionMaster = () => {
     const [quizWords, setQuizWords] = useState<QuizDefinition[][]>([]);
     const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswersType>({});
     const [quizScore, setQuizScore] = useState<number>(0);
-    const [wrongClicksCount, setWrongClicksCount] = useState<number>(0);
 
     const letters: string[] = [
         'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
@@ -121,7 +120,6 @@ const useDefinitionMaster = () => {
         setQuizWords([]);
         setSelectedAnswers({});
         setQuizScore(0);
-        setWrongClicksCount(0);
         setLoadError(false);
     };
 
@@ -154,13 +152,7 @@ const useDefinitionMaster = () => {
                 [word]: false,
                 [quizWord]: true,
             }));
-            setWrongClicksCount(prev => {
-                const next = prev + 1;
-                if (next >= TOTAL_QUIZ_DEFINITIONS - 1) {
-                    setIsNextButtonActive(true);
-                }
-                return next;
-            });
+            setIsNextButtonActive(true);
         }
     };
 
@@ -168,7 +160,6 @@ const useDefinitionMaster = () => {
         const nextIndex = currentQuizIndex + 1;
         setIsNextButtonActive(false);
         setSelectedAnswers({});
-        setWrongClicksCount(0);
 
         if (nextIndex >= quizWords.length) {
             setIsQuizFinished(true);
