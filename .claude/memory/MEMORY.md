@@ -1,5 +1,4 @@
 - [Commit message format](commit_format.md) — commits must start with `{BRANCH} ` prefix
 - [Ask before retry loops](ask_before_loop.md) — stop after 2 unexpected failures, ask the user
 - [Memory scope per project](memory_scope.md) — memory goes in project-local `.claude/memory/`, not global
-- [Plan: definitions & crawlers](plan_definitions_crawlers.md) — 4-phase plan: JSONL output, merge script, data model, game integration
 - [Use yarn not npm](feedback_yarn_not_npm.md) — always yarn commands, never npm
