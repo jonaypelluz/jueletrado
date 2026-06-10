@@ -58,7 +58,7 @@ const HomeContent: React.FC = () => {
         loadDailyWordForLocale(locale).then((word) => {
             if (word) setWordOfTheDay(word);
         });
-    }, [hydrated, locale]);
+    }, [hydrated, locale, wordOfTheDay, setWordOfTheDay]);
 
     // After hydration, if the user has a stored level but word groups have expired, re-fetch them.
     useEffect(() => {
@@ -80,7 +80,7 @@ const HomeContent: React.FC = () => {
         } else {
             setAreWordsLoaded(true);
         }
-    }, [hydrated, gameLevel]);
+    }, [hydrated, gameLevel, areWordsLoaded]);
 
     useEffect(() => {
         if (areWordsLoaded) {

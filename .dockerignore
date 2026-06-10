@@ -1,0 +1,18 @@
+# System
+.DS_Store
+.idea
+.vscode
+
+# App directories
+.claude
+.github
+.git
+graphify-out
+
+# App files
+.gitignore
+.dockerignore
+.env
+Makefile
+README.md
+

@@ -1325,5 +1325,1336 @@
                 "type": "adjective"
             }
         ]
+    },
+    "v": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A shape resembling the letter v."
+            },
+            {
+                "number": 2,
+                "type": "adverb",
+                "definition": "Very."
+            },
+            {
+                "number": 3,
+                "type": "preposition",
+                "definition": "Against; in opposition to.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "v, vs, vs.."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "preposition",
+                "definition": "Compared with, as opposed to."
+            },
+            {
+                "number": 5,
+                "type": "preposition",
+                "definition": "Bringing a legal action against, as used in the title of a court case in which the first party indicates the plaintiff (or appellant or the like), and the second indicates the defendant (or respondent or the like).",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "v, v.."
+                    }
+                ]
+            }
+        ]
+    },
+    "valley": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An elongated depression between hills or mountains, often with a river flowing through it."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The area which drains into a river."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Any structure resembling one, e.g., the meeting point of two pitched roofs."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "The internal angle formed by the intersection of two sloping roof planes."
+            }
+        ]
+    },
+    "valuable": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A personal possession such as jewellery, of relatively great monetary value; — usually used in plural form."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Having a great value."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Estimable; deserving esteem."
+            }
+        ]
+    },
+    "value": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The quality (positive or negative) that renders something desirable or valuable.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "worth."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The degree of importance given to something."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "That which is valued or highly esteemed, such as one's morals, morality, or belief system."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "The amount (of money or goods or services) that is considered to be a fair equivalent for something else."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The relative duration of a musical note."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "The relative darkness or lightness of a color in (a specific area of) a painting etc."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "Any definite numerical quantity or other mathematical object, determined by being measured, computed, or otherwise defined."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "Precise meaning; import."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "(in the plural) The valuable ingredients to be obtained by treating a mass or compound; specifically, the precious metals contained in rock, gravel, etc."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "Esteem; regard."
+            },
+            {
+                "number": 11,
+                "type": "noun",
+                "definition": "Valour; also spelled valew."
+            },
+            {
+                "number": 12,
+                "type": "verb",
+                "definition": "To estimate the value of; judge the worth of something."
+            },
+            {
+                "number": 13,
+                "type": "verb",
+                "definition": "To fix or determine the value of; assign a value to, as of jewelry or art work."
+            },
+            {
+                "number": 14,
+                "type": "verb",
+                "definition": "To regard highly; think much of; place importance upon."
+            },
+            {
+                "number": 15,
+                "type": "verb",
+                "definition": "To hold dear."
+            }
+        ]
+    },
+    "values": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The quality (positive or negative) that renders something desirable or valuable.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "worth."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The degree of importance given to something."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "That which is valued or highly esteemed, such as one's morals, morality, or belief system."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "The amount (of money or goods or services) that is considered to be a fair equivalent for something else."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The relative duration of a musical note."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "The relative darkness or lightness of a color in (a specific area of) a painting etc."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "Any definite numerical quantity or other mathematical object, determined by being measured, computed, or otherwise defined."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "Precise meaning; import."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "(in the plural) The valuable ingredients to be obtained by treating a mass or compound; specifically, the precious metals contained in rock, gravel, etc."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "Esteem; regard."
+            },
+            {
+                "number": 11,
+                "type": "noun",
+                "definition": "Valour; also spelled valew."
+            },
+            {
+                "number": 12,
+                "type": "verb",
+                "definition": "To estimate the value of; judge the worth of something."
+            },
+            {
+                "number": 13,
+                "type": "verb",
+                "definition": "To fix or determine the value of; assign a value to, as of jewelry or art work."
+            },
+            {
+                "number": 14,
+                "type": "verb",
+                "definition": "To regard highly; think much of; place importance upon."
+            },
+            {
+                "number": 15,
+                "type": "verb",
+                "definition": "To hold dear."
+            }
+        ]
+    },
+    "van": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A covered vehicle used for carrying goods or people, usually roughly cuboid in shape, longer and higher than a car but smaller than a truck/lorry."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An enclosed railway vehicle for transport of goods."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A light wagon, either covered or open, used by tradesmen and others for the transportation of goods."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A large towable vehicle equipped for the repair of structures that cannot easily be moved."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To transport in a van or similar vehicle (especially of horses)."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "(used in passive voice) Of law enforcement: to arrest (not necessarily in a van; derived from party van)."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "The leading units at the front of an army or fleet.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "advance guard, avant-garde."
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "rearguard."
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "(by extension) The person(s) at the forefront of any group or movement.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "avant-garde."
+                    }
+                ]
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "A shovel used in cleansing ore."
+            },
+            {
+                "number": 10,
+                "type": "verb",
+                "definition": "To wash or cleanse, as a small portion of ore, on a shovel."
+            },
+            {
+                "number": 11,
+                "type": "noun",
+                "definition": "A fan or other contrivance, such as a sieve, for winnowing grain."
+            },
+            {
+                "number": 12,
+                "type": "noun",
+                "definition": "A wing with which the air is beaten."
+            }
+        ]
+    },
+    "variety": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The quality of being varied; diversity.",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "sameness."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A specific variation of something."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A number of different things.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "array, assortment."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A state of constant change."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A rank in a taxonomic classification, below species and subspecies."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "The total number of distinct states of a system."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "Logarithm of the base 2 of the total number of distinct states of a system."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "A term used for a specific form of a language, neutral to whether that form is a dialect, accent, register, etc. and to its prestige level."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "(universal algebra) An equational class; the class of all algebraic structures of a given signature, satisfying a given set of identities."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "An algebraic variety."
+            },
+            {
+                "number": 11,
+                "type": "noun",
+                "definition": "The kind of theatrical entertainment given in variety shows."
+            },
+            {
+                "number": 12,
+                "type": "noun",
+                "definition": "The production of, or performance in, variety shows."
+            }
+        ]
+    },
+    "various": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Having a broad range (of different elements)."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "That varies or differs from others; variant; different."
+            }
+        ]
+    },
+    "ve": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "pronoun",
+                "definition": "(epicene) Gender-neutral third-person singular subject pronoun, equivalent to singular they."
+            }
+        ]
+    },
+    "vehicle": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A conveyance; a device for carrying or transporting substances, objects or individuals."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A medium for expression of talent or views."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A liquid content (e.g. oil) which acts as a binding and drying agent in paint. (FM 55-501)."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "(pharmaceuticals) The main excipient (such as an oil or gel) that conveys the active ingredient of a drug."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "An entity to achieve an end."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A mode or method of spiritual practice; a yana."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "An animal or (rarely) a plant on which a Hindu deity rides or sits."
+            }
+        ]
+    },
+    "vehicles": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A conveyance; a device for carrying or transporting substances, objects or individuals."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A medium for expression of talent or views."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A liquid content (e.g. oil) which acts as a binding and drying agent in paint. (FM 55-501)."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "(pharmaceuticals) The main excipient (such as an oil or gel) that conveys the active ingredient of a drug."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "An entity to achieve an end."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A mode or method of spiritual practice; a yana."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "An animal or (rarely) a plant on which a Hindu deity rides or sits."
+            }
+        ]
+    },
+    "version": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A specific form or variation of something."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A translation from one language to another."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A school exercise, generally of composition in a foreign language."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "The act of translating, or rendering, from one language into another language."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "An account or description from a particular point of view, especially as contrasted with another account."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A particular revision (of software, firmware, CPU, etc.)."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "A condition of the uterus in which its axis is deflected from its normal position without being bent upon itself. See anteversion and retroversion."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "An eye movement involving both eyes moving synchronously and symmetrically in the same direction."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "A change of form, direction, etc.; transformation; conversion."
+            },
+            {
+                "number": 10,
+                "type": "verb",
+                "definition": "To keep track of (a file, document, etc.) in a versioning system."
+            }
+        ]
+    },
+    "very": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "True, real, actual."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "The same; identical."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "With limiting effect: mere."
+            },
+            {
+                "number": 4,
+                "type": "adverb",
+                "definition": "To a great extent or degree.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "drastically, extremely, greatly."
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "type": "adverb",
+                "definition": "Conforming to fact, reality or rule; true.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "actually, authentically, truly."
+                    }
+                ]
+            },
+            {
+                "number": 6,
+                "type": "adverb",
+                "definition": "(with superlatives) Used to firmly establish that nothing else surpasses in some respect."
+            }
+        ]
+    },
+    "via": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A main road or highway, especially in ancient Rome. (Mainly used in set phrases, below.)."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A small hole in a printed circuit board filled with metal which connects two or more layers."
+            },
+            {
+                "number": 3,
+                "type": "preposition",
+                "definition": "By way of; passing through."
+            },
+            {
+                "number": 4,
+                "type": "preposition",
+                "definition": "By (means of); using."
+            }
+        ]
+    },
+    "victim": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "One that is harmed—killed, injured, subjected to oppression, deceived, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition; in particular:."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A living being which is slain and offered as a sacrifice, usually in a religious rite."
+            }
+        ]
+    },
+    "victims": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "One that is harmed—killed, injured, subjected to oppression, deceived, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition; in particular:."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A living being which is slain and offered as a sacrifice, usually in a religious rite."
+            }
+        ]
+    },
+    "victory": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An instance of having won a competition or battle or succeeded in an effort."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The condition of having succeeded in a conflict or other effort."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A winged figure representing victory, common in Roman official iconography. See Winged victory."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To achieve a victory."
+            }
+        ]
+    },
+    "video": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Television, television show, movie."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A short film clip, with or without audio (as in a music video, or one of the plethora of user-generated short movies on sites such as YouTube)."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Motion picture stored on VHS or some other format."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "VHS."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To record using a video camera, to videotape."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To record a television program."
+            }
+        ]
+    },
+    "videos": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Television, television show, movie."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A short film clip, with or without audio (as in a music video, or one of the plethora of user-generated short movies on sites such as YouTube)."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Motion picture stored on VHS or some other format."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "VHS."
+            }
+        ]
+    },
+    "view": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "(physical) Visual perception."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A picture, drawn or painted; a sketch."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "(psychological) Opinion, judgement, imagination."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A virtual or logical table composed of the result set of a query in relational databases."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The part of a computer program which is visible to the user and can be interacted with."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A wake."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To look at."
+            },
+            {
+                "number": 8,
+                "type": "verb",
+                "definition": "To regard in a stated way."
+            }
+        ]
+    },
+    "views": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "(physical) Visual perception."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A picture, drawn or painted; a sketch."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "(psychological) Opinion, judgement, imagination."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A virtual or logical table composed of the result set of a query in relational databases."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The part of a computer program which is visible to the user and can be interacted with."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A wake."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To look at."
+            },
+            {
+                "number": 8,
+                "type": "verb",
+                "definition": "To regard in a stated way."
+            }
+        ]
+    },
+    "village": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A rural habitation of size between a hamlet and a town."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A rural habitation that has a church, but no market."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A planned community such as a retirement community or shopping district."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A gated community."
+            }
+        ]
+    },
+    "violence": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Extreme force."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Action which causes destruction, pain, or suffering."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Widespread fighting."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "Injustice, wrong."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "Ravishment; rape; violation."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To subject to violence."
+            }
+        ]
+    },
+    "vision": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The sense or ability of sight."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Something seen; an object perceived visually."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Something imaginary one thinks one sees."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "(by extension) Something unreal or imaginary; a creation of fancy."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "An ideal or a goal toward which one aspires."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A religious or mystical experience of a supernatural appearance."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "A person or thing of extraordinary beauty."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "Pre-recorded film or tape; footage."
+            },
+            {
+                "number": 9,
+                "type": "verb",
+                "definition": "To imagine something as if it were to be true."
+            },
+            {
+                "number": 10,
+                "type": "verb",
+                "definition": "To present as in a vision."
+            },
+            {
+                "number": 11,
+                "type": "verb",
+                "definition": "To provide with a vision."
+            }
+        ]
+    },
+    "visit": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A single act of visiting."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A meeting with a doctor at their surgery or the doctor's at one's home."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To habitually go to (someone in distress, sickness etc.) to comfort them. (Now generally merged into later senses, below.)."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To go and meet (a person) as an act of friendliness or sociability."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "Of God: to appear to (someone) to comfort, bless, or chastise or punish them. (Now generally merged into later senses, below.)."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To punish, to inflict harm upon (someone or something)."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "Of a sickness, misfortune etc.: to afflict (someone)."
+            },
+            {
+                "number": 8,
+                "type": "verb",
+                "definition": "To inflict punishment, vengeance for (an offense) on or upon someone."
+            },
+            {
+                "number": 9,
+                "type": "verb",
+                "definition": "To go to (a shrine, temple etc.) for worship. (Now generally merged into later senses, below.)."
+            },
+            {
+                "number": 10,
+                "type": "verb",
+                "definition": "To go to (a place) for pleasure, on an errand, etc."
+            }
+        ]
+    },
+    "voice": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Sound uttered by the mouth, especially by human beings in speech or song; sound thus uttered considered as possessing some special quality or character."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Sound made through vibration of the vocal cords; sonant, or intonated, utterance; tone; — distinguished from mere breath sound as heard in whispering and voiceless consonants."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The tone or sound emitted by an object."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "The faculty or power of utterance."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "That which is communicated; message; meaning."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "An expressed opinion, choice, will, desire, or wish; the right or ability to make such expression or to have it considered."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "Command; precept."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "One who speaks; a speaker."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "A particular style or way of writing that expresses a certain tone or feeling."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "(grammar) A particular way of inflecting or conjugating verbs, or a particular form of a verb, by means of which is indicated the relation of the subject of the verb to the action which the verb expresses."
+            },
+            {
+                "number": 11,
+                "type": "noun",
+                "definition": "In harmony, an independent vocal or instrumental part in a piece of composition."
+            },
+            {
+                "number": 12,
+                "type": "noun",
+                "definition": "(IRC) A flag associated with a user on a channel, determining whether or not they can send messages to the channel."
+            },
+            {
+                "number": 13,
+                "type": "verb",
+                "definition": "To give utterance or expression to; to utter; to publish; to announce."
+            },
+            {
+                "number": 14,
+                "type": "verb",
+                "definition": "To utter audibly, with tone and not just breath."
+            },
+            {
+                "number": 15,
+                "type": "verb",
+                "definition": "To fit for producing the proper sounds; to regulate the tone of."
+            },
+            {
+                "number": 16,
+                "type": "verb",
+                "definition": "To vote; to elect; to appoint."
+            },
+            {
+                "number": 17,
+                "type": "verb",
+                "definition": "To clamor; to cry out."
+            },
+            {
+                "number": 18,
+                "type": "verb",
+                "definition": "(IRC) To assign the voice flag to a user on IRC, permitting them to send messages to the channel."
+            },
+            {
+                "number": 19,
+                "type": "verb",
+                "definition": "To act as a voice actor to portray a character."
+            }
+        ]
+    },
+    "volume": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A three-dimensional measure of space that comprises a length, a width and a height. It is measured in units of cubic centimeters in metric, cubic inches or cubic feet in English measurement."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Strength of sound; loudness."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The issues of a periodical over a period of one year."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A bound book."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A single book of a publication issued in multi-book format, such as an encyclopedia."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A roll or scroll, which was the form of ancient books."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "Quantity."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "A rounded mass or convolution."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "The total supply of money in circulation or, less frequently, total amount of credit extended, within a specified national market or worldwide."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "An accessible storage area with a single file system, typically resident on a single partition of a hard disk."
+            },
+            {
+                "number": 11,
+                "type": "verb",
+                "definition": "To be conveyed through the air, waft."
+            },
+            {
+                "number": 12,
+                "type": "verb",
+                "definition": "To cause to move through the air, waft."
+            },
+            {
+                "number": 13,
+                "type": "verb",
+                "definition": "To swell."
+            }
+        ]
+    },
+    "vote": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A formalized choice on matters of administration or other democratic activities."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An act or instance of participating in such a choice, e.g., by submitting a ballot."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "An ardent wish or desire; a vow; a prayer."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To cast a vote; to assert a formalized choice in an election."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To choose or grant by means of a vote, or by general consent."
+            }
+        ]
+    },
+    "voted": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To cast a vote; to assert a formalized choice in an election."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To choose or grant by means of a vote, or by general consent."
+            }
+        ]
+    },
+    "votes": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A formalized choice on matters of administration or other democratic activities."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An act or instance of participating in such a choice, e.g., by submitting a ballot."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "An ardent wish or desire; a vow; a prayer."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To cast a vote; to assert a formalized choice in an election."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To choose or grant by means of a vote, or by general consent."
+            }
+        ]
+    },
+    "vs": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "pronoun",
+                "definition": "(personal) Me and at least one other person; the objective case of we."
+            },
+            {
+                "number": 2,
+                "type": "pronoun",
+                "definition": "(chiefly with give) Me."
+            },
+            {
+                "number": 3,
+                "type": "pronoun",
+                "definition": "Our."
+            },
+            {
+                "number": 4,
+                "type": "pronoun",
+                "definition": "Me (in all contexts)."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A shape resembling the letter v."
+            },
+            {
+                "number": 6,
+                "type": "preposition",
+                "definition": "Against; in opposition to.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "v, vs, vs.."
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "type": "preposition",
+                "definition": "Compared with, as opposed to."
+            },
+            {
+                "number": 8,
+                "type": "preposition",
+                "definition": "Bringing a legal action against, as used in the title of a court case in which the first party indicates the plaintiff (or appellant or the like), and the second indicates the defendant (or respondent or the like).",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "v, v.."
+                    }
+                ]
+            }
+        ]
     }
 }

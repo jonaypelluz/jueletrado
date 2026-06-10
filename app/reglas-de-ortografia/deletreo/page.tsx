@@ -91,8 +91,8 @@ const Spelling: React.FC = () => {
                         <span className="check-icon">✓</span>
                         <h3>Las comillas: simples y dobles</h3>
                         <p>
-                            Las comillas (« », " ", &apos; &apos;) enmarcan citas, palabras
-                            destacadas o con uso irónico. Se prefiere « » en español, luego " " para
+                            Las comillas (« », &quot; &quot;, &apos; &apos;) enmarcan citas, palabras
+                            destacadas o con uso irónico. Se prefiere « » en español, luego &quot; &quot; para
                             citas dentro de citas y &apos; &apos; como último recurso. No se deja
                             espacio entre las comillas y el texto.
                         </p>

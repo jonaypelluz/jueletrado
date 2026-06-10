@@ -20,7 +20,7 @@
  *   --not-found-file <f>  Track words with no entry (default: ops/crawl-output/en/not-found.txt)
  */
 
-import { readFile, writeFile, appendFile, mkdir } from 'fs/promises';
+import { readFile, writeFile, appendFile, mkdir, readdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import * as path from 'path';
 
@@ -205,6 +205,25 @@ async function main(): Promise<void> {
         console.log(`Loaded ${notFoundWords.size} known not-found words from ${notFoundFile}`);
     }
 
+    // Words already written to any JSONL in this outputDir (previous interrupted runs)
+    const alreadyCrawled = new Set<string>();
+    try {
+        const existing = (await readdir(outputDir)).filter(f => f.endsWith('.jsonl'));
+        for (const file of existing) {
+            const content = await readFile(path.join(outputDir, file), 'utf-8');
+            for (const line of content.split('\n')) {
+                if (!line.trim()) continue;
+                try {
+                    const entry = JSON.parse(line) as { word?: string };
+                    if (entry.word) alreadyCrawled.add(entry.word);
+                } catch { /* skip malformed lines */ }
+            }
+        }
+        if (alreadyCrawled.size > 0) {
+            console.log(`Loaded ${alreadyCrawled.size} already-crawled words from JSONL output.`);
+        }
+    } catch { /* outputDir doesn't exist yet — fine */ }
+
     const initialisedLetters = new Set<string>();
 
     async function letterFile(letter: string): Promise<string> {
@@ -240,6 +259,12 @@ async function main(): Promise<void> {
             continue;
         }
 
+        if (!forceUpdate && alreadyCrawled.has(word)) {
+            if (!quietSkip) console.log(`${word}: skipped (already in JSONL)`);
+            skipped++;
+            continue;
+        }
+
         if (skipExisting && !forceUpdate && await wordHasDefinitions(word)) {
             if (!quietSkip) console.log(`${word}: skipped`);
             skipped++;
@@ -261,6 +286,7 @@ async function main(): Promise<void> {
                 if (levelTag) entry.level = levelTag;
                 const out = await letterFile(letter);
                 await appendFile(out, JSON.stringify(entry) + '\n', 'utf-8');
+                alreadyCrawled.add(word);
                 console.log(`${word}: ${defs.length} def(s)${levelTag ? ` [${levelTag}]` : ''}`);
             } else {
                 await appendFile(notFoundFile, word + '\n', 'utf-8');

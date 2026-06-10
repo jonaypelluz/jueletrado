@@ -41,6 +41,7 @@ GitHub Actions deploys the `/out` folder to GitHub Pages on every push to `main`
 - **English words** — sourced from [dwyl/english-words](https://github.com/dwyl/english-words) and other public word lists, cleaned and split by level. Definitions follow British English, sourced from Collins Dictionary ([collinsdictionary.com](https://www.collinsdictionary.com)).
 - Word lists live in `public/words/<locale>/`, definitions in `public/definitions/<locale>/`, loaded into IndexedDB at runtime.
 - Utility scripts for expanding/maintaining word lists are in `ops/scripts/`.
+- See [`ops/docs/commands.md`](ops/docs/commands.md) for the full crawler / word-list command reference.
 
 ## Stack
 

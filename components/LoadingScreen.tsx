@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Link from 'next/link';
 import { FormattedMessage } from 'react-intl';
 import { LoadingMessages } from '@config/translations/General';
 import Logger from '@services/Logger';
@@ -37,9 +38,9 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false })
             {error ? (
                 <>
                     <p>{getRandomErrorMessage()}</p>
-                    <a href="/" className="loading-home-link">
+                    <Link href="/" className="loading-home-link">
                         <FormattedMessage id="errorMessageTitle" />
-                    </a>
+                    </Link>
                     <p className="loading-error-description">
                         <FormattedMessage id="errorMessageDescription" />
                     </p>

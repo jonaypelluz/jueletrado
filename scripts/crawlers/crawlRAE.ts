@@ -23,7 +23,7 @@
  *   --not-found-file <file>    Track words with no RAE entry (default: ops/crawl-output/es/not-found.txt)
  */
 
-import { readFile, writeFile, appendFile, mkdir } from 'fs/promises';
+import { readFile, writeFile, appendFile, mkdir, readdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import * as path from 'path';
 import { config as loadEnv } from 'dotenv';
@@ -107,7 +107,7 @@ function formatDefinitions(meanings: RaeApiMeaning[], level?: string): Definitio
     let num = 1;
 
     for (const meaning of meanings) {
-        for (const sense of meaning.senses) {
+        for (const sense of meaning.senses ?? []) {
             if (!sense.description) continue;
 
             const def: Definition = {
@@ -140,15 +140,16 @@ async function fetchWord(word: string, apiKey?: string): Promise<FetchResult> {
     const url = `${RAE_API_BASE}/${encodeURIComponent(word)}${apiKey ? `?api_key=${apiKey}` : ''}`;
     try {
         const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+        // x-ratelimit-daily-remaining is the authoritative signal — a bare 403 can also
+        // mean a transient WAF/Cloudflare block for a single word, not quota exhaustion.
+        const dailyRemaining = res.headers.get('x-ratelimit-daily-remaining');
+        const dailyLimitExceeded = dailyRemaining !== null && Number(dailyRemaining) <= 0;
         if (!res.ok) {
             let body: RaeApiResponse | null = null;
             try { body = await res.json() as RaeApiResponse; } catch { /* ignore */ }
-            const msg = (body?.message ?? body?.error ?? '').toLowerCase();
-            const dailyLimitExceeded = res.status === 403 ||
-                (res.status === 429 && (msg.includes('daily') || msg.includes('quota') || msg.includes('exceeded')));
             return { status: res.status, data: body, dailyLimitExceeded };
         }
-        return { status: res.status, data: await res.json() as RaeApiResponse, dailyLimitExceeded: false };
+        return { status: res.status, data: await res.json() as RaeApiResponse, dailyLimitExceeded };
     } catch {
         return { status: 0, data: null, dailyLimitExceeded: false };
     }
@@ -242,6 +243,25 @@ async function main(): Promise<void> {
         console.log(`Loaded ${notFoundWords.size} known not-found words from ${notFoundFile}`);
     }
 
+    // Words already written to any JSONL in this outputDir (previous interrupted runs)
+    const alreadyCrawled = new Set<string>();
+    try {
+        const existing = (await readdir(outputDir)).filter(f => f.endsWith('.jsonl'));
+        for (const file of existing) {
+            const content = await readFile(path.join(outputDir, file), 'utf-8');
+            for (const line of content.split('\n')) {
+                if (!line.trim()) continue;
+                try {
+                    const entry = JSON.parse(line) as { word?: string };
+                    if (entry.word) alreadyCrawled.add(entry.word);
+                } catch { /* skip malformed lines */ }
+            }
+        }
+        if (alreadyCrawled.size > 0) {
+            console.log(`Loaded ${alreadyCrawled.size} already-crawled words from JSONL output.`);
+        }
+    } catch { /* outputDir doesn't exist yet — fine */ }
+
     // Track which letter files have been initialised this run (avoid stat per word)
     const initialisedLetters = new Set<string>();
 
@@ -278,6 +298,12 @@ async function main(): Promise<void> {
             continue;
         }
 
+        if (!forceUpdate && alreadyCrawled.has(word)) {
+            if (!quietSkip) console.log(`${word}: skipped (already in JSONL)`);
+            skipped++;
+            continue;
+        }
+
         if (skipExisting && !forceUpdate && await wordHasDefinitions(word)) {
             if (!quietSkip) console.log(`${word}: skipped`);
             skipped++;
@@ -292,7 +318,16 @@ async function main(): Promise<void> {
         }
 
         if (data?.ok && data.data) {
-            const defs = formatDefinitions(data.data.meanings, levelTag);
+            let defs: Definition[];
+            try {
+                defs = formatDefinitions(data.data.meanings, levelTag);
+            } catch (err) {
+                console.error(`${word}: failed to parse RAE response — ${(err as Error).message}`);
+                errors++;
+                processed++;
+                await sleep(randomDelay(delayMin, delayMax));
+                continue;
+            }
             if (defs.length > 0) {
                 const entry: CrawlEntry = {
                     word,
@@ -304,6 +339,7 @@ async function main(): Promise<void> {
                 if (levelTag) entry.level = levelTag;
                 const out = await letterFile(letter);
                 await appendFile(out, JSON.stringify(entry) + '\n', 'utf-8');
+                alreadyCrawled.add(word);
                 console.log(`${word}: ${defs.length} def(s)${levelTag ? ` [${levelTag}]` : ''}`);
             } else {
                 await appendFile(notFoundFile, word + '\n', 'utf-8');

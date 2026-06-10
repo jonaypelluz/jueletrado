@@ -106,6 +106,17 @@ Missing letters: EN → j, k, l, x, z / ES → x
 
 ---
 
+## Bugfix 2026-06-10: false "daily limit" abort
+
+`crawlRAE.ts` treated any bare HTTP 403 as RAE daily-quota-exhausted → `process.exit(2)` →
+`crawlAll.ts` aborted ALL ES levels for the run and jumped straight to EN. This is why ES
+beginner only got through letter `a` (282 words) before EN took over.
+
+Real quota (checked via `x-ratelimit-daily-limit`/`-remaining` headers): **5000 req/day**
+on the `developer` tier key — nowhere near exhausted. Fixed `fetchWord()` to check
+`x-ratelimit-daily-remaining <= 0` instead of raw status 403. Next `yarn crawl:all` run
+should get much further into ES.
+
 ## Immediate next actions (in order)
 
 1. Refactor `crawlRAE.ts` → JSONL output

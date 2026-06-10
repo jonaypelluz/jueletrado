@@ -14,6 +14,7 @@
         "words:check": "tsx scripts/words/checkWords.ts",
         "words:clean": "tsx scripts/words/cleanWords.ts",
         "words:sort-by-frequency": "tsx scripts/words/sortByFrequency.ts",
+        "words:from-book": "tsx scripts/words/fromBook.ts",
         "crawl:all": "tsx scripts/crawlers/crawlAll.ts",
         "crawl:merge": "tsx scripts/crawlers/mergeDefinitions.ts",
         "crawl:check-en": "tsx scripts/crawlers/checkDictionary.ts"
@@ -26,6 +27,7 @@
         "react-intl": "^6.8.7"
     },
     "devDependencies": {
+        "@eslint/eslintrc": "^3.3.5",
         "@testing-library/dom": "^10.4.1",
         "@testing-library/jest-dom": "^6.5.0",
         "@testing-library/react": "^16.0.1",
