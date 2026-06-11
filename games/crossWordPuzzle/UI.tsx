@@ -133,6 +133,7 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                                                 type="text"
                                                 maxLength={1}
                                                 disabled={isComplete || !!cell.isLocked}
+                                                onKeyDown={(e) => { if (/\d/.test(e.key)) e.preventDefault(); }}
                                                 onChange={(event) => checkCellValue(i, j)(event)}
                                                 style={{
                                                     width: `${gridSizePixels}px`,

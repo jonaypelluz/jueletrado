@@ -37,7 +37,6 @@
     padding: 12px;
     margin-top: 0;
     border: none;
-    background-color: #fff;
     border-radius: 0;
     box-sizing: border-box;
     width: 100%;
@@ -70,9 +69,7 @@
 
 .crossword-complete-message {
     padding: 12px 24px;
-    margin-bottom: 12px;
     border: 1px solid #c3e6cb;
-    border-radius: 12px;
     background-color: #d4edda;
     color: #155724;
     text-align: center;
@@ -84,7 +81,6 @@
     padding: 12px;
     margin-top: 0;
     border: none;
-    background-color: #fff;
     display: grid;
     gap: 1px;
     border-radius: 0;
@@ -119,11 +115,16 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .crossword-wrapper {
+        overflow: hidden;
+    }
+
     .crossword-container {
         flex-direction: column;
     }
 
     .crossword-sidebar {
+        width: 100%;
         max-width: 100%;
         order: 1;
         min-height: auto;
@@ -132,19 +133,18 @@
     .crossword-grid-container {
         order: 2;
         min-height: auto;
-        grid-template-columns: repeat(15, 1fr) !important;
+        width: 100%;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+
+        &::before {
+            content: none;
+        }
     }
 
     .crossword-grid-item {
-        width: auto !important;
-        height: auto !important;
-        aspect-ratio: 1;
-
         input {
-            width: 100% !important;
-            height: 100% !important;
-            font-size: 10px !important;
-            border-width: 1px !important;
+            font-size: 12px !important;
             padding: 0 !important;
         }
     }

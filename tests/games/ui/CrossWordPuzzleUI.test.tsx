@@ -26,8 +26,19 @@ describe('CrossWordPuzzle UI', () => {
             locale: 'es',
             gameLevel: 'beginner',
         });
+        // Pool must be rich enough for the generator to place 4 intersecting words.
+        const mockDef = (text: string) => ({ definitions: [{ number: 1, definition: text }] });
         mockLoadDefinition.mockResolvedValue({
-            perro: { definitions: [{ number: 1, definition: 'Animal doméstico que ladra.' }] },
+            palabra: mockDef('Unidad de lenguaje.'),
+            castillo: mockDef('Fortaleza medieval.'),
+            perro: mockDef('Animal doméstico que ladra.'),
+            gato: mockDef('Animal doméstico que maúlla.'),
+            torre: mockDef('Construcción alta.'),
+            luna: mockDef('Satélite de la Tierra.'),
+            arbol: mockDef('Planta de tronco leñoso.'),
+            casa: mockDef('Lugar para vivir.'),
+            libro: mockDef('Conjunto de páginas.'),
+            tren: mockDef('Transporte sobre raíles.'),
         });
     });
 
