@@ -9,7 +9,7 @@ describe('DBService Store Management', () => {
         const level: string = 'beginner';
         const locale: string = 'es';
         const testWords: string[] = ['testWord1', 'testWord2'];
-        const minimumPopulatedCount = { es: 0 };
+        const minimumPopulatedCount = { es: 1 };
 
         dbService.setStoreName(level, locale);
         await dbService.addWords(level, locale, testWords, minimumPopulatedCount);

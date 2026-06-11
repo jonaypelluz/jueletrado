@@ -72,6 +72,7 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                     </button>
                 )}
             </Hero>
+            <div className="crossword-wrapper">
             {isGameStarted ? (
                 isGenerating ? (
                     <div className="crossword-loading">
@@ -113,27 +114,43 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                                     }}
                                 >
                                     {cell.filled ? (
-                                        <input
-                                            type="text"
-                                            maxLength={1}
-                                            disabled={isComplete}
-                                            onChange={(event) => checkCellValue(i, j)(event)}
-                                            style={{
-                                                width: `${gridSizePixels}px`,
-                                                height: `${gridSizePixels}px`,
-                                                backgroundColor: `rgba(${hexToRgb(cell.color)}, 0.3)`,
-                                                borderColor: cell.color,
-                                                borderWidth: 3,
-                                                borderStyle: 'solid',
-                                                textTransform: 'uppercase',
-                                                color: 'black',
-                                                display: 'flex',
-                                                textAlign: 'center',
-                                                alignItems: 'center',
-                                                justifyContent: 'center',
-                                                position: 'relative',
-                                            }}
-                                        />
+                                        cell.isHint ? (
+                                            <span
+                                                className="crossword-hint-cell"
+                                                style={{
+                                                    width: `${gridSizePixels}px`,
+                                                    height: `${gridSizePixels}px`,
+                                                    backgroundColor: '#fff',
+                                                    borderColor: '#000',
+                                                    borderWidth: 3,
+                                                    borderStyle: 'solid',
+                                                }}
+                                            >
+                                                {cell.char.toUpperCase()}
+                                            </span>
+                                        ) : (
+                                            <input
+                                                type="text"
+                                                maxLength={1}
+                                                disabled={isComplete || !!cell.isLocked}
+                                                onChange={(event) => checkCellValue(i, j)(event)}
+                                                style={{
+                                                    width: `${gridSizePixels}px`,
+                                                    height: `${gridSizePixels}px`,
+                                                    backgroundColor: `rgba(${hexToRgb(cell.color)}, 0.3)`,
+                                                    borderColor: cell.color,
+                                                    borderWidth: 3,
+                                                    borderStyle: 'solid',
+                                                    textTransform: 'uppercase',
+                                                    color: 'black',
+                                                    display: 'flex',
+                                                    textAlign: 'center',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    position: 'relative',
+                                                }}
+                                            />
+                                        )
                                     ) : (
                                         ''
                                     )}
@@ -146,6 +163,7 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
             ) : (
                 <GameRules {...gameConfig.gameRules} />
             )}
+            </div>
         </>
     );
 };

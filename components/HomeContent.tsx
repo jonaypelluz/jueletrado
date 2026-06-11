@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useIntl } from 'react-intl';
 import Games from '@components/Games';
 import Hero from '@components/Hero';
@@ -8,9 +8,7 @@ import LevelList from '@components/LevelList';
 import LoadingScreen from '@components/LoadingScreen';
 import MainLayout from '@layouts/MainLayout';
 import useLevelLoader from '@hooks/useLevelLoader';
-import Logger from '@services/Logger';
-import { getWords, loadDailyWordForLocale } from '@services/WordsService';
-import StorageService, { StorageKey } from '@store/StorageService';
+import { areWordGroupsCached } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import '@styles/HomeContent.scss';
 
@@ -24,20 +22,8 @@ const mainImageArray: string[] = [
 
 const HomeContent: React.FC = () => {
     const intl = useIntl();
-    const {
-        locale,
-        isLoading,
-        error,
-        gameLevel,
-        hydrated,
-        wordOfTheDay,
-        setError,
-        setLoading,
-        setWordOfTheDay,
-    } = useWordsContext();
+    const { error, gameLevel, hydrated } = useWordsContext();
     const { selectLevel } = useLevelLoader();
-    const [areWordsLoaded, setAreWordsLoaded] = useState<boolean>(false);
-    const [wordGroupsLoaded, setWordGroupsLoaded] = useState<boolean>(false);
     // Keep the random hero image stable across renders. Picking it inside a
     // useState initializer would re-randomize between server and client; this
     // effect picks it once after mount to avoid hydration mismatch.
@@ -47,129 +33,29 @@ const HomeContent: React.FC = () => {
     }, []);
 
     const handlePopulateDBClick = (level: string) => {
-        setAreWordsLoaded(false);
-        setWordGroupsLoaded(false);
-        selectLevel(level, () => setAreWordsLoaded(true));
+        selectLevel(level);
     };
 
-    // Load the daily word as soon as the locale is known — no level selection required.
+    // General (initial) load: on first hydration, if the user has a stored
+    // level but the word-group caches have expired, reload them through the
+    // same serialized level-load chain used by level switches. Runs once.
+    const initialCheckDone = useRef(false);
     useEffect(() => {
-        if (!hydrated || wordOfTheDay) return;
-        loadDailyWordForLocale(locale).then((word) => {
-            if (word) setWordOfTheDay(word);
-        });
-    }, [hydrated, locale, wordOfTheDay, setWordOfTheDay]);
+        if (!hydrated || initialCheckDone.current) return;
+        initialCheckDone.current = true;
 
-    // After hydration, if the user has a stored level but word groups have expired, re-fetch them.
-    useEffect(() => {
-        if (!hydrated || !gameLevel || areWordsLoaded) return;
-
-        const groupKeys: StorageKey[] = [
-            StorageService.WORDS_DAILY,
-            StorageService.WORDS_FINDER,
-            StorageService.WORDS_TOWER,
-            StorageService.WORDS_RAIN,
-        ];
-        const allPresent = groupKeys.every((key) => {
-            const g = StorageService.getItem<string[]>(key);
-            return g && g.length > 0;
-        });
-
-        if (allPresent) {
-            setWordGroupsLoaded(true);
-        } else {
-            setAreWordsLoaded(true);
+        if (gameLevel && !areWordGroupsCached()) {
+            selectLevel(gameLevel);
         }
-    }, [hydrated, gameLevel, areWordsLoaded]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [hydrated, gameLevel]);
 
-    useEffect(() => {
-        if (areWordsLoaded) {
-            const wordGroups: {
-                count: number;
-                key: StorageKey;
-                maxLength?: number;
-                minLength?: number;
-            }[] = [
-                // WORDS_DAILY: 7 words, one drawn per day (24h TTL applied when storing the daily word).
-                { count: 7, key: StorageService.WORDS_DAILY, minLength: 4 },
-                // WORDS_FINDER: persistent queue, 10 words/session × 6 sessions before refetch.
-                { count: 60, key: StorageService.WORDS_FINDER, maxLength: 9, minLength: 4 },
-                // WORDS_TOWER: persistent queue, 15 words/session × 8 sessions before refetch.
-                { count: 120, key: StorageService.WORDS_TOWER, minLength: 4 },
-                // WORDS_RAIN: cycling pool, 150 words (looped, not consumed).
-                // Oversized — some words lose all invalid variants after dictionary validation.
-                { count: 150, key: StorageService.WORDS_RAIN, minLength: 4 },
-            ];
-
-            const fetchAndStoreWords = async (group: {
-                count: number;
-                key: StorageKey;
-                maxLength?: number;
-                minLength?: number;
-            }): Promise<void> => {
-                const storedWords = StorageService.getItem<string[]>(group.key);
-
-                if (!storedWords || storedWords.length === 0) {
-                    try {
-                        const words = await getWords(
-                            gameLevel,
-                            locale,
-                            group.count,
-                            setError,
-                            group.maxLength ?? null,
-                            group.minLength ?? null,
-                        );
-                        if (words && words.length > 0) {
-                            StorageService.setItem(group.key, words, 3600000);
-                        } else {
-                            throw new Error(`No words fetched for group: ${group.key}`);
-                        }
-                    } catch (err) {
-                        Logger.error('Error fetching words for group:', group.key, err);
-                        throw err;
-                    }
-                }
-            };
-
-            Promise.all(wordGroups.map((group) => fetchAndStoreWords(group)))
-                .then(() => {
-                    setWordGroupsLoaded(true);
-                })
-                .catch((err) => {
-                    Logger.error('Error in loading word groups:', err);
-                });
-        }
-    }, [areWordsLoaded, gameLevel, locale, setError]);
-
-    useEffect(() => {
-        if (wordGroupsLoaded) {
-            const storedDailyWord = StorageService.getItem<string>(
-                StorageService.SELECTED_DAY_WORD,
-            );
-
-            if (!storedDailyWord) {
-                const wordsGroup20 = StorageService.getItem<string[]>(
-                    StorageService.WORDS_DAILY,
-                );
-                if (wordsGroup20 && wordsGroup20.length > 0) {
-                    const dailyWord = wordsGroup20[0];
-                    StorageService.setItem(
-                        StorageService.SELECTED_DAY_WORD,
-                        dailyWord,
-                        86400000,
-                    );
-                    setWordOfTheDay(dailyWord);
-                    setLoading(false);
-                }
-            } else {
-                setWordOfTheDay(storedDailyWord);
-                setLoading(false);
-            }
-        }
-    }, [wordGroupsLoaded, setLoading, setWordOfTheDay]);
-
-    if (isLoading || error) {
-        return <LoadingScreen rotateMessages />;
+    if (error) {
+        return (
+            <MainLayout>
+                <LoadingScreen rotateMessages />
+            </MainLayout>
+        );
     }
 
     return (

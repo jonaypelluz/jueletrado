@@ -6,6 +6,9 @@ import { GamesRoutes } from '@config/translations/Games';
 import StorageService from '@store/StorageService';
 
 interface WordsContextValue {
+    /** True until the initial page data (level + word groups) is ready. Gates level switching. */
+    generalLoading: boolean;
+    setGeneralLoading: React.Dispatch<React.SetStateAction<boolean>>;
     isLoading: boolean;
     setLoading: React.Dispatch<React.SetStateAction<boolean>>;
     loadingProgress: number;
@@ -40,6 +43,9 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
     // All state starts with deterministic SSR-safe defaults so the server
     // and the first client render match. We hydrate from localStorage in
     // a single effect after mount.
+    // Starts false so the banner/spinner are hidden on the very first paint
+    // (and in the statically exported HTML); actual loads flip isLoading on.
+    const [generalLoading, setGeneralLoading] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
     const [loadingProgress, setLoadingProgress] = useState(0);
     const [error, setError] = useState<Error | null>(null);
@@ -61,6 +67,11 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
             setLocaleState(storedLocale);
         }
         setHydrated(true);
+        // Pages without HomeContent (e.g. game pages) never run the initial
+        // word-group check, so the general flag must clear here; on the home
+        // page HomeContent immediately re-takes over via isLoading if a
+        // reload is needed.
+        setGeneralLoading(false);
     }, [initialLocale]);
 
     const setLocale = (newLocale: string) => {
@@ -76,6 +87,8 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
     const currentRoutes = { ...ContentRoutes[locale], ...GamesRoutes[locale] };
 
     const value: WordsContextValue = {
+        generalLoading,
+        setGeneralLoading,
         isLoading,
         setLoading: setIsLoading,
         loadingProgress,

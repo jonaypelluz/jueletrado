@@ -19,6 +19,8 @@ export interface ICell {
     color: string;
     filled: boolean;
     isCorrect: boolean;
+    isHint?: boolean;
+    isLocked?: boolean;
 }
 
 export interface GamePreConfig extends Omit<

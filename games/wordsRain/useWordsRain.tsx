@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import WordGameProcessor from '@utils/WordGameProcessor';
 import { FallingWordItem, RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
-import { getFullWordSet } from '@services/WordsService';
+import { getFullWordSet, getWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
@@ -21,7 +21,7 @@ const MINIMUM_TIMER_SPEED = 1;
 const GAME_OVER_FREEZE_MS = 600;
 
 const useWordsRain = () => {
-    const { locale, gameLevel, error, setError, setLoadingProgress } = useWordsContext();
+    const { locale, gameLevel, error, setError, setLoading, setLoadingProgress } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
 
     const [timer, setTimer] = useState(0);
@@ -238,11 +238,18 @@ const useWordsRain = () => {
 
         const init = async () => {
             setIsLoadingWords(true);
+            setLoading(true);
             const set = await getFullWordSet(locale, setError, setLoadingProgress);
             const processor = new WordGameProcessor(locale, set);
 
-            const storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);
-            if (storedWords) {
+            let storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);
+            if (!storedWords || storedWords.length === 0) {
+                storedWords = (await getWords(gameLevel, locale, 150, setError, null, 4)) ?? null;
+                if (storedWords && storedWords.length > 0) {
+                    StorageService.setItem(StorageService.WORDS_RAIN, storedWords, 3600000);
+                }
+            }
+            if (storedWords && storedWords.length > 0) {
                 const gameWords = storedWords.map(w => processor.processWord(w));
                 const finalGameWords = gameWords.map(arr =>
                     arr.length === 1 ? processor.processWordWithAccent(arr[0]) : arr
@@ -262,6 +269,7 @@ const useWordsRain = () => {
                 Logger.error(errorMsg);
             }
             setIsLoadingWords(false);
+            setLoading(false);
         };
 
         init();
