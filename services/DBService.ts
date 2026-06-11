@@ -153,7 +153,7 @@ class DBService {
                     const request = store.count();
 
                     request.onsuccess = () => {
-                        const isPopulated = request.result > minimumPopulatedCount;
+                        const isPopulated = request.result >= minimumPopulatedCount;
                         this.isPopulatedMap.set(`${level}_${locale}`, isPopulated);
                         this.logger.log(
                             `Database check: Populated status for ${level} ${locale} - ${isPopulated}`,

@@ -8,6 +8,22 @@ type SetLoadingProgressFunction = (progress: number) => void;
 
 type LevelsPopulatedMap = Record<string, Record<string, boolean>>;
 
+// dbService is a singleton whose mutable storeName is read at transaction
+// time, so two IndexedDB flows running between each other's awaits clobber
+// each other's store (e.g. the background daily-word load racing the first
+// level selection). This promise-chain mutex serializes every DB-touching
+// operation in this module. Operations must NOT nest inside each other's
+// lock (that would deadlock) — wrap only top-level entry points.
+let dbQueue: Promise<unknown> = Promise.resolve();
+const withDBLock = <T>(task: () => Promise<T>): Promise<T> => {
+    const run = dbQueue.then(task, task);
+    dbQueue = run.then(
+        () => undefined,
+        () => undefined,
+    );
+    return run;
+};
+
 const WORD_GROUP_KEYS = [
     StorageService.WORDS_DAILY,
     StorageService.WORDS_FINDER,
@@ -19,6 +35,67 @@ const WORD_GROUP_KEYS = [
 const clearWordGroupCaches = (): void => {
     for (const key of WORD_GROUP_KEYS) {
         StorageService.removeItem(key);
+    }
+};
+
+/** True when every per-game word cache has a non-empty word list. */
+const areWordGroupsCached = (): boolean =>
+    WORD_GROUP_KEYS.every((key) => {
+        const group = StorageService.getItem<string[]>(key);
+        return !!group && group.length > 0;
+    });
+
+const WORD_GROUP_FETCH_CONFIG: {
+    count: number;
+    key: import('@store/StorageService').StorageKey;
+    maxLength?: number;
+    minLength?: number;
+}[] = [
+    // WORDS_DAILY: 7 words, one drawn per day (24h TTL applied when storing the daily word).
+    { count: 7, key: StorageService.WORDS_DAILY, minLength: 4 },
+    // WORDS_FINDER: persistent queue, 10 words/session × 6 sessions before refetch.
+    { count: 60, key: StorageService.WORDS_FINDER, maxLength: 9, minLength: 4 },
+    // WORDS_TOWER: persistent queue, 15 words/session × 8 sessions before refetch.
+    { count: 120, key: StorageService.WORDS_TOWER, minLength: 4 },
+    // WORDS_RAIN: cycling pool, 150 words (looped, not consumed).
+    // Oversized — some words lose all invalid variants after dictionary validation.
+    { count: 150, key: StorageService.WORDS_RAIN, minLength: 4 },
+];
+
+/**
+ * Fetches and caches every per-game word group for the given level (skipping
+ * groups already cached). Returns false if any group failed to load.
+ */
+const prefetchWordGroups = async (
+    level: string | null,
+    locale: string,
+    setError: SetErrorFunction,
+): Promise<boolean> => {
+    try {
+        await Promise.all(
+            WORD_GROUP_FETCH_CONFIG.map(async (group) => {
+                const storedWords = StorageService.getItem<string[]>(group.key);
+                if (storedWords && storedWords.length > 0) return;
+
+                const words = await getWords(
+                    level,
+                    locale,
+                    group.count,
+                    setError,
+                    group.maxLength ?? null,
+                    group.minLength ?? null,
+                );
+                if (words && words.length > 0) {
+                    StorageService.setItem(group.key, words, 3600000);
+                } else {
+                    throw new Error(`No words fetched for group: ${group.key}`);
+                }
+            }),
+        );
+        return true;
+    } catch (error) {
+        Logger.error('Error in loading word groups:', error);
+        return false;
     }
 };
 
@@ -60,7 +137,7 @@ const loadDefinition = async (letter: string, locale: string): Promise<Record<st
     }
 };
 
-const populateWordsDB = async (
+const populateWordsDBImpl = async (
     level: string | null,
     locale: string,
     setError: SetErrorFunction,
@@ -128,7 +205,7 @@ const populateWordsDB = async (
     }
 };
 
-const getAllWords = async (
+const getAllWordsImpl = async (
     level: string | null,
     locale: string,
     setError: SetErrorFunction,
@@ -154,7 +231,7 @@ const getAllWords = async (
     }
 };
 
-const getWords = async (
+const getWordsImpl = async (
     level: string | null,
     locale: string,
     count: number,
@@ -194,7 +271,7 @@ const getWords = async (
     }
 };
 
-const deleteWordsDB = async (setError: SetErrorFunction): Promise<void> => {
+const deleteWordsDBImpl = async (setError: SetErrorFunction): Promise<void> => {
     try {
         await dbService.deleteDatabase();
         Logger.log('Words database successfully deleted');
@@ -268,7 +345,7 @@ const getSessionWords = async (
 
 const levelWordSetCache = new Map<string, Set<string>>();
 
-const getLevelWordSet = async (
+const getLevelWordSetImpl = async (
     level: string | null,
     locale: string,
 ): Promise<Set<string>> => {
@@ -323,7 +400,7 @@ const getFullWordSet = async (
  * stores it with a 24h TTL, and returns it.
  * Errors are swallowed — the caller should handle a null return gracefully.
  */
-const loadDailyWordForLocale = async (locale: string): Promise<string | null> => {
+const loadDailyWordForLocaleImpl = async (locale: string): Promise<string | null> => {
     const stored = StorageService.getItem<string>(StorageService.SELECTED_DAY_WORD);
     if (stored) return stored;
 
@@ -344,8 +421,6 @@ const loadDailyWordForLocale = async (locale: string): Promise<string | null> =>
             }
         }
 
-        markLevelPopulated('beginner', locale);
-
         const [word] = await dbService.getRandomWords(1);
         if (!word) return null;
 
@@ -356,6 +431,20 @@ const loadDailyWordForLocale = async (locale: string): Promise<string | null> =>
         return null;
     }
 };
+
+// Locked entry points — see withDBLock. Helpers that already call a locked
+// function (prefetchWordGroups, getSessionWords, getFullWordSet) stay
+// unlocked to avoid deadlocking on their own queue entry.
+const populateWordsDB: typeof populateWordsDBImpl = (...args) =>
+    withDBLock(() => populateWordsDBImpl(...args));
+const getAllWords: typeof getAllWordsImpl = (...args) => withDBLock(() => getAllWordsImpl(...args));
+const getWords: typeof getWordsImpl = (...args) => withDBLock(() => getWordsImpl(...args));
+const deleteWordsDB: typeof deleteWordsDBImpl = (...args) =>
+    withDBLock(() => deleteWordsDBImpl(...args));
+const getLevelWordSet: typeof getLevelWordSetImpl = (...args) =>
+    withDBLock(() => getLevelWordSetImpl(...args));
+const loadDailyWordForLocale: typeof loadDailyWordForLocaleImpl = (...args) =>
+    withDBLock(() => loadDailyWordForLocaleImpl(...args));
 
 export {
     populateWordsDB,
@@ -368,6 +457,8 @@ export {
     getFullWordSet,
     getSessionWords,
     clearWordGroupCaches,
+    areWordGroupsCached,
+    prefetchWordGroups,
     isLevelPopulated,
     loadDailyWordForLocale,
 };

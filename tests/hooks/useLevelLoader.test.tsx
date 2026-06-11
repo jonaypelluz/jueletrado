@@ -3,21 +3,24 @@ import {
     clearWordGroupCaches,
     isLevelPopulated,
     populateWordsDB,
+    prefetchWordGroups,
 } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
-import useLevelLoader from '@hooks/useLevelLoader';
+import useLevelLoader, { __resetLevelLoaderForTests } from '@hooks/useLevelLoader';
 
 jest.mock('@store/WordsContext');
 jest.mock('@services/WordsService', () => ({
     clearWordGroupCaches: jest.fn(),
     isLevelPopulated: jest.fn(),
     populateWordsDB: jest.fn(),
+    prefetchWordGroups: jest.fn(),
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
 const mockIsLevelPopulated = isLevelPopulated as jest.Mock;
 const mockPopulateWordsDB = populateWordsDB as jest.Mock;
+const mockPrefetchWordGroups = prefetchWordGroups as jest.Mock;
 const mockClearWordGroupCaches = clearWordGroupCaches as jest.Mock;
 
 const makeContext = () => ({
@@ -29,45 +32,73 @@ const makeContext = () => ({
 });
 
 describe('useLevelLoader', () => {
-    afterEach(() => {
-        jest.clearAllMocks();
+    beforeEach(() => {
+        __resetLevelLoaderForTests();
+        mockPrefetchWordGroups.mockResolvedValue(true);
+        jest.spyOn(StorageService, 'setItem').mockReturnValue(undefined);
+        jest.spyOn(StorageService, 'getItem').mockReturnValue(null);
     });
 
-    test('selectLevel uses fast path when level already populated', () => {
+    afterEach(() => {
+        jest.clearAllMocks();
+        jest.restoreAllMocks();
+    });
+
+    test('sets gameLevel immediately (optimistic), before any loading', async () => {
         const ctx = makeContext();
         mockUseWordsContext.mockReturnValue(ctx);
-        mockIsLevelPopulated.mockReturnValue(true);
-        jest.spyOn(StorageService, 'setItem').mockReturnValue(undefined);
+        mockIsLevelPopulated.mockReturnValue(false);
+        mockPopulateWordsDB.mockResolvedValue(true);
 
         const { result } = renderHook(() => useLevelLoader());
 
-        act(() => {
+        await act(async () => {
             result.current.selectLevel('beginner');
         });
 
-        expect(mockClearWordGroupCaches).toHaveBeenCalled();
-        expect(mockIsLevelPopulated).toHaveBeenCalledWith('beginner', 'es');
         expect(ctx.setGameLevel).toHaveBeenCalledWith('beginner');
-        expect(mockPopulateWordsDB).not.toHaveBeenCalled();
     });
 
-    test('fast path calls onAfterLoad callback', () => {
+    test('skips populateWordsDB when level already populated, still prefetches groups', async () => {
         const ctx = makeContext();
         mockUseWordsContext.mockReturnValue(ctx);
         mockIsLevelPopulated.mockReturnValue(true);
-        jest.spyOn(StorageService, 'setItem').mockReturnValue(undefined);
-        const callback = jest.fn();
 
         const { result } = renderHook(() => useLevelLoader());
 
-        act(() => {
-            result.current.selectLevel('beginner', callback);
+        await act(async () => {
+            result.current.selectLevel('beginner');
         });
 
-        expect(callback).toHaveBeenCalledTimes(1);
+        expect(mockPopulateWordsDB).not.toHaveBeenCalled();
+        expect(mockClearWordGroupCaches).toHaveBeenCalled();
+        expect(mockPrefetchWordGroups).toHaveBeenCalledWith('beginner', 'es', ctx.setError);
+        expect(ctx.setLoading).toHaveBeenCalledWith(true);
+        expect(ctx.setLoading).toHaveBeenLastCalledWith(false);
     });
 
-    test('fast path stores selected level in StorageService', () => {
+    test('populates DB when level not populated', async () => {
+        const ctx = makeContext();
+        mockUseWordsContext.mockReturnValue(ctx);
+        mockIsLevelPopulated.mockReturnValue(false);
+        mockPopulateWordsDB.mockResolvedValue(true);
+
+        const { result } = renderHook(() => useLevelLoader());
+
+        await act(async () => {
+            result.current.selectLevel('advanced');
+        });
+
+        expect(mockPopulateWordsDB).toHaveBeenCalledWith(
+            'advanced',
+            'es',
+            ctx.setError,
+            ctx.setLoadingProgress,
+        );
+        expect(mockPrefetchWordGroups).toHaveBeenCalledWith('advanced', 'es', ctx.setError);
+    });
+
+    test('stores selected level after successful load', async () => {
         const ctx = makeContext();
         mockUseWordsContext.mockReturnValue(ctx);
         mockIsLevelPopulated.mockReturnValue(true);
@@ -75,7 +106,7 @@ describe('useLevelLoader', () => {
 
         const { result } = renderHook(() => useLevelLoader());
 
-        act(() => {
+        await act(async () => {
             result.current.selectLevel('intermediate');
         });
 
@@ -86,51 +117,12 @@ describe('useLevelLoader', () => {
         );
     });
 
-    test('selectLevel calls populateWordsDB when level not populated', async () => {
-        const ctx = makeContext();
-        mockUseWordsContext.mockReturnValue(ctx);
-        mockIsLevelPopulated.mockReturnValue(false);
-        mockPopulateWordsDB.mockResolvedValue(true);
-        jest.spyOn(StorageService, 'setItem').mockReturnValue(undefined);
-
-        const { result } = renderHook(() => useLevelLoader());
-
-        await act(async () => {
-            result.current.selectLevel('advanced');
-        });
-
-        expect(ctx.setLoading).toHaveBeenCalledWith(true);
-        expect(mockPopulateWordsDB).toHaveBeenCalledWith(
-            'advanced',
-            'es',
-            ctx.setError,
-            ctx.setLoadingProgress,
-        );
-    });
-
-    test('slow path sets gameLevel and calls onAfterLoad after populate', async () => {
-        const ctx = makeContext();
-        mockUseWordsContext.mockReturnValue(ctx);
-        mockIsLevelPopulated.mockReturnValue(false);
-        mockPopulateWordsDB.mockResolvedValue(true);
-        jest.spyOn(StorageService, 'setItem').mockReturnValue(undefined);
-        const callback = jest.fn();
-
-        const { result } = renderHook(() => useLevelLoader());
-
-        await act(async () => {
-            result.current.selectLevel('advanced', callback);
-        });
-
-        expect(ctx.setGameLevel).toHaveBeenCalledWith('advanced');
-        expect(callback).toHaveBeenCalledTimes(1);
-    });
-
-    test('slow path does not set gameLevel when populateWordsDB returns false', async () => {
+    test('does not persist level or prefetch when populateWordsDB fails, but still clears loading', async () => {
         const ctx = makeContext();
         mockUseWordsContext.mockReturnValue(ctx);
         mockIsLevelPopulated.mockReturnValue(false);
         mockPopulateWordsDB.mockResolvedValue(false);
+        const setItemSpy = jest.spyOn(StorageService, 'setItem').mockReturnValue(undefined);
 
         const { result } = renderHook(() => useLevelLoader());
 
@@ -138,18 +130,71 @@ describe('useLevelLoader', () => {
             result.current.selectLevel('beginner');
         });
 
-        expect(ctx.setGameLevel).not.toHaveBeenCalled();
+        expect(ctx.setGameLevel).toHaveBeenCalledWith('beginner');
+        expect(setItemSpy).not.toHaveBeenCalledWith(
+            StorageService.SELECTED_LEVEL,
+            expect.anything(),
+            expect.anything(),
+        );
+        expect(mockPrefetchWordGroups).not.toHaveBeenCalled();
+        expect(ctx.setLoading).toHaveBeenLastCalledWith(false);
     });
 
-    test('second selectLevel call while populating is ignored', async () => {
+    test('level switch during load is queued and runs after, spinner stays on throughout', async () => {
         const ctx = makeContext();
         mockUseWordsContext.mockReturnValue(ctx);
         mockIsLevelPopulated.mockReturnValue(false);
 
-        let resolvePopulate!: (val: boolean) => void;
-        mockPopulateWordsDB.mockReturnValue(
+        let resolveFirst!: (val: boolean) => void;
+        mockPopulateWordsDB
+            .mockReturnValueOnce(
+                new Promise<boolean>((res) => {
+                    resolveFirst = res;
+                }),
+            )
+            .mockResolvedValue(true);
+
+        const { result } = renderHook(() => useLevelLoader());
+
+        act(() => {
+            result.current.selectLevel('beginner');
+        });
+
+        // Switch while first load is in-flight — name changes, load queued.
+        act(() => {
+            result.current.selectLevel('advanced');
+        });
+
+        expect(ctx.setGameLevel).toHaveBeenCalledWith('advanced');
+        expect(mockPopulateWordsDB).toHaveBeenCalledTimes(1);
+
+        await act(async () => {
+            resolveFirst(true);
+        });
+
+        // Queued level loaded after the first finished.
+        expect(mockPopulateWordsDB).toHaveBeenCalledTimes(2);
+        expect(mockPopulateWordsDB).toHaveBeenLastCalledWith(
+            'advanced',
+            'es',
+            ctx.setError,
+            ctx.setLoadingProgress,
+        );
+        // Loading never flipped off between the two loads.
+        const calls = ctx.setLoading.mock.calls.map((c: boolean[]) => c[0]);
+        expect(calls.filter((v: boolean) => v === false)).toHaveLength(1);
+        expect(calls[calls.length - 1]).toBe(false);
+    });
+
+    test('re-selecting the same level during load does not reload it', async () => {
+        const ctx = makeContext();
+        mockUseWordsContext.mockReturnValue(ctx);
+        mockIsLevelPopulated.mockReturnValue(false);
+
+        let resolveFirst!: (val: boolean) => void;
+        mockPopulateWordsDB.mockReturnValueOnce(
             new Promise<boolean>((res) => {
-                resolvePopulate = res;
+                resolveFirst = res;
             }),
         );
 
@@ -158,16 +203,15 @@ describe('useLevelLoader', () => {
         act(() => {
             result.current.selectLevel('beginner');
         });
-
-        // second call while first is in-flight — should be ignored
         act(() => {
-            result.current.selectLevel('advanced');
+            result.current.selectLevel('beginner');
+        });
+
+        await act(async () => {
+            resolveFirst(true);
         });
 
         expect(mockPopulateWordsDB).toHaveBeenCalledTimes(1);
-
-        await act(async () => {
-            resolvePopulate(true);
-        });
+        expect(ctx.setLoading).toHaveBeenLastCalledWith(false);
     });
 });

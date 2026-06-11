@@ -5,6 +5,8 @@
         "^.+\\.tsx?$": ["ts-jest", { "tsconfig": { "jsx": "react-jsx" } }]
     },
     "moduleNameMapper": {
+        "\\.(css|less|sass|scss)$": "identity-obj-proxy",
+        "\\.svg$": "<rootDir>/tests/__mocks__/svgMock.tsx",
         "^@/(.*)$": "<rootDir>/$1",
         "^@games/(.*)$": "<rootDir>/games/$1",
         "^@models/(.*)$": "<rootDir>/models/$1",
@@ -19,9 +21,7 @@
         "^@styles/(.*)$": "<rootDir>/styles/$1",
         "^next/link$": "<rootDir>/tests/__mocks__/nextLink.tsx",
         "^next/router$": "<rootDir>/tests/__mocks__/nextRouter.ts",
-        "^next/dynamic$": "<rootDir>/tests/__mocks__/nextDynamic.tsx",
-        "\\.(css|less|sass|scss)$": "identity-obj-proxy",
-        "\\.svg$": "<rootDir>/tests/__mocks__/svgMock.tsx"
+        "^next/dynamic$": "<rootDir>/tests/__mocks__/nextDynamic.tsx"
     },
     "setupFiles": ["<rootDir>/tests/settings/env-setup.ts"],
     "setupFilesAfterEnv": ["<rootDir>/tests/settings/jest.setup.ts"]

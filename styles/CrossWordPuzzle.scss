@@ -1,6 +1,22 @@
 @use '@styles/common.scss';
 @use '@styles/LoadingSpinner.scss';
 
+.crossword-wrapper {
+    @extend .game-wrapper;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 0;
+
+    .game-rules {
+        border-radius: 0;
+    }
+
+    &::before {
+        opacity: 0.3;
+        background-image: url('/games/crossWordPuzzleBg.png');
+    }
+}
+
 .crossword-loading {
     display: flex;
     flex-direction: column;
@@ -19,8 +35,11 @@
 .crossword-sidebar {
     @extend .game-wrapper;
     padding: 12px;
+    margin-top: 0;
+    border: none;
     background-color: #fff;
-    margin-right: 20px;
+    border-radius: 0;
+    box-sizing: border-box;
     width: 100%;
     max-width: 200px;
 
@@ -63,9 +82,12 @@
 .crossword-grid-container {
     @extend .game-wrapper;
     padding: 12px;
+    margin-top: 0;
+    border: none;
     background-color: #fff;
     display: grid;
     gap: 1px;
+    border-radius: 0;
 
     &::before {
         opacity: 0.2;
@@ -83,6 +105,17 @@
     input {
         box-sizing: border-box;
     }
+
+    .crossword-hint-cell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor: default;
+        user-select: none;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -92,14 +125,12 @@
 
     .crossword-sidebar {
         max-width: 100%;
-        margin-right: 0;
-        margin-bottom: 12px;
-        order: 2;
+        order: 1;
         min-height: auto;
     }
 
     .crossword-grid-container {
-        order: 1;
+        order: 2;
         min-height: auto;
         grid-template-columns: repeat(15, 1fr) !important;
     }
@@ -119,11 +150,3 @@
     }
 }
 
-.crossword-wrapper {
-    @extend .game-wrapper;
-
-    &::before {
-        opacity: 0.3;
-        background-image: url('/games/crossWordPuzzleBg.png');
-    }
-}

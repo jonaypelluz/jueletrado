@@ -43,7 +43,7 @@ const matrixInitialState = (): ICell[][] =>
         .map(() =>
             Array(GRID_SIZE)
                 .fill(null)
-                .map(() => ({ char: '', color: '', filled: false, isCorrect: false })),
+                .map(() => ({ char: '', color: '', filled: false, isCorrect: false, isHint: false, isLocked: false })),
         );
 
 const useCrossWordPuzzle = () => {
@@ -171,6 +171,16 @@ const useCrossWordPuzzle = () => {
             addWordToCrosswordMatrix(word, position, wordDirection, color);
         }
 
+        // Reveal the first letter of the first word as a hint.
+        const hintMatrix = workingMatrixRef.current.map((row) => [...row]);
+        hintMatrix[position.row][position.col] = {
+            ...hintMatrix[position.row][position.col],
+            isHint: true,
+            isCorrect: true,
+        };
+        workingMatrixRef.current = hintMatrix;
+        setCrossword(hintMatrix);
+
         const wordDefinitions = allDefinitions[word] ?? [];
         const randomDef = wordDefinitions[Math.floor(Math.random() * wordDefinitions.length)];
         setSelectedWords((prevWords: SelectedWord) => ({
@@ -254,18 +264,24 @@ const useCrossWordPuzzle = () => {
 
         for (let i = 0; i < word.length; i++) {
             if (direction === 'horizontal') {
+                const existing = matrix[position.row][position.col + i];
                 matrix[position.row][position.col + i] = {
                     char: word[i],
-                    color: matrix[position.row][position.col + i].filled ? '#808080' : color,
+                    color: existing.filled ? '#808080' : color,
                     filled: true,
-                    isCorrect: false,
+                    isCorrect: existing.isHint || existing.isLocked ? true : false,
+                    isHint: existing.isHint ?? false,
+                    isLocked: existing.isLocked ?? false,
                 };
             } else {
+                const existing = matrix[position.row + i][position.col];
                 matrix[position.row + i][position.col] = {
                     char: word[i],
-                    color: matrix[position.row + i][position.col].filled ? '#808080' : color,
+                    color: existing.filled ? '#808080' : color,
                     filled: true,
-                    isCorrect: false,
+                    isCorrect: existing.isHint || existing.isLocked ? true : false,
+                    isHint: existing.isHint ?? false,
+                    isLocked: existing.isLocked ?? false,
                 };
             }
         }
@@ -438,13 +454,15 @@ const useCrossWordPuzzle = () => {
                     newCrossword[i][j] = { ...newCrossword[i][j], isCorrect: false };
                 }
             }
-            setCrossword(newCrossword);
-            checkCompletedWords(newCrossword);
-            checkCrosswordComplete(newCrossword);
+            const lockedCrossword = checkCompletedWords(newCrossword);
+            setCrossword(lockedCrossword);
+            checkCrosswordComplete(lockedCrossword);
         };
 
-    const checkCompletedWords = (matrix: ICell[][]): void => {
+    const checkCompletedWords = (matrix: ICell[][]): ICell[][] => {
         const newCompleted = new Set<string>();
+        const updated = matrix.map((row) => [...row]);
+
         Object.entries(selectedWords).forEach(([wordKey, wordData]) => {
             let isCompleted = true;
             for (let i = 0; i < wordKey.length; i++) {
@@ -457,9 +475,26 @@ const useCrossWordPuzzle = () => {
                     break;
                 }
             }
-            if (isCompleted) newCompleted.add(wordKey);
+            if (isCompleted) {
+                newCompleted.add(wordKey);
+                for (let i = 0; i < wordKey.length; i++) {
+                    if (wordData.direction === 'horizontal') {
+                        updated[wordData.position.row][wordData.position.col + i] = {
+                            ...updated[wordData.position.row][wordData.position.col + i],
+                            isLocked: true,
+                        };
+                    } else {
+                        updated[wordData.position.row + i][wordData.position.col] = {
+                            ...updated[wordData.position.row + i][wordData.position.col],
+                            isLocked: true,
+                        };
+                    }
+                }
+            }
         });
+
         setCompletedWords(newCompleted);
+        return updated;
     };
 
     const checkCrosswordComplete = (matrix: ICell[][]): void => {

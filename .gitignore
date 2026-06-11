@@ -22,11 +22,12 @@
 !.claude/STACK.md
 !.claude/PROJECT.md
 !.claude/settings.json
-!.claude/hooks/
-!.claude/hooks/**
 !.claude/memory/
 !.claude/memory/**
+!.claude/statusline-command.sh
 .claude/memory/plan_security_dependency_updates.md
+.claude/memory/feedback_never_commit_nextconfig_basepath.md
+.claude/memory/feedback_no_proactive_branches.md
 
 # debug
 npm-debug.log*

@@ -6,6 +6,8 @@ import { usePathname } from 'next/navigation';
 import { FormattedMessage, useIntl } from 'react-intl';
 import LevelsConfig from '@config/LevelConfig';
 import { LevelConfig } from '@models/types';
+import LoadingBanner from '@components/LoadingBanner';
+import useDailyWord from '@hooks/useDailyWord';
 import useLevelLoader from '@hooks/useLevelLoader';
 import { useWordsContext } from '@store/WordsContext';
 import '@styles/Header.scss';
@@ -13,7 +15,9 @@ import '@styles/Header.scss';
 const Head: React.FC = () => {
     const intl = useIntl();
     const pathname = usePathname() ?? '/';
-    const { locale, wordOfTheDay, gameLevel, currentRoutes } = useWordsContext();
+    const { locale, wordOfTheDay, gameLevel, currentRoutes, generalLoading, isLoading } =
+        useWordsContext();
+    useDailyWord();
     const { selectLevel } = useLevelLoader();
     const [navOpen, setNavOpen] = useState(false);
     const [levelOpen, setLevelOpen] = useState(false);
@@ -70,6 +74,9 @@ const Head: React.FC = () => {
                         {gameLevel
                             ? levelTranslations[gameLevel]
                             : intl.formatMessage({ id: 'homeChoseLevel' })}
+                        {(generalLoading || isLoading) && (
+                            <span className="level-selector-spinner" aria-hidden="true" />
+                        )}
                     </button>
                     {levelOpen && (
                         <div className="level-selector-dropdown">
@@ -105,6 +112,7 @@ const Head: React.FC = () => {
                     </div>
                 )}
             </div>
+            <LoadingBanner />
         </header>
     );
 };
