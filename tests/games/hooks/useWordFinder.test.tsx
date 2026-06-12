@@ -57,6 +57,27 @@ describe('useWordFinder', () => {
         });
     });
 
+    test('calls getSessionWords with en locale when locale is en', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en', gameLevel: 'beginner' }));
+        const fakeWords = Array.from({ length: 10 }, (_, i) => `word${i}`);
+        mockGetSessionWords.mockResolvedValue(fakeWords);
+        jest.spyOn(StorageService, 'getItem').mockReturnValue(null);
+
+        renderHook(() => useWordFinder());
+
+        await waitFor(() => {
+            expect(mockGetSessionWords).toHaveBeenCalledWith(
+                StorageService.WORDS_FINDER,
+                10,
+                'beginner',
+                'en',
+                expect.any(Function),
+                { count: 60, maxLength: 4 },
+                20,
+            );
+        });
+    });
+
     test('returns gameLevel from context', () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner' }));
         mockGetSessionWords.mockResolvedValue([]);

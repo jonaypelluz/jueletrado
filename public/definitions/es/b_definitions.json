@@ -9207,5 +9207,65 @@
                 "definition": "Mil millones, que se expresa por la unidad seguida de nueve ceros."
             }
         ]
+    },
+    "balsero": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Encargado de conducir una balsa."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "En el Caribe, persona que intenta llegar en balsa ilegalmente a otro país."
+            }
+        ]
+    },
+    "bambalina": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Teatro. Cada una de las tiras colgadas del telar a lo ancho del escenario, que ocultan la parte superior de este y establecen la altura de la escena."
+            }
+        ]
+    },
+    "b": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Segunda letra del abecedario español, que representa el fonema consonántico bilabial sonoro."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Sonido que representa la letra b."
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Que queda fuera del control de la Hacienda pública."
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "En una clasificación: De rango secundario."
+            }
+        ]
+    },
+    "blog": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Sitio web que incluye, a modo de diario personal de su autor o autores, contenidos de su interés, actualizados con frecuencia y a menudo comentados por los lectores."
+            }
+        ]
     }
 }

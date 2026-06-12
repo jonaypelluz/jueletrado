@@ -52352,5 +52352,237 @@
                 "definition": "enajenar. Era."
             }
         ]
+    },
+    "anunció": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Dar noticia o aviso de algo; publicar, proclamar, hacer saber.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "comunicar, declarar, avisar, divulgar, informar, notificar, publicar, proclamar, advertir, pregonar."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "callar, ocultar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "pronosticar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "pronosticar, presagiar, augurar, predecir, adivinar, denunciar."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Hacer saber el nombre de un visitante a la persona por quien desea ser recibido.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "comunicar, declarar, avisar, divulgar, informar, notificar, publicar, proclamar, advertir, pregonar."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Dar publicidad a algo con fines de propaganda comercial.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "publicitar, promocionar."
+                    }
+                ]
+            }
+        ]
+    },
+    "arena": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Conjunto de partículas desagregadas de las rocas, sobre todo si son silíceas, y acumuladas, ya en las orillas del mar o de los ríos, ya en capas de los terrenos de acarreo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tierra, albero, polvo."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Metal o mineral reducido por la naturaleza o el arte a partes muy pequeñas."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "En un circo, anfiteatro o recinto similar, lugar del combate, lucha o espectáculo."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Ruedo de la plaza de toros.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ruedo, albero, redondel, coso1, plaza."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Piedras o concreciones pequeñas que se encuentran en la vejiga.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cálculo, piedra, arenillas, concreción."
+                    }
+                ]
+            }
+        ]
+    },
+    "as": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "En la baraja o el dado de póquer, elemento marcado con una sola señal.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "figura, punto."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Persona que sobresale de manera notable en un ejercicio o profesión.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "triunfador, vencedor, campeón, ganador, figura, crack."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Primitiva moneda romana, fundida en bronce y de peso variable hasta que se le fijó el de una libra. Después se acuñó y se le minoró el peso, pero conservando su valor de doce onzas."
+            }
+        ]
+    },
+    "atontar": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Aturdir o atolondrar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "atolondrar, aturdir, aturullar, ofuscar, desorientar, atarantar."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "espabilar, despertar1."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "entontecer (‖ poner tonto).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "entontecer, embobar, alelar, adundarse, apendejarse."
+                    }
+                ]
+            }
+        ]
+    },
+    "audio": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Técnica relacionada con la reproducción, grabación y transmisión del sonido."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Archivo de sonido."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Mensaje sonoro que se envía digitalmente."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Parte de la señal de televisión que corresponde al sonido."
+            }
+        ]
+    },
+    "auto": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "En la Edad Media y en el Renacimiento, pieza dramática de breves dimensiones basada en temas religiosos o profanos."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Resolución judicial motivada que decide cuestiones secundarias, previas, incidentales o de ejecución, para las que no se requiere sentencia.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fallo1, resolución, dictamen, sentencia."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Acto o hecho.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Documentos y escritos que recogen las actuaciones de un procedimiento judicial."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "automóvil (‖ coche).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "automóvil, coche1, vehículo, turismo, utilitario, carro1."
+                    }
+                ]
+            }
+        ]
     }
 }

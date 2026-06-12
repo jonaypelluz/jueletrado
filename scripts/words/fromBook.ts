@@ -5,7 +5,10 @@
  * 3. sortByFrequency.ts   — reclassify all levels using the frequency corpus
  *
  * Usage:
- *   tsx scripts/words/fromBook.ts <es|en> <bookFile>
+ *   tsx scripts/words/fromBook.ts <es|en> [bookFile]
+ *
+ * If bookFile is omitted, every .txt/.pdf/.epub file in ops/books/{locale}/
+ * is processed.
  */
 
 import { spawnSync } from 'child_process';
@@ -21,8 +24,8 @@ function run(args: string[]): boolean {
 function main(): void {
     const [, , locale, bookFile] = process.argv;
 
-    if (!locale || !bookFile) {
-        console.error('Usage: tsx scripts/words/fromBook.ts <es|en> <bookFile>');
+    if (!locale) {
+        console.error('Usage: tsx scripts/words/fromBook.ts <es|en> [bookFile]');
         process.exit(1);
     }
 
@@ -30,7 +33,10 @@ function main(): void {
     const advancedFile = path.join(ROOT, 'ops/scripts/words', locale, 'advanced_words.txt');
     const freqFile = path.join(ROOT, 'ops/scripts/frequency', `wordfreq_${locale}.txt`);
 
-    if (!run([path.join(ROOT, 'scripts/words/extractFromBook.ts'), locale, bookFile])) process.exit(1);
+    const extractArgs = [path.join(ROOT, 'scripts/words/extractFromBook.ts'), locale];
+    if (bookFile) extractArgs.push(bookFile);
+
+    if (!run(extractArgs)) process.exit(1);
     if (!run([path.join(ROOT, 'scripts/words/mergeWords.ts'), discoveredFile, advancedFile])) process.exit(1);
     if (!run([path.join(ROOT, 'scripts/words/sortByFrequency.ts'), locale, freqFile])) process.exit(1);
 

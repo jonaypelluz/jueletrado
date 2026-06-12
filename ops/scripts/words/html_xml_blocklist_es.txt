@@ -1,0 +1,18 @@
+# ES-specific blocklist — valid English words that are NOT valid Spanish.
+# Loaded in addition to html_xml_blocklist.txt when processing ES books.
+# One word per line. Lines starting with # are ignored.
+
+# HTML tags that are real English words
+body
+link
+style
+type
+class
+content
+alt
+nav
+
+# EPUB structure words that are real English words
+container
+manifest
+spine

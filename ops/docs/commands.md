@@ -115,11 +115,11 @@ Reads `ops/scripts/words/{locale}/{level}_words.txt`, sorts + dedupes, writes
 100k-word chunked JSON arrays to `public/words/{locale}/`, and updates
 `config/LevelConfig.ts`. Run this after any change to the `*_words.txt` files.
 
-### `yarn words:from-book <es|en> <bookFile>`
+### `yarn words:from-book <es|en> [bookFile]`
 
-Learns new words from a text file (e.g. a book). Runs, in order:
+Learns new words from book files. Runs, in order:
 
-1. **`extractFromBook.ts`** — tokenizes the book, filters out anything already
+1. **`extractFromBook.ts`** — tokenizes the book(s), filters out anything already
    in `public/definitions/`, `not-found.txt`, any `*_words.txt`, or a previous
    `discovered_words.txt` run. New words are appended to
    `ops/crawl-output/{locale}/discovered_words.txt` (never touches the
@@ -127,6 +127,24 @@ Learns new words from a text file (e.g. a book). Runs, in order:
 2. **`mergeWords.ts`** — appends `discovered_words.txt` into `advanced_words.txt`.
 3. **`sortByFrequency.ts`** — reclassifies all levels, so common new words land
    in `beginner`/`intermediate`.
+
+**Single file:** pass the path as the second argument.
+
+```
+yarn words:from-book es path/to/book.txt
+```
+
+**Batch mode:** drop any number of `.txt`, `.pdf`, or `.epub` files into
+`ops/books/{locale}/` and run without a second argument — all files are
+processed in one pass.
+
+```
+# put your books in ops/books/es/ or ops/books/en/
+yarn words:from-book es
+yarn words:from-book en
+```
+
+The `ops/books/` directories are gitignored (copyrighted material stays local).
 
 Run `yarn words:transform` afterwards to regenerate `public/words/` chunks, then
 `yarn crawl:all` to fetch definitions for the newly added words.

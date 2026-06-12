@@ -1,0 +1,5 @@
+# EN-specific blocklist — valid Spanish words that are NOT valid English.
+# Loaded in addition to html_xml_blocklist.txt when processing EN books.
+# One word per line. Lines starting with # are ignored.
+
+# Add entries here as needed.

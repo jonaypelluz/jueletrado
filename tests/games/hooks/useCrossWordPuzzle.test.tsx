@@ -103,6 +103,20 @@ describe('useCrossWordPuzzle', () => {
         expect(result.current.gridSizePixels).toBe(50);
     });
 
+    test('calls loadDefinition with en locale when locale is en', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en', gameLevel: 'beginner' }));
+
+        const { result } = renderHook(() => useCrossWordPuzzle());
+
+        await act(async () => {
+            result.current.handleGameStartClick();
+        });
+
+        await waitFor(() => {
+            expect(mockLoadDefinition).toHaveBeenCalledWith(expect.any(String), 'en');
+        });
+    });
+
     test('checkCellValue is a function', () => {
         mockUseWordsContext.mockReturnValue(makeContext());
 

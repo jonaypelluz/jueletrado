@@ -14691,5 +14691,1037 @@
                 "definition": "Conjunto de personas que profesan ideas reformistas o, en general, no conservadoras."
             }
         ]
+    },
+    "idea": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Primero y más obvio de los actos del entendimiento, que se limita al simple conocimiento de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "conocimiento, noción, comprensión, concepción, pensamiento, sensación, imaginación, concepto1, reflexión, designio."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Imagen o representación que del objeto percibido queda en la mente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "imagen, representación, modelo, arquetipo, percepción."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Conocimiento puro, racional, debido a las naturales condiciones del entendimiento humano.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "plan, planteamiento, concepción, proyecto, bosquejo, esbozo, boceto, diseño."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Plan y disposición que se ordena en la imaginación para la formación de una obra.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "asunto, materia, fondo2, tema, trama, esquema, plan."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Intención de hacer algo. frecuentemente en la construcción con idea de.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "intención, propósito, decisión, convicción, resolución, empeño."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Concepto, opinión o juicio formado de alguien o algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "juicio, concepto1, opinión, impresión, parecer2, criterio, sospecha."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Ingenio para disponer, inventar y trazar una cosa.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ingenio, aptitud, maña."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "ocurrencia (‖ idea inesperada).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ocurrencia, salida."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "manía (‖ preocupación extravagante).",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "chifladura, manía, chifladera, neura."
+                    }
+                ]
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "En el platonismo, ejemplar eterno e inmutable que de cada cosa criada existe en la mente divina."
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "Convicciones, creencias, opiniones.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ideales, convicciones, principios, creencia, ideario, credo, objetivo, meta, aspiración, deseo."
+                    }
+                ]
+            }
+        ]
+    },
+    "ideal": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la idea.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "conceptual, mental, imaginario, irreal, inmaterial, utópico."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Que no existe sino en el pensamiento.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "conceptual, mental, imaginario, irreal, inmaterial, utópico."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "real1, material."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Que se acopla perfectamente a una forma o arquetipo."
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Excelente, perfecto en su línea.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "perfecto, excelente, magnífico, maravilloso, genial, sublime, puro."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "pésimo."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Modelo perfecto que sirve de norma en cualquier dominio.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "prototipo, modelo, arquetipo, canon, dechado, ejemplar1."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Conjunto de ideas o de creencias de alguien.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ideas, convicciones, creencia, principios, ideario, credo, objetivo, meta, aspiración, deseo."
+                    }
+                ]
+            }
+        ]
+    },
+    "in": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Suele significar 'adentro' o 'al interior'."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Indica negación o privación."
+            }
+        ]
+    },
+    "increíble": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Que no se puede creer o es muy difícil de creer.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "inverosímil, inaudito, insólito, inconcebible, asombroso."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "creíble."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Admirable o extraordinario.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "inverosímil, inaudito, insólito, inconcebible, asombroso."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "creíble, verosímil."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Inaceptable o injustificable.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "inaceptable, injustificable, inadmisible."
+                    }
+                ]
+            }
+        ]
+    },
+    "india": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Abundancia de riquezas."
+            }
+        ]
+    },
+    "índice": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Indicio o señal de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "indicio, señal, indicador, atisbo, vislumbre."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "En un libro u otra publicación, lista ordenada de los capítulos, artículos, materias, voces, etc., en él contenidos, con indicación del lugar donde aparecen.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "glosario, nomenclátor."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Catálogo de las obras conservadas en una biblioteca, archivo, etc., clasificadas según diversos criterios.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "catálogo, inventario, registro, clasificación, censo."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "En una biblioteca pública, pieza o departamento donde está el catálogo."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Cada una de las manecillas de un reloj o de las agujas y otros elementos indicadores de los instrumentos graduados, tales como barómetros, termómetros, higrómetros, etc."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Gnomon de un cuadrante solar."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Expresión numérica de la relación entre dos cantidades.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tasa."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "dedo índice.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "lameplatos."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "Número o letra que se coloca en la abertura del signo radical y sirve para indicar el grado de la raíz."
+            }
+        ]
+    },
+    "individual": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Que concierne o corresponde al individuo (‖ persona cuyo nombre se ignora).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "personal, privado1, particular, inalienable."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "colectivo, grupal."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Que es de cada individuo o para un solo individuo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "singular, particular."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "colectivo, grupal."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Que tiene carácter particular e independiente dentro de un conjunto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "particular, peculiar, propio."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "general."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Dicho de una competición deportiva: Que se desarrolla en partidos en los que dos participantes se enfrentan entre sí."
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "Preciso, exacto.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "industrial": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la industria.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fabril, manufacturero."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Persona que vive del ejercicio de una industria o es propietario de ella.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fabricante, productor, empresario, constructor, ejecutor."
+                    }
+                ]
+            }
+        ]
+    },
+    "informó": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Enterar o dar noticia de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "anunciar, comunicar, reportar, advertir, indicar, avisar, documentar, revelar, notificar, prevenir, reseñar, participar, instruir, publicar, enterar, noticiar, palabrearse."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "callar, ocultar, desinformar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Dicho de una persona o de un organismo: Completar un documento con un informe de su competencia."
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Fundamentar, inspirar."
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Dar forma sustancial a algo."
+            },
+            {
+                "number": "5",
+                "type": "verb",
+                "definition": "Formar, perfeccionar a alguien por medio de la instrucción y buena crianza.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "6",
+                "type": "verb",
+                "definition": "Dicho de un cuerpo consultivo, de un funcionario o de cualquier persona perita: Dictaminar en asunto de su respectiva competencia."
+            },
+            {
+                "number": "7",
+                "type": "verb",
+                "definition": "Dicho de un fiscal o de un abogado: Hablar en el estrado."
+            }
+        ]
+    },
+    "inglés": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Natural de Inglaterra, nación del Reino Unido.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "anglosajón, anglicano, anglo, britano, gringo."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a Inglaterra o a los ingleses.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "anglosajón, anglicano, anglo."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo al inglés (‖ lengua)."
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Dicho del humor: Caracterizado por la ironía fina y el sarcasmo disimulado atribuidos a los ingleses."
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "Dicho de la puntualidad: Rigurosa, exacta."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Lengua germánica occidental que se habla como lengua materna en el Reino Unido, Irlanda, América del Norte y también en muchas partes de Oceanía, África y Asia, y que se emplea como lengua de comunicación en todo el mundo."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Cierta tela usada antiguamente."
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Acreedor de dinero.",
+                "type_extra": "colloquial"
+            }
+        ]
+    },
+    "inició": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "comenzar (‖ dar principio a algo).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "comenzar, empezar, principiar, inaugurar, estrenar, arrancar, emprender, afrontar, abordar, entablar, incoar, lanzarse."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "terminar, finalizar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Introducir o instruir a alguien en la práctica de un culto o en las reglas de una sociedad, especialmente si se considera secreta o misteriosa.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "instruir, enseñar."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Proporcionar a alguien los primeros conocimientos o experiencias sobre algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "instruir, enseñar."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Dar comienzo.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "terminar, finalizar."
+                    }
+                ]
+            }
+        ]
+    },
+    "interior": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Que está en la parte de adentro.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "externo, superficial."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Que está muy adentro.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "interno, intestino, profundo, recóndito."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "externo, superficial."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Que solo se siente en el alma.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "espiritual, anímico, íntimo."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Dicho de una habitación o de una vivienda: Que no tiene vistas a la calle."
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la nación de que se habla, en contraposición a lo extranjero."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Alma como principio de la actividad propiamente humana.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "alma1, mente, ánimo, conciencia, entrañas, entretelas."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Parte interior de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "exterior."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Parte central de un país, en oposición a las zonas costeras o fronterizas."
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "calzoncillo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "calzoncillo, gayumbos, trusa."
+                    }
+                ]
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "entrañas."
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "Secuencias rodadas en espacios cerrados."
+            },
+            {
+                "number": "12",
+                "type": "noun",
+                "definition": "Decorados que representan interiores."
+            }
+        ]
+    },
+    "internet": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Red informática mundial, descentralizada, formada por la conexión directa entre computadoras mediante un protocolo especial de comunicación.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "red, web, ciberespacio."
+                    }
+                ]
+            }
+        ]
+    },
+    "inveterado": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Antiguo, arraigado.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "arraigado, antiguo, asentado, viejo, ancestral, habitual."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "nuevo, reciente, actual."
+                    }
+                ]
+            }
+        ]
+    },
+    "ir": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Moverse de un lugar hacia otro apartado de la persona que habla.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "dirigirse, encaminarse, trasladarse, alejarse, andar1, transitar, marcharse, ausentarse, huir, partir, salir, emigrar, largarse, pirarse, abrirse."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "venir, acercarse, volver, regresar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Dicho de una cosa: Sentar bien o mal a algo o a alguien.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "pegar."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Caminar de acá para allá."
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Dicho de una persona o de una cosa: Diferenciarse de otra."
+            },
+            {
+                "number": "5",
+                "type": "verb",
+                "definition": "Dirigirse, llevar o conducir a un lugar apartado de quien habla.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "dirigir, conducir, llevar."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "verb",
+                "definition": "Dicho de una cosa: Extenderse en el tiempo o en el espacio, desde un punto a otro.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "extenderse."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "verb",
+                "definition": "En varios juegos de naipes, entrar, tomar sobre sí el empeño de ganar la apuesta."
+            },
+            {
+                "number": "8",
+                "type": "verb",
+                "definition": "Considerar las cosas por un aspecto especial o dirigirlas a un fin determinado."
+            },
+            {
+                "number": "9",
+                "type": "verb",
+                "definition": "Denota la actual y progresiva ejecución de una acción."
+            },
+            {
+                "number": "10",
+                "type": "verb",
+                "definition": "Denota que una acción empieza a verificarse."
+            },
+            {
+                "number": "11",
+                "type": "verb",
+                "definition": "con ciertos adjetivos o participios pasivos, para expresar irónicamente lo contrario de lo que estos significan."
+            },
+            {
+                "number": "12",
+                "type": "verb",
+                "definition": "Junto con el participio de los verbos transitivos, significa padecer su acción, y con el de los reflexivos, hallarse en el estado producido por ella."
+            },
+            {
+                "number": "13",
+                "type": "verb",
+                "definition": "Dicho de una cosa, especialmente de una cantidad de dinero: En una disputa o competencia, ser apostada."
+            },
+            {
+                "number": "14",
+                "type": "verb",
+                "definition": "Disponerse para la acción del verbo con que se junta."
+            },
+            {
+                "number": "15",
+                "type": "verb",
+                "definition": "con valor exhortativo."
+            },
+            {
+                "number": "16",
+                "type": "verb",
+                "definition": "Concurrir habitualmente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "acudir, asistir, frecuentar."
+                    }
+                ]
+            },
+            {
+                "number": "17",
+                "type": "verb",
+                "definition": "Comportarse o actuar de un determinado modo."
+            },
+            {
+                "number": "18",
+                "type": "verb",
+                "definition": "Perseguir u oponerse a alguien o algo."
+            },
+            {
+                "number": "19",
+                "type": "verb",
+                "definition": "Sentir y pensar al contrario."
+            },
+            {
+                "number": "20",
+                "type": "verb",
+                "definition": "Importar, interesar."
+            },
+            {
+                "number": "21",
+                "type": "verb",
+                "definition": "Depender de algo, estar condicionado por ello."
+            },
+            {
+                "number": "22",
+                "type": "verb",
+                "definition": "Sentir inclinación hacia una profesión."
+            },
+            {
+                "number": "23",
+                "type": "verb",
+                "definition": "Seguir una carrera."
+            },
+            {
+                "number": "24",
+                "type": "verb",
+                "definition": "ir a traer algo."
+            },
+            {
+                "number": "25",
+                "type": "verb",
+                "definition": "Avanzar en la realización de una acción, por un lugar, tiempo o situación determinadas."
+            },
+            {
+                "number": "26",
+                "type": "verb",
+                "definition": "Dicho de un nombre o de un verbo: Seguir cierta declinación o conjugación."
+            },
+            {
+                "number": "27",
+                "type": "verb",
+                "definition": "Seguir un negocio sin perderlo de vista."
+            },
+            {
+                "number": "28",
+                "type": "verb",
+                "definition": "Seguir de cerca a alguien, ir en su alcance para apresarlo o hacerle daño."
+            },
+            {
+                "number": "29",
+                "type": "verb",
+                "definition": "Andar tras alguien o algo."
+            },
+            {
+                "number": "30",
+                "type": "verb",
+                "definition": "Vestir, aparecer o presentarse de una determinada manera."
+            },
+            {
+                "number": "31",
+                "type": "verb",
+                "definition": "Dicho de un libro, de una película, de una conversación, etc.: Tratar de un tema determinado.",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tratar."
+                    }
+                ]
+            },
+            {
+                "number": "32",
+                "type": "verb",
+                "definition": "Exhibir o aparentar determinada actitud, cualidad, etc.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "33",
+                "type": "verb",
+                "definition": "Caracterizarse por tener cierto asunto o situación como principal o recurrente.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "34",
+                "type": "verb",
+                "definition": "Obrar, proceder.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "35",
+                "type": "verb",
+                "definition": "Morirse o estarse muriendo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, acabar, pasar, palmar1, cascar, espichar, caer, pelarse, petatearse, sonar1, ñampiarse."
+                    }
+                ]
+            },
+            {
+                "number": "36",
+                "type": "verb",
+                "definition": "Dicho de un líquido: Salirse insensiblemente del recipiente en que está.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "derramarse, caerse, esparcirse, dispersarse."
+                    }
+                ]
+            },
+            {
+                "number": "37",
+                "type": "verb",
+                "definition": "Dicho de un recipiente: Dejar escapar el líquido que hay en él."
+            },
+            {
+                "number": "38",
+                "type": "verb",
+                "definition": "Deslizarse, perder el equilibrio."
+            },
+            {
+                "number": "39",
+                "type": "verb",
+                "definition": "Dicho de una cosa: Desaparecer, consumirse o perderse."
+            },
+            {
+                "number": "40",
+                "type": "verb",
+                "definition": "Dicho de una tela: Desgarrarse, romperse, envejecerse."
+            },
+            {
+                "number": "41",
+                "type": "verb",
+                "definition": "Dicho de una persona: Ventosear o hacer sus necesidades involuntariamente."
+            },
+            {
+                "number": "42",
+                "type": "verb",
+                "definition": "Descartarse de una o varias cartas de la baraja."
+            }
+        ]
+    },
+    "i": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Novena letra del abecedario español, que representa el fonema vocálico cerrado anterior."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Sonido que representa la letra i."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "En la numeración romana, uno."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "En la lógica escolástica, letra que representa la proposición particular afirmativa."
+            }
+        ]
     }
 }

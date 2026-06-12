@@ -11696,5 +11696,786 @@
                 "definition": "prometido (persona comprometida con otra en matrimonio)."
             }
         ]
+    },
+    "factor": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "En las estaciones de ferrocarril, empleado que se ocupa de la recepción, expedición y entrega de los equipajes y mercancías."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Persona que hace algo.",
+                "type_extra": "rare"
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Elemento o causa que actúan junto con otros.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "variable, circunstancia, agente, causa1, elemento, componente."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Oficial real que en las Indias recaudaba las rentas y rendía los tributos en especie pertenecientes a la Corona."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Dependiente del comisario de guerra o del asentista, que se ocupaba de la distribución de víveres a la tropa."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Cada una de las cantidades o expresiones que se multiplican para obtener un producto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "multiplicando, multiplicador, coeficiente."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "divisor (‖ número contenido en otro un número exacto de veces).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "divisor, submúltiplo."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Capataz o persona que administra bienes ajenos.",
+                "type_extra": "rare"
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "Persona que comercia por cuenta ajena.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
+            }
+        ]
+    },
+    "familiar": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la familia.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "doméstico, hogareño."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Conocido previamente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "conocido, consabido."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "desconocido, ajeno, raro, extraño."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Dicho del trato: Llano y sin ceremonia.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "sencillo, llano, campechano, informal, casero."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "formal, protocolario, ceremonioso."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Dicho de una palabra, de una frase, del lenguaje, del estilo, etc.: Natural, sencillo y propio de la conversación normal y corriente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "coloquial, informal."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "formal."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "Dicho del envase de un producto comercial: Que tiene un tamaño superior al normal y resulta, generalmente, más económico."
+            },
+            {
+                "number": "6",
+                "type": "adjective",
+                "definition": "Dicho de un vehículo, especialmente de un coche: De gran capacidad y con el portaequipajes trasero incorporado al habitáculo."
+            },
+            {
+                "number": "7",
+                "type": "adjective",
+                "definition": "Dicho de un rasgo normal o patológico: Que se repite dentro de una familia."
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Pariente o deudo de una persona.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "pariente, consanguíneo, ascendiente, descendiente, colateral."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "Eclesiástico o seglar que acompaña o asiste a un obispo."
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "Sirviente de la comunidad de un colegio."
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "Ministro del antiguo tribunal eclesiástico de la Inquisición que estaba presente en los prendimientos y en otras misiones."
+            },
+            {
+                "number": "12",
+                "type": "noun",
+                "definition": "En la orden militar de Alcántara, hombre que por afecto y devoción era admitido en ella, ofreciendo gratuitamente, de presente o futuro, el todo o parte de sus bienes."
+            },
+            {
+                "number": "13",
+                "type": "noun",
+                "definition": "Persona que tomaba la insignia o hábito de una religión, como los hermanos de la orden tercera."
+            },
+            {
+                "number": "14",
+                "type": "noun",
+                "definition": "Demonio que se suponía tenía trato con una persona a la que acompañaba y servía."
+            },
+            {
+                "number": "15",
+                "type": "noun",
+                "definition": "Persona que tiene trato frecuente y de confianza con alguien."
+            },
+            {
+                "number": "16",
+                "type": "noun",
+                "definition": "Criado doméstico.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "favor": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Ayuda o socorro que se concede a alguien.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ayuda, socorro, amparo, auxilio, fautoría."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Honra, beneficio, gracia.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "atención, patrocinio, fomento, protección."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "privanza.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "privanza."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Expresión de agrado que suelen hacer las damas."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Cinta, flor u otra cosa semejante dada por una dama a un caballero, y que en las fiestas públicas llevaba este en el sombrero o en el brazo."
+            }
+        ]
+    },
+    "fe": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Conjunto de creencias de una religión.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "creencia, credo, dogma, convicción."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Conjunto de creencias de alguien, de un grupo o de una multitud de personas.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ideario, ideología, convicción, principio."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Confianza, buen concepto que se tiene de alguien o de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "confianza, esperanza."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "duda, desconfianza, recelo."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Creencia que se da a algo por la autoridad de quien lo dice o por la fama pública.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "crédito."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Palabra que se da o promesa que se hace a alguien con cierta solemnidad o publicidad."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Seguridad, aseveración de que algo es cierto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "certidumbre, convencimiento."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Documento que certifica la verdad de algo."
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "fidelidad (‖ lealtad).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fidelidad, lealtad."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "En el cristianismo, virtud teologal que consiste en el asentimiento a la revelación de Dios, propuesta por la Iglesia."
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "he (‖ para señalar o mostrar).",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "federal": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "federalista.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "federalista, federativo, asociativo."
+                    }
+                ]
+            }
+        ]
+    },
+    "festival": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "festivo.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Fiesta, especialmente musical.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fiesta, espectáculo, certamen, velada, función, concurso, muestra."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Conjunto de representaciones dedicadas a un artista o a un arte."
+            }
+        ]
+    },
+    "fin": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Término, remate o consumación de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "final, conclusión, desenlace, término, terminación, consumación, remate, cabo1."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "principio, comienzo, inicio."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Límite, confín.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "extremo, límite, término, final, cabo1."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Objeto o motivo con que se ejecuta algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "intención, finalidad, propósito, objeto, objetivo, meta, destino, motivo."
+                    }
+                ]
+            }
+        ]
+    },
+    "final": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Que termina o cierra.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "inicial."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Que remata y perfecciona algo."
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Que expresa finalidad. a una oración,."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Término y remate de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fin, conclusión, desenlace, remate, término, límite, colofón, consumación, expiración, acabamiento, terminación, amén1."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "principio, comienzo, inicio."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Última y decisiva competición en un campeonato o concurso."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Treta que se compone de seis movimientos."
+            }
+        ]
+    },
+    "fiscal": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo al fisco o al oficio de fiscal.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tributario, hacendístico, monetario, crematístico, acusador, denunciador, fiscalizador, inculpador."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Persona que representa y ejerce el ministerio público en los tribunales."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Persona que averigua o delata operaciones ajenas."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Seglar que cuida de una capilla rural, dirige las funciones del culto y auxilia al párroco, por quien es nombrado."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Persona que en una junta directiva controla las acciones de una sociedad anónima."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "En el Antiguo Régimen, ministro encargado de defender los intereses del fisco."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Mujer del fiscal.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "foto": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "confianza.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "fotografía (‖ imagen).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fotografía, instantánea, retrato, imagen."
+                    }
+                ]
+            }
+        ]
+    },
+    "francisco": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "franciscano (‖ integrante de la Orden de los Hermanos Menores).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "franciscano, minorita, menor."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "franciscano (‖ perteneciente a la orden de los franciscanos).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "franciscano, minorita."
+                    }
+                ]
+            }
+        ]
+    },
+    "frío": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Que tiene una temperatura inferior a la ordinaria o conveniente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fresco, gélido, helado, congelado, glacial, álgido, frígido."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "caliente, cálido1."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Que no produce calor.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fresco."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "caliente, cálido1."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Dicho de una gama de colores: Que va del verde al violeta pasando por el azul.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "cálido1, caliente."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Dicho de un color: Que pertenece a la gama de colores fría.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "cálido1, caliente."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "frígido (‖ que padece frigidez).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "frígido, inapetente, insensible, impasible."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "adjective",
+                "definition": "Dicho de una persona: Que muestra indiferencia o falta de interés por alguien o algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "indiferente, desapasionado, inconmovible, distante, seco, apático, abúlico, flemático."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "entusiasta, apasionado, ardiente, ferviente, fervoroso."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "adjective",
+                "definition": "Dicho de una persona: Calculadora, imperturbable.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "calculador, interesado."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "adjective",
+                "definition": "Dicho de una persona: Aturdida, impresionada por algún suceso o desengaño inesperados."
+            },
+            {
+                "number": "9",
+                "type": "adjective",
+                "definition": "Propio o característico de la persona fría."
+            },
+            {
+                "number": "10",
+                "type": "adjective",
+                "definition": "Que no conmueve."
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "Sensación que se experimenta ante un notorio descenso de temperatura.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "calor."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "noun",
+                "definition": "Temperatura baja.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "frescor, fresco, fresca, relente, rasca, biruji, gris."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "calor, bochorno."
+                    }
+                ]
+            },
+            {
+                "number": "13",
+                "type": "noun",
+                "definition": "frigorífico (‖ aparato electrodoméstico).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "frigorífico, frigo, nevera, refrigerador, refrigeradora, heladera, fresquera."
+                    }
+                ]
+            },
+            {
+                "number": "14",
+                "type": "noun",
+                "definition": "Bebida enfriada con nieve o hielo, pero líquida.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "15",
+                "type": "noun",
+                "definition": "cerveza.",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cerveza, birra, bruta, chela, lagarto."
+                    }
+                ]
+            },
+            {
+                "number": "16",
+                "type": "noun",
+                "definition": "frío moderado.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "frutar": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Dicho de una planta, especialmente de un árbol: Dar fruto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fructificar, frutear, granar, cerner, florecer, madurar."
+                    }
+                ]
+            }
+        ]
+    },
+    "f": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Sexta letra del abecedario español, que representa el fonema consonántico fricativo labiodental sordo."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Sonido que representa la letra f."
+            }
+        ]
     }
 }

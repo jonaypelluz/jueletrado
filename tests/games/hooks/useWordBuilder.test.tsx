@@ -58,6 +58,17 @@ describe('useWordBuilder', () => {
         expect(result.current.gameLevel).toBe('beginner');
     });
 
+    test('calls getFullWordSet with en locale when locale is en', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en', gameLevel: 'beginner' }));
+        mockGetFullWordSet.mockResolvedValue(new Set(['cat', 'dog', 'bird']));
+
+        renderHook(() => useWordBuilder());
+
+        await waitFor(() => {
+            expect(mockGetFullWordSet).toHaveBeenCalledWith('en', expect.any(Function), expect.any(Function));
+        });
+    });
+
     test('returns gameLevel from context', () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'intermediate' }));
         mockGetFullWordSet.mockResolvedValue(new Set([]));

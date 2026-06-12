@@ -20484,5 +20484,1045 @@
                 "definition": "Secuencia invariable de instrucciones que forma parte de un programa y se puede utilizar repetidamente."
             }
         ]
+    },
+    "radio": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Segmento lineal que une un punto cualquiera de la circunferencia o de la superficie de una esfera con su centro."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Rayo de la rueda.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "rayo."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Hueso un poco más corto que el cúbito, con el cual forma el antebrazo."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Cada una de las piezas a modo de varillas más o menos duras que sostienen la parte membranosa de las aletas de los peces."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Elemento químico metálico, muy radiactivo, de 88, de color blanco brillante, muy tóxico, raro en la corteza terrestre, donde se encuentra acompañando a los minerales de uranio, usado en la industria nuclear y en medicina. (Ra)."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "radiodifusión.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "radiodifusión, emisora, radioemisora."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "radiorreceptor.",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "radiorreceptor, transistor, receptor."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "radiotelegrama.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "radiotelegrama, radiograma."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "radiotelegrafista.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "radiotelegrafista."
+                    }
+                ]
+            }
+        ]
+    },
+    "re": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Segunda nota de la escala musical."
+            }
+        ]
+    },
+    "real": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Que tiene existencia objetiva.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "verdadero, auténtico, existente, cierto, verídico, efectivo, tangible, concreto1, innegable, positivo."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "irreal, ficticio."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo al rey o a la realeza.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "regio, monárquico."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "realista2.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "realista2."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Regio, grandioso, suntuoso."
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "Dicho de un navío: Que estaba provisto de tres puentes y más de 120 cañones."
+            },
+            {
+                "number": "6",
+                "type": "adjective",
+                "definition": "Dicho de una galera: Que llevaba el estandarte real."
+            },
+            {
+                "number": "7",
+                "type": "adjective",
+                "definition": "Muy bueno.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "8",
+                "type": "adjective",
+                "definition": "Dicho de una persona: De muy buena presencia.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "Moneda con diverso valor y factura según épocas y lugares.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "realillo, realito."
+                    }
+                ]
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "dinero (‖ moneda corriente).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "dinero, moneda, efectivo, plata, billete, morlacos, feria, pisto, bolas, maracandacas, churupos, tuza1, malanga, papa2."
+                    }
+                ]
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "Campamento de un ejército, y especialmente el lugar donde está la tienda del rey o general.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "campamento, acantonamiento."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "noun",
+                "definition": "Campo donde se celebra una feria."
+            },
+            {
+                "number": "13",
+                "type": "noun",
+                "definition": "Huerto cercado, jardín."
+            }
+        ]
+    },
+    "realizó": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Efectuar, llevar a cabo algo o ejecutar una acción.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "hacer, ejecutar, efectuar, desarrollar, operar, fabricar, producir, elaborar, crear, materializar, confeccionar, componer, proceder1, concluir, cumplir."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Dirigir la ejecución de una película o de un programa televisivo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "dirigir."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Vender, convertir en dinero mercaderías u otros bienes. más comúnmente hablando de la venta a bajo precio para reducirlos pronto a dinero.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "vender, liquidar, saldar."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Sentirse satisfecho por haber logrado cumplir aquello a lo que se aspiraba."
+            }
+        ]
+    },
+    "red": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Aparejo hecho con hilos, cuerdas o alambres trabados en forma de mallas, y convenientemente dispuesto para pescar, cazar, cercar, sujetar, etc.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "almadraba, jábega1, boliche2."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Labor o tejido de mallas."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "redecilla (‖ prenda de malla para el pelo).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "redecilla, malla."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Lugar donde se vende pan u otras cosas que se dan por entre verjas."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Ardid o engaño de que alguien se vale para atraer a otra persona.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "trampa, artimaña, ardid, engaño, celada2, estratagema."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Confluencia de calles en un mismo punto."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Conjunto de elementos organizados para determinado fin.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "servicio, sistema, organización."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "cadena (‖ conjunto de establecimientos bajo una sola dirección).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cadena, franquicia."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "Conjunto de personas relacionadas para una determinada actividad, por lo general de carácter secreto, ilegal o delictivo."
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "Conjunto de computadoras o de equipos informáticos conectados entre sí y que pueden intercambiar información."
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "internet.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "internet."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "noun",
+                "definition": "Verja o reja.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "región": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Porción de territorio determinada por caracteres étnicos o circunstancias especiales de clima, producción, topografía, administración, gobierno, etc.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tierra, territorio, zona, área, pago2."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Cada una de las grandes divisiones territoriales de una nación, definida por características geográficas, históricas y sociales, y que puede dividirse a su vez en provincias, departamentos, etc.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "comarca, demarcación, departamento, provincia, localidad."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Todo espacio que se imagina ser de mucha capacidad."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Según la filosofía antigua, espacio que ocupaba cada uno de los cuatro elementos."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Cada una de las partes en que se considera dividido al exterior el cuerpo de los animales, con el fin de determinar el sitio, extensión y relaciones de los diferentes órganos."
+            }
+        ]
+    },
+    "regional": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a una región.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "comarcal, territorial, departamental, local."
+                    }
+                ]
+            }
+        ]
+    },
+    "regular": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Medir, ajustar o computar algo por comparación o deducción.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "medir, computar, graduar, dosificar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Ajustar, reglar o poner en orden algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ordenar, organizar, regularizar, normalizar."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "desorganizar, desordenar."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Ajustar el funcionamiento de un sistema a determinados fines.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "adecuar, acomodar, ajustar."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "desajustar, desacoplar."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Determinar las reglas o normas a que debe ajustarse alguien o algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "reglar1, reglamentar, regularizar, normalizar, pautar."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "desregular, desregularizar."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "verb",
+                "definition": "reajustar (‖ aumentar o disminuir coyunturalmente).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "reajustar."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "adjective",
+                "definition": "Ajustado a una regla y conforme a ella.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "regulado, reglado."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "adjective",
+                "definition": "Uniforme, sin cambios grandes o bruscos.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "uniforme, igual, invariable, estable, constante, inalterable, homogéneo, continuo, permanente, ininterrumpido."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "variable, irregular, desigual."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "adjective",
+                "definition": "Que se hace o se produce a intervalos regulares (‖ uniformes).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "periódico, sistemático, habitual, normal, usual, ordinario."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "variable, irregular, desigual."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "adjective",
+                "definition": "Ajustado, medido, arreglado en las acciones y modo de vivir.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "metódico, ordenado, sistemático, mesurado, ponderado."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "desordenado, anárquico, desorganizado."
+                    }
+                ]
+            },
+            {
+                "number": "10",
+                "type": "adjective",
+                "definition": "De tamaño o condición media o inferior a ella.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "mediano, intermedio, común, corriente, mediocre, moderado, discreto."
+                    }
+                ]
+            },
+            {
+                "number": "11",
+                "type": "adjective",
+                "definition": "Dicho de una persona o de una cosa: Que pertenece a una regla o instituto religioso.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "reglar2."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "adjective",
+                "definition": "Dicho de un ejército: Que está encuadrado y dirigido legalmente por mandos profesionales."
+            },
+            {
+                "number": "13",
+                "type": "adjective",
+                "definition": "En cristalografía, cúbico.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cúbico."
+                    }
+                ]
+            },
+            {
+                "number": "14",
+                "type": "adjective",
+                "definition": "Dicho de un polígono: De lados y ángulos iguales entre sí."
+            },
+            {
+                "number": "15",
+                "type": "adjective",
+                "definition": "Dicho de un poliedro: De caras y ángulos iguales entre sí."
+            },
+            {
+                "number": "16",
+                "type": "adjective",
+                "definition": "Que se ajusta en su flexión o en su derivación a las formas fijadas como modelo de un paradigma."
+            },
+            {
+                "number": "17",
+                "type": "noun",
+                "definition": "Unidades de infantería situadas en Ceuta y Melilla, ciudades autónomas españolas del norte de África."
+            },
+            {
+                "number": "18",
+                "type": "noun",
+                "definition": "Unidades de soldados marroquíes que estaban encuadradas en cuerpos militares españoles del antiguo protectorado de Marruecos."
+            },
+            {
+                "number": "19",
+                "type": "adverb",
+                "definition": "Medianamente, no demasiado bien.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "medianamente."
+                    }
+                ]
+            }
+        ]
+    },
+    "religión": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Conjunto de creencias o dogmas acerca de la divinidad, de sentimientos de veneración y temor hacia ella, de normas morales para la conducta individual y social y de prácticas rituales, principalmente la oración y el sacrificio para darle culto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "creencia, doctrina, credo, confesión, dogma, fe1, ley, evangelio."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "ateísmo, irreligión."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Virtud que mueve a dar a Dios el culto debido."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Profesión y observancia de la doctrina religiosa."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Obligación de conciencia, cumplimiento de un deber."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "orden (‖ instituto religioso).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "orden, congregación, compañía."
+                    }
+                ]
+            }
+        ]
+    },
+    "repelar": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Tirar del pelo o arrancarlo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "carmenar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Hacer dar al caballo una carrera corta."
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Cortar las puntas a la hierba."
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Cercenar, quitar, disminuir."
+            },
+            {
+                "number": "5",
+                "type": "verb",
+                "definition": "Pelar completamente algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "rapar, pelar, trasquilar."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "verb",
+                "definition": "rezongar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "rezongar, rezonglar."
+                    }
+                ]
+            }
+        ]
+    },
+    "reunión": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Acción y efecto de reunir.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "unión, agrupación, agrupamiento, concentración, congregación, aglomeración, acumulación, apiñamiento, burujón."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "dispersión, desunión."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Conjunto de personas reunidas.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "junta, encuentro, asamblea, congreso, conferencia, comité, convención."
+                    }
+                ]
+            }
+        ]
+    },
+    "rica": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "alholva."
+            }
+        ]
+    },
+    "rico": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Adinerado, hacendado o acaudalado.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "adinerado, acaudalado, pudiente, opulento, millonario, capitalista, próspero, potentado, creso, platudo, fondeado, bacán, valioso."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "pobre, indigente."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Abundante, opulento y pingüe.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "abundante, copioso, exuberante."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "pobre, escaso."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Dicho de un terreno: fértil.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fértil, fecundo, feraz."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "estéril."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Lujoso, o de mucho valor o precio.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "pobre."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "Gustoso, sabroso, agradable.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "delicioso, sabroso, apetitoso, exquisito, gustoso, suculento."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "desabrido, insípido, malo."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "adjective",
+                "definition": "Muy bueno en su línea."
+            },
+            {
+                "number": "7",
+                "type": "adjective",
+                "definition": "Dicho especialmente de un niño: Bonito y a la vez gracioso, encantador.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "8",
+                "type": "adjective",
+                "definition": "aplicado a las personas como expresión de cariño.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "9",
+                "type": "adjective",
+                "definition": "Noble o de alto linaje, o de conocida y estimable bondad.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "río": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Corriente de agua continua y más o menos caudalosa que va a desembocar en otra, en un lago o en el mar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "torrente, arroyo, riachuelo, riacho, afluente."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Gran abundancia de una cosa líquida, y, de cualquier otra.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "caudal1, raudal, aluvión, abundancia, profusión, plétora."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Afluencia de personas."
+            }
+        ]
+    },
+    "rock": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "rocanrol (‖ género musical).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "rocanrol, rock and roll."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Cada uno de los diversos estilos musicales derivados del rocanrol."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Baile de pareja que se ejecuta a ritmo de rock."
+            }
+        ]
+    },
+    "rodríguez": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Hombre casado que se queda trabajando mientras su familia está fuera, normalmente de veraneo.",
+                "type_extra": "colloquial"
+            }
+        ]
+    },
+    "rosa": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Flor del rosal, notable por su belleza, la suavidad de su fragancia y su color. Suele llevar el mismo calificativo de la planta que la produce.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "carmín."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Mancha redondeada, encarnada o de color rosa, que sale en alguna parte del cuerpo."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Objeto cuya forma recuerda la de la rosa."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "diamante rosa."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Fruta de sartén hecha con masa de harina."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Rosetón de los techos."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Flor del azafrán."
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Época de la recolección del azafrán."
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "Rosetas de maíz."
+            },
+            {
+                "number": "10",
+                "type": "adjective",
+                "definition": "Dicho de un color: Rojo muy pálido, como el de la rosa común.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "rosado1, sonrosado, rosáceo."
+                    }
+                ]
+            },
+            {
+                "number": "11",
+                "type": "adjective",
+                "definition": "De color rosa.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "rosado1, sonrosado, rosáceo."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "adjective",
+                "definition": "Dicho de ciertos medios de comunicación: Que tratan de asuntos amorosos o relativos a la vida privada de personas famosas o conocidas por su frecuente aparición en estos medios."
+            },
+            {
+                "number": "13",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a los homosexuales.",
+                "type_extra": "colloquial"
+            }
+        ]
+    },
+    "rural": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la vida del campo, a sus labores y a sus habitantes.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "rústico, campestre, rustical, agreste, campesino, bucólico, agrario."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "urbano."
+                    }
+                ]
+            }
+        ]
+    },
+    "r": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Decimonovena letra del abecedario español, que puede representar el fonema consonántico vibrante simple, p. ej. en brazo y cara, o el fonema consonántico vibrante múltiple, p. ej. en rojo e israelí."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Alguno de los sonidos que representa la letra r."
+            }
+        ]
     }
 }
