@@ -1,6 +1,7 @@
 /**
  * Orchestrates a full crawl of all locales and levels.
  * Runs crawlRAE.ts (ES) and crawlDictionary.ts (EN) sequentially.
+ * After EN crawl, runs crawlMerriamWebster.ts on not-found.txt as a second pass.
  * Skips words already in public/definitions/. Merges after each level.
  *
  * Output: ops/crawl-output/{locale}/{letter}.jsonl — fixed paths, no timestamp.
@@ -22,6 +23,8 @@ const CRAWLERS: Record<string, string> = {
     es: path.join(ROOT, 'scripts/crawlers/crawlRAE.ts'),
     en: path.join(ROOT, 'scripts/crawlers/crawlDictionary.ts'),
 };
+
+const MW_CRAWLER = path.join(ROOT, 'scripts/crawlers/crawlMerriamWebster.ts');
 
 const WORD_FILES: Record<string, Record<string, string>> = {
     es: {
@@ -126,6 +129,27 @@ async function main(): Promise<void> {
 
             // Merge after each level so next level's --skip-existing sees updated public/
             mergeLocale(locale);
+        }
+
+        // EN second pass: Merriam-Webster for words that dictionaryapi.dev couldn't resolve
+        if (locale === 'en') {
+            const dir = outputDir(locale);
+            const notFoundFile = path.join(dir, 'not-found.txt');
+            const { existsSync } = await import('fs');
+            if (existsSync(notFoundFile)) {
+                banner('EN / Merriam-Webster (second pass)');
+                console.log(`  input: ${notFoundFile}`);
+                const { ok } = run([
+                    MW_CRAWLER,
+                    notFoundFile,
+                    '--skip-existing',
+                    '--quiet-skip',
+                    '--output-dir', dir,
+                    '--not-found-file', notFoundFile,
+                ]);
+                if (!ok) console.error('  [error] Merriam-Webster crawler failed — continuing');
+                mergeLocale(locale);
+            }
         }
     }
 
