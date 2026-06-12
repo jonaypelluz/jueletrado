@@ -3151,5 +3151,174 @@
                 "definition": "Afirmar, previa la comparación de dos o más ideas, las relaciones que existen entre ellas."
             }
         ]
+    },
+    "jamás": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverb",
+                "definition": "nunca.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "nunca."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "siempre."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adverb",
+                "definition": "siempre.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "3",
+                "type": "adverb",
+                "definition": "Alguna vez.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "jesús": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjection",
+                "definition": "para expresar admiración, sorpresa o indignación."
+            },
+            {
+                "number": "2",
+                "type": "interjection",
+                "definition": "cuando alguien estornuda."
+            }
+        ]
+    },
+    "joder": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Practicar el coito.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "copular, fornicar, yacer, aparearse, follar4, coger."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Aguantarse o fastidiarse.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "aguantarse, fastidiarse, jorobarse, chincharse."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "verb",
+                "definition": "Estropearse o dañarse.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "estropearse, dañarse, deteriorarse."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "verb",
+                "definition": "Poseer sexualmente a alguien."
+            },
+            {
+                "number": "5",
+                "type": "verb",
+                "definition": "Molestar o fastidiar a alguien.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "molestar, fastidiar, jorobar, chinchar, jeringar, putear."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "verb",
+                "definition": "Destrozar, arruinar o echar a perder algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "estropear, arruinar, desbaratar."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "interjection",
+                "definition": "para expresar enfado, irritación, asombro, etc."
+            }
+        ]
+    },
+    "juan": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "soldado (‖ hombre que sirve en la milicia).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "soldado, guerrero, mílite, guripa."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Cepillo de iglesia."
+            }
+        ]
+    },
+    "judicial": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo al juicio, a la administración de justicia o a la judicatura.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "sumarial, contencioso, procesal."
+                    }
+                ]
+            }
+        ]
+    },
+    "j": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Décima letra del abecedario español, que representa el fonema consonántico fricativo velar sordo, el cual, en zonas meridionales de España y amplias zonas de América, se relaja hasta hacerse aspirado."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Sonido que representa la letra j."
+            }
+        ]
     }
 }

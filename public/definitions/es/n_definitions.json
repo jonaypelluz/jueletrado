@@ -7002,5 +7002,288 @@
                 "definition": "Preparación de los medicamentos, mezclándolos con otros para aumentarles la virtud y darles mayor fuerza."
             }
         ]
+    },
+    "nabab": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "En la India musulmana, gobernador de una provincia."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Hombre sumamente rico.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "multimillonario, creso, potentado, pudiente."
+                    }
+                ]
+            }
+        ]
+    },
+    "natural": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la naturaleza o conforme a la cualidad o propiedad de las cosas.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "innato, connatural, inherente, consustancial, congénito, nato, naturalístico."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "antinatural, antinatura, contranatural."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Nativo de un lugar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "nativo, oriundo, originario, aborigen, indígena, autóctono."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "extranjero."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Dicho de una cosa: Que está tal como se halla en la naturaleza, o que no tiene mezcla o elaboración.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "bío1, biológico, puro."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "artificial."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Dicho de una persona: Espontánea y no afectada.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "sencillo, llano, campechano, espontáneo, franco, abierto."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "artificial, artificioso."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "adjective",
+                "definition": "Dicho de una cosa: Que imita a la naturaleza con propiedad."
+            },
+            {
+                "number": "6",
+                "type": "adjective",
+                "definition": "Regular y que comúnmente sucede.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "normal, lógico, razonable, esperable, corriente."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "raro, infrecuente."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "adjective",
+                "definition": "Que se produce por solas las fuerzas de la naturaleza, como contrapuesto a sobrenatural y milagroso.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "espontáneo, instintivo, involuntario."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "sobrenatural."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "adjective",
+                "definition": "Dicho de un señor: Que tenía vasallos, o que por su linaje tenía derecho al señorío, aunque no fuese de la tierra."
+            },
+            {
+                "number": "9",
+                "type": "adjective",
+                "definition": "Dicho de un período de tiempo: Válido o computable para realizar una actividad, especialmente administrativa o judicial, sin tener en cuenta si es hábil o no."
+            },
+            {
+                "number": "10",
+                "type": "adjective",
+                "definition": "Dicho de una nota: No modificada por sostenido ni bemol."
+            },
+            {
+                "number": "11",
+                "type": "adjective",
+                "definition": "Dicho de un pase de muleta: Que se hace con la mano izquierda y sin el estoque."
+            },
+            {
+                "number": "12",
+                "type": "adjective",
+                "definition": "Nombre que se dan a sí mismos los indígenas."
+            },
+            {
+                "number": "13",
+                "type": "adjective",
+                "definition": "Dicho de un hijo: De padre y madre indígenas, a diferencia del mestizo."
+            },
+            {
+                "number": "14",
+                "type": "noun",
+                "definition": "Genio, índole, temperamento, complexión o inclinación propia de cada uno.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "carácter, condición, índole, temperamento, naturaleza, genio."
+                    }
+                ]
+            },
+            {
+                "number": "15",
+                "type": "noun",
+                "definition": "Instinto e inclinación de los animales irracionales."
+            },
+            {
+                "number": "16",
+                "type": "noun",
+                "definition": "Modelo real que el artista reproduce en su obra.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "naturaleza."
+                    }
+                ]
+            },
+            {
+                "number": "17",
+                "type": "noun",
+                "definition": "Patria o lugar donde se nace.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "18",
+                "type": "noun",
+                "definition": "Físico, astrólogo o naturalista.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "necesitas": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Tener necesidad de alguien o algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "precisar, requerir, pedir, demandar, urgir, exigir, carecer, faltar, escasear."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "sobrar."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "verb",
+                "definition": "Obligar a ejecutar algo.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "ni": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "para coordinar de manera aditiva vocablos o frases que denotan negación, precedida o seguida de otra u otras igualmente negativas."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "En cláusula que empieza con verbo precedido del adverbio no y en que se niegan dos o más términos, puede omitirse o expresarse delante del primero. Si se coloca el verbo al fin de cláusulas como esta, ha de expresarse la conjunción ni precediendo a la primera y a las demás negaciones."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Ni siquiera. encabezando una oración sin relacionarla con otra o con relación distinta de la copulativa negativa 'y no'. Forma frases que expresan el extremo a que puede llegarse en algo."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "con valor semejante en exclamaciones enérgicas."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "No. sin otra negación anterior o posterior."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "también como la conjunción disyuntiva o.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Decimotercera letra del alfabeto griego (Ν, ν), que corresponde a la n del latino."
+            }
+        ]
+    },
+    "n": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Decimocuarta letra del abecedario español, que representa el fonema consonántico nasal alveolar, aunque cuando es implosiva suele adoptar la zona de articulación de la consonante siguiente."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Sonido que representa la letra n."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Número indeterminado, como en 5n.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ene."
+                    }
+                ]
+            }
+        ]
     }
 }

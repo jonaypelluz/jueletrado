@@ -21949,5 +21949,673 @@
                 "definition": "En contextos anafóricos, indica grado alto de una propiedad mencionada anteriormente. sin adjetivo o adverbio explícito. —¿ Te pareció interesante ? — Muy."
             }
         ]
+    },
+    "mamá": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "madre (‖ mujer).",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "madre, amá, ma, vientre, nana1, mama, mami."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "madre (‖ animal hembra).",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "madre."
+                    }
+                ]
+            }
+        ]
+    },
+    "man": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "mano1.",
+                "type_extra": "obsolete"
+            }
+        ]
+    },
+    "maría": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "galleta maría."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Moneda española de plata de fines del siglo XVII."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "maruja (‖ mujer que se dedica solo a las tareas domésticas).",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "maruja, mari."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Asignatura que no requiere esfuerzo por parte del alumno para ser aprobada.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "vela María.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "marihuana.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "marihuana, hierba, cánnabis, mota, juana, bareta, cánnabis, marihuana, grifa."
+                    }
+                ]
+            }
+        ]
+    },
+    "más": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "article",
+                "definition": "Ante adjetivos o adverbios, indica que el grado de la propiedad que expresan es alto en comparación con otro explícito o sobrentendido. con un complemento introducido por la preposición de. cuando precede a adjetivos, formando el superlativo relativo de superioridad.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Pospuesto a verbos, indica que la situación descrita tiene lugar con mayor frecuencia, intensidad o duración que otra explícita o sobrentendida.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "tanto (‖ pondera la intensidad de la cualidad).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tanto."
+                    }
+                ]
+            },
+            {
+                "number": "4",
+                "type": "adverb",
+                "definition": "Sobre todo, especialmente, con mayor motivo.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "adverb",
+                "definition": "De nuevo, en lo sucesivo. en construcciones negativas."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Ante sustantivos contables en plural, indica que un determinado número de entidades es alto en comparación con otro sobrentendido o explícito. con un complemento introducido por la preposición de. pospuesto cuando va precedido de una expresión cuantificativa.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Ante sustantivos no contables en singular, expresa que una determinada cantidad excede a otra sobrentendida o explícita. con un complemento introducido por la preposición de. ocasionalmente pospuesto cuando va precedido de una expresión cuantificativa.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Ante sustantivos contables en singular usados como no contables, denota ponderación o pluralidad.",
+                "type_extra": "colloquial",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "Mayor número o cantidad de algo mencionado.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "más importante.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "más cosas, alguna otra cosa.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "conjunction",
+                "definition": "Indica adición de cantidades o de otras magnitudes.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "13",
+                "type": "noun",
+                "definition": "Signo (+) de la suma o adición.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "14",
+                "type": "noun",
+                "definition": "Signo (+) que indica el carácter positivo de una cantidad, como la carga eléctrica.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            }
+        ]
+    },
+    "material": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la materia.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "inmaterial."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Opuesto a lo espiritual.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "natural, tangible, palpable, corpóreo, físico, real1, terrenal."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "espiritual, ideal, intangible, inmaterial."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Grosero, sin ingenio ni agudeza."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Elemento o combinación de elementos, generalmente en estado sólido, que se utiliza para cubrir necesidades específicas.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "elemento, materia, componente."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Cuero curtido."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Cada una de las materias que se necesitan para una obra, o el conjunto de ellas."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Documentación que sirve de base para un trabajo intelectual."
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Conjunto de máquinas, herramientas u objetos de cualquier clase, necesario para el desempeño de un servicio o el ejercicio de una profesión.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "instrumental, herramienta, maquinaria, equipo, aperos."
+                    }
+                ]
+            }
+        ]
+    },
+    "médico": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a la medicina.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "facultativo."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Persona legalmente autorizada para ejercer la medicina.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "facultativo, doctor, clínico, galeno1, matasanos."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "Mujer del médico.",
+                "type_extra": "obsolete"
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a Media, antigua región de Asia, o a los medos.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "medo."
+                    }
+                ]
+            }
+        ]
+    },
+    "metal": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Cada uno de los elementos químicos buenos conductores del calor y de la electricidad, con un brillo característico, sólidos a temperatura ordinaria, salvo el mercurio, y que en sus sales en disolución forman iones electropositivos o cationes."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Materia hecha con metal.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "aleación."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "latón1."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Timbre de la voz.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "timbre, sonoridad, sonido."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Calidad o condición de una cosa."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Oro o plata, que respectivamente suelen representarse con los colores amarillo y blanco."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Conjunto de instrumentos de viento de una orquesta hechos originariamente de metal."
+            }
+        ]
+    },
+    "metodismo": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Doctrina de una confesión protestante fundada en Oxford en 1729 por John y Charles Wesley."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Sistema que desechaba la fuerza vital y atribuía todas las enfermedades a la estrechez o dilatación de los poros del cuerpo humano."
+            }
+        ]
+    },
+    "mí": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Forma que, precedida de preposición, designa a la persona que habla o escribe."
+            }
+        ]
+    },
+    "mía": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "En el antiguo protectorado español de Marruecos, unidad regular indígena, dependiente del majzén jalifiano, compuesta de unos 100 hombres de infantería o de otros tantos de caballería."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Unidad regular indígena de algunos ejércitos coloniales."
+            }
+        ]
+    },
+    "mil": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Diez veces cien."
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "milésimo (‖ que ocupa en una serie el lugar número mil).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "milésimo."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Muy numerosos o abundantes, en cantidad o en número grande e indeterminado."
+            },
+            {
+                "number": "4",
+                "type": "noun",
+                "definition": "Número natural que sigue al novecientos noventa y nueve."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Signo o conjunto de signos con que se representa el número mil."
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "millar (‖ conjunto de 1000 unidades).",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "millar."
+                    }
+                ]
+            }
+        ]
+    },
+    "mocetón": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Persona joven, alta, corpulenta y fornida.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "mozallón, hombretón, mozancón."
+                    }
+                ]
+            }
+        ]
+    },
+    "momificar": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verb",
+                "definition": "Convertir en momia un cadáver.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "embalsamar, disecar1."
+                    }
+                ]
+            }
+        ]
+    },
+    "moral": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo a las acciones de las personas, desde el punto de vista de su obrar en relación con el bien o el mal y en función de su vida individual y, sobre todo, colectiva.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ético1."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjective",
+                "definition": "Conforme con las normas que una persona tiene del bien y del mal.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ético1, honesto, decoroso, honrado, decente, íntegro, recto, puro."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "inmoral, amoral, deshonesto."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjective",
+                "definition": "Basado en el entendimiento o la conciencia, y no en los sentidos."
+            },
+            {
+                "number": "4",
+                "type": "adjective",
+                "definition": "Que concierne al fuero interno o al respeto humano, y no al orden jurídico."
+            },
+            {
+                "number": "5",
+                "type": "noun",
+                "definition": "Doctrina del obrar humano que pretende regular el comportamiento individual y colectivo en relación con el bien y el mal y los deberes que implican.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ética, moralidad, honradez, honestidad, decencia, justicia, virtud, probidad, integridad."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "noun",
+                "definition": "Conjunto de facultades del espíritu, por contraposición a físico."
+            },
+            {
+                "number": "7",
+                "type": "noun",
+                "definition": "Estado de ánimo, individual o colectivo."
+            },
+            {
+                "number": "8",
+                "type": "noun",
+                "definition": "Ánimo para afrontar algo."
+            },
+            {
+                "number": "9",
+                "type": "noun",
+                "definition": "En actividades que implican confrontación o esfuerzo intenso, confianza en el éxito.",
+                "type_extra": "colloquial"
+            },
+            {
+                "number": "10",
+                "type": "noun",
+                "definition": "Árbol oriundo de Asia, de la familia de las moráceas, de cinco a seis metros de altura, con tronco grueso y derecho, copa amplia, hojas ásperas, lanuginosas, acorazonadas, dentadas o lobuladas por el margen, y flores unisexuales en amentos espiciformes, separadas las masculinas de las femeninas. Su fruto es la mora.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "moreda."
+                    }
+                ]
+            },
+            {
+                "number": "11",
+                "type": "noun",
+                "definition": "Árbol ecuatoriano tropical, de la familia de las moráceas, de madera incorruptible, muy empleada en la construcción de casas."
+            }
+        ]
+    },
+    "municipal": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjective",
+                "definition": "Perteneciente o relativo al municipio.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "local, vecinal, concejil, comunal."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Individuo de la Guardia Municipal o de la Policía municipal.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "guardia, policía."
+                    }
+                ]
+            }
+        ]
+    },
+    "m": {
+        "level": "beginner",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Decimotercera letra del abecedario español, que representa el fonema consonántico nasal bilabial."
+            },
+            {
+                "number": "2",
+                "type": "noun",
+                "definition": "Sonido que representa la letra m."
+            },
+            {
+                "number": "3",
+                "type": "noun",
+                "definition": "En la numeración romana, mil."
+            }
+        ]
     }
 }

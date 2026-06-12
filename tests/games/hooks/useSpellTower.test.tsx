@@ -111,6 +111,27 @@ describe('useSpellTower', () => {
         await waitFor(() => expect(result.current.correctAnswers).toBe(1));
     });
 
+    test('calls getSessionWords with en locale when locale is en', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en', gameLevel: 'beginner' }));
+        const fakeWords = Array.from({ length: 15 }, (_, i) => `word${i}`);
+        mockGetSessionWords.mockResolvedValue(fakeWords);
+        jest.spyOn(StorageService, 'getItem').mockReturnValue(null);
+
+        renderHook(() => useSpellTower());
+
+        await waitFor(() => {
+            expect(mockGetSessionWords).toHaveBeenCalledWith(
+                StorageService.WORDS_TOWER,
+                15,
+                'beginner',
+                'en',
+                expect.any(Function),
+                { count: 120, minLength: 4 },
+                30,
+            );
+        });
+    });
+
     test('wrong answer decrements correctAnswers and records error', async () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner' }));
         mockGetSessionWords.mockResolvedValue(['gato', 'perro']);

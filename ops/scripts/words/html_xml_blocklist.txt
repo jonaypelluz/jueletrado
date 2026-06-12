@@ -1,0 +1,68 @@
+# Shared HTML / XML / EPUB / web artifact words — blocked for ALL locales.
+# Only put words here that are not valid in ANY supported language.
+# One word per line. Lines starting with # are ignored.
+
+# XML declarations & structure
+xml
+xhtml
+dtd
+doctype
+encoding
+standalone
+version
+utf
+xmlns
+xlink
+xsi
+
+# HTML tags & attributes (non-words in all locales)
+html
+head
+href
+src
+rel
+charset
+viewport
+lang
+
+# Web / URL artifacts
+http
+https
+www
+com
+org
+net
+edu
+gov
+
+# EPUB internals
+epub
+ncx
+opf
+toc
+mimetype
+itemref
+idref
+playorder
+
+# CSS / JS artifacts
+css
+js
+svg
+px
+em
+rem
+rgba
+rgb
+var
+
+# Common abbreviation noise
+uu
+ee
+ii
+oo
+jr
+sr
+dr
+mr
+ms

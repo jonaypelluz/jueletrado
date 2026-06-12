@@ -111,6 +111,26 @@ describe('useWordsRain', () => {
         expect(setLoading).toHaveBeenLastCalledWith(false);
     });
 
+    test('falls back to fetching with en locale when cache is empty', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en', gameLevel: 'beginner' }));
+        jest.spyOn(StorageService, 'getItem').mockReturnValue(null);
+        jest.spyOn(StorageService, 'setItem').mockImplementation(() => {});
+        mockGetWords.mockResolvedValueOnce(['cat', 'dog', 'bird', 'fish', 'frog']);
+
+        renderHook(() => useWordsRain());
+
+        await waitFor(() => {
+            expect(mockGetWords).toHaveBeenCalledWith(
+                'beginner',
+                'en',
+                expect.any(Number),
+                expect.any(Function),
+                null,
+                4,
+            );
+        });
+    });
+
     test('returns gameLevel from context', () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'advanced' }));
         jest.spyOn(StorageService, 'getItem').mockReturnValue(null);
