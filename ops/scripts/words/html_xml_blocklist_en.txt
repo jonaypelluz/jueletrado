@@ -1,5 +1,73 @@
-# EN-specific blocklist — valid Spanish words that are NOT valid English.
-# Loaded in addition to html_xml_blocklist.txt when processing EN books.
+# EN-specific blocklist — words to exclude when processing EN books.
+# Loaded in addition to html_xml_blocklist.txt.
 # One word per line. Lines starting with # are ignored.
 
-# Add entries here as needed.
+# Spanish site navigation injected by mansioningles.com into epub body
+mansioningles
+descarga
+libros
+mejores
+autores
+archivo
+formatos
+mobi
+desde
+completa
+resumen
+ingles
+todos
+gratis
+por
+una
+como
+sobre
+esta
+este
+los
+las
+del
+sin
+sus
+fue
+han
+era
+ese
+esa
+eso
+hay
+muy
+mas
+mis
+nos
+les
+vez
+dia
+anos
+
+# Truncated Spanish words (epub encoding artifacts)
+relaci
+tulo
+ingl
+nico
+espa
+
+# Broken contractions — apostrophe split by regex, leaving bare stems
+couldn
+didn
+wasn
+wouldn
+shouldn
+hadn
+mightn
+mustn
+isn
+aren
+shan
+needn
+daren
+oughtn
+haven
+hasn
+weren
+don
+won
