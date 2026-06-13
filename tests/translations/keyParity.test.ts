@@ -1,8 +1,14 @@
 import { GeneralTranslations } from '@config/translations/General';
-import { GamesRoutes } from '@config/translations/Games';
+import { GamesRoutes, GamesTranslations } from '@config/translations/Games';
 import { LegalContent } from '@config/translations/Legal';
 
 const LOCALES = ['es', 'en'] as const;
+
+// ES-only games keep an en route entry for key parity, but it points at the
+// ES page (unreachable via the EN UI), so it's exempt from the /en/ prefix check.
+const esOnlyGameIds = GamesTranslations
+    .filter((game) => game.availableLocales && !game.availableLocales.includes('en'))
+    .map((game) => game.id);
 
 describe('Translation key parity', () => {
     describe('GeneralTranslations', () => {
@@ -43,8 +49,9 @@ describe('Translation key parity', () => {
             });
         });
 
-        test('en routes all start with /en/', () => {
-            Object.values(GamesRoutes.en).forEach((route) => {
+        test('en routes all start with /en/ (except ES-only games)', () => {
+            Object.entries(GamesRoutes.en).forEach(([id, route]) => {
+                if (esOnlyGameIds.includes(id)) return;
                 expect(route).toMatch(/^\/en\//);
             });
         });

@@ -1,0 +1,88 @@
+@use '@styles/variables.scss' as vars;
+@use '@styles/common.scss';
+
+.accent-fixer-game {
+    @extend .game-wrapper;
+
+    &::before {
+        opacity: 0.2;
+        background-image: url('/games/accentFixerBg.png');
+    }
+
+    .accent-fixer-game-inner {
+        padding: 24px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .accent-fixer-score {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    .accent-fixer-word {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+
+    .accent-fixer-letter {
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+        text-transform: uppercase;
+        border: 1px solid #d9d9d9;
+        border-radius: 6px;
+        background: #fff;
+        cursor: default;
+        transition: border-color 0.2s, color 0.2s, background-color 0.2s;
+
+        &.vowel {
+            cursor: pointer;
+            border-color: vars.$main-color;
+            color: vars.$main-color;
+
+            &:hover:not(:disabled) {
+                background-color: rgba(51, 153, 255, 0.1);
+            }
+        }
+
+        &.correct {
+            border-color: vars.$secondary-color-dark;
+            color: vars.$secondary-color-dark;
+            background-color: rgba(142, 188, 121, 0.15);
+        }
+
+        &.incorrect {
+            border-color: vars.$danger-color;
+            color: vars.$danger-color;
+            background-color: rgba(255, 77, 79, 0.1);
+        }
+
+        &:disabled {
+            cursor: default;
+        }
+    }
+
+    .accent-fixer-no-accent {
+        display: block;
+        width: 100%;
+        text-align: center;
+
+        &.correct {
+            border-color: vars.$secondary-color-dark;
+            color: vars.$secondary-color-dark;
+            background-color: rgba(142, 188, 121, 0.15);
+        }
+
+        &.incorrect {
+            border-color: vars.$danger-color;
+            color: vars.$danger-color;
+            background-color: rgba(255, 77, 79, 0.1);
+        }
+    }
+}
