@@ -33925,5 +33925,806 @@
                 "definition": "Odd; not one of a pair; single."
             }
         ]
+    },
+    "accounted": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To provide explanation."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To count."
+            }
+        ]
+    },
+    "accusations": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The act of accusing."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A formal charge brought against a person in a court of law."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "An allegation."
+            }
+        ]
+    },
+    "admits": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To allow to enter; to grant entrance (to), whether into a place, into the mind, or into consideration."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To allow (someone) to enter a profession or to enjoy a privilege; to recognize as qualified for a franchise."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To concede as true; to acknowledge or assent to, as an allegation which it is impossible to deny.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "confess, own up."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To be capable of; to permit. In this sense, \"of\" may be used after the verb, or may be omitted."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To give warrant or allowance, to grant opportunity or permission (+ of)."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To allow to enter a hospital or similar facility for treatment."
+            }
+        ]
+    },
+    "adopting": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To take by choice into relationship (a child, heir, friend, citizen, etc.)."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To take or receive as one's own what is not so naturally."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To select and take or approve."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To win ten consecutive games against an opponent."
+            }
+        ]
+    },
+    "advocates": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Someone whose job is to speak for someone's case in a court of law; a counsel."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Anyone who argues the case of another; an intercessor."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A person who speaks in support of something."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A person who supports others to make their voices heard, or ideally for them to speak up for themselves."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To plead in favour of; to defend by argument, before a tribunal or the public; to support, vindicate, or recommend publicly."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To encourage support for something."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "(with for) To engage in advocacy."
+            }
+        ]
+    },
+    "afterward": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adverb",
+                "definition": "(temporal location) At a later or succeeding time."
+            }
+        ]
+    },
+    "aiming": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To point or direct a missile, or a weapon which propels as missile, towards an object or spot with the intent of hitting it."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To direct the intention or purpose; to attempt the accomplishment of a purpose; to try to gain; to endeavor;—followed by at, or by an infinitive."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To direct or point (e.g. a weapon), at a particular object; to direct, as a missile, an act, or a proceeding, at, to, or against an object."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To direct (something verbal) towards a certain person, thing, or group."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To guess or conjecture."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "The act of one who aims."
+            }
+        ]
+    },
+    "aliens": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any life form of extraterrestrial or extradimensional origin."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A person, animal, plant, or other thing which is from outside the family, group, organization, or territory under consideration."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A foreigner residing in a country."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "One excluded from certain privileges; one alienated or estranged."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To estrange; to alienate."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To transfer the ownership of something."
+            }
+        ]
+    },
+    "allegations": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An assertion, especially an accusation, not necessarily based on facts."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The act of alleging."
+            }
+        ]
+    },
+    "analytics": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The principles governing any of various forms of analysis."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Discovery, interpretation, and communication of meaningful patterns in data."
+            }
+        ]
+    },
+    "anglo": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An English person or person of English ancestry."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "(sometimes offensive) an American, especially a white one (regardless of actual ethnicity), whose native language is English (as opposed to Americans for who have another native language)."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "An Anglo-Australian (as opposed to Australians of Mediterranean or Middle Eastern background)."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "An English-speaking Quebecer."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A white-skinned person."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A British person or person of British ancestry."
+            }
+        ]
+    },
+    "announcing": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To give public notice, especially for the first time; to make known.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "declare, herald, make known, proclaim, promulgate, publish."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To pronounce; to declare by judicial sentence.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "abjudicate, judge."
+                    }
+                ]
+            }
+        ]
+    },
+    "anyways": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adverb",
+                "definition": "In any way."
+            },
+            {
+                "number": 2,
+                "type": "adverb",
+                "definition": "Anyway, anyhow, in any case."
+            }
+        ]
+    },
+    "apologies": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An expression of remorse or regret for having said or done something that harmed another: an instance of apologizing (saying that one is sorry)."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A formal justification, defence.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "apologia."
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Anything provided as a substitute; a makeshift."
+            },
+            {
+                "number": 4,
+                "type": "interjection",
+                "definition": "Expresses regret, remorse, or sorrow."
+            },
+            {
+                "number": 5,
+                "type": "interjection",
+                "definition": "Used to correct oneself in speech."
+            }
+        ]
+    },
+    "appealed": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To call upon another to decide a question controverted, to corroborate a statement, to vindicate one's rights, etc."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To call on (someone) for aid."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "(informal elsewhere) To apply for the removal of a cause from an inferior to a superior judge or court for the purpose of reexamination or for decision."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To be attractive."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To ask an umpire for a decision on whether a batsman is out or not, usually by saying \"How's that\" or \"Howzat\"."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To accuse (someone of something)."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To summon; to challenge."
+            },
+            {
+                "number": 8,
+                "type": "verb",
+                "definition": "To invoke (used with to)."
+            }
+        ]
+    },
+    "approached": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To come or go near, in place or time; to draw nigh; to advance nearer."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To draw near, in a figurative sense; to make advances; to approximate."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To come near to in place, time, character or value; to draw nearer to."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To make an attempt at (solving a problem or making a policy)."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To speak to, as to make a request or ask a question."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To take approaches to."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To bring near; to cause to draw near."
+            }
+        ]
+    },
+    "armies": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A large, highly organized military force, concerned mainly with ground (rather than air or naval) operations."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The governmental agency in charge of a state's army."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A large group of people working toward the same purpose."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A large group of social animals working toward the same purpose."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "Any multitude."
+            }
+        ]
+    },
+    "asap": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adverb",
+                "definition": "As soon as is possible; at one's earliest convenience; at the earliest possible time."
+            }
+        ]
+    },
+    "assisting": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To help."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To make a pass that leads directly towards scoring."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To help compensate for what is missing with the help of a medical technique or therapy."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To stand (at a place) or to (an opinion)."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To be present (at an event, occasion etc.)."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "Assistance; help given."
+            },
+            {
+                "number": 7,
+                "type": "adjective",
+                "definition": "Helpful; auxiliary (to)."
+            }
+        ]
+    },
+    "attracted": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To pull toward without touching."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To arouse interest."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To draw by moral, emotional or sexual influence; to engage or fix, as the mind, attention, etc.; to invite or allure."
+            },
+            {
+                "number": 4,
+                "type": "adjective",
+                "definition": "Drawn towards."
+            }
+        ]
+    },
+    "audiences": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A group of people within hearing; specifically, a large gathering of people listening to or watching a performance, speech, etc."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Hearing; the condition or state of hearing or listening."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A widespread or nationwide viewing or listening public, as of a TV or radio network or program."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A formal meeting with a state or religious dignitary."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The readership of a book or other written publication."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A following."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "An audiencia (judicial court of the Spanish empire), or the territory administered by it."
+            }
+        ]
+    },
+    "avengers": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "One who avenges or vindicates."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "One who takes vengeance."
+            }
+        ]
+    },
+    "averaged": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To compute the average of, especially the arithmetic mean."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "Over a period of time or across members of a population, to have or generate a mean value of."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To divide among a number, according to a given proportion."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To be, generally or on average."
+            }
+        ]
+    },
+    "avoided": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To try not to meet or communicate with (a person); to shun."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To keep away from; to keep clear of; to stay away from."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To try not to do something or to have something happen."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To make empty; to clear."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To make void, to annul; to refute (especially a contract)."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To defeat or evade; to invalidate."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To emit or throw out; to void."
+            },
+            {
+                "number": 8,
+                "type": "verb",
+                "definition": "To leave, evacuate; to leave as empty, to withdraw or come away from."
+            },
+            {
+                "number": 9,
+                "type": "verb",
+                "definition": "To get rid of."
+            },
+            {
+                "number": 10,
+                "type": "verb",
+                "definition": "To retire; to withdraw, depart, go away."
+            },
+            {
+                "number": 11,
+                "type": "verb",
+                "definition": "To become void or vacant."
+            }
+        ]
+    },
+    "axe": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A tool for felling trees or chopping wood etc. consisting of a heavy head flattened to a blade on one side, and a handle attached to it."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An ancient weapon consisting of a head that has one or two blades and a long handle."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A dismissal or rejection.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "boot, chop, pink slip, sack."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A gigging musician's particular instrument, especially a guitar in rock music or a saxophone in jazz."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A position, interest, or reason in buying and selling stock, often with ulterior motives."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To fell or chop with an axe."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To lay off, terminate or drastically reduce, especially in a rough or ruthless manner; to cancel.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "downsize, fire, lay off."
+                    }
+                ]
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "The axle of a wheel."
+            },
+            {
+                "number": 9,
+                "type": "verb",
+                "definition": "To furnish with an axle."
+            },
+            {
+                "number": 10,
+                "type": "verb",
+                "definition": "To request (information, or an answer to a question)."
+            },
+            {
+                "number": 11,
+                "type": "verb",
+                "definition": "To put forward (a question) to be answered."
+            },
+            {
+                "number": 12,
+                "type": "verb",
+                "definition": "To interrogate or enquire of (a person)."
+            },
+            {
+                "number": 13,
+                "type": "verb",
+                "definition": "To request or petition; usually with for."
+            },
+            {
+                "number": 14,
+                "type": "verb",
+                "definition": "To request permission to do something."
+            },
+            {
+                "number": 15,
+                "type": "verb",
+                "definition": "To require, demand, claim, or expect, whether by way of remuneration or return, or as a matter of necessity."
+            },
+            {
+                "number": 16,
+                "type": "verb",
+                "definition": "To invite."
+            },
+            {
+                "number": 17,
+                "type": "verb",
+                "definition": "To publish in church for marriage; said of both the banns and the persons."
+            },
+            {
+                "number": 18,
+                "type": "verb",
+                "definition": "To take (a person's situation) as an example."
+            }
+        ]
     }
 }
