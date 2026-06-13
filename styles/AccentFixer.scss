@@ -13,6 +13,25 @@
         padding: 24px;
         position: relative;
         z-index: 1;
+        min-height: 460px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .accent-fixer-word-label {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin: 0 0 16px;
+        color: #333;
+
+        @media only screen and (max-width: 479px) {
+            font-size: 20px;
+        }
     }
 
     .accent-fixer-score {
@@ -38,6 +57,7 @@
         border: 1px solid #d9d9d9;
         border-radius: 6px;
         background: #fff;
+        color: #999;
         cursor: default;
         transition: border-color 0.2s, color 0.2s, background-color 0.2s;
 
@@ -45,6 +65,8 @@
             cursor: pointer;
             border-color: vars.$main-color;
             color: vars.$main-color;
+            border-width: 2px;
+            font-weight: 800;
 
             &:hover:not(:disabled) {
                 background-color: rgba(51, 153, 255, 0.1);
@@ -69,9 +91,18 @@
     }
 
     .accent-fixer-no-accent {
-        display: block;
-        width: 100%;
-        text-align: center;
+        display: inline-block;
+        width: auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        border-color: vars.$main-color;
+        border-width: 2px;
+        color: vars.$main-color;
+        font-weight: 800;
+
+        &:hover:not(:disabled) {
+            background-color: rgba(51, 153, 255, 0.1);
+        }
 
         &.correct {
             border-color: vars.$secondary-color-dark;
@@ -83,6 +114,25 @@
             border-color: vars.$danger-color;
             color: vars.$danger-color;
             background-color: rgba(255, 77, 79, 0.1);
+        }
+    }
+
+    .results-verdict {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        text-align: center;
+
+        &--perfect {
+            color: vars.$secondary-color-dark;
+        }
+
+        &--few {
+            color: vars.$main-color-dark;
+        }
+
+        &--many {
+            color: vars.$danger-color;
         }
     }
 }

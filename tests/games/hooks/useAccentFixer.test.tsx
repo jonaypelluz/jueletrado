@@ -23,6 +23,7 @@ const MIXED_POOL = [...ACCENTED_WORDS, ...UNACCENTED_WORDS];
 const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}) => ({
     locale: 'es',
     gameLevel: null as string | null,
+    isLoading: false,
     error: null,
     setError: jest.fn(),
     setLoadingProgress: jest.fn(),
@@ -34,7 +35,7 @@ describe('useAccentFixer', () => {
 
     beforeEach(() => {
         // Math.random() - 0.5 === 0 keeps Array.sort's relative order stable,
-        // so selectChallenges' insertion order (5 accented, then 5 unaccented) is preserved.
+        // so selectChallenges' insertion order (accented first, then unaccented) is preserved.
         randomSpy = jest.spyOn(Math, 'random').mockReturnValue(0.5);
         mockGetFullWordSet.mockResolvedValue(new Set<string>());
     });
@@ -67,6 +68,39 @@ describe('useAccentFixer', () => {
         expect(result.current.challenges?.some((c) => c.accentIndex !== -1)).toBe(true);
         expect(result.current.challenges?.some((c) => c.accentIndex === -1)).toBe(true);
         expect(result.current.gameStarted).toBe(true);
+    });
+
+    test('does not show the play button while the level data is still loading', () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner', isLoading: true }));
+
+        const { result, rerender } = renderHook(() => useAccentFixer());
+        expect(result.current.showButton).toBe(false);
+        expect(result.current.isLevelLoading).toBe(true);
+
+        mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner', isLoading: false }));
+        rerender();
+
+        expect(result.current.showButton).toBe(true);
+        expect(result.current.isLevelLoading).toBe(false);
+    });
+
+    test('selects an 80/20 accented/unaccented split when enough of each are available', async () => {
+        const LARGE_ACCENTED = ['canción', 'árbol', 'cantó', 'rápido', 'médico', 'jamón', 'camión', 'sábana'];
+        const LARGE_UNACCENTED = ['ventana', 'perro', 'gato', 'mesa', 'silla', 'lampara', 'mochila', 'cocina'];
+
+        mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner' }));
+        mockGetSessionWords.mockResolvedValue([...LARGE_ACCENTED, ...LARGE_UNACCENTED]);
+
+        const { result } = renderHook(() => useAccentFixer());
+
+        await act(async () => {
+            await result.current.handleGameStartClick();
+        });
+
+        const challenges = result.current.challenges!;
+        expect(challenges).toHaveLength(10);
+        expect(challenges.filter((c) => c.accentIndex !== -1)).toHaveLength(8);
+        expect(challenges.filter((c) => c.accentIndex === -1)).toHaveLength(2);
     });
 
     test('correct vowel click increments score', async () => {

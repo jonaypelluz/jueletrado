@@ -5,6 +5,7 @@ import {
     populateWordsDB,
     prefetchWordGroups,
 } from '@services/WordsService';
+import LevelsConfig from '@config/LevelConfig';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
@@ -22,7 +23,7 @@ export const __resetLevelLoaderForTests = (): void => {
 };
 
 const useLevelLoader = () => {
-    const { locale, setGameLevel, setLoading, setLoadingProgress, setError } = useWordsContext();
+    const { locale, gameLevel: currentGameLevel, setGameLevel, setLoading, setLoadingProgress, setError } = useWordsContext();
 
     const runLoad = async (level: string): Promise<void> => {
         isLoadInFlight = true;
@@ -42,6 +43,7 @@ const useLevelLoader = () => {
                 }
             }
 
+            setGameLevel(level);
             StorageService.setItem(StorageService.SELECTED_LEVEL, level, EXPIRE_TIME_24H);
 
             clearWordGroupCaches();
@@ -62,12 +64,50 @@ const useLevelLoader = () => {
     };
 
     /**
-     * Switches the active level. The level name updates immediately
-     * (optimistic); the data load (DB population + word-group prefetch) runs
-     * serialized — a switch requested mid-load is queued and runs after.
+     * Loads all levels then auto-selects beginner. Used for the initial
+     * "Cargar niveles" CTA when no level has been chosen yet.
+     */
+    const loadAllLevels = async (): Promise<void> => {
+        if (isLoadInFlight) return;
+        isLoadInFlight = true;
+        setLoading(true);
+
+        try {
+            for (const { level } of LevelsConfig) {
+                if (!isLevelPopulated(level, locale)) {
+                    const isPopulated = await populateWordsDB(
+                        level,
+                        locale,
+                        setError,
+                        setLoadingProgress,
+                    );
+                    if (!isPopulated) {
+                        Logger.warn(`Database not populated for level ${level}.`);
+                        return;
+                    }
+                }
+            }
+
+            const firstLevel = LevelsConfig[0].level;
+            setGameLevel(firstLevel);
+            StorageService.setItem(StorageService.SELECTED_LEVEL, firstLevel, EXPIRE_TIME_24H);
+            clearWordGroupCaches();
+            await prefetchWordGroups(firstLevel, locale, setError);
+        } finally {
+            isLoadInFlight = false;
+            setLoading(false);
+        }
+    };
+
+    /**
+     * Switches the active level. Updates optimistically only when there is
+     * already a level (switching); on first load the level is set inside
+     * runLoad after the DB is populated.
      */
     const selectLevel = (level: string): void => {
-        setGameLevel(level);
+        if (currentGameLevel !== null) {
+            setGameLevel(level);
+        }
 
         if (isLoadInFlight) {
             pendingLevel = level;
@@ -77,7 +117,7 @@ const useLevelLoader = () => {
         runLoad(level);
     };
 
-    return { selectLevel };
+    return { selectLevel, loadAllLevels };
 };
 
 export default useLevelLoader;
