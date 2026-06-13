@@ -68,12 +68,12 @@ describe('createGamesConfig', () => {
 });
 
 describe('createAllGamesConfig', () => {
-    test('returns array with all 6 games for es', () => {
+    test('returns array with all 6 universal games plus the ES-only game for es', () => {
         const configs = createAllGamesConfig('es');
-        expect(configs).toHaveLength(6);
+        expect(configs).toHaveLength(7);
     });
 
-    test('returns array with all 6 games for en', () => {
+    test('returns array with only the 6 universal games for en', () => {
         const configs = createAllGamesConfig('en');
         expect(configs).toHaveLength(6);
     });
@@ -97,5 +97,27 @@ describe('createAllGamesConfig', () => {
                 expect(c.link.length).toBeGreaterThan(0);
             });
         });
+    });
+
+    test('ES-only game accentFixer is excluded from en', () => {
+        const ids = createAllGamesConfig('en').map((c) => c.id);
+        expect(ids).not.toContain('accentFixer');
+    });
+
+    test('ES-only game accentFixer is included in es', () => {
+        const ids = createAllGamesConfig('es').map((c) => c.id);
+        expect(ids).toContain('accentFixer');
+    });
+});
+
+describe('accentFixer (ES-only game)', () => {
+    test('createGamesConfig returns null for en', () => {
+        expect(createGamesConfig('en', 'accentFixer')).toBeNull();
+    });
+
+    test('createGamesConfig returns config for es', () => {
+        const config = createGamesConfig('es', 'accentFixer');
+        expect(config).not.toBeNull();
+        expect(config?.id).toBe('accentFixer');
     });
 });

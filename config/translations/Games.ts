@@ -8,6 +8,7 @@ const GamesRoutes: Translations = {
         wordFinder: '/juegos/buscador-de-palabras',
         definitionMaster: '/juegos/maestro-de-las-definiciones',
         crossWordPuzzle: '/juegos/crucigramas',
+        accentFixer: '/juegos/corregidor-de-acentos',
     },
     en: {
         spellTower: '/en/games/spell-tower',
@@ -16,6 +17,8 @@ const GamesRoutes: Translations = {
         wordFinder: '/en/games/word-finder',
         definitionMaster: '/en/games/definition-master',
         crossWordPuzzle: '/en/games/crossword-puzzles',
+        // ES-only game: no EN page exists, route points at the ES page and is unreachable via the EN UI.
+        accentFixer: '/juegos/corregidor-de-acentos',
     },
 };
 
@@ -321,6 +324,53 @@ const GamesTranslations: GamePreConfig[] = [
                     'Comienza con las pistas más fáciles para llenar algunas letras y tener una idea del rompecabezas.',
                     'Utiliza las letras que se cruzan para ayudar a resolver las pistas más difíciles.',
                     'Verifica la ortografía y la longitud de las palabras para asegurar la precisión.',
+                ],
+            },
+        },
+    },
+    {
+        id: 'accentFixer',
+        imgSrc: '/images/games/accentFixer.png',
+        availableLocales: ['es'],
+        title: {
+            en: 'Accent Fixer',
+            es: 'Corregidor de acentos',
+        },
+        description: {
+            en: 'A word is shown without its accent mark and you must tap the vowel that should carry it, or indicate that it has none. Put the rules of agudas, llanas, and esdrújulas to the test.',
+            es: 'Se muestra una palabra sin tilde y debes pulsar la vocal que debería llevarla, o indicar que no lleva. Pon a prueba las reglas de agudas, llanas y esdrújulas.',
+        },
+        subtitle: {
+            en: 'A game where you decide which vowel carries the accent mark.',
+            es: 'Un juego donde decides qué vocal lleva la tilde.',
+        },
+        gameRules: {
+            en: {
+                gameGoal: 'Guess where the accent mark goes in as many words as possible.',
+                howToPlay: [
+                    'A word without its accent mark will appear.',
+                    'Tap the vowel that should carry the accent mark.',
+                    'If the word has no accent mark, tap the "No accent mark" button.',
+                    'Each correct answer adds one point; each mistake subtracts one.',
+                ],
+                additionalRules: [],
+                tips: [
+                    'Remember: agudas words are accented if they end in a vowel, n, or s.',
+                    'Esdrújulas words always carry an accent mark.',
+                ],
+            },
+            es: {
+                gameGoal: 'Acierta dónde va la tilde en el mayor número de palabras posible.',
+                howToPlay: [
+                    'Aparecerá una palabra sin tilde.',
+                    'Pulsa la vocal que debería llevar tilde.',
+                    'Si la palabra no lleva tilde, pulsa el botón "No lleva tilde".',
+                    'Cada acierto suma un punto; cada fallo resta uno.',
+                ],
+                additionalRules: [],
+                tips: [
+                    'Recuerda: las agudas se acentúan si terminan en vocal, n o s.',
+                    'Las esdrújulas siempre llevan tilde.',
                 ],
             },
         },

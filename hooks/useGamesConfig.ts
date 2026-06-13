@@ -3,7 +3,9 @@ import { GamePreConfig } from '@models/interfaces';
 import { GameConfig } from '@models/types';
 
 const createAllGamesConfig = (locale: string): GameConfig[] => {
-    return GamesTranslations.map((config: GamePreConfig) => ({
+    return GamesTranslations.filter(
+        (config: GamePreConfig) => !config.availableLocales || config.availableLocales.includes(locale),
+    ).map((config: GamePreConfig) => ({
         id: config.id,
         link: GamesRoutes[locale][config.id],
         imgSrc: config.imgSrc,
@@ -16,6 +18,10 @@ const createAllGamesConfig = (locale: string): GameConfig[] => {
 
 const createGamesConfig = (locale: string, gameName: string): GameConfig | null => {
     const config = GamesTranslations.find((game: GamePreConfig) => game.id === gameName);
+
+    if (config !== undefined && config.availableLocales && !config.availableLocales.includes(locale)) {
+        return null;
+    }
 
     return config !== undefined
         ? {

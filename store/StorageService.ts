@@ -7,6 +7,7 @@ export type StorageKey =
     | 'WORDS_RAIN'
     | 'WORDS_FINDER'
     | 'WORDS_TOWER'
+    | 'WORDS_ACCENT'
     | 'LOCALE'
     | 'LEVELS_POPULATED';
 
@@ -29,6 +30,8 @@ const StorageService = {
     WORDS_FINDER: 'WORDS_FINDER' as const,
     /** Persistent queue for spellTower (drawn N per session, background-refetched when low). */
     WORDS_TOWER: 'WORDS_TOWER' as const,
+    /** Persistent queue for accentFixer (drawn N per session, background-refetched when low). */
+    WORDS_ACCENT: 'WORDS_ACCENT' as const,
     LOCALE: 'LOCALE' as const,
     /** Tracks which level+locale combinations are already populated in IndexedDB. */
     LEVELS_POPULATED: 'LEVELS_POPULATED' as const,
