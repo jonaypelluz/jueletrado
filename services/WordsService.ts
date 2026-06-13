@@ -29,6 +29,7 @@ const WORD_GROUP_KEYS = [
     StorageService.WORDS_FINDER,
     StorageService.WORDS_TOWER,
     StorageService.WORDS_RAIN,
+    StorageService.WORDS_ACCENT,
 ] as const;
 
 /** Clears only the per-game word caches, leaving level/locale settings intact. */
@@ -60,6 +61,9 @@ const WORD_GROUP_FETCH_CONFIG: {
     // WORDS_RAIN: cycling pool, 150 words (looped, not consumed).
     // Oversized — some words lose all invalid variants after dictionary validation.
     { count: 150, key: StorageService.WORDS_RAIN, minLength: 4 },
+    // WORDS_ACCENT: persistent queue, oversized since many words are rejected
+    // by the accent-eligibility filter in accentFixer.
+    { count: 80, key: StorageService.WORDS_ACCENT, minLength: 4 },
 ];
 
 /**
