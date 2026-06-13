@@ -1,16 +1,25 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useIntl } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import LevelsConfig from '@config/LevelConfig';
 import { LevelConfig } from '@models/types';
 
 interface LevelListProps {
     handlePopulateDBClick: (level: string) => void;
+    handleLoadAllClick: () => void;
     gameLevel: string | null;
+    isLoading: boolean;
+    hydrated: boolean;
 }
 
-const LevelList: React.FC<LevelListProps> = ({ handlePopulateDBClick, gameLevel }) => {
+const LevelList: React.FC<LevelListProps> = ({
+    handlePopulateDBClick,
+    handleLoadAllClick,
+    gameLevel,
+    isLoading,
+    hydrated,
+}) => {
     const intl = useIntl();
     const [isOpen, setIsOpen] = useState(gameLevel === null);
 
@@ -20,9 +29,24 @@ const LevelList: React.FC<LevelListProps> = ({ handlePopulateDBClick, gameLevel 
         advanced: intl.formatMessage({ id: 'levelAdvanced' }),
     };
 
-    const summaryLabel = gameLevel
-        ? `${intl.formatMessage({ id: 'homeLevel' })} ${levelTranslations[gameLevel]}`
-        : intl.formatMessage({ id: 'homeChoseLevel' });
+    if (!hydrated) return <div className="level-wrapper" />;
+
+    if (!gameLevel) {
+        return (
+            <div className="level-wrapper">
+                <button
+                    className="btn-primary level-load-btn"
+                    onClick={handleLoadAllClick}
+                    disabled={isLoading}
+                >
+                    <FormattedMessage id="homeLoadLevels" />
+                    {isLoading && <span className="level-selector-spinner" aria-hidden="true" />}
+                </button>
+            </div>
+        );
+    }
+
+    const summaryLabel = `${intl.formatMessage({ id: 'homeLevel' })} ${levelTranslations[gameLevel]}`;
 
     return (
         <div className="level-wrapper">
@@ -33,6 +57,7 @@ const LevelList: React.FC<LevelListProps> = ({ handlePopulateDBClick, gameLevel 
                     aria-expanded={isOpen}
                 >
                     {summaryLabel}
+                    {isLoading && <span className="level-selector-spinner" aria-hidden="true" />}
                 </button>
                 {isOpen && (
                     <div className="level-content">
@@ -41,7 +66,7 @@ const LevelList: React.FC<LevelListProps> = ({ handlePopulateDBClick, gameLevel 
                                 key={idx}
                                 onClick={() => handlePopulateDBClick(level.level)}
                                 className={`btn-${level.level} btn-levels ${
-                                    gameLevel && gameLevel === level.level ? 'selected' : ''
+                                    gameLevel === level.level ? 'selected' : ''
                                 }`}
                             >
                                 {/* eslint-disable-next-line @next/next/no-img-element */}

@@ -11,7 +11,7 @@ type PendingResult = { clickedIndex: number; correctIndex: number };
 
 const GAME_TIME = 60;
 const CHALLENGE_COUNT = 10;
-const CHALLENGES_PER_GROUP = 5;
+const ACCENTED_RATIO = 0.8;
 
 const LEVEL_FETCH_OPTIONS: Record<string, { minLength: number; maxLength?: number }> = {
     beginner: { minLength: 4, maxLength: 6 },
@@ -19,15 +19,16 @@ const LEVEL_FETCH_OPTIONS: Record<string, { minLength: number; maxLength?: numbe
     advanced: { minLength: 6 },
 };
 
-/** Picks up to `count` challenges, aiming for an even split of accented / non-accented words. */
+/** Picks up to `count` challenges, aiming for an 80/20 split of accented / non-accented words. */
 const selectChallenges = (challenges: AccentChallenge[], count: number): AccentChallenge[] => {
     const accented = challenges.filter((c) => c.accentIndex !== -1);
     const unaccented = challenges.filter((c) => c.accentIndex === -1);
 
-    const perGroup = Math.min(CHALLENGES_PER_GROUP, accented.length, unaccented.length);
-    const selected = [...accented.slice(0, perGroup), ...unaccented.slice(0, perGroup)];
+    const accentedCount = Math.min(Math.round(count * ACCENTED_RATIO), accented.length);
+    const unaccentedCount = Math.min(count - accentedCount, unaccented.length);
+    const selected = [...accented.slice(0, accentedCount), ...unaccented.slice(0, unaccentedCount)];
 
-    const remaining = [...accented.slice(perGroup), ...unaccented.slice(perGroup)];
+    const remaining = [...accented.slice(accentedCount), ...unaccented.slice(unaccentedCount)];
     for (const challenge of remaining) {
         if (selected.length >= count) break;
         selected.push(challenge);
@@ -37,7 +38,7 @@ const selectChallenges = (challenges: AccentChallenge[], count: number): AccentC
 };
 
 const useAccentFixer = () => {
-    const { locale, gameLevel, error, setError, setLoadingProgress } = useWordsContext();
+    const { locale, gameLevel, isLoading: isLevelLoading, error, setError, setLoadingProgress } = useWordsContext();
     const [isLoadingWords, setIsLoadingWords] = useState(false);
 
     const [countdown, setCountdown] = useState<number>(0);
@@ -112,8 +113,8 @@ const useAccentFixer = () => {
     }, [pendingResult]);
 
     useEffect(() => {
-        if (gameLevel) setShowButton(true);
-    }, [gameLevel]);
+        if (gameLevel && !isLevelLoading) setShowButton(true);
+    }, [gameLevel, isLevelLoading]);
 
     useEffect(() => {
         if (countdown <= 0) {
@@ -168,6 +169,7 @@ const useAccentFixer = () => {
         error,
         countdown,
         gameLevel,
+        isLevelLoading,
         showButton,
         challenges,
         currentIndex,

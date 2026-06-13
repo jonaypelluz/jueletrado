@@ -15,6 +15,7 @@ type AccentFixerUIProps = {
     error: Error | null;
     countdown: number;
     gameLevel: string | null;
+    isLevelLoading: boolean;
     showButton: boolean;
     challenges: AccentChallenge[] | null;
     currentIndex: number;
@@ -34,6 +35,7 @@ const UI: React.FC<AccentFixerUIProps> = ({
     error,
     countdown,
     gameLevel,
+    isLevelLoading,
     showButton,
     challenges,
     currentIndex,
@@ -63,7 +65,7 @@ const UI: React.FC<AccentFixerUIProps> = ({
                 title={gameConfig.title}
                 subtitle={gameConfig.description}
             >
-                {!gameLevel ? (
+                {!gameLevel || isLevelLoading ? (
                     <button className="btn-primary game-btn" disabled>
                         <FormattedMessage id="gameSelectLevel" />
                     </button>
@@ -88,6 +90,7 @@ const UI: React.FC<AccentFixerUIProps> = ({
                     ) : gameStarted && challenge ? (
                         <>
                             <div className="accent-fixer-score">{correctAnswers}</div>
+                            <p className="accent-fixer-word-label">{challenge.displayed}</p>
                             <div className="accent-fixer-word">
                                 {challenge.displayed.split('').map((char, index) => {
                                     const isVowel = challenge.vowelIndices.includes(index);
@@ -120,21 +123,41 @@ const UI: React.FC<AccentFixerUIProps> = ({
                     ) : (
                         <div className="results-wrapper">
                             {error && <p className="load-error">{error.message}</p>}
-                            <div>
-                                <em className="results-title">
-                                    <FormattedMessage id="incorrectWords" />
-                                </em>
-                                <strong className="results-title text-danger">
-                                    {incorrectAnswers.length}
-                                </strong>
-                            </div>
-                            {incorrectAnswers.map(([displayed, original], index) => (
-                                <div key={index}>
-                                    <span className="results-ko text-danger">{displayed}</span>
-                                    {' → '}
-                                    <strong className="results-ok text-success">{original}</strong>
-                                </div>
-                            ))}
+                            {incorrectAnswers.length === 0 ? (
+                                <p className="results-verdict results-verdict--perfect">
+                                    <FormattedMessage id="gameAccentResultPerfect" />
+                                </p>
+                            ) : incorrectAnswers.length < 5 ? (
+                                <p className="results-verdict results-verdict--few">
+                                    <FormattedMessage
+                                        id="gameAccentResultFew"
+                                        values={{ count: incorrectAnswers.length }}
+                                    />
+                                </p>
+                            ) : (
+                                <p className="results-verdict results-verdict--many">
+                                    <FormattedMessage id="gameAccentResultMany" />
+                                </p>
+                            )}
+                            {incorrectAnswers.length > 0 && (
+                                <>
+                                    <div>
+                                        <em className="results-title">
+                                            <FormattedMessage id="incorrectWords" />
+                                        </em>
+                                        <strong className="results-title text-danger">
+                                            {incorrectAnswers.length}
+                                        </strong>
+                                    </div>
+                                    {incorrectAnswers.map(([displayed, original], index) => (
+                                        <div key={index}>
+                                            <span className="results-ko text-danger">{displayed}</span>
+                                            {' → '}
+                                            <strong className="results-ok text-success">{original}</strong>
+                                        </div>
+                                    ))}
+                                </>
+                            )}
                         </div>
                     )}
                 </div>

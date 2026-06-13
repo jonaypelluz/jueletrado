@@ -22,8 +22,8 @@ const mainImageArray: string[] = [
 
 const HomeContent: React.FC = () => {
     const intl = useIntl();
-    const { error, gameLevel, hydrated } = useWordsContext();
-    const { selectLevel } = useLevelLoader();
+    const { error, gameLevel, isLoading, hydrated, generalLoading } = useWordsContext();
+    const { selectLevel, loadAllLevels } = useLevelLoader();
     // Keep the random hero image stable across renders. Picking it inside a
     // useState initializer would re-randomize between server and client; this
     // effect picks it once after mount to avoid hydration mismatch.
@@ -34,6 +34,10 @@ const HomeContent: React.FC = () => {
 
     const handlePopulateDBClick = (level: string) => {
         selectLevel(level);
+    };
+
+    const handleLoadAllClick = () => {
+        loadAllLevels();
     };
 
     // General (initial) load: on first hydration, if the user has a stored
@@ -67,7 +71,7 @@ const HomeContent: React.FC = () => {
                 subtitle={intl.formatMessage({ id: 'mainDescription' })}
                 styles={{ border: '1px solid #000' }}
             />
-            <LevelList handlePopulateDBClick={handlePopulateDBClick} gameLevel={gameLevel} />
+            <LevelList handlePopulateDBClick={handlePopulateDBClick} handleLoadAllClick={handleLoadAllClick} gameLevel={gameLevel} isLoading={isLoading || generalLoading} hydrated={hydrated} />
             <Games />
         </MainLayout>
     );

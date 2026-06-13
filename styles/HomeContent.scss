@@ -14,29 +14,65 @@
     margin-top: 48px;
     border: 1px solid #000;
     border-radius: 12px;
+    min-height: 56px;
 
     @media only screen and (max-width: 479px) {
         margin-top: 12px;
     }
 
+    .level-load-btn {
+        display: block;
+        margin: 24px auto;
+        padding: 14px 40px;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+        border-radius: 8px;
+
+        &:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+
+        @media only screen and (max-width: 479px) {
+            font-size: 16px;
+            padding: 12px 28px;
+        }
+    }
+
     .level-collapse {
         width: 100%;
+        min-height: 20px;
     }
 
     .level-summary {
         width: 100%;
         background: none;
         border: none;
-        text-align: left;
-        padding: 12px 16px;
+        text-align: center;
+        padding: 14px 32px;
         font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: vars.$main-color-dark;
         cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        position: relative;
+        transition: color 0.2s, border-color 0.2s;
+
+        &:hover {
+            color: vars.$main-color;
+        }
+
+        &[aria-expanded='true'] {
+            border-bottom-color: #ccc;
+        }
 
         &::after {
             content: '▾';
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         &[aria-expanded='true']::after {

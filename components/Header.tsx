@@ -18,7 +18,7 @@ const Head: React.FC = () => {
     const { locale, wordOfTheDay, gameLevel, currentRoutes, generalLoading, isLoading } =
         useWordsContext();
     useDailyWord();
-    const { selectLevel } = useLevelLoader();
+    const { selectLevel, loadAllLevels } = useLevelLoader();
     const [navOpen, setNavOpen] = useState(false);
     const [levelOpen, setLevelOpen] = useState(false);
 
@@ -35,6 +35,11 @@ const Head: React.FC = () => {
 
     const handleLevelSelect = (level: string) => {
         selectLevel(level);
+        setLevelOpen(false);
+    };
+
+    const handleLoadLevels = () => {
+        loadAllLevels();
         setLevelOpen(false);
     };
 
@@ -66,30 +71,43 @@ const Head: React.FC = () => {
             </nav>
             <div className="header-right">
                 <div className="level-selector">
-                    <button
-                        className={`level-selector-toggle${gameLevel ? ' has-level' : ''}`}
-                        onClick={() => setLevelOpen((o) => !o)}
-                        aria-expanded={levelOpen}
-                    >
-                        {gameLevel
-                            ? levelTranslations[gameLevel]
-                            : intl.formatMessage({ id: 'homeChoseLevel' })}
-                        {(generalLoading || isLoading) && (
-                            <span className="level-selector-spinner" aria-hidden="true" />
-                        )}
-                    </button>
-                    {levelOpen && (
-                        <div className="level-selector-dropdown">
-                            {LevelsConfig.map((level: LevelConfig) => (
-                                <button
-                                    key={level.level}
-                                    className={`level-option btn-${level.level}${gameLevel === level.level ? ' selected' : ''}`}
-                                    onClick={() => handleLevelSelect(level.level)}
-                                >
-                                    {levelTranslations[level.level]}
-                                </button>
-                            ))}
-                        </div>
+                    {!gameLevel ? (
+                        <button
+                            className="level-selector-toggle"
+                            onClick={handleLoadLevels}
+                            disabled={isLoading}
+                        >
+                            <FormattedMessage id="homeLoadLevels" />
+                            {isLoading && (
+                                <span className="level-selector-spinner" aria-hidden="true" />
+                            )}
+                        </button>
+                    ) : (
+                        <>
+                            <button
+                                className="level-selector-toggle has-level"
+                                onClick={() => setLevelOpen((o) => !o)}
+                                aria-expanded={levelOpen}
+                            >
+                                {levelTranslations[gameLevel]}
+                                {(generalLoading || isLoading) && (
+                                    <span className="level-selector-spinner" aria-hidden="true" />
+                                )}
+                            </button>
+                            {levelOpen && (
+                                <div className="level-selector-dropdown">
+                                    {LevelsConfig.map((level: LevelConfig) => (
+                                        <button
+                                            key={level.level}
+                                            className={`level-option btn-${level.level}${gameLevel === level.level ? ' selected' : ''}`}
+                                            onClick={() => handleLevelSelect(level.level)}
+                                        >
+                                            {levelTranslations[level.level]}
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
+                        </>
                     )}
                 </div>
                 {wordOfTheDay && (
