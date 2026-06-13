@@ -15276,5 +15276,241 @@
                 "definition": "Any similar plant of any genus."
             }
         ]
+    },
+    "ideals": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A perfect standard of beauty, intellect etc., or a standard of excellence to aim at."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A subring closed under multiplication by its containing ring."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "(lattice theory) A non-empty lower set (of a partially ordered set) which is closed under binary suprema (a.k.a. joins)."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A collection of sets, considered small or negligible, such that every subset of each member and the union of any two members are also members of the collection."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "(Lie theory) A Lie subalgebra (subspace that is closed under the Lie bracket) 𝖍 of a given Lie algebra 𝖌 such that the Lie bracket [𝖌,𝖍] is a subset of 𝖍."
+            }
+        ]
+    },
+    "identities": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Sameness, identicalness; the quality or fact of (several specified things) being the same."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The difference or character that marks off an individual or collective from the rest of the same kind, selfhood, sense of who something or someone or oneself is, or the recurring characteristics that enable the recognition of such an individual or group by others or themself."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A name or persona—a mask or appearance one presents to the world—by which one is known."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "An equation which always holds true regardless of the choice of input variables."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "Any function which maps all elements of its domain to themselves."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "An element of an algebraic structure which, when applied to another element under an operation in that structure, yields this second element."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "A well-known or famous person."
+            }
+        ]
+    },
+    "idiots": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A person of low general intelligence."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A person who makes stupid decisions; a fool."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A person of the lowest intellectual standing, a person who lacks the capacity to develop beyond the mental age of a normal four-year-old; a person with an IQ below 30."
+            }
+        ]
+    },
+    "ignoring": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To deliberately not listen or pay attention to.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "misheed, neglect, unheed, unmind."
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "notice, recognize, watch."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To pretend to not notice someone or something.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "connive, dissimulate, overlook, turn a blind eye to, wink at."
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "notice, observe."
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "Fail to notice.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "misheed, overlook."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "Not to know.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "be ignorant of."
+                    },
+                    {
+                        "type": "Antonyms",
+                        "content": "know."
+                    }
+                ]
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The act by which something is ignored."
+            }
+        ]
+    },
+    "inmates": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A person confined to an institution such as a prison (as a convict) or hospital (as a patient)."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A person who shares a residence, such as a lodger, a hotel guest, or a student living on campus."
+            }
+        ]
+    },
+    "insisted": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "(with on or upon or (that + ordinary verb form)) To hold up a claim emphatically."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "(sometimes with on or upon or (that + subjunctive)) To demand continually that something happen or be done."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To stand (on); to rest (upon); to lean (upon)."
+            }
+        ]
+    },
+    "interviewed": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To ask questions of (somebody); to have an interview."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To be interviewed; to attend an interview."
+            }
+        ]
+    },
+    "investigating": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To inquire into or study in order to ascertain facts or information."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To examine, look into, or scrutinize in order to discover something hidden or secret."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To conduct an inquiry or examination."
+            }
+        ]
+    },
+    "ios": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A type of moth, the io moth."
+            }
+        ]
     }
 }

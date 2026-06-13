@@ -5132,5 +5132,2201 @@
                 "definition": "Someone who votes."
             }
         ]
+    },
+    "vacant": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Not occupied; empty."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Showing no intelligence or interest."
+            }
+        ]
+    },
+    "vagary": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An erratic, unpredictable occurrence or action."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An impulsive or illogical desire; a caprice or whim."
+            }
+        ]
+    },
+    "valetudinarian": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A person in poor health or sickly, especially one who is constantly obsessed with their state of health."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Sickly, infirm, of ailing health."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Being overly worried about one's health."
+            }
+        ]
+    },
+    "valetudinary": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A sickly, infirm person."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Sickly, infirm, valetudinarian."
+            }
+        ]
+    },
+    "valvulitis": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Inflammation of a valve, especially a heart valve."
+            }
+        ]
+    },
+    "vambrace": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The piece of armor designed to protect the arm from the elbow to the wrist."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The pieces of armor protecting the arm from the shoulder to the wrist."
+            }
+        ]
+    },
+    "vanadate": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any salt of vanadic acid."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Any of the corresponding anions, VO3, VO4, or V2O7."
+            }
+        ]
+    },
+    "vanadinite": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A reddish mineral, a mixed chloride and vanadate of lead with the chemical formula Pb5(VO4)3Cl, that is commercial source of vanadium."
+            }
+        ]
+    },
+    "vaporer": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any of several tussock moths (family Erebidae, subfamily Lymantriinae), especially of the genus Orgyia."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "One who vapours; a braggart."
+            }
+        ]
+    },
+    "vaporing": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To become vapor; to be emitted or circulated as vapor."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To turn into vapor."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To emit vapor or fumes."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To use insubstantial language; to boast or bluster."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To give (someone) the vapors; to depress, to bore."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "Boasting; blustering."
+            }
+        ]
+    },
+    "variant": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Something that is slightly different from a type or norm."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A different sequence of a gene (locus)."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A variable that can hold any of various unrelated data types."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "One of a set of words or other linguistic forms that conveys the same meaning or serves the same function."
+            },
+            {
+                "number": 5,
+                "type": "adjective",
+                "definition": "Showing variety, diverse."
+            },
+            {
+                "number": 6,
+                "type": "adjective",
+                "definition": "Showing deviation or disagreement."
+            },
+            {
+                "number": 7,
+                "type": "adjective",
+                "definition": "Variable."
+            },
+            {
+                "number": 8,
+                "type": "adjective",
+                "definition": "Covariant and/or contravariant."
+            }
+        ]
+    },
+    "varicolored": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Having a variety of colors; variegated or motley."
+            }
+        ]
+    },
+    "variegate": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To add variety to something.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "diversify."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To change the appearance of something, especially by covering with patches or streaks of different colour.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "redecorate, remodel, reskin."
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To dapple.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "maculate, mottle, spot."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "adjective",
+                "definition": "Variegated."
+            }
+        ]
+    },
+    "variform": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "That can take various forms."
+            }
+        ]
+    },
+    "variometer": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An instrument used to measure variations in a magnetic field."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A rate-of-climb indicator."
+            }
+        ]
+    },
+    "vasculum": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A container used by botanists to keep samples viable by maintaining a cool, humid environment."
+            }
+        ]
+    },
+    "vaticinate": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To predict or foretell (future events)."
+            }
+        ]
+    },
+    "vaunts": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A boast; an instance of vaunting."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To speak boastfully."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To speak boastfully about."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To boast of; to make a vain display of; to display with ostentation."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The first part."
+            }
+        ]
+    },
+    "vedette": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A sentinel, usually on horseback, stationed on the outpost of an army, to watch an enemy and give notice of danger."
+            }
+        ]
+    },
+    "vegan": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A person who does not eat, drink or otherwise consume any animal products."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A person committed to avoiding products and practices that inherently involve animal use, including all foods containing animal products, and to abstaining from direct and intentional harm to animals as far as possible; an adherent to veganism."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "(of a product or practice, especially food) Not containing animal products (meat, eggs, milk, leather, etc) or inherently involving animal use."
+            },
+            {
+                "number": 4,
+                "type": "adjective",
+                "definition": "(of a person) Committed to avoiding any product or practice that inherently involves animal use."
+            },
+            {
+                "number": 5,
+                "type": "adjective",
+                "definition": "Relating to vegans or veganism."
+            }
+        ]
+    },
+    "velitation": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A fight or skirmish."
+            }
+        ]
+    },
+    "velleity": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The lowest degree of desire or volition, with no effort to act."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A slight wish not followed by any effort to obtain."
+            }
+        ]
+    },
+    "velours": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A knit fabric similar to velvet, but usually somewhat coarser."
+            }
+        ]
+    },
+    "velvetleaf": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any of several plants with a velvety leaf as a most notable feature."
+            }
+        ]
+    },
+    "vendue": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A public auction."
+            }
+        ]
+    },
+    "veneering": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To apply veneer to."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To disguise with apparent goodness."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "An application of veneer."
+            }
+        ]
+    },
+    "venery": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The hunting of wild animals."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Game animals."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The pursuit of sexual pleasure or indulgence."
+            }
+        ]
+    },
+    "venesection": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Cutting open or exposing a vein; phlebotomy.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "venipuncture."
+                    }
+                ]
+            }
+        ]
+    },
+    "vennel": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An alley, a narrow street."
+            }
+        ]
+    },
+    "venogram": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An X-ray of a vein that has been injected with an opaque material."
+            }
+        ]
+    },
+    "venography": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A diagnostic procedure in which an X-ray of the veins, a venogram, is taken after a special dye is injected into the bone marrow or veins."
+            }
+        ]
+    },
+    "vent": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An opening through which gases, especially air, can pass."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A small aperture."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The opening of a volcano from which lava flows."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A verbalized frustration."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The excretory opening of lower orders of vertebrates."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A slit in the seam of a garment."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "The opening at the breech of a firearm, through which fire is communicated to the powder of the charge; touchhole."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "In steam boilers, a sectional area of the passage for gases divided by the length of the same passage in feet."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "Opportunity of escape or passage from confinement or privacy; outlet."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "Emission; escape; passage to notice or expression; publication; utterance."
+            },
+            {
+                "number": 11,
+                "type": "verb",
+                "definition": "To allow gases to escape."
+            },
+            {
+                "number": 12,
+                "type": "verb",
+                "definition": "To allow to escape through a vent."
+            },
+            {
+                "number": 13,
+                "type": "verb",
+                "definition": "To express a strong emotion."
+            },
+            {
+                "number": 14,
+                "type": "verb",
+                "definition": "To snuff; to breathe or puff out; to snort."
+            },
+            {
+                "number": 15,
+                "type": "noun",
+                "definition": "Ventriloquism."
+            },
+            {
+                "number": 16,
+                "type": "noun",
+                "definition": "Sale; opportunity to sell; market."
+            },
+            {
+                "number": 17,
+                "type": "verb",
+                "definition": "To sell; to vend."
+            },
+            {
+                "number": 18,
+                "type": "noun",
+                "definition": "A baiting place; an inn."
+            },
+            {
+                "number": 19,
+                "type": "noun",
+                "definition": "Ventilation or ventilator."
+            },
+            {
+                "number": 20,
+                "type": "verb",
+                "definition": "To ventilate; to use a ventilator; to use ventilation."
+            }
+        ]
+    },
+    "ventiduct": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A ventilation duct."
+            }
+        ]
+    },
+    "ventose": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A cupping glass."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A suction cup like device used on a baby's head to assist in difficult childbirths."
+            }
+        ]
+    },
+    "ventricose": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Distended; corpulent."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Broadest in the middle and tapering toward the ends."
+            }
+        ]
+    },
+    "venturesome": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Bold; willing to take risks; adventurous."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Potentially hazardous; risky."
+            }
+        ]
+    },
+    "venturous": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Adventurous; venturesome; willing to undertake activities involving risk."
+            }
+        ]
+    },
+    "venule": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A small vein, especially one that connects capillaries to a larger vein."
+            }
+        ]
+    },
+    "veratrum": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any of various poisonous herbs of the genus Veratrum."
+            }
+        ]
+    },
+    "verdin": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A small, yellow-headed passerine bird, Auriparus flaviceps, endemic to desert areas of the southwestern United States, that is the only species of family Remizidae found in the New World."
+            }
+        ]
+    },
+    "verditer": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Verdigris."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Either of two pigments (blue verditer and green verditer) made by treating copper nitrate with calcium carbonate."
+            }
+        ]
+    },
+    "veriest": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "True, real, actual."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "The same; identical."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "With limiting effect: mere."
+            }
+        ]
+    },
+    "verjuice": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A very acidic juice made by pressing unripe grapes."
+            }
+        ]
+    },
+    "vermicular": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Relating to, or having the form of, a worm.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "vermiculate."
+                    }
+                ]
+            }
+        ]
+    },
+    "vermiculate": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To decorate with lines resembling the tracks of worms."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Like a worm; resembling a worm."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Vermiculated."
+            }
+        ]
+    },
+    "vermiculation": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The process of being turned into a worm."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The state of being infested or consumed by worms."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A pattern of irregular wavy lines resembling worms or their casts or tracks, found on the plumage of birds, used to decorate artworks and buildings, etc."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "Peristalsis."
+            }
+        ]
+    },
+    "vermifuge": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A drug that causes the expulsion or death of intestinal worms, such as tapeworms."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Referring to something that acts as a drug to cause expulsion or death of intestinal worms."
+            }
+        ]
+    },
+    "verses": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A poetic form with regular meter and a fixed rhyme scheme.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "poetry."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Poetic form in general."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "One of several similar units of a song, consisting of several lines, generally rhymed.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "stanza."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A small section of the Jewish or Christian Bible."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A portion of an anthem to be performed by a single voice to each part."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To compose verses."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To tell in verse, or poetry."
+            },
+            {
+                "number": 8,
+                "type": "verb",
+                "definition": "To educate about, to teach about."
+            },
+            {
+                "number": 9,
+                "type": "verb",
+                "definition": "To oppose, to compete against, especially in a video game."
+            }
+        ]
+    },
+    "versicle": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "In poetry and songs, particularly hymns, one of a series of lines that are shorter than a standard line of verse."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "In liturgy, the verse said by the officiant."
+            }
+        ]
+    },
+    "verst": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A Russian unit of length, equivalent to about 1.07 kilometres or about 2/3 of a mile."
+            }
+        ]
+    },
+    "vesical": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Pertaining to the urinary bladder."
+            }
+        ]
+    },
+    "vesicant": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any material that causes blisters upon contact with the skin."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Causing blistering to the skin."
+            }
+        ]
+    },
+    "vestiary": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A dressing room or storeroom for clothes, especially in a church or other religious house."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Clothing; garments."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Pertaining to clothes or clothing."
+            }
+        ]
+    },
+    "vesuvianite": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A yellow, green or brown mineral, a mixed calcium, magnesium and aluminium silicate sometimes used as a gemstone."
+            }
+        ]
+    },
+    "vet": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A veterinarian or veterinary surgeon."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A veteran (a former soldier or other member of an armed forces)."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To thoroughly check or investigate particularly with regard to providing formal approval."
+            }
+        ]
+    },
+    "vetchling": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A leguminous climbing plant, notably:."
+            }
+        ]
+    },
+    "vexillum": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A flag, banner, or standard."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A company of troops serving under one standard."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The sign of the cross."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "The upper petal of a papilionaceous flower."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "The rhachis and web of a feather taken together; the vane."
+            }
+        ]
+    },
+    "viand": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An item of food eaten with rice."
+            }
+        ]
+    },
+    "viands": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An item of food eaten with rice."
+            }
+        ]
+    },
+    "vibratile": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Adapted to, or used in, vibratory motion; having the power of vibrating."
+            }
+        ]
+    },
+    "vicarial": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Of or pertaining to a vicar."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Delegated; vicarious."
+            }
+        ]
+    },
+    "vicereine": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The wife of a viceroy."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A woman who is a viceroy."
+            }
+        ]
+    },
+    "vicinage": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A surrounding district; a neighbourhood."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The people of a neighbourhood."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The state of living near something; proximity, closeness."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "The area where a crime was committed, a trial is being held, or the community from which jurors are drawn."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A geographical division of the w:New Jersey Superior Court, covering one or more counties, for judicial administration and the assignment of venue to an action within the Superior Court."
+            }
+        ]
+    },
+    "vicinity": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Proximity; the state of being near."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Neighbourhood; nearby region; surrounding area."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Approximate size or amount."
+            }
+        ]
+    },
+    "vicissitude": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Regular change or succession from one thing to another, or one part of a cycle to the next; alternation; mutual succession; interchange.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "ups and downs."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "(often in the plural) A change, especially in one's life or fortunes."
+            }
+        ]
+    },
+    "victories": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An instance of having won a competition or battle or succeeded in an effort."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The condition of having succeeded in a conflict or other effort."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A winged figure representing victory, common in Roman official iconography. See Winged victory."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To achieve a victory."
+            }
+        ]
+    },
+    "victualer": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A supplier of victuals or supplies to an army."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An innkeeper."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "One who deals in grain; a corn factor."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A supply ship."
+            }
+        ]
+    },
+    "videlicet": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adverb",
+                "definition": "Namely, to wit, that is to say (used when clarifying or naming the preceding item or topic)."
+            }
+        ]
+    },
+    "vielle": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A medieval stringed instrument similar to a violin."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The hurdy-gurdy."
+            }
+        ]
+    },
+    "viewgraph": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A graph (or similar chart) produced as a transparency for use with an overhead projector."
+            }
+        ]
+    },
+    "viewless": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Without a view."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Invisible; unseen."
+            }
+        ]
+    },
+    "vigesimal": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A twentieth part."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Occurring in intervals of twenty."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "To the base twenty."
+            }
+        ]
+    },
+    "villain": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A vile, wicked person."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "In fiction, a character who has the role of being bad, especially antagonizing the hero.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bad guy."
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Any opponent player, especially a hypothetical player for example and didactic purposes. Compare: hero."
+            },
+            {
+                "number": 4,
+                "type": "verb",
+                "definition": "To debase; to degrade."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A feudal tenant."
+            }
+        ]
+    },
+    "villein": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A feudal tenant."
+            }
+        ]
+    },
+    "villeinage": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The state of being a villein."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A feudal system involving villeins; serfdom."
+            }
+        ]
+    },
+    "vincible": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Capable of being defeated or overcome; assailable or vulnerable."
+            }
+        ]
+    },
+    "violet": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A monocotyledonous plant (Allium cepa), allied to garlic, used as vegetable and spice."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The bulb of such a plant."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The genus as a whole."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A ball."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A person from Bermuda or of Bermudian descent."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "A plant or flower of the genus Viola, especially the fragrant Viola odorata; (inexact) similar-looking plants and flowers.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "rooster."
+                    }
+                ]
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "A person thought to resemble V. odorata, especially in its beauty and delicacy."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "A bluish-purple colour resembling that of most V. odorata."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "Clothes and vestments of such a colour."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "(perfumes) The characteristic scent of V. odorata."
+            },
+            {
+                "number": 11,
+                "type": "adjective",
+                "definition": "Having a bluish-purple colour."
+            }
+        ]
+    },
+    "violone": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An early stringed instrument similar to a double bass; a double bass viol."
+            }
+        ]
+    },
+    "virescent": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Green-like, greenish."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Becoming green."
+            }
+        ]
+    },
+    "virgate": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The yardland: an obsolete English land measure usually comprising 1/4 of a hide and notionally equal to 30 acres."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Rod-shaped: straight, long, and thin, (particularly botany) the habitus of plants with straight, erect branches."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Finely striped, often with dark fibers."
+            }
+        ]
+    },
+    "virginals": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A musical instrument in the harpsichord family."
+            }
+        ]
+    },
+    "viroid": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A short section of RNA but without the protein coat typical of viruses, that are plant pathogens."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Certain defective viruses, such as hepatitis D, a human pathogen."
+            }
+        ]
+    },
+    "viscacha": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any of the several South American rodents, native to the Andes, of the genera Lagidium and Lagostomus, within family Chinchillidae."
+            }
+        ]
+    },
+    "viscountcy": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The rank or jurisdiction of a viscount."
+            }
+        ]
+    },
+    "viscounty": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The territory administered by a viscount as (notably royal) official."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An estate held (as fief or nominally) with the title of viscount."
+            }
+        ]
+    },
+    "viselike": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Extremely strong or tight, like the grip of a vise."
+            }
+        ]
+    },
+    "vitrify": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To convert into, or cause to resemble, glass or a glassy substance, by heat and fusion."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To be converted into glass, especially through heat."
+            }
+        ]
+    },
+    "vituperate": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To criticize in a harsh or abusive manner."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To revile, vilify, defame, go on about or mouth off about someone."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To use harsh or abusive wording."
+            }
+        ]
+    },
+    "vivified": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To bring to life; to enliven."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To impart vitality."
+            }
+        ]
+    },
+    "vivify": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To bring to life; to enliven."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To impart vitality."
+            }
+        ]
+    },
+    "vivifying": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To bring to life; to enliven."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To impart vitality."
+            }
+        ]
+    },
+    "vizor": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A part of a helmet, arranged so as to lift or open, and so show the face. The openings for seeing and breathing are generally in it."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A mask for the face."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "The fore piece of a cap, projecting over, and protecting the eyes."
+            }
+        ]
+    },
+    "vocable": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A word or utterance, especially with reference to its form rather than its meaning."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A syllable or sound without specific meaning, used together with or in place of actual words in a song."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Able to be uttered."
+            }
+        ]
+    },
+    "vocalism": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Speaking or singing."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The vowel sounds used in a language."
+            }
+        ]
+    },
+    "vociferate": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To cry out with vehemence.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "bawl, clamor, exclaim."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To utter with a loud voice; to shout out."
+            }
+        ]
+    },
+    "vodka": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A clear distilled alcoholic liquor made from grain mash."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A serving of the above beverage."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "Neutral spirits distilled (or treated after distillation) so as to have no distinctive character, aroma, taste or color."
+            }
+        ]
+    },
+    "voivode": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A local ruler or official in various parts of central and eastern Europe, especially early semi-independent rulers of Transylvania."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "An administrative chief in modern Poland."
+            }
+        ]
+    },
+    "volatilize": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To make volatile; to cause to evaporate."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To make insubstantial; to dissipate."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To become volatile; to evaporate."
+            }
+        ]
+    },
+    "volitive": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A verb form found in certain languages which indicates that a certain action is willed, although it may not be performed in fact."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A specific volitive form of a verb."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Of or pertaining the will or volition."
+            },
+            {
+                "number": 4,
+                "type": "adjective",
+                "definition": "(grammar, of a verb) In the volitive; expressing a wish."
+            }
+        ]
+    },
+    "volubility": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The state of being voluble."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The degree to which someone is voluble."
+            }
+        ]
+    },
+    "voluptuary": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "One whose life is devoted to sensual appetites; a sensualist, a pleasure-seeker."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Of or relating to the seeking of sensual pleasure."
+            }
+        ]
+    },
+    "volva": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A cup-shaped mass at the base of various fungi."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "In Old Norse society, a female practitioner of magic divination and prophecy."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "(by extension) Any prophetess, sooth-sayer, or witch."
+            }
+        ]
+    },
+    "volvox": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any of the genus Volvox of chlorophytes."
+            }
+        ]
+    },
+    "vomitory": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The entrance into a theater or other large public venue, where masses of people are disgorged into the stands; a vomitorium.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "vomitorium."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A substance that induces vomiting; an emetic.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "emetic, vomitive."
+                    }
+                ]
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "(pharmaceutical effect) Inducing vomiting; emetic."
+            }
+        ]
+    },
+    "vortical": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Of or pertaining to a vortex; containing vortices; moving in a vortex."
+            }
+        ]
+    },
+    "vorticella": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any protozoan of the genus Vorticella."
+            }
+        ]
+    },
+    "votary": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A person, such as a monk or nun, who lives a religious life according to vows they have made."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A devotee of a particular religion or cult."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A devout or zealous worshipper."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "Someone who is devoted to a particular pursuit etc; an enthusiast."
+            },
+            {
+                "number": 5,
+                "type": "adjective",
+                "definition": "Consecrated by a vow or promise; consequent on a vow; devoted; promised."
+            }
+        ]
+    },
+    "voussoir": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "One of a series of wedge-shaped bricks or stones forming an arch or vault."
+            }
+        ]
+    },
+    "voyage": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A long journey, especially by ship."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "The act or practice of travelling."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To go on a long journey."
+            }
+        ]
+    },
+    "voyeuristically": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adverb",
+                "definition": "In a voyeuristic way."
+            }
+        ]
+    },
+    "vulgarism": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "(grammar) A word or term that is considered offensive or vulgar."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A spelling, word, or phrase used in common speech that is considered improper or incorrect for formal communication."
+            }
+        ]
+    },
+    "vulnerary": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A healing drug or other agent used in healing and treating wounds."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Useful or used for healing wounds; healing, curative."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Causing wounds, wounding."
+            }
+        ]
+    },
+    "vulvitis": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "(medicine) An often painful inflammation of the vulva."
+            }
+        ]
+    },
+    "varieties": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The quality of being varied; diversity.",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "sameness."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A specific variation of something."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A number of different things.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "array, assortment."
+                    }
+                ]
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "A state of constant change."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A rank in a taxonomic classification, below species and subspecies."
+            },
+            {
+                "number": 6,
+                "type": "noun",
+                "definition": "The total number of distinct states of a system."
+            },
+            {
+                "number": 7,
+                "type": "noun",
+                "definition": "Logarithm of the base 2 of the total number of distinct states of a system."
+            },
+            {
+                "number": 8,
+                "type": "noun",
+                "definition": "A term used for a specific form of a language, neutral to whether that form is a dialect, accent, register, etc. and to its prestige level."
+            },
+            {
+                "number": 9,
+                "type": "noun",
+                "definition": "(universal algebra) An equational class; the class of all algebraic structures of a given signature, satisfying a given set of identities."
+            },
+            {
+                "number": 10,
+                "type": "noun",
+                "definition": "An algebraic variety."
+            },
+            {
+                "number": 11,
+                "type": "noun",
+                "definition": "The kind of theatrical entertainment given in variety shows."
+            },
+            {
+                "number": 12,
+                "type": "noun",
+                "definition": "The production of, or performance in, variety shows."
+            }
+        ]
+    },
+    "vibe": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A vibraphone."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "Vibration."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A vibrator (sex toy)."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "(originally New Age jargon) An atmosphere or aura felt to belong to a person, place or thing."
+            },
+            {
+                "number": 5,
+                "type": "verb",
+                "definition": "To stimulate with a vibrator."
+            },
+            {
+                "number": 6,
+                "type": "verb",
+                "definition": "To relax and enjoy oneself."
+            },
+            {
+                "number": 7,
+                "type": "verb",
+                "definition": "To agree."
+            },
+            {
+                "number": 8,
+                "type": "verb",
+                "definition": "To get along; to hit it off."
+            }
+        ]
+    },
+    "vikings": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "One of the Scandinavian or other Northern European seafaring warriors that raided (and then settled) the British Isles and other parts of Europe in the 8th to the 11th centuries and, according to many historians, were the first Europeans to reach North America."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "(by extension) A stock character common in the fantasy genre, namely a barbarian, generally equipped with an axe or sword and a helmet adorned with horns."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A Norseman (mediaeval Scandinavian)."
+            },
+            {
+                "number": 4,
+                "type": "noun",
+                "definition": "(mildly) An ethnic Swede, Norwegian, Dane, Icelander or Faroe Islander."
+            },
+            {
+                "number": 5,
+                "type": "noun",
+                "definition": "A player on the Minnesota Vikings NFL team."
+            }
+        ]
+    },
+    "violated": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To break or disregard (a rule or convention).",
+                "definition_extra": [
+                    {
+                        "type": "Antonyms",
+                        "content": "comply, obey."
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To rape."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To cite (a person) for a parole violation."
+            },
+            {
+                "number": 4,
+                "type": "adjective",
+                "definition": "(of a rule or law) Having been broken or ignored, especially in a flagrant manner."
+            },
+            {
+                "number": 5,
+                "type": "adjective",
+                "definition": "(by extension) Abused, harmed or sexually victimized."
+            }
+        ]
     }
 }

@@ -2255,5 +2255,25 @@
                 "definition": "A mode of philosophical debate popular in the Middle Ages, in which any question could be posed extemporaneously."
             }
         ]
+    },
+    "questioned": {
+        "level": "intermediate",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "verb",
+                "definition": "To ask questions about; to interrogate; to enquire for information."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To raise doubts about; have doubts about."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To argue; to converse; to dispute."
+            }
+        ]
     }
 }
