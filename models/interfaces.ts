@@ -31,4 +31,6 @@ export interface GamePreConfig extends Omit<
     description: LocaleType;
     subtitle: LocaleType;
     gameRules: { [key: string]: GameRules };
+    /** Restricts which locales can access this game. Omitted = available in all locales. */
+    availableLocales?: string[];
 }
