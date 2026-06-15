@@ -1,0 +1,133 @@
+@use '@styles/variables.scss' as vars;
+@use '@styles/common.scss';
+
+.letter-matcher-game {
+    @extend .game-wrapper;
+
+    &::before {
+        opacity: 0.2;
+        background-image: url('/games/letterMatcherBg.png');
+    }
+
+    .letter-matcher-game-inner {
+        padding: 24px;
+        position: relative;
+        z-index: 1;
+
+        @media only screen and (max-width: 767px) {
+            padding: 24px 12px;
+        }
+    }
+
+    .letter-matcher-play {
+        min-height: 412px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .letter-matcher-score {
+        text-align: center;
+        font-size: 48px;
+        font-weight: 800;
+        margin-bottom: 48px;
+    }
+
+    .letter-matcher-word {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        margin: 0 0 28px;
+        color: #333;
+
+        @media only screen and (max-width: 479px) {
+            font-size: 26px;
+        }
+    }
+
+    .letter-matcher-gap {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 56px;
+        height: 52px;
+        margin: 0 4px;
+        padding: 0 8px;
+        border: 2px solid vars.$main-color;
+        border-radius: 6px;
+        color: vars.$main-color;
+        background: #fff;
+
+        &.correct {
+            border-color: vars.$secondary-color-dark;
+            color: vars.$secondary-color-dark;
+            background-color: rgba(142, 188, 121, 0.15);
+        }
+
+        &.incorrect {
+            border-color: vars.$danger-color;
+            color: vars.$danger-color;
+            background-color: rgba(255, 77, 79, 0.1);
+        }
+    }
+
+    .letter-matcher-options {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .letter-matcher-option {
+        min-width: 96px;
+        height: auto;
+        padding: 12px 24px;
+        font-size: 22px;
+        font-weight: 800;
+        text-transform: uppercase;
+        border-color: vars.$main-color;
+        border-width: 2px;
+        color: vars.$main-color;
+
+        &:hover:not(:disabled) {
+            background-color: rgba(51, 153, 255, 0.1);
+        }
+
+        &.correct {
+            border-color: vars.$secondary-color-dark;
+            color: vars.$secondary-color-dark;
+            background-color: rgba(142, 188, 121, 0.15);
+        }
+
+        &.incorrect {
+            border-color: vars.$danger-color;
+            color: vars.$danger-color;
+            background-color: rgba(255, 77, 79, 0.1);
+        }
+    }
+
+    .results-verdict {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        text-align: center;
+
+        &--perfect {
+            color: vars.$secondary-color-dark;
+        }
+
+        &--few {
+            color: vars.$main-color-dark;
+        }
+
+        &--many {
+            color: vars.$danger-color;
+        }
+    }
+}
