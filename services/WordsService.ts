@@ -30,6 +30,7 @@ const WORD_GROUP_KEYS = [
     StorageService.WORDS_TOWER,
     StorageService.WORDS_RAIN,
     StorageService.WORDS_ACCENT,
+    StorageService.WORDS_MATCHER,
 ] as const;
 
 /** Clears only the per-game word caches, leaving level/locale settings intact. */
@@ -64,6 +65,9 @@ const WORD_GROUP_FETCH_CONFIG: {
     // WORDS_ACCENT: persistent queue, oversized since many words are rejected
     // by the accent-eligibility filter in accentFixer.
     { count: 80, key: StorageService.WORDS_ACCENT, minLength: 4 },
+    // WORDS_MATCHER: persistent queue, oversized since many words match no
+    // confusion rule and are rejected by the letterMatcher challenge builder.
+    { count: 80, key: StorageService.WORDS_MATCHER, minLength: 4 },
 ];
 
 /**

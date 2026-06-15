@@ -25,34 +25,40 @@ const GameRulesInfo: React.FC<GameRules> = ({ additionalRules, howToPlay, gameGo
                 <li key={index}>{rule}</li>
             ))}
         </ul>
-        <p>
-            <strong>
-                <FormattedMessage id="gameRulesAdditionalRules" />
-            </strong>
-        </p>
         {additionalRules.length > 0 && (
-            <p>
-                {additionalRules.map((rule: string, index: number) => (
-                    <span key={index}>
-                        {rule}
-                        {index !== additionalRules.length - 1 && <br />}
-                    </span>
-                ))}
-            </p>
+            <>
+                <p>
+                    <strong>
+                        <FormattedMessage id="gameRulesAdditionalRules" />
+                    </strong>
+                </p>
+                <p>
+                    {additionalRules.map((rule: string, index: number) => (
+                        <span key={index}>
+                            {rule}
+                            {index !== additionalRules.length - 1 && <br />}
+                        </span>
+                    ))}
+                </p>
+            </>
         )}
-        <p>
-            <strong>
-                <FormattedMessage id="gameRulesTips" />
-            </strong>
-        </p>
-        <p>
-            {tips.map((tip: string, index: number) => (
-                <span key={index}>
-                    {tip}
-                    {index !== tips.length - 1 && <br />}
-                </span>
-            ))}
-        </p>
+        {tips.length > 0 && (
+            <>
+                <p>
+                    <strong>
+                        <FormattedMessage id="gameRulesTips" />
+                    </strong>
+                </p>
+                <p>
+                    {tips.map((tip: string, index: number) => (
+                        <span key={index}>
+                            {tip}
+                            {index !== tips.length - 1 && <br />}
+                        </span>
+                    ))}
+                </p>
+            </>
+        )}
     </div>
 );
 

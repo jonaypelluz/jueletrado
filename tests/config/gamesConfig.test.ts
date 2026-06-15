@@ -7,6 +7,7 @@ const GAME_IDS = [
     'wordFinder',
     'definitionMaster',
     'crossWordPuzzle',
+    'letterMatcher',
 ] as const;
 
 describe('createGamesConfig', () => {
@@ -68,14 +69,14 @@ describe('createGamesConfig', () => {
 });
 
 describe('createAllGamesConfig', () => {
-    test('returns array with all 6 universal games plus the ES-only game for es', () => {
+    test('returns array with all 7 universal games plus the ES-only game for es', () => {
         const configs = createAllGamesConfig('es');
-        expect(configs).toHaveLength(7);
+        expect(configs).toHaveLength(8);
     });
 
-    test('returns array with only the 6 universal games for en', () => {
+    test('returns array with only the 7 universal games for en', () => {
         const configs = createAllGamesConfig('en');
-        expect(configs).toHaveLength(6);
+        expect(configs).toHaveLength(7);
     });
 
     test('all game IDs are present', () => {
