@@ -9,6 +9,7 @@ const GamesRoutes: Translations = {
         definitionMaster: '/juegos/maestro-de-las-definiciones',
         crossWordPuzzle: '/juegos/crucigramas',
         accentFixer: '/juegos/corregidor-de-acentos',
+        letterMatcher: '/juegos/maestro-de-letras',
     },
     en: {
         spellTower: '/en/games/spell-tower',
@@ -19,6 +20,7 @@ const GamesRoutes: Translations = {
         crossWordPuzzle: '/en/games/crossword-puzzles',
         // ES-only game: no EN page exists, route points at the ES page and is unreachable via the EN UI.
         accentFixer: '/juegos/corregidor-de-acentos',
+        letterMatcher: '/en/games/letter-matcher',
     },
 };
 
@@ -337,12 +339,12 @@ const GamesTranslations: GamePreConfig[] = [
             es: 'Corregidor de acentos',
         },
         description: {
-            en: 'A word is shown without its accent mark and you must tap the vowel that should carry it, or indicate that it has none. Put the rules of agudas, llanas, and esdrújulas to the test.',
-            es: 'Se muestra una palabra sin tilde y debes pulsar la vocal que debería llevarla, o indicar que no lleva. Pon a prueba las reglas de agudas, llanas y esdrújulas.',
+            en: 'Tap the vowel that should carry the accent mark, or say it has none. Test the rules of agudas, llanas and esdrújulas.',
+            es: 'Pulsa la vocal que debería llevar la tilde, o indica que no lleva. Pon a prueba las agudas, llanas y esdrújulas.',
         },
         subtitle: {
-            en: 'A game where you decide which vowel carries the accent mark.',
-            es: 'Un juego donde decides qué vocal lleva la tilde.',
+            en: 'Tap the vowel that should carry the accent mark, or say it has none. Test the agudas, llanas and esdrújulas.',
+            es: 'Pulsa la vocal que debería llevar la tilde, o indica que no lleva. Pon a prueba las agudas, llanas y esdrújulas.',
         },
         gameRules: {
             en: {
@@ -371,6 +373,50 @@ const GamesTranslations: GamePreConfig[] = [
                 tips: [
                     'Recuerda: las agudas se acentúan si terminan en vocal, n o s.',
                     'Las esdrújulas siempre llevan tilde.',
+                ],
+            },
+        },
+    },
+    {
+        id: 'letterMatcher',
+        imgSrc: '/images/games/letterMatcher.png',
+        title: {
+            en: 'Letter Master',
+            es: 'Maestro de letras',
+        },
+        description: {
+            en: 'A word appears with a gap where a tricky letter is missing: choose the right one from the options to complete it. Each hit scores a point and each miss costs one.',
+            es: 'Aparece una palabra con un hueco donde falta una letra difícil: elige la correcta entre las opciones para completarla. Cada acierto suma un punto y cada fallo resta uno.',
+        },
+        subtitle: {
+            en: 'A word appears with a gap where a tricky letter is missing: choose the right one from the options to complete it. Each hit scores a point and each miss costs one.',
+            es: 'Aparece una palabra con un hueco donde falta una letra difícil: elige la correcta entre las opciones para completarla. Cada acierto suma un punto y cada fallo resta uno.',
+        },
+        gameRules: {
+            en: {
+                gameGoal: 'Fill the gap with the correct letter in as many words as possible.',
+                howToPlay: [
+                    'A word will appear with a gap.',
+                    'Tap the option that correctly completes the word.',
+                    'Correct answers add a point; mistakes subtract one.',
+                    'You have 60 seconds.',
+                ],
+                additionalRules: [],
+                tips: [
+                    'Think of words in the same family: they keep the same tricky letters.',
+                ],
+            },
+            es: {
+                gameGoal: 'Rellena el hueco con la letra correcta en tantas palabras como puedas.',
+                howToPlay: [
+                    'Aparecerá una palabra con un hueco.',
+                    'Pulsa la opción que completa correctamente la palabra.',
+                    'Los aciertos suman un punto; los fallos restan uno.',
+                    'Tienes 60 segundos.',
+                ],
+                additionalRules: [],
+                tips: [
+                    'Piensa en palabras de la misma familia: si «haber» lleva h, «habrá» también.',
                 ],
             },
         },
