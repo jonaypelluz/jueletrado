@@ -17,10 +17,8 @@
 .DS_Store
 *.pem
 
-# claude config (local only, except PROJECT.md and STACK.md)
-.claude/*
-!.claude/STACK.md
-!.claude/PROJECT.md
+# claude config (local only)
+.claude/
 
 # debug
 npm-debug.log*
