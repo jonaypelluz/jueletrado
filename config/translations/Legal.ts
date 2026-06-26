@@ -2,76 +2,98 @@ import { Translations } from '@models/interfaces';
 
 const LegalContent: Translations = {
     es: {
-        privacyContent: `<p>En jueletrado.com, valoramos tu privacidad. Aunque no recopilamos datos personales directamente, este sitio web utiliza Google Analytics para mejorar la experiencia de los usuarios al analizar el tráfico y el comportamiento de navegación de forma anónima.</p>
-            <h2>Datos recopilados</h2>
-            <p>A través de Google Analytics, se recopilan los siguientes datos anónimos:</p>
-            <ul>
-                <li>Dirección IP (anonimizada)</li>
-                <li>Ubicación geográfica aproximada</li>
-                <li>Duración de la visita</li>
-                <li>Páginas visitadas</li>
-                <li>Tipo de dispositivo y navegador</li>
-            </ul>
-            <h2>Uso de la información</h2>
-            <p>Estos datos se utilizan exclusivamente para analizar el comportamiento de los usuarios en nuestro sitio web y mejorar los contenidos y servicios ofrecidos. No vendemos, compartimos ni utilizamos estos datos para identificar a los usuarios personalmente.</p>
-            <h2>Uso de Cookies</h2>
-            <p>Google Analytics utiliza cookies para rastrear la interacción de los usuarios con el sitio web. Las cookies son pequeños archivos que se almacenan en tu dispositivo para ayudar a analizar el uso del sitio web.</p>
-            <h2>Servicios de Terceros</h2>
-            <p>Utilizamos Google Analytics, un servicio de análisis web proporcionado por Google Inc. Google utiliza los datos recogidos para rastrear y examinar el uso de este sitio web, preparar informes y compartirlos con otros servicios de Google.</p>
-            <h2>Tus Derechos</h2>
-            <p>Puedes optar por no ser rastreado por Google Analytics utilizando el <a href="https://tools.google.com/dlpage/gaoptout?hl=es" target="_blank">complemento de inhabilitación para navegadores de Google Analytics</a>.</p>
-            <h2>Contacto</h2>
-            <p>Si tienes alguna pregunta sobre nuestra política de privacidad, puedes contactarnos en jonaypelluz&#64;gmail&#46;com.</p>`,
-        cookiesContent: `<p>Este sitio web utiliza cookies para mejorar la experiencia de navegación y analizar el tráfico. A continuación, detallamos qué son las cookies y cómo las utilizamos en jueletrado.com.</p>
-            <h2>¿Qué son las cookies?</h2>
-            <p>Las cookies son pequeños archivos de texto que los sitios web colocan en tu dispositivo para almacenar información sobre tus preferencias y visitas anteriores. En nuestro caso, utilizamos cookies para entender cómo los usuarios interactúan con el sitio web a través de Google Analytics.</p>    
-            <h2>Tipos de Cookies que utilizamos</h2>
-            <ul>
-            <li><strong>Cookies de análisis:</strong> Utilizadas por Google Analytics para recopilar información sobre el comportamiento de los usuarios en nuestro sitio web. Estos datos son anónimos y nos permiten mejorar los contenidos.</li>
-            </ul>  
-            <h2>¿Cómo desactivar las cookies?</h2>
-            <p>Puedes desactivar las cookies ajustando la configuración de tu navegador, o utilizar el complemento de inhabilitación para navegadores de Google Analytics que puedes descargar desde <a href="https://tools.google.com/dlpage/gaoptout?hl=es" target="_blank">aquí</a>.</p>
-            <h2>Contacto</h2>
-            <p>Si tienes alguna duda sobre el uso de cookies en nuestro sitio web, puedes contactarnos en jonaypelluz&#64;gmail&#46;com.</p>`,
+        privacyContent: `
+<p>En cumplimiento del Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), le informamos sobre el tratamiento de sus datos personales en este sitio web.</p>
+
+<h2>Responsable del tratamiento</h2>
+<p>Jonay Pelluz — contacto: jonaypelluz&#64;gmail&#46;com</p>
+
+<h2>Finalidad</h2>
+<p>Este sitio web recoge datos de uso de forma anónima y agregada mediante cookies de analítica (Google Analytics) únicamente para medir el tráfico y mejorar el contenido. No se recogen datos personales identificables.</p>
+
+<h2>Base legal</h2>
+<p>Consentimiento del usuario (art. 6.1.a RGPD). Puede retirar su consentimiento en cualquier momento desde la configuración de cookies.</p>
+
+<h2>Conservación</h2>
+<p>Los datos analíticos se conservan durante el período definido por Google Analytics (26 meses por defecto).</p>
+
+<h2>Derechos</h2>
+<p>Puede ejercer sus derechos de acceso, rectificación, supresión, oposición y portabilidad escribiendo a jonaypelluz&#64;gmail&#46;com.</p>
+
+<h2>Destinatarios</h2>
+<p>Google LLC, como proveedor de Google Analytics, actúa como encargado del tratamiento. Los datos pueden transferirse fuera del EEE bajo las garantías adecuadas (cláusulas contractuales estándar).</p>
+        `.trim(),
+        cookiesContent: `
+<p>Este sitio web utiliza cookies propias y de terceros para analizar el tráfico.</p>
+
+<h2>¿Qué son las cookies?</h2>
+<p>Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Se usan para recordar preferencias y recopilar información estadística.</p>
+
+<h2>Cookies utilizadas</h2>
+<table>
+    <thead>
+        <tr><th>Cookie</th><th>Origen</th><th>Finalidad</th><th>Duración</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>_ga</td><td>Google Analytics</td><td>Distinguir usuarios únicos</td><td>2 años</td></tr>
+        <tr><td>_ga_*</td><td>Google Analytics</td><td>Mantener estado de sesión</td><td>2 años</td></tr>
+        <tr><td>jueletrado-analytics</td><td>Propio</td><td>Guardar preferencia de cookies</td><td>Sesión</td></tr>
+    </tbody>
+</table>
+
+<h2>Gestión de cookies</h2>
+<p>Puede aceptar o rechazar las cookies analíticas desde el banner de cookies o desde el enlace «Configuración de cookies» en el pie de página. También puede eliminar las cookies desde la configuración de su navegador.</p>
+
+<h2>Más información</h2>
+<p>Para más información sobre el tratamiento de sus datos, consulte nuestra <a href="/politica-de-privacidad/">Política de privacidad</a>.</p>
+        `.trim(),
     },
     en: {
-        privacyContent: `<p>At jueletrado.com, we value your privacy. Although we do not directly collect personal data, this website uses Google Analytics to improve the user experience by analyzing traffic and browsing behavior in an anonymous manner.</p>
-            <h2>Data Collected</h2>
-            <p>Through Google Analytics, the following anonymous data is collected:</p>
-            <ul>
-            <li>IP address (anonymized)</li>
-            <li>Approximate geographical location</li>
-            <li>Duration of the visit</li>
-            <li>Pages visited</li>
-            <li>Device and browser type</li>
-            </ul>
+        privacyContent: `
+<p>In compliance with Regulation (EU) 2016/679 (GDPR) and Spanish Organic Law 3/2018 (LOPDGDD), we inform you about the processing of your personal data on this website.</p>
 
-            <h2>Use of Information</h2>
-            <p>This data is used solely to analyze user behavior on our website and to improve the content and services offered. We do not sell, share, or use this data to personally identify users.</p>
+<h2>Data controller</h2>
+<p>Jonay Pelluz — contact: jonaypelluz&#64;gmail&#46;com</p>
 
-            <h2>Use of Cookies</h2>
-            <p>Google Analytics uses cookies to track users' interactions with the website. Cookies are small files stored on your device that help analyze website usage.</p>
+<h2>Purpose</h2>
+<p>This website collects usage data anonymously and in aggregate form through analytics cookies (Google Analytics) solely to measure traffic and improve content. No personally identifiable data is collected.</p>
 
-            <h2>Third-Party Services</h2>
-            <p>We use Google Analytics, a web analysis service provided by Google Inc. Google uses the data collected to track and examine the use of this website, prepare reports, and share them with other Google services.</p>
+<h2>Legal basis</h2>
+<p>User consent (art. 6.1.a GDPR). You may withdraw your consent at any time from the cookie settings.</p>
 
-            <h2>Your Rights</h2>
-            <p>You can opt-out of being tracked by Google Analytics by using the <a href="https://tools.google.com/dlpage/gaoptout?hl=en" target="_blank">Google Analytics Opt-out Browser Add-on</a>.</p>
+<h2>Retention</h2>
+<p>Analytics data is retained for the period defined by Google Analytics (26 months by default).</p>
 
-            <h2>Contact</h2>
-            <p>If you have any questions about our privacy policy, you can contact us at jonaypelluz&#64;gmail&#46;com.</p>`,
-        cookiesContent: `<p>This website uses cookies to enhance the browsing experience and analyze traffic. Below, we explain what cookies are and how we use them on jueletrado.com.</p>
-            <h2>What are cookies?</h2>
-            <p>Cookies are small text files that websites place on your device to store information about your preferences and previous visits. In our case, we use cookies to understand how users interact with the website through Google Analytics.</p>
-            <h2>Types of cookies we use</h2>
-            <ul>
-            <li><strong>Analytics cookies:</strong> Used by Google Analytics to collect information about user behavior on our website. This data is anonymous and helps us improve the content.</li>
-            </ul>
-            <h2>How to disable cookies</h2>
-            <p>You can disable cookies by adjusting your browser settings, or use the Google Analytics opt-out browser add-on, which you can download <a href="https://tools.google.com/dlpage/gaoptout?hl=en" target="_blank">here</a>.</p>
-            <h2>Contact</h2>
-            <p>If you have any questions about the use of cookies on our website, you can contact us at jonaypelluz&#64;gmail&#46;com.</p>
-            `,
+<h2>Rights</h2>
+<p>You may exercise your rights of access, rectification, erasure, objection and portability by writing to jonaypelluz&#64;gmail&#46;com.</p>
+
+<h2>Recipients</h2>
+<p>Google LLC, as the provider of Google Analytics, acts as data processor. Data may be transferred outside the EEA under appropriate safeguards (standard contractual clauses).</p>
+        `.trim(),
+        cookiesContent: `
+<p>This website uses first-party and third-party cookies to analyze traffic.</p>
+
+<h2>What are cookies?</h2>
+<p>Cookies are small text files stored on your device when you visit a website. They are used to remember preferences and collect statistical information.</p>
+
+<h2>Cookies used</h2>
+<table>
+    <thead>
+        <tr><th>Cookie</th><th>Origin</th><th>Purpose</th><th>Duration</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>_ga</td><td>Google Analytics</td><td>Distinguish unique users</td><td>2 years</td></tr>
+        <tr><td>_ga_*</td><td>Google Analytics</td><td>Maintain session state</td><td>2 years</td></tr>
+        <tr><td>jueletrado-analytics</td><td>Own</td><td>Store cookie preference</td><td>Session</td></tr>
+    </tbody>
+</table>
+
+<h2>Managing cookies</h2>
+<p>You can accept or reject analytics cookies from the cookie banner or from the «Cookie settings» link in the footer. You can also delete cookies from your browser settings.</p>
+
+<h2>More information</h2>
+<p>For more information about the processing of your data, please see our <a href="/en/privacy/">Privacy Policy</a>.</p>
+        `.trim(),
     },
 };
 
