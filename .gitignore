@@ -17,20 +17,10 @@
 .DS_Store
 *.pem
 
-# claude config (local only, except shared docs below)
+# claude config (local only, except PROJECT.md and STACK.md)
 .claude/*
-.claude/memory/**
 !.claude/STACK.md
 !.claude/PROJECT.md
-!.claude/settings.json
-!.claude/statusline-command.sh
-!.claude/memory/
-!.claude/memory/MEMORY.md
-!.claude/memory/ask_before_loop.md
-!.claude/memory/commit_format.md
-!.claude/memory/feedback_yarn_not_npm.md
-!.claude/memory/memory_scope.md
-!.claude/memory/game_shared_conventions.md
 
 # debug
 npm-debug.log*
