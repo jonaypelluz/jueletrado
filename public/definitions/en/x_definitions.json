@@ -169,5 +169,161 @@
                 "definition": "Destructive to wood. (of fungi etc.)."
             }
         ]
+    },
+    "xerox": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A photocopy."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A photocopier."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To make a paper copy or copies by means of a photocopier."
+            }
+        ]
+    },
+    "xxx": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "An abbreviation for kisses, usually placed at the end of a letter, often placed alongside ooo, or in a text message."
+            }
+        ]
+    },
+    "xenon": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The chemical element (symbol Xe) with an atomic number of 54. It is a colorless, odorless, unreactive noble gas, used notably in camera flash technology."
+            }
+        ]
+    },
+    "xenophobia": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A fear of strangers or foreigners."
+            },
+            {
+                "number": 2,
+                "type": "noun",
+                "definition": "A fear of aliens."
+            },
+            {
+                "number": 3,
+                "type": "noun",
+                "definition": "A strong antipathy or aversion to strangers or foreigners."
+            }
+        ]
+    },
+    "xenophobic": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A xenophobe."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Exhibiting or characterised by xenophobia, a fear or hatred of strangers or foreigners."
+            }
+        ]
+    },
+    "xeric": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "adjective",
+                "definition": "Extremely dry, lacking humidity and water."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Adapted to live in a very dry habitat."
+            }
+        ]
+    },
+    "xiphoid": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "The xiphoid process."
+            },
+            {
+                "number": 2,
+                "type": "adjective",
+                "definition": "Shaped like a sword, ensiform."
+            },
+            {
+                "number": 3,
+                "type": "adjective",
+                "definition": "Of or relating to the xiphisternum."
+            }
+        ]
+    },
+    "xylem": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "A vascular tissue in land plants primarily responsible for the distribution of water and minerals taken up by the roots; also the primary component of wood."
+            }
+        ]
+    },
+    "xylene": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any of a group of three isomeric aromatic hydrocarbons, found in coal and wood tar.",
+                "definition_extra": [
+                    {
+                        "type": "Synonyms",
+                        "content": "dimethylbenzene."
+                    }
+                ]
+            }
+        ]
+    },
+    "xylophone": {
+        "level": "advanced",
+        "definitions": [
+            {
+                "number": 1,
+                "type": "noun",
+                "definition": "Any musical instrument (percussion idiophone) made of wooden slats graduated so as to make the sounds of the scale when struck with a small drumstick-like mallet; the standard Western concert xylophone or one of its derivatives."
+            },
+            {
+                "number": 2,
+                "type": "verb",
+                "definition": "To play a xylophone or to play something else as though it was a xylophone."
+            },
+            {
+                "number": 3,
+                "type": "verb",
+                "definition": "To move above a ridged surface so as to hit every ridge, in a manner similar to playing quickly and sequentially on a xylophone."
+            }
+        ]
     }
 }
