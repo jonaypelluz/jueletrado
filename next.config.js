@@ -9,7 +9,7 @@ const nextConfig = {
     experimental: {
         optimizePackageImports: ['react-ga4'],
     },
-    basePath: '/jueletrado',
+    basePath: '',
     trailingSlash: true,
     sassOptions: {
         includePaths: ['./styles'],
