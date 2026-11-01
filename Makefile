@@ -15,9 +15,9 @@ copy-env:
 start:
 	docker-compose ${DOCKER_COMPOSE} up -d
 
-## Stops and removes the container
+## Stops and destroys the container, its image and volumes
 down:
-	docker-compose ${DOCKER_COMPOSE} down
+	docker-compose ${DOCKER_COMPOSE} down -v --rmi local --remove-orphans
 
 ## Run the out folder in a server
 static:
