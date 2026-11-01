@@ -1,6 +1,6 @@
 services:
   app:
-    container_name: app
+    container_name: jueletrado-app
     build:
       context: ../../
       dockerfile: ops/docker/app/Dockerfile
@@ -10,6 +10,6 @@ services:
       - /app/node_modules
       - /app/.next
     ports:
-      - '3000:3000'
+      - '3004:3000'
     environment:
       - NEXT_PUBLIC_APP_NAME=${NEXT_PUBLIC_APP_NAME}
