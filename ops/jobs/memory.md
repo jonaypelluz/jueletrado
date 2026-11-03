@@ -30,3 +30,14 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   línea; por debajo del tamaño mínimo (móvil) parten en líneas, pero cada hueco va unido a la letra
   siguiente, así que ninguna línea acaba en un hueco. QA headless (375/768/1280 px, Avanzado, palabra
   de 12 letras): sin recortes; una línea a 768 y 1280 px, dos a 375 px.
+
+## JUE-0006 — Remove legacy scripts from ops/scripts (done 2026-11-03)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/57
+- Borrados (cada uno con sustituto `yarn` en `ops/docs/commands.md`): `transformWordsToJSON.sh`,
+  `compareAndAdd.sh`, `raeCrawler/`, `dictionaryApiCrawler/crawler.py` y `checker.py`, `wordChecker/`.
+  Sección "Legacy scripts" fuera de `commands.md` y keyword `legacy` fuera del índice.
+- Residual: `ops/scripts/extractFromText.sh` se conserva (extractor de columna con `awk`, sin
+  equivalente `yarn`); `commands.md` lo indica. `crawl:check-en` documenta ahora su `--output` por
+  defecto (`ops/scripts/dictionaryApiCrawler/output.txt`), que sigue vivo.
+- `yarn words:transform` en el contenedor falla con el esbuild darwin de `node_modules` del host:
+  usar `ESBUILD_BINARY_PATH` apuntando a un `@esbuild/linux-arm64` instalado fuera del repo.
