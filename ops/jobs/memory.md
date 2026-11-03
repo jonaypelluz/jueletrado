@@ -41,3 +41,20 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   defecto (`ops/scripts/dictionaryApiCrawler/output.txt`), que sigue vivo.
 - `yarn words:transform` en el contenedor falla con el esbuild darwin de `node_modules` del host:
   usar `ESBUILD_BINARY_PATH` apuntando a un `@esbuild/linux-arm64` instalado fuera del repo.
+
+## JUE-0003 — Abeja deletreadora (spellingBee) (done 2026-11-04)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/58
+- Juego ES + EN: `games/spellingBee/` (hook + UI), rutas `/juegos/abeja-deletreadora` y
+  `/en/games/spelling-bee`, util pura `utils/SpellingComparer.ts` (`compareSpelling`, `pickHint`,
+  `revealsWord`, `isUsableClue`), estilos `styles/SpellingBee.scss`.
+- Compartidos para juegos de definiciones: `utils/DefinitionPicker.ts` (`getDefinitionForLevel`,
+  `formatDefinition`) y `config/DefinitionConfig.ts` (`DEFINITION_LETTERS`,
+  `LETTERS_WITHOUT_DEFINITIONS`); definitionMaster los importa sin cambio de comportamiento.
+- Datos: los diccionarios ES traen ~4.4k tipos en inglés (`verb`, `noun`…); en ES se descartan esas
+  acepciones. Una pista también se descarta si tiene <10 letras o contiene la palabra.
+- Residual (aparcado): `revealsWord` es substring simple, ~10% de pistas filtran la raíz
+  (abandono ← "abandonar"); muchas claves ES son formas flexionadas o sin tilde con la definición
+  del lema (`jugaba`, `kilometro`) y no hay campo de lema para filtrar; el nivel solo elige la
+  acepción, no la dificultad de la palabra; con <5 rondas el máximo es 3 × rondas aunque las reglas
+  dicen 15; 4ª copia privada de `shuffle`; revisar la copia cuando JUE-0010 fije los límites.
+- QA: tecla muerta real del SO sin probar (headless usó entrada NFD, aceptada).
