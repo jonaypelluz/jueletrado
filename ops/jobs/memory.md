@@ -22,5 +22,7 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   `utils/SyllableSplitter.ts` (`syllabify` / `dividerPositions`, reglas RAE, invariante
   `join('') === word`), storage key `WORDS_SYLLABLE`, estilos `styles/SyllableSplitter.scss`.
 - Elección documentada `tl`: `a-tle-ta` (comentario en el código).
-- Pendiente: la QA en navegador (partida completa en `/juegos/separador-de-silabas`) no llegó a
-  correr; las suites, `tsc` y lint están verdes y el build lo valida el CI del PR.
+- QA en navegador (2026-11-03, headless, 420 px): nivel Principiante, partida completa de 10 palabras
+  hasta la pantalla de resultados sin errores de JS; las 10 separaciones correctas según RAE
+  (per-mi-ten, qui-zás, e-je-cu-ti-vo, me-dia, con-tra-to…). Detalle: a 420 px una palabra de 8
+  letras parte las fichas en dos líneas.
