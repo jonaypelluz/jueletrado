@@ -1,9 +1,9 @@
 # Game conventions — stack, file pattern, data API, tests
 
-Conventions every new game assumes. Read this before adding or editing a game. The
-generic behavioral rules (yarn-not-npm, branch/commit prefix, never push, never commit
-`next-env.d.ts` / `next.config` basePath) live in the project `CLAUDE.md` and
-`.claude/memory/` — not repeated here. This doc is the **architecture/data** reference.
+Conventions every new game assumes. Read this before adding or editing a game. Git and
+workflow rules live in the global jon-ai rules; the repo-specific rules (yarn, `next-env.d.ts`)
+are in the [index](README.md#reglas-del-repo) — not repeated here. This doc is the
+**architecture/data** reference.
 
 ## Stack
 
@@ -52,26 +52,30 @@ export default <GameId>Page;
 
 The home page game list is generated from `GamesTranslations` via `createAllGamesConfig` (`hooks/useGamesConfig.ts`) — no extra registration needed.
 
-## ES-only games (e.g. accentFixer, syllableSplitter)
+## ES-only games (accentFixer, syllableSplitter)
 
-Mechanically Spanish-only. Implementation:
-- Add optional `availableLocales?: string[]` to `GamePreConfig` (`models/interfaces.ts`).
-- In `createAllGamesConfig`, filter out games whose `availableLocales` is set and doesn't include the current locale.
-- In `createGamesConfig`, return `null` in the same case (the page's `gameConfig &&` guards direct URL access); create NO `app/en/...` route.
+Mechanically Spanish-only. The mechanism already exists — do not re-implement it:
+`GamePreConfig.availableLocales?: string[]` (`models/interfaces.ts`); in `hooks/useGamesConfig.ts`,
+`createAllGamesConfig` hides the game in other locales and `createGamesConfig` returns `null` (the
+page's `gameConfig &&` guards direct URL access).
+
+For a new ES-only game:
+- Set `availableLocales: ['es']` on its `GamePreConfig` entry.
+- Create NO `app/en/...` route.
 - Still provide `en` strings in the catalog (type requires them; keeps `tests/translations/keyParity.test.ts` passing).
-- `GamesRoutes.en` entry points to the ES route so the type stays total; it is unreachable from UI due to the filter.
+- Point the `GamesRoutes.en` entry to the ES route so the type stays total; it is unreachable from UI due to the filter.
 
 ## Data layer API (use these, do not reinvent)
 
 From `@services/WordsService`:
-- `getSessionWords(key, sessionSize, level, locale, setError, fetchOptions, refetchThreshold?)` → `string[]` — draws N words from a persistent localStorage pool, refetches in background (spellTower/wordFinder). Requires a new `StorageKey`.
+- `getSessionWords(key, sessionSize, level, locale, setError, fetchOptions, refetchThreshold?)` → `string[]` — draws N words from a persistent localStorage pool, refetches in background (spellTower, wordFinder, accentFixer, letterMatcher, syllableSplitter). Requires a new `StorageKey`.
 - `getFullWordSet(locale, setError?, setLoadingProgress?)` → `Set<string>` — combined dictionary of all levels, to validate words/variants. Populates IndexedDB on first call (slow first time → show loading UI, see spellTower's `isLoadingWords` + `setLoadingProgress`).
 - `getWords(level, locale, count, setError, maxLength?, minLength?)` → random words from current level.
 - `loadDefinition(letter, locale)` → fetches `/definitions/<locale>/<letter>_definitions.json`, shape: `Record<word, { level?: string; definitions: { number: number; type: string; definition: string }[] }>`.
 
 From `@store/WordsContext` (via `useWordsContext()`): `{ locale, gameLevel, error, setError, setLoading, setLoadingProgress }`. `gameLevel` ∈ `'beginner' | 'intermediate' | 'advanced'` (`config/LevelConfig.ts`).
 
-New storage keys: add to the `StorageKey` union AND the static map in `store/StorageService.ts`. If the game should be prefetched on level selection, also append to `WORD_GROUP_FETCH_CONFIG` and `WORD_GROUP_KEYS` in `WordsService.ts`.
+New storage keys: add to the `StorageKey` union AND the static map in `store/StorageService.ts`. If the game's word pool should be prefetched on level selection, also append to `WORD_GROUP_FETCH_CONFIG` and `WORD_GROUP_KEYS` in `WordsService.ts`. Keys in `WORD_GROUP_KEYS` are wiped by `clearWordGroupCaches()` — never put data that must persist (e.g. best scores) there.
 
 Word-processing utils:
 - `utils/WordGameProcessor.ts` — `processWord(word)` (misspelled variants via `config/ChangeRules.ts`), `processWordWithAccent(word)` (accent variants), `filterWordsByLetters(letters, allWords)`. Constructor: `new WordGameProcessor(locale, wordSet)` — `wordSet` used to reject variants that are real words.
@@ -89,7 +93,7 @@ The definitions/words data behind `WordsService` is produced by the pipeline in 
 ## Test conventions
 
 - Jest + ts-jest + jsdom; testing-library (react, user-event, jest-dom). `fake-indexeddb` for DB-touching tests.
-- Tests under `tests/` mirroring source: `tests/utils/X.test.ts`, `tests/games/use<GameId>.test.tsx`, `tests/config/...`.
+- Tests under `tests/` mirroring source: `tests/utils/X.test.ts`, `tests/games/hooks/use<GameId>.test.tsx`, `tests/games/ui/<GameId>UI.test.tsx`, `tests/config/gamesConfig.test.ts`.
 - Path aliases (`@games/...`) work in tests (`jest.config.json` moduleNameMapper); SCSS is identity-obj-proxy'd.
 - Hooks tested with `renderHook` from `@testing-library/react`; mock `@services/WordsService` and `@store/WordsContext` with `jest.mock`.
 - Pure logic (algorithms) MUST be extracted into `utils/` so it is testable without React.

@@ -12,6 +12,9 @@ Bilingual Spanish/English word-game platform built with Next.js 15 (App Router, 
 - **Buscador de palabras / Word Finder** — guess the secret word by placing letters in the right positions
 - **Maestro de las definiciones / Master of Definitions** — match words to their correct definitions
 - **Crucigramas / Crossword Puzzle** — fill the grid using the given clues
+- **Maestro de letras / Letter Master** — complete the word by choosing the missing tricky letter
+- **Corregidor de acentos** (solo ES) — tap the vowel that should carry the accent mark, or say it has none
+- **Separador de sílabas** (solo ES) — split the word into its syllables
 
 ## Arrancar / Getting started
 
@@ -21,7 +24,7 @@ yarn install
 yarn dev        # http://localhost:3000
 
 # Or via Docker
-make build
+make build      # http://localhost:3004
 make start
 ```
 
@@ -37,15 +40,15 @@ GitHub Actions deploys the `/out` folder to GitHub Pages on every push to `main`
 
 ## Palabras y definiciones / Word data
 
-- **Spanish words** — based on [diccionario-espanol-txt](https://github.com/JorgeDuenasLerin/diccionario-espanol-txt), converted and structured into tiered JSON via `ops/scripts/transformWordsToJSON.sh`. Definitions sourced from RAE ([dle.rae.es](https://dle.rae.es)).
+- **Spanish words** — based on [diccionario-espanol-txt](https://github.com/JorgeDuenasLerin/diccionario-espanol-txt), converted and structured into tiered JSON via `yarn words:transform` (`scripts/words/transformToJSON.ts`). Definitions sourced from RAE ([dle.rae.es](https://dle.rae.es)).
 - **English words** — sourced from [dwyl/english-words](https://github.com/dwyl/english-words) and other public word lists, cleaned and split by level. Definitions follow British English, sourced from Collins Dictionary ([collinsdictionary.com](https://www.collinsdictionary.com)).
 - Word lists live in `public/words/<locale>/`, definitions in `public/definitions/<locale>/`, loaded into IndexedDB at runtime.
-- Utility scripts for expanding/maintaining word lists are in `ops/scripts/`.
+- Utility scripts for expanding/maintaining word lists are in `scripts/words/` and `scripts/crawlers/` (run via `yarn`); source word lists live in `ops/scripts/words/`.
 - See [`ops/docs/commands.md`](ops/docs/commands.md) for the full crawler / word-list command reference.
 
 ## Stack
 
-Next.js 15 · TypeScript · Sass · Ant Design v5 · react-intl · IndexedDB · Jest
+Next.js 15 · TypeScript · Sass · react-intl · IndexedDB · Jest
 
 ## Contribuir
 

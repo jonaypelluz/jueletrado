@@ -21,18 +21,21 @@ ops/scripts/words/{locale}/{level}_words.txt   ◄──────────
 ### `yarn crawl:all`
 
 Runs the full pipeline: ES (`crawlRAE.ts`) then EN (`crawlDictionary.ts`), each
-through `beginner` → `intermediate` → `advanced`, merging after every level.
+through `beginner` → `intermediate` → `advanced`, merging after every level. EN
+then gets a second pass with `crawlMerriamWebster.ts` over
+`ops/crawl-output/en/not-found.txt`, followed by another merge.
 Resumable — re-running skips words already crawled or already in
 `public/definitions/`. No flags; edit `LOCALES`/`LEVELS` in
 `scripts/crawlers/crawlAll.ts` to narrow scope.
 
-If the RAE API daily quota is exhausted mid-run, ES stops for the day and the
-script moves on to EN.
+If the RAE API daily quota is exhausted mid-run (`crawlRAE.ts` exits with code
+`2`), ES stops for the day and the script moves on to EN. A crawler that fails
+for any other reason is logged and the run continues.
 
 ### `tsx scripts/crawlers/crawlRAE.ts <wordsFile> [options]`
 
 Fetches ES definitions from [rae-api.com](https://rae-api.com) (unofficial RAE
-API). Requires `RAE_API_KEY` in `.env.local`.
+API). Requires `RAE_API_KEY` in `.env.local`. Free tier: 10 req/min, 100 req/day.
 
 ```bash
 yarn tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt \
@@ -55,12 +58,22 @@ yarn tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt \
 ### `tsx scripts/crawlers/crawlDictionary.ts <wordsFile> [options]`
 
 Fetches EN definitions from [api.dictionaryapi.dev](https://dictionaryapi.dev).
-Same options as `crawlRAE.ts` (output dir defaults to `ops/crawl-output/en`).
+Same options as `crawlRAE.ts`, with these defaults: output dir
+`ops/crawl-output/en`, `--delay` `3000-10000`, `--not-found-file`
+`ops/crawl-output/en/not-found.txt`.
 
-### `yarn crawl:merge -- [files...] [options]`
+### `tsx scripts/crawlers/crawlMerriamWebster.ts [wordsFile] [options]`
+
+EN second pass: fetches definitions from the Merriam-Webster Collegiate API for
+words that dictionaryapi.dev did not resolve. Requires `MW_API_KEY` in
+`.env.local`. `wordsFile` defaults to `ops/crawl-output/en/not-found.txt`. Same
+options as `crawlDictionary.ts`; `--delay` defaults to `500-1500`. `yarn crawl:all`
+runs it automatically.
+
+### `yarn crawl:merge [files...] [options]`
 
 Merges JSONL crawl output into `public/definitions/{locale}/{letter}_definitions.json`.
-Files are read oldest-first (later entries win on conflict). Merges definitions
+Files are read in the order given — pass them oldest-first, because later entries win on conflict. Merges definitions
 by their `number` field and sets `level` on the word entry if not already present.
 
 ```bash
@@ -120,8 +133,9 @@ Reads `ops/scripts/words/{locale}/{level}_words.txt`, sorts + dedupes, writes
 Learns new words from book files. Runs, in order:
 
 1. **`extractFromBook.ts`** — tokenizes the book(s), filters out anything already
-   in `public/definitions/`, `not-found.txt`, any `*_words.txt`, or a previous
-   `discovered_words.txt` run. New words are appended to
+   in `public/definitions/`, `not-found.txt`, any `*_words.txt`, the blocklists
+   (`ops/scripts/words/html_xml_blocklist.txt` + `html_xml_blocklist_{locale}.txt`),
+   or a previous `discovered_words.txt` run. New words are appended to
    `ops/crawl-output/{locale}/discovered_words.txt` (never touches the
    existing word lists or definitions).
 2. **`mergeWords.ts`** — appends `discovered_words.txt` into `advanced_words.txt`.
