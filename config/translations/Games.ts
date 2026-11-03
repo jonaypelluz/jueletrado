@@ -10,6 +10,7 @@ const GamesRoutes: Translations = {
         crossWordPuzzle: '/juegos/crucigramas',
         accentFixer: '/juegos/corregidor-de-acentos',
         letterMatcher: '/juegos/maestro-de-letras',
+        syllableSplitter: '/juegos/separador-de-silabas',
     },
     en: {
         spellTower: '/en/games/spell-tower',
@@ -21,6 +22,8 @@ const GamesRoutes: Translations = {
         // ES-only game: no EN page exists, route points at the ES page and is unreachable via the EN UI.
         accentFixer: '/juegos/corregidor-de-acentos',
         letterMatcher: '/en/games/letter-matcher',
+        // ES-only game: no EN page exists, route points at the ES page and is unreachable via the EN UI.
+        syllableSplitter: '/juegos/separador-de-silabas',
     },
 };
 
@@ -417,6 +420,53 @@ const GamesTranslations: GamePreConfig[] = [
                 additionalRules: [],
                 tips: [
                     'Piensa en palabras de la misma familia: si «haber» lleva h, «habrá» también.',
+                ],
+            },
+        },
+    },
+    {
+        id: 'syllableSplitter',
+        imgSrc: '/images/games/syllableSplitter.png',
+        availableLocales: ['es'],
+        title: {
+            en: 'Syllable Splitter',
+            es: 'Separador de sílabas',
+        },
+        description: {
+            en: 'Tap the gaps between letters to split the Spanish word into syllables, then check your answer.',
+            es: 'Toca los huecos entre letras para separar la palabra en sílabas y comprueba si aciertas.',
+        },
+        subtitle: {
+            en: 'Split the word into syllables',
+            es: 'Divide la palabra en sílabas',
+        },
+        gameRules: {
+            en: {
+                gameGoal: 'Split as many words as possible into their correct syllables.',
+                howToPlay: [
+                    'A word will appear with its letters separated by gaps.',
+                    'Tap a gap to place a syllable divider; tap it again to remove it.',
+                    'Press "Check" to see if your split is correct, then "Next" to continue.',
+                    'Each correct word adds one point; mistakes do not subtract.',
+                ],
+                additionalRules: [],
+                tips: [
+                    'A single consonant between two vowels goes with the next syllable.',
+                    'Ch, ll and rr are never split.',
+                ],
+            },
+            es: {
+                gameGoal: 'Separa en sílabas correctamente el mayor número de palabras posible.',
+                howToPlay: [
+                    'Aparecerá una palabra con huecos entre sus letras.',
+                    'Toca un hueco para poner un divisor de sílaba; vuelve a tocarlo para quitarlo.',
+                    'Pulsa "Comprobar" para ver si has acertado y "Siguiente" para continuar.',
+                    'Cada palabra bien separada suma un punto; los fallos no restan.',
+                ],
+                additionalRules: [],
+                tips: [
+                    'Una consonante entre dos vocales va con la sílaba siguiente.',
+                    'La ch, la ll y la rr nunca se separan.',
                 ],
             },
         },

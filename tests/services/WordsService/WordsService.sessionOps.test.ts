@@ -28,6 +28,7 @@ describe('WordsService session operations tests', () => {
             StorageService.setItem(StorageService.WORDS_FINDER, ['wordB']);
             StorageService.setItem(StorageService.WORDS_TOWER, ['wordC']);
             StorageService.setItem(StorageService.WORDS_RAIN, ['wordD']);
+            StorageService.setItem(StorageService.WORDS_SYLLABLE, ['wordE']);
             StorageService.setItem(StorageService.LOCALE, 'es');
             StorageService.setItem(StorageService.LEVELS_POPULATED, { es: { beginner: true } });
 
@@ -37,6 +38,7 @@ describe('WordsService session operations tests', () => {
             expect(StorageService.getItem(StorageService.WORDS_FINDER)).toBeNull();
             expect(StorageService.getItem(StorageService.WORDS_TOWER)).toBeNull();
             expect(StorageService.getItem(StorageService.WORDS_RAIN)).toBeNull();
+            expect(StorageService.getItem(StorageService.WORDS_SYLLABLE)).toBeNull();
             // These should still have values
             expect(StorageService.getItem(StorageService.LOCALE)).toBe('es');
             expect(StorageService.getItem(StorageService.LEVELS_POPULATED)).toEqual({
