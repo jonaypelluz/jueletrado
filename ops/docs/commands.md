@@ -15,19 +15,9 @@ ops/scripts/words/{locale}/{level}_words.txt   ◄──────────
   staging files, which are then merged.
 - Word lists (`*_words.txt`) are the source of truth for which words get crawled
   and which game level they belong to.
-
-### Legacy scripts in `ops/scripts/` — do not use
-
-These predate the TypeScript `yarn` scripts above and are **not** part of the pipeline.
-Never run them; use the `yarn` script instead. Removal is tracked in JUE-0006.
-
-- `ops/scripts/transformWordsToJSON.sh`, `compareAndAdd.sh`, `extractFromText.sh`
-- `ops/scripts/raeCrawler/crawler.py`, `ops/scripts/dictionaryApiCrawler/crawler.py`, `checker.py`
-- `ops/scripts/wordChecker/` (Go)
-
-Still live in `ops/scripts/` (do not delete): `words/` (word lists and blocklists),
-`frequency/`, `copy_env.sh` (used by `make`), and `dictionaryApiCrawler/output.txt`
-(default output of `crawl:check-en`).
+- `ops/scripts/extractFromText.sh` is kept: a standalone column extractor
+  (`awk -v col=N '{print $col}'`) with no yarn equivalent, not part of the
+  pipeline.
 
 ## Definitions crawlers
 
@@ -103,7 +93,8 @@ yarn crawl:merge ops/crawl-output/en/j.jsonl --locale en --letter j
 ### `yarn crawl:check-en <inputFile> [--output <file>]`
 
 Validates EN words against `api.dictionaryapi.dev`. Words that return HTTP 200
-are written to the output file (resumable).
+are written to the output file (resumable). `--output` defaults to
+`ops/scripts/dictionaryApiCrawler/output.txt`.
 
 ## Word list maintenance
 
