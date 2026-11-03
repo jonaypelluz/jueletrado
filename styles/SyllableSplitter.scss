@@ -14,6 +14,8 @@ $missed-color: #ad6800;
 
     .syllable-splitter-game-inner {
         padding: 24px;
+        // Query container for the tile sizes below (cqi = 1% of this box's content width).
+        container-type: inline-size;
         position: relative;
         z-index: 1;
         min-height: 460px;
@@ -30,26 +32,31 @@ $missed-color: #ad6800;
         margin-bottom: 12px;
     }
 
+    // Tiles shrink so a word of --letters letters (40px tiles + 32px gaps at full size) fits on one
+    // row; 72 per letter leaves one gap of slack against sub-pixel rounding. Below the minimum sizes
+    // the row wraps between units (gap + following letter), so a row never ends with a gap.
     .syllable-splitter-word {
+        --tile-unit: calc(100cqi / (72 * var(--letters, 1)));
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-bottom: 24px;
+        row-gap: 8px;
+        margin-bottom: 16px;
+    }
 
-        @media only screen and (max-width: 479px) {
-            flex-wrap: wrap;
-            row-gap: 8px;
-        }
+    .syllable-splitter-unit {
+        display: inline-flex;
+        align-items: center;
     }
 
     .syllable-splitter-letter {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
+        width: clamp(28px, calc(40 * var(--tile-unit)), 40px);
         height: 48px;
-        font-size: 24px;
+        font-size: clamp(18px, calc(24 * var(--tile-unit)), 24px);
         font-weight: 700;
         text-transform: uppercase;
         border: 1px solid #d9d9d9;
@@ -58,16 +65,14 @@ $missed-color: #ad6800;
         color: #333;
 
         @media only screen and (max-width: 479px) {
-            width: 32px;
             height: 40px;
-            font-size: 20px;
         }
     }
 
     .syllable-splitter-gap {
         position: relative;
-        width: 32px;
-        min-width: 32px;
+        width: clamp(20px, calc(32 * var(--tile-unit)), 32px);
+        min-width: 20px;
         height: 48px;
         padding: 0;
         border: none;
@@ -116,6 +121,13 @@ $missed-color: #ad6800;
         &:disabled {
             cursor: default;
         }
+    }
+
+    .syllable-splitter-feedback {
+        min-height: 24px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 8px;
     }
 
     .syllable-splitter-correct-split {

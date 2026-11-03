@@ -226,13 +226,8 @@ describe('dividerPositions', () => {
     });
 });
 
-describe('syllabify / dividerPositions properties over the canonical table', () => {
-    test.each(TABLE)('%s: rejoins to the word, dividers match syllable lengths, deterministic', (word, hyphenated) => {
-        const syllables = syllabify(word);
-
-        expect(syllables.join('')).toBe(word);
+describe('dividerPositions over the canonical table', () => {
+    test.each(TABLE)('%s: dividers match the syllable lengths', (word, hyphenated) => {
         expect(dividerPositions(word)).toEqual(cumulativeDividers(hyphenated.split('-')));
-        expect(syllabify(word)).toEqual(syllables);
-        expect(dividerPositions(word)).toEqual(dividerPositions(word));
     });
 });

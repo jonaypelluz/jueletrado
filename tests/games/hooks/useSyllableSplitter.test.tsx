@@ -14,44 +14,47 @@ const mockUseWordsContext = useWordsContext as jest.Mock;
 const mockGetSessionWords = getSessionWords as jest.Mock;
 const mockGetFullWordSet = getFullWordSet as jest.Mock;
 
-// 20-word session draw: 12 eligible words (in this order) mixed with 8 ineligible ones:
-// one syllable (sol, pan, flor, tren), uppercase (Madrid), non-letter (co-che),
-// prefix word (sublunar, R1) and loanword y before a consonant (cyclocross, R4).
+// 20-word session draw at the advanced level (6-12 letters): 12 eligible words (in this order) mixed
+// with ineligible ones: one syllable (sol, pan, flor, tren), uppercase (Madrid), non-letter (co-che),
+// prefix word (sublunar, R1), loanword y before a consonant (cyclocross, R4), longer than the level
+// maximum (aproximadamente) and a `tl` word (atletismo).
 const ELIGIBLE_IN_ORDER = [
     'instrucción',
-    'casa',
-    'perro',
-    'coche',
-    'plato',
-    'carta',
-    'queso',
-    'aire',
-    'poeta',
-    'ahora',
-    'isla', // 11th eligible: must not be used
-    'llave',
+    'ventana',
+    'caramelo',
+    'mariposa',
+    'escuela',
+    'camino',
+    'pelota',
+    'ciudad',
+    'poesía',
+    'abanico',
+    'hermano', // 11th eligible: must not be used
+    'tortuga',
 ];
 const POOL = [
     'sol',
     'instrucción',
     'Madrid',
-    'casa',
-    'perro',
+    'ventana',
+    'caramelo',
     'co-che',
-    'coche',
+    'mariposa',
     'pan',
-    'plato',
+    'escuela',
     'sublunar',
-    'carta',
-    'queso',
+    'camino',
+    'aproximadamente',
+    'pelota',
     'cyclocross',
-    'aire',
+    'ciudad',
     'flor',
-    'poeta',
-    'ahora',
+    'poesía',
+    'atletismo',
+    'abanico',
     'tren',
-    'isla',
-    'llave',
+    'hermano',
+    'tortuga',
 ];
 const INELIGIBLE_ONLY = ['sol', 'Madrid', 'co-che', 'pan', 'sublunar', 'cyclocross', 'flor', 'tren'];
 const THREE_ELIGIBLE = ['sol', 'casa', 'pan', 'perro', 'Madrid', 'coche'];
@@ -66,8 +69,8 @@ const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}
     ...overrides,
 });
 
-const startGame = async (pool: string[] = POOL) => {
-    mockUseWordsContext.mockReturnValue(makeContext());
+const startGame = async (pool: string[] = POOL, gameLevel = 'advanced') => {
+    mockUseWordsContext.mockReturnValue(makeContext({ gameLevel }));
     mockGetSessionWords.mockResolvedValue(pool);
 
     const hook = renderHook(() => useSyllableSplitter());
@@ -110,37 +113,96 @@ describe('useSyllableSplitter', () => {
         test('draws 20 session words from the syllable queue without loading the full word set', async () => {
             await startGame();
 
+            expect(mockGetSessionWords).toHaveBeenCalledTimes(1);
             expect(mockGetSessionWords).toHaveBeenCalledWith(
                 StorageService.WORDS_SYLLABLE,
                 20,
-                'beginner',
+                'advanced',
                 'es',
                 expect.any(Function),
-                { count: 60, minLength: 4, maxLength: 6 },
+                { count: 60, minLength: 6, maxLength: 12 },
             );
             expect(mockGetFullWordSet).not.toHaveBeenCalled();
+        });
+
+        // The prefetched queue is filled with minLength 4 and no maximum, so the level limits are
+        // enforced when the words are drawn.
+        test.each([
+            ['beginner', ['casa', 'perro', 'abanico'], ['casa', 'perro']],
+            ['intermediate', ['casa', 'perro', 'abanico', 'caramelos'], ['perro', 'abanico']],
+            ['advanced', ['perro', 'camino', 'instrucción', 'aproximadamente'], ['camino', 'instrucción']],
+        ])('keeps only words within the %s length limits', async (level, pool, expected) => {
+            const { result } = await startGame(pool, level);
+
+            expect(result.current.challenges?.map((c) => c.word)).toEqual(expected);
+        });
+
+        test('skips words containing tl (RAE accepts both a-tle-ta and at-le-ta)', async () => {
+            const { result } = await startGame(['atleta', 'atlántico', 'camino']);
+
+            expect(result.current.challenges?.map((c) => c.word)).toEqual(['camino']);
+        });
+
+        test('draws again until 10 eligible words are found', async () => {
+            mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'advanced' }));
+            mockGetSessionWords
+                .mockResolvedValueOnce(['instrucción', 'sol', 'ventana', 'pan', 'caramelo'])
+                .mockResolvedValueOnce(ELIGIBLE_IN_ORDER.slice(3));
+            const { result } = renderHook(() => useSyllableSplitter());
+
+            await act(async () => {
+                await result.current.handleGameStartClick();
+            });
+
+            expect(mockGetSessionWords).toHaveBeenCalledTimes(2);
+            expect(result.current.challenges?.map((c) => c.word)).toEqual(ELIGIBLE_IN_ORDER.slice(0, 10));
+        });
+
+        test('accepts fewer than 10 words when the pool is exhausted', async () => {
+            mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'advanced' }));
+            mockGetSessionWords.mockResolvedValueOnce(['instrucción', 'sol', 'ventana']).mockResolvedValueOnce([]);
+            const { result } = renderHook(() => useSyllableSplitter());
+
+            await act(async () => {
+                await result.current.handleGameStartClick();
+            });
+
+            expect(mockGetSessionWords).toHaveBeenCalledTimes(2);
+            expect(result.current.challenges?.map((c) => c.word)).toEqual(['instrucción', 'ventana']);
+            expect(result.current.gameStarted).toBe(true);
+        });
+
+        test('stops drawing after a bounded number of draws and ignores repeated words', async () => {
+            const { result } = await startGame(THREE_ELIGIBLE, 'beginner');
+
+            expect(mockGetSessionWords).toHaveBeenCalledTimes(3);
+            expect(result.current.challenges?.map((c) => c.word)).toEqual(['casa', 'perro', 'coche']);
         });
 
         test('keeps the first 10 eligible words in pool order and skips ineligible ones', async () => {
             const { result } = await startGame();
 
             expect(result.current.challenges?.map((c) => c.word)).toEqual(ELIGIBLE_IN_ORDER.slice(0, 10));
-            expect(result.current.challenges?.map((c) => c.word)).not.toContain('isla');
+            expect(result.current.challenges?.map((c) => c.word)).not.toContain('hermano');
             expect(result.current.challenges?.[0]).toEqual({
                 word: 'instrucción',
                 syllables: ['ins', 'truc', 'ción'],
                 dividers: [3, 7],
             });
-            expect(result.current.challenges?.[1]).toEqual({ word: 'casa', syllables: ['ca', 'sa'], dividers: [2] });
+            expect(result.current.challenges?.[1]).toEqual({
+                word: 'ventana',
+                syllables: ['ven', 'ta', 'na'],
+                dividers: [3, 5],
+            });
             expect(result.current.gameStarted).toBe(true);
             expect(result.current.currentIndex).toBe(0);
             expect(result.current.selectedDividers).toEqual([]);
         });
 
         test('skips loanwords ending in consonant + y', async () => {
-            const { result } = await startGame(['penalty', 'casa']);
+            const { result } = await startGame(['penalty', 'ventana']);
 
-            expect(result.current.challenges?.map((c) => c.word)).toEqual(['casa']);
+            expect(result.current.challenges?.map((c) => c.word)).toEqual(['ventana']);
         });
 
         test('falls back to the rules screen when no word is eligible', async () => {
@@ -153,7 +215,7 @@ describe('useSyllableSplitter', () => {
         });
 
         test('starting again after a session resets score, misses, check state and index', async () => {
-            const { result } = await startGame(THREE_ELIGIBLE);
+            const { result } = await startGame(THREE_ELIGIBLE, 'beginner');
             // casa: correct, perro: wrong (no dividers), coche: correct
             clickGaps(result, [2]);
             check(result);
@@ -267,6 +329,17 @@ describe('useSyllableSplitter', () => {
             expect(result.current.incorrectAnswers).toEqual([['ins-trucción', 'ins-truc-ción']]);
         });
 
+        test('a gap click and a check within one render use the fresh selection', async () => {
+            const { result } = await startGame();
+
+            act(() => {
+                result.current.handleGapClick(3);
+                result.current.handleCheckClick();
+            });
+
+            expect(result.current.incorrectAnswers).toEqual([['ins-trucción', 'ins-truc-ción']]);
+        });
+
         test('checking before the game starts does nothing', () => {
             mockUseWordsContext.mockReturnValue(makeContext());
             const { result } = renderHook(() => useSyllableSplitter());
@@ -306,7 +379,7 @@ describe('useSyllableSplitter', () => {
             ['10 challenges from a full draw', POOL, 10],
             ['3 challenges when only 3 words are eligible', THREE_ELIGIBLE, 3],
         ])('ends the game after the last word (%s)', async (_label, pool, total) => {
-            const { result } = await startGame(pool);
+            const { result } = await startGame(pool, total === 3 ? 'beginner' : 'advanced');
             expect(result.current.challenges).toHaveLength(total);
 
             for (let i = 0; i < total - 1; i++) {
