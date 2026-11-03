@@ -10,6 +10,8 @@ const GAME_IDS = [
     'letterMatcher',
 ] as const;
 
+const ES_ONLY_GAME_IDS = ['accentFixer', 'syllableSplitter'] as const;
+
 describe('createGamesConfig', () => {
     test('returns null for unknown game id', () => {
         expect(createGamesConfig('es', 'unknownGame')).toBeNull();
@@ -69,9 +71,9 @@ describe('createGamesConfig', () => {
 });
 
 describe('createAllGamesConfig', () => {
-    test('returns array with all 7 universal games plus the ES-only game for es', () => {
+    test('returns array with all 7 universal games plus the 2 ES-only games for es', () => {
         const configs = createAllGamesConfig('es');
-        expect(configs).toHaveLength(8);
+        expect(configs).toHaveLength(9);
     });
 
     test('returns array with only the 7 universal games for en', () => {
@@ -100,25 +102,31 @@ describe('createAllGamesConfig', () => {
         });
     });
 
-    test('ES-only game accentFixer is excluded from en', () => {
+    test.each(ES_ONLY_GAME_IDS)('ES-only game %s is excluded from en', (id) => {
         const ids = createAllGamesConfig('en').map((c) => c.id);
-        expect(ids).not.toContain('accentFixer');
+        expect(ids).not.toContain(id);
     });
 
-    test('ES-only game accentFixer is included in es', () => {
+    test.each(ES_ONLY_GAME_IDS)('ES-only game %s is included in es', (id) => {
         const ids = createAllGamesConfig('es').map((c) => c.id);
-        expect(ids).toContain('accentFixer');
+        expect(ids).toContain(id);
     });
 });
 
-describe('accentFixer (ES-only game)', () => {
+describe.each(ES_ONLY_GAME_IDS)('%s (ES-only game)', (id) => {
     test('createGamesConfig returns null for en', () => {
-        expect(createGamesConfig('en', 'accentFixer')).toBeNull();
+        expect(createGamesConfig('en', id)).toBeNull();
     });
 
     test('createGamesConfig returns config for es', () => {
-        const config = createGamesConfig('es', 'accentFixer');
+        const config = createGamesConfig('es', id);
         expect(config).not.toBeNull();
-        expect(config?.id).toBe('accentFixer');
+        expect(config?.id).toBe(id);
+    });
+});
+
+describe('syllableSplitter route', () => {
+    test('es config links to the Spanish game page', () => {
+        expect(createGamesConfig('es', 'syllableSplitter')?.link).toBe('/juegos/separador-de-silabas');
     });
 });
