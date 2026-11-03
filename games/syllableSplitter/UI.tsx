@@ -21,6 +21,7 @@ type SyllableSplitterUIProps = {
     hasBeenPlayed: boolean;
     selectedDividers: number[];
     isChecked: boolean;
+    lastCheckCorrect: boolean | null;
     correctAnswers: number;
     incorrectAnswers: [string, string][];
     isLoading: boolean;
@@ -42,6 +43,7 @@ const UI: React.FC<SyllableSplitterUIProps> = ({
     hasBeenPlayed,
     selectedDividers,
     isChecked,
+    lastCheckCorrect,
     correctAnswers,
     incorrectAnswers,
     isLoading,
@@ -54,16 +56,32 @@ const UI: React.FC<SyllableSplitterUIProps> = ({
     const challenge = challenges?.[currentIndex] ?? null;
     const total = challenges?.length ?? 0;
 
+    /** Check result for a gap: shown as a colour and appended to its label for screen readers. */
+    const gapState = (position: number, dividers: number[]): 'correct' | 'incorrect' | 'missed' | null => {
+        if (!isChecked) return null;
+        const isDivider = dividers.includes(position);
+        if (selectedDividers.includes(position)) return isDivider ? 'correct' : 'incorrect';
+        return isDivider ? 'missed' : null;
+    };
+
+    const gapStateMessageId = {
+        correct: 'gameSyllableGapCorrect',
+        incorrect: 'gameSyllableGapIncorrect',
+        missed: 'gameSyllableGapMissed',
+    };
+
     const gapClassName = (position: number, dividers: number[]): string => {
-        const isSelected = selectedDividers.includes(position);
         let className = 'syllable-splitter-gap';
-        if (isSelected) className += ' selected';
-        if (isChecked) {
-            const isDivider = dividers.includes(position);
-            if (isSelected) className += isDivider ? ' correct' : ' incorrect';
-            else if (isDivider) className += ' missed';
-        }
+        if (selectedDividers.includes(position)) className += ' selected';
+        const state = gapState(position, dividers);
+        if (state) className += ` ${state}`;
         return className;
+    };
+
+    const gapLabel = (position: number, dividers: number[], before: string, after: string): string => {
+        const label = intl.formatMessage({ id: 'gameSyllableGap' }, { before, after });
+        const state = gapState(position, dividers);
+        return state ? `${label}, ${intl.formatMessage({ id: gapStateMessageId[state] })}` : label;
     };
 
     return (
@@ -97,21 +115,33 @@ const UI: React.FC<SyllableSplitterUIProps> = ({
             <div className="syllable-splitter-game">
                 <div className="syllable-splitter-game-inner">
                     {!hasBeenPlayed || !gameLevel ? (
-                        <GameRules {...gameConfig.gameRules} />
+                        <>
+                            {error && <p className="load-error">{error.message}</p>}
+                            <GameRules {...gameConfig.gameRules} />
+                        </>
                     ) : isLoading ? (
                         <Spinner label={<FormattedMessage id="gameLoading" />} />
                     ) : gameStarted && challenge ? (
                         <>
-                            <div className="syllable-splitter-score">{correctAnswers}</div>
-                            <div className="syllable-splitter-word">
+                            <div className="syllable-splitter-score">
+                                <FormattedMessage id="gameSyllableHits" values={{ count: correctAnswers }} />
+                            </div>
+                            {/* --letters sizes the tiles so the row fits; each gap wraps with the letter after it,
+                                so a row never ends with a gap. */}
+                            <div
+                                className="syllable-splitter-word"
+                                style={{ '--letters': challenge.word.length } as React.CSSProperties}
+                            >
                                 {challenge.word.split('').map((char, index) => (
-                                    <React.Fragment key={index}>
+                                    <span className="syllable-splitter-unit" key={index}>
                                         {index > 0 && (
                                             <button
                                                 className={gapClassName(index, challenge.dividers)}
-                                                aria-label={intl.formatMessage(
-                                                    { id: 'gameSyllableGap' },
-                                                    { before: challenge.word[index - 1], after: char },
+                                                aria-label={gapLabel(
+                                                    index,
+                                                    challenge.dividers,
+                                                    challenge.word[index - 1],
+                                                    char,
                                                 )}
                                                 aria-pressed={selectedDividers.includes(index)}
                                                 disabled={isChecked}
@@ -119,9 +149,18 @@ const UI: React.FC<SyllableSplitterUIProps> = ({
                                             />
                                         )}
                                         <span className="syllable-splitter-letter">{char}</span>
-                                    </React.Fragment>
+                                    </span>
                                 ))}
                             </div>
+                            <p className="syllable-splitter-feedback" aria-live="polite">
+                                {isChecked && lastCheckCorrect !== null && (
+                                    <strong className={lastCheckCorrect ? 'text-success' : 'text-danger'}>
+                                        <FormattedMessage
+                                            id={lastCheckCorrect ? 'gameSyllableResultCorrect' : 'gameSyllableResultIncorrect'}
+                                        />
+                                    </strong>
+                                )}
+                            </p>
                             {isChecked && (
                                 <p className="syllable-splitter-correct-split">
                                     <FormattedMessage id="gameSyllableCorrectSplit" />{' '}
