@@ -11,6 +11,7 @@ const GamesRoutes: Translations = {
         accentFixer: '/juegos/corregidor-de-acentos',
         letterMatcher: '/juegos/maestro-de-letras',
         syllableSplitter: '/juegos/separador-de-silabas',
+        spellingBee: '/juegos/abeja-deletreadora',
     },
     en: {
         spellTower: '/en/games/spell-tower',
@@ -24,6 +25,7 @@ const GamesRoutes: Translations = {
         letterMatcher: '/en/games/letter-matcher',
         // ES-only game: no EN page exists, route points at the ES page and is unreachable via the EN UI.
         syllableSplitter: '/juegos/separador-de-silabas',
+        spellingBee: '/en/games/spelling-bee',
     },
 };
 
@@ -467,6 +469,54 @@ const GamesTranslations: GamePreConfig[] = [
                 tips: [
                     'Una consonante entre dos vocales va con la sílaba siguiente.',
                     'La ch, la ll y la rr nunca se separan.',
+                ],
+            },
+        },
+    },
+    {
+        id: 'spellingBee',
+        imgSrc: '/images/games/spellingBee.png',
+        title: {
+            en: 'Spelling Bee',
+            es: 'Abeja deletreadora',
+        },
+        description: {
+            en: 'Read a definition and type the whole word from memory. Practise spelling without multiple choice.',
+            es: 'Te damos una definición y tú escribes la palabra completa, con sus tildes. Practica la ortografía de memoria, sin opciones.',
+        },
+        subtitle: {
+            en: 'Read the definition and spell the word correctly.',
+            es: 'Lee la definición y escribe la palabra sin errores.',
+        },
+        gameRules: {
+            en: {
+                gameGoal: 'Spell all 5 words correctly to score up to 15 points.',
+                howToPlay: [
+                    'Read the definition, the word type and how many letters the word has.',
+                    'Type the word and press Check.',
+                    'You have 3 attempts: 3 points on the first, 2 on the second, 1 on the third.',
+                    'Each miss gives you a hint: first the initial letter, then the last one; after the third miss the word is shown.',
+                ],
+                additionalRules: [
+                    'If only the accent marks are wrong, you get one free retry per word.',
+                ],
+                tips: [
+                    'Use the word type to tell nouns, verbs and adjectives apart.',
+                ],
+            },
+            es: {
+                gameGoal: 'Escribe correctamente las 5 palabras para conseguir hasta 15 puntos.',
+                howToPlay: [
+                    'Lee la definición, el tipo de palabra y cuántas letras tiene.',
+                    'Escribe la palabra y pulsa Comprobar.',
+                    'Tienes 3 intentos: 3 puntos al primero, 2 al segundo, 1 al tercero.',
+                    'Cada fallo te da una pista: primero la letra inicial, luego la final; al tercer fallo se muestra la palabra.',
+                ],
+                additionalRules: [
+                    'Si solo te equivocas en las tildes, tienes un reintento gratis por palabra.',
+                ],
+                tips: [
+                    'Fíjate en el tipo de palabra: te ayuda a saber si es nombre, verbo o adjetivo.',
                 ],
             },
         },

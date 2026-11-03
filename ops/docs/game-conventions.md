@@ -80,6 +80,7 @@ New storage keys: add to the `StorageKey` union AND the static map in `store/Sto
 Word-processing utils:
 - `utils/WordGameProcessor.ts` — `processWord(word)` (misspelled variants via `config/ChangeRules.ts`), `processWordWithAccent(word)` (accent variants), `filterWordsByLetters(letters, allWords)`. Constructor: `new WordGameProcessor(locale, wordSet)` — `wordSet` used to reject variants that are real words.
 - `config/AccentRules.ts` — `NonAccentedVowels` (`a→á`...), `AccentedVowels` (`á→a`...).
+- `config/DefinitionConfig.ts` (`DEFINITION_LETTERS`, `LETTERS_WITHOUT_DEFINITIONS`) and `utils/DefinitionPicker.ts` (`getDefinitionForLevel`, `formatDefinition`) — shared by definition-based games (definitionMaster, spellingBee); reuse them instead of copying.
 - `hooks/useWordProcessor.ts` — hook wrapper around WordGameProcessor.
 
 The definitions/words data behind `WordsService` is produced by the pipeline in [commands.md](commands.md).

@@ -5,6 +5,7 @@ import { FormattedMessage } from 'react-intl';
 import { GameConfig, QuizDefinition } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
+import { formatDefinition } from '@utils/DefinitionPicker';
 import '@styles/Buttons.scss';
 
 type SelectedAnswersType = { [key: string]: boolean };
@@ -18,7 +19,7 @@ type DefinitionMasterUIProps = {
     isNextButtonActive: boolean;
     isQuizFinished: boolean;
     loadError: boolean;
-    letters: string[];
+    letters: readonly string[];
     quizWord: string;
     quizWords: QuizDefinition[][];
     quizScore: number;
@@ -29,13 +30,6 @@ type DefinitionMasterUIProps = {
     handleResetLetterClick: () => void;
     handleQuizWordClick: (word: string | undefined, isCorrect: boolean) => void;
     handleNextQuizWord: () => void;
-};
-
-const beautifyDefinition = (definition: string): string => {
-    const capitalizedFirstLetter = definition.charAt(0).toUpperCase();
-    const withoutFirstLetter = definition.slice(1);
-    const withoutPeriodAndRest = withoutFirstLetter.split('.')[0];
-    return capitalizedFirstLetter + withoutPeriodAndRest;
 };
 
 const UI: React.FC<DefinitionMasterUIProps> = ({
@@ -146,7 +140,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                                                         {isCorrect !== undefined && !isCorrect && (
                                                             <strong>{word.word}: </strong>
                                                         )}
-                                                        {beautifyDefinition(word.definition)}.
+                                                        {formatDefinition(word.definition)}.
                                                     </button>
                                                 );
                                             })}
