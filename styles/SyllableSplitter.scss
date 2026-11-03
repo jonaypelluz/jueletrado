@@ -1,0 +1,149 @@
+@use '@styles/variables.scss' as vars;
+@use '@styles/common.scss';
+
+// Darker amber than vars.$warning-color so the thin "missed" bar keeps >= 3:1 contrast on white.
+$missed-color: #ad6800;
+
+.syllable-splitter-game {
+    @extend .game-wrapper;
+
+    &::before {
+        opacity: 0.2;
+        background-image: url('/games/syllableSplitterBg.png');
+    }
+
+    .syllable-splitter-game-inner {
+        padding: 24px;
+        position: relative;
+        z-index: 1;
+        min-height: 460px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .syllable-splitter-score {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 12px;
+    }
+
+    .syllable-splitter-word {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+
+        @media only screen and (max-width: 479px) {
+            flex-wrap: wrap;
+            row-gap: 8px;
+        }
+    }
+
+    .syllable-splitter-letter {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 48px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: 1px solid #d9d9d9;
+        border-radius: 6px;
+        background: #fff;
+        color: #333;
+
+        @media only screen and (max-width: 479px) {
+            width: 32px;
+            height: 40px;
+            font-size: 20px;
+        }
+    }
+
+    .syllable-splitter-gap {
+        position: relative;
+        width: 32px;
+        min-width: 32px;
+        height: 48px;
+        padding: 0;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 6px;
+            bottom: 6px;
+            left: 50%;
+            width: 4px;
+            margin-left: -2px;
+            border-radius: 2px;
+            background-color: transparent;
+            transition: background-color 0.2s;
+        }
+
+        &:hover:not(:disabled)::after {
+            background-color: rgba(51, 153, 255, 0.3);
+        }
+
+        &.selected::after {
+            background-color: vars.$main-color;
+        }
+
+        &.correct::after {
+            background-color: vars.$secondary-color-dark;
+        }
+
+        &.incorrect::after {
+            background-color: vars.$danger-color;
+        }
+
+        &.missed::after {
+            background-color: $missed-color;
+        }
+
+        &:focus-visible {
+            outline: 2px solid vars.$main-color;
+            outline-offset: -2px;
+            border-radius: 4px;
+        }
+
+        &:disabled {
+            cursor: default;
+        }
+    }
+
+    .syllable-splitter-correct-split {
+        font-size: 20px;
+        text-align: center;
+        margin: 0 0 16px;
+    }
+
+    .syllable-splitter-action {
+        display: inline-block;
+        width: auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        border-color: vars.$main-color;
+        border-width: 2px;
+        color: vars.$main-color;
+        font-weight: 800;
+
+        &:hover:not(:disabled) {
+            background-color: rgba(51, 153, 255, 0.1);
+        }
+    }
+
+    .results-verdict {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        text-align: center;
+        color: vars.$main-color-dark;
+    }
+}

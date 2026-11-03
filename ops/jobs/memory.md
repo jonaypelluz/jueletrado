@@ -16,3 +16,11 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   `config/ChangeRules.ts` (mismo origen que spellTower). Hook `useLetterMatcher`, tests
   (`tests/games/hooks/useLetterMatcher.test.tsx`, config de juegos). Plan fuente:
   `.claude/tmp/plan_02_letterMatcher.md`.
+
+## JUE-0004 — Separador de sílabas (syllableSplitter) (done)
+- Juego ES-only: `games/syllableSplitter/` (hook + UI), ruta `/juegos/separador-de-silabas`, util
+  `utils/SyllableSplitter.ts` (`syllabify` / `dividerPositions`, reglas RAE, invariante
+  `join('') === word`), storage key `WORDS_SYLLABLE`, estilos `styles/SyllableSplitter.scss`.
+- Elección documentada `tl`: `a-tle-ta` (comentario en el código).
+- Pendiente: la QA en navegador (partida completa en `/juegos/separador-de-silabas`) no llegó a
+  correr; las suites, `tsc` y lint están verdes y el build lo valida el CI del PR.

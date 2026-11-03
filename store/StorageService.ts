@@ -9,6 +9,7 @@ export type StorageKey =
     | 'WORDS_TOWER'
     | 'WORDS_ACCENT'
     | 'WORDS_MATCHER'
+    | 'WORDS_SYLLABLE'
     | 'LOCALE'
     | 'LEVELS_POPULATED';
 
@@ -35,6 +36,8 @@ const StorageService = {
     WORDS_ACCENT: 'WORDS_ACCENT' as const,
     /** Persistent queue for letterMatcher (drawn N per session, background-refetched when low). */
     WORDS_MATCHER: 'WORDS_MATCHER' as const,
+    /** Persistent queue for syllableSplitter (drawn N per session, background-refetched when low). */
+    WORDS_SYLLABLE: 'WORDS_SYLLABLE' as const,
     LOCALE: 'LOCALE' as const,
     /** Tracks which level+locale combinations are already populated in IndexedDB. */
     LEVELS_POPULATED: 'LEVELS_POPULATED' as const,
