@@ -1,16 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Definition, DefinitionWords, QuizDefinition } from '@models/types';
+import { DEFINITION_LETTERS, LETTERS_WITHOUT_DEFINITIONS } from '@config/DefinitionConfig';
+import { DefinitionWords, QuizDefinition } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
+import { getDefinitionForLevel } from '@utils/DefinitionPicker';
 
 const TOTAL_QUIZ_DEFINITIONS = 5;
-
-const LETTERS_WITHOUT_DEFINITIONS: Record<string, Set<string>> = {
-    es: new Set(['x']),
-    en: new Set(['j', 'k', 'l', 'x', 'z']),
-};
 
 type SelectedAnswersType = { [key: string]: boolean };
 
@@ -29,32 +26,14 @@ const useDefinitionMaster = () => {
     const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswersType>({});
     const [quizScore, setQuizScore] = useState<number>(0);
 
-    const letters: string[] = [
-        'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
-        'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
-    ];
-
     const isLetterDisabled = (letter: string): boolean => {
         return LETTERS_WITHOUT_DEFINITIONS[locale]?.has(letter) ?? false;
-    };
-
-    const getDefinitionForLevel = (definitions: Definition[]): Definition => {
-        let eligible: Definition[];
-        if (gameLevel === 'beginner') {
-            eligible = definitions.filter(d => Number(d.number) === 1);
-        } else if (gameLevel === 'intermediate') {
-            eligible = definitions.filter(d => Number(d.number) <= 3);
-        } else {
-            eligible = definitions;
-        }
-        if (eligible.length === 0) eligible = definitions;
-        return eligible[Math.floor(Math.random() * eligible.length)];
     };
 
     const getQuizWords = (arr: DefinitionWords, selectedWord: string): QuizDefinition[] => {
         const definitions: QuizDefinition[] = [];
 
-        const chosenDefinition = getDefinitionForLevel(arr[selectedWord]);
+        const chosenDefinition = getDefinitionForLevel(arr[selectedWord], gameLevel);
         definitions.push({
             isCorrect: true,
             definition: chosenDefinition.definition,
@@ -65,7 +44,7 @@ const useDefinitionMaster = () => {
 
         shuffledKeys.forEach((key) => {
             if (key !== selectedWord && definitions.length < TOTAL_QUIZ_DEFINITIONS) {
-                const randomDefinition = getDefinitionForLevel(arr[key]);
+                const randomDefinition = getDefinitionForLevel(arr[key], gameLevel);
                 definitions.push({
                     isCorrect: false,
                     definition: randomDefinition.definition,
@@ -201,7 +180,7 @@ const useDefinitionMaster = () => {
         isNextButtonActive,
         isQuizFinished,
         loadError,
-        letters,
+        letters: DEFINITION_LETTERS,
         quizWord,
         quizWords,
         quizScore,

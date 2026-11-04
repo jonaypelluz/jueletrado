@@ -8,6 +8,7 @@ const GAME_IDS = [
     'definitionMaster',
     'crossWordPuzzle',
     'letterMatcher',
+    'spellingBee',
 ] as const;
 
 const ES_ONLY_GAME_IDS = ['accentFixer', 'syllableSplitter'] as const;
@@ -71,14 +72,14 @@ describe('createGamesConfig', () => {
 });
 
 describe('createAllGamesConfig', () => {
-    test('returns array with all 7 universal games plus the 2 ES-only games for es', () => {
+    test('returns array with all 8 universal games plus the 2 ES-only games for es', () => {
         const configs = createAllGamesConfig('es');
-        expect(configs).toHaveLength(9);
+        expect(configs).toHaveLength(10);
     });
 
-    test('returns array with only the 7 universal games for en', () => {
+    test('returns array with only the 8 universal games for en', () => {
         const configs = createAllGamesConfig('en');
-        expect(configs).toHaveLength(7);
+        expect(configs).toHaveLength(8);
     });
 
     test('all game IDs are present', () => {
@@ -128,5 +129,14 @@ describe.each(ES_ONLY_GAME_IDS)('%s (ES-only game)', (id) => {
 describe('syllableSplitter route', () => {
     test('es config links to the Spanish game page', () => {
         expect(createGamesConfig('es', 'syllableSplitter')?.link).toBe('/juegos/separador-de-silabas');
+    });
+});
+
+describe('spellingBee route', () => {
+    test.each([
+        ['es', '/juegos/abeja-deletreadora'],
+        ['en', '/en/games/spelling-bee'],
+    ])('%s config links to %s', (locale, link) => {
+        expect(createGamesConfig(locale, 'spellingBee')?.link).toBe(link);
     });
 });

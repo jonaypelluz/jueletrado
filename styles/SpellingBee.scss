@@ -1,0 +1,126 @@
+@use '@styles/variables.scss' as vars;
+@use '@styles/common.scss';
+
+.spelling-bee-wrapper {
+    @extend .game-wrapper;
+
+    &::before {
+        opacity: 0.3;
+        background-image: url('/games/spellingBeeBg.png');
+    }
+
+    .spelling-bee-inner {
+        position: relative;
+        z-index: 1;
+        padding: 24px;
+
+        @media only screen and (max-width: 479px) {
+            padding: 16px;
+
+            h2 {
+                margin-top: 0;
+                font-size: 26px;
+            }
+        }
+    }
+
+    .spelling-bee-round {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .spelling-bee-definition {
+        font-size: 20px;
+        background-color: #fff;
+        border-radius: 6px;
+        padding: 12px 16px;
+    }
+
+    .spelling-bee-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        margin: 12px 0;
+    }
+
+    .spelling-bee-box {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+        text-transform: uppercase;
+        border: 1px solid #000;
+        border-radius: 6px;
+        background: #fff;
+
+        @media only screen and (max-width: 479px) {
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+        }
+    }
+
+    .spelling-bee-form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        margin: 12px 0;
+
+        input {
+            font-size: 20px;
+            padding: 8px 12px;
+            border: 1px solid #000;
+            border-radius: 6px;
+            max-width: 100%;
+        }
+    }
+
+    .spelling-bee-feedback {
+        font-size: 18px;
+        font-weight: bold;
+
+        &--correct {
+            color: vars.$main-color;
+        }
+
+        &--accent-miss {
+            color: vars.$main-color-dark;
+        }
+
+        &--wrong,
+        &--revealed {
+            color: vars.$danger-color;
+        }
+    }
+
+    .next-btn {
+        font-size: 24px;
+        margin: 12px;
+        height: auto;
+        padding: 8px 16px;
+    }
+
+    .spelling-bee-summary,
+    .spelling-bee-error {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 48px 24px;
+        text-align: center;
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 24px;
+        }
+    }
+}
