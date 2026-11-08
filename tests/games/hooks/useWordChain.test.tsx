@@ -254,6 +254,21 @@ describe('useWordChain', () => {
             expect(result.current.requiredLetter).toBe('O');
         });
 
+        test('a word accepted within the first second re-arms the full turn timer', async () => {
+            const { result } = await renderLoaded();
+            await startGame(result);
+
+            act(() => {
+                jest.advanceTimersByTime(500);
+            });
+            submit(result, 'arco');
+            act(() => {
+                jest.advanceTimersByTime(600);
+            });
+
+            expect(result.current.countdown).toBe(30);
+        });
+
         test.each([
             ['perro', 'wrong-letter'],
             ['arpa', 'repeated'],

@@ -64,6 +64,8 @@ const useWordChain = () => {
     const [chain, setChain] = useState<string[]>([]);
     const [score, setScore] = useState<number>(0);
     const [countdown, setCountdown] = useState<number>(0);
+    // Bumped on each accepted word: re-arms the timer even when countdown already equals the turn time.
+    const [turn, setTurn] = useState<number>(0);
     const [input, setInput] = useState<string>('');
     const [rejection, setRejection] = useState<RejectionReason | null>(null);
     const [best, setBest] = useState<number>(0);
@@ -130,7 +132,7 @@ const useWordChain = () => {
         }
         const timer = setTimeout(() => setCountdown((prev) => prev - 1), 1000);
         return () => clearTimeout(timer);
-    }, [countdown, gameStarted]);
+    }, [countdown, gameStarted, turn]);
 
     const handleGameStartClick = async (): Promise<void> => {
         const level = gameLevel;
@@ -195,6 +197,7 @@ const useWordChain = () => {
         setChain([...chain, result.word]);
         setScore((prev) => prev + 1);
         setCountdown(TURN_TIME[level]);
+        setTurn((prev) => prev + 1);
         setInput('');
         setRejection(null);
     };
