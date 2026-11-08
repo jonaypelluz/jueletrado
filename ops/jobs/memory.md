@@ -58,3 +58,18 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   acepción, no la dificultad de la palabra; con <5 rondas el máximo es 3 × rondas aunque las reglas
   dicen 15; 4ª copia privada de `shuffle`; revisar la copia cuando JUE-0010 fije los límites.
 - QA: tecla muerta real del SO sin probar (headless usó entrada NFD, aceptada).
+
+## JUE-0005 — Cadena de palabras (wordChain) (done 2026-11-08)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/59
+- Juego en ambos locales: `games/wordChain/` (hook + UI), rutas `/juegos/cadena-de-palabras` y
+  `/en/games/word-chain`, util `utils/ChainLetterIndex.ts`, storage key `WORD_CHAIN_BEST`
+  (`{ locale: { level: n } }`), estilos `styles/WordChain.scss`.
+- Dead ends: el índice se construye sobre el word set completo (el mismo que valida). Con los datos
+  actuales ninguna letra real queda bajo el umbral 50 (ES: w 115, x 206, ñ 315, k 377; EN mínimo
+  x 541); solo caracteres raros (`º`). La nota original ("ñ, w, x, k") solo valía para sets por
+  nivel. Si se quiere que la regla muerda, revisar umbral o base del índice (parked).
+- `StorageService.clearStorage` conserva `PERSISTENT_KEYS` (hoy solo `WORD_CHAIN_BEST`) para que el
+  cambio de idioma no borre las mejores marcas del otro locale.
+- Residual: primera carga en frío del word set ES ~38 s (EN ~21 s) con Jugar desactivado y sin texto
+  de progreso en el hero (mismo patrón que spellTower). La flecha `→` del breadcrumb no se vio en el
+  contenedor headless por falta de fuente; comprobar en dispositivo.
