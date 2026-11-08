@@ -12,6 +12,7 @@ const GamesRoutes: Translations = {
         letterMatcher: '/juegos/maestro-de-letras',
         syllableSplitter: '/juegos/separador-de-silabas',
         spellingBee: '/juegos/abeja-deletreadora',
+        wordChain: '/juegos/cadena-de-palabras',
     },
     en: {
         spellTower: '/en/games/spell-tower',
@@ -26,6 +27,7 @@ const GamesRoutes: Translations = {
         // ES-only game: no EN page exists, route points at the ES page and is unreachable via the EN UI.
         syllableSplitter: '/juegos/separador-de-silabas',
         spellingBee: '/en/games/spelling-bee',
+        wordChain: '/en/games/word-chain',
     },
 };
 
@@ -517,6 +519,64 @@ const GamesTranslations: GamePreConfig[] = [
                 ],
                 tips: [
                     'Fíjate en el tipo de palabra: te ayuda a saber si es nombre, verbo o adjetivo.',
+                ],
+            },
+        },
+    },
+    {
+        id: 'wordChain',
+        imgSrc: '/images/games/wordChain.png',
+        title: {
+            en: 'Word Chain',
+            es: 'Cadena de palabras',
+        },
+        description: {
+            en: 'Each word must start with the last letter of the previous one. Chain as many as you can before the clock runs out.',
+            es: 'Cada palabra empieza por la última letra de la anterior. Encadena todas las que puedas antes de que se acabe el tiempo.',
+        },
+        subtitle: {
+            en: 'Start with the last letter and keep the chain going.',
+            es: 'Empieza por la última letra y no rompas la cadena.',
+        },
+        gameRules: {
+            en: {
+                gameGoal: 'Chain as many words as you can: each accepted word is one point.',
+                howToPlay: [
+                    'The game gives you a first word.',
+                    'Type a word that starts with the last letter of the previous word and press Chain.',
+                    'You have 30 seconds per word in beginner, 20 in intermediate and 15 in advanced; the clock restarts with every accepted word.',
+                    'When the time runs out, the game ends.',
+                ],
+                additionalRules: [
+                    'Words must have at least 3 letters and be spelled correctly, accent marks included.',
+                    'Accent marks do not matter for the linking letter (á counts as a), but ñ is a letter of its own.',
+                    'You cannot repeat a word, not even the first one.',
+                    'Words ending in a letter that almost no word starts with are not accepted.',
+                    'A rejected word costs nothing, but the clock keeps running.',
+                    'Your best score is saved for each level.',
+                ],
+                tips: [
+                    'Think of your next word while you type: the clock does not stop.',
+                ],
+            },
+            es: {
+                gameGoal: 'Encadena todas las palabras que puedas: cada palabra aceptada es un punto.',
+                howToPlay: [
+                    'El juego te da una primera palabra.',
+                    'Escribe una palabra que empiece por la última letra de la anterior y pulsa Encadenar.',
+                    'Tienes 30 segundos por palabra en principiante, 20 en intermedio y 15 en avanzado; el reloj se reinicia con cada palabra aceptada.',
+                    'Cuando se acaba el tiempo, termina la partida.',
+                ],
+                additionalRules: [
+                    'Las palabras deben tener al menos 3 letras y estar bien escritas, con sus tildes.',
+                    'Las tildes no cuentan para la letra de enlace (á vale como a), pero la ñ es una letra distinta de la n.',
+                    'No puedes repetir palabras, tampoco la primera.',
+                    'No se aceptan palabras que terminan en una letra por la que casi no empieza ninguna palabra.',
+                    'Una palabra rechazada no resta puntos, pero el reloj sigue corriendo.',
+                    'Tu mejor puntuación se guarda para cada nivel.',
+                ],
+                tips: [
+                    'Piensa en la siguiente palabra mientras escribes: el reloj no se detiene.',
                 ],
             },
         },
