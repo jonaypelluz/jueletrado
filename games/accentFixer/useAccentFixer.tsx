@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { AccentChallenge, buildChallenge } from '@utils/AccentGameProcessor';
+import { CHALLENGE_COUNT, LEVEL_FETCH_OPTIONS } from '@games/accentFixer/config';
 import Logger from '@services/Logger';
 import { getFullWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
@@ -10,14 +11,7 @@ import { useWordsContext } from '@store/WordsContext';
 type PendingResult = { clickedIndex: number; correctIndex: number };
 
 const GAME_TIME = 60;
-const CHALLENGE_COUNT = 10;
 const ACCENTED_RATIO = 0.8;
-
-const LEVEL_FETCH_OPTIONS: Record<string, { minLength: number; maxLength?: number }> = {
-    beginner: { minLength: 4, maxLength: 6 },
-    intermediate: { minLength: 5, maxLength: 8 },
-    advanced: { minLength: 6 },
-};
 
 /** Picks up to `count` challenges, aiming for an 80/20 split of accented / non-accented words. */
 const selectChallenges = (challenges: AccentChallenge[], count: number): AccentChallenge[] => {

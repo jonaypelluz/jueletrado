@@ -9,6 +9,7 @@ const GAME_IDS = [
     'crossWordPuzzle',
     'letterMatcher',
     'spellingBee',
+    'wordChain',
 ] as const;
 
 const ES_ONLY_GAME_IDS = ['accentFixer', 'syllableSplitter'] as const;
@@ -72,14 +73,14 @@ describe('createGamesConfig', () => {
 });
 
 describe('createAllGamesConfig', () => {
-    test('returns array with all 8 universal games plus the 2 ES-only games for es', () => {
+    test('returns array with all 9 universal games plus the 2 ES-only games for es', () => {
         const configs = createAllGamesConfig('es');
-        expect(configs).toHaveLength(10);
+        expect(configs).toHaveLength(11);
     });
 
-    test('returns array with only the 8 universal games for en', () => {
+    test('returns array with only the 9 universal games for en', () => {
         const configs = createAllGamesConfig('en');
-        expect(configs).toHaveLength(8);
+        expect(configs).toHaveLength(9);
     });
 
     test('all game IDs are present', () => {
@@ -138,5 +139,14 @@ describe('spellingBee route', () => {
         ['en', '/en/games/spelling-bee'],
     ])('%s config links to %s', (locale, link) => {
         expect(createGamesConfig(locale, 'spellingBee')?.link).toBe(link);
+    });
+});
+
+describe('wordChain route', () => {
+    test.each([
+        ['es', '/juegos/cadena-de-palabras'],
+        ['en', '/en/games/word-chain'],
+    ])('%s config links to %s', (locale, link) => {
+        expect(createGamesConfig(locale, 'wordChain')?.link).toBe(link);
     });
 });

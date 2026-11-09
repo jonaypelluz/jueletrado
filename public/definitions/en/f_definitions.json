@@ -583,11 +583,6 @@
             },
             {
                 "number": 5,
-                "definition": "Alternative letter-case form of Fate (one of the goddesses said to control the destiny of human beings).",
-                "type": "noun"
-            },
-            {
-                "number": 6,
                 "definition": "To foreordain or predetermine, to make inevitable.",
                 "type": "verb"
             }
@@ -3100,51 +3095,6 @@
             }
         ]
     },
-    "f": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "interjection",
-                "definition": "Used to profess respect for a deceased person, or for something that has been lost."
-            },
-            {
-                "number": 2,
-                "type": "interjection",
-                "definition": "Used to express regret or disappointment about an unfortunate event or piece of information."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "(abbreviation) Folio, paper and book size (10\"-12.5\" x 15\"-20\")."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Fuck."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "That which is feminine."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "(possibly obsolete) A woman."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "(grammar) The feminine gender."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "(grammar) A word of the feminine gender."
-            }
-        ]
-    },
     "face": {
         "level": "beginner",
         "definitions": [
@@ -4624,11 +4574,6 @@
             },
             {
                 "number": 15,
-                "type": "noun",
-                "definition": "Present participle of fall."
-            },
-            {
-                "number": 16,
                 "type": "adjective",
                 "definition": "That falls or fall."
             }
@@ -5626,21 +5571,6 @@
             },
             {
                 "number": 18,
-                "type": "adverb",
-                "definition": "Ahead of the correct time or schedule.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "ahead."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "behind."
-                    }
-                ]
-            },
-            {
-                "number": 19,
                 "type": "interjection",
                 "definition": "Short for \"stand fast\", a warning not to pass between the arrow and the target.",
                 "definition_extra": [
@@ -5651,7 +5581,7 @@
                 ]
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "noun",
                 "definition": "The act or practice of abstaining from food or of eating very little food.",
                 "definition_extra": [
@@ -5662,12 +5592,12 @@
                 ]
             },
             {
-                "number": 21,
+                "number": 20,
                 "type": "noun",
                 "definition": "The period of time during which one abstains from or eats very little food."
             },
             {
-                "number": 22,
+                "number": 21,
                 "type": "verb",
                 "definition": "To restrict one’s personal consumption, generally of food, but sometimes other things, in various manners (totally, temporally, by avoiding particular items), often for religious or medical reasons."
             }
@@ -5840,21 +5770,6 @@
             },
             {
                 "number": 17,
-                "type": "adverb",
-                "definition": "Ahead of the correct time or schedule.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "ahead."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "behind."
-                    }
-                ]
-            },
-            {
-                "number": 18,
                 "type": "noun",
                 "definition": "One who fasts, or voluntarily refrains from eating."
             }
@@ -6848,51 +6763,46 @@
             },
             {
                 "number": 6,
-                "type": "noun",
-                "definition": "Alternative form of feeling."
-            },
-            {
-                "number": 7,
                 "type": "verb",
                 "definition": "(heading) To use or experience the sense of touch."
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "verb",
                 "definition": "(heading) To sense or think emotionally or judgmentally."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "verb",
                 "definition": "To be or become aware of."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "verb",
                 "definition": "To experience the consequences of."
             },
             {
-                "number": 11,
+                "number": 10,
                 "type": "verb",
                 "definition": "To seem (through touch or otherwise)."
             },
             {
-                "number": 12,
+                "number": 11,
                 "type": "verb",
                 "definition": "To understand."
             },
             {
-                "number": 13,
+                "number": 12,
                 "type": "adjective",
                 "definition": "Much; many."
             },
             {
-                "number": 14,
+                "number": 13,
                 "type": "adverb",
                 "definition": "Greatly, much, very."
             },
             {
-                "number": 15,
+                "number": 14,
                 "type": "pronoun",
                 "definition": "Many (of)."
             }
@@ -7068,41 +6978,36 @@
             },
             {
                 "number": 12,
-                "type": "noun",
-                "definition": "Alternative form of feeling."
-            },
-            {
-                "number": 13,
                 "type": "verb",
                 "definition": "(heading) To use or experience the sense of touch."
             },
             {
-                "number": 14,
+                "number": 13,
                 "type": "verb",
                 "definition": "(heading) To sense or think emotionally or judgmentally."
             },
             {
-                "number": 15,
+                "number": 14,
                 "type": "verb",
                 "definition": "To be or become aware of."
             },
             {
-                "number": 16,
+                "number": 15,
                 "type": "verb",
                 "definition": "To experience the consequences of."
             },
             {
-                "number": 17,
+                "number": 16,
                 "type": "verb",
                 "definition": "To seem (through touch or otherwise)."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To understand."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "noun",
                 "definition": "Feelings, emotions."
             }
@@ -8990,17 +8895,17 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Similar or similar-looking extremities in other animals, particularly:."
+                "definition": "Similar or similar-looking extremities in other animals."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Something similar in shape to the human finger, particularly:."
+                "definition": "Something similar in shape to the human finger."
             },
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "Something similarly extending, from a larger body, particularly:."
+                "definition": "Something similarly extending, from a larger body."
             },
             {
                 "number": 5,
@@ -9514,7 +9419,7 @@
             {
                 "number": 11,
                 "type": "adverb",
-                "definition": "For the first time;."
+                "definition": "For the first time."
             },
             {
                 "number": 12,
@@ -9579,7 +9484,7 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "A paraphyletic grouping of the following extant taxonomic groups:."
+                "definition": "A paraphyletic grouping of the following extant taxonomic groups."
             },
             {
                 "number": 12,
@@ -10114,7 +10019,7 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "The flat part of something:."
+                "definition": "The flat part of something."
             },
             {
                 "number": 8,
@@ -10461,11 +10366,6 @@
                 "number": 19,
                 "type": "adjective",
                 "definition": "Fast, swift, fleet."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "The act of fleeing."
             }
         ]
     },
@@ -12209,7 +12109,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A foreign person, particularly:."
+                "definition": "A foreign person."
             },
             {
                 "number": 2,
@@ -12224,7 +12124,7 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A foreign area, particularly:."
+                "definition": "A foreign area."
             },
             {
                 "number": 5,
@@ -13536,11 +13436,6 @@
                 "number": 16,
                 "type": "noun",
                 "definition": "(other ballgames) a kick in which a player may kick the ball without interference from the opposition. Such a kick may be awarded for a foul by the opposition, or earned by a player such as by taking a mark."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "The usual means of restarting play after a foul is committed, where the non-offending team restarts from where the foul was committed."
             }
         ]
     },
@@ -14189,7 +14084,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "A product of fertilization in a plant, specifically:."
+                "definition": "A product of fertilization in a plant."
             },
             {
                 "number": 4,
@@ -14215,526 +14110,6 @@
                 "number": 8,
                 "type": "verb",
                 "definition": "To produce fruit, seeds, or spores."
-            }
-        ]
-    },
-    "ft": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A biological structure found in many animals that is used for locomotion and that is frequently a separate organ at the terminal part of the leg."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Specifically, a human foot, which is found below the ankle and is used for standing and walking."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "(often used attributively) Travel by walking."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "The base or bottom of anything."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "The part of a flat surface on which the feet customarily rest."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "The end of a rectangular table opposite the head."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A short foot-like projection on the bottom of an object to support it."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A unit of measure equal to twelve inches or one third of a yard, equal to exactly 30.48 centimetres."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A unit of measure for organ pipes equal to the wavelength of two octaves above middle C, approximately 328 mm."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "(collective) Foot soldiers; infantry."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "(cigars) The end of a cigar which is lit, and usually cut before lighting."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "The part of a sewing machine which presses downward on the fabric, and may also serve to move it forward."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "The bottommost part of a typed or printed page."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "The base of a piece of type, forming the sides of the groove."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "The basic measure of rhythm in a poem."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "The parsing of syllables into prosodic constituents, which are used to determine the placement of stress in languages along with the notions of constituent heads."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "The bottom edge of a sail."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "The end of a billiard or pool table behind the foot point where the balls are racked."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "In a bryophyte, that portion of a sporophyte which remains embedded within and attached to the parent gametophyte plant."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "The muscular part of a bivalve mollusc or a gastropod by which it moves or holds its position on a surface."
-            },
-            {
-                "number": 21,
-                "type": "noun",
-                "definition": "The globular lower domain of a protein."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "The point of intersection of one line with another that is perpendicular to it."
-            },
-            {
-                "number": 23,
-                "type": "noun",
-                "definition": "Fundamental principle; basis; plan."
-            },
-            {
-                "number": 24,
-                "type": "noun",
-                "definition": "Recognized condition; rank; footing."
-            }
-        ]
-    },
-    "fuck": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "An act of sexual intercourse."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A sexual partner, especially a casual one."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A highly contemptible person.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "dickhead."
-                    }
-                ]
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A thing of no value, a small amount.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "shit."
-                    }
-                ]
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "To have sexual intercourse, to copulate.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, do it, eff, have sex, hump, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 6,
-                "type": "verb",
-                "definition": "To have sexual intercourse with.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, eff, give someone one, hump, ream, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "type": "verb",
-                "definition": "To insert one’s penis, a dildo or other phallic object, into a specified orifice or cleft."
-            },
-            {
-                "number": 8,
-                "type": "verb",
-                "definition": "To put in an extremely difficult or impossible situation."
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "To defraud, deface or otherwise treat badly."
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "Used to express great displeasure with someone or something.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bugger, eff."
-                    }
-                ]
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "(usually followed by up) To break, to destroy.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "annihilate, obliterate, ruin."
-                    }
-                ]
-            },
-            {
-                "number": 12,
-                "type": "verb",
-                "definition": "To make a joke at one's expense; to make fun of in an embarrassing manner."
-            },
-            {
-                "number": 13,
-                "type": "verb",
-                "definition": "To throw, to lob something. (angrily).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "feck."
-                    }
-                ]
-            },
-            {
-                "number": 14,
-                "type": "verb",
-                "definition": "To scold."
-            },
-            {
-                "number": 15,
-                "type": "adverb",
-                "definition": "Used as an intensifier for the words \"yes\" and \"no\".",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "god, heck, hell, shit."
-                    }
-                ]
-            },
-            {
-                "number": 16,
-                "type": "interjection",
-                "definition": "Expressing dismay or discontent.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "fark, feck, fook, frick."
-                    }
-                ]
-            },
-            {
-                "number": 17,
-                "type": "interjection",
-                "definition": "Expressing surprise."
-            }
-        ]
-    },
-    "fucked": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "verb",
-                "definition": "To have sexual intercourse, to copulate.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, do it, eff, have sex, hump, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "verb",
-                "definition": "To have sexual intercourse with.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, eff, give someone one, hump, ream, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 3,
-                "type": "verb",
-                "definition": "To insert one’s penis, a dildo or other phallic object, into a specified orifice or cleft."
-            },
-            {
-                "number": 4,
-                "type": "verb",
-                "definition": "To put in an extremely difficult or impossible situation."
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "To defraud, deface or otherwise treat badly."
-            },
-            {
-                "number": 6,
-                "type": "verb",
-                "definition": "Used to express great displeasure with someone or something.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bugger, eff."
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "type": "verb",
-                "definition": "(usually followed by up) To break, to destroy.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "annihilate, obliterate, ruin."
-                    }
-                ]
-            },
-            {
-                "number": 8,
-                "type": "verb",
-                "definition": "To make a joke at one's expense; to make fun of in an embarrassing manner."
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "To throw, to lob something. (angrily).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "feck."
-                    }
-                ]
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "To scold."
-            },
-            {
-                "number": 11,
-                "type": "adjective",
-                "definition": "Broken."
-            },
-            {
-                "number": 12,
-                "type": "adjective",
-                "definition": "In trouble."
-            },
-            {
-                "number": 13,
-                "type": "adjective",
-                "definition": "Very drunk."
-            },
-            {
-                "number": 14,
-                "type": "adjective",
-                "definition": "Tired."
-            },
-            {
-                "number": 15,
-                "type": "adjective",
-                "definition": "Bothered to do something."
-            },
-            {
-                "number": 16,
-                "type": "adjective",
-                "definition": "Damaged; poorly manufactured; injured."
-            },
-            {
-                "number": 17,
-                "type": "adjective",
-                "definition": "Morally reprehensible; clearly and grossly objectionable."
-            },
-            {
-                "number": 18,
-                "type": "adjective",
-                "definition": "In disarray or dishevelment (emotionally or otherwise)."
-            },
-            {
-                "number": 19,
-                "type": "adjective",
-                "definition": "Drunk; wasted; incredibly intoxicated (not necessarily with alcohol)."
-            },
-            {
-                "number": 20,
-                "type": "adjective",
-                "definition": "Misconstrued or misunderstood; taken the wrong way."
-            }
-        ]
-    },
-    "fucking": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "verb",
-                "definition": "To have sexual intercourse, to copulate.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, do it, eff, have sex, hump, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "verb",
-                "definition": "To have sexual intercourse with.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, eff, give someone one, hump, ream, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 3,
-                "type": "verb",
-                "definition": "To insert one’s penis, a dildo or other phallic object, into a specified orifice or cleft."
-            },
-            {
-                "number": 4,
-                "type": "verb",
-                "definition": "To put in an extremely difficult or impossible situation."
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "To defraud, deface or otherwise treat badly."
-            },
-            {
-                "number": 6,
-                "type": "verb",
-                "definition": "Used to express great displeasure with someone or something.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bugger, eff."
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "type": "verb",
-                "definition": "(usually followed by up) To break, to destroy.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "annihilate, obliterate, ruin."
-                    }
-                ]
-            },
-            {
-                "number": 8,
-                "type": "verb",
-                "definition": "To make a joke at one's expense; to make fun of in an embarrassing manner."
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "To throw, to lob something. (angrily).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "feck."
-                    }
-                ]
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "To scold."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "An act of sexual intercourse, especially one lacking passion or a feeling of sincere love."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "An act of mistreatment."
-            },
-            {
-                "number": 13,
-                "type": "adjective",
-                "definition": "An intensifier, often applying more to the whole utterance than to the specific word it grammatically modifies.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "fecking, freaking, frigging."
-                    }
-                ]
-            },
-            {
-                "number": 14,
-                "type": "adjective",
-                "definition": "Offensive, annoying or worthless."
-            },
-            {
-                "number": 15,
-                "type": "adverb",
-                "definition": "Really, very; having intensive force, often applying to the whole sentence or clause."
             }
         ]
     },
@@ -16509,21 +15884,6 @@
             },
             {
                 "number": 17,
-                "type": "adverb",
-                "definition": "Ahead of the correct time or schedule.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "ahead."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "behind."
-                    }
-                ]
-            },
-            {
-                "number": 18,
                 "type": "verb",
                 "definition": "To restrict one’s personal consumption, generally of food, but sometimes other things, in various manners (totally, temporally, by avoiding particular items), often for religious or medical reasons."
             }
@@ -18287,17 +17647,17 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Similar or similar-looking extremities in other animals, particularly:."
+                "definition": "Similar or similar-looking extremities in other animals."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Something similar in shape to the human finger, particularly:."
+                "definition": "Something similar in shape to the human finger."
             },
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "Something similarly extending, from a larger body, particularly:."
+                "definition": "Something similarly extending, from a larger body."
             },
             {
                 "number": 5,
@@ -19210,16 +18570,6 @@
             }
         ]
     },
-    "fl": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "(proofreading) Initialism of flush left."
-            }
-        ]
-    },
     "flags": {
         "level": "intermediate",
         "definitions": [
@@ -19859,11 +19209,6 @@
                 "number": 18,
                 "type": "verb",
                 "definition": "(by extension) To throw or kick something so as to send it flying with more loft or airtime than usual."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "The act of fleeing."
             }
         ]
     },
@@ -22483,26 +21828,6 @@
             }
         ]
     },
-    "fr": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Genuine, true; serious, earnest."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Genuinely, truly."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "(proofreading) Initialism of flush right."
-            }
-        ]
-    },
     "framed": {
         "level": "intermediate",
         "definitions": [
@@ -23295,7 +22620,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "A product of fertilization in a plant, specifically:."
+                "definition": "A product of fertilization in a plant."
             },
             {
                 "number": 4,
@@ -23742,11 +23067,6 @@
             },
             {
                 "number": 8,
-                "type": "noun",
-                "definition": "Short for futures contract."
-            },
-            {
-                "number": 9,
                 "type": "noun",
                 "definition": "Short for futures contract."
             }
@@ -26366,7 +25686,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Any of various species of flowering plants, mostly in two subfamilies in Asteroideae, that typically repel insects:."
+                "definition": "Any of various species of flowering plants, mostly in two subfamilies in Asteroideae, that typically repel insects."
             },
             {
                 "number": 2,
@@ -28646,7 +27966,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A free person, particularly:."
+                "definition": "A free person."
             }
         ]
     },
@@ -30434,11 +29754,6 @@
                 "number": 14,
                 "type": "noun",
                 "definition": "(usually in the plural) Something to aid attachment during construction (screws, wall plugs, etc)."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "See fixings."
             }
         ]
     },
@@ -30795,123 +30110,6 @@
             }
         ]
     },
-    "fucks": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "An act of sexual intercourse."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A sexual partner, especially a casual one."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A highly contemptible person.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "dickhead."
-                    }
-                ]
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A thing of no value, a small amount.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "shit."
-                    }
-                ]
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "To have sexual intercourse, to copulate.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, do it, eff, have sex, hump, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 6,
-                "type": "verb",
-                "definition": "To have sexual intercourse with.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bang, eff, give someone one, hump, ream, screw, shag."
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "type": "verb",
-                "definition": "To insert one’s penis, a dildo or other phallic object, into a specified orifice or cleft."
-            },
-            {
-                "number": 8,
-                "type": "verb",
-                "definition": "To put in an extremely difficult or impossible situation."
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "To defraud, deface or otherwise treat badly."
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "Used to express great displeasure with someone or something.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bugger, eff."
-                    }
-                ]
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "(usually followed by up) To break, to destroy.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "annihilate, obliterate, ruin."
-                    }
-                ]
-            },
-            {
-                "number": 12,
-                "type": "verb",
-                "definition": "To make a joke at one's expense; to make fun of in an embarrassing manner."
-            },
-            {
-                "number": 13,
-                "type": "verb",
-                "definition": "To throw, to lob something. (angrily).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "feck."
-                    }
-                ]
-            },
-            {
-                "number": 14,
-                "type": "verb",
-                "definition": "To scold."
-            }
-        ]
-    },
     "fabrics": {
         "level": "advanced",
         "definitions": [
@@ -31146,16 +30344,6 @@
                 "number": 3,
                 "type": "verb",
                 "definition": "To send a document via a fax machine."
-            }
-        ]
-    },
-    "fcc": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Initialism of face-centered cubic."
             }
         ]
     },
@@ -31497,7 +30685,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A place related to fishing, particularly:."
+                "definition": "A place related to fishing."
             },
             {
                 "number": 3,
@@ -33262,138 +32450,6 @@
             }
         ]
     },
-    "fwd": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "An introductory section preceding the main text of a book or other document; a preface or introduction."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "One of the eight players (comprising two props, one hooker, two locks, two flankers and one number eight, collectively known as the pack) whose primary task is to gain and maintain possession of the ball (compare back)."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A player on a team in football (soccer) in the row nearest to the opposing team's goal, who are therefore principally responsible for scoring goals.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "attacker, centre forward, striker."
-                    }
-                ]
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "An umbrella term for a centre or winger in ice hockey."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "The small forward or power forward position; two frontcourt positions that are taller than guards but shorter than centers."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "The front part of a vessel."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "An e-mail message that is forwarded to another recipient or recipients; an electronic chain letter."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A direct agreement between two parties to buy or sell an asset at a specific point in the future; distinguished from a futures contract in that the latter is standardized and traded on an exchange.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "forward contract."
-                    }
-                ]
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "To advance, promote."
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "To send (a letter, email etc.) to a third party."
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "To assemble (a book) by sewing sections, attaching cover boards, and so on."
-            },
-            {
-                "number": 12,
-                "type": "adjective",
-                "definition": "Toward the front or at the front."
-            },
-            {
-                "number": 13,
-                "type": "adjective",
-                "definition": "Without customary restraint or modesty; bold, cheeky, pert, presumptuous or pushy."
-            },
-            {
-                "number": 14,
-                "type": "adjective",
-                "definition": "Expected in the future."
-            },
-            {
-                "number": 15,
-                "type": "adjective",
-                "definition": "Ready; prompt; ardently inclined; in a bad sense, eager or hasty."
-            },
-            {
-                "number": 16,
-                "type": "adjective",
-                "definition": "Advanced beyond the usual degree; advanced for the season; precocious."
-            },
-            {
-                "number": 17,
-                "type": "adverb",
-                "definition": "Towards the front or from the front."
-            },
-            {
-                "number": 18,
-                "type": "adverb",
-                "definition": "In the usual direction of travel."
-            },
-            {
-                "number": 19,
-                "type": "adverb",
-                "definition": "Into the future."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "Agreement; covenant."
-            }
-        ]
-    },
-    "fx": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The hair of the head."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A fax machine or a document received and printed by one."
-            }
-        ]
-    },
     "fy": {
         "level": "advanced",
         "definitions": [
@@ -34374,71 +33430,6 @@
                 "number": 12,
                 "type": "noun",
                 "definition": "An annoying person."
-            }
-        ]
-    },
-    "faggot": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(collective) A bundle of sticks or brushwood intended to be used for fuel tied together for carrying. (Some sources specify that a faggot is tied with two bands or withes, whereas a bavin is tied with just one.)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Burdensome baggage."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A bundle of pieces of iron or steel cut off into suitable lengths for welding."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A burning or smouldering piece of firewood."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A meatball made with offcuts and offal, especially pork. (See Wikipedia.)."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "An annoying or inconsiderate person."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A shrewish woman."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A homosexual man, especially an effeminate one."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A man considered weak, effeminate, timid, pathetic, emotional, non-heteronormative in some way."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A soldier numbered on the muster-roll, but not really existing."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "A faggot voter."
-            },
-            {
-                "number": 12,
-                "type": "verb",
-                "definition": "To make a fagot of; to bind together in a fagot or bundle."
             }
         ]
     },
@@ -37449,11 +36440,6 @@
             },
             {
                 "number": 5,
-                "type": "noun",
-                "definition": "Alternative letter-case form of Fate (one of the goddesses said to control the destiny of human beings)."
-            },
-            {
-                "number": 6,
                 "type": "verb",
                 "definition": "To foreordain or predetermine, to make inevitable."
             }
@@ -44169,40 +43155,35 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "An arm or inlet of the sea; a river estuary."
+                "definition": "Peace; security."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Peace; security."
+                "definition": "Sanctuary, asylum."
             },
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "Sanctuary, asylum."
+                "definition": "A forest or wood; woodland generally."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A forest or wood; woodland generally."
+                "definition": "Land with mostly undergrowth and few trees; also, land in between forests or woods; pastureland which is not in use."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "Land with mostly undergrowth and few trees; also, land in between forests or woods; pastureland which is not in use."
+                "definition": "Brushwood or undergrowth, sometimes in the form of a hedge."
             },
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "Brushwood or undergrowth, sometimes in the form of a hedge."
-            },
-            {
-                "number": 8,
-                "type": "noun",
                 "definition": "A hedge, especially one made from brushwood which has been wattled; also, a movable frame made from wattled branches, a hurdle."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "noun",
                 "definition": "A kind of weir made from wattled branches for catching fish."
             }
@@ -44249,7 +43230,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A fisher, a person engaged in fishing:."
+                "definition": "A fisher, a person engaged in fishing."
             },
             {
                 "number": 2,
@@ -44269,7 +43250,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A place related to fishing, particularly:."
+                "definition": "A place related to fishing."
             },
             {
                 "number": 3,
@@ -44339,7 +43320,7 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "A paraphyletic grouping of the following extant taxonomic groups:."
+                "definition": "A paraphyletic grouping of the following extant taxonomic groups."
             },
             {
                 "number": 12,
@@ -44536,7 +43517,7 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "A paraphyletic grouping of the following extant taxonomic groups:."
+                "definition": "A paraphyletic grouping of the following extant taxonomic groups."
             },
             {
                 "number": 12,
@@ -47056,7 +46037,7 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "The flat part of something:."
+                "definition": "The flat part of something."
             },
             {
                 "number": 8,
@@ -53596,11 +52577,6 @@
                 "number": 9,
                 "type": "noun",
                 "definition": "The settlings of oil, molasses, etc., at the bottom of a barrel or hogshead."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "Plural of foot."
             }
         ]
     },
@@ -59731,41 +58707,6 @@
                 "number": 10,
                 "type": "noun",
                 "definition": "An arm or inlet of the sea; a river estuary."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "Peace; security."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "Sanctuary, asylum."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "A forest or wood; woodland generally."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "Land with mostly undergrowth and few trees; also, land in between forests or woods; pastureland which is not in use."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "Brushwood or undergrowth, sometimes in the form of a hedge."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "A hedge, especially one made from brushwood which has been wattled; also, a movable frame made from wattled branches, a hurdle."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "A kind of weir made from wattled branches for catching fish."
             }
         ]
     },
@@ -60998,43 +59939,6 @@
                 "number": 3,
                 "type": "adjective",
                 "definition": "Having a purplish-red colour."
-            }
-        ]
-    },
-    "fucker": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "An undesirable person.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "asshole, bastard, cunt, motherfucker, pigfucker, shit."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "The object of some effort.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bad boy, bastard, bugger, puppy."
-                    }
-                ]
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "People, friends, especially of very high solidarity."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "One who fucks."
             }
         ]
     },

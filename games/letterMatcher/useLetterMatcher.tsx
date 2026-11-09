@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import createChangeRules from '@config/ChangeRules';
+import { CHALLENGE_COUNT, LEVEL_FETCH_OPTIONS } from '@games/letterMatcher/config';
 import Logger from '@services/Logger';
 import { getFullWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
@@ -11,13 +12,6 @@ import { buildLetterChallenge, LetterChallenge } from '@utils/LetterMatchProcess
 type PendingResult = { clickedOption: string; correct: boolean };
 
 const GAME_TIME = 60;
-const CHALLENGE_COUNT = 10;
-
-const LEVEL_FETCH_OPTIONS: Record<string, { minLength: number; maxLength?: number }> = {
-    beginner: { minLength: 4, maxLength: 6 },
-    intermediate: { minLength: 4, maxLength: 8 },
-    advanced: { minLength: 6 },
-};
 
 const useLetterMatcher = () => {
     const { locale, gameLevel, isLoading: isLevelLoading, error, setError, setLoadingProgress } = useWordsContext();

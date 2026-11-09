@@ -99,3 +99,27 @@ The definitions/words data behind `WordsService` is produced by the pipeline in 
 - Hooks tested with `renderHook` from `@testing-library/react`; mock `@services/WordsService` and `@store/WordsContext` with `jest.mock`.
 - Pure logic (algorithms) MUST be extracted into `utils/` so it is testable without React.
 - `tests/translations/keyParity.test.ts` fails if a catalog entry misses a locale — keep both locales filled.
+
+## Text length budgets (`config/translations/Games.ts`)
+
+Measured on the static build (headless Chromium, es + en, 375 / 768 / 1280 px; JUE-0010). The home
+and `/juegos` cards sit in a grid with `grid-auto-rows: 1fr`, so the **longest card subtitle sets the
+height of every card**: one long subtitle stretches the whole list. Keep every game inside these
+budgets, in both locales.
+
+| Field | Where it shows | Budget | What it gives |
+|---|---|---|---|
+| `title` | card `h3` (16 px, uppercase) and game page `h1` | ≤ 27 characters | ≤ 2 lines on the card at 375 px (≈ 13 characters/line), 1 line at 1280 px |
+| `subtitle` | card text under the title (13 px) | ≤ 55 characters, one sentence | ≤ 3 lines at 375 px (≈ 20 characters/line), ≤ 2 lines at 768 and 1280 px |
+| `description` | game page header (`Hero`), next to the image | ≤ 120 characters | ≤ 4 lines at 375 px (220 px column), 3 at 768 px, ≤ 2 at 1280 px |
+| `gameGoal` | rules screen | one sentence, ≤ 75 characters | ≤ 2 lines at 375 px |
+| `howToPlay[]` | rules screen, bulleted | 3–5 steps, each ≤ 115 characters | ≤ 4 lines per step at 375 px |
+| `additionalRules[]`, `tips[]` | rules screen, one line break per item | ≤ 3 items each, each ≤ 115 characters | ≤ 4 lines per item at 375 px |
+
+Content rules that go with the budget:
+- `subtitle` says what *this* game is; `description` says what you do and what you practise.
+- Rules describe the real behaviour in the game's hook: timer, word count, scoring (scores are
+  floored at 0), what counts as correct, how the game ends. Use the exact button labels from
+  `config/translations/General.ts` (`Jugar` / `Start`, `Comprobar palabra` / `Check word`…).
+- Measured at the time: the 375 px page is ~5 px wider than the viewport on every page (`main` and
+  `footer` overflow); that is a layout issue, not a text one.

@@ -10,7 +10,7 @@ export type PlacedWord = {
 
 const FIRST_WORD_MIN_LENGTH = 6;
 const FIRST_WORD_MAX_LENGTH = 9;
-const MIN_WORD_LENGTH = 3;
+export const MIN_WORD_LENGTH = 3;
 const MAX_GENERATION_ATTEMPTS = 20;
 // Cap candidate pool per attempt; the full definitions pool can be huge and
 // every candidate is scanned against every filled cell each round.

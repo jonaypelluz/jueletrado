@@ -1,18 +1,4 @@
 {
-    "e": {
-        "definitions": [
-            {
-                "number": 1,
-                "definition": "The name of the Latin-script letter E.",
-                "type": "noun"
-            },
-            {
-                "number": 2,
-                "definition": "The base of the natural logarithm, 2.718281828459045….",
-                "type": "noun"
-            }
-        ]
-    },
     "eager": {
         "definitions": [
             {
@@ -70,17 +56,17 @@
         "definitions": [
             {
                 "number": 1,
-                "definition": "Ability, the means to do something, particularly:.",
+                "definition": "Ability, the means to do something.",
                 "type": "noun"
             },
             {
                 "number": 2,
-                "definition": "Comfort, a state or quality lacking unpleasantness, particularly:.",
+                "definition": "Comfort, a state or quality lacking unpleasantness.",
                 "type": "noun"
             },
             {
                 "number": 3,
-                "definition": "Relief, an end to discomfort, particularly:.",
+                "definition": "Relief, an end to discomfort.",
                 "type": "noun"
             },
             {
@@ -5622,16 +5608,6 @@
             }
         ]
     },
-    "etc": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adverb",
-                "definition": "Alternative form of etc."
-            }
-        ]
-    },
     "even": {
         "level": "beginner",
         "definitions": [
@@ -7584,30 +7560,25 @@
             {
                 "number": 3,
                 "type": "verb",
-                "definition": "To receive payment for work."
+                "definition": "To cause (someone) to receive payment or reward."
             },
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To cause (someone) to receive payment or reward."
+                "definition": "To achieve by being worthy of."
             },
             {
                 "number": 5,
                 "type": "verb",
-                "definition": "To achieve by being worthy of."
+                "definition": "To curdle, as milk."
             },
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To curdle, as milk."
-            },
-            {
-                "number": 7,
-                "type": "verb",
                 "definition": "To long; to yearn."
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "verb",
                 "definition": "To grieve."
             }
@@ -7618,76 +7589,66 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "proper noun",
-                "definition": "The third planet of the Solar System; the world upon which humans live."
-            },
-            {
-                "number": 2,
-                "type": "proper noun",
-                "definition": "The personification of the Earth or earth, as a fertile woman or goddess."
-            },
-            {
-                "number": 3,
                 "type": "noun",
                 "definition": "Soil."
             },
             {
-                "number": 4,
+                "number": 2,
                 "type": "noun",
                 "definition": "Any general rock-based material."
             },
             {
-                "number": 5,
+                "number": 3,
                 "type": "noun",
                 "definition": "The ground, land (as opposed to the sky or sea)."
             },
             {
-                "number": 6,
+                "number": 4,
                 "type": "noun",
                 "definition": "A connection electrically to the earth ((US) ground); on equipment: a terminal connected in that manner."
             },
             {
-                "number": 7,
+                "number": 5,
                 "type": "noun",
                 "definition": "The lair (as a hole on the ground) of an animal such as fox."
             },
             {
-                "number": 8,
+                "number": 6,
                 "type": "noun",
                 "definition": "A region of the planet; a land or country."
             },
             {
-                "number": 9,
+                "number": 7,
                 "type": "noun",
                 "definition": "Worldly things, as against spiritual ones."
             },
             {
-                "number": 10,
+                "number": 8,
                 "type": "noun",
                 "definition": "The world of our current life (as opposed to heaven or an afterlife)."
             },
             {
-                "number": 11,
+                "number": 9,
                 "type": "noun",
                 "definition": "The people on the globe."
             },
             {
-                "number": 12,
+                "number": 10,
                 "type": "noun",
                 "definition": "The human body."
             },
             {
-                "number": 13,
+                "number": 11,
                 "type": "noun",
                 "definition": "The aforementioned soil- or rock-based material, considered one of the four or five classical elements."
             },
             {
-                "number": 14,
+                "number": 12,
                 "type": "noun",
                 "definition": "Any of certain substances now known to be oxides of metal, which were distinguished by being infusible, and by insolubility in water."
             },
             {
-                "number": 15,
+                "number": 13,
                 "type": "verb",
                 "definition": "To connect electrically to the earth.",
                 "definition_extra": [
@@ -7698,12 +7659,12 @@
                 ]
             },
             {
-                "number": 16,
+                "number": 14,
                 "type": "verb",
                 "definition": "To bury."
             },
             {
-                "number": 17,
+                "number": 15,
                 "type": "verb",
                 "definition": "To burrow."
             }
@@ -9317,40 +9278,35 @@
             {
                 "number": 3,
                 "type": "verb",
-                "definition": "To receive payment for work."
+                "definition": "To cause (someone) to receive payment or reward."
             },
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To cause (someone) to receive payment or reward."
+                "definition": "To achieve by being worthy of."
             },
             {
                 "number": 5,
                 "type": "verb",
-                "definition": "To achieve by being worthy of."
+                "definition": "To curdle, as milk."
             },
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To curdle, as milk."
+                "definition": "To long; to yearn."
             },
             {
                 "number": 7,
                 "type": "verb",
-                "definition": "To long; to yearn."
-            },
-            {
-                "number": 8,
-                "type": "verb",
                 "definition": "To grieve."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "noun",
                 "definition": "A sea eagle (Haliaeetus), especially the white-tailed eagle (Haliaeetus albicilla)."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "noun",
                 "definition": "An eagle."
             }
@@ -9372,30 +9328,25 @@
             {
                 "number": 3,
                 "type": "verb",
-                "definition": "To receive payment for work."
+                "definition": "To cause (someone) to receive payment or reward."
             },
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To cause (someone) to receive payment or reward."
+                "definition": "To achieve by being worthy of."
             },
             {
                 "number": 5,
                 "type": "verb",
-                "definition": "To achieve by being worthy of."
+                "definition": "To curdle, as milk."
             },
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To curdle, as milk."
-            },
-            {
-                "number": 7,
-                "type": "verb",
                 "definition": "To long; to yearn."
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "verb",
                 "definition": "To grieve."
             }
@@ -20125,16 +20076,6 @@
             }
         ]
     },
-    "eau": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "proper noun",
-                "definition": "Misspelling of Eau."
-            }
-        ]
-    },
     "ebony": {
         "level": "advanced",
         "definitions": [
@@ -20165,11 +20106,6 @@
             },
             {
                 "number": 6,
-                "type": "adjective",
-                "definition": "A deep, dark black colour."
-            },
-            {
-                "number": 7,
                 "type": "adjective",
                 "definition": "Dark-skinned; black; especially in reference to African-Americans."
             }
@@ -20754,16 +20690,6 @@
                 "number": 2,
                 "type": "verb",
                 "definition": "To make sure or certain of something (usually some future event or condition)."
-            }
-        ]
-    },
-    "eq": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Abbreviation of equation."
             }
         ]
     },
@@ -21507,30 +21433,25 @@
             {
                 "number": 13,
                 "type": "verb",
-                "definition": "To receive payment for work."
+                "definition": "To cause (someone) to receive payment or reward."
             },
             {
                 "number": 14,
                 "type": "verb",
-                "definition": "To cause (someone) to receive payment or reward."
+                "definition": "To achieve by being worthy of."
             },
             {
                 "number": 15,
                 "type": "verb",
-                "definition": "To achieve by being worthy of."
+                "definition": "To curdle, as milk."
             },
             {
                 "number": 16,
                 "type": "verb",
-                "definition": "To curdle, as milk."
-            },
-            {
-                "number": 17,
-                "type": "verb",
                 "definition": "To long; to yearn."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To grieve."
             }
@@ -23212,16 +23133,6 @@
             },
             {
                 "number": 3,
-                "type": "adverb",
-                "definition": "With the edge facing in the direction of movement."
-            },
-            {
-                "number": 4,
-                "type": "adverb",
-                "definition": "With the edge uppermost."
-            },
-            {
-                "number": 5,
                 "type": "noun",
                 "definition": "A form of railway in which the road is causewayed up to the level of the top of the flanges."
             }
@@ -23237,11 +23148,6 @@
             },
             {
                 "number": 2,
-                "type": "adverb",
-                "definition": "Edgeways."
-            },
-            {
-                "number": 3,
                 "type": "adverb",
                 "definition": "As if by an edge.",
                 "definition_extra": [
@@ -26584,7 +26490,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To set free from the power of another; to liberate; as:."
+                "definition": "To set free from the power of another; to liberate."
             },
             {
                 "number": 2,
@@ -26604,7 +26510,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To set free from the power of another; to liberate; as:."
+                "definition": "To set free from the power of another; to liberate."
             },
             {
                 "number": 2,
@@ -26624,7 +26530,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To set free from the power of another; to liberate; as:."
+                "definition": "To set free from the power of another; to liberate."
             },
             {
                 "number": 2,
@@ -30120,7 +30026,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To grant the franchise to an entity, specifically:."
+                "definition": "To grant the franchise to an entity."
             }
         ]
     },
@@ -30130,7 +30036,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To grant the franchise to an entity, specifically:."
+                "definition": "To grant the franchise to an entity."
             },
             {
                 "number": 2,
@@ -31327,7 +31233,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "That which is entailed. Hence:."
+                "definition": "That which is entailed."
             },
             {
                 "number": 6,
@@ -33085,11 +32991,6 @@
                 "number": 2,
                 "type": "adjective",
                 "definition": "Episcopal, pertaining to a bishop of any church."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "Episcopalian."
             }
         ]
     },
@@ -40875,21 +40776,10 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "The degree to which the root of a radicand is found, for example, the 2 in \\sqrt[2]r=b.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "degree, power."
-                    }
-                ]
-            },
-            {
-                "number": 4,
-                "type": "noun",
                 "definition": "A manifestation of a morphosyntactic property."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "noun",
                 "definition": "The part of a floating-point number that represents its exponent value."
             }
@@ -42344,7 +42234,7 @@
             {
                 "number": 1,
                 "type": "adjective",
-                "definition": "Turned or thrust outwards, especially:."
+                "definition": "Turned or thrust outwards."
             }
         ]
     },

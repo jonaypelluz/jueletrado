@@ -58,3 +58,76 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   acepción, no la dificultad de la palabra; con <5 rondas el máximo es 3 × rondas aunque las reglas
   dicen 15; 4ª copia privada de `shuffle`; revisar la copia cuando JUE-0010 fije los límites.
 - QA: tecla muerta real del SO sin probar (headless usó entrada NFD, aceptada).
+
+## JUE-0005 — Cadena de palabras (wordChain) (done 2026-11-08)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/59
+- Juego en ambos locales: `games/wordChain/` (hook + UI), rutas `/juegos/cadena-de-palabras` y
+  `/en/games/word-chain`, util `utils/ChainLetterIndex.ts`, storage key `WORD_CHAIN_BEST`
+  (`{ locale: { level: n } }`), estilos `styles/WordChain.scss`.
+- Dead ends: el índice se construye sobre el word set completo (el mismo que valida). Con los datos
+  actuales ninguna letra real queda bajo el umbral 50 (ES: w 115, x 206, ñ 315, k 377; EN mínimo
+  x 541); solo caracteres raros (`º`). La nota original ("ñ, w, x, k") solo valía para sets por
+  nivel. Si se quiere que la regla muerda, revisar umbral o base del índice (parked).
+- `StorageService.clearStorage` conserva `PERSISTENT_KEYS` (hoy solo `WORD_CHAIN_BEST`) para que el
+  cambio de idioma no borre las mejores marcas del otro locale.
+- Residual: primera carga en frío del word set ES ~38 s (EN ~21 s) con Jugar desactivado y sin texto
+  de progreso en el hero (mismo patrón que spellTower). La flecha `→` del breadcrumb no se vio en el
+  contenedor headless por falta de fuente; comprobar en dispositivo.
+
+## JUE-0010 — Textos de juegos: descripciones que caben y reglas fieles (done 2026-11-09)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/61
+- Reescritos `subtitle`, `description` y `gameRules` (es + en) de los 10 juegos en
+  `config/translations/Games.ts`, verificados contra cada hook; ningún título cambió.
+- Presupuestos de longitud en `ops/docs/game-conventions.md` (sección *Text length budgets*):
+  title ≤ 27, subtitle ≤ 55, description ≤ 120, gameGoal ≤ 75, ítems de reglas ≤ 115.
+  Las tarjetas usan `grid-auto-rows: 1fr`: el subtítulo más largo fija la altura de todas.
+- Capturas: las comprimidas quedan en el historial del PR (commit b3072f4); el set completo,
+  en `$JON_ASSETS_DIR/jue-0010/`.
+- La palabra del día no tiene textos descriptivos (solo `headerWordOfTheDay*` en `General.ts`).
+- Residual (trabajos propuestos, sin abrir):
+  - A 375 px, `main` y `footer` desbordan ~5 px (scroll horizontal en todas las páginas).
+  - definitionMaster: tras responder se puede seguir pulsando y la correcta suma +1 cada vez.
+  - wordFinder: el contador del botón muestra un intento de más (`UI.tsx:113`).
+  - wordsRain: el tiempo aguantado nunca se muestra.
+  - wordBuilder: sin estado final al encontrar todas las palabras.
+  - accentFixer: palabras sin tilde con gemela acentuada (esta/está) dan una respuesta ambigua.
+  - `components/DayWord.tsx` es código muerto.
+
+## JUE-0008 — Spike: revisión de todos los juegos: jugabilidad, palabras por nivel, errores (done 2026-11-09)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/62 (revisado en vivo en la PR combinada #63).
+  El informe completo y los logs de partidas están en el historial de git (commit de #62); capturas
+  en `$JON_ASSETS_DIR/jue-0008/`.
+- Medición que se queda: `node ops/jobs/spikes/JUE-0008/run.cjs` (determinista, ~1 min; transpila
+  `measure.ts` con el compilador TypeScript porque `tsx` no corre en el contenedor) escribe
+  `results.md`/`results.json`. Los jobs JUE-0012/14/15/17/18/19 la usan en su criterio de hecho.
+- Hallazgos (F1–F17; los jobs los citan por número):
+  - F1: el pool precargado ignora la ventana de longitud de cada juego.
+  - F2: volver a jugar repite las palabras (spellTower, wordsRain); wordFinder se queda sin palabras.
+  - F3: rondas de una sola opción, punto regalado (EN ~60–70 %).
+  - F4: accentFixer principiante: el 80 % de palabras con tilde se queda en ~20 %.
+  - F5: palabrotas, contenido adulto, nombres propios y basura en las listas (sobre todo principiante).
+  - F6: las blocklists no protegen las listas de nivel.
+  - F7: la palabra del día ignora `WORDS_DAILY` y puede ser «a», «de», «ah».
+  - F8: entrar por URL a la otra locale deja los juegos colgados (pools sin locale).
+  - F9: curva de dificultad: salto brusco P→I, solape I∩A del 91 %, juegos donde el nivel no cambia
+    nada (spellingBee: el nivel solo elige la acepción).
+  - F10: opciones duplicadas y pistas ambiguas por formas flexionadas en las definiciones.
+  - F11: datos de definiciones: 4.501 etiquetas inglesas en ES; `formatDefinition` corta en el primer
+    «.» (1.407 ES / 6.660 EN quedan con < 10 letras); `k`/`w` ES con pocas palabras.
+  - F12: feedback solo por color, sin `aria-live`.
+  - F13: móvil 375 px: la cuadrícula del crucigrama (750 px) se corta; wordBuilder desborda 7 px.
+  - F14: tiempo, duración y final de partida (la pausa de feedback consume tiempo).
+  - F15: inconsistencias entre juegos: pantalla de resultados y si un fallo resta punto.
+  - F16: validación: sin errores en `SpellingComparer` ni `syllabify`.
+  - F17: tests que faltan (final de partida de wordBuilder/crossWordPuzzle, sesiones cortas).
+- Se deja como está: volumen de palabras (ningún nivel seco), generación de crucigramas (900/900),
+  `syllabify`, `SpellingComparer`, comportamiento sin nivel y al recargar a mitad de partida.
+- Decisiones del owner (2026-11-09):
+  - nivel = bandas de frecuencia (no longitud ni rasgos ortográficos);
+  - nombres propios: se quedan, marcados con un campo por palabra (para excluirlos o hacer juegos
+    con ellos);
+  - wordFinder y crossWordPuzzle aceptan con y sin tilde y lo dicen en las reglas;
+  - la carga sigue igual: todos los niveles al cargar los niveles.
+- Los 10 jobs propuestos se abrieron como JUE-0011..JUE-0020.
+- Sin decidir (anotado en los jobs): marcar palabras desusadas como `zebra` (JUE-0012); la pista de
+  spellingBee pasa desapercibida (JUE-0016).

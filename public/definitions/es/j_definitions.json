@@ -108,8 +108,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo poco usado",
-                "type_extra": "Usado también como sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo, poco usado",
                 "definition": "Natural del Japón."
             }
         ]
@@ -341,8 +341,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Mujer del jefe."
             }
         ]
@@ -378,8 +378,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Mujer del jefe."
             }
         ]
@@ -1002,8 +1002,8 @@
             },
             {
                 "number": "6",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Mujer del juez."
             }
         ]
@@ -1526,8 +1526,8 @@
             },
             {
                 "number": "6",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Mujer del juez."
             }
         ]
@@ -2805,7 +2805,8 @@
             },
             {
                 "number": "10",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "justicia mayor de Aragón."
             },
             {
@@ -3157,7 +3158,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "nunca.",
                 "definition_extra": [
                     {
@@ -3172,15 +3174,15 @@
             },
             {
                 "number": "2",
-                "type": "adverb",
+                "type": "adverbio",
                 "definition": "siempre.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "3",
-                "type": "adverb",
+                "type": "adverbio",
                 "definition": "Alguna vez.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -3189,83 +3191,15 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "para expresar admiración, sorpresa o indignación."
             },
             {
                 "number": "2",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "cuando alguien estornuda."
-            }
-        ]
-    },
-    "joder": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verb",
-                "definition": "Practicar el coito.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "copular, fornicar, yacer, aparearse, follar4, coger."
-                    }
-                ]
-            },
-            {
-                "number": "2",
-                "type": "verb",
-                "definition": "Aguantarse o fastidiarse.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "aguantarse, fastidiarse, jorobarse, chincharse."
-                    }
-                ]
-            },
-            {
-                "number": "3",
-                "type": "verb",
-                "definition": "Estropearse o dañarse.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "estropearse, dañarse, deteriorarse."
-                    }
-                ]
-            },
-            {
-                "number": "4",
-                "type": "verb",
-                "definition": "Poseer sexualmente a alguien."
-            },
-            {
-                "number": "5",
-                "type": "verb",
-                "definition": "Molestar o fastidiar a alguien.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "molestar, fastidiar, jorobar, chinchar, jeringar, putear."
-                    }
-                ]
-            },
-            {
-                "number": "6",
-                "type": "verb",
-                "definition": "Destrozar, arruinar o echar a perder algo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "estropear, arruinar, desbaratar."
-                    }
-                ]
-            },
-            {
-                "number": "7",
-                "type": "interjection",
-                "definition": "para expresar enfado, irritación, asombro, etc."
             }
         ]
     },
@@ -3274,7 +3208,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "soldado (‖ hombre que sirve en la milicia).",
                 "definition_extra": [
                     {
@@ -3285,7 +3220,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cepillo de iglesia."
             }
         ]
@@ -3295,7 +3231,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al juicio, a la administración de justicia o a la judicatura.",
                 "definition_extra": [
                     {
@@ -3303,21 +3240,6 @@
                         "content": "sumarial, contencioso, procesal."
                     }
                 ]
-            }
-        ]
-    },
-    "j": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Décima letra del abecedario español, que representa el fonema consonántico fricativo velar sordo, el cual, en zonas meridionales de España y amplias zonas de América, se relaja hasta hacerse aspirado."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Sonido que representa la letra j."
             }
         ]
     }

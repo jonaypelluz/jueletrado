@@ -1,0 +1,39 @@
+{
+    "abacist": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "See abacus.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "One who uses an abacus.",
+                "type": "noun"
+            }
+        ]
+    },
+    "angle": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "\\frac{a}{b} ratio.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "A figure formed by two rays.",
+                "type": "noun"
+            }
+        ]
+    },
+    "asap": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Abbreviation of as soon as possible.",
+                "type": "adverb"
+            }
+        ]
+    }
+}

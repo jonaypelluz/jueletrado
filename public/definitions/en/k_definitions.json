@@ -1,45 +1,4 @@
 {
-    "k": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A kilobyte (more formally KB or kB)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A kilobit (more formally kb), especially in measuring Internet connection."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Kilometre or kilometres."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Thousand or thousands."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "The SI measurement value of 1,000."
-            },
-            {
-                "number": 6,
-                "type": "interjection",
-                "definition": "(texting) OK.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "'kay."
-                    }
-                ]
-            }
-        ]
-    },
     "keep": {
         "level": "beginner",
         "definitions": [
@@ -5211,51 +5170,6 @@
             }
         ]
     },
-    "kb": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(etc.) A set of keys used to operate a typewriter, computer etc."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A component of many instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A device with keys of a musical keyboard, used to control electronic sound-producing devices which may be built into or separate from the keyboard device."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A unit of pressure equal to 1,000 bars (Symbol: kb)."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A length of double-stranded DNA containing two thousand nucleotides, one thousand on each strand."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A length of single-stranded RNA containing one thousand nucleotides."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "1000 bits (binary digits)."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "1024 (210) bits."
-            }
-        ]
-    },
     "keno": {
         "level": "advanced",
         "definitions": [
@@ -5609,36 +5523,6 @@
             }
         ]
     },
-    "ks": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A kilobyte (more formally KB or kB)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A kilobit (more formally kb), especially in measuring Internet connection."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Kilometre or kilometres."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Thousand or thousands."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "The SI measurement value of 1,000."
-            }
-        ]
-    },
     "ky": {
         "level": "advanced",
         "definitions": [
@@ -5947,21 +5831,6 @@
             },
             {
                 "number": 3,
-                "type": "noun",
-                "definition": "(papercraft) A basic origami paper, usually printed with a colour or pattern on one side."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "An animistic God or spirit in the Shinto religion of Japan."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "The metaphysical causal generator of motion, life, or divinish aura."
-            },
-            {
-                "number": 6,
                 "type": "noun",
                 "definition": "(papercraft) A basic origami paper, usually printed with a colour or pattern on one side."
             }
@@ -6290,21 +6159,6 @@
                 "number": 2,
                 "type": "verb",
                 "definition": "To play the kazoo."
-            }
-        ]
-    },
-    "kc": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A thousand cycles (of any periodic phenomenon)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(elliptically) A thousand cycles per second; a kilohertz."
             }
         ]
     },
@@ -7506,11 +7360,6 @@
                 "number": 2,
                 "type": "verb",
                 "definition": "To kid; to hoax or tease."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "Alternative spelling of kiddie."
             }
         ]
     },
@@ -7551,27 +7400,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "The crime of taking a person against their will, sometimes for ransom."
-            }
-        ]
-    },
-    "kike": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A Jew.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "heeb, hymie, sheeny, shylock, yid."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A contemptible person, especially one who is stingy."
             }
         ]
     },
@@ -8958,16 +8786,6 @@
                 "number": 6,
                 "type": "noun",
                 "definition": "A member of the air force who does not fly."
-            }
-        ]
-    },
-    "klan": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Alternative letter-case form of Klan."
             }
         ]
     },
@@ -10688,16 +10506,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "Any of several brightly-coloured, venomous snakes, of the genus Bungarus, of southeast Asia."
-            }
-        ]
-    },
-    "kraken": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Alternative form of Kraken."
             }
         ]
     },

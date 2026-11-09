@@ -2,6 +2,7 @@
 
 import { ChangeEvent, useState } from 'react';
 import { AccentedVowels } from '@config/AccentRules';
+import { GRID_SIZE, WORDS_PER_LEVEL } from '@games/crossWordPuzzle/config';
 import { ICell } from '@models/interfaces';
 import { Definition, DefinitionWords, SelectedWord } from '@models/types';
 import Logger from '@services/Logger';
@@ -9,16 +10,10 @@ import { loadDefinition } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import { PlacedWord, generateCrossword } from '@utils/CrosswordGenerator';
 
-const GRID_SIZE = 15;
 const GRID_SIZE_PX = 50;
 const LETTERS_PER_BATCH = 6;
 const MAX_GENERATION_BATCHES = 3;
 
-const WORDS_PER_LEVEL: Record<string, number> = {
-    beginner: 4,
-    intermediate: 6,
-    advanced: 8,
-};
 const DEFAULT_WORD_COUNT = 4;
 
 const letters: string[] = [

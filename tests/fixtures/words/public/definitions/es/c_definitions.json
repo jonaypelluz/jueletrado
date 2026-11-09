@@ -1,0 +1,35 @@
+{
+    "casa": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Edificio para habitar."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "   "
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Edificio para habitar."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino desusado",
+                "definition": "Familia que  vive junta. "
+            }
+        ]
+    },
+    "casas": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "plural de casa."
+            }
+        ]
+    }
+}

@@ -417,7 +417,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "carnero (macho de la oveja).",
                 "definition_extra": [
                     {
@@ -920,7 +921,8 @@
             },
             {
                 "number": "6",
-                "type": "nombre masculino coloquial",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
                 "definition": "ratero (ladrón)."
             },
             {
@@ -2253,7 +2255,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Período de tiempo en que tienen lugar las rebajas."
             }
         ]
@@ -5051,8 +5054,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -5092,8 +5095,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -5133,8 +5136,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -5174,8 +5177,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -5215,8 +5218,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -5295,7 +5298,8 @@
             },
             {
                 "number": "7",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "recurrir (acudir a un juez o autoridad)."
             },
             {
@@ -5347,7 +5351,8 @@
             },
             {
                 "number": "7",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "recurrir (acudir a un juez o autoridad)."
             },
             {
@@ -5429,7 +5434,8 @@
             },
             {
                 "number": "7",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "recurrir (acudir a un juez o autoridad)."
             },
             {
@@ -5688,8 +5694,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -5729,8 +5735,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -5770,8 +5776,8 @@
             },
             {
                 "number": "5",
-                "type": "verbo intransitivo poco usado",
-                "type_extra": "Usado también como pronominal",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal, poco usado",
                 "definition": "despertar (dejar de dormir)."
             }
         ]
@@ -7771,7 +7777,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado",
                 "definition": "reflexión (acción de reflexionar).",
                 "definition_extra": [
                     {
@@ -9475,11 +9482,6 @@
                 "number": "13",
                 "type": "nombre femenino",
                 "definition": "En la baraja francesa o el dado de póquer, elemento marcado con una Q y que a veces representa la figura de una reina."
-            },
-            {
-                "number": "14",
-                "type": "nombre femenino",
-                "definition": "abeja reina."
             }
         ]
     },
@@ -11093,7 +11095,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "riñón."
             }
         ]
@@ -11465,7 +11468,8 @@
             },
             {
                 "number": "3",
-                "type": "adverbio desusado",
+                "type": "adverbio",
+                "type_extra": "desusado",
                 "definition": "de repente (súbitamente, sin preparación)."
             }
         ]
@@ -14006,7 +14010,8 @@
             },
             {
                 "number": "2",
-                "type": "verbo transitivo desusado",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
                 "definition": "respetar (tener respeto)."
             }
         ]
@@ -14075,7 +14080,8 @@
             },
             {
                 "number": "2",
-                "type": "locución adverbial",
+                "type": "locución",
+                "type_extra": "adverbial",
                 "definition": "En relación con aquello de que se trata."
             }
         ]
@@ -15290,8 +15296,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino coloquial",
-                "type_extra": "Venezuela",
+                "type": "nombre masculino",
+                "type_extra": "Venezuela, coloquial",
                 "definition": "Trabajo esporádico."
             },
             {
@@ -17058,11 +17064,6 @@
                 "number": "13",
                 "type": "nombre femenino",
                 "definition": "En la baraja francesa o el dado de póquer, elemento marcado con una Q y que a veces representa la figura de una reina."
-            },
-            {
-                "number": "14",
-                "type": "nombre femenino",
-                "definition": "abeja reina."
             }
         ]
     },
@@ -17992,7 +17993,8 @@
             },
             {
                 "number": "10",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Huirse, escaparse."
             }
         ]
@@ -18734,8 +18736,8 @@
             },
             {
                 "number": "2",
-                "type": "locución verbal",
-                "type_extra": "Marina",
+                "type": "locución",
+                "type_extra": "Marina, verbal",
                 "definition": "romanear (trasladar pesos)."
             }
         ]
@@ -18766,7 +18768,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "latín (lengua)."
             }
         ]
@@ -18797,7 +18800,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "latín (lengua)."
             }
         ]
@@ -19047,7 +19051,8 @@
             },
             {
                 "number": "26",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Despejarse y adquirir soltura en el porte y las acciones."
             }
         ]
@@ -19198,7 +19203,8 @@
             },
             {
                 "number": "26",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Despejarse y adquirir soltura en el porte y las acciones."
             }
         ]
@@ -19349,7 +19355,8 @@
             },
             {
                 "number": "26",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Despejarse y adquirir soltura en el porte y las acciones."
             }
         ]
@@ -20490,12 +20497,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Segmento lineal que une un punto cualquiera de la circunferencia o de la superficie de una esfera con su centro."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Rayo de la rueda.",
                 "definition_extra": [
                     {
@@ -20506,22 +20515,26 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Hueso un poco más corto que el cúbito, con el cual forma el antebrazo."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las piezas a modo de varillas más o menos duras que sostienen la parte membranosa de las aletas de los peces."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Elemento químico metálico, muy radiactivo, de 88, de color blanco brillante, muy tóxico, raro en la corteza terrestre, donde se encuentra acompañando a los minerales de uranio, usado en la industria nuclear y en medicina. (Ra)."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "radiodifusión.",
                 "definition_extra": [
                     {
@@ -20532,9 +20545,9 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "radiorreceptor.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -20544,7 +20557,8 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "radiotelegrama.",
                 "definition_extra": [
                     {
@@ -20555,7 +20569,8 @@
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "radiotelegrafista.",
                 "definition_extra": [
                     {
@@ -20571,7 +20586,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Segunda nota de la escala musical."
             }
         ]
@@ -20581,7 +20597,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que tiene existencia objetiva.",
                 "definition_extra": [
                     {
@@ -20596,7 +20613,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al rey o a la realeza.",
                 "definition_extra": [
                     {
@@ -20607,7 +20625,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "realista2.",
                 "definition_extra": [
                     {
@@ -20618,34 +20637,38 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Regio, grandioso, suntuoso."
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un navío: Que estaba provisto de tres puentes y más de 120 cañones."
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una galera: Que llevaba el estandarte real."
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "Muy bueno.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "Dicho de una persona: De muy buena presencia.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Moneda con diverso valor y factura según épocas y lugares.",
                 "definition_extra": [
                     {
@@ -20656,7 +20679,8 @@
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "dinero (‖ moneda corriente).",
                 "definition_extra": [
                     {
@@ -20667,7 +20691,8 @@
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Campamento de un ejército, y especialmente el lugar donde está la tienda del rey o general.",
                 "definition_extra": [
                     {
@@ -20678,12 +20703,14 @@
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Campo donde se celebra una feria."
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Huerto cercado, jardín."
             }
         ]
@@ -20693,7 +20720,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Efectuar, llevar a cabo algo o ejecutar una acción.",
                 "definition_extra": [
                     {
@@ -20704,7 +20732,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dirigir la ejecución de una película o de un programa televisivo.",
                 "definition_extra": [
                     {
@@ -20715,7 +20744,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Vender, convertir en dinero mercaderías u otros bienes. más comúnmente hablando de la venta a bajo precio para reducirlos pronto a dinero.",
                 "definition_extra": [
                     {
@@ -20726,7 +20756,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Sentirse satisfecho por haber logrado cumplir aquello a lo que se aspiraba."
             }
         ]
@@ -20736,7 +20767,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Aparejo hecho con hilos, cuerdas o alambres trabados en forma de mallas, y convenientemente dispuesto para pescar, cazar, cercar, sujetar, etc.",
                 "definition_extra": [
                     {
@@ -20747,12 +20779,14 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Labor o tejido de mallas."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "redecilla (‖ prenda de malla para el pelo).",
                 "definition_extra": [
                     {
@@ -20763,12 +20797,14 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Lugar donde se vende pan u otras cosas que se dan por entre verjas."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ardid o engaño de que alguien se vale para atraer a otra persona.",
                 "definition_extra": [
                     {
@@ -20779,12 +20815,14 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Confluencia de calles en un mismo punto."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de elementos organizados para determinado fin.",
                 "definition_extra": [
                     {
@@ -20795,7 +20833,8 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "cadena (‖ conjunto de establecimientos bajo una sola dirección).",
                 "definition_extra": [
                     {
@@ -20806,17 +20845,20 @@
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de personas relacionadas para una determinada actividad, por lo general de carácter secreto, ilegal o delictivo."
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de computadoras o de equipos informáticos conectados entre sí y que pueden intercambiar información."
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "internet.",
                 "definition_extra": [
                     {
@@ -20827,9 +20869,9 @@
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Verja o reja.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -20838,7 +20880,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Porción de territorio determinada por caracteres étnicos o circunstancias especiales de clima, producción, topografía, administración, gobierno, etc.",
                 "definition_extra": [
                     {
@@ -20849,7 +20892,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las grandes divisiones territoriales de una nación, definida por características geográficas, históricas y sociales, y que puede dividirse a su vez en provincias, departamentos, etc.",
                 "definition_extra": [
                     {
@@ -20860,17 +20904,20 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Todo espacio que se imagina ser de mucha capacidad."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Según la filosofía antigua, espacio que ocupaba cada uno de los cuatro elementos."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las partes en que se considera dividido al exterior el cuerpo de los animales, con el fin de determinar el sitio, extensión y relaciones de los diferentes órganos."
             }
         ]
@@ -20880,7 +20927,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a una región.",
                 "definition_extra": [
                     {
@@ -20896,7 +20944,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Medir, ajustar o computar algo por comparación o deducción.",
                 "definition_extra": [
                     {
@@ -20907,7 +20956,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ajustar, reglar o poner en orden algo.",
                 "definition_extra": [
                     {
@@ -20922,7 +20972,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ajustar el funcionamiento de un sistema a determinados fines.",
                 "definition_extra": [
                     {
@@ -20937,7 +20988,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Determinar las reglas o normas a que debe ajustarse alguien o algo.",
                 "definition_extra": [
                     {
@@ -20952,7 +21004,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "reajustar (‖ aumentar o disminuir coyunturalmente).",
                 "definition_extra": [
                     {
@@ -20963,7 +21016,8 @@
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Ajustado a una regla y conforme a ella.",
                 "definition_extra": [
                     {
@@ -20974,7 +21028,8 @@
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Uniforme, sin cambios grandes o bruscos.",
                 "definition_extra": [
                     {
@@ -20989,7 +21044,8 @@
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que se hace o se produce a intervalos regulares (‖ uniformes).",
                 "definition_extra": [
                     {
@@ -21004,7 +21060,8 @@
             },
             {
                 "number": "9",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Ajustado, medido, arreglado en las acciones y modo de vivir.",
                 "definition_extra": [
                     {
@@ -21019,7 +21076,8 @@
             },
             {
                 "number": "10",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "De tamaño o condición media o inferior a ella.",
                 "definition_extra": [
                     {
@@ -21030,7 +21088,8 @@
             },
             {
                 "number": "11",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Que pertenece a una regla o instituto religioso.",
                 "definition_extra": [
                     {
@@ -21041,12 +21100,14 @@
             },
             {
                 "number": "12",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un ejército: Que está encuadrado y dirigido legalmente por mandos profesionales."
             },
             {
                 "number": "13",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "En cristalografía, cúbico.",
                 "definition_extra": [
                     {
@@ -21057,32 +21118,38 @@
             },
             {
                 "number": "14",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un polígono: De lados y ángulos iguales entre sí."
             },
             {
                 "number": "15",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un poliedro: De caras y ángulos iguales entre sí."
             },
             {
                 "number": "16",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que se ajusta en su flexión o en su derivación a las formas fijadas como modelo de un paradigma."
             },
             {
                 "number": "17",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Unidades de infantería situadas en Ceuta y Melilla, ciudades autónomas españolas del norte de África."
             },
             {
                 "number": "18",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Unidades de soldados marroquíes que estaban encuadradas en cuerpos militares españoles del antiguo protectorado de Marruecos."
             },
             {
                 "number": "19",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "Medianamente, no demasiado bien.",
                 "definition_extra": [
                     {
@@ -21098,7 +21165,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de creencias o dogmas acerca de la divinidad, de sentimientos de veneración y temor hacia ella, de normas morales para la conducta individual y social y de prácticas rituales, principalmente la oración y el sacrificio para darle culto.",
                 "definition_extra": [
                     {
@@ -21113,22 +21181,26 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Virtud que mueve a dar a Dios el culto debido."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Profesión y observancia de la doctrina religiosa."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Obligación de conciencia, cumplimiento de un deber."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "orden (‖ instituto religioso).",
                 "definition_extra": [
                     {
@@ -21144,7 +21216,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tirar del pelo o arrancarlo.",
                 "definition_extra": [
                     {
@@ -21155,22 +21228,26 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hacer dar al caballo una carrera corta."
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Cortar las puntas a la hierba."
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Cercenar, quitar, disminuir."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Pelar completamente algo.",
                 "definition_extra": [
                     {
@@ -21181,7 +21258,8 @@
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "rezongar.",
                 "definition_extra": [
                     {
@@ -21197,7 +21275,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Acción y efecto de reunir.",
                 "definition_extra": [
                     {
@@ -21212,7 +21291,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de personas reunidas.",
                 "definition_extra": [
                     {
@@ -21228,7 +21308,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "alholva."
             }
         ]
@@ -21238,7 +21319,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Adinerado, hacendado o acaudalado.",
                 "definition_extra": [
                     {
@@ -21253,7 +21335,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Abundante, opulento y pingüe.",
                 "definition_extra": [
                     {
@@ -21268,7 +21351,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un terreno: fértil.",
                 "definition_extra": [
                     {
@@ -21283,7 +21367,8 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Lujoso, o de mucho valor o precio.",
                 "definition_extra": [
                     {
@@ -21294,7 +21379,8 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Gustoso, sabroso, agradable.",
                 "definition_extra": [
                     {
@@ -21309,26 +21395,27 @@
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Muy bueno en su línea."
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "Dicho especialmente de un niño: Bonito y a la vez gracioso, encantador.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "aplicado a las personas como expresión de cariño.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "9",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "Noble o de alto linaje, o de conocida y estimable bondad.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -21337,7 +21424,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Corriente de agua continua y más o menos caudalosa que va a desembocar en otra, en un lago o en el mar.",
                 "definition_extra": [
                     {
@@ -21348,7 +21436,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Gran abundancia de una cosa líquida, y, de cualquier otra.",
                 "definition_extra": [
                     {
@@ -21359,7 +21448,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Afluencia de personas."
             }
         ]
@@ -21369,7 +21459,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "rocanrol (‖ género musical).",
                 "definition_extra": [
                     {
@@ -21380,12 +21471,14 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada uno de los diversos estilos musicales derivados del rocanrol."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Baile de pareja que se ejecuta a ritmo de rock."
             }
         ]
@@ -21395,9 +21488,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Hombre casado que se queda trabajando mientras su familia está fuera, normalmente de veraneo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -21406,7 +21499,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Flor del rosal, notable por su belleza, la suavidad de su fragancia y su color. Suele llevar el mismo calificativo de la planta que la produce.",
                 "definition_extra": [
                     {
@@ -21417,47 +21511,56 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Mancha redondeada, encarnada o de color rosa, que sale en alguna parte del cuerpo."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Objeto cuya forma recuerda la de la rosa."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "diamante rosa."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Fruta de sartén hecha con masa de harina."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Rosetón de los techos."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Flor del azafrán."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Época de la recolección del azafrán."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Rosetas de maíz."
             },
             {
                 "number": "10",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un color: Rojo muy pálido, como el de la rosa común.",
                 "definition_extra": [
                     {
@@ -21468,7 +21571,8 @@
             },
             {
                 "number": "11",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "De color rosa.",
                 "definition_extra": [
                     {
@@ -21479,14 +21583,15 @@
             },
             {
                 "number": "12",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de ciertos medios de comunicación: Que tratan de asuntos amorosos o relativos a la vida privada de personas famosas o conocidas por su frecuente aparición en estos medios."
             },
             {
                 "number": "13",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "Perteneciente o relativo a los homosexuales.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -21495,7 +21600,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la vida del campo, a sus labores y a sus habitantes.",
                 "definition_extra": [
                     {
@@ -21507,21 +21613,6 @@
                         "content": "urbano."
                     }
                 ]
-            }
-        ]
-    },
-    "r": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Decimonovena letra del abecedario español, que puede representar el fonema consonántico vibrante simple, p. ej. en brazo y cara, o el fonema consonántico vibrante múltiple, p. ej. en rojo e israelí."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Alguno de los sonidos que representa la letra r."
             }
         ]
     }

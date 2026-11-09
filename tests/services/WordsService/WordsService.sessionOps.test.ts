@@ -45,6 +45,17 @@ describe('WordsService session operations tests', () => {
                 es: { beginner: true },
             });
         });
+
+        test('keeps the wordChain best scores', () => {
+            const bestKey = StorageService.WORD_CHAIN_BEST;
+            StorageService.setItem(bestKey, { es: { beginner: 7 } });
+            StorageService.setItem(StorageService.WORDS_TOWER, ['wordC']);
+
+            clearWordGroupCaches();
+
+            expect(StorageService.getItem(bestKey)).toEqual({ es: { beginner: 7 } });
+            expect(StorageService.getItem(StorageService.WORDS_TOWER)).toBeNull();
+        });
     });
 
     // ─────────────────────────────────────────────────────────

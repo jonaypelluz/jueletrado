@@ -814,7 +814,7 @@
             },
             {
                 "number": 7,
-                "definition": "To make nonsense of;.",
+                "definition": "To make nonsense of.",
                 "type": "verb"
             },
             {
@@ -897,16 +897,11 @@
             },
             {
                 "number": 4,
-                "definition": "A function, generally denoted v\\mapsto\\left|v\\right| or v\\mapsto\\left\\|v\\right\\|, that maps vectors to non-negative scalars and has the following properties:.",
-                "type": "noun"
-            },
-            {
-                "number": 5,
                 "definition": "A high level of performance in a chess tournament, several of which are required for a player to receive a title.",
                 "type": "noun"
             },
             {
-                "number": 6,
+                "number": 5,
                 "definition": "To endow (a vector space, etc) with a norm.",
                 "type": "verb"
             }
@@ -1190,46 +1185,6 @@
                 "number": 2,
                 "definition": "That which nourishes; nutriment.",
                 "type": "noun"
-            }
-        ]
-    },
-    "n": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "North."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(grammar) noun."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "(grammar) neuter gender."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Normal."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "Neutral."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "No."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "Shortening of and, used in set phrases like rock-n-roll."
             }
         ]
     },
@@ -1536,12 +1491,12 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An aboriginal inhabitant of a region colonized by English-speaking people; in particular:."
+                "definition": "An aboriginal inhabitant of a region colonized by English-speaking people."
             },
             {
                 "number": 2,
                 "type": "adjective",
-                "definition": "Aboriginal inhabitant of a region colonized by English-speaking people; in particular:."
+                "definition": "Aboriginal inhabitant of a region colonized by English-speaking people."
             },
             {
                 "number": 3,
@@ -4292,16 +4247,6 @@
             },
             {
                 "number": 3,
-                "type": "interjection",
-                "definition": "No."
-            },
-            {
-                "number": 4,
-                "type": "interjection",
-                "definition": "No."
-            },
-            {
-                "number": 5,
                 "type": "noun",
                 "definition": "Abbreviation of noun animate."
             }
@@ -5048,12 +4993,12 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "Within a topological space:."
+                "definition": "Within a topological space."
             },
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "Within a metric space:."
+                "definition": "Within a metric space."
             },
             {
                 "number": 10,
@@ -5490,16 +5435,6 @@
             }
         ]
     },
-    "ng": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A repository on a computer network where people can post messages, usually about a single subject."
-            }
-        ]
-    },
     "ni": {
         "level": "intermediate",
         "definitions": [
@@ -5662,27 +5597,6 @@
                 "number": 11,
                 "type": "noun",
                 "definition": "A night's worth of competitions, generally one game."
-            }
-        ]
-    },
-    "nm": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "No message."
-            },
-            {
-                "number": 2,
-                "type": "interjection",
-                "definition": "Never mind.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "nvm."
-                    }
-                ]
             }
         ]
     },
@@ -7950,11 +7864,6 @@
                 "number": 3,
                 "type": "noun",
                 "definition": "A phosphorescent substance."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Alternative letter-case form of Noctiluca."
             }
         ]
     },
@@ -9284,12 +9193,12 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "Within a topological space:."
+                "definition": "Within a topological space."
             },
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "Within a metric space:."
+                "definition": "Within a metric space."
             },
             {
                 "number": 10,
@@ -9344,12 +9253,12 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "Within a topological space:."
+                "definition": "Within a topological space."
             },
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "Within a metric space:."
+                "definition": "Within a metric space."
             },
             {
                 "number": 10,
@@ -9883,36 +9792,6 @@
             }
         ]
     },
-    "nb": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A ball delivered by a bowler in violation of any of the various laws; the extra run then credited to the batting side; the signal, with an arm outstretched, then made by the umpire."
-            },
-            {
-                "number": 2,
-                "type": "adjective",
-                "definition": "Not binary."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "(transgender) Having or pertaining to a gender identity not represented by the gender binary; not exclusively male or female; genderqueer."
-            }
-        ]
-    },
-    "nd": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "conjunction",
-                "definition": "And."
-            }
-        ]
-    },
     "neon": {
         "level": "advanced",
         "definitions": [
@@ -10250,26 +10129,6 @@
                 "number": 4,
                 "type": "noun",
                 "definition": "In novelty theory, newness, density of complexification, and dynamic change as opposed to static habituation."
-            }
-        ]
-    },
-    "nr": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "preposition",
-                "definition": "Physically close to, in close proximity to."
-            },
-            {
-                "number": 2,
-                "type": "preposition",
-                "definition": "Close to in time."
-            },
-            {
-                "number": 3,
-                "type": "preposition",
-                "definition": "Close to in nature or degree."
             }
         ]
     },
@@ -11771,22 +11630,6 @@
                 "number": 9,
                 "type": "noun",
                 "definition": "A narcissist."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A police spy or informer."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "An unpleasant person, especially one who makes things difficult for others.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "spoilsport."
-                    }
-                ]
             }
         ]
     },
@@ -12228,7 +12071,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The act or process of nationalising:."
+                "definition": "The act or process of nationalising."
             }
         ]
     },
@@ -12904,11 +12747,6 @@
                 "number": 8,
                 "type": "adverb",
                 "definition": "Or rather, or should I say; moreover (introducing a stronger and more appropriate expression than the preceding one)."
-            },
-            {
-                "number": 9,
-                "type": "interjection",
-                "definition": "No."
             }
         ]
     },
@@ -12939,16 +12777,6 @@
                 "number": 3,
                 "type": "noun",
                 "definition": "A refusal, denial or negation."
-            }
-        ]
-    },
-    "nazism": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Alternative letter-case form of Nazism."
             }
         ]
     },
@@ -14638,16 +14466,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "A Southeast Asian carnivorous plant of the genus Nepenthes; a monkey cup or tropical pitcher plant."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A drug mentioned in Homer's Odyssey (c. 8th century B.C.E.) as bringing relief from anxiety or grief; hence, any drug or substance seen as bringing welcome forgetfulness or relief."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A Southeast Asian carnivorous plant of the genus Nepenthes; a monkey cup or tropical pitcher plant."
             }
         ]
     },
@@ -15134,12 +14952,12 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Certain plants that have spines or prickles:."
+                "definition": "Certain plants that have spines or prickles."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Certain non-stinging plants, mostly in the family Lamiaceae, that resemble the species of Urtica:."
+                "definition": "Certain non-stinging plants, mostly in the family Lamiaceae, that resemble the species of Urtica."
             },
             {
                 "number": 4,
@@ -16209,91 +16027,6 @@
             }
         ]
     },
-    "nigger": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(see usage notes) A black person; a person of black African descent."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(see usage notes) A member of another typically dark-skinned people (now especially in combinations, e.g. prairie nigger, sand nigger)."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "An informal term of address."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A friend."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A fish, the luderick (Girella tricuspidata)."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A dark brown butterfly, Orsotriaena medus."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "An impurity in the covering of an electrical conductor which serves to make a partial short circuit, and thus becomes sufficiently heated to burn and destroy the insulation."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A kind of sea cucumber, Holothuria forskali, the cotton spinner."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "The larva of the turnip sawfly, an agricultural pest."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A strong iron-bound timber with sharp teeth or spikes protruding from its front face, forming part of the machinery of a sawmill, and used in canting logs, etc."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "A steam-capstan on some Mississippi river boats, used to haul the boat over bars and snags by a rope fastened to a tree on the bank."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "A black screen used in conjunction with the camera to block light or produce special lighting effects."
-            },
-            {
-                "number": 13,
-                "type": "verb",
-                "definition": "To clear land by laying light pieces of round timber across the trunks of the trees and setting fire to them at the point of contact, by which means the trees are slowly burned through."
-            },
-            {
-                "number": 14,
-                "type": "verb",
-                "definition": "To exhaust (soil) by cropping it year by year without manure."
-            },
-            {
-                "number": 15,
-                "type": "verb",
-                "definition": "To behave as a stereotypical black person."
-            },
-            {
-                "number": 16,
-                "type": "verb",
-                "definition": "To treat as inferior."
-            }
-        ]
-    },
     "niggle": {
         "level": "advanced",
         "definitions": [
@@ -16855,25 +16588,20 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Plural of ninety."
+                "definition": "The decade of the 1890s, 1990s, etc."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "The decade of the 1890s, 1990s, etc."
+                "definition": "The decade of one's life from age 90 through age 99."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "The decade of one's life from age 90 through age 99."
-            },
-            {
-                "number": 4,
-                "type": "noun",
                 "definition": "(temperature, rates) The range between 90 and 99."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "adjective",
                 "definition": "From or evoking the 91st through 100th years of a century (chiefly the 1990s)."
             }
@@ -19673,11 +19401,6 @@
                 "number": 5,
                 "type": "adjective",
                 "definition": "Describing a point mutation within a stop codon that causes the continued translation of an mRNA strand."
-            },
-            {
-                "number": 6,
-                "type": "adverb",
-                "definition": "Without stopping; without interruption or break."
             }
         ]
     },
@@ -21504,11 +21227,6 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "noun",
-                "definition": "Alternative form of nulla-nulla."
-            },
-            {
-                "number": 2,
                 "type": "noun",
                 "definition": "A stream-bed, ravine, or other watercourse; a drain for rain or floodwater."
             }

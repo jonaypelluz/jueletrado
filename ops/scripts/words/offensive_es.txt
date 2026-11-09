@@ -1,0 +1,59 @@
+# words:audit offensive list (es). One word per line; lines starting with # are ignored.
+# Policy: slurs and words whose main meaning is vulgar (RAE "malsonante"/"vulgar"/"despectivo"
+# as the dominant sense, or a well-known vulgarity/slur). Words with a common neutral meaning
+# stay out even if one sense is vulgar: zorra (fox), coño, polla (young hen), concha (shell),
+# verga (yard), culo, mamada, pinche, cagar, grasa, bolsas, invertido, mongólico, gabacho,
+# cabrón/cabrona/cabrones (male goat; tough person), tortillera (tortilla maker).
+# Evidence: es senses marked malsonante/vulgar/despectivo, plus known terms present in the lists.
+
+# Vulgarities
+carajo
+cojón
+cojones
+coñazo
+culear
+follando
+follar
+folla
+gilipollas
+gilipollez
+hijoputa
+hijueputa
+jode
+jodas
+joder
+jodida
+jodido
+jodidos
+mierda
+mierdas
+pajillero
+putada
+putear
+puteo
+putón
+zorrón
+chingada
+chingado
+chingar
+
+# Insults whose main meaning is vulgar
+boluda
+boludo
+huevón
+huevona
+malparido
+pendeja
+# Named exception: pendejo has neutral senses, but its main everyday meaning is the insult.
+pendejo
+puta
+putas
+puto
+putos
+
+# Slurs
+bollera
+marica
+maricón
+sarasa
+sudaca

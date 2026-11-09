@@ -1,126 +1,4 @@
 {
-    "s": {
-        "definitions": [
-            {
-                "number": 1,
-                "definition": "A weight of 1/288 of a pound, that is, twenty grains or one third of a dram, about 1.3 grams (symbol: ℈).",
-                "type": "noun",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "s.ap."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "definition": "(by extension) A very small quantity; a particle.",
-                "type": "noun"
-            },
-            {
-                "number": 3,
-                "definition": "A doubt or uncertainty concerning a matter of fact; intellectual perplexity.",
-                "type": "noun"
-            },
-            {
-                "number": 4,
-                "definition": "Hesitation to act from the difficulty of determining what is right or expedient; doubt, hesitation or unwillingness due to motives of conscience.",
-                "type": "noun"
-            },
-            {
-                "number": 5,
-                "definition": "A Hebrew unit of time equal to 1/1080 hour.",
-                "type": "noun"
-            },
-            {
-                "number": 6,
-                "definition": "Each of the four divisions of a year: spring, summer, autumn (fall) and winter.",
-                "type": "noun",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "yeartide, yeartime"
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "definition": "A part of a year when something particular happens.",
-                "type": "noun"
-            },
-            {
-                "number": 8,
-                "definition": "That which gives relish; seasoning.",
-                "type": "noun"
-            },
-            {
-                "number": 9,
-                "definition": "The period over which a series of Test matches are played.",
-                "type": "noun"
-            },
-            {
-                "number": 10,
-                "definition": "A group of episodes of a television or radio program broadcast in regular intervals with a long break between each group, usually with one year between the beginning of each.",
-                "type": "noun",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "series (British English)"
-                    }
-                ]
-            },
-            {
-                "number": 11,
-                "definition": "An extended, undefined period of time.",
-                "type": "noun"
-            },
-            {
-                "number": 12,
-                "definition": "The full set of downloadable content for a game, which can be purchased with a season pass.",
-                "type": "noun"
-            },
-            {
-                "number": 13,
-                "definition": "A fixed period of time in a massively multiplayer online game in which new content (themes, rules, modes, etc.) becomes available, sometimes replacing earlier content.",
-                "type": "noun"
-            },
-            {
-                "number": 14,
-                "definition": "A coin formerly used in the United Kingdom, Ireland, Malta, Australia, New Zealand and many other Commonwealth countries.",
-                "type": "noun"
-            },
-            {
-                "number": 15,
-                "definition": "The currency of Kenya, Somalia, Tanzania and Uganda.",
-                "type": "noun"
-            },
-            {
-                "number": 16,
-                "definition": "A currency in the United States, differing in value between states.",
-                "type": "noun"
-            },
-            {
-                "number": 17,
-                "definition": "(New York and some other states) The Spanish real, formerly having the value of one eighth of a dollar.",
-                "type": "noun"
-            },
-            {
-                "number": 18,
-                "definition": "One of the four major compass points, specifically 180°, directed toward the South Pole, and conventionally downwards on a map, abbreviated as S.",
-                "type": "noun"
-            },
-            {
-                "number": 19,
-                "definition": "The side of a church on the right hand of a person facing the altar.",
-                "type": "noun"
-            },
-            {
-                "number": 20,
-                "definition": "A quark having a fractional electric charge of -1/3 and a mass about 80 to 130 MeV. Symbol: s.",
-                "type": "noun"
-            }
-        ]
-    },
     "sack": {
         "definitions": [
             {
@@ -230,23 +108,8 @@
             },
             {
                 "number": 22,
-                "definition": "A bag or pouch inside a plant or animal that typically contains a fluid.",
-                "type": "noun"
-            },
-            {
-                "number": 23,
-                "definition": "(games) A sacrifice.",
-                "type": "noun"
-            },
-            {
-                "number": 24,
                 "definition": "(games) To sacrifice.",
                 "type": "verb"
-            },
-            {
-                "number": 25,
-                "definition": "The privilege, formerly enjoyed by the lord of a manor, of holding courts, trying causes, and imposing fines.",
-                "type": "noun"
             }
         ]
     },
@@ -3944,7 +3807,7 @@
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "Part of a uniform resource identifier indicating the protocol or other purpose, such as http: or news:."
+                "definition": "Part of a uniform resource identifier indicating the protocol or other purpose, such as http: or news."
             },
             {
                 "number": 10,
@@ -4294,7 +4157,7 @@
             {
                 "number": 13,
                 "type": "noun",
-                "definition": "A criminal act, especially:."
+                "definition": "A criminal act."
             },
             {
                 "number": 14,
@@ -6874,35 +6737,30 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "The sequence of partial sums \\sum_{i=1}^n{a_i} of a given sequence ai."
+                "definition": "A group of matches between two sides, with the aim being to win more matches than the opposition."
             },
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A group of matches between two sides, with the aim being to win more matches than the opposition."
+                "definition": "An unranked taxon."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "An unranked taxon."
+                "definition": "A subdivision of a genus, a taxonomic rank below that of section (and subsection) but above that of species."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "A subdivision of a genus, a taxonomic rank below that of section (and subsection) but above that of species."
+                "definition": "A parcel of rough diamonds of assorted qualities."
             },
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "A parcel of rough diamonds of assorted qualities."
-            },
-            {
-                "number": 8,
-                "type": "noun",
                 "definition": "A set of consonants that share a particular phonetic or phonological feature."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "adjective",
                 "definition": "Connected one after the other in a circuit.",
                 "definition_extra": [
@@ -9691,111 +9549,6 @@
             }
         ]
     },
-    "shit": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Solid excretory product evacuated from the bowels; feces."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "An instance of defecation."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Rubbish; worthless matter."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Stuff, things."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "(definite) (the shit) The best of its kind."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "Nonsense; bullshit."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A nasty, despicable person, used particularly of men."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "(in negations) Anything."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A problem or difficult situation."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A strong rebuke."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "Any recreational drug, usually cannabis."
-            },
-            {
-                "number": 12,
-                "type": "adjective",
-                "definition": "Of poor quality; worthless."
-            },
-            {
-                "number": 13,
-                "type": "adjective",
-                "definition": "Nasty; despicable."
-            },
-            {
-                "number": 14,
-                "type": "verb",
-                "definition": "To defecate."
-            },
-            {
-                "number": 15,
-                "type": "verb",
-                "definition": "To excrete (something) through the anus."
-            },
-            {
-                "number": 16,
-                "type": "verb",
-                "definition": "To fool or try to fool someone; to be deceitful."
-            },
-            {
-                "number": 17,
-                "type": "verb",
-                "definition": "To annoy."
-            },
-            {
-                "number": 18,
-                "type": "interjection",
-                "definition": "Expression of worry, failure, shock, etc., often at something seen for the first time or remembered immediately before using this term."
-            },
-            {
-                "number": 19,
-                "type": "interjection",
-                "definition": "To show displeasure or surprise."
-            },
-            {
-                "number": 20,
-                "type": "interjection",
-                "definition": "Used for mere emphasis; heck, hey."
-            }
-        ]
-    },
     "shoes": {
         "level": "beginner",
         "definitions": [
@@ -12568,7 +12321,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A respectful term of address to a man of higher rank or position, particularly:."
+                "definition": "A respectful term of address to a man of higher rank or position."
             },
             {
                 "number": 3,
@@ -15546,11 +15299,6 @@
             {
                 "number": 5,
                 "type": "adverb",
-                "definition": "Early."
-            },
-            {
-                "number": 6,
-                "type": "adverb",
                 "definition": "Readily; willingly; used with would, or some other word expressing will."
             }
         ]
@@ -16175,20 +15923,15 @@
             {
                 "number": 9,
                 "type": "adverb",
-                "definition": "Toward the south; southward."
+                "definition": "Downward."
             },
             {
                 "number": 10,
                 "type": "adverb",
-                "definition": "Downward."
-            },
-            {
-                "number": 11,
-                "type": "adverb",
                 "definition": "In an adverse direction or trend (go south)."
             },
             {
-                "number": 12,
+                "number": 11,
                 "type": "adverb",
                 "definition": "Of wind, from the south."
             }
@@ -16927,55 +16670,50 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Present participle of spend, expenditure."
-            },
-            {
-                "number": 2,
-                "type": "noun",
                 "definition": "An amount that has been, or is planned to be spent."
             },
             {
-                "number": 3,
+                "number": 2,
                 "type": "verb",
                 "definition": "To pay out (money)."
             },
             {
-                "number": 4,
+                "number": 3,
                 "type": "verb",
                 "definition": "To bestow; to employ; often with on or upon."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "verb",
                 "definition": "To squander."
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "verb",
                 "definition": "To exhaust, to wear out."
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "verb",
                 "definition": "To consume, to use up (time)."
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "verb",
                 "definition": "To have an orgasm; to ejaculate sexually."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "verb",
                 "definition": "To waste or wear away; to be consumed."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "verb",
                 "definition": "To be diffused; to spread."
             },
             {
-                "number": 11,
+                "number": 10,
                 "type": "verb",
                 "definition": "To break ground; to continue working."
             }
@@ -18396,7 +18134,7 @@
             {
                 "number": 20,
                 "type": "verb",
-                "definition": "To adjust so as to align with or place at a right angle to something else; in particular:."
+                "definition": "To adjust so as to align with or place at a right angle to something else."
             },
             {
                 "number": 21,
@@ -18544,267 +18282,6 @@
                 "number": 45,
                 "type": "adjective",
                 "definition": "Having a shape broad for the height, with angular rather than curving outlines."
-            }
-        ]
-    },
-    "st": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "interjection",
-                "definition": "Expressing a sudden desire for silence."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A title given to a saint, often prefixed to the person's name."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Someone connected with any of the sports teams known as the Saints, as a fan, player, coach etc."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Saint class, a class of steam locomotives used on the GWR."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A condition; a set of circumstances applying at any given time."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "High social standing or circumstance."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A polity."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "(stochastic processes) An element of the range of the random variables that define a random process."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "(grammar) The lexical aspect (aktionsart) of verbs or predicates that do not change over time.",
-                "definition_extra": [
-                    {
-                        "type": "Antonyms",
-                        "content": "occurrence."
-                    }
-                ]
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A single pass of a needle in sewing; the loop or turn of the thread thus made."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "An arrangement of stitches in sewing, or method of stitching in some particular way or style."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "An intense stabbing pain under the lower edge of the ribcage, brought on by exercise."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "A single turn of the thread round a needle in knitting; a link, or loop, of yarn."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "An arrangement of stitches in knitting, or method of knitting in some particular way or style."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "A space of work taken up, or gone over, in a single pass of the needle."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "A fastening, as of thread or wire, through the back of a book to connect the pages."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "(by extension) Any space passed over; distance."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "A local sharp pain; an acute pain, like the piercing of a needle."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "A contortion, or twist."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "Any least part of a fabric or dress."
-            },
-            {
-                "number": 21,
-                "type": "noun",
-                "definition": "A furrow."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "The space between two double furrows."
-            },
-            {
-                "number": 23,
-                "type": "noun",
-                "definition": "A hard earthen substance that can form large rocks."
-            },
-            {
-                "number": 24,
-                "type": "noun",
-                "definition": "A small piece of stone, a pebble."
-            },
-            {
-                "number": 25,
-                "type": "noun",
-                "definition": "A gemstone, a jewel, especially a diamond."
-            },
-            {
-                "number": 26,
-                "type": "noun",
-                "definition": "(plural: stone) A unit of mass equal to 14 pounds. Used to measure the weights of people, animals, cheese, wool, etc. 1 stone ≈ 6.3503 kilograms."
-            },
-            {
-                "number": 27,
-                "type": "noun",
-                "definition": "The central part of some fruits, particularly drupes; consisting of the seed and a hard endocarp layer."
-            },
-            {
-                "number": 28,
-                "type": "noun",
-                "definition": "A hard, stone-like deposit."
-            },
-            {
-                "number": 29,
-                "type": "noun",
-                "definition": "A playing piece made of any hard material, used in various board games such as backgammon, and go."
-            },
-            {
-                "number": 30,
-                "type": "noun",
-                "definition": "A dull light grey or beige, like that of some stones."
-            },
-            {
-                "number": 31,
-                "type": "noun",
-                "definition": "A 42-pound, precisely shaped piece of granite with a handle attached, which is bowled down the ice."
-            },
-            {
-                "number": 32,
-                "type": "noun",
-                "definition": "A monument to the dead; a gravestone or tombstone."
-            },
-            {
-                "number": 33,
-                "type": "noun",
-                "definition": "A mirror, or its glass."
-            },
-            {
-                "number": 34,
-                "type": "noun",
-                "definition": "A testicle of an animal."
-            },
-            {
-                "number": 35,
-                "type": "noun",
-                "definition": "A stand or table with a smooth, flat top of stone, commonly marble, on which to arrange the pages of a book, newspaper, etc. before printing; also called imposing stone."
-            },
-            {
-                "number": 36,
-                "type": "noun",
-                "definition": "A place where items may be accumulated or routinely kept."
-            },
-            {
-                "number": 37,
-                "type": "noun",
-                "definition": "A supply held in storage."
-            },
-            {
-                "number": 38,
-                "type": "noun",
-                "definition": "(mainly North American) A place where items may be purchased; a shop."
-            },
-            {
-                "number": 39,
-                "type": "noun",
-                "definition": "Memory."
-            },
-            {
-                "number": 40,
-                "type": "noun",
-                "definition": "A great quantity or number; abundance."
-            },
-            {
-                "number": 41,
-                "type": "noun",
-                "definition": "A paved part of road, usually in a village or a town."
-            },
-            {
-                "number": 42,
-                "type": "noun",
-                "definition": "A road as above but including the sidewalks (pavements) and buildings."
-            },
-            {
-                "number": 43,
-                "type": "noun",
-                "definition": "The people who live in such a road, as a neighborhood."
-            },
-            {
-                "number": 44,
-                "type": "noun",
-                "definition": "The people who spend a great deal of time on the street in urban areas, especially, the young, the poor, the unemployed, and those engaged in illegal activities."
-            },
-            {
-                "number": 45,
-                "type": "noun",
-                "definition": "An illicit or contraband source, especially of drugs."
-            },
-            {
-                "number": 46,
-                "type": "noun",
-                "definition": "Streetwise slang."
-            },
-            {
-                "number": 47,
-                "type": "noun",
-                "definition": "A great distance."
-            },
-            {
-                "number": 48,
-                "type": "noun",
-                "definition": "Each of the three opportunities that players have to bet, after the flop, turn and river."
-            },
-            {
-                "number": 49,
-                "type": "noun",
-                "definition": "Living in the streets."
-            },
-            {
-                "number": 50,
-                "type": "noun",
-                "definition": "(urban toponymy) By restriction, the streets that run perpendicular to avenues."
             }
         ]
     },
@@ -20903,7 +20380,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any item made of this metal, particularly including:."
+                "definition": "Any item made of this metal."
             },
             {
                 "number": 3,
@@ -20994,11 +20471,6 @@
                 "number": 20,
                 "type": "adjective",
                 "definition": "Engraved on steel."
-            },
-            {
-                "number": 21,
-                "type": "proper noun",
-                "definition": "Coldbath Fields Prison in London, closed in 1877."
             }
         ]
     },
@@ -21278,12 +20750,12 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A stick-like item:."
+                "definition": "A stick-like item."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "Ability; specifically:."
+                "definition": "Ability."
             },
             {
                 "number": 7,
@@ -24951,16 +24423,11 @@
             },
             {
                 "number": 11,
-                "type": "proper noun",
-                "definition": "The star that the Earth revolves around and from which it receives light and warmth."
-            },
-            {
-                "number": 12,
                 "type": "noun",
                 "definition": "A traditional Japanese unit of length, approximately 30.3 millimetres (1.193 inches)."
             },
             {
-                "number": 13,
+                "number": 12,
                 "type": "noun",
                 "definition": "Crotalaria juncea, an East Indian leguminous plant yielding a fiber."
             }
@@ -25031,11 +24498,6 @@
             },
             {
                 "number": 13,
-                "type": "verb",
-                "definition": "Short for superhive."
-            },
-            {
-                "number": 14,
                 "type": "verb",
                 "definition": "Short for superimpose."
             }
@@ -27121,7 +26583,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Tomato sauce (similar to US tomato ketchup), as in:."
+                "definition": "Tomato sauce (similar to US tomato ketchup), as in."
             },
             {
                 "number": 3,
@@ -27338,26 +26800,6 @@
                 "number": 4,
                 "type": "noun",
                 "definition": "Exception; reservation."
-            }
-        ]
-    },
-    "sc": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Capital letters shown in the same form but in small size (typically of the same size as lower-case letters)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Stocks with a relatively small market capitalization."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A book having such covers."
             }
         ]
     },
@@ -27822,7 +27264,7 @@
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "Part of a uniform resource identifier indicating the protocol or other purpose, such as http: or news:."
+                "definition": "Part of a uniform resource identifier indicating the protocol or other purpose, such as http: or news."
             },
             {
                 "number": 10,
@@ -28007,7 +27449,7 @@
             {
                 "number": 13,
                 "type": "noun",
-                "definition": "A criminal act, especially:."
+                "definition": "A criminal act."
             },
             {
                 "number": 14,
@@ -28493,36 +27935,6 @@
                 "number": 6,
                 "type": "verb",
                 "definition": "To change the shape of a land feature by erosion etc."
-            }
-        ]
-    },
-    "sd": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(law enforcement) Initialism of sheriff's department."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Initialism of self-destruct."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A governmental district that operates local public primary and secondary schools."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A system that uses a resolution that is not considered to be either high-definition television (720p, 1080i, 1080p, 1440p, 4K UHDTV, and 8K UHD) or enhanced-definition television (EDTV 480p)."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A measure of how spread out data values are around the mean, defined as the square root of the variance. Represented with the Greek letter σ."
             }
         ]
     },
@@ -29494,35 +28906,30 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A portion."
+                "definition": "A part of a broadcast program, devoted to a topic."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A part of a broadcast program, devoted to a topic."
+                "definition": "An Ethernet bus."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "An Ethernet bus."
+                "definition": "A region of memory or a fragment of an executable file designated to contain a particular part of a program."
             },
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "A region of memory or a fragment of an executable file designated to contain a particular part of a program."
+                "definition": "(travel) A portion of an itinerary: it may be a flight or train between two cities, or a car or hotel booked in a particular city."
             },
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "(travel) A portion of an itinerary: it may be a flight or train between two cities, or a car or hotel booked in a particular city."
-            },
-            {
-                "number": 9,
-                "type": "noun",
                 "definition": "A bearing representing only one part of a rounded object."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "verb",
                 "definition": "To divide into segments or sections."
             }
@@ -29549,35 +28956,30 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A portion."
+                "definition": "A part of a broadcast program, devoted to a topic."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A part of a broadcast program, devoted to a topic."
+                "definition": "An Ethernet bus."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "An Ethernet bus."
+                "definition": "A region of memory or a fragment of an executable file designated to contain a particular part of a program."
             },
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "A region of memory or a fragment of an executable file designated to contain a particular part of a program."
+                "definition": "(travel) A portion of an itinerary: it may be a flight or train between two cities, or a car or hotel booked in a particular city."
             },
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "(travel) A portion of an itinerary: it may be a flight or train between two cities, or a car or hotel booked in a particular city."
-            },
-            {
-                "number": 9,
-                "type": "noun",
                 "definition": "A bearing representing only one part of a rounded object."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "verb",
                 "definition": "To divide into segments or sections."
             }
@@ -30534,7 +29936,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To conclude or resolve (something):."
+                "definition": "To conclude or resolve (something)."
             },
             {
                 "number": 2,
@@ -30549,7 +29951,7 @@
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To establish or become established in a steady position:."
+                "definition": "To establish or become established in a steady position."
             },
             {
                 "number": 5,
@@ -30599,7 +30001,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To conclude or resolve (something):."
+                "definition": "To conclude or resolve (something)."
             },
             {
                 "number": 2,
@@ -30614,7 +30016,7 @@
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To establish or become established in a steady position:."
+                "definition": "To establish or become established in a steady position."
             },
             {
                 "number": 5,
@@ -33962,22 +33364,22 @@
             {
                 "number": 5,
                 "type": "adjective",
-                "definition": "Blessed, particularly:."
+                "definition": "Blessed."
             },
             {
                 "number": 6,
                 "type": "adjective",
-                "definition": "Pitiful, inspiring compassion, particularly:."
+                "definition": "Pitiful, inspiring compassion."
             },
             {
                 "number": 7,
                 "type": "adjective",
-                "definition": "Simple, plain, particularly:."
+                "definition": "Simple, plain."
             },
             {
                 "number": 8,
                 "type": "adjective",
-                "definition": "Mentally simple, foolish, particularly:."
+                "definition": "Mentally simple, foolish."
             },
             {
                 "number": 9,
@@ -38282,25 +37684,15 @@
             {
                 "number": 5,
                 "type": "verb",
-                "definition": "Alternative form of sup."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "Alternative form of sup."
-            },
-            {
-                "number": 7,
-                "type": "verb",
                 "definition": "To sup or swallow."
             },
             {
-                "number": 8,
+                "number": 6,
                 "type": "verb",
                 "definition": "To breathe out; to draw out."
             },
             {
-                "number": 9,
+                "number": 7,
                 "type": "verb",
                 "definition": "To sweep."
             }
@@ -38389,191 +37781,6 @@
                 "number": 5,
                 "type": "noun",
                 "definition": "A gun sock."
-            }
-        ]
-    },
-    "sp": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A reduction in consumer cost (usually for a limited time) for items or services rendered."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "One of a rotation of meals systematically offered for a lower price at a restaurant."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Unusual or exceptional episode of a series."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A special constable."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "Anything that is not according to normal practice, plan, or schedule, as an unscheduled run of transportation that is normally scheduled."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "Any unlicensed medicine produced or obtained for a specific individual patient."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A correspondent; a journalist sent to the scene of an event to report back."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A dispatch sent back by a special correspondent."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A light that illuminates a specific person or thing on the stage."
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "To form (a word) from its component letters."
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "To explain in clear and simple terms."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "The act, practice, ability, or subject of forming words with letters, or of reading the letters of words; orthography."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "The manner of spelling of words; correct spelling."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "A specific spelling of a word."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "A spelling test or spelling bee."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "A rigid implement, often roughly y-shaped, that is fixed to one's heel for the purpose of prodding a horse. Often worn by, and emblematic of, the cowboy or the knight."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "A jab given with the spurs."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "Anything that inspires or motivates, as a spur does a horse."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "An appendage or spike pointing rearward, near the foot, for instance that of a rooster."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "Any protruding part connected at one end, for instance a highway that extends from another highway into a city."
-            },
-            {
-                "number": 21,
-                "type": "noun",
-                "definition": "Roots, tree roots."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "A mountain that shoots from another mountain or range and extends some distance in a lateral direction, or at right angles."
-            },
-            {
-                "number": 23,
-                "type": "noun",
-                "definition": "A spiked iron worn by seamen upon the bottom of the boot, to enable them to stand upon the carcass of a whale to strip off the blubber."
-            },
-            {
-                "number": 24,
-                "type": "noun",
-                "definition": "A brace strengthening a post and some connected part, such as a rafter or crossbeam; a strut."
-            },
-            {
-                "number": 25,
-                "type": "noun",
-                "definition": "The short wooden buttress of a post."
-            },
-            {
-                "number": 26,
-                "type": "noun",
-                "definition": "A projection from the round base of a column, occupying the angle of a square plinth upon which the base rests, or bringing the bottom bed of the base to a nearly square form. It is generally carved in leafage."
-            },
-            {
-                "number": 27,
-                "type": "noun",
-                "definition": "Ergotized rye or other grain."
-            },
-            {
-                "number": 28,
-                "type": "noun",
-                "definition": "A wall in a fortification that crosses a part of a rampart and joins to an inner wall."
-            },
-            {
-                "number": 29,
-                "type": "noun",
-                "definition": "A piece of timber fixed on the bilgeways before launching, having the upper ends bolted to the vessel's side."
-            },
-            {
-                "number": 30,
-                "type": "noun",
-                "definition": "A curved piece of timber serving as a half to support the deck where a whole beam cannot be placed."
-            },
-            {
-                "number": 31,
-                "type": "noun",
-                "definition": "A branch of a vein."
-            },
-            {
-                "number": 32,
-                "type": "noun",
-                "definition": "A very short branch line of a railway line."
-            },
-            {
-                "number": 33,
-                "type": "noun",
-                "definition": "A short thin side shoot from a branch, especially one that bears fruit or, in conifers, the shoots that bear the leaves."
-            },
-            {
-                "number": 34,
-                "type": "noun",
-                "definition": "A tern."
-            },
-            {
-                "number": 35,
-                "type": "noun",
-                "definition": "A spurious tone, one that interferes with a signal in a circuit and is often masked underneath that signal."
-            },
-            {
-                "number": 36,
-                "type": "noun",
-                "definition": "The track of an animal, such as an otter; a spoor."
             }
         ]
     },
@@ -39196,12 +38403,12 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To make distinct or separate, particularly:."
+                "definition": "To make distinct or separate."
             },
             {
                 "number": 2,
                 "type": "verb",
-                "definition": "To become distinct or separate, particularly:."
+                "definition": "To become distinct or separate."
             },
             {
                 "number": 3,
@@ -41244,7 +40451,7 @@
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To run, cycle, etc. at top speed for a short period,."
+                "definition": "To run, cycle, etc. at top speed for a short period."
             }
         ]
     },
@@ -41275,93 +40482,6 @@
                 "number": 5,
                 "type": "verb",
                 "definition": "To explore; to see; to view; inspect and examine secretly, as a country."
-            }
-        ]
-    },
-    "sq": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Shaped like a square (the polygon)."
-            },
-            {
-                "number": 2,
-                "type": "adjective",
-                "definition": "Forming a right angle, especially at right angles with the mast or the keel, and parallel to the horizon; said of the yards of a square-rigged vessel when they are so braced.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "normal, orthogonal, perpendicular."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "crooked."
-                    }
-                ]
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "Of numbers formed by multiplying two equal numbers."
-            },
-            {
-                "number": 4,
-                "type": "adjective",
-                "definition": "Used in the names of units of area formed by multiplying a unit of length by itself."
-            },
-            {
-                "number": 5,
-                "type": "adjective",
-                "definition": "Honest; straightforward.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "above board, on the level, on the square, on the up and up, straight."
-                    }
-                ]
-            },
-            {
-                "number": 6,
-                "type": "adjective",
-                "definition": "Fair."
-            },
-            {
-                "number": 7,
-                "type": "adjective",
-                "definition": "Even; tied."
-            },
-            {
-                "number": 8,
-                "type": "adjective",
-                "definition": "Socially conventional; boring.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "bourgeois."
-                    }
-                ]
-            },
-            {
-                "number": 9,
-                "type": "adjective",
-                "definition": "In line with the batsman's popping crease."
-            },
-            {
-                "number": 10,
-                "type": "adjective",
-                "definition": "Correctly aligned with respect to something else."
-            },
-            {
-                "number": 11,
-                "type": "adjective",
-                "definition": "Hearty; vigorous."
-            },
-            {
-                "number": 12,
-                "type": "adjective",
-                "definition": "Having a shape broad for the height, with angular rather than curving outlines."
             }
         ]
     },
@@ -41457,22 +40577,6 @@
                 "number": 18,
                 "type": "verb",
                 "definition": "To attempt to score a runner from third by bunting."
-            }
-        ]
-    },
-    "ss": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "An image of computer or smartphone screen output at a given moment in time.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "screen capture, screen dump, screencap, screencast, screengrab, screenie."
-                    }
-                ]
             }
         ]
     },
@@ -42852,40 +41956,35 @@
             {
                 "number": 2,
                 "type": "verb",
-                "definition": "To guide the course of a vessel, vehicle, aircraft etc. (by means of a device such as a rudder, paddle, or steering wheel)."
+                "definition": "To be directed and governed; to take a direction, or course; to obey the helm."
             },
             {
                 "number": 3,
                 "type": "verb",
-                "definition": "To be directed and governed; to take a direction, or course; to obey the helm."
+                "definition": "To direct a group of animals."
             },
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To direct a group of animals."
+                "definition": "To maneuver or manipulate a person or group into a place or course of action."
             },
             {
                 "number": 5,
                 "type": "verb",
-                "definition": "To maneuver or manipulate a person or group into a place or course of action."
+                "definition": "To direct a conversation."
             },
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To direct a conversation."
+                "definition": "To conduct oneself; to take or pursue a course of action."
             },
             {
                 "number": 7,
                 "type": "verb",
-                "definition": "To conduct oneself; to take or pursue a course of action."
-            },
-            {
-                "number": 8,
-                "type": "verb",
                 "definition": "To castrate (a male calf)."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "noun",
                 "definition": "Equipment used to control direction; something used to steer."
             }
@@ -43107,12 +42206,12 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A stick-like item:."
+                "definition": "A stick-like item."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "Ability; specifically:."
+                "definition": "Ability."
             },
             {
                 "number": 7,
@@ -45823,7 +44922,7 @@
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "A line drawn with a pen or other writing implement, particularly:."
+                "definition": "A line drawn with a pen or other writing implement."
             },
             {
                 "number": 7,
@@ -50615,7 +49714,7 @@
             {
                 "number": 4,
                 "type": "adjective",
-                "definition": "Artificial, not genuine,."
+                "definition": "Artificial, not genuine."
             },
             {
                 "number": 5,
@@ -51207,7 +50306,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Other animals that notably burrow in sand:."
+                "definition": "Other animals that notably burrow in sand."
             }
         ]
     },
@@ -51918,11 +51017,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "A form of brace or suspender for keeping a belt or body bandage in place; it is made of a broad roller bandage split half way, the undivided part being in front, the divided ends passing over the shoulders and down the back."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "Scapular."
             }
         ]
     },
@@ -54554,7 +53648,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To conclude or resolve (something):."
+                "definition": "To conclude or resolve (something)."
             },
             {
                 "number": 2,
@@ -54569,7 +53663,7 @@
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To establish or become established in a steady position:."
+                "definition": "To establish or become established in a steady position."
             },
             {
                 "number": 5,
@@ -55494,26 +54588,21 @@
             },
             {
                 "number": 2,
-                "type": "noun",
-                "definition": "Contraction of disparaging term \"shiny arses\", originating during World War Two, to describe a desk worker.https//books.google.co.uk/books?id=mAdUqLrKw4YC&pg=PA1717."
-            },
-            {
-                "number": 3,
                 "type": "adjective",
                 "definition": "Reflecting light."
             },
             {
-                "number": 4,
+                "number": 3,
                 "type": "adjective",
                 "definition": "Emitting light."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "adjective",
                 "definition": "Excellent; remarkable."
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "adjective",
                 "definition": "Bright; luminous; clear; unclouded."
             }
@@ -56287,11 +55376,6 @@
             {
                 "number": 1,
                 "type": "adjective",
-                "definition": "Toward a side."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
                 "definition": "Toward a side."
             }
         ]
@@ -59650,11 +58734,6 @@
             },
             {
                 "number": 5,
-                "type": "adverb",
-                "definition": "Early."
-            },
-            {
-                "number": 6,
                 "type": "adverb",
                 "definition": "Readily; willingly; used with would, or some other word expressing will."
             }
@@ -63102,7 +62181,7 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "Ornithogalum, a genus of perennial bulbous plants (family Asparagaceae), including:."
+                "definition": "Ornithogalum, a genus of perennial bulbous plants (family Asparagaceae)."
             },
             {
                 "number": 8,
@@ -69404,36 +68483,6 @@
             }
         ]
     },
-    "shitty": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Very bad; unpleasant; miserable; insignificant."
-            },
-            {
-                "number": 2,
-                "type": "adjective",
-                "definition": "Under the influence of illicit drugs or alcohol; drunk; high."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "Annoyed."
-            },
-            {
-                "number": 4,
-                "type": "adjective",
-                "definition": "Covered in crap (faeces/feces); feculent."
-            },
-            {
-                "number": 5,
-                "type": "adjective",
-                "definition": "Of low quality or standard; inferior; not up to par, or failing one's expectations."
-            }
-        ]
-    },
     "shocked": {
         "level": "intermediate",
         "definitions": [
@@ -69740,26 +68789,6 @@
             },
             {
                 "number": 4,
-                "type": "noun",
-                "definition": "A machine for singeing cloth."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A person who sings, often professionally."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "(square dance) dance figure with a fixed structure, sung by a caller, or a piece of music with that structure."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A person who, or device which, singes."
-            },
-            {
-                "number": 8,
                 "type": "noun",
                 "definition": "A machine for singeing cloth."
             }
@@ -71849,16 +70878,6 @@
             }
         ]
     },
-    "sb": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "pronoun",
-                "definition": "Some unspecified person."
-            }
-        ]
-    },
     "scanned": {
         "level": "advanced",
         "definitions": [
@@ -72782,105 +71801,6 @@
             }
         ]
     },
-    "sg": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Being only one of a larger population.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "individual."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "general."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "adjective",
-                "definition": "Being the only one of the kind; unique.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "unique."
-                    }
-                ]
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "Distinguished by superiority: peerless, unmatched, eminent, exceptional, extraordinary.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "exceptional, extraordinary, remarkable."
-                    }
-                ]
-            },
-            {
-                "number": 4,
-                "type": "adjective",
-                "definition": "Out of the ordinary; curious.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "curious, eccentric, funny, odd, peculiar, rum, rummy, strange, unusual."
-                    }
-                ]
-            },
-            {
-                "number": 5,
-                "type": "adjective",
-                "definition": "(grammar) Referring to only one thing or person.",
-                "definition_extra": [
-                    {
-                        "type": "Antonyms",
-                        "content": "plural."
-                    }
-                ]
-            },
-            {
-                "number": 6,
-                "type": "adjective",
-                "definition": "(of matrix) Having no inverse.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "non-invertible."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "invertible, non-singular."
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "type": "adjective",
-                "definition": "(of transformation) Having the property that the matrix of coefficients of the new variables has a determinant equal to zero."
-            },
-            {
-                "number": 8,
-                "type": "adjective",
-                "definition": "(of a cardinal number) Not equal to its own cofinality."
-            },
-            {
-                "number": 9,
-                "type": "adjective",
-                "definition": "Each; individual."
-            },
-            {
-                "number": 10,
-                "type": "adjective",
-                "definition": "Engaged in by only one on a side; single."
-            }
-        ]
-    },
     "shareware": {
         "level": "advanced",
         "definitions": [
@@ -72933,36 +71853,6 @@
                 "number": 8,
                 "type": "verb",
                 "definition": "To buy (a note) at a discount greater than the legal rate of interest, or to deduct in discounting it more than the legal rate allows."
-            }
-        ]
-    },
-    "shemale": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A male-to-female transsexual or transgender person; a trans woman."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(see usage notes) A male animal which displays female traits or behaviors; for example, a male reptile which gives off female pheromones."
-            }
-        ]
-    },
-    "shemales": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A male-to-female transsexual or transgender person; a trans woman."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(see usage notes) A male animal which displays female traits or behaviors; for example, a male reptile which gives off female pheromones."
             }
         ]
     },
@@ -73367,16 +72257,6 @@
             }
         ]
     },
-    "sk": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "verb",
-                "definition": "Skip."
-            }
-        ]
-    },
     "skirts": {
         "level": "advanced",
         "definitions": [
@@ -73579,126 +72459,6 @@
             }
         ]
     },
-    "slut": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A sexually promiscuous woman or girl."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Any sexually promiscuous person, often a gay man."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Someone who seeks attention through inappropriate means or to an excessive degree."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A disloyal individual; someone who does not commit to a particular thing."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A slovenly, untidy person, usually a woman."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A bold, outspoken woman."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A female dog."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A maidservant."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A rag soaked in a flammable substance and lit for illumination."
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "To wear slutty clothing or makeup, or otherwise behave in a slutty manner."
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "(usually with around) To visit places frequented by men, with the intention of engaging in sexual intercourse by means of flirting."
-            }
-        ]
-    },
-    "sluts": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A sexually promiscuous woman or girl."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Any sexually promiscuous person, often a gay man."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Someone who seeks attention through inappropriate means or to an excessive degree."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A disloyal individual; someone who does not commit to a particular thing."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A slovenly, untidy person, usually a woman."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A bold, outspoken woman."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A female dog."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A maidservant."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A rag soaked in a flammable substance and lit for illumination."
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "To wear slutty clothing or makeup, or otherwise behave in a slutty manner."
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "(usually with around) To visit places frequented by men, with the intention of engaging in sexual intercourse by means of flirting."
-            }
-        ]
-    },
     "smilies": {
         "level": "advanced",
         "definitions": [
@@ -73726,16 +72486,6 @@
                 "number": 5,
                 "type": "noun",
                 "definition": "The type of piercing of the upper frenulum (upper lip)."
-            }
-        ]
-    },
-    "sn": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A string of characters used to identify a user of a bulletin board, e-mail etc."
             }
         ]
     },
@@ -73985,11 +72735,6 @@
             },
             {
                 "number": 5,
-                "type": "adverb",
-                "definition": "Early."
-            },
-            {
-                "number": 6,
                 "type": "adverb",
                 "definition": "Readily; willingly; used with would, or some other word expressing will."
             }
@@ -74382,12 +73127,12 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To make distinct or separate, particularly:."
+                "definition": "To make distinct or separate."
             },
             {
                 "number": 2,
                 "type": "verb",
-                "definition": "To become distinct or separate, particularly:."
+                "definition": "To become distinct or separate."
             }
         ]
     },
@@ -75203,51 +73948,6 @@
             }
         ]
     },
-    "std": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A principle or example or measure used for comparison."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A vertical pole with something at its apex."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A manual transmission vehicle."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "The upper petal or banner of a papilionaceous corolla."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "An inverted knee timber placed upon the deck instead of beneath it, with its vertical branch turned upward from that which lies horizontally."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A large drinking cup."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "Standard idiom, a prestigious or standardized language variety; standard language."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A measure of how spread out data values are around the mean, defined as the square root of the variance. Represented with the Greek letter σ."
-            }
-        ]
-    },
     "stereo": {
         "level": "advanced",
         "definitions": [
@@ -75445,656 +74145,6 @@
                 "number": 3,
                 "type": "noun",
                 "definition": "A knitted hood of cotton thread which is eventually converted by a special process into an incandescent mantle for gas lighting."
-            }
-        ]
-    },
-    "str": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A building, wing or dependency set apart and adapted for lodging and feeding (and training) animals with hoofs, especially horses."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(metonymy) All the racehorses of a particular stable, i.e. belonging to a given owner."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A set of advocates; a barristers' chambers."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "An organization of sumo wrestlers who live and train together."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A group of prostitutes managed by one pimp.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "string."
-                    }
-                ]
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A device or object that works by the operation of steam."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A mode of transportation propelled by steam."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A babycino (frothy milk drink)."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A wetsuit with long sleeves and legs."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "The name of various animals."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "A racehorse the odds of which are becoming shorter (that is, decreasing) because bettors are backing it."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "An act of fellatio."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "A member of a youth gang who engages in steaming (robbing and escaping in a large group)."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "A drinking session."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "A dish made by cooking diced meat very slowly in a tightly sealed pot with a minimum of flavourings, allowing it to steam in its own juices; specifically such a dish made with kangaroo meat."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "A mug."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "A homosexual man with a preference for passive partners."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "A prostitute's client."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "A gambler who increases a wager after losing."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "A kind of chest for luggage, having a flat or slightly curved top and usually covered in canvas, leather or patterned paper.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "packer, steamer."
-                    }
-                ]
-            },
-            {
-                "number": 21,
-                "type": "adjective",
-                "definition": "Not crooked or bent; having a constant direction throughout its length."
-            },
-            {
-                "number": 22,
-                "type": "adjective",
-                "definition": "(of a path, trajectory, etc.) Direct, undeviating."
-            },
-            {
-                "number": 23,
-                "type": "adjective",
-                "definition": "Perfectly horizontal or vertical; not diagonal or oblique."
-            },
-            {
-                "number": 24,
-                "type": "adjective",
-                "definition": "Describing the bat as held so as not to incline to either side; on, or near a line running between the two wickets."
-            },
-            {
-                "number": 25,
-                "type": "adjective",
-                "definition": "Direct in communication; unevasive, straightforward."
-            },
-            {
-                "number": 26,
-                "type": "adjective",
-                "definition": "Free from dishonesty; honest, law-abiding."
-            },
-            {
-                "number": 27,
-                "type": "adjective",
-                "definition": "Serious rather than comedic."
-            },
-            {
-                "number": 28,
-                "type": "adjective",
-                "definition": "In proper order; as it should be."
-            },
-            {
-                "number": 29,
-                "type": "adjective",
-                "definition": "In a row, in unbroken sequence; consecutive."
-            },
-            {
-                "number": 30,
-                "type": "adjective",
-                "definition": "Describing the sets in a match of which the winner did not lose a single set."
-            },
-            {
-                "number": 31,
-                "type": "adjective",
-                "definition": "Making no exceptions or deviations in one's support of the organization and candidates of a political party."
-            },
-            {
-                "number": 32,
-                "type": "adjective",
-                "definition": "Containing the names of all the regularly nominated candidates of a party and no others."
-            },
-            {
-                "number": 33,
-                "type": "adjective",
-                "definition": "Conventional, mainstream, socially acceptable."
-            },
-            {
-                "number": 34,
-                "type": "adjective",
-                "definition": "Heterosexual, attracted to people of the opposite sex."
-            },
-            {
-                "number": 35,
-                "type": "adjective",
-                "definition": "(of a romantic or sexual relation) Occurring between people of opposite sex."
-            },
-            {
-                "number": 36,
-                "type": "adjective",
-                "definition": "Not using alcohol, drugs, etc.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "straightedge."
-                    }
-                ]
-            },
-            {
-                "number": 37,
-                "type": "adjective",
-                "definition": "Not plus size; thin."
-            },
-            {
-                "number": 38,
-                "type": "adjective",
-                "definition": "Strait; narrow."
-            },
-            {
-                "number": 39,
-                "type": "adjective",
-                "definition": "Stretched out; fully extended."
-            },
-            {
-                "number": 40,
-                "type": "adjective",
-                "definition": "Thorough; utter; unqualified."
-            },
-            {
-                "number": 41,
-                "type": "adjective",
-                "definition": "Of spirits: undiluted, unmixed; neat."
-            },
-            {
-                "number": 42,
-                "type": "adjective",
-                "definition": "Concerning the property allowing the parallel-transport of vectors along a course that keeps tangent vectors remain tangent vectors throughout that course (a course which is straight, a straight curve, is a geodesic)."
-            },
-            {
-                "number": 43,
-                "type": "noun",
-                "definition": "Treasure."
-            },
-            {
-                "number": 44,
-                "type": "noun",
-                "definition": "The blood-vessel in the yolk of an egg."
-            },
-            {
-                "number": 45,
-                "type": "noun",
-                "definition": "Race; lineage, pedigree."
-            },
-            {
-                "number": 46,
-                "type": "noun",
-                "definition": "Hereditary character, quality, or disposition."
-            },
-            {
-                "number": 47,
-                "type": "noun",
-                "definition": "A tendency or disposition."
-            },
-            {
-                "number": 48,
-                "type": "noun",
-                "definition": "Any sustained note or movement; a song; a distinct portion of an ode or other poem; also, the pervading note, or burden, of a song, poem, oration, book, etc.; theme; motive; manner; style."
-            },
-            {
-                "number": 49,
-                "type": "noun",
-                "definition": "A particular breed or race of animal, microbe etc."
-            },
-            {
-                "number": 50,
-                "type": "noun",
-                "definition": "A portion of music divided off by a double bar; a complete musical period or sentence; a movement, or any rounded subdivision of a movement."
-            },
-            {
-                "number": 51,
-                "type": "noun",
-                "definition": "A kind or sort (of person etc.)."
-            },
-            {
-                "number": 52,
-                "type": "noun",
-                "definition": "Language that is eloquent, poetic, or otherwise heightened."
-            },
-            {
-                "number": 53,
-                "type": "noun",
-                "definition": "The act of straining, or the state of being strained."
-            },
-            {
-                "number": 54,
-                "type": "noun",
-                "definition": "A violent effort; an excessive and hurtful exertion or tension, as of the muscles."
-            },
-            {
-                "number": 55,
-                "type": "noun",
-                "definition": "An injury resulting from violent effort; a sprain."
-            },
-            {
-                "number": 56,
-                "type": "noun",
-                "definition": "A dimensionless measure of object deformation either referring to engineering strain or true strain."
-            },
-            {
-                "number": 57,
-                "type": "noun",
-                "definition": "The track of a deer."
-            },
-            {
-                "number": 58,
-                "type": "noun",
-                "definition": "A Greek unit of land area, now equal to a decare (1,000 m²) but previously 10,000 square Greek feet."
-            },
-            {
-                "number": 59,
-                "type": "noun",
-                "definition": "The dunam, the Turkish unit of land area derived from the Greek unit."
-            },
-            {
-                "number": 60,
-                "type": "noun",
-                "definition": "The quality or degree of being strong.",
-                "definition_extra": [
-                    {
-                        "type": "Antonyms",
-                        "content": "weakness."
-                    }
-                ]
-            },
-            {
-                "number": 61,
-                "type": "noun",
-                "definition": "The intensity of a force or power; potency."
-            },
-            {
-                "number": 62,
-                "type": "noun",
-                "definition": "The strongest part of something; that on which confidence or reliance is based."
-            },
-            {
-                "number": 63,
-                "type": "noun",
-                "definition": "A positive attribute.",
-                "definition_extra": [
-                    {
-                        "type": "Antonyms",
-                        "content": "weakness."
-                    }
-                ]
-            },
-            {
-                "number": 64,
-                "type": "noun",
-                "definition": "An armed force, a body of troops."
-            },
-            {
-                "number": 65,
-                "type": "noun",
-                "definition": "A strong place; a stronghold."
-            },
-            {
-                "number": 66,
-                "type": "adjective",
-                "definition": "Strained; drawn close; tight."
-            },
-            {
-                "number": 67,
-                "type": "adjective",
-                "definition": "Tense; not relaxed."
-            },
-            {
-                "number": 68,
-                "type": "adjective",
-                "definition": "Exact; accurate; precise; rigorously particular."
-            },
-            {
-                "number": 69,
-                "type": "adjective",
-                "definition": "Governed or governing by exact rules; observing exact rules; severe; rigorous."
-            },
-            {
-                "number": 70,
-                "type": "adjective",
-                "definition": "Rigidly interpreted; exactly limited; confined; restricted."
-            },
-            {
-                "number": 71,
-                "type": "adjective",
-                "definition": "Upright, or straight and narrow; — said of the shape of the plants or their flower clusters."
-            },
-            {
-                "number": 72,
-                "type": "adjective",
-                "definition": "Severe in discipline."
-            },
-            {
-                "number": 73,
-                "type": "adjective",
-                "definition": "Irreflexive; if the described object is defined to be reflexive, that condition is overridden and replaced with irreflexive."
-            },
-            {
-                "number": 74,
-                "type": "adverb",
-                "definition": "In a strict manner."
-            },
-            {
-                "number": 75,
-                "type": "adverb",
-                "definition": "In a limited manner; only."
-            },
-            {
-                "number": 76,
-                "type": "adverb",
-                "definition": "In a narrow or limited sense."
-            },
-            {
-                "number": 77,
-                "type": "adverb",
-                "definition": "In a manner that applies to every member of a set or every interval of a function."
-            },
-            {
-                "number": 78,
-                "type": "noun",
-                "definition": "A long, thin and flexible structure made from threads twisted together."
-            },
-            {
-                "number": 79,
-                "type": "noun",
-                "definition": "Such a structure considered as a substance."
-            },
-            {
-                "number": 80,
-                "type": "noun",
-                "definition": "Any similar long, thin and flexible object."
-            },
-            {
-                "number": 81,
-                "type": "noun",
-                "definition": "A thread or cord on which a number of objects or parts are strung or arranged in close and orderly succession; hence, a line or series of things arranged on a thread, or as if so arranged."
-            },
-            {
-                "number": 82,
-                "type": "noun",
-                "definition": "A cohesive substance taking the form of a string."
-            },
-            {
-                "number": 83,
-                "type": "noun",
-                "definition": "A series of items or events."
-            },
-            {
-                "number": 84,
-                "type": "noun",
-                "definition": "The members of a sports team or squad regarded as most likely to achieve success. (Perhaps metaphorical as the \"strings\" that hold the squad together.) Often first string, second string etc."
-            },
-            {
-                "number": 85,
-                "type": "noun",
-                "definition": "In various games and competitions, a certain number of turns at play, of rounds, etc."
-            },
-            {
-                "number": 86,
-                "type": "noun",
-                "definition": "A drove of horses, or a group of racehorses kept by one owner or at one stable."
-            },
-            {
-                "number": 87,
-                "type": "noun",
-                "definition": "An ordered sequence of text characters stored consecutively in memory and capable of being processed as a single entity."
-            },
-            {
-                "number": 88,
-                "type": "noun",
-                "definition": "A stringed instrument."
-            },
-            {
-                "number": 89,
-                "type": "noun",
-                "definition": "(usually in the plural) The stringed instruments as a section of an orchestra, especially those played by a bow, or the persons playing those instruments."
-            },
-            {
-                "number": 90,
-                "type": "noun",
-                "definition": "(in the plural) The conditions and limitations in a contract collectively."
-            },
-            {
-                "number": 91,
-                "type": "noun",
-                "definition": "The main object of study in string theory, a branch of theoretical physics."
-            },
-            {
-                "number": 92,
-                "type": "noun",
-                "definition": "Cannabis or marijuana."
-            },
-            {
-                "number": 93,
-                "type": "noun",
-                "definition": "Part of the game of billiards, where the order of the play is determined by testing who can get a ball closest to the bottom rail by shooting it onto the end rail."
-            },
-            {
-                "number": 94,
-                "type": "noun",
-                "definition": "The buttons strung on a wire by which the score is kept."
-            },
-            {
-                "number": 95,
-                "type": "noun",
-                "definition": "(by extension) The points made in a game of billiards."
-            },
-            {
-                "number": 96,
-                "type": "noun",
-                "definition": "The line from behind and over which the cue ball must be played after being out of play, as by being pocketed or knocked off the table; also called the string line."
-            },
-            {
-                "number": 97,
-                "type": "noun",
-                "definition": "A strip, as of leather, by which the covers of a book are held together."
-            },
-            {
-                "number": 98,
-                "type": "noun",
-                "definition": "A fibre, as of a plant; a little fibrous root."
-            },
-            {
-                "number": 99,
-                "type": "noun",
-                "definition": "A nerve or tendon of an animal body."
-            },
-            {
-                "number": 100,
-                "type": "noun",
-                "definition": "An inside range of ceiling planks, corresponding to the sheer strake on the outside and bolted to it."
-            },
-            {
-                "number": 101,
-                "type": "noun",
-                "definition": "The tough fibrous substance that unites the valves of the pericarp of leguminous plants."
-            },
-            {
-                "number": 102,
-                "type": "noun",
-                "definition": "A small, filamentous ramification of a metallic vein."
-            },
-            {
-                "number": 103,
-                "type": "noun",
-                "definition": "A stringcourse."
-            },
-            {
-                "number": 104,
-                "type": "noun",
-                "definition": "A hoax; a fake story."
-            },
-            {
-                "number": 105,
-                "type": "adjective",
-                "definition": "Capable of producing great physical force."
-            },
-            {
-                "number": 106,
-                "type": "adjective",
-                "definition": "Capable of withstanding great physical force."
-            },
-            {
-                "number": 107,
-                "type": "adjective",
-                "definition": "(of water, wind, etc.) Having a lot of power."
-            },
-            {
-                "number": 108,
-                "type": "adjective",
-                "definition": "Determined; unyielding."
-            },
-            {
-                "number": 109,
-                "type": "adjective",
-                "definition": "Highly stimulating to the senses."
-            },
-            {
-                "number": 110,
-                "type": "adjective",
-                "definition": "Having an offensive or intense odor or flavor."
-            },
-            {
-                "number": 111,
-                "type": "adjective",
-                "definition": "Having a high concentration of an essential or active ingredient."
-            },
-            {
-                "number": 112,
-                "type": "adjective",
-                "definition": "(specifically) Having a high alcoholic content."
-            },
-            {
-                "number": 113,
-                "type": "adjective",
-                "definition": "(grammar) Inflecting in a different manner than the one called weak, such as Germanic verbs which change vowels."
-            },
-            {
-                "number": 114,
-                "type": "adjective",
-                "definition": "That completely ionizes into anions and cations in a solution."
-            },
-            {
-                "number": 115,
-                "type": "adjective",
-                "definition": "Not easily subdued or taken."
-            },
-            {
-                "number": 116,
-                "type": "adjective",
-                "definition": "Having wealth or resources."
-            },
-            {
-                "number": 117,
-                "type": "adjective",
-                "definition": "Impressive, good."
-            },
-            {
-                "number": 118,
-                "type": "adjective",
-                "definition": "Having a specified number of people or units."
-            },
-            {
-                "number": 119,
-                "type": "adjective",
-                "definition": "(of a disease or symptom) Severe; very bad or intense."
-            },
-            {
-                "number": 120,
-                "type": "adjective",
-                "definition": "Having a wide range of logical consequences; widely applicable. (Often contrasted with a weak statement which it implies.)."
-            },
-            {
-                "number": 121,
-                "type": "adjective",
-                "definition": "(of an argument) Convincing."
-            },
-            {
-                "number": 122,
-                "type": "adverb",
-                "definition": "In a strong or powerful manner."
-            },
-            {
-                "number": 123,
-                "type": "adverb",
-                "definition": "Very much."
             }
         ]
     },
@@ -78034,11 +76084,6 @@
             },
             {
                 "number": 14,
-                "type": "adverb",
-                "definition": "Saddle-backed."
-            },
-            {
-                "number": 15,
                 "type": "verb",
                 "definition": "To engage in anal sex with the intention of preserving one's virginity (chiefly by Christian teenagers)."
             }
@@ -84701,7 +82746,7 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "A small quantity of something occurring at irregular intervals and dispersed at random points,."
+                "definition": "A small quantity of something occurring at irregular intervals and dispersed at random points."
             },
             {
                 "number": 8,
@@ -88766,7 +86811,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A kind of light cotton or linen fabric, often woven in openwork patterns, -- used for curtains, etc,."
+                "definition": "A kind of light cotton or linen fabric, often woven in openwork patterns, -- used for curtains, etc."
             },
             {
                 "number": 2,
@@ -90466,83 +88511,6 @@
             },
             {
                 "number": 16,
-                "type": "verb",
-                "definition": "To hunt seals."
-            },
-            {
-                "number": 17,
-                "type": "verb",
-                "definition": "To place a seal on (a document)."
-            },
-            {
-                "number": 18,
-                "type": "verb",
-                "definition": "To mark with a stamp, as an evidence of standard exactness, legal size, or merchantable quality."
-            },
-            {
-                "number": 19,
-                "type": "verb",
-                "definition": "To fasten (something) so that it cannot be opened without visible damage."
-            },
-            {
-                "number": 20,
-                "type": "verb",
-                "definition": "To prevent people or vehicles from crossing (something).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "block, block off, close, close off, obstruct, seal off."
-                    }
-                ]
-            },
-            {
-                "number": 21,
-                "type": "verb",
-                "definition": "To close securely to prevent leakage."
-            },
-            {
-                "number": 22,
-                "type": "verb",
-                "definition": "To place in a sealed container.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "enclose."
-                    }
-                ]
-            },
-            {
-                "number": 23,
-                "type": "verb",
-                "definition": "To place a notation of one's next move in a sealed envelope to be opened after an adjournment."
-            },
-            {
-                "number": 24,
-                "type": "verb",
-                "definition": "To guarantee."
-            },
-            {
-                "number": 25,
-                "type": "verb",
-                "definition": "To fix, as a piece of iron in a wall, with cement or plaster, etc."
-            },
-            {
-                "number": 26,
-                "type": "verb",
-                "definition": "To close by means of a seal."
-            },
-            {
-                "number": 27,
-                "type": "verb",
-                "definition": "To confirm or set apart as a second or additional wife."
-            },
-            {
-                "number": 28,
-                "type": "verb",
-                "definition": "To tie up animals (especially cattle) in their stalls."
-            },
-            {
-                "number": 29,
                 "type": "noun",
                 "definition": "Hunting of seals (the animals)."
             }
@@ -91940,25 +89908,20 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "Alternative spelling of segge."
+                "definition": "A flock of herons, cranes, or bitterns."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "A flock of herons, cranes, or bitterns."
+                "definition": "(heading) Military action."
             },
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "(heading) Military action."
-            },
-            {
-                "number": 8,
-                "type": "noun",
                 "definition": "(heading) A seat."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "noun",
                 "definition": "A place with a toilet seat: an outhouse; a lavatory."
             }
@@ -92291,7 +90254,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any young plant, especially:."
+                "definition": "Any young plant."
             }
         ]
     },
@@ -93442,7 +91405,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The punctuation mark;."
+                "definition": "The punctuation mark."
             }
         ]
     },
@@ -96484,7 +94447,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To conclude or resolve (something):."
+                "definition": "To conclude or resolve (something)."
             },
             {
                 "number": 2,
@@ -96499,7 +94462,7 @@
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To establish or become established in a steady position:."
+                "definition": "To establish or become established in a steady position."
             },
             {
                 "number": 5,
@@ -111979,17 +109942,17 @@
             {
                 "number": 18,
                 "type": "noun",
-                "definition": "A slashing action or motion, particularly:."
+                "definition": "A slashing action or motion."
             },
             {
                 "number": 19,
                 "type": "noun",
-                "definition": "A mark made by a slashing motion, particularly:."
+                "definition": "A mark made by a slashing motion."
             },
             {
                 "number": 20,
                 "type": "noun",
-                "definition": "Something resembling such a mark, particularly:."
+                "definition": "Something resembling such a mark."
             },
             {
                 "number": 21,
@@ -112099,17 +110062,17 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A slashing action or motion, particularly:."
+                "definition": "A slashing action or motion."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A mark made by a slashing motion, particularly:."
+                "definition": "A mark made by a slashing motion."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Something resembling such a mark, particularly:."
+                "definition": "Something resembling such a mark."
             },
             {
                 "number": 4,
@@ -112124,12 +110087,12 @@
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To cut or attempt to cut, particularly:."
+                "definition": "To cut or attempt to cut."
             },
             {
                 "number": 7,
                 "type": "verb",
-                "definition": "To strike violently and randomly, particularly:."
+                "definition": "To strike violently and randomly."
             },
             {
                 "number": 8,
@@ -112219,12 +110182,12 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To cut or attempt to cut, particularly:."
+                "definition": "To cut or attempt to cut."
             },
             {
                 "number": 2,
                 "type": "verb",
-                "definition": "To strike violently and randomly, particularly:."
+                "definition": "To strike violently and randomly."
             },
             {
                 "number": 3,
@@ -112274,12 +110237,12 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To cut or attempt to cut, particularly:."
+                "definition": "To cut or attempt to cut."
             },
             {
                 "number": 2,
                 "type": "verb",
-                "definition": "To strike violently and randomly, particularly:."
+                "definition": "To strike violently and randomly."
             },
             {
                 "number": 3,
@@ -115090,79 +113053,23 @@
             },
             {
                 "number": 14,
-                "type": "noun",
-                "definition": "A loose outer garment; a jacket or overall."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "(chiefly in the plural) A rubber thong sandal."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "(in the plural) See slops."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "Liquid or semi-solid; goo, paste, mud."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "(sometimes in the plural) Scraps used as food for animals, especially pigs or hogs.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "hogwash, swill."
-                    }
-                ]
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "(chiefly in the plural) Inferior, weak drink or liquid food."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "(sometimes in the plural) Domestic liquid waste; household wastewater."
-            },
-            {
-                "number": 21,
-                "type": "noun",
-                "definition": "Water or other liquid carelessly spilled or thrown about, as upon a table or a floor; a puddle; a soiled spot."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "Human urine or excrement."
-            },
-            {
-                "number": 23,
                 "type": "verb",
                 "definition": "To spill or dump liquid, especially over the rim of a container when it moves."
             },
             {
-                "number": 24,
+                "number": 15,
                 "type": "verb",
                 "definition": "To spill liquid upon; to soil with a spilled liquid."
             },
             {
-                "number": 25,
+                "number": 16,
                 "type": "verb",
                 "definition": "In the game of pool or snooker to pocket a ball by accident; in billiards, to make an ill-considered shot."
             },
             {
-                "number": 26,
+                "number": 17,
                 "type": "verb",
                 "definition": "To feed pigs."
-            },
-            {
-                "number": 27,
-                "type": "noun",
-                "definition": "(costers) A policeman."
             }
         ]
     },
@@ -120589,7 +118496,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A shrub bearing white berries:."
+                "definition": "A shrub bearing white berries."
             },
             {
                 "number": 2,
@@ -123077,7 +120984,7 @@
             {
                 "number": 2,
                 "type": "adjective",
-                "definition": "(Usually followed by about, for, etc., or a clause) Showing care, concern, or attention, in any of several ways; thus:."
+                "definition": "(Usually followed by about, for, etc., or a clause) Showing care, concern, or attention, in any of several ways."
             }
         ]
     },
@@ -123187,17 +121094,17 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A slashing action or motion, particularly:."
+                "definition": "A slashing action or motion."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A mark made by a slashing motion, particularly:."
+                "definition": "A mark made by a slashing motion."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Something resembling such a mark, particularly:."
+                "definition": "Something resembling such a mark."
             },
             {
                 "number": 4,
@@ -123247,7 +121154,7 @@
             {
                 "number": 13,
                 "type": "noun",
-                "definition": "Various medieval and early modern coins or units of account, particularly:."
+                "definition": "Various medieval and early modern coins or units of account."
             },
             {
                 "number": 14,
@@ -125048,11 +122955,6 @@
                 "number": 3,
                 "type": "noun",
                 "definition": "The property (of an argument) of not only being valid, but also of having true premises."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "The property of a logical theory that whenever a wff is a theorem then it must also be valid. Symbolically, letting T represent a theory within logic L, this can be represented as the property that whenever T \\vdash \\phi is true, then T \\vDash \\phi must also be true, for any wff φ of logic L."
             }
         ]
     },
@@ -125252,41 +123154,6 @@
             },
             {
                 "number": 4,
-                "type": "noun",
-                "definition": "An old French copper coin equal to one twentieth of a livre or twelve deniers; one sou is to the livre as one shilling is to the pound."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "Cent; pocket money."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A thing of the smallest value; a whit; a jot."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "Short for sous-chef."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "An old French copper coin equal to one twentieth of a livre or twelve deniers; one sou is to the livre as one shilling is to the pound."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "Cent; pocket money."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A thing of the smallest value; a whit; a jot."
-            },
-            {
-                "number": 11,
                 "type": "noun",
                 "definition": "Short for sous-chef."
             }
@@ -126728,11 +124595,6 @@
                 "number": 14,
                 "type": "verb",
                 "definition": "To woo, court; to act the gallant or beau."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "An electrician."
             }
         ]
     },
@@ -127675,12 +125537,12 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To make distinct or separate, particularly:."
+                "definition": "To make distinct or separate."
             },
             {
                 "number": 2,
                 "type": "verb",
-                "definition": "To become distinct or separate, particularly:."
+                "definition": "To become distinct or separate."
             }
         ]
     },
@@ -127730,7 +125592,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "The extent to which a characteristic is specific to a given person, place, or thing; thus:."
+                "definition": "The extent to which a characteristic is specific to a given person, place, or thing."
             }
         ]
     },
@@ -129067,16 +126929,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "A device used to measure blood pressure."
-            }
-        ]
-    },
-    "spic": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A Spanish-speaking person, someone with a Central American or Latino accent."
             }
         ]
     },
@@ -133117,11 +130969,6 @@
                 "number": 13,
                 "type": "verb",
                 "definition": "(camping) To set up a recreational vehicle (RV) at a campsite, typically by leveling the RV and connecting it to electric, water, and/or sewer hookups."
-            },
-            {
-                "number": 14,
-                "type": "proper noun",
-                "definition": "A game for three or more players, involving the gradual elimination of players by throwing and catching a ball."
             }
         ]
     },
@@ -134040,7 +131887,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To adjust so as to align with or place at a right angle to something else; in particular:."
+                "definition": "To adjust so as to align with or place at a right angle to something else."
             },
             {
                 "number": 2,
@@ -134264,7 +132111,7 @@
             {
                 "number": 20,
                 "type": "verb",
-                "definition": "To adjust so as to align with or place at a right angle to something else; in particular:."
+                "definition": "To adjust so as to align with or place at a right angle to something else."
             },
             {
                 "number": 21,
@@ -136151,7 +133998,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To cease motion, activity, or progress:."
+                "definition": "To cease motion, activity, or progress."
             }
         ]
     },
@@ -139320,40 +137167,35 @@
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To guide the course of a vessel, vehicle, aircraft etc. (by means of a device such as a rudder, paddle, or steering wheel)."
+                "definition": "To be directed and governed; to take a direction, or course; to obey the helm."
             },
             {
                 "number": 5,
                 "type": "verb",
-                "definition": "To be directed and governed; to take a direction, or course; to obey the helm."
+                "definition": "To direct a group of animals."
             },
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To direct a group of animals."
+                "definition": "To maneuver or manipulate a person or group into a place or course of action."
             },
             {
                 "number": 7,
                 "type": "verb",
-                "definition": "To maneuver or manipulate a person or group into a place or course of action."
+                "definition": "To direct a conversation."
             },
             {
                 "number": 8,
                 "type": "verb",
-                "definition": "To direct a conversation."
-            },
-            {
-                "number": 9,
-                "type": "verb",
                 "definition": "To conduct oneself; to take or pursue a course of action."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "noun",
                 "definition": "The castrated male of cattle, especially one raised for beef production."
             },
             {
-                "number": 11,
+                "number": 10,
                 "type": "verb",
                 "definition": "To castrate (a male calf)."
             }
@@ -142191,16 +140033,6 @@
             },
             {
                 "number": 2,
-                "type": "noun",
-                "definition": "The shallow-water Cape hake (Merluccius capensis)."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A cod (or similar fish) having been cut open and cured in the open air without salt."
-            },
-            {
-                "number": 4,
                 "type": "noun",
                 "definition": "The shallow-water Cape hake (Merluccius capensis)."
             }
@@ -146377,7 +144209,7 @@
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "A line drawn with a pen or other writing implement, particularly:."
+                "definition": "A line drawn with a pen or other writing implement."
             },
             {
                 "number": 7,
@@ -148779,11 +146611,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "A large landmass which is either smaller than a continent (such as Greenland), or part of an even larger continent (such as the Indian subcontinent)."
-            },
-            {
-                "number": 2,
-                "type": "proper noun",
-                "definition": "The Indian subcontinent, South Asia."
             }
         ]
     },
@@ -156151,51 +153978,6 @@
                 "number": 16,
                 "type": "noun",
                 "definition": "Initialism of scientific/speculative/sophisticated/stupid wild-ass guess."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "(window coverings) A loop of draped fabric."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "A low point or depression in land; especially, a place where water collects."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "Style; fashionable appearance or manner."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "(thieves' cant) A shop and its goods; any quantity of goods."
-            },
-            {
-                "number": 21,
-                "type": "noun",
-                "definition": "(thieves' cant) Stolen goods; the booty of a burglar or thief; boodle."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "Handouts, freebies, or giveaways, such as those handed out at conventions."
-            },
-            {
-                "number": 23,
-                "type": "noun",
-                "definition": "The possessions of a bushman or itinerant worker, tied up in a blanket and carried over the shoulder, sometimes attached to a stick."
-            },
-            {
-                "number": 24,
-                "type": "noun",
-                "definition": "(by extension) A small single-person tent, usually foldable into an integral backpack."
-            },
-            {
-                "number": 25,
-                "type": "noun",
-                "definition": "A large quantity (of something)."
             }
         ]
     },

@@ -217,44 +217,50 @@
             },
             {
                 "number": "30",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "En el juego de damas o en el de ajedrez, estado en el cual ninguno de los jugadores puede ganar la partida."
             },
             {
                 "number": "31",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Empate entre competidores. Hacer tablas un asunto. Quedar tablas."
             },
             {
                 "number": "32",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "tablas de la ley."
             },
             {
                 "number": "33",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Escenario del teatro."
             },
             {
                 "number": "34",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Experiencia y soltura en actuaciones en público o en el desarrollo de una actividad. Un actor, una abogada con muchas tablas."
             },
             {
                 "number": "35",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Conjunto de tres tablillas como las de san Lázaro, con cuyo ruido despertaban a los frailes de algunas órdenes religiosas para que se juntasen a rezar maitines."
             },
             {
                 "number": "36",
-                "type": "nombre femenino plural",
-                "type_extra": "Tauromaquia",
+                "type": "nombre femenino",
+                "type_extra": "Tauromaquia, en plural",
                 "definition": "Barrera o valla que circunda el ruedo."
             },
             {
                 "number": "37",
-                "type": "nombre femenino plural",
-                "type_extra": "Tauromaquia",
+                "type": "nombre femenino",
+                "type_extra": "Tauromaquia, en plural",
                 "definition": "Tercio del ruedo inmediato a la barrera."
             }
         ]
@@ -345,44 +351,44 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo demostrativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, demostrativo",
                 "definition": "Ese, dicho o que se acaba de mencionar. Profirió insultos y amenazas, y tal comportamiento provocó su inmediata expulsión. raramente con artículo antepuesto. Hicieron el pedido de las armas y esperaron con paciencia las tales armas."
             },
             {
                 "number": "2",
-                "type": "adjetivo demostrativo",
-                "type_extra": "Usado más pospuesto",
+                "type": "adjetivo",
+                "type_extra": "Usado más pospuesto, demostrativo",
                 "definition": "De estas o esas características o clase. Las temibles tormentas de octubre arrasaron la isla. Nadie se esperaba tormentas tales."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, indefinido",
                 "definition": "Tanto o tan grande. en construcciones consecutivas. La novela desató tal polémica que al final fue retirada. Esta soprano despierta un entusiasmo tal que no hay entradas desde mayo."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, indefinido",
                 "definition": "Aplicado a un nombre propio, da a entender que la persona a la que se alude es poco conocida para el hablante o sus interlocutores. Estaba allí una tal Ana. El tal Alberto nos había mentido."
             },
             {
                 "number": "5",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "culto, Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "culto, Usado, usada, usados o usadas, demostrativo masculino y femenino",
                 "definition": "El que se acaba de mencionar. como atributo o complemento predicativo. Sus amigas dejaron pronto de ser tales."
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo neutro",
-                "type_extra": "culto",
+                "type": "pronombre",
+                "type_extra": "culto, demostrativo neutro",
                 "definition": "Lo que se acaba de mencionar. Nunca se atreverían a decir tal."
             },
             {
                 "number": "7",
-                "type": "adverbio demostrativo",
-                "type_extra": "poco usado, Usado",
+                "type": "adverbio",
+                "type_extra": "poco usado, Usado, demostrativo",
                 "definition": "Así, de esta manera, de esta suerte. Tal me habló que no supe qué responderle. con frecuencia en correlación con cual o con así como. Así como el Sol da luz a la Tierra, tal ha de iluminar la verdad el entendimiento."
             }
         ]
@@ -689,8 +695,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante sustantivos, indica que la cantidad, magnitud o intensidad de lo designado es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Hay tanta gente aquí como en la playa. Hizo tanto ruido como una bomba.",
                 "definition_extra": [
                     {
@@ -701,13 +707,14 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por el sustantivo al que precede. normalmente ante una oración consecutiva. Hace tanto calor que no se puede dormir. ¡ Hacía tanto calor …!."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
+                "type": "adjetivo",
+                "type_extra": "demostrativo",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por el sustantivo que introduce. Su hija ganó 15 a 7; él no hizo tantos puntos."
             },
             {
@@ -724,31 +731,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Indica que la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Contó a las niñas: había tantas como sillas en el aula. En cuanto a los puestos, se convocarán tantos cuantos sea posible cubrir."
             },
             {
                 "number": "7",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido. normalmente ante una oración consecutiva. Tenía mucha sed, tanta que no aguantaba."
             },
             {
                 "number": "8",
-                "type": "pronombre comparativo neutro",
-                "type_extra": "Usado o usada también",
+                "type": "pronombre",
+                "type_extra": "Usado o usada también, comparativo neutro",
                 "definition": "tantas cosas. Le debía tanto como a los demás. en construcciones consecutivas. Tengo tanto que estudiar que es imposible que vaya a la fiesta."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo masculino y femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino y femenino",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por un sustantivo mencionado o consabido. Había cientos de medusas, nunca había visto tantas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "plural",
+                "type": "pronombre",
+                "type_extra": "plural, demostrativo masculino y femenino",
                 "definition": "Con determinados numerales, múltiplos de diez, indica cantidad imprecisa de algo. No es muy mayor, tiene cuarenta y tantos."
             },
             {
@@ -785,38 +793,38 @@
             },
             {
                 "number": "17",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante adjetivos y adverbios, indica que la magnitud designada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Corrió tan rápidamente como el ganador. Son tan necesarias cuanto imposibles de pagar."
             },
             {
                 "number": "18",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pospuesto a verbos, indica que la intensidad, duración o frecuencia de la acción expresada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Llueve tanto como ayer. Esperaremos tanto cuanto sea necesario."
             },
             {
                 "number": "19",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado, Usado también",
+                "type": "adverbio",
+                "type_extra": "Usado, Usado también, comparativo",
                 "definition": "Pondera la intensidad de la cualidad indicada por el adjetivo o el adverbio al que precede. normalmente ante una oración consecutiva. Es tan caro que no podemos permitírnoslo. Iba tan deprisa que no lo vio pasar. en oraciones exclamativas cuando no se expresa una consecuencia. ¡ Qué casa tan grande !."
             },
             {
                 "number": "20",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pondera la intensidad, duración o frecuencia de la acción expresada por el verbo al que acompaña. normalmente ante una oración consecutiva. Llovió tanto durante una hora que se inundó el sótano. Tardaba tanto que nos preocupamos. Va tanto al cine que lo conocen en todas las salas."
             },
             {
                 "number": "21",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Ante adjetivos o adverbios, así o en tal grado. en frases negativas o interrogativas. No hables tan alto. No vayas tan deprisa."
             },
             {
                 "number": "22",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Acompañando a verbos, así, de esa manera o con tal intensidad, duración o frecuencia. en frases negativas o interrogativas. A él le gustó mucho, pero a mí, no tanto. Ayer vino a las tres ; esperemos que hoy no tarde tanto. No sabía que fumara tanto."
             },
             {
@@ -831,8 +839,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante sustantivos, indica que la cantidad, magnitud o intensidad de lo designado es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Hay tanta gente aquí como en la playa. Hizo tanto ruido como una bomba.",
                 "definition_extra": [
                     {
@@ -843,13 +851,14 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por el sustantivo al que precede. normalmente ante una oración consecutiva. Hace tanto calor que no se puede dormir. ¡ Hacía tanto calor …!."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
+                "type": "adjetivo",
+                "type_extra": "demostrativo",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por el sustantivo que introduce. Su hija ganó 15 a 7; él no hizo tantos puntos."
             },
             {
@@ -866,31 +875,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Indica que la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Contó a las niñas: había tantas como sillas en el aula. En cuanto a los puestos, se convocarán tantos cuantos sea posible cubrir."
             },
             {
                 "number": "7",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido. normalmente ante una oración consecutiva. Tenía mucha sed, tanta que no aguantaba."
             },
             {
                 "number": "8",
-                "type": "pronombre comparativo neutro",
-                "type_extra": "Usado o usada también",
+                "type": "pronombre",
+                "type_extra": "Usado o usada también, comparativo neutro",
                 "definition": "tantas cosas. Le debía tanto como a los demás. en construcciones consecutivas. Tengo tanto que estudiar que es imposible que vaya a la fiesta."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo masculino y femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino y femenino",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por un sustantivo mencionado o consabido. Había cientos de medusas, nunca había visto tantas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "plural",
+                "type": "pronombre",
+                "type_extra": "plural, demostrativo masculino y femenino",
                 "definition": "Con determinados numerales, múltiplos de diez, indica cantidad imprecisa de algo. No es muy mayor, tiene cuarenta y tantos."
             },
             {
@@ -927,38 +937,38 @@
             },
             {
                 "number": "17",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante adjetivos y adverbios, indica que la magnitud designada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Corrió tan rápidamente como el ganador. Son tan necesarias cuanto imposibles de pagar."
             },
             {
                 "number": "18",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pospuesto a verbos, indica que la intensidad, duración o frecuencia de la acción expresada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Llueve tanto como ayer. Esperaremos tanto cuanto sea necesario."
             },
             {
                 "number": "19",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado, Usado también",
+                "type": "adverbio",
+                "type_extra": "Usado, Usado también, comparativo",
                 "definition": "Pondera la intensidad de la cualidad indicada por el adjetivo o el adverbio al que precede. normalmente ante una oración consecutiva. Es tan caro que no podemos permitírnoslo. Iba tan deprisa que no lo vio pasar. en oraciones exclamativas cuando no se expresa una consecuencia. ¡ Qué casa tan grande !."
             },
             {
                 "number": "20",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pondera la intensidad, duración o frecuencia de la acción expresada por el verbo al que acompaña. normalmente ante una oración consecutiva. Llovió tanto durante una hora que se inundó el sótano. Tardaba tanto que nos preocupamos. Va tanto al cine que lo conocen en todas las salas."
             },
             {
                 "number": "21",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Ante adjetivos o adverbios, así o en tal grado. en frases negativas o interrogativas. No hables tan alto. No vayas tan deprisa."
             },
             {
                 "number": "22",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Acompañando a verbos, así, de esa manera o con tal intensidad, duración o frecuencia. en frases negativas o interrogativas. A él le gustó mucho, pero a mí, no tanto. Ayer vino a las tres ; esperemos que hoy no tarde tanto. No sabía que fumara tanto."
             },
             {
@@ -973,8 +983,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante sustantivos, indica que la cantidad, magnitud o intensidad de lo designado es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Hay tanta gente aquí como en la playa. Hizo tanto ruido como una bomba.",
                 "definition_extra": [
                     {
@@ -985,13 +995,14 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por el sustantivo al que precede. normalmente ante una oración consecutiva. Hace tanto calor que no se puede dormir. ¡ Hacía tanto calor …!."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
+                "type": "adjetivo",
+                "type_extra": "demostrativo",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por el sustantivo que introduce. Su hija ganó 15 a 7; él no hizo tantos puntos."
             },
             {
@@ -1008,31 +1019,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Indica que la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Contó a las niñas: había tantas como sillas en el aula. En cuanto a los puestos, se convocarán tantos cuantos sea posible cubrir."
             },
             {
                 "number": "7",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido. normalmente ante una oración consecutiva. Tenía mucha sed, tanta que no aguantaba."
             },
             {
                 "number": "8",
-                "type": "pronombre comparativo neutro",
-                "type_extra": "Usado o usada también",
+                "type": "pronombre",
+                "type_extra": "Usado o usada también, comparativo neutro",
                 "definition": "tantas cosas. Le debía tanto como a los demás. en construcciones consecutivas. Tengo tanto que estudiar que es imposible que vaya a la fiesta."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo masculino y femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino y femenino",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por un sustantivo mencionado o consabido. Había cientos de medusas, nunca había visto tantas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "plural",
+                "type": "pronombre",
+                "type_extra": "plural, demostrativo masculino y femenino",
                 "definition": "Con determinados numerales, múltiplos de diez, indica cantidad imprecisa de algo. No es muy mayor, tiene cuarenta y tantos."
             },
             {
@@ -1069,38 +1081,38 @@
             },
             {
                 "number": "17",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante adjetivos y adverbios, indica que la magnitud designada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Corrió tan rápidamente como el ganador. Son tan necesarias cuanto imposibles de pagar."
             },
             {
                 "number": "18",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pospuesto a verbos, indica que la intensidad, duración o frecuencia de la acción expresada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Llueve tanto como ayer. Esperaremos tanto cuanto sea necesario."
             },
             {
                 "number": "19",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado, Usado también",
+                "type": "adverbio",
+                "type_extra": "Usado, Usado también, comparativo",
                 "definition": "Pondera la intensidad de la cualidad indicada por el adjetivo o el adverbio al que precede. normalmente ante una oración consecutiva. Es tan caro que no podemos permitírnoslo. Iba tan deprisa que no lo vio pasar. en oraciones exclamativas cuando no se expresa una consecuencia. ¡ Qué casa tan grande !."
             },
             {
                 "number": "20",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pondera la intensidad, duración o frecuencia de la acción expresada por el verbo al que acompaña. normalmente ante una oración consecutiva. Llovió tanto durante una hora que se inundó el sótano. Tardaba tanto que nos preocupamos. Va tanto al cine que lo conocen en todas las salas."
             },
             {
                 "number": "21",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Ante adjetivos o adverbios, así o en tal grado. en frases negativas o interrogativas. No hables tan alto. No vayas tan deprisa."
             },
             {
                 "number": "22",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Acompañando a verbos, así, de esa manera o con tal intensidad, duración o frecuencia. en frases negativas o interrogativas. A él le gustó mucho, pero a mí, no tanto. Ayer vino a las tres ; esperemos que hoy no tarde tanto. No sabía que fumara tanto."
             },
             {
@@ -1115,8 +1127,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante sustantivos, indica que la cantidad, magnitud o intensidad de lo designado es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Hay tanta gente aquí como en la playa. Hizo tanto ruido como una bomba.",
                 "definition_extra": [
                     {
@@ -1127,13 +1139,14 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, comparativo",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por el sustantivo al que precede. normalmente ante una oración consecutiva. Hace tanto calor que no se puede dormir. ¡ Hacía tanto calor …!."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
+                "type": "adjetivo",
+                "type_extra": "demostrativo",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por el sustantivo que introduce. Su hija ganó 15 a 7; él no hizo tantos puntos."
             },
             {
@@ -1150,31 +1163,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Indica que la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Contó a las niñas: había tantas como sillas en el aula. En cuanto a los puestos, se convocarán tantos cuantos sea posible cubrir."
             },
             {
                 "number": "7",
-                "type": "pronombre comparativo masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, comparativo masculino y femenino",
                 "definition": "Intensifica la cantidad, magnitud o intensidad de lo designado por un sustantivo ya mencionado o sobrentendido. normalmente ante una oración consecutiva. Tenía mucha sed, tanta que no aguantaba."
             },
             {
                 "number": "8",
-                "type": "pronombre comparativo neutro",
-                "type_extra": "Usado o usada también",
+                "type": "pronombre",
+                "type_extra": "Usado o usada también, comparativo neutro",
                 "definition": "tantas cosas. Le debía tanto como a los demás. en construcciones consecutivas. Tengo tanto que estudiar que es imposible que vaya a la fiesta."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo masculino y femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino y femenino",
                 "definition": "Señala una cantidad, magnitud o intensidad a la que se equipara otra que expresa lo designado por un sustantivo mencionado o consabido. Había cientos de medusas, nunca había visto tantas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "plural",
+                "type": "pronombre",
+                "type_extra": "plural, demostrativo masculino y femenino",
                 "definition": "Con determinados numerales, múltiplos de diez, indica cantidad imprecisa de algo. No es muy mayor, tiene cuarenta y tantos."
             },
             {
@@ -1211,38 +1225,38 @@
             },
             {
                 "number": "17",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Ante adjetivos y adverbios, indica que la magnitud designada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Corrió tan rápidamente como el ganador. Son tan necesarias cuanto imposibles de pagar."
             },
             {
                 "number": "18",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pospuesto a verbos, indica que la intensidad, duración o frecuencia de la acción expresada es semejante a otra mencionada o consabida. en correlación con como o, menos a menudo, cuanto. Llueve tanto como ayer. Esperaremos tanto cuanto sea necesario."
             },
             {
                 "number": "19",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado, Usado también",
+                "type": "adverbio",
+                "type_extra": "Usado, Usado también, comparativo",
                 "definition": "Pondera la intensidad de la cualidad indicada por el adjetivo o el adverbio al que precede. normalmente ante una oración consecutiva. Es tan caro que no podemos permitírnoslo. Iba tan deprisa que no lo vio pasar. en oraciones exclamativas cuando no se expresa una consecuencia. ¡ Qué casa tan grande !."
             },
             {
                 "number": "20",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, comparativo",
                 "definition": "Pondera la intensidad, duración o frecuencia de la acción expresada por el verbo al que acompaña. normalmente ante una oración consecutiva. Llovió tanto durante una hora que se inundó el sótano. Tardaba tanto que nos preocupamos. Va tanto al cine que lo conocen en todas las salas."
             },
             {
                 "number": "21",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Ante adjetivos o adverbios, así o en tal grado. en frases negativas o interrogativas. No hables tan alto. No vayas tan deprisa."
             },
             {
                 "number": "22",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, demostrativo",
                 "definition": "Acompañando a verbos, así, de esa manera o con tal intensidad, duración o frecuencia. en frases negativas o interrogativas. A él le gustó mucho, pero a mí, no tanto. Ayer vino a las tres ; esperemos que hoy no tarde tanto. No sabía que fumara tanto."
             },
             {
@@ -1334,8 +1348,8 @@
             },
             {
                 "number": "14",
-                "type": "nombre femenino plural",
-                "type_extra": "Costa Rica",
+                "type": "nombre femenino",
+                "type_extra": "Costa Rica, en plural",
                 "definition": "trasero (nalgas)."
             }
         ]
@@ -2449,7 +2463,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "televisión.",
                 "definition_extra": [
                     {
@@ -3185,7 +3200,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "locución sustantiva masculina",
+                "type": "locución",
+                "type_extra": "sustantiva masculina",
                 "definition": "Tacto o moderación en la manera de tratar a alguien o de llevar algún asunto. Miguel gasta cierto ten con ten en sus cosas."
             }
         ]
@@ -5799,8 +5815,8 @@
             },
             {
                 "number": "8",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Mujer del teniente."
             }
         ]
@@ -6422,7 +6438,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo poco usado",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
                 "definition": "tercero (que ocupa en una serie el lugar número tres).",
                 "definition_extra": [
                     {
@@ -6621,8 +6638,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo coloquial",
-                "type_extra": "Usado también como sustantivo femenino",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo femenino, coloquial",
                 "definition": "teresiana (integrante de la Institución Teresiana).",
                 "definition_extra": [
                     {
@@ -7990,7 +8007,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "Negro, manchado."
             }
         ]
@@ -9292,7 +9310,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Oscuridad, falta de luz en lo abstracto o en lo moral."
             }
         ]
@@ -9366,8 +9385,8 @@
             },
             {
                 "number": "11",
-                "type": "nombre femenino plural",
-                "type_extra": "Pintura",
+                "type": "nombre femenino",
+                "type_extra": "Pintura, en plural",
                 "definition": "Mezcla de colores que se hace para pintar."
             }
         ]
@@ -11108,8 +11127,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, indefinido",
                 "definition": "Indica la totalidad de los miembros del conjunto denotado por el sintagma nominal al que modifica. con sintagmas nominales definidos en plural. Leyó todos los artículos. Todos ellos acudieron a la cita. a veces en lenguaje literario tras el nombre. Sus hijos todos.",
                 "definition_extra": [
                     {
@@ -11124,73 +11143,74 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado también",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado también, indefinido",
                 "definition": "cada (denota un conjunto cuyos miembros se consideran individualmente). con sintagmas nominales definidos en plural. Gana 1000 euros todos los meses. ante un sustantivo contable en singular sin determinante. Estaba pendiente de toda palabra que saliera de su boca."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, Usado, indefinido",
                 "definition": "Entero o en su totalidad. modificando a sintagmas nominales definidos en singular con nombres contables. Se leyó todo ese libro. a veces ante el artículo indefinido. Se quedará todo un año. a veces en lenguaje literario tras el nombre. Su vida toda fue un cúmulo de desgracias."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica la totalidad de la sustancia, la materia o la noción abstracta denotadas por el sustantivo al que modifica. seguido de sintagmas nominales definidos en singular con nombres no contables. Se bebió toda la leche. a veces en el lenguaje literario tras el sustantivo. Con la fuerza toda de su enorme poder."
             },
             {
                 "number": "5",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica que la persona o cosa denotada por el sustantivo al que modifica cumple todos los atributos que se asocian con un prototipo. en construcciones atributivas ante un nombre contable en singular precedido del artículo indefinido. Es toda una señora. Fue todo un acontecimiento."
             },
             {
                 "number": "6",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "cualquiera (la totalidad del conjunto). Todo reptil es un animal ovíparo. ante un sustantivo contable en singular sin determinante."
             },
             {
                 "number": "7",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "total. con sustantivos abstractos no contables, construidos sin determinante. Te lo digo con toda franqueza. Iban a toda velocidad."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido masculino y femenino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino plural",
                 "definition": "Designa la totalidad de los miembros de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. Posee varias casas y todas serán vuestras."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "todas las personas. sin referencia a un sintagma mencionado o sobrentendido. La limpieza de la ciudad nos concierne a todos."
             },
             {
                 "number": "10",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Indica el conjunto integral de los componentes de lo denotado por el sustantivo no contable al que se refiere. Compró mucha ropa, toda carísima. referido a un sintagma nominal mencionado o sobrentendido."
             },
             {
                 "number": "11",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Expresa que la cualidad asociada al sustantivo se aplica íntegramente a la persona de la que se habla. en construcciones atributivas, especialmente ante sustantivos sin determinante que indican actitud o disposición psicológica. Inés es toda sentimiento."
             },
             {
                 "number": "12",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Por completo, por entero o enteramente. en construcciones atributivas, modificando a adjetivos o participios. El abrigo quedó todo manchado. La viuda llegó toda enlutada."
             },
             {
                 "number": "13",
-                "type": "pronombre indefinido neutro",
+                "type": "pronombre",
+                "type_extra": "indefinido neutro",
                 "definition": "todas las cosas. Todo le gusta."
             },
             {
@@ -11210,8 +11230,8 @@
             },
             {
                 "number": "17",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Enteramente o por completo. en construcciones atributivas. Mar es todo huesos. Berta es todo sentimiento."
             }
         ]
@@ -11220,8 +11240,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, indefinido",
                 "definition": "Indica la totalidad de los miembros del conjunto denotado por el sintagma nominal al que modifica. con sintagmas nominales definidos en plural. Leyó todos los artículos. Todos ellos acudieron a la cita. a veces en lenguaje literario tras el nombre. Sus hijos todos.",
                 "definition_extra": [
                     {
@@ -11236,73 +11256,74 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado también",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado también, indefinido",
                 "definition": "cada (denota un conjunto cuyos miembros se consideran individualmente). con sintagmas nominales definidos en plural. Gana 1000 euros todos los meses. ante un sustantivo contable en singular sin determinante. Estaba pendiente de toda palabra que saliera de su boca."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, Usado, indefinido",
                 "definition": "Entero o en su totalidad. modificando a sintagmas nominales definidos en singular con nombres contables. Se leyó todo ese libro. a veces ante el artículo indefinido. Se quedará todo un año. a veces en lenguaje literario tras el nombre. Su vida toda fue un cúmulo de desgracias."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica la totalidad de la sustancia, la materia o la noción abstracta denotadas por el sustantivo al que modifica. seguido de sintagmas nominales definidos en singular con nombres no contables. Se bebió toda la leche. a veces en el lenguaje literario tras el sustantivo. Con la fuerza toda de su enorme poder."
             },
             {
                 "number": "5",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica que la persona o cosa denotada por el sustantivo al que modifica cumple todos los atributos que se asocian con un prototipo. en construcciones atributivas ante un nombre contable en singular precedido del artículo indefinido. Es toda una señora. Fue todo un acontecimiento."
             },
             {
                 "number": "6",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "cualquiera (la totalidad del conjunto). Todo reptil es un animal ovíparo. ante un sustantivo contable en singular sin determinante."
             },
             {
                 "number": "7",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "total. con sustantivos abstractos no contables, construidos sin determinante. Te lo digo con toda franqueza. Iban a toda velocidad."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido masculino y femenino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino plural",
                 "definition": "Designa la totalidad de los miembros de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. Posee varias casas y todas serán vuestras."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "todas las personas. sin referencia a un sintagma mencionado o sobrentendido. La limpieza de la ciudad nos concierne a todos."
             },
             {
                 "number": "10",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Indica el conjunto integral de los componentes de lo denotado por el sustantivo no contable al que se refiere. Compró mucha ropa, toda carísima. referido a un sintagma nominal mencionado o sobrentendido."
             },
             {
                 "number": "11",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Expresa que la cualidad asociada al sustantivo se aplica íntegramente a la persona de la que se habla. en construcciones atributivas, especialmente ante sustantivos sin determinante que indican actitud o disposición psicológica. Inés es toda sentimiento."
             },
             {
                 "number": "12",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Por completo, por entero o enteramente. en construcciones atributivas, modificando a adjetivos o participios. El abrigo quedó todo manchado. La viuda llegó toda enlutada."
             },
             {
                 "number": "13",
-                "type": "pronombre indefinido neutro",
+                "type": "pronombre",
+                "type_extra": "indefinido neutro",
                 "definition": "todas las cosas. Todo le gusta."
             },
             {
@@ -11322,8 +11343,8 @@
             },
             {
                 "number": "17",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Enteramente o por completo. en construcciones atributivas. Mar es todo huesos. Berta es todo sentimiento."
             }
         ]
@@ -11369,8 +11390,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, indefinido",
                 "definition": "Indica la totalidad de los miembros del conjunto denotado por el sintagma nominal al que modifica. con sintagmas nominales definidos en plural. Leyó todos los artículos. Todos ellos acudieron a la cita. a veces en lenguaje literario tras el nombre. Sus hijos todos.",
                 "definition_extra": [
                     {
@@ -11385,73 +11406,74 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado también",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado también, indefinido",
                 "definition": "cada (denota un conjunto cuyos miembros se consideran individualmente). con sintagmas nominales definidos en plural. Gana 1000 euros todos los meses. ante un sustantivo contable en singular sin determinante. Estaba pendiente de toda palabra que saliera de su boca."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, Usado, indefinido",
                 "definition": "Entero o en su totalidad. modificando a sintagmas nominales definidos en singular con nombres contables. Se leyó todo ese libro. a veces ante el artículo indefinido. Se quedará todo un año. a veces en lenguaje literario tras el nombre. Su vida toda fue un cúmulo de desgracias."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica la totalidad de la sustancia, la materia o la noción abstracta denotadas por el sustantivo al que modifica. seguido de sintagmas nominales definidos en singular con nombres no contables. Se bebió toda la leche. a veces en el lenguaje literario tras el sustantivo. Con la fuerza toda de su enorme poder."
             },
             {
                 "number": "5",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica que la persona o cosa denotada por el sustantivo al que modifica cumple todos los atributos que se asocian con un prototipo. en construcciones atributivas ante un nombre contable en singular precedido del artículo indefinido. Es toda una señora. Fue todo un acontecimiento."
             },
             {
                 "number": "6",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "cualquiera (la totalidad del conjunto). Todo reptil es un animal ovíparo. ante un sustantivo contable en singular sin determinante."
             },
             {
                 "number": "7",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "total. con sustantivos abstractos no contables, construidos sin determinante. Te lo digo con toda franqueza. Iban a toda velocidad."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido masculino y femenino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino plural",
                 "definition": "Designa la totalidad de los miembros de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. Posee varias casas y todas serán vuestras."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "todas las personas. sin referencia a un sintagma mencionado o sobrentendido. La limpieza de la ciudad nos concierne a todos."
             },
             {
                 "number": "10",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Indica el conjunto integral de los componentes de lo denotado por el sustantivo no contable al que se refiere. Compró mucha ropa, toda carísima. referido a un sintagma nominal mencionado o sobrentendido."
             },
             {
                 "number": "11",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Expresa que la cualidad asociada al sustantivo se aplica íntegramente a la persona de la que se habla. en construcciones atributivas, especialmente ante sustantivos sin determinante que indican actitud o disposición psicológica. Inés es toda sentimiento."
             },
             {
                 "number": "12",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Por completo, por entero o enteramente. en construcciones atributivas, modificando a adjetivos o participios. El abrigo quedó todo manchado. La viuda llegó toda enlutada."
             },
             {
                 "number": "13",
-                "type": "pronombre indefinido neutro",
+                "type": "pronombre",
+                "type_extra": "indefinido neutro",
                 "definition": "todas las cosas. Todo le gusta."
             },
             {
@@ -11471,8 +11493,8 @@
             },
             {
                 "number": "17",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Enteramente o por completo. en construcciones atributivas. Mar es todo huesos. Berta es todo sentimiento."
             }
         ]
@@ -11481,8 +11503,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, indefinido",
                 "definition": "Indica la totalidad de los miembros del conjunto denotado por el sintagma nominal al que modifica. con sintagmas nominales definidos en plural. Leyó todos los artículos. Todos ellos acudieron a la cita. a veces en lenguaje literario tras el nombre. Sus hijos todos.",
                 "definition_extra": [
                     {
@@ -11497,73 +11519,74 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado también",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado también, indefinido",
                 "definition": "cada (denota un conjunto cuyos miembros se consideran individualmente). con sintagmas nominales definidos en plural. Gana 1000 euros todos los meses. ante un sustantivo contable en singular sin determinante. Estaba pendiente de toda palabra que saliera de su boca."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, Usado, indefinido",
                 "definition": "Entero o en su totalidad. modificando a sintagmas nominales definidos en singular con nombres contables. Se leyó todo ese libro. a veces ante el artículo indefinido. Se quedará todo un año. a veces en lenguaje literario tras el nombre. Su vida toda fue un cúmulo de desgracias."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica la totalidad de la sustancia, la materia o la noción abstracta denotadas por el sustantivo al que modifica. seguido de sintagmas nominales definidos en singular con nombres no contables. Se bebió toda la leche. a veces en el lenguaje literario tras el sustantivo. Con la fuerza toda de su enorme poder."
             },
             {
                 "number": "5",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Indica que la persona o cosa denotada por el sustantivo al que modifica cumple todos los atributos que se asocian con un prototipo. en construcciones atributivas ante un nombre contable en singular precedido del artículo indefinido. Es toda una señora. Fue todo un acontecimiento."
             },
             {
                 "number": "6",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "cualquiera (la totalidad del conjunto). Todo reptil es un animal ovíparo. ante un sustantivo contable en singular sin determinante."
             },
             {
                 "number": "7",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adjetivo",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "total. con sustantivos abstractos no contables, construidos sin determinante. Te lo digo con toda franqueza. Iban a toda velocidad."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido masculino y femenino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino plural",
                 "definition": "Designa la totalidad de los miembros de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. Posee varias casas y todas serán vuestras."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "todas las personas. sin referencia a un sintagma mencionado o sobrentendido. La limpieza de la ciudad nos concierne a todos."
             },
             {
                 "number": "10",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Indica el conjunto integral de los componentes de lo denotado por el sustantivo no contable al que se refiere. Compró mucha ropa, toda carísima. referido a un sintagma nominal mencionado o sobrentendido."
             },
             {
                 "number": "11",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Expresa que la cualidad asociada al sustantivo se aplica íntegramente a la persona de la que se habla. en construcciones atributivas, especialmente ante sustantivos sin determinante que indican actitud o disposición psicológica. Inés es toda sentimiento."
             },
             {
                 "number": "12",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Por completo, por entero o enteramente. en construcciones atributivas, modificando a adjetivos o participios. El abrigo quedó todo manchado. La viuda llegó toda enlutada."
             },
             {
                 "number": "13",
-                "type": "pronombre indefinido neutro",
+                "type": "pronombre",
+                "type_extra": "indefinido neutro",
                 "definition": "todas las cosas. Todo le gusta."
             },
             {
@@ -11583,8 +11606,8 @@
             },
             {
                 "number": "17",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "adverbio",
+                "type_extra": "Usado, usada, usados o usadas, indefinido",
                 "definition": "Enteramente o por completo. en construcciones atributivas. Mar es todo huesos. Berta es todo sentimiento."
             }
         ]
@@ -14808,7 +14831,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Perteneciente o relativo al toreo. Aire torero. Sangre torera.",
                 "definition_extra": [
                     {
@@ -14838,7 +14862,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Perteneciente o relativo al toreo. Aire torero. Sangre torera.",
                 "definition_extra": [
                     {
@@ -16517,7 +16542,8 @@
             },
             {
                 "number": "12",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Llevar vestidos o atavíos con buen arte o con malo. Joaquín se trae bien."
             }
         ]
@@ -16593,7 +16619,8 @@
             },
             {
                 "number": "12",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Llevar vestidos o atavíos con buen arte o con malo. Joaquín se trae bien."
             }
         ]
@@ -16669,7 +16696,8 @@
             },
             {
                 "number": "12",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Llevar vestidos o atavíos con buen arte o con malo. Joaquín se trae bien."
             }
         ]
@@ -16924,7 +16952,8 @@
             },
             {
                 "number": "12",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Llevar vestidos o atavíos con buen arte o con malo. Joaquín se trae bien."
             }
         ]
@@ -16963,7 +16992,8 @@
             },
             {
                 "number": "2",
-                "type": "locución adjetiva",
+                "type": "locución",
+                "type_extra": "adjetiva",
                 "definition": "Frecuentemente usado, manoseado."
             }
         ]
@@ -17099,7 +17129,8 @@
             },
             {
                 "number": "12",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Llevar vestidos o atavíos con buen arte o con malo. Joaquín se trae bien."
             }
         ]
@@ -18127,7 +18158,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino coloquial",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
                 "definition": "nalgas (porciones carnosas y redondeadas)."
             }
         ]
@@ -19553,7 +19585,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Primera hora después de las doce del mediodía. Son las trece treinta."
             }
         ]
@@ -19805,7 +19838,8 @@
             },
             {
                 "number": "9",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Tercera hora después de mediodía o de medianoche. Son las tres."
             }
         ]
@@ -20049,7 +20083,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo poco usado",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
                 "definition": "trimestral."
             },
             {
@@ -20376,7 +20411,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "Trunco, truncado, tronchado.",
                 "definition_extra": [
                     {
@@ -20646,14 +20682,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal 2.ª persona masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, personal 2.ª persona masculino y femenino singular",
                 "definition": "Forma que, en nominativo o vocativo, designa, en España y en algunos lugares de América, a la persona a la que se dirige quien habla o escribe. especialmente en situaciones comunicativas informales o en el trato de familiaridad."
             },
             {
                 "number": "2",
-                "type": "pronombre personal 2.ª persona masculino y femenino singular",
-                "type_extra": "coloquial",
+                "type": "pronombre",
+                "type_extra": "coloquial, personal 2.ª persona masculino y femenino singular",
                 "definition": "Designa a una persona indeterminada. En estos tiempos, si tú no te preocupas por ti mismo, los demás no lo van a hacer."
             }
         ]
@@ -20892,7 +20928,8 @@
             },
             {
                 "number": "8",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "Borrachera, embriaguez."
             },
             {
@@ -21905,23 +21942,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de segunda persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de segunda persona",
                 "definition": "De la persona a quien se dirige quien habla. Un primo tuyo. La tuya. Son tuyas."
-            }
-        ]
-    },
-    "t": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Vigesimoprimera letra del abecedario español, que representa el fonema consonántico oclusivo dental sordo."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Sonido que representa la letra t."
             }
         ]
     },
@@ -21930,12 +21953,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sonido o eco que resulta del tambor u otro instrumento semejante, tocado a golpes."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Corteza de encina."
             }
         ]
@@ -21945,19 +21970,21 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Letra t y sonido que representa."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, en acusativo o dativo, designa a la persona a la que se dirige quien habla o escribe."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Designa, en acusativo o dativo, a una persona indeterminada.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -21966,7 +21993,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sistema de transmisión de imágenes a distancia a través de diferentes medios electromagnéticos, y que se reproducen posteriormente en un aparato receptor.",
                 "definition_extra": [
                     {
@@ -21977,7 +22005,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "televisor.",
                 "definition_extra": [
                     {
@@ -21988,7 +22017,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Emisora de televisión.",
                 "definition_extra": [
                     {
@@ -22004,7 +22034,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al tiempo.",
                 "definition_extra": [
                     {
@@ -22015,7 +22046,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que dura por algún tiempo.",
                 "definition_extra": [
                     {
@@ -22030,7 +22062,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Secular, profano.",
                 "definition_extra": [
                     {
@@ -22041,7 +22074,8 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que pasa con el tiempo, que no es eterno.",
                 "definition_extra": [
                     {
@@ -22056,12 +22090,14 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
-                "definition": "Que expresa tiempo. a una oración,."
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
+                "definition": "Que expresa tiempo."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "tempestad (‖ tormenta grande).",
                 "definition_extra": [
                     {
@@ -22072,28 +22108,32 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Tiempo de lluvia persistente."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Trabajador rústico que solo trabaja por ciertos tiempos del año."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Buena o mala calidad o constitución del tiempo.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "10",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a las sienes."
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "hueso temporal."
             }
         ]
@@ -22103,7 +22143,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Asir o mantener asido algo.",
                 "definition_extra": [
                     {
@@ -22114,7 +22155,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "poseer (‖ tener en su poder).",
                 "definition_extra": [
                     {
@@ -22125,7 +22167,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "mantener (‖ sostener).",
                 "definition_extra": [
                     {
@@ -22136,7 +22179,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Contener o comprender en sí.",
                 "definition_extra": [
                     {
@@ -22147,7 +22191,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "dominar (‖ sujetar).",
                 "definition_extra": [
                     {
@@ -22158,7 +22203,8 @@
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "guardar (‖ cumplir).",
                 "definition_extra": [
                     {
@@ -22169,7 +22215,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "hospedar (‖ recibir huéspedes).",
                 "definition_extra": [
                     {
@@ -22180,12 +22227,14 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar en precisión de hacer algo u ocuparse en ello."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Juzgar, reputar, considerar.",
                 "definition_extra": [
                     {
@@ -22196,17 +22245,20 @@
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estimar, apreciar."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Emplear, pasar algún espacio de tiempo en un lugar o sitio, o de cierta manera."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "experimentar.",
                 "definition_extra": [
                     {
@@ -22217,12 +22269,14 @@
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mantener una actitud."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Profesar un sentimiento hacia alguien o algo.",
                 "definition_extra": [
                     {
@@ -22233,12 +22287,14 @@
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con los nombres que significan tiempo, para expresar la duración o edad de las cosas o personas de que se habla."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "como auxiliar con participio conjugado, haber1.",
                 "definition_extra": [
                     {
@@ -22249,51 +22305,57 @@
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la necesidad o determinación de hacer aquello que expresa una cláusula posterior introducida por que."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Detener, parar.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Guardar, cuidar, defender algo.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Ser rica y adinerada."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Afirmarse o asegurarse para no caer."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un cuerpo: Hacer asiento sobre otro."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Resistir o hacer oposición a alguien en una riña o una pelea."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Atenerse, adherirse, estar por alguien o por algo."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "detenerse (‖ pararse).",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -22302,7 +22364,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Asir o mantener asido algo.",
                 "definition_extra": [
                     {
@@ -22313,7 +22376,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "poseer (‖ tener en su poder).",
                 "definition_extra": [
                     {
@@ -22324,7 +22388,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "mantener (‖ sostener).",
                 "definition_extra": [
                     {
@@ -22335,7 +22400,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Contener o comprender en sí.",
                 "definition_extra": [
                     {
@@ -22346,7 +22412,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "dominar (‖ sujetar).",
                 "definition_extra": [
                     {
@@ -22357,7 +22424,8 @@
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "guardar (‖ cumplir).",
                 "definition_extra": [
                     {
@@ -22368,7 +22436,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "hospedar (‖ recibir huéspedes).",
                 "definition_extra": [
                     {
@@ -22379,12 +22448,14 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar en precisión de hacer algo u ocuparse en ello."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Juzgar, reputar, considerar.",
                 "definition_extra": [
                     {
@@ -22395,17 +22466,20 @@
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estimar, apreciar."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Emplear, pasar algún espacio de tiempo en un lugar o sitio, o de cierta manera."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "experimentar.",
                 "definition_extra": [
                     {
@@ -22416,12 +22490,14 @@
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mantener una actitud."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Profesar un sentimiento hacia alguien o algo.",
                 "definition_extra": [
                     {
@@ -22432,12 +22508,14 @@
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con los nombres que significan tiempo, para expresar la duración o edad de las cosas o personas de que se habla."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "como auxiliar con participio conjugado, haber1.",
                 "definition_extra": [
                     {
@@ -22448,51 +22526,57 @@
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la necesidad o determinación de hacer aquello que expresa una cláusula posterior introducida por que."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Detener, parar.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Guardar, cuidar, defender algo.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Ser rica y adinerada."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Afirmarse o asegurarse para no caer."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un cuerpo: Hacer asiento sobre otro."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Resistir o hacer oposición a alguien en una riña o una pelea."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Atenerse, adherirse, estar por alguien o por algo."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "detenerse (‖ pararse).",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -22501,7 +22585,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Asir o mantener asido algo.",
                 "definition_extra": [
                     {
@@ -22512,7 +22597,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "poseer (‖ tener en su poder).",
                 "definition_extra": [
                     {
@@ -22523,7 +22609,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "mantener (‖ sostener).",
                 "definition_extra": [
                     {
@@ -22534,7 +22621,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Contener o comprender en sí.",
                 "definition_extra": [
                     {
@@ -22545,7 +22633,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "dominar (‖ sujetar).",
                 "definition_extra": [
                     {
@@ -22556,7 +22645,8 @@
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "guardar (‖ cumplir).",
                 "definition_extra": [
                     {
@@ -22567,7 +22657,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "hospedar (‖ recibir huéspedes).",
                 "definition_extra": [
                     {
@@ -22578,12 +22669,14 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar en precisión de hacer algo u ocuparse en ello."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Juzgar, reputar, considerar.",
                 "definition_extra": [
                     {
@@ -22594,17 +22687,20 @@
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estimar, apreciar."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Emplear, pasar algún espacio de tiempo en un lugar o sitio, o de cierta manera."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "experimentar.",
                 "definition_extra": [
                     {
@@ -22615,12 +22711,14 @@
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mantener una actitud."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Profesar un sentimiento hacia alguien o algo.",
                 "definition_extra": [
                     {
@@ -22631,12 +22729,14 @@
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con los nombres que significan tiempo, para expresar la duración o edad de las cosas o personas de que se habla."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "como auxiliar con participio conjugado, haber1.",
                 "definition_extra": [
                     {
@@ -22647,51 +22747,57 @@
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la necesidad o determinación de hacer aquello que expresa una cláusula posterior introducida por que."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Detener, parar.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Guardar, cuidar, defender algo.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Ser rica y adinerada."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Afirmarse o asegurarse para no caer."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un cuerpo: Hacer asiento sobre otro."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Resistir o hacer oposición a alguien en una riña o una pelea."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Atenerse, adherirse, estar por alguien o por algo."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "detenerse (‖ pararse).",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -22700,7 +22806,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Poner término a algo.",
                 "definition_extra": [
                     {
@@ -22715,7 +22822,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "acabar (‖ poner esmero en la conclusión de una obra).",
                 "definition_extra": [
                     {
@@ -22726,7 +22834,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: cesar (‖ interrumpirse o acabarse).",
                 "definition_extra": [
                     {
@@ -22741,12 +22850,14 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una enfermedad: Entrar en su último período."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Aniquilar o destruir enteramente algo o alguien.",
                 "definition_extra": [
                     {
@@ -22757,7 +22868,8 @@
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Poner fin a las relaciones, especialmente amorosas, que se mantienen con otra persona.",
                 "definition_extra": [
                     {
@@ -22768,7 +22880,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Dirigirse a otra como a su fin y objeto."
             }
         ]
@@ -22778,7 +22891,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Último punto hasta donde llega o se extiende algo.",
                 "definition_extra": [
                     {
@@ -22793,7 +22907,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Último momento de la duración o existencia de algo.",
                 "definition_extra": [
                     {
@@ -22808,7 +22923,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Límite o extremo de algo inmaterial.",
                 "definition_extra": [
                     {
@@ -22819,7 +22935,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "mojón (‖ señal para fijar los linderos).",
                 "definition_extra": [
                     {
@@ -22830,7 +22947,8 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Línea divisoria de los Estados, provincias, distritos, etc.",
                 "definition_extra": [
                     {
@@ -22841,7 +22959,8 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "término municipal.",
                 "definition_extra": [
                     {
@@ -22852,7 +22971,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Plazo de tiempo determinado.",
                 "definition_extra": [
                     {
@@ -22863,7 +22983,8 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "palabra (‖ unidad lingüística).",
                 "definition_extra": [
                     {
@@ -22874,7 +22995,8 @@
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Palabra o locución propia de determinada profesión o disciplina.",
                 "definition_extra": [
                     {
@@ -22885,17 +23007,20 @@
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Estado o situación en que se halla alguien o algo."
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma o modo de portarse o hablar."
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "talle (‖ traza, disposición o apariencia).",
                 "definition_extra": [
                     {
@@ -22906,12 +23031,14 @@
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Elemento con el que se establece una relación."
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Plano en que se representa alguien o algo ante la vista.",
                 "definition_extra": [
                     {
@@ -22922,52 +23049,62 @@
             },
             {
                 "number": "15",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En una enumeración con los adjetivos primer, segundo y último, lugar que se atribuye a lo que se expresa."
             },
             {
                 "number": "16",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sostén o apoyo que termina por la parte superior en una cabeza humana, al modo que los antiguos figuraban al dios Término."
             },
             {
                 "number": "17",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Aquello dentro de lo cual se contiene enteramente algo, de modo que nada de ello se halle fuera."
             },
             {
                 "number": "18",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las palabras que sustancialmente integran una proposición o un silogismo. Los términos de una proposición son dos: sujeto y predicado; los de un silogismo son tres: mayor, menor y medio."
             },
             {
                 "number": "19",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada uno de los dos elementos necesarios en la relación gramatical."
             },
             {
                 "number": "20",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Función sintáctica desempeñada por el sintagma introducido por la preposición."
             },
             {
                 "number": "21",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Segmento sintáctico que desempeña la función de término."
             },
             {
                 "number": "22",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Numerador o denominador de un quebrado."
             },
             {
                 "number": "23",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En una expresión analítica, cada una de las partes ligadas entre sí por el signo de sumar o de restar."
             },
             {
                 "number": "24",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "punto (‖ tono).",
                 "definition_extra": [
                     {
@@ -22978,25 +23115,26 @@
             },
             {
                 "number": "25",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Hora, día o punto preciso de hacer algo.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "26",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Objeto, fin.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "27",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Paraje señalado para algún fin.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "28",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Condiciones con que se plantea un asunto o cuestión, o que se establecen en un contrato.",
                 "definition_extra": [
                     {
@@ -23012,7 +23150,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que causa terror.",
                 "definition_extra": [
                     {
@@ -23023,7 +23162,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Difícil de tolerar.",
                 "definition_extra": [
                     {
@@ -23034,7 +23174,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Muy grande o desmesurado.",
                 "definition_extra": [
                     {
@@ -23050,14 +23191,15 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, precedida de preposición, designa a la persona a la que se dirige quien habla o escribe."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Designa a una persona indeterminada.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -23066,7 +23208,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Hermano de uno de los padres de una persona.",
                 "definition_extra": [
                     {
@@ -23077,35 +23220,39 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cónyuge del tío de una persona."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "tío segundo."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "tío abuelo."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En algunos lugares, tratamiento que se da a la persona casada o entrada ya en edad."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Persona de quien se pondera algo bueno o malo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Persona cuyo nombre y condición se ignoran o no se quieren decir.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -23115,42 +23262,44 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Persona rústica y grosera.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "como apelativo para designar a un amigo o compañero.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "para potenciar las cualidades del adjetivo o del nombre a que antecede.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Padrastro y, algunas veces, suegro.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Hermano de uno de los padres de una persona, y su cónyuge."
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "prostituta.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Madrastra y, algunas veces, suegra."
             }
         ]
@@ -23160,7 +23309,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Palabra o frase con que se da a conocer el nombre o asunto de una obra o de cada una de las partes o divisiones de un escrito.",
                 "definition_extra": [
                     {
@@ -23171,7 +23321,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Renombre o distintivo con que se conoce a alguien por sus cualidades o sus acciones.",
                 "definition_extra": [
                     {
@@ -23182,12 +23333,14 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Causa, razón, motivo o pretexto."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Testimonio o instrumento dado para ejercer un empleo, dignidad o profesión.",
                 "definition_extra": [
                     {
@@ -23198,7 +23351,8 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Dignidad nobiliaria, otorgada por el rey, normalmente transmisible, como la de conde, marqués, duque.",
                 "definition_extra": [
                     {
@@ -23209,7 +23363,8 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que posee un título nobiliario.",
                 "definition_extra": [
                     {
@@ -23220,7 +23375,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las partes principales en que suelen dividirse las leyes, reglamentos, etc., o subdividirse los libros de que constan.",
                 "definition_extra": [
                     {
@@ -23231,34 +23387,39 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Documento financiero que representa deuda pública o valor comercial."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Acto o contrato que es causa de la adquisición de la propiedad o de otro derecho real."
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Documento que refleja la existencia de un título de propiedad u otro derecho real."
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Causa o justificación de la transmisión de un bien o un derecho."
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Valoración cuantitativa de una disolución."
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Rótulo con que se indica el contenido o destino de algo o la dirección de un envío.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             }
         ]
     },
@@ -23267,7 +23428,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "so4.",
                 "definition_extra": [
                     {
@@ -23278,19 +23440,21 @@
             },
             {
                 "number": "2",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "tate."
             },
             {
                 "number": "3",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "para indicar extrañeza."
             },
             {
                 "number": "4",
-                "type": "interjection",
+                "type": "interjección",
                 "definition": "para llamar al perro.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             }
         ]
     },
@@ -23299,7 +23463,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Coger o asir con la mano algo.",
                 "definition_extra": [
                     {
@@ -23314,12 +23479,14 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Coger, aunque no sea con la mano."
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Recibir algo y hacerse cargo de ello.",
                 "definition_extra": [
                     {
@@ -23330,7 +23497,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Recibir o aceptar de cualquier modo que sea.",
                 "definition_extra": [
                     {
@@ -23341,7 +23509,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ocupar o adquirir por expugnación, trato o asalto una fortaleza o ciudad.",
                 "definition_extra": [
                     {
@@ -23352,7 +23521,8 @@
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Comer o beber.",
                 "definition_extra": [
                     {
@@ -23363,7 +23533,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Utilizar un medio de transporte.",
                 "definition_extra": [
                     {
@@ -23374,7 +23545,8 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Adoptar, emplear, poner por obra.",
                 "definition_extra": [
                     {
@@ -23385,7 +23557,8 @@
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Contraer o adquirir algo.",
                 "definition_extra": [
                     {
@@ -23400,7 +23573,8 @@
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Contratar o ajustar a una o varias personas para que presten un servicio.",
                 "definition_extra": [
                     {
@@ -23411,7 +23585,8 @@
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "alquilar (‖ tomar algo por tiempo y precio convenidos).",
                 "definition_extra": [
                     {
@@ -23422,27 +23597,32 @@
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Entender, juzgar e interpretar algo en determinado sentido."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Considerar equivocadamente a alguien o algo como lo que no es."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ocupar un sitio cualquiera para cerrar el paso o interceptar la entrada o salida."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Quitar o hurtar."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "comprar (‖ obtener por un precio).",
                 "definition_extra": [
                     {
@@ -23453,17 +23633,20 @@
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Recibir en sí los usos, modos o cualidades de otro, imitarlos."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Recibir en sí los efectos de algo, consintiéndolos o padeciéndolos."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Fotografiar, filmar.",
                 "definition_extra": [
                     {
@@ -23474,17 +23657,20 @@
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Emprender algo, o encargarse de una dependencia o negocio."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de algún efecto o accidente que invade y se apodera del ánimo: Sobrevenir a alguien."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Elegir, entre varias cosas que se ofrecen al arbitrio, alguna de ellas.",
                 "definition_extra": [
                     {
@@ -23495,7 +23681,8 @@
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho del macho: Cubrir a la hembra.",
                 "definition_extra": [
                     {
@@ -23506,64 +23693,74 @@
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "En un juego de naipes, hacer o ganar la baza."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Suspender o parar la pelota que se ha sacado, sin volverla ni jugarla, por no estar los jugadores en su lugar o por otro motivo semejante."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Recibir o adquirir algo."
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos nombres deverbales significa lo mismo que los verbos de donde tales nombres se derivan."
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ponerse a ejecutar la acción o la labor para la cual sirve un determinado instrumento."
             },
             {
                 "number": "29",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Empezar a seguir una dirección, entrar en una calle, camino o tramo, encaminarse por ellos."
             },
             {
                 "number": "30",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Llevar a alguien en su compañía."
             },
             {
                 "number": "31",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Coger o lograr animales cazándolos.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "32",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Hallar o coger a alguien en culpa o delito.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "33",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Resolverse o determinarse a efectuar una acción."
             },
             {
                 "number": "34",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ingerir bebidas alcohólicas."
             },
             {
                 "number": "35",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "emborracharse (‖ beber hasta trastornarse los sentidos).",
                 "definition_extra": [
                     {
@@ -23574,24 +23771,27 @@
             },
             {
                 "number": "36",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de la atmósfera: Oscurecerse, cargarse de vapores o de nubes, especialmente por el horizonte."
             },
             {
                 "number": "37",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho propiamente de los metales: Cubrirse de moho u orín."
             },
             {
                 "number": "38",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Reñir o tener contienda o cuestión con alguien."
             },
             {
                 "number": "39",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Ejecutar algo.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -23600,7 +23800,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "General, universal y que lo comprende todo en su especie.",
                 "definition_extra": [
                     {
@@ -23615,7 +23816,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Resultado de una suma u otras operaciones.",
                 "definition_extra": [
                     {
@@ -23626,7 +23828,8 @@
             },
             {
                 "number": "3",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "En suma, en resumen, en conclusión."
             }
         ]
@@ -23636,7 +23839,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Lugar destinado a los jueces para administrar justicia y dictar sentencias.",
                 "definition_extra": [
                     {
@@ -23647,17 +23851,20 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ministro o ministros que ejercen la justicia y pronuncian la sentencia."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de jueces ante el cual se efectúan exámenes, oposiciones y otros certámenes o actos análogos."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Los tribunales de justicia."
             }
         ]
@@ -23667,20 +23874,21 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "tuyo1."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "De una persona indeterminada.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -23689,7 +23897,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una parte del cuerpo humano: Que tiene hinchazón.",
                 "definition_extra": [
                     {

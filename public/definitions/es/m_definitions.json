@@ -1038,7 +1038,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "magia (arte o ciencia oculta)."
             }
         ]
@@ -1074,7 +1075,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "magia (arte o ciencia oculta)."
             }
         ]
@@ -1368,7 +1370,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "Lengua humana. LA maldita."
             }
         ]
@@ -1420,7 +1423,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "Lengua humana. LA maldita."
             }
         ]
@@ -1766,8 +1770,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo coloquial",
-                "type_extra": "Nicaragua, Aplicado a persona, usado también como sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Nicaragua, Aplicado a persona, usado también como sustantivo, coloquial",
                 "definition": "managüense."
             }
         ]
@@ -1806,24 +1810,26 @@
             },
             {
                 "number": "5",
-                "type": "adverbio demostrativo",
+                "type": "adverbio",
+                "type_extra": "demostrativo",
                 "definition": "En el día que sigue inmediatamente al de hoy. Llegan mañana."
             },
             {
                 "number": "6",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, demostrativo",
                 "definition": "El día que sigue inmediatamente al de hoy. normalmente precedido de preposición. La clase de mañana es importante."
             },
             {
                 "number": "7",
-                "type": "adverbio demostrativo",
+                "type": "adverbio",
+                "type_extra": "demostrativo",
                 "definition": "En un tiempo venidero. Mañana vivirá de su trabajo."
             },
             {
                 "number": "8",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado precedido de preposición",
+                "type": "adverbio",
+                "type_extra": "Usado precedido de preposición, demostrativo",
                 "definition": "El futuro. La juventud de mañana."
             },
             {
@@ -1867,24 +1873,26 @@
             },
             {
                 "number": "5",
-                "type": "adverbio demostrativo",
+                "type": "adverbio",
+                "type_extra": "demostrativo",
                 "definition": "En el día que sigue inmediatamente al de hoy. Llegan mañana."
             },
             {
                 "number": "6",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, demostrativo",
                 "definition": "El día que sigue inmediatamente al de hoy. normalmente precedido de preposición. La clase de mañana es importante."
             },
             {
                 "number": "7",
-                "type": "adverbio demostrativo",
+                "type": "adverbio",
+                "type_extra": "demostrativo",
                 "definition": "En un tiempo venidero. Mañana vivirá de su trabajo."
             },
             {
                 "number": "8",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado precedido de preposición",
+                "type": "adverbio",
+                "type_extra": "Usado precedido de preposición, demostrativo",
                 "definition": "El futuro. La juventud de mañana."
             },
             {
@@ -2988,12 +2996,14 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Operaciones que se hacen en las estaciones y cruces de las vías férreas, utilizando generalmente las locomotoras para la formación, división o paso de los trenes."
             },
             {
                 "number": "8",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Operaciones que se hacen con un vehículo para cambiar de rumbo."
             }
         ]
@@ -4665,8 +4675,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Lo que sobresale en un género, habilidad o producción. La ciudad de Toro es la mapa de las frutas."
             }
         ]
@@ -4691,8 +4701,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Lo que sobresale en un género, habilidad o producción. La ciudad de Toro es la mapa de las frutas."
             }
         ]
@@ -6440,7 +6450,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "conjunción adversativa",
+                "type": "conjunción",
+                "type_extra": "adversativa",
                 "definition": "pero (para contraponer un concepto a otro).",
                 "definition_extra": [
                     {
@@ -6451,7 +6462,8 @@
             },
             {
                 "number": "2",
-                "type": "conjunción adversativa",
+                "type": "conjunción",
+                "type_extra": "adversativa",
                 "definition": "sino (denota adición de miembros a la cláusula)."
             }
         ]
@@ -6589,22 +6601,26 @@
             },
             {
                 "number": "9",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Sitio en que se celebran las máscaras. Voy a las máscaras. Nos veremos en las máscaras."
             },
             {
                 "number": "10",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "mojiganga (fiesta popular de disfraces)."
             },
             {
                 "number": "11",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "mascarada (festín)."
             },
             {
                 "number": "12",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Festejo de nobles a caballo, con vestidos y libreas vistosas, que se ejecutaba de noche, con hachas, corriendo parejas."
             },
             {
@@ -7190,7 +7206,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "astrólogo (hombre que profesa la astrología)."
             },
             {
@@ -7236,7 +7253,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "astrólogo (hombre que profesa la astrología)."
             },
             {
@@ -7282,7 +7300,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "astrólogo (hombre que profesa la astrología)."
             },
             {
@@ -8073,7 +8092,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal primera persona masculino y femenino singular",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino singular",
                 "definition": "Forma que, en acusativo o dativo, designa a la persona que habla o escribe. Me propuso un acuerdo. Óyeme."
             }
         ]
@@ -8145,7 +8165,8 @@
             },
             {
                 "number": "11",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "Conductor asalariado de un automóvil."
             },
             {
@@ -8250,7 +8271,8 @@
             },
             {
                 "number": "11",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "Conductor asalariado de un automóvil."
             },
             {
@@ -9884,22 +9906,26 @@
             },
             {
                 "number": "11",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Relación de algunos acaecimientos particulares, que se escriben para ilustrar la historia."
             },
             {
                 "number": "12",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Libro, cuaderno o papel en que se apunta algo para tenerlo presente."
             },
             {
                 "number": "13",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "recuerdos (saludo por escrito o por medio de tercera persona)."
             },
             {
                 "number": "14",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Dos o más anillos que se traen y ponen de recuerdo y aviso para la ejecución de algo, soltando uno de ellos para que cuelgue del dedo."
             }
         ]
@@ -9971,22 +9997,26 @@
             },
             {
                 "number": "11",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Relación de algunos acaecimientos particulares, que se escriben para ilustrar la historia."
             },
             {
                 "number": "12",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Libro, cuaderno o papel en que se apunta algo para tenerlo presente."
             },
             {
                 "number": "13",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "recuerdos (saludo por escrito o por medio de tercera persona)."
             },
             {
                 "number": "14",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Dos o más anillos que se traen y ponen de recuerdo y aviso para la ejecución de algo, soltando uno de ellos para que cuelgue del dedo."
             }
         ]
@@ -10265,8 +10295,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adverbio comparativo",
-                "type_extra": "Usado también, Usado también con el artículo determinado",
+                "type": "adverbio",
+                "type_extra": "Usado también, Usado también con el artículo determinado, comparativo",
                 "definition": "Ante adjetivos o adverbios, indica que el grado de la propiedad que expresan es bajo en comparación con otro explícito o sobrentendido. El sabor del té verde es menos intenso. con un complemento introducido por la preposición de. Estaba menos lejos de lo que creíamos. cuando precede a adjetivos, formando el superlativo relativo de inferioridad. Estas peras son las menos sabrosas que he probado nunca.",
                 "definition_extra": [
                     {
@@ -10281,7 +10311,8 @@
             },
             {
                 "number": "2",
-                "type": "adverbio comparativo",
+                "type": "adverbio",
+                "type_extra": "comparativo",
                 "definition": "Pospuesto a verbos, indica que la situación descrita tiene lugar con menor frecuencia, intensidad o duración que otra explícita o sobrentendida. Va menos al gimnasio de lo que se había propuesto. Se esforzó menos que otras veces. La representación duró menos."
             },
             {
@@ -10292,35 +10323,38 @@
             },
             {
                 "number": "4",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado también, Usado también pospuesto",
+                "type": "adjetivo",
+                "type_extra": "Usado también, Usado también pospuesto, comparativo",
                 "definition": "Ante sustantivos contables en plural, indica que un determinado número de entidades es bajo en comparación con otro sobrentendido o explícito. Compró menos tornillos que tuercas. con un complemento introducido por la preposición de. Compró menos tornillos de los necesarios. cuando va precedido de una expresión cuantificativa. Compró algunos tornillos menos."
             },
             {
                 "number": "5",
-                "type": "adjetivo comparativo",
-                "type_extra": "Usado también, Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado también, Usado, comparativo",
                 "definition": "Ante sustantivos no contables en singular, expresa que una determinada cantidad es menor que otra sobrentendida o explícita. Tiene menos interés que al principio. con un complemento preposicional encabezado por de. Tiene menos interés de lo que parece. ocasionalmente pospuesto cuando va precedido de una expresión cuantificativa. Había bastante gente menos de la esperada."
             },
             {
                 "number": "6",
-                "type": "adjetivo comparativo",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, comparativo",
                 "definition": "Ante sustantivos contables en singular usados como no contables, denota ponderación. Su apartamento es menos casa que tu buhardilla."
             },
             {
                 "number": "7",
-                "type": "pronombre comparativo masculino y femenino",
+                "type": "pronombre",
+                "type_extra": "comparativo masculino y femenino",
                 "definition": "Número o cantidad inferior de algo mencionado. Tiene treinta años pero aparenta menos. Tiene poco pelo, cada día menos."
             },
             {
                 "number": "8",
-                "type": "pronombre comparativo neutro",
+                "type": "pronombre",
+                "type_extra": "comparativo neutro",
                 "definition": "menos importante. Prometer es menos que actuar. Nadie es menos que nadie."
             },
             {
                 "number": "9",
-                "type": "pronombre comparativo neutro",
+                "type": "pronombre",
+                "type_extra": "comparativo neutro",
                 "definition": "menos cosas. Cada día se conforma con menos."
             },
             {
@@ -10814,7 +10848,8 @@
             },
             {
                 "number": "14",
-                "type": "adverbio desusado",
+                "type": "adverbio",
+                "type_extra": "desusado",
                 "definition": "por menudo."
             }
         ]
@@ -11218,8 +11253,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo transitivo poco usado",
-                "type_extra": "Usado también como intransitivo",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo, poco usado",
                 "definition": "merecer.",
                 "definition_extra": [
                     {
@@ -11531,7 +11566,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "metalurgia (arte de beneficiar los minerales)."
             }
         ]
@@ -12673,14 +12709,14 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático. Es igualito a mi Santiago."
             },
             {
                 "number": "3",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Milicia",
+                "type": "adjetivo",
+                "type_extra": "Milicia, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre de grado militar, indica tratamiento de respeto al dirigirse a un superior. Mi coronel."
             }
         ]
@@ -12689,7 +12725,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo intransitivo poco usado",
+                "type": "verbo intransitivo",
+                "type_extra": "poco usado",
                 "definition": "maullar.",
                 "definition_extra": [
                     {
@@ -12891,7 +12928,8 @@
             },
             {
                 "number": "3",
-                "type": "conjunción temporal",
+                "type": "conjunción",
+                "type_extra": "temporal",
                 "definition": "Durante el tiempo en que. Mientras tú te diviertes, Juan estudia."
             }
         ]
@@ -12914,70 +12952,6 @@
                 "type": "interjección",
                 "type_extra": "eufemismo, eufemístico o eufemística",
                 "definition": "mierda (expresa contrariedad)."
-            }
-        ]
-    },
-    "mierda": {
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "malsonante",
-                "definition": "excremento (residuo de los alimentos).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos o afines",
-                        "content": "excremento, heces, deposición, defecación, deyección, evacuación, boñiga, caca, suciedad, porquería, basura, inmundicia, chapuza, birria, bodrio, petardo, castaña, borrachera, embriaguez, trompa, mona, moña, cogorza, melopea, merluza, curda, cohete, bomba, peludo, cura, droga, menesunda, miércoles, miéchica, miércale."
-                    }
-                ]
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "type_extra": "malsonante",
-                "definition": "Suciedad, inmundicia."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "type_extra": "malsonante",
-                "definition": "Hecho o situación que repugnan. Callar, ocultar, tapar o descubrir la mierda."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "type_extra": "malsonante",
-                "definition": "Cosa mal hecha o de mala calidad. Este paraguas es una mierda."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "malsonante, Usado frecuentemente",
-                "definition": "para ponderar el mal estado físico o moral. La casa estaba hecha una mierda. Lo vi hecho mierda."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "malsonante, España",
-                "definition": "borrachera (efecto de emborracharse)."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "malsonante, España",
-                "definition": "droga (sustancia o preparado medicamentoso)."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino y femenino",
-                "type_extra": "malsonante",
-                "definition": "Persona despreciable."
-            },
-            {
-                "number": "9",
-                "type": "interjección",
-                "type_extra": "malsonante",
-                "definition": "Expresa contrariedad o indignación."
             }
         ]
     },
@@ -13473,7 +13447,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Cosa o parte sumamente pequeña. Cuéntamelo todo, no se te quede en el tintero una mínima."
             }
         ]
@@ -13525,7 +13500,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Cosa o parte sumamente pequeña. Cuéntamelo todo, no se te quede en el tintero una mínima."
             }
         ]
@@ -13577,7 +13553,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Cosa o parte sumamente pequeña. Cuéntamelo todo, no se te quede en el tintero una mínima."
             }
         ]
@@ -13629,7 +13606,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Cosa o parte sumamente pequeña. Cuéntamelo todo, no se te quede en el tintero una mínima."
             }
         ]
@@ -14067,7 +14045,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "menudo (en monedas pequeñas).",
                 "definition_extra": [
                     {
@@ -14099,7 +14078,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "menudo (en monedas pequeñas).",
                 "definition_extra": [
                     {
@@ -14141,12 +14121,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de primera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de primera persona",
                 "definition": "De la persona que habla o escribe. Una amiga mía. Las mías. Son míos."
             },
             {
                 "number": "2",
-                "type": "locución adverbial",
+                "type": "locución",
+                "type_extra": "adverbial",
                 "definition": "Por mi naturaleza."
             }
         ]
@@ -14823,14 +14805,14 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático. Es igualito a mi Santiago."
             },
             {
                 "number": "3",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Milicia",
+                "type": "adjetivo",
+                "type_extra": "Milicia, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre de grado militar, indica tratamiento de respeto al dirigirse a un superior. Mi coronel."
             }
         ]
@@ -15897,7 +15879,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "En los colegios y otras comunidades, hombre que es nuevo, o no de los más antiguos."
             },
             {
@@ -15937,7 +15920,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "En los colegios y otras comunidades, hombre que es nuevo, o no de los más antiguos."
             },
             {
@@ -16011,7 +15995,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "En los colegios y otras comunidades, hombre que es nuevo, o no de los más antiguos."
             },
             {
@@ -16051,7 +16036,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "En los colegios y otras comunidades, hombre que es nuevo, o no de los más antiguos."
             },
             {
@@ -16889,7 +16875,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Dicho de una persona: De aspecto agradable por cierto atractivo físico, por su gracia o por su arreglo y cuidado. De niño era bastante mono. Así van muy monas.",
                 "definition_extra": [
                     {
@@ -17498,7 +17485,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "montés.",
                 "definition_extra": [
                     {
@@ -17593,8 +17581,8 @@
             },
             {
                 "number": "3",
-                "type": "locución adverbial",
-                "type_extra": "Aragón",
+                "type": "locución",
+                "type_extra": "Aragón, adverbial",
                 "definition": "a montones."
             }
         ]
@@ -17961,13 +17949,14 @@
             },
             {
                 "number": "7",
-                "type": "verbo transitivo poco usado",
-                "type_extra": "Usado solo en la voz pasiva",
+                "type": "verbo transitivo",
+                "type_extra": "Usado solo en la voz pasiva, poco usado",
                 "definition": "matar (quitar la vida). El toro fue muerto a la tercera estocada."
             },
             {
                 "number": "8",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Dicho de un miembro del cuerpo: Entorpecerse o quedarse insensible, como si estuviera muerto."
             }
         ]
@@ -18241,7 +18230,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo poco usado",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
                 "definition": "Hecho, acostumbrado o habituado a algo."
             }
         ]
@@ -18404,7 +18394,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "monstruo."
             }
         ]
@@ -19400,7 +19391,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Numeroso, abundante o intenso. Muchos niños. Su mucho dinero. Mucha alegría.",
                 "definition_extra": [
                     {
@@ -19411,49 +19403,50 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, indefinido",
                 "definition": "Que excede a lo ordinario, regular o preciso. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Mucho trabajo para tan poco tiempo."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas nominales comparativos, expresa diferencia elevada entre las cantidades que se comparan. Marta tiene muchos más libros que Carlos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, indefinido",
                 "definition": "Ante nombres contables en singular empleados como no contables, denota ponderación o pluralidad. Ese coche es mucho coche. Hay mucho loco suelto."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una gran cantidad. referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de. Trajeron un pan muy rico, pero no comimos mucho. Se revisaron muchos de los informes."
             },
             {
                 "number": "6",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "demasiado (una cantidad excesiva). referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto introducido por la preposición de. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Son ustedes muchos para el aforo de este local."
             },
             {
                 "number": "7",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "muchas personas. sin referencia a un sintagma mencionado o sobrentendido. Muchos no creen que el planeta esté contaminado."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "Una gran cantidad o una cantidad excesiva de algo. Comió mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Pedían mucho para lo que pagaban."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "muchas cosas. a menudo con un complemento introducido por la preposición de. Hizo mucho por todos. Mucho de lo que me dijo."
             },
             {
@@ -19470,31 +19463,32 @@
             },
             {
                 "number": "12",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
-                "type": "adverbio indefinido",
+                "type": "adverbio",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
@@ -19607,7 +19601,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Numeroso, abundante o intenso. Muchos niños. Su mucho dinero. Mucha alegría.",
                 "definition_extra": [
                     {
@@ -19618,49 +19613,50 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, indefinido",
                 "definition": "Que excede a lo ordinario, regular o preciso. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Mucho trabajo para tan poco tiempo."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas nominales comparativos, expresa diferencia elevada entre las cantidades que se comparan. Marta tiene muchos más libros que Carlos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, indefinido",
                 "definition": "Ante nombres contables en singular empleados como no contables, denota ponderación o pluralidad. Ese coche es mucho coche. Hay mucho loco suelto."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una gran cantidad. referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de. Trajeron un pan muy rico, pero no comimos mucho. Se revisaron muchos de los informes."
             },
             {
                 "number": "6",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "demasiado (una cantidad excesiva). referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto introducido por la preposición de. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Son ustedes muchos para el aforo de este local."
             },
             {
                 "number": "7",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "muchas personas. sin referencia a un sintagma mencionado o sobrentendido. Muchos no creen que el planeta esté contaminado."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "Una gran cantidad o una cantidad excesiva de algo. Comió mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Pedían mucho para lo que pagaban."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "muchas cosas. a menudo con un complemento introducido por la preposición de. Hizo mucho por todos. Mucho de lo que me dijo."
             },
             {
@@ -19677,31 +19673,32 @@
             },
             {
                 "number": "12",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
-                "type": "adverbio indefinido",
+                "type": "adverbio",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
@@ -19710,7 +19707,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Numeroso, abundante o intenso. Muchos niños. Su mucho dinero. Mucha alegría.",
                 "definition_extra": [
                     {
@@ -19721,49 +19719,50 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, indefinido",
                 "definition": "Que excede a lo ordinario, regular o preciso. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Mucho trabajo para tan poco tiempo."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas nominales comparativos, expresa diferencia elevada entre las cantidades que se comparan. Marta tiene muchos más libros que Carlos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, indefinido",
                 "definition": "Ante nombres contables en singular empleados como no contables, denota ponderación o pluralidad. Ese coche es mucho coche. Hay mucho loco suelto."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una gran cantidad. referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de. Trajeron un pan muy rico, pero no comimos mucho. Se revisaron muchos de los informes."
             },
             {
                 "number": "6",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "demasiado (una cantidad excesiva). referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto introducido por la preposición de. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Son ustedes muchos para el aforo de este local."
             },
             {
                 "number": "7",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "muchas personas. sin referencia a un sintagma mencionado o sobrentendido. Muchos no creen que el planeta esté contaminado."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "Una gran cantidad o una cantidad excesiva de algo. Comió mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Pedían mucho para lo que pagaban."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "muchas cosas. a menudo con un complemento introducido por la preposición de. Hizo mucho por todos. Mucho de lo que me dijo."
             },
             {
@@ -19780,31 +19779,32 @@
             },
             {
                 "number": "12",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
-                "type": "adverbio indefinido",
+                "type": "adverbio",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
@@ -19813,7 +19813,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Numeroso, abundante o intenso. Muchos niños. Su mucho dinero. Mucha alegría.",
                 "definition_extra": [
                     {
@@ -19824,49 +19825,50 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, indefinido",
                 "definition": "Que excede a lo ordinario, regular o preciso. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Mucho trabajo para tan poco tiempo."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas nominales comparativos, expresa diferencia elevada entre las cantidades que se comparan. Marta tiene muchos más libros que Carlos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, indefinido",
                 "definition": "Ante nombres contables en singular empleados como no contables, denota ponderación o pluralidad. Ese coche es mucho coche. Hay mucho loco suelto."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una gran cantidad. referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de. Trajeron un pan muy rico, pero no comimos mucho. Se revisaron muchos de los informes."
             },
             {
                 "number": "6",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "demasiado (una cantidad excesiva). referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto introducido por la preposición de. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Son ustedes muchos para el aforo de este local."
             },
             {
                 "number": "7",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "muchas personas. sin referencia a un sintagma mencionado o sobrentendido. Muchos no creen que el planeta esté contaminado."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "Una gran cantidad o una cantidad excesiva de algo. Comió mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Pedían mucho para lo que pagaban."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "muchas cosas. a menudo con un complemento introducido por la preposición de. Hizo mucho por todos. Mucho de lo que me dijo."
             },
             {
@@ -19883,31 +19885,32 @@
             },
             {
                 "number": "12",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
-                "type": "adverbio indefinido",
+                "type": "adverbio",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
@@ -20046,13 +20049,14 @@
             },
             {
                 "number": "7",
-                "type": "verbo transitivo poco usado",
-                "type_extra": "Usado solo en la voz pasiva",
+                "type": "verbo transitivo",
+                "type_extra": "Usado solo en la voz pasiva, poco usado",
                 "definition": "matar (quitar la vida). El toro fue muerto a la tercera estocada."
             },
             {
                 "number": "8",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Dicho de un miembro del cuerpo: Entorpecerse o quedarse insensible, como si estuviera muerto."
             }
         ]
@@ -20106,13 +20110,14 @@
             },
             {
                 "number": "7",
-                "type": "verbo transitivo poco usado",
-                "type_extra": "Usado solo en la voz pasiva",
+                "type": "verbo transitivo",
+                "type_extra": "Usado solo en la voz pasiva, poco usado",
                 "definition": "matar (quitar la vida). El toro fue muerto a la tercera estocada."
             },
             {
                 "number": "8",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Dicho de un miembro del cuerpo: Entorpecerse o quedarse insensible, como si estuviera muerto."
             }
         ]
@@ -21265,13 +21270,14 @@
             },
             {
                 "number": "7",
-                "type": "verbo transitivo poco usado",
-                "type_extra": "Usado solo en la voz pasiva",
+                "type": "verbo transitivo",
+                "type_extra": "Usado solo en la voz pasiva, poco usado",
                 "definition": "matar (quitar la vida). El toro fue muerto a la tercera estocada."
             },
             {
                 "number": "8",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Dicho de un miembro del cuerpo: Entorpecerse o quedarse insensible, como si estuviera muerto."
             }
         ]
@@ -21325,13 +21331,14 @@
             },
             {
                 "number": "7",
-                "type": "verbo transitivo poco usado",
-                "type_extra": "Usado solo en la voz pasiva",
+                "type": "verbo transitivo",
+                "type_extra": "Usado solo en la voz pasiva, poco usado",
                 "definition": "matar (quitar la vida). El toro fue muerto a la tercera estocada."
             },
             {
                 "number": "8",
-                "type": "verbo pronominal poco usado",
+                "type": "verbo pronominal",
+                "type_extra": "poco usado",
                 "definition": "Dicho de un miembro del cuerpo: Entorpecerse o quedarse insensible, como si estuviera muerto."
             }
         ]
@@ -21955,9 +21962,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "madre (‖ mujer).",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -21967,9 +21974,9 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "madre (‖ animal hembra).",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -21984,9 +21991,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "mano1.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -21995,19 +22002,21 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "galleta maría."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Moneda española de plata de fines del siglo XVII."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "maruja (‖ mujer que se dedica solo a las tareas domésticas).",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -22017,19 +22026,20 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Asignatura que no requiere esfuerzo por parte del alumno para ser aprobada.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "vela María.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "marihuana.",
                 "definition_extra": [
                     {
@@ -22045,7 +22055,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Ante adjetivos o adverbios, indica que el grado de la propiedad que expresan es alto en comparación con otro explícito o sobrentendido. con un complemento introducido por la preposición de. cuando precede a adjetivos, formando el superlativo relativo de superioridad.",
                 "definition_extra": [
                     {
@@ -22056,7 +22067,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Pospuesto a verbos, indica que la situación descrita tiene lugar con mayor frecuencia, intensidad o duración que otra explícita o sobrentendida.",
                 "definition_extra": [
                     {
@@ -22067,7 +22079,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "tanto (‖ pondera la intensidad de la cualidad).",
                 "definition_extra": [
                     {
@@ -22078,7 +22091,8 @@
             },
             {
                 "number": "4",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "Sobre todo, especialmente, con mayor motivo.",
                 "definition_extra": [
                     {
@@ -22089,12 +22103,14 @@
             },
             {
                 "number": "5",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "De nuevo, en lo sucesivo. en construcciones negativas."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ante sustantivos contables en plural, indica que un determinado número de entidades es alto en comparación con otro sobrentendido o explícito. con un complemento introducido por la preposición de. pospuesto cuando va precedido de una expresión cuantificativa.",
                 "definition_extra": [
                     {
@@ -22105,7 +22121,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ante sustantivos no contables en singular, expresa que una determinada cantidad excede a otra sobrentendida o explícita. con un complemento introducido por la preposición de. ocasionalmente pospuesto cuando va precedido de una expresión cuantificativa.",
                 "definition_extra": [
                     {
@@ -22116,9 +22133,9 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Ante sustantivos contables en singular usados como no contables, denota ponderación o pluralidad.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -22128,7 +22145,8 @@
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Mayor número o cantidad de algo mencionado.",
                 "definition_extra": [
                     {
@@ -22139,7 +22157,8 @@
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "más importante.",
                 "definition_extra": [
                     {
@@ -22150,7 +22169,8 @@
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "más cosas, alguna otra cosa.",
                 "definition_extra": [
                     {
@@ -22161,7 +22181,8 @@
             },
             {
                 "number": "12",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "Indica adición de cantidades o de otras magnitudes.",
                 "definition_extra": [
                     {
@@ -22172,7 +22193,8 @@
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Signo (+) de la suma o adición.",
                 "definition_extra": [
                     {
@@ -22183,7 +22205,8 @@
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Signo (+) que indica el carácter positivo de una cantidad, como la carga eléctrica.",
                 "definition_extra": [
                     {
@@ -22199,7 +22222,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la materia.",
                 "definition_extra": [
                     {
@@ -22210,7 +22234,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Opuesto a lo espiritual.",
                 "definition_extra": [
                     {
@@ -22225,12 +22250,14 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Grosero, sin ingenio ni agudeza."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Elemento o combinación de elementos, generalmente en estado sólido, que se utiliza para cubrir necesidades específicas.",
                 "definition_extra": [
                     {
@@ -22241,22 +22268,26 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cuero curtido."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las materias que se necesitan para una obra, o el conjunto de ellas."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Documentación que sirve de base para un trabajo intelectual."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de máquinas, herramientas u objetos de cualquier clase, necesario para el desempeño de un servicio o el ejercicio de una profesión.",
                 "definition_extra": [
                     {
@@ -22272,7 +22303,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la medicina.",
                 "definition_extra": [
                     {
@@ -22283,7 +22315,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona legalmente autorizada para ejercer la medicina.",
                 "definition_extra": [
                     {
@@ -22294,13 +22327,14 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Mujer del médico.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a Media, antigua región de Asia, o a los medos.",
                 "definition_extra": [
                     {
@@ -22316,12 +22350,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada uno de los elementos químicos buenos conductores del calor y de la electricidad, con un brillo característico, sólidos a temperatura ordinaria, salvo el mercurio, y que en sus sales en disolución forman iones electropositivos o cationes."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Materia hecha con metal.",
                 "definition_extra": [
                     {
@@ -22332,12 +22368,14 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "latón1."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Timbre de la voz.",
                 "definition_extra": [
                     {
@@ -22348,17 +22386,20 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Calidad o condición de una cosa."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Oro o plata, que respectivamente suelen representarse con los colores amarillo y blanco."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de instrumentos de viento de una orquesta hechos originariamente de metal."
             }
         ]
@@ -22368,12 +22409,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Doctrina de una confesión protestante fundada en Oxford en 1729 por John y Charles Wesley."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sistema que desechaba la fuerza vital y atribuía todas las enfermedades a la estrechez o dilatación de los poros del cuerpo humano."
             }
         ]
@@ -22383,7 +22426,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, precedida de preposición, designa a la persona que habla o escribe."
             }
         ]
@@ -22393,12 +22437,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En el antiguo protectorado español de Marruecos, unidad regular indígena, dependiente del majzén jalifiano, compuesta de unos 100 hombres de infantería o de otros tantos de caballería."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Unidad regular indígena de algunos ejércitos coloniales."
             }
         ]
@@ -22408,12 +22454,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Diez veces cien."
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "milésimo (‖ que ocupa en una serie el lugar número mil).",
                 "definition_extra": [
                     {
@@ -22424,22 +22472,26 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Muy numerosos o abundantes, en cantidad o en número grande e indeterminado."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Número natural que sigue al novecientos noventa y nueve."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Signo o conjunto de signos con que se representa el número mil."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "millar (‖ conjunto de 1000 unidades).",
                 "definition_extra": [
                     {
@@ -22455,7 +22507,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona joven, alta, corpulenta y fornida.",
                 "definition_extra": [
                     {
@@ -22471,7 +22524,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Convertir en momia un cadáver.",
                 "definition_extra": [
                     {
@@ -22487,7 +22541,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a las acciones de las personas, desde el punto de vista de su obrar en relación con el bien o el mal y en función de su vida individual y, sobre todo, colectiva.",
                 "definition_extra": [
                     {
@@ -22498,7 +22553,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Conforme con las normas que una persona tiene del bien y del mal.",
                 "definition_extra": [
                     {
@@ -22513,17 +22569,20 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Basado en el entendimiento o la conciencia, y no en los sentidos."
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que concierne al fuero interno o al respeto humano, y no al orden jurídico."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Doctrina del obrar humano que pretende regular el comportamiento individual y colectivo en relación con el bien y el mal y los deberes que implican.",
                 "definition_extra": [
                     {
@@ -22534,28 +22593,32 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de facultades del espíritu, por contraposición a físico."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Estado de ánimo, individual o colectivo."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ánimo para afrontar algo."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "En actividades que implican confrontación o esfuerzo intenso, confianza en el éxito.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Árbol oriundo de Asia, de la familia de las moráceas, de cinco a seis metros de altura, con tronco grueso y derecho, copa amplia, hojas ásperas, lanuginosas, acorazonadas, dentadas o lobuladas por el margen, y flores unisexuales en amentos espiciformes, separadas las masculinas de las femeninas. Su fruto es la mora.",
                 "definition_extra": [
                     {
@@ -22566,7 +22629,8 @@
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Árbol ecuatoriano tropical, de la familia de las moráceas, de madera incorruptible, muy empleada en la construcción de casas."
             }
         ]
@@ -22576,7 +22640,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al municipio.",
                 "definition_extra": [
                     {
@@ -22587,7 +22652,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Individuo de la Guardia Municipal o de la Policía municipal.",
                 "definition_extra": [
                     {
@@ -22595,26 +22661,6 @@
                         "content": "guardia, policía."
                     }
                 ]
-            }
-        ]
-    },
-    "m": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Decimotercera letra del abecedario español, que representa el fonema consonántico nasal bilabial."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Sonido que representa la letra m."
-            },
-            {
-                "number": "3",
-                "type": "noun",
-                "definition": "En la numeración romana, mil."
             }
         ]
     }

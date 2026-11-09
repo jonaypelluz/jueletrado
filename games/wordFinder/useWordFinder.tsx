@@ -2,18 +2,13 @@
 
 import { ChangeEvent, useEffect, useRef, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
+import { WORD_LENGTH_BY_LEVEL } from '@games/wordFinder/config';
 import Logger from '@services/Logger';
 import { getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
 const GAME_TIMER = 180;
-
-const WORD_LENGTH_BY_LEVEL: Record<string, { minLength?: number; maxLength?: number }> = {
-    beginner: { maxLength: 4 },
-    intermediate: { minLength: 4, maxLength: 6 },
-    advanced: { minLength: 6, maxLength: 9 },
-};
 
 const useWordFinder = () => {
     const { locale, gameLevel, error, setError } = useWordsContext();

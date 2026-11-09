@@ -731,11 +731,6 @@
                 "number": 2,
                 "definition": "In any way; at all.",
                 "type": "adjective"
-            },
-            {
-                "number": 3,
-                "definition": "Whatever.",
-                "type": "pronoun"
             }
         ]
     },
@@ -971,11 +966,6 @@
             {
                 "number": 5,
                 "definition": "Any person or persons.",
-                "type": "pronoun"
-            },
-            {
-                "number": 6,
-                "definition": "Misspelling of who ever other than in interrogative use.",
                 "type": "pronoun"
             }
         ]
@@ -1732,51 +1722,6 @@
             }
         ]
     },
-    "w": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Watt."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "West."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Witness."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Work."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "Wanker."
-            },
-            {
-                "number": 6,
-                "type": "adjective",
-                "definition": "Wide."
-            },
-            {
-                "number": 7,
-                "type": "adjective",
-                "definition": "White."
-            },
-            {
-                "number": 8,
-                "type": "preposition",
-                "definition": "With."
-            }
-        ]
-    },
     "wait": {
         "level": "beginner",
         "definitions": [
@@ -2419,11 +2364,6 @@
                 "number": 21,
                 "type": "adjective",
                 "definition": "Characterized by or suitable for walking."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "Present participle of walk."
             }
         ]
     },
@@ -3062,7 +3002,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To make (someone) aware of (something impending); especially:."
+                "definition": "To make (someone) aware of (something impending)."
             },
             {
                 "number": 2,
@@ -3964,7 +3904,7 @@
             {
                 "number": 5,
                 "type": "adjective",
-                "definition": "(grammar) Displaying a particular kind of inflection, including:."
+                "definition": "(grammar) Displaying a particular kind of inflection."
             },
             {
                 "number": 6,
@@ -4390,36 +4330,31 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "proper noun",
-                "definition": "The World Wide Web."
-            },
-            {
-                "number": 2,
                 "type": "noun",
                 "definition": "The silken structure which a spider builds using silk secreted from the spinnerets at the caudal tip of its abdomen; a spiderweb."
             },
             {
-                "number": 3,
+                "number": 2,
                 "type": "noun",
                 "definition": "(by extension) Any interconnected set of persons, places, or things, which when diagrammed resembles a spider's web."
             },
             {
-                "number": 4,
+                "number": 3,
                 "type": "noun",
                 "definition": "(sometimes capitalized) Specifically, the World Wide Web."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "noun",
                 "definition": "The part of a baseball mitt between the forefinger and thumb, the webbing."
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "noun",
                 "definition": "A latticed or woven structure."
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "noun",
                 "definition": "(usually with \"spin\", \"weave\", or similar verbs) A tall tale with more complexity than a myth or legend.",
                 "definition_extra": [
@@ -4430,77 +4365,77 @@
                 ]
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "noun",
                 "definition": "A plot or scheme."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "noun",
                 "definition": "The interconnection between flanges in structural members, increasing the effective lever arm and so the load capacity of the member."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "noun",
                 "definition": "The thinner vertical section of a railway rail between the top (head) and bottom (foot) of the rail."
             },
             {
-                "number": 11,
+                "number": 10,
                 "type": "noun",
                 "definition": "A fold of tissue connecting the toes of certain birds, or of other animals."
             },
             {
-                "number": 12,
+                "number": 11,
                 "type": "noun",
                 "definition": "The series of barbs implanted on each side of the shaft of a feather, whether stiff and united together by barbules, as in ordinary feathers, or soft and separate, as in downy feathers."
             },
             {
-                "number": 13,
+                "number": 12,
                 "type": "noun",
                 "definition": "A continuous strip of material carried by rollers during processing."
             },
             {
-                "number": 14,
+                "number": 13,
                 "type": "noun",
                 "definition": "(lithography) A long sheet of paper which is fed from a roll into a printing press, as opposed to individual sheets of paper."
             },
             {
-                "number": 15,
+                "number": 14,
                 "type": "noun",
                 "definition": "A band of webbing used to regulate the extension of the hood of a carriage."
             },
             {
-                "number": 16,
+                "number": 15,
                 "type": "noun",
                 "definition": "A thin metal sheet, plate, or strip, as of lead."
             },
             {
-                "number": 17,
+                "number": 16,
                 "type": "noun",
                 "definition": "A major broadcasting network."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To construct or form a web."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "verb",
                 "definition": "To cover with a web or network."
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "verb",
                 "definition": "To ensnare or entangle."
             },
             {
-                "number": 21,
+                "number": 20,
                 "type": "verb",
                 "definition": "To provide with a web."
             },
             {
-                "number": 22,
+                "number": 21,
                 "type": "verb",
                 "definition": "To weave."
             }
@@ -4872,7 +4807,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To move:.",
+                "definition": "To move.",
                 "definition_extra": [
                     {
                         "type": "Synonyms",
@@ -4919,12 +4854,12 @@
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To proceed:."
+                "definition": "To proceed."
             },
             {
                 "number": 7,
                 "type": "verb",
-                "definition": "To follow or travel along (a path):."
+                "definition": "To follow or travel along (a path)."
             },
             {
                 "number": 8,
@@ -4985,7 +4920,7 @@
             {
                 "number": 18,
                 "type": "verb",
-                "definition": "To pass, to be used up:."
+                "definition": "To pass, to be used up."
             },
             {
                 "number": 19,
@@ -5000,12 +4935,12 @@
             {
                 "number": 21,
                 "type": "verb",
-                "definition": "To be lost or out:."
+                "definition": "To be lost or out."
             },
             {
                 "number": 22,
                 "type": "verb",
-                "definition": "To break down or apart:."
+                "definition": "To break down or apart."
             },
             {
                 "number": 23,
@@ -5030,12 +4965,12 @@
             {
                 "number": 27,
                 "type": "verb",
-                "definition": "To be authoritative, accepted, or valid:."
+                "definition": "To be authoritative, accepted, or valid."
             },
             {
                 "number": 28,
                 "type": "verb",
-                "definition": "To say (something), to make a sound:."
+                "definition": "To say (something), to make a sound."
             },
             {
                 "number": 29,
@@ -5050,12 +4985,12 @@
             {
                 "number": 31,
                 "type": "verb",
-                "definition": "To apply or subject oneself to:."
+                "definition": "To apply or subject oneself to."
             },
             {
                 "number": 32,
                 "type": "verb",
-                "definition": "To fit (in a place, or together with something):."
+                "definition": "To fit (in a place, or together with something)."
             },
             {
                 "number": 33,
@@ -5071,7 +5006,7 @@
             {
                 "number": 34,
                 "type": "verb",
-                "definition": "To attack:."
+                "definition": "To attack."
             },
             {
                 "number": 35,
@@ -5815,15 +5750,10 @@
             {
                 "number": 8,
                 "type": "conjunction",
-                "definition": "Until."
-            },
-            {
-                "number": 9,
-                "type": "conjunction",
                 "definition": "As long as."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "conjunction",
                 "definition": "(public policy) Used to denote an individual experiencing racial profiling when performing a seemingly benign activity."
             }
@@ -7058,7 +6988,7 @@
             {
                 "number": 17,
                 "type": "noun",
-                "definition": "An organizational grouping in a military aviation service:."
+                "definition": "An organizational grouping in a military aviation service."
             },
             {
                 "number": 18,
@@ -8068,7 +7998,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Something like such a unit of language:."
+                "definition": "Something like such a unit of language."
             },
             {
                 "number": 3,
@@ -8202,7 +8132,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Something like such a unit of language:."
+                "definition": "Something like such a unit of language."
             },
             {
                 "number": 3,
@@ -10664,7 +10594,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To make (someone) aware of (something impending); especially:."
+                "definition": "To make (someone) aware of (something impending)."
             },
             {
                 "number": 2,
@@ -10689,7 +10619,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To make (someone) aware of (something impending); especially:."
+                "definition": "To make (someone) aware of (something impending)."
             },
             {
                 "number": 2,
@@ -12267,88 +12197,6 @@
             }
         ]
     },
-    "whore": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Any person (especially a woman) who has sexual intercourse or engages in other sexual activity for payment, especially as a means of livelihood.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "sex worker."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A person who does, or offers to do, a demeaning or dishonourable activity for money or personal gain; someone who acts in a dishonourable way for personal advantage.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "sellout."
-                    }
-                ]
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A person who is sexually promiscuous; a slut."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A person who is unscrupulous, especially one who compromises their principles for gain."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A person who will violate behavioral standards to achieve something desired."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A contemptible person."
-            },
-            {
-                "number": 7,
-                "type": "verb",
-                "definition": "To prostitute oneself."
-            },
-            {
-                "number": 8,
-                "type": "verb",
-                "definition": "To engage the services of a prostitute."
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "To pimp; to pander."
-            },
-            {
-                "number": 10,
-                "type": "verb",
-                "definition": "To promote shamelessly."
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "To pursue false gods."
-            },
-            {
-                "number": 12,
-                "type": "verb",
-                "definition": "To pursue false goals."
-            },
-            {
-                "number": 13,
-                "type": "verb",
-                "definition": "To overuse something."
-            }
-        ]
-    },
     "wi": {
         "level": "intermediate",
         "definitions": [
@@ -12568,7 +12416,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Animals, plants, and fungi, not normally domesticated, often to the exclusion of plants, fungi, fish, insects and other invertebrates, and microscopic plants and animals; hence:."
+                "definition": "Animals, plants, and fungi, not normally domesticated, often to the exclusion of plants, fungi, fish, insects and other invertebrates, and microscopic plants and animals; hence."
             },
             {
                 "number": 2,
@@ -12863,7 +12711,7 @@
             {
                 "number": 17,
                 "type": "noun",
-                "definition": "An organizational grouping in a military aviation service:."
+                "definition": "An organizational grouping in a military aviation service."
             },
             {
                 "number": 18,
@@ -13463,7 +13311,7 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "Any of a number of flatfish:."
+                "definition": "Any of a number of flatfish."
             },
             {
                 "number": 8,
@@ -15275,7 +15123,7 @@
             {
                 "number": 5,
                 "type": "adjective",
-                "definition": "(grammar) Displaying a particular kind of inflection, including:."
+                "definition": "(grammar) Displaying a particular kind of inflection."
             },
             {
                 "number": 6,
@@ -15878,11 +15726,6 @@
                 "number": 3,
                 "type": "conjunction",
                 "definition": "During which."
-            },
-            {
-                "number": 4,
-                "type": "conjunction",
-                "definition": "How, or in what way."
             }
         ]
     },
@@ -15913,11 +15756,6 @@
                 "number": 3,
                 "type": "adverb",
                 "definition": "Once upon a time, formerly."
-            },
-            {
-                "number": 4,
-                "type": "conjunction",
-                "definition": "While."
             }
         ]
     },
@@ -18179,16 +18017,6 @@
             }
         ]
     },
-    "wc": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(proofreading) Initialism of word choice."
-            }
-        ]
-    },
     "webcam": {
         "level": "advanced",
         "definitions": [
@@ -18696,61 +18524,6 @@
             }
         ]
     },
-    "wp": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Initialism of weakest precondition."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Initialism of wilting point."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Initialism of weapons procurement."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Initialism of war prison."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "The most common allotrope of phosphorus; a yellow-white waxy solid that is insoluble in water and spontaneously combusts on exposure to air to form clouds of phosphorus pentoxide; used as a military smokescreen and as an incendiary weapon."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "The collective advantages that white people accrue from society, as a result of colonial history etc."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A play where the pitcher throws a non-catchable pitch and a runner advances."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "The creation, input, editing and formatting of documents and other text using software on a computer."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A device similar to a simple computer, designed for word processing."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "Software that provides word processing functions on a computer, typically including typeface selection, line justification and other formatting, pagination, and numerous other features. Compare text editor."
-            }
-        ]
-    },
     "wrapping": {
         "level": "advanced",
         "definitions": [
@@ -18793,91 +18566,6 @@
                 "number": 8,
                 "type": "verb",
                 "definition": "To (cause to) reset to an original value after passing a maximum."
-            }
-        ]
-    },
-    "wt": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "preposition",
-                "definition": "Against."
-            },
-            {
-                "number": 2,
-                "type": "preposition",
-                "definition": "In the company of; alongside, close to; near to."
-            },
-            {
-                "number": 3,
-                "type": "preposition",
-                "definition": "In addition to; as an accessory to."
-            },
-            {
-                "number": 4,
-                "type": "preposition",
-                "definition": "Used to indicate simultaneous happening, or immediate succession or consequence."
-            },
-            {
-                "number": 5,
-                "type": "preposition",
-                "definition": "In support of."
-            },
-            {
-                "number": 6,
-                "type": "preposition",
-                "definition": "In regard to."
-            },
-            {
-                "number": 7,
-                "type": "preposition",
-                "definition": "To denote the accomplishment of cause, means, instrument, etc; – sometimes equivalent to by."
-            },
-            {
-                "number": 8,
-                "type": "preposition",
-                "definition": "Using as an instrument; by means of."
-            },
-            {
-                "number": 9,
-                "type": "preposition",
-                "definition": "Using as nourishment; more recently replaced by on."
-            },
-            {
-                "number": 10,
-                "type": "preposition",
-                "definition": "Having, owning."
-            },
-            {
-                "number": 11,
-                "type": "preposition",
-                "definition": "Affected by (a certain emotion or condition)."
-            },
-            {
-                "number": 12,
-                "type": "preposition",
-                "definition": "Prompted by (a certain emotion)."
-            },
-            {
-                "number": 13,
-                "type": "pronoun",
-                "definition": "(interrogative) Which thing, event, circumstance, etc.: used interrogatively in asking for the specification of an identity, quantity, quality, etc."
-            },
-            {
-                "number": 14,
-                "type": "pronoun",
-                "definition": "That which; those that; the thing that."
-            },
-            {
-                "number": 15,
-                "type": "pronoun",
-                "definition": "(relative) That; which; who."
-            },
-            {
-                "number": 16,
-                "type": "pronoun",
-                "definition": "Whatever."
             }
         ]
     },
@@ -20966,7 +20654,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A coumarin salt, warfarin sodium, found in certain clovers, that retards blood coagulation:."
+                "definition": "A coumarin salt, warfarin sodium, found in certain clovers, that retards blood coagulation."
             }
         ]
     },
@@ -21011,7 +20699,7 @@
             {
                 "number": 1,
                 "type": "adverb",
-                "definition": "In a wary manner:."
+                "definition": "In a wary manner."
             }
         ]
     },
@@ -21151,12 +20839,12 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The state, quality, or condition of being twisted, physically or mentally:."
+                "definition": "The state, quality, or condition of being twisted, physically or mentally."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A distortion:."
+                "definition": "A distortion."
             },
             {
                 "number": 3,
@@ -21196,7 +20884,7 @@
             {
                 "number": 10,
                 "type": "verb",
-                "definition": "To twist or become twisted, physically or mentally:."
+                "definition": "To twist or become twisted, physically or mentally."
             },
             {
                 "number": 11,
@@ -21221,7 +20909,7 @@
             {
                 "number": 15,
                 "type": "verb",
-                "definition": "To move:."
+                "definition": "To move."
             },
             {
                 "number": 16,
@@ -21261,7 +20949,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To twist or become twisted, physically or mentally:."
+                "definition": "To twist or become twisted, physically or mentally."
             },
             {
                 "number": 2,
@@ -21286,7 +20974,7 @@
             {
                 "number": 6,
                 "type": "verb",
-                "definition": "To move:."
+                "definition": "To move."
             },
             {
                 "number": 7,
@@ -21933,11 +21621,6 @@
                 "number": 11,
                 "type": "pronoun",
                 "definition": "Whatever."
-            },
-            {
-                "number": 12,
-                "type": "adverb",
-                "definition": "(Singlish) Used to contradict an underlying assumption held by the interlocutor."
             }
         ]
     },
@@ -23418,7 +23101,7 @@
             {
                 "number": 5,
                 "type": "adjective",
-                "definition": "(grammar) Displaying a particular kind of inflection, including:."
+                "definition": "(grammar) Displaying a particular kind of inflection."
             },
             {
                 "number": 6,
@@ -24598,7 +24281,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A day of the week except those which form the weekend; that is:."
+                "definition": "A day of the week except those which form the weekend; that is."
             },
             {
                 "number": 2,
@@ -25720,16 +25403,6 @@
             }
         ]
     },
-    "wf": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(proofreading) Initialism of wrong font."
-            }
-        ]
-    },
     "whack": {
         "level": "advanced",
         "definitions": [
@@ -26071,7 +25744,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Any of various passerine birds of the genus Oenanthe that feed on insects,."
+                "definition": "Any of various passerine birds of the genus Oenanthe that feed on insects."
             },
             {
                 "number": 2,
@@ -26536,20 +26209,10 @@
             {
                 "number": 3,
                 "type": "conjunction",
-                "definition": "Of what."
-            },
-            {
-                "number": 4,
-                "type": "conjunction",
-                "definition": "Of which."
-            },
-            {
-                "number": 5,
-                "type": "conjunction",
                 "definition": "Of whom."
             },
             {
-                "number": 6,
+                "number": 4,
                 "type": "conjunction",
                 "definition": "With or by which."
             }
@@ -26571,11 +26234,6 @@
             {
                 "number": 1,
                 "type": "adverb",
-                "definition": "Wherever."
-            },
-            {
-                "number": 2,
-                "type": "conjunction",
                 "definition": "Wherever."
             }
         ]
@@ -28576,7 +28234,7 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "Any fish of many species that resemble Merlangius merlangus:."
+                "definition": "Any fish of many species that resemble Merlangius merlangus."
             }
         ]
     },
@@ -29773,7 +29431,7 @@
             {
                 "number": 7,
                 "type": "adjective",
-                "definition": "(usually derogatory) Of or concerning businesses operating outside standard or legitimate practice, especially:."
+                "definition": "(usually derogatory) Of or concerning businesses operating outside standard or legitimate practice."
             },
             {
                 "number": 8,
@@ -30932,91 +30590,6 @@
             },
             {
                 "number": 26,
-                "type": "verb",
-                "definition": "To blow air through a wind instrument or horn to make a sound."
-            },
-            {
-                "number": 27,
-                "type": "verb",
-                "definition": "To cause (someone) to become breathless, as by a blow to the abdomen, or by physical exertion, running, etc."
-            },
-            {
-                "number": 28,
-                "type": "verb",
-                "definition": "To cause a baby to bring up wind by patting its back after being fed."
-            },
-            {
-                "number": 29,
-                "type": "verb",
-                "definition": "To turn a boat or ship around, so that the wind strikes it on the opposite side."
-            },
-            {
-                "number": 30,
-                "type": "verb",
-                "definition": "To expose to the wind; to winnow; to ventilate."
-            },
-            {
-                "number": 31,
-                "type": "verb",
-                "definition": "To perceive or follow by scent."
-            },
-            {
-                "number": 32,
-                "type": "verb",
-                "definition": "To rest (a horse, etc.) in order to allow the breath to be recovered; to breathe."
-            },
-            {
-                "number": 33,
-                "type": "verb",
-                "definition": "To turn a windmill so that its sails face into the wind."
-            },
-            {
-                "number": 34,
-                "type": "verb",
-                "definition": "To turn coils of (a cord or something similar) around something."
-            },
-            {
-                "number": 35,
-                "type": "verb",
-                "definition": "To tighten the spring of a clockwork mechanism such as that of a clock."
-            },
-            {
-                "number": 36,
-                "type": "verb",
-                "definition": "To entwist; to enfold; to encircle."
-            },
-            {
-                "number": 37,
-                "type": "verb",
-                "definition": "To travel in a way that is not straight."
-            },
-            {
-                "number": 38,
-                "type": "verb",
-                "definition": "To have complete control over; to turn and bend at one's pleasure; to vary or alter or will; to regulate; to govern."
-            },
-            {
-                "number": 39,
-                "type": "verb",
-                "definition": "To introduce by insinuation; to insinuate."
-            },
-            {
-                "number": 40,
-                "type": "verb",
-                "definition": "To cover or surround with something coiled about."
-            },
-            {
-                "number": 41,
-                "type": "verb",
-                "definition": "To cause to move by exerting a winding force; to haul or hoist, as by a winch."
-            },
-            {
-                "number": 42,
-                "type": "verb",
-                "definition": "To turn (a ship) around, end for end."
-            },
-            {
-                "number": 43,
                 "type": "noun",
                 "definition": "The act or process of winding (turning a boat etc. around)."
             }
@@ -31916,7 +31489,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "One of various unrelated evergreen plants, including:."
+                "definition": "One of various unrelated evergreen plants."
             },
             {
                 "number": 3,
@@ -32363,7 +31936,7 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "Any of a number of flatfish:."
+                "definition": "Any of a number of flatfish."
             },
             {
                 "number": 8,
@@ -33039,76 +32612,6 @@
                 "number": 2,
                 "type": "adjective",
                 "definition": "Withered; lean and wrinkled by shrinkage as from age or illness."
-            }
-        ]
-    },
-    "wk": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Any period of seven consecutive days."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A period of seven days beginning with Sunday or Monday."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A period of five days beginning with Monday."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A subdivision of the month into longer periods of work days punctuated by shorter weekend periods of days for markets, rest, or religious observation such as a sabbath."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "Seven days after (sometimes before) a specified date."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A player who stands behind the batsman’s wicket ready to catch the ball, or to stump the batsman."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "(heading) Employment."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "(heading) Effort."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "Sustained effort to achieve a goal or result, especially overcoming obstacles."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "(heading) Product; the result of effort."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "The staging of events to appear as real."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "Ore before it is dressed."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "The equipment needed to inject a drug (syringes, needles, swabs etc.)."
             }
         ]
     },
@@ -34206,16 +33709,6 @@
                 "number": 9,
                 "type": "noun",
                 "definition": "A woolly back; someone from the area around Liverpool, not from Liverpool itself."
-            }
-        ]
-    },
-    "wop": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A person of Italian descent."
             }
         ]
     },
@@ -35457,7 +34950,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To cause something harmful; to afflict; to inflict; to harm or injury; to let out something harmful;."
+                "definition": "To cause something harmful; to afflict; to inflict; to harm or injury; to let out something harmful."
             },
             {
                 "number": 2,
@@ -35562,11 +35055,6 @@
             },
             {
                 "number": 6,
-                "type": "verb",
-                "definition": "To curl, writhe or spiral in the form of a wreath."
-            },
-            {
-                "number": 7,
                 "type": "verb",
                 "definition": "To turn violently aside or around; to wrench."
             }
@@ -36730,7 +36218,7 @@
             {
                 "number": 22,
                 "type": "verb",
-                "definition": "To cause something harmful; to afflict; to inflict; to harm or injury; to let out something harmful;."
+                "definition": "To cause something harmful; to afflict; to inflict; to harm or injury; to let out something harmful."
             },
             {
                 "number": 23,
@@ -36811,81 +36299,6 @@
                 "number": 1,
                 "type": "adverb",
                 "definition": "In a wry manner."
-            }
-        ]
-    },
-    "wth": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "interjection",
-                "definition": "Initialism of what the hell."
-            },
-            {
-                "number": 2,
-                "type": "interjection",
-                "definition": "Initialism of what the heck."
-            },
-            {
-                "number": 3,
-                "type": "preposition",
-                "definition": "Against."
-            },
-            {
-                "number": 4,
-                "type": "preposition",
-                "definition": "In the company of; alongside, close to; near to."
-            },
-            {
-                "number": 5,
-                "type": "preposition",
-                "definition": "In addition to; as an accessory to."
-            },
-            {
-                "number": 6,
-                "type": "preposition",
-                "definition": "Used to indicate simultaneous happening, or immediate succession or consequence."
-            },
-            {
-                "number": 7,
-                "type": "preposition",
-                "definition": "In support of."
-            },
-            {
-                "number": 8,
-                "type": "preposition",
-                "definition": "In regard to."
-            },
-            {
-                "number": 9,
-                "type": "preposition",
-                "definition": "To denote the accomplishment of cause, means, instrument, etc; – sometimes equivalent to by."
-            },
-            {
-                "number": 10,
-                "type": "preposition",
-                "definition": "Using as an instrument; by means of."
-            },
-            {
-                "number": 11,
-                "type": "preposition",
-                "definition": "Using as nourishment; more recently replaced by on."
-            },
-            {
-                "number": 12,
-                "type": "preposition",
-                "definition": "Having, owning."
-            },
-            {
-                "number": 13,
-                "type": "preposition",
-                "definition": "Affected by (a certain emotion or condition)."
-            },
-            {
-                "number": 14,
-                "type": "preposition",
-                "definition": "Prompted by (a certain emotion)."
             }
         ]
     },
