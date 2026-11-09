@@ -1,5 +1,5 @@
 # words:audit allowlist (es). One word per line; lines starting with # are ignored.
-# Policy: real Spanish words that a pattern rule (W5 no vowel, W6 roman numeral, W7 three
+# Policy: real Spanish words that a pattern rule (W4 single letter, W5 no vowel, W6 roman numeral, W7 three
 # identical letters) or a list rule would delete. An allowlisted word is exempt from all of them.
 
 # Words that look like roman numerals (W6): di (dar), vi (ver), mi (musical note / possessive),
@@ -9,3 +9,7 @@ li
 mi
 vi
 xi
+
+# Single letter (W4) kept: its RAE letter-name entry keeps the es definitionMaster letter k
+# at the 5-word minimum for beginner (only kilo, kilometro, kilos, kohl besides it).
+k

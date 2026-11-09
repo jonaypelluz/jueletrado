@@ -1,5 +1,5 @@
 # words:audit allowlist (en). One word per line; lines starting with # are ignored.
-# Policy: real English words that a pattern rule (W5 no vowel, W6 roman numeral, W7 three
+# Policy: real English words that a pattern rule (W4 single letter, W5 no vowel, W6 roman numeral, W7 three
 # identical letters) or a list rule (abbreviations, proper nouns, offensive, html/xml
 # blocklists) would delete. An allowlisted word is exempt from all of those rules.
 # Each entry is judged on evidence (its en definitions, or a standard dictionary entry).
