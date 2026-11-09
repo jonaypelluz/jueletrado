@@ -92,3 +92,23 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   - wordBuilder: sin estado final al encontrar todas las palabras.
   - accentFixer: palabras sin tilde con gemela acentuada (esta/está) dan una respuesta ambigua.
   - `components/DayWord.tsx` es código muerto.
+
+## JUE-0008 — Spike: revisión de todos los juegos: jugabilidad, palabras por nivel, errores (done 2026-11-09)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/62
+- Informe: [spikes/JUE-0008.md](spikes/JUE-0008.md). Medición: `node ops/jobs/spikes/JUE-0008/run.cjs`
+  (determinista, ~1 min; escribe `results.md`/`results.json`). Logs de partidas en
+  `spikes/JUE-0008/playtest/`; capturas en `$JON_ASSETS_DIR/jue-0008/`.
+- Hallazgos principales:
+  - F1: el pool precargado ignora la ventana de longitud de cada juego.
+  - F2: volver a jugar repite las palabras (spellTower, wordsRain) y wordFinder se queda sin palabras.
+  - F3: rondas de una sola opción (EN ~60–70 %).
+  - F5: palabrotas y nombres propios en las listas de principiante, que alimentan la palabra del día.
+  - F8: pools sin locale.
+  - F9: el solape intermedio∩avanzado es del 91 %.
+- Propone 10 jobs, ordenados por impacto, y 4 preguntas abiertas para el owner.
+- Residual: tras el tope de 3 rondas de review quedan 3 puntos menores sin corregir:
+  - la fila crossWordPuzzle de la tabla usa el recuento bruto (tras filtros: ES 8.819 / EN 45.534);
+  - la palabra del día no tiene tabla por letra;
+  - a los jobs 2 y 8 les falta un criterio de hecho por cada punto de alcance.
+- `yarn build`/`tsx` no corren en el contenedor (binarios nativos de macOS en `node_modules`). El
+  runner `run.cjs` transpila con el compilador TypeScript.

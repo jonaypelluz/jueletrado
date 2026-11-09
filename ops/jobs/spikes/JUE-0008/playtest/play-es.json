@@ -1,0 +1,109 @@
+{
+ "wordsRain": {
+  "rulesText": "Lluvia de palabras\n\nPulsa las palabras bien escritas antes de que lleguen al suelo y deja caer las mal escritas. Ortografía con rapidez.\n\nJugar",
+  "durationS": 87,
+  "seenSequence": [
+   "juega",
+   "juegá",
+   "juéga",
+   "aniversario",
+   "anibersario",
+   "juegos",
+   "juegós",
+   "juégos",
+   "reunión",
+   "reunion",
+   "reúnion",
+   "primer",
+   "primér",
+   "habrá",
+   "havrá",
+   "abrá",
+   "inglés",
+   "historia",
+   "istoria",
+   "renta",
+   "dulce",
+   "dulse",
+   "estamos",
+   "estámos",
+   "estamós",
+   "pies",
+   "piés",
+   "pocos",
+   "pocós",
+   "efectivo",
+   "efectibo",
+   "contrato",
+   "contráto",
+   "vías",
+   "bías"
+  ],
+  "results": "Lluvia de palabras\n\nPulsa las palabras bien escritas antes de que lleguen al suelo y deja caer las mal escritas. Ortografía con rapidez.\n\nJugar\nPalabras incorrectas:\n15\nNo viste\n→\njuega\nNo viste\n→\naniversario\nNo viste\n→\njuegos\nNo viste\n→\nreunión\nNo viste\n→\nprimer\nNo viste\n→\nhabrá\nNo viste\n→\ninglés\nNo viste\n→\nhistoria\nNo viste\n→\nrenta\nNo viste\n→\ndulce\nNo viste\n→\nestamos\nNo viste\n→\npies\nNo viste\n→\npocos\nNo viste\n→\nefectivo\nNo viste\n→\ncontrato",
+  "errors": []
+ },
+ "wordBuilder": {
+  "rulesText": "Constructor de palabras\n\nCombina cuatro consonantes y dos vocales para formar palabras del diccionario. Sin tiempo: amplía tu vocabulario.\n\nJugar\nReglas\n\nObjetivo del Juego:\n\nEncuentra todas las palabras que puedas formar con tus seis letras.\n\nCómo Jugar:\n\nPulsa Jugar para recibir seis letras en círculo. El número del centro indica cuántas palabras quedan por encontrar.\nPulsa letras para formar un",
+  "letters": [
+   "J",
+   "K",
+   "T",
+   "G",
+   "I",
+   "U"
+  ],
+  "total": [
+   "22"
+  ],
+  "results": "Constructor de palabras\n\nCombina cuatro consonantes y dos vocales para formar palabras del diccionario. Sin tiempo: amplía tu vocabulario.\n\nGenerar otras letras\nJ\nK\nT\nG\nI\nU\n22\n\nPalabra no válida\n\nJKT\nBorrar\nLimpiar\nComprobar palabra",
+  "errors": []
+ },
+ "wordFinder": {
+  "rulesText": "Buscador de palabras\n\nAdivina palabras secretas letra a letra con pistas verdes, amarillas y rojas. Tienes 3 minutos para hasta 10 palabras.\n\nJugar\nReglas\n\nObjetivo del Juego:\n\nAdivina el mayor número de palabras secretas en 3 minutos.\n\nCómo Jugar:\n\nVerás una casilla por cada letra de la palabra secreta.\nEscribe una palabra en las casillas. Se comprueba sola al rellenar la última.\nVerde: letra en ",
+  "wordLengths": [
+   6,
+   6,
+   6,
+   5,
+   5,
+   6,
+   4,
+   7,
+   5,
+   7
+  ],
+  "after": "Buscador de palabras\n\nAdivina palabras secretas letra a letra con pistas verdes, amarillas y rojas. Tienes 3 minutos para hasta 10 palabras.\n\n157 segundos\n\nmúsica - conoce - sentir - torno - media - cuadro - risa - término - bomba - artista",
+  "replayButton": null,
+  "replayInputs": 0,
+  "errors": []
+ },
+ "definitionMaster": {
+  "rulesText": "Maestro de las definiciones\n\nElige una letra y acierta la definición de 10 palabras entre cinco opciones cada vez. Aprende palabras nuevas.\n\nJugar\nReglas\n\nObjetivo del Juego:\n\nAcierta la definición del mayor número de palabras posible.\n\nCómo Jugar:\n\nPulsa Jugar y elige una letra.\nVerás una palabra y cinco definiciones: pulsa la correcta.\nSi aciertas, se marca en azul y sumas un punto.\nSi fallas, t",
+  "questions": 5,
+  "items": [
+   "La definición de kilometro es:\nKilogramo.\nCosmético para ennegrecer los bordes de los párpados, las pestañas o las cejas.\nUndécima letra del abecedario español, que representa el fonema consonántico oclusivo velar sordo, principalmente en préstamos de otras lenguas, como vodka o kayak, o en voces transcritas de lenguas que no emplean el alfabeto latino, como kebab o kipá.\nKilogramo.\nSeñalar las distancias medidas en kilómetros con postes, mojones.",
+   "La definición de kohl es:\nCosmético para ennegrecer los bordes de los párpados, las pestañas o las cejas.\nKilogramo.\nSeñalar las distancias medidas en kilómetros con postes, mojones.\nKilogramo.\nUndécima letra del abecedario español, que representa el fonema consonántico oclusivo velar sordo, principalmente en préstamos de otras lenguas, como vodka o kayak, o en voces transcritas de lenguas que no emplean el alfabeto latino, como kebab o kipá.",
+   "La definición de kilo es:\nUndécima letra del abecedario español, que representa el fonema consonántico oclusivo velar sordo, principalmente en préstamos de otras lenguas, como vodka o kayak, o en voces transcritas de lenguas que no emplean el alfabeto latino, como kebab o kipá.\nCosmético para ennegrecer los bordes de los párpados, las pestañas o las cejas.\nSeñalar las distancias medidas en kilómetros con postes, mojones.\nKilogramo.\nKilogramo."
+  ],
+  "results": "Maestro de las definiciones\n\nElige una letra y acierta la definición de 10 palabras entre cinco opciones cada vez. Aprende palabras nuevas.\n\nElegir otra letra\n¡Acertaste 1 de 5!\nElegir otra letra",
+  "errors": []
+ },
+ "crossWordPuzzle": {
+  "rulesText": "Crucigramas\n\nRellena la cuadrícula con las palabras de cada definición. Las letras incorrectas se marcan en rojo al momento.\n\nJugar\nReglas\n\nObjetivo del Juego:\n\nCompleta el crucigrama rellenando bien todas las casillas.\n\nCómo Jugar:\n\nPulsa Jugar para generar un crucigrama nuevo.\nCada definición de la lista tiene un color. Su palabra usa ese mismo color en la cuadrícula.\nEscribe una letra en cada c",
+  "clues": [
+   "libro diario.",
+   "Criado o mozo destinado a comprar diariamente los comestibles necesarios para el sustento de una casa o familia.",
+   "Período histórico en el que un determinado territorio está colonizado.",
+   "Incitar el apetito, apetecer, gustar."
+  ],
+  "cells": 26,
+  "errors": []
+ },
+ "spellingBee": {
+  "rulesText": "Abeja deletreadora\n\nTe damos una definición y tú escribes la palabra completa, con sus tildes. Practica la ortografía de memoria.\n\nJugar\nReglas\n\nObjetivo del Juego:\n\nEscribe correctamente las 5 palabras para conseguir hasta 15 puntos.\n\nCómo Jugar:\n\nLee la definición, el tipo de palabra y cuántas letras tiene.\nEscribe la palabra y pulsa Comprobar palabra o Intro.\nTienes 3 intentos: 3 puntos al prim",
+  "round": "Abeja deletreadora\n\nTe damos una definición y tú escribes la palabra completa, con sus tildes. Practica la ortografía de memoria.\n\nPalabra 1 de 5\n\nPlanta anual de la familia de las liliáceas, con hojas radicales, enhiestas, largas, angostas, acanaladas, lustrosas y crasas ; flores olorosas, blancas, azules, róseas o amarillentas, en espiga sobre un escapo central fofo y cilíndrico, y fruto capsular con tres divisiones y varias semillas negras, casi redondas\n\nTipo: nombre masculino\n\n7 letras\n\nIntento 1 de 3\n\nEscribe la palabra\nComprobar palabra",
+  "inputLabel": "Escribe la palabra",
+  "after": "Abeja deletreadora\n\nTe damos una definición y tú escribes la palabra completa, con sus tildes. Practica la ortografía de memoria.\n\nPalabra 1 de 5\n\nPlanta anual de la familia de las liliáceas, con hojas radicales, enhiestas, largas, angostas, acanaladas, lustrosas y crasas ; flores olorosas, blancas, azules, róseas o amarillentas, en espiga sobre un escapo central fofo y cilíndrico, y fruto capsular con tres divisiones y varias semillas negras, casi redondas\n\nTipo: nombre masculino\n\n7 letras\n\nJ\n\nIntento 2 de 3\n\nEscribe la palabra\nComprobar palabra\n\nNo es correcta. Tienes una nueva pista.",
+  "errors": []
+ }
+}
