@@ -1,0 +1,34 @@
+# words:audit abbreviations (en). One word per line; lines starting with # are ignored.
+# Policy: abbreviations, initialisms and acronyms that contain a vowel (W5 already deletes
+# the ones without) and have no common standalone meaning (abs, cab, temp, swim stay).
+
+ac
+aka
+ao
+atm
+ceo
+cia
+diy
+ea
+epa
+espn
+etc
+eu
+fbi
+fda
+feb
+ge
+hiv
+ibm
+ip
+irs
+mins
+nasa
+nba
+ncaa
+sci
+seo
+url
+usb
+usd
+vol

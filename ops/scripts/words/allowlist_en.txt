@@ -1,0 +1,56 @@
+# words:audit allowlist (en). One word per line; lines starting with # are ignored.
+# Policy: real English words that a pattern rule (W5 no vowel, W6 roman numeral, W7 three
+# identical letters) or a list rule (abbreviations, proper nouns, offensive, html/xml
+# blocklists) would delete. An allowlisted word is exempt from all of those rules.
+# Each entry is judged on evidence (its en definitions, or a standard dictionary entry).
+
+# Real words in html_xml_blocklist*.txt (needed there for words:from-book) with en definitions
+don
+em
+era
+haven
+hay
+head
+sin
+version
+won
+
+# Words that look like roman numerals (W6): musical syllables, Greek letters, real nouns/verbs
+ci
+di
+div
+li
+mi
+mix
+xi
+
+# Interjections and sounds without a vowel (W5)
+brr
+grr
+hm
+hmm
+hmph
+mm
+pfft
+psst
+pst
+sh
+shh
+tsk
+tsks
+zzz
+
+# Real words without a vowel letter (W5): Welsh loans and ordinal nth
+crwth
+crwths
+cwm
+cwms
+nth
+
+# -ship / -less derivatives with three identical letters (W7)
+bossship
+demigoddessship
+goddessship
+headmistressship
+patronessship
+wallless

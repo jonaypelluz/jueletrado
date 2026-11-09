@@ -1,0 +1,11 @@
+# words:audit allowlist (es). One word per line; lines starting with # are ignored.
+# Policy: real Spanish words that a pattern rule (W5 no vowel, W6 roman numeral, W7 three
+# identical letters) or a list rule would delete. An allowlisted word is exempt from all of them.
+
+# Words that look like roman numerals (W6): di (dar), vi (ver), mi (musical note / possessive),
+# xi (Greek letter), li (Chinese unit of length)
+di
+li
+mi
+vi
+xi

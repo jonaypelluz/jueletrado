@@ -1,0 +1,9 @@
+# words:audit abbreviations (es). One word per line; lines starting with # are ignored.
+# Policy: abbreviations that contain a vowel (W5 already deletes the ones without) and have no
+# standalone meaning as a Spanish word.
+
+dra
+etc
+min
+ud
+vol

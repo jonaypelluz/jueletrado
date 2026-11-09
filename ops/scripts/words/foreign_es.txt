@@ -1,0 +1,49 @@
+# words:audit foreign words (es). One word per line; lines starting with # are ignored.
+# Policy: clear non-Spanish words. DLE loanwords stay (show, web, software, rock, hockey,
+# marketing, ranking, kilo, hardware, look, flash, shock, kit, karma, wifi), and never a word
+# that has an es definition key.
+# Evidence: ops/crawl-output/es/not-found.txt, beginner words without a definition, and the
+# non-RAE tail of the intermediate list. Foreign-pattern words in the lists are a W9 FLAG backlog.
+
+# Norwegian / Swedish / other tokens (RAE not found)
+evne
+generelt
+konkluderer
+konsekvens
+mandatari
+senaste
+viktigheten
+
+# English words
+an
+and
+are
+at
+call
+city
+click
+der
+est
+for
+get
+go
+hey
+is
+journal
+king
+long
+more
+new
+of
+on
+or
+post
+saint
+street
+the
+wall
+west
+what
+white
+world
+you
