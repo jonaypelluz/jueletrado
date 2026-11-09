@@ -1,0 +1,232 @@
+{
+ "spellTower": {
+  "rulesText": "The Spelling Tower\n\nPick the correctly spelled word from the options to add a block to your tower. Practise tricky spellings.\n\nStart\nRules:\n\nGoal of the Game:\n\nBuild the tallest tower you can in 30 seconds.\n\nHow to Play:\n\nPress Start: you have 30 seconds and up to 15 words.\nEach round shows the correct word, usually next to one or two misspelled versions.\nTap the correctly spelled word to add a bl",
+  "session1": [
+   [
+    "rusia",
+    "russia"
+   ],
+   [
+    "headed"
+   ],
+   [
+    "thumbzila",
+    "thumbzilla"
+   ],
+   [
+    "broke"
+   ],
+   [
+    "stress",
+    "stres"
+   ],
+   [
+    "fal",
+    "fall"
+   ],
+   [
+    "knowledge",
+    "nowledge"
+   ],
+   [
+    "knowing",
+    "nowing",
+    "knowin"
+   ],
+   [
+    "united"
+   ],
+   [
+    "learnin",
+    "learning"
+   ],
+   [
+    "cheese",
+    "chese"
+   ],
+   [
+    "seats"
+   ],
+   [
+    "iran"
+   ],
+   [
+    "sell"
+   ],
+   [
+    "searchcom"
+   ]
+  ],
+  "session2": [
+   [
+    "russia",
+    "rusia"
+   ],
+   [
+    "headed"
+   ],
+   [
+    "thumbzila",
+    "thumbzilla"
+   ],
+   [
+    "broke"
+   ],
+   [
+    "stres",
+    "stress"
+   ],
+   [
+    "fall",
+    "fal"
+   ],
+   [
+    "nowledge",
+    "knowledge"
+   ],
+   [
+    "knowing",
+    "nowing",
+    "knowin"
+   ],
+   [
+    "united"
+   ],
+   [
+    "learnin",
+    "learning"
+   ],
+   [
+    "chese",
+    "cheese"
+   ],
+   [
+    "seats"
+   ],
+   [
+    "iran"
+   ],
+   [
+    "sell"
+   ],
+   [
+    "searchcom"
+   ]
+  ],
+  "repeatedInReplay": 15,
+  "oneOption": 14,
+  "results": "The Spelling Tower\n\nPick the correctly spelled word from the options to add a block to your tower. Practise tricky spellings.\n\nStart\nIncorrect words:6\nthumbzila → thumbzilla\nstres → stress\nfal → fall\nnowledge → knowledge\nnowing → knowing\nchese → cheese\n5",
+  "errors": []
+ },
+ "wordsRain": {
+  "rulesText": "Word Rain\n\nTap the correctly spelled words before they hit the ground and let the misspelled ones fall. Spelling at speed.\n\nStart\nRules:\n\nGoal of the Game:\n\nLast as long as you can without losing your 15 lives.\n\nHow to Play:\n\nCorrectly and incorrectly spelled words fall from the top of the screen.\nTap the correctly spelled words to clear them. They do not score points.\nTapping a misspelled word co",
+  "durationS": 57,
+  "seenSequence": [
+   "falls",
+   "fals",
+   "river",
+   "structure",
+   "serve",
+   "states",
+   "look",
+   "luk",
+   "most",
+   "interests",
+   "century",
+   "centurie",
+   "benefits",
+   "final",
+   "michael",
+   "light",
+   "deep",
+   "dep",
+   "jones",
+   "touch",
+   "hate",
+   "held"
+  ],
+  "results": "Word Rain\n\nTap the correctly spelled words before they hit the ground and let the misspelled ones fall. Spelling at speed.\n\nStart\nIncorrect words:\n15\nYou didn't see\n→\nfalls\nYou didn't see\n→\nriver\nYou didn't see\n→\nstructure\nYou didn't see\n→\nserve\nYou didn't see\n→\nstates\nYou didn't see\n→\nlook\nYou didn't see\n→\nmost\nYou didn't see\n→\ninterests\nYou didn't see\n→\ncentury\nYou didn't see\n→\nbenefits\nYou didn't see\n→\nfinal\nYou didn't see\n→\nmichael\nYou didn't see\n→\nlight\nYou didn't see\n→\ndeep\nYou didn't see\n→\njones",
+  "errors": []
+ },
+ "wordBuilder": {
+  "rulesText": "Word Builder\n\nCombine four consonants and two vowels into dictionary words. No timer: grow your vocabulary at your own pace.\n\nStart\nRules:\n\nGoal of the Game:\n\nFind every word you can make with your six letters.\n\nHow to Play:\n\nPress Start to get six letters in a circle. The number in the middle shows how many words are left to find.\nTap letters to build a word. You can use each letter as many times",
+  "letters": [
+   "C",
+   "D",
+   "V",
+   "R",
+   "E",
+   "O"
+  ],
+  "total": [
+   "310"
+  ],
+  "results": "Word Builder\n\nCombine four consonants and two vowels into dictionary words. No timer: grow your vocabulary at your own pace.\n\nGenerate other letters\nC\nD\nV\nR\nE\nO\n310\n\nNot a valid word\n\nCDV\nDelete\nClear\nCheck word",
+  "errors": []
+ },
+ "wordFinder": {
+  "rulesText": "Word Finder\n\nGuess secret words letter by letter with green, yellow and red clues. You have 3 minutes for up to 10 words.\n\nStart\nRules:\n\nGoal of the Game:\n\nGuess as many secret words as you can in 3 minutes.\n\nHow to Play:\n\nYou see one box for each letter of the secret word.\nType a word in the boxes. It is checked as soon as you fill the last one.\nGreen: right letter, right place. Yellow: the lette",
+  "wordLengths": [
+   9,
+   4,
+   5,
+   6,
+   8,
+   5,
+   7,
+   6,
+   6,
+   7
+  ],
+  "after": "Word Finder\n\nGuess secret words letter by letter with green, yellow and red clues. You have 3 minutes for up to 10 words.\n\n152 seconds\n\npresident - room - alive - please - clinical - forms - records - walked - letter - fingers",
+  "replayButton": null,
+  "replayInputs": 0,
+  "errors": []
+ },
+ "definitionMaster": {
+  "rulesText": "Master of Definitions\n\nChoose a letter and match 10 words to their definitions, picking from five options each time. Learn new words.\n\nStart\nRules:\n\nGoal of the Game:\n\nMatch as many words as you can to their correct definition.\n\nHow to Play:\n\nPress Start and choose a letter.\nYou see a word and five definitions: tap the correct one.\nA right answer turns blue and scores a point.\nA wrong answer turns",
+  "questions": 10,
+  "items": [
+   "The definition of qualification is:\nThe act or process of qualifying for a position, achievement etc.\nA fragment of a human expression that is repeated by somebody else.\nA wooden staff of an approximate length between 2 and 2.\nA subduing.\nQuestioning or suggesting puzzlement.",
+   "The definition of qualifications is:\nQuestioning or suggesting puzzlement.\nThe act or process of qualifying for a position, achievement etc.\nA wooden staff of an approximate length between 2 and 2.\nA subduing.\nThe act or process of qualifying for a position, achievement etc.",
+   "The definition of quandary is:\nThe act or process of qualifying for a position, achievement etc.\nQuestioning or suggesting puzzlement.\nA state of not knowing what to decide; a state of difficulty or perplexity; a state of uncertainty, hesitation or puzzlement.\nThe act or process of qualifying for a position, achievement etc.\nA recording device, used by the Incas, consisting of intricate knotted cords."
+  ],
+  "results": "Master of Definitions\n\nChoose a letter and match 10 words to their definitions, picking from five options each time. Learn new words.\n\nChoose another letter\nYou got 3 out of 10 correct!\nChoose another letter",
+  "errors": []
+ },
+ "crossWordPuzzle": {
+  "rulesText": "Crossword Puzzle\n\nFill the grid with the words that match each definition. Wrong letters turn red, so you can fix them as you go.\n\nStart\nRules:\n\nGoal of the Game:\n\nComplete the crossword by filling every square correctly.\n\nHow to Play:\n\nPress Start to generate a new crossword.\nEach definition in the list has a colour. Its word uses the same colour in the grid.\nType one letter per square. A wrong l",
+  "clues": [
+   "A person who does not believe in deities.",
+   "Well skilled; completely versed; thoroughly proficient.",
+   "The improper treatment of a patient by a physician that results in injury or loss.",
+   "Relating to, or producing metastasis."
+  ],
+  "cells": 28,
+  "errors": []
+ },
+ "letterMatcher": {
+  "rulesText": "Letter Master\n\nA word appears with a gap: pick the letters that complete it from two options. Practise sounds that are easy to mix up.\n\nStart\nRules:\n\nGoal of the Game:\n\nComplete as many words as you can correctly in 60 seconds.\n\nHow to Play:\n\nPress Start: you have 60 seconds and up to 10 words.\nA word appears with a gap and two options.\nTap the option that completes it. \"(nothing)\" means no letter",
+  "words": [
+   "CO\n＿\nECTION [N|NN]",
+   "ME\n＿ [ENT|ANT]",
+   "CO\n＿\nENTS [MM|M]",
+   "SLOW\n＿ [LY|LIE]",
+   "FR\n＿ [EE|E]",
+   "STAY\n＿ [IN|ING]",
+   "WEDD\n＿ [ING|IN]",
+   "EXCELL\n＿ [ANT|ENT]",
+   "GENERAL\n＿ [LIE|LY]",
+   "PROFE\n＿\nIONAL [S|SS]"
+  ],
+  "results": "Letter Master\n\nA word appears with a gap: pick the letters that complete it from two options. Practise sounds that are easy to mix up.\n\nStart\n\nYou only made 3 mistakes!\n\nIncorrect words:3\nconection → connection\nslowlie → slowly\ngenerallie → generally",
+  "errors": []
+ },
+ "spellingBee": {
+  "rulesText": "Spelling Bee\n\nRead a definition and type the whole word from memory. Practise spelling without multiple choice.\n\nStart\nRules:\n\nGoal of the Game:\n\nSpell all 5 words correctly to score up to 15 points.\n\nHow to Play:\n\nRead the definition, the word type and how many letters the word has.\nType the word and press Check word or Enter.\nYou have 3 attempts: 3 points on the first, 2 on the second, 1 on the ",
+  "round": "Spelling Bee\n\nRead a definition and type the whole word from memory. Practise spelling without multiple choice.\n\nWord 1 of 5\n\nAn eightfold amount or number\n\nType: noun\n\n7 letters\n\nAttempt 1 of 3\n\nType the word\nCheck word",
+  "inputLabel": "Type the word",
+  "after": "Spelling Bee\n\nRead a definition and type the whole word from memory. Practise spelling without multiple choice.\n\nWord 1 of 5\n\nAn eightfold amount or number\n\nType: noun\n\n7 letters\n\nO\n\nAttempt 2 of 3\n\nType the word\nCheck word\n\nNot quite. You get a new hint.",
+  "errors": []
+ }
+}
