@@ -175,10 +175,8 @@ export const classifyWord = (word: string, entry: Entry | undefined, { locale, w
     }
     if (word !== word.toLowerCase()) return { category: 'W2', action: 'FIX', fixed: word.toLowerCase() };
     if (!CHARSET_RE[locale].test(word)) return { category: 'W3', action: 'DELETE' };
-    if (SINGLE_LETTER_WORDS[locale].has(word)) return null;
+    if (SINGLE_LETTER_WORDS[locale].has(word) || wordSets.allow.has(word)) return null;
     if (Array.from(word).length === 1) return { category: 'W4', action: 'DELETE' };
-
-    if (wordSets.allow.has(word)) return null;
 
     const deleteAs = (category: CategoryId): WordVerdict => ({ category, action: 'DELETE' });
     if (!VOWEL_RE[locale].test(word) || wordSets.abbreviations.has(word)) return deleteAs('W5');

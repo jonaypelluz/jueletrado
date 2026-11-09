@@ -100,6 +100,7 @@ describe('classifyWord', () => {
         ['es', 'li', { allow: ['di', 'vi', 'mi', 'xi', 'li'] }],
         ['en', 'mix', { allow: ['mix', 'mi', 'xi', 'li'] }],
         ['en', 'version', { allow: ['version'], htmlXml: ['version'] }],
+        ['es', 'k', { allow: ['k'] }],
     ] as const)('in locale %p keeps %p (sets %p)', (locale, word, sets) => {
         expect(classifyWord(word, undefined, ctx(locale, sets))).toBeNull();
     });
