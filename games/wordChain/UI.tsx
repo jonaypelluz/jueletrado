@@ -6,6 +6,7 @@ import { GameConfig } from '@models/types';
 import { RejectionReason } from '@utils/ChainLetterIndex';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
+import Spinner from '@components/Spinner';
 import '@styles/Buttons.scss';
 
 type WordChainUIProps = {
@@ -76,10 +77,14 @@ const UI: React.FC<WordChainUIProps> = ({
             );
         }
         if (isLoading) {
+            // The first (cold) load of the full word set takes ~20-40 s: say so instead of a bare grey Play.
             return (
-                <button className="btn-primary game-btn" disabled>
-                    <FormattedMessage id="gamePlay" />
-                </button>
+                <>
+                    <button className="btn-primary game-btn" disabled>
+                        <FormattedMessage id="gameLoading" />
+                    </button>
+                    <Spinner size={28} />
+                </>
             );
         }
         if (showButton) {
