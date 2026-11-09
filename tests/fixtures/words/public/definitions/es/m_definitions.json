@@ -1,0 +1,20 @@
+{
+    "madrid": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Capital de España."
+            }
+        ]
+    },
+    "mesa": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Mueble con tablero horizontal."
+            }
+        ]
+    }
+}

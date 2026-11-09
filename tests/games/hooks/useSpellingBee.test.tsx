@@ -161,6 +161,26 @@ describe('useSpellingBee', () => {
             expect(result.current.loadError).toBe(false);
         });
 
+        test('skips an es word whose only sense carries the unverified type marker', async () => {
+            let call = 0;
+            const result = await renderStartedGame(async (letter) => {
+                call += 1;
+                if (call === 1) {
+                    return {
+                        aguacate: {
+                            definitions: [
+                                { number: 1, type: 'nombre', type_extra: 'sin verificar', definition: 'Fruta tropical de piel verde' },
+                            ],
+                        },
+                    };
+                }
+                return dict(`${letter}palabra`);
+            });
+
+            expect(mockLoadDefinition).toHaveBeenCalledTimes(6);
+            result.current.rounds.forEach((round) => expect(round.word).not.toBe('aguacate'));
+        });
+
         test('plays the rounds it could build when letters run out before 5', async () => {
             let call = 0;
             const result = await renderStartedGame(async (letter) => {

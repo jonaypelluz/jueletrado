@@ -12,6 +12,8 @@
         "words:transform": "tsx scripts/words/transformToJSON.ts",
         "words:merge": "tsx scripts/words/mergeWords.ts",
         "words:check": "tsx scripts/words/checkWords.ts",
+        "words:audit": "tsx scripts/words/auditWords.ts",
+        "words:level-counts": "tsx scripts/words/levelCounts.ts",
         "words:clean": "tsx scripts/words/cleanWords.ts",
         "words:sort-by-frequency": "tsx scripts/words/sortByFrequency.ts",
         "words:from-book": "tsx scripts/words/fromBook.ts",

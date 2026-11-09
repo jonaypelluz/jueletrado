@@ -23,7 +23,7 @@ export type Definition = {
     definition: string;
     number: number;
     type: string;
-    typeExtra?: string;
+    type_extra?: string;
     definitionExtra?: string;
 };
 

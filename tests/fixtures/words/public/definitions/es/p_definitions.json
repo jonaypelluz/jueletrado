@@ -1,0 +1,20 @@
+{
+    "Perro": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Can grande de guarda."
+            }
+        ]
+    },
+    "perro": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Mamífero doméstico de la familia de los cánidos."
+            }
+        ]
+    }
+}

@@ -4,8 +4,10 @@
  *
  * "Not yet known" = not already in public/definitions/{locale}/*, not in
  * ops/crawl-output/{locale}/not-found.txt, not in any of the 3 *_words.txt
- * lists, not in ops/scripts/words/html_xml_blocklist.txt, and not already
- * in discovered_words.txt from a previous run.
+ * lists, not in ops/scripts/words/html_xml_blocklist.txt (+ _{locale}), not in
+ * the words:audit blocklists (offensive_{locale}.txt, proper_nouns_{locale}.txt,
+ * foreign_es.txt for es), and not already in discovered_words.txt from a
+ * previous run.
  *
  * Never touches public/definitions/ or the *_words.txt lists — output goes
  * only to discovered_words.txt (append-safe across multiple book runs).
@@ -144,6 +146,8 @@ async function main(): Promise<void> {
     const wordsRoot = path.join(ROOT, 'ops/scripts/words');
     const blocklistShared = path.join(wordsRoot, 'html_xml_blocklist.txt');
     const blocklistLocale = path.join(wordsRoot, `html_xml_blocklist_${loc}.txt`);
+    const auditBlocklists = [`offensive_${loc}.txt`, `proper_nouns_${loc}.txt`, ...(loc === 'es' ? ['foreign_es.txt'] : [])]
+        .map(name => path.join(wordsRoot, name));
 
     console.log(`Loading known words for ${loc}...`);
     const known = new Set<string>();
@@ -153,6 +157,7 @@ async function main(): Promise<void> {
         loadWordSet(outputFile),
         loadWordSet(blocklistShared),
         loadWordSet(blocklistLocale),
+        ...auditBlocklists.map(loadWordSet),
         ...LEVELS.map(level => loadWordSet(path.join(wordsDir, `${level}_words.txt`))),
     ]);
     for (const set of sets) {

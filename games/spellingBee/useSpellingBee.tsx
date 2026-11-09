@@ -2,15 +2,14 @@
 
 import React, { useState } from 'react';
 import { DEFINITION_LETTERS, LETTERS_WITHOUT_DEFINITIONS } from '@config/DefinitionConfig';
+import { MIN_WORD_LENGTH, TOTAL_ROUNDS } from '@games/spellingBee/config';
 import { WordEntry } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import { formatDefinition, getDefinitionForLevel } from '@utils/DefinitionPicker';
 import { SpellingClue, compareSpelling, isUsableClue, pickHint } from '@utils/SpellingComparer';
 
-const TOTAL_ROUNDS = 5;
 const MAX_ATTEMPTS = 3;
-const MIN_WORD_LENGTH = 4;
 
 export type SpellingFeedback =
     | { kind: 'correct'; points: number }
@@ -36,7 +35,12 @@ const buildRound = (
     const candidates = shuffle(Object.keys(words).filter((word) => Array.from(word).length >= MIN_WORD_LENGTH));
     for (const word of candidates) {
         const definition = getDefinitionForLevel(words[word].definitions, gameLevel);
-        const clue = { word, definition: formatDefinition(definition.definition), type: definition.type };
+        const clue = {
+            word,
+            definition: formatDefinition(definition.definition),
+            type: definition.type,
+            typeExtra: definition.type_extra,
+        };
         if (isUsableClue(clue, locale)) return clue;
     }
     return null;
