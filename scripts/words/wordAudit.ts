@@ -127,7 +127,8 @@ const HTML_ENTITY_RE = /&(amp|lt|gt|quot|apos|nbsp|#\d+|#x[0-9a-f]+);/gi;
 const NAMED_ENTITIES: Record<string, string> = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
 const MIN_TEXT_LETTERS = 3;
 const ES_CROSS_REF_RE = /^(v\.|ver) \S+( \d+)?\.$/i;
-const ES_SINGLE_WORD_RE = /^\p{L}+\.$/u;
+/** A bare single word, with an optional RAE homograph number (`ser1.`). */
+const ES_SINGLE_WORD_RE = /^\p{L}+\d*\.$/u;
 const EN_CROSS_REF_RE = /^(See also|See|Cf\.) (?!you\b)([^;]*\.)$/;
 const EN_CROSS_REF_MAX_TOKENS = 3;
 const EN_FORM_OF_RE = new RegExp(
@@ -279,17 +280,21 @@ export const classifySense = (sense: Pick<Sense, 'type' | 'definition'>, locale:
     }
 
     const flags: CategoryId[] = [];
+    const isCrossRef = (candidate: string): boolean =>
+        locale === 'es' ? ES_CROSS_REF_RE.test(candidate) : isEnCrossRef(candidate);
+    if (isCrossRef(text)) return deleteAs('D3');
     if (locale === 'es') {
-        if (ES_CROSS_REF_RE.test(text)) return deleteAs('D3');
         if (ES_SINGLE_WORD_RE.test(text)) flags.push('D3b');
         if (ES_FORM_OF_RE.test(text)) return deleteAs('D4');
-    } else {
-        if (isEnCrossRef(text)) return deleteAs('D3');
-        if (EN_FORM_OF_RE.test(text)) return deleteAs('D4');
+    } else if (EN_FORM_OF_RE.test(text)) {
+        return deleteAs('D4');
     }
     if (TRUNCATED_RE.test(text)) {
         text = repairTruncated(text, locale);
         if (countLetters(text) < MIN_TEXT_LETTERS) return deleteAs('D5');
+        // The repair can leave a bare cross-reference or single word (`marrón2. a color,.` → `marrón2.`).
+        if (isCrossRef(text)) return deleteAs('D3');
+        if (locale === 'es' && ES_SINGLE_WORD_RE.test(text)) flags.push('D3b');
         fix = fix ?? 'D5';
     }
     if (hasUnbalancedParens(text)) flags.push('D5');

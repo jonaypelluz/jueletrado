@@ -123,6 +123,8 @@ describe('classifySense', () => {
         ['es', sense('Ver atender 2.', 'verbo transitivo'), 'D3'],
         ['en', sense('See abacus.', 'noun', 1), 'D3'],
         ['en', sense('Cf. foo bar.', 'noun', 1), 'D3'],
+        ['es', sense('V. atender. a un acto,.', 'verbo transitivo'), 'D3'],
+        ['en', sense('See abacus. a frame,', 'noun', 1), 'D3'],
         ['en', sense('Plural of cat.', 'noun', 1), 'D4'],
         ['en', sense('Alternative spelling of colour.', 'noun', 1), 'D4'],
         ['es', sense('plural de casa.'), 'D4'],
@@ -162,6 +164,7 @@ describe('classifySense', () => {
             'To run, cycle, etc. at top speed for a short period.'],
         ['en', sense('A thing, e.g. a tool used for,', 'noun', 1), 'D5', 'A thing, e.g. a tool used for.'],
         ['es', sense('Carta de la baraja, as,'), 'D5', 'Carta de la baraja, as.'],
+        ['es', sense('marrón2. a color,.', 'adjetivo'), 'D5', 'marrón2.'],
     ] as const)('in locale %p fixes %p as %s to %p', (locale, input, fix, text) => {
         const result = classifySense(input, locale);
 
@@ -171,6 +174,9 @@ describe('classifySense', () => {
 
     test.each([
         ['es', sense('magnífico.', 'adjetivo'), 'D3b'],
+        ['es', sense('ser1.', 'verbo'), 'D3b'],
+        ['es', sense('ante2.', 'preposición'), 'D3b'],
+        ['es', sense('marrón2. a color,.', 'adjetivo'), 'D3b'],
         ['es', sense('Dicho (de algo que se mueve.'), 'D5'],
     ] as const)('in locale %p flags %p as %s without deleting it', (locale, input, flag) => {
         const result = classifySense(input, locale);
