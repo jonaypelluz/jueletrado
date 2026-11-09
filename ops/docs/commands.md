@@ -15,6 +15,8 @@ ops/scripts/words/{locale}/{level}_words.txt   ◄──────────
   staging files, which are then merged.
 - Word lists (`*_words.txt`) are the source of truth for which words get crawled
   and which game level they belong to.
+- After `crawl:merge`, `words:from-book` or any edit to the word lists, run
+  `yarn words:audit --fix`, then `yarn words:transform`.
 - `ops/scripts/extractFromText.sh` is kept: a standalone column extractor
   (`awk -v col=N '{print $col}'`) with no yarn equivalent, not part of the
   pipeline.
@@ -132,6 +134,107 @@ Reads `ops/scripts/words/{locale}/{level}_words.txt`, sorts + dedupes, writes
 100k-word chunked JSON arrays to `public/words/{locale}/`, and updates
 `config/LevelConfig.ts`. Run this after any change to the `*_words.txt` files.
 
+### `yarn words:audit [--locale es|en] [--fix] [--report <path>] [--root <dir>]`
+
+Audits the word lists (`ops/scripts/words/{locale}/{level}_words.txt`) and the
+definitions (`public/definitions/{locale}/*_definitions.json`) of one or both
+locales. Each finding is **FIX**, **DELETE** or **FLAG**:
+
+- Check mode (no `--fix`) prints a summary per category and writes a markdown
+  report. Nothing is changed.
+- `--fix` applies every FIX/DELETE (a deleted word goes from the lists **and**
+  its definition key), re-audits until stable, and rewrites only the changed
+  files: definitions as `JSON.stringify(data, null, 4)` without a trailing
+  newline, lists one word per line in their original order. FLAGs are never
+  applied; they are the backlog in the report.
+
+| Flag | Default | Meaning |
+|---|---|---|
+| `--locale es\|en` | both | Audit one locale only. |
+| `--fix` | off | Apply FIX/DELETE findings. |
+| `--report <path>` | `ops/crawl-output/audit/{locale}-report.md` (gitignored) | Report path; needs `--locale`. |
+| `--root <dir>` | cwd | Repo root to read and write (tests use a fixture copy). |
+
+Exit codes: `0` clean, or `--fix` succeeded; `1` check mode found FIX/DELETE
+findings; `2` bad arguments or I/O error (e.g. a missing list or letter file).
+
+The report has the before/after table per category, a deterministic 20-item
+sample per category, the full list of deleted offensive words and the FLAG
+backlog.
+
+**Word categories** (run once over the union of list words and definition keys;
+the first match wins):
+
+| Id | Category | Action |
+|---|---|---|
+| W1 | Encoding (not NFC, mojibake) | FIX, DELETE if not repairable |
+| W2 | Uppercase | FIX to lowercase (merged into an existing form) |
+| W3 | Charset (es `[a-záéíóúüñ]`, en `[a-z]`) | DELETE |
+| W4 | Single letter (except es `a e o u y`, en `a i`) | DELETE |
+| W5 | Abbreviation: no vowel, en entry whose senses are all abbreviations, or `abbreviations_{locale}.txt` | DELETE |
+| W6 | Roman numeral | DELETE |
+| W7 | Three identical letters in a row | DELETE |
+| W8 | Proper noun (`proper_nouns_{locale}.txt`) | DELETE |
+| W9 | Foreign (es, `foreign_es.txt`); foreign-looking pattern | DELETE; FLAG |
+| W10 | Offensive (`offensive_{locale}.txt`) | DELETE |
+| W11 | HTML/XML artifact (`html_xml_blocklist.txt` + `html_xml_blocklist_{locale}.txt`) | DELETE |
+| W12 | Accent-only duplicate definition keys | FLAG |
+| W13 | Same word in several levels | FLAG |
+| W14 | Definition key in no list | FLAG |
+| W15 | Duplicate line inside one list | FIX |
+
+**Sense and type categories** (definitions only; a word left with no sense loses
+its definition key, senses are renumbered 1..n):
+
+| Id | Category | Action |
+|---|---|---|
+| D1 | Empty sense | DELETE |
+| D2 | Markup: HTML stripped and decoded; LaTeX/wiki markup | FIX; DELETE |
+| D3 | Cross-reference only (es `V. x.` / `Ver x.`, en `See x.`) | DELETE |
+| D3b | es single-word sense | FLAG |
+| D4 | Form-of without meaning (`Plural of x.`, `Alternative spelling of x.`…) | DELETE |
+| D5 | Truncated (ends in `,` `;` `:`): cut or end with `.`; unbalanced parens | FIX (DELETE if no text left); FLAG |
+| D6 | Duplicate sense text in one word | DELETE the later one |
+| D7 | en `proper noun` sense | DELETE |
+| D8 | Extra whitespace | FIX |
+| T1 | Type outside the closed list: mapped (es register qualifiers and subclasses go to `type_extra`) | FIX; FLAG if unmapped |
+| T2 | es English label mapped to a generic type (`type_extra` gets `sin verificar`) | FLAG |
+| T3 | Missing type | FLAG |
+
+**List files** in `ops/scripts/words/` (one word per line, `#` comments; a
+missing file counts as empty):
+
+| File | Use |
+|---|---|
+| `allowlist_{locale}.txt` | Real words exempt from W4–W7 and from every list rule (e.g. `version`, `hmm`, `mi`). |
+| `offensive_{locale}.txt` | Slurs and words whose main meaning is vulgar (W10). |
+| `proper_nouns_{locale}.txt` | Names of people, places, brands (W8). Never a word with a definition key. |
+| `foreign_es.txt` | Clear non-Spanish words (W9). DLE loanwords stay. |
+| `abbreviations_{locale}.txt` | Abbreviations that contain a vowel (W5). |
+| `html_xml_blocklist.txt`, `html_xml_blocklist_{locale}.txt` | Markup and web artifacts (W11); also used by `words:from-book`. |
+
+**When to run:** after `crawl:merge`, `words:from-book` or any edit to the word
+lists or the files above: `yarn words:audit --fix`, then `yarn words:transform`.
+`tests/scripts/words/auditRealData.test.ts` fails while the real data has
+pending FIX/DELETE findings.
+
+### `yarn words:level-counts [--out <json>] [--baseline <json>]`
+
+Counts, per locale, level and game, the words each game can draw from the served
+data (`public/words` and `public/definitions`), using the games' own config
+(length windows, minimum counts, `LETTERS_WITHOUT_DEFINITIONS`, clue rules).
+Writes a flat JSON map `"<locale>/<level>/<game>[/<letter>]": { count, min }`
+(default `ops/crawl-output/audit/level-counts.json`).
+
+With `--baseline <json>` it prints a before/after table and exits `1` when a pool
+that met its minimum in the baseline is now below it. Pools already below the
+minimum in the baseline are listed, not failed. The spellingBee count is an
+upper bound (the game picks one random eligible sense per word).
+
+Use it around a data clean-up: save a baseline first, clean, transform, then
+compare. If a definitions letter ends with 0 usable words, add it to
+`LETTERS_WITHOUT_DEFINITIONS` in `config/DefinitionConfig.ts`.
+
 ### `yarn words:from-book <es|en> [bookFile]`
 
 Learns new words from book files. Runs, in order:
@@ -139,6 +242,8 @@ Learns new words from book files. Runs, in order:
 1. **`extractFromBook.ts`** — tokenizes the book(s), filters out anything already
    in `public/definitions/`, `not-found.txt`, any `*_words.txt`, the blocklists
    (`ops/scripts/words/html_xml_blocklist.txt` + `html_xml_blocklist_{locale}.txt`),
+   the audit block lists (`offensive_{locale}.txt`, `proper_nouns_{locale}.txt`,
+   `foreign_es.txt` for es),
    or a previous `discovered_words.txt` run. New words are appended to
    `ops/crawl-output/{locale}/discovered_words.txt` (never touches the
    existing word lists or definitions).
@@ -164,5 +269,6 @@ yarn words:from-book en
 
 The `ops/books/` directories are gitignored (copyrighted material stays local).
 
-Run `yarn words:transform` afterwards to regenerate `public/words/` chunks, then
-`yarn crawl:all` to fetch definitions for the newly added words.
+Run `yarn words:audit --fix` and then `yarn words:transform` afterwards to clean the
+lists and regenerate `public/words/` chunks, then `yarn crawl:all` to fetch
+definitions for the newly added words.
