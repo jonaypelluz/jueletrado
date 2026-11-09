@@ -142,6 +142,9 @@ const TRUNCATED_RE = /[,;:]\.?$/;
 const DANGLING_LEAD_IN_RE =
     /[,;]?\s*\(?\b(particularly|especially|specifically|including|notably|namely|in particular|such as|as|thus|for example|for instance|equivalent to)\)?\.$/i;
 
+/** Abbreviations whose `. ` does not end a sentence, so R15 does not cut there. */
+const ABBREVIATION_STOP_RE = /\b(etc|e\.g|i\.e|cf|vs|viz|approx|esp|ca)$/i;
+
 const ACCENT_STRIP: Record<string, string> = { á: 'a', é: 'e', í: 'i', ó: 'o', ú: 'u', ü: 'u' };
 const MAX_FIX_PASSES = 3;
 
@@ -214,10 +217,29 @@ const decodeEntity = (_match: string, name: string): string => {
     return codePoint === null ? NAMED_ENTITIES[name.toLowerCase()] : String.fromCodePoint(codePoint);
 };
 
-/** R15: cut the fragment after the last `. ` when there is one, else end the text with `.` (dropping a dangling lead-in). */
-const repairTruncated = (text: string): string => {
-    const lastStop = text.lastIndexOf('. ');
-    return lastStop !== -1 ? text.slice(0, lastStop + 1) : text.replace(TRUNCATED_RE, '.').replace(DANGLING_LEAD_IN_RE, '.');
+/** Index of the last `. ` that ends a sentence (not one after `etc.`, `e.g.`…); -1 when there is none. */
+const lastSentenceStop = (text: string): number => {
+    let stop = text.lastIndexOf('. ');
+    while (stop !== -1 && ABBREVIATION_STOP_RE.test(text.slice(0, stop))) stop = text.lastIndexOf('. ', stop - 1);
+    return stop;
+};
+
+/** Drops dangling lead-ins until none is left (`…, particularly including.` → `….`). */
+const dropLeadIns = (text: string): string => {
+    let previous: string;
+    do {
+        previous = text;
+        text = text.replace(DANGLING_LEAD_IN_RE, '.');
+    } while (text !== previous);
+    return text;
+};
+
+/** R15: cut the fragment after the last sentence `. ` when there is one, else end the text with `.` (en: dropping dangling lead-ins). */
+const repairTruncated = (text: string, locale: Locale): string => {
+    const lastStop = lastSentenceStop(text);
+    if (lastStop !== -1) return text.slice(0, lastStop + 1);
+    const ended = text.replace(TRUNCATED_RE, '.');
+    return locale === 'en' ? dropLeadIns(ended) : ended;
 };
 
 const normalizeText = (text: string): string => text.replace(/\s+/g, ' ').trim();
@@ -266,7 +288,7 @@ export const classifySense = (sense: Pick<Sense, 'type' | 'definition'>, locale:
         if (EN_FORM_OF_RE.test(text)) return deleteAs('D4');
     }
     if (TRUNCATED_RE.test(text)) {
-        text = repairTruncated(text);
+        text = repairTruncated(text, locale);
         if (countLetters(text) < MIN_TEXT_LETTERS) return deleteAs('D5');
         fix = fix ?? 'D5';
     }

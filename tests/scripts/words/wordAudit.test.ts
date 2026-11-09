@@ -156,6 +156,12 @@ describe('classifySense', () => {
         ['en', sense('A formation of minerals, specifically:.', 'noun', 1), 'D5', 'A formation of minerals.'],
         ['en', sense('An aboriginal inhabitant of a region; in particular:', 'noun', 1), 'D5', 'An aboriginal inhabitant of a region.'],
         ['en', sense('A private cabinet, (particularly):', 'noun', 1), 'D5', 'A private cabinet.'],
+        ['en', sense('Any of various alloys of iron and carbon, a metal, particularly including:.', 'noun', 1), 'D5',
+            'Any of various alloys of iron and carbon, a metal.'],
+        ['en', sense('To run, cycle, etc. at top speed for a short period,.', 'verb', 1), 'D5',
+            'To run, cycle, etc. at top speed for a short period.'],
+        ['en', sense('A thing, e.g. a tool used for,', 'noun', 1), 'D5', 'A thing, e.g. a tool used for.'],
+        ['es', sense('Carta de la baraja, as,'), 'D5', 'Carta de la baraja, as.'],
     ] as const)('in locale %p fixes %p as %s to %p', (locale, input, fix, text) => {
         const result = classifySense(input, locale);
 
