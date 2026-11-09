@@ -11,13 +11,17 @@ export type StorageKey =
     | 'WORDS_MATCHER'
     | 'WORDS_SYLLABLE'
     | 'LOCALE'
-    | 'LEVELS_POPULATED';
+    | 'LEVELS_POPULATED'
+    | 'WORD_CHAIN_BEST';
 
 type StoredItem<T> = {
     value: T;
     timestamp: number;
     expireIn?: number;
 };
+
+/** Keys that survive clearStorage (e.g. on locale switch). */
+const PERSISTENT_KEYS: StorageKey[] = ['WORD_CHAIN_BEST'];
 
 const isBrowser = (): boolean => typeof window !== 'undefined';
 
@@ -41,6 +45,8 @@ const StorageService = {
     LOCALE: 'LOCALE' as const,
     /** Tracks which level+locale combinations are already populated in IndexedDB. */
     LEVELS_POPULATED: 'LEVELS_POPULATED' as const,
+    /** Best wordChain score per locale and level ({ es: { beginner: 12 } }). Survives cache clears and clearStorage. */
+    WORD_CHAIN_BEST: 'WORD_CHAIN_BEST' as const,
 
     setItem<T>(key: StorageKey, value: T, expireIn?: number): void {
         if (!isBrowser()) return;
@@ -94,7 +100,11 @@ const StorageService = {
         if (!isBrowser()) return;
         Logger.info('Clearing localStorage');
         try {
+            const kept = PERSISTENT_KEYS.map((key) => [key, localStorage.getItem(key)] as const);
             localStorage.clear();
+            for (const [key, raw] of kept) {
+                if (raw !== null) localStorage.setItem(key, raw);
+            }
         } catch (error) {
             Logger.error('Error clearing storage:', error);
         }
