@@ -4,52 +4,58 @@
 
 | game | locale | level | eligible | shown/session | sessions until first repeat | note |
 |---|---|---|---:|---:|---:|---|
-| spellTower | es | beginner | 2478 | 15 | 5 |  |
-| spellTower | es | intermediate | 72.128 | 15 | 23 |  |
-| spellTower | es | advanced | 633.058 | 15 | 67 |  |
-| wordsRain | es | beginner | 2478 | 150 | 1 | cycles the same 150 words for 1 h |
-| wordsRain | es | intermediate | 72.128 | 150 | 1 | cycles the same 150 words for 1 h |
-| wordsRain | es | advanced | 633.058 | 150 | 1 | cycles the same 150 words for 1 h |
+| spellTower | es | beginner | 2795 | 15 | 5 | today: single-option words included |
+| spellTower | es | intermediate | 73.240 | 15 | 24 | today: single-option words included |
+| spellTower | es | advanced | 667.099 | 15 | 62 | today: single-option words included |
+| spellTower (≥2 opciones, tras job 3) | es | beginner | 2478 | 15 | 5 | only words with ≥1 distractor |
+| spellTower (≥2 opciones, tras job 3) | es | intermediate | 72.128 | 15 | 24 | only words with ≥1 distractor |
+| spellTower (≥2 opciones, tras job 3) | es | advanced | 633.058 | 15 | 61 | only words with ≥1 distractor |
+| wordsRain | es | beginner | 2795 | 150 | 1 | cycles the same 150 words for 1 h; single-option words included |
+| wordsRain | es | intermediate | 73.240 | 150 | 1 | cycles the same 150 words for 1 h; single-option words included |
+| wordsRain | es | advanced | 667.099 | 150 | 1 | cycles the same 150 words for 1 h; single-option words included |
 | wordFinder | es | beginner | 421 | 10 | 3 |  |
 | wordFinder | es | intermediate | 9686 | 10 | 12 |  |
-| wordFinder | es | advanced | 256.829 | 10 | 59 |  |
+| wordFinder | es | advanced | 256.829 | 10 | 64 |  |
 | accentFixer | es | beginner | 1234 | 10 | 5 |  |
 | accentFixer | es | intermediate | 30.475 | 10 | 23 |  |
 | accentFixer | es | advanced | 557.784 | 10 | 88 |  |
-| syllableSplitter | es | beginner | 1308 | 10 | 6 |  |
-| syllableSplitter | es | intermediate | 31.056 | 10 | 21 |  |
-| syllableSplitter | es | advanced | 534.602 | 10 | 86 |  |
+| syllableSplitter | es | beginner | 1308 | 10 | 5 |  |
+| syllableSplitter | es | intermediate | 31.056 | 10 | 22 |  |
+| syllableSplitter | es | advanced | 534.602 | 10 | 89 |  |
 | letterMatcher | es | beginner | 409 | 10 | 3 |  |
-| letterMatcher | es | intermediate | 14.462 | 10 | 14 |  |
+| letterMatcher | es | intermediate | 14.462 | 10 | 16 |  |
 | letterMatcher | es | advanced | 354.113 | 10 | 69 |  |
-| dailyWord | es | beginner (always) | 3000 | 1 | 65 | level ignored; 1 word/day |
-| definitionMaster | es | beginner | 9010 | 10 | 11 |  |
-| definitionMaster | es | intermediate | 7872 | 10 | 12 |  |
+| dailyWord | es | beginner (always) | 3000 | 1 | 63 | level ignored; 1 word/day |
+| definitionMaster | es | beginner | 9010 | 10 | 12 |  |
+| definitionMaster | es | intermediate | 7872 | 10 | 11 |  |
 | definitionMaster | es | advanced | 6625 | 10 | 11 |  |
 | spellingBee | es | beginner | 7882 | 5 | 22 |  |
-| spellingBee | es | intermediate | 8147 | 5 | 23 |  |
-| spellingBee | es | advanced | 8160 | 5 | 23 |  |
-| wordBuilder | es | all (level ignored) | 93 | — | — | median words findable per letter set |
-| spellTower | en | beginner | 818 | 15 | 3 |  |
-| spellTower | en | intermediate | 12.287 | 15 | 10 |  |
-| spellTower | en | advanced | 145.314 | 15 | 31 |  |
-| wordsRain | en | beginner | 818 | 150 | 1 | cycles the same 150 words for 1 h |
-| wordsRain | en | intermediate | 12.287 | 150 | 1 | cycles the same 150 words for 1 h |
-| wordsRain | en | advanced | 145.314 | 150 | 1 | cycles the same 150 words for 1 h |
+| spellingBee | es | intermediate | 8147 | 5 | 22 |  |
+| spellingBee | es | advanced | 8160 | 5 | 22 |  |
+| wordBuilder | es | all (level ignored) | 100 | — | — | median words findable per letter set |
+| spellTower | en | beginner | 2722 | 15 | 5 | today: single-option words included |
+| spellTower | en | intermediate | 31.084 | 15 | 15 | today: single-option words included |
+| spellTower | en | advanced | 353.299 | 15 | 48 | today: single-option words included |
+| spellTower (≥2 opciones, tras job 3) | en | beginner | 818 | 15 | 3 | only words with ≥1 distractor |
+| spellTower (≥2 opciones, tras job 3) | en | intermediate | 12.287 | 15 | 9 | only words with ≥1 distractor |
+| spellTower (≥2 opciones, tras job 3) | en | advanced | 145.314 | 15 | 30 | only words with ≥1 distractor |
+| wordsRain | en | beginner | 2722 | 150 | 1 | cycles the same 150 words for 1 h; single-option words included |
+| wordsRain | en | intermediate | 31.084 | 150 | 1 | cycles the same 150 words for 1 h; single-option words included |
+| wordsRain | en | advanced | 353.299 | 150 | 1 | cycles the same 150 words for 1 h; single-option words included |
 | wordFinder | en | beginner | 678 | 10 | 4 |  |
-| wordFinder | en | intermediate | 5559 | 10 | 10 |  |
-| wordFinder | en | advanced | 163.592 | 10 | 53 |  |
+| wordFinder | en | intermediate | 5559 | 10 | 9 |  |
+| wordFinder | en | advanced | 163.592 | 10 | 48 |  |
 | letterMatcher | en | beginner | 300 | 10 | 3 |  |
-| letterMatcher | en | intermediate | 3980 | 10 | 9 |  |
-| letterMatcher | en | advanced | 141.488 | 10 | 46 |  |
-| dailyWord | en | beginner (always) | 2993 | 1 | 66 | level ignored; 1 word/day |
-| definitionMaster | en | beginner | 45.984 | 10 | 26 |  |
+| letterMatcher | en | intermediate | 3980 | 10 | 8 |  |
+| letterMatcher | en | advanced | 141.488 | 10 | 45 |  |
+| dailyWord | en | beginner (always) | 2993 | 1 | 65 | level ignored; 1 word/day |
+| definitionMaster | en | beginner | 45.984 | 10 | 27 |  |
 | definitionMaster | en | intermediate | 33.462 | 10 | 23 |  |
-| definitionMaster | en | advanced | 24.441 | 10 | 21 |  |
+| definitionMaster | en | advanced | 24.441 | 10 | 20 |  |
 | spellingBee | en | beginner | 41.456 | 5 | 48 |  |
-| spellingBee | en | intermediate | 43.788 | 5 | 52 |  |
-| spellingBee | en | advanced | 43.924 | 5 | 52 |  |
-| wordBuilder | en | all (level ignored) | 140 | — | — | median words findable per letter set |
+| spellingBee | en | intermediate | 43.788 | 5 | 48 |  |
+| spellingBee | en | advanced | 43.924 | 5 | 51 |  |
+| wordBuilder | en | all (level ignored) | 144 | — | — | median words findable per letter set |
 
 # ES
 
@@ -99,21 +105,21 @@
 
 | set | words | len min–median–max | freq rank median | in top-10k | not in freq list | with accent | with ñ | with hiatus |
 |---|---:|---|---:|---:|---:|---:|---:|---:|
-| beginner | 2478 | 4–7–15 | 1574 | 97.4% | 2.6% | 15.5% | 1.4% | 5.0% |
-| intermediate | 72.128 | 4–9–25 | 6474 | 7.9% | 92.1% | 19.0% | 2.9% | 10.1% |
-| advanced | 633.058 | 4–10–23 | 79.120 | 0.0% | 86.8% | 35.3% | 2.1% | 23.1% |
+| beginner | 2795 | 4–7–15 | 1553 | 97.7% | 2.3% | 16.0% | 1.5% | 5.0% |
+| intermediate | 73.240 | 4–9–25 | 6430 | 8.6% | 91.4% | 19.1% | 2.9% | 10.1% |
+| advanced | 667.099 | 4–10–23 | 78.988 | 0.0% | 86.7% | 36.1% | 2.2% | 22.8% |
 
 | set | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 0 | 203 | 424 | 455 | 468 | 349 | 238 | 156 | 89 | 37 | 59 |
-| intermediate | 0 | 552 | 2484 | 5967 | 9713 | 12.124 | 12.359 | 10.347 | 7527 | 4756 | 6299 |
-| advanced | 0 | 2932 | 10.338 | 25.229 | 47.522 | 72.705 | 92.201 | 101.117 | 93.777 | 74.549 | 112.688 |
+| beginner | 0 | 302 | 529 | 509 | 503 | 366 | 242 | 159 | 89 | 37 | 59 |
+| intermediate | 0 | 706 | 2751 | 6229 | 9899 | 12.241 | 12.432 | 10.380 | 7538 | 4759 | 6305 |
+| advanced | 0 | 4146 | 13.150 | 29.246 | 52.614 | 77.984 | 96.985 | 105.180 | 96.722 | 76.483 | 114.589 |
 
 | set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | ñ | o | p | q | r | s | t | u | v | w | x | y | z | other |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 191 | 59 | 302 | 166 | 203 | 79 | 42 | 84 | 98 | 29 | 3 | 80 | 147 | 64 | 0 | 60 | 313 | 24 | 109 | 153 | 115 | 26 | 101 | 5 | 0 | 2 | 4 | 19 |
-| intermediate | 9740 | 3086 | 10.187 | 4878 | 6010 | 2261 | 2437 | 1859 | 2105 | 788 | 71 | 1929 | 4185 | 1064 | 88 | 1096 | 5876 | 462 | 3289 | 3711 | 3882 | 382 | 1571 | 29 | 56 | 203 | 713 | 170 |
-| advanced | 96.318 | 18.050 | 65.608 | 81.708 | 91.016 | 14.405 | 13.168 | 11.760 | 19.240 | 5416 | 344 | 12.283 | 27.738 | 5349 | 289 | 7486 | 40.953 | 2046 | 46.092 | 27.734 | 26.673 | 2259 | 10.978 | 94 | 187 | 865 | 4654 | 345 |
+| beginner | 211 | 60 | 356 | 187 | 228 | 91 | 54 | 85 | 104 | 36 | 3 | 97 | 174 | 70 | 0 | 60 | 355 | 29 | 122 | 171 | 137 | 26 | 104 | 5 | 0 | 2 | 4 | 24 |
+| intermediate | 9827 | 3093 | 10.348 | 4962 | 6092 | 2315 | 2471 | 1867 | 2126 | 805 | 73 | 1965 | 4263 | 1082 | 88 | 1111 | 5991 | 473 | 3385 | 3774 | 3967 | 386 | 1583 | 29 | 56 | 204 | 717 | 187 |
+| advanced | 101.021 | 18.121 | 68.897 | 86.116 | 96.188 | 15.581 | 13.844 | 11.864 | 20.147 | 5765 | 358 | 13.083 | 29.706 | 5650 | 312 | 7871 | 43.764 | 2150 | 49.041 | 29.090 | 28.848 | 2382 | 11.057 | 94 | 194 | 882 | 4699 | 374 |
 
 ### wordFinder — game window vs prefetched pool (WORD_GROUP_FETCH_CONFIG 4–9)
 
@@ -289,6 +295,12 @@ Per letter (words with an entry):
 | intermediate | 22 | 35 | 117 | 488 | 992 | 1191 | 1367 | 1289 | 899 | 660 | 382 | 225 | 205 |
 | advanced | 13 | 29 | 101 | 435 | 895 | 1066 | 1197 | 1078 | 741 | 507 | 276 | 157 | 130 |
 
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | ñ | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| beginner | 1013 | 196 | 1188 | 599 | 710 | 278 | 191 | 206 | 422 | 80 | 5 | 291 | 516 | 174 | 2 | 226 | 925 | 67 | 489 | 587 | 397 | 71 | 284 | 10 | 1 | 19 | 24 | 39 |
+| intermediate | 867 | 169 | 1051 | 527 | 600 | 243 | 171 | 190 | 346 | 62 | 3 | 249 | 437 | 156 | 1 | 201 | 825 | 60 | 436 | 522 | 364 | 66 | 259 | 1 | 1 | 12 | 18 | 35 |
+| advanced | 711 | 137 | 916 | 448 | 489 | 199 | 139 | 171 | 262 | 55 | 0 | 217 | 366 | 127 | 1 | 173 | 693 | 56 | 381 | 435 | 317 | 49 | 223 | 0 | 1 | 10 | 15 | 34 |
+
 ### spellingBee — words ≥4 letters with a usable clue for the level
 
 | level | words ≥4 | with ≥1 usable clue among the level's definitions | share |
@@ -311,27 +323,57 @@ Per letter (words with an entry):
 | intermediate | 0 | 484 | 962 | 1185 | 1384 | 1327 | 984 | 738 | 467 | 292 | 324 |
 | advanced | 0 | 486 | 966 | 1187 | 1387 | 1329 | 984 | 738 | 467 | 292 | 324 |
 
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | ñ | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| beginner | 694 | 174 | 1095 | 537 | 649 | 249 | 164 | 184 | 381 | 68 | 2 | 249 | 466 | 160 | 1 | 201 | 859 | 56 | 449 | 526 | 356 | 56 | 232 | 6 | 0 | 14 | 22 | 32 |
+| intermediate | 723 | 184 | 1135 | 560 | 666 | 258 | 169 | 187 | 394 | 70 | 4 | 255 | 482 | 163 | 1 | 206 | 877 | 61 | 460 | 540 | 366 | 59 | 251 | 6 | 0 | 15 | 22 | 33 |
+| advanced | 725 | 185 | 1135 | 560 | 666 | 258 | 169 | 188 | 395 | 70 | 4 | 257 | 482 | 164 | 1 | 206 | 878 | 61 | 460 | 541 | 368 | 59 | 252 | 6 | 0 | 15 | 22 | 33 |
+
 ### crossWordPuzzle — definitions words (accents stripped), 6 random letters per batch, 3 batches
 
 - words: 9010; accent-stripping collisions (two words become one key, one definition lost): 98; keys with non-letters: 0
 
 | level | target words | trials | full layout | failed after 3 batches | median placed-word length | words ≥ 10 letters placed |
 |---|---:|---:|---:|---:|---:|---:|
-| beginner | 4 | 150 | 150 | 0 | 7 | 88 |
-| intermediate | 6 | 150 | 150 | 0 | 7 | 110 |
-| advanced | 8 | 150 | 150 | 0 | 7 | 155 |
+| beginner | 4 | 150 | 150 | 0 | 7 | 85 |
+| intermediate | 6 | 150 | 150 | 0 | 7 | 124 |
+| advanced | 8 | 150 | 150 | 0 | 7 | 147 |
+
+| set | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| pool (all levels, accents stripped) | 24 | 44 | 141 | 534 | 1055 | 1269 | 1474 | 1425 | 1052 | 781 | 484 | 298 | 331 |
+| placed, beginner (150 trials) | 0 | 0 | 13 | 5 | 103 | 54 | 166 | 62 | 112 | 15 | 45 | 5 | 20 |
+| placed, intermediate (150 trials) | 0 | 0 | 34 | 43 | 139 | 94 | 216 | 90 | 160 | 27 | 60 | 5 | 32 |
+| placed, advanced (150 trials) | 0 | 0 | 58 | 86 | 195 | 111 | 284 | 122 | 197 | 28 | 73 | 15 | 31 |
+
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | ñ | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| pool (all levels, accents stripped) | 1019 | 195 | 1177 | 595 | 710 | 277 | 187 | 204 | 421 | 80 | 5 | 284 | 510 | 174 | 2 | 227 | 912 | 64 | 488 | 581 | 390 | 76 | 281 | 10 | 1 | 18 | 24 | 0 |
+| placed, beginner (150 trials) | 110 | 9 | 78 | 59 | 29 | 13 | 26 | 11 | 18 | 7 | 0 | 19 | 20 | 15 | 0 | 12 | 62 | 4 | 26 | 46 | 15 | 11 | 10 | 0 | 0 | 0 | 0 | 0 |
+| placed, intermediate (150 trials) | 149 | 36 | 91 | 68 | 56 | 29 | 17 | 21 | 33 | 9 | 1 | 22 | 47 | 30 | 0 | 18 | 89 | 7 | 47 | 56 | 29 | 9 | 28 | 2 | 0 | 1 | 5 | 0 |
+| placed, advanced (150 trials) | 195 | 25 | 133 | 111 | 89 | 37 | 46 | 49 | 50 | 9 | 0 | 37 | 48 | 21 | 0 | 32 | 86 | 5 | 62 | 59 | 45 | 11 | 45 | 1 | 0 | 3 | 1 | 0 |
 
 ### wordBuilder — 4 random consonants + 2 random vowels, words from all three levels
 
 | metric (1000 random letter sets) | value |
 |---|---:|
-| findable words p10 / median / p90 | 39 / 93 / 300 |
-| … of which beginner-list words, median | 8 |
+| findable words p10 / median / p90 | 40 / 100 / 326 |
+| … of which beginner-list words, median | 9 |
 | sets with 0 findable words | 0 (0.0%) |
-| sets with 0 beginner-list words | 8 (0.8%) |
+| sets with 0 beginner-list words | 5 (0.5%) |
 | dictionary words never findable (letters outside the set, e.g. ü) | 945 |
 
 - The level is not used by wordBuilder (same letters rule and same dictionary on every level).
+
+| set | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| findable dictionary (all levels) | 0 | 223 | 1069 | 4800 | 14.379 | 30.643 | 54.135 | 79.317 | 97.878 | 105.784 | 97.060 | 76.624 | 114.711 |
+| found in 1000 letter sets (union) | 0 | 223 | 1065 | 4144 | 6464 | 7024 | 5669 | 3701 | 1903 | 812 | 234 | 61 | 12 |
+
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | ñ | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| findable dictionary (all levels) | 101.646 | 18.410 | 70.157 | 86.786 | 96.825 | 15.918 | 14.028 | 12.137 | 20.571 | 5899 | 383 | 13.341 | 30.231 | 5876 | 319 | 8150 | 44.775 | 2233 | 49.568 | 29.703 | 29.334 | 2514 | 11.436 | 115 | 210 | 899 | 4719 | 440 |
+| found in 1000 letter sets (union) | 6712 | 1739 | 3038 | 1401 | 2140 | 819 | 799 | 727 | 357 | 588 | 92 | 1023 | 1370 | 519 | 55 | 570 | 2086 | 22 | 2434 | 1383 | 1778 | 234 | 693 | 36 | 40 | 165 | 347 | 145 |
 
 # EN
 
@@ -378,21 +420,21 @@ Per letter (words with an entry):
 
 | set | words | len min–median–max | freq rank median | in top-10k | not in freq list | with accent | with ñ |
 |---|---:|---|---:|---:|---:|---:|---:|
-| beginner | 818 | 4–7–16 | 1682 | 97.6% | 2.4% | 0.0% | 0.0% |
-| intermediate | 12.287 | 4–10–29 | 6503 | 18.1% | 81.9% | 0.0% | 0.0% |
-| advanced | 145.314 | 4–10–31 | 71.056 | 0.0% | 77.5% | 0.0% | 0.0% |
+| beginner | 2722 | 4–6–22 | 1569 | 97.4% | 2.6% | 0.0% | 0.0% |
+| intermediate | 31.084 | 4–9–29 | 6477 | 20.7% | 79.3% | 0.0% | 0.0% |
+| advanced | 353.299 | 4–9–31 | 70.575 | 0.0% | 75.6% | 0.0% | 0.0% |
 
 | set | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 0 | 54 | 102 | 144 | 183 | 125 | 87 | 73 | 29 | 7 | 14 |
-| intermediate | 0 | 76 | 327 | 756 | 1199 | 1622 | 1910 | 1871 | 1580 | 1143 | 1803 |
-| advanced | 0 | 616 | 3210 | 7098 | 13.392 | 18.535 | 20.940 | 20.986 | 18.303 | 14.564 | 27.670 |
+| beginner | 0 | 491 | 547 | 504 | 470 | 316 | 184 | 117 | 48 | 20 | 25 |
+| intermediate | 0 | 802 | 1775 | 2982 | 3800 | 4438 | 4654 | 4052 | 3275 | 2176 | 3130 |
+| advanced | 0 | 6519 | 16.973 | 26.905 | 38.692 | 47.727 | 50.268 | 47.245 | 38.700 | 29.419 | 50.851 |
 
 | set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 96 | 48 | 72 | 39 | 52 | 42 | 15 | 26 | 29 | 3 | 10 | 25 | 34 | 10 | 22 | 56 | 11 | 39 | 96 | 45 | 11 | 12 | 24 | 0 | 1 | 0 | 0 |
-| intermediate | 1087 | 695 | 1205 | 632 | 436 | 386 | 385 | 394 | 665 | 116 | 96 | 348 | 572 | 326 | 255 | 1054 | 157 | 497 | 1310 | 581 | 602 | 191 | 207 | 22 | 21 | 47 | 0 |
-| advanced | 8832 | 7388 | 11.841 | 7197 | 4956 | 4757 | 4605 | 5048 | 5835 | 1117 | 1327 | 3526 | 7037 | 3934 | 4721 | 14.573 | 1792 | 6942 | 16.703 | 7054 | 9997 | 1881 | 3047 | 183 | 405 | 616 | 0 |
+| beginner | 192 | 131 | 260 | 148 | 132 | 154 | 68 | 90 | 83 | 29 | 26 | 115 | 145 | 51 | 60 | 205 | 11 | 146 | 316 | 163 | 35 | 33 | 112 | 0 | 14 | 3 | 0 |
+| intermediate | 2861 | 1618 | 3218 | 1708 | 1254 | 1003 | 917 | 1111 | 1259 | 260 | 241 | 1083 | 1723 | 788 | 760 | 2655 | 161 | 1262 | 3071 | 1608 | 1264 | 575 | 465 | 63 | 54 | 102 | 0 |
+| advanced | 23.554 | 17.245 | 30.385 | 18.257 | 13.410 | 11.157 | 10.977 | 13.578 | 12.579 | 2667 | 3857 | 9832 | 20.003 | 9601 | 11.315 | 34.275 | 1837 | 16.383 | 38.562 | 18.999 | 19.742 | 5507 | 6481 | 529 | 1136 | 1431 | 0 |
 
 ### wordFinder — game window vs prefetched pool (WORD_GROUP_FETCH_CONFIG 4–9)
 
@@ -504,6 +546,12 @@ Per letter (words with an entry):
 | intermediate | 22 | 183 | 737 | 2247 | 3406 | 4732 | 5300 | 5028 | 4457 | 3175 | 2041 | 1124 | 1010 |
 | advanced | 20 | 139 | 649 | 2007 | 2914 | 3865 | 4065 | 3601 | 2951 | 1959 | 1206 | 605 | 460 |
 
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| beginner | 5367 | 2501 | 4364 | 2597 | 1798 | 1851 | 1407 | 1555 | 1806 | 337 | 349 | 1373 | 2335 | 890 | 1068 | 3600 | 220 | 2088 | 4752 | 2190 | 1591 | 719 | 1002 | 22 | 120 | 82 | 0 |
+| intermediate | 3481 | 1939 | 3265 | 2017 | 1333 | 1445 | 991 | 1098 | 1268 | 256 | 223 | 1013 | 1640 | 583 | 735 | 2651 | 180 | 1680 | 3689 | 1656 | 836 | 525 | 800 | 11 | 100 | 47 | 0 |
+| advanced | 2314 | 1467 | 2451 | 1539 | 936 | 1121 | 744 | 806 | 868 | 204 | 163 | 758 | 1115 | 409 | 516 | 1931 | 135 | 1288 | 2817 | 1260 | 469 | 376 | 643 | 6 | 76 | 29 | 0 |
+
 ### spellingBee — words ≥4 letters with a usable clue for the level
 
 | level | words ≥4 | with ≥1 usable clue among the level's definitions | share |
@@ -526,25 +574,55 @@ Per letter (words with an entry):
 | intermediate | 0 | 2407 | 3845 | 5632 | 6595 | 6828 | 6279 | 4819 | 3298 | 2013 | 2072 |
 | advanced | 0 | 2455 | 3870 | 5652 | 6619 | 6837 | 6282 | 4821 | 3301 | 2014 | 2073 |
 
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| beginner | 4933 | 2281 | 3981 | 2340 | 1593 | 1689 | 1245 | 1393 | 1661 | 286 | 300 | 1207 | 2077 | 769 | 942 | 3254 | 199 | 1899 | 4284 | 1965 | 1461 | 637 | 895 | 17 | 84 | 64 | 0 |
+| intermediate | 5151 | 2397 | 4202 | 2469 | 1705 | 1784 | 1332 | 1460 | 1745 | 304 | 316 | 1277 | 2210 | 824 | 994 | 3433 | 214 | 1999 | 4579 | 2070 | 1520 | 672 | 951 | 18 | 93 | 69 | 0 |
+| advanced | 5156 | 2401 | 4212 | 2484 | 1710 | 1790 | 1336 | 1469 | 1751 | 304 | 316 | 1280 | 2222 | 824 | 998 | 3443 | 214 | 2013 | 4597 | 2078 | 1520 | 673 | 953 | 18 | 93 | 69 | 0 |
+
 ### crossWordPuzzle — definitions words (accents stripped), 6 random letters per batch, 3 batches
 
 - words: 45.984; accent-stripping collisions (two words become one key, one definition lost): 0; keys with non-letters: 0
 
 | level | target words | trials | full layout | failed after 3 batches | median placed-word length | words ≥ 10 letters placed |
 |---|---:|---:|---:|---:|---:|---:|
-| beginner | 4 | 150 | 150 | 0 | 8 | 88 |
-| intermediate | 6 | 150 | 150 | 0 | 8 | 196 |
-| advanced | 8 | 150 | 150 | 0 | 7 | 196 |
+| beginner | 4 | 150 | 150 | 0 | 8 | 99 |
+| intermediate | 6 | 150 | 150 | 0 | 8 | 165 |
+| advanced | 8 | 150 | 150 | 0 | 7 | 209 |
+
+| set | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| pool (all levels, accents stripped) | 23 | 245 | 838 | 2528 | 3984 | 5775 | 6782 | 7009 | 6399 | 4907 | 3349 | 2044 | 2101 |
+| placed, beginner (150 trials) | 0 | 0 | 11 | 3 | 78 | 62 | 143 | 55 | 149 | 11 | 54 | 5 | 29 |
+| placed, intermediate (150 trials) | 0 | 0 | 22 | 41 | 107 | 88 | 173 | 101 | 203 | 37 | 74 | 14 | 40 |
+| placed, advanced (150 trials) | 0 | 0 | 57 | 68 | 145 | 114 | 256 | 128 | 223 | 57 | 87 | 26 | 39 |
+
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| pool (all levels, accents stripped) | 5367 | 2501 | 4364 | 2597 | 1798 | 1851 | 1407 | 1555 | 1806 | 337 | 349 | 1373 | 2335 | 890 | 1068 | 3600 | 220 | 2088 | 4752 | 2190 | 1591 | 719 | 1002 | 22 | 120 | 82 | 0 |
+| placed, beginner (150 trials) | 74 | 37 | 63 | 35 | 25 | 46 | 27 | 18 | 21 | 8 | 6 | 10 | 24 | 9 | 17 | 53 | 3 | 27 | 39 | 23 | 13 | 6 | 12 | 0 | 3 | 1 | 0 |
+| placed, intermediate (150 trials) | 129 | 48 | 63 | 53 | 29 | 47 | 38 | 49 | 18 | 8 | 8 | 28 | 43 | 20 | 31 | 79 | 7 | 47 | 50 | 51 | 20 | 9 | 23 | 0 | 2 | 0 | 0 |
+| placed, advanced (150 trials) | 205 | 86 | 104 | 73 | 53 | 40 | 36 | 79 | 32 | 9 | 6 | 41 | 35 | 32 | 23 | 91 | 7 | 43 | 86 | 57 | 25 | 10 | 23 | 0 | 1 | 3 | 0 |
 
 ### wordBuilder — 4 random consonants + 2 random vowels, words from all three levels
 
 | metric (1000 random letter sets) | value |
 |---|---:|
-| findable words p10 / median / p90 | 73 / 140 / 280 |
-| … of which beginner-list words, median | 10 |
+| findable words p10 / median / p90 | 74 / 144 / 292 |
+| … of which beginner-list words, median | 11 |
 | sets with 0 findable words | 0 (0.0%) |
-| sets with 0 beginner-list words | 2 (0.2%) |
+| sets with 0 beginner-list words | 0 (0.0%) |
 | dictionary words never findable (letters outside the set, e.g. ü) | 0 |
 
 - The level is not used by wordBuilder (same letters rule and same dictionary on every level).
+
+| set | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| findable dictionary (all levels) | 0 | 483 | 2133 | 7618 | 18.440 | 28.489 | 40.237 | 48.942 | 51.191 | 47.832 | 39.042 | 29.602 | 50.979 |
+| found in 1000 letter sets (union) | 0 | 483 | 2108 | 6217 | 7542 | 5070 | 2444 | 1230 | 374 | 122 | 40 | 16 | 2 |
+
+| set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| findable dictionary (all levels) | 24.375 | 17.835 | 31.451 | 18.918 | 13.939 | 11.670 | 11.343 | 13.983 | 13.022 | 2834 | 4018 | 10.277 | 20.588 | 9896 | 11.638 | 35.128 | 1895 | 17.075 | 39.731 | 19.637 | 19.934 | 5709 | 6840 | 547 | 1230 | 1475 | 0 |
+| found in 1000 letter sets (union) | 2156 | 1888 | 1614 | 1321 | 922 | 935 | 1056 | 1027 | 576 | 412 | 829 | 952 | 1233 | 782 | 643 | 1390 | 63 | 1476 | 2612 | 1578 | 386 | 430 | 771 | 62 | 337 | 197 | 0 |
 

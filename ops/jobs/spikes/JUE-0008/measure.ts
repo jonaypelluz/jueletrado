@@ -334,6 +334,8 @@ for (const locale of LOCALES) {
     // spellTower / wordsRain: words that get at least one distractor
     {
         const sets: Record<Level, string[]> = { beginner: [], intermediate: [], advanced: [] };
+        // The pool the games draw from today: every word in the window, single-option words included.
+        const windowSets: Record<Level, string[]> = { beginner: [], intermediate: [], advanced: [] };
         const noDistractor: Record<Level, number> = { beginner: 0, intermediate: 0, advanced: 0 };
         const window: Record<Level, number> = { beginner: 0, intermediate: 0, advanced: 0 };
         const optionCounts: Record<Level, Record<number, number>> = { beginner: {}, intermediate: {}, advanced: {} };
@@ -341,6 +343,7 @@ for (const locale of LOCALES) {
             for (const w of levelSets[level]) {
                 if (!inWindow(w, TOWER_WINDOW)) continue;
                 window[level]++;
+                windowSets[level].push(w);
                 let arr = processor.processWord(w);
                 if (arr.length === 1) arr = processor.processWordWithAccent(arr[0]);
                 optionCounts[level][arr.length] = (optionCounts[level][arr.length] ?? 0) + 1;
@@ -357,10 +360,14 @@ for (const locale of LOCALES) {
             out(`| ${level} | ${fmt(window[level])} | ${fmt(noDistractor[level])} (${pct(noDistractor[level], window[level])}) | ${fmt(oc[2] ?? 0)} | ${fmt(oc[3] ?? 0)} | ${fmt(sets[level].length)} |`);
         }
         out();
-        gameBlock('spellTower', sets, 15);
+        gameBlock('spellTower', windowSets, 15, { beginner: 'today: single-option words included', intermediate: 'today: single-option words included', advanced: 'today: single-option words included' });
+        // After job 3 (single-option words dropped): only the ≥2-option set.
+        for (const level of LEVELS) {
+            summary.push({ game: 'spellTower (≥2 opciones, tras job 3)', locale, level, eligible: sets[level].length, shown: 15, repeat: sessionsUntilRepeat(sets[level].length, 15), note: 'only words with ≥1 distractor' });
+        }
         // wordsRain plays the same processed words; 150 looped per hour, not consumed.
         for (const level of LEVELS) {
-            summary.push({ game: 'wordsRain', locale, level, eligible: sets[level].length, shown: 150, repeat: 1, note: 'cycles the same 150 words for 1 h' });
+            summary.push({ game: 'wordsRain', locale, level, eligible: windowSets[level].length, shown: 150, repeat: 1, note: 'cycles the same 150 words for 1 h; single-option words included' });
         }
         json[`${locale}.towerNoDistractor`] = { noDistractor, window };
     }
@@ -591,7 +598,7 @@ for (const locale of LOCALES) {
         });
         out(`- The level does not pick the words, only how many definitions they need: ${lvlMix.join('; ')}.`);
         out();
-        gameBlock('definitionMaster', dmSets, 10, undefined, false);
+        gameBlock('definitionMaster', dmSets, 10);
     }
 
     // spellingBee
@@ -618,7 +625,7 @@ for (const locale of LOCALES) {
         out();
         // sanity check the real picker is the one emulated
         void getDefinitionForLevel;
-        gameBlock('spellingBee', sbSets, 5, undefined, false);
+        gameBlock('spellingBee', sbSets, 5);
     }
 
     // crossWordPuzzle
@@ -631,6 +638,7 @@ for (const locale of LOCALES) {
         out(`- words: ${fmt(stripped.length)}; accent-stripping collisions (two words become one key, one definition lost): ${fmt(collisions)}; keys with non-letters: ${fmt(notLetters.length)}${notLetters.length ? ` (${notLetters.slice(0, 8).map((w) => `\`${w}\``).join(', ')})` : ''}`);
         const lettersAll = 'abcdefghijklmnopqrstuvwxyz'.split('');
         const targets: Record<Level, number> = { beginner: 4, intermediate: 6, advanced: 8 };
+        const placedWords: Record<Level, string[]> = { beginner: [], intermediate: [], advanced: [] };
         out();
         out('| level | target words | trials | full layout | failed after 3 batches | median placed-word length | words ≥ 10 letters placed |');
         out('|---|---:|---:|---:|---:|---:|---:|');
@@ -651,6 +659,7 @@ for (const locale of LOCALES) {
                     ok++;
                     for (const p of placed) {
                         lens.push(p.word.length);
+                        placedWords[level].push(p.word);
                         if (p.word.length >= 10) long++;
                     }
                 }
@@ -658,6 +667,16 @@ for (const locale of LOCALES) {
             out(`| ${level} | ${targets[level]} | ${trials} | ${ok} | ${trials - ok} | ${median(lens)} | ${long} |`);
         }
         out();
+        // Length and letter distributions: the pool (same for every level) and the words placed per level.
+        const cwProfs: [string, Profile][] = [
+            ['pool (all levels, accents stripped)', profile([...new Set(stripped)], freq, locale)],
+            ...LEVELS.map((l): [string, Profile] => [`placed, ${l} (150 trials)`, profile(placedWords[l], freq, locale)]),
+        ];
+        lengthTable(cwProfs);
+        out();
+        letterTable(cwProfs, locale);
+        out();
+        json[`${locale}.crossWordPuzzle`] = Object.fromEntries(cwProfs);
     }
 
     // wordBuilder
@@ -670,7 +689,7 @@ for (const locale of LOCALES) {
             const i = alphabet.indexOf(base);
             return i === -1 ? -1 : i;
         };
-        const masks = new Map<number, { all: number; beginner: number }>();
+        const masks = new Map<number, { all: number; beginner: number; words: string[] }>();
         let impossible = 0;
         for (const w of fullWordSet) {
             if (w.length <= 1) continue;
@@ -688,8 +707,9 @@ for (const locale of LOCALES) {
                 impossible++;
                 continue;
             }
-            const e = masks.get(m) ?? { all: 0, beginner: 0 };
+            const e = masks.get(m) ?? { all: 0, beginner: 0, words: [] };
             e.all++;
+            e.words.push(w);
             if (levelSets.beginner.has(w)) e.beginner++;
             masks.set(m, e);
         }
@@ -699,6 +719,7 @@ for (const locale of LOCALES) {
         let zero = 0;
         let zeroBeg = 0;
         const zeroSamples: string[] = [];
+        const found = new Set<string>();
         for (let t = 0; t < trials; t++) {
             const cons = [...consonants[locale]].sort(() => Math.random() - 0.5).slice(0, 4);
             const vows = [...vowels].sort(() => Math.random() - 0.5).slice(0, 2);
@@ -710,6 +731,7 @@ for (const locale of LOCALES) {
                 if ((k & m) === k) {
                     n += v.all;
                     nb += v.beginner;
+                    for (const w of v.words) found.add(w);
                 }
             }
             totals.push(n);
@@ -731,6 +753,16 @@ for (const locale of LOCALES) {
         out();
         out('- The level is not used by wordBuilder (same letters rule and same dictionary on every level).');
         out();
+        // Length and letter distributions: the findable dictionary and the words found across the trials.
+        const wbProfs: [string, Profile][] = [
+            ['findable dictionary (all levels)', profile([...masks.values()].flatMap((v) => v.words), freq, locale)],
+            [`found in ${trials} letter sets (union)`, profile([...found], freq, locale)],
+        ];
+        lengthTable(wbProfs);
+        out();
+        letterTable(wbProfs, locale);
+        out();
+        json[`${locale}.wordBuilder`] = Object.fromEntries(wbProfs);
         summary.push({ game: 'wordBuilder', locale, level: 'all (level ignored)', eligible: median(totals), shown: 0, repeat: '—', note: 'median words findable per letter set' });
     }
 }
