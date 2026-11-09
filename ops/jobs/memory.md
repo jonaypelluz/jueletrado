@@ -58,3 +58,22 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   acepción, no la dificultad de la palabra; con <5 rondas el máximo es 3 × rondas aunque las reglas
   dicen 15; 4ª copia privada de `shuffle`; revisar la copia cuando JUE-0010 fije los límites.
 - QA: tecla muerta real del SO sin probar (headless usó entrada NFD, aceptada).
+
+## JUE-0010 — Textos de juegos: descripciones que caben y reglas fieles (done 2026-11-09)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/61
+- Reescritos `subtitle`, `description` y `gameRules` (es + en) de los 10 juegos en
+  `config/translations/Games.ts`, verificados contra cada hook; ningún título cambió.
+- Presupuestos de longitud en `ops/docs/game-conventions.md` (sección *Text length budgets*):
+  title ≤ 27, subtitle ≤ 55, description ≤ 120, gameGoal ≤ 75, ítems de reglas ≤ 115.
+  Las tarjetas usan `grid-auto-rows: 1fr`: el subtítulo más largo fija la altura de todas.
+- Capturas: las comprimidas quedan en el historial del PR (commit b3072f4); el set completo,
+  en `$JON_ASSETS_DIR/jue-0010/`.
+- La palabra del día no tiene textos descriptivos (solo `headerWordOfTheDay*` en `General.ts`).
+- Residual (trabajos propuestos, sin abrir):
+  - A 375 px, `main` y `footer` desbordan ~5 px (scroll horizontal en todas las páginas).
+  - definitionMaster: tras responder se puede seguir pulsando y la correcta suma +1 cada vez.
+  - wordFinder: el contador del botón muestra un intento de más (`UI.tsx:113`).
+  - wordsRain: el tiempo aguantado nunca se muestra.
+  - wordBuilder: sin estado final al encontrar todas las palabras.
+  - accentFixer: palabras sin tilde con gemela acentuada (esta/está) dan una respuesta ambigua.
+  - `components/DayWord.tsx` es código muerto.
