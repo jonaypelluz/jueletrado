@@ -117,6 +117,7 @@ describe('classifySense', () => {
         ['en', sense('\\frac{a}{b} is a ratio.', 'noun', 1), 'D2'],
         ['en', sense('{{lb|en|obsolete}} An old word.', 'noun', 1), 'D2'],
         ['es', sense('<br/><br/>'), 'D2'],
+        ['en', sense('A sign &#x110000; here.', 'noun', 1), 'D2'],
         ['es', sense('V. atender.', 'verbo transitivo'), 'D3'],
         ['es', sense('Ver atender 2.', 'verbo transitivo'), 'D3'],
         ['en', sense('See abacus.', 'noun', 1), 'D3'],
@@ -310,5 +311,25 @@ describe('auditLocale', () => {
         expect(w12[0].action).toBe('FLAG');
         expect(`${w12[0].word} ${w12[0].detail ?? ''}`).toEqual(expect.stringContaining('vehiculo'));
         expect(`${w12[0].word} ${w12[0].detail ?? ''}`).toEqual(expect.stringContaining('vehículo'));
+    });
+    test('merges two keys that repair to the same new form into one key with the first sense', () => {
+        const result = auditLocale({
+            locale: 'es',
+            lists: { ...emptyLists, beginner: ['Gato', 'GATO'] },
+            definitions: {
+                g: {
+                    Gato: { definitions: [sense('Animal felino doméstico.', 'nombre masculino')] },
+                    GATO: { definitions: [sense('Máquina para levantar pesos.', 'nombre masculino')] },
+                },
+            },
+            wordSets: wordSets(),
+        });
+
+        expect(Object.keys(result.definitions.g)).toEqual(['gato']);
+        expect(result.definitions.g.gato.definitions.map((s: { definition: string }) => s.definition)).toEqual(['Animal felino doméstico.']);
+        expect(result.lists.beginner).toEqual(['gato']);
+        expect(result.findings).toContainEqual(
+            expect.objectContaining({ word: 'gato', category: 'W2', action: 'FLAG', detail: expect.stringContaining('merged GATO') }),
+        );
     });
 });
