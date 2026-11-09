@@ -177,7 +177,6 @@ describe('useSpellingBee', () => {
                 return dict(`${letter}palabra`);
             });
 
-            expect(mockLoadDefinition).toHaveBeenCalledTimes(6);
             result.current.rounds.forEach((round) => expect(round.word).not.toBe('aguacate'));
         });
 

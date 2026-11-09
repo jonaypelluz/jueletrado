@@ -175,7 +175,7 @@ const parseArgs = (argv: string[]): { out: string; baseline?: string } | null =>
 const meets = ({ count, min }: Count): boolean => min === null || count >= min;
 
 /** Prints before → after; returns true when a pool that met its minimum now falls below it. */
-const compareWithBaseline = (baseline: Counts, current: Counts): boolean => {
+export const compareCounts = (baseline: Counts, current: Counts): boolean => {
     const keys = [...new Set([...Object.keys(baseline), ...Object.keys(current)])].sort();
     const regressions: string[] = [];
     const belowBefore: string[] = [];
@@ -198,15 +198,21 @@ const compareWithBaseline = (baseline: Counts, current: Counts): boolean => {
     return regressions.length > 0;
 };
 
-async function main(): Promise<void> {
-    const options = parseArgs(process.argv.slice(2));
-    if (!options) {
-        console.error('Usage: yarn words:level-counts [--out <json>] [--baseline <json>]');
-        process.exit(2);
-    }
-
+const countAllLocales = async (): Promise<Counts> => {
     const counts: Counts = {};
     for (const locale of LOCALES) Object.assign(counts, await countLocale(locale));
+    return counts;
+};
+
+/** Exit code: 0 ok, 1 a pool regressed below its minimum, 2 bad args or a missing baseline. */
+export async function runCli(argv: string[], countAll: () => Promise<Counts> = countAllLocales): Promise<number> {
+    const options = parseArgs(argv);
+    if (!options) {
+        console.error('Usage: yarn words:level-counts [--out <json>] [--baseline <json>]');
+        return 2;
+    }
+
+    const counts = await countAll();
 
     const outPath = path.resolve(ROOT, options.out);
     await mkdir(path.dirname(outPath), { recursive: true });
@@ -220,14 +226,19 @@ async function main(): Promise<void> {
         const baselinePath = path.resolve(ROOT, options.baseline);
         if (!existsSync(baselinePath)) {
             console.error(`Baseline not found: ${baselinePath}`);
-            process.exit(2);
+            return 2;
         }
         const baseline: Counts = JSON.parse(await readFile(baselinePath, 'utf-8'));
-        if (compareWithBaseline(baseline, counts)) process.exit(1);
+        if (compareCounts(baseline, counts)) return 1;
     }
+    return 0;
 }
 
-main().catch((error) => {
-    console.error(error instanceof Error ? error.message : error);
-    process.exit(2);
-});
+if (require.main === module) {
+    runCli(process.argv.slice(2))
+        .then((code) => process.exit(code))
+        .catch((error) => {
+            console.error(error instanceof Error ? error.message : error);
+            process.exit(2);
+        });
+}
