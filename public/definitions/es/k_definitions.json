@@ -71,12 +71,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Undécima letra del abecedario español, que representa el fonema consonántico oclusivo velar sordo, principalmente en préstamos de otras lenguas, como vodka o kayak, o en voces transcritas de lenguas que no emplean el alfabeto latino, como kebab o kipá."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sonido que representa la letra k."
             }
         ]

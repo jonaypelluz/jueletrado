@@ -686,7 +686,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "arena (conjunto de partículas desagregadas de las rocas)."
             }
         ]
@@ -1673,7 +1674,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Sustancia perfumada, generalmente en forma de cristales pequeños, que se disuelve en el agua para el baño."
             }
         ]
@@ -3636,8 +3638,8 @@
             },
             {
                 "number": "2",
-                "type": "locución verbal",
-                "type_extra": "coloquial",
+                "type": "locución",
+                "type_extra": "coloquial, verbal",
                 "definition": "Soportar en silencio, sin protesta, una determinación, palabra o acción que ofende o disgusta."
             }
         ]
@@ -5276,7 +5278,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "san."
             }
         ]
@@ -5296,7 +5299,8 @@
             },
             {
                 "number": "3",
-                "type": "locución verbal",
+                "type": "locución",
+                "type_extra": "verbal",
                 "definition": "timar (quitar con engaño)."
             }
         ]
@@ -5837,7 +5841,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal tercera persona masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "personal tercera persona masculino, femenino y neutro",
                 "definition": "Forma reflexiva o recíproca de los pronombres él, ella, ello, ellos, ellas en los casos dativo y acusativo. Se peinó en cinco minutos. Se compró un libro. Durante años se escribieron el uno al otro apasionadas cartas de amor.",
                 "definition_extra": [
                     {
@@ -5848,14 +5853,14 @@
             },
             {
                 "number": "2",
-                "type": "pronombre personal tercera persona masculino, femenino y neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, personal tercera persona masculino, femenino y neutro",
                 "definition": "con verbos transitivos en voz activa para indicar que la interpretación del verbo es pasiva y que el sujeto es paciente. Los papeles se distribuyeron entre los asistentes."
             },
             {
                 "number": "3",
-                "type": "pronombre personal tercera persona masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, personal tercera persona masculino y femenino singular",
                 "definition": "con un verbo en singular para indicar que debe entenderse un sujeto tácito de persona de naturaleza genérica. Se está bien de vacaciones."
             }
         ]
@@ -7984,8 +7989,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino poco usado",
-                "type_extra": "etcétera",
+                "type": "nombre masculino",
+                "type_extra": "etcétera, poco usado",
                 "definition": "Cada uno de los puntos que se van menguando en el remate del pie de las calcetas, medias, para cerrarlo."
             },
             {
@@ -8020,7 +8025,8 @@
             },
             {
                 "number": "2",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "seguidero."
             }
         ]
@@ -8419,18 +8425,20 @@
             },
             {
                 "number": "4",
-                "type": "adverbio relativo",
+                "type": "adverbio",
+                "type_extra": "relativo",
                 "definition": "Con arreglo, o en conformidad, a lo que, o a como. Según veamos. Según se encuentre mañana el enfermo."
             },
             {
                 "number": "5",
-                "type": "adverbio relativo",
+                "type": "adverbio",
+                "type_extra": "relativo",
                 "definition": "De la misma suerte o manera que. Todo queda según estaba."
             },
             {
                 "number": "6",
-                "type": "adverbio relativo",
-                "type_extra": "desusado",
+                "type": "adverbio",
+                "type_extra": "desusado, relativo",
                 "definition": "Por el modo en que. Sus cabellos eran sortijas de oro, según eran rubios y rizados."
             },
             {
@@ -9056,7 +9064,8 @@
             },
             {
                 "number": "8",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Sexta hora después de mediodía o de medianoche. Son las seis."
             }
         ]
@@ -9440,7 +9449,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo poco usado",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
                 "definition": "semestral."
             },
             {
@@ -10655,7 +10665,8 @@
             },
             {
                 "number": "17",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Distinguido, de buen tono. Su madre fue siempre muy señora."
             },
             {
@@ -10767,7 +10778,8 @@
             },
             {
                 "number": "17",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Distinguido, de buen tono. Su madre fue siempre muy señora."
             },
             {
@@ -10879,7 +10891,8 @@
             },
             {
                 "number": "17",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Distinguido, de buen tono. Su madre fue siempre muy señora."
             },
             {
@@ -10991,7 +11004,8 @@
             },
             {
                 "number": "17",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Distinguido, de buen tono. Su madre fue siempre muy señora."
             },
             {
@@ -11023,7 +11037,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino coloquial",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
                 "definition": "Joven acomodado y ocioso."
             },
             {
@@ -12837,7 +12852,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "sirena (ninfa marina)."
             }
         ]
@@ -14776,7 +14792,8 @@
             },
             {
                 "number": "9",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Séptima hora después de mediodía o de medianoche. Son las siete."
             }
         ]
@@ -16529,7 +16546,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "coche de plaza."
             }
         ]
@@ -17046,7 +17064,8 @@
             },
             {
                 "number": "4",
-                "type": "conjunción adversativa",
+                "type": "conjunción",
+                "type_extra": "adversativa",
                 "definition": "Denota adición de otro u otros miembros a la cláusula. No solo por entendido, sino también por afable, modesto y virtuoso, merece ser muy estimado."
             }
         ]
@@ -17295,7 +17314,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "conjunción concesiva",
+                "type": "conjunción",
+                "type_extra": "concesiva",
                 "definition": "aunque. Hazme este favor, siquiera sea el último.",
                 "definition_extra": [
                     {
@@ -17306,7 +17326,8 @@
             },
             {
                 "number": "2",
-                "type": "conjunción distributiva",
+                "type": "conjunción",
+                "type_extra": "distributiva",
                 "definition": "ya. Siquiera venga, siquiera no venga."
             },
             {
@@ -18540,17 +18561,20 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Parte que sobra o queda de una cosa tras haber usado lo necesario."
             },
             {
                 "number": "5",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Desperdicios o desechos."
             },
             {
                 "number": "6",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Parte del haber del soldado que se le entrega en mano semanal o diariamente."
             }
         ]
@@ -19423,7 +19447,8 @@
             },
             {
                 "number": "6",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Instar, urgir."
             }
         ]
@@ -19464,7 +19489,8 @@
             },
             {
                 "number": "6",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Instar, urgir."
             }
         ]
@@ -19505,7 +19531,8 @@
             },
             {
                 "number": "6",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Instar, urgir."
             }
         ]
@@ -19546,7 +19573,8 @@
             },
             {
                 "number": "6",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Instar, urgir."
             }
         ]
@@ -23164,7 +23192,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino coloquial",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
                 "definition": "Cosa que ha ocurrido.",
                 "definition_extra": [
                     {
@@ -24394,7 +24423,8 @@
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Contenerse, reprimirse."
             }
         ]
@@ -24461,7 +24491,8 @@
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Contenerse, reprimirse."
             }
         ]
@@ -24552,7 +24583,8 @@
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Contenerse, reprimirse."
             }
         ]
@@ -24619,7 +24651,8 @@
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Contenerse, reprimirse."
             }
         ]
@@ -24710,7 +24743,8 @@
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Contenerse, reprimirse."
             }
         ]
@@ -24777,7 +24811,8 @@
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo desusado",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
                 "definition": "Contenerse, reprimirse."
             }
         ]
@@ -26401,7 +26436,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "Situado en la parte superior o de arriba."
             }
         ]
@@ -26430,7 +26466,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "participio irregular",
+                "type": "participio",
                 "definition": "de suscribir.",
                 "definition_extra": [
                     {
@@ -26875,7 +26911,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De él o de ella, de ellos o de ellas. No he traído mi coche, Javier prefiere que llevemos el suyo. Me presentaron a unos amigos suyos.",
                 "definition_extra": [
                     {
@@ -26886,7 +26923,8 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De usted o de ustedes. Deje que lleve yo las suyas. Pueden pedir que traigan los suyos."
             }
         ]
@@ -26895,7 +26933,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De él o de ella, de ellos o de ellas. No he traído mi coche, Javier prefiere que llevemos el suyo. Me presentaron a unos amigos suyos.",
                 "definition_extra": [
                     {
@@ -26906,7 +26945,8 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De usted o de ustedes. Deje que lleve yo las suyas. Pueden pedir que traigan los suyos."
             }
         ]
@@ -26915,7 +26955,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De él o de ella, de ellos o de ellas. No he traído mi coche, Javier prefiere que llevemos el suyo. Me presentaron a unos amigos suyos.",
                 "definition_extra": [
                     {
@@ -26926,7 +26967,8 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De usted o de ustedes. Deje que lleve yo las suyas. Pueden pedir que traigan los suyos."
             }
         ]
@@ -26935,7 +26977,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De él o de ella, de ellos o de ellas. No he traído mi coche, Javier prefiere que llevemos el suyo. Me presentaron a unos amigos suyos.",
                 "definition_extra": [
                     {
@@ -26946,7 +26989,8 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de tercera persona",
+                "type": "adjetivo",
+                "type_extra": "posesivo de tercera persona",
                 "definition": "De usted o de ustedes. Deje que lleve yo las suyas. Pueden pedir que traigan los suyos."
             }
         ]
@@ -26956,7 +27000,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sexto día de la semana, que es festivo para el judaísmo y otras confesiones religiosas.",
                 "definition_extra": [
                     {
@@ -26972,7 +27017,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener noticia o conocimiento de algo.",
                 "definition_extra": [
                     {
@@ -26987,7 +27033,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar instruido en algo.",
                 "definition_extra": [
                     {
@@ -26998,37 +27045,44 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener habilidad o capacidad para hacer algo."
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar seguro o convencido de un hecho futuro."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener noticias o información sobre alguien o algo."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ser muy astuto."
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa, especialmente de algo comestible: Tener un determinado sabor."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Producir en el ánimo el efecto expresado."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "sabiduría (‖ conocimiento profundo en ciencias, letras o artes).",
                 "definition_extra": [
                     {
@@ -27043,7 +27097,8 @@
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ciencia o facultad."
             }
         ]
@@ -27053,7 +27108,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Pasar de dentro afuera.",
                 "definition_extra": [
                     {
@@ -27068,7 +27124,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Partir de un lugar a otro.",
                 "definition_extra": [
                     {
@@ -27083,7 +27140,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desembarazarse, librarse de algún lugar estrecho, peligroso o molesto.",
                 "definition_extra": [
                     {
@@ -27098,7 +27156,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Libertarse, desembarazarse de algo que ocupa o molesta.",
                 "definition_extra": [
                     {
@@ -27109,7 +27168,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Aparecer, manifestarse, descubrirse.",
                 "definition_extra": [
                     {
@@ -27124,7 +27184,8 @@
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Nacer, brotar.",
                 "definition_extra": [
                     {
@@ -27135,7 +27196,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una mancha: Quitarse, borrarse, desaparecer.",
                 "definition_extra": [
                     {
@@ -27146,7 +27208,8 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una mancha: aparecer (‖ manifestarse, dejarse ver).",
                 "definition_extra": [
                     {
@@ -27161,17 +27224,20 @@
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Sobresalir, estar más alta o más afuera que otra."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Descubrir su índole, idoneidad o aprovechamiento."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Nacer, proceder, traer su origen de otra.",
                 "definition_extra": [
                     {
@@ -27182,22 +27248,26 @@
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: En ciertos juegos, ser la primera que juega."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Deshacerse de algo vendiéndolo o despachándolo."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Darse al público."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Decir o hacer algo inesperado o intempestivo.",
                 "definition_extra": [
                     {
@@ -27208,22 +27278,26 @@
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Ocurrir, sobrevenir u ofrecerse de nuevo."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa que se compra: Importar, costar."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cuenta: Resultar, de la oportuna operación aritmética, que está bien hecha o ajustada."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Corresponder a cada uno en pago o ganancia una cantidad.",
                 "definition_extra": [
                     {
@@ -27234,47 +27308,56 @@
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Trasladarse dentro del lugar donde se está al sitio adecuado para realizar una actividad."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mostrar o iniciar inesperadamente algo."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Fiar, abonar, defender a alguien."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Frecuentar, por motivos amorosos o amistosos, el trato de otra persona, fuera de su domicilio."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "En una función de teatro o en una película, representar, figurar o hacer un papel."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Perder el uso de algo."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Venir a ser, quedar."
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener buen o mal resultado."
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un período de tiempo: fenecer.",
                 "definition_extra": [
                     {
@@ -27285,7 +27368,8 @@
             },
             {
                 "number": "29",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho especialmente de los hijos respecto de sus padres o de los discípulos respecto de sus maestros: Parecerse, asemejarse.",
                 "definition_extra": [
                     {
@@ -27296,12 +27380,14 @@
             },
             {
                 "number": "30",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Apartarse, separarse de algo o faltar a ello en lo regular o debido."
             },
             {
                 "number": "31",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Cesar en un oficio o cargo.",
                 "definition_extra": [
                     {
@@ -27312,34 +27398,38 @@
             },
             {
                 "number": "32",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ser elegido o sacado por suerte o votación."
             },
             {
                 "number": "33",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ir a parar, tener salida a un punto determinado."
             },
             {
                 "number": "34",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una embarcación: Adelantarse a otra, aventajarla en andar cuando navegan juntas."
             },
             {
                 "number": "35",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Dicho de una cosa: Armonizar con otra.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "36",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Dicho de una cosa: Ajustarse a un modelo establecido.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "37",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho del contenido de una vasija: Derramarse por una rendija o rotura.",
                 "definition_extra": [
                     {
@@ -27350,7 +27440,8 @@
             },
             {
                 "number": "38",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un líquido: Rebosar al hervir.",
                 "definition_extra": [
                     {
@@ -27361,7 +27452,8 @@
             },
             {
                 "number": "39",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una vasija o de un depósito: Tener alguna rendija o rotura por la cual se derrama el contenido.",
                 "definition_extra": [
                     {
@@ -27372,14 +27464,15 @@
             },
             {
                 "number": "40",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "En algunos juegos, hacer los tantos o las jugadas necesarios para ganar."
             },
             {
                 "number": "41",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Iniciar la intervención en un pleito o una causa como fiscal o como parte.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -27388,7 +27481,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En una casa, habitación principal en que se suele recibir a las visitas y que generalmente sirve de comedor y cuarto de estar.",
                 "definition_extra": [
                     {
@@ -27399,12 +27493,14 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Mobiliario del salón."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En palacios, hoteles y edificios públicos, habitación de grandes dimensiones donde se celebran reuniones y otros acontecimientos.",
                 "definition_extra": [
                     {
@@ -27415,12 +27511,14 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En algunas ciudades, parque o paseo público."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Instalación donde se exponen con fines comerciales los productos de una determinada industria.",
                 "definition_extra": [
                     {
@@ -27431,7 +27529,8 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "aula (‖ sala donde se dan las clases).",
                 "definition_extra": [
                     {
@@ -27442,14 +27541,15 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cebo de salvado con sal que se da a los cerdos."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Carne o pescado salado para que se conserve.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             }
         ]
     },
@@ -27458,7 +27558,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que salva.",
                 "definition_extra": [
                     {
@@ -27469,7 +27570,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Jesucristo.",
                 "definition_extra": [
                     {
@@ -27485,7 +27587,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perfecto y libre de toda culpa.",
                 "definition_extra": [
                     {
@@ -27500,7 +27603,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "En el mundo cristiano, dicho de una persona: Declarada santa por la Iglesia, que manda que se le dé culto universalmente.",
                 "definition_extra": [
                     {
@@ -27511,27 +27615,32 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: De especial virtud y ejemplo."
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Que está especialmente dedicada o consagrada a Dios."
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Que es venerable por algún motivo de religión."
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un día: Dedicado por la Iglesia a celebrar una festividad religiosa, o que forma parte de los de la Semana Santa, que sigue al Domingo de Ramos."
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Sagrado, inviolable.",
                 "definition_extra": [
                     {
@@ -27542,27 +27651,32 @@
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de algo: Que resulta especialmente provechoso."
             },
             {
                 "number": "9",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Que tiene singular virtud para la curación de algunas enfermedades."
             },
             {
                 "number": "10",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "por la Iglesia católica como calificativo aplicado a sí misma."
             },
             {
                 "number": "11",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "para encarecer el significado de algunos nombres."
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Imagen de un santo.",
                 "definition_extra": [
                     {
@@ -27573,9 +27687,9 @@
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "esposo (‖ persona casada).",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -27585,7 +27699,8 @@
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Onomástica de una persona.",
                 "definition_extra": [
                     {
@@ -27596,9 +27711,9 @@
             },
             {
                 "number": "15",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "estampa (‖ dibujo que ilustra una publicación).",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -27608,7 +27723,8 @@
             },
             {
                 "number": "16",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Nombre de santo que, con la seña, servía para reconocer fuerzas como amigas o enemigas.",
                 "definition_extra": [
                     {
@@ -27624,12 +27740,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Destino o cargo de secretario."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Oficina del secretario.",
                 "definition_extra": [
                     {
@@ -27640,7 +27758,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sección de un organismo, institución, empresa, etc., ocupada de las tareas administrativas.",
                 "definition_extra": [
                     {
@@ -27651,7 +27770,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "ministerio (‖ departamento en que se divide el Gobierno de un Estado).",
                 "definition_extra": [
                     {
@@ -27667,7 +27787,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Parte de una ciudad, de un local o de cualquier otro lugar.",
                 "definition_extra": [
                     {
@@ -27678,7 +27799,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las partes de una colectividad, grupo o conjunto que tiene caracteres peculiares y diferenciados.",
                 "definition_extra": [
                     {
@@ -27689,12 +27811,14 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las subdivisiones de una red de energía."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de empresas o negocios que se engloban en un área diferenciada dentro de la actividad económica y productiva.",
                 "definition_extra": [
                     {
@@ -27705,7 +27829,8 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Porción de círculo comprendida entre dos radios."
             }
         ]
@@ -27715,7 +27840,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para afirmar del sujeto lo que significa el atributo.",
                 "definition_extra": [
                     {
@@ -27726,12 +27852,14 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para conjugar todos los verbos en la voz pasiva."
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Haber o existir.",
                 "definition_extra": [
                     {
@@ -27742,17 +27870,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Indica tiempo."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "ser capaz o servir."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar en lugar o situación.",
                 "definition_extra": [
                     {
@@ -27763,7 +27894,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Suceder, acontecer, tener lugar.",
                 "definition_extra": [
                     {
@@ -27774,7 +27906,8 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Valer, costar.",
                 "definition_extra": [
                     {
@@ -27785,7 +27918,8 @@
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Indica relación de posesión.",
                 "definition_extra": [
                     {
@@ -27796,22 +27930,26 @@
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Opinar del mismo modo que alguien."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Seguir el partido o la opinión de alguien."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mantener la amistad de alguien."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Corresponder, parecer propio.",
                 "definition_extra": [
                     {
@@ -27822,7 +27960,8 @@
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Formar parte de una corporación o comunidad.",
                 "definition_extra": [
                     {
@@ -27833,7 +27972,8 @@
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener principio, origen o naturaleza, hablando de los lugares o países.",
                 "definition_extra": [
                     {
@@ -27844,12 +27984,14 @@
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para afirmar o negar en lo que se dice o pretende."
             },
             {
                 "number": "17",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Esencia o naturaleza.",
                 "definition_extra": [
                     {
@@ -27860,12 +28002,14 @@
             },
             {
                 "number": "18",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cosa creada, especialmente las dotadas de vida."
             },
             {
                 "number": "19",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "ser humano.",
                 "definition_extra": [
                     {
@@ -27876,12 +28020,14 @@
             },
             {
                 "number": "20",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Valor, precio, estimación de las cosas."
             },
             {
                 "number": "21",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Modo de existir."
             }
         ]
@@ -27891,7 +28037,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para afirmar del sujeto lo que significa el atributo.",
                 "definition_extra": [
                     {
@@ -27902,12 +28049,14 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para conjugar todos los verbos en la voz pasiva."
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Haber o existir.",
                 "definition_extra": [
                     {
@@ -27918,17 +28067,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Indica tiempo."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "ser capaz o servir."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar en lugar o situación.",
                 "definition_extra": [
                     {
@@ -27939,7 +28091,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Suceder, acontecer, tener lugar.",
                 "definition_extra": [
                     {
@@ -27950,7 +28103,8 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Valer, costar.",
                 "definition_extra": [
                     {
@@ -27961,7 +28115,8 @@
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Indica relación de posesión.",
                 "definition_extra": [
                     {
@@ -27972,22 +28127,26 @@
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Opinar del mismo modo que alguien."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Seguir el partido o la opinión de alguien."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mantener la amistad de alguien."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Corresponder, parecer propio.",
                 "definition_extra": [
                     {
@@ -27998,7 +28157,8 @@
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Formar parte de una corporación o comunidad.",
                 "definition_extra": [
                     {
@@ -28009,7 +28169,8 @@
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener principio, origen o naturaleza, hablando de los lugares o países.",
                 "definition_extra": [
                     {
@@ -28020,12 +28181,14 @@
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para afirmar o negar en lo que se dice o pretende."
             },
             {
                 "number": "17",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Esencia o naturaleza.",
                 "definition_extra": [
                     {
@@ -28036,12 +28199,14 @@
             },
             {
                 "number": "18",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cosa creada, especialmente las dotadas de vida."
             },
             {
                 "number": "19",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "ser humano.",
                 "definition_extra": [
                     {
@@ -28052,12 +28217,14 @@
             },
             {
                 "number": "20",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Valor, precio, estimación de las cosas."
             },
             {
                 "number": "21",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Modo de existir."
             }
         ]
@@ -28067,7 +28234,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para afirmar del sujeto lo que significa el atributo.",
                 "definition_extra": [
                     {
@@ -28078,12 +28246,14 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para conjugar todos los verbos en la voz pasiva."
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Haber o existir.",
                 "definition_extra": [
                     {
@@ -28094,17 +28264,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Indica tiempo."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "ser capaz o servir."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Estar en lugar o situación.",
                 "definition_extra": [
                     {
@@ -28115,7 +28288,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Suceder, acontecer, tener lugar.",
                 "definition_extra": [
                     {
@@ -28126,7 +28300,8 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Valer, costar.",
                 "definition_extra": [
                     {
@@ -28137,7 +28312,8 @@
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Indica relación de posesión.",
                 "definition_extra": [
                     {
@@ -28148,22 +28324,26 @@
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Opinar del mismo modo que alguien."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Seguir el partido o la opinión de alguien."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mantener la amistad de alguien."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Corresponder, parecer propio.",
                 "definition_extra": [
                     {
@@ -28174,7 +28354,8 @@
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Formar parte de una corporación o comunidad.",
                 "definition_extra": [
                     {
@@ -28185,7 +28366,8 @@
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener principio, origen o naturaleza, hablando de los lugares o países.",
                 "definition_extra": [
                     {
@@ -28196,12 +28378,14 @@
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para afirmar o negar en lo que se dice o pretende."
             },
             {
                 "number": "17",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Esencia o naturaleza.",
                 "definition_extra": [
                     {
@@ -28212,12 +28396,14 @@
             },
             {
                 "number": "18",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cosa creada, especialmente las dotadas de vida."
             },
             {
                 "number": "19",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "ser humano.",
                 "definition_extra": [
                     {
@@ -28228,12 +28414,14 @@
             },
             {
                 "number": "20",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Valor, precio, estimación de las cosas."
             },
             {
                 "number": "21",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Modo de existir."
             }
         ]
@@ -28243,12 +28431,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Poner algo en serie."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Formar series."
             }
         ]
@@ -28258,7 +28448,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al sexo.",
                 "definition_extra": [
                     {
@@ -28278,53 +28469,62 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "Denota condición o suposición en virtud de la cual un concepto depende de otro u otros."
             },
             {
                 "number": "2",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "Denota aseveración terminante."
             },
             {
                 "number": "3",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "para introducir oraciones interrogativas indirectas, a veces con matiz de duda."
             },
             {
                 "number": "4",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "Denota ponderación o encarecimiento."
             },
             {
                 "number": "5",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "a principio de frase, da énfasis o energía a las expresiones de duda o aseveración."
             },
             {
                 "number": "6",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "para introducir oraciones desiderativas."
             },
             {
                 "number": "7",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "con valor distributivo cuando se emplea repetida para contraponer, con elipsis de verbo o no, una cláusula a otra."
             },
             {
                 "number": "8",
-                "type": "conjunction",
+                "type": "conjunción",
+                "type_extra": "sin verificar",
                 "definition": "tras el adverbio como o la conjunción que, se emplea en conceptos comparativos."
             },
             {
                 "number": "9",
-                "type": "conjunction",
+                "type": "conjunción",
                 "definition": "por la conjunción adversativa sino.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "aunque.",
                 "definition_extra": [
                     {
@@ -28335,7 +28535,8 @@
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Séptima nota de la escala musical."
             }
         ]
@@ -28345,12 +28546,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma reflexiva de los pronombres él, ella, ellos, ellas, precedida siempre de preposición. seguido de los adjetivos mismo y solo."
             },
             {
                 "number": "2",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "Expresa afirmación o confirmación. frecuentemente para responder a preguntas totales.",
                 "definition_extra": [
                     {
@@ -28365,7 +28568,8 @@
             },
             {
                 "number": "3",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "Aporta valor contrastivo a lo expresado por el verbo o por otro elemento de la oración.",
                 "definition_extra": [
                     {
@@ -28376,7 +28580,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Consentimiento, aprobación o permiso.",
                 "definition_extra": [
                     {
@@ -28392,7 +28597,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Herramienta para cortar madera, piedra u otros objetos duros, que generalmente consiste en una hoja de acero dentada sujeta a una empuñadura, bastidor o armazón.",
                 "definition_extra": [
                     {
@@ -28403,12 +28609,14 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Lugar donde se sierra."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Parte de una cordillera.",
                 "definition_extra": [
                     {
@@ -28419,7 +28627,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cordillera de montes o peñascos cortados.",
                 "definition_extra": [
                     {
@@ -28430,12 +28639,14 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "pez sierra."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Pez marino comestible de la familia de los escómbridos, de un metro de longitud, sin escamas, que tiene a ambos lados del cuerpo dos líneas de color amarillento pardo y manchas ovaladas del mismo color."
             }
         ]
@@ -28445,7 +28656,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que tiene semejanza o analogía con algo.",
                 "definition_extra": [
                     {
@@ -28460,7 +28672,8 @@
             },
             {
                 "number": "2",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Persona o cosa similar."
             }
         ]
@@ -28470,7 +28683,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Constituido por un solo elemento, no compuesto.",
                 "definition_extra": [
                     {
@@ -28485,7 +28699,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Sencillo, sin complicaciones ni dificultades.",
                 "definition_extra": [
                     {
@@ -28500,12 +28715,14 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un traslado o de una copia de una escritura: Que se saca sin firmar ni autorizar."
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Desabrido, falto de sazón y de sabor.",
                 "definition_extra": [
                     {
@@ -28516,7 +28733,8 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Manso, apacible e incauto.",
                 "definition_extra": [
                     {
@@ -28527,7 +28745,8 @@
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Mentecato, abobado.",
                 "definition_extra": [
                     {
@@ -28542,17 +28761,20 @@
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una palabra: Que no se compone de otras de la lengua a que pertenece."
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un emparedado: Que está hecho con dos rebanadas de pan de molde."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Material de procedencia orgánica o inorgánica, que sirve por sí solo a la medicina, o que entra en la composición de un medicamento."
             }
         ]
@@ -28562,17 +28784,20 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "preposition",
+                "type": "preposición",
+                "type_extra": "sin verificar",
                 "definition": "Denota carencia o falta de algo."
             },
             {
                 "number": "2",
-                "type": "preposition",
+                "type": "preposición",
+                "type_extra": "sin verificar",
                 "definition": "Fuera de o además de."
             },
             {
                 "number": "3",
-                "type": "preposition",
+                "type": "preposición",
+                "type_extra": "sin verificar",
                 "definition": "Ante un verbo en infinitivo, equivale a no con su participio o gerundio. Me fui sin comer, esto es, no habiendo comido."
             }
         ]
@@ -28582,7 +28807,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la sociedad.",
                 "definition_extra": [
                     {
@@ -28597,17 +28823,20 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que se produce en sociedad."
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona con un hábito o costumbre: Que lo desarrolla en compañía de otras personas, estimulada o inducida por ellas."
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a una compañía o sociedad, o a los socios o compañeros, aliados o confederados.",
                 "definition_extra": [
                     {
@@ -28618,12 +28847,14 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Relativo a las clases sociales económicamente menos favorecidas."
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un orden jurisdiccional: Competente en materia laboral y de seguridad social."
             }
         ]
@@ -28633,7 +28864,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora."
             }
         ]
@@ -28643,12 +28875,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Estrella luminosa, centro del sistema planetario en que está situada la Tierra."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cualquier estrella luminosa que es centro de un sistema planetario.",
                 "definition_extra": [
                     {
@@ -28659,7 +28893,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Luz, calor o influjo del sol.",
                 "definition_extra": [
                     {
@@ -28670,7 +28905,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Tiempo que el Sol emplea en dar aparentemente una vuelta alrededor de la Tierra.",
                 "definition_extra": [
                     {
@@ -28681,7 +28917,8 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Unidad monetaria del Perú.",
                 "definition_extra": [
                     {
@@ -28692,7 +28929,8 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "oro (‖ elemento químico).",
                 "definition_extra": [
                     {
@@ -28703,18 +28941,20 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Quinta nota de la escala musical."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "solamente.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Dispersión coloidal de un sólido en un líquido.",
                 "definition_extra": [
                     {
@@ -28730,7 +28970,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Único en su especie.",
                 "definition_extra": [
                     {
@@ -28741,7 +28982,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que está sin otra cosa o que se mira separado de ella.",
                 "definition_extra": [
                     {
@@ -28752,7 +28994,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Sin compañía.",
                 "definition_extra": [
                     {
@@ -28763,7 +29006,8 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que no tiene quien le ampare, socorra o consuele en sus necesidades o aflicciones.",
                 "definition_extra": [
                     {
@@ -28774,17 +29018,20 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Juego de naipes parecido al tresillo, en el que gana quien hace por lo menos 36 tantos."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En el juego del hombre y otros de naipes, lance en que se hacen todas las bazas necesarias para ganar, sin ayuda de robo ni de compañero."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "solitario (‖ juego).",
                 "definition_extra": [
                     {
@@ -28795,12 +29042,14 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Danza. Paso que se ejecuta sin pareja."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Composición o parte de ella que canta o toca una persona sola.",
                 "definition_extra": [
                     {
@@ -28811,7 +29060,8 @@
             },
             {
                 "number": "10",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "Únicamente, solamente."
             }
         ]
@@ -28821,7 +29071,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dar a algo color de rosa.",
                 "definition_extra": [
                     {
@@ -28837,7 +29088,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "suyo.",
                 "definition_extra": [
                     {
@@ -28848,14 +29100,15 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Antepuesto a nombres de ciertos títulos y altas dignidades, constituye fórmulas de tratamiento que designan al interlocutor."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -28864,14 +29117,15 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de la gasolina: De octanaje superior al considerado normal."
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "Superior, extraordinario.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -28881,9 +29135,9 @@
             },
             {
                 "number": "3",
-                "type": "adverb",
+                "type": "adverbio",
                 "definition": "Superiormente, estupendamente.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -28893,9 +29147,9 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "supermercado.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -28910,7 +29164,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Que está más alta y en lugar preeminente respecto de otra.",
                 "definition_extra": [
                     {
@@ -28925,7 +29180,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que es más que algo o alguien en cualidad o cantidad.",
                 "definition_extra": [
                     {
@@ -28936,7 +29192,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Excelente, muy bueno.",
                 "definition_extra": [
                     {
@@ -28951,17 +29208,20 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un ser vivo: Que tiene una organización más compleja y que se supone más evolucionado que otros."
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un lugar o de un país: Que está en la parte alta de la cuenca de un río, a diferencia de los que están situados en la parte baja de esa cuenca."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que tiene a otras a su cargo o bajo su dirección.",
                 "definition_extra": [
                     {
@@ -28976,7 +29236,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que manda, gobierna o dirige una congregación o comunidad, principalmente religiosa.",
                 "definition_extra": [
                     {
@@ -28992,7 +29253,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Punto cardinal situado a la espalda de un observador a cuya derecha está el este. (S).",
                 "definition_extra": [
                     {
@@ -29007,7 +29269,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Región o territorio situado en la parte sur de un país o de un área geográfica determinada.",
                 "definition_extra": [
                     {
@@ -29018,7 +29281,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Lugar situado al sur de otro lugar con cuya posición se compara.",
                 "definition_extra": [
                     {
@@ -29029,7 +29293,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "en aposición para indicar que lo designado por el sustantivo al que se pospone está orientado al sur o procede del sur.",
                 "definition_extra": [
                     {
@@ -29040,7 +29305,8 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Viento procedente del sur.",
                 "definition_extra": [
                     {
@@ -29048,21 +29314,6 @@
                         "content": "norte."
                     }
                 ]
-            }
-        ]
-    },
-    "s": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Vigésima letra del abecedario español, que representa el fonema consonántico fricativo dentoalveolar sordo, el cual, entre muchas variedades de articulación, tiene dos principales: la apical y la predorsal."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Sonido que representa la letra s."
             }
         ]
     }

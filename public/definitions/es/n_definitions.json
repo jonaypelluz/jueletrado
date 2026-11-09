@@ -242,11 +242,6 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "forúnculo."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino desusado",
-                "definition": "forúnculo."
             }
         ]
     },
@@ -267,11 +262,6 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "forúnculo."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino desusado",
                 "definition": "forúnculo."
             }
         ]
@@ -659,28 +649,32 @@
             },
             {
                 "number": "4",
-                "type": "pronombre indefinido neutro singular",
+                "type": "pronombre",
+                "type_extra": "indefinido neutro singular",
                 "definition": "Ninguna cosa. No trajo nada de su viaje."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido neutro singular",
+                "type": "pronombre",
+                "type_extra": "indefinido neutro singular",
                 "definition": "Cualquier cosa, especialmente si es poco importante. Se preocupa por nada."
             },
             {
                 "number": "6",
-                "type": "pronombre indefinido neutro singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro singular",
                 "definition": "Ninguna cantidad o ninguna porción. a menudo con un complemento con la preposición de, normalmente seguida de nombres no contables. No comió nada de pan."
             },
             {
                 "number": "7",
-                "type": "pronombre indefinido neutro singular",
+                "type": "pronombre",
+                "type_extra": "indefinido neutro singular",
                 "definition": "Expresa una cantidad pequeña de alguna magnitud, a menudo el tiempo. Se fue hace nada."
             },
             {
                 "number": "8",
-                "type": "adverbio indefinido",
+                "type": "adverbio",
+                "type_extra": "indefinido",
                 "definition": "Indica el grado mínimo de la cualidad denotada por el adjetivo o el adverbio al que modifica. Los ejercicios no eran nada fáciles. Ese tren no va nada despacio."
             }
         ]
@@ -689,7 +683,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre indefinido masculino singular",
+                "type": "pronombre",
+                "type_extra": "indefinido masculino singular",
                 "definition": "Ninguna persona. Nadie lo vio. No habló con nadie.",
                 "definition_extra": [
                     {
@@ -704,7 +699,8 @@
             },
             {
                 "number": "2",
-                "type": "pronombre indefinido masculino singular",
+                "type": "pronombre",
+                "type_extra": "indefinido masculino singular",
                 "definition": "Ninguna persona importante o con autoridad para algo. Él no es nadie en esa empresa."
             },
             {
@@ -999,7 +995,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "nacimiento (acto de nacer)."
             },
             {
@@ -1615,7 +1612,8 @@
             },
             {
                 "number": "7",
-                "type": "adverbio desusado",
+                "type": "adverbio",
+                "type_extra": "desusado",
                 "definition": "Por necesidad, necesariamente."
             }
         ]
@@ -1680,7 +1678,8 @@
             },
             {
                 "number": "7",
-                "type": "adverbio desusado",
+                "type": "adverbio",
+                "type_extra": "desusado",
                 "definition": "Por necesidad, necesariamente."
             }
         ]
@@ -1730,7 +1729,8 @@
             },
             {
                 "number": "7",
-                "type": "adverbio desusado",
+                "type": "adverbio",
+                "type_extra": "desusado",
                 "definition": "Por necesidad, necesariamente."
             }
         ]
@@ -1780,7 +1780,8 @@
             },
             {
                 "number": "7",
-                "type": "adverbio desusado",
+                "type": "adverbio",
+                "type_extra": "desusado",
                 "definition": "Por necesidad, necesariamente."
             }
         ]
@@ -2755,7 +2756,8 @@
             },
             {
                 "number": "19",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "Mala suerte. Pobre chico, tiene la negra."
             },
             {
@@ -2875,7 +2877,8 @@
             },
             {
                 "number": "19",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "Mala suerte. Pobre chico, tiene la negra."
             },
             {
@@ -2995,7 +2998,8 @@
             },
             {
                 "number": "19",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "Mala suerte. Pobre chico, tiene la negra."
             },
             {
@@ -3115,7 +3119,8 @@
             },
             {
                 "number": "19",
-                "type": "nombre femenino coloquial",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
                 "definition": "Mala suerte. Pobre chico, tiene la negra."
             },
             {
@@ -3824,8 +3829,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo, indefinido",
                 "definition": "Expresa la inexistencia de aquello denotado por el nombre al que modifica. Ningún día es igual al anterior. No he tenido ningún problema. precedido de un elemento negativo. No he tenido problema ninguno. Sin amigo ninguno.",
                 "definition_extra": [
                     {
@@ -3836,25 +3841,26 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo, indefinido",
                 "definition": "Nada de. con nombres abstractos. No siente ninguna lástima. No tiene ninguna gracia. precedido de un elemento negativo. No tiene interés ninguno."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado también en plural",
+                "type": "adjetivo",
+                "type_extra": "Usado también en plural, indefinido",
                 "definition": "Con ciertos nombres de contenido valorativo añade énfasis a la negación y equivale a un. No es ningún monstruo. No son ningunos monstruos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Con ciertos nombres abstractos forma plurales enfáticos o estilísticos. No tenía ningunas ganas de ir."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Denota la inexistencia de una entidad. referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de. Ayer compré bombones, pero no queda ninguno. Ninguna de tus amigas estaba de acuerdo."
             }
         ]
@@ -3863,8 +3869,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo, indefinido",
                 "definition": "Expresa la inexistencia de aquello denotado por el nombre al que modifica. Ningún día es igual al anterior. No he tenido ningún problema. precedido de un elemento negativo. No he tenido problema ninguno. Sin amigo ninguno.",
                 "definition_extra": [
                     {
@@ -3875,25 +3881,26 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo, indefinido",
                 "definition": "Nada de. con nombres abstractos. No siente ninguna lástima. No tiene ninguna gracia. precedido de un elemento negativo. No tiene interés ninguno."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado también en plural",
+                "type": "adjetivo",
+                "type_extra": "Usado también en plural, indefinido",
                 "definition": "Con ciertos nombres de contenido valorativo añade énfasis a la negación y equivale a un. No es ningún monstruo. No son ningunos monstruos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Con ciertos nombres abstractos forma plurales enfáticos o estilísticos. No tenía ningunas ganas de ir."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Denota la inexistencia de una entidad. referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de. Ayer compré bombones, pero no queda ninguno. Ninguna de tus amigas estaba de acuerdo."
             }
         ]
@@ -3902,8 +3909,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo, indefinido",
                 "definition": "Expresa la inexistencia de aquello denotado por el nombre al que modifica. Ningún día es igual al anterior. No he tenido ningún problema. precedido de un elemento negativo. No he tenido problema ninguno. Sin amigo ninguno.",
                 "definition_extra": [
                     {
@@ -3914,25 +3921,26 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado solo en singular, Usado también pospuesto al sustantivo, indefinido",
                 "definition": "Nada de. con nombres abstractos. No siente ninguna lástima. No tiene ninguna gracia. precedido de un elemento negativo. No tiene interés ninguno."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado también en plural",
+                "type": "adjetivo",
+                "type_extra": "Usado también en plural, indefinido",
                 "definition": "Con ciertos nombres de contenido valorativo añade énfasis a la negación y equivale a un. No es ningún monstruo. No son ningunos monstruos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Con ciertos nombres abstractos forma plurales enfáticos o estilísticos. No tenía ningunas ganas de ir."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino singular",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino singular",
                 "definition": "Denota la inexistencia de una entidad. referido a un sintagma nominal mencionado o sobrentendido, o bien para aludir a uno pospuesto e introducido por la preposición de. Ayer compré bombones, pero no queda ninguno. Ninguna de tus amigas estaba de acuerdo."
             }
         ]
@@ -4622,7 +4630,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "nombre."
             }
         ]
@@ -5137,29 +5146,32 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal primera persona masculino y femenino plural",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino plural",
                 "definition": "Forma que, en dativo o acusativo, designa a las personas que hablan o escriben. Nos miró. Nos trajo un regalo. Háblanos."
             },
             {
                 "number": "2",
-                "type": "pronombre personal primera persona masculino y femenino plural",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino plural",
                 "definition": "Forma que, en dativo o acusativo, designa a un grupo de personas entre las que se encuentra quien habla o escribe. Los hijos nos enseñan mucho a los padres."
             },
             {
                 "number": "3",
-                "type": "pronombre personal primera persona masculino y femenino plural",
-                "type_extra": "poco usado o usada, poco usados o usadas, Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "poco usado o usada, poco usados o usadas, Usado, usada, usados o usadas, personal primera persona masculino y femenino plural",
                 "definition": "nosotros. Venga a nos el tu reino. en la actualidad solo por ciertas personas de muy elevado rango o dignidad, como reyes, papas u obispos."
             },
             {
                 "number": "4",
-                "type": "pronombre personal primera persona masculino plural",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino plural",
                 "definition": "Forma que, en dativo o acusativo, designa a una persona indeterminada. En un incendio, tenemos que asegurarnos de cerrar bien las puertas."
             },
             {
                 "number": "5",
-                "type": "pronombre personal primera persona masculino plural",
-                "type_extra": "Usado especialmente en lengua escrita",
+                "type": "pronombre",
+                "type_extra": "Usado especialmente en lengua escrita, personal primera persona masculino plural",
                 "definition": "me. En este artículo nos hemos ocupado de su estudio."
             }
         ]
@@ -5168,24 +5180,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal primera persona masculino y femenino plural",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino plural",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a las personas que hablan o escriben. Nosotras habíamos votado en contra. A nosotros no nos afecta el problema."
             },
             {
                 "number": "2",
-                "type": "pronombre personal primera persona masculino y femenino plural",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino plural",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a los miembros de un grupo del que forma parte quien habla o escribe. Nosotros, los hispanohablantes."
             },
             {
                 "number": "3",
-                "type": "pronombre personal primera persona masculino plural",
-                "type_extra": "Usado especialmente en lengua escrita",
+                "type": "pronombre",
+                "type_extra": "Usado especialmente en lengua escrita, personal primera persona masculino plural",
                 "definition": "yo. La hipótesis que nosotros defendemos en este artículo."
             },
             {
                 "number": "4",
-                "type": "pronombre personal primera persona masculino plural",
-                "type_extra": "Usado especialmente en lengua escrita",
+                "type": "pronombre",
+                "type_extra": "Usado especialmente en lengua escrita, personal primera persona masculino plural",
                 "definition": "mí. Lo que a nosotros nos interesa demostrar es …."
             }
         ]
@@ -5194,24 +5208,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal primera persona masculino y femenino plural",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino plural",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a las personas que hablan o escriben. Nosotras habíamos votado en contra. A nosotros no nos afecta el problema."
             },
             {
                 "number": "2",
-                "type": "pronombre personal primera persona masculino y femenino plural",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino plural",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a los miembros de un grupo del que forma parte quien habla o escribe. Nosotros, los hispanohablantes."
             },
             {
                 "number": "3",
-                "type": "pronombre personal primera persona masculino plural",
-                "type_extra": "Usado especialmente en lengua escrita",
+                "type": "pronombre",
+                "type_extra": "Usado especialmente en lengua escrita, personal primera persona masculino plural",
                 "definition": "yo. La hipótesis que nosotros defendemos en este artículo."
             },
             {
                 "number": "4",
-                "type": "pronombre personal primera persona masculino plural",
-                "type_extra": "Usado especialmente en lengua escrita",
+                "type": "pronombre",
+                "type_extra": "Usado especialmente en lengua escrita, personal primera persona masculino plural",
                 "definition": "mí. Lo que a nosotros nos interesa demostrar es …."
             }
         ]
@@ -6280,26 +6296,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nosotros o de nosotras. La culpa es nuestra. Unos tíos nuestros. Nuestra casa."
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De la persona que habla o escribe. Cumplimos nuestro objetivo con la publicación de este libro."
             },
             {
                 "number": "3",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nos. — Nuestro consejo — dijo el monarca."
             },
             {
                 "number": "4",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático. Se parece a nuestra Julia."
             }
         ]
@@ -6308,26 +6324,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nosotros o de nosotras. La culpa es nuestra. Unos tíos nuestros. Nuestra casa."
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De la persona que habla o escribe. Cumplimos nuestro objetivo con la publicación de este libro."
             },
             {
                 "number": "3",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nos. — Nuestro consejo — dijo el monarca."
             },
             {
                 "number": "4",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático. Se parece a nuestra Julia."
             }
         ]
@@ -6336,26 +6352,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nosotros o de nosotras. La culpa es nuestra. Unos tíos nuestros. Nuestra casa."
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De la persona que habla o escribe. Cumplimos nuestro objetivo con la publicación de este libro."
             },
             {
                 "number": "3",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nos. — Nuestro consejo — dijo el monarca."
             },
             {
                 "number": "4",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático. Se parece a nuestra Julia."
             }
         ]
@@ -6364,26 +6380,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nosotros o de nosotras. La culpa es nuestra. Unos tíos nuestros. Nuestra casa."
             },
             {
                 "number": "2",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado especialmente en lengua escrita, Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De la persona que habla o escribe. Cumplimos nuestro objetivo con la publicación de este libro."
             },
             {
                 "number": "3",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "Usado con valor definido ante sustantivo",
+                "type": "adjetivo",
+                "type_extra": "Usado con valor definido ante sustantivo, posesivo de primera persona",
                 "definition": "De nos. — Nuestro consejo — dijo el monarca."
             },
             {
                 "number": "4",
-                "type": "adjetivo posesivo de primera persona",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, posesivo de primera persona",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático. Se parece a nuestra Julia."
             }
         ]
@@ -6578,7 +6594,8 @@
             },
             {
                 "number": "6",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Novena hora después de mediodía o de medianoche. Son las nueve."
             }
         ]
@@ -7008,12 +7025,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En la India musulmana, gobernador de una provincia."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Hombre sumamente rico.",
                 "definition_extra": [
                     {
@@ -7029,7 +7048,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la naturaleza o conforme a la cualidad o propiedad de las cosas.",
                 "definition_extra": [
                     {
@@ -7044,7 +7064,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Nativo de un lugar.",
                 "definition_extra": [
                     {
@@ -7059,7 +7080,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Que está tal como se halla en la naturaleza, o que no tiene mezcla o elaboración.",
                 "definition_extra": [
                     {
@@ -7074,7 +7096,8 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Espontánea y no afectada.",
                 "definition_extra": [
                     {
@@ -7089,12 +7112,14 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Que imita a la naturaleza con propiedad."
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Regular y que comúnmente sucede.",
                 "definition_extra": [
                     {
@@ -7109,7 +7134,8 @@
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que se produce por solas las fuerzas de la naturaleza, como contrapuesto a sobrenatural y milagroso.",
                 "definition_extra": [
                     {
@@ -7124,37 +7150,44 @@
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un señor: Que tenía vasallos, o que por su linaje tenía derecho al señorío, aunque no fuese de la tierra."
             },
             {
                 "number": "9",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un período de tiempo: Válido o computable para realizar una actividad, especialmente administrativa o judicial, sin tener en cuenta si es hábil o no."
             },
             {
                 "number": "10",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una nota: No modificada por sostenido ni bemol."
             },
             {
                 "number": "11",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un pase de muleta: Que se hace con la mano izquierda y sin el estoque."
             },
             {
                 "number": "12",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Nombre que se dan a sí mismos los indígenas."
             },
             {
                 "number": "13",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un hijo: De padre y madre indígenas, a diferencia del mestizo."
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Genio, índole, temperamento, complexión o inclinación propia de cada uno.",
                 "definition_extra": [
                     {
@@ -7165,12 +7198,14 @@
             },
             {
                 "number": "15",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Instinto e inclinación de los animales irracionales."
             },
             {
                 "number": "16",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Modelo real que el artista reproduce en su obra.",
                 "definition_extra": [
                     {
@@ -7181,15 +7216,15 @@
             },
             {
                 "number": "17",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Patria o lugar donde se nace.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "18",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Físico, astrólogo o naturalista.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -7198,7 +7233,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener necesidad de alguien o algo.",
                 "definition_extra": [
                     {
@@ -7213,9 +7249,9 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Obligar a ejecutar algo.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -7224,65 +7260,45 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "para coordinar de manera aditiva vocablos o frases que denotan negación, precedida o seguida de otra u otras igualmente negativas."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En cláusula que empieza con verbo precedido del adverbio no y en que se niegan dos o más términos, puede omitirse o expresarse delante del primero. Si se coloca el verbo al fin de cláusulas como esta, ha de expresarse la conjunción ni precediendo a la primera y a las demás negaciones."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ni siquiera. encabezando una oración sin relacionarla con otra o con relación distinta de la copulativa negativa 'y no'. Forma frases que expresan el extremo a que puede llegarse en algo."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "con valor semejante en exclamaciones enérgicas."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "No. sin otra negación anterior o posterior."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "también como la conjunción disyuntiva o.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Decimotercera letra del alfabeto griego (Ν, ν), que corresponde a la n del latino."
-            }
-        ]
-    },
-    "n": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Decimocuarta letra del abecedario español, que representa el fonema consonántico nasal alveolar, aunque cuando es implosiva suele adoptar la zona de articulación de la consonante siguiente."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Sonido que representa la letra n."
-            },
-            {
-                "number": "3",
-                "type": "noun",
-                "definition": "Número indeterminado, como en 5n.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "ene."
-                    }
-                ]
             }
         ]
     }

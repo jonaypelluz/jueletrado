@@ -2630,52 +2630,56 @@
             },
             {
                 "number": "10",
-                "type": "nombre femenino plural",
-                "type_extra": "etcétera",
+                "type": "nombre femenino",
+                "type_extra": "etcétera, en plural",
                 "definition": "Colgantes, virutas, rebabas, en adornos y herramientas."
             },
             {
                 "number": "11",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Suciedad de los fondos de los buques o de una vasija cualquiera."
             },
             {
                 "number": "12",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Aristas o filamentos de la espiga."
             },
             {
                 "number": "13",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Puntas aguzadas hacia atrás de la lengüeta de la flecha."
             },
             {
                 "number": "14",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "sapillo (tumor bajo la lengua)."
             },
             {
                 "number": "15",
-                "type": "nombre femenino plural",
-                "type_extra": "Botánica",
+                "type": "nombre femenino",
+                "type_extra": "Botánica, en plural",
                 "definition": "Conjunto de raíces delgadas de las plantas."
             },
             {
                 "number": "16",
-                "type": "nombre femenino plural",
-                "type_extra": "Zoología",
+                "type": "nombre femenino",
+                "type_extra": "Zoología, en plural",
                 "definition": "Filamentos sutiles que guarnecen el astil de la pluma, generalmente unidos entre sí por medio de otros más tenues que hay en sus bordes."
             },
             {
                 "number": "17",
-                "type": "nombre femenino plural",
-                "type_extra": "Argentina, Costa Rica, Cuba, El Salvador, Guatemala, Honduras, México, Nicaragua y República Dominicana, etcétera",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Costa Rica, Cuba, El Salvador, Guatemala, Honduras, México, Nicaragua y República Dominicana, etcétera, en plural",
                 "definition": "Flecos de un pañolón, de un rebozo, de una colcha."
             },
             {
                 "number": "18",
-                "type": "nombre femenino plural",
-                "type_extra": "El Salvador",
+                "type": "nombre femenino",
+                "type_extra": "El Salvador, en plural",
                 "definition": "restos (residuos)."
             },
             {
@@ -3654,7 +3658,8 @@
             },
             {
                 "number": "3",
-                "type": "verbo transitivo desusado",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
                 "definition": "Dar o suministrar lo que se necesita."
             }
         ]
@@ -3663,8 +3668,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, indefinido",
                 "definition": "Suficiente, que basta. Ya ha comido bastante pan. Había luz bastante. a menudo con un complemento introducido por la preposición para que expresa un punto de referencia en relación con lo que se cuantifica. No había bastante público para abrir la sala.",
                 "definition_extra": [
                     {
@@ -3675,84 +3680,86 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo indefinido",
-                "type_extra": "Usado",
+                "type": "adjetivo",
+                "type_extra": "Usado, indefinido",
                 "definition": "Numeroso, abundante o copioso. Recorrieron bastantes kilómetros. a menudo con un complemento introducido por la preposición para que expresa una base de comparación. Ganaba bastante dinero para ser un empleado de banca."
             },
             {
                 "number": "3",
-                "type": "adjetivo indefinido",
+                "type": "adjetivo",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas comparativos nominales, expresa diferencia elevada entre las cantidades que se comparan. Había bastantes más asistentes que asientos."
             },
             {
                 "number": "4",
-                "type": "adjetivo indefinido",
-                "type_extra": "coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial, indefinido",
                 "definition": "Ante nombres contables en singular empleados como no contables, denota valoración positiva de algo o alguien, o bien número suficiente o abundante de personas o cosas. No es bastante casa para él. Ya hay bastante traductor desempleado."
             },
             {
                 "number": "5",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una cantidad que basta, que es suficiente. referido a un sintagma nominal mencionado o sobrentendido. a menudo con un complemento introducido por la preposición para que expresa un punto de referencia en relación con lo que se cuantifica. Necesitaban varios trabajadores y contrataron bastantes para cubrir el turno de mañana."
             },
             {
                 "number": "6",
-                "type": "pronombre indefinido masculino y femenino",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una cantidad abundante. para referirse a un sintagma nominal mencionado o sobrentendido, o bien para referirse a un sintagma pospuesto introducido por la preposición de. Temían que no hubiera niños en el cumpleaños pero al final vinieron bastantes. Bastantes de los nuestros se equivocaron."
             },
             {
                 "number": "7",
-                "type": "pronombre indefinido masculino plural",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "bastantes personas. sin referencia a un sintagma mencionado o sobrentendido. En este país muchos no encuentran trabajo y bastantes piensan en emigrar."
             },
             {
                 "number": "8",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "Una cantidad abundante de algo. Comió bastante. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Costó bastante para ser lo que era."
             },
             {
                 "number": "9",
-                "type": "pronombre indefinido neutro",
-                "type_extra": "Usado, usada, usados o usadas",
+                "type": "pronombre",
+                "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "bastantes cosas. Hizo bastante por todos. a menudo con un complemento introducido por la preposición de. Bastante de lo que se dijo le interesó."
             },
             {
                 "number": "10",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "En grado suficiente o en alto grado. Es bastante rico. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Bastante inteligente para aprobar."
             },
             {
                 "number": "11",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con intensidad grande o suficiente. Llovió bastante aquel día. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "12",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Con mucha frecuencia o con frecuencia suficiente. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Viene bastante para lo lejos que vive."
             },
             {
                 "number": "13",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "Mucho tiempo o tiempo suficiente. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Durmió bastante para lo incómoda que era la cama."
             },
             {
                 "number": "14",
-                "type": "adverbio indefinido",
-                "type_extra": "Usado",
+                "type": "adverbio",
+                "type_extra": "Usado, indefinido",
                 "definition": "En cantidad alta o suficiente. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Trabaja bastante para lo poco que le pagan."
             },
             {
                 "number": "15",
-                "type": "adverbio indefinido",
+                "type": "adverbio",
+                "type_extra": "indefinido",
                 "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes comparadas. Dormía bastante más que antes."
             }
         ]
@@ -4726,7 +4733,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Tira de punto o blonda que adornaba generalmente el vestido de las mujeres, por el pecho, hombros y espalda."
             }
         ]
@@ -5071,12 +5079,14 @@
             },
             {
                 "number": "17",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "De posición social y económica elevada. Casa, gente bien. Familias bien."
             },
             {
                 "number": "18",
-                "type": "conjunción distributiva",
+                "type": "conjunción",
+                "type_extra": "distributiva",
                 "definition": "ahora. Se te enviará el diploma, bien por el correo de hoy, bien por el de mañana."
             }
         ]
@@ -5183,12 +5193,14 @@
             },
             {
                 "number": "17",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "De posición social y económica elevada. Casa, gente bien. Familias bien."
             },
             {
                 "number": "18",
-                "type": "conjunción distributiva",
+                "type": "conjunción",
+                "type_extra": "distributiva",
                 "definition": "ahora. Se te enviará el diploma, bien por el correo de hoy, bien por el de mañana."
             }
         ]
@@ -5241,7 +5253,8 @@
             },
             {
                 "number": "2",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "bienvenida (recibimiento cortés)."
             },
             {
@@ -6890,7 +6903,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "Cañón que servía para disparar bombas."
             }
         ]
@@ -7029,7 +7043,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
                 "definition": "bueno.",
                 "definition_extra": [
                     {
@@ -7037,7 +7051,7 @@
                         "content": "vale, cupón, tarjeta, billete."
                     }
                 ],
-                "type_extra": "Economía"
+                "type_extra": "Economía, desusado"
             },
             {
                 "number": "2",
@@ -7061,7 +7075,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
                 "definition": "bueno.",
                 "definition_extra": [
                     {
@@ -7069,7 +7083,7 @@
                         "content": "vale, cupón, tarjeta, billete."
                     }
                 ],
-                "type_extra": "Economía"
+                "type_extra": "Economía, desusado"
             },
             {
                 "number": "2",
@@ -7117,7 +7131,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "Vástago de la vid, que no nace de la yema."
             }
         ]
@@ -8475,7 +8490,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Pinzas anchas que usan los plateros para arrancar los pallones de oro o plata que quedan en las copelas al hacer los ensayos."
             }
         ]
@@ -8587,7 +8603,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Hacienda o bienes, herencia."
             }
         ]
@@ -8653,12 +8670,6 @@
                 "type": "nombre masculino",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "Partido que se juega para desempatar."
-            },
-            {
-                "number": "10",
-                "type": "nombre femenino",
-                "type_extra": "México",
-                "definition": "Partido que se juega para desempatar."
             }
         ]
     },
@@ -8722,12 +8733,6 @@
                 "number": "9",
                 "type": "nombre masculino",
                 "type_extra": "Argentina y Uruguay",
-                "definition": "Partido que se juega para desempatar."
-            },
-            {
-                "number": "10",
-                "type": "nombre femenino",
-                "type_extra": "México",
                 "definition": "Partido que se juega para desempatar."
             }
         ]
@@ -9213,12 +9218,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Encargado de conducir una balsa."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En el Caribe, persona que intenta llegar en balsa ilegalmente a otro país."
             }
         ]
@@ -9228,33 +9235,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Teatro. Cada una de las tiras colgadas del telar a lo ancho del escenario, que ocultan la parte superior de este y establecen la altura de la escena."
-            }
-        ]
-    },
-    "b": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Segunda letra del abecedario español, que representa el fonema consonántico bilabial sonoro."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Sonido que representa la letra b."
-            },
-            {
-                "number": "3",
-                "type": "adjective",
-                "definition": "Que queda fuera del control de la Hacienda pública."
-            },
-            {
-                "number": "4",
-                "type": "adjective",
-                "definition": "En una clasificación: De rango secundario."
             }
         ]
     },
@@ -9263,7 +9246,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sitio web que incluye, a modo de diario personal de su autor o autores, contenidos de su interés, actualizados con frecuencia y a menudo comentados por los lectores."
             }
         ]

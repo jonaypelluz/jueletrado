@@ -859,7 +859,8 @@
             },
             {
                 "number": "14",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Autoridad o protección materna respecto de una persona, especialmente un niño o un muchacho. Seguía pegado a las faldas de su madre."
             }
         ]
@@ -1616,7 +1617,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "Desfallecido, debilitado."
             }
         ]
@@ -2913,8 +2915,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo coloquial",
-                "type_extra": "Cuba, El Salvador, Guatemala y México",
+                "type": "adjetivo",
+                "type_extra": "Cuba, El Salvador, Guatemala y México, coloquial",
                 "definition": "Dicho de una persona: Muy fea."
             }
         ]
@@ -3162,8 +3164,8 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo coloquial",
-                "type_extra": "Usado también como adverbio",
+                "type": "adjetivo",
+                "type_extra": "Usado también como adverbio, coloquial",
                 "definition": "Muy bueno, magnífico, sensacional. Es un tío fenómeno. Lo pasamos fenómeno."
             }
         ]
@@ -3206,8 +3208,8 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo coloquial",
-                "type_extra": "Usado también como adverbio",
+                "type": "adjetivo",
+                "type_extra": "Usado también como adverbio, coloquial",
                 "definition": "Muy bueno, magnífico, sensacional. Es un tío fenómeno. Lo pasamos fenómeno."
             }
         ]
@@ -3241,7 +3243,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino coloquial",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
                 "definition": "Desaire manifiesto y grosero. Le hizo muchos feos."
             }
         ]
@@ -4022,7 +4025,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino y femenino desusado",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
                 "definition": "hijo.",
                 "definition_extra": [
                     {
@@ -4226,7 +4230,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino y femenino desusado",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
                 "definition": "hijo.",
                 "definition_extra": [
                     {
@@ -4297,7 +4302,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino y femenino desusado",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
                 "definition": "hijo.",
                 "definition_extra": [
                     {
@@ -4421,7 +4427,8 @@
             },
             {
                 "number": "9",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Agrupación política. He formado constantemente en las filas de la oposición."
             }
         ]
@@ -4933,7 +4940,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Obligación que alguien asume para responder de la obligación de otra persona.",
                 "definition_extra": [
                     {
@@ -4962,7 +4970,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Hacienda pública."
             }
         ]
@@ -5398,8 +5407,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino coloquial",
-                "type_extra": "desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado, coloquial",
                 "definition": "Mujer del fiscal."
             }
         ]
@@ -6216,7 +6225,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "hondo.",
                 "definition_extra": [
                     {
@@ -6410,7 +6420,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "hondo.",
                 "definition_extra": [
                     {
@@ -6728,7 +6739,8 @@
             },
             {
                 "number": "19",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Manera o modo de comportarse según las normas de educación. Qué malas formas tiene."
             }
         ]
@@ -7978,7 +7990,8 @@
             },
             {
                 "number": "6",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "esforzarse."
             }
         ]
@@ -8011,8 +8024,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino coloquial",
-                "type_extra": "México",
+                "type": "nombre masculino",
+                "type_extra": "México, coloquial",
                 "definition": "Estudiante rezagado."
             },
             {
@@ -9655,8 +9668,8 @@
             },
             {
                 "number": "15",
-                "type": "nombre femenino coloquial",
-                "type_extra": "Colombia, Cuba, Guatemala, México y República Dominicana",
+                "type": "nombre femenino",
+                "type_extra": "Colombia, Cuba, Guatemala, México y República Dominicana, coloquial",
                 "definition": "cerveza."
             },
             {
@@ -10281,7 +10294,8 @@
             },
             {
                 "number": "4",
-                "type": "locución preposicional",
+                "type": "locución",
+                "type_extra": "preposicional",
                 "definition": "Con algunos sustantivos, sin. Fuera de sospecha, de peligro."
             }
         ]
@@ -11376,7 +11390,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "profundo.",
                 "definition_extra": [
                     {
@@ -11702,18 +11717,20 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En las estaciones de ferrocarril, empleado que se ocupa de la recepción, expedición y entrega de los equipajes y mercancías."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Persona que hace algo.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Elemento o causa que actúan junto con otros.",
                 "definition_extra": [
                     {
@@ -11724,17 +11741,20 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Oficial real que en las Indias recaudaba las rentas y rendía los tributos en especie pertenecientes a la Corona."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Dependiente del comisario de guerra o del asentista, que se ocupaba de la distribución de víveres a la tropa."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las cantidades o expresiones que se multiplican para obtener un producto.",
                 "definition_extra": [
                     {
@@ -11745,7 +11765,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "divisor (‖ número contenido en otro un número exacto de veces).",
                 "definition_extra": [
                     {
@@ -11756,19 +11777,20 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Capataz o persona que administra bienes ajenos.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Persona que comercia por cuenta ajena.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
             }
         ]
@@ -11778,7 +11800,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la familia.",
                 "definition_extra": [
                     {
@@ -11789,7 +11812,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Conocido previamente.",
                 "definition_extra": [
                     {
@@ -11804,7 +11828,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho del trato: Llano y sin ceremonia.",
                 "definition_extra": [
                     {
@@ -11819,7 +11844,8 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una palabra, de una frase, del lenguaje, del estilo, etc.: Natural, sencillo y propio de la conversación normal y corriente.",
                 "definition_extra": [
                     {
@@ -11834,22 +11860,26 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho del envase de un producto comercial: Que tiene un tamaño superior al normal y resulta, generalmente, más económico."
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un vehículo, especialmente de un coche: De gran capacidad y con el portaequipajes trasero incorporado al habitáculo."
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un rasgo normal o patológico: Que se repite dentro de una familia."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Pariente o deudo de una persona.",
                 "definition_extra": [
                     {
@@ -11860,44 +11890,51 @@
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Eclesiástico o seglar que acompaña o asiste a un obispo."
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sirviente de la comunidad de un colegio."
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ministro del antiguo tribunal eclesiástico de la Inquisición que estaba presente en los prendimientos y en otras misiones."
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En la orden militar de Alcántara, hombre que por afecto y devoción era admitido en ella, ofreciendo gratuitamente, de presente o futuro, el todo o parte de sus bienes."
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que tomaba la insignia o hábito de una religión, como los hermanos de la orden tercera."
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Demonio que se suponía tenía trato con una persona a la que acompañaba y servía."
             },
             {
                 "number": "15",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que tiene trato frecuente y de confianza con alguien."
             },
             {
                 "number": "16",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Criado doméstico.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -11906,7 +11943,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Ayuda o socorro que se concede a alguien.",
                 "definition_extra": [
                     {
@@ -11917,7 +11955,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Honra, beneficio, gracia.",
                 "definition_extra": [
                     {
@@ -11928,7 +11967,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "privanza.",
                 "definition_extra": [
                     {
@@ -11939,12 +11979,14 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Expresión de agrado que suelen hacer las damas."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cinta, flor u otra cosa semejante dada por una dama a un caballero, y que en las fiestas públicas llevaba este en el sombrero o en el brazo."
             }
         ]
@@ -11954,7 +11996,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de creencias de una religión.",
                 "definition_extra": [
                     {
@@ -11965,7 +12008,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de creencias de alguien, de un grupo o de una multitud de personas.",
                 "definition_extra": [
                     {
@@ -11976,7 +12020,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Confianza, buen concepto que se tiene de alguien o de algo.",
                 "definition_extra": [
                     {
@@ -11991,7 +12036,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Creencia que se da a algo por la autoridad de quien lo dice o por la fama pública.",
                 "definition_extra": [
                     {
@@ -12002,12 +12048,14 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Palabra que se da o promesa que se hace a alguien con cierta solemnidad o publicidad."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Seguridad, aseveración de que algo es cierto.",
                 "definition_extra": [
                     {
@@ -12018,12 +12066,14 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Documento que certifica la verdad de algo."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "fidelidad (‖ lealtad).",
                 "definition_extra": [
                     {
@@ -12034,14 +12084,15 @@
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En el cristianismo, virtud teologal que consiste en el asentimiento a la revelación de Dios, propuesta por la Iglesia."
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "he (‖ para señalar o mostrar).",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -12050,7 +12101,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "federalista.",
                 "definition_extra": [
                     {
@@ -12066,13 +12118,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "festivo.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Fiesta, especialmente musical.",
                 "definition_extra": [
                     {
@@ -12083,7 +12136,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de representaciones dedicadas a un artista o a un arte."
             }
         ]
@@ -12093,7 +12147,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Término, remate o consumación de algo.",
                 "definition_extra": [
                     {
@@ -12108,7 +12163,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Límite, confín.",
                 "definition_extra": [
                     {
@@ -12119,7 +12175,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Objeto o motivo con que se ejecuta algo.",
                 "definition_extra": [
                     {
@@ -12135,7 +12192,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que termina o cierra.",
                 "definition_extra": [
                     {
@@ -12146,17 +12204,20 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que remata y perfecciona algo."
             },
             {
                 "number": "3",
-                "type": "adjective",
-                "definition": "Que expresa finalidad. a una oración,."
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
+                "definition": "Que expresa finalidad."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Término y remate de algo.",
                 "definition_extra": [
                     {
@@ -12171,12 +12232,14 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Última y decisiva competición en un campeonato o concurso."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Treta que se compone de seis movimientos."
             }
         ]
@@ -12186,7 +12249,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al fisco o al oficio de fiscal.",
                 "definition_extra": [
                     {
@@ -12197,34 +12261,39 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que representa y ejerce el ministerio público en los tribunales."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que averigua o delata operaciones ajenas."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Seglar que cuida de una capilla rural, dirige las funciones del culto y auxilia al párroco, por quien es nombrado."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que en una junta directiva controla las acciones de una sociedad anónima."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En el Antiguo Régimen, ministro encargado de defender los intereses del fisco."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Mujer del fiscal.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -12233,13 +12302,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "confianza.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "fotografía (‖ imagen).",
                 "definition_extra": [
                     {
@@ -12255,7 +12325,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "franciscano (‖ integrante de la Orden de los Hermanos Menores).",
                 "definition_extra": [
                     {
@@ -12266,7 +12337,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "franciscano (‖ perteneciente a la orden de los franciscanos).",
                 "definition_extra": [
                     {
@@ -12282,7 +12354,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que tiene una temperatura inferior a la ordinaria o conveniente.",
                 "definition_extra": [
                     {
@@ -12297,7 +12370,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que no produce calor.",
                 "definition_extra": [
                     {
@@ -12312,7 +12386,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una gama de colores: Que va del verde al violeta pasando por el azul.",
                 "definition_extra": [
                     {
@@ -12323,7 +12398,8 @@
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un color: Que pertenece a la gama de colores fría.",
                 "definition_extra": [
                     {
@@ -12334,7 +12410,8 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "frígido (‖ que padece frigidez).",
                 "definition_extra": [
                     {
@@ -12345,7 +12422,8 @@
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Que muestra indiferencia o falta de interés por alguien o algo.",
                 "definition_extra": [
                     {
@@ -12360,7 +12438,8 @@
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Calculadora, imperturbable.",
                 "definition_extra": [
                     {
@@ -12371,22 +12450,26 @@
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Aturdida, impresionada por algún suceso o desengaño inesperados."
             },
             {
                 "number": "9",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Propio o característico de la persona fría."
             },
             {
                 "number": "10",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que no conmueve."
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sensación que se experimenta ante un notorio descenso de temperatura.",
                 "definition_extra": [
                     {
@@ -12397,7 +12480,8 @@
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Temperatura baja.",
                 "definition_extra": [
                     {
@@ -12412,7 +12496,8 @@
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "frigorífico (‖ aparato electrodoméstico).",
                 "definition_extra": [
                     {
@@ -12423,15 +12508,15 @@
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Bebida enfriada con nieve o hielo, pero líquida.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "15",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "cerveza.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -12441,9 +12526,9 @@
             },
             {
                 "number": "16",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "frío moderado.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -12452,7 +12537,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una planta, especialmente de un árbol: Dar fruto.",
                 "definition_extra": [
                     {
@@ -12460,21 +12546,6 @@
                         "content": "fructificar, frutear, granar, cerner, florecer, madurar."
                     }
                 ]
-            }
-        ]
-    },
-    "f": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Sexta letra del abecedario español, que representa el fonema consonántico fricativo labiodental sordo."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Sonido que representa la letra f."
             }
         ]
     }

@@ -101,13 +101,14 @@
             },
             {
                 "number": "8",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Regalos que se hacen a los que van a contraer matrimonio."
             },
             {
                 "number": "9",
-                "type": "nombre femenino plural",
-                "type_extra": "Salamanca",
+                "type": "nombre femenino",
+                "type_extra": "Salamanca, en plural",
                 "definition": "Flores de las plantas herbáceas."
             }
         ]
@@ -261,7 +262,8 @@
             },
             {
                 "number": "18",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "En un edificio, pasaje interior abierto al público en el que hay establecimientos comerciales."
             }
         ]
@@ -365,7 +367,8 @@
             },
             {
                 "number": "18",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "En un edificio, pasaje interior abierto al público en el que hay establecimientos comerciales."
             }
         ]
@@ -807,13 +810,14 @@
             },
             {
                 "number": "2",
-                "type": "locución adverbial",
+                "type": "locución",
+                "type_extra": "adverbial",
                 "definition": "de buena gana."
             },
             {
                 "number": "3",
-                "type": "locución adverbial",
-                "type_extra": "Ecuador",
+                "type": "locución",
+                "type_extra": "Ecuador, adverbial",
                 "definition": "Sin motivo, por mero capricho."
             }
         ]
@@ -3599,7 +3603,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado",
                 "definition": "Mujer del gobernador."
             }
         ]
@@ -3630,7 +3635,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado",
                 "definition": "Mujer del gobernador."
             }
         ]
@@ -5981,7 +5987,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino coloquial",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
                 "definition": "Frío, o viento frío. ¡ Hace un gris !."
             },
             {
@@ -6033,7 +6040,8 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino coloquial",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
                 "definition": "Frío, o viento frío. ¡ Hace un gris !."
             },
             {
@@ -7930,7 +7938,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Adquirir caudal o aumentarlo con cualquier género de comercio, industria o trabajo.",
                 "definition_extra": [
                     {
@@ -7945,7 +7954,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Obtener un jornal o sueldo en un empleo o trabajo.",
                 "definition_extra": [
                     {
@@ -7956,7 +7966,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Obtener lo que se disputa en un juego, batalla, oposición, pleito, etc.",
                 "definition_extra": [
                     {
@@ -7971,7 +7982,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Conquistar o tomar una plaza, ciudad, territorio o fuerte.",
                 "definition_extra": [
                     {
@@ -7982,12 +7994,14 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Llegar al sitio o lugar que se pretende."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Captar la voluntad de alguien.",
                 "definition_extra": [
                     {
@@ -7998,7 +8012,8 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Lograr o adquirir algo.",
                 "definition_extra": [
                     {
@@ -8009,7 +8024,8 @@
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Aventajar, exceder a alguien en algo.",
                 "definition_extra": [
                     {
@@ -8020,12 +8036,14 @@
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Avanzar, acercándose a un objeto o a un rumbo determinados."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Mejorar, medrar, prosperar."
             }
         ]
@@ -8035,9 +8053,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Zorro macho.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -8046,7 +8064,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona, especialmente de un hombre: homosexual.",
                 "definition_extra": [
                     {
@@ -8057,7 +8076,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a los homosexuales."
             }
         ]
@@ -8067,7 +8087,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Común a todos los individuos que constituyen un todo, o a muchos objetos, aunque sean de naturaleza diferente.",
                 "definition_extra": [
                     {
@@ -8082,7 +8103,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Común, frecuente, usual.",
                 "definition_extra": [
                     {
@@ -8097,13 +8119,14 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
                 "definition": "Que posee vasta instrucción.",
-                "type_extra": "rare"
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Oficial general del Ejército con la graduación de capitán general, teniente general, general de división o general de brigada, y los correspondientes en la Armada en los cuerpos distintos del cuerpo general.",
                 "definition_extra": [
                     {
@@ -8114,17 +8137,20 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Prelado superior de una orden religiosa."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En las antiguas universidades, seminarios, etc., aula abierta al común de los estudiantes."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Mayoría de un conjunto de cosas o personas."
             }
         ]
@@ -8134,12 +8160,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de seres que tienen uno o varios caracteres comunes."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Clase o tipo a que pertenecen personas o cosas.",
                 "definition_extra": [
                     {
@@ -8150,12 +8178,14 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Grupo al que pertenecen los seres humanos de cada sexo, entendido este desde un punto de vista sociocultural en lugar de exclusivamente biológico."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En el comercio, mercancía (‖ cosa mueble).",
                 "definition_extra": [
                     {
@@ -8166,22 +8196,26 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Tela o tejido."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En las artes, sobre todo en la literatura, cada una de las distintas categorías o clases en que se pueden ordenar las obras según rasgos comunes de forma y de contenido."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Taxón que agrupa a especies que comparten ciertos caracteres."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Categoría gramatical inherente en sustantivos y pronombres, codificada a través de la concordancia en otras clases de palabras y que en pronombres y sustantivos animados puede expresar sexo."
             }
         ]
@@ -8191,7 +8225,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Tomado en conjunto.",
                 "definition_extra": [
                     {
@@ -8206,7 +8241,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Referente al planeta o globo terráqueo.",
                 "definition_extra": [
                     {
@@ -8222,7 +8258,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dar golpes poco fuertes pero seguidos.",
                 "definition_extra": [
                     {
@@ -8238,7 +8275,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "gratuito.",
                 "definition_extra": [
                     {
@@ -8253,7 +8291,8 @@
             },
             {
                 "number": "2",
-                "type": "adverb",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
                 "definition": "De manera gratuita o sin coste.",
                 "definition_extra": [
                     {
@@ -8269,7 +8308,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Que pesa.",
                 "definition_extra": [
                     {
@@ -8284,7 +8324,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Grande, de mucha entidad o importancia.",
                 "definition_extra": [
                     {
@@ -8299,12 +8340,14 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Que padece una enfermedad o una lesión graves."
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Circunspecto, serio, que causa respeto y veneración.",
                 "definition_extra": [
                     {
@@ -8315,12 +8358,14 @@
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho del estilo: Que se distingue por su circunspección, decoro y nobleza."
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Arduo, difícil.",
                 "definition_extra": [
                     {
@@ -8335,12 +8380,14 @@
             },
             {
                 "number": "7",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Molesto, enfadoso."
             },
             {
                 "number": "8",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un sonido: Que tiene una frecuencia baja de vibraciones, por oposición al sonido agudo.",
                 "definition_extra": [
                     {
@@ -8355,7 +8402,8 @@
             },
             {
                 "number": "9",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una palabra: llana.",
                 "definition_extra": [
                     {
@@ -8371,17 +8419,20 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Aquello que dirige o encamina."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Poste o pilar grande de cantería que se coloca de trecho en trecho, a los lados de un camino de montaña, para señalar su dirección, especialmente cuando hay nieve acumulada."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Tratado en que se dan preceptos para encaminar o dirigir en cosas, ya espirituales o abstractas, ya puramente mecánicas.",
                 "definition_extra": [
                     {
@@ -8392,7 +8443,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Lista impresa de datos o noticias referentes a determinada materia.",
                 "definition_extra": [
                     {
@@ -8403,32 +8455,38 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Despacho que lleva consigo quien transporta algunos géneros, para que no se los detengan ni decomisen."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Mecha delgada con pólvora y cubierta con papel, que sirve para dar fuego a los barrenos, y en los fuegos de artificio para guiarlos a la parte que se quiere."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sarmiento o vara que se deja en las cepas y en los árboles para dirigirlos."
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Tallo principal de las coníferas y otros árboles."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Palanca que sale oblicuamente de lo alto del eje de una noria para enganchar en ella la caballería, o del de un molino de viento para orientarlo."
             },
             {
                 "number": "10",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En las máquinas y otros aparatos, pieza o cuerda que sirve para obligar a otra pieza a que siga en su movimiento un camino determinado.",
                 "definition_extra": [
                     {
@@ -8439,52 +8497,62 @@
             },
             {
                 "number": "11",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Caballería que, sola o apareada con otra, va delante de todas en un tiro fuera del tronco."
             },
             {
                 "number": "12",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada uno de los extremos del bigote cuando están retorcidos."
             },
             {
                 "number": "13",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Especie de fullería en los naipes."
             },
             {
                 "number": "14",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cada una de las dos varillas grandes del abanico."
             },
             {
                 "number": "15",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Veta pequeña a que algunas veces se reducen los filones y que sirve para buscar la prolongación del criadero."
             },
             {
                 "number": "16",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cabo o aparejo que sirve para mantener un objeto en la situación que debe ocupar."
             },
             {
                 "number": "17",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Voz que va delante en la fuga y a la cual siguen las demás."
             },
             {
                 "number": "18",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Riendas para gobernar los caballos de guías."
             },
             {
                 "number": "19",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Manillar de la bicicleta."
             },
             {
                 "number": "20",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "volante (‖ pieza del automóvil).",
                 "definition_extra": [
                     {
@@ -8495,17 +8563,20 @@
             },
             {
                 "number": "21",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Buque que sirve de referencia a los demás para mantenerse en formación."
             },
             {
                 "number": "22",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sargento o cabo que, según las varias evoluciones, se coloca en la posición conveniente para la mejor alineación de la tropa."
             },
             {
                 "number": "23",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que encamina, conduce y enseña a otra el camino.",
                 "definition_extra": [
                     {
@@ -8516,7 +8587,8 @@
             },
             {
                 "number": "24",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que enseña y dirige a otra para hacer o lograr lo que se propone.",
                 "definition_extra": [
                     {
@@ -8527,7 +8599,8 @@
             },
             {
                 "number": "25",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona autorizada para enseñar a los forasteros las cosas notables de una ciudad, o para acompañar a los visitantes de un museo y darles información sobre los objetos expuestos.",
                 "definition_extra": [
                     {
@@ -8538,7 +8611,8 @@
             },
             {
                 "number": "26",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que en los juegos y ejercicios de a caballo conduce una cuadrilla."
             }
         ]
@@ -8548,7 +8622,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Sentir y percibir el sabor de las cosas.",
                 "definition_extra": [
                     {
@@ -8559,7 +8634,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "experimentar (‖ probar).",
                 "definition_extra": [
                     {
@@ -8570,7 +8646,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Agradar, parecer bien.",
                 "definition_extra": [
                     {
@@ -8585,7 +8662,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Resultar atractiva a otra.",
                 "definition_extra": [
                     {
@@ -8600,7 +8678,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desear, querer y tener complacencia en algo.",
                 "definition_extra": [
                     {
@@ -8616,7 +8695,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Sentir y percibir el sabor de las cosas.",
                 "definition_extra": [
                     {
@@ -8627,7 +8707,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "experimentar (‖ probar).",
                 "definition_extra": [
                     {
@@ -8638,7 +8719,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Agradar, parecer bien.",
                 "definition_extra": [
                     {
@@ -8653,7 +8735,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Resultar atractiva a otra.",
                 "definition_extra": [
                     {
@@ -8668,7 +8751,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desear, querer y tener complacencia en algo.",
                 "definition_extra": [
                     {
@@ -8676,21 +8760,6 @@
                         "content": "disfrutar, gozar, querer1."
                     }
                 ]
-            }
-        ]
-    },
-    "g": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "noun",
-                "definition": "Séptima letra del abecedario español, que representa, ante las vocales e, i, el fonema consonántico fricativo velar sordo, p. ej. en gente, y en los demás casos el fonema consonántico velar sonoro, p. ej. en gato."
-            },
-            {
-                "number": "2",
-                "type": "noun",
-                "definition": "Alguno de los sonidos que representa la letra g."
             }
         ]
     }

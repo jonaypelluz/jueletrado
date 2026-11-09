@@ -182,7 +182,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Reducción de gastos anunciados o previstos."
             }
         ]
@@ -232,7 +233,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Reducción de gastos anunciados o previstos."
             }
         ]
@@ -1039,7 +1041,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "Tiro, lanzamiento."
             }
         ]
@@ -3059,8 +3062,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino coloquial",
-                "type_extra": "El Salvador",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador, coloquial",
                 "definition": "Hueso del codo que, al ser golpeado, produce una sensación de corriente eléctrica."
             }
         ]
@@ -3084,8 +3087,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino coloquial",
-                "type_extra": "El Salvador",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador, coloquial",
                 "definition": "Hueso del codo que, al ser golpeado, produce una sensación de corriente eléctrica."
             }
         ]
@@ -3143,8 +3146,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino coloquial",
-                "type_extra": "El Salvador",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador, coloquial",
                 "definition": "Hueso del codo que, al ser golpeado, produce una sensación de corriente eléctrica."
             }
         ]
@@ -3168,8 +3171,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino coloquial",
-                "type_extra": "El Salvador",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador, coloquial",
                 "definition": "Hueso del codo que, al ser golpeado, produce una sensación de corriente eléctrica."
             }
         ]
@@ -4067,7 +4070,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal tercera persona masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "personal tercera persona masculino, femenino y neutro",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a la persona, el animal o la cosa de los que se habla, por oposición a quien enuncia el mensaje y a su destinatario. Ellos son los culpables. Le llevé el informe, pero no se refirió a él en ningún momento."
             }
         ]
@@ -4076,7 +4080,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal tercera persona masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "personal tercera persona masculino, femenino y neutro",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a la persona, el animal o la cosa de los que se habla, por oposición a quien enuncia el mensaje y a su destinatario. Ellos son los culpables. Le llevé el informe, pero no se refirió a él en ningún momento."
             }
         ]
@@ -4085,7 +4090,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal tercera persona masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "personal tercera persona masculino, femenino y neutro",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a la persona, el animal o la cosa de los que se habla, por oposición a quien enuncia el mensaje y a su destinatario. Ellos son los culpables. Le llevé el informe, pero no se refirió a él en ningún momento."
             }
         ]
@@ -4738,7 +4744,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo transitivo desusado",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
                 "definition": "Dañar, ofender, causar perjuicio.",
                 "definition_extra": [
                     {
@@ -5166,7 +5173,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "Conjunto de mercancías en que se emplea el dinero para comerciar."
             }
         ]
@@ -5245,7 +5253,8 @@
             },
             {
                 "number": "6",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Tener trato amoroso, casarse."
             }
         ]
@@ -5286,7 +5295,8 @@
             },
             {
                 "number": "6",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Tener trato amoroso, casarse."
             }
         ]
@@ -5624,7 +5634,8 @@
             },
             {
                 "number": "6",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "prostituta."
             }
         ]
@@ -6082,7 +6093,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "Breve, sucinto."
             }
         ]
@@ -7604,19 +7616,20 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adverbio demostrativo",
-                "type_extra": "desusado",
+                "type": "adverbio",
+                "type_extra": "desusado, demostrativo",
                 "definition": "allí (en aquel lugar)."
             },
             {
                 "number": "2",
-                "type": "adverbio demostrativo",
-                "type_extra": "desusado",
+                "type": "adverbio",
+                "type_extra": "desusado, demostrativo",
                 "definition": "De allí, o de aquí."
             },
             {
                 "number": "3",
-                "type": "adverbio desusado",
+                "type": "adverbio",
+                "type_extra": "desusado",
                 "definition": "De esto."
             },
             {
@@ -8832,8 +8845,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "enseñanza."
             }
         ]
@@ -10303,7 +10316,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adverbio demostrativo",
+                "type": "adverbio",
+                "type_extra": "demostrativo",
                 "definition": "En ese tiempo, momento u ocasión. La sala tardó una hora en llenarse: solo entonces comenzó el espectáculo. Se casará con él y entonces se irán a vivir a Francia.",
                 "definition_extra": [
                     {
@@ -10314,8 +10328,8 @@
             },
             {
                 "number": "2",
-                "type": "adverbio demostrativo",
-                "type_extra": "Usado precedido de preposición",
+                "type": "adverbio",
+                "type_extra": "Usado precedido de preposición, demostrativo",
                 "definition": "Ese o aquel tiempo, momento u ocasión. La juventud de entonces era más responsable."
             },
             {
@@ -10739,8 +10753,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo indefinido",
-                "type_extra": "plural, desusado",
+                "type": "adjetivo",
+                "type_extra": "plural, desusado, indefinido",
                 "definition": "ambos."
             }
         ]
@@ -12734,35 +12748,38 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo demostrativo",
-                "type_extra": "Usado también pospuesto",
+                "type": "adjetivo",
+                "type_extra": "Usado también pospuesto, demostrativo",
                 "definition": "Que acaba de mencionarse o que va a ser mencionado. Esos vestidos son los que le gustan, los azules. Ayer vi a Ana e Inés cerca de aquí, pero ¿ las chicas esas no son de Mérida?."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
-                "type_extra": "coloquial, Usado más pospuesto",
+                "type": "adjetivo",
+                "type_extra": "coloquial, Usado más pospuesto, demostrativo",
                 "definition": "Indica menosprecio respecto de algo o alguien. Las máquinas esas no sirven para nada. No conozco al hombre ese."
             },
             {
                 "number": "4",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona con quien se habla. Dame ese, por favor."
             },
             {
                 "number": "5",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que acaba de mencionarse, o el que o lo que va a ser mencionado. Tipos como esos no se encuentran todos los días. Eso es lo que quieres, que me vaya."
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "Señala a una persona que está a cierta distancia o que acaba de marcharse. Esos me han dicho que estabas aquí."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la ciudad en que está la persona a quien se dirige un escrito. Llegaré a esa dentro de ocho días."
             }
         ]
@@ -12776,35 +12793,38 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo demostrativo",
-                "type_extra": "Usado también pospuesto",
+                "type": "adjetivo",
+                "type_extra": "Usado también pospuesto, demostrativo",
                 "definition": "Que acaba de mencionarse o que va a ser mencionado. Esos vestidos son los que le gustan, los azules. Ayer vi a Ana e Inés cerca de aquí, pero ¿ las chicas esas no son de Mérida?."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
-                "type_extra": "coloquial, Usado más pospuesto",
+                "type": "adjetivo",
+                "type_extra": "coloquial, Usado más pospuesto, demostrativo",
                 "definition": "Indica menosprecio respecto de algo o alguien. Las máquinas esas no sirven para nada. No conozco al hombre ese."
             },
             {
                 "number": "4",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona con quien se habla. Dame ese, por favor."
             },
             {
                 "number": "5",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que acaba de mencionarse, o el que o lo que va a ser mencionado. Tipos como esos no se encuentran todos los días. Eso es lo que quieres, que me vaya."
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "Señala a una persona que está a cierta distancia o que acaba de marcharse. Esos me han dicho que estabas aquí."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la ciudad en que está la persona a quien se dirige un escrito. Llegaré a esa dentro de ocho días."
             }
         ]
@@ -13946,7 +13966,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "Estudiante que cursaba y seguía las escuelas universitarias."
             },
             {
@@ -13983,7 +14004,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino poco usado",
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
                 "definition": "Estudiante que cursaba y seguía las escuelas universitarias."
             },
             {
@@ -15046,35 +15068,38 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo demostrativo",
-                "type_extra": "Usado también pospuesto",
+                "type": "adjetivo",
+                "type_extra": "Usado también pospuesto, demostrativo",
                 "definition": "Que acaba de mencionarse o que va a ser mencionado. Esos vestidos son los que le gustan, los azules. Ayer vi a Ana e Inés cerca de aquí, pero ¿ las chicas esas no son de Mérida?."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
-                "type_extra": "coloquial, Usado más pospuesto",
+                "type": "adjetivo",
+                "type_extra": "coloquial, Usado más pospuesto, demostrativo",
                 "definition": "Indica menosprecio respecto de algo o alguien. Las máquinas esas no sirven para nada. No conozco al hombre ese."
             },
             {
                 "number": "4",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona con quien se habla. Dame ese, por favor."
             },
             {
                 "number": "5",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que acaba de mencionarse, o el que o lo que va a ser mencionado. Tipos como esos no se encuentran todos los días. Eso es lo que quieres, que me vaya."
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "Señala a una persona que está a cierta distancia o que acaba de marcharse. Esos me han dicho que estabas aquí."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la ciudad en que está la persona a quien se dirige un escrito. Llegaré a esa dentro de ocho días."
             }
         ]
@@ -15365,35 +15390,38 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo demostrativo",
-                "type_extra": "Usado también pospuesto",
+                "type": "adjetivo",
+                "type_extra": "Usado también pospuesto, demostrativo",
                 "definition": "Que acaba de mencionarse o que va a ser mencionado. Esos vestidos son los que le gustan, los azules. Ayer vi a Ana e Inés cerca de aquí, pero ¿ las chicas esas no son de Mérida?."
             },
             {
                 "number": "3",
-                "type": "adjetivo demostrativo",
-                "type_extra": "coloquial, Usado más pospuesto",
+                "type": "adjetivo",
+                "type_extra": "coloquial, Usado más pospuesto, demostrativo",
                 "definition": "Indica menosprecio respecto de algo o alguien. Las máquinas esas no sirven para nada. No conozco al hombre ese."
             },
             {
                 "number": "4",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona con quien se habla. Dame ese, por favor."
             },
             {
                 "number": "5",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que acaba de mencionarse, o el que o lo que va a ser mencionado. Tipos como esos no se encuentran todos los días. Eso es lo que quieres, que me vaya."
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "Señala a una persona que está a cierta distancia o que acaba de marcharse. Esos me han dicho que estabas aquí."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la ciudad en que está la persona a quien se dirige un escrito. Llegaré a esa dentro de ocho días."
             }
         ]
@@ -15663,12 +15691,6 @@
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Palo de los cuatro que constituyen la baraja española, cuyas cartas llevan estampadas una o varias espadas."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "type_extra": "Tauromaquia",
-                "definition": "Matador de toros."
             }
         ]
     },
@@ -15892,8 +15914,8 @@
             },
             {
                 "number": "6",
-                "type": "adverbio desusado",
-                "type_extra": "Usado en Andalucía",
+                "type": "adverbio",
+                "type_extra": "Usado en Andalucía, desusado",
                 "definition": "especialmente."
             }
         ]
@@ -15938,8 +15960,8 @@
             },
             {
                 "number": "6",
-                "type": "adverbio desusado",
-                "type_extra": "Usado en Andalucía",
+                "type": "adverbio",
+                "type_extra": "Usado en Andalucía, desusado",
                 "definition": "especialmente."
             }
         ]
@@ -17704,29 +17726,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona que habla. De todos los cuadernos, este es para ti. Sujeta esto."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que se acaba de mencionar, o el que o lo que se va a mencionar a continuación. Trajo muchos baúles y varias cestas ; estas contenían ropa. Solo dijo esto: No me esperen despiertas."
             },
             {
                 "number": "8",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "La persona presente o consabida. Estas se han ido ya. Este me ha dicho que no hará el examen."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la población en que está la persona que se dirige a otra por escrito. Permaneceré en esta dos semanas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo femenino",
-                "type_extra": "coloquial",
+                "type": "pronombre",
+                "type_extra": "coloquial, demostrativo femenino",
                 "definition": "La presente circunstancia o situación. Esta sí que no me la esperaba. Te aseguro que en esta no me pillan."
             }
         ]
@@ -20601,29 +20626,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona que habla. De todos los cuadernos, este es para ti. Sujeta esto."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que se acaba de mencionar, o el que o lo que se va a mencionar a continuación. Trajo muchos baúles y varias cestas ; estas contenían ropa. Solo dijo esto: No me esperen despiertas."
             },
             {
                 "number": "8",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "La persona presente o consabida. Estas se han ido ya. Este me ha dicho que no hará el examen."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la población en que está la persona que se dirige a otra por escrito. Permaneceré en esta dos semanas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo femenino",
-                "type_extra": "coloquial",
+                "type": "pronombre",
+                "type_extra": "coloquial, demostrativo femenino",
                 "definition": "La presente circunstancia o situación. Esta sí que no me la esperaba. Te aseguro que en esta no me pillan."
             }
         ]
@@ -20818,29 +20846,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona que habla. De todos los cuadernos, este es para ti. Sujeta esto."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que se acaba de mencionar, o el que o lo que se va a mencionar a continuación. Trajo muchos baúles y varias cestas ; estas contenían ropa. Solo dijo esto: No me esperen despiertas."
             },
             {
                 "number": "8",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "La persona presente o consabida. Estas se han ido ya. Este me ha dicho que no hará el examen."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la población en que está la persona que se dirige a otra por escrito. Permaneceré en esta dos semanas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo femenino",
-                "type_extra": "coloquial",
+                "type": "pronombre",
+                "type_extra": "coloquial, demostrativo femenino",
                 "definition": "La presente circunstancia o situación. Esta sí que no me la esperaba. Te aseguro que en esta no me pillan."
             }
         ]
@@ -21088,29 +21119,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona que habla. De todos los cuadernos, este es para ti. Sujeta esto."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que se acaba de mencionar, o el que o lo que se va a mencionar a continuación. Trajo muchos baúles y varias cestas ; estas contenían ropa. Solo dijo esto: No me esperen despiertas."
             },
             {
                 "number": "8",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "La persona presente o consabida. Estas se han ido ya. Este me ha dicho que no hará el examen."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la población en que está la persona que se dirige a otra por escrito. Permaneceré en esta dos semanas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo femenino",
-                "type_extra": "coloquial",
+                "type": "pronombre",
+                "type_extra": "coloquial, demostrativo femenino",
                 "definition": "La presente circunstancia o situación. Esta sí que no me la esperaba. Te aseguro que en esta no me pillan."
             }
         ]
@@ -21685,29 +21719,32 @@
             },
             {
                 "number": "6",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que está cerca de la persona que habla. De todos los cuadernos, este es para ti. Sujeta esto."
             },
             {
                 "number": "7",
-                "type": "pronombre demostrativo masculino, femenino y neutro",
+                "type": "pronombre",
+                "type_extra": "demostrativo masculino, femenino y neutro",
                 "definition": "El que o lo que se acaba de mencionar, o el que o lo que se va a mencionar a continuación. Trajo muchos baúles y varias cestas ; estas contenían ropa. Solo dijo esto: No me esperen despiertas."
             },
             {
                 "number": "8",
-                "type": "pronombre demostrativo masculino y femenino",
-                "type_extra": "coloquial, Usado o usada también en sentido despectivo",
+                "type": "pronombre",
+                "type_extra": "coloquial, Usado o usada también en sentido despectivo, demostrativo masculino y femenino",
                 "definition": "La persona presente o consabida. Estas se han ido ya. Este me ha dicho que no hará el examen."
             },
             {
                 "number": "9",
-                "type": "pronombre demostrativo femenino",
+                "type": "pronombre",
+                "type_extra": "demostrativo femenino",
                 "definition": "Designa la población en que está la persona que se dirige a otra por escrito. Permaneceré en esta dos semanas."
             },
             {
                 "number": "10",
-                "type": "pronombre demostrativo femenino",
-                "type_extra": "coloquial",
+                "type": "pronombre",
+                "type_extra": "coloquial, demostrativo femenino",
                 "definition": "La presente circunstancia o situación. Esta sí que no me la esperaba. Te aseguro que en esta no me pillan."
             }
         ]
@@ -22651,7 +22688,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo coloquial",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
                 "definition": "Perteneciente o relativo a los estudiantes."
             }
         ]
@@ -24194,7 +24232,8 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino desusado",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
                 "definition": "Persona que estudia o enseña moral."
             },
             {
@@ -24604,7 +24643,8 @@
             },
             {
                 "number": "4",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Eximirse del vasallaje."
             }
         ]
@@ -24638,7 +24678,8 @@
             },
             {
                 "number": "4",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Eximirse del vasallaje."
             }
         ]
@@ -24672,7 +24713,8 @@
             },
             {
                 "number": "4",
-                "type": "verbo pronominal desusado",
+                "type": "verbo pronominal",
+                "type_extra": "desusado",
                 "definition": "Eximirse del vasallaje."
             }
         ]
@@ -25113,7 +25155,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "Sin dependencia.",
                 "definition_extra": [
                     {
@@ -26238,7 +26281,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo desusado",
+                "type": "adjetivo",
+                "type_extra": "desusado",
                 "definition": "conveniente (útil).",
                 "definition_extra": [
                     {
@@ -27304,7 +27348,8 @@
             },
             {
                 "number": "5",
-                "type": "adverbio poco usado",
+                "type": "adverbio",
+                "type_extra": "poco usado",
                 "definition": "ex profeso."
             }
         ]
@@ -27586,7 +27631,8 @@
             },
             {
                 "number": "5",
-                "type": "adverbio poco usado",
+                "type": "adverbio",
+                "type_extra": "poco usado",
                 "definition": "ex profeso."
             }
         ]
@@ -28820,12 +28866,14 @@
             },
             {
                 "number": "5",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Pies y manos del ser humano."
             },
             {
                 "number": "6",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Brazos y piernas o patas, en oposición al tronco."
             }
         ]
@@ -29009,22 +29057,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Quinta letra del abecedario español, que representa el fonema vocálico medio anterior."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sonido que representa la letra e."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En la lógica escolástica, letra que representa la proposición universal negativa."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "en lugar de y ante palabras que empiezan por i o hi. No reemplaza a y en principio de interrogación o admiración, ni cuando la palabra siguiente empieza por y o por la sílaba hie. en lugar de y en cualquier contexto."
             }
         ]
@@ -29034,12 +29086,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a editores o ediciones."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Artículo no firmado que expresa la opinión de un medio de comunicación sobre un determinado asunto.",
                 "definition_extra": [
                     {
@@ -29050,7 +29104,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Casa editora.",
                 "definition_extra": [
                     {
@@ -29066,7 +29121,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "para preguntar, llamar, despreciar, reprender o advertir."
             }
         ]
@@ -29076,7 +29132,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de fuerzas aéreas o terrestres de una nación.",
                 "definition_extra": [
                     {
@@ -29087,7 +29144,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Gran unidad integrada por varios cuerpos de ejército, así como por unidades homogéneas y servicios auxiliares.",
                 "definition_extra": [
                     {
@@ -29098,7 +29156,8 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Colectividad numerosa organizada para la realización de un fin.",
                 "definition_extra": [
                     {
@@ -29109,7 +29168,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Antiguamente, conjunto de tropas militares con los pertrechos correspondientes, unidas en un cuerpo bajo las órdenes de un mando."
             }
         ]
@@ -29119,57 +29179,68 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Antepuesto a un sustantivo o a un sintagma nominal forma una expresión definida de referente consabido."
             },
             {
                 "number": "2",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Indica que lo designado por el sustantivo al que precede constituye información presente en el contexto inmediato en el que se produce el enunciado."
             },
             {
                 "number": "3",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "El más próximo al que habla. ante ciertos sustantivos o sintagmas nominales que designan unidades del calendario."
             },
             {
                 "number": "4",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Indica que lo denotado por el sustantivo o por el sintagma nominal al que precede es identificado por el oyente gracias a algún modificador restrictivo interno al propio sintagma. con el nombre sobrentendido."
             },
             {
                 "number": "5",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Indica que lo denotado por el sustantivo o por el sintagma nominal al que precede recibe interpretación genérica."
             },
             {
                 "number": "6",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Indica que lo designado por el sustantivo al que precede se interpreta como un elemento constitutivo de lo denotado por otro elemento de la oración."
             },
             {
                 "number": "7",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Con nombres propios seguidos de un modificador restrictivo, designa cierta faceta, vertiente, variedad o fase de lo representado por el sustantivo."
             },
             {
                 "number": "8",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "ante nombres que designan lugares y accidentes geográficos como parte de su denominación."
             },
             {
                 "number": "9",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Ante adjetivos en masculino singular, complementos prepositivos con la preposición de u oraciones de relativo, forma sintagmas nominales definidos que denotan entidades a las que se atribuyen las propiedades descritas por tales modificadores."
             },
             {
                 "number": "10",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Ante adjetivos seguidos de complementos con la preposición de, constituye sintagmas que denotan propiedades atribuibles a lo designado por el término de la preposición."
             },
             {
                 "number": "11",
-                "type": "article",
+                "type": "artículo",
+                "type_extra": "sin verificar",
                 "definition": "Pondera el grado del adjetivo o el adverbio al que modifica. seguido de una subordinada introducida por que."
             }
         ]
@@ -29179,7 +29250,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, en nominativo o precedida de preposición, designa a la persona, el animal o la cosa de los que se habla, por oposición a quien enuncia el mensaje y a su destinatario."
             }
         ]
@@ -29189,12 +29261,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la dignidad o a la cualidad de elector."
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a los electores o a las elecciones.",
                 "definition_extra": [
                     {
@@ -29210,7 +29284,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "palidecer.",
                 "definition_extra": [
                     {
@@ -29226,7 +29301,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Llenar de agua un terreno, dejándolo hecho un pantano.",
                 "definition_extra": [
                     {
@@ -29237,12 +29313,14 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Meter a alguien en un pantano."
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Detener, embarazar o impedir el curso de un trabajo o negocio.",
                 "definition_extra": [
                     {
@@ -29262,7 +29340,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Inflamar, empeorar una llaga o parte lastimada del cuerpo.",
                 "definition_extra": [
                     {
@@ -29277,7 +29356,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Irritar, exasperar el ánimo contra alguien.",
                 "definition_extra": [
                     {
@@ -29292,14 +29372,15 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Cargar la conciencia con alguna mala acción."
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "infectar (‖ invadir un microorganismo patógeno un ser vivo).",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -29309,7 +29390,8 @@
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Obtener interés o lucro indebido en el caudal, hacienda o negocio que se maneja."
             }
         ]
@@ -29319,7 +29401,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Volver la puerta o la ventana sin cerrarla del todo.",
                 "definition_extra": [
                     {
@@ -29330,7 +29413,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Cerrar los ojos de manera incompleta.",
                 "definition_extra": [
                     {
@@ -29341,12 +29425,14 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Inclinar, ladear, trastornar."
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hacer pliegues a la ropa en el borde."
             }
         ]
@@ -29356,7 +29442,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Cruzar dos o más cosas entre sí, enlazarlas.",
                 "definition_extra": [
                     {
@@ -29376,7 +29463,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ir o pasar de fuera adentro.",
                 "definition_extra": [
                     {
@@ -29391,7 +29479,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Pasar por una parte para introducirse en otra.",
                 "definition_extra": [
                     {
@@ -29402,7 +29491,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Encajar o poderse meter en otra, o dentro de otra.",
                 "definition_extra": [
                     {
@@ -29413,17 +29503,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un río: Desaguar, desembocar en otro o en el mar."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Penetrar o introducirse."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Acometer, arremeter.",
                 "definition_extra": [
                     {
@@ -29438,12 +29531,14 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ser admitido o tener entrada en alguna parte."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Empezar a formar parte de una corporación.",
                 "definition_extra": [
                     {
@@ -29458,12 +29553,14 @@
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dedicarse a algo, especialmente a una carrera o a una profesión."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una estación o de cualquier otra parte del año: Empezar o tener principio.",
                 "definition_extra": [
                     {
@@ -29478,7 +29575,8 @@
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un escrito o de un discurso: Empezar o tener principio.",
                 "definition_extra": [
                     {
@@ -29489,12 +29587,14 @@
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Seguir un uso o una costumbre."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "En el juego de naipes, tomar sobre sí el empeño de ganar la puesta, disputándola según las cualidades o leyes de los juegos.",
                 "definition_extra": [
                     {
@@ -29505,22 +29605,26 @@
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de afectos, estados de ánimo o enfermedades: Empezar a dejarse sentir o a ejercer su influencia."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ser contado con otros en alguna línea o clase."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un número de cosas: Emplearse para un fin."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Formar parte de la composición de ciertas cosas.",
                 "definition_extra": [
                     {
@@ -29531,22 +29635,26 @@
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Llegar a ejercer influencia en el ánimo de alguien."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Resultar agradable o simpática."
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Empezar a tener conocimiento o práctica de algo."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dar principio a la acción de algo.",
                 "definition_extra": [
                     {
@@ -29557,37 +29665,44 @@
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Empezar a sentir lo que el nombre signifique."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Intervenir o tomar parte en lo que el nombre signifique."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Empezar a estar en la edad que se mencione."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Formar parte de lo que el nombre signifique."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Empezar a cantar o tocar en el momento preciso."
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de un jugador: En el fútbol y otros deportes, acometer a otro para arrebatarle el balón o atajar su avance."
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Introducir o hacer entrar.",
                 "definition_extra": [
                     {
@@ -29598,7 +29713,8 @@
             },
             {
                 "number": "29",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Invadir u ocupar a fuerza de armas algo.",
                 "definition_extra": [
                     {
@@ -29609,18 +29725,20 @@
             },
             {
                 "number": "30",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una embarcación: Alcanzar a otra en cuyo seguimiento va."
             },
             {
                 "number": "31",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Apoderarse de una cosa.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "32",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Meterse o introducirse en alguna parte."
             }
         ]
@@ -29630,12 +29748,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Concepto equivocado o juicio falso."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Acción desacertada o equivocada.",
                 "definition_extra": [
                     {
@@ -29650,17 +29770,20 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Cosa hecha erradamente."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Vicio del consentimiento causado por equivocación de buena fe, que anula el acto jurídico si afecta a lo esencial de él o de su objeto."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Diferencia entre el valor medido o calculado y el real."
             }
         ]
@@ -29670,17 +29793,20 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Pulir, limpiar, ilustrar."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Reducir un líquido por la evaporación."
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Extremarse, poner sumo cuidado en ser cabal y perfecto.",
                 "definition_extra": [
                     {
@@ -29695,7 +29821,8 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Obrar con acierto y lucimiento."
             }
         ]
@@ -29705,12 +29832,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para expresar un determinado estado del sujeto."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Existir, hallarse en este o aquel lugar, situación, condición o modo actual de ser.",
                 "definition_extra": [
                     {
@@ -29721,7 +29850,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Permanecer o hallarse con cierta estabilidad en un lugar, situación, condición, etc.",
                 "definition_extra": [
                     {
@@ -29732,17 +29862,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos verbos reflexivos para denotar gran aproximación a lo que tales verbos significan."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tocar o atañer."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una prenda de vestir: Sentar o caer bien o mal.",
                 "definition_extra": [
                     {
@@ -29753,114 +29886,134 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos adjetivos o participios pasivos para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar dispuesto a ejecutar algo."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para indicar que corre un determinado día del mes."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Tener un determinado precio en el mercado."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Vivir o trabajar en compañía de una persona."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Avistarse con alguien, generalmente para tratar de un asunto."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener acceso carnal."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desempeñar temporalmente un oficio."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ejecutar una acción o seguir un proceso, o hallarse en disposición para ello."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Consistir, ser causa o motivo de algo."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Haber alcanzado un determinado precio."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Entender algo o estar enterado de ello."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Creer algo, estar persuadido de ello."
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la disposición próxima o determinada de hacer algo."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "No haberse ejecutado aún, o haberse dejado de ejecutar algo."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Hallarse casi determinada a hacer algo."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar a favor de alguien o de algo."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hallarse en una determinada situación o actitud."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con el gerundio de verbos durativos para reforzar su aspecto durativo o progresivo."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Encontrarse enfermo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "ser1.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             }
         ]
@@ -29870,12 +30023,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para expresar un determinado estado del sujeto."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Existir, hallarse en este o aquel lugar, situación, condición o modo actual de ser.",
                 "definition_extra": [
                     {
@@ -29886,7 +30041,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Permanecer o hallarse con cierta estabilidad en un lugar, situación, condición, etc.",
                 "definition_extra": [
                     {
@@ -29897,17 +30053,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos verbos reflexivos para denotar gran aproximación a lo que tales verbos significan."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tocar o atañer."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una prenda de vestir: Sentar o caer bien o mal.",
                 "definition_extra": [
                     {
@@ -29918,114 +30077,134 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos adjetivos o participios pasivos para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar dispuesto a ejecutar algo."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para indicar que corre un determinado día del mes."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Tener un determinado precio en el mercado."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Vivir o trabajar en compañía de una persona."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Avistarse con alguien, generalmente para tratar de un asunto."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener acceso carnal."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desempeñar temporalmente un oficio."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ejecutar una acción o seguir un proceso, o hallarse en disposición para ello."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Consistir, ser causa o motivo de algo."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Haber alcanzado un determinado precio."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Entender algo o estar enterado de ello."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Creer algo, estar persuadido de ello."
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la disposición próxima o determinada de hacer algo."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "No haberse ejecutado aún, o haberse dejado de ejecutar algo."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Hallarse casi determinada a hacer algo."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar a favor de alguien o de algo."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hallarse en una determinada situación o actitud."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con el gerundio de verbos durativos para reforzar su aspecto durativo o progresivo."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Encontrarse enfermo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "ser1.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             }
         ]
@@ -30035,12 +30214,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para expresar un determinado estado del sujeto."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Existir, hallarse en este o aquel lugar, situación, condición o modo actual de ser.",
                 "definition_extra": [
                     {
@@ -30051,7 +30232,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Permanecer o hallarse con cierta estabilidad en un lugar, situación, condición, etc.",
                 "definition_extra": [
                     {
@@ -30062,17 +30244,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos verbos reflexivos para denotar gran aproximación a lo que tales verbos significan."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tocar o atañer."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una prenda de vestir: Sentar o caer bien o mal.",
                 "definition_extra": [
                     {
@@ -30083,114 +30268,134 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos adjetivos o participios pasivos para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar dispuesto a ejecutar algo."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para indicar que corre un determinado día del mes."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Tener un determinado precio en el mercado."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Vivir o trabajar en compañía de una persona."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Avistarse con alguien, generalmente para tratar de un asunto."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener acceso carnal."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desempeñar temporalmente un oficio."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ejecutar una acción o seguir un proceso, o hallarse en disposición para ello."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Consistir, ser causa o motivo de algo."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Haber alcanzado un determinado precio."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Entender algo o estar enterado de ello."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Creer algo, estar persuadido de ello."
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la disposición próxima o determinada de hacer algo."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "No haberse ejecutado aún, o haberse dejado de ejecutar algo."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Hallarse casi determinada a hacer algo."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar a favor de alguien o de algo."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hallarse en una determinada situación o actitud."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con el gerundio de verbos durativos para reforzar su aspecto durativo o progresivo."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Encontrarse enfermo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "ser1.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             }
         ]
@@ -30200,12 +30405,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para expresar un determinado estado del sujeto."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Existir, hallarse en este o aquel lugar, situación, condición o modo actual de ser.",
                 "definition_extra": [
                     {
@@ -30216,7 +30423,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Permanecer o hallarse con cierta estabilidad en un lugar, situación, condición, etc.",
                 "definition_extra": [
                     {
@@ -30227,17 +30435,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos verbos reflexivos para denotar gran aproximación a lo que tales verbos significan."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tocar o atañer."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una prenda de vestir: Sentar o caer bien o mal.",
                 "definition_extra": [
                     {
@@ -30248,114 +30459,134 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos adjetivos o participios pasivos para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar dispuesto a ejecutar algo."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para indicar que corre un determinado día del mes."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Tener un determinado precio en el mercado."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Vivir o trabajar en compañía de una persona."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Avistarse con alguien, generalmente para tratar de un asunto."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener acceso carnal."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desempeñar temporalmente un oficio."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ejecutar una acción o seguir un proceso, o hallarse en disposición para ello."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Consistir, ser causa o motivo de algo."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Haber alcanzado un determinado precio."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Entender algo o estar enterado de ello."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Creer algo, estar persuadido de ello."
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la disposición próxima o determinada de hacer algo."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "No haberse ejecutado aún, o haberse dejado de ejecutar algo."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Hallarse casi determinada a hacer algo."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar a favor de alguien o de algo."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hallarse en una determinada situación o actitud."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con el gerundio de verbos durativos para reforzar su aspecto durativo o progresivo."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Encontrarse enfermo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "ser1.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             }
         ]
@@ -30365,12 +30596,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para expresar un determinado estado del sujeto."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Existir, hallarse en este o aquel lugar, situación, condición o modo actual de ser.",
                 "definition_extra": [
                     {
@@ -30381,7 +30614,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Permanecer o hallarse con cierta estabilidad en un lugar, situación, condición, etc.",
                 "definition_extra": [
                     {
@@ -30392,17 +30626,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos verbos reflexivos para denotar gran aproximación a lo que tales verbos significan."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tocar o atañer."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una prenda de vestir: Sentar o caer bien o mal.",
                 "definition_extra": [
                     {
@@ -30413,114 +30650,134 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos adjetivos o participios pasivos para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar dispuesto a ejecutar algo."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para indicar que corre un determinado día del mes."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Tener un determinado precio en el mercado."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Vivir o trabajar en compañía de una persona."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Avistarse con alguien, generalmente para tratar de un asunto."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener acceso carnal."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desempeñar temporalmente un oficio."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ejecutar una acción o seguir un proceso, o hallarse en disposición para ello."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Consistir, ser causa o motivo de algo."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Haber alcanzado un determinado precio."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Entender algo o estar enterado de ello."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Creer algo, estar persuadido de ello."
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la disposición próxima o determinada de hacer algo."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "No haberse ejecutado aún, o haberse dejado de ejecutar algo."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Hallarse casi determinada a hacer algo."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar a favor de alguien o de algo."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hallarse en una determinada situación o actitud."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con el gerundio de verbos durativos para reforzar su aspecto durativo o progresivo."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Encontrarse enfermo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "ser1.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             }
         ]
@@ -30530,12 +30787,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para expresar un determinado estado del sujeto."
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Existir, hallarse en este o aquel lugar, situación, condición o modo actual de ser.",
                 "definition_extra": [
                     {
@@ -30546,7 +30805,8 @@
             },
             {
                 "number": "3",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Permanecer o hallarse con cierta estabilidad en un lugar, situación, condición, etc.",
                 "definition_extra": [
                     {
@@ -30557,17 +30817,20 @@
             },
             {
                 "number": "4",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos verbos reflexivos para denotar gran aproximación a lo que tales verbos significan."
             },
             {
                 "number": "5",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tocar o atañer."
             },
             {
                 "number": "6",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una prenda de vestir: Sentar o caer bien o mal.",
                 "definition_extra": [
                     {
@@ -30578,114 +30841,134 @@
             },
             {
                 "number": "7",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con ciertos adjetivos o participios pasivos para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "8",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar dispuesto a ejecutar algo."
             },
             {
                 "number": "9",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "para indicar que corre un determinado día del mes."
             },
             {
                 "number": "10",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Tener un determinado precio en el mercado."
             },
             {
                 "number": "11",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Vivir o trabajar en compañía de una persona."
             },
             {
                 "number": "12",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Avistarse con alguien, generalmente para tratar de un asunto."
             },
             {
                 "number": "13",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Tener acceso carnal."
             },
             {
                 "number": "14",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Desempeñar temporalmente un oficio."
             },
             {
                 "number": "15",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Ejecutar una acción o seguir un proceso, o hallarse en disposición para ello."
             },
             {
                 "number": "16",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Consistir, ser causa o motivo de algo."
             },
             {
                 "number": "17",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Haber alcanzado un determinado precio."
             },
             {
                 "number": "18",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Entender algo o estar enterado de ello."
             },
             {
                 "number": "19",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Creer algo, estar persuadido de ello."
             },
             {
                 "number": "20",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Denota la disposición próxima o determinada de hacer algo."
             },
             {
                 "number": "21",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "No haberse ejecutado aún, o haberse dejado de ejecutar algo."
             },
             {
                 "number": "22",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Hallarse casi determinada a hacer algo."
             },
             {
                 "number": "23",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "estar a favor de alguien o de algo."
             },
             {
                 "number": "24",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Hallarse en una determinada situación o actitud."
             },
             {
                 "number": "25",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "con el gerundio de verbos durativos para reforzar su aspecto durativo o progresivo."
             },
             {
                 "number": "26",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "Encontrarse enfermo.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "27",
-                "type": "verb",
+                "type": "verbo",
                 "definition": "ser1.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "28",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             }
         ]
@@ -30695,9 +30978,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "conjunction",
+                "type": "conjunción",
                 "definition": "y2.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -30706,9 +30989,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Persona que ha dejado de ser cónyuge o pareja sentimental de otra.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             }
         ]
     },
@@ -30717,7 +31000,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Acción y efecto de extender o extenderse.",
                 "definition_extra": [
                     {
@@ -30732,12 +31016,14 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Línea telefónica conectada a una centralita."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Medida del espacio ocupado por algo.",
                 "definition_extra": [
                     {
@@ -30748,7 +31034,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Superficie de terreno.",
                 "definition_extra": [
                     {
@@ -30759,12 +31046,14 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Mechón postizo que se agrega al pelo para alargarlo o hacerlo más voluminoso."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Preparación para examen microscópico, generalmente de sangre, exudados o cultivos bacterianos, en la que estas sustancias se disponen sobre un portaobjetos con ayuda de otro, de manera que forman una capa muy fina.",
                 "definition_extra": [
                     {
@@ -30775,7 +31064,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Conjunto de los elementos a los que se puede aplicar el significado de un término, por oposición a intensión o comprensión.",
                 "definition_extra": [
                     {
@@ -30786,12 +31076,14 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Capacidad para ocupar una parte del espacio."
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "alargador (‖ pieza para alargar).",
                 "definition_extra": [
                     {
@@ -30807,7 +31099,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que está por la parte de fuera.",
                 "definition_extra": [
                     {
@@ -30822,7 +31115,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una habitación o de una vivienda: Que tiene vistas a la calle.",
                 "definition_extra": [
                     {
@@ -30833,7 +31127,8 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a otros países, por contraposición a nacional e interior.",
                 "definition_extra": [
                     {
@@ -30848,7 +31143,8 @@
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Superficie externa de los cuerpos.",
                 "definition_extra": [
                     {
@@ -30859,7 +31155,8 @@
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Aspecto o porte de una persona.",
                 "definition_extra": [
                     {
@@ -30870,12 +31167,14 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Espacios al aire libre donde se rueda una película."
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Secuencias rodadas en exteriores."
             }
         ]
@@ -30885,12 +31184,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "extraordinario (‖ añadido a lo ordinario)."
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Superior a lo normal.",
                 "definition_extra": [
                     {
@@ -30901,20 +31202,21 @@
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "Plato extraordinario que no figura en la minuta.",
-                "type_extra": "colloquial"
+                "type_extra": "colloquial, sin verificar"
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Accesorios de ciertas máquinas, como los automóviles, los televisores, etc., que no van incorporados al modelo ordinario."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "paga extra.",
-                "type_extra": "colloquial",
+                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -30924,7 +31226,8 @@
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona que aparece en una película o serie de televisión sin singularizarse, sin frase ni acción destacada.",
                 "definition_extra": [
                     {
