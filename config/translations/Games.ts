@@ -75,7 +75,7 @@ const GamesTranslations: GamePreConfig[] = [
                 additionalRules: [
                     'La torre nunca baja de cero bloques.',
                     'La partida acaba al agotarse el tiempo o tras la palabra 15. Después verás las palabras que fallaste.',
-                    'Las versiones mal escritas cambian letras que suenan igual o la tilde, y nunca son palabras reales.',
+                    'Las versiones mal escritas cambian letras que se confunden con facilidad o la tilde, y nunca son palabras reales.',
                 ],
                 tips: [
                     'Lee la palabra entera antes de pulsar: el error suele estar en una sola letra.',
@@ -416,7 +416,7 @@ const GamesTranslations: GamePreConfig[] = [
         },
         subtitle: {
             en: 'Complete the word with the right letters.',
-            es: 'Completa la palabra con la letra correcta.',
+            es: 'Completa la palabra con las letras correctas.',
         },
         gameRules: {
             en: {
