@@ -94,21 +94,40 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
   - `components/DayWord.tsx` es código muerto.
 
 ## JUE-0008 — Spike: revisión de todos los juegos: jugabilidad, palabras por nivel, errores (done 2026-11-09)
-- PR: https://github.com/jonaypelluz/jueletrado/pull/62
-- Informe: [spikes/JUE-0008.md](spikes/JUE-0008.md). Medición: `node ops/jobs/spikes/JUE-0008/run.cjs`
-  (determinista, ~1 min; escribe `results.md`/`results.json`). Logs de partidas en
-  `spikes/JUE-0008/playtest/`; capturas en `$JON_ASSETS_DIR/jue-0008/`.
-- Hallazgos principales:
+- PR: https://github.com/jonaypelluz/jueletrado/pull/62 (revisado en vivo en la PR combinada #63).
+  El informe completo y los logs de partidas están en el historial de git (commit de #62); capturas
+  en `$JON_ASSETS_DIR/jue-0008/`.
+- Medición que se queda: `node ops/jobs/spikes/JUE-0008/run.cjs` (determinista, ~1 min; transpila
+  `measure.ts` con el compilador TypeScript porque `tsx` no corre en el contenedor) escribe
+  `results.md`/`results.json`. Los jobs JUE-0012/14/15/17/18/19 la usan en su criterio de hecho.
+- Hallazgos (F1–F17; los jobs los citan por número):
   - F1: el pool precargado ignora la ventana de longitud de cada juego.
-  - F2: volver a jugar repite las palabras (spellTower, wordsRain) y wordFinder se queda sin palabras.
-  - F3: rondas de una sola opción (EN ~60–70 %).
-  - F5: palabrotas y nombres propios en las listas de principiante, que alimentan la palabra del día.
-  - F8: pools sin locale.
-  - F9: el solape intermedio∩avanzado es del 91 %.
-- Propone 10 jobs, ordenados por impacto, y 4 preguntas abiertas para el owner.
-- Residual: tras el tope de 3 rondas de review quedan 3 puntos menores sin corregir:
-  - la fila crossWordPuzzle de la tabla usa el recuento bruto (tras filtros: ES 8.819 / EN 45.534);
-  - la palabra del día no tiene tabla por letra;
-  - a los jobs 2 y 8 les falta un criterio de hecho por cada punto de alcance.
-- `yarn build`/`tsx` no corren en el contenedor (binarios nativos de macOS en `node_modules`). El
-  runner `run.cjs` transpila con el compilador TypeScript.
+  - F2: volver a jugar repite las palabras (spellTower, wordsRain); wordFinder se queda sin palabras.
+  - F3: rondas de una sola opción, punto regalado (EN ~60–70 %).
+  - F4: accentFixer principiante: el 80 % de palabras con tilde se queda en ~20 %.
+  - F5: palabrotas, contenido adulto, nombres propios y basura en las listas (sobre todo principiante).
+  - F6: las blocklists no protegen las listas de nivel.
+  - F7: la palabra del día ignora `WORDS_DAILY` y puede ser «a», «de», «ah».
+  - F8: entrar por URL a la otra locale deja los juegos colgados (pools sin locale).
+  - F9: curva de dificultad: salto brusco P→I, solape I∩A del 91 %, juegos donde el nivel no cambia
+    nada (spellingBee: el nivel solo elige la acepción).
+  - F10: opciones duplicadas y pistas ambiguas por formas flexionadas en las definiciones.
+  - F11: datos de definiciones: 4.501 etiquetas inglesas en ES; `formatDefinition` corta en el primer
+    «.» (1.407 ES / 6.660 EN quedan con < 10 letras); `k`/`w` ES con pocas palabras.
+  - F12: feedback solo por color, sin `aria-live`.
+  - F13: móvil 375 px: la cuadrícula del crucigrama (750 px) se corta; wordBuilder desborda 7 px.
+  - F14: tiempo, duración y final de partida (la pausa de feedback consume tiempo).
+  - F15: inconsistencias entre juegos: pantalla de resultados y si un fallo resta punto.
+  - F16: validación: sin errores en `SpellingComparer` ni `syllabify`.
+  - F17: tests que faltan (final de partida de wordBuilder/crossWordPuzzle, sesiones cortas).
+- Se deja como está: volumen de palabras (ningún nivel seco), generación de crucigramas (900/900),
+  `syllabify`, `SpellingComparer`, comportamiento sin nivel y al recargar a mitad de partida.
+- Decisiones del owner (2026-11-09):
+  - nivel = bandas de frecuencia (no longitud ni rasgos ortográficos);
+  - nombres propios: se quedan, marcados con un campo por palabra (para excluirlos o hacer juegos
+    con ellos);
+  - wordFinder y crossWordPuzzle aceptan con y sin tilde y lo dicen en las reglas;
+  - la carga sigue igual: todos los niveles al cargar los niveles.
+- Los 10 jobs propuestos se abrieron como JUE-0011..JUE-0020.
+- Sin decidir (anotado en los jobs): marcar palabras desusadas como `zebra` (JUE-0012); la pista de
+  spellingBee pasa desapercibida (JUE-0016).
