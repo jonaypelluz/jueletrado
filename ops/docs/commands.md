@@ -143,7 +143,8 @@ locales. Each finding is **FIX**, **DELETE** or **FLAG**:
 - Check mode (no `--fix`) prints a summary per category and writes a markdown
   report. Nothing is changed.
 - `--fix` applies every FIX/DELETE (a deleted word goes from the lists **and**
-  its definition key), re-audits until stable, and rewrites only the changed
+  its definition key), re-audits and re-applies until stable (at most
+  `MAX_FIX_PASSES` = 3 fix passes), and rewrites only the changed
   files: definitions as `JSON.stringify(data, null, 4)` without a trailing
   newline, lists one word per line in their original order. FLAGs are never
   applied; they are the backlog in the report.
@@ -155,8 +156,9 @@ locales. Each finding is **FIX**, **DELETE** or **FLAG**:
 | `--report <path>` | `ops/crawl-output/audit/{locale}-report.md` (gitignored) | Report path; needs `--locale`. |
 | `--root <dir>` | cwd | Repo root to read and write (tests use a fixture copy). |
 
-Exit codes: `0` clean, or `--fix` succeeded; `1` check mode found FIX/DELETE
-findings; `2` bad arguments or I/O error (e.g. a missing list or letter file).
+Exit codes: `0` clean, or `--fix` left no FIX/DELETE; `1` check mode found
+FIX/DELETE findings, or `--fix` still has FIX/DELETE after 3 passes (the files
+are written anyway; run `--fix` again); `2` bad arguments or I/O error (e.g. a missing list or letter file).
 
 The report has the before/after table per category, a deterministic 20-item
 sample per category, the full list of deleted offensive words and the FLAG
