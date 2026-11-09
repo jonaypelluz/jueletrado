@@ -1,0 +1,20 @@
+{
+    "cat": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "A small domesticated feline.",
+                "type": "noun"
+            }
+        ]
+    },
+    "cats": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "Plural of cat.",
+                "type": "noun"
+            }
+        ]
+    }
+}

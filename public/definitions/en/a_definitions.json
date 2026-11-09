@@ -65,11 +65,6 @@
                 "number": 13,
                 "definition": "All.",
                 "type": "adjective"
-            },
-            {
-                "number": 14,
-                "definition": "All.",
-                "type": "adverb"
             }
         ]
     },
@@ -1382,7 +1377,7 @@
             },
             {
                 "number": 2,
-                "definition": "Any of several classes of compound having the following properties:.",
+                "definition": "Any of several classes of compound having the following properties.",
                 "type": "noun"
             },
             {
@@ -1898,11 +1893,6 @@
             {
                 "number": 5,
                 "definition": "Next to; beside.",
-                "type": "preposition"
-            },
-            {
-                "number": 6,
-                "definition": "Related to; suggestive of; bordering on.",
                 "type": "preposition"
             }
         ]
@@ -5811,7 +5801,7 @@
             {
                 "number": 25,
                 "type": "preposition",
-                "definition": "Too proud to stoop to; averse to; disinclined towards;."
+                "definition": "Too proud to stoop to; averse to; disinclined towards."
             },
             {
                 "number": 26,
@@ -7378,7 +7368,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An actual, real one; notably:."
+                "definition": "An actual, real one."
             },
             {
                 "number": 2,
@@ -9179,11 +9169,6 @@
                 "number": 19,
                 "type": "verb",
                 "definition": "To grow aged; to become old; to show marks of age."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "A long time."
             }
         ]
     },
@@ -9524,7 +9509,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The substance constituting earth's atmosphere, particularly:."
+                "definition": "The substance constituting earth's atmosphere."
             },
             {
                 "number": 2,
@@ -11156,11 +11141,6 @@
                 "number": 3,
                 "type": "adjective",
                 "definition": "That has a torsion angle between 90° and 180°."
-            },
-            {
-                "number": 4,
-                "type": "preposition",
-                "definition": "Alternative form of anti-."
             }
         ]
     },
@@ -13269,7 +13249,7 @@
             {
                 "number": 7,
                 "type": "conjunction",
-                "definition": "At the time that; during the time when:."
+                "definition": "At the time that; during the time when."
             },
             {
                 "number": 8,
@@ -15185,51 +15165,6 @@
             }
         ]
     },
-    "aaa": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Initialism of abdominal aortic aneurism."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Initialism of acquired aplastic anemia."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Initialism of acute anxiety attack."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Initialism of androgenic anabolic agent."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "Initialism of anti-aircraft artillery."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "An alloy containing mercury."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A combination of different things."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "One of the ingredients in an alloy."
-            }
-        ]
-    },
     "ab": {
         "level": "intermediate",
         "definitions": [
@@ -15831,191 +15766,6 @@
                 "number": 27,
                 "type": "adjective",
                 "definition": "Of a class in object-oriented programming, being a partial basis for subclasses rather than a complete template for objects."
-            }
-        ]
-    },
-    "ac": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Initialism of adenylyl cyclase."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Initialism of adjuvant chemotherapy."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Initialism of air corps."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Initialism of army corps."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "Initialism of athletic club."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "Initialism of audible chuckle."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "Initialism of author's correction."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "Initialism of automobile club."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "Initialism of Auxiliary Collier, (a naval coal transport that travels with the fleet to provide coal for coal powered warships)."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "Companion of the Order of Australia."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "Initialism of aviation cadet."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "Initialism of autonomous county."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "The maximum altitude above sea level that an aircraft or missile can maintain horizontal flight under normal conditions."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "Account; money of account."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "Alicyclic."
-            },
-            {
-                "number": 16,
-                "type": "adjective",
-                "definition": "Ante cibum, before meals."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "The practice of restricting entrance to a property, a building, or a room to authorized persons."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "In technology, permitting or denying the use of a particular resource."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "A regularly updated record of transactions between two parties showing what is owed or due to each party or a statement summarising the position."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "An English unit of land area (symbol: a. or ac.) originally denoting a day's plowing for a yoke of oxen, now standardized as 4,840 square yards or 4,046.86 square meters."
-            },
-            {
-                "number": 21,
-                "type": "noun",
-                "definition": "Any of various similar units of area in other systems."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "(usually in the plural) A wide expanse."
-            },
-            {
-                "number": 23,
-                "type": "noun",
-                "definition": "(usually in the plural) A large quantity."
-            },
-            {
-                "number": 24,
-                "type": "noun",
-                "definition": "A field."
-            },
-            {
-                "number": 25,
-                "type": "noun",
-                "definition": "The acre's breadth by the length, English units of length equal to the statute dimensions of the acre: 22 yds (≈20 m) by 220 yds (≈200 m)."
-            },
-            {
-                "number": 26,
-                "type": "noun",
-                "definition": "A duel fought between individual Scots and Englishmen in the borderlands."
-            },
-            {
-                "number": 27,
-                "type": "noun",
-                "definition": "A category of music including soft rock, ballads, easy listening, soul, and rhythm and blues."
-            },
-            {
-                "number": 28,
-                "type": "noun",
-                "definition": "The state of temperature and humidity produced by an air conditioner."
-            },
-            {
-                "number": 29,
-                "type": "noun",
-                "definition": "An air conditioner or system of air conditioners."
-            },
-            {
-                "number": 30,
-                "type": "noun",
-                "definition": "A member of the lowest rank in the Royal Air Force or the air forces of various other Commonwealth countries."
-            },
-            {
-                "number": 31,
-                "type": "noun",
-                "definition": "An electric current in which the direction of flow of the electrons reverses periodically, such as sawtooth, sinusoidal or square wave current."
-            },
-            {
-                "number": 32,
-                "type": "noun",
-                "definition": "An electric current in which the direction of flow of the electrons reverses periodically by a sinusoidal law, hence having an average of zero, with positive and negative values (with a frequency of 50 Hz in Europe, 60 Hz in the US, 400 Hz for airport lighting, and some others); especially such a current produced by a rotating generator or alternator."
-            },
-            {
-                "number": 33,
-                "type": "noun",
-                "definition": "A water-soluble salt of ammonia and hydrochloric acid, having the formula NH4Cl."
-            },
-            {
-                "number": 34,
-                "type": "noun",
-                "definition": "A space inside the eye between the cornea and the iris, filled with aqueous humour."
-            },
-            {
-                "number": 35,
-                "type": "noun",
-                "definition": "A prefix appended to a telephone number indicating the geographical area."
-            },
-            {
-                "number": 36,
-                "type": "noun",
-                "definition": "One of the axioms of set theory, equivalent to the statement that an arbitrary direct product of non-empty sets is non-empty; any version of said axiom, for example specifying the cardinality of the number of sets from which choices are made."
             }
         ]
     },
@@ -16830,7 +16580,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any of several classes of compound having the following properties:."
+                "definition": "Any of several classes of compound having the following properties."
             },
             {
                 "number": 3,
@@ -19200,16 +18950,6 @@
             }
         ]
     },
-    "aka": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "preposition",
-                "definition": "Alternative letter-case form of AKA."
-            }
-        ]
-    },
     "alarm": {
         "level": "intermediate",
         "definitions": [
@@ -21066,7 +20806,7 @@
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "In general, anything very old; specifically:."
+                "definition": "In general, anything very old."
             },
             {
                 "number": 10,
@@ -21127,16 +20867,6 @@
                 "number": 3,
                 "type": "interjection",
                 "definition": "\"you're welcome\" in response to \"thank you\" or \"thanks.\"."
-            }
-        ]
-    },
-    "ap": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Abbreviation of apothecaries' system."
             }
         ]
     },
@@ -21795,27 +21525,6 @@
                 "number": 5,
                 "type": "noun",
                 "definition": "An appearance in a game (e.g., a player with 10 apps in a season played 10 times)."
-            }
-        ]
-    },
-    "apr": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "proper noun",
-                "definition": "The fourth month of the Gregorian calendar, following March and preceding May. Abbreviation: Apr or Apr.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Eastermonth."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "proper noun",
-                "definition": "A female given name from English; used since early 20th century."
             }
         ]
     },
@@ -24125,21 +23834,6 @@
                 "number": 8,
                 "type": "verb",
                 "definition": "To associate ownership or authorship of (something) to someone."
-            }
-        ]
-    },
-    "au": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Abbreviation of atomic units."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Abbreviation of absorbance units."
             }
         ]
     },
@@ -32267,11 +31961,6 @@
                 "number": 1,
                 "type": "adjective",
                 "definition": "Slanted or sloping."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Slanted or sloping."
             }
         ]
     },
@@ -32471,36 +32160,6 @@
                         "content": "averment, avowal."
                     }
                 ]
-            }
-        ]
-    },
-    "asshole": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The anus."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A jerk; an inappropriately or objectionably mean, inconsiderate, contemptible, obnoxious, intrusive, stupid, and/or rude person."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "An unpleasant or uninviting place."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "By extension, anything unpleasant or undesirable. Often used appositionally."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A receptacle under a fire grate for collecting ashes."
             }
         ]
     },
@@ -34733,7 +34392,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The act or process of absorbing or of being absorbed as,."
+                "definition": "The act or process of absorbing or of being absorbed."
             },
             {
                 "number": 2,
@@ -36093,7 +35752,7 @@
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "In general, anything very old; specifically:."
+                "definition": "In general, anything very old."
             },
             {
                 "number": 7,
@@ -36223,7 +35882,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An implement, an instrument or apparatus designed (or at least used) as a means to a specific end (often specified), especially:."
+                "definition": "An implement, an instrument or apparatus designed (or at least used) as a means to a specific end (often specified)."
             },
             {
                 "number": 2,
@@ -36266,7 +35925,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An implement, an instrument or apparatus designed (or at least used) as a means to a specific end (often specified), especially:."
+                "definition": "An implement, an instrument or apparatus designed (or at least used) as a means to a specific end (often specified)."
             },
             {
                 "number": 2,
@@ -36666,11 +36325,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "Person or thing found close to the Equator."
-            },
-            {
-                "number": 3,
-                "type": "proper noun",
-                "definition": "American Standard Code for Information Interchange."
             }
         ]
     },
@@ -38218,11 +37872,6 @@
             },
             {
                 "number": 3,
-                "type": "adverb",
-                "definition": "Alongside or abreast; opposite the center of the side of the ship or aircraft."
-            },
-            {
-                "number": 4,
                 "type": "preposition",
                 "definition": "Alongside."
             }
@@ -38800,11 +38449,6 @@
                 "number": 5,
                 "type": "adverb",
                 "definition": "Lit up brightly and with color."
-            },
-            {
-                "number": 6,
-                "type": "adverb",
-                "definition": "In a state of glowing excitement or ardent desire."
             }
         ]
     },
@@ -39410,16 +39054,6 @@
             }
         ]
     },
-    "aboveground": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Alternative spelling of above ground."
-            }
-        ]
-    },
     "abovementioned": {
         "level": "advanced",
         "definitions": [
@@ -39662,30 +39296,20 @@
             {
                 "number": 7,
                 "type": "adverb",
-                "definition": "Alongside; parallel to."
+                "definition": "Followed by of or with: up to a certain level or line; equally advanced."
             },
             {
                 "number": 8,
                 "type": "adverb",
-                "definition": "Informed, well-informed, familiar, acquainted."
+                "definition": "Side by side; also, opposite; on a line with the vessel's beam."
             },
             {
                 "number": 9,
                 "type": "adverb",
-                "definition": "Followed by of or with: up to a certain level or line; equally advanced."
-            },
-            {
-                "number": 10,
-                "type": "adverb",
-                "definition": "Side by side; also, opposite; on a line with the vessel's beam."
-            },
-            {
-                "number": 11,
-                "type": "adverb",
                 "definition": "At the same time; simultaneously."
             },
             {
-                "number": 12,
+                "number": 10,
                 "type": "preposition",
                 "definition": "Abreast of; alongside."
             }
@@ -43270,11 +42894,6 @@
             },
             {
                 "number": 3,
-                "type": "noun",
-                "definition": "See acorn-shell."
-            },
-            {
-                "number": 4,
                 "type": "noun",
                 "definition": "(usually in the plural) A testicle."
             }
@@ -47093,7 +46712,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An airfield:."
+                "definition": "An airfield."
             },
             {
                 "number": 2,
@@ -48226,11 +47845,6 @@
             {
                 "number": 1,
                 "type": "adjective",
-                "definition": "On fire (often metaphorically)."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
                 "definition": "On fire (often metaphorically)."
             }
         ]
@@ -49814,11 +49428,6 @@
                 "number": 2,
                 "type": "adjective",
                 "definition": "(by extension) at a loss, ruined, with no way out."
-            },
-            {
-                "number": 3,
-                "type": "adverb",
-                "definition": "(of a normally floating craft) Resting on the bottom."
             }
         ]
     },
@@ -50400,7 +50009,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The substance constituting earth's atmosphere, particularly:."
+                "definition": "The substance constituting earth's atmosphere."
             },
             {
                 "number": 2,
@@ -50751,21 +50360,16 @@
             },
             {
                 "number": 3,
-                "type": "adverb",
-                "definition": "Slightly turned or opened."
-            },
-            {
-                "number": 4,
                 "type": "verb",
                 "definition": "To show variance or contradiction with something; to be or cause to be askew."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "adverb",
                 "definition": "Out of harmony."
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "adverb",
                 "definition": "Being at variance or in contradiction to something."
             }
@@ -52913,7 +52517,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Other plants that produce almond-like nuts:."
+                "definition": "Other plants that produce almond-like nuts."
             },
             {
                 "number": 4,
@@ -53244,11 +52848,6 @@
                 "number": 2,
                 "type": "verb",
                 "definition": "To arrange words or items in order of the first (and then subsequent) letters as they occur in the alphabet."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "Arranged in alphabetical order."
             }
         ]
     },
@@ -53730,7 +53329,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "An anatomical structure that has the form of a hollow cavity, as:."
+                "definition": "An anatomical structure that has the form of a hollow cavity."
             }
         ]
     },
@@ -55946,11 +55545,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "(by extension) A large penis."
-            },
-            {
-                "number": 3,
-                "type": "proper noun",
-                "definition": "A particular variety of stud poker."
             }
         ]
     },
@@ -58051,11 +57645,6 @@
                 "number": 4,
                 "type": "noun",
                 "definition": "An addition to the territory of a country or state, from a neighbouring country or state, normally by military force."
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "Alternative spelling of annex."
             }
         ]
     },
@@ -59033,30 +58622,25 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "The conditional part of a hypothetical proposition, i.e. p \\rightarrow q, where p is the antecedent, and q is the consequent."
+                "definition": "The first of two subsets of a sequent, consisting of all the sequent's formulae which are valuated as true."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "The first of two subsets of a sequent, consisting of all the sequent's formulae which are valuated as true."
+                "definition": "The first term of a ratio, i.e. the term a in the ratio a:b, the other being the consequent."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "The first term of a ratio, i.e. the term a in the ratio a:b, the other being the consequent."
-            },
-            {
-                "number": 7,
-                "type": "noun",
                 "definition": "(chiefly in the plural) Previous principles, conduct, history, etc."
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "adjective",
                 "definition": "Earlier, either in time or in order."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "adjective",
                 "definition": "Presumptive."
             }
@@ -59693,7 +59277,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A failed or reverse climax, particularly:."
+                "definition": "A failed or reverse climax."
             }
         ]
     },
@@ -59859,7 +59443,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A substance, such as glycol, used to lower the freezing point of water;."
+                "definition": "A substance, such as glycol, used to lower the freezing point of water."
             },
             {
                 "number": 2,
@@ -61239,7 +60823,7 @@
             {
                 "number": 2,
                 "type": "adjective",
-                "definition": "Of or relating to an apocalypse:."
+                "definition": "Of or relating to an apocalypse."
             },
             {
                 "number": 3,
@@ -63883,7 +63467,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The study of the past by excavation and analysis of its material remains:."
+                "definition": "The study of the past by excavation and analysis of its material remains."
             }
         ]
     },
@@ -64078,7 +63662,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The study of the past by excavation and analysis of its material remains:."
+                "definition": "The study of the past by excavation and analysis of its material remains."
             }
         ]
     },
@@ -65285,16 +64869,11 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "proper noun",
-                "definition": "The armistice agreement signed between the Allies and Germany on 11 November 1918 to end World War I; (by extension) the end of World War I."
-            },
-            {
-                "number": 2,
                 "type": "noun",
                 "definition": "A (short) cessation of combat; a ceasefire, a truce."
             },
             {
-                "number": 3,
+                "number": 2,
                 "type": "noun",
                 "definition": "A formal agreement, especially between nations, to end combat."
             }
@@ -67244,7 +66823,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The state or quality of being asexual, that is:."
+                "definition": "The state or quality of being asexual, that is."
             }
         ]
     },
@@ -73119,11 +72698,6 @@
                 "number": 3,
                 "type": "verb",
                 "definition": "To turn away."
-            },
-            {
-                "number": 4,
-                "type": "verb",
-                "definition": "To turn away."
             }
         ]
     },
@@ -73142,11 +72716,6 @@
             },
             {
                 "number": 3,
-                "type": "verb",
-                "definition": "To turn away."
-            },
-            {
-                "number": 4,
                 "type": "verb",
                 "definition": "To turn away."
             }
@@ -74309,11 +73878,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "The univalent N3 radical or functional group or any ester containing this group."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "The N3- anion or any salt containing this anion (^-N=\\overset{+}N=N^-)."
             }
         ]
     },
@@ -76269,11 +75833,6 @@
                 "number": 1,
                 "type": "adjective",
                 "definition": "Blushing; ruddy."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Blushing; ruddy."
             }
         ]
     },
@@ -76297,11 +75856,6 @@
             },
             {
                 "number": 4,
-                "type": "noun",
-                "definition": "The location or building where the showers and basins are located."
-            },
-            {
-                "number": 5,
                 "type": "noun",
                 "definition": "The location or building where the showers and basins are located."
             }
@@ -83726,11 +83280,6 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "See acorn-shell."
-            },
-            {
-                "number": 4,
-                "type": "noun",
                 "definition": "(usually in the plural) A testicle."
             }
         ]
@@ -86300,11 +85849,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "The joining of personal property owned by one to that owned by another."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Given a pair of categories \\mathcal{C} and \\mathcal{D}: an anti-parallel pair of functors F:\\mathcal{C}\\rightarrow \\mathcal{D} and G:\\mathcal{D}\\rightarrow \\mathcal{C} and a natural transformation \\eta:\\mbox{id}_C \\rightarrow GF called “unit” such that for any object A \\in \\mathcal{C}, for any object B \\in \\mathcal{D}, and for any morphism f:A\\rightarrow GB, there is a unique morphism g:FA\\rightarrow B such that Gg \\circ \\eta_A = f. (Note: there is another natural transformation called “counit” as well but its existence may be derived by theorem.) The pair of functors express a similarity between the pair of categories which is weaker than that of an equivalence of categories."
             }
         ]
     },
@@ -86540,11 +86084,6 @@
                 "number": 3,
                 "type": "verb",
                 "definition": "To perform extemporaneously."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Alternative spelling of ad-lib."
             }
         ]
     },
@@ -86585,11 +86124,6 @@
                 "number": 3,
                 "type": "verb",
                 "definition": "To perform extemporaneously."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Alternative spelling of ad-lib."
             }
         ]
     },
@@ -88671,7 +88205,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An airfield:."
+                "definition": "An airfield."
             },
             {
                 "number": 2,
@@ -89439,11 +88973,6 @@
             },
             {
                 "number": 4,
-                "type": "adjective",
-                "definition": "Of or pertaining to a function expressible as f(\\vec x)= A \\vec x + \\vec b (where A is a linear transformation and \\vec b is a constant), which, regarded as a transformation, maps parallel lines to parallel lines and finite points to finite points."
-            },
-            {
-                "number": 5,
                 "type": "adjective",
                 "definition": "Of two materials, having mutual affinity."
             }
@@ -97405,7 +96934,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Other plants that produce almond-like nuts:."
+                "definition": "Other plants that produce almond-like nuts."
             },
             {
                 "number": 4,
@@ -97545,11 +97074,6 @@
             {
                 "number": 1,
                 "type": "adjective",
-                "definition": "At or along a shore or coast."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
                 "definition": "At or along a shore or coast."
             }
         ]
@@ -98647,7 +98171,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "An anatomical structure that has the form of a hollow cavity, as:."
+                "definition": "An anatomical structure that has the form of a hollow cavity."
             }
         ]
     },
@@ -105699,11 +105223,6 @@
                 "number": 7,
                 "type": "verb",
                 "definition": "To join; to be united."
-            },
-            {
-                "number": 8,
-                "type": "verb",
-                "definition": "Alternative spelling of annex."
             }
         ]
     },
@@ -106984,20 +106503,15 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "The conditional part of a hypothetical proposition, i.e. p \\rightarrow q, where p is the antecedent, and q is the consequent."
+                "definition": "The first of two subsets of a sequent, consisting of all the sequent's formulae which are valuated as true."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "The first of two subsets of a sequent, consisting of all the sequent's formulae which are valuated as true."
-            },
-            {
-                "number": 6,
-                "type": "noun",
                 "definition": "The first term of a ratio, i.e. the term a in the ratio a:b, the other being the consequent."
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "noun",
                 "definition": "(chiefly in the plural) Previous principles, conduct, history, etc."
             }
@@ -108165,7 +107679,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A failed or reverse climax, particularly:."
+                "definition": "A failed or reverse climax."
             }
         ]
     },
@@ -109228,7 +108742,7 @@
             {
                 "number": 2,
                 "type": "adjective",
-                "definition": "(of certain mathematical objects) Whose sign changes on the application of a matrix transpose or some generalisation thereof:."
+                "definition": "(of certain mathematical objects) Whose sign changes on the application of a matrix transpose or some generalisation thereof."
             }
         ]
     },
@@ -109579,21 +109093,6 @@
                 "number": 1,
                 "type": "adverb",
                 "definition": "In any case."
-            }
-        ]
-    },
-    "ao": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adverb",
-                "definition": "Initialism of amongst/among/and others."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A Japanese color that includes what English-speakers would call blue and green."
             }
         ]
     },

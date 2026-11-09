@@ -1,44 +1,4 @@
 {
-    "l": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Litre, liter."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Pound (sterling) (from Latin libra)."
-            },
-            {
-                "number": 3,
-                "type": "interjection",
-                "definition": "Laughing (or laugh) out loud."
-            },
-            {
-                "number": 4,
-                "type": "interjection",
-                "definition": "Lots of laughs. (occasionally used)."
-            },
-            {
-                "number": 5,
-                "type": "interjection",
-                "definition": "(by dilution) Indicates light-heartedness or amusement, or that the accompanying statement is not intended as serious."
-            },
-            {
-                "number": 6,
-                "type": "interjection",
-                "definition": "(letter-writing) Lots of love."
-            },
-            {
-                "number": 7,
-                "type": "interjection",
-                "definition": "Used in song as a nonsense syllable."
-            }
-        ]
-    },
     "la": {
         "level": "beginner",
         "definitions": [
@@ -1620,7 +1580,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "(more generally) A rule, such as:."
+                "definition": "(more generally) A rule."
             },
             {
                 "number": 4,
@@ -1720,7 +1680,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "(more generally) A rule, such as:."
+                "definition": "(more generally) A rule."
             },
             {
                 "number": 4,
@@ -2827,7 +2787,7 @@
             {
                 "number": 2,
                 "type": "adjective",
-                "definition": "A courteous description used in various ways to refer to lawyers or judges, including:."
+                "definition": "A courteous description used in various ways to refer to lawyers or judges."
             },
             {
                 "number": 3,
@@ -3400,36 +3360,6 @@
                 "number": 16,
                 "type": "verb",
                 "definition": "To give leave to; allow; permit; let; grant."
-            },
-            {
-                "number": 17,
-                "type": "verb",
-                "definition": "To have a consequence or remnant."
-            },
-            {
-                "number": 18,
-                "type": "verb",
-                "definition": "To depart; to separate from."
-            },
-            {
-                "number": 19,
-                "type": "verb",
-                "definition": "To transfer something."
-            },
-            {
-                "number": 20,
-                "type": "verb",
-                "definition": "To remain (behind); to stay."
-            },
-            {
-                "number": 21,
-                "type": "verb",
-                "definition": "To stop, desist from; to \"leave off\" (+ noun / gerund)."
-            },
-            {
-                "number": 22,
-                "type": "verb",
-                "definition": "To give leave to; allow; permit; let; grant."
             }
         ]
     },
@@ -3944,63 +3874,13 @@
             },
             {
                 "number": 12,
-                "type": "verb",
-                "definition": "To allow to, not to prevent (+ infinitive, but usually without to)."
-            },
-            {
-                "number": 13,
-                "type": "verb",
-                "definition": "To leave."
-            },
-            {
-                "number": 14,
-                "type": "verb",
-                "definition": "To allow the release of (a fluid)."
-            },
-            {
-                "number": 15,
-                "type": "verb",
-                "definition": "To allow possession of (a property etc.) in exchange for rent."
-            },
-            {
-                "number": 16,
-                "type": "verb",
-                "definition": "To give, grant, or assign, as a work, privilege, or contract; often with out."
-            },
-            {
-                "number": 17,
-                "type": "verb",
-                "definition": "Used to introduce an imperative in the first or third person."
-            },
-            {
-                "number": 18,
-                "type": "verb",
-                "definition": "To cause (+ bare infinitive)."
-            },
-            {
-                "number": 19,
                 "type": "noun",
                 "definition": "An obstacle or hindrance."
             },
             {
-                "number": 20,
+                "number": 13,
                 "type": "noun",
                 "definition": "The hindrance caused by the net during serve, only if the ball falls legally."
-            },
-            {
-                "number": 21,
-                "type": "verb",
-                "definition": "To hinder, prevent, impede, hamper, cumber; to obstruct (someone or something)."
-            },
-            {
-                "number": 22,
-                "type": "verb",
-                "definition": "To prevent someone from doing something; also to prevent something from happening."
-            },
-            {
-                "number": 23,
-                "type": "verb",
-                "definition": "To tarry or delay."
             }
         ]
     },
@@ -5144,111 +5024,106 @@
             },
             {
                 "number": 27,
-                "type": "noun",
-                "definition": "See lights."
-            },
-            {
-                "number": 28,
                 "type": "verb",
                 "definition": "To unload a ship, or to jettison material to make it lighter."
             },
             {
-                "number": 29,
+                "number": 28,
                 "type": "verb",
                 "definition": "To lighten; to ease of a burden; to take off."
             },
             {
-                "number": 30,
+                "number": 29,
                 "type": "adjective",
                 "definition": "Having little or relatively little actual weight; not cumbrous or unwieldy."
             },
             {
-                "number": 31,
+                "number": 30,
                 "type": "adjective",
                 "definition": "Having little weight as compared with bulk; of little density or specific gravity."
             },
             {
-                "number": 32,
+                "number": 31,
                 "type": "adjective",
                 "definition": "Of short or insufficient weight; weighing less than the legal, standard or proper amount; clipped or diminished."
             },
             {
-                "number": 33,
+                "number": 32,
                 "type": "adjective",
                 "definition": "Lacking that which burdens or makes heavy."
             },
             {
-                "number": 34,
+                "number": 33,
                 "type": "adjective",
                 "definition": "Not heavy or soggy; spongy; well raised."
             },
             {
-                "number": 35,
+                "number": 34,
                 "type": "adjective",
                 "definition": "Gentle; having little force or momentum."
             },
             {
-                "number": 36,
+                "number": 35,
                 "type": "adjective",
                 "definition": "Easy to endure or perform."
             },
             {
-                "number": 37,
+                "number": 36,
                 "type": "adjective",
                 "definition": "Low in fat, calories, alcohol, salt, etc."
             },
             {
-                "number": 38,
+                "number": 37,
                 "type": "adjective",
                 "definition": "Unimportant, trivial, having little value or significance."
             },
             {
-                "number": 39,
+                "number": 38,
                 "type": "adjective",
                 "definition": "Unchaste, wanton."
             },
             {
-                "number": 40,
+                "number": 39,
                 "type": "adjective",
                 "definition": "Not encumbered; unembarrassed; clear of impediments; hence, active; nimble; swift."
             },
             {
-                "number": 41,
+                "number": 40,
                 "type": "adjective",
                 "definition": "Easily influenced by trifling considerations; unsteady; unsettled; volatile."
             },
             {
-                "number": 42,
+                "number": 41,
                 "type": "adjective",
                 "definition": "Indulging in, or inclined to, levity; lacking dignity or solemnity; frivolous; airy."
             },
             {
-                "number": 43,
+                "number": 42,
                 "type": "adjective",
                 "definition": "Not quite sound or normal; somewhat impaired or deranged; dizzy; giddy."
             },
             {
-                "number": 44,
+                "number": 43,
                 "type": "adjective",
                 "definition": "Easily interrupted by stimulation."
             },
             {
-                "number": 45,
+                "number": 44,
                 "type": "adverb",
                 "definition": "Carrying little."
             },
             {
-                "number": 46,
+                "number": 45,
                 "type": "verb",
                 "definition": "To find by chance."
             },
             {
-                "number": 47,
+                "number": 46,
                 "type": "verb",
                 "definition": "To stop upon (of eyes or a glance); to notice."
             },
             {
-                "number": 48,
+                "number": 47,
                 "type": "verb",
                 "definition": "To alight; to land or come down."
             }
@@ -5345,15 +5220,10 @@
             {
                 "number": 18,
                 "type": "noun",
-                "definition": "See lights."
-            },
-            {
-                "number": 19,
-                "type": "noun",
                 "definition": "The lungs, now chiefly of an animal (being lighter than adjacent parts)."
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "verb",
                 "definition": "To start (a fire).",
                 "definition_extra": [
@@ -5368,7 +5238,7 @@
                 ]
             },
             {
-                "number": 21,
+                "number": 20,
                 "type": "verb",
                 "definition": "To set fire to; to set burning.",
                 "definition_extra": [
@@ -5383,7 +5253,7 @@
                 ]
             },
             {
-                "number": 22,
+                "number": 21,
                 "type": "verb",
                 "definition": "To illuminate; to provide light for when it is dark.",
                 "definition_extra": [
@@ -5394,7 +5264,7 @@
                 ]
             },
             {
-                "number": 23,
+                "number": 22,
                 "type": "verb",
                 "definition": "To become ignited; to take fire.",
                 "definition_extra": [
@@ -5405,37 +5275,37 @@
                 ]
             },
             {
-                "number": 24,
+                "number": 23,
                 "type": "verb",
                 "definition": "To attend or conduct with a light; to show the way to by means of a light."
             },
             {
-                "number": 25,
+                "number": 24,
                 "type": "verb",
                 "definition": "To make (a bonus) available to be collected by hitting a target, and thus light up the feature light corresponding to that bonus to indicate its availability."
             },
             {
-                "number": 26,
+                "number": 25,
                 "type": "verb",
                 "definition": "To unload a ship, or to jettison material to make it lighter."
             },
             {
-                "number": 27,
+                "number": 26,
                 "type": "verb",
                 "definition": "To lighten; to ease of a burden; to take off."
             },
             {
-                "number": 28,
+                "number": 27,
                 "type": "verb",
                 "definition": "To find by chance."
             },
             {
-                "number": 29,
+                "number": 28,
                 "type": "verb",
                 "definition": "To stop upon (of eyes or a glance); to notice."
             },
             {
-                "number": 30,
+                "number": 29,
                 "type": "verb",
                 "definition": "To alight; to land or come down."
             }
@@ -6101,7 +5971,7 @@
             {
                 "number": 19,
                 "type": "noun",
-                "definition": "A small amount of text. Specifically:."
+                "definition": "A small amount of text."
             },
             {
                 "number": 20,
@@ -6126,7 +5996,7 @@
             {
                 "number": 24,
                 "type": "noun",
-                "definition": "A measure of length:."
+                "definition": "A measure of length."
             },
             {
                 "number": 25,
@@ -6364,7 +6234,7 @@
             {
                 "number": 19,
                 "type": "noun",
-                "definition": "A small amount of text. Specifically:."
+                "definition": "A small amount of text."
             },
             {
                 "number": 20,
@@ -6389,7 +6259,7 @@
             {
                 "number": 24,
                 "type": "noun",
-                "definition": "A measure of length:."
+                "definition": "A measure of length."
             },
             {
                 "number": 25,
@@ -7624,16 +7494,6 @@
                 "number": 20,
                 "type": "adjective",
                 "definition": "Used as an intensifier."
-            }
-        ]
-    },
-    "ll": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Lines."
             }
         ]
     },
@@ -9107,55 +8967,50 @@
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "Alternative letter-case form of Love."
+                "definition": "A thin silk material."
             },
             {
                 "number": 10,
                 "type": "noun",
-                "definition": "A thin silk material."
-            },
-            {
-                "number": 11,
-                "type": "noun",
                 "definition": "A climbing plant, Clematis vitalba."
             },
             {
-                "number": 12,
+                "number": 11,
                 "type": "verb",
                 "definition": "(usually transitive, sometimes intransitive, stative) To have a strong affection for (someone or something)."
             },
             {
-                "number": 13,
+                "number": 12,
                 "type": "verb",
                 "definition": "To need, thrive on."
             },
             {
-                "number": 14,
+                "number": 13,
                 "type": "verb",
                 "definition": "To be strongly inclined towards something; an emphatic form of like."
             },
             {
-                "number": 15,
+                "number": 14,
                 "type": "verb",
                 "definition": "(usually transitive, sometimes intransitive) To care deeply about, to be dedicated to (someone or something)."
             },
             {
-                "number": 16,
+                "number": 15,
                 "type": "verb",
                 "definition": "To derive delight from a fact or situation."
             },
             {
-                "number": 17,
+                "number": 16,
                 "type": "verb",
                 "definition": "To have sex with (perhaps from make love)."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To praise; commend."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "verb",
                 "definition": "To praise as of value; prize; set a price on."
             }
@@ -9733,66 +9588,6 @@
             },
             {
                 "number": 14,
-                "type": "verb",
-                "definition": "To rest in a horizontal position on a surface."
-            },
-            {
-                "number": 15,
-                "type": "verb",
-                "definition": "To be placed or situated."
-            },
-            {
-                "number": 16,
-                "type": "verb",
-                "definition": "To abide; to remain for a longer or shorter time; to be in a certain state or condition."
-            },
-            {
-                "number": 17,
-                "type": "verb",
-                "definition": "Used with in: to be or exist; to belong or pertain; to have an abiding place; to consist."
-            },
-            {
-                "number": 18,
-                "type": "verb",
-                "definition": "Used with with: to have sexual relations with."
-            },
-            {
-                "number": 19,
-                "type": "verb",
-                "definition": "Used with on/upon: to be incumbent (on); to be the responsibility of a person."
-            },
-            {
-                "number": 20,
-                "type": "verb",
-                "definition": "To lodge; to sleep."
-            },
-            {
-                "number": 21,
-                "type": "verb",
-                "definition": "To be still or quiet, like one lying down to rest."
-            },
-            {
-                "number": 22,
-                "type": "verb",
-                "definition": "To be sustainable; to be capable of being maintained."
-            },
-            {
-                "number": 23,
-                "type": "verb",
-                "definition": "To give false information intentionally with intent to deceive."
-            },
-            {
-                "number": 24,
-                "type": "verb",
-                "definition": "To convey a false image or impression."
-            },
-            {
-                "number": 25,
-                "type": "verb",
-                "definition": "To be mistaken or unintentionally spread false information."
-            },
-            {
-                "number": 26,
                 "type": "noun",
                 "definition": "An act of telling a lie or falsehood."
             }
@@ -9864,60 +9659,55 @@
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "Alternative letter-case form of Love."
+                "definition": "A thin silk material."
             },
             {
                 "number": 10,
                 "type": "noun",
-                "definition": "A thin silk material."
-            },
-            {
-                "number": 11,
-                "type": "noun",
                 "definition": "A climbing plant, Clematis vitalba."
             },
             {
-                "number": 12,
+                "number": 11,
                 "type": "verb",
                 "definition": "(usually transitive, sometimes intransitive, stative) To have a strong affection for (someone or something)."
             },
             {
-                "number": 13,
+                "number": 12,
                 "type": "verb",
                 "definition": "To need, thrive on."
             },
             {
-                "number": 14,
+                "number": 13,
                 "type": "verb",
                 "definition": "To be strongly inclined towards something; an emphatic form of like."
             },
             {
-                "number": 15,
+                "number": 14,
                 "type": "verb",
                 "definition": "(usually transitive, sometimes intransitive) To care deeply about, to be dedicated to (someone or something)."
             },
             {
-                "number": 16,
+                "number": 15,
                 "type": "verb",
                 "definition": "To derive delight from a fact or situation."
             },
             {
-                "number": 17,
+                "number": 16,
                 "type": "verb",
                 "definition": "To have sex with (perhaps from make love)."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To praise; commend."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "verb",
                 "definition": "To praise as of value; prize; set a price on."
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "noun",
                 "definition": "(racquet sports) Zero, no score."
             }
@@ -11684,7 +11474,7 @@
             {
                 "number": 8,
                 "type": "adjective",
-                "definition": "Lax:."
+                "definition": "Lax."
             },
             {
                 "number": 9,
@@ -11700,36 +11490,6 @@
                 "number": 11,
                 "type": "adjective",
                 "definition": "Wicked; vicious."
-            }
-        ]
-    },
-    "lb": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A pound (unit of weight)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Leg bye."
-            }
-        ]
-    },
-    "lbs": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A pound (unit of weight)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Leg bye."
             }
         ]
     },
@@ -12585,36 +12345,6 @@
             }
         ]
     },
-    "les": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A homosexual woman, one who is mostly or exclusively sexually or romantically attracted to other women."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A homosexual female animal."
-            },
-            {
-                "number": 3,
-                "type": "adjective",
-                "definition": "(of a woman) Homosexual, gay; preferring mostly or exclusively women as romantic or sexual partners."
-            },
-            {
-                "number": 4,
-                "type": "adjective",
-                "definition": "(of a romantic or sexual act or relationship) Between two or more women; homosexual, gay."
-            },
-            {
-                "number": 5,
-                "type": "adjective",
-                "definition": "(especially of an institution or group) Intended for lesbians."
-            }
-        ]
-    },
     "lesbian": {
         "level": "intermediate",
         "definitions": [
@@ -12919,117 +12649,6 @@
             },
             {
                 "number": 6,
-                "type": "noun",
-                "definition": "The Chinese mile, a traditional unit of distance equal to 1500 chis or 150 zhangs, now standardized as a half-kilometer (500 meters).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Chinese mile."
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "The Korean mile, a traditional unit of distance equivalent to about 393 m.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Korean mile."
-                    }
-                ]
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A traditional Chinese unit of weight, equal to one-thousandth of a liang, or fifty milligrams."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A meaningful ceremony or ritual; etiquette, behaviour."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "An ancient Chinese cauldron having three hollow legs."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "The Chinese mile, a traditional unit of distance equal to 1500 chis or 150 zhangs, now standardized as a half-kilometer (500 meters).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Chinese mile."
-                    }
-                ]
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "The Korean mile, a traditional unit of distance equivalent to about 393 m.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Korean mile."
-                    }
-                ]
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "A traditional Chinese unit of weight, equal to one-thousandth of a liang, or fifty milligrams."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "A meaningful ceremony or ritual; etiquette, behaviour."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "An ancient Chinese cauldron having three hollow legs."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "The Chinese mile, a traditional unit of distance equal to 1500 chis or 150 zhangs, now standardized as a half-kilometer (500 meters).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Chinese mile."
-                    }
-                ]
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "The Korean mile, a traditional unit of distance equivalent to about 393 m.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Korean mile."
-                    }
-                ]
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "A traditional Chinese unit of weight, equal to one-thousandth of a liang, or fifty milligrams."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "A meaningful ceremony or ritual; etiquette, behaviour."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "An ancient Chinese cauldron having three hollow legs."
-            },
-            {
-                "number": 21,
                 "type": "noun",
                 "definition": "In solfège, the raised sixth note of a major scale (the note A-sharp in the fixed-do system).",
                 "definition_extra": [
@@ -13697,96 +13316,6 @@
                 "number": 22,
                 "type": "verb",
                 "definition": "To transfer cargo or fuel from a ship, lightening it to make its draft less or to make it easier to refloat."
-            },
-            {
-                "number": 23,
-                "type": "adjective",
-                "definition": "Having light; bright; clear; not dark or obscure."
-            },
-            {
-                "number": 24,
-                "type": "adjective",
-                "definition": "Pale or whitish in color; highly luminous and more or less deficient in chroma."
-            },
-            {
-                "number": 25,
-                "type": "adjective",
-                "definition": "(of coffee) Served with extra milk or cream."
-            },
-            {
-                "number": 26,
-                "type": "adjective",
-                "definition": "Having little or relatively little actual weight; not cumbrous or unwieldy."
-            },
-            {
-                "number": 27,
-                "type": "adjective",
-                "definition": "Having little weight as compared with bulk; of little density or specific gravity."
-            },
-            {
-                "number": 28,
-                "type": "adjective",
-                "definition": "Of short or insufficient weight; weighing less than the legal, standard or proper amount; clipped or diminished."
-            },
-            {
-                "number": 29,
-                "type": "adjective",
-                "definition": "Lacking that which burdens or makes heavy."
-            },
-            {
-                "number": 30,
-                "type": "adjective",
-                "definition": "Not heavy or soggy; spongy; well raised."
-            },
-            {
-                "number": 31,
-                "type": "adjective",
-                "definition": "Gentle; having little force or momentum."
-            },
-            {
-                "number": 32,
-                "type": "adjective",
-                "definition": "Easy to endure or perform."
-            },
-            {
-                "number": 33,
-                "type": "adjective",
-                "definition": "Low in fat, calories, alcohol, salt, etc."
-            },
-            {
-                "number": 34,
-                "type": "adjective",
-                "definition": "Unimportant, trivial, having little value or significance."
-            },
-            {
-                "number": 35,
-                "type": "adjective",
-                "definition": "Unchaste, wanton."
-            },
-            {
-                "number": 36,
-                "type": "adjective",
-                "definition": "Not encumbered; unembarrassed; clear of impediments; hence, active; nimble; swift."
-            },
-            {
-                "number": 37,
-                "type": "adjective",
-                "definition": "Easily influenced by trifling considerations; unsteady; unsettled; volatile."
-            },
-            {
-                "number": 38,
-                "type": "adjective",
-                "definition": "Indulging in, or inclined to, levity; lacking dignity or solemnity; frivolous; airy."
-            },
-            {
-                "number": 39,
-                "type": "adjective",
-                "definition": "Not quite sound or normal; somewhat impaired or deranged; dizzy; giddy."
-            },
-            {
-                "number": 40,
-                "type": "adjective",
-                "definition": "Easily interrupted by stimulation."
             }
         ]
     },
@@ -15241,36 +14770,31 @@
             },
             {
                 "number": 17,
-                "type": "adjective",
-                "definition": "Little."
-            },
-            {
-                "number": 18,
                 "type": "noun",
                 "definition": "Colour; blee; dye; stain."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "verb",
                 "definition": "To colour; dye."
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "noun",
                 "definition": "The body of all written works."
             },
             {
-                "number": 21,
+                "number": 20,
                 "type": "noun",
                 "definition": "The collected creative writing of a nation, people, group or culture."
             },
             {
-                "number": 22,
+                "number": 21,
                 "type": "noun",
                 "definition": "(usually preceded by the) All the papers, treatises etc. published in academic journals on a particular subject."
             },
             {
-                "number": 23,
+                "number": 22,
                 "type": "noun",
                 "definition": "Written fiction of a high standard."
             }
@@ -17584,16 +17108,6 @@
                 "number": 24,
                 "type": "adverb",
                 "definition": "In a path near the equator, so that the declination is small, or near the horizon, so that the altitude is small; said of the heavenly bodies with reference to the diurnal revolution."
-            }
-        ]
-    },
-    "lp": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Loop."
             }
         ]
     },
@@ -23019,16 +22533,6 @@
             }
         ]
     },
-    "lc": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The minuscule or small letters (a, b, c, as opposed to the uppercase or capital letters, A, B, C)."
-            }
-        ]
-    },
     "learners": {
         "level": "advanced",
         "definitions": [
@@ -23091,11 +22595,6 @@
                 "number": 10,
                 "type": "verb",
                 "definition": "To grant a lease; to let or rent."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "Present participle of lease."
             }
         ]
     },
@@ -23211,82 +22710,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "The unit of currency of Moldova, equal to one hundred bani."
-            }
-        ]
-    },
-    "lf": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The usually green and flat organ that represents the most prominent feature of most vegetative plants."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Anything resembling the leaf of a plant."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A sheet of any substance beaten or rolled until very thin."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A sheet of a book, magazine, etc (consisting of two pages, one on each face of the leaf).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "folium."
-                    }
-                ]
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "(in the plural) Tea leaves."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A flat section used to extend the size of a table."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A moveable panel, e.g. of a bridge or door, originally one that hinged but now also applied to other forms of movement."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A foliage leaf or any of the many and often considerably different structures it can specialise into."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "In a tree, a node that has no descendants."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "The layer of fat supporting the kidneys of a pig, leaf fat."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "One of the teeth of a pinion, especially when small."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "Marijuana."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "(4chan) A Canadian person."
             }
         ]
     },
@@ -23653,183 +23076,118 @@
             },
             {
                 "number": 21,
-                "type": "noun",
-                "definition": "See lights."
-            },
-            {
-                "number": 22,
                 "type": "adjective",
                 "definition": "Having little or relatively little actual weight; not cumbrous or unwieldy."
             },
             {
-                "number": 23,
+                "number": 22,
                 "type": "adjective",
                 "definition": "Having little weight as compared with bulk; of little density or specific gravity."
             },
             {
-                "number": 24,
+                "number": 23,
                 "type": "adjective",
                 "definition": "Of short or insufficient weight; weighing less than the legal, standard or proper amount; clipped or diminished."
             },
             {
-                "number": 25,
+                "number": 24,
                 "type": "adjective",
                 "definition": "Lacking that which burdens or makes heavy."
             },
             {
-                "number": 26,
+                "number": 25,
                 "type": "adjective",
                 "definition": "Not heavy or soggy; spongy; well raised."
             },
             {
-                "number": 27,
+                "number": 26,
                 "type": "adjective",
                 "definition": "Gentle; having little force or momentum."
             },
             {
-                "number": 28,
+                "number": 27,
                 "type": "adjective",
                 "definition": "Easy to endure or perform."
             },
             {
-                "number": 29,
+                "number": 28,
                 "type": "adjective",
                 "definition": "Low in fat, calories, alcohol, salt, etc."
             },
             {
-                "number": 30,
+                "number": 29,
                 "type": "adjective",
                 "definition": "Unimportant, trivial, having little value or significance."
             },
             {
-                "number": 31,
+                "number": 30,
                 "type": "adjective",
                 "definition": "Unchaste, wanton."
             },
             {
-                "number": 32,
+                "number": 31,
                 "type": "adjective",
                 "definition": "Not encumbered; unembarrassed; clear of impediments; hence, active; nimble; swift."
             },
             {
-                "number": 33,
+                "number": 32,
                 "type": "adjective",
                 "definition": "Easily influenced by trifling considerations; unsteady; unsettled; volatile."
             },
             {
-                "number": 34,
+                "number": 33,
                 "type": "adjective",
                 "definition": "Indulging in, or inclined to, levity; lacking dignity or solemnity; frivolous; airy."
             },
             {
-                "number": 35,
+                "number": 34,
                 "type": "adjective",
                 "definition": "Not quite sound or normal; somewhat impaired or deranged; dizzy; giddy."
             },
             {
-                "number": 36,
+                "number": 35,
                 "type": "adjective",
                 "definition": "Easily interrupted by stimulation."
             },
             {
-                "number": 37,
+                "number": 36,
                 "type": "adjective",
                 "definition": "Light in composition, notably low in fat, calories etc. Most commonly used commercially."
             },
             {
-                "number": 38,
+                "number": 37,
                 "type": "adjective",
                 "definition": "Lightweight."
             },
             {
-                "number": 39,
+                "number": 38,
                 "type": "adjective",
                 "definition": "(usually used postpositively) Lacking substance or seriousness; watered down."
             },
             {
-                "number": 40,
+                "number": 39,
                 "type": "noun",
                 "definition": "A little, bit."
             },
             {
-                "number": 41,
+                "number": 40,
                 "type": "adjective",
                 "definition": "Few; little."
             },
             {
-                "number": 42,
+                "number": 41,
                 "type": "noun",
                 "definition": "The act of waiting; a wait."
             },
             {
-                "number": 43,
+                "number": 42,
                 "type": "verb",
                 "definition": "To expect; wait."
             },
             {
-                "number": 44,
+                "number": 43,
                 "type": "verb",
                 "definition": "To rely."
-            }
-        ]
-    },
-    "ln": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(used in street names) A road, street, or similar thoroughfare."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A narrow passageway between fences, walls, hedges or trees."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A narrow road, as in the country."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A lengthwise division of roadway intended for a single line of vehicles."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A similar division of a racetrack to keep runners apart."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A course designated for ships or aircrafts."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "An elongated wooden strip of floor along which a bowling ball is rolled."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "An empty space in the tableau, formed by the removal of an entire row of cards."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "Any of the parallel slots in which values can be stored in a SIMD architecture."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "In MOBA (multiplayer online battle arena) games, a particular path on the map that may be traversed by enemy characters."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "The homestretch."
             }
         ]
     },
@@ -24124,11 +23482,6 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Alternative letter-case form of Logos."
-            },
-            {
-                "number": 3,
-                "type": "noun",
                 "definition": "A visual symbol or emblem that acts as a trademark or a means of identification of a company or organization.",
                 "definition_extra": [
                     {
@@ -24138,17 +23491,17 @@
                 ]
             },
             {
-                "number": 4,
+                "number": 3,
                 "type": "noun",
                 "definition": "(by extension) An audio recording for the same purpose; a jingle."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "noun",
                 "definition": "A single graphic which contains one or more separate elements."
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "noun",
                 "definition": "An ensign, a badge of office, rank, or power."
             }
@@ -24421,16 +23774,6 @@
                 "number": 13,
                 "type": "noun",
                 "definition": "(Scottish dialectal) A hill."
-            }
-        ]
-    },
-    "ls": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The amount of space between adjacent text characters."
             }
         ]
     },
@@ -29071,7 +28414,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A vessel or fixture for washing, particularly:."
+                "definition": "A vessel or fixture for washing."
             },
             {
                 "number": 2,
@@ -29211,7 +28554,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Other seaweeds similar in appearance or use, especially:."
+                "definition": "Other seaweeds similar in appearance or use."
             },
             {
                 "number": 3,
@@ -31940,11 +31283,6 @@
                 "number": 1,
                 "type": "adjective",
                 "definition": "Lengthwise."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Lengthwise."
             }
         ]
     },
@@ -31954,11 +31292,6 @@
             {
                 "number": 1,
                 "type": "adjective",
-                "definition": "In the long direction of an oblong object."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
                 "definition": "In the long direction of an oblong object."
             }
         ]
@@ -33723,11 +33056,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "Any of various units of weight in Spanish- and Portuguese-speaking countries approximately equal to 460 grams or a little more than a US or UK pound."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Alternative spelling of libbra, an Italian unit of weight."
             }
         ]
     },
@@ -35914,21 +35242,6 @@
             },
             {
                 "number": 4,
-                "type": "noun",
-                "definition": "Any of various marine food fish, of the genus Molva, resembling the cod."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "The common ling, Molva molva."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "Any of various varieties of heather or broom."
-            },
-            {
-                "number": 7,
                 "type": "noun",
                 "definition": "The scientific study of language."
             }
@@ -38973,16 +38286,6 @@
             }
         ]
     },
-    "logarithm": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "For a number x, the power to which a given base number must be raised in order to obtain x. Written \\log_b x. For example, \\log_{10} 1000 = 3 because 10^3 = 1000 and \\log_2 16 = 4 because 2^4 = 16."
-            }
-        ]
-    },
     "logarithmic": {
         "level": "advanced",
         "definitions": [
@@ -41679,16 +40982,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "Any of a class of polycyclic heterocycles that are responsible for the bioluminescence of fireflies, being converted to oxyluciferin by luciferase in the process."
-            }
-        ]
-    },
-    "lucite": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Alternative letter-case form of Lucite."
             }
         ]
     },

@@ -1404,11 +1404,6 @@
             },
             {
                 "number": 4,
-                "definition": "Abroad.",
-                "type": "adverb"
-            },
-            {
-                "number": 5,
                 "definition": "Across a sea; to an area across a sea.",
                 "type": "adverb"
             }
@@ -1603,146 +1598,6 @@
                 "number": 4,
                 "definition": "An atom of this element.",
                 "type": "noun"
-            }
-        ]
-    },
-    "o": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The name of the Latin-script letter O."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A zero (used in reading out numbers)."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "(IRC) Operator."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Object, see SVO."
-            },
-            {
-                "number": 5,
-                "type": "adjective",
-                "definition": "Over."
-            },
-            {
-                "number": 6,
-                "type": "interjection",
-                "definition": "Expression of surprise."
-            },
-            {
-                "number": 7,
-                "type": "interjection",
-                "definition": "Expression of wonder, amazement, or awe."
-            },
-            {
-                "number": 8,
-                "type": "interjection",
-                "definition": "Expression of understanding, affirmation, recognition, or realization."
-            },
-            {
-                "number": 9,
-                "type": "interjection",
-                "definition": "A word to precede an offhand or annoyed remark."
-            },
-            {
-                "number": 10,
-                "type": "interjection",
-                "definition": "A word to precede an added comment or afterthought."
-            },
-            {
-                "number": 11,
-                "type": "interjection",
-                "definition": "An invocation or address (similar to the vocative in languages with noun declension), often with a term of endearment."
-            },
-            {
-                "number": 12,
-                "type": "interjection",
-                "definition": "Exclamation for drama or emphasis (often poetic)."
-            },
-            {
-                "number": 13,
-                "type": "interjection",
-                "definition": "Expression of pain. See ouch."
-            },
-            {
-                "number": 14,
-                "type": "interjection",
-                "definition": "Space filler or extra syllable, especially in (popular) music."
-            },
-            {
-                "number": 15,
-                "type": "interjection",
-                "definition": "(interrogative) Expression of mild scepticism."
-            },
-            {
-                "number": 16,
-                "type": "interjection",
-                "definition": "A word to mark a spoken phrase as imaginary."
-            },
-            {
-                "number": 17,
-                "type": "preposition",
-                "definition": "Expressing distance or motion."
-            },
-            {
-                "number": 18,
-                "type": "preposition",
-                "definition": "Expressing separation."
-            },
-            {
-                "number": 19,
-                "type": "preposition",
-                "definition": "Expressing origin."
-            },
-            {
-                "number": 20,
-                "type": "preposition",
-                "definition": "Expressing agency."
-            },
-            {
-                "number": 21,
-                "type": "preposition",
-                "definition": "Expressing composition, substance."
-            },
-            {
-                "number": 22,
-                "type": "preposition",
-                "definition": "Introducing subject matter."
-            },
-            {
-                "number": 23,
-                "type": "preposition",
-                "definition": "Having partitive effect."
-            },
-            {
-                "number": 24,
-                "type": "preposition",
-                "definition": "Expressing possession."
-            },
-            {
-                "number": 25,
-                "type": "preposition",
-                "definition": "Forming the \"objective genitive\"."
-            },
-            {
-                "number": 26,
-                "type": "preposition",
-                "definition": "Expressing qualities or characteristics."
-            },
-            {
-                "number": 27,
-                "type": "preposition",
-                "definition": "Expressing a point in time."
             }
         ]
     },
@@ -2496,7 +2351,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A ceremonial duty or service, particularly:."
+                "definition": "A ceremonial duty or service."
             },
             {
                 "number": 2,
@@ -2546,7 +2401,7 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "A room, set of rooms, or building used for non-manual work, particularly:."
+                "definition": "A room, set of rooms, or building used for non-manual work."
             },
             {
                 "number": 12,
@@ -2556,7 +2411,7 @@
             {
                 "number": 13,
                 "type": "noun",
-                "definition": "(in large organizations) The administrative departments housed in such places, particularly:."
+                "definition": "(in large organizations) The administrative departments housed in such places."
             },
             {
                 "number": 14,
@@ -5333,35 +5188,30 @@
             {
                 "number": 5,
                 "type": "adjective",
-                "definition": "See other (determiner) below."
+                "definition": "Second."
             },
             {
                 "number": 6,
                 "type": "adjective",
-                "definition": "Second."
+                "definition": "Alien."
             },
             {
                 "number": 7,
                 "type": "adjective",
-                "definition": "Alien."
+                "definition": "Different."
             },
             {
                 "number": 8,
                 "type": "adjective",
-                "definition": "Different."
-            },
-            {
-                "number": 9,
-                "type": "adjective",
                 "definition": "Left, as opposed to right."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "adverb",
                 "definition": "Apart from; in the phrase \"other than\"."
             },
             {
-                "number": 11,
+                "number": 10,
                 "type": "adverb",
                 "definition": "Otherwise."
             }
@@ -6965,7 +6815,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The act of offending:."
+                "definition": "The act of offending."
             },
             {
                 "number": 2,
@@ -7050,7 +6900,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A ceremonial duty or service, particularly:."
+                "definition": "A ceremonial duty or service."
             },
             {
                 "number": 2,
@@ -7100,7 +6950,7 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "A room, set of rooms, or building used for non-manual work, particularly:."
+                "definition": "A room, set of rooms, or building used for non-manual work."
             },
             {
                 "number": 12,
@@ -7110,7 +6960,7 @@
             {
                 "number": 13,
                 "type": "noun",
-                "definition": "(in large organizations) The administrative departments housed in such places, particularly:."
+                "definition": "(in large organizations) The administrative departments housed in such places."
             },
             {
                 "number": 14,
@@ -7581,7 +7431,7 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "Initialism of opposite prompt; stage right,."
+                "definition": "Initialism of opposite prompt; stage right."
             },
             {
                 "number": 9,
@@ -9786,7 +9636,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A plant in the family Elaeagnaceae,."
+                "definition": "A plant in the family Elaeagnaceae."
             },
             {
                 "number": 2,
@@ -10909,7 +10759,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Bone-like joint or plate, especially:."
+                "definition": "Bone-like joint or plate."
             }
         ]
     },
@@ -12281,7 +12131,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Several daisy-like flowers in various genera,."
+                "definition": "Several daisy-like flowers in various genera."
             },
             {
                 "number": 2,
@@ -12361,7 +12211,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The act of offending:."
+                "definition": "The act of offending."
             },
             {
                 "number": 2,
@@ -14292,17 +14142,17 @@
             {
                 "number": 14,
                 "type": "noun",
-                "definition": "A slashing action or motion, particularly:."
+                "definition": "A slashing action or motion."
             },
             {
                 "number": 15,
                 "type": "noun",
-                "definition": "A mark made by a slashing motion, particularly:."
+                "definition": "A mark made by a slashing motion."
             },
             {
                 "number": 16,
                 "type": "noun",
-                "definition": "Something resembling such a mark, particularly:."
+                "definition": "Something resembling such a mark."
             },
             {
                 "number": 17,
@@ -16704,11 +16554,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "A single character in this alphabet."
-            },
-            {
-                "number": 2,
-                "type": "proper noun",
-                "definition": "An ancient Celtic alphabet historically used to write Primitive Irish."
             }
         ]
     },
@@ -18316,16 +18161,11 @@
             },
             {
                 "number": 2,
-                "type": "interjection",
-                "definition": "(Midwest) an exclamation of surprise; oops."
-            },
-            {
-                "number": 3,
                 "type": "verb",
                 "definition": "To open."
             },
             {
-                "number": 4,
+                "number": 3,
                 "type": "adjective",
                 "definition": "Open."
             }
@@ -19985,67 +19825,26 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "proper noun",
-                "definition": "Usually preceded by the: a region or a part of the world to the east of a certain place; countries of Asia, the East (especially East Asia).",
-                "definition_extra": [
-                    {
-                        "type": "Antonyms",
-                        "content": "Occident."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "proper noun",
-                "definition": "The countries east of the Mediterranean."
-            },
-            {
-                "number": 3,
-                "type": "proper noun",
-                "definition": "A city and town in Illinois."
-            },
-            {
-                "number": 4,
-                "type": "proper noun",
-                "definition": "A city and town in Iowa."
-            },
-            {
-                "number": 5,
-                "type": "proper noun",
-                "definition": "A town in Maine."
-            },
-            {
-                "number": 6,
-                "type": "proper noun",
-                "definition": "A census-designated place and hamlet in New York."
-            },
-            {
-                "number": 7,
-                "type": "proper noun",
-                "definition": "A town and village in South Dakota."
-            },
-            {
-                "number": 8,
                 "type": "noun",
                 "definition": "The part of the horizon where the sun first appears in the morning; the east."
             },
             {
-                "number": 9,
+                "number": 2,
                 "type": "noun",
                 "definition": "A pearl originating from the Indian region, reputed to be of great brilliance; (by extension) any pearl of particular beauty and value."
             },
             {
-                "number": 10,
+                "number": 3,
                 "type": "noun",
                 "definition": "(by extension) The brilliance or colour of a high-quality pearl."
             },
             {
-                "number": 11,
+                "number": 4,
                 "type": "verb",
                 "definition": "To build or place (something) so as to face eastward."
             },
             {
-                "number": 12,
+                "number": 5,
                 "type": "verb",
                 "definition": "(by extension) To align or place (a person or object) so that his, her, or its east side, north side, etc., is positioned toward the corresponding points of the compass; (specifically) to rotate (a map attached to a plane table) until the line of direction between any two of its points is parallel to the corresponding direction in nature.",
                 "definition_extra": [
@@ -20056,7 +19855,7 @@
                 ]
             },
             {
-                "number": 13,
+                "number": 6,
                 "type": "verb",
                 "definition": "To direct towards or point at a particular direction.",
                 "definition_extra": [
@@ -20067,12 +19866,12 @@
                 ]
             },
             {
-                "number": 14,
+                "number": 7,
                 "type": "verb",
                 "definition": "To determine which direction one is facing."
             },
             {
-                "number": 15,
+                "number": 8,
                 "type": "verb",
                 "definition": "To familiarize (oneself or someone) with a circumstance or situation.",
                 "definition_extra": [
@@ -20087,22 +19886,22 @@
                 ]
             },
             {
-                "number": 16,
+                "number": 9,
                 "type": "verb",
                 "definition": "To set the focus of (something) so as to appeal or relate to a certain group."
             },
             {
-                "number": 17,
+                "number": 10,
                 "type": "verb",
                 "definition": "To change direction to face a certain way."
             },
             {
-                "number": 18,
+                "number": 11,
                 "type": "adjective",
                 "definition": "Rising, like the morning sun."
             },
             {
-                "number": 19,
+                "number": 12,
                 "type": "adjective",
                 "definition": "Of the colour of the sky at daybreak; bright red.",
                 "definition_extra": [
@@ -20113,7 +19912,7 @@
                 ]
             },
             {
-                "number": 20,
+                "number": 13,
                 "type": "adjective",
                 "definition": "(obsolete except poetic) Of, facing, or located in the east; eastern, oriental.",
                 "definition_extra": [
@@ -20124,7 +19923,7 @@
                 ]
             },
             {
-                "number": 21,
+                "number": 14,
                 "type": "adjective",
                 "definition": "(obsolete except poetic) Of a pearl or other gem: of great brilliance and value; (by extension) bright, lustrous."
             }
@@ -20863,11 +20662,6 @@
                 "number": 3,
                 "type": "noun",
                 "definition": "A single such cycle."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "(of a function) defined for each point x in the domain of the function by \\inf\\left\\{\\mathrm{diam}(f(U))\\mid U\\mathrm{\\ is\\ a\\ neighborhood\\ of\\ }x\\right\\}, and describes the difference (possibly ∞) between the limit superior and limit inferior of the function near that point."
             }
         ]
     },
@@ -22576,11 +22370,6 @@
             {
                 "number": 2,
                 "type": "adjective",
-                "definition": "Out of town (but usually within the same country)."
-            },
-            {
-                "number": 3,
-                "type": "adverb",
                 "definition": "Out of town (but usually within the same country)."
             }
         ]
@@ -25191,11 +24980,6 @@
             },
             {
                 "number": 4,
-                "type": "adverb",
-                "definition": "Abroad."
-            },
-            {
-                "number": 5,
                 "type": "adverb",
                 "definition": "Across a sea; to an area across a sea."
             }

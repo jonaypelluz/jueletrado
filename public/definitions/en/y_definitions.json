@@ -121,158 +121,6 @@
             }
         ]
     },
-    "y": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(abstract) This place; this location."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(abstract) This time, the present situation."
-            },
-            {
-                "number": 3,
-                "type": "adverb",
-                "definition": "For what cause, reason, or purpose (interrogative adverb)."
-            },
-            {
-                "number": 4,
-                "type": "adverb",
-                "definition": "For which cause, reason, or purpose (relative adverb)."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A solar year, the time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference)."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "(by extension) The time it takes for any astronomical object (such as a planet, dwarf planet, small Solar System body, or comet) in direct orbit around a star (such as the Sun) to make one revolution around the star."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A period between set dates that mark a year, from January 1 to December 31 by the Gregorian calendar, from Tishiri 1 to Elul 29 by the Jewish calendar, and from Muharram 1 to Dhu al-Hijjah 29 or 30 by the Islamic calendar."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A scheduled part of a calendar year spent in a specific activity."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A Julian year, exactly 365.25 days, represented by \"a\"."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A level or grade in school or college."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "The proportion of a creature's lifespan equivalent to one year of an average human lifespan (see also dog year)."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "Eye dialect spelling of hear."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "An affirmative expression; an answer that shows agreement or acceptance.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "aye, nod, yea."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "nay, no."
-                    }
-                ]
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "A vote of support or in favor/favour of something.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "aye, yea."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "nay."
-                    }
-                ]
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "The quality or state of being young.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "juvenility, youthfulness."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "age, dotage, old age, senility."
-                    }
-                ]
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "The part of life following childhood; the period of existence preceding maturity or age; the whole early part of life, from childhood, or, sometimes, from infancy, to adulthood."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "A young person.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "adolescent, child, kid, lad, teen, teenager, youngster."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "adult, grown-up."
-                    }
-                ]
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "A young man; a male adolescent or young adult.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "boy, young man."
-                    }
-                ]
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "(used with a plural or singular verb) Young persons, collectively.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "adolescents, kids, teenagers, teens, young people, youngsters."
-                    }
-                ]
-            }
-        ]
-    },
     "ya": {
         "level": "beginner",
         "definitions": [
@@ -1764,11 +1612,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "Yes."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Yes."
             }
         ]
     },
@@ -2990,7 +2833,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Any of various fish with yellow tails, including:."
+                "definition": "Any of various fish with yellow tails."
             },
             {
                 "number": 4,
@@ -3682,16 +3525,6 @@
             }
         ]
     },
-    "yule": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Alternative letter-case form of Yule."
-            }
-        ]
-    },
     "yuletide": {
         "level": "advanced",
         "definitions": [
@@ -3727,11 +3560,6 @@
             },
             {
                 "number": 2,
-                "type": "proper noun",
-                "definition": "Yellowdog Updater, Modified, a popular package manager in Linux."
-            },
-            {
-                "number": 3,
                 "type": "interjection",
                 "definition": "Indicating delight at the flavor of food."
             }

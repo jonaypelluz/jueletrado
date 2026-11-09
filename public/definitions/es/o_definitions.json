@@ -1586,12 +1586,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "locución adverbial",
+                "type": "locución",
+                "type_extra": "adverbial",
                 "definition": "sin embargo. Me dijo que no vendría ; no obstante, esperaremos."
             },
             {
                 "number": "2",
-                "type": "locución preposicional",
+                "type": "locución",
+                "type_extra": "preposicional",
                 "definition": "a pesar de. Decía no interesarle el dinero ; no obstante lo cual, murió rico."
             }
         ]
@@ -2156,7 +2158,8 @@
             },
             {
                 "number": "2",
-                "type": "locución adverbial",
+                "type": "locución",
+                "type_extra": "adverbial",
                 "definition": "Sin ser visto."
             }
         ]
@@ -2211,7 +2214,8 @@
             },
             {
                 "number": "2",
-                "type": "locución adverbial",
+                "type": "locución",
+                "type_extra": "adverbial",
                 "definition": "Sin ser visto."
             }
         ]
@@ -3025,7 +3029,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Octava hora después de mediodía o de medianoche. Son las ocho."
             }
         ]
@@ -5392,7 +5397,8 @@
             },
             {
                 "number": "6",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Undécima hora después de mediodía o de medianoche. Son las once."
             }
         ]
@@ -6520,12 +6526,14 @@
             },
             {
                 "number": "9",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Llamada a la oración mediante el toque de campana, que en algunas partes se repetía al amanecer y al mediodía."
             },
             {
                 "number": "10",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Punto del día en que está anocheciendo."
             }
         ]
@@ -6584,12 +6592,14 @@
             },
             {
                 "number": "9",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Llamada a la oración mediante el toque de campana, que en algunas partes se repetía al amanecer y al mediodía."
             },
             {
                 "number": "10",
-                "type": "nombre femenino plural",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
                 "definition": "Punto del día en que está anocheciendo."
             }
         ]
@@ -8639,8 +8649,8 @@
             },
             {
                 "number": "2",
-                "type": "locución verbal",
-                "type_extra": "coloquial, poco usada",
+                "type": "locución",
+                "type_extra": "coloquial, poco usada, verbal",
                 "definition": "Galantear, cortejar sin reparo ni disimulo."
             }
         ]
@@ -9071,33 +9081,38 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Decimosexta letra del abecedario español, que representa el fonema vocálico medio posterior."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Sonido que representa la letra o."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "En la lógica escolástica, letra que representa la proposición particular negativa."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "En donde.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Denota diferencia, separación o alternativa entre dos o más personas, cosas o ideas."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "generalmente ante cada uno de dos o más términos contrapuestos.",
                 "definition_extra": [
                     {
@@ -9108,7 +9123,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Denota equivalencia, significando 'o sea, o lo que es lo mismo'."
             }
         ]
@@ -9118,8 +9134,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
-                "definition": "Que tiene ocho sílabas. a un verso,.",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
+                "definition": "Que tiene ocho sílabas.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -9134,7 +9151,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "para manifestar muchos y muy diversos movimientos del ánimo, y más ordinariamente asombro, pena o alegría."
             }
         ]
@@ -9144,7 +9162,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "interjection",
+                "type": "interjección",
+                "type_extra": "sin verificar",
                 "definition": "Denota vivo deseo de que suceda algo.",
                 "definition_extra": [
                     {
@@ -9160,7 +9179,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Olfatear algo ligeramente.",
                 "definition_extra": [
                     {
@@ -9171,7 +9191,8 @@
             },
             {
                 "number": "2",
-                "type": "verb",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una persona: Husmear, curiosear."
             }
         ]
@@ -9181,7 +9202,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Juicio o valoración que se forma una persona respecto de algo o de alguien.",
                 "definition_extra": [
                     {
@@ -9192,7 +9214,8 @@
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Fama o concepto en que se tiene a alguien o algo.",
                 "definition_extra": [
                     {
@@ -9208,7 +9231,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Natural del oriente o de Oriente (‖ Asia y regiones inmediatas).",
                 "definition_extra": [
                     {
@@ -9223,7 +9247,8 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al oriente, a Oriente o a los orientales.",
                 "definition_extra": [
                     {
@@ -9238,17 +9263,20 @@
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Natural de Oriente, antigua provincia de Cuba."
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la antigua provincia cubana de Oriente o a los orientales."
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "uruguayo."
             }
         ]
@@ -9258,7 +9286,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al origen.",
                 "definition_extra": [
                     {
@@ -9273,27 +9302,32 @@
             },
             {
                 "number": "2",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una obra científica, artística, literaria o de cualquier otro género: Que resulta de la inventiva de su autor."
             },
             {
                 "number": "3",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de cualquier objeto: Que ha servido como modelo para hacer otro u otros iguales a él."
             },
             {
                 "number": "4",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de una pieza integrante de un aparato: Que procede de la misma fábrica donde este se construyó."
             },
             {
                 "number": "5",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Dicho de la lengua de una obra escrita o de una película: Que no es una traducción."
             },
             {
                 "number": "6",
-                "type": "adjective",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
                 "definition": "Que tiene, en sí o en sus obras o comportamiento, carácter de novedad.",
                 "definition_extra": [
                     {
@@ -9308,7 +9342,8 @@
             },
             {
                 "number": "7",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Objeto, frecuentemente artístico, que sirve de modelo para hacer otro u otros iguales a él.",
                 "definition_extra": [
                     {
@@ -9323,7 +9358,8 @@
             },
             {
                 "number": "8",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Escrito que sirve de modelo para sacar de él una copia.",
                 "definition_extra": [
                     {
@@ -9338,7 +9374,8 @@
             },
             {
                 "number": "9",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Persona retratada, respecto del retrato.",
                 "definition_extra": [
                     {
@@ -9354,22 +9391,26 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, en dativo o acusativo, designa, en España y ocasionalmente en América, a las personas a las que se dirige quien habla o escribe."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, en dativo o acusativo, designa a un grupo de personas entre las que se encuentra el destinatario del mensaje."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, en dativo o acusativo, designa a una o varias personas de muy alto rango o dignidad a las que se dirige quien habla o escribe. en el tratamiento reverencial de vos."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Forma que, en dativo o acusativo, designa a la persona a la que va dirigida la enunciación. en el trato de vos en zonas del área caribeña."
             }
         ]

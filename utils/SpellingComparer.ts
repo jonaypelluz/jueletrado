@@ -1,4 +1,5 @@
 import { AccentedVowels } from '@config/AccentRules';
+import { UNVERIFIED_TYPE_MARKER } from '@config/DefinitionConfig';
 
 export type SpellingResult = 'exact' | 'accent-miss' | 'wrong';
 
@@ -12,6 +13,7 @@ export type SpellingClue = {
     word: string;
     definition: string;
     type: string;
+    typeExtra?: string;
 };
 
 // ñ is deliberately absent: n/ñ are different letters, not an accent.
@@ -53,7 +55,7 @@ export const revealsWord = (definition: string, word: string): boolean =>
 const isEnglishTypeLabel = (type: string): boolean =>
     ENGLISH_TYPE_LABELS.has(type.toLowerCase().match(/\p{L}+/u)?.[0] ?? '');
 
-export const isUsableClue = ({ word, definition, type }: SpellingClue, locale: string): boolean =>
+export const isUsableClue = ({ word, definition, type, typeExtra }: SpellingClue, locale: string): boolean =>
     (definition.match(/\p{L}/gu)?.length ?? 0) >= MIN_CLUE_LETTERS &&
     !revealsWord(definition, word) &&
-    (locale !== 'es' || !isEnglishTypeLabel(type));
+    (locale !== 'es' || (!isEnglishTypeLabel(type) && !typeExtra?.includes(UNVERIFIED_TYPE_MARKER)));

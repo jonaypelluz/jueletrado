@@ -2,12 +2,11 @@
 
 import { useEffect, useState } from 'react';
 import { DEFINITION_LETTERS, LETTERS_WITHOUT_DEFINITIONS } from '@config/DefinitionConfig';
+import { MIN_DEFINITIONS_BY_LEVEL, TOTAL_QUIZ_DEFINITIONS } from '@games/definitionMaster/config';
 import { DefinitionWords, QuizDefinition } from '@models/types';
 import { loadDefinition } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import { getDefinitionForLevel } from '@utils/DefinitionPicker';
-
-const TOTAL_QUIZ_DEFINITIONS = 5;
 
 type SelectedAnswersType = { [key: string]: boolean };
 
@@ -69,7 +68,7 @@ const useDefinitionMaster = () => {
             return;
         }
 
-        const minDefs = gameLevel === 'beginner' ? 1 : gameLevel === 'intermediate' ? 2 : 3;
+        const minDefs = MIN_DEFINITIONS_BY_LEVEL[gameLevel ?? ''] ?? MIN_DEFINITIONS_BY_LEVEL.advanced;
         const preChosenWords: DefinitionWords = {};
 
         for (const key in words) {

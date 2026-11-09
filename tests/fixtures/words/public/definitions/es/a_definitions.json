@@ -1,0 +1,48 @@
+{
+    "atender": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Esperar o aguardar."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "V. cuidar."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Que se hace con,"
+            }
+        ]
+    },
+    "acudir": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo intransitivo",
+                "definition": "Ver atender."
+            }
+        ]
+    },
+    "aviso": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "<b>Noticia</b> &amp; advertencia."
+            }
+        ]
+    },
+    "árbol": {
+        "definitions": [
+            {
+                "number": "1",
+                "type": "noun",
+                "definition": "Planta perenne de tronco leñoso."
+            }
+        ]
+    }
+}

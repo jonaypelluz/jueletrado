@@ -401,7 +401,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "pronombre personal primera persona masculino y femenino singular",
+                "type": "pronombre",
+                "type_extra": "personal primera persona masculino y femenino singular",
                 "definition": "Forma que, en nominativo, designa a la persona que habla o escribe. Yo estoy muy tranquila.",
                 "definition_extra": [
                     {
@@ -682,34 +683,39 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Vigesimosexta letra del abecedario español, que representa, cuando aparece aislada o en final de palabra precedida de una vocal, el fonema vocálico cerrado anterior y, en las demás posiciones, el fonema consonántico palatal sonoro."
             },
             {
                 "number": "2",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "para unir palabras o cláusulas en concepto afirmativo. Si se coordinan más de dos vocablos o miembros del período, solo se expresa, generalmente, antes del último."
             },
             {
                 "number": "3",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "para formar grupos de dos o más palabras entre los cuales no se expresa. Se omite a veces por asíndeton. Se repite otras por polisíndeton."
             },
             {
                 "number": "4",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "a principio de período o cláusula sin enlace con vocablo o frase anterior, para dar énfasis o fuerza de expresión a lo que se dice."
             },
             {
                 "number": "5",
-                "type": "noun",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Denota idea de repetición indefinida, precedida y seguida por una misma palabra."
             },
             {
                 "number": "6",
-                "type": "noun",
+                "type": "nombre",
                 "definition": "allí.",
-                "type_extra": "obsolete"
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     }

@@ -71,6 +71,9 @@ describe('isUsableClue', () => {
         ['es', { word: 'casa', definition: 'abcde fghij', type: 'sustantivo' }, true],
         ['es', { word: 'casa', definition: ': 1234567890', type: 'sustantivo' }, false],
         ['es', { word: 'casa', definition: 'Una casa grande donde vive gente', type: 'sustantivo' }, false],
+        ['es', { word: 'casa', definition: VALID_DEFINITION, type: 'nombre', typeExtra: 'coloquial, sin verificar' }, false],
+        ['es', { word: 'casa', definition: VALID_DEFINITION, type: 'nombre', typeExtra: 'coloquial' }, true],
+        ['en', { word: 'house', definition: 'Building where a family lives', type: 'noun', typeExtra: 'sin verificar' }, true],
     ])('in locale %p for clue %p returns %p', (locale, clue, expected) => {
         expect(isUsableClue(clue, locale)).toBe(expected);
     });

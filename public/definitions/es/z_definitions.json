@@ -64,8 +64,8 @@
             },
             {
                 "number": "11",
-                "type": "nombre femenino coloquial",
-                "type_extra": "poco usado",
+                "type": "nombre femenino",
+                "type_extra": "poco usado, coloquial",
                 "definition": "Mujer del zapatero."
             },
             {
@@ -565,7 +565,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino desusado",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
                 "definition": "cebra."
             }
         ]

@@ -3204,112 +3204,6 @@
             }
         ]
     },
-    "d": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adjective",
-                "definition": "Abbreviation of declare.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "dec."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "From a higher position to a lower one; downwards."
-            },
-            {
-                "number": 3,
-                "type": "adverb",
-                "definition": "At a lower or further place or position along a set path."
-            },
-            {
-                "number": 4,
-                "type": "adverb",
-                "definition": "South (as south is at the bottom of typical maps)."
-            },
-            {
-                "number": 5,
-                "type": "adverb",
-                "definition": "Away from the city (regardless of direction)."
-            },
-            {
-                "number": 6,
-                "type": "adverb",
-                "definition": "At or towards any place that is visualised as 'down' by virtue of local features or local convention, or arbitrarily, irrespective of direction or elevation change."
-            },
-            {
-                "number": 7,
-                "type": "adverb",
-                "definition": "Towards the opponent's side (in ball-sports)."
-            },
-            {
-                "number": 8,
-                "type": "adverb",
-                "definition": "Into a state of non-operation."
-            },
-            {
-                "number": 9,
-                "type": "adverb",
-                "definition": "To a subordinate or less prestigious position or rank."
-            },
-            {
-                "number": 10,
-                "type": "adverb",
-                "definition": "In the direction leading away from the principal terminus, away from milepost zero."
-            },
-            {
-                "number": 11,
-                "type": "adverb",
-                "definition": "(sentence substitute) Get down."
-            },
-            {
-                "number": 12,
-                "type": "adverb",
-                "definition": "(academia) Away from Oxford or Cambridge."
-            },
-            {
-                "number": 13,
-                "type": "adverb",
-                "definition": "From a remoter or higher antiquity."
-            },
-            {
-                "number": 14,
-                "type": "adverb",
-                "definition": "So as to lessen quantity, level or intensity."
-            },
-            {
-                "number": 15,
-                "type": "adverb",
-                "definition": "So as to reduce size, weight or volume."
-            },
-            {
-                "number": 16,
-                "type": "adverb",
-                "definition": "From less to greater detail."
-            },
-            {
-                "number": 17,
-                "type": "adverb",
-                "definition": "So as to secure or compress something to the floor, ground, or other (usually horizontal) surface."
-            },
-            {
-                "number": 18,
-                "type": "adverb",
-                "definition": "(intensifier) Used with verbs to add emphasis to the action of the verb."
-            },
-            {
-                "number": 19,
-                "type": "adverb",
-                "definition": "Used with verbs to indicate that the action of the verb was carried to some state of completion, rather than being of indefinite duration."
-            }
-        ]
-    },
     "da": {
         "level": "beginner",
         "definitions": [
@@ -4264,46 +4158,6 @@
             }
         ]
     },
-    "dc": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "District court."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Direct current."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "(degree) doctor of chiropractic."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Debit card."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "(law enforcement) detective constable, a police rank used in Commonwealth countries."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "Initialism of defined contributions."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "Initialism of device context."
-            }
-        ]
-    },
     "de": {
         "level": "beginner",
         "definitions": [
@@ -5057,7 +4911,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A group, set, or series of ten, particularly:."
+                "definition": "A group, set, or series of ten."
             },
             {
                 "number": 2,
@@ -5077,7 +4931,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A group, set, or series of ten, particularly:."
+                "definition": "A group, set, or series of ten."
             },
             {
                 "number": 2,
@@ -8045,16 +7899,6 @@
             },
             {
                 "number": 9,
-                "type": "noun",
-                "definition": "(logic circuits) A Boolean operation which is TRUE when the two input variables are different but is otherwise FALSE; the XOR operation (\\scriptstyle A \\overline B + \\overline A B)."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "(relational algebra) the set of elements that are in one set but not another (\\scriptstyle A \\overline B)."
-            },
-            {
-                "number": 11,
                 "type": "verb",
                 "definition": "To distinguish or differentiate."
             }
@@ -8111,16 +7955,6 @@
             },
             {
                 "number": 9,
-                "type": "noun",
-                "definition": "(logic circuits) A Boolean operation which is TRUE when the two input variables are different but is otherwise FALSE; the XOR operation (\\scriptstyle A \\overline B + \\overline A B)."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "(relational algebra) the set of elements that are in one set but not another (\\scriptstyle A \\overline B)."
-            },
-            {
-                "number": 11,
                 "type": "verb",
                 "definition": "To distinguish or differentiate."
             }
@@ -11433,27 +11267,6 @@
             }
         ]
     },
-    "dr": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A person or firm that owes money; one in debt; one who owes a debt.",
-                "definition_extra": [
-                    {
-                        "type": "Antonyms",
-                        "content": "creditor."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "One who owes another anything, or is under obligation, arising from express agreement, implication of law, or principles of natural justice, to pay money or to fulfill some other obligation; in bankruptcy or similar proceedings, the person who is the subject of the proceeding."
-            }
-        ]
-    },
     "draft": {
         "level": "beginner",
         "definitions": [
@@ -12824,7 +12637,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A thing which drops or hangs down:."
+                "definition": "A thing which drops or hangs down."
             },
             {
                 "number": 6,
@@ -12844,7 +12657,7 @@
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "A thing, person, etc which is dropped:."
+                "definition": "A thing, person, etc which is dropped."
             },
             {
                 "number": 10,
@@ -13620,7 +13433,7 @@
             {
                 "number": 18,
                 "type": "adjective",
-                "definition": "Free from or lacking embellishment or sweetness, particularly:."
+                "definition": "Free from or lacking embellishment or sweetness."
             },
             {
                 "number": 19,
@@ -15979,81 +15792,6 @@
                 "number": 13,
                 "type": "noun",
                 "definition": "A statement that establishes the referent of a term or notation."
-            }
-        ]
-    },
-    "del": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The symbol ∇ used to denote the gradient operator."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "The symbol ∂, in the context of a partial differential."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A part, portion."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A person authorized to act as representative for another; a deputy."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A representative at a conference, etc."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "An appointed representative in some legislative bodies."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A type of variable storing a reference to a method with a particular signature, analogous to a function pointer."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "An act of delegating."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A group of delegates used to discuss issues with an opponent."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A method-dispatching technique describing the lookup and inheritance rules for self-referential calls."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "A contract whereby the original debtor substitutes a new debtor in his stead, with the creditor’s permission."
-            },
-            {
-                "number": 12,
-                "type": "verb",
-                "definition": "To remove, get rid of or erase, especially written or printed material, or data on a computer or other device.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "clear, erase, remove, strike, terminate."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "insert, main."
-                    }
-                ]
             }
         ]
     },
@@ -18826,7 +18564,7 @@
             {
                 "number": 19,
                 "type": "verb",
-                "definition": "To prepare (food) with spices, making it spicy:."
+                "definition": "To prepare (food) with spices, making it spicy."
             }
         ]
     },
@@ -22784,7 +22522,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "An animal of various species that resemble a dragon in appearance:."
+                "definition": "An animal of various species that resemble a dragon in appearance."
             },
             {
                 "number": 3,
@@ -24060,7 +23798,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A thing which drops or hangs down:."
+                "definition": "A thing which drops or hangs down."
             },
             {
                 "number": 6,
@@ -24080,7 +23818,7 @@
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "A thing, person, etc which is dropped:."
+                "definition": "A thing, person, etc which is dropped."
             },
             {
                 "number": 10,
@@ -28157,7 +27895,7 @@
             {
                 "number": 19,
                 "type": "verb",
-                "definition": "To prepare (food) with spices, making it spicy:."
+                "definition": "To prepare (food) with spices, making it spicy."
             }
         ]
     },
@@ -31749,7 +31487,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "An animal of various species that resemble a dragon in appearance:."
+                "definition": "An animal of various species that resemble a dragon in appearance."
             },
             {
                 "number": 3,
@@ -33199,16 +32937,6 @@
                 "number": 13,
                 "type": "noun",
                 "definition": "Any small cubical or square body."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "A colourant, especially one that has an affinity to the substrate to which it is applied."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "Any hue, color, or blee."
             }
         ]
     },
@@ -33249,11 +32977,6 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Dyslexic."
-            },
-            {
-                "number": 2,
-                "type": "adjective",
                 "definition": "Dyslexic."
             }
         ]
@@ -34767,16 +34490,6 @@
             }
         ]
     },
-    "dd": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Day, in two-digit, numeric format, as in dd/mm/yyyy."
-            }
-        ]
-    },
     "debug": {
         "level": "advanced",
         "definitions": [
@@ -35462,36 +35175,6 @@
             }
         ]
     },
-    "df": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Initialism of date of filing."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Any of the coordinates, a minimum number of which are needed to specify the motion of a mechanical system."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Any of the independent variables required to specify the thermodynamic state of a system containing components and phases."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Any unrestricted variable in a frequency distribution."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "In photography, the distance in front of and behind the subject that appears to be in focus."
-            }
-        ]
-    },
     "dialog": {
         "level": "advanced",
         "definitions": [
@@ -35718,11 +35401,6 @@
             },
             {
                 "number": 6,
-                "type": "proper noun",
-                "definition": "A program, historically part of the Unix operating system, which compares two files or sets of files and outputs a description of the differences between them."
-            },
-            {
-                "number": 7,
                 "type": "noun",
                 "definition": "The quality of being different.",
                 "definition_extra": [
@@ -35733,72 +35411,62 @@
                 ]
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "noun",
                 "definition": "A characteristic of something that makes it different from something else."
             },
             {
-                "number": 9,
+                "number": 8,
                 "type": "noun",
                 "definition": "A disagreement or argument."
             },
             {
-                "number": 10,
+                "number": 9,
                 "type": "noun",
                 "definition": "Significant change in or effect on a situation or state."
             },
             {
-                "number": 11,
+                "number": 10,
                 "type": "noun",
                 "definition": "The result of a subtraction; sometimes the absolute value of this result."
             },
             {
-                "number": 12,
+                "number": 11,
                 "type": "noun",
                 "definition": "Choice; preference."
             },
             {
-                "number": 13,
+                "number": 12,
                 "type": "noun",
                 "definition": "An addition to a coat of arms to distinguish two people's bearings which would otherwise be the same. See augmentation and cadency."
             },
             {
-                "number": 14,
+                "number": 13,
                 "type": "noun",
                 "definition": "The quality or attribute which is added to those of the genus to constitute a species; a differentia."
             },
             {
-                "number": 15,
-                "type": "noun",
-                "definition": "(logic circuits) A Boolean operation which is TRUE when the two input variables are different but is otherwise FALSE; the XOR operation (\\scriptstyle A \\overline B + \\overline A B)."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "(relational algebra) the set of elements that are in one set but not another (\\scriptstyle A \\overline B)."
-            },
-            {
-                "number": 17,
+                "number": 14,
                 "type": "noun",
                 "definition": "The differential gear in an automobile etc."
             },
             {
-                "number": 18,
+                "number": 15,
                 "type": "noun",
                 "definition": "A qualitative or quantitative difference between similar or comparable things."
             },
             {
-                "number": 19,
+                "number": 16,
                 "type": "noun",
                 "definition": "An infinitesimal change in a variable, or the result of differentiation."
             },
             {
-                "number": 20,
+                "number": 17,
                 "type": "noun",
                 "definition": "One of two coils of conducting wire so related to one another or to a magnet or armature common to both, that one coil produces polar action contrary to that of the other."
             },
             {
-                "number": 21,
+                "number": 18,
                 "type": "noun",
                 "definition": "A form of conductor used for dividing and distributing the current to a series of electric lamps so as to maintain equal action in all."
             }
@@ -35881,35 +35549,25 @@
             {
                 "number": 14,
                 "type": "noun",
-                "definition": "(logic circuits) A Boolean operation which is TRUE when the two input variables are different but is otherwise FALSE; the XOR operation (\\scriptstyle A \\overline B + \\overline A B)."
+                "definition": "The differential gear in an automobile etc."
             },
             {
                 "number": 15,
                 "type": "noun",
-                "definition": "(relational algebra) the set of elements that are in one set but not another (\\scriptstyle A \\overline B)."
+                "definition": "A qualitative or quantitative difference between similar or comparable things."
             },
             {
                 "number": 16,
                 "type": "noun",
-                "definition": "The differential gear in an automobile etc."
+                "definition": "An infinitesimal change in a variable, or the result of differentiation."
             },
             {
                 "number": 17,
                 "type": "noun",
-                "definition": "A qualitative or quantitative difference between similar or comparable things."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "An infinitesimal change in a variable, or the result of differentiation."
-            },
-            {
-                "number": 19,
-                "type": "noun",
                 "definition": "One of two coils of conducting wire so related to one another or to a magnet or armature common to both, that one coil produces polar action contrary to that of the other."
             },
             {
-                "number": 20,
+                "number": 18,
                 "type": "noun",
                 "definition": "A form of conductor used for dividing and distributing the current to a series of electric lamps so as to maintain equal action in all."
             }
@@ -37068,91 +36726,6 @@
             }
         ]
     },
-    "dl": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Light destroyer, a variant of the destroyer type of warship."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Destroyer leader, a variant of the destroyer type of warship."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Driver's license."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "Initialism of disabled list."
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "Initialism of disabled list.. To place on the disabled list."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A state of secrecy."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "(sexuality) The state of being a man who secretly sleeps with people other than his partner."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "(sexuality) The state of being a man who secretly sleeps with other men."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A file transfer to the local computer."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A file that has been, or will be transferred in this way."
-            },
-            {
-                "number": 11,
-                "type": "verb",
-                "definition": "To transfer data from a remote computer (server) to a local computer, usually via a network.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "copy, move, transfer."
-                    },
-                    {
-                        "type": "Antonyms",
-                        "content": "upload."
-                    }
-                ]
-            },
-            {
-                "number": 12,
-                "type": "verb",
-                "definition": "To upload; to copy a file from a local computer to a remote computer via a network."
-            },
-            {
-                "number": 13,
-                "type": "verb",
-                "definition": "To transfer a file to or from removable media."
-            },
-            {
-                "number": 14,
-                "type": "verb",
-                "definition": "To install software."
-            }
-        ]
-    },
     "docs": {
         "level": "advanced",
         "definitions": [
@@ -37330,64 +36903,6 @@
             },
             {
                 "number": 8,
-                "type": "noun",
-                "definition": "A syllable used in solfège to represent the first and eighth tonic of a major scale.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "ut."
-                    }
-                ]
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A party, celebration, social function.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "get-together."
-                    }
-                ]
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A hairdo."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "Something that can or should be done (usually in the phrase dos and don'ts)."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "A deed; an act."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "Ado; bustle; stir; to-do; A period of confusion or argument.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "to-do."
-                    }
-                ]
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "A cheat; a swindler."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "An act of swindling; a fraud or deception."
-            },
-            {
-                "number": 16,
                 "type": "noun",
                 "definition": "A syllable used in solfège to represent the first and eighth tonic of a major scale.",
                 "definition_extra": [
@@ -37605,7 +37120,7 @@
             {
                 "number": 13,
                 "type": "adjective",
-                "definition": "Free from or lacking embellishment or sweetness, particularly:."
+                "definition": "Free from or lacking embellishment or sweetness."
             },
             {
                 "number": 14,
@@ -37726,56 +37241,6 @@
                 "number": 2,
                 "type": "adjective",
                 "definition": "Able to resist wear, decay; lasting; enduring."
-            }
-        ]
-    },
-    "dx": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "verb",
-                "definition": "To diagnose."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "The differential with respect to the variable x."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "The identification of the nature and cause of an illness."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "The identification of the nature and cause of something (of any nature)."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A written description of a species or other taxon serving to distinguish that species from all others. Especially, a description written in Latin and published."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "The differential with respect to the variable x."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "The identification of the nature and cause of an illness."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "The identification of the nature and cause of something (of any nature)."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A written description of a species or other taxon serving to distinguish that species from all others. Especially, a description written in Latin and published."
             }
         ]
     },
@@ -38258,27 +37723,6 @@
                 "number": 5,
                 "type": "noun",
                 "definition": "A timber placed diagonally in a ship's frame."
-            }
-        ]
-    },
-    "dago": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A person of Italian, Spanish, Portuguese, or other Mediterranean descent."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A person of Italian descent.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "Eyetie, goombah, greaseball, guido, guinea, wog, wop."
-                    }
-                ]
             }
         ]
     },
@@ -38833,7 +38277,7 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "Something that damps or checks:."
+                "definition": "Something that damps or checks."
             },
             {
                 "number": 5,
@@ -39579,21 +39023,6 @@
             }
         ]
     },
-    "darkie": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A person with dark skin."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A dark lantern."
-            }
-        ]
-    },
     "darkling": {
         "level": "advanced",
         "definitions": [
@@ -39737,16 +39166,11 @@
             },
             {
                 "number": 4,
-                "type": "interjection",
-                "definition": "Damn."
-            },
-            {
-                "number": 5,
                 "type": "noun",
                 "definition": "A place mended by darning."
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "verb",
                 "definition": "To repair by stitching with thread or yarn, particularly by using a needle to construct a weave across a damaged area of fabric."
             }
@@ -40621,11 +40045,6 @@
             },
             {
                 "number": 3,
-                "type": "noun",
-                "definition": "Present participle of daunt."
-            },
-            {
-                "number": 4,
                 "type": "adjective",
                 "definition": "Discouraging; inspiring fear.",
                 "definition_extra": [
@@ -40640,7 +40059,7 @@
                 ]
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "adjective",
                 "definition": "Intimidatingly impressive; awe-inspiring, overwhelming.",
                 "definition_extra": [
@@ -40655,7 +40074,7 @@
                 ]
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "adjective",
                 "definition": "Appearing to be difficult; challenging.",
                 "definition_extra": [
@@ -48444,7 +47863,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Something dependent on, or subordinate to, something else:."
+                "definition": "Something dependent on, or subordinate to, something else."
             },
             {
                 "number": 3,
@@ -49941,7 +49360,7 @@
             {
                 "number": 2,
                 "type": "adjective",
-                "definition": "(usually with to) Tending to derogate:.",
+                "definition": "(usually with to) Tending to derogate.",
                 "definition_extra": [
                     {
                         "type": "Synonyms",
@@ -53100,7 +52519,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Anything forming or resembling such a line, particularly:."
+                "definition": "Anything forming or resembling such a line."
             },
             {
                 "number": 3,
@@ -55406,33 +54825,23 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "verb",
-                "definition": "Alternative form of dyke: to dig a ditch; to raise an earthwork; etc."
+                "type": "noun",
+                "definition": "(usually derogatory) A lesbian, particularly one with masculine or butch traits or behavior."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "(usually derogatory) A lesbian, particularly one with masculine or butch traits or behavior."
+                "definition": "A well-dressed man."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "A well-dressed man."
-            },
-            {
-                "number": 4,
-                "type": "noun",
                 "definition": "Formalwear or other fashionable dress."
             },
             {
-                "number": 5,
+                "number": 4,
                 "type": "verb",
                 "definition": "To be well dressed."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "(usually derogatory) A lesbian, particularly one with masculine or butch traits or behavior."
             }
         ]
     },
@@ -56706,15 +56115,10 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "An idiot."
-            },
-            {
-                "number": 6,
-                "type": "noun",
                 "definition": "An attachment to a clock by which the quarter hours are struck upon bells of different tones."
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "verb",
                 "definition": "To ring with two tones, like a bell swinging back and forth."
             }
@@ -63215,11 +62619,6 @@
                 "number": 4,
                 "type": "verb",
                 "definition": "To undergo dissociation."
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "To undergo dissociation."
             }
         ]
     },
@@ -63243,11 +62642,6 @@
             },
             {
                 "number": 4,
-                "type": "verb",
-                "definition": "To undergo dissociation."
-            },
-            {
-                "number": 5,
                 "type": "verb",
                 "definition": "To undergo dissociation."
             }
@@ -64792,15 +64186,10 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "The operator which maps a function F=(F1,... Fn) from a n-dimensional vector space to itself to the number \\sum_{i=1}^n \\frac{\\partial F_i}{\\partial x_i}."
-            },
-            {
-                "number": 3,
-                "type": "noun",
                 "definition": "Disagreement; difference."
             },
             {
-                "number": 4,
+                "number": 3,
                 "type": "noun",
                 "definition": "The process in which two or more populations accumulate genetic changes (mutations) through time."
             }
@@ -66847,7 +66236,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A contrivance for stirring:."
+                "definition": "A contrivance for stirring."
             },
             {
                 "number": 3,
@@ -67159,15 +66548,10 @@
             {
                 "number": 5,
                 "type": "verb",
-                "definition": "To adapt to live with humans."
-            },
-            {
-                "number": 6,
-                "type": "verb",
                 "definition": "To make a legal instrument recognized and enforceable in a jurisdiction foreign to the one in which the instrument was originally issued or created."
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "verb",
                 "definition": "To amend the elements of a text to fit local culture.",
                 "definition_extra": [
@@ -67200,15 +66584,10 @@
             {
                 "number": 4,
                 "type": "verb",
-                "definition": "To adapt to live with humans."
-            },
-            {
-                "number": 5,
-                "type": "verb",
                 "definition": "To make a legal instrument recognized and enforceable in a jurisdiction foreign to the one in which the instrument was originally issued or created."
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "verb",
                 "definition": "To amend the elements of a text to fit local culture.",
                 "definition_extra": [
@@ -67219,7 +66598,7 @@
                 ]
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "adjective",
                 "definition": "(of an animal or a plant, especially a pet) selectively bred to live with or around humans."
             }
@@ -70425,36 +69804,11 @@
             },
             {
                 "number": 7,
-                "type": "verb",
-                "definition": "To plunge suddenly into water; to duck; to immerse."
-            },
-            {
-                "number": 8,
-                "type": "verb",
-                "definition": "To fall suddenly into water."
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "To put out; to extinguish."
-            },
-            {
-                "number": 10,
                 "type": "noun",
                 "definition": "A blow or stroke, especially to the face."
             },
             {
-                "number": 11,
-                "type": "verb",
-                "definition": "To strike, beat, or thrash."
-            },
-            {
-                "number": 12,
-                "type": "verb",
-                "definition": "To strike or lower in haste; to slacken suddenly."
-            },
-            {
-                "number": 13,
+                "number": 8,
                 "type": "verb",
                 "definition": "To use the dipping or divining rod, as in search of water, ore, etc."
             }
@@ -71077,7 +70431,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A small unit of weight, variously:."
+                "definition": "A small unit of weight, variously."
             },
             {
                 "number": 6,
@@ -71693,11 +71047,6 @@
                 "number": 36,
                 "type": "noun",
                 "definition": "A board game for two players in which the players each have a set number of pieces (typically 12 or 20, depending on the rule set), known as men, and the object is to capture each of the opponent's pieces by jumping one's own pieces over the opponent's pieces."
-            },
-            {
-                "number": 37,
-                "type": "noun",
-                "definition": "A mild vesicatory."
             }
         ]
     },
@@ -72213,7 +71562,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Any instrument used to gather or take by dragging; as:."
+                "definition": "Any instrument used to gather or take by dragging."
             },
             {
                 "number": 2,
@@ -72658,7 +72007,7 @@
             {
                 "number": 13,
                 "type": "adjective",
-                "definition": "Free from or lacking embellishment or sweetness, particularly:."
+                "definition": "Free from or lacking embellishment or sweetness."
             },
             {
                 "number": 14,
@@ -73106,7 +72455,7 @@
             {
                 "number": 3,
                 "type": "adjective",
-                "definition": "Maudlin, tiresome or annoying;."
+                "definition": "Maudlin, tiresome or annoying."
             }
         ]
     },
@@ -77108,16 +76457,6 @@
                 "number": 3,
                 "type": "verb",
                 "definition": "To colour with dye, or as if with dye."
-            }
-        ]
-    },
-    "dyke": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(usually derogatory) A lesbian, particularly one with masculine or butch traits or behavior."
             }
         ]
     },
