@@ -152,6 +152,9 @@ describe('classifySense', () => {
         ['es', sense('Perteneciente o relativo al abdomen. a un músculo,.'), 'D5', 'Perteneciente o relativo al abdomen.'],
         ['en', sense('The study of the past by excavation and analysis of its material remains:.', 'noun', 1), 'D5',
             'The study of the past by excavation and analysis of its material remains.'],
+        ['en', sense('A formation of minerals, specifically:.', 'noun', 1), 'D5', 'A formation of minerals.'],
+        ['en', sense('An aboriginal inhabitant of a region; in particular:', 'noun', 1), 'D5', 'An aboriginal inhabitant of a region.'],
+        ['en', sense('A private cabinet, (particularly):', 'noun', 1), 'D5', 'A private cabinet.'],
     ] as const)('in locale %p fixes %p as %s to %p', (locale, input, fix, text) => {
         const result = classifySense(input, locale);
 

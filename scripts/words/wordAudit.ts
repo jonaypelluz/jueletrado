@@ -138,6 +138,9 @@ const EN_FORM_OF_RE = new RegExp(
 );
 const ES_FORM_OF_RE = /^((plural|femenino|participio|gerundio)|forma (plural|femenina|masculina)) de \p{L}+\.$/iu;
 const TRUNCATED_RE = /[,;:]\.?$/;
+/** A list lead-in left dangling once the truncated list is cut (`…, particularly.`); dropped so the sense reads as a sentence. */
+const DANGLING_LEAD_IN_RE =
+    /[,;]?\s*\(?\b(particularly|especially|specifically|including|notably|namely|in particular|such as|as|thus|for example|for instance|equivalent to)\)?\.$/i;
 
 const ACCENT_STRIP: Record<string, string> = { á: 'a', é: 'e', í: 'i', ó: 'o', ú: 'u', ü: 'u' };
 const MAX_FIX_PASSES = 3;
@@ -213,10 +216,10 @@ const decodeEntity = (_match: string, name: string): string => {
     return codePoint === null ? NAMED_ENTITIES[name.toLowerCase()] : String.fromCodePoint(codePoint);
 };
 
-/** R15: cut the fragment after the last `. ` when there is one, else end the text with `.`. */
+/** R15: cut the fragment after the last `. ` when there is one, else end the text with `.` (dropping a dangling lead-in). */
 const repairTruncated = (text: string): string => {
     const lastStop = text.lastIndexOf('. ');
-    return lastStop !== -1 ? text.slice(0, lastStop + 1) : text.replace(TRUNCATED_RE, '.');
+    return lastStop !== -1 ? text.slice(0, lastStop + 1) : text.replace(TRUNCATED_RE, '.').replace(DANGLING_LEAD_IN_RE, '.');
 };
 
 const normalizeText = (text: string): string => text.replace(/\s+/g, ' ').trim();
