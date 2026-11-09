@@ -1,73 +1,4 @@
 {
-    "c": {
-        "definitions": [
-            {
-                "number": 1,
-                "definition": "Abbreviation of circa.",
-                "type": "adverb"
-            },
-            {
-                "number": 2,
-                "definition": "The middle tone in either one of the sets of seven white keys on a keyboard or a set of seven strings on a stringed instrument.",
-                "type": "noun"
-            },
-            {
-                "number": 3,
-                "definition": "(stative) To perceive or detect with the eyes, or as if by sight.",
-                "type": "verb"
-            },
-            {
-                "number": 4,
-                "definition": "To form a mental picture of.",
-                "type": "verb"
-            },
-            {
-                "number": 5,
-                "definition": "(social) To meet, to visit.",
-                "type": "verb"
-            },
-            {
-                "number": 6,
-                "definition": "To be the setting or time of.",
-                "type": "verb"
-            },
-            {
-                "number": 7,
-                "definition": "(by extension) To ensure that something happens, especially while witnessing it.",
-                "type": "verb"
-            },
-            {
-                "number": 8,
-                "definition": "To wait upon; attend, escort.",
-                "type": "verb"
-            },
-            {
-                "number": 9,
-                "definition": "To respond to another player's bet with a bet of equal value.",
-                "type": "verb"
-            },
-            {
-                "number": 10,
-                "definition": "To determine by trial or experiment; to find out (if or whether).",
-                "type": "verb"
-            },
-            {
-                "number": 11,
-                "definition": "(used in the imperative) To reference or to study for further details.",
-                "type": "verb"
-            },
-            {
-                "number": 12,
-                "definition": "To examine something closely, or to utilize something, often as a temporary alternative.",
-                "type": "verb"
-            },
-            {
-                "number": 13,
-                "definition": "To include as one of something's experiences.",
-                "type": "verb"
-            }
-        ]
-    },
     "cabin": {
         "definitions": [
             {
@@ -327,17 +258,7 @@
             },
             {
                 "number": 9,
-                "definition": "Alternative spelling of canvass.",
-                "type": "noun"
-            },
-            {
-                "number": 10,
                 "definition": "To cover an area or object with canvas.",
-                "type": "verb"
-            },
-            {
-                "number": 11,
-                "definition": "Alternative spelling of canvass.",
                 "type": "verb"
             }
         ]
@@ -767,7 +688,7 @@
             },
             {
                 "number": 2,
-                "definition": "To provide, particularly:.",
+                "definition": "To provide.",
                 "type": "verb"
             },
             {
@@ -1155,7 +1076,7 @@
             },
             {
                 "number": 8,
-                "definition": "Various administrative divisions of imperial and early Republican China, including:.",
+                "definition": "Various administrative divisions of imperial and early Republican China.",
                 "type": "noun"
             },
             {
@@ -1356,11 +1277,6 @@
                 "number": 5,
                 "definition": "The act of rendering a criminal process civil.",
                 "type": "noun"
-            },
-            {
-                "number": 6,
-                "definition": "Collectively, those people of the world considered to have a high standard of behavior and / or a high level of development. Commonly subjectively used by people of one society to exclusively refer to their society, or their elite sub-group, or a few associated societies, implying all others, in time or geography or status, as something less than civilised, as savages or barbarians. cf refinement, elitism, civilised society, the Civilised World.",
-                "type": "proper noun"
             }
         ]
     },
@@ -1765,7 +1681,7 @@
             },
             {
                 "number": 11,
-                "definition": "Something which has been clipped from a larger whole:.",
+                "definition": "Something which has been clipped from a larger whole.",
                 "type": "noun"
             },
             {
@@ -3816,7 +3732,7 @@
             },
             {
                 "number": 2,
-                "definition": "An act of conceding, particularly:.",
+                "definition": "An act of conceding.",
                 "type": "noun"
             },
             {
@@ -7347,7 +7263,7 @@
             },
             {
                 "number": 7,
-                "definition": "The top part of something:.",
+                "definition": "The top part of something.",
                 "type": "noun"
             },
             {
@@ -8232,16 +8148,6 @@
                 "number": 5,
                 "definition": "Like the actions of a snarling dog, especially in reference to facial nerve paralysis.",
                 "type": "adjective"
-            }
-        ]
-    },
-    "ca": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adverb",
-                "definition": "Abbreviation of circa."
             }
         ]
     },
@@ -11643,7 +11549,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An animal of the family Felidae:.",
+                "definition": "An animal of the family Felidae.",
                 "definition_extra": [
                     {
                         "type": "Synonyms",
@@ -11654,7 +11560,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A person:."
+                "definition": "A person."
             },
             {
                 "number": 3,
@@ -15440,7 +15346,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A figurative offspring, particularly:."
+                "definition": "A figurative offspring."
             },
             {
                 "number": 6,
@@ -15505,7 +15411,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A figurative offspring, particularly:."
+                "definition": "A figurative offspring."
             },
             {
                 "number": 6,
@@ -17107,65 +17013,25 @@
             {
                 "number": 18,
                 "type": "noun",
-                "definition": "A brief, sharp, not particularly loud, relatively high-pitched sound produced by the impact of something small and hard against something hard, such as by the operation of a switch, a lock or a latch, or a finger pressed against the thumb and then released to strike the hand."
+                "definition": "A detent, pawl, or ratchet, such as that which catches the cogs of a ratchet wheel to prevent backward motion."
             },
             {
                 "number": 19,
                 "type": "noun",
-                "definition": "An ingressive sound made by coarticulating a velar or uvular closure with another closure."
+                "definition": "The latch of a door."
             },
             {
                 "number": 20,
                 "type": "noun",
-                "definition": "Sound made by a dolphin."
+                "definition": "A kilometer."
             },
             {
                 "number": 21,
                 "type": "noun",
-                "definition": "The act of operating a switch, etc., so that it clicks."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "The act of pressing a button on a computer mouse, both as a physical act and a reaction in the software."
-            },
-            {
-                "number": 23,
-                "type": "noun",
-                "definition": "A pawl or similar catch."
-            },
-            {
-                "number": 24,
-                "type": "noun",
-                "definition": "A detent, pawl, or ratchet, such as that which catches the cogs of a ratchet wheel to prevent backward motion."
-            },
-            {
-                "number": 25,
-                "type": "noun",
-                "definition": "The latch of a door."
-            },
-            {
-                "number": 26,
-                "type": "noun",
-                "definition": "A kilometer."
-            },
-            {
-                "number": 27,
-                "type": "noun",
                 "definition": "(usually in the plural) Kilometres per hour."
             },
             {
-                "number": 28,
-                "type": "noun",
-                "definition": "A detent, pawl, or ratchet, such as that which catches the cogs of a ratchet wheel to prevent backward motion."
-            },
-            {
-                "number": 29,
-                "type": "noun",
-                "definition": "The latch of a door."
-            },
-            {
-                "number": 30,
+                "number": 22,
                 "type": "verb",
                 "definition": "To snatch."
             }
@@ -18541,7 +18407,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A subset thereof:."
+                "definition": "A subset thereof."
             },
             {
                 "number": 3,
@@ -18577,7 +18443,7 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "A standard, flag, or insignia:."
+                "definition": "A standard, flag, or insignia."
             },
             {
                 "number": 9,
@@ -22766,7 +22632,7 @@
             {
                 "number": 23,
                 "type": "noun",
-                "definition": "Various former units of volume, particularly:."
+                "definition": "Various former units of volume."
             },
             {
                 "number": 24,
@@ -25336,65 +25202,60 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "The symbol \\cup denoting union and similar operations (confer cap)."
+                "definition": "A suit of the minor arcana in tarot, or one of the cards from the suit."
             },
             {
                 "number": 12,
                 "type": "noun",
-                "definition": "A suit of the minor arcana in tarot, or one of the cards from the suit."
+                "definition": "(ultimate frisbee) A defensive style characterized by a three player near defense cupping the thrower; or those three players."
             },
             {
                 "number": 13,
                 "type": "noun",
-                "definition": "(ultimate frisbee) A defensive style characterized by a three player near defense cupping the thrower; or those three players."
+                "definition": "A flexible concave membrane used to temporarily attach a handle or hook to a flat surface by means of suction (suction cup)."
             },
             {
                 "number": 14,
                 "type": "noun",
-                "definition": "A flexible concave membrane used to temporarily attach a handle or hook to a flat surface by means of suction (suction cup)."
+                "definition": "Anything shaped like a cup."
             },
             {
                 "number": 15,
                 "type": "noun",
-                "definition": "Anything shaped like a cup."
+                "definition": "A cupping glass or other vessel or instrument used to produce the vacuum in cupping."
             },
             {
                 "number": 16,
                 "type": "noun",
-                "definition": "A cupping glass or other vessel or instrument used to produce the vacuum in cupping."
-            },
-            {
-                "number": 17,
-                "type": "noun",
                 "definition": "That which is to be received or indured; that which is allotted to one; a portion of blessings and afflictions."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To form into the shape of a cup, particularly of the hands."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "verb",
                 "definition": "To hold something in cupped hands."
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "verb",
                 "definition": "To pour (a liquid, drink, etc.) into a cup."
             },
             {
-                "number": 21,
+                "number": 20,
                 "type": "verb",
                 "definition": "To supply with cups of wine."
             },
             {
-                "number": 22,
+                "number": 21,
                 "type": "verb",
                 "definition": "To apply a cupping apparatus to; to subject to the operation of cupping."
             },
             {
-                "number": 23,
+                "number": 22,
                 "type": "verb",
                 "definition": "To make concave or in the form of a cup."
             }
@@ -26596,11 +26457,6 @@
                 "number": 6,
                 "type": "verb",
                 "definition": "To go on webcam with someone."
-            },
-            {
-                "number": 7,
-                "type": "adverb",
-                "definition": "Alternative form of kam."
             }
         ]
     },
@@ -27176,20 +27032,15 @@
             {
                 "number": 28,
                 "type": "noun",
-                "definition": "A carom."
+                "definition": "A clergy member serving a cathedral or collegiate church."
             },
             {
                 "number": 29,
                 "type": "noun",
-                "definition": "A clergy member serving a cathedral or collegiate church."
-            },
-            {
-                "number": 30,
-                "type": "noun",
                 "definition": "A canon regular, a member of any of several Roman Catholic religious orders."
             },
             {
-                "number": 31,
+                "number": 30,
                 "type": "noun",
                 "definition": "A Near Eastern and Caucasian musical instrument related to the zither, dulcimer, or harp having either 26 strings and a single bridge, or twice that number and two bridges."
             }
@@ -28758,7 +28609,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "An animal of the family Felidae:.",
+                "definition": "An animal of the family Felidae.",
                 "definition_extra": [
                     {
                         "type": "Synonyms",
@@ -28769,7 +28620,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A person:."
+                "definition": "A person."
             },
             {
                 "number": 3,
@@ -28922,61 +28773,6 @@
                 "number": 30,
                 "type": "noun",
                 "definition": "Such a fake profile."
-            }
-        ]
-    },
-    "cc": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(initialism) Carbon copy."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(initialism) Closed caption."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "(initialism) Courtesy copy."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "(initialism) Cubic centimeter."
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "To add an additional recipient to the CC line of an e-mail message."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "(authorship) One of the main sections into which the text of a book is divided."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A section of a social or religious body."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A sequence (of events), especially when presumed related and likely to continue."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A decretal epistle."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "A location or compartment."
             }
         ]
     },
@@ -29812,201 +29608,6 @@
             }
         ]
     },
-    "cf": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "verb",
-                "definition": "Compare, compare to, compare with."
-            },
-            {
-                "number": 2,
-                "type": "verb",
-                "definition": "See also."
-            }
-        ]
-    },
-    "ch": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A series of interconnected rings or links usually made of metal."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A series of interconnected things."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "A series of stores or businesses with the same brand name."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "A number of atoms in a series, which combine to form a molecule."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A series of interconnected links of known length, used as a measuring device."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "A long measuring tape."
-            },
-            {
-                "number": 7,
-                "type": "noun",
-                "definition": "A unit of length equal to 22 yards. The length of a Gunter's surveying chain. The length of a cricket pitch. Equal to 20.12 metres, 4 rods, or 100 links."
-            },
-            {
-                "number": 8,
-                "type": "noun",
-                "definition": "A totally ordered set, especially a totally ordered subset of a poset."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "A sequence of linked house purchases, each of which is dependent on the preceding and succeeding purchase (said to be \"broken\" if a buyer or seller pulls out)."
-            },
-            {
-                "number": 10,
-                "type": "noun",
-                "definition": "That which confines, fetters, or secures; a bond."
-            },
-            {
-                "number": 11,
-                "type": "noun",
-                "definition": "(in the plural) Iron links bolted to the side of a vessel to bold the dead-eyes connected with the shrouds; also, the channels."
-            },
-            {
-                "number": 12,
-                "type": "noun",
-                "definition": "The warp threads of a web."
-            },
-            {
-                "number": 13,
-                "type": "noun",
-                "definition": "The physical confine of a river or slough, consisting of a bed and banks."
-            },
-            {
-                "number": 14,
-                "type": "noun",
-                "definition": "The natural or man-made deeper course through a reef, bar, bay, or any shallow body of water."
-            },
-            {
-                "number": 15,
-                "type": "noun",
-                "definition": "The navigable part of a river."
-            },
-            {
-                "number": 16,
-                "type": "noun",
-                "definition": "A narrow body of water between two land masses."
-            },
-            {
-                "number": 17,
-                "type": "noun",
-                "definition": "Something through which another thing passes; a means of conveying or transmitting."
-            },
-            {
-                "number": 18,
-                "type": "noun",
-                "definition": "A gutter; a groove, as in a fluted column."
-            },
-            {
-                "number": 19,
-                "type": "noun",
-                "definition": "A connection between initiating and terminating nodes of a circuit."
-            },
-            {
-                "number": 20,
-                "type": "noun",
-                "definition": "The narrow conducting portion of a MOSFET transistor."
-            },
-            {
-                "number": 21,
-                "type": "noun",
-                "definition": "(communication) The part that connects a data source to a data sink."
-            },
-            {
-                "number": 22,
-                "type": "noun",
-                "definition": "(communication) A path for conveying electrical or electromagnetic signals, usually distinguished from other parallel paths."
-            },
-            {
-                "number": 23,
-                "type": "noun",
-                "definition": "(communication) A single path provided by a transmission medium via physical separation, such as by multipair cable."
-            },
-            {
-                "number": 24,
-                "type": "noun",
-                "definition": "(communication) A single path provided by a transmission medium via spectral or protocol separation, such as by frequency or time-division multiplexing."
-            },
-            {
-                "number": 25,
-                "type": "noun",
-                "definition": "A specific radio frequency or band of frequencies, usually in conjunction with a predetermined letter, number, or codeword, and allocated by international agreement."
-            },
-            {
-                "number": 26,
-                "type": "noun",
-                "definition": "A specific radio frequency or band of frequencies used for transmitting television."
-            },
-            {
-                "number": 27,
-                "type": "noun",
-                "definition": "(storage) The portion of a storage medium, such as a track or a band, that is accessible to a given reading or writing station or head."
-            },
-            {
-                "number": 28,
-                "type": "noun",
-                "definition": "(technic) The way in a turbine pump where the pressure is built up."
-            },
-            {
-                "number": 29,
-                "type": "noun",
-                "definition": "A distribution channel."
-            },
-            {
-                "number": 30,
-                "type": "noun",
-                "definition": "A particular area for conversations on an IRC network, analogous to a chat room and often dedicated to a specific topic."
-            },
-            {
-                "number": 31,
-                "type": "noun",
-                "definition": "An obsolete means of delivering up-to-date Internet content."
-            },
-            {
-                "number": 32,
-                "type": "noun",
-                "definition": "A psychic or medium who temporarily takes on the personality of somebody else."
-            },
-            {
-                "number": 33,
-                "type": "noun",
-                "definition": "The wale of a sailing ship which projects beyond the gunwale and to which the shrouds attach via the chains. One of the flat ledges of heavy plank bolted edgewise to the outside of a vessel, to increase the spread of the shrouds and carry them clear of the bulwarks."
-            },
-            {
-                "number": 34,
-                "type": "pronoun",
-                "definition": "The speaker or writer, referred to as the grammatical subject, of a sentence."
-            },
-            {
-                "number": 35,
-                "type": "pronoun",
-                "definition": "The speaker or writer, referred to as the grammatical object, of a sentence."
-            }
-        ]
-    },
     "chad": {
         "level": "intermediate",
         "definitions": [
@@ -30408,7 +30009,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A room or set of rooms, particularly:."
+                "definition": "A room or set of rooms."
             },
             {
                 "number": 2,
@@ -30493,7 +30094,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A room or set of rooms, particularly:."
+                "definition": "A room or set of rooms."
             },
             {
                 "number": 2,
@@ -32539,7 +32140,7 @@
             {
                 "number": 10,
                 "type": "noun",
-                "definition": "A figurative offspring, particularly:."
+                "definition": "A figurative offspring."
             },
             {
                 "number": 11,
@@ -34857,7 +34458,7 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "Something which has been clipped from a larger whole:."
+                "definition": "Something which has been clipped from a larger whole."
             },
             {
                 "number": 12,
@@ -35838,7 +35439,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A male bird, especially:."
+                "definition": "A male bird."
             },
             {
                 "number": 2,
@@ -36000,11 +35601,6 @@
                 "number": 32,
                 "type": "noun",
                 "definition": "Abbreviation of cock-boat, a type of small boat."
-            },
-            {
-                "number": 33,
-                "type": "proper noun",
-                "definition": "A corruption of the word God, used in oaths."
             }
         ]
     },
@@ -37075,7 +36671,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A subset thereof:."
+                "definition": "A subset thereof."
             },
             {
                 "number": 3,
@@ -37111,7 +36707,7 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "A standard, flag, or insignia:."
+                "definition": "A standard, flag, or insignia."
             },
             {
                 "number": 9,
@@ -37232,7 +36828,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A subset thereof:."
+                "definition": "A subset thereof."
             },
             {
                 "number": 3,
@@ -37268,7 +36864,7 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "A standard, flag, or insignia:."
+                "definition": "A standard, flag, or insignia."
             },
             {
                 "number": 9,
@@ -37394,7 +36990,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "A subset thereof:."
+                "definition": "A subset thereof."
             },
             {
                 "number": 3,
@@ -37430,7 +37026,7 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "A standard, flag, or insignia:."
+                "definition": "A standard, flag, or insignia."
             },
             {
                 "number": 9,
@@ -38112,12 +37708,12 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The act or an instance of committing, putting in charge, keeping, or trust, especially:."
+                "definition": "The act or an instance of committing, putting in charge, keeping, or trust."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Promise or agreement to do something in the future, especially:."
+                "definition": "Promise or agreement to do something in the future."
             },
             {
                 "number": 3,
@@ -38152,12 +37748,12 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The act or an instance of committing, putting in charge, keeping, or trust, especially:."
+                "definition": "The act or an instance of committing, putting in charge, keeping, or trust."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Promise or agreement to do something in the future, especially:."
+                "definition": "Promise or agreement to do something in the future."
             },
             {
                 "number": 3,
@@ -40337,11 +39933,6 @@
             },
             {
                 "number": 5,
-                "type": "noun",
-                "definition": "The proposition resulting from the combination of two or more propositions using the ∧ (\\and) operator."
-            },
-            {
-                "number": 6,
                 "type": "noun",
                 "definition": "Sexual intercourse."
             }
@@ -44701,62 +44292,6 @@
             }
         ]
     },
-    "cp": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A mapping to a particular character set, where there are several possible sets that share the same code points. Abbreviation: cp."
-            },
-            {
-                "number": 2,
-                "type": "verb",
-                "definition": "To assess the similarities and differences between two or more things [\"to compare X with Y\"]. Having made the comparison of X with Y, one might have found it similar to Y or different from Y."
-            },
-            {
-                "number": 3,
-                "type": "verb",
-                "definition": "To declare two things to be similar in some respect [\"to compare X to Y\"]."
-            },
-            {
-                "number": 4,
-                "type": "verb",
-                "definition": "(grammar) To form the three degrees of comparison of (an adjective)."
-            },
-            {
-                "number": 5,
-                "type": "verb",
-                "definition": "To be similar (often used in the negative)."
-            },
-            {
-                "number": 6,
-                "type": "verb",
-                "definition": "To get; to obtain."
-            }
-        ]
-    },
-    "cr": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A person to whom a debt is owed.",
-                "definition_extra": [
-                    {
-                        "type": "Antonyms",
-                        "content": "debtor."
-                    }
-                ]
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "One who gives credence to something; a believer."
-            }
-        ]
-    },
     "crap": {
         "level": "intermediate",
         "definitions": [
@@ -45562,46 +45097,6 @@
             }
         ]
     },
-    "cs": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The middle tone in either one of the sets of seven white keys on a keyboard or a set of seven strings on a stringed instrument."
-            }
-        ]
-    },
-    "ct": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "An enclosed space; a courtyard; an uncovered area shut in by the walls of a building, or by different buildings; also, a space opening from a street and nearly surrounded by houses; a blind alley."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(social) Royal society."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "Attention directed to a person in power; behaviour designed to gain favor; politeness of manner; civility towards someone."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "The administration of law."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A place arranged for playing the games of tennis, basketball, squash, badminton, volleyball and some other games."
-            }
-        ]
-    },
     "cube": {
         "level": "intermediate",
         "definitions": [
@@ -45802,41 +45297,6 @@
             }
         ]
     },
-    "cunt": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "The female genitalia, especially the vulva."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "An extremely unpleasant or objectionable person (in US, especially a woman; in UK, Ireland, Australia, New Zealand more usually a man)."
-            },
-            {
-                "number": 3,
-                "type": "noun",
-                "definition": "An objectionable object or item."
-            },
-            {
-                "number": 4,
-                "type": "noun",
-                "definition": "An unpleasant or difficult experience or incident."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A woman, women, or bottom (i.e. submissive partner, not the top) as a source of sex."
-            },
-            {
-                "number": 6,
-                "type": "noun",
-                "definition": "(positive) (with words funny, good) A person (mostly between male friends); compare bastard."
-            }
-        ]
-    },
     "cups": {
         "level": "intermediate",
         "definitions": [
@@ -45893,65 +45353,60 @@
             {
                 "number": 11,
                 "type": "noun",
-                "definition": "The symbol \\cup denoting union and similar operations (confer cap)."
+                "definition": "A suit of the minor arcana in tarot, or one of the cards from the suit."
             },
             {
                 "number": 12,
                 "type": "noun",
-                "definition": "A suit of the minor arcana in tarot, or one of the cards from the suit."
+                "definition": "(ultimate frisbee) A defensive style characterized by a three player near defense cupping the thrower; or those three players."
             },
             {
                 "number": 13,
                 "type": "noun",
-                "definition": "(ultimate frisbee) A defensive style characterized by a three player near defense cupping the thrower; or those three players."
+                "definition": "A flexible concave membrane used to temporarily attach a handle or hook to a flat surface by means of suction (suction cup)."
             },
             {
                 "number": 14,
                 "type": "noun",
-                "definition": "A flexible concave membrane used to temporarily attach a handle or hook to a flat surface by means of suction (suction cup)."
+                "definition": "Anything shaped like a cup."
             },
             {
                 "number": 15,
                 "type": "noun",
-                "definition": "Anything shaped like a cup."
+                "definition": "A cupping glass or other vessel or instrument used to produce the vacuum in cupping."
             },
             {
                 "number": 16,
                 "type": "noun",
-                "definition": "A cupping glass or other vessel or instrument used to produce the vacuum in cupping."
-            },
-            {
-                "number": 17,
-                "type": "noun",
                 "definition": "That which is to be received or indured; that which is allotted to one; a portion of blessings and afflictions."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To form into the shape of a cup, particularly of the hands."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "verb",
                 "definition": "To hold something in cupped hands."
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "verb",
                 "definition": "To pour (a liquid, drink, etc.) into a cup."
             },
             {
-                "number": 21,
+                "number": 20,
                 "type": "verb",
                 "definition": "To supply with cups of wine."
             },
             {
-                "number": 22,
+                "number": 21,
                 "type": "verb",
                 "definition": "To apply a cupping apparatus to; to subject to the operation of cupping."
             },
             {
-                "number": 23,
+                "number": 22,
                 "type": "verb",
                 "definition": "To make concave or in the form of a cup."
             }
@@ -49508,7 +48963,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any of diverse other plants:."
+                "definition": "Any of diverse other plants."
             }
         ]
     },
@@ -52238,7 +51693,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any private or inner room, (particularly):."
+                "definition": "Any private or inner room."
             },
             {
                 "number": 3,
@@ -52248,12 +51703,12 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A private cabinet, (particularly):."
+                "definition": "A private cabinet."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "Any small room or side-room, (particularly):."
+                "definition": "Any small room or side-room."
             },
             {
                 "number": 6,
@@ -52644,11 +52099,6 @@
             {
                 "number": 1,
                 "type": "adjective",
-                "definition": "Towards the coast."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
                 "definition": "Towards the coast."
             }
         ]
@@ -53405,7 +52855,7 @@
             {
                 "number": 1,
                 "type": "adjective",
-                "definition": "Resembling a colt, especially:."
+                "definition": "Resembling a colt."
             }
         ]
     },
@@ -54663,7 +54113,7 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "Leave, formal permission for some action,:."
+                "definition": "Leave, formal permission for some action."
             },
             {
                 "number": 5,
@@ -55667,7 +55117,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Any of numerous plants with bark or wood resembling cork, of diverse orders:."
+                "definition": "Any of numerous plants with bark or wood resembling cork, of diverse orders."
             },
             {
                 "number": 2,
@@ -56792,11 +56242,6 @@
                 "number": 2,
                 "type": "adjective",
                 "definition": "Incidental."
-            },
-            {
-                "number": 3,
-                "type": "adverb",
-                "definition": "In the manner of a crab; sideways."
             }
         ]
     },
@@ -58650,7 +58095,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Any of many of species of flowering plants in family Asteraceae:."
+                "definition": "Any of many of species of flowering plants in family Asteraceae."
             },
             {
                 "number": 2,
@@ -61496,11 +60941,6 @@
             },
             {
                 "number": 2,
-                "type": "conjunction",
-                "definition": "Because."
-            },
-            {
-                "number": 3,
                 "type": "noun",
                 "definition": "Cousin (usually as a term of address, but not necessarily towards one's cousin)."
             }
@@ -62201,7 +61641,7 @@
             {
                 "number": 1,
                 "type": "verb",
-                "definition": "To provide, particularly:."
+                "definition": "To provide."
             },
             {
                 "number": 2,
@@ -62237,21 +61677,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "A semi-aquatic lizard, of the genus Dracaena, found in South America. To differentiate from caimans, they are referred to as caiman lizards."
-            }
-        ]
-    },
-    "cdna": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Initialism of complementary DNA."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Initialism of copy DNA."
             }
         ]
     },
@@ -62366,65 +61791,55 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A charred substance."
+                "definition": "A time; a turn or occasion."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "One of the several species of fishes of the genus Salvelinus."
+                "definition": "A turn of work; a labour or item of business."
             },
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "A time; a turn or occasion."
+                "definition": "An odd job, a chore or piece of housework."
             },
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "A turn of work; a labour or item of business."
-            },
-            {
-                "number": 9,
-                "type": "noun",
-                "definition": "An odd job, a chore or piece of housework."
-            },
-            {
-                "number": 10,
-                "type": "noun",
                 "definition": "A charlady, a woman employed to do housework; cleaning lady."
             },
             {
-                "number": 11,
+                "number": 9,
                 "type": "verb",
                 "definition": "To turn, especially away or aside."
             },
             {
-                "number": 12,
+                "number": 10,
                 "type": "verb",
                 "definition": "To work, especially to do housework; to work by the day, without being a regularly hired servant."
             },
             {
-                "number": 13,
+                "number": 11,
                 "type": "verb",
                 "definition": "To perform; to do; to finish."
             },
             {
-                "number": 14,
+                "number": 12,
                 "type": "verb",
                 "definition": "To work or hew (stone, etc.)."
             },
             {
-                "number": 15,
+                "number": 13,
                 "type": "noun",
                 "definition": "A character (text element such as a letter or symbol)."
             },
             {
-                "number": 16,
+                "number": 14,
                 "type": "noun",
                 "definition": "Tea, sometimes specifically masala chai."
             },
             {
-                "number": 17,
+                "number": 15,
                 "type": "noun",
                 "definition": "Synonym of Korean foot: a traditional unit of length equivalent to about 30.3 cm."
             }
@@ -63010,7 +62425,7 @@
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "Various administrative divisions of imperial and early Republican China, including:."
+                "definition": "Various administrative divisions of imperial and early Republican China."
             },
             {
                 "number": 9,
@@ -63669,7 +63084,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A male bird, especially:."
+                "definition": "A male bird."
             },
             {
                 "number": 2,
@@ -65232,7 +64647,7 @@
             {
                 "number": 5,
                 "type": "adjective",
-                "definition": "Able to be converted, particularly:."
+                "definition": "Able to be converted."
             }
         ]
     },
@@ -66533,16 +65948,6 @@
                 "number": 4,
                 "type": "verb",
                 "definition": "To engage in the activities of a cabal."
-            }
-        ]
-    },
-    "cabala": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "proper noun",
-                "definition": "A body of mystical Jewish teachings based on an esoteric reading of the Hebrew scriptures."
             }
         ]
     },
@@ -68512,11 +67917,6 @@
             {
                 "number": 4,
                 "type": "adjective",
-                "definition": "Relating to calories."
-            },
-            {
-                "number": 5,
-                "type": "adjective",
                 "definition": "Relating to or producing heat or other energy.",
                 "definition_extra": [
                     {
@@ -68526,7 +67926,7 @@
                 ]
             },
             {
-                "number": 6,
+                "number": 5,
                 "type": "adjective",
                 "definition": "(of food) High in calories and thus likely fattening."
             }
@@ -70273,20 +69673,15 @@
             {
                 "number": 28,
                 "type": "noun",
-                "definition": "A carom."
+                "definition": "A clergy member serving a cathedral or collegiate church."
             },
             {
                 "number": 29,
                 "type": "noun",
-                "definition": "A clergy member serving a cathedral or collegiate church."
-            },
-            {
-                "number": 30,
-                "type": "noun",
                 "definition": "A canon regular, a member of any of several Roman Catholic religious orders."
             },
             {
-                "number": 31,
+                "number": 30,
                 "type": "noun",
                 "definition": "A Near Eastern and Caucasian musical instrument related to the zither, dulcimer, or harp having either 26 strings and a single bridge, or twice that number and two bridges."
             }
@@ -73144,16 +72539,11 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "noun",
-                "definition": "An epicycloid with exactly one cusp; the plane curve with polar equation \\rho = 1 + \\cos\\,\\theta - approximately heart-shaped."
-            },
-            {
-                "number": 2,
                 "type": "adjective",
                 "definition": "Having this characteristic shape."
             },
             {
-                "number": 3,
+                "number": 2,
                 "type": "adjective",
                 "definition": "(of a microphone) sensitive in front, but not behind or at the sides."
             }
@@ -73626,11 +73016,6 @@
                 "number": 8,
                 "type": "verb",
                 "definition": "Fuck."
-            },
-            {
-                "number": 9,
-                "type": "verb",
-                "definition": "See cark it."
             }
         ]
     },
@@ -73801,7 +73186,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A hard, reddish brown chalcedony; used in jewelery,."
+                "definition": "A hard, reddish brown chalcedony; used in jewelery."
             }
         ]
     },
@@ -77403,7 +76788,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "A gentleman of the class of such officers, particularly:."
+                "definition": "A gentleman of the class of such officers."
             },
             {
                 "number": 4,
@@ -77839,7 +77224,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Either of two unrelated flowering plants:."
+                "definition": "Either of two unrelated flowering plants."
             }
         ]
     },
@@ -78566,7 +77951,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any of diverse other plants:."
+                "definition": "Any of diverse other plants."
             }
         ]
     },
@@ -79718,21 +79103,6 @@
             }
         ]
     },
-    "cgs": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Initialism of Canadian Government Ship."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "A system of units formerly used in physics (now replaced by the SI system), in which the basic units of length, mass and time were respectively centimeter, gram, and second."
-            }
-        ]
-    },
     "chablis": {
         "level": "advanced",
         "definitions": [
@@ -80438,7 +79808,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A room or set of rooms, particularly:."
+                "definition": "A room or set of rooms."
             },
             {
                 "number": 2,
@@ -80601,7 +79971,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Composite plant with a fragrance reminiscent of apples:."
+                "definition": "Composite plant with a fragrance reminiscent of apples."
             },
             {
                 "number": 2,
@@ -82035,7 +81405,7 @@
             {
                 "number": 10,
                 "type": "noun",
-                "definition": "A person who seeks out sexual partners with a particular quality:."
+                "definition": "A person who seeks out sexual partners with a particular quality."
             },
             {
                 "number": 11,
@@ -84081,7 +83451,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Other plants of similar appearance and habit:."
+                "definition": "Other plants of similar appearance and habit."
             }
         ]
     },
@@ -84629,35 +83999,30 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Alternative letter-case form of Chimera (a flame-spewing monster often represented as having two heads, one of a goat and the other of a lion; the body of a goat; and a serpent as a tail)."
+                "definition": "Any fantastic creature with parts from different animals."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Any fantastic creature with parts from different animals."
+                "definition": "Anything composed of very disparate parts."
             },
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "Anything composed of very disparate parts."
+                "definition": "A foolish, incongruous, or vain thought or product of the imagination."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A foolish, incongruous, or vain thought or product of the imagination."
+                "definition": "A grotesque like a gargoyle, but without a spout for rainwater."
             },
             {
                 "number": 6,
                 "type": "noun",
-                "definition": "A grotesque like a gargoyle, but without a spout for rainwater."
-            },
-            {
-                "number": 7,
-                "type": "noun",
                 "definition": "An organism with genetically distinct cells originating from two or more zygotes."
             },
             {
-                "number": 8,
+                "number": 7,
                 "type": "noun",
                 "definition": "Usually chimaera: a cartilaginous marine fish in the subclass Holocephali and especially the order Chimaeriformes, with a blunt snout, long tail, and a spine before the first dorsal fin."
             }
@@ -84759,35 +84124,30 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Alternative letter-case form of Chimera (a flame-spewing monster often represented as having two heads, one of a goat and the other of a lion; the body of a goat; and a serpent as a tail)."
+                "definition": "Any fantastic creature with parts from different animals."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any fantastic creature with parts from different animals."
+                "definition": "Anything composed of very disparate parts."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Anything composed of very disparate parts."
+                "definition": "A foolish, incongruous, or vain thought or product of the imagination."
             },
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A foolish, incongruous, or vain thought or product of the imagination."
+                "definition": "A grotesque like a gargoyle, but without a spout for rainwater."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A grotesque like a gargoyle, but without a spout for rainwater."
-            },
-            {
-                "number": 6,
-                "type": "noun",
                 "definition": "An organism with genetically distinct cells originating from two or more zygotes."
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "noun",
                 "definition": "Usually chimaera: a cartilaginous marine fish in the subclass Holocephali and especially the order Chimaeriformes, with a blunt snout, long tail, and a spine before the first dorsal fin."
             }
@@ -84799,35 +84159,30 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Alternative letter-case form of Chimera (a flame-spewing monster often represented as having two heads, one of a goat and the other of a lion; the body of a goat; and a serpent as a tail)."
+                "definition": "Any fantastic creature with parts from different animals."
             },
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Any fantastic creature with parts from different animals."
+                "definition": "Anything composed of very disparate parts."
             },
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Anything composed of very disparate parts."
+                "definition": "A foolish, incongruous, or vain thought or product of the imagination."
             },
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A foolish, incongruous, or vain thought or product of the imagination."
+                "definition": "A grotesque like a gargoyle, but without a spout for rainwater."
             },
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A grotesque like a gargoyle, but without a spout for rainwater."
-            },
-            {
-                "number": 6,
-                "type": "noun",
                 "definition": "An organism with genetically distinct cells originating from two or more zygotes."
             },
             {
-                "number": 7,
+                "number": 6,
                 "type": "noun",
                 "definition": "Usually chimaera: a cartilaginous marine fish in the subclass Holocephali and especially the order Chimaeriformes, with a blunt snout, long tail, and a spine before the first dorsal fin."
             }
@@ -85987,11 +85342,6 @@
             {
                 "number": 15,
                 "type": "noun",
-                "definition": "Shit."
-            },
-            {
-                "number": 16,
-                "type": "interjection",
                 "definition": "Shit."
             }
         ]
@@ -88416,7 +87766,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "One of various species of freshwater fish of the Cyprinidae or carp family, especially:."
+                "definition": "One of various species of freshwater fish of the Cyprinidae or carp family."
             },
             {
                 "number": 2,
@@ -89733,7 +89083,7 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "A grouping of three digits in a number, especially when delimited by commas or periods:."
+                "definition": "A grouping of three digits in a number, especially when delimited by commas or periods."
             },
             {
                 "number": 8,
@@ -90528,11 +89878,6 @@
             },
             {
                 "number": 2,
-                "type": "adverb",
-                "definition": "Throughout a city."
-            },
-            {
-                "number": 3,
                 "type": "noun",
                 "definition": "(chiefly Philadelphia) A combined order of a shot of distilled spirit (especially bourbon) and an order of beer."
             }
@@ -92510,11 +91855,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "A large two-handed sword historically used by the Scottish Highlanders."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Alternative letter-case form of Claymore (antipersonnel mine)."
             }
         ]
     },
@@ -93338,7 +92678,7 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "(now commonly) A culmination or acme: the last term in an ascending series, particularly:."
+                "definition": "(now commonly) A culmination or acme: the last term in an ascending series."
             },
             {
                 "number": 5,
@@ -93769,7 +93109,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "Something that moves swiftly; especially:."
+                "definition": "Something that moves swiftly."
             },
             {
                 "number": 4,
@@ -94428,7 +93768,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A covered walk with an open colonnade on one side, running along the walls of buildings that face a quadrangle; especially:."
+                "definition": "A covered walk with an open colonnade on one side, running along the walls of buildings that face a quadrangle."
             },
             {
                 "number": 2,
@@ -94523,7 +93863,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A covered walk with an open colonnade on one side, running along the walls of buildings that face a quadrangle; especially:."
+                "definition": "A covered walk with an open colonnade on one side, running along the walls of buildings that face a quadrangle."
             },
             {
                 "number": 2,
@@ -96348,11 +95688,6 @@
                 "number": 1,
                 "type": "adjective",
                 "definition": "Along the coast."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Along the coast."
             }
         ]
     },
@@ -97525,21 +96860,6 @@
                         "content": "cockspur hawthorn, cockspur thorn."
                     }
                 ]
-            }
-        ]
-    },
-    "cocksucker": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(strongly vulgar) Someone who performs fellatio."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "(strongly vulgar) A very annoying or objectionable person."
             }
         ]
     },
@@ -99892,11 +99212,6 @@
             },
             {
                 "number": 4,
-                "type": "noun",
-                "definition": "A method of finding an approximate solution of an ordinary differential equation L[y]=0 by determining coefficients in an expansion y(x) = y_{0}(x) + \\sum_{l=0}^{q}\\alpha_{l} y_{l}(x) so as to make L[y] vanish at prescribed points; the expansion with the coefficients thus found is the sought approximation."
-            },
-            {
-                "number": 5,
                 "type": "noun",
                 "definition": "A service allowing multiple customers to locate network, server, and storage gear and connect them to a variety of telecommunications and network service providers, at a minimum of cost and complexity."
             }
@@ -103409,11 +102724,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "The state or condition of being complete."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "The property of a logical theory that whenever a wff is valid then it must also be a theorem. Symbolically, letting T represent a theory within logic L, this can be represented as the property that whenever T \\vDash \\phi is true, then T \\vdash \\phi must also be true, for any wff φ of logic L."
             }
         ]
     },
@@ -108366,11 +107676,6 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "The proposition resulting from the combination of two or more propositions using the ∧ (\\and) operator."
-            },
-            {
-                "number": 6,
-                "type": "noun",
                 "definition": "Sexual intercourse."
             }
         ]
@@ -110457,7 +109762,7 @@
             {
                 "number": 4,
                 "type": "noun",
-                "definition": "A councillor, particularly:."
+                "definition": "A councillor."
             },
             {
                 "number": 5,
@@ -114463,7 +113768,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Various former units of volume, particularly:."
+                "definition": "Various former units of volume."
             }
         ]
     },
@@ -118092,11 +117397,6 @@
                 "number": 1,
                 "type": "adjective",
                 "definition": "Throughout a country; nationwide."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Throughout a country; nationwide."
             }
         ]
     },
@@ -118588,11 +117888,6 @@
         "definitions": [
             {
                 "number": 1,
-                "type": "noun",
-                "definition": "A statistical measure defined as \\scriptstyle\\operatorname{Cov}(X, Y) = \\operatorname{E}((X - \\mu) (Y - \\nu)) given two real-valued random variables X and Y, with expected values \\scriptstyle E(X)\\,=\\,\\mu and \\scriptstyle E(Y)\\,=\\,\\nu."
-            },
-            {
-                "number": 2,
                 "type": "noun",
                 "definition": "The conversion of data types from wider to narrower in certain situations."
             }
@@ -120571,7 +119866,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A twist or turn of the mind; caprice; whim;."
+                "definition": "A twist or turn of the mind; caprice; whim."
             },
             {
                 "number": 6,
@@ -120736,7 +120031,7 @@
             {
                 "number": 5,
                 "type": "noun",
-                "definition": "A twist or turn of the mind; caprice; whim;."
+                "definition": "A twist or turn of the mind; caprice; whim."
             },
             {
                 "number": 6,
@@ -122638,7 +121933,7 @@
             {
                 "number": 2,
                 "type": "noun",
-                "definition": "Something shaped like a crescent, especially:."
+                "definition": "Something shaped like a crescent."
             },
             {
                 "number": 3,
@@ -128889,70 +128184,65 @@
             {
                 "number": 7,
                 "type": "noun",
-                "definition": "(proper noun) The vector operator, denoted \\rm{curl}\\; or \\vec{\\nabla}\\times\\vec{\\left(\\cdot\\right)}, that generates this field."
+                "definition": "Any of various diseases of plants causing the leaves or shoots to curl up; often specifically the potato curl."
             },
             {
                 "number": 8,
                 "type": "noun",
-                "definition": "Any of various diseases of plants causing the leaves or shoots to curl up; often specifically the potato curl."
+                "definition": "The contrasting light and dark figure seen in wood used for stringed instrument making; the flame."
             },
             {
                 "number": 9,
                 "type": "noun",
-                "definition": "The contrasting light and dark figure seen in wood used for stringed instrument making; the flame."
-            },
-            {
-                "number": 10,
-                "type": "noun",
                 "definition": "A pattern where the receiver appears to be running a fly pattern but after a set number of steps or yards quickly stops and turns around, looking for a pass."
             },
             {
-                "number": 11,
+                "number": 10,
                 "type": "verb",
                 "definition": "To cause to move in a curve."
             },
             {
-                "number": 12,
+                "number": 11,
                 "type": "verb",
                 "definition": "To make into a curl or spiral."
             },
             {
-                "number": 13,
+                "number": 12,
                 "type": "verb",
                 "definition": "To assume the shape of a curl or spiral."
             },
             {
-                "number": 14,
+                "number": 13,
                 "type": "verb",
                 "definition": "To move in curves."
             },
             {
-                "number": 15,
+                "number": 14,
                 "type": "verb",
                 "definition": "To take part in the sport of curling."
             },
             {
-                "number": 16,
+                "number": 15,
                 "type": "verb",
                 "definition": "To exercise by bending the arm, wrist, or leg on the exertion against resistance, especially of the biceps."
             },
             {
-                "number": 17,
+                "number": 16,
                 "type": "verb",
                 "definition": "To twist or form (the hair, etc.) into ringlets."
             },
             {
-                "number": 18,
+                "number": 17,
                 "type": "verb",
                 "definition": "To deck with, or as if with, curls; to ornament."
             },
             {
-                "number": 19,
+                "number": 18,
                 "type": "verb",
                 "definition": "To raise in waves or undulations; to ripple."
             },
             {
-                "number": 20,
+                "number": 19,
                 "type": "verb",
                 "definition": "(hat-making) To shape (the brim of a hat) into a curve."
             }
@@ -130514,16 +129804,6 @@
                 "number": 1,
                 "type": "noun",
                 "definition": "The larva of any of many moths of the family Noctuidae; it is an agricultural pest."
-            }
-        ]
-    },
-    "cwt": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Hundredweight."
             }
         ]
     },

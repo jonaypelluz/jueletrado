@@ -1326,48 +1326,6 @@
             }
         ]
     },
-    "v": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "A shape resembling the letter v."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "Very."
-            },
-            {
-                "number": 3,
-                "type": "preposition",
-                "definition": "Against; in opposition to.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "v, vs, vs.."
-                    }
-                ]
-            },
-            {
-                "number": 4,
-                "type": "preposition",
-                "definition": "Compared with, as opposed to."
-            },
-            {
-                "number": 5,
-                "type": "preposition",
-                "definition": "Bringing a legal action against, as used in the title of a court case in which the first party indicates the plaintiff (or appellant or the like), and the second indicates the defendant (or respondent or the like).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "v, v.."
-                    }
-                ]
-            }
-        ]
-    },
     "valley": {
         "level": "beginner",
         "definitions": [
@@ -1981,7 +1939,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "One that is harmed—killed, injured, subjected to oppression, deceived, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition; in particular:."
+                "definition": "One that is harmed—killed, injured, subjected to oppression, deceived, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition."
             },
             {
                 "number": 2,
@@ -1996,7 +1954,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "One that is harmed—killed, injured, subjected to oppression, deceived, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition; in particular:."
+                "definition": "One that is harmed—killed, injured, subjected to oppression, deceived, or otherwise adversely affected—by someone or something, especially another person or event, force, or condition."
             },
             {
                 "number": 2,
@@ -2597,63 +2555,6 @@
                 "number": 5,
                 "type": "verb",
                 "definition": "To choose or grant by means of a vote, or by general consent."
-            }
-        ]
-    },
-    "vs": {
-        "level": "beginner",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "pronoun",
-                "definition": "(personal) Me and at least one other person; the objective case of we."
-            },
-            {
-                "number": 2,
-                "type": "pronoun",
-                "definition": "(chiefly with give) Me."
-            },
-            {
-                "number": 3,
-                "type": "pronoun",
-                "definition": "Our."
-            },
-            {
-                "number": 4,
-                "type": "pronoun",
-                "definition": "Me (in all contexts)."
-            },
-            {
-                "number": 5,
-                "type": "noun",
-                "definition": "A shape resembling the letter v."
-            },
-            {
-                "number": 6,
-                "type": "preposition",
-                "definition": "Against; in opposition to.",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "v, vs, vs.."
-                    }
-                ]
-            },
-            {
-                "number": 7,
-                "type": "preposition",
-                "definition": "Compared with, as opposed to."
-            },
-            {
-                "number": 8,
-                "type": "preposition",
-                "definition": "Bringing a legal action against, as used in the title of a court case in which the first party indicates the plaintiff (or appellant or the like), and the second indicates the defendant (or respondent or the like).",
-                "definition_extra": [
-                    {
-                        "type": "Synonyms",
-                        "content": "v, v.."
-                    }
-                ]
             }
         ]
     },
@@ -3800,16 +3701,6 @@
                 "number": 3,
                 "type": "noun",
                 "definition": "A person who has served in the armed forces, especially an old soldier who has seen long service; also called a war veteran to distinguish from veterans that weren't in armed conflict."
-            }
-        ]
-    },
-    "vi": {
-        "level": "intermediate",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(grammar) Initialism of verb intransitive or intransitive verb (often in dictionaries)."
             }
         ]
     },
@@ -6141,7 +6032,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "A leguminous climbing plant, notably:."
+                "definition": "A leguminous climbing plant."
             }
         ]
     },
@@ -7851,16 +7742,6 @@
             }
         ]
     },
-    "viagra": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "Alternative form of Viagra."
-            }
-        ]
-    },
     "vibrator": {
         "level": "advanced",
         "definitions": [
@@ -8219,101 +8100,6 @@
                 "number": 2,
                 "type": "noun",
                 "definition": "An obsessive observer of sensational or sordid subjects."
-            }
-        ]
-    },
-    "vp": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "adverb",
-                "definition": "Away from the surface of the Earth or other planet; in opposite direction to the downward pull of gravity."
-            },
-            {
-                "number": 2,
-                "type": "adverb",
-                "definition": "To or at a physically higher or more elevated position."
-            },
-            {
-                "number": 3,
-                "type": "adverb",
-                "definition": "To a higher level of some quantity or notional quantity, such as price, volume, pitch, happiness, etc."
-            },
-            {
-                "number": 4,
-                "type": "adverb",
-                "definition": "To or in a position of equal advance or equality; not short of, back of, less advanced than, away from, etc.; usually followed by to or with."
-            },
-            {
-                "number": 5,
-                "type": "adverb",
-                "definition": "(intensifier) Used as an aspect marker to indicate a completed action or state; thoroughly, completely."
-            },
-            {
-                "number": 6,
-                "type": "adverb",
-                "definition": "To or from one's possession or consideration."
-            },
-            {
-                "number": 7,
-                "type": "adverb",
-                "definition": "North."
-            },
-            {
-                "number": 8,
-                "type": "adverb",
-                "definition": "Towards or at a central place, or any place that is visualised as 'up' by virtue of local features or local convention, or arbitrarily, irrespective of direction or elevation change."
-            },
-            {
-                "number": 9,
-                "type": "adverb",
-                "definition": "Towards the principal terminus, towards milepost zero."
-            },
-            {
-                "number": 10,
-                "type": "adverb",
-                "definition": "Aside, so as not to be in use."
-            },
-            {
-                "number": 11,
-                "type": "adverb",
-                "definition": "Against the wind or current."
-            },
-            {
-                "number": 12,
-                "type": "adverb",
-                "definition": "(Cartesian graph) In a positive vertical direction."
-            },
-            {
-                "number": 13,
-                "type": "adverb",
-                "definition": "Relatively close to the batsman."
-            },
-            {
-                "number": 14,
-                "type": "adverb",
-                "definition": "(bartending) Without additional ice."
-            },
-            {
-                "number": 15,
-                "type": "adverb",
-                "definition": "(academia) To university, especially to Cambridge or Oxford."
-            }
-        ]
-    },
-    "vt": {
-        "level": "advanced",
-        "definitions": [
-            {
-                "number": 1,
-                "type": "noun",
-                "definition": "(grammar) verb transitive or transitive verb (often appears in dual language dictionaries)."
-            },
-            {
-                "number": 2,
-                "type": "noun",
-                "definition": "Vert."
             }
         ]
     },
@@ -11526,7 +11312,7 @@
             {
                 "number": 3,
                 "type": "noun",
-                "definition": "A protuberant, usually hollow structure, notably:."
+                "definition": "A protuberant, usually hollow structure."
             },
             {
                 "number": 4,
@@ -11716,7 +11502,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "Any small cavity within a body; a hollow part or organ, especially:."
+                "definition": "Any small cavity within a body; a hollow part or organ."
             }
         ]
     },
@@ -12602,7 +12388,7 @@
             {
                 "number": 1,
                 "type": "noun",
-                "definition": "The back side of a flat object which is to be examined visually, as for reading, such as a sheet, leaf, coin or medal;."
+                "definition": "The back side of a flat object which is to be examined visually, as for reading, such as a sheet, leaf, coin or medal."
             },
             {
                 "number": 2,
