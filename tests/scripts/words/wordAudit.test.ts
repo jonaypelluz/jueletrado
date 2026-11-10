@@ -72,13 +72,22 @@ describe('classifyWord', () => {
 
     test.each([
         ['W5', 'es', 'etc', { abbreviations: ['etc'] }],
-        ['W8', 'es', 'madrid', { properNouns: ['madrid'] }],
         ['W9', 'es', 'konsekvens', { foreign: ['konsekvens'] }],
         ['W10', 'es', 'insultoprueba', { offensive: ['insultoprueba'] }],
         ['W11', 'en', 'mailto', { htmlXml: ['mailto'] }],
     ] as const)('deletes a word listed in the %s list file (%p %p)', (category, locale, word, sets) => {
         expect(classifyWord(word, undefined, ctx(locale, sets))).toEqual(
             expect.objectContaining({ category, action: 'DELETE' }),
+        );
+    });
+
+    test('keeps a word listed in the proper nouns file (W8: words:build marks it isProperNoun)', () => {
+        expect(classifyWord('madrid', undefined, ctx('es', { properNouns: ['madrid'] }))).toBeNull();
+    });
+
+    test('deletes a proper noun that is also in the offensive list', () => {
+        expect(classifyWord('insultoprueba', undefined, ctx('es', { properNouns: ['insultoprueba'], offensive: ['insultoprueba'] }))).toEqual(
+            expect.objectContaining({ category: 'W10', action: 'DELETE' }),
         );
     });
 

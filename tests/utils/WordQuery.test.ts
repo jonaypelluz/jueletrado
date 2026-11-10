@@ -24,6 +24,7 @@ const record = (overrides: Partial<WordRecord> = {}): WordRecord => ({
     hasHiatus: 0,
     isPlural: 0,
     isVerbForm: 0,
+    isProperNoun: 0,
     ...overrides,
 });
 
@@ -47,6 +48,11 @@ describe('matchesQuery', () => {
 
     test('a maximum alone applies no implicit minimum length', () => {
         expect(matchesQuery(record({ word: 'ni', length: 2 }), { maxLen: 4 })).toBe(true);
+    });
+
+    test('exclude isProperNoun drops a proper noun and keeps a common word', () => {
+        expect(matchesQuery(record({ word: 'madrid', isProperNoun: 1 }), { exclude: { isProperNoun: true } })).toBe(false);
+        expect(matchesQuery(record({ word: 'casa' }), { exclude: { isProperNoun: true } })).toBe(true);
     });
 
     test('exclude rejects a record whose flag is set and keeps one whose flag is clear', () => {

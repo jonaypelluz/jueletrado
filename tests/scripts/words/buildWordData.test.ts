@@ -5,6 +5,7 @@ import fs from 'fs';
 import os from 'os';
 import path from 'path';
 import { buildLocale, runCli } from '../../../scripts/words/buildWordData';
+import { WORD_FLAGS } from '../../../utils/WordRecord';
 
 // Fixture tree: the audit fixture lists + definitions, plus wordfreq_<locale>.txt ranking
 // casa (1), mesa (2), acción (3). mesa is only in the advanced list, so its rank makes it a
@@ -29,6 +30,18 @@ const configValue = (level: string, field: string, locale: string): number => {
     const block = levelConfig().split(`level: '${level}'`)[1];
     return Number(new RegExp(`${field}: \\{[^}]*?${locale}: (\\d+)`).exec(block)![1]);
 };
+const wordListFile = (name: string) => path.join(root, 'ops/scripts/words', name);
+const readWordList = (name: string): string[] =>
+    fs.readFileSync(wordListFile(name), 'utf-8').split('\n').map((w) => w.trim()).filter((w) => w && !w.startsWith('#'));
+/** What `words:audit --fix` does before a build: drop the offensive and html_xml words from the level lists. */
+const dropBlocklistedWords = (locale: string) => {
+    const blocked = new Set(['offensive', 'html_xml_blocklist'].flatMap((name) => readWordList(`${name}_${locale}.txt`)).concat(readWordList('html_xml_blocklist.txt')));
+    readWordList(`allowlist_${locale}.txt`).forEach((word) => blocked.delete(word));
+    for (const level of ['beginner', 'intermediate', 'advanced']) {
+        const file = path.join(root, 'ops/scripts/words', locale, `${level}_words.txt`);
+        fs.writeFileSync(file, sourceList(level, locale).filter((word) => !blocked.has(word)).join('\n') + '\n');
+    }
+};
 const snapshotDir = (dir: string): Record<string, string> =>
     Object.fromEntries(fs.readdirSync(dir).sort().map((name) => [name, fs.readFileSync(path.join(dir, name), 'utf-8')]));
 
@@ -39,6 +52,8 @@ beforeEach(() => {
     fs.copyFileSync(LEVEL_CONFIG, path.join(root, 'config/LevelConfig.ts'));
     fs.mkdirSync(wordsDir('es'), { recursive: true });
     fs.mkdirSync(wordsDir('en'), { recursive: true });
+    dropBlocklistedWords('es');
+    dropBlocklistedWords('en');
     jest.spyOn(console, 'log').mockImplementation(() => undefined);
     jest.spyOn(console, 'error').mockImplementation(() => undefined);
     jest.spyOn(console, 'warn').mockImplementation(() => undefined);
@@ -121,6 +136,32 @@ describe('buildLocale', () => {
         expect(fs.readdirSync(wordsDir('es')).sort()).toEqual(['advanced_1.json', 'beginner_1.json', 'intermediate_1.json']);
     });
 
+    test('a word of proper_nouns_<locale>.txt is served with the isProperNoun bit, other words without it', async () => {
+        await buildLocale(root, 'es');
+
+        const IS_PROPER_NOUN = 1 << WORD_FLAGS.indexOf('isProperNoun');
+        const flagsOf = (word: string) => (readChunk('es', 'beginner_1.json').rows.find((row) => row[0] === word)?.[FIELDS.indexOf('flags')] ?? 0) as number;
+        expect(flagsOf('madrid') & IS_PROPER_NOUN).toBe(IS_PROPER_NOUN);
+        expect(flagsOf('casa') & IS_PROPER_NOUN).toBe(0);
+    });
+
+    test.each([
+        ['offensive_es.txt', 'insultoprueba'],
+        ['html_xml_blocklist_es.txt', 'span'],
+    ])('a level list holding a word of %s fails before any chunk is written', async (_list, word) => {
+        fs.appendFileSync(path.join(root, 'ops/scripts/words/es/intermediate_words.txt'), `${word}\n`);
+
+        await expect(buildLocale(root, 'es')).rejects.toThrow(new RegExp(`blocklisted words.*${word} \\(intermediate\\)`));
+        expect(fs.readdirSync(wordsDir('es'))).toEqual([]);
+    });
+
+    test('an allowlisted word of a blocklist does not fail the build', async () => {
+        fs.appendFileSync(path.join(root, 'ops/scripts/words/es/intermediate_words.txt'), 'span\n');
+        fs.appendFileSync(path.join(root, 'ops/scripts/words/allowlist_es.txt'), 'span\n');
+
+        await expect(buildLocale(root, 'es')).resolves.toEqual(expect.objectContaining({ locale: 'es' }));
+    });
+
     test('a rebuild is byte-identical', async () => {
         await buildLocale(root, 'es');
         const first = { words: snapshotDir(wordsDir('es')), config: levelConfig() };
@@ -160,6 +201,13 @@ describe('runCli', () => {
         fs.rmSync(path.join(root, 'ops/scripts/words/es/beginner_words.txt'));
 
         await expect(runCli(['--locale', 'es', '--root', root])).resolves.toBe(1);
+    });
+
+    test('exits 1 when a level list holds an offensive word', async () => {
+        fs.appendFileSync(path.join(root, 'ops/scripts/words/es/beginner_words.txt'), 'insultoprueba\n');
+
+        await expect(runCli(['--locale', 'es', '--root', root])).resolves.toBe(1);
+        expect(fs.readdirSync(wordsDir('es'))).toEqual([]);
     });
 
     test('exits 1 when the frequency file is missing', async () => {

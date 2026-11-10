@@ -12,6 +12,8 @@ export type DeriveWordRecordInput = {
     lists: readonly Level[];
     senses?: readonly DefinitionSense[] | null;
     wordSet?: ReadonlySet<string>;
+    /** Words of `proper_nouns_<locale>.txt`: they stay in the levels, marked `isProperNoun`. */
+    properNouns?: ReadonlySet<string>;
 };
 
 const LEVEL_ORDER: readonly Level[] = ['beginner', 'intermediate', 'advanced'];
@@ -29,6 +31,7 @@ export const WORD_FLAGS: readonly WordFlagName[] = [
     'hasHiatus',
     'isPlural',
     'isVerbForm',
+    'isProperNoun',
 ];
 
 export const WORD_CHUNK_VERSION = 2;
@@ -104,7 +107,7 @@ const derivedFields = (word: string, locale: string, freqRank: number | null, le
     };
 };
 
-export const deriveWordRecord = ({ word, locale, freqRank, lists, senses, wordSet = new Set() }: DeriveWordRecordInput): WordRecord => {
+export const deriveWordRecord = ({ word, locale, freqRank, lists, senses, wordSet = new Set(), properNouns = new Set() }: DeriveWordRecordInput): WordRecord => {
     const level = computeLevel(freqRank, lists, locale);
     const levels = levelsFor(freqRank, lists, level);
     const isSpanish = locale === 'es';
@@ -130,6 +133,7 @@ export const deriveWordRecord = ({ word, locale, freqRank, lists, senses, wordSe
         hasHiatus,
         isPlural: flag(inWordSet(PLURAL_STEMS[locale]?.(word) ?? [])),
         isVerbForm: flag(inWordSet(VERB_FORM_STEMS[locale]?.(word) ?? [])),
+        isProperNoun: flag(properNouns.has(word)),
     };
 };
 

@@ -150,7 +150,12 @@ Builds the served word data (`scripts/words/buildWordData.ts`). Inputs:
   syllabify failures. Overrides and failures are reported, never fatal.
 - Deterministic: a rerun on unchanged inputs changes no byte.
 
-Exit codes: `0` ok; `1` a missing or invalid input file; `2` bad arguments. Run it after any change to
+- Marks every word of `proper_nouns_{locale}.txt` with the `isProperNoun` flag (proper nouns stay in the
+  levels; a game excludes them with `exclude: { isProperNoun: true }`).
+- Fails before writing anything when a level list holds a word of `offensive_{locale}.txt` or the
+  `html_xml_blocklist*.txt` files (allowlisted words excepted): run `yarn words:audit --fix` first.
+
+Exit codes: `0` ok; `1` a missing or invalid input file, or a blocklisted word in a level list; `2` bad arguments. Run it after any change to
 the `*_words.txt`, frequency or definition files.
 
 ### `yarn words:audit [--locale es|en] [--fix] [--report <path>] [--root <dir>]`
@@ -195,7 +200,7 @@ the first match wins):
 | W5 | Abbreviation: no vowel, en entry whose senses are all abbreviations, or `abbreviations_{locale}.txt` | DELETE |
 | W6 | Roman numeral | DELETE |
 | W7 | Three identical letters in a row | DELETE |
-| W8 | Proper noun (`proper_nouns_{locale}.txt`) | DELETE |
+| W8 | Proper noun (`proper_nouns_{locale}.txt`) | none: kept, `words:build` marks it `isProperNoun` |
 | W9 | Foreign (es, `foreign_es.txt`); foreign-looking pattern | DELETE; FLAG |
 | W10 | Offensive (`offensive_{locale}.txt`) | DELETE |
 | W11 | HTML/XML artifact (`html_xml_blocklist.txt` + `html_xml_blocklist_{locale}.txt`) | DELETE |
@@ -228,8 +233,8 @@ missing file counts as empty):
 | File | Use |
 |---|---|
 | `allowlist_{locale}.txt` | Real words exempt from W4–W7 and from every list rule (e.g. `version`, `hmm`, `mi`). |
-| `offensive_{locale}.txt` | Slurs and words whose main meaning is vulgar (W10). |
-| `proper_nouns_{locale}.txt` | Names of people, places, brands (W8). Never a word with a definition key. |
+| `offensive_{locale}.txt` | Slurs, words whose main meaning is vulgar, and words whose common use is vulgar or adult in a family word game (W10; `words:build` fails on them). |
+| `proper_nouns_{locale}.txt` | Names of people, places, brands whose only usual use is a proper noun (W8). They stay in the levels with the `isProperNoun` flag. Never a word that is also a common word (`china`, `rosa`). |
 | `foreign_es.txt` | Clear non-Spanish words (W9). DLE loanwords stay. |
 | `abbreviations_{locale}.txt` | Abbreviations that contain a vowel (W5). |
 | `html_xml_blocklist.txt`, `html_xml_blocklist_{locale}.txt` | Markup and web artifacts (W11); also used by `words:from-book`. |

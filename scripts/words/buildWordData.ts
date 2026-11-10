@@ -8,11 +8,14 @@
  * ≤ 100k rows each, collator order; a word in several levels has the same row in each level file),
  * deletes every other .json in that folder and updates config/LevelConfig.ts (totalChunks +
  * minimumPopulatedCount). Deterministic: a rerun on unchanged inputs changes no byte.
+ * Words of proper_nouns_<locale>.txt are served with the isProperNoun flag. A word of
+ * offensive_<locale>.txt or the html_xml blocklists (not allowlisted) in any level list fails the build
+ * before anything is written.
  *
  * Usage:
  *   yarn words:build [--locale es|en] [--root <dir>]
  *
- * Exit code: 0 ok, 1 missing or invalid input file, 2 bad args.
+ * Exit code: 0 ok, 1 missing or invalid input file or a blocklisted word in a list, 2 bad args.
  */
 
 import { existsSync } from 'fs';
@@ -31,6 +34,14 @@ const COLLATORS: Record<Locale, Intl.Collator> = {
     es: new Intl.Collator('es-ES', { sensitivity: 'base' }),
     en: new Intl.Collator('en-GB', { sensitivity: 'base' }),
 };
+
+/** A level list holds a word of the offensive or html_xml blocklists: run `yarn words:audit --fix` first. */
+export class BlocklistedWordError extends Error {
+    constructor(locale: string, hits: readonly { word: string; level: Level }[]) {
+        super(`${locale}: blocklisted words in the level lists (run yarn words:audit --fix): ${hits.map(({ word, level }) => `${word} (${level})`).join(', ')}`);
+        this.name = 'BlocklistedWordError';
+    }
+}
 
 export type BuildReport = {
     locale: string;
@@ -71,6 +82,10 @@ export const buildLocale = async (root: string, locale: Locale): Promise<BuildRe
     const input = await loadLocaleInput(root, locale);
     const ranks = await loadFrequencyRanks(root, locale);
     const collator = COLLATORS[locale];
+    const { allow, offensive, htmlXml, properNouns } = input.wordSets;
+    const isBlocklisted = (word: string) => !allow.has(word) && (offensive.has(word) || htmlXml.has(word));
+    const blocklisted = LEVELS.flatMap((level) => input.lists[level].filter(isBlocklisted).map((word) => ({ word, level })));
+    if (blocklisted.length > 0) throw new BlocklistedWordError(locale, blocklisted);
 
     const senses = new Map<string, Sense[]>();
     for (const file of Object.values(input.definitions)) {
@@ -90,7 +105,7 @@ export const buildLocale = async (root: string, locale: Locale): Promise<BuildRe
     const records = new Map<string, WordRecord>();
     const overrides: BuildReport['overrides'] = [];
     for (const [word, lists] of listsOf) {
-        const record = deriveWordRecord({ word, locale, freqRank: ranks.get(word) ?? null, lists, senses: senses.get(word), wordSet });
+        const record = deriveWordRecord({ word, locale, freqRank: ranks.get(word) ?? null, lists, senses: senses.get(word), wordSet, properNouns });
         records.set(word, record);
         if (record.freqRank !== null && (lists.length !== 1 || lists[0] !== record.level)) overrides.push({ word, lists, level: record.level });
     }
@@ -210,7 +225,7 @@ export async function runCli(argv: string[]): Promise<number> {
         console.log(`\nword data version: ${await writeWordsDataVersion(options.root)}`);
         return 0;
     } catch (error) {
-        if (error instanceof MissingDataFileError || error instanceof SyntaxError || isFsError(error)) {
+        if (error instanceof BlocklistedWordError || error instanceof MissingDataFileError || error instanceof SyntaxError || isFsError(error)) {
             console.error((error as Error).message);
             return 1;
         }
