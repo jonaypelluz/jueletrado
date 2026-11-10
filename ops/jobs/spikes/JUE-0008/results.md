@@ -49,13 +49,13 @@
 | letterMatcher | en | intermediate | 3965 | 10 | 9 |  |
 | letterMatcher | en | advanced | 141.440 | 10 | 42 |  |
 | dailyWord | en | beginner (always) | 2873 | 1 | 63 | level ignored; 1 word/day |
-| definitionMaster | en | beginner | 45.766 | 10 | 29 |  |
-| definitionMaster | en | intermediate | 33.278 | 10 | 23 |  |
-| definitionMaster | en | advanced | 24.300 | 10 | 18 |  |
+| definitionMaster | en | beginner | 45.764 | 10 | 27 |  |
+| definitionMaster | en | intermediate | 33.278 | 10 | 24 |  |
+| definitionMaster | en | advanced | 24.299 | 10 | 20 |  |
 | spellingBee | en | beginner | 41.412 | 5 | 49 |  |
-| spellingBee | en | intermediate | 43.743 | 5 | 51 |  |
-| spellingBee | en | advanced | 43.878 | 5 | 52 |  |
-| wordBuilder | en | all (level ignored) | 126 | — | — | median words findable per letter set |
+| spellingBee | en | intermediate | 43.742 | 5 | 49 |  |
+| spellingBee | en | advanced | 43.877 | 5 | 50 |  |
+| wordBuilder | en | all (level ignored) | 119 | — | — | median words findable per letter set |
 
 # ES
 
@@ -491,28 +491,28 @@ Per letter (words with an entry):
 ### Daily word (`loadDailyWordForLocale`: `getRandomWords(1)` from beginner, no length filter)
 
 - beginner words: 2873; shorter than 4 letters (WORDS_DAILY's minLength, which the daily word never reads): 229 (8.0%) — e.g. `a`, `act`, `ad`, `add`, `age`, `ago`, `ah`, `aid`, `aim`, `air`, `al`, `all`
-- beginner words with an entry in public/definitions/en: 2747 (95.6%)
+- beginner words with an entry in public/definitions/en: 2745 (95.5%)
 
 ## Definitions data (public/definitions)
 
 | metric | value |
 |---|---:|
-| words with an entry | 45.766 |
+| words with an entry | 45.764 |
 | … not in any level list | 10 (0.0%) |
 | … with no definitions | 0 |
-| `level` field | (none): 1513, beginner: 2655, intermediate: 10.827, advanced: 30.771 |
-| definitions | 206.342 |
+| `level` field | (none): 1513, beginner: 2653, intermediate: 10.827, advanced: 30.771 |
+| definitions | 206.338 |
 | … empty text | 0 |
 | … HTML/entity junk | 0 |
-| … under 10 letters after `formatDefinition` (cut at first '.') | 6513 (3.2%) |
-| … raw text contains the word | 20.118 (9.7%) |
+| … under 10 letters after `formatDefinition` (cut at first '.') | 6511 (3.2%) |
+| … raw text contains the word | 20.118 (9.8%) |
 | … formatted text (what definitionMaster shows) contains the word | 19.112 (9.3%) |
 
 Per letter (words with an entry):
 
 | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 5356 | 2483 | 4349 | 2584 | 1794 | 1838 | 1394 | 1548 | 1805 | 335 | 342 | 1361 | 2323 | 882 | 1067 | 3584 | 217 | 2080 | 4730 | 2178 | 1590 | 713 | 993 | 20 | 118 | 82 |
+| 5356 | 2483 | 4349 | 2584 | 1794 | 1838 | 1394 | 1548 | 1805 | 334 | 342 | 1361 | 2322 | 882 | 1067 | 3584 | 217 | 2080 | 4730 | 2178 | 1590 | 713 | 993 | 20 | 118 | 82 |
 
 - Short-after-format samples: `a: "Of." → "Of"`; `a: "All." → "All"`; `absent: "Leave." → "Leave"`; `abuse: "Disuse." → "Disuse"`; `accent: "Utterance." → "Utterance"`; `acre: "A field." → "A field"`; `acute: "Urgent." → "Urgent"`; `adequate: "To equal." → "To equal"`
 - Shown definition contains the word: `a: "The name of the Latin script letter A/a"`; `a: "(crosswords) across"`; `a: "To do with position or direction; In, on, at, by, towards, onto"`; `a: "To do with separation; In, into"`; `a: "To do with time; Each, per, in, on, by"`; `a: "To do with role or capacity; In"`
@@ -521,93 +521,93 @@ Per letter (words with an entry):
 
 | level | total eligible | letters with < 5 words (fewer than 5 options) | letters with < 10 words (short quiz) | sessions per letter before repeat (eligible/10) min–median |
 |---|---:|---|---|---|
-| beginner | 45.766 | — | — | 11.8–180.5 |
+| beginner | 45.764 | — | — | 11.8–180.5 |
 | intermediate | 33.278 | — | — | 9.8–133.2 |
-| advanced | 24.300 | — | — | 7.4–93.4 |
+| advanced | 24.299 | — | — | 7.4–93.4 |
 
-- Words whose first formatted definition repeats another word's in the same letter file (identical answer options): 7066 — e.g. `accept / accepted: "to receive, especially with a consent, with favour"`; `account / accounts: "a registry of pecuniary transactions; a written or"`; `action / actions: "something done so as to accomplish a purpose"`; `activities / activity: "the state or quality of being active; activeness"`; `act / acts: "something done, a deed"`; `added / adding: "to join or unite (e"`
+- Words whose first formatted definition repeats another word's in the same letter file (identical answer options): 7064 — e.g. `accept / accepted: "to receive, especially with a consent, with favour"`; `account / accounts: "a registry of pecuniary transactions; a written or"`; `action / actions: "something done so as to accomplish a purpose"`; `activities / activity: "the state or quality of being active; activeness"`; `act / acts: "something done, a deed"`; `added / adding: "to join or unite (e"`
 - The level does not pick the words, only how many definitions they need: beginner: 6.0% are beginner-list words; intermediate: 8.1% are beginner-list words; advanced: 10.6% are beginner-list words.
 
 ### definitionMaster
 
 | set | words | len min–median–max | freq rank median | in top-10k | not in freq list | with accent | with ñ |
 |---|---:|---|---:|---:|---:|---:|---:|
-| beginner | 45.766 | 1–8–29 | 31.166 | 19.2% | 15.4% | 0.0% | 0.0% |
+| beginner | 45.764 | 1–8–29 | 31.168 | 19.2% | 15.4% | 0.0% | 0.0% |
 | intermediate | 33.278 | 1–8–20 | 24.295 | 25.1% | 9.5% | 0.0% | 0.0% |
-| advanced | 24.300 | 1–7–18 | 18.749 | 31.8% | 5.7% | 0.0% | 0.0% |
+| advanced | 24.299 | 1–7–18 | 18.749 | 31.8% | 5.7% | 0.0% | 0.0% |
 
 | set | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 2 | 134 | 806 | 2511 | 3976 | 5763 | 6774 | 7004 | 6397 | 4906 | 3348 | 2044 | 2101 |
+| beginner | 2 | 134 | 806 | 2510 | 3976 | 5763 | 6773 | 7004 | 6397 | 4906 | 3348 | 2044 | 2101 |
 | intermediate | 2 | 102 | 714 | 2236 | 3396 | 4723 | 5293 | 5021 | 4453 | 3167 | 2039 | 1122 | 1010 |
-| advanced | 2 | 81 | 635 | 1998 | 2905 | 3859 | 4058 | 3594 | 2944 | 1956 | 1206 | 602 | 460 |
+| advanced | 2 | 81 | 635 | 1998 | 2904 | 3859 | 4058 | 3594 | 2944 | 1956 | 1206 | 602 | 460 |
 
 | set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 5356 | 2483 | 4349 | 2584 | 1794 | 1838 | 1394 | 1548 | 1805 | 335 | 342 | 1361 | 2323 | 882 | 1067 | 3584 | 217 | 2080 | 4730 | 2178 | 1590 | 713 | 993 | 20 | 118 | 82 | 0 |
+| beginner | 5356 | 2483 | 4349 | 2584 | 1794 | 1838 | 1394 | 1548 | 1805 | 334 | 342 | 1361 | 2322 | 882 | 1067 | 3584 | 217 | 2080 | 4730 | 2178 | 1590 | 713 | 993 | 20 | 118 | 82 | 0 |
 | intermediate | 3468 | 1921 | 3248 | 2005 | 1332 | 1434 | 981 | 1094 | 1266 | 255 | 218 | 1005 | 1631 | 577 | 733 | 2635 | 178 | 1673 | 3670 | 1650 | 835 | 521 | 793 | 10 | 98 | 47 | 0 |
-| advanced | 2303 | 1457 | 2441 | 1531 | 934 | 1111 | 736 | 801 | 868 | 203 | 159 | 753 | 1109 | 404 | 514 | 1923 | 134 | 1284 | 2800 | 1253 | 465 | 373 | 636 | 5 | 74 | 29 | 0 |
+| advanced | 2303 | 1457 | 2441 | 1531 | 934 | 1111 | 736 | 801 | 868 | 202 | 159 | 753 | 1109 | 404 | 514 | 1923 | 134 | 1284 | 2800 | 1253 | 465 | 373 | 636 | 5 | 74 | 29 | 0 |
 
 ### spellingBee — words ≥4 letters with a usable clue for the level
 
 | level | words ≥4 | with ≥1 usable clue among the level's definitions | share |
 |---|---:|---:|---:|
-| beginner | 44.824 | 41.412 | 92.4% |
-| intermediate | 44.824 | 43.743 | 97.6% |
-| advanced | 44.824 | 43.878 | 97.9% |
+| beginner | 44.822 | 41.412 | 92.4% |
+| intermediate | 44.822 | 43.742 | 97.6% |
+| advanced | 44.822 | 43.877 | 97.9% |
 
 ### spellingBee
 
 | set | words | len min–median–max | freq rank median | in top-10k | not in freq list | with accent | with ñ |
 |---|---:|---|---:|---:|---:|---:|---:|
 | beginner | 41.412 | 4–8–29 | 32.435 | 18.2% | 15.9% | 0.0% | 0.0% |
-| intermediate | 43.743 | 4–8–29 | 31.766 | 18.7% | 15.5% | 0.0% | 0.0% |
-| advanced | 43.878 | 4–8–29 | 31.609 | 18.8% | 15.4% | 0.0% | 0.0% |
+| intermediate | 43.742 | 4–8–29 | 31.766 | 18.7% | 15.5% | 0.0% | 0.0% |
+| advanced | 43.877 | 4–8–29 | 31.610 | 18.8% | 15.4% | 0.0% | 0.0% |
 
 | set | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 0 | 2072 | 3466 | 5223 | 6240 | 6508 | 6037 | 4655 | 3208 | 1971 | 2032 |
-| intermediate | 0 | 2394 | 3837 | 5624 | 6586 | 6824 | 6278 | 4818 | 3297 | 2013 | 2072 |
-| advanced | 0 | 2441 | 3862 | 5644 | 6610 | 6833 | 6281 | 4820 | 3300 | 2014 | 2073 |
+| beginner | 0 | 2071 | 3467 | 5223 | 6240 | 6508 | 6037 | 4655 | 3208 | 1971 | 2032 |
+| intermediate | 0 | 2393 | 3837 | 5624 | 6586 | 6824 | 6278 | 4818 | 3297 | 2013 | 2072 |
+| advanced | 0 | 2440 | 3862 | 5644 | 6610 | 6833 | 6281 | 4820 | 3300 | 2014 | 2073 |
 
 | set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| beginner | 4932 | 2275 | 3975 | 2335 | 1592 | 1683 | 1242 | 1390 | 1661 | 286 | 300 | 1206 | 2075 | 769 | 942 | 3256 | 199 | 1898 | 4276 | 1963 | 1461 | 637 | 894 | 17 | 84 | 64 | 0 |
-| intermediate | 5148 | 2391 | 4198 | 2464 | 1705 | 1778 | 1329 | 1459 | 1745 | 304 | 315 | 1276 | 2209 | 823 | 994 | 3433 | 214 | 1998 | 4571 | 2068 | 1519 | 672 | 950 | 18 | 93 | 69 | 0 |
-| advanced | 5153 | 2395 | 4208 | 2479 | 1710 | 1784 | 1333 | 1468 | 1751 | 304 | 315 | 1279 | 2220 | 823 | 998 | 3443 | 214 | 2012 | 4589 | 2076 | 1519 | 673 | 952 | 18 | 93 | 69 | 0 |
+| beginner | 4932 | 2275 | 3975 | 2335 | 1592 | 1683 | 1242 | 1390 | 1661 | 287 | 300 | 1206 | 2074 | 769 | 942 | 3256 | 199 | 1898 | 4276 | 1963 | 1461 | 637 | 894 | 17 | 84 | 64 | 0 |
+| intermediate | 5148 | 2391 | 4198 | 2464 | 1705 | 1778 | 1329 | 1459 | 1745 | 304 | 315 | 1276 | 2208 | 823 | 994 | 3433 | 214 | 1998 | 4571 | 2068 | 1519 | 672 | 950 | 18 | 93 | 69 | 0 |
+| advanced | 5153 | 2395 | 4208 | 2479 | 1710 | 1784 | 1333 | 1468 | 1751 | 304 | 315 | 1279 | 2219 | 823 | 998 | 3443 | 214 | 2012 | 4589 | 2076 | 1519 | 673 | 952 | 18 | 93 | 69 | 0 |
 
 ### crossWordPuzzle — definitions words (accents stripped), 6 random letters per batch, 3 batches
 
-- words: 45.766; accent-stripping collisions (two words become one key, one definition lost): 0; keys with non-letters: 0
+- words: 45.764; accent-stripping collisions (two words become one key, one definition lost): 0; keys with non-letters: 0
 
 | level | target words | trials | full layout | failed after 3 batches | median placed-word length | words ≥ 10 letters placed |
 |---|---:|---:|---:|---:|---:|---:|
-| beginner | 4 | 150 | 150 | 0 | 8 | 89 |
-| intermediate | 6 | 150 | 150 | 0 | 8 | 170 |
-| advanced | 8 | 150 | 150 | 0 | 7 | 210 |
+| beginner | 4 | 150 | 150 | 0 | 8 | 111 |
+| intermediate | 6 | 150 | 150 | 0 | 8 | 152 |
+| advanced | 8 | 150 | 150 | 0 | 7 | 219 |
 
 | set | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| pool (all levels, accents stripped) | 2 | 134 | 806 | 2511 | 3976 | 5763 | 6774 | 7004 | 6397 | 4906 | 3348 | 2044 | 2101 |
-| placed, beginner (150 trials) | 0 | 0 | 10 | 8 | 61 | 42 | 162 | 77 | 151 | 9 | 45 | 6 | 29 |
-| placed, intermediate (150 trials) | 0 | 0 | 20 | 27 | 98 | 104 | 190 | 121 | 170 | 44 | 75 | 14 | 37 |
-| placed, advanced (150 trials) | 0 | 0 | 48 | 83 | 150 | 106 | 221 | 125 | 257 | 47 | 104 | 14 | 45 |
+| pool (all levels, accents stripped) | 2 | 134 | 806 | 2510 | 3976 | 5763 | 6773 | 7004 | 6397 | 4906 | 3348 | 2044 | 2101 |
+| placed, beginner (150 trials) | 0 | 0 | 13 | 6 | 65 | 53 | 150 | 61 | 141 | 19 | 60 | 6 | 26 |
+| placed, intermediate (150 trials) | 0 | 0 | 27 | 23 | 107 | 95 | 194 | 109 | 193 | 22 | 85 | 16 | 29 |
+| placed, advanced (150 trials) | 0 | 0 | 55 | 97 | 142 | 106 | 229 | 148 | 204 | 51 | 101 | 24 | 43 |
 
 | set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| pool (all levels, accents stripped) | 5356 | 2483 | 4349 | 2584 | 1794 | 1838 | 1394 | 1548 | 1805 | 335 | 342 | 1361 | 2323 | 882 | 1067 | 3584 | 217 | 2080 | 4730 | 2178 | 1590 | 713 | 993 | 20 | 118 | 82 | 0 |
-| placed, beginner (150 trials) | 100 | 31 | 50 | 37 | 27 | 31 | 14 | 29 | 25 | 3 | 4 | 16 | 26 | 13 | 16 | 34 | 5 | 26 | 42 | 28 | 20 | 6 | 15 | 0 | 1 | 1 | 0 |
-| placed, intermediate (150 trials) | 130 | 59 | 70 | 56 | 31 | 39 | 32 | 35 | 39 | 3 | 5 | 20 | 34 | 12 | 27 | 94 | 3 | 42 | 79 | 35 | 22 | 10 | 18 | 0 | 4 | 1 | 0 |
-| placed, advanced (150 trials) | 200 | 55 | 100 | 72 | 41 | 54 | 53 | 54 | 28 | 12 | 13 | 40 | 51 | 27 | 20 | 99 | 2 | 51 | 101 | 58 | 20 | 20 | 23 | 0 | 4 | 2 | 0 |
+| pool (all levels, accents stripped) | 5356 | 2483 | 4349 | 2584 | 1794 | 1838 | 1394 | 1548 | 1805 | 334 | 342 | 1361 | 2322 | 882 | 1067 | 3584 | 217 | 2080 | 4730 | 2178 | 1590 | 713 | 993 | 20 | 118 | 82 | 0 |
+| placed, beginner (150 trials) | 117 | 28 | 50 | 33 | 17 | 18 | 13 | 18 | 17 | 1 | 5 | 18 | 30 | 6 | 13 | 47 | 10 | 22 | 45 | 38 | 27 | 7 | 17 | 0 | 2 | 1 | 0 |
+| placed, intermediate (150 trials) | 136 | 43 | 83 | 61 | 22 | 33 | 26 | 32 | 26 | 12 | 8 | 27 | 50 | 24 | 26 | 69 | 4 | 37 | 95 | 23 | 30 | 14 | 17 | 1 | 1 | 0 | 0 |
+| placed, advanced (150 trials) | 192 | 88 | 95 | 94 | 38 | 68 | 40 | 52 | 31 | 8 | 2 | 32 | 27 | 16 | 31 | 74 | 9 | 40 | 109 | 74 | 32 | 17 | 25 | 2 | 3 | 1 | 0 |
 
 ### wordBuilder — 4 random consonants + 2 random vowels, words from all three levels
 
 | metric (1000 random letter sets) | value |
 |---|---:|
-| findable words p10 / median / p90 | 59 / 126 / 277 |
-| … of which beginner-list words, median | 10 |
+| findable words p10 / median / p90 | 62 / 119 / 255 |
+| … of which beginner-list words, median | 9 |
 | sets with 0 findable words | 0 (0.0%) |
-| sets with 0 beginner-list words | 3 (0.3%) |
+| sets with 0 beginner-list words | 7 (0.7%) |
 | dictionary words never findable (letters outside the set, e.g. ü) | 0 |
 
 - The level is not used by wordBuilder (same letters rule and same dictionary on every level).
@@ -615,10 +615,10 @@ Per letter (words with an entry):
 | set | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13+ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | findable dictionary (all levels) | 0 | 205 | 1908 | 7536 | 18.400 | 28.457 | 40.207 | 48.918 | 51.178 | 47.822 | 39.031 | 29.599 | 50.970 |
-| found in 1000 letter sets (union) | 0 | 205 | 1897 | 6211 | 7621 | 5241 | 2610 | 1338 | 428 | 126 | 47 | 14 | 3 |
+| found in 1000 letter sets (union) | 0 | 205 | 1900 | 6099 | 7324 | 5093 | 2515 | 1189 | 412 | 130 | 43 | 17 | 6 |
 
 | set | a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | other |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | findable dictionary (all levels) | 24.354 | 17.792 | 31.405 | 18.875 | 13.930 | 11.630 | 11.302 | 13.957 | 13.009 | 2823 | 4000 | 10.237 | 20.543 | 9854 | 11.635 | 35.081 | 1886 | 17.038 | 39.664 | 19.590 | 19.927 | 5685 | 6806 | 507 | 1230 | 1471 | 0 |
-| found in 1000 letter sets (union) | 2144 | 1977 | 1587 | 1360 | 907 | 951 | 1060 | 980 | 594 | 427 | 805 | 869 | 1185 | 769 | 673 | 1509 | 62 | 1400 | 2787 | 1634 | 435 | 364 | 708 | 26 | 350 | 178 | 0 |
+| found in 1000 letter sets (union) | 2007 | 1797 | 1537 | 1306 | 991 | 924 | 921 | 835 | 549 | 437 | 776 | 909 | 1122 | 740 | 632 | 1551 | 76 | 1561 | 2608 | 1644 | 377 | 455 | 620 | 24 | 332 | 202 | 0 |
 

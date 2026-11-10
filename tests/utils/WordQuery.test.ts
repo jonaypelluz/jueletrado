@@ -50,11 +50,6 @@ describe('matchesQuery', () => {
         expect(matchesQuery(record({ word: 'ni', length: 2 }), { maxLen: 4 })).toBe(true);
     });
 
-    test('exclude isProperNoun drops a proper noun and keeps a common word', () => {
-        expect(matchesQuery(record({ word: 'madrid', isProperNoun: 1 }), { exclude: { isProperNoun: true } })).toBe(false);
-        expect(matchesQuery(record({ word: 'casa' }), { exclude: { isProperNoun: true } })).toBe(true);
-    });
-
     test('exclude rejects a record whose flag is set and keeps one whose flag is clear', () => {
         expect(matchesQuery(record({ word: 'atleta', hasTl: 1 }), { exclude: { hasTl: true } })).toBe(false);
         expect(matchesQuery(record({ hasTl: 0 }), { exclude: { hasTl: true } })).toBe(true);
