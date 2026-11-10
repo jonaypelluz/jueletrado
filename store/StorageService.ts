@@ -12,7 +12,8 @@ export type StorageKey =
     | 'WORDS_SYLLABLE'
     | 'LOCALE'
     | 'LEVELS_POPULATED'
-    | 'WORD_CHAIN_BEST';
+    | 'WORD_CHAIN_BEST'
+    | 'WORDS_DATA_VERSION';
 
 type StoredItem<T> = {
     value: T;
@@ -21,7 +22,7 @@ type StoredItem<T> = {
 };
 
 /** Keys that survive clearStorage (e.g. on locale switch). */
-const PERSISTENT_KEYS: StorageKey[] = ['WORD_CHAIN_BEST'];
+const PERSISTENT_KEYS: StorageKey[] = ['WORD_CHAIN_BEST', 'WORDS_DATA_VERSION'];
 
 const isBrowser = (): boolean => typeof window !== 'undefined';
 
@@ -47,6 +48,8 @@ const StorageService = {
     LEVELS_POPULATED: 'LEVELS_POPULATED' as const,
     /** Best wordChain score per locale and level ({ es: { beginner: 12 } }). Survives cache clears and clearStorage. */
     WORD_CHAIN_BEST: 'WORD_CHAIN_BEST' as const,
+    /** Layout version of the word data the stored caches belong to (2 = v2 chunks). Survives clearStorage. */
+    WORDS_DATA_VERSION: 'WORDS_DATA_VERSION' as const,
 
     setItem<T>(key: StorageKey, value: T, expireIn?: number): void {
         if (!isBrowser()) return;

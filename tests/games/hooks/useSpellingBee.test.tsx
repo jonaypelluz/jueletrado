@@ -1,15 +1,30 @@
 import { act, renderHook } from '@testing-library/react';
-import { loadDefinition } from '@services/WordsService';
+import { getDefinitions } from '@services/WordsService';
+import { filterDefinitions } from '@utils/WordQuery';
+import { WordEntry } from '@models/types';
 import { useWordsContext } from '@store/WordsContext';
 import useSpellingBee from '@games/spellingBee/useSpellingBee';
 
 jest.mock('@store/WordsContext');
 jest.mock('@services/WordsService', () => ({
-    loadDefinition: jest.fn(),
+    getDefinitions: jest.fn(),
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
-const mockLoadDefinition = loadDefinition as jest.Mock;
+const mockGetDefinitions = getDefinitions as jest.Mock;
+
+type DefinitionOptions = { locale: string; firstLetter: string; minLen?: number };
+
+/**
+ * Serves `fileFor(letter)` as getDefinitions does: the letter file through the same filter
+ * (filterDefinitions with the hook's options), null when the file is missing.
+ */
+const serveLetters = (fileFor: (letter: string) => Promise<unknown>) =>
+    mockGetDefinitions.mockImplementation(async ({ firstLetter, minLen }: DefinitionOptions) => {
+        const file = (await fileFor(firstLetter)) as Record<string, WordEntry> | undefined;
+        return file ? filterDefinitions(file, { minLen }) : null;
+    });
+const calledLetters = () => mockGetDefinitions.mock.calls.map(([options]: [DefinitionOptions]) => options.firstLetter);
 
 const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}) => ({
     locale: 'es',
@@ -45,7 +60,7 @@ const submitGuess = (result: HookResult, value: string) => {
 const currentWord = (result: HookResult) => result.current.rounds[result.current.currentRound].word;
 
 const renderStartedGame = async (impl: (letter: string) => Promise<unknown>) => {
-    mockLoadDefinition.mockImplementation(impl);
+    serveLetters(impl);
     const { result } = renderHook(() => useSpellingBee());
     await startGame(result);
     return result;
@@ -54,7 +69,7 @@ const renderStartedGame = async (impl: (letter: string) => Promise<unknown>) => 
 describe('useSpellingBee', () => {
     beforeEach(() => {
         mockUseWordsContext.mockReturnValue(makeContext());
-        mockLoadDefinition.mockImplementation(async (letter: string) => dict(`${letter}palabra`));
+        serveLetters(async (letter: string) => dict(`${letter}palabra`));
     });
 
     afterEach(() => {
@@ -65,7 +80,7 @@ describe('useSpellingBee', () => {
         test('does not load any definition on mount', () => {
             renderHook(() => useSpellingBee());
 
-            expect(mockLoadDefinition).not.toHaveBeenCalled();
+            expect(mockGetDefinitions).not.toHaveBeenCalled();
         });
 
         test.each([
@@ -77,20 +92,20 @@ describe('useSpellingBee', () => {
 
             await startGame(result);
 
-            const letters = mockLoadDefinition.mock.calls.map(([letter]) => letter);
+            const letters = calledLetters();
             expect(letters).toHaveLength(5);
             expect(new Set(letters).size).toBe(5);
             letters.forEach((letter) => {
                 expect(letter).toMatch(/^[a-z]$/);
                 expect(excluded).not.toContain(letter);
             });
-            mockLoadDefinition.mock.calls.forEach(([, callLocale]) => expect(callLocale).toBe(locale));
+            mockGetDefinitions.mock.calls.forEach(([options]: [DefinitionOptions]) => expect(options).toEqual({ locale, firstLetter: options.firstLetter, minLen: 4 }));
         });
 
         test('isLoadingLetter is true while definitions load and false once rounds are built', async () => {
             const resolvers: Array<(value: unknown) => void> = [];
             const pendingLetters: string[] = [];
-            mockLoadDefinition.mockImplementation(
+            serveLetters(
                 (letter: string) =>
                     new Promise((resolve) => {
                         resolvers.push(resolve);
@@ -155,7 +170,7 @@ describe('useSpellingBee', () => {
                 return dict(`${letter}palabra`);
             });
 
-            expect(mockLoadDefinition).toHaveBeenCalledTimes(6);
+            expect(mockGetDefinitions).toHaveBeenCalledTimes(6);
             expect(result.current.rounds).toHaveLength(5);
             result.current.rounds.forEach((round) => expect(round.word).toMatch(/^[a-z]palabra$/));
             expect(result.current.loadError).toBe(false);
@@ -187,7 +202,7 @@ describe('useSpellingBee', () => {
                 return call <= 2 ? dict(`${letter}palabra`) : {};
             });
 
-            expect(mockLoadDefinition).toHaveBeenCalledTimes(25);
+            expect(mockGetDefinitions).toHaveBeenCalledTimes(25);
             expect(result.current.loadError).toBe(false);
             expect(result.current.totalRounds).toBe(2);
             expect(result.current.maxScore).toBe(6);
@@ -202,8 +217,8 @@ describe('useSpellingBee', () => {
             const result = await renderStartedGame(async () => ({}));
 
             const expectedLetters = 'abcdefghijklmnopqrstuvwxyz'.split('').filter((l) => !excluded.includes(l));
-            const calledLetters = mockLoadDefinition.mock.calls.map(([letter]) => letter).sort();
-            expect(calledLetters).toEqual(expectedLetters);
+            const letters = calledLetters().sort();
+            expect(letters).toEqual(expectedLetters);
             expect(result.current.loadError).toBe(true);
             expect(result.current.rounds).toEqual([]);
         });
@@ -247,7 +262,7 @@ describe('useSpellingBee', () => {
                 return dict(`${letter}palabra`);
             });
 
-            expect(mockLoadDefinition).toHaveBeenCalledTimes(6);
+            expect(mockGetDefinitions).toHaveBeenCalledTimes(6);
             expect(result.current.loadError).toBe(true);
             expect(result.current.rounds).toEqual([]);
         });
@@ -381,7 +396,7 @@ describe('useSpellingBee', () => {
             expect(result.current.score).toBe(0);
             expect(result.current.currentRound).toBe(0);
             expect(result.current.rounds).toHaveLength(5);
-            expect(mockLoadDefinition).toHaveBeenCalledTimes(10);
+            expect(mockGetDefinitions).toHaveBeenCalledTimes(10);
         });
     });
 

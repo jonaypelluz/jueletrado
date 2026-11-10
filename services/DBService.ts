@@ -1,45 +1,89 @@
-import LevelsConfig from '@config/LevelConfig';
 import LocalesConfig from '@config/LocaleConfig';
-import { LevelConfig, LocaleConfig } from '@models/types';
+import { Level, LocaleConfig, WordRecord, WordRow } from '@models/types';
+import { hydrateRow } from '@utils/WordRecord';
 import Logger from '@services/Logger';
 
 const DB_NAME = 'jueletrado-db';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
+const LEGACY_STORE_PREFIX = 'words_level_';
+
+// Per locale: the words keyed by word (no index), and the served rows of each level file keyed by
+// [level, position] → word, so a draw or the population check is a keyed lookup (Chromium walks an
+// index cursor or a range count linearly).
+const wordsStoreFor = (locale: string): string => `words_${locale}`;
+const positionsStoreFor = (locale: string): string => `positions_${locale}`;
+
+/**
+ * What the words store keeps per word: the key and the served chunk row (its levels are in the row
+ * mask). The cheap fields (level, length, edge letters, letters, flag names) are derived again on read.
+ */
+type StoredWord = { word: string; row: WordRow };
+
+// Rows written per readwrite transaction: one 100k-row chunk in a single transaction took 70–117 s in
+// Chromium and sometimes aborted with QuotaExceededError (JUE-0009 QA).
+const PUT_BATCH_ROWS = 10_000;
 
 export interface IDbServiceOptions {
     dbFactory: IDBFactory;
     logger: typeof Logger;
+    putBatchRows?: number;
 }
 
-class DBService {
+/** Rejected by initDB when an open tab on an older version does not let the v2 upgrade run. */
+export class DBUpgradeBlockedError extends Error {
+    constructor() {
+        super('database upgrade blocked by another open tab');
+        this.name = 'DBUpgradeBlockedError';
+    }
+}
+
+const requestResult = <T>(request: IDBRequest<T>): Promise<T> =>
+    new Promise((resolve, reject) => {
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error);
+    });
+
+export class DBService {
     private db: IDBDatabase | null = null;
     private isPopulatedMap: Map<string, boolean> = new Map();
+    // Every word of a locale (`${locale}_keys`), dropped whenever the locale stores change.
+    private keyCache: Map<string, string[]> = new Map();
+    // Every word of a locale as a Set (`${locale}_set`), dropped with the key cache.
+    private wordSetCache: Map<string, Set<string>> = new Map();
 
-    private storeName: string = '';
     private logger: typeof Logger;
     private dbFactory: IDBFactory;
+    private putBatchRows: number;
 
     constructor(options: IDbServiceOptions) {
         this.dbFactory = options.dbFactory;
         this.logger = options.logger;
+        this.putBatchRows = options.putBatchRows ?? PUT_BATCH_ROWS;
     }
 
-    setStoreName(level: string, locale: string) {
-        this.storeName = `words_level_${level}_${locale}`;
-    }
-
-    getStoreName() {
-        return this.storeName;
-    }
-
-    startTransaction(mode: IDBTransactionMode): IDBTransaction {
+    private startTransaction(stores: string[], mode: IDBTransactionMode): IDBTransaction {
         if (!this.db) {
             throw new Error('Database has not been initialized');
         }
 
-        const transaction = this.db.transaction([this.storeName], mode);
+        return this.db.transaction(stores, mode);
+    }
 
-        return transaction;
+    /** Forgets a connection that closed or yielded to another version, with everything cached from it. */
+    private dropConnection(db: IDBDatabase): void {
+        if (this.db !== db) return;
+        this.db = null;
+        this.keyCache.clear();
+        this.wordSetCache.clear();
+        this.isPopulatedMap.clear();
+    }
+
+    private clearLocaleCaches(locale: string): void {
+        for (const cache of [this.keyCache, this.wordSetCache, this.isPopulatedMap]) {
+            for (const key of [...cache.keys()]) {
+                if (key.startsWith(`${locale}_`)) cache.delete(key);
+            }
+        }
     }
 
     async ensureDBInitialized(): Promise<void> {
@@ -48,24 +92,38 @@ class DBService {
         }
     }
 
+    /** Opens (and on first run upgrades) the database; a no-op while a connection is open. */
     async initDB(): Promise<void> {
+        if (this.db) return;
         return new Promise((resolve, reject) => {
             const request = this.dbFactory.open(DB_NAME, DB_VERSION);
+            let blocked = false;
 
-            request.onupgradeneeded = () => {
+            request.onupgradeneeded = (event) => {
                 const db = request.result;
-                LevelsConfig.forEach((config: LevelConfig) => {
-                    LocalesConfig.forEach((locale: LocaleConfig) => {
-                        const storeName = `words_level_${config.level}_${locale.lang}`;
-                        if (!db.objectStoreNames.contains(storeName)) {
-                            db.createObjectStore(storeName, { autoIncrement: true });
-                        }
-                    });
+                if (event.oldVersion < 2) {
+                    [...db.objectStoreNames].filter((name) => name.startsWith(LEGACY_STORE_PREFIX)).forEach((name) => db.deleteObjectStore(name));
+                }
+                LocalesConfig.forEach(({ lang }: LocaleConfig) => {
+                    if (!db.objectStoreNames.contains(wordsStoreFor(lang))) db.createObjectStore(wordsStoreFor(lang), { keyPath: 'word' });
+                    if (!db.objectStoreNames.contains(positionsStoreFor(lang))) db.createObjectStore(positionsStoreFor(lang));
                 });
             };
 
             request.onsuccess = () => {
-                this.db = request.result;
+                const db = request.result;
+                // The upgrade went through after initDB already rejected as blocked: nobody owns this connection.
+                if (blocked) {
+                    db.close();
+                    return;
+                }
+                db.onversionchange = () => {
+                    db.close();
+                    this.dropConnection(db);
+                };
+                // Closed abnormally (e.g. site data cleared while open): reopen on the next call.
+                db.onclose = () => this.dropConnection(db);
+                this.db = db;
                 resolve();
             };
 
@@ -75,172 +133,132 @@ class DBService {
             };
 
             request.onblocked = () => {
-                this.logger.warn('DB Initialization Blocked', 'The database request was blocked.');
+                blocked = true;
+                this.logger.warn('DB Initialization Blocked', 'An open tab keeps an older database version.');
+                reject(new DBUpgradeBlockedError());
             };
         });
     }
 
-    async addWords(
-        level: string,
-        locale: string,
-        words: string[],
-        minimumPopulatedCount: { [key: string]: number },
-    ): Promise<void> {
-        const populated = await this.checkIfPopulated(level, locale, minimumPopulatedCount[locale]);
-        if (populated) {
-            this.logger.log(
-                `The database is already populated for level ${level}. Skipping adding words.`,
-            );
-            return;
+    /**
+     * Stores the served rows of a level file at positions offset.., in transactions of putBatchRows rows:
+     * each row in the words store (by word) and its word at [level, offset + j]; storing the same chunk
+     * twice is a no-op.
+     */
+    async putChunk(locale: string, level: Level, offset: number, rows: WordRow[]): Promise<void> {
+        try {
+            // In order: the last position of the chunk is written last.
+            for (let start = 0; start < rows.length; start += this.putBatchRows) {
+                await this.putRows(locale, level, offset + start, rows.slice(start, start + this.putBatchRows));
+            }
+        } finally {
+            this.clearLocaleCaches(locale);
         }
-
-        return new Promise((resolve, reject) => {
-            this.ensureDBInitialized()
-                .then(() => {
-                    const transaction = this.startTransaction('readwrite');
-                    const store = transaction.objectStore(this.storeName);
-
-                    for (const word of words) {
-                        store.add(word);
-                    }
-
-                    transaction.oncomplete = () => resolve();
-                    transaction.onerror = () => {
-                        this.logger.error('Transaction Error', transaction.error?.message);
-                        reject(transaction.error);
-                    };
-                })
-                .catch(reject);
-        });
     }
 
-    async getAllWords(): Promise<string[] | undefined> {
-        return new Promise((resolve, reject) => {
-            this.ensureDBInitialized()
-                .then(() => {
-                    const transaction = this.startTransaction('readonly');
-                    const store = transaction.objectStore(this.storeName);
-                    const request = store.getAll();
-
-                    request.onsuccess = () => {
-                        resolve(request.result as string[]);
-                    };
-
-                    request.onerror = () => {
-                        this.logger.error(`Error getting all words: ${request.error?.message}`);
-                        reject(request.error);
-                    };
-                })
-                .catch(reject);
-        });
-    }
-
-    async checkIfPopulated(
-        level: string,
-        locale: string,
-        minimumPopulatedCount: number,
-    ): Promise<boolean> {
-        if (this.isPopulatedMap.get(`${level}_${locale}`)) {
-            this.logger.log(`Database check: Already marked as populated for level ${level}.`);
-            return true;
-        }
-
-        return new Promise((resolve, reject) => {
-            this.ensureDBInitialized()
-                .then(() => {
-                    const transaction = this.startTransaction('readonly');
-                    const store = transaction.objectStore(this.storeName);
-                    const request = store.count();
-
-                    request.onsuccess = () => {
-                        const isPopulated = request.result >= minimumPopulatedCount;
-                        this.isPopulatedMap.set(`${level}_${locale}`, isPopulated);
-                        this.logger.log(
-                            `Database check: Populated status for ${level} ${locale} - ${isPopulated}`,
-                        );
-                        resolve(isPopulated);
-                    };
-
-                    request.onerror = () => {
-                        this.logger.error(
-                            `Error checking if populated for ${level} ${locale}: ${request.error?.message}`,
-                        );
-                        reject(request.error);
-                    };
-                })
-                .catch(reject);
-        });
-    }
-
-    async getRandomWordsWithMaxLength(
-        count: number,
-        maxLength: number,
-        minLength = 3,
-    ): Promise<string[]> {
-        return new Promise((resolve, reject) => {
-            const fetchAndFilterWords = async (attempt = 1) => {
-                const maxAttempts = 5;
-                const sampleSize = count * attempt * 2;
-
-                try {
-                    const words = await this.getRandomWords(sampleSize);
-                    const filteredWords = words.filter(
-                        (word) => word.length >= minLength && (maxLength === Infinity || word.length <= maxLength),
-                    );
-
-                    if (filteredWords.length >= count || attempt >= maxAttempts) {
-                        resolve(filteredWords.slice(0, count));
-                    } else {
-                        await fetchAndFilterWords(attempt + 1);
-                    }
-                } catch (error) {
-                    reject(error);
-                }
+    /** One readwrite transaction over both stores: a word is never stored without its position. */
+    private async putRows(locale: string, level: Level, offset: number, rows: WordRow[]): Promise<void> {
+        await this.ensureDBInitialized();
+        await new Promise<void>((resolve, reject) => {
+            const transaction = this.startTransaction([wordsStoreFor(locale), positionsStoreFor(locale)], 'readwrite');
+            const words = transaction.objectStore(wordsStoreFor(locale));
+            const positions = transaction.objectStore(positionsStoreFor(locale));
+            const fail = () => {
+                this.logger.error('Transaction Error', transaction.error?.message);
+                reject(transaction.error ?? new Error('transaction aborted'));
             };
-
-            fetchAndFilterWords();
+            transaction.oncomplete = () => resolve();
+            transaction.onerror = fail;
+            transaction.onabort = fail;
+            try {
+                rows.forEach((row, j) => {
+                    const word = row[0] as string;
+                    words.put({ word, row } satisfies StoredWord);
+                    positions.put(word, [level, offset + j]);
+                });
+            } catch (error) {
+                // A malformed row (e.g. no word) throws synchronously: write none of the chunk.
+                transaction.abort();
+                reject(error);
+            }
         });
     }
 
-    async getRandomWords(count: number): Promise<string[]> {
-        return new Promise((resolve, reject) => {
-            this.ensureDBInitialized()
-                .then(() => {
-                    const transaction = this.startTransaction('readonly');
-                    const store = transaction.objectStore(this.storeName);
-                    const countRequest = store.count();
+    /** True when the last served position of the level, [level, minimumPopulatedCount - 1], holds a word. */
+    async checkIfPopulated(locale: string, level: string, minimumPopulatedCount: number): Promise<boolean> {
+        const cacheKey = `${locale}_${level}_${minimumPopulatedCount}`;
+        if (this.isPopulatedMap.get(cacheKey)) return true;
 
-                    countRequest.onsuccess = () => {
-                        const totalRecords = countRequest.result;
-                        if (totalRecords === 0) {
-                            resolve([]);
-                            return;
-                        }
+        await this.ensureDBInitialized();
+        const positions = this.startTransaction([positionsStoreFor(locale)], 'readonly').objectStore(positionsStoreFor(locale));
+        try {
+            const word = await requestResult(positions.get([level, minimumPopulatedCount - 1]));
+            const isPopulated = word !== undefined;
+            this.isPopulatedMap.set(cacheKey, isPopulated);
+            this.logger.log(`Database check: Populated status for ${level} ${locale} - ${isPopulated}`);
+            return isPopulated;
+        } catch (error) {
+            this.logger.error(`Error checking if populated for ${level} ${locale}: ${(error as DOMException | null)?.message}`);
+            throw error;
+        }
+    }
 
-                        const randomKeys = new Set<number>();
-                        while (randomKeys.size < count) {
-                            const randomIndex = Math.floor(Math.random() * totalRecords) + 1;
-                            randomKeys.add(randomIndex);
-                        }
+    /** Every word of the locale store; cached until the store changes. */
+    async getKeys(locale: string): Promise<string[]> {
+        const cacheKey = `${locale}_keys`;
+        const cached = this.keyCache.get(cacheKey);
+        if (cached) return [...cached];
 
-                        const wordPromises = Array.from(randomKeys).map((key) => {
-                            return new Promise<string>((resolve, reject) => {
-                                const wordRequest = store.get(key);
-                                wordRequest.onsuccess = () => resolve(wordRequest.result as string);
-                                wordRequest.onerror = () => reject(wordRequest.error);
-                            });
-                        });
+        await this.ensureDBInitialized();
+        const store = this.startTransaction([wordsStoreFor(locale)], 'readonly').objectStore(wordsStoreFor(locale));
+        const keys = (await requestResult(store.getAllKeys())) as string[];
+        this.keyCache.set(cacheKey, keys);
+        return [...keys];
+    }
 
-                        Promise.all(wordPromises).then(resolve).catch(reject);
-                    };
+    /**
+     * Records at the given positions of the level, in one readonly transaction of keyed lookups
+     * ([level, position] → word → record); a position not stored is skipped.
+     */
+    async getWordsAt(locale: string, level: string, positions: number[]): Promise<WordRecord[]> {
+        await this.ensureDBInitialized();
+        const transaction = this.startTransaction([wordsStoreFor(locale), positionsStoreFor(locale)], 'readonly');
+        const words = transaction.objectStore(wordsStoreFor(locale));
+        const positionStore = transaction.objectStore(positionsStoreFor(locale));
+        const stored = await Promise.all(
+            positions.map(
+                (position) =>
+                    new Promise<StoredWord | undefined>((resolve, reject) => {
+                        const request = positionStore.get([level, position]) as IDBRequest<string | undefined>;
+                        request.onerror = () => reject(request.error);
+                        // Chained in the success callback, while the transaction is still active.
+                        request.onsuccess = () => {
+                            if (request.result === undefined) return resolve(undefined);
+                            requestResult(words.get(request.result) as IDBRequest<StoredWord | undefined>).then(resolve, reject);
+                        };
+                    }),
+            ),
+        );
+        return stored.filter((entry): entry is StoredWord => entry !== undefined).map((entry) => hydrateRow(entry.row, locale));
+    }
 
-                    countRequest.onerror = () => {
-                        this.logger.error(`Error counting records: ${countRequest.error?.message}`);
-                        reject(countRequest.error);
-                    };
-                })
-                .catch(reject);
-        });
+    /** Every word of the locale store as a Set, shared between callers until the store changes (do not mutate). */
+    async getWordSet(locale: string): Promise<Set<string>> {
+        const cacheKey = `${locale}_set`;
+        const cached = this.wordSetCache.get(cacheKey);
+        if (cached) return cached;
+
+        const wordSet = new Set(await this.getKeys(locale));
+        this.wordSetCache.set(cacheKey, wordSet);
+        return wordSet;
+    }
+
+    /** Records for the given words, in input order (undefined for a word not stored), in one transaction. */
+    async getRecords(locale: string, words: string[]): Promise<(WordRecord | undefined)[]> {
+        await this.ensureDBInitialized();
+        const store = this.startTransaction([wordsStoreFor(locale)], 'readonly').objectStore(wordsStoreFor(locale));
+        const stored = await Promise.all(words.map((word) => requestResult(store.get(word) as IDBRequest<StoredWord | undefined>)));
+        return stored.map((entry) => entry && hydrateRow(entry.row, locale));
     }
 
     async deleteDatabase(): Promise<void> {
@@ -250,10 +268,12 @@ class DBService {
                 this.db = null;
             }
 
-            const request = indexedDB.deleteDatabase(DB_NAME);
+            const request = this.dbFactory.deleteDatabase(DB_NAME);
 
             request.onsuccess = () => {
                 this.isPopulatedMap.clear();
+                this.keyCache.clear();
+                this.wordSetCache.clear();
                 this.logger.log('Database successfully deleted');
                 resolve();
             };

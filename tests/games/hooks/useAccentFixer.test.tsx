@@ -59,10 +59,8 @@ describe('useAccentFixer', () => {
         expect(mockGetSessionWords).toHaveBeenCalledWith(
             StorageService.WORDS_ACCENT,
             30,
-            'beginner',
-            'es',
+            { locale: 'es', level: 'beginner', count: 80, minLen: 4, maxLen: 6 },
             expect.any(Function),
-            { count: 80, minLength: 4, maxLength: 6 },
         );
         expect(result.current.challenges).toHaveLength(10);
         expect(result.current.challenges?.some((c) => c.accentIndex !== -1)).toBe(true);
@@ -241,5 +239,26 @@ describe('useAccentFixer', () => {
 
         expect(result.current.gameStarted).toBe(false);
         expect(result.current.showButton).toBe(true);
+    });
+});
+
+describe('useAccentFixer without a game level', () => {
+    afterEach(() => {
+        jest.clearAllMocks();
+    });
+
+    test('start reports an invalid level and draws no words (never a query without a level)', async () => {
+        const context = makeContext({ gameLevel: null });
+        mockUseWordsContext.mockReturnValue(context);
+        mockGetSessionWords.mockResolvedValue(MIXED_POOL);
+
+        const { result } = renderHook(() => useAccentFixer());
+
+        await act(async () => {
+            await result.current.handleGameStartClick();
+        });
+
+        expect(mockGetSessionWords).not.toHaveBeenCalled();
+        expect(context.setError).toHaveBeenCalledWith(new Error('Invalid level specified'));
     });
 });

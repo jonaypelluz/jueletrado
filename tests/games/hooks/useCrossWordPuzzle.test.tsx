@@ -1,15 +1,15 @@
 import { act, renderHook, waitFor } from '@testing-library/react';
-import { loadDefinition } from '@services/WordsService';
+import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import useCrossWordPuzzle from '@games/crossWordPuzzle/useCrossWordPuzzle';
 
 jest.mock('@store/WordsContext');
 jest.mock('@services/WordsService', () => ({
-    loadDefinition: jest.fn(),
+    getDefinitions: jest.fn(),
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
-const mockLoadDefinition = loadDefinition as jest.Mock;
+const mockGetDefinitions = getDefinitions as jest.Mock;
 
 const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}) => ({
     locale: 'es',
@@ -21,7 +21,7 @@ const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}
 
 describe('useCrossWordPuzzle', () => {
     beforeEach(() => {
-        mockLoadDefinition.mockResolvedValue({});
+        mockGetDefinitions.mockResolvedValue({});
     });
 
     afterEach(() => {
@@ -103,7 +103,7 @@ describe('useCrossWordPuzzle', () => {
         expect(result.current.gridSizePixels).toBe(50);
     });
 
-    test('calls loadDefinition with en locale when locale is en', async () => {
+    test('asks getDefinitions for en letter files when locale is en', async () => {
         mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en', gameLevel: 'beginner' }));
 
         const { result } = renderHook(() => useCrossWordPuzzle());
@@ -113,7 +113,7 @@ describe('useCrossWordPuzzle', () => {
         });
 
         await waitFor(() => {
-            expect(mockLoadDefinition).toHaveBeenCalledWith(expect.any(String), 'en');
+            expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'en', firstLetter: expect.stringMatching(/^[a-z]$/) });
         });
     });
 

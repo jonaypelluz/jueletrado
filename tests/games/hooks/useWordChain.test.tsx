@@ -139,7 +139,7 @@ describe('useWordChain', () => {
 
             await startGame(result);
 
-            expect(mockGetWords).toHaveBeenCalledWith('beginner', 'es', 20, context.setError, null, 4);
+            expect(mockGetWords).toHaveBeenCalledWith({ locale: 'es', level: 'beginner', count: 20, minLen: 4 }, context.setError);
             expect(result.current.gameStarted).toBe(true);
             expect(result.current.chain).toEqual(['arpa']);
             expect(result.current.requiredLetter).toBe('A');
@@ -324,7 +324,7 @@ describe('useWordChain', () => {
             await startGame(result);
 
             expect(result.current.countdown).toBe(20);
-            expect(mockGetWords).toHaveBeenLastCalledWith('intermediate', 'es', 20, expect.any(Function), null, 4);
+            expect(mockGetWords).toHaveBeenLastCalledWith({ locale: 'es', level: 'intermediate', count: 20, minLen: 4 }, expect.any(Function));
         });
     });
 

@@ -3,6 +3,7 @@
 import React, { ReactNode, createContext, useContext, useEffect, useState } from 'react';
 import { ContentRoutes } from '@config/translations/Content';
 import { GamesRoutes } from '@config/translations/Games';
+import { migrateWordsData } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 
 interface WordsContextValue {
@@ -55,6 +56,8 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
     const [hydrated, setHydrated] = useState(false);
 
     useEffect(() => {
+        // Before anything reads the word caches: drop the ones left by the v1 word data.
+        migrateWordsData();
         const storedDayWord = StorageService.getItem<string>(StorageService.SELECTED_DAY_WORD);
         const storedLevel = StorageService.getItem<string>(StorageService.SELECTED_LEVEL);
         const storedLocale = StorageService.getItem<string>(StorageService.LOCALE);
@@ -76,7 +79,7 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
 
     const setLocale = (newLocale: string) => {
         if (newLocale !== locale) {
-            // clearStorage wipes everything except PERSISTENT_KEYS (WORD_CHAIN_BEST),
+            // clearStorage wipes everything except PERSISTENT_KEYS (WORD_CHAIN_BEST, WORDS_DATA_VERSION),
             // including LEVELS_POPULATED — correct, because the new locale has
             // different IndexedDB stores that need population.
             StorageService.clearStorage();

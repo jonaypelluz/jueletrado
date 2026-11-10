@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { DEFINITION_LETTERS, LETTERS_WITHOUT_DEFINITIONS } from '@config/DefinitionConfig';
 import { MIN_WORD_LENGTH, TOTAL_ROUNDS } from '@games/spellingBee/config';
 import { WordEntry } from '@models/types';
-import { loadDefinition } from '@services/WordsService';
+import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import { formatDefinition, getDefinitionForLevel } from '@utils/DefinitionPicker';
 import { SpellingClue, compareSpelling, isUsableClue, pickHint } from '@utils/SpellingComparer';
@@ -26,13 +26,13 @@ const shuffle = <T,>(items: T[]): T[] => {
     return shuffled;
 };
 
-/** First usable clue among the dictionary's words, each candidate tried once in random order. */
+/** First usable clue among the dictionary's words (already MIN_WORD_LENGTH+), each tried once in random order. */
 const buildRound = (
     words: Record<string, WordEntry>,
     gameLevel: string | null,
     locale: string,
 ): SpellingClue | null => {
-    const candidates = shuffle(Object.keys(words).filter((word) => Array.from(word).length >= MIN_WORD_LENGTH));
+    const candidates = shuffle(Object.keys(words));
     for (const word of candidates) {
         const definition = getDefinitionForLevel(words[word].definitions, gameLevel);
         const clue = {
@@ -56,7 +56,9 @@ const loadRounds = async (locale: string, gameLevel: string | null): Promise<Spe
         if (round) rounds.push(round);
     };
 
-    const batch = await Promise.all(letters.slice(0, TOTAL_ROUNDS).map((letter) => loadDefinition(letter, locale)));
+    const loadLetter = (firstLetter: string) => getDefinitions({ locale, firstLetter, minLen: MIN_WORD_LENGTH });
+
+    const batch = await Promise.all(letters.slice(0, TOTAL_ROUNDS).map(loadLetter));
     for (const words of batch) {
         if (!words) return null;
         addRound(words);
@@ -64,7 +66,7 @@ const loadRounds = async (locale: string, gameLevel: string | null): Promise<Spe
 
     for (const letter of letters.slice(TOTAL_ROUNDS)) {
         if (rounds.length >= TOTAL_ROUNDS) break;
-        const words = await loadDefinition(letter, locale);
+        const words = await loadLetter(letter);
         if (!words) return null;
         addRound(words);
     }

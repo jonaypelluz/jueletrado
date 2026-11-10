@@ -1,10 +1,12 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { CHALLENGE_COUNT, LEVEL_FETCH_OPTIONS, isEligible } from '@games/syllableSplitter/config';
+import { CHALLENGE_COUNT, SYLLABLE_QUERY, SYLLABLE_WINDOW, isPlayable } from '@games/syllableSplitter/config';
 import { dividerPositions, SyllableChallenge, syllabify } from '@utils/SyllableSplitter';
+import { matchesQuery } from '@utils/WordQuery';
 import Logger from '@services/Logger';
-import { getSessionWords } from '@services/WordsService';
+import { fetchConfig } from '@config/WordGroupConfig';
+import { getSessionWords, getWordRecords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 
@@ -104,25 +106,26 @@ const useSyllableSplitter = () => {
         setShowButton(false);
         setIsLoadingWords(true);
 
-        const levelOptions = LEVEL_FETCH_OPTIONS[gameLevel ?? 'beginner'];
+        const level = gameLevel ?? 'beginner';
 
         // Draw again (bounded) until CHALLENGE_COUNT eligible words are found; an empty draw means the
         // pool is exhausted, so the session goes ahead with fewer words.
+        // No level: report it as the word service does for an invalid level and draw nothing.
+        if (!gameLevel) setError(new Error('Invalid level specified'));
         const eligibleWords: string[] = [];
-        for (let draw = 0; draw < MAX_DRAWS && eligibleWords.length < CHALLENGE_COUNT; draw++) {
+        for (let draw = 0; gameLevel && draw < MAX_DRAWS && eligibleWords.length < CHALLENGE_COUNT; draw++) {
+            // The queue holds the level window; the draw re-applies the full query plus isPlayable.
             const sessionWords = await getSessionWords(
                 StorageService.WORDS_SYLLABLE,
                 SESSION_DRAW,
-                gameLevel,
-                locale,
+                { locale, level: gameLevel, count: fetchConfig(StorageService.WORDS_SYLLABLE).count, ...SYLLABLE_WINDOW[level] },
                 setError,
-                { count: 60, ...levelOptions },
             );
             if (sessionWords.length === 0) break;
 
-            sessionWords
-                .filter((word) => isEligible(word, levelOptions) && !eligibleWords.includes(word))
-                .forEach((word) => eligibleWords.push(word));
+            (await getWordRecords(sessionWords, locale))
+                .filter((record) => matchesQuery(record, SYLLABLE_QUERY[level]) && isPlayable(record.word) && !eligibleWords.includes(record.word))
+                .forEach((record) => eligibleWords.push(record.word));
         }
 
         const builtChallenges = eligibleWords

@@ -1,18 +1,18 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { IntlProvider } from 'react-intl';
 import { createGamesConfig } from '@hooks/useGamesConfig';
-import { loadDefinition } from '@services/WordsService';
+import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import useDefinitionMaster from '@games/definitionMaster/useDefinitionMaster';
 import UI from '@games/definitionMaster/UI';
 
 jest.mock('@store/WordsContext');
 jest.mock('@services/WordsService', () => ({
-    loadDefinition: jest.fn(),
+    getDefinitions: jest.fn(),
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
-const mockLoadDefinition = loadDefinition as jest.Mock;
+const mockGetDefinitions = getDefinitions as jest.Mock;
 const gameConfig = createGamesConfig('es', 'definitionMaster')!;
 
 const DefinitionMasterGame = () => {
@@ -26,7 +26,7 @@ describe('DefinitionMaster UI', () => {
             locale: 'es',
             gameLevel: 'beginner',
         });
-        mockLoadDefinition.mockResolvedValue({
+        mockGetDefinitions.mockResolvedValue({
             gato: { definitions: [{ number: 1, definition: 'Animal doméstico que dice miau.' }] },
             perro: { definitions: [{ number: 1, definition: 'Animal doméstico que ladra.' }] },
             pato: { definitions: [{ number: 1, definition: 'Ave acuática.' }] },

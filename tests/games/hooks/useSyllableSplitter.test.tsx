@@ -5,9 +5,15 @@ import { useWordsContext } from '@store/WordsContext';
 import useSyllableSplitter from '@games/syllableSplitter/useSyllableSplitter';
 
 jest.mock('@store/WordsContext');
+// getWordRecords returns real records (derived like the generator does) for the drawn words, so the
+// draw re-applies SYLLABLE_QUERY + isPlayable on the same flags the database would hold.
 jest.mock('@services/WordsService', () => ({
     getSessionWords: jest.fn(),
     getFullWordSet: jest.fn().mockResolvedValue(new Set<string>()),
+    getWordRecords: jest.fn((words: string[]) => {
+        const { recordFor } = jest.requireActual('../../fixtures/wordRecords');
+        return Promise.resolve(words.map((word) => recordFor(word)));
+    }),
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
@@ -117,10 +123,8 @@ describe('useSyllableSplitter', () => {
             expect(mockGetSessionWords).toHaveBeenCalledWith(
                 StorageService.WORDS_SYLLABLE,
                 20,
-                'advanced',
-                'es',
+                { locale: 'es', level: 'advanced', count: 60, minLen: 6, maxLen: 12 },
                 expect.any(Function),
-                { count: 60, minLength: 6, maxLength: 12 },
             );
             expect(mockGetFullWordSet).not.toHaveBeenCalled();
         });
@@ -393,5 +397,26 @@ describe('useSyllableSplitter', () => {
             expect(result.current.gameStarted).toBe(false);
             expect(result.current.showButton).toBe(true);
         });
+    });
+});
+
+describe('useSyllableSplitter without a game level', () => {
+    afterEach(() => {
+        jest.clearAllMocks();
+    });
+
+    test('start reports an invalid level and draws no words (never a query without a level)', async () => {
+        const context = makeContext({ gameLevel: null });
+        mockUseWordsContext.mockReturnValue(context);
+        mockGetSessionWords.mockResolvedValue(POOL);
+
+        const { result } = renderHook(() => useSyllableSplitter());
+
+        await act(async () => {
+            await result.current.handleGameStartClick();
+        });
+
+        expect(mockGetSessionWords).not.toHaveBeenCalled();
+        expect(context.setError).toHaveBeenCalledWith(new Error('Invalid level specified'));
     });
 });
