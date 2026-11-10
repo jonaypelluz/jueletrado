@@ -8,15 +8,18 @@ repo root via `yarn <script>` or `tsx scripts/...`.
 ```
 ops/scripts/words/{locale}/{level}_words.txt   ──► crawler ──► ops/crawl-output/{locale}/{letter}.jsonl ──► merge ──► public/definitions/{locale}/{letter}_definitions.json
                                                                                                                               │
-ops/scripts/words/{locale}/{level}_words.txt   ◄────────────────────────────────────────────────────────── words:transform ──► public/words/{locale}/
+ops/scripts/words/{locale}/{level}_words.txt  ┐
+ops/scripts/frequency/wordfreq_{locale}.txt   ├──► words:build ──► public/words/{locale}/{level}_{n}.json + config/LevelConfig.ts
+public/definitions/{locale}/*.json            ┘
 ```
 
 - Crawlers never write directly to `public/definitions/` — they append to JSONL
   staging files, which are then merged.
-- Word lists (`*_words.txt`) are the source of truth for which words get crawled
-  and which game level they belong to.
+- Word lists (`*_words.txt`) are the source of truth for which words get crawled;
+  the frequency file sets the level of every ranked word, the lists that of the
+  unranked ones.
 - After `crawl:merge`, `words:from-book` or any edit to the word lists, run
-  `yarn words:audit --fix`, then `yarn words:transform`.
+  `yarn words:audit --fix`, then `yarn words:build`.
 - `ops/scripts/extractFromText.sh` is kept: a standalone column extractor
   (`awk -v col=N '{print $col}'`) with no yarn equivalent, not part of the
   pipeline.
@@ -128,11 +131,25 @@ Reads words from a file (or stdin). For each word already present in
 `advanced_words.txt` but missing from `<targetLevel>_words.txt`, appends it to
 the target level list.
 
-### `yarn words:transform [locale] [level]`
+### `yarn words:build [--locale es|en] [--root <dir>]`
 
-Reads `ops/scripts/words/{locale}/{level}_words.txt`, sorts + dedupes, writes
-100k-word chunked JSON arrays to `public/words/{locale}/`, and updates
-`config/LevelConfig.ts`. Run this after any change to the `*_words.txt` files.
+Builds the served word data (`scripts/words/buildWordData.ts`). Inputs:
+`ops/scripts/words/{locale}/{level}_words.txt`, `ops/scripts/frequency/wordfreq_{locale}.txt`
+(rank = 1-based line, first occurrence wins) and `public/definitions/{locale}/*_definitions.json`.
+
+- Writes `public/words/{locale}/{level}_{n}.json` (n from 1, ≤ 100k rows each, collator order):
+  `{ version: 2, locale, level, fields, rows }` — the format is documented in
+  [game-conventions.md](game-conventions.md) ("Served data and IndexedDB"). A word in several
+  levels gets the same row in each level file.
+- Deletes every other `.json` in `public/words/{locale}/` (legacy `*_words_from_*` files, stale chunks).
+- Updates `totalChunks` and `minimumPopulatedCount` (rows served per level) in `config/LevelConfig.ts`.
+- Prints a report per locale: words and chunks per level, flag counts, overrides (ranked word whose list
+  disagrees with its frequency band; served only in its band), definition keys in no list (not served),
+  syllabify failures. Overrides and failures are reported, never fatal.
+- Deterministic: a rerun on unchanged inputs changes no byte.
+
+Exit codes: `0` ok; `1` a missing or invalid input file; `2` bad arguments. Run it after any change to
+the `*_words.txt`, frequency or definition files.
 
 ### `yarn words:audit [--locale es|en] [--fix] [--report <path>] [--root <dir>]`
 
@@ -216,24 +233,33 @@ missing file counts as empty):
 | `html_xml_blocklist.txt`, `html_xml_blocklist_{locale}.txt` | Markup and web artifacts (W11); also used by `words:from-book`. |
 
 **When to run:** after `crawl:merge`, `words:from-book` or any edit to the word
-lists or the files above: `yarn words:audit --fix`, then `yarn words:transform`.
+lists or the files above: `yarn words:audit --fix`, then `yarn words:build`.
 `tests/scripts/words/auditRealData.test.ts` fails while the real data has
 pending FIX/DELETE findings.
 
-### `yarn words:level-counts [--out <json>] [--baseline <json>]`
+### `yarn words:level-counts [--out <json>] [--baseline <json>] [--strict]`
 
 Counts, per locale, level and game, the words each game can draw from the served
-data (`public/words` and `public/definitions`), using the games' own config
-(length windows, minimum counts, `LETTERS_WITHOUT_DEFINITIONS`, clue rules).
-Writes a flat JSON map `"<locale>/<level>/<game>[/<letter>]": { count, min }`
-(default `ops/crawl-output/audit/level-counts.json`).
+data (the v2 chunks in `public/words` and `public/definitions`), building every
+pool through `matchesQuery` with the games' own exported queries and filters
+(length windows, prefetch groups, the wordChain seed, `LETTERS_WITHOUT_DEFINITIONS`,
+clue rules). Writes a flat JSON map
+`"<locale>/<level>/<game>[/<part>]": { count, min, hash }` (default
+`ops/crawl-output/audit/level-counts.json`); `hash` is the first 16 hex characters
+of the sha256 of the sorted pool.
 
 With `--baseline <json>` it prints a before/after table and exits `1` when a pool
 that met its minimum in the baseline is now below it. Pools already below the
-minimum in the baseline are listed, not failed. The spellingBee count is an
+minimum in the baseline are listed, not failed. With `--strict` (needs
+`--baseline`, else exit `2`) it also lists every pool added, removed or whose
+count or hash changed, and exits `1` if there is any. The spellingBee count is an
 upper bound (the game picks one random eligible sense per word).
 
-Use it around a data clean-up: save a baseline first, clean, transform, then
+`tests/fixtures/pools/phase2-baseline.json` is the snapshot frozen from the legacy
+data before the v2 data layer; `tests/scripts/words/poolSnapshot.test.ts` asserts
+the current pools still match it.
+
+Use it around a data clean-up: save a baseline first, clean, build, then
 compare. If a definitions letter ends with 0 usable words, add it to
 `LETTERS_WITHOUT_DEFINITIONS` in `config/DefinitionConfig.ts`.
 
@@ -271,6 +297,6 @@ yarn words:from-book en
 
 The `ops/books/` directories are gitignored (copyrighted material stays local).
 
-Run `yarn words:audit --fix` and then `yarn words:transform` afterwards to clean the
+Run `yarn words:audit --fix` and then `yarn words:build` afterwards to clean the
 lists and regenerate `public/words/` chunks, then `yarn crawl:all` to fetch
 definitions for the newly added words.
