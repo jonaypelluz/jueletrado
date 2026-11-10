@@ -143,6 +143,8 @@ Builds the served word data (`scripts/words/buildWordData.ts`). Inputs:
   levels gets the same row in each level file.
 - Deletes every other `.json` in `public/words/{locale}/` (legacy `*_words_from_*` files, stale chunks).
 - Updates `totalChunks` and `minimumPopulatedCount` (rows served per level) in `config/LevelConfig.ts`.
+- Writes `config/WordsDataVersion.ts`: the hash of every served chunk. Browsers with another stamp drop their
+  stored words and load the levels again, so commit it with the chunks (`wordDataSync.test.ts` checks it).
 - Prints a report per locale: words and chunks per level, flag counts, overrides (ranked word whose list
   disagrees with its frequency band; served only in its band), definition keys in no list (not served),
   syllabify failures. Overrides and failures are reported, never fatal.

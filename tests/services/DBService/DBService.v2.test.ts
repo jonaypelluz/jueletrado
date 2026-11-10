@@ -2,9 +2,9 @@ import 'core-js/stable/structured-clone';
 import 'fake-indexeddb/auto';
 import { IDBFactory, IDBObjectStore, forceCloseDatabase } from 'fake-indexeddb';
 import { Level, WordRow } from '@models/types';
-import { DBService, DBUpgradeBlockedError } from '@services/DBService';
+import { DBService } from '@services/DBService';
 import Logger from '@services/Logger';
-import { encodeRow } from '@utils/WordRecord';
+import { WORD_CHUNK_ROWS, encodeRow } from '@utils/WordRecord';
 import { plainRecord } from '../../fixtures/wordRecords';
 
 const DB_NAME = 'jueletrado-db';
@@ -102,15 +102,27 @@ describe('DBService v2 schema', () => {
         }
     });
 
-    test('rejects with DBUpgradeBlockedError when an open v1 tab does not close', async () => {
+    test('an open v1 tab holding the upgrade back is reported, and the upgrade goes on once that tab closes', async () => {
         const v1Tab = await createV1(); // no onversionchange handler: never yields
+        const states: boolean[] = [];
+        const unsubscribe = service.onBlockedChange((blocked) => states.push(blocked));
+        let settled = false;
 
         try {
-            const result = service.initDB();
+            const result = service.initDB().then(() => (settled = true));
+            await new Promise((resolve) => setTimeout(resolve, 20));
+            expect(states).toEqual([true]);
+            expect(settled).toBe(false); // it waits instead of failing
 
-            await expect(result).rejects.toBeInstanceOf(DBUpgradeBlockedError);
-            await expect(result).rejects.toThrow('database upgrade blocked by another open tab');
+            v1Tab.close();
+            await result;
+
+            expect(states).toEqual([true, false]);
+            const db = await open();
+            expect(db.version).toBe(2);
+            db.close();
         } finally {
+            unsubscribe();
             v1Tab.close();
         }
     });
@@ -152,53 +164,57 @@ describe('DBService v2 putChunk', () => {
         await expect(service.getRecords('es', ['madrid'])).resolves.toEqual([madrid]);
     });
 
-    test('maps [level, offset + j] to the word of row j', async () => {
+    test('keeps each level file as its words in order at [level, start], and the level file index', async () => {
         await putChunk('es', 'beginner', 0, [encodeRow(casa), encodeRow(perro)]);
         await putChunk('es', 'beginner', 2, [encodeRow(madrid)]);
+        await putChunk('es', 'advanced', WORD_CHUNK_ROWS, [encodeRow(madrid)]);
 
         expect(await readStore('positions_es')).toEqual([
-            [['beginner', 0], 'casa'],
-            [['beginner', 1], 'perro'],
-            [['beginner', 2], 'madrid'],
+            [['advanced', WORD_CHUNK_ROWS], ['madrid']],
+            [['advanced', 'files'], [[WORD_CHUNK_ROWS, 1]]],
+            [['beginner', 0], ['casa', 'perro']],
+            [['beginner', 2], ['madrid']],
+            [['beginner', 'files'], [[0, 2], [2, 1]]],
         ]);
         expect(await readStore('positions_en')).toEqual([]);
     });
 
-    test('a word put from two level files keeps one words entry and one position per level', async () => {
+    test('a word put from two level files keeps one words entry and appears in both files', async () => {
         await putChunk('es', 'beginner', 0, [encodeRow(casa), encodeRow(madrid)]);
         await putChunk('es', 'advanced', 0, [encodeRow(madrid)]);
 
         expect((await readStore('words_es')).map(([key]) => key)).toEqual(['casa', 'madrid']);
         expect(await readStore('positions_es')).toEqual([
-            [['advanced', 0], 'madrid'],
-            [['beginner', 0], 'casa'],
-            [['beginner', 1], 'madrid'],
+            [['advanced', 0], ['madrid']],
+            [['advanced', 'files'], [[0, 1]]],
+            [['beginner', 0], ['casa', 'madrid']],
+            [['beginner', 'files'], [[0, 2]]],
         ]);
     });
 
-    test('writes a large chunk in transactions of at most putBatchRows rows, each over both stores, in order', async () => {
+    test('writes each word once, in transactions of at most putBatchRows rows, and the file one put, last', async () => {
         const batched = new DBService({ dbFactory: factory, logger: silentLogger, putBatchRows: 2 });
+        const put = jest.spyOn(IDBObjectStore.prototype, 'put');
         const transaction = jest.spyOn(IDBDatabase.prototype, 'transaction');
-        const rows = ['casa', 'perro', 'mesa', 'silla', 'gato'].map((word) => encodeRow(plainRecord(word)));
+        const words = ['casa', 'perro', 'mesa', 'silla', 'gato'];
 
         try {
-            await (batched as unknown as ChunkWriter).putChunk('es', 'beginner', 10, rows);
-            const writes = transaction.mock.calls.filter(([, mode]) => mode === 'readwrite');
-            expect(writes).toHaveLength(3);
-            writes.forEach(([stores]) => expect([...(stores as string[])].sort()).toEqual(['positions_es', 'words_es']));
-            transaction.mockRestore();
-            expect((await readStore('positions_es')).map(([key, word]) => [(key as [string, number])[1], word])).toEqual([
-                [10, 'casa'],
-                [11, 'perro'],
-                [12, 'mesa'],
-                [13, 'silla'],
-                [14, 'gato'],
-            ]);
+            await (batched as unknown as ChunkWriter).putChunk('es', 'beginner', 0, words.map((word) => encodeRow(plainRecord(word))));
+            const stores = put.mock.contexts.map((store) => (store as IDBObjectStore).name);
+            // One put per word, then the whole file and the level index (the first load was two puts per word).
+            expect(stores).toEqual([...words.map(() => 'words_es'), 'positions_es', 'positions_es']);
+            expect(transaction.mock.calls.filter(([, mode]) => mode === 'readwrite')).toHaveLength(4);
         } finally {
+            put.mockRestore();
             transaction.mockRestore();
-            await batched.deleteDatabase();
         }
+        expect(await readStore('positions_es')).toEqual([
+            [['beginner', 0], words],
+            [['beginner', 'files'], [[0, 5]]],
+        ]);
+        await batched.deleteDatabase();
     });
+
 
     test('putting the same chunk twice changes nothing', async () => {
         await putChunk('es', 'beginner', 0, [encodeRow(casa), encodeRow(perro)]);
@@ -253,6 +269,46 @@ describe('DBService v2 checkIfPopulated', () => {
     });
 });
 
+describe('DBService v2 getWordsAt and clearWordStores', () => {
+    const rows = (words: string[]) => words.map((word) => encodeRow(plainRecord(word)));
+
+    test('draws by position across level files, reading each file once', async () => {
+        await putChunk('es', 'advanced', 0, rows(['casa', 'perro']));
+        await putChunk('es', 'advanced', WORD_CHUNK_ROWS, rows(['mesa', 'silla']));
+        const get = jest.spyOn(IDBObjectStore.prototype, 'get');
+
+        try {
+            const drawn = await service.getWordsAt('es', 'advanced', [1, WORD_CHUNK_ROWS, WORD_CHUNK_ROWS + 1, 0, 7]);
+            expect(drawn.map((record) => record.word)).toEqual(['perro', 'mesa', 'silla', 'casa']); // 7 is not stored
+            const positionReads = () => get.mock.contexts.filter((store) => (store as IDBObjectStore).name === 'positions_es').length;
+            expect(positionReads()).toBe(3); // the level index, then each of its two files once
+            await service.getWordsAt('es', 'advanced', [0, WORD_CHUNK_ROWS]);
+            expect(positionReads()).toBe(3); // cached
+        } finally {
+            get.mockRestore();
+        }
+    });
+
+    test('a level whose last position falls in the second file is populated only once that file is in', async () => {
+        await putChunk('es', 'advanced', 0, rows(['casa']));
+        await expect(service.checkIfPopulated('es', 'advanced', WORD_CHUNK_ROWS + 1)).resolves.toBe(false);
+        await putChunk('es', 'advanced', WORD_CHUNK_ROWS, rows(['mesa']));
+        await expect(service.checkIfPopulated('es', 'advanced', WORD_CHUNK_ROWS + 1)).resolves.toBe(true);
+    });
+
+    test('clearWordStores empties every locale and drops the caches', async () => {
+        await putChunk('es', 'beginner', 0, rows(['casa']));
+        await putChunk('en', 'beginner', 0, rows(['house']));
+        await expect(service.checkIfPopulated('es', 'beginner', 1)).resolves.toBe(true);
+
+        await service.clearWordStores();
+
+        for (const name of ['words_es', 'positions_es', 'words_en', 'positions_en']) expect(await readStore(name)).toEqual([]);
+        await expect(service.checkIfPopulated('es', 'beginner', 1)).resolves.toBe(false);
+        await expect(service.getWordsAt('es', 'beginner', [0])).resolves.toEqual([]);
+    });
+});
+
 describe('DBService v2 connection lifecycle', () => {
     const casa = plainRecord('casa');
     const mesa = plainRecord('mesa');
@@ -272,7 +328,7 @@ describe('DBService v2 connection lifecycle', () => {
         db.close();
     };
 
-    test('putChunk rejects when the positions put aborts, and the words put of the same chunk is rolled back with it', async () => {
+    test('putChunk rejects when the positions put aborts, and the level does not read as populated', async () => {
         const realPut = IDBObjectStore.prototype.put;
         const putSpy = jest.spyOn(IDBObjectStore.prototype, 'put').mockImplementation(function (this: IDBObjectStore, ...args: Parameters<IDBObjectStore['put']>) {
             const request = realPut.apply(this, args);
@@ -286,8 +342,9 @@ describe('DBService v2 connection lifecycle', () => {
         } finally {
             putSpy.mockRestore();
         }
-        // One transaction for both stores: a word without its position is never left behind.
-        expect(await readStore('words_es')).toEqual([]);
+        // The file is written last: without it the level is not populated, so the next load writes it again.
+        expect(await readStore('positions_es')).toEqual([]);
+        await expect(service.checkIfPopulated('es', 'beginner', 1)).resolves.toBe(false);
     });
 
     test('a forced close drops the connection and the caches, so the next read sees the current store', async () => {

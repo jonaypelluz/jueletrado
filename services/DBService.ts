@@ -7,11 +7,17 @@ const DB_NAME = 'jueletrado-db';
 const DB_VERSION = 2;
 const LEGACY_STORE_PREFIX = 'words_level_';
 
-// Per locale: the words keyed by word (no index), and the served rows of each level file keyed by
-// [level, position] → word, so a draw or the population check is a keyed lookup (Chromium walks an
-// index cursor or a range count linearly).
+// Per locale: the words keyed by word (no index), and per served level file its words in order, keyed
+// [level, start] (start = the file's first position), plus the level's file index at [level, 'files']:
+// [[start, length], …]. A draw or the population check is a keyed lookup (Chromium walks an index cursor
+// or a range count linearly), and a level file costs one positions put instead of one per word: the
+// first load writes each word once.
 const wordsStoreFor = (locale: string): string => `words_${locale}`;
 const positionsStoreFor = (locale: string): string => `positions_${locale}`;
+const FILES_KEY = 'files';
+type LevelFiles = [start: number, length: number][];
+const fileHolding = (files: LevelFiles, position: number): [number, number] | undefined =>
+    files.find(([start, length]) => position >= start && position < start + length);
 
 /**
  * What the words store keeps per word: the key and the served chunk row (its levels are in the row
@@ -29,13 +35,8 @@ export interface IDbServiceOptions {
     putBatchRows?: number;
 }
 
-/** Rejected by initDB when an open tab on an older version does not let the v2 upgrade run. */
-export class DBUpgradeBlockedError extends Error {
-    constructor() {
-        super('database upgrade blocked by another open tab');
-        this.name = 'DBUpgradeBlockedError';
-    }
-}
+/** Told whether an open tab on an older version is holding the upgrade back (true) or let it run (false). */
+export type BlockedListener = (blocked: boolean) => void;
 
 const requestResult = <T>(request: IDBRequest<T>): Promise<T> =>
     new Promise((resolve, reject) => {
@@ -50,6 +51,10 @@ export class DBService {
     private keyCache: Map<string, string[]> = new Map();
     // Every word of a locale as a Set (`${locale}_set`), dropped with the key cache.
     private wordSetCache: Map<string, Set<string>> = new Map();
+    // The words of one served level file (`${locale}_${level}_${start}`) and a level's file index
+    // (`${locale}_${level}_files`), read once and dropped whenever the locale stores change.
+    private positionsCache: Map<string, string[] | LevelFiles> = new Map();
+    private blockedListeners: Set<BlockedListener> = new Set();
 
     private logger: typeof Logger;
     private dbFactory: IDBFactory;
@@ -76,10 +81,21 @@ export class DBService {
         this.keyCache.clear();
         this.wordSetCache.clear();
         this.isPopulatedMap.clear();
+        this.positionsCache.clear();
+    }
+
+    /** Subscribes to the blocked state of the upgrade (see initDB); returns the unsubscribe. */
+    onBlockedChange(listener: BlockedListener): () => void {
+        this.blockedListeners.add(listener);
+        return () => this.blockedListeners.delete(listener);
+    }
+
+    private setBlocked(blocked: boolean): void {
+        this.blockedListeners.forEach((listener) => listener(blocked));
     }
 
     private clearLocaleCaches(locale: string): void {
-        for (const cache of [this.keyCache, this.wordSetCache, this.isPopulatedMap]) {
+        for (const cache of [this.keyCache, this.wordSetCache, this.isPopulatedMap, this.positionsCache]) {
             for (const key of [...cache.keys()]) {
                 if (key.startsWith(`${locale}_`)) cache.delete(key);
             }
@@ -92,7 +108,11 @@ export class DBService {
         }
     }
 
-    /** Opens (and on first run upgrades) the database; a no-op while a connection is open. */
+    /**
+     * Opens (and on first run upgrades) the database; a no-op while a connection is open. While a tab on an
+     * older version holds the upgrade back, it waits (onBlockedChange tells the page so it can ask to close
+     * that tab) and goes on by itself once that tab closes.
+     */
     async initDB(): Promise<void> {
         if (this.db) return;
         return new Promise((resolve, reject) => {
@@ -112,11 +132,8 @@ export class DBService {
 
             request.onsuccess = () => {
                 const db = request.result;
-                // The upgrade went through after initDB already rejected as blocked: nobody owns this connection.
-                if (blocked) {
-                    db.close();
-                    return;
-                }
+                // The older tab closed and the upgrade ran: the page can stop asking.
+                if (blocked) this.setBlocked(false);
                 db.onversionchange = () => {
                     db.close();
                     this.dropConnection(db);
@@ -135,34 +152,44 @@ export class DBService {
             request.onblocked = () => {
                 blocked = true;
                 this.logger.warn('DB Initialization Blocked', 'An open tab keeps an older database version.');
-                reject(new DBUpgradeBlockedError());
+                this.setBlocked(true);
             };
         });
     }
 
     /**
-     * Stores the served rows of a level file at positions offset.., in transactions of putBatchRows rows:
-     * each row in the words store (by word) and its word at [level, offset + j]; storing the same chunk
-     * twice is a no-op.
+     * Stores the served rows of the level file that starts at position offset: each row in the words store
+     * (by word), in transactions of putBatchRows rows, then — last, in one transaction — the file's words in
+     * order at [level, offset] and its entry in the level's file index, so a level reads as populated only
+     * once all its words are in. Storing the same chunk twice is a no-op.
      */
     async putChunk(locale: string, level: Level, offset: number, rows: WordRow[]): Promise<void> {
         try {
-            // In order: the last position of the chunk is written last.
             for (let start = 0; start < rows.length; start += this.putBatchRows) {
-                await this.putRows(locale, level, offset + start, rows.slice(start, start + this.putBatchRows));
+                await this.write(locale, (words) =>
+                    rows.slice(start, start + this.putBatchRows).forEach((row) => words.put({ word: row[0] as string, row } satisfies StoredWord)),
+                );
             }
+            const fileWords = rows.map((row) => row[0] as string);
+            await this.write(locale, (_words, positions) => {
+                positions.put(fileWords, [level, offset]);
+                const index = positions.get([level, FILES_KEY]) as IDBRequest<LevelFiles | undefined>;
+                // Chained in the success callback, while the transaction is still active.
+                index.onsuccess = () => {
+                    const files = (index.result ?? []).filter(([start]) => start !== offset);
+                    positions.put([...files, [offset, fileWords.length]].sort((a, b) => a[0] - b[0]), [level, FILES_KEY]);
+                };
+            });
         } finally {
             this.clearLocaleCaches(locale);
         }
     }
 
-    /** One readwrite transaction over both stores: a word is never stored without its position. */
-    private async putRows(locale: string, level: Level, offset: number, rows: WordRow[]): Promise<void> {
+    /** One readwrite transaction over both stores of the locale; a throw inside `fill` writes nothing. */
+    private async write(locale: string, fill: (words: IDBObjectStore, positions: IDBObjectStore) => void): Promise<void> {
         await this.ensureDBInitialized();
         await new Promise<void>((resolve, reject) => {
             const transaction = this.startTransaction([wordsStoreFor(locale), positionsStoreFor(locale)], 'readwrite');
-            const words = transaction.objectStore(wordsStoreFor(locale));
-            const positions = transaction.objectStore(positionsStoreFor(locale));
             const fail = () => {
                 this.logger.error('Transaction Error', transaction.error?.message);
                 reject(transaction.error ?? new Error('transaction aborted'));
@@ -171,29 +198,40 @@ export class DBService {
             transaction.onerror = fail;
             transaction.onabort = fail;
             try {
-                rows.forEach((row, j) => {
-                    const word = row[0] as string;
-                    words.put({ word, row } satisfies StoredWord);
-                    positions.put(word, [level, offset + j]);
-                });
+                fill(transaction.objectStore(wordsStoreFor(locale)), transaction.objectStore(positionsStoreFor(locale)));
             } catch (error) {
-                // A malformed row (e.g. no word) throws synchronously: write none of the chunk.
+                // A malformed row (e.g. no word) throws synchronously: write none of the batch.
                 transaction.abort();
                 reject(error);
             }
         });
     }
 
-    /** True when the last served position of the level, [level, minimumPopulatedCount - 1], holds a word. */
+    /** Empties the words and positions stores of every locale (the served word data changed). */
+    async clearWordStores(): Promise<void> {
+        await this.ensureDBInitialized();
+        const names = LocalesConfig.flatMap(({ lang }: LocaleConfig) => [wordsStoreFor(lang), positionsStoreFor(lang)]);
+        try {
+            await new Promise<void>((resolve, reject) => {
+                const transaction = this.startTransaction(names, 'readwrite');
+                transaction.oncomplete = () => resolve();
+                transaction.onerror = () => reject(transaction.error);
+                transaction.onabort = () => reject(transaction.error ?? new Error('transaction aborted'));
+                names.forEach((name) => transaction.objectStore(name).clear());
+            });
+        } finally {
+            LocalesConfig.forEach(({ lang }: LocaleConfig) => this.clearLocaleCaches(lang));
+        }
+    }
+
+    /** True when a stored level file holds the level's last served position (minimumPopulatedCount - 1). */
     async checkIfPopulated(locale: string, level: string, minimumPopulatedCount: number): Promise<boolean> {
         const cacheKey = `${locale}_${level}_${minimumPopulatedCount}`;
         if (this.isPopulatedMap.get(cacheKey)) return true;
 
         await this.ensureDBInitialized();
-        const positions = this.startTransaction([positionsStoreFor(locale)], 'readonly').objectStore(positionsStoreFor(locale));
         try {
-            const word = await requestResult(positions.get([level, minimumPopulatedCount - 1]));
-            const isPopulated = word !== undefined;
+            const isPopulated = fileHolding(await this.levelFiles(locale, level), minimumPopulatedCount - 1) !== undefined;
             this.isPopulatedMap.set(cacheKey, isPopulated);
             this.logger.log(`Database check: Populated status for ${level} ${locale} - ${isPopulated}`);
             return isPopulated;
@@ -216,29 +254,56 @@ export class DBService {
         return [...keys];
     }
 
+    /** The level's file index ([[start, length], …]), read once and kept until the locale's stores change. */
+    private async levelFiles(locale: string, level: string): Promise<LevelFiles> {
+        const cacheKey = `${locale}_${level}_${FILES_KEY}`;
+        const cached = this.positionsCache.get(cacheKey) as LevelFiles | undefined;
+        if (cached) return cached;
+        const store = this.startTransaction([positionsStoreFor(locale)], 'readonly').objectStore(positionsStoreFor(locale));
+        const files = ((await requestResult(store.get([level, FILES_KEY]))) as LevelFiles | undefined) ?? [];
+        if (files.length) this.positionsCache.set(cacheKey, files);
+        return files;
+    }
+
+    /** The words of the level files starting at `starts`, read once and kept until the locale's stores change. */
+    private async levelFileWords(locale: string, level: string, starts: number[]): Promise<Map<number, string[]>> {
+        const files = new Map<number, string[]>();
+        const missing = starts.filter((start) => {
+            const cached = this.positionsCache.get(`${locale}_${level}_${start}`) as string[] | undefined;
+            if (cached) files.set(start, cached);
+            return !cached;
+        });
+        if (missing.length) {
+            const store = this.startTransaction([positionsStoreFor(locale)], 'readonly').objectStore(positionsStoreFor(locale));
+            const read = await Promise.all(missing.map((start) => requestResult(store.get([level, start]) as IDBRequest<string[] | undefined>)));
+            missing.forEach((start, i) => {
+                const words = read[i];
+                if (!Array.isArray(words)) return;
+                this.positionsCache.set(`${locale}_${level}_${start}`, words);
+                files.set(start, words);
+            });
+        }
+        return files;
+    }
+
     /**
-     * Records at the given positions of the level, in one readonly transaction of keyed lookups
-     * ([level, position] → word → record); a position not stored is skipped.
+     * Records at the given positions of the level: each position's word from its level file, then the
+     * records by word in one readonly transaction; a position not stored is skipped.
      */
     async getWordsAt(locale: string, level: string, positions: number[]): Promise<WordRecord[]> {
         await this.ensureDBInitialized();
-        const transaction = this.startTransaction([wordsStoreFor(locale), positionsStoreFor(locale)], 'readonly');
-        const words = transaction.objectStore(wordsStoreFor(locale));
-        const positionStore = transaction.objectStore(positionsStoreFor(locale));
-        const stored = await Promise.all(
-            positions.map(
-                (position) =>
-                    new Promise<StoredWord | undefined>((resolve, reject) => {
-                        const request = positionStore.get([level, position]) as IDBRequest<string | undefined>;
-                        request.onerror = () => reject(request.error);
-                        // Chained in the success callback, while the transaction is still active.
-                        request.onsuccess = () => {
-                            if (request.result === undefined) return resolve(undefined);
-                            requestResult(words.get(request.result) as IDBRequest<StoredWord | undefined>).then(resolve, reject);
-                        };
-                    }),
-            ),
-        );
+        const index = await this.levelFiles(locale, level);
+        const holding = positions.map((position) => fileHolding(index, position));
+        const files = await this.levelFileWords(locale, level, [...new Set(holding.flatMap((file) => (file ? [file[0]] : [])))]);
+        const drawn = positions
+            .map((position, i) => {
+                const file = holding[i];
+                return file ? files.get(file[0])?.[position - file[0]] : undefined;
+            })
+            .filter((word): word is string => word !== undefined);
+        if (!drawn.length) return [];
+        const words = this.startTransaction([wordsStoreFor(locale)], 'readonly').objectStore(wordsStoreFor(locale));
+        const stored = await Promise.all(drawn.map((word) => requestResult(words.get(word) as IDBRequest<StoredWord | undefined>)));
         return stored.filter((entry): entry is StoredWord => entry !== undefined).map((entry) => hydrateRow(entry.row, locale));
     }
 
@@ -274,6 +339,7 @@ export class DBService {
                 this.isPopulatedMap.clear();
                 this.keyCache.clear();
                 this.wordSetCache.clear();
+                this.positionsCache.clear();
                 this.logger.log('Database successfully deleted');
                 resolve();
             };

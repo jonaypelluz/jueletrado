@@ -57,3 +57,11 @@ describe.each(LOCALES)('word data sync (%s)', (locale) => {
         expect(config.minimumPopulatedCount[locale]).toBe(source.length);
     });
 });
+
+// The client drops its stored word data when this stamp changes (WordsService.migrateWordsData), so any change to the
+// served chunks must come with a new stamp: `yarn words:build` rewrites config/WordsDataVersion.ts.
+test('config/WordsDataVersion.ts is the hash of the served chunks (run yarn words:build after changing them)', async () => {
+    const { wordsDataVersion } = await import('../../../scripts/words/buildWordData');
+    const { WORDS_DATA_VERSION } = await import('../../../config/WordsDataVersion');
+    expect(await wordsDataVersion(ROOT)).toBe(WORDS_DATA_VERSION);
+});

@@ -1,6 +1,10 @@
 import React from 'react';
 import { render, waitFor } from '@testing-library/react';
+import { WORDS_DATA_VERSION } from '@config/WordsDataVersion';
 import { WordsContextProvider } from '@store/WordsContext';
+import { WORD_CHUNK_VERSION } from '@utils/WordRecord';
+
+const STAMP = `${WORD_CHUNK_VERSION}:${WORDS_DATA_VERSION}`;
 
 const stored = (value: unknown) => JSON.stringify({ value, timestamp: 1 });
 
@@ -37,24 +41,24 @@ describe('WordsContext words data migration', () => {
         localStorage.clear();
     });
 
-    test('hydrating v1 storage clears the populated levels and word queues, keeps the settings byte-identical and stores version 2', async () => {
+    test('hydrating v1 storage clears the populated levels and word queues, keeps the settings byte-identical and stores the data stamp', async () => {
         render(<WordsContextProvider>{null}</WordsContextProvider>);
 
-        await waitFor(() => expect(storedVersion()).toBe(2));
+        await waitFor(() => expect(storedVersion()).toBe(STAMP));
         CLEARED.forEach((key) => expect(localStorage.getItem(key)).toBeNull());
         KEPT.forEach((key) => expect(localStorage.getItem(key)).toBe(V1_STORAGE[key]));
     });
 
     test('once migrated, a later hydration removes nothing', async () => {
         const first = render(<WordsContextProvider>{null}</WordsContextProvider>);
-        await waitFor(() => expect(storedVersion()).toBe(2));
+        await waitFor(() => expect(storedVersion()).toBe(STAMP));
         first.unmount();
         localStorage.setItem('LEVELS_POPULATED', V1_STORAGE.LEVELS_POPULATED);
         localStorage.setItem('WORDS_FINDER', V1_STORAGE.WORDS_FINDER);
 
         render(<WordsContextProvider>{null}</WordsContextProvider>);
 
-        await waitFor(() => expect(storedVersion()).toBe(2));
+        await waitFor(() => expect(storedVersion()).toBe(STAMP));
         expect(localStorage.getItem('LEVELS_POPULATED')).toBe(V1_STORAGE.LEVELS_POPULATED);
         expect(localStorage.getItem('WORDS_FINDER')).toBe(V1_STORAGE.WORDS_FINDER);
     });

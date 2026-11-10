@@ -32,6 +32,8 @@ export const WORD_FLAGS: readonly WordFlagName[] = [
 ];
 
 export const WORD_CHUNK_VERSION = 2;
+/** Rows per served chunk file: every chunk of a level holds this many, the last one up to this many. */
+export const WORD_CHUNK_ROWS = 100_000;
 
 export const WORD_CHUNK_FIELDS: readonly string[] = ['word', 'freqRank', 'levels', 'flags', 'syllables', 'stressedSyllable', 'pos', 'senseCount', 'source'];
 

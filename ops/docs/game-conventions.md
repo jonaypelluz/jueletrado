@@ -147,31 +147,39 @@ returns one). `words:level-counts` builds every pool from these same objects, so
 - IndexedDB `jueletrado-db` version 2: two stores per locale. `words_<locale>` (keyPath `word`, no
   index) holds `{ word, row }`: the key and the served chunk row (levels in its mask);
   `getRecords` / `getWordRecords` hydrate it back to a full `WordRecord` (`hydrateRow`), so the cheap
-  fields are not stored. `positions_<locale>` (out-of-line keys) maps `[level, i]` to the word of row
-  i of that level's files, in served order; `putChunk` writes both stores together, in transactions of
-  10,000 rows (one transaction per 100k-row chunk took 70–117 s and sometimes hit `QuotaExceededError`). The
+  fields are not stored. `positions_<locale>` (out-of-line keys) keeps each served level file as its words
+  in order at `[level, start]` (`start` = the file's first position, a multiple of `WORD_CHUNK_ROWS`,
+  100,000). `putChunk` writes each word once into the words store, in transactions of 10,000 rows (one
+  transaction per 100k-row chunk took 70–117 s and sometimes hit `QuotaExceededError`), then the file's
+  word list in one put, last. A first load is one put per word, as in v1 (the earlier `[level, i]` → word
+  layout was two, the cause of the ~2.5× first populate). The
   spec's five indexes (`level`, `length`, `firstLetter`, `freqRank`, `hasTl`) were dropped before
   shipping because QA measured them (with full records) at 2.8× the v1 cold load and 218 MB for es;
   a multiEntry `levels` index followed them because Chromium walks an index cursor (`advance`) and a
   range count linearly: QA measured advanced-level draws at 6–60× slower than v1's `get(randomKey)`.
-  Measured cost of this layout (QA, Chromium, fresh profile, full es populate): draws and warm page
-  loads at or below v1, first full populate ~2.5× v1 (~470 s vs ~183 s in the QA container) and ~1.8×
-  the storage (~75 MB vs ~42 MB). Add an index back only together with a query that uses it. The full word set reads the words store
-  keys. The upgrade from v1 deletes the `words_level_*` stores; a tab still holding v1 makes the open
-  fail with `DBUpgradeBlockedError`, which is logged while the page stays loading (showing it in the
-  UI is residual work).
-- Populated check: a level is populated when its last served position, `[level,
-  minimumPopulatedCount - 1]`, holds a word (one keyed `get`, cached per locale + level + count). Populate
-  stores the chunks in order and stops at the first failing one, so that position is written last.
+  Measured cost of the earlier `[level, i]` layout (QA, Chromium, fresh profile, full es populate): first
+  full populate ~2.5× v1 (~470 s vs ~183 s) and ~1.8× the storage (~75 MB vs ~42 MB); the per-file word
+  lists halve the puts of that populate. Add an index back only together with a query that uses it. The full word set reads the words store
+  keys. The upgrade from v1 deletes the `words_level_*` stores; while a tab still holding v1 blocks it,
+  `initDB` waits instead of failing, `dbService.onBlockedChange` sets `WordsContext.dbBlocked`, and the
+  loading banner / screen ask to close that tab (`dbUpgradeBlocked`); the page goes on once it closes.
+- Populated check: a level is populated when the level file holding its last served position
+  (`minimumPopulatedCount - 1`) is stored in full (one keyed `get` of `[level, start]`, cached per locale +
+  level + count). Populate stores the chunks in order, each file's word list last, and stops at the first
+  failing one.
 - Sampling: a level draw takes a uniform sample without replacement of the served positions
   `[0, minimumPopulatedCount)` (lazy Fisher–Yates over a Map of swapped indices), reads them in
-  batches of 256 keyed lookups (`getWordsAt`: position → word → record) and keeps the matches until
+  batches of 256 (`getWordsAt`: each position's word from its level file, read once and kept in memory
+  until the stores change, then the records by word) and keeps the matches until
   `count` are found or the positions run out. Cost grows with `count / match rate`: today's queries
   match most words, but a query matching fewer than `count` words reads every position of the level
   (~2,600 batches on es advanced), so keep game queries dense.
-- `StorageService.WORDS_DATA_VERSION` (persistent): `WordsContext` calls `migrateWordsData()` on hydrate;
-  when the stored version is not 2 it clears `LEVELS_POPULATED` and the word queues (`WORD_GROUP_KEYS`)
-  once, keeps every setting (locale, level, daily word, best scores) and stores 2.
+- `StorageService.WORDS_DATA_VERSION` (persistent): the stamp `<chunk format>:<hash of the served chunks>`
+  (`config/WordsDataVersion.ts`, written by `yarn words:build`; `wordDataSync.test.ts` fails if it is stale).
+  `WordsContext` calls `migrateWordsData()` on hydrate: when the stored stamp differs (the v1 layout, or
+  chunks changed since they were loaded) it clears `LEVELS_POPULATED`, the word queues (`WORD_GROUP_KEYS`)
+  and the IndexedDB word stores (`clearWordStores`, behind the DB lock so loads wait for it), keeps every
+  setting (locale, level, daily word, best scores), and writes the new stamp only once the stores are empty.
 
 From `@store/WordsContext` (via `useWordsContext()`): `{ locale, gameLevel, error, setError, setLoading, setLoadingProgress }`. `gameLevel` ∈ `'beginner' | 'intermediate' | 'advanced'` (`config/LevelConfig.ts`).
 

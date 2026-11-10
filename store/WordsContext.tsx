@@ -3,6 +3,7 @@
 import React, { ReactNode, createContext, useContext, useEffect, useState } from 'react';
 import { ContentRoutes } from '@config/translations/Content';
 import { GamesRoutes } from '@config/translations/Games';
+import { dbService } from '@services/DBService';
 import { migrateWordsData } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 
@@ -25,6 +26,8 @@ interface WordsContextValue {
     currentRoutes: { [key: string]: string };
     /** True once the context has read from localStorage in the browser. */
     hydrated: boolean;
+    /** True while another open tab on an older version holds the word database upgrade back. */
+    dbBlocked: boolean;
 }
 
 const DEFAULT_LOCALE = 'es';
@@ -54,6 +57,10 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
     const [gameLevel, setGameLevel] = useState<string | null>(null);
     const [locale, setLocaleState] = useState<string>(initialLocale);
     const [hydrated, setHydrated] = useState(false);
+    const [dbBlocked, setDbBlocked] = useState(false);
+
+    // The word database waits while an older open tab holds its upgrade back; the page says so (and goes on by itself).
+    useEffect(() => dbService.onBlockedChange(setDbBlocked), []);
 
     useEffect(() => {
         // Before anything reads the word caches: drop the ones left by the v1 word data.
@@ -107,6 +114,7 @@ export const WordsContextProvider: React.FC<WordsContextProviderProps> = ({
         setLocale,
         currentRoutes,
         hydrated,
+        dbBlocked,
     };
 
     return <WordsContext.Provider value={value}>{children}</WordsContext.Provider>;

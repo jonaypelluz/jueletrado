@@ -5,6 +5,7 @@ import Logger from '@services/Logger';
 import StorageService, { StorageKey } from '@store/StorageService';
 import { Level, WordChunk, WordEntry, WordQuery, WordRecord } from '@models/types';
 import { DefinitionFileFilter, filterDefinitions, matchesQuery } from '@utils/WordQuery';
+import { WORDS_DATA_VERSION } from '@config/WordsDataVersion';
 import { assertChunkFormat, baseLetter, WORD_CHUNK_VERSION } from '@utils/WordRecord';
 
 type SetErrorFunction = (error: Error | null) => void;
@@ -359,15 +360,22 @@ const getDefinition = async (word: string, locale: string): Promise<WordEntry | 
     return file && Object.hasOwn(file, word) ? file[word] : null;
 };
 
+/** The stamp of the word data this build serves: its chunk format and the hash of its chunks. */
+const wordsDataStamp = (): string => `${WORD_CHUNK_VERSION}:${WORDS_DATA_VERSION}`;
+
 /**
- * One-off move to the v2 word data: the v1 populated-level flags and word queues point at the old
- * stores, so they are cleared once; settings (locale, level, daily word, best scores) are kept.
+ * Drops stored word data that is not this build's (the v1 layout, or chunks that changed since they were
+ * loaded): the word queues, the populated-level flags and the IndexedDB word stores, so the levels load
+ * again. Settings (locale, level, daily word, best scores) are kept. The stamp is written only once the
+ * stores are empty, so a failed clear is retried on the next load; loads queue behind it (withDBLock).
  */
-const migrateWordsData = (): void => {
-    if (StorageService.getItem<number>(StorageService.WORDS_DATA_VERSION) === WORD_CHUNK_VERSION) return;
+const migrateWordsData = (): Promise<void> => {
+    if (StorageService.getItem<string>(StorageService.WORDS_DATA_VERSION) === wordsDataStamp()) return Promise.resolve();
     clearWordGroupCaches();
     StorageService.removeItem(StorageService.LEVELS_POPULATED);
-    StorageService.setItem(StorageService.WORDS_DATA_VERSION, WORD_CHUNK_VERSION);
+    return withDBLock(() => dbService.clearWordStores())
+        .then(() => StorageService.setItem(StorageService.WORDS_DATA_VERSION, wordsDataStamp()))
+        .catch((error) => Logger.error('Could not clear the stale word data:', error));
 };
 
 // Locked entry points — see withDBLock. Helpers that already call a locked

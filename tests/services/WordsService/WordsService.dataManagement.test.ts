@@ -1,4 +1,4 @@
-import { DBUpgradeBlockedError, dbService } from '@services/DBService';
+import { dbService } from '@services/DBService';
 import Logger from '@services/Logger';
 import { deleteWordsDB, getWords, isLevelPopulated, populateWordsDB } from '@services/WordsService';
 import { WordQuery } from '@models/types';
@@ -188,8 +188,8 @@ describe('WordsService data management tests', () => {
         expect(global.fetch).not.toHaveBeenCalled();
     });
 
-    test('an upgrade blocked by another tab is reported through setError and the level is not populated', async () => {
-        const blocked = new DBUpgradeBlockedError();
+    test('a database that fails to open is reported through setError and the level is not populated', async () => {
+        const blocked = new Error('Database error: VersionError');
         jest.spyOn(dbService, 'initDB').mockRejectedValue(blocked);
         jest.spyOn(Logger, 'error').mockImplementation(() => {});
         const setErrorMock = jest.fn();

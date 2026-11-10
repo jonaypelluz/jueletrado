@@ -1,12 +1,13 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import { FormattedMessage } from 'react-intl';
 import { LoadingMessages } from '@config/translations/General';
 import { useWordsContext } from '@store/WordsContext';
 import '@styles/LoadingBanner.scss';
 
 const LoadingBanner: React.FC = () => {
-    const { generalLoading, isLoading, loadingProgress, locale } = useWordsContext();
+    const { generalLoading, isLoading, loadingProgress, locale, dbBlocked } = useWordsContext();
     const messages = LoadingMessages[locale] ?? LoadingMessages['es'];
     const [messageIndex, setMessageIndex] = useState(0);
 
@@ -21,6 +22,17 @@ const LoadingBanner: React.FC = () => {
 
         return () => clearInterval(interval);
     }, [visible, messages.length]);
+
+    // Another tab on an older version holds the word database back: say what to do, even with no load running.
+    if (dbBlocked) {
+        return (
+            <div className="loading-banner" role="alert">
+                <p className="loading-banner-message">
+                    <FormattedMessage id="dbUpgradeBlocked" />
+                </p>
+            </div>
+        );
+    }
 
     if (!visible) return null;
 

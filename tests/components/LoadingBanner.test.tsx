@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
+import { IntlProvider } from 'react-intl';
 import { LoadingMessages } from '@config/translations/General';
 import { useWordsContext } from '@store/WordsContext';
 import LoadingBanner from '@components/LoadingBanner';
@@ -19,6 +20,19 @@ const makeContext = (overrides: Record<string, unknown> = {}) => ({
 describe('LoadingBanner', () => {
     afterEach(() => {
         jest.clearAllMocks();
+    });
+
+    test('an upgrade held back by an older open tab asks to close it, even with no load running', () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ dbBlocked: true }));
+
+        render(
+            <IntlProvider locale="es" messages={{ dbUpgradeBlocked: 'Cierra la otra pestaña' }}>
+                <LoadingBanner />
+            </IntlProvider>,
+        );
+
+        expect(screen.getByRole('alert')).toHaveTextContent('Cierra la otra pestaña');
+        expect(screen.queryByRole('status')).not.toBeInTheDocument();
     });
 
     test('renders nothing when idle', () => {
