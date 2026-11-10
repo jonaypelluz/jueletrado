@@ -131,3 +131,22 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
 - Los 10 jobs propuestos se abrieron como JUE-0011..JUE-0020.
 - Sin decidir (anotado en los jobs): marcar palabras desusadas como `zebra` (JUE-0012); la pista de
   spellingBee pasa desapercibida (JUE-0016).
+
+## JUE-0012 — Limpiar las listas de nivel (malsonantes, adultas, basura) y marcar nombres propios (done 2026-11-10)
+- PR: https://github.com/jonaypelluz/jueletrado/pull/65 (3 rondas de revisión; la última, limpia).
+- Nuevo flag `isProperNoun` (último bit de `WORD_FLAGS`): `words:build` lo pone a toda palabra de
+  `proper_nouns_<locale>.txt`. W8 ya no borra: los nombres propios se quedan en los niveles con sus
+  acepciones. Ningún juego lo lee todavía (la palabra del día de JUE-0011 puede excluirlos).
+- `words:build` falla (exit 1, sin escribir nada) si una lista de nivel tiene una palabra de
+  `offensive_<locale>.txt` o de `html_xml_blocklist*.txt` (salvo las del allowlist).
+- Política nueva de malsonantes: fuera también las palabras de uso común vulgar o adulto en un juego
+  familiar aunque tengan un sentido neutro (ass, bitch, dick, sex, culo, pedo, sexo). Nombres propios:
+  nunca gentilicios, idiomas ni religiones; nunca un nombre cuyo uso habitual es una palabra común.
+- Se restauraron los nombres propios que borró la Fase 1 de JUE-0009 (sin sus definiciones). Se
+  marcan es 131 / en 621. El fixture `tests/fixtures/pools/phase2-baseline.json` se refrescó con
+  `words:level-counts --out`: hay que hacerlo en cada job que cambie las listas a propósito.
+- Las listas revisadas y su verificación están en el historial de git (`ops/jobs/JUE-0012/*.json`,
+  commit 39607ea).
+- Residual (decisión del owner): `damn`/`hell` (en) y `sexual` siguen en las listas; marcar palabras
+  desusadas (`zebra`) sigue sin decidir; queda basura no ofensiva en principiante es (ojale, pece,
+  rolden, eñes, iniciare, quedaren…) y tokens de corpus en en (gonna, lol, trackback, de/el/en/co).
