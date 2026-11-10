@@ -18,4 +18,13 @@ const LevelsConfig: LevelConfig[] = [
     },
 ];
 
+/**
+ * Frequency bands of the computed level, per locale: rank ≤ beginner → beginner, ≤ intermediate →
+ * intermediate, else advanced. Provisional values pending the level calibration of JUE-0017.
+ */
+export const LEVEL_BANDS: Record<string, { beginner: number; intermediate: number }> = {
+    es: { beginner: 3000, intermediate: 10000 },
+    en: { beginner: 3000, intermediate: 10000 },
+};
+
 export default LevelsConfig;

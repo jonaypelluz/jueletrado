@@ -173,7 +173,7 @@ async function main(): Promise<void> {
         console.log(`Written: ${level}_words.txt (${buckets[level].length} words)`);
     }
 
-    console.log('\nDone. Run `npm run words:transform` to regenerate JSON chunks.');
+    console.log('\nDone. Run `yarn words:build` to regenerate the word chunks.');
 }
 
 main().catch((err) => { console.error(err); process.exit(1); });

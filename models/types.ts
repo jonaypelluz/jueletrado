@@ -99,3 +99,53 @@ export type FallingWordItem = {
     duration: number;
     widthPx: number;
 };
+
+export type Level = 'beginner' | 'intermediate' | 'advanced';
+
+/** Boolean word features stored as 0|1. This order is the bit order of the chunk `flags` mask. */
+export type WordFlagName =
+    | 'hasAccent'
+    | 'hasEnye'
+    | 'hasDieresis'
+    | 'hasTl'
+    | 'hasDiphthong'
+    | 'hasHiatus'
+    | 'isPlural'
+    | 'isVerbForm';
+
+export type WordRecord = {
+    word: string;
+    locale: string;
+    level: Level;
+    levels: Level[];
+    freqRank: number | null;
+    length: number;
+    syllables: number | null;
+    stressedSyllable: number | null;
+    firstLetter: string;
+    lastLetter: string;
+    letters: string;
+    pos: string | null;
+    senseCount: number;
+    source: 'rae' | null;
+} & Record<WordFlagName, 0 | 1>;
+
+export type WordFilter = {
+    level?: string;
+    minLen?: number;
+    maxLen?: number;
+    exclude?: Partial<Record<WordFlagName, true>>;
+    minSyllables?: number;
+};
+
+export type WordQuery = WordFilter & { locale: string; count: number };
+
+export type WordRow = (string | number | null)[];
+
+export type WordChunk = {
+    version: 2;
+    locale: string;
+    level: string;
+    fields: string[];
+    rows: WordRow[];
+};

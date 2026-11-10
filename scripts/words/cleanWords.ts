@@ -93,7 +93,7 @@ async function main(): Promise<void> {
     if (dryRun) {
         console.log('\nDry run done. Run without --dry-run to apply.');
     } else {
-        console.log('\nDone. Run `npm run words:transform` to regenerate JSON chunks.');
+        console.log('\nDone. Run `yarn words:build` to regenerate the word chunks.');
     }
 }
 

@@ -40,7 +40,7 @@ function main(): void {
     if (!run([path.join(ROOT, 'scripts/words/mergeWords.ts'), discoveredFile, advancedFile])) process.exit(1);
     if (!run([path.join(ROOT, 'scripts/words/sortByFrequency.ts'), locale, freqFile])) process.exit(1);
 
-    console.log('\nDone. Run `yarn words:transform` to regenerate JSON chunks.');
+    console.log('\nDone. Run `yarn words:build` to regenerate the word chunks.');
 }
 
 main();

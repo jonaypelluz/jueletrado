@@ -40,7 +40,7 @@ GitHub Actions deploys the `/out` folder to GitHub Pages on every push to `main`
 
 ## Palabras y definiciones / Word data
 
-- **Spanish words** — based on [diccionario-espanol-txt](https://github.com/JorgeDuenasLerin/diccionario-espanol-txt), converted and structured into tiered JSON via `yarn words:transform` (`scripts/words/transformToJSON.ts`). Definitions sourced from RAE ([dle.rae.es](https://dle.rae.es)).
+- **Spanish words** — based on [diccionario-espanol-txt](https://github.com/JorgeDuenasLerin/diccionario-espanol-txt), built into per-level word chunks (frequency level, syllables, flags, sense counts) via `yarn words:build` (`scripts/words/buildWordData.ts`). Definitions sourced from RAE ([dle.rae.es](https://dle.rae.es)).
 - **English words** — sourced from [dwyl/english-words](https://github.com/dwyl/english-words) and other public word lists, cleaned and split by level. Definitions follow British English, sourced from Collins Dictionary ([collinsdictionary.com](https://www.collinsdictionary.com)).
 - Word lists live in `public/words/<locale>/`, definitions in `public/definitions/<locale>/`, loaded into IndexedDB at runtime.
 - Utility scripts for expanding/maintaining word lists are in `scripts/words/` and `scripts/crawlers/` (run via `yarn`); source word lists live in `ops/scripts/words/`.
