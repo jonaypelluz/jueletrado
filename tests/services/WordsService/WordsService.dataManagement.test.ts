@@ -1,6 +1,7 @@
 import { DBUpgradeBlockedError, dbService } from '@services/DBService';
 import Logger from '@services/Logger';
 import { deleteWordsDB, getWords, isLevelPopulated, populateWordsDB } from '@services/WordsService';
+import { WordQuery } from '@models/types';
 import StorageService from '@store/StorageService';
 import '@testing-library/jest-dom';
 import 'core-js/stable/structured-clone';
@@ -175,20 +176,16 @@ describe('WordsService data management tests', () => {
         expect([...words].sort()).toEqual(['casa', 'perro']);
     });
 
-    test('getWords without a level on an unpopulated database loads every level first', async () => {
-        await dbService.deleteDatabase();
-        localStorage.clear();
-        const chunks: Record<string, unknown> = {
-            '/words/es/beginner_1.json': v2Chunk('beginner', ['casa', 'perro']),
-            '/words/es/intermediate_1.json': v2Chunk('intermediate', ['gobierno', 'ventana']),
-            '/words/es/advanced_1.json': v2Chunk('advanced', ['madrid', 'mesa']),
-        };
-        global.fetch = jest.fn((url: string) => Promise.resolve({ ok: true, status: 200, json: () => Promise.resolve(chunks[url]) })) as unknown as typeof fetch;
+    test('getWords without a level reports "Invalid level specified" and loads nothing', async () => {
+        global.fetch = jest.fn() as unknown as typeof fetch;
+        jest.spyOn(Logger, 'error').mockImplementation(() => {});
+        const setErrorMock = jest.fn();
 
-        const words = await getWords({ locale: 'es', count: 10 }, jest.fn());
+        const words = await getWords({ locale: 'es', count: 10 } as WordQuery, setErrorMock);
 
-        Object.keys(chunks).forEach((url) => expect(global.fetch).toHaveBeenCalledWith(url));
-        expect([...words].sort()).toEqual(['casa', 'gobierno', 'madrid', 'mesa', 'perro', 'ventana']);
+        expect(words).toEqual([]);
+        expect(setErrorMock).toHaveBeenCalledWith(new Error('Invalid level specified'));
+        expect(global.fetch).not.toHaveBeenCalled();
     });
 
     test('an upgrade blocked by another tab is reported through setError and the level is not populated', async () => {

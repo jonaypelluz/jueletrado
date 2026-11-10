@@ -176,17 +176,6 @@ const populateWordsDBImpl = async (
 };
 
 /**
- * Makes sure IndexedDB holds every level: the populate fast path checks the store itself (cached), so a
- * stale LEVELS_POPULATED flag after a reset or an eviction still reloads the level.
- */
-const ensureLevelsPopulated = async (levels: string[], locale: string, setError: SetErrorFunction): Promise<boolean> => {
-    for (const level of levels) {
-        if (!(await populateWordsDBImpl(level, locale, setError, () => {}, false))) return false;
-    }
-    return true;
-};
-
-/**
  * Lazy Fisher–Yates over [0, total): each call to the returned function takes up to `size` more
  * distinct positions, uniformly at random, without materialising the range (a Map of swapped indices).
  */
@@ -207,38 +196,25 @@ const positionSampler = (total: number) => {
 
 /**
  * Uniform sample without replacement of the stored words matching the query: min(count, matches)
- * words. With a level, the served positions [0, minimumPopulatedCount) are sampled and read in batches
- * of keyed lookups until `count` matches are found or the positions run out. Without a level (outside
- * production) every key of the store is shuffled lazily and fetched in batches the same way.
+ * words. The level's served positions [0, minimumPopulatedCount) are sampled and read in batches of
+ * keyed lookups until `count` matches are found or the positions run out.
  */
 const getWordsImpl = async (query: WordQuery, setError: SetErrorFunction = () => {}): Promise<string[]> => {
     const { locale, level, count } = query;
-    const levelConfig = level === undefined ? undefined : findLevelConfig(level, setError);
-    if (level !== undefined && !levelConfig) return [];
+    const levelConfig = findLevelConfig(level, setError);
+    if (!levelConfig) return [];
 
     try {
-        const levels = level === undefined ? LevelsConfig.map((config) => config.level) : [level];
-        if (!(await ensureLevelsPopulated(levels, locale, setError))) return [];
+        // The populate fast path checks the store itself (cached), so a stale LEVELS_POPULATED flag
+        // after a reset or an eviction still reloads the level.
+        if (!(await populateWordsDBImpl(level, locale, setError, () => {}, false))) return [];
 
         const words: string[] = [];
-        const keep = (records: (WordRecord | undefined)[]) => {
-            for (const record of records) {
+        const nextPositions = positionSampler(levelConfig.minimumPopulatedCount[locale]);
+        for (let batch = nextPositions(SAMPLE_BATCH_SIZE); words.length < count && batch.length > 0; batch = nextPositions(SAMPLE_BATCH_SIZE)) {
+            for (const record of await dbService.getWordsAt(locale, levelConfig.level, batch)) {
                 if (words.length < count && record && matchesQuery(record, query)) words.push(record.word);
             }
-        };
-
-        if (levelConfig) {
-            const nextPositions = positionSampler(levelConfig.minimumPopulatedCount[locale]);
-            for (let batch = nextPositions(SAMPLE_BATCH_SIZE); words.length < count && batch.length > 0; batch = nextPositions(SAMPLE_BATCH_SIZE)) {
-                keep(await dbService.getWordsAt(locale, levelConfig.level, batch));
-            }
-            return words;
-        }
-
-        const keys = await dbService.getKeys(locale);
-        const nextPositions = positionSampler(keys.length);
-        for (let batch = nextPositions(SAMPLE_BATCH_SIZE); words.length < count && batch.length > 0; batch = nextPositions(SAMPLE_BATCH_SIZE)) {
-            keep(await dbService.getRecords(locale, batch.map((i) => keys[i])));
         }
         return words;
     } catch (error) {

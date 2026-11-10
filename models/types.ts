@@ -138,7 +138,7 @@ export type WordFilter = {
     minSyllables?: number;
 };
 
-export type WordQuery = WordFilter & { locale: string; count: number };
+export type WordQuery = WordFilter & { locale: string; level: string; count: number };
 
 export type WordRow = (string | number | null)[];
 
