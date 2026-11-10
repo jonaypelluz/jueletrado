@@ -1,7 +1,8 @@
 # words:audit proper nouns (es). One word per line; lines starting with # are ignored.
-# Policy: names of people, places and organisations. Never a word that has an es definition
-# key (áfrica, castilla, cali, perú, china, chile stay: they have an RAE entry), and never a
-# name with a common meaning (victoria, rosa, granada...).
+# Policy: names of people, places and organisations whose usual use is the name, even when the
+# repo has a rare common sense for them (corea = chorea, rusia = a coarse linen). Listed words
+# stay in the levels and keep their senses; words:build marks them isProperNoun. Never a name
+# whose usual use is a common word (china, chile, victoria, rosa, granada...).
 # Evidence: ops/crawl-output/es/not-found.txt crossed with the lists, beginner words without a
 # definition, and the non-RAE tail of the intermediate list.
 

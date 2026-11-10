@@ -234,7 +234,7 @@ missing file counts as empty):
 |---|---|
 | `allowlist_{locale}.txt` | Real words exempt from W4–W7 and from every list rule (e.g. `version`, `hmm`, `mi`). |
 | `offensive_{locale}.txt` | Slurs, words whose main meaning is vulgar, and words whose common use is vulgar or adult in a family word game (W10; `words:build` fails on them). |
-| `proper_nouns_{locale}.txt` | Names of people, places, brands whose only usual use is a proper noun (W8). They stay in the levels with the `isProperNoun` flag. Never a word that is also a common word (`china`, `rosa`). |
+| `proper_nouns_{locale}.txt` | Names of people, places, organisations, brands whose usual use is the name, even with a rare common sense in the repo (`japan` = varnish, `corea` = chorea) (W8). They stay in the levels, keep their senses and get the `isProperNoun` flag. Never a demonym, nationality, language or religion word (en), never a name whose usual use is a common word (`china`, `rosa`). |
 | `foreign_es.txt` | Clear non-Spanish words (W9). DLE loanwords stay. |
 | `abbreviations_{locale}.txt` | Abbreviations that contain a vowel (W5). |
 | `html_xml_blocklist.txt`, `html_xml_blocklist_{locale}.txt` | Markup and web artifacts (W11); also used by `words:from-book`. |

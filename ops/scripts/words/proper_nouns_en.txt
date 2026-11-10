@@ -1,9 +1,11 @@
 # words:audit proper nouns (en). One word per line; lines starting with # are ignored.
-# Policy: names of people, places, organisations, brands, months, weekdays and holidays. Never a
-# demonym, nationality, language or religion word (american, chinese, english, muslim...): they
-# are adjectives and common nouns too. Never a word that has an en definition key, and never a
-# name with a common lowercase meaning (may, march, august, sun, rosa, carter, colin, craig,
-# gibson, gilbert, harris, luke, marshall, panama, solomon, tyler...).
+# Policy: names of people, places, organisations, brands, months, weekdays and holidays whose
+# usual use is the name, even when the repo has a rare common sense for them (japan = varnish).
+# Listed words stay in the levels and keep their senses; words:build marks them isProperNoun.
+# Never a demonym, nationality, language or religion word (american, chinese, english, muslim...):
+# they are adjectives and common nouns too. Never a name whose usual use is a common word (may,
+# march, august, sun, rosa, carter, colin, craig, gibson, gilbert, harris, luke, marshall, panama,
+# solomon, tyler...).
 # Evidence: beginner words without a definition, and the frequency bands of intermediate words
 # without a definition (the web-frequency head and tail); the rest of advanced is backlog.
 
