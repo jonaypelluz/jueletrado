@@ -24,6 +24,23 @@ public/definitions/{locale}/*.json            ┘
   (`awk -v col=N '{print $col}'`) with no yarn equivalent, not part of the
   pipeline.
 
+## Smoke test of the games
+
+### `yarn smoke [--locale es|en] [--base <url>]`
+
+Plays the built site like a person (`scripts/smoke/playAllGames.mjs`, puppeteer-core on the machine's Chrome or
+Chromium): per locale, in a fresh profile, "Cargar niveles" / "Load levels" loads every level, then each game page
+under `out/juegos/` and `out/en/games/` is opened, its start button (`gamePlay`) clicked, and the round checked: no
+page error and the game left its start screen. Prints a PASS/FAIL line per game and exits 1 if any fails.
+
+- Run it after `yarn build` (it serves `./out` itself), or point it at a running server with `--base`.
+- Browser: `CHROME_PATH`, else `PUPPETEER_EXECUTABLE_PATH`, else the usual install paths (macOS Chrome, Linux
+  google-chrome / chromium).
+- Takes about a minute (the first full load of es is ~40 s). The PR CI (`.github/workflows/feature.yml`) runs it after
+  the build, so a change that breaks a game fails the PR.
+- A new game is picked up by its folder in `out/`; a game whose start button is not `gamePlay` needs its label added
+  to `LOCALES` in the script.
+
 ## Definitions crawlers
 
 ### `yarn crawl:all`

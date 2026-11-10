@@ -42,3 +42,9 @@ jobs:
 
       - name: Build
         run: yarn build
+
+      # Every game, es and en, starts a round with real words and no JavaScript error (scripts/smoke).
+      - name: Smoke-play every game
+        run: yarn smoke
+        env:
+          CHROME_PATH: /usr/bin/google-chrome
