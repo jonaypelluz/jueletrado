@@ -28,4 +28,15 @@ describe('StorageService.clearStorage', () => {
         expect(localStorage.getItem(StorageService.WORD_CHAIN_BEST)).toBeNull();
         expect(localStorage.length).toBe(0);
     });
+
+    test('keeps the stored words data version so a locale switch does not re-run the v1 migration', () => {
+        // Raw key: the word data layout version written by WordsService.migrateWordsData.
+        const version = JSON.stringify({ value: 2, timestamp: 1 });
+        localStorage.setItem('WORDS_DATA_VERSION', version);
+        StorageService.setItem(StorageService.LOCALE, 'es');
+
+        StorageService.clearStorage();
+
+        expect(localStorage.getItem('WORDS_DATA_VERSION')).toBe(version);
+    });
 });

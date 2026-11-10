@@ -1,4 +1,4 @@
-import { dividerPositions, syllabify } from '@utils/SyllableSplitter';
+import { dividerPositions, syllabify, vowelFeatures } from '@utils/SyllableSplitter';
 
 // Canonical table (JUE-0004 spec, normative): [word, expected syllabification joined by '-'].
 // Monosyllables are listed as [word, word].
@@ -229,5 +229,17 @@ describe('dividerPositions', () => {
 describe('dividerPositions over the canonical table', () => {
     test.each(TABLE)('%s: dividers match the syllable lengths', (word, hyphenated) => {
         expect(dividerPositions(word)).toEqual(cumulativeDividers(hyphenated.split('-')));
+    });
+});
+
+describe('vowelFeatures', () => {
+    test.each([
+        ['cuidado', { hasDiphthong: 1, hasHiatus: 0 }], // cui: weak + weak in one nucleus
+        ['país', { hasDiphthong: 0, hasHiatus: 1 }], // pa-ís: accented weak vowel breaks the pair
+        ['leer', { hasDiphthong: 0, hasHiatus: 1 }], // le-er: two strong vowels
+        ['ahínco', { hasDiphthong: 0, hasHiatus: 1 }], // a-hín: a silent h between the vowels does not join them
+        ['sol', { hasDiphthong: 0, hasHiatus: 0 }],
+    ])('%s → %o', (word, expected) => {
+        expect(vowelFeatures(word)).toEqual(expected);
     });
 });

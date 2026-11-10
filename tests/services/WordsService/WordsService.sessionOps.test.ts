@@ -1,18 +1,42 @@
+import 'core-js/stable/structured-clone';
+import { waitFor } from '@testing-library/react';
+import { WORD_GROUP_FETCH_CONFIG } from '@config/WordGroupConfig';
 import { dbService } from '@services/DBService';
+import Logger from '@services/Logger';
 import {
     clearWordGroupCaches,
     getSessionWords,
-    getLevelWordSet,
-    getFullWordSet,
     isLevelPopulated,
     loadDailyWordForLocale,
+    prefetchWordGroups,
 } from '@services/WordsService';
 import StorageService from '@store/StorageService';
+import { resetLevelRows } from '../../fixtures/levelConfigMock';
+import { storeLevel } from '../../fixtures/storeLevel';
+import { plainRecord } from '../../fixtures/wordRecords';
 
-// Do NOT import 'fake-indexeddb/auto' here — it conflicts with spies on dbService.
-// All dbService methods are mocked individually.
+// Real dbService on the fake-indexeddb global (tests/settings/env-setup.ts), seeded with records;
+// each level serves exactly the rows stored with storeLevel, so the seeded level counts as populated.
+jest.mock('@config/LevelConfig', () => require('../../fixtures/levelConfigMock').levelConfigModule);
+
+const FINDER_QUERY = { locale: 'es', level: 'beginner', count: 60, minLen: 4, maxLen: 9 };
+const inFinderWindow = (word: string) => word.length >= 4 && word.length <= 9;
+
+/** Beginner records of 3 to 10 letters, marked as a populated level. */
+const SEEDED = ['sol', 'casa', 'perro', 'camino', 'ventana', 'caramelo', 'mariposa', 'chocolate', 'computador'];
+const seedBeginner = async () => {
+    await storeLevel('es', 'beginner', SEEDED.map((word) => plainRecord(word)));
+    StorageService.setItem(StorageService.LEVELS_POPULATED, { es: { beginner: true } });
+};
 
 describe('WordsService session operations tests', () => {
+    beforeEach(async () => {
+        await dbService.deleteDatabase();
+        resetLevelRows();
+        jest.spyOn(Logger, 'log').mockImplementation(() => {});
+        jest.spyOn(Logger, 'info').mockImplementation(() => {});
+    });
+
     afterEach(() => {
         jest.restoreAllMocks();
         localStorage.clear();
@@ -78,146 +102,71 @@ describe('WordsService session operations tests', () => {
     // getSessionWords
     // ─────────────────────────────────────────────────────────
     describe('getSessionWords', () => {
-        test('draws session from full pool, saves remainder without fetching', async () => {
+        test('draws the session from a full pool and saves the remainder without querying the database', async () => {
             const pool = Array.from({ length: 50 }, (_, i) => `word${i}`);
+            StorageService.setItem(StorageService.WORDS_FINDER, pool);
+            const initDB = jest.spyOn(dbService, 'initDB');
 
-            jest.spyOn(StorageService, 'getItem').mockImplementation((key) =>
-                key === StorageService.WORDS_FINDER ? (pool as unknown as null) : null,
-            );
-            const mockSetItem = jest.spyOn(StorageService, 'setItem');
-            const mockGetRandomWordsWithMaxLength = jest.spyOn(
-                dbService,
-                'getRandomWordsWithMaxLength',
-            );
+            const result = await getSessionWords(StorageService.WORDS_FINDER, 10, FINDER_QUERY, jest.fn(), 20);
 
-            const result = await getSessionWords(
-                StorageService.WORDS_FINDER,
-                10,
-                'beginner',
-                'es',
-                jest.fn(),
-                { count: 60, maxLength: 9, minLength: 4 },
-                20,
-            );
-
-            expect(result).toHaveLength(10);
             expect(result).toEqual(pool.slice(0, 10));
-            expect(mockSetItem).toHaveBeenCalledWith(
-                StorageService.WORDS_FINDER,
-                pool.slice(10),
-            );
-            expect(mockGetRandomWordsWithMaxLength).not.toHaveBeenCalled();
+            expect(StorageService.getItem(StorageService.WORDS_FINDER)).toEqual(pool.slice(10));
+            expect(initDB).not.toHaveBeenCalled();
         });
 
-        test('fetches from DB when pool is empty', async () => {
-            const fetched = Array.from({ length: 60 }, (_, i) => `fetched${i}`);
+        test('an empty pool is filled from the database with the query', async () => {
+            await seedBeginner();
 
-            jest.spyOn(StorageService, 'getItem').mockReturnValue(null);
-            jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-            jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
-            const mockGetRandomWordsWithMaxLength = jest
-                .spyOn(dbService, 'getRandomWordsWithMaxLength')
-                .mockResolvedValue(fetched);
+            const result = await getSessionWords(StorageService.WORDS_FINDER, 3, FINDER_QUERY, jest.fn(), 1);
 
-            const result = await getSessionWords(
-                StorageService.WORDS_FINDER,
-                10,
-                'beginner',
-                'es',
-                jest.fn(),
-                { count: 60, maxLength: 9, minLength: 4 },
-                20,
-            );
-
-            expect(result).toHaveLength(10);
-            expect(mockGetRandomWordsWithMaxLength).toHaveBeenCalled();
+            expect(result).toHaveLength(3);
+            result.forEach((word) => expect(inFinderWindow(word)).toBe(true));
         });
 
-        test('triggers background refetch when remaining pool drops below threshold', async () => {
-            const smallPool = Array.from({ length: 15 }, (_, i) => `poolWord${i}`);
-            const newWords = Array.from({ length: 60 }, (_, i) => `newWord${i}`);
+        test('a pool below the threshold is topped up in the background with words matching the query', async () => {
+            await seedBeginner();
+            StorageService.setItem(StorageService.WORDS_FINDER, ['uno1', 'dos2', 'tres', 'cuat', 'cinc']);
 
-            // First call returns smallPool (pool); subsequent calls return null (for the
-            // background refetch's StorageService.getItem to merge with).
-            let getItemCallCount = 0;
-            jest.spyOn(StorageService, 'getItem').mockImplementation((key) => {
-                if (key === StorageService.WORDS_FINDER) {
-                    getItemCallCount += 1;
-                    return getItemCallCount === 1
-                        ? (smallPool as unknown as null)
-                        : null;
-                }
-                return null;
-            });
-            jest.spyOn(StorageService, 'setItem');
-            jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-            jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
-            const mockGetRandomWordsWithMaxLength = jest
-                .spyOn(dbService, 'getRandomWordsWithMaxLength')
-                .mockResolvedValue(newWords);
+            const result = await getSessionWords(StorageService.WORDS_FINDER, 2, FINDER_QUERY, jest.fn(), 20);
 
-            const result = await getSessionWords(
-                StorageService.WORDS_FINDER,
-                10,
-                'beginner',
-                'es',
-                jest.fn(),
-                { count: 60, maxLength: 9, minLength: 4 },
-                20,
-            );
-
-            expect(result).toHaveLength(10);
-
-            // Allow the background promise (fire-and-forget) to resolve
-            await new Promise((resolve) => setTimeout(resolve, 50));
-
-            expect(mockGetRandomWordsWithMaxLength).toHaveBeenCalled();
+            expect(result).toEqual(['uno1', 'dos2']);
+            const matches = SEEDED.filter(inFinderWindow);
+            await waitFor(() => expect(StorageService.getItem<string[]>(StorageService.WORDS_FINDER)).toHaveLength(3 + matches.length));
+            const refetched = StorageService.getItem<string[]>(StorageService.WORDS_FINDER)!.slice(3);
+            expect([...refetched].sort()).toEqual([...matches].sort());
         });
     });
 
     // ─────────────────────────────────────────────────────────
-    // getLevelWordSet
+    // prefetchWordGroups
     // ─────────────────────────────────────────────────────────
-    describe('getLevelWordSet', () => {
-        test('returns a Set of all words and caches it on repeated calls', async () => {
-            jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-            jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
-            const mockGetAllWords = jest
-                .spyOn(dbService, 'getAllWords')
-                .mockResolvedValue(['apple', 'banana', 'cherry']);
-
-            const first = await getLevelWordSet('beginner', 'es');
-            expect(first).toEqual(new Set(['apple', 'banana', 'cherry']));
-            expect(mockGetAllWords).toHaveBeenCalledTimes(1);
-
-            const second = await getLevelWordSet('beginner', 'es');
-            expect(second).toEqual(new Set(['apple', 'banana', 'cherry']));
-            // Cache hit — DB should NOT be queried again
-            expect(mockGetAllWords).toHaveBeenCalledTimes(1);
+    describe('prefetchWordGroups', () => {
+        test('WORD_GROUP_FETCH_CONFIG keeps the per-group counts and length windows as queries', () => {
+            expect(WORD_GROUP_FETCH_CONFIG).toEqual([
+                { key: StorageService.WORDS_DAILY, count: 7, query: { minLen: 4 } },
+                { key: StorageService.WORDS_FINDER, count: 60, query: { minLen: 4, maxLen: 9 } },
+                { key: StorageService.WORDS_TOWER, count: 120, query: { minLen: 4 } },
+                { key: StorageService.WORDS_RAIN, count: 150, query: { minLen: 4 } },
+                { key: StorageService.WORDS_ACCENT, count: 80, query: { minLen: 4 } },
+                { key: StorageService.WORDS_MATCHER, count: 80, query: { minLen: 4 } },
+                { key: StorageService.WORDS_SYLLABLE, count: 60, query: { minLen: 4 } },
+            ]);
         });
-    });
 
-    // ─────────────────────────────────────────────────────────
-    // getFullWordSet
-    // ─────────────────────────────────────────────────────────
-    describe('getFullWordSet', () => {
-        test('combines word sets from every level for the locale', async () => {
-            jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-            jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
-            // Fast path: every level reports as already populated, so
-            // populateWordsDB skips chunk loading entirely.
-            jest.spyOn(dbService, 'checkIfPopulated').mockResolvedValue(true);
-            const mockGetAllWords = jest
-                .spyOn(dbService, 'getAllWords')
-                .mockResolvedValueOnce(['apple', 'banana'])
-                .mockResolvedValueOnce(['banana', 'cherry'])
-                .mockResolvedValueOnce(['date']);
+        test('fills every group of the level with the words its window allows', async () => {
+            await seedBeginner();
 
-            // Use a locale not touched by other tests to avoid the module-level cache.
-            const result = await getFullWordSet('pt');
+            await expect(prefetchWordGroups('beginner', 'es', jest.fn())).resolves.toBe(true);
 
-            expect(result).toEqual(new Set(['apple', 'banana', 'cherry', 'date']));
-            expect(mockGetAllWords).toHaveBeenCalledTimes(3);
+            // 9 seeded words, every group asks for more: each group gets all its matches (7 or fewer).
+            const minLen4 = SEEDED.filter((word) => word.length >= 4).sort();
+            const stored = (key: Parameters<typeof StorageService.getItem>[0]) => [...(StorageService.getItem<string[]>(key) ?? [])].sort();
+            expect(stored(StorageService.WORDS_FINDER)).toEqual(SEEDED.filter(inFinderWindow).sort());
+            expect(stored(StorageService.WORDS_DAILY)).toHaveLength(7);
+            stored(StorageService.WORDS_DAILY).forEach((word) => expect(minLen4).toContain(word));
+            for (const key of [StorageService.WORDS_TOWER, StorageService.WORDS_RAIN, StorageService.WORDS_ACCENT, StorageService.WORDS_MATCHER, StorageService.WORDS_SYLLABLE]) {
+                expect(stored(key)).toEqual(minLen4);
+            }
         });
     });
 
@@ -225,41 +174,68 @@ describe('WordsService session operations tests', () => {
     // loadDailyWordForLocale
     // ─────────────────────────────────────────────────────────
     describe('loadDailyWordForLocale', () => {
-        test('returns stored word when SELECTED_DAY_WORD is in storage', async () => {
-            jest.spyOn(StorageService, 'getItem').mockImplementation((key) =>
-                key === StorageService.SELECTED_DAY_WORD ? ('hola' as unknown as null) : null,
-            );
-            const mockGetRandomWords = jest.spyOn(dbService, 'getRandomWords');
+        test('returns the stored daily word without loading anything', async () => {
+            StorageService.setItem(StorageService.SELECTED_DAY_WORD, 'hola');
+            global.fetch = jest.fn();
 
-            const result = await loadDailyWordForLocale('es');
-
-            expect(result).toBe('hola');
-            expect(mockGetRandomWords).not.toHaveBeenCalled();
+            await expect(loadDailyWordForLocale('es')).resolves.toBe('hola');
+            expect(global.fetch).not.toHaveBeenCalled();
         });
 
-        test('loads from beginner DB and stores when no daily word saved', async () => {
-            jest.spyOn(StorageService, 'getItem').mockReturnValue(null);
-
+        test('loads the beginner chunk, draws one word and stores it for 24h', async () => {
             global.fetch = jest.fn().mockResolvedValue({
                 ok: true,
-                json: () => Promise.resolve(['uno', 'dos', 'tres']),
+                json: () =>
+                    Promise.resolve({
+                        version: 2,
+                        locale: 'es',
+                        level: 'beginner',
+                        fields: ['word', 'freqRank', 'levels', 'flags', 'syllables', 'stressedSyllable', 'pos', 'senseCount', 'source'],
+                        rows: [['uno', null, 1], ['dos', null, 1], ['tres', null, 1]],
+                    }),
             });
+            const setItem = jest.spyOn(StorageService, 'setItem');
 
-            jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-            jest.spyOn(dbService, 'initDB').mockResolvedValue(undefined);
-            jest.spyOn(dbService, 'checkIfPopulated').mockResolvedValue(false);
-            jest.spyOn(dbService, 'addWords').mockResolvedValue(undefined);
-            jest.spyOn(dbService, 'getRandomWords').mockResolvedValue(['palabra']);
-            const mockSetItem = jest.spyOn(StorageService, 'setItem');
+            const word = await loadDailyWordForLocale('es');
 
-            const result = await loadDailyWordForLocale('es');
-
-            expect(result).toBe('palabra');
-            expect(mockSetItem).toHaveBeenCalledWith(
-                StorageService.SELECTED_DAY_WORD,
-                'palabra',
-                86400000,
-            );
+            expect(global.fetch).toHaveBeenCalledWith('/words/es/beginner_1.json');
+            expect(['uno', 'dos', 'tres']).toContain(word);
+            expect(setItem).toHaveBeenCalledWith(StorageService.SELECTED_DAY_WORD, word, 86400000);
         });
+    });
+});
+
+describe('implicit level load', () => {
+    beforeEach(async () => {
+        await dbService.deleteDatabase();
+        localStorage.clear();
+        resetLevelRows();
+        jest.spyOn(Logger, 'log').mockImplementation(() => {});
+        jest.spyOn(Logger, 'info').mockImplementation(() => {});
+    });
+
+    afterEach(() => {
+        jest.restoreAllMocks();
+        localStorage.clear();
+    });
+
+    test('the daily word loading beginner keeps the queues of the level being played', async () => {
+        StorageService.setItem(StorageService.WORDS_FINDER, ['ventana', 'camino']);
+        global.fetch = jest.fn().mockResolvedValue({
+            ok: true,
+            json: () =>
+                Promise.resolve({
+                    version: 2,
+                    locale: 'es',
+                    level: 'beginner',
+                    fields: ['word', 'freqRank', 'levels', 'flags', 'syllables', 'stressedSyllable', 'pos', 'senseCount', 'source'],
+                    rows: [['uno', null, 1], ['dos', null, 1]],
+                }),
+        });
+
+        const word = await loadDailyWordForLocale('es');
+
+        expect(['uno', 'dos']).toContain(word);
+        expect(StorageService.getItem(StorageService.WORDS_FINDER)).toEqual(['ventana', 'camino']);
     });
 });

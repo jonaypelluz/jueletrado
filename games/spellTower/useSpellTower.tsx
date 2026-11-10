@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import WordGameProcessor from '@utils/WordGameProcessor';
 import Logger from '@services/Logger';
+import { fetchConfig } from '@config/WordGroupConfig';
 import { getFullWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
@@ -89,14 +90,13 @@ const useSpellTower = () => {
             const set = await getFullWordSet(locale, setError, setLoadingProgress);
             const processor = new WordGameProcessor(locale, set);
 
+            // Larger pool — some words lose all invalid variants after dictionary validation
+            const tower = fetchConfig(StorageService.WORDS_TOWER);
             const sessionWords = await getSessionWords(
                 StorageService.WORDS_TOWER,
                 15,
-                gameLevel,
-                locale,
+                { locale, level: gameLevel, count: tower.count, ...tower.query },
                 setError,
-                // Larger pool — some words lose all invalid variants after dictionary validation
-                { count: 120, minLength: 4 },
                 30,
             );
 

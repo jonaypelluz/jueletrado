@@ -2,6 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { getFullWordSet, getWords } from '@services/WordsService';
+import { SEED_POOL_SIZE, SEED_QUERY } from '@games/wordChain/config';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
 import {
@@ -14,8 +15,6 @@ import {
 } from '@utils/ChainLetterIndex';
 
 const TURN_TIME: Record<string, number> = { beginner: 30, intermediate: 20, advanced: 15 };
-const SEED_POOL_SIZE = 20;
-const SEED_MIN_LENGTH = 4;
 const LOW_TIME_THRESHOLD = 5;
 
 type BestScores = Record<string, Partial<Record<string, number>>>;
@@ -147,7 +146,7 @@ const useWordChain = () => {
                 return;
             }
             const index = indexRef.current;
-            const candidates = (await getWords(level, locale, SEED_POOL_SIZE, setError, null, SEED_MIN_LENGTH)) ?? [];
+            const candidates = (await getWords({ locale, level, count: SEED_POOL_SIZE, ...SEED_QUERY }, setError)) ?? [];
             // The level changed while waiting: the reset effect already ran, drop this start.
             if (previousLevelRef.current !== level || !index) return;
             const seed = candidates

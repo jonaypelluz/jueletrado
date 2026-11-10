@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import WordGameProcessor from '@utils/WordGameProcessor';
 import { FallingWordItem, RainWordItem } from '@models/types';
 import Logger from '@services/Logger';
+import { fetchConfig } from '@config/WordGroupConfig';
 import { getFullWordSet, getWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
@@ -244,7 +245,8 @@ const useWordsRain = () => {
 
             let storedWords = StorageService.getItem<string[]>(StorageService.WORDS_RAIN);
             if (!storedWords || storedWords.length === 0) {
-                storedWords = (await getWords(gameLevel, locale, 150, setError, null, 4)) ?? null;
+                const rain = fetchConfig(StorageService.WORDS_RAIN);
+                storedWords = await getWords({ locale, level: gameLevel, count: rain.count, ...rain.query }, setError);
                 if (storedWords && storedWords.length > 0) {
                     StorageService.setItem(StorageService.WORDS_RAIN, storedWords, 3600000);
                 }

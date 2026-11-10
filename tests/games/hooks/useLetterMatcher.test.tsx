@@ -63,10 +63,8 @@ describe('useLetterMatcher', () => {
         expect(mockGetSessionWords).toHaveBeenCalledWith(
             StorageService.WORDS_MATCHER,
             50,
-            'beginner',
-            'es',
+            { locale: 'es', level: 'beginner', count: 80, minLen: 4, maxLen: 6 },
             expect.any(Function),
-            { count: 80, minLength: 4, maxLength: 6 },
         );
         expect(result.current.challenges).toHaveLength(ELIGIBLE.length);
         expect(result.current.gameStarted).toBe(true);
@@ -182,5 +180,26 @@ describe('useLetterMatcher', () => {
 
         expect(result.current.gameStarted).toBe(false);
         expect(result.current.showButton).toBe(true);
+    });
+});
+
+describe('useLetterMatcher without a game level', () => {
+    afterEach(() => {
+        jest.clearAllMocks();
+    });
+
+    test('start reports an invalid level and draws no words (never a query without a level)', async () => {
+        const context = makeContext({ gameLevel: null });
+        mockUseWordsContext.mockReturnValue(context);
+        mockGetSessionWords.mockResolvedValue(POOL);
+
+        const { result } = renderHook(() => useLetterMatcher());
+
+        await act(async () => {
+            await result.current.handleGameStartClick();
+        });
+
+        expect(mockGetSessionWords).not.toHaveBeenCalled();
+        expect(context.setError).toHaveBeenCalledWith(new Error('Invalid level specified'));
     });
 });

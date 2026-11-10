@@ -1,187 +1,54 @@
-import { dbService } from '@services/DBService';
 import Logger from '@services/Logger';
-import { getAllWords, getWords, loadDefinition, loadWords } from '@services/WordsService';
+import { getDefinition, getDefinitions } from '@services/WordsService';
 
-describe('WordsService data handler tests', () => {
-    global.fetch = jest.fn();
+const sense = (number: number) => ({ number, type: 'nombre', definition: `sentido ${number}` });
+
+const serve = (body: unknown) => {
+    (global.fetch as jest.Mock).mockResolvedValueOnce({ ok: true, json: () => Promise.resolve(body) });
+};
+
+describe('WordsService definitions', () => {
+    beforeEach(() => {
+        global.fetch = jest.fn();
+    });
 
     afterEach(() => {
         jest.restoreAllMocks();
     });
 
-    test('Successfully load definitions with loadDefinition', async () => {
-        const mockDefinition = {
-            abajo: {
-                definitions: [
-                    {
-                        number: '1',
-                        type: 'adverbio',
-                        definition: 'En un lugar que está más bajo o en la parte baja.',
-                    },
-                ],
-            },
-        };
-        (global.fetch as jest.Mock).mockImplementationOnce(() =>
-            Promise.resolve({
-                ok: true,
-                json: () => Promise.resolve(mockDefinition),
-            }),
-        );
+    test('getDefinitions fetches the letter file and applies the sense filter', async () => {
+        serve({ abajo: { definitions: [sense(1)] }, atender: { definitions: [sense(1), sense(2), sense(3)] } });
 
-        const result = await loadDefinition('a', 'es');
+        const result = await getDefinitions({ locale: 'es', firstLetter: 'a', minSenses: 2 });
 
         expect(global.fetch).toHaveBeenCalledWith('/definitions/es/a_definitions.json');
-        expect(result).toEqual(mockDefinition);
+        expect(result).toEqual({ atender: { definitions: [sense(1), sense(2), sense(3)] } });
     });
 
-    test('Handles loadDefinition fetch error', async () => {
-        (global.fetch as jest.Mock).mockImplementationOnce(() =>
-            Promise.resolve({
-                ok: false,
-            }),
-        );
+    test('getDefinitions returns null when the file cannot be fetched', async () => {
+        (global.fetch as jest.Mock).mockResolvedValueOnce({ ok: false });
+        jest.spyOn(Logger, 'error').mockImplementation(() => {});
 
-        const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
-
-        const result = await loadDefinition('a', 'es');
-
-        expect(global.fetch).toHaveBeenCalledWith('/definitions/es/a_definitions.json');
-        expect(mockLoggerError).toHaveBeenCalledWith(
-            'Error fetching definitions:',
-            expect.any(Error),
-        );
-        expect(result).toBeUndefined();
+        await expect(getDefinitions({ locale: 'es', firstLetter: 'a' })).resolves.toBeNull();
     });
 
-    test('Successfully load words with loadWords', async () => {
-        const mockWords = ['word1', 'word2', 'word3'];
-        (global.fetch as jest.Mock).mockImplementationOnce(() =>
-            Promise.resolve({
-                ok: true,
-                json: () => Promise.resolve(mockWords),
-            }),
-        );
+    test.each([
+        ['ñandú', '/definitions/es/n_definitions.json'],
+        ['árbol', '/definitions/es/a_definitions.json'],
+    ])('getDefinition reads %s from %s', async (word, file) => {
+        const entry = { definitions: [sense(1)] };
+        serve({ [word]: entry, otra: { definitions: [sense(1)] } });
 
-        const result = await loadWords('beginner', 1, 3, 'es');
+        const result = await getDefinition(word, 'es');
 
-        expect(global.fetch).toHaveBeenCalledWith('/words/es/beginner_words_from_1_to_3.json');
-        expect(result).toEqual(mockWords);
+        expect(global.fetch).toHaveBeenCalledWith(file);
+        expect(result).toEqual(entry);
     });
 
-    test('Handles loadWords fetch error', async () => {
-        (global.fetch as jest.Mock).mockImplementationOnce(() =>
-            Promise.resolve({
-                ok: false,
-            }),
-        );
+    test('getDefinition returns null for `constructor` when the letter file has no such key', async () => {
+        serve({ casa: { definitions: [sense(1)] } });
 
-        const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
-
-        const result = await loadWords('beginner', 1, 3, 'es');
-
-        expect(global.fetch).toHaveBeenCalledWith('/words/es/beginner_words_from_1_to_3.json');
-        expect(mockLoggerError).toHaveBeenCalledWith('Error fetching words:', expect.any(Error));
-        expect(result).toBeUndefined();
-    });
-
-    test('Successfully retrieves all words with getAllWords', async () => {
-        const mockSetStoreName = jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-        const mockInitDB = jest
-            .spyOn(dbService, 'initDB')
-            .mockImplementation(() => Promise.resolve());
-        const mockGetAllWords = jest
-            .spyOn(dbService, 'getAllWords')
-            .mockImplementation(() => Promise.resolve(['word1', 'word2']));
-        const setErrorMock = jest.fn();
-        const level = 'beginner';
-        const locale = 'es';
-
-        const result = await getAllWords(level, locale, setErrorMock);
-
-        expect(mockSetStoreName).toHaveBeenCalledWith(level, locale);
-        expect(mockInitDB).toHaveBeenCalled();
-        expect(mockGetAllWords).toHaveBeenCalled();
-        expect(result).toEqual(['word1', 'word2']);
-        expect(setErrorMock).not.toHaveBeenCalled();
-    });
-
-    test('Error handling for invalid level in getAllWords', async () => {
-        const setErrorMock = jest.fn();
-        const invalidLevel = 'invalid_level';
-        const locale = 'es';
-
-        const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
-
-        const result = await getAllWords(invalidLevel, locale, setErrorMock);
-
-        expect(mockLoggerError).toHaveBeenCalled();
-        expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));
-        expect(result).toBeUndefined();
-        expect(setErrorMock.mock.calls[0][0].message).toBe('Invalid level specified');
-    });
-
-    test('Handles error during word retrieval in getAllWords', async () => {
-        const mockSetStoreName = jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-        const mockInitDB = jest
-            .spyOn(dbService, 'initDB')
-            .mockImplementation(() => Promise.resolve());
-        const mockGetAllWords = jest
-            .spyOn(dbService, 'getAllWords')
-            .mockImplementation(() => Promise.reject(new Error('Database error')));
-        const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
-        const setErrorMock = jest.fn();
-        const level = 'beginner';
-        const locale = 'es';
-
-        const result = await getAllWords(level, locale, setErrorMock);
-
-        expect(mockSetStoreName).toHaveBeenCalledWith(level, locale);
-        expect(mockInitDB).toHaveBeenCalled();
-        expect(mockGetAllWords).toHaveBeenCalled();
-        expect(mockLoggerError).toHaveBeenCalledWith(
-            'Error retrieving all words:',
-            expect.any(Error),
-        );
-        expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));
-        expect(result).toBeUndefined();
-    });
-
-    test('Successfully retrieves words with getWords', async () => {
-        const mockSetStoreName = jest.spyOn(dbService, 'setStoreName').mockImplementation(() => {});
-        const mockInitDB = jest
-            .spyOn(dbService, 'initDB')
-            .mockImplementation(() => Promise.resolve());
-        const mockGetRandomWords = jest
-            .spyOn(dbService, 'getRandomWords')
-            .mockImplementation(() => Promise.resolve(['word1', 'word2']));
-        const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
-        const setErrorMock = jest.fn();
-        const level = 'beginner';
-        const locale = 'es';
-        const count = 2;
-
-        const result = await getWords(level, locale, count, setErrorMock);
-
-        expect(mockSetStoreName).toHaveBeenCalledWith(level, locale);
-        expect(mockInitDB).toHaveBeenCalled();
-        expect(mockGetRandomWords).toHaveBeenCalledWith(count);
-        expect(result).toEqual(['word1', 'word2']);
-        expect(setErrorMock).not.toHaveBeenCalled();
-        expect(mockLoggerError).not.toHaveBeenCalled();
-    });
-
-    test('Handles invalid level error in getWords', async () => {
-        const setErrorMock = jest.fn();
-        const level = 'invalid_level';
-        const locale = 'es';
-        const count = 10;
-
-        const mockLoggerError = jest.spyOn(Logger, 'error').mockImplementation(() => {});
-
-        const result = await getWords(level, locale, count, setErrorMock);
-
-        expect(mockLoggerError).toHaveBeenCalledWith('Invalid level specified');
-        expect(setErrorMock).toHaveBeenCalledWith(expect.any(Error));
-        expect(result).toBeUndefined();
+        await expect(getDefinition('constructor', 'es')).resolves.toBeNull();
+        expect(global.fetch).toHaveBeenCalledWith('/definitions/es/c_definitions.json');
     });
 });

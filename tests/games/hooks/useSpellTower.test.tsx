@@ -56,10 +56,8 @@ describe('useSpellTower', () => {
             expect(mockGetSessionWords).toHaveBeenCalledWith(
                 StorageService.WORDS_TOWER,
                 15,
-                'beginner',
-                'es',
+                { locale: 'es', level: 'beginner', count: 120, minLen: 4 },
                 expect.any(Function),
-                { count: 120, minLength: 4 },
                 30,
             );
             expect(result.current.showButton).toBe(true);
@@ -123,10 +121,8 @@ describe('useSpellTower', () => {
             expect(mockGetSessionWords).toHaveBeenCalledWith(
                 StorageService.WORDS_TOWER,
                 15,
-                'beginner',
-                'en',
+                { locale: 'en', level: 'beginner', count: 120, minLen: 4 },
                 expect.any(Function),
-                { count: 120, minLength: 4 },
                 30,
             );
         });

@@ -178,3 +178,16 @@ export function dividerPositions(word: string): number[] {
     }
     return positions;
 }
+
+/**
+ * Diphthong / hiatus features of a word, from the same vowel nuclei syllabify uses: a diphthong is a
+ * nucleus holding two or more vowels; a hiatus is two adjacent vowels (a silent `h` between them is
+ * transparent) that fall into consecutive nuclei.
+ */
+export function vowelFeatures(word: string): { hasDiphthong: 0 | 1; hasHiatus: 0 | 1 } {
+    const tokens = tokenize(word);
+    const nuclei = groupNuclei(tokens);
+    const hasDiphthong = nuclei.some(({ start, end }) => tokens.slice(start, end + 1).filter((t) => t.kind === 'vowel').length >= 2);
+    const hasHiatus = nuclei.slice(1).some((nucleus, k) => nextVowelIndex(tokens, nuclei[k].end) === nucleus.start);
+    return { hasDiphthong: hasDiphthong ? 1 : 0, hasHiatus: hasHiatus ? 1 : 0 };
+}

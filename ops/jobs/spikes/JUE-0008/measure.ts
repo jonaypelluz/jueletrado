@@ -49,11 +49,13 @@ const out = (line = '') => md.push(line);
 // ---------- data loading ----------
 const loadLevel = (locale: Locale, level: Level): string[] => {
     const dir = path.join(ROOT, 'public/words', locale);
+    const chunkFile = new RegExp(`^${level}_(\\d+)\\.json$`);
     const files = fs
         .readdirSync(dir)
-        .filter((f) => f.startsWith(`${level}_words_from_`))
-        .sort((a, b) => Number(a.match(/from_(\d+)/)![1]) - Number(b.match(/from_(\d+)/)![1]));
-    return files.flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as string[]);
+        .filter((f) => chunkFile.test(f))
+        .sort((a, b) => Number(a.match(chunkFile)![1]) - Number(b.match(chunkFile)![1]));
+    // v2 chunks: { rows: [[word, freqRank, levels, ...], ...] }, word first.
+    return files.flatMap((f) => (JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as { rows: [string, ...unknown[]][] }).rows.map((row) => row[0]));
 };
 
 const loadFrequency = (locale: Locale): Map<string, number> => {

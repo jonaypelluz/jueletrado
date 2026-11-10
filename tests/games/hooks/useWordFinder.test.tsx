@@ -47,10 +47,8 @@ describe('useWordFinder', () => {
             expect(mockGetSessionWords).toHaveBeenCalledWith(
                 StorageService.WORDS_FINDER,
                 10,
-                'beginner',
-                'es',
+                { locale: 'es', level: 'beginner', count: 60, minLen: 3, maxLen: 4 },
                 expect.any(Function),
-                { count: 60, maxLength: 4 },
                 20,
             );
             expect(result.current.showButton).toBe(true);
@@ -69,10 +67,8 @@ describe('useWordFinder', () => {
             expect(mockGetSessionWords).toHaveBeenCalledWith(
                 StorageService.WORDS_FINDER,
                 10,
-                'beginner',
-                'en',
+                { locale: 'en', level: 'beginner', count: 60, minLen: 3, maxLen: 4 },
                 expect.any(Function),
-                { count: 60, maxLength: 4 },
                 20,
             );
         });

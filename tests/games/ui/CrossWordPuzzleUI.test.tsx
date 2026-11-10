@@ -1,18 +1,18 @@
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { IntlProvider } from 'react-intl';
 import { createGamesConfig } from '@hooks/useGamesConfig';
-import { loadDefinition } from '@services/WordsService';
+import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import useCrossWordPuzzle from '@games/crossWordPuzzle/useCrossWordPuzzle';
 import UI from '@games/crossWordPuzzle/UI';
 
 jest.mock('@store/WordsContext');
 jest.mock('@services/WordsService', () => ({
-    loadDefinition: jest.fn(),
+    getDefinitions: jest.fn(),
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
-const mockLoadDefinition = loadDefinition as jest.Mock;
+const mockGetDefinitions = getDefinitions as jest.Mock;
 const gameConfig = createGamesConfig('es', 'crossWordPuzzle')!;
 
 const CrossWordPuzzleGame = () => {
@@ -28,7 +28,7 @@ describe('CrossWordPuzzle UI', () => {
         });
         // Pool must be rich enough for the generator to place 4 intersecting words.
         const mockDef = (text: string) => ({ definitions: [{ number: 1, definition: text }] });
-        mockLoadDefinition.mockResolvedValue({
+        mockGetDefinitions.mockResolvedValue({
             palabra: mockDef('Unidad de lenguaje.'),
             castillo: mockDef('Fortaleza medieval.'),
             perro: mockDef('Animal doméstico que ladra.'),

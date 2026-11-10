@@ -6,7 +6,7 @@ import { GRID_SIZE, WORDS_PER_LEVEL } from '@games/crossWordPuzzle/config';
 import { ICell } from '@models/interfaces';
 import { Definition, DefinitionWords, SelectedWord } from '@models/types';
 import Logger from '@services/Logger';
-import { loadDefinition } from '@services/WordsService';
+import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import { PlacedWord, generateCrossword } from '@utils/CrosswordGenerator';
 
@@ -63,7 +63,7 @@ const useCrossWordPuzzle = () => {
     const getWordsFromRandomLetters = async (count: number): Promise<DefinitionWords> => {
         const shuffledLetters = [...letters].sort(() => 0.5 - Math.random()).slice(0, count);
 
-        const promises = shuffledLetters.map((letter) => loadDefinition(letter, locale));
+        const promises = shuffledLetters.map((letter) => getDefinitions({ locale, firstLetter: letter }));
         const letterDefinitions = await Promise.all(promises);
 
         const mergedDefinitions = letterDefinitions.reduce<Record<string, unknown>>(

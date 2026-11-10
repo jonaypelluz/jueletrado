@@ -15,7 +15,7 @@ type LoadingScreenProps = {
 };
 
 const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false }) => {
-    const { locale, loadingProgress, error, setLoading, setError } = useWordsContext();
+    const { locale, loadingProgress, error, setLoading, setError, dbBlocked } = useWordsContext();
     const messages = LoadingMessages[locale] ?? LoadingMessages['es'];
 
     const getRandomErrorMessage = () => {
@@ -48,6 +48,10 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ rotateMessages = false })
                         <FormattedMessage id="errorMessageAction" />
                     </span>
                 </>
+            ) : dbBlocked ? (
+                <p className="loading-error-description" role="alert">
+                    <FormattedMessage id="dbUpgradeBlocked" />
+                </p>
             ) : (
                 <LoadingSpinner
                     rotateMessages={rotateMessages}

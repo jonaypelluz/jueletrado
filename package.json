@@ -9,7 +9,7 @@
         "lint": "next lint",
         "test": "jest",
         "test:watch": "jest --watch",
-        "words:transform": "tsx scripts/words/transformToJSON.ts",
+        "words:build": "tsx scripts/words/buildWordData.ts",
         "words:merge": "tsx scripts/words/mergeWords.ts",
         "words:check": "tsx scripts/words/checkWords.ts",
         "words:audit": "tsx scripts/words/auditWords.ts",

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import createChangeRules from '@config/ChangeRules';
 import { CHALLENGE_COUNT, LEVEL_FETCH_OPTIONS } from '@games/letterMatcher/config';
 import Logger from '@services/Logger';
+import { fetchConfig } from '@config/WordGroupConfig';
 import { getFullWordSet, getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
@@ -98,14 +99,16 @@ const useLetterMatcher = () => {
 
         // Oversample heavily: in EN only ~1 word in 4 matches a confusion rule,
         // so a small draw can leave fewer than CHALLENGE_COUNT eligible words.
-        const sessionWords = await getSessionWords(
-            StorageService.WORDS_MATCHER,
-            50,
-            gameLevel,
-            locale,
-            setError,
-            { count: 80, ...levelOptions },
-        );
+        // No level: report it as the word service does for an invalid level and draw nothing.
+        if (!gameLevel) setError(new Error('Invalid level specified'));
+        const sessionWords = gameLevel
+            ? await getSessionWords(
+                  StorageService.WORDS_MATCHER,
+                  50,
+                  { locale, level: gameLevel, count: fetchConfig(StorageService.WORDS_MATCHER).count, ...levelOptions },
+                  setError,
+              )
+            : [];
 
         const builtChallenges = sessionWords
             .map((word) => buildLetterChallenge(word, rules, fullWordSet))

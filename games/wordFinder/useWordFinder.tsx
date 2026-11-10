@@ -4,6 +4,7 @@ import { ChangeEvent, useEffect, useRef, useState } from 'react';
 import { NonAccentedVowels } from '@config/AccentRules';
 import { WORD_LENGTH_BY_LEVEL } from '@games/wordFinder/config';
 import Logger from '@services/Logger';
+import { fetchConfig } from '@config/WordGroupConfig';
 import { getSessionWords } from '@services/WordsService';
 import StorageService from '@store/StorageService';
 import { useWordsContext } from '@store/WordsContext';
@@ -188,10 +189,8 @@ const useWordFinder = () => {
             const sessionWords = await getSessionWords(
                 StorageService.WORDS_FINDER,
                 10,
-                gameLevel,
-                locale,
+                { locale, level: gameLevel, count: fetchConfig(StorageService.WORDS_FINDER).count, ...WORD_LENGTH_BY_LEVEL[gameLevel] },
                 setError,
-                { count: 60, ...WORD_LENGTH_BY_LEVEL[gameLevel] },
                 20,
             );
             if (sessionWords.length > 0) {

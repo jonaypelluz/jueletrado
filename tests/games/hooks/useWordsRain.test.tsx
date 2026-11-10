@@ -121,12 +121,8 @@ describe('useWordsRain', () => {
 
         await waitFor(() => {
             expect(mockGetWords).toHaveBeenCalledWith(
-                'beginner',
-                'en',
-                expect.any(Number),
+                { locale: 'en', level: 'beginner', count: 150, minLen: 4 },
                 expect.any(Function),
-                null,
-                4,
             );
         });
     });

@@ -1,15 +1,15 @@
 import { act, renderHook, waitFor } from '@testing-library/react';
-import { loadDefinition } from '@services/WordsService';
+import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import useDefinitionMaster from '@games/definitionMaster/useDefinitionMaster';
 
 jest.mock('@store/WordsContext');
 jest.mock('@services/WordsService', () => ({
-    loadDefinition: jest.fn(),
+    getDefinitions: jest.fn(),
 }));
 
 const mockUseWordsContext = useWordsContext as jest.Mock;
-const mockLoadDefinition = loadDefinition as jest.Mock;
+const mockGetDefinitions = getDefinitions as jest.Mock;
 
 const makeContext = (overrides: Partial<ReturnType<typeof useWordsContext>> = {}) => ({
     locale: 'es',
@@ -24,13 +24,13 @@ describe('useDefinitionMaster', () => {
         jest.clearAllMocks();
     });
 
-    test('does not call loadDefinition on mount', async () => {
+    test('does not call getDefinitions on mount', async () => {
         mockUseWordsContext.mockReturnValue(makeContext());
 
         renderHook(() => useDefinitionMaster());
 
         await waitFor(() => {
-            expect(mockLoadDefinition).not.toHaveBeenCalled();
+            expect(mockGetDefinitions).not.toHaveBeenCalled();
         });
     });
 
@@ -62,9 +62,9 @@ describe('useDefinitionMaster', () => {
         expect(result.current.isGameStarted).toBe(true);
     });
 
-    test('handleLetterClick calls loadDefinition with letter and locale', async () => {
+    test('handleLetterClick asks getDefinitions for the letter with the advanced sense minimum when no level is set', async () => {
         mockUseWordsContext.mockReturnValue(makeContext({ locale: 'es' }));
-        mockLoadDefinition.mockResolvedValue({});
+        mockGetDefinitions.mockResolvedValue({});
 
         const { result } = renderHook(() => useDefinitionMaster());
 
@@ -72,12 +72,12 @@ describe('useDefinitionMaster', () => {
             await result.current.handleLetterClick('a');
         });
 
-        expect(mockLoadDefinition).toHaveBeenCalledWith('a', 'es');
+        expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'es', firstLetter: 'a', minSenses: 3 });
     });
 
     test('handleLetterClick with en locale passes correct locale', async () => {
         mockUseWordsContext.mockReturnValue(makeContext({ locale: 'en' }));
-        mockLoadDefinition.mockResolvedValue({});
+        mockGetDefinitions.mockResolvedValue({});
 
         const { result } = renderHook(() => useDefinitionMaster());
 
@@ -85,13 +85,13 @@ describe('useDefinitionMaster', () => {
             await result.current.handleLetterClick('b');
         });
 
-        expect(mockLoadDefinition).toHaveBeenCalledWith('b', 'en');
+        expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'en', firstLetter: 'b', minSenses: 3 });
     });
 
     test('handleLetterClick with rich definitions builds chosenWords', async () => {
         // gameLevel=null falls through to advanced (minDefs=3); provide 3 defs to satisfy threshold
         mockUseWordsContext.mockReturnValue(makeContext());
-        mockLoadDefinition.mockResolvedValue({
+        mockGetDefinitions.mockResolvedValue({
             gato: {
                 definitions: [
                     { number: 1, definition: 'Animal felino doméstico' },
@@ -115,7 +115,7 @@ describe('useDefinitionMaster', () => {
 
     test('handleResetLetterClick resets quiz state', async () => {
         mockUseWordsContext.mockReturnValue(makeContext());
-        mockLoadDefinition.mockResolvedValue({
+        mockGetDefinitions.mockResolvedValue({
             gato: {
                 definitions: [
                     { number: 1, definition: 'Def 1' },
@@ -187,9 +187,9 @@ describe('useDefinitionMaster', () => {
         expect(result.current.loadError).toBe(false);
     });
 
-    test('loadError is true when loadDefinition returns undefined', async () => {
+    test('loadError is true when getDefinitions returns null', async () => {
         mockUseWordsContext.mockReturnValue(makeContext());
-        mockLoadDefinition.mockResolvedValue(undefined);
+        mockGetDefinitions.mockResolvedValue(null);
 
         const { result } = renderHook(() => useDefinitionMaster());
 
@@ -202,7 +202,7 @@ describe('useDefinitionMaster', () => {
 
     test('beginner gameLevel uses only def number 1', async () => {
         mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'beginner' }));
-        mockLoadDefinition.mockResolvedValue({
+        mockGetDefinitions.mockResolvedValue({
             gato: {
                 definitions: [
                     { number: 1, definition: 'Animal felino doméstico' },
@@ -221,6 +221,7 @@ describe('useDefinitionMaster', () => {
             expect(result.current.quizWords.length).toBeGreaterThan(0);
         });
 
+        expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'es', firstLetter: 'g', minSenses: 1 });
         const correctEntry = result.current.quizWords[0].find(q => q.isCorrect);
         expect(correctEntry?.definition).toBe('Animal felino doméstico');
     });
@@ -236,7 +237,7 @@ describe('useDefinitionMaster', () => {
     test('isLoadingLetter is true during handleLetterClick fetch', async () => {
         mockUseWordsContext.mockReturnValue(makeContext());
         let resolveLoad!: (v: unknown) => void;
-        mockLoadDefinition.mockReturnValue(new Promise((res) => { resolveLoad = res; }));
+        mockGetDefinitions.mockReturnValue(new Promise((res) => { resolveLoad = res; }));
 
         const { result } = renderHook(() => useDefinitionMaster());
 

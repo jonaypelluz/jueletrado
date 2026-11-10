@@ -628,7 +628,7 @@ export const runAudit = async ({ root, locales, fix, reportPath }: AuditOptions)
         printSummary(locale, beforeFindings, after?.findings);
         console.log(`Report: ${target}`);
     }
-    if (fix) console.log('Run `yarn words:transform` to regenerate public/words and config/LevelConfig.ts.');
+    if (fix) console.log('Run `yarn words:build` to regenerate public/words and config/LevelConfig.ts.');
     return exitCode;
 };
 
