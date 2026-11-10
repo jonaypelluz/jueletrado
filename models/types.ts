@@ -111,7 +111,8 @@ export type WordFlagName =
     | 'hasDiphthong'
     | 'hasHiatus'
     | 'isPlural'
-    | 'isVerbForm';
+    | 'isVerbForm'
+    | 'isProperNoun';
 
 export type WordRecord = {
     word: string;

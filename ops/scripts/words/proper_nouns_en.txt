@@ -1,8 +1,11 @@
 # words:audit proper nouns (en). One word per line; lines starting with # are ignored.
-# Policy: names of people, places, organisations, brands, months, weekdays, holidays, and
-# nationality/religion words (always capitalised in English). Never a word that has an en
-# definition key, and never a name with a common lowercase meaning (may, march, august, sun,
-# rosa, carter, colin, craig, gibson, gilbert, harris, luke, marshall, panama, solomon, tyler...).
+# Policy: names of people, places, organisations, brands, months, weekdays and holidays whose
+# usual use is the name, even when the repo has a rare common sense for them (japan = varnish).
+# Listed words stay in the levels and keep their senses; words:build marks them isProperNoun.
+# Never a demonym, nationality, language or religion word (american, chinese, english, muslim...):
+# they are adjectives and common nouns too. Never a name whose usual use is a common word (may,
+# march, august, sun, rosa, carter, colin, craig, gibson, gilbert, harris, luke, marshall, panama,
+# solomon, tyler...).
 # Evidence: beginner words without a definition, and the frequency bands of intermediate words
 # without a definition (the web-frequency head and tail); the rest of advanced is backlog.
 
@@ -17,8 +20,6 @@ adelaide
 adrian
 afghanistan
 africa
-african
-africans
 ahmed
 alabama
 alan
@@ -37,8 +38,6 @@ allen
 allison
 amanda
 america
-american
-americans
 amsterdam
 amy
 anderson
@@ -55,9 +54,7 @@ annie
 anthony
 antonio
 april
-arab
 arabia
-arabic
 argentina
 arizona
 arkansas
@@ -66,13 +63,11 @@ arnold
 arthur
 ashley
 asia
-asian
 athens
 atlanta
 atlantic
 austin
 australia
-australian
 austria
 baltimore
 bangkok
@@ -98,20 +93,17 @@ boyd
 bradley
 brady
 brandon
-brazilian
 brian
 brighton
 brisbane
 bristol
 britain
-british
 brooklyn
 bruce
 bruno
 bryan
 bryant
 bulgaria
-bulgarian
 calgary
 california
 calvin
@@ -119,8 +111,6 @@ cambridge
 cameron
 campbell
 canada
-canadian
-canadians
 cardiff
 caribbean
 carlos
@@ -129,19 +119,13 @@ carroll
 carson
 casey
 catherine
-catholics
-celtic
 chan
 charles
 chelsea
 chen
 chester
 chicago
-chinese
 chris
-christian
-christianity
-christians
 christina
 christine
 christmas
@@ -163,7 +147,6 @@ cruz
 cuba
 curtis
 cyrus
-czech
 dakota
 dallas
 dana
@@ -199,7 +182,6 @@ edinburgh
 edward
 edwards
 egypt
-egyptian
 eleanor
 elizabeth
 ellen
@@ -213,8 +195,6 @@ eric
 essex
 eugene
 europe
-european
-europeans
 evan
 evans
 february
@@ -257,12 +237,9 @@ harvard
 harvey
 hawaii
 hayes
-hebrew
 helen
 henderson
 hillary
-hindu
-hispanic
 hollywood
 honda
 hong
@@ -272,31 +249,21 @@ howard
 hudson
 hugh
 hughes
-hungarian
 hungary
 ian
 iceland
 idaho
 illinois
 india
-indian
 indiana
 indianapolis
-indians
 indonesia
-indonesian
 iowa
 iran
 iraq
-iraqi
 ireland
-irish
 isaac
-islam
-islamic
 israel
-israeli
-italian
 italy
 itunes
 ivan
@@ -308,7 +275,6 @@ james
 jamie
 janet
 january
-japanese
 jared
 jason
 jeff
@@ -321,7 +287,6 @@ jerusalem
 jesse
 jessica
 jesus
-jewish
 jim
 jin
 joan
@@ -360,7 +325,6 @@ kevin
 kim
 kong
 korea
-korean
 kurt
 lancaster
 lanka
@@ -413,7 +377,6 @@ megan
 melbourne
 memphis
 mercedes
-mexican
 mexico
 miami
 michael
@@ -442,8 +405,6 @@ morrison
 moscow
 moses
 muhammad
-muslim
-muslims
 myanmar
 nash
 nashville
@@ -466,7 +427,6 @@ nintendo
 nobel
 norfolk
 norway
-norwegian
 november
 oakland
 october
@@ -485,14 +445,12 @@ owen
 pablo
 pakistan
 palestine
-palestinian
 paris
 parker
 patrick
 paul
 penn
 pennsylvania
-persian
 perth
 peru
 pete
@@ -510,7 +468,6 @@ pokemon
 poland
 portland
 portugal
-portuguese
 powell
 preston
 princeton
@@ -548,8 +505,6 @@ ross
 roy
 russell
 russia
-russian
-russians
 ryan
 sacramento
 samsung
@@ -562,7 +517,6 @@ saturday
 saudi
 scotland
 scott
-scottish
 sean
 seattle
 sebastian
@@ -598,7 +552,6 @@ sullivan
 sunday
 susan
 sweden
-swedish
 switzerland
 sydney
 syria
@@ -607,7 +560,6 @@ tampa
 taylor
 tennessee
 texas
-thai
 thailand
 thomas
 thompson
@@ -623,7 +575,6 @@ travis
 trent
 trevor
 tuesday
-turkish
 uganda
 uk
 ukraine
@@ -635,10 +586,8 @@ venezuela
 venice
 vermont
 vernon
-victorian
 vienna
 vietnam
-vietnamese
 vince
 vincent
 virginia
@@ -666,3 +615,20 @@ yankees
 yemen
 yorkshire
 zealand
+
+# JUE-0012: beginner review (usual use only as a proper noun)
+google
+jones
+john
+johnson
+mary
+louis
+amazon
+brazil
+japan
+manchester
+wales
+york
+christ
+sam
+jan

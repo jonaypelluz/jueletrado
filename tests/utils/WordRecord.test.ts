@@ -28,7 +28,7 @@ const CASES: Case[] = [
             word: 'canción', locale: 'es', level: 'beginner', levels: ['beginner'], freqRank: 1200, length: 7,
             syllables: 2, stressedSyllable: 1, firstLetter: 'c', lastLetter: 'n', letters: 'accinnó',
             pos: 'nombre femenino', senseCount: 2, source: 'rae',
-            hasAccent: 1, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 1, hasHiatus: 0,
+            hasAccent: 1, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 1, hasHiatus: 0, isProperNoun: 0,
         },
     },
     {
@@ -37,7 +37,7 @@ const CASES: Case[] = [
             word: 'niño', locale: 'es', level: 'beginner', levels: ['beginner'], freqRank: 500, length: 4,
             syllables: 2, stressedSyllable: 0, firstLetter: 'n', lastLetter: 'o', letters: 'inoñ',
             pos: 'nombre masculino', senseCount: 1, source: 'rae',
-            hasAccent: 0, hasEnye: 1, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0,
+            hasAccent: 0, hasEnye: 1, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0, isProperNoun: 0,
         },
     },
     {
@@ -47,7 +47,7 @@ const CASES: Case[] = [
             word: 'pingüino', locale: 'es', level: 'intermediate', levels: ['intermediate', 'advanced'], freqRank: null, length: 8,
             syllables: 3, stressedSyllable: 1, firstLetter: 'p', lastLetter: 'o', letters: 'giinnopü',
             pos: null, senseCount: 0, source: null,
-            hasAccent: 0, hasEnye: 0, hasDieresis: 1, hasTl: 0, hasDiphthong: 1, hasHiatus: 0,
+            hasAccent: 0, hasEnye: 0, hasDieresis: 1, hasTl: 0, hasDiphthong: 1, hasHiatus: 0, isProperNoun: 0,
         },
     },
     {
@@ -56,7 +56,7 @@ const CASES: Case[] = [
             word: 'atleta', locale: 'es', level: 'intermediate', levels: ['intermediate'], freqRank: 9000, length: 6,
             syllables: 3, stressedSyllable: 1, firstLetter: 'a', lastLetter: 'a', letters: 'aaeltt',
             pos: 'nombre común', senseCount: 1, source: 'rae',
-            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 1, hasDiphthong: 0, hasHiatus: 0,
+            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 1, hasDiphthong: 0, hasHiatus: 0, isProperNoun: 0,
         },
     },
     {
@@ -65,7 +65,7 @@ const CASES: Case[] = [
             word: 'país', locale: 'es', level: 'beginner', levels: ['beginner'], freqRank: 400, length: 4,
             syllables: 2, stressedSyllable: 1, firstLetter: 'p', lastLetter: 's', letters: 'apsí',
             pos: 'nombre masculino', senseCount: 1, source: 'rae',
-            hasAccent: 1, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 1,
+            hasAccent: 1, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 1, isProperNoun: 0,
         },
     },
     {
@@ -74,7 +74,7 @@ const CASES: Case[] = [
             word: 'cuidado', locale: 'es', level: 'beginner', levels: ['beginner'], freqRank: 2000, length: 7,
             syllables: 3, stressedSyllable: 1, firstLetter: 'c', lastLetter: 'o', letters: 'acddiou',
             pos: 'nombre masculino', senseCount: 1, source: 'rae',
-            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 1, hasHiatus: 0,
+            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 1, hasHiatus: 0, isProperNoun: 0,
         },
     },
     {
@@ -83,7 +83,7 @@ const CASES: Case[] = [
             word: 'ácido', locale: 'es', level: 'intermediate', levels: ['intermediate'], freqRank: 6000, length: 5,
             syllables: 3, stressedSyllable: 0, firstLetter: 'a', lastLetter: 'o', letters: 'cdioá',
             pos: 'adjetivo', senseCount: 1, source: 'rae',
-            hasAccent: 1, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0,
+            hasAccent: 1, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0, isProperNoun: 0,
         },
     },
     {
@@ -93,7 +93,7 @@ const CASES: Case[] = [
             word: 'constructor', locale: 'es', level: 'advanced', levels: ['advanced'], freqRank: null, length: 11,
             syllables: 3, stressedSyllable: 2, firstLetter: 'c', lastLetter: 'r', letters: 'ccnoorrsttu',
             pos: null, senseCount: 0, source: null,
-            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0,
+            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0, isProperNoun: 0,
         },
     },
     {
@@ -103,7 +103,7 @@ const CASES: Case[] = [
             word: 'constructor', locale: 'en', level: 'advanced', levels: ['advanced'], freqRank: 12000, length: 11,
             syllables: null, stressedSyllable: null, firstLetter: 'c', lastLetter: 'r', letters: 'ccnoorrsttu',
             pos: 'noun', senseCount: 1, source: null,
-            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0,
+            hasAccent: 0, hasEnye: 0, hasDieresis: 0, hasTl: 0, hasDiphthong: 0, hasHiatus: 0, isProperNoun: 0,
         },
     },
 ];
@@ -137,6 +137,23 @@ describe('deriveWordRecord', () => {
 
         expect(derive({ word: 'cantando', locale: 'es', freqRank: null, lists: ['advanced'] }, wordSet).isVerbForm).toBe(1);
         expect(derive({ word: 'casa', locale: 'es', freqRank: null, lists: ['beginner'] }, wordSet).isVerbForm).toBe(0);
+    });
+
+    test('flags a word of the proper nouns set as a proper noun, and keeps it in its list', () => {
+        const properNouns = new Set(['madrid']);
+        const madrid = deriveWordRecord({ word: 'madrid', locale: 'es', freqRank: null, lists: ['beginner'], properNouns });
+
+        expect(madrid.isProperNoun).toBe(1);
+        expect(madrid.levels).toEqual(['beginner']);
+        expect(deriveWordRecord({ word: 'casa', locale: 'es', freqRank: null, lists: ['beginner'], properNouns }).isProperNoun).toBe(0);
+        expect(derive({ word: 'madrid', locale: 'es', freqRank: null, lists: ['beginner'] }).isProperNoun).toBe(0);
+    });
+
+    test('a proper noun survives encodeRow → hydrateRow with its flag', () => {
+        const record = deriveWordRecord({ word: 'jones', locale: 'en', freqRank: 1500, lists: ['beginner'], properNouns: new Set(['jones']) });
+
+        expect(hydrateRow(encodeRow(record), 'en')).toEqual(record);
+        expect(hydrateRow(encodeRow(record), 'en').isProperNoun).toBe(1);
     });
 
     test('a ranked word belongs only to its computed level, whatever lists contain it', () => {

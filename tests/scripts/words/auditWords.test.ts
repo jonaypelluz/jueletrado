@@ -9,7 +9,7 @@ import { EN_TYPES, ES_TYPES, auditLocale, loadLocaleInput, runCli } from '../../
 const FIXTURE_ROOT = path.join(__dirname, '../../fixtures/words');
 
 const FIX_DELETE_CATEGORIES = [
-    'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W8', 'W9', 'W10', 'W11', 'W15',
+    'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W9', 'W10', 'W11', 'W15',
     'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'T1',
 ];
 
@@ -146,11 +146,17 @@ describe('words:audit on the fixture tree', () => {
         test('removes a deleted word from every list and from its definition key', async () => {
             await runCli(['--fix', '--root', root], root);
 
-            expect(listWords('es')).not.toContain('madrid'); // listed in beginner and advanced
-            expect(readDefinitions('es', 'm')).not.toHaveProperty('madrid');
-            expect(readDefinitions('es', 'm')).toHaveProperty('mesa');
             expect(listWords('en')).not.toContain('asap');
             expect(readDefinitions('en', 'a')).not.toHaveProperty('asap');
+            expect(readDefinitions('es', 'm')).toHaveProperty('mesa');
+        });
+
+        test('keeps a proper noun in its lists and its definition key (words:build marks it)', async () => {
+            await runCli(['--fix', '--root', root], root);
+
+            expect(read('ops/scripts/words/es/advanced_words.txt').split('\n')).toContain('madrid');
+            expect(read('ops/scripts/words/es/beginner_words.txt').split('\n')).toContain('madrid');
+            expect(readDefinitions('es', 'm')).toHaveProperty('madrid');
         });
 
         test('removes a definition key left with no senses but keeps the word in its list', async () => {
@@ -166,10 +172,10 @@ describe('words:audit on the fixture tree', () => {
             await runCli(['--fix', '--root', root], root);
 
             expect(read('ops/scripts/words/es/beginner_words.txt')).toBe(
-                ['casa', 'acción', 'y', 'mi', 'atender', 'acudir', 'aviso', 'árbol'].join('\n') + '\n',
+                ['casa', 'acción', 'y', 'mi', 'madrid', 'atender', 'acudir', 'aviso', 'árbol'].join('\n') + '\n',
             );
             expect(read('ops/scripts/words/es/intermediate_words.txt')).toBe('perro\ncasas\ngobierno\n');
-            expect(read('ops/scripts/words/es/advanced_words.txt')).toBe('mesa\n');
+            expect(read('ops/scripts/words/es/advanced_words.txt')).toBe('mesa\nmadrid\n');
             expect(read('ops/scripts/words/en/beginner_words.txt')).toBe(
                 ['a', 'i', 'cat', 'cats', 'hmm', 'mix', 'version', 'lincoln', 'abacist', 'angle'].join('\n') + '\n',
             );

@@ -171,7 +171,10 @@ const isAllAbbreviations = (entry: Entry | undefined): boolean =>
     !!entry && entry.definitions.length > 0 &&
     entry.definitions.every((sense) => EN_ABBREVIATION_SENSE_RE.test(sense.definition.trim()));
 
-/** Runs W1→W11 in order; the first match wins. null keeps the word. */
+/**
+ * Runs W1→W11 in order; the first match wins. null keeps the word. A proper noun (W8,
+ * `proper_nouns_<locale>.txt`) is kept: `words:build` marks it `isProperNoun`.
+ */
 export const classifyWord = (word: string, entry: Entry | undefined, { locale, wordSets }: WordContext): WordVerdict | null => {
     if (word !== word.normalize('NFC') || MOJIBAKE_RE.test(word)) {
         const fixed = repairEncoding(word, locale);
@@ -187,7 +190,6 @@ export const classifyWord = (word: string, entry: Entry | undefined, { locale, w
     if (locale === 'en' && isAllAbbreviations(entry)) return deleteAs('W5');
     if (ROMAN_RE.test(word)) return deleteAs('W6');
     if (ELONGATION_RE.test(word)) return deleteAs('W7');
-    if (wordSets.properNouns.has(word)) return deleteAs('W8');
     if (locale === 'es' && wordSets.foreign.has(word)) return deleteAs('W9');
     if (wordSets.offensive.has(word)) return deleteAs('W10');
     if (wordSets.htmlXml.has(word)) return deleteAs('W11');

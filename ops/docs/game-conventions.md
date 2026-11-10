@@ -86,10 +86,9 @@ client hydrator, `level-counts` and the tests):
 | `letters` | The word's characters sorted. |
 | `pos`, `senseCount` | Type of the first sense and number of senses in `public/definitions` (`null` / 0 without definitions). Senses are not stored; read them with `getDefinition(s)`. |
 | `source` | `'rae'` for an es word with senses; `null` otherwise. For en `null` means "unknown" (filled later). |
-| flags (0/1) | `hasAccent` (`[áéíóú]`), `hasEnye`, `hasDieresis`, `hasTl`, `hasDiphthong`, `hasHiatus` (`vowelFeatures` in `utils/SyllableSplitter.ts`), `isPlural`, `isVerbForm` (approximate suffix heuristics against the locale word set; no game uses them yet). |
+| flags (0/1) | `hasAccent` (`[áéíóú]`), `hasEnye`, `hasDieresis`, `hasTl`, `hasDiphthong`, `hasHiatus` (`vowelFeatures` in `utils/SyllableSplitter.ts`), `isPlural`, `isVerbForm` (approximate suffix heuristics against the locale word set; no game uses them yet), `isProperNoun` (the word is in `ops/scripts/words/proper_nouns_<locale>.txt`; proper nouns stay in the levels, a game drops them with `exclude: { isProperNoun: true }` or keeps only them by filtering `getWordRecords` on the flag; no game uses it yet). |
 
-Flag bit order in chunks is `WORD_FLAGS` (the order above). `isProperNoun` is a reserved name for a
-future flag; do not reuse it for something else.
+Flag bit order in chunks is `WORD_FLAGS` (the order above); a new flag goes at the end.
 
 ### Level formula (`computeLevel`)
 

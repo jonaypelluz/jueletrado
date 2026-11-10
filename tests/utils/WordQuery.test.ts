@@ -24,6 +24,7 @@ const record = (overrides: Partial<WordRecord> = {}): WordRecord => ({
     hasHiatus: 0,
     isPlural: 0,
     isVerbForm: 0,
+    isProperNoun: 0,
     ...overrides,
 });
 
