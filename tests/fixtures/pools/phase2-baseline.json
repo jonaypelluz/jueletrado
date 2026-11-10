@@ -1,103 +1,103 @@
 {
     "es/beginner/wordBuilder": {
-        "count": 2911,
+        "count": 2934,
         "min": null,
-        "hash": "9b085f42ddcbfc8a"
+        "hash": "3ff9d8984e5088aa"
     },
     "es/beginner/wordFinder": {
-        "count": 403,
+        "count": 401,
         "min": 60,
-        "hash": "3fa4ac97eec0c559"
+        "hash": "23e2123f69aa4f73"
     },
     "es/beginner/spellTower": {
-        "count": 2740,
+        "count": 2771,
         "min": 120,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/wordsRain": {
-        "count": 2740,
+        "count": 2771,
         "min": 150,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/dailyWord": {
-        "count": 2740,
+        "count": 2771,
         "min": 7,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/prefetch/WORDS_DAILY": {
-        "count": 2740,
+        "count": 2771,
         "min": 7,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/prefetch/WORDS_FINDER": {
-        "count": 2401,
+        "count": 2431,
         "min": 60,
-        "hash": "1514d7a8cb0bdc9c"
+        "hash": "61c3615e498def9c"
     },
     "es/beginner/prefetch/WORDS_TOWER": {
-        "count": 2740,
+        "count": 2771,
         "min": 120,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/prefetch/WORDS_RAIN": {
-        "count": 2740,
+        "count": 2771,
         "min": 150,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/prefetch/WORDS_ACCENT": {
-        "count": 2740,
+        "count": 2771,
         "min": 80,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/prefetch/WORDS_MATCHER": {
-        "count": 2740,
+        "count": 2771,
         "min": 80,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/prefetch/WORDS_SYLLABLE": {
-        "count": 2740,
+        "count": 2771,
         "min": 60,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/wordChain/seed": {
-        "count": 2740,
+        "count": 2771,
         "min": 20,
-        "hash": "139bbaba9a4c9b58"
+        "hash": "accd65e8214a35a6"
     },
     "es/beginner/accentFixer/window": {
-        "count": 1307,
+        "count": 1324,
         "min": 80,
-        "hash": "fb57a8b65dea32fe"
+        "hash": "c0c75954eeae0931"
     },
     "es/beginner/accentFixer/eligible": {
-        "count": 1206,
+        "count": 1224,
         "min": 10,
-        "hash": "fb358664feadea08"
+        "hash": "3d5d302f7338bf95"
     },
     "es/beginner/letterMatcher/window": {
-        "count": 1307,
+        "count": 1324,
         "min": 80,
-        "hash": "fb57a8b65dea32fe"
+        "hash": "c0c75954eeae0931"
     },
     "es/beginner/letterMatcher/eligible": {
-        "count": 402,
+        "count": 407,
         "min": 10,
-        "hash": "2415ffa640c03f40"
+        "hash": "94df73d3f71f3bd2"
     },
     "es/beginner/syllableSplitter/window": {
-        "count": 1307,
+        "count": 1324,
         "min": 60,
-        "hash": "fb57a8b65dea32fe"
+        "hash": "c0c75954eeae0931"
     },
     "es/beginner/syllableSplitter/eligible": {
-        "count": 1279,
+        "count": 1294,
         "min": 10,
-        "hash": "150d3372181ab20b"
+        "hash": "726c859477128fdb"
     },
     "es/beginner/definitionMaster/a": {
-        "count": 1035,
+        "count": 1034,
         "min": 5,
-        "hash": "a983fe52eb1daf32"
+        "hash": "6a9339ebf402adf0"
     },
     "es/beginner/definitionMaster/b": {
         "count": 195,
@@ -105,9 +105,9 @@
         "hash": "10c7a14be7ad8961"
     },
     "es/beginner/definitionMaster/c": {
-        "count": 1186,
+        "count": 1185,
         "min": 5,
-        "hash": "d15678a69398b597"
+        "hash": "f6aa5f8717c3101e"
     },
     "es/beginner/definitionMaster/d": {
         "count": 598,
@@ -170,9 +170,9 @@
         "hash": "13661f9f6a0aca0e"
     },
     "es/beginner/definitionMaster/p": {
-        "count": 922,
+        "count": 921,
         "min": 5,
-        "hash": "e875ee601742cc04"
+        "hash": "4c73ed0e66ab4cc5"
     },
     "es/beginner/definitionMaster/q": {
         "count": 66,
@@ -185,9 +185,9 @@
         "hash": "b9b7e5216f64f5f8"
     },
     "es/beginner/definitionMaster/s": {
-        "count": 586,
+        "count": 584,
         "min": 5,
-        "hash": "3c2f0966fffa1ee0"
+        "hash": "029b7cb0c82447bd"
     },
     "es/beginner/definitionMaster/t": {
         "count": 396,
@@ -230,9 +230,9 @@
         "hash": "74445ba0d8caa81f"
     },
     "es/beginner/spellingBee/c": {
-        "count": 1094,
+        "count": 1093,
         "min": 1,
-        "hash": "0413cf745d2c08c7"
+        "hash": "4d9ad43f211cb9e5"
     },
     "es/beginner/spellingBee/d": {
         "count": 537,
@@ -310,9 +310,9 @@
         "hash": "319b91ed2c664584"
     },
     "es/beginner/spellingBee/s": {
-        "count": 526,
+        "count": 524,
         "min": 1,
-        "hash": "9b9f589fe5e5f32e"
+        "hash": "a6aa6959f52943c0"
     },
     "es/beginner/spellingBee/t": {
         "count": 356,
@@ -350,104 +350,104 @@
         "hash": "ea9f0f32b6f8b24b"
     },
     "es/beginner/crossWordPuzzle": {
-        "count": 8906,
+        "count": 8902,
         "min": 4,
-        "hash": "fc967c01f3243b25"
+        "hash": "ca1457b25a7b8451"
     },
     "es/intermediate/wordBuilder": {
-        "count": 73287,
+        "count": 73350,
         "min": null,
-        "hash": "cd2701772ef41933"
+        "hash": "ad9505c8cca941e9"
     },
     "es/intermediate/wordFinder": {
-        "count": 9623,
+        "count": 9661,
         "min": 60,
-        "hash": "1d5ada0a8fe15a88"
+        "hash": "723195c68a1d7690"
     },
     "es/intermediate/spellTower": {
-        "count": 73153,
+        "count": 73212,
         "min": 120,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/wordsRain": {
-        "count": 73153,
+        "count": 73212,
         "min": 150,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/prefetch/WORDS_DAILY": {
-        "count": 73153,
+        "count": 73212,
         "min": 7,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/prefetch/WORDS_FINDER": {
-        "count": 44171,
+        "count": 44230,
         "min": 60,
-        "hash": "d88d69e8bd7401db"
+        "hash": "27f8fb33b93740b8"
     },
     "es/intermediate/prefetch/WORDS_TOWER": {
-        "count": 73153,
+        "count": 73212,
         "min": 120,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/prefetch/WORDS_RAIN": {
-        "count": 73153,
+        "count": 73212,
         "min": 150,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/prefetch/WORDS_ACCENT": {
-        "count": 73153,
+        "count": 73212,
         "min": 80,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/prefetch/WORDS_MATCHER": {
-        "count": 73153,
+        "count": 73212,
         "min": 80,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/prefetch/WORDS_SYLLABLE": {
-        "count": 73153,
+        "count": 73212,
         "min": 60,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/wordChain/seed": {
-        "count": 73153,
+        "count": 73212,
         "min": 20,
-        "hash": "7b5066743b1a85d9"
+        "hash": "4315ec009061fa8a"
     },
     "es/intermediate/accentFixer/window": {
-        "count": 31060,
+        "count": 31105,
         "min": 80,
-        "hash": "d240a58a413f72e5"
+        "hash": "df5c33941412c97d"
     },
     "es/intermediate/accentFixer/eligible": {
-        "count": 30419,
+        "count": 30462,
         "min": 10,
-        "hash": "dd3febbc693633fc"
+        "hash": "1692be262bbb4fe5"
     },
     "es/intermediate/letterMatcher/window": {
-        "count": 31742,
+        "count": 31798,
         "min": 80,
-        "hash": "33a15beb27825459"
+        "hash": "6cc241e776b26c87"
     },
     "es/intermediate/letterMatcher/eligible": {
-        "count": 14424,
+        "count": 14452,
         "min": 10,
-        "hash": "ca8e0d35dd25a6b2"
+        "hash": "340809fb62e768ba"
     },
     "es/intermediate/syllableSplitter/window": {
-        "count": 31060,
+        "count": 31105,
         "min": 60,
-        "hash": "d240a58a413f72e5"
+        "hash": "df5c33941412c97d"
     },
     "es/intermediate/syllableSplitter/eligible": {
-        "count": 31004,
+        "count": 31045,
         "min": 10,
-        "hash": "3bf0d6d4036a6269"
+        "hash": "63da78b3af6e82d9"
     },
     "es/intermediate/definitionMaster/a": {
-        "count": 888,
+        "count": 887,
         "min": 5,
-        "hash": "a38a9495cc9381ba"
+        "hash": "65816785679a4c94"
     },
     "es/intermediate/definitionMaster/b": {
         "count": 168,
@@ -455,9 +455,9 @@
         "hash": "4b2635a2cffa2a59"
     },
     "es/intermediate/definitionMaster/c": {
-        "count": 1049,
+        "count": 1048,
         "min": 5,
-        "hash": "b644be875dea34bd"
+        "hash": "0b6f84358ad4f510"
     },
     "es/intermediate/definitionMaster/d": {
         "count": 526,
@@ -520,9 +520,9 @@
         "hash": "79a6424556eb6a45"
     },
     "es/intermediate/definitionMaster/p": {
-        "count": 822,
+        "count": 821,
         "min": 5,
-        "hash": "feb844783475bae9"
+        "hash": "5edb533716ad26bc"
     },
     "es/intermediate/definitionMaster/q": {
         "count": 60,
@@ -535,9 +535,9 @@
         "hash": "dce18761d061d652"
     },
     "es/intermediate/definitionMaster/s": {
-        "count": 521,
+        "count": 519,
         "min": 5,
-        "hash": "cb439eb753b494d6"
+        "hash": "9acc55d4b6742c67"
     },
     "es/intermediate/definitionMaster/t": {
         "count": 363,
@@ -580,9 +580,9 @@
         "hash": "75f843758cc7a7a2"
     },
     "es/intermediate/spellingBee/c": {
-        "count": 1134,
+        "count": 1133,
         "min": 1,
-        "hash": "2f7a74b9de5cfa2a"
+        "hash": "d782b688b97cd626"
     },
     "es/intermediate/spellingBee/d": {
         "count": 560,
@@ -660,9 +660,9 @@
         "hash": "a7ea0b3291982315"
     },
     "es/intermediate/spellingBee/s": {
-        "count": 540,
+        "count": 538,
         "min": 1,
-        "hash": "c725d345faf7bb87"
+        "hash": "054613207dcfcf12"
     },
     "es/intermediate/spellingBee/t": {
         "count": 366,
@@ -700,104 +700,104 @@
         "hash": "ea9f0f32b6f8b24b"
     },
     "es/intermediate/crossWordPuzzle": {
-        "count": 8906,
+        "count": 8902,
         "min": 6,
-        "hash": "fc967c01f3243b25"
+        "hash": "ca1457b25a7b8451"
     },
     "es/advanced/wordBuilder": {
-        "count": 667842,
+        "count": 667837,
         "min": null,
-        "hash": "50112ce676c082a0"
+        "hash": "5cc6ea0fd1de58d9"
     },
     "es/advanced/wordFinder": {
-        "count": 256750,
+        "count": 256749,
         "min": 60,
-        "hash": "3e88fef002208814"
+        "hash": "c58e4d4b70b8f1ea"
     },
     "es/advanced/spellTower": {
-        "count": 666930,
+        "count": 666925,
         "min": 120,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/wordsRain": {
-        "count": 666930,
+        "count": 666925,
         "min": 150,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/prefetch/WORDS_DAILY": {
-        "count": 666930,
+        "count": 666925,
         "min": 7,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/prefetch/WORDS_FINDER": {
-        "count": 273973,
+        "count": 273968,
         "min": 60,
-        "hash": "8883f9e90296334a"
+        "hash": "93559f85b50e1693"
     },
     "es/advanced/prefetch/WORDS_TOWER": {
-        "count": 666930,
+        "count": 666925,
         "min": 120,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/prefetch/WORDS_RAIN": {
-        "count": 666930,
+        "count": 666925,
         "min": 150,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/prefetch/WORDS_ACCENT": {
-        "count": 666930,
+        "count": 666925,
         "min": 80,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/prefetch/WORDS_MATCHER": {
-        "count": 666930,
+        "count": 666925,
         "min": 80,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/prefetch/WORDS_SYLLABLE": {
-        "count": 666930,
+        "count": 666925,
         "min": 60,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/wordChain/seed": {
-        "count": 666930,
+        "count": 666925,
         "min": 20,
-        "hash": "42466bc1bcb08968"
+        "hash": "2f148bb5765dca50"
     },
     "es/advanced/accentFixer/window": {
-        "count": 649707,
+        "count": 649706,
         "min": 80,
-        "hash": "07a752b0632ff101"
+        "hash": "8d63b073b0b98620"
     },
     "es/advanced/accentFixer/eligible": {
-        "count": 557708,
+        "count": 557706,
         "min": 10,
-        "hash": "6ffaf88eec302c6a"
+        "hash": "1054090fdd097d76"
     },
     "es/advanced/letterMatcher/window": {
-        "count": 649707,
+        "count": 649706,
         "min": 80,
-        "hash": "07a752b0632ff101"
+        "hash": "8d63b073b0b98620"
     },
     "es/advanced/letterMatcher/eligible": {
-        "count": 354056,
+        "count": 354054,
         "min": 10,
-        "hash": "35525765ff6b2e71"
+        "hash": "a2aa09485da49b48"
     },
     "es/advanced/syllableSplitter/window": {
-        "count": 535122,
+        "count": 535121,
         "min": 60,
-        "hash": "62dffd62dacd3524"
+        "hash": "2e6aa4d7991267f0"
     },
     "es/advanced/syllableSplitter/eligible": {
-        "count": 534532,
+        "count": 534531,
         "min": 10,
-        "hash": "fd61cb038c38f582"
+        "hash": "0016569aabbabb5e"
     },
     "es/advanced/definitionMaster/a": {
-        "count": 727,
+        "count": 726,
         "min": 5,
-        "hash": "ccf0dd4cff4d8a77"
+        "hash": "c7921390f0f8ea2d"
     },
     "es/advanced/definitionMaster/b": {
         "count": 136,
@@ -805,9 +805,9 @@
         "hash": "beb11021a62fde47"
     },
     "es/advanced/definitionMaster/c": {
-        "count": 915,
+        "count": 914,
         "min": 5,
-        "hash": "6a1663f954aa488a"
+        "hash": "d89899719707f427"
     },
     "es/advanced/definitionMaster/d": {
         "count": 447,
@@ -870,9 +870,9 @@
         "hash": "742d406d94d20e4b"
     },
     "es/advanced/definitionMaster/p": {
-        "count": 691,
+        "count": 690,
         "min": 5,
-        "hash": "f706b2ece4ffd2cc"
+        "hash": "c61bec720c97435b"
     },
     "es/advanced/definitionMaster/q": {
         "count": 56,
@@ -885,9 +885,9 @@
         "hash": "d67c7cfeab2411ce"
     },
     "es/advanced/definitionMaster/s": {
-        "count": 435,
+        "count": 433,
         "min": 5,
-        "hash": "9e03e9747a88c4f3"
+        "hash": "fe2e4a3fc6079788"
     },
     "es/advanced/definitionMaster/t": {
         "count": 317,
@@ -930,9 +930,9 @@
         "hash": "6b16f497ce7273ec"
     },
     "es/advanced/spellingBee/c": {
-        "count": 1134,
+        "count": 1133,
         "min": 1,
-        "hash": "2f7a74b9de5cfa2a"
+        "hash": "d782b688b97cd626"
     },
     "es/advanced/spellingBee/d": {
         "count": 560,
@@ -1010,9 +1010,9 @@
         "hash": "a7ea0b3291982315"
     },
     "es/advanced/spellingBee/s": {
-        "count": 541,
+        "count": 539,
         "min": 1,
-        "hash": "db937a88ac80d6ad"
+        "hash": "5ae8708c7cde94e6"
     },
     "es/advanced/spellingBee/t": {
         "count": 368,
@@ -1050,94 +1050,94 @@
         "hash": "ea9f0f32b6f8b24b"
     },
     "es/advanced/crossWordPuzzle": {
-        "count": 8906,
+        "count": 8902,
         "min": 8,
-        "hash": "fc967c01f3243b25"
+        "hash": "ca1457b25a7b8451"
     },
     "en/beginner/wordBuilder": {
-        "count": 2774,
+        "count": 2873,
         "min": null,
-        "hash": "a953510c7dbef444"
+        "hash": "cf3447d94bb7581b"
     },
     "en/beginner/wordFinder": {
-        "count": 652,
+        "count": 662,
         "min": 60,
-        "hash": "a6fbd6a066e4645b"
+        "hash": "9f6b70d43b1d5f79"
     },
     "en/beginner/spellTower": {
-        "count": 2547,
+        "count": 2644,
         "min": 120,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/wordsRain": {
-        "count": 2547,
+        "count": 2644,
         "min": 150,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/dailyWord": {
-        "count": 2547,
+        "count": 2644,
         "min": 7,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/prefetch/WORDS_DAILY": {
-        "count": 2547,
+        "count": 2644,
         "min": 7,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/prefetch/WORDS_FINDER": {
-        "count": 2361,
+        "count": 2455,
         "min": 60,
-        "hash": "547b4eeab8ce0331"
+        "hash": "79efcf5ad0dafbac"
     },
     "en/beginner/prefetch/WORDS_TOWER": {
-        "count": 2547,
+        "count": 2644,
         "min": 120,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/prefetch/WORDS_RAIN": {
-        "count": 2547,
+        "count": 2644,
         "min": 150,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/prefetch/WORDS_ACCENT": {
-        "count": 2547,
+        "count": 2644,
         "min": 80,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/prefetch/WORDS_MATCHER": {
-        "count": 2547,
+        "count": 2644,
         "min": 80,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/prefetch/WORDS_SYLLABLE": {
-        "count": 2547,
+        "count": 2644,
         "min": 60,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/wordChain/seed": {
-        "count": 2547,
+        "count": 2644,
         "min": 20,
-        "hash": "9960f6829041e210"
+        "hash": "0186c8751294b1f6"
     },
     "en/beginner/letterMatcher/window": {
-        "count": 1465,
+        "count": 1513,
         "min": 80,
-        "hash": "6cf423996ba13df6"
+        "hash": "f1c03e0dd3e09716"
     },
     "en/beginner/letterMatcher/eligible": {
-        "count": 290,
+        "count": 293,
         "min": 10,
-        "hash": "568bfbf127283875"
+        "hash": "ba56f31f3db018c8"
     },
     "en/beginner/definitionMaster/a": {
-        "count": 5358,
+        "count": 5356,
         "min": 5,
-        "hash": "e71d040d82fcaecd"
+        "hash": "451eb924aca454aa"
     },
     "en/beginner/definitionMaster/b": {
-        "count": 2485,
+        "count": 2483,
         "min": 5,
-        "hash": "3d38ccca79bea4ca"
+        "hash": "74cf02911359054e"
     },
     "en/beginner/definitionMaster/c": {
         "count": 4349,
@@ -1145,9 +1145,9 @@
         "hash": "af56a4b2d3b27dea"
     },
     "en/beginner/definitionMaster/d": {
-        "count": 2586,
+        "count": 2584,
         "min": 5,
-        "hash": "86a03996f2508467"
+        "hash": "a9da7cd76b34fc8d"
     },
     "en/beginner/definitionMaster/e": {
         "count": 1794,
@@ -1205,9 +1205,9 @@
         "hash": "cf8ffafd82bbd8fa"
     },
     "en/beginner/definitionMaster/s": {
-        "count": 4732,
+        "count": 4730,
         "min": 5,
-        "hash": "d50253e04f880434"
+        "hash": "a92db94586c6e4e3"
     },
     "en/beginner/definitionMaster/t": {
         "count": 2178,
@@ -1235,14 +1235,14 @@
         "hash": "d1e65ff0f5d57142"
     },
     "en/beginner/spellingBee/a": {
-        "count": 4933,
+        "count": 4932,
         "min": 1,
-        "hash": "129a8776453f1cf3"
+        "hash": "4457e2b91fd4770e"
     },
     "en/beginner/spellingBee/b": {
-        "count": 2277,
+        "count": 2275,
         "min": 1,
-        "hash": "1dbb6c3cb5fac71a"
+        "hash": "9c552c878ab18177"
     },
     "en/beginner/spellingBee/c": {
         "count": 3975,
@@ -1250,9 +1250,9 @@
         "hash": "35d1eaf5c507e42e"
     },
     "en/beginner/spellingBee/d": {
-        "count": 2337,
+        "count": 2335,
         "min": 1,
-        "hash": "3ba4c7232b2680b3"
+        "hash": "e591b516ed44bf54"
     },
     "en/beginner/spellingBee/e": {
         "count": 1592,
@@ -1310,9 +1310,9 @@
         "hash": "197d2267697004b1"
     },
     "en/beginner/spellingBee/s": {
-        "count": 4277,
+        "count": 4276,
         "min": 1,
-        "hash": "55266d8545271f5c"
+        "hash": "c4683b8b496682dd"
     },
     "en/beginner/spellingBee/t": {
         "count": 1963,
@@ -1345,89 +1345,89 @@
         "hash": "b586f7418668dda3"
     },
     "en/beginner/crossWordPuzzle": {
-        "count": 45456,
+        "count": 45448,
         "min": 4,
-        "hash": "fa5ea49e194c97ad"
+        "hash": "c854543d36277b74"
     },
     "en/intermediate/wordBuilder": {
-        "count": 30742,
+        "count": 31293,
         "min": null,
-        "hash": "d8fdf49f194ce4be"
+        "hash": "e53c57261781cc5d"
     },
     "en/intermediate/wordFinder": {
-        "count": 5243,
+        "count": 5524,
         "min": 60,
-        "hash": "74238dae71bb2031"
+        "hash": "5268df0e0b40dce4"
     },
     "en/intermediate/spellTower": {
-        "count": 30445,
+        "count": 30982,
         "min": 120,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/wordsRain": {
-        "count": 30445,
+        "count": 30982,
         "min": 150,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/prefetch/WORDS_DAILY": {
-        "count": 30445,
+        "count": 30982,
         "min": 7,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/prefetch/WORDS_FINDER": {
-        "count": 17872,
+        "count": 18376,
         "min": 60,
-        "hash": "36c9865fb46824ca"
+        "hash": "ecd7769c4044627f"
     },
     "en/intermediate/prefetch/WORDS_TOWER": {
-        "count": 30445,
+        "count": 30982,
         "min": 120,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/prefetch/WORDS_RAIN": {
-        "count": 30445,
+        "count": 30982,
         "min": 150,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/prefetch/WORDS_ACCENT": {
-        "count": 30445,
+        "count": 30982,
         "min": 80,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/prefetch/WORDS_MATCHER": {
-        "count": 30445,
+        "count": 30982,
         "min": 80,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/prefetch/WORDS_SYLLABLE": {
-        "count": 30445,
+        "count": 30982,
         "min": 60,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/wordChain/seed": {
-        "count": 30445,
+        "count": 30982,
         "min": 20,
-        "hash": "00528d7abd6ba962"
+        "hash": "4e89e3fe99836b63"
     },
     "en/intermediate/letterMatcher/window": {
-        "count": 13283,
+        "count": 13734,
         "min": 80,
-        "hash": "2529dd504016eed0"
+        "hash": "b6b9007582f7edef"
     },
     "en/intermediate/letterMatcher/eligible": {
-        "count": 3867,
+        "count": 3965,
         "min": 10,
-        "hash": "34d0126aaef21d0f"
+        "hash": "23e18b9c2c37e423"
     },
     "en/intermediate/definitionMaster/a": {
-        "count": 3470,
+        "count": 3468,
         "min": 5,
-        "hash": "00b696b3d760545b"
+        "hash": "299528f9e6c22004"
     },
     "en/intermediate/definitionMaster/b": {
-        "count": 1923,
+        "count": 1921,
         "min": 5,
-        "hash": "ba2a17e5a3d410dc"
+        "hash": "4509b6cc04f259a0"
     },
     "en/intermediate/definitionMaster/c": {
         "count": 3248,
@@ -1435,9 +1435,9 @@
         "hash": "4ad7ecee96785d94"
     },
     "en/intermediate/definitionMaster/d": {
-        "count": 2007,
+        "count": 2005,
         "min": 5,
-        "hash": "f7401b024fb0da53"
+        "hash": "5260b831413c4dfa"
     },
     "en/intermediate/definitionMaster/e": {
         "count": 1332,
@@ -1495,9 +1495,9 @@
         "hash": "6bf014c3e72ce54f"
     },
     "en/intermediate/definitionMaster/s": {
-        "count": 3672,
+        "count": 3670,
         "min": 5,
-        "hash": "fb1151d19d3fd98d"
+        "hash": "e8a2d8b29058c6a5"
     },
     "en/intermediate/definitionMaster/t": {
         "count": 1650,
@@ -1525,14 +1525,14 @@
         "hash": "f20db8cdf33f97a6"
     },
     "en/intermediate/spellingBee/a": {
-        "count": 5149,
+        "count": 5148,
         "min": 1,
-        "hash": "b5ec99aafcbe9468"
+        "hash": "d1b99ab7ff377254"
     },
     "en/intermediate/spellingBee/b": {
-        "count": 2393,
+        "count": 2391,
         "min": 1,
-        "hash": "7b7407109eb5055c"
+        "hash": "da6331f65c2627d7"
     },
     "en/intermediate/spellingBee/c": {
         "count": 4198,
@@ -1540,9 +1540,9 @@
         "hash": "009b8aba73d35b6b"
     },
     "en/intermediate/spellingBee/d": {
-        "count": 2466,
+        "count": 2464,
         "min": 1,
-        "hash": "07c9877d8735093b"
+        "hash": "c6c50b22c87313b2"
     },
     "en/intermediate/spellingBee/e": {
         "count": 1705,
@@ -1600,9 +1600,9 @@
         "hash": "d3695516e93149ff"
     },
     "en/intermediate/spellingBee/s": {
-        "count": 4572,
+        "count": 4571,
         "min": 1,
-        "hash": "4e50abe2be6dd3a2"
+        "hash": "bb4af8ff971d7113"
     },
     "en/intermediate/spellingBee/t": {
         "count": 2068,
@@ -1635,14 +1635,14 @@
         "hash": "b586f7418668dda3"
     },
     "en/intermediate/crossWordPuzzle": {
-        "count": 45456,
+        "count": 45448,
         "min": 6,
-        "hash": "fa5ea49e194c97ad"
+        "hash": "c854543d36277b74"
     },
     "en/advanced/wordBuilder": {
-        "count": 354646,
+        "count": 354643,
         "min": null,
-        "hash": "7b96b63294a97fda"
+        "hash": "96749e96f580a3e0"
     },
     "en/advanced/wordFinder": {
         "count": 163499,
@@ -1650,54 +1650,54 @@
         "hash": "4852e8c34fd4bf06"
     },
     "en/advanced/spellTower": {
-        "count": 353069,
+        "count": 353066,
         "min": 120,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/wordsRain": {
-        "count": 353069,
+        "count": 353066,
         "min": 150,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/prefetch/WORDS_DAILY": {
-        "count": 353069,
+        "count": 353066,
         "min": 7,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/prefetch/WORDS_FINDER": {
-        "count": 186887,
+        "count": 186884,
         "min": 60,
-        "hash": "6beec0fb6bdf1722"
+        "hash": "a8203d24188135ea"
     },
     "en/advanced/prefetch/WORDS_TOWER": {
-        "count": 353069,
+        "count": 353066,
         "min": 120,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/prefetch/WORDS_RAIN": {
-        "count": 353069,
+        "count": 353066,
         "min": 150,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/prefetch/WORDS_ACCENT": {
-        "count": 353069,
+        "count": 353066,
         "min": 80,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/prefetch/WORDS_MATCHER": {
-        "count": 353069,
+        "count": 353066,
         "min": 80,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/prefetch/WORDS_SYLLABLE": {
-        "count": 353069,
+        "count": 353066,
         "min": 60,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/wordChain/seed": {
-        "count": 353069,
+        "count": 353066,
         "min": 20,
-        "hash": "1b07137723f23e84"
+        "hash": "5940a10591fcaba9"
     },
     "en/advanced/letterMatcher/window": {
         "count": 329681,
@@ -1705,19 +1705,19 @@
         "hash": "6a3176d9a545bed0"
     },
     "en/advanced/letterMatcher/eligible": {
-        "count": 141455,
+        "count": 141440,
         "min": 10,
-        "hash": "03e54ee8291ba291"
+        "hash": "ce2dacf48bfc3f93"
     },
     "en/advanced/definitionMaster/a": {
-        "count": 2305,
+        "count": 2303,
         "min": 5,
-        "hash": "9441ac281d76f7b1"
+        "hash": "2a849059a5ef8469"
     },
     "en/advanced/definitionMaster/b": {
-        "count": 1459,
+        "count": 1457,
         "min": 5,
-        "hash": "f4082309b358588f"
+        "hash": "659e35a0cc5423d7"
     },
     "en/advanced/definitionMaster/c": {
         "count": 2441,
@@ -1725,9 +1725,9 @@
         "hash": "e3a914f3d4c4c950"
     },
     "en/advanced/definitionMaster/d": {
-        "count": 1533,
+        "count": 1531,
         "min": 5,
-        "hash": "edad23bfb4a9c546"
+        "hash": "8c7bc6f1d111df6b"
     },
     "en/advanced/definitionMaster/e": {
         "count": 934,
@@ -1785,9 +1785,9 @@
         "hash": "755c784b0ad075b0"
     },
     "en/advanced/definitionMaster/s": {
-        "count": 2802,
+        "count": 2800,
         "min": 5,
-        "hash": "f3c7732f00480550"
+        "hash": "1c623643a6db062f"
     },
     "en/advanced/definitionMaster/t": {
         "count": 1253,
@@ -1815,14 +1815,14 @@
         "hash": "758a56695533affb"
     },
     "en/advanced/spellingBee/a": {
-        "count": 5154,
+        "count": 5153,
         "min": 1,
-        "hash": "fe815472fe334b9c"
+        "hash": "68fcbd1132da769c"
     },
     "en/advanced/spellingBee/b": {
-        "count": 2397,
+        "count": 2395,
         "min": 1,
-        "hash": "0ce09a2fa316fe02"
+        "hash": "676a415a88dd7b07"
     },
     "en/advanced/spellingBee/c": {
         "count": 4208,
@@ -1830,9 +1830,9 @@
         "hash": "8b010669b64dc2a9"
     },
     "en/advanced/spellingBee/d": {
-        "count": 2481,
+        "count": 2479,
         "min": 1,
-        "hash": "d5dc0d5bb275292e"
+        "hash": "e52456b1c6c62c7c"
     },
     "en/advanced/spellingBee/e": {
         "count": 1710,
@@ -1890,9 +1890,9 @@
         "hash": "9162af103cf05174"
     },
     "en/advanced/spellingBee/s": {
-        "count": 4590,
+        "count": 4589,
         "min": 1,
-        "hash": "def184f4b926123a"
+        "hash": "bab45ca52119ff85"
     },
     "en/advanced/spellingBee/t": {
         "count": 2076,
@@ -1925,8 +1925,8 @@
         "hash": "b586f7418668dda3"
     },
     "en/advanced/crossWordPuzzle": {
-        "count": 45456,
+        "count": 45448,
         "min": 8,
-        "hash": "fa5ea49e194c97ad"
+        "hash": "c854543d36277b74"
     }
 }

@@ -1,0 +1,22 @@
+{
+  "reject": [
+    {"word": "et", "list": "foreign_es.txt", "reason": "Real DLE lemma (conjunción, 'y'); delete drops its definition key. Real Spanish entry, so it must not go in foreign_es; at most drop it from beginner by hand."},
+    {"word": "to", "list": "foreign_es.txt", "reason": "Real DLE interjection (to, for calling a dog, = so/tate); delete drops 4 senses. Not a foreign word."},
+    {"word": "man", "list": "foreign_es.txt", "reason": "Real DLE entry (apocope of mano); delete drops its definition. Not a foreign word."},
+    {"word": "estebamos", "list": "html_xml_blocklist_es.txt", "reason": "Valid 1st-person plural of DLE verb estebar, also in advanced; has a definition key. Typo of estábamos in beginner, but the blocklist deletes it from every level."},
+    {"word": "ademes", "list": "html_xml_blocklist_es.txt", "reason": "Plural of DLE noun ademe (mining prop; also a form of ademar), also in advanced. A real word, so not junk; the proposer itself notes this."},
+    {"word": "trackback", "list": "html_xml_blocklist_en.txt", "reason": "Real defined English noun (blog link notification, 2 senses), in beginner, intermediate and advanced. Blog jargon is unsuitable for beginner but is not junk; deleting it everywhere loses a valid word."},
+    {"word": "trackbacks", "list": "html_xml_blocklist_en.txt", "reason": "Plural of trackback, defined, in all three levels; same as trackback."}
+  ],
+  "missed": [
+    {"word": "damn", "list": "offensive_en.txt", "reason": "In en beginner. First sense is the curse, the rest are 'condemn to hell'. Mild British swear word, but the word of the day reaches children. Borderline: owner's call."}
+  ],
+  "properNounWrong": [],
+  "notes": [
+    "No proper-noun flag is wrong. Each added word's usual use is the name. Their repo definitions are only rare common senses (brazil dye, japan varnish, corea chorea, córdoba currency, california element...).",
+    "google: the lowercase verb 'to google' is common, but the job's Done list names google as a proper noun to mark, so it was left as is.",
+    "These flagged en proper nouns carry adult-only definitions: johnson (only sense 'Penis'), mary ('a male homosexual'), john ('a prostitute's client'), jones ('Heroin'). If the word of the day (JUE-0011) does not exclude isProperNoun, they could show those definitions.",
+    "es beginner still has junk tokens that are not offensive (ojale, pece, rolden, eñes, crují, iniciare, quedaren, participaren). They are outside this check."
+  ],
+  "ok": 76
+}
