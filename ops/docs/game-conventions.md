@@ -77,7 +77,7 @@ client hydrator, `level-counts` and the tests):
 | Field | Meaning |
 |---|---|
 | `word`, `locale` | The word as served, its locale. |
-| `level` | Computed level (see formula). Informational and indexed; games filter on `levels`. |
+| `level` | Computed level (see formula). Informational; games filter on `levels`. |
 | `levels` | Pool membership: `[level]` for a ranked word, every source list containing it for an unranked one. |
 | `freqRank` | 1-based line in `ops/scripts/frequency/wordfreq_<locale>.txt`, `null` when not in the corpus. |
 | `length` | `word.length` (UTF-16 units, as the legacy filters). |
@@ -105,13 +105,13 @@ future flag; do not reuse it for something else.
 ### Query API (`@services/WordsService`)
 
 `WordFilter = { level?, minLen?, maxLen?, exclude?: { <flag>: true }, minSyllables? }`;
-`WordQuery = WordFilter & { locale, count }`. Matching is the pure `matchesQuery` in
+`WordQuery = WordFilter & { locale, level, count }` (`level` required). Matching is the pure `matchesQuery` in
 `utils/WordQuery.ts`: `level` is membership in `record.levels`; `minLen`/`maxLen` are inclusive with no
 implicit minimum; `exclude` rejects records whose flag is 1; `minSyllables` needs a known count.
 
 - `getWords(query, setError?)` → `string[]` — uniform sample without replacement of `min(count, matches)`
-  words. Populates the level first when storage does not mark it populated (every level when `level`
-  is omitted). Invalid level → `setError(Error('Invalid level specified'))` and `[]`.
+  words. Populates the level first when IndexedDB does not hold its last served position
+  (`checkIfPopulated`, see "Populated check"). Missing or invalid level → `setError(Error('Invalid level specified'))` and `[]`.
   `getWords({ locale, level, count: 150, minLen: 4 }, setError)`
 - `getSessionWords(key, sessionSize, query, setError, refetchThreshold?)` → `string[]` — draws N words
   from a persistent localStorage pool and refetches in the background with the same query (spellTower,
@@ -168,8 +168,7 @@ returns one). `words:level-counts` builds every pool from these same objects, so
   batches of 256 keyed lookups (`getWordsAt`: position → word → record) and keeps the matches until
   `count` are found or the positions run out. Cost grows with `count / match rate`: today's queries
   match most words, but a query matching fewer than `count` words reads every position of the level
-  (~2,600 batches on es advanced), so keep game queries dense. A draw without a level (outside
-  production) shuffles every key of the words store instead.
+  (~2,600 batches on es advanced), so keep game queries dense.
 - `StorageService.WORDS_DATA_VERSION` (persistent): `WordsContext` calls `migrateWordsData()` on hydrate;
   when the stored version is not 2 it clears `LEVELS_POPULATED` and the word queues (`WORD_GROUP_KEYS`)
   once, keeps every setting (locale, level, daily word, best scores) and stores 2.
