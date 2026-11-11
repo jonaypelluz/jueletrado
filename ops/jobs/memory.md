@@ -150,3 +150,12 @@ These are NOT active jobs; promote one back to a job file only if it is picked u
 - Residual (decisión del owner): `damn`/`hell` (en) y `sexual` siguen en las listas; marcar palabras
   desusadas (`zebra`) sigue sin decidir; queda basura no ofensiva en principiante es (ojale, pece,
   rolden, eñes, iniciare, quedaren…) y tokens de corpus en en (gonna, lol, trackback, de/el/en/co).
+
+## JUE-0007 — README definition sources and retired branch-prefix rule (done 2026-11-11)
+PR: https://github.com/jonaypelluz/jueletrado/pull/67
+- El README nombra como fuentes de definiciones en inglés dictionaryapi.dev y, para las palabras que
+  no resuelve, Merriam-Webster (dictionaryapi.com). Collins ya no es fuente.
+- Ningún doc del repo exigía un prefijo de rama antiguo: `ops/docs/README.md` ya remite a las reglas
+  globales de jon-ai. No se tocó nada más.
+- Residual (decisión del owner): el README sigue diciendo "Definitions follow British English", pero
+  Merriam-Webster es inglés americano.
