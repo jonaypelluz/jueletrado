@@ -41,6 +41,42 @@ page error and the game left its start screen. Prints a PASS/FAIL line per game 
 - A new game is picked up by its folder in `out/`; a game whose start button is not `gamePlay` needs its label added
   to `LOCALES` in the script.
 
+### `yarn smoke:mobile [--locale es|en] [--game <id>] [--shots <dir> --tag <name>]`
+
+Mobile audit of the built site (`scripts/smoke/mobileAudit.mjs`): every game page in `out/juegos/` and
+`out/en/games/`, emulated as a touch phone (dpr 3) at 360×740, 375×667 and 390×844, plus 740×360, 667×375 and
+844×390 for the timed games. Each page is checked on its start screen and after Play:
+
+- no horizontal page scroll (against the emulated width, not `innerWidth`);
+- every visible control in the header, main, footer and cookie banner is inside the screen, at least 44×44 px and not
+  covered by another element. Exempt: inline links inside running text, and crossword cells (at least 24×24 px).
+
+The cookie banner is audited on the first game of each locale, then declined (no analytics). Prints a PASS/FAIL line
+per locale × game × viewport × screen with the offending selectors, and exits 1 on any FAIL (2 without a build or a
+browser). Takes about 8–10 minutes. `--shots` saves portrait screenshots as `<locale>-<gameId>-<width>-<tag>.png`
+(after Play) and `<locale>-<gameId>-<width>-start-<tag>.png`. Not in CI.
+
+### `yarn smoke:install`
+
+Install (PWA) check of the built site (`scripts/smoke/installCheck.mjs`):
+
+- es pages link `/site.webmanifest` and en pages `/site-en.webmanifest`;
+- Chrome reports no installability errors on `/` and `/en/`;
+- the footer's install button works: a synthetic `beforeinstallprompt` on Android calls `prompt()`, iPhone shows the
+  Add to Home Screen steps, and the installed app shows no button. Chromium cannot emulate `display-mode:
+  standalone` (no media emulation for it, no CDP `PWA` domain), so the script makes `matchMedia` report it;
+- in the installed app a spellTower round plays to its end and the header logo goes home.
+
+Exits 1 on any FAIL, 2 without a build or a browser. Not in CI.
+
+### `yarn icons:build`
+
+Renders `public/icon-192.png`, `icon-512.png`, `icon-maskable-512.png` (art inside the 80 % safe zone) and
+`apple-touch-icon.png` from inline SVG with Chrome/Chromium (`scripts/icons/buildIcons.mjs`). Run it after changing
+the icon design, and commit the PNGs.
+
+The browser scripts share `scripts/smoke/lib.mjs` (browser finder, `./out` server, level loading, Play button).
+
 ## Definitions crawlers
 
 ### `yarn crawl:all`

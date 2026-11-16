@@ -1,3 +1,4 @@
+@use '@styles/variables.scss' as vars;
 @use '@styles/common.scss';
 @use '@styles/LoadingSpinner.scss';
 
@@ -150,3 +151,32 @@
     }
 }
 
+// Phones: the whole grid fits the screen, full-bleed, with cells sized from the wrapper's width (≥24 px at 360 for
+// 15 cols). Container units, unlike vw, leave out a scrollbar.
+@media only screen and (max-width: 479px) {
+    .crossword-wrapper {
+        width: auto;
+        margin-inline: -(vars.$main-padding-phone);
+        border-inline: 0;
+        container-type: inline-size;
+    }
+
+    .crossword-grid-container {
+        --crossword-cell: calc(100cqi / var(--crossword-cols));
+        padding: 0;
+        gap: 0;
+        overflow: visible;
+    }
+
+    // 16 px keeps iOS from zooming in on focus and fits a 24 px cell; 2 px borders leave room for it.
+    .crossword-grid-item {
+        input {
+            font-size: 16px !important;
+            border-width: 2px !important;
+        }
+
+        .crossword-hint-cell {
+            border-width: 2px !important;
+        }
+    }
+}

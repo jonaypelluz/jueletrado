@@ -44,6 +44,16 @@
     }
 }
 
+// Touch targets on phones and small tablets (844 px landscape included); desktop keeps 32 px.
+@media only screen and (max-width: 899px) {
+    .btn-primary,
+    .btn-default {
+        height: auto;
+        min-height: 44px;
+        min-width: 44px;
+    }
+}
+
 .game-btn {
     font-size: 18px;
     padding: 10px 22px;

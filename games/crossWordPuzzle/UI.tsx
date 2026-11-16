@@ -48,6 +48,8 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
     checkCellValue,
     handleGameStartClick,
 }) => {
+    // Phones size cells from the viewport (CrossWordPuzzle.scss sets --crossword-cell); desktop keeps gridSizePixels.
+    const cellSize = `var(--crossword-cell, ${gridSizePixels}px)`;
     return (
         <>
             <Hero
@@ -99,9 +101,12 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                     </div>
                     <div
                         className="crossword-grid-container"
-                        style={{
-                            gridTemplateColumns: `repeat(${gridSize}, ${gridSizePixels}px)`,
-                        }}
+                        style={
+                            {
+                                '--crossword-cols': gridSize,
+                                gridTemplateColumns: `repeat(${gridSize}, ${cellSize})`,
+                            } as React.CSSProperties
+                        }
                     >
                         {crossword.map((row, i) =>
                             row.map((cell, j) => (
@@ -109,8 +114,8 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                                     key={`${i}-${j}`}
                                     className="crossword-grid-item"
                                     style={{
-                                        width: `${gridSizePixels}px`,
-                                        height: `${gridSizePixels}px`,
+                                        width: cellSize,
+                                        height: cellSize,
                                     }}
                                 >
                                     {cell.filled ? (
@@ -118,8 +123,8 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                                             <span
                                                 className="crossword-hint-cell"
                                                 style={{
-                                                    width: `${gridSizePixels}px`,
-                                                    height: `${gridSizePixels}px`,
+                                                    width: cellSize,
+                                                    height: cellSize,
                                                     backgroundColor: '#fff',
                                                     borderColor: '#000',
                                                     borderWidth: 3,
@@ -136,8 +141,8 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                                                 onKeyDown={(e) => { if (/\d/.test(e.key)) e.preventDefault(); }}
                                                 onChange={(event) => checkCellValue(i, j)(event)}
                                                 style={{
-                                                    width: `${gridSizePixels}px`,
-                                                    height: `${gridSizePixels}px`,
+                                                    width: cellSize,
+                                                    height: cellSize,
                                                     backgroundColor: `rgba(${hexToRgb(cell.color)}, 0.3)`,
                                                     borderColor: cell.color,
                                                     borderWidth: 3,

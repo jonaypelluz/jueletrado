@@ -139,6 +139,8 @@ const GeneralTranslations: Translations = {
         levelAdvanced: 'Advanced',
         mainTitle: 'Jueletrado',
         mainDescription: 'Where playing and learning to write well go hand in hand',
+        installApp: 'Install the app',
+        installAppIosSteps: 'Tap Share, then “Add to Home Screen”.',
     },
     es: {
         errorTitle: '¡Ops!',
@@ -249,6 +251,8 @@ const GeneralTranslations: Translations = {
         levelAdvanced: 'Avanzado',
         mainTitle: 'Jueletrado',
         mainDescription: 'Donde jugar y aprender a escribir bien van de la mano',
+        installApp: 'Instalar la app',
+        installAppIosSteps: 'Pulsa Compartir y luego «Añadir a pantalla de inicio».',
     },
 };
 
