@@ -88,3 +88,19 @@
         font-style: italic;
     }
 }
+
+// Phones: with the on-screen keyboard open the focused input sits at the bottom of what is left of the screen and the
+// hero timer scrolls away (or under the fixed 78 px header): pin the timer under the header while the input has focus.
+@media only screen and (max-width: 479px) {
+    main:has(#word-chain-input:focus) .game-timer {
+        position: fixed;
+        top: 78px;
+        left: 50%;
+        z-index: 5;
+        transform: translateX(-50%);
+        margin: 0;
+        padding: 4px 16px;
+        background-color: #fff;
+        border-radius: 0 0 6px 6px;
+    }
+}

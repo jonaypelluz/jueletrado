@@ -3,6 +3,7 @@ import { IntlProvider } from 'react-intl';
 import { act, fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { GeneralTranslations } from '@config/translations/General';
 import InstallAppButton from '@components/InstallAppButton';
+import { INSTALL_PROMPT_SCRIPT } from '@store/InstallPromptStore';
 
 const INSTALL_LABEL = GeneralTranslations.es.installApp as string;
 const IOS_STEPS = GeneralTranslations.es.installAppIosSteps as string;
@@ -228,9 +229,48 @@ describe('InstallAppButton outside the regular browser', () => {
 
 describe('InstallAppButton with a prompt caught before the app loaded', () => {
     // The root layout's inline script stashes an early beforeinstallprompt on window.__installPrompt.
+    let addListener: jest.SpyInstance;
+
+    beforeEach(() => {
+        addListener = jest.spyOn(window, 'addEventListener');
+    });
+
     afterEach(() => {
+        act(() => {
+            window.dispatchEvent(new Event('appinstalled'));
+        });
+        // Drop the listeners the inline script and the fresh store module added, so later tests see one store.
+        for (const [type, listener] of addListener.mock.calls) window.removeEventListener(type, listener);
+        addListener.mockRestore();
         delete (window as unknown as Record<string, unknown>).__installPrompt;
     });
+
+    /** The button on a fresh store module, loaded now (so it reads window.__installPrompt), sharing this file's React. */
+    const loadButtonWithFreshStore = (): React.FC => {
+        /* eslint-disable @typescript-eslint/no-require-imports */
+        const shared: Record<string, unknown> = {
+            react: React,
+            'react/jsx-runtime': require('react/jsx-runtime'),
+            'react-intl': require('react-intl'),
+        };
+        let Button: React.FC = () => null;
+        jest.isolateModules(() => {
+            for (const [name, mod] of Object.entries(shared)) jest.doMock(name, () => mod);
+            Button = require('@components/InstallAppButton').default;
+        });
+        /* eslint-enable @typescript-eslint/no-require-imports */
+        for (const name of Object.keys(shared)) jest.dontMock(name);
+        return Button;
+    };
+
+    const renderFreshButton = () => {
+        const Button = loadButtonWithFreshStore();
+        render(
+            <IntlProvider locale="es" messages={GeneralTranslations.es as Record<string, string>} onError={() => {}}>
+                <Button />
+            </IntlProvider>,
+        );
+    };
 
     test('offers install for the prompt the inline script stashed', () => {
         const stashed = Object.assign(new Event('beforeinstallprompt'), {
@@ -239,24 +279,18 @@ describe('InstallAppButton with a prompt caught before the app loaded', () => {
         });
         (window as unknown as Record<string, unknown>).__installPrompt = stashed;
 
-        jest.isolateModules(() => {
-            // A fresh module registry: the store module loads now, after the stash.
-            /* eslint-disable @typescript-eslint/no-require-imports */
-            const IsolatedReact = require('react') as typeof React;
-            const { IntlProvider: IsolatedIntl } = require('react-intl') as typeof import('react-intl');
-            const rtl = require('@testing-library/react/pure') as typeof import('@testing-library/react');
-            const Button = require('@components/InstallAppButton').default as React.FC;
-            /* eslint-enable @typescript-eslint/no-require-imports */
-            rtl.render(
-                IsolatedReact.createElement(
-                    IsolatedIntl,
-                    { locale: 'es', messages: GeneralTranslations.es as Record<string, string>, onError: () => {} },
-                    IsolatedReact.createElement(Button),
-                ),
-            );
+        renderFreshButton();
 
-            expect(rtl.screen.getByRole('button', { name: INSTALL_LABEL })).toBeInTheDocument();
-            rtl.cleanup();
-        });
+        expect(screen.getByRole('button', { name: INSTALL_LABEL })).toBeInTheDocument();
+    });
+
+    test('the inline script catches a prompt fired before the app loaded and the button offers it', async () => {
+        new Function(INSTALL_PROMPT_SCRIPT)();
+        const event = dispatchInstallPrompt();
+
+        renderFreshButton();
+        fireEvent.click(screen.getByRole('button', { name: INSTALL_LABEL }));
+
+        await waitFor(() => expect(event.prompt).toHaveBeenCalledTimes(1));
     });
 });

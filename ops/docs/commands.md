@@ -51,9 +51,16 @@ Mobile audit of the built site (`scripts/smoke/mobileAudit.mjs`): every game pag
 - every visible control in the header, main, footer and cookie banner is inside the screen, at least 44×44 px and not
   covered by another element. Exempt: inline links inside running text, and crossword cells (at least 24×24 px).
 
+Two more screens:
+
+- `keyboard` (portrait, games with a text field): the field is focused and the viewport halved (the on-screen
+  keyboard); the field and the game's timer must stay on screen, below the fixed header and uncovered.
+- `end` (timed games): the timers are sped up 200× until the round ends; the end screen is audited like the others,
+  then its Play again button must start a new round.
+
 The cookie banner is audited on the first game of each locale, then declined (no analytics). Prints a PASS/FAIL line
 per locale × game × viewport × screen with the offending selectors, and exits 1 on any FAIL (2 without a build or a
-browser). Takes about 8–10 minutes. `--shots` saves portrait screenshots as `<locale>-<gameId>-<width>-<tag>.png`
+browser). Takes about 11 minutes. `--shots` saves portrait screenshots as `<locale>-<gameId>-<width>-<tag>.png`
 (after Play) and `<locale>-<gameId>-<width>-start-<tag>.png`. Not in CI.
 
 ### `yarn smoke:install`
