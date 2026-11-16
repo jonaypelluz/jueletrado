@@ -13,8 +13,8 @@
  * [0, W]; (3) each is at least 44×44, except inline links in running prose and crossword cells (≥24×24); (4) nothing covers it (elementFromPoint at its
  * centre hits it). The cookie banner is audited on the first game of each locale, then declined (no analytics).
  * Two more screens: 'keyboard' (portrait, games with a text field): the on-screen keyboard approximated by halving the
- * viewport height with the field focused; the field and the game's timer must stay in view, below the fixed header and
- * uncovered. 'end' (timed games): the timers are sped up until the round ends; the end screen is audited like the
+ * viewport height with the field focused; the field, the game's timer and wordChain's breadcrumb and prompt must stay
+ * in view, below the fixed header and uncovered. 'end' (timed games): the timers are sped up until the round ends; the end screen is audited like the
  * others, then its Play again button must start a new round.
  * Prints a PASS/FAIL line per locale × game × viewport × screen. Exits 1 on any FAIL, 2 without a build or Chromium.
  */
@@ -201,6 +201,14 @@ const keyboardScreen = async (page, w, h) => {
         const timer = document.querySelector('.game-timer');
         const timerWhy = timer && timer.getClientRects().length ? why(timer) : null;
         if (timerWhy) fails.push(`.game-timer[${timerWhy}]`);
+        // What the player types from (wordChain's last words and required letter): on screen, not under the timer.
+        const t = timer?.getBoundingClientRect();
+        for (const el of document.querySelectorAll('.word-chain-breadcrumb, .word-chain-prompt')) {
+            const r = el.getBoundingClientRect();
+            const underTimer = t && r.top < t.bottom - TOL && r.bottom > t.top + TOL && r.left < t.right - TOL && r.right > t.left + TOL;
+            const elWhy = why(el) ?? (underTimer ? `under .game-timer ${Math.round(r.top)}..${Math.round(r.bottom)}` : null);
+            if (elWhy) fails.push(`.${el.className.split(' ')[0]}[${elWhy}]`);
+        }
         return fails;
     });
     await page.evaluate(() => document.activeElement?.blur());

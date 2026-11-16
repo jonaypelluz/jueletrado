@@ -103,4 +103,26 @@
         background-color: #fff;
         border-radius: 0 0 6px 6px;
     }
+
+    // ...and make room for it: one breadcrumb line (the latest words, older ones cut off on the left) and tighter
+    // spacing, so the last words and the prompt fit between the pinned timer and the keyboard (256 px at 375×667).
+    .word-chain-wrapper:has(#word-chain-input:focus) {
+        .word-chain-breadcrumb {
+            box-sizing: border-box;
+            max-width: 100%;
+            margin-bottom: 8px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            direction: rtl;
+        }
+
+        .word-chain-prompt {
+            margin-bottom: 8px;
+        }
+
+        .word-chain-form {
+            margin-top: 8px;
+        }
+    }
 }

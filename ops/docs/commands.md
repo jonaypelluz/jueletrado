@@ -54,7 +54,8 @@ Mobile audit of the built site (`scripts/smoke/mobileAudit.mjs`): every game pag
 Two more screens:
 
 - `keyboard` (portrait, games with a text field): the field is focused and the viewport halved (the on-screen
-  keyboard); the field and the game's timer must stay on screen, below the fixed header and uncovered.
+  keyboard); the field, the game's timer and wordChain's breadcrumb and prompt must stay on screen, below the fixed
+  header and uncovered.
 - `end` (timed games): the timers are sped up 200× until the round ends; the end screen is audited like the others,
   then its Play again button must start a new round.
 
