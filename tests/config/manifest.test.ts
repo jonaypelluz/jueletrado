@@ -80,9 +80,11 @@ describe('locale manifests', () => {
         expect(es.lang).toBe('es');
     });
 
-    test('en manifest describes the app in English', () => {
+    test('each manifest describes the app in its locale', () => {
+        const es = readManifest('site.webmanifest');
         const en = readManifest('site-en.webmanifest');
 
+        expect(es.description).toBe(GeneralTranslations.es.mainDescription);
         expect(en.description).toBe(GeneralTranslations.en.mainDescription);
     });
 });
