@@ -159,3 +159,23 @@ PR: https://github.com/jonaypelluz/jueletrado/pull/67
   globales de jon-ai. No se tocó nada más.
 - Residual (decisión del owner): el README sigue diciendo "Definitions follow British English", pero
   Merriam-Webster es inglés americano.
+
+## JUE-0021 — Móvil: todos los juegos en el teléfono y botón de instalar (done 2026-11-16)
+PR: https://github.com/jonaypelluz/jueletrado/pull/68
+- Causa del scroll horizontal en móvil: `body { min-width: 380px }` en `styles/globals.scss` (eliminado).
+  Objetivos táctiles ≥ 44 px por debajo de 900 px en cabecera, pie, banner de cookies y botones; el
+  escritorio (≥ 900 px) no cambia.
+- `yarn smoke:mobile` (`scripts/smoke/mobileAudit.mjs`) audita todas las páginas de juego en 360/375/390
+  (más apaisado en los juegos con tiempo): scroll horizontal, controles fuera de pantalla o tapados,
+  objetivos < 44 px, pantalla con teclado (media altura) y pantalla de fin de ronda. Las celdas del
+  crucigrama son excepción a 24 px (15 columnas no caben a 44 px en 360). Antes 0/192, después 282/282.
+- Instalable sin service worker: dos manifiestos (`site.webmanifest` es, `site-en.webmanifest` en vía
+  `app/en/layout.tsx`), iconos 192/512/maskable generados con `yarn icons:build`. `yarn smoke:install`
+  comprueba instalabilidad por CDP (`Page.getInstallabilityErrors`), el botón y el modo standalone.
+- Botón «Instalar la app» en el pie: el evento `beforeinstallprompt` se guarda en un script inline del
+  `<head>` y en `store/InstallPromptStore.ts`, porque cada página monta su propio Footer.
+- Helpers compartidos de smoke en `scripts/smoke/lib.mjs`.
+- Residual: `<html lang="es">` en páginas en; `smoke:mobile`/`smoke:install` no están en CI; teclado y
+  temporizadores sin probar en un teléfono real; el manifiesto en tiene `id: /en/` con `scope: /` (se
+  pueden instalar dos apps) y las instalaciones antiguas cambian de `id`; el `puppeteer.launch` se repite
+  en tres scripts; los breakpoints 899/905 px no coinciden (cosmético).

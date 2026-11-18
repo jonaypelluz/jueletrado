@@ -8,6 +8,7 @@ import LocalesConfig from '@config/LocaleConfig';
 import { LocaleConfig } from '@models/types';
 import { useWordsContext } from '@store/WordsContext';
 import CookieConsent from './CookieConsent';
+import InstallAppButton from './InstallAppButton';
 
 const Foot: React.FC = () => {
     const intl = useIntl();
@@ -51,7 +52,8 @@ const Foot: React.FC = () => {
                     </option>
                 ))}
             </select>
-            <div>
+            <InstallAppButton />
+            <div className="footer-links">
                 <p>
                     <Link className="first-link" href={currentRoutes.privacy}>
                         {intl.formatMessage({ id: 'privacyTitle' })}

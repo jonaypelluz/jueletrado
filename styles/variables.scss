@@ -6,3 +6,6 @@ $secondary-color-dark: #486e3f;
 
 $danger-color: #ff4d4f;
 $warning-color: #faad14;
+
+// Side padding of <main> on phones (≤479 px); full-bleed blocks cancel it.
+$main-padding-phone: 12px;

@@ -23,9 +23,18 @@ header.header {
 
         @media only screen and (max-width: 905px) {
             margin-left: 12px;
+            display: inline-flex;
+            align-items: center;
+            min-height: 44px;
 
             img {
                 height: 40px;
+            }
+        }
+
+        @media only screen and (max-width: 479px) {
+            img {
+                height: 32px;
             }
         }
     }
@@ -78,6 +87,7 @@ header.header {
                 cursor: pointer;
                 padding: 0 12px;
                 line-height: 78px;
+                min-width: 48px;
             }
 
             .nav-items {
@@ -99,7 +109,10 @@ header.header {
 
                     li a {
                         padding: 12px 16px;
-                        display: block;
+                        display: flex;
+                        align-items: center;
+                        min-height: 44px;
+                        box-sizing: border-box;
                     }
                 }
             }
@@ -158,6 +171,16 @@ header.header {
                 border-top-color: #fff;
                 border-radius: 50%;
                 animation: level-selector-spin 0.6s linear infinite;
+            }
+        }
+
+        @media only screen and (max-width: 905px) {
+            .level-selector-toggle {
+                min-height: 44px;
+            }
+
+            .level-selector-dropdown .level-option {
+                min-height: 44px;
             }
         }
 

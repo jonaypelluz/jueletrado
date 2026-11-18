@@ -166,3 +166,37 @@ $circle-radius: 150px;
         }
     }
 }
+
+// Phones: the letters circle fits a 360 px screen. Tiles stay 82×93 (min 60 + padding + border), so they are
+// centred on the box and sit on a 100 px circle (extent 282×266).
+@media only screen and (max-width: 479px) {
+    .word-builder-wrapper {
+        padding: 12px;
+
+        .word-builder-temporary-word span {
+            font-size: 32px;
+            overflow-wrap: anywhere;
+        }
+    }
+
+    .word-builder-letters {
+        width: 100%;
+        max-width: 300px;
+        height: 280px;
+
+        span {
+            top: calc(50% - 46px);
+            left: calc(50% - 41px);
+
+            $circle-radius: 100px;
+
+            @for $i from 1 through 6 {
+                &:nth-child(#{$i}) {
+                    transform: rotate(#{($i - 1) * 60deg})
+                        translate($circle-radius)
+                        rotate(-#{($i - 1) * 60deg});
+                }
+            }
+        }
+    }
+}

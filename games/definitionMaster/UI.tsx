@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { GameConfig, QuizDefinition } from '@models/types';
 import GameRules from '@components/GameRules';
@@ -53,6 +53,13 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
     handleQuizWordClick,
     handleNextQuizWord,
 }) => {
+    // After Next a phone stays scrolled down where the button was: bring the new word back into view (below the fixed
+    // header, html scroll-padding-top). 'nearest' leaves the page alone when the word is already on screen.
+    const quizHeadingRef = useRef<HTMLHeadingElement>(null);
+    useEffect(() => {
+        quizHeadingRef.current?.scrollIntoView({ block: 'nearest' });
+    }, [quizWord]);
+
     const showQuiz =
         !isQuizFinished &&
         quizWords.length > 0 &&
@@ -122,7 +129,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                                     }
                                     {showQuiz && (
                                         <div className="definition-master-quiz">
-                                            <h2>
+                                            <h2 ref={quizHeadingRef}>
                                                 <FormattedMessage id="gameQuizWord" values={{ quizWord }} />
                                             </h2>
                                             {quizWords[currentQuizIndex].map((word: QuizDefinition, index: number) => {

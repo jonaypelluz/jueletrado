@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Providers from '@components/Providers';
+import { INSTALL_PROMPT_SCRIPT } from '@store/InstallPromptStore';
 import '../styles/globals.scss';
 
 export const metadata: Metadata = {
@@ -20,6 +21,9 @@ export const viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="es">
+            <head>
+                <script dangerouslySetInnerHTML={{ __html: INSTALL_PROMPT_SCRIPT }} />
+            </head>
             <body suppressHydrationWarning>
                 <Providers>{children}</Providers>
             </body>

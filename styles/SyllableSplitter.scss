@@ -70,14 +70,21 @@ $missed-color: #ad6800;
     }
 
     .syllable-splitter-gap {
+        --gap-width: clamp(20px, calc(32 * var(--tile-unit)), 32px);
         position: relative;
-        width: clamp(20px, calc(32 * var(--tile-unit)), 32px);
+        width: var(--gap-width);
         min-width: 20px;
         height: 48px;
         padding: 0;
         border: none;
         background: transparent;
         cursor: pointer;
+
+        // Phones: a 44 px tap area overlapping the letters around it; the row keeps the gap's visual width.
+        @media only screen and (max-width: 899px) {
+            width: 44px;
+            margin-inline: calc((var(--gap-width) - 44px) / 2);
+        }
 
         &::after {
             content: '';

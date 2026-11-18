@@ -1,0 +1,17 @@
+{
+    "id": "/en/",
+    "name": "Jueletrado",
+    "short_name": "Jueletrado",
+    "description": "Where playing and learning to write well go hand in hand",
+    "lang": "en",
+    "start_url": "/en/",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#f5f5f5",
+    "icons": [
+        { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+        { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+        { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    ]
+}
