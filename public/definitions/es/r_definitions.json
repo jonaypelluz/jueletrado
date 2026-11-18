@@ -20767,62 +20767,34 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
+                "definition": "Labor o tejido de mallas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
                 "definition": "Aparejo hecho con hilos, cuerdas o alambres trabados en forma de mallas, y convenientemente dispuesto para pescar, cazar, cercar, sujetar, etc.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "almadraba, jábega1, boliche2."
+                        "content": "almadraba, jábega, boliche."
                     }
                 ]
             },
             {
-                "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Labor o tejido de mallas."
-            },
-            {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "redecilla (‖ prenda de malla para el pelo).",
+                "type": "nombre femenino",
+                "definition": "Prenda de malla, en forma de bolsa, y con cordones o cintas para recoger el pelo o adornar la cabeza.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "redecilla, malla."
+                        "content": "malla, redecilla."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Lugar donde se vende pan u otras cosas que se dan por entre verjas."
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Ardid o engaño de que alguien se vale para atraer a otra persona.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "trampa, artimaña, ardid, engaño, celada2, estratagema."
-                    }
-                ]
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Confluencia de calles en un mismo punto."
-            },
-            {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Conjunto de elementos organizados para determinado fin.",
                 "definition_extra": [
                     {
@@ -20832,33 +20804,50 @@
                 ]
             },
             {
-                "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "cadena (‖ conjunto de establecimientos bajo una sola dirección).",
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Conjunto de establecimientos de la misma especie sometidos a una sola dirección.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "cadena, franquicia."
+                        "content": "franquicia, cadena."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas relacionadas para una determinada actividad, por lo general de carácter secreto, ilegal o delictivo."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Conjunto de computadoras o de equipos informáticos conectados entre sí y que pueden intercambiar información."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "Ardid o engaño de que alguien se vale para atraer a otra persona.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "trampa, artimaña, ardid, engaño, celada, estratagema."
                     }
                 ]
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Conjunto de personas relacionadas para una determinada actividad, por lo general de carácter secreto, ilegal o delictivo."
+                "type": "nombre femenino",
+                "definition": "Confluencia de calles en un mismo punto."
             },
             {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Conjunto de computadoras o de equipos informáticos conectados entre sí y que pueden intercambiar información."
+                "type": "nombre femenino",
+                "definition": "Lugar donde se vende pan u otras cosas que se dan por entre verjas."
             },
             {
                 "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "internet.",
                 "definition_extra": [
                     {
@@ -20869,9 +20858,9 @@
             },
             {
                 "number": "12",
-                "type": "nombre",
+                "type": "nombre femenino",
                 "definition": "Verja o reja.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "desusado"
             }
         ]
     },
@@ -20880,20 +20869,18 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Porción de territorio determinada por caracteres étnicos o circunstancias especiales de clima, producción, topografía, administración, gobierno, etc.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "tierra, territorio, zona, área, pago2."
+                        "content": "tierra, territorio, zona, área, pago."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Cada una de las grandes divisiones territoriales de una nación, definida por características geográficas, históricas y sociales, y que puede dividirse a su vez en provincias, departamentos, etc.",
                 "definition_extra": [
                     {
@@ -20904,21 +20891,23 @@
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Todo espacio que se imagina ser de mucha capacidad."
+                "type": "nombre femenino",
+                "definition": "Demarcación territorial administrativa superior a la provincia."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Según la filosofía antigua, espacio que ocupaba cada uno de los cuatro elementos."
+                "type": "nombre femenino",
+                "definition": "Todo espacio que se imagina ser de mucha capacidad."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Cada una de las partes en que se considera dividido al exterior el cuerpo de los animales, con el fin de determinar el sitio, extensión y relaciones de los diferentes órganos."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Según la filosofía antigua, espacio que ocupaba cada uno de los cuatro elementos."
             }
         ]
     },
@@ -21424,32 +21413,23 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Corriente de agua continua y más o menos caudalosa que va a desembocar en otra, en un lago o en el mar.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "torrente, arroyo, riachuelo, riacho, afluente."
-                    }
-                ]
+                "type": "nombre masculino",
+                "definition": "Corriente de agua continua y más o menos caudalosa que va a desembocar en otra, en un lago o en el mar."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Gran abundancia de una cosa líquida, y, de cualquier otra.",
+                "type": "nombre masculino",
+                "definition": "Gran abundancia de una cosa líquida, y, por ext., de cualquier otra.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "caudal1, raudal, aluvión, abundancia, profusión, plétora."
+                        "content": "caudal, raudal, aluvión, abundancia, profusión, plétora."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Afluencia de personas."
             }
         ]

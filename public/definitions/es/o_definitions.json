@@ -9081,33 +9081,28 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Decimosexta letra del abecedario español, que representa el fonema vocálico medio posterior."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Sonido que representa la letra o."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "En la lógica escolástica, letra que representa la proposición particular negativa."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "conjunción",
                 "definition": "Denota diferencia, separación o alternativa entre dos o más personas, cosas o ideas."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "generalmente ante cada uno de dos o más términos contrapuestos.",
+                "type": "conjunción",
+                "definition": "Usado generalmente ante cada uno de dos o más términos contrapuestos.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -9117,15 +9112,14 @@
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "conjunción",
                 "definition": "Denota equivalencia, significando 'o sea, o lo que es lo mismo'."
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "definition": "En donde.",
-                "type_extra": "obsolete, sin verificar"
+                "type": "adverbio",
+                "definition": "donde.",
+                "type_extra": "desusado"
             }
         ]
     },
@@ -9202,25 +9196,23 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Juicio o valoración que se forma una persona respecto de algo o de alguien.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "juicio, valoración, dictamen, parecer2, criterio, sentir2, veredicto."
+                        "content": "juicio, valoración, dictamen, criterio, veredicto, parecer, sentir."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Fama o concepto en que se tiene a alguien o algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "reputación, fama, prestigio, concepto1, crédito, consideración."
+                        "content": "reputación, fama, prestigio, concepto, crédito, consideración."
                     }
                 ]
             }
@@ -9391,27 +9383,23 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, en dativo o acusativo, designa, en España y ocasionalmente en América, a las personas a las que se dirige quien habla o escribe."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, en dativo o acusativo, designa a un grupo de personas entre las que se encuentra el destinatario del mensaje."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo o acusativo, designa a una o varias personas de muy alto rango o dignidad a las que se dirige quien habla o escribe. en el tratamiento reverencial de vos."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo o acusativo, designa a una o varias personas de muy alto rango o dignidad a las que se dirige quien habla o escribe."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo o acusativo, designa a la persona a la que va dirigida la enunciación. en el trato de vos en zonas del área caribeña."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo o acusativo, designa a la persona a la que va dirigida la enunciación."
             }
         ]
     }

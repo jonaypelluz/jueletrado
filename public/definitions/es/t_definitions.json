@@ -21953,15 +21953,19 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Sonido o eco que resulta del tambor u otro instrumento semejante, tocado a golpes."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Corteza de encina."
+            },
+            {
+                "number": "3",
+                "type": "nombre",
+                "definition": "V. tanto, tanta.",
+                "type_extra": "sin verificar"
             }
         ]
     },
@@ -21970,21 +21974,19 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Letra t y sonido que representa."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, en acusativo o dativo, designa a la persona a la que se dirige quien habla o escribe."
             },
             {
                 "number": "3",
-                "type": "nombre",
+                "type": "pronombre",
                 "definition": "Designa, en acusativo o dativo, a una persona indeterminada.",
-                "type_extra": "colloquial, sin verificar"
+                "type_extra": "coloquial"
             }
         ]
     },
@@ -22585,44 +22587,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Asir o mantener asido algo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "coger, agarrar, sujetar, asir."
-                    }
-                ]
-            },
-            {
-                "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "poseer (‖ tener en su poder).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "poseer, atesorar, ostentar, gozar, disfrutar, guardar, conservar, presentar, poseer."
-                    }
-                ]
-            },
-            {
-                "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "mantener (‖ sostener).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "sostener, mantener, sujetar, aguantar."
-                    }
-                ]
-            },
-            {
-                "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Contener o comprender en sí.",
                 "definition_extra": [
                     {
@@ -22632,51 +22597,77 @@
                 ]
             },
             {
-                "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "dominar (‖ sujetar).",
+                "number": "2",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona: Ser rica y adinerada."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Asir o mantener asido algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "dominar, sujetar, retener, atraillar."
+                        "content": "coger, agarrar, sujetar, asir."
                     }
                 ]
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Sostener algo para que no caiga o se tuerza.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "sostener, sujetar, aguantar, mantener."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Afirmarse o asegurarse para no caer."
             },
             {
                 "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "guardar (‖ cumplir).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "guardar, cumplir."
-                    }
-                ]
+                "type": "verbo pronominal",
+                "definition": "Dicho de un cuerpo: Hacer asiento sobre otro."
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "hospedar (‖ recibir huéspedes).",
+                "type": "verbo transitivo",
+                "definition": "Sujetar, contener, reprimir.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "albergar, hospedar."
+                        "content": "sujetar, retener, atraillar, dominar."
                     }
                 ]
             },
             {
                 "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Estar en precisión de hacer algo u ocuparse en ello."
             },
             {
                 "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
+                "definition": "Emplear, pasar algún espacio de tiempo en un lugar o sitio, o de cierta manera."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "definition": "Observar o cumplir aquello a lo que se está obligado.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cumplir, guardar."
+                    }
+                ]
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
                 "definition": "Juzgar, reputar, considerar.",
                 "definition_extra": [
                     {
@@ -22686,118 +22677,107 @@
                 ]
             },
             {
-                "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "12",
+                "type": "verbo transitivo",
                 "definition": "Estimar, apreciar."
             },
             {
-                "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Emplear, pasar algún espacio de tiempo en un lugar o sitio, o de cierta manera."
-            },
-            {
-                "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Mantener una actitud."
-            },
-            {
                 "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Profesar un sentimiento hacia alguien o algo.",
+                "type": "verbo transitivo",
+                "definition": "Notar, echar de ver en uno mismo una cosa, una impresión, un sentimiento, etc.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "profesar, abrigar, albergar, sentir1."
+                        "content": "sentir, sufrir, padecer, experimentar."
                     }
                 ]
             },
             {
                 "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "con los nombres que significan tiempo, para expresar la duración o edad de las cosas o personas de que se habla."
+                "type": "verbo transitivo",
+                "definition": "Mantener una actitud."
             },
             {
                 "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "como auxiliar con participio conjugado, haber1.",
+                "type": "verbo transitivo",
+                "definition": "Profesar un sentimiento hacia alguien o algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "haber1."
+                        "content": "profesar, abrigar, albergar, sentir."
                     }
                 ]
             },
             {
                 "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Denota la necesidad o determinación de hacer aquello que expresa una cláusula posterior introducida por que."
+                "type": "verbo transitivo",
+                "definition": "Usado, con los nombres que significan tiempo, para expresar la duración o edad de las cosas o personas de que se habla."
             },
             {
                 "number": "17",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: Ser rica y adinerada."
-            },
-            {
-                "number": "18",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: Afirmarse o asegurarse para no caer."
-            },
-            {
-                "number": "19",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un cuerpo: Hacer asiento sobre otro."
-            },
-            {
-                "number": "20",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Resistir o hacer oposición a alguien en una riña o una pelea."
-            },
-            {
-                "number": "21",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Atenerse, adherirse, estar por alguien o por algo."
-            },
-            {
-                "number": "22",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "experimentar.",
+                "type": "verbo auxiliar",
+                "definition": "Usado seguido del participio de un verbo transitivo que concuerda con un sustantivo o un elemento con función sustantiva para indicar que se ha realizado lo expresado por dicho participio.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "sentir1, experimentar, sufrir, padecer."
+                        "content": "haber."
+                    }
+                ]
+            },
+            {
+                "number": "18",
+                "type": "verbo auxiliar",
+                "definition": "Usado seguido de que más infinitivo para denotar deber, conveniencia o necesidad de realizar lo expresado por dicho infinitivo."
+            },
+            {
+                "number": "19",
+                "type": "verbo pronominal",
+                "definition": "Resistir o hacer oposición a alguien en una riña o una pelea."
+            },
+            {
+                "number": "20",
+                "type": "verbo pronominal",
+                "definition": "Atenerse, adherirse, estar por alguien o por algo."
+            },
+            {
+                "number": "21",
+                "type": "verbo transitivo",
+                "definition": "poseer.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "atesorar, ostentar, gozar, disfrutar, guardar, conservar, presentar, poseer."
+                    }
+                ]
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "definition": "hospedar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "albergar, hospedar."
                     }
                 ]
             },
             {
                 "number": "23",
-                "type": "verbo",
+                "type": "verbo transitivo",
                 "definition": "Detener, parar.",
-                "type_extra": "rare, sin verificar"
+                "type_extra": "poco usado"
             },
             {
                 "number": "24",
-                "type": "verbo",
-                "definition": "Guardar, cuidar, defender algo.",
-                "type_extra": "obsolete, sin verificar"
+                "type": "verbo pronominal",
+                "definition": "detenerse.",
+                "type_extra": "desusado"
             },
             {
                 "number": "25",
-                "type": "verbo",
-                "definition": "detenerse (‖ pararse).",
-                "type_extra": "obsolete, sin verificar"
+                "type": "verbo transitivo",
+                "definition": "Guardar, cuidar, defender algo.",
+                "type_extra": "desusado"
             }
         ]
     },
@@ -23191,15 +23171,14 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, precedida de preposición, designa a la persona a la que se dirige quien habla o escribe."
             },
             {
                 "number": "2",
-                "type": "nombre",
+                "type": "pronombre",
                 "definition": "Designa a una persona indeterminada.",
-                "type_extra": "colloquial, sin verificar"
+                "type_extra": "coloquial"
             }
         ]
     },
@@ -23801,12 +23780,11 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "General, universal y que lo comprende todo en su especie.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "general, global, universal, todo, completo, absoluto, entero, íntegro, pleno, cabal, cumplido."
+                        "content": "general, global, universal, completo, completa, absoluto, absoluta, entero, entera, íntegro, íntegra, pleno, plena, cabal, cumplido, cumplida."
                     },
                     {
                         "type": "Antónimos",
@@ -23816,20 +23794,18 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Resultado de una suma u otras operaciones.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "resultado, suma, adición1, conjunto, totalidad, integridad."
+                        "content": "resultado, suma, adición, conjunto, totalidad, integridad."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
                 "definition": "En suma, en resumen, en conclusión."
             }
         ]
@@ -23874,21 +23850,25 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "definition": "De una persona indeterminada.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "adjetivo",
+                "definition": "De la persona a quien se dirige quien habla."
             },
             {
                 "number": "2",
-                "type": "nombre",
+                "type": "adjetivo",
                 "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático.",
-                "type_extra": "colloquial, sin verificar"
+                "type_extra": "coloquial"
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "tuyo1."
+                "type": "adjetivo",
+                "definition": "De una persona indeterminada.",
+                "type_extra": "coloquial"
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Arbusto de metro y medio de altura, con tallos tubulares huecos, flores de color rojo encendido y semillas pequeñas, redondas y muy duras, que los muchachos utilizaban como balines de la cerbatana, y cuyas hojas, que se toman en infusión, tienen propiedades medicinales."
             }
         ]
     },

@@ -3208,21 +3208,19 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "soldado (‖ hombre que sirve en la milicia).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "soldado, guerrero, mílite, guripa."
-                    }
-                ]
+                "type": "nombre masculino",
+                "definition": "En germanía, cepillo de iglesia."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cepillo de iglesia."
+                "type": "nombre masculino",
+                "definition": "soldado.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "guerrero, guripa, mílite, soldado."
+                    }
+                ]
             }
         ]
     },

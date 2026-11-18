@@ -29334,8 +29334,8 @@
             {
                 "number": "1",
                 "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "De el; p. ej., la naturaleza del hombre, por la naturaleza de el hombre. Del águila, por de el águila."
+                "definition": "De el; p. ej., la naturaleza del hombre, por la naturaleza de el hombre. Del águila, por de el águila.",
+                "type_extra": "sin verificar"
             }
         ]
     },
@@ -29455,13 +29455,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Manifestar con palabras el pensamiento.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "hablar, articular2, recitar, parlotear, parlar, ponerse, bosticar."
+                        "content": "hablar, recitar, parlotear, parlar, bosticar, ponerse."
                     },
                     {
                         "type": "Antónimos",
@@ -29471,20 +29470,18 @@
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Asegurar, sostener, opinar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "declarar, manifestar, expresar, exponer, mencionar, formular1, anunciar, enunciar, afirmar, asegurar, aseverar, proponer, contar, sostener, enumerar, opinar."
+                        "content": "declarar, manifestar, expresar, exponer, mencionar, formular, anunciar, enunciar, afirmar, asegurar, aseverar, proponer, contar, sostener, enumerar, opinar."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Nombrar o llamar.",
                 "definition_extra": [
                     {
@@ -29495,20 +29492,7 @@
             },
             {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Denotar algo o dar muestras de ello.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "mostrar, indicar."
-                    }
-                ]
-            },
-            {
-                "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Dicho de un libro, de un escrito, etc.: Contener ciertos temas, ideas, etc.",
                 "definition_extra": [
                     {
@@ -29518,21 +29502,34 @@
                 ]
             },
             {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Denotar algo o dar muestras de ello.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "mostrar, indicar."
+                    }
+                ]
+            },
+            {
                 "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho del juego, del año, de la cosecha, etc.: Ser o no favorable."
+                "type": "verbo pronominal",
+                "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra."
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Convenir, armonizar con otra."
+                "type": "verbo intransitivo",
+                "definition": "Dicho del juego, del año, de la cosecha, etc.: Ser o no favorable."
             },
             {
                 "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una cosa: Convenir, armonizar con otra."
+            },
+            {
+                "number": "9",
+                "type": "verbo intransitivo",
                 "definition": "Dicho del perro: latir.",
                 "definition_extra": [
                     {
@@ -29542,22 +29539,44 @@
                 ]
             },
             {
-                "number": "9",
-                "type": "verbo",
-                "definition": "Dar principio a una acción.",
-                "type_extra": "colloquial, sin verificar"
-            },
-            {
                 "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra."
+                "type": "verbo intransitivo",
+                "definition": "Dar principio a una acción.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "echar."
+                    }
+                ]
             },
             {
                 "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "dicho (‖ palabra o conjunto de palabras).",
+                "type": "nombre masculino",
+                "definition": "Dicho notable por la sentencia, por la oportunidad o por otro motivo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "máxima, sentencia, aforismo, adagio, proverbio."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "definition": "Trovar, versificar.",
+                "type_extra": "desusado"
+            },
+            {
+                "number": "13",
+                "type": "verbo transitivo",
+                "definition": "Pedir, rogar.",
+                "type_extra": "desusado"
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
+                "definition": "dicho.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -29566,34 +29585,10 @@
                 ]
             },
             {
-                "number": "12",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Dicho notable por la sentencia, por la oportunidad o por otro motivo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "máxima, sentencia, aforismo, adagio1, proverbio."
-                    }
-                ]
-            },
-            {
-                "number": "13",
-                "type": "verbo",
-                "definition": "Pedir, rogar.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "14",
-                "type": "verbo",
-                "definition": "Trovar, versificar.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
                 "number": "15",
-                "type": "nombre",
+                "type": "nombre masculino",
                 "definition": "Composición poética no destinada al canto.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "desusado"
             }
         ]
     },
@@ -29691,28 +29686,26 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que dirige.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "dirigente, directivo, conductor."
+                        "content": "directivo, directiva, conductor, conductora, dirigente."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino y femenino",
                 "definition": "Persona que dirige algo en razón de su profesión o de su cargo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "presidente, jefe, directivo, dirigente, gerente, conductor, dire, realizador, bastonero."
+                        "content": "presidente, presidenta, jefe, jefa, directivo, directiva, dirigente, gerente, gerenta, conductor, conductora, realizador, realizadora, bastonero, bastonera, dire."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "subordinado, subalterno."
+                        "content": "subordinado, subordinada, subalterno, subalterna."
                     }
                 ]
             }
@@ -29964,21 +29957,24 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En qué lugar."
+                "type": "adverbio",
+                "definition": "En qué lugar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "en dónde."
+                    }
+                ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "adverbio",
                 "definition": "Qué lugar."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "A qué lugar. generalmente con verbos que indican movimiento o destino.",
+                "type": "adverbio",
+                "definition": "A qué lugar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -29988,9 +29984,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Lugar o sitio. precedido generalmente del artículo el."
+                "type": "nombre masculino",
+                "definition": "Lugar o sitio."
             }
         ]
     }

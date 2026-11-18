@@ -22055,9 +22055,8 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "artículo",
-                "type_extra": "sin verificar",
-                "definition": "Ante adjetivos o adverbios, indica que el grado de la propiedad que expresan es alto en comparación con otro explícito o sobrentendido. con un complemento introducido por la preposición de. cuando precede a adjetivos, formando el superlativo relativo de superioridad.",
+                "type": "adverbio",
+                "definition": "Ante adjetivos o adverbios, indica que el grado de la propiedad que expresan es alto en comparación con otro explícito o sobrentendido.",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -22067,8 +22066,7 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "adverbio",
                 "definition": "Pospuesto a verbos, indica que la situación descrita tiene lugar con mayor frecuencia, intensidad o duración que otra explícita o sobrentendida.",
                 "definition_extra": [
                     {
@@ -22079,20 +22077,18 @@
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "tanto (‖ pondera la intensidad de la cualidad).",
+                "type": "adverbio",
+                "definition": "Pondera la intensidad de la cualidad indicada por el adjetivo o el adverbio al que precede.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "tanto."
+                        "content": "tan."
                     }
                 ]
             },
             {
                 "number": "4",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
                 "definition": "Sobre todo, especialmente, con mayor motivo.",
                 "definition_extra": [
                     {
@@ -22104,14 +22100,12 @@
             {
                 "number": "5",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "De nuevo, en lo sucesivo. en construcciones negativas."
+                "definition": "De nuevo, en lo sucesivo."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Ante sustantivos contables en plural, indica que un determinado número de entidades es alto en comparación con otro sobrentendido o explícito. con un complemento introducido por la preposición de. pospuesto cuando va precedido de una expresión cuantificativa.",
+                "type": "adjetivo",
+                "definition": "Ante sustantivos contables en plural, indica que un determinado número de entidades es alto en comparación con otro sobrentendido o explícito.",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -22121,9 +22115,8 @@
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Ante sustantivos no contables en singular, expresa que una determinada cantidad excede a otra sobrentendida o explícita. con un complemento introducido por la preposición de. ocasionalmente pospuesto cuando va precedido de una expresión cuantificativa.",
+                "type": "adjetivo",
+                "definition": "Ante sustantivos no contables en singular, expresa que una determinada cantidad excede a otra sobrentendida o explícita.",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -22133,9 +22126,9 @@
             },
             {
                 "number": "8",
-                "type": "nombre",
+                "type": "adjetivo",
                 "definition": "Ante sustantivos contables en singular usados como no contables, denota ponderación o pluralidad.",
-                "type_extra": "colloquial, sin verificar",
+                "type_extra": "coloquial",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -22145,8 +22138,7 @@
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Mayor número o cantidad de algo mencionado.",
                 "definition_extra": [
                     {
@@ -22157,8 +22149,7 @@
             },
             {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "más importante.",
                 "definition_extra": [
                     {
@@ -22169,8 +22160,7 @@
             },
             {
                 "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "más cosas, alguna otra cosa.",
                 "definition_extra": [
                     {
@@ -22181,8 +22171,22 @@
             },
             {
                 "number": "12",
+                "type": "nombre masculino",
+                "definition": "Signo (+) de la suma o adición.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "signo positivo."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "menos."
+                    }
+                ]
+            },
+            {
+                "number": "13",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
                 "definition": "Indica adición de cantidades o de otras magnitudes.",
                 "definition_extra": [
                     {
@@ -22192,21 +22196,8 @@
                 ]
             },
             {
-                "number": "13",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Signo (+) de la suma o adición.",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "menos."
-                    }
-                ]
-            },
-            {
                 "number": "14",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Signo (+) que indica el carácter positivo de una cantidad, como la carga eléctrica.",
                 "definition_extra": [
                     {
@@ -22426,8 +22417,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, precedida de preposición, designa a la persona que habla o escribe."
             }
         ]
@@ -22454,51 +22444,45 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Diez veces cien."
+                "type": "nombre masculino",
+                "definition": "Número natural que sigue al novecientos noventa y nueve."
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "milésimo (‖ que ocupa en una serie el lugar número mil).",
+                "definition": "Diez veces cien."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Signo o conjunto de signos con que se representa el número mil."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Que ocupa en una serie el lugar número mil.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "milésimo."
+                        "content": "milésimo, milésima."
                     }
                 ]
             },
             {
-                "number": "3",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Muy numerosos o abundantes, en cantidad o en número grande e indeterminado."
-            },
-            {
-                "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Número natural que sigue al novecientos noventa y nueve."
-            },
-            {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Signo o conjunto de signos con que se representa el número mil."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "millar (‖ conjunto de 1000 unidades).",
+                "type": "nombre masculino",
+                "definition": "Conjunto de 1000 unidades.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
                         "content": "millar."
                     }
                 ]
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "definition": "Muy numerosos o abundantes, en cantidad o en número grande e indeterminado."
             }
         ]
     },

@@ -11943,51 +11943,40 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Ayuda o socorro que se concede a alguien.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "ayuda, socorro, amparo, auxilio, fautoría."
+                        "content": "fautoría."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Honra, beneficio, gracia.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "atención, patrocinio, fomento, protección."
-                    }
-                ]
+                "type": "nombre masculino",
+                "definition": "Honra, beneficio, gracia."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Expresión de agrado que suelen hacer las damas."
-            },
-            {
-                "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cinta, flor u otra cosa semejante dada por una dama a un caballero, y que en las fiestas públicas llevaba este en el sombrero o en el brazo."
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "privanza.",
+                "type": "nombre masculino",
+                "definition": "Primer lugar en la gracia y confianza de un príncipe o alto personaje, y, por ext., de cualquier otra persona.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
                         "content": "privanza."
                     }
                 ]
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Cinta, flor u otra cosa semejante dada por una dama a un caballero, y que en las fiestas públicas llevaba este en el sombrero o en el brazo."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Expresión de agrado que suelen hacer las damas."
             }
         ]
     },
@@ -12147,13 +12136,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Término, remate o consumación de algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "final, conclusión, desenlace, término, terminación, consumación, remate, cabo1."
+                        "content": "final, conclusión, desenlace, término, terminación, consumación, remate, cabo."
                     },
                     {
                         "type": "Antónimos",
@@ -12163,20 +12151,18 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Límite, confín.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "extremo, límite, término, final, cabo1."
+                        "content": "extremo, límite, término, final, cabo."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Objeto o motivo con que se ejecuta algo.",
                 "definition_extra": [
                     {
@@ -12193,7 +12179,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que termina o cierra.",
                 "definition_extra": [
                     {
@@ -12205,24 +12190,21 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que remata y perfecciona algo."
+                "definition": "Que remata o perfecciona algo."
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que expresa finalidad."
+                "definition": "Dicho de una oración, que expresa finalidad."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Término y remate de algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "fin, conclusión, desenlace, remate, término, límite, colofón, consumación, expiración, acabamiento, terminación, amén1."
+                        "content": "fin, conclusión, desenlace, remate, término, límite, colofón, consumación, expiración, acabamiento, terminación, amén."
                     },
                     {
                         "type": "Antónimos",
@@ -12232,14 +12214,12 @@
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Última y decisiva competición en un campeonato o concurso."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Treta que se compone de seis movimientos."
             }
         ]
@@ -12302,21 +12282,20 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "fotografía (‖ imagen).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "fotografía, instantánea, retrato, imagen."
-                    }
-                ]
+                "type": "nombre masculino",
+                "definition": "confianza.",
+                "type_extra": "desusado"
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "definition": "confianza.",
-                "type_extra": "obsolete, sin verificar"
+                "type": "nombre femenino",
+                "definition": "fotografía.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "instantánea, retrato, imagen, fotografía."
+                    }
+                ]
             }
         ]
     },

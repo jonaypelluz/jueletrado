@@ -8088,12 +8088,11 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Común a todos los individuos que constituyen un todo, o a muchos objetos, aunque sean de naturaleza diferente.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "global, total, universal, absoluto, genérico, común."
+                        "content": "global, total, universal, absoluto, absoluta, genérico, genérica, común."
                     },
                     {
                         "type": "Antónimos",
@@ -8103,13 +8102,17 @@
             },
             {
                 "number": "2",
+                "type": "nombre masculino",
+                "definition": "En las antiguas universidades, seminarios, etc., aula abierta al común de los estudiantes."
+            },
+            {
+                "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Común, frecuente, usual.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "frecuente, usual, habitual, común, normal, corriente, ordinario."
+                        "content": "frecuente, usual, habitual, común, normal, corriente, ordinario, ordinaria."
                     },
                     {
                         "type": "Antónimos",
@@ -8118,40 +8121,31 @@
                 ]
             },
             {
-                "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Oficial general del Ejército con la graduación de capitán general, teniente general, general de división o general de brigada, y los correspondientes en la Armada en los cuerpos distintos del cuerpo general.",
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "oficial general del Ejército con la graduación de capitán general, teniente general, general de división o general de brigada, y los correspondientes en la Armada en los cuerpos distintos del cuerpo general.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "jefe, caudillo, superior, militar2."
+                        "content": "jefe, jefa, caudillo, superior, militar."
                     }
                 ]
             },
             {
-                "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "5",
+                "type": "nombre masculino",
                 "definition": "Prelado superior de una orden religiosa."
             },
             {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En las antiguas universidades, seminarios, etc., aula abierta al común de los estudiantes."
-            },
-            {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Mayoría de un conjunto de cosas o personas."
             },
             {
                 "number": "7",
                 "type": "adjetivo",
                 "definition": "Que posee vasta instrucción.",
-                "type_extra": "rare, sin verificar"
+                "type_extra": "poco usado"
             }
         ]
     },

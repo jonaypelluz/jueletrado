@@ -2632,12 +2632,11 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "América",
-                "definition": "uve.",
+                "definition": "Letra v.",
                 "definition_extra": [
                     {
-                        "type": "Sinónimos o afines",
-                        "content": "uve."
+                        "type": "Sinónimos",
+                        "content": "uve, ve baja."
                     }
                 ]
             }
@@ -16444,13 +16443,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Moverse de un lugar hacia otro apartado de la persona que habla.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "dirigirse, encaminarse, trasladarse, alejarse, andar1, transitar, marcharse, ausentarse, huir, partir, salir, emigrar, largarse, pirarse, abrirse."
+                        "content": "dirigirse, encaminarse, trasladarse, alejarse, andar, transitar, marchar, ausentarse, huir, partir, salir, emigrar, largarse, pirarse, abrirse."
                     },
                     {
                         "type": "Antónimos",
@@ -16460,8 +16458,7 @@
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Sentar bien o mal a algo o a alguien.",
                 "definition_extra": [
                     {
@@ -16472,20 +16469,17 @@
             },
             {
                 "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Caminar de acá para allá."
             },
             {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una persona o de una cosa: Diferenciarse de otra."
             },
             {
                 "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dirigirse, llevar o conducir a un lugar apartado de quien habla.",
                 "definition_extra": [
                     {
@@ -16496,8 +16490,7 @@
             },
             {
                 "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Extenderse en el tiempo o en el espacio, desde un punto a otro.",
                 "definition_extra": [
                     {
@@ -16508,159 +16501,81 @@
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "En varios juegos de naipes, entrar, tomar sobre sí el empeño de ganar la apuesta."
             },
             {
                 "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Considerar las cosas por un aspecto especial o dirigirlas a un fin determinado."
             },
             {
                 "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Denota la actual y progresiva ejecución de una acción."
             },
             {
                 "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Denota que una acción empieza a verificarse."
             },
             {
                 "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "con ciertos adjetivos o participios pasivos, para expresar irónicamente lo contrario de lo que estos significan."
+                "type": "verbo intransitivo",
+                "definition": "Usado, con ciertos adjetivos o participios pasivos, para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Junto con el participio de los verbos transitivos, significa padecer su acción, y con el de los reflexivos, hallarse en el estado producido por ella."
             },
             {
                 "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa, especialmente de una cantidad de dinero: En una disputa o competencia, ser apostada."
             },
             {
                 "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Disponerse para la acción del verbo con que se junta."
             },
             {
                 "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "con valor exhortativo."
+                "type": "verbo intransitivo",
+                "definition": "Usado con valor exhortativo."
             },
             {
                 "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Concurrir habitualmente.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "acudir, asistir, frecuentar."
+                        "content": "acudir, asistir, frecuentar, concurrir."
                     }
                 ]
             },
             {
                 "number": "17",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Comportarse o actuar de un determinado modo."
             },
             {
                 "number": "18",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Perseguir u oponerse a alguien o algo."
-            },
-            {
-                "number": "19",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Sentir y pensar al contrario."
-            },
-            {
-                "number": "20",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Importar, interesar."
-            },
-            {
-                "number": "21",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Depender de algo, estar condicionado por ello."
-            },
-            {
-                "number": "22",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Sentir inclinación hacia una profesión."
-            },
-            {
-                "number": "23",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Seguir una carrera."
-            },
-            {
-                "number": "24",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "ir a traer algo."
-            },
-            {
-                "number": "25",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Avanzar en la realización de una acción, por un lugar, tiempo o situación determinadas."
-            },
-            {
-                "number": "26",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un nombre o de un verbo: Seguir cierta declinación o conjugación."
-            },
-            {
-                "number": "27",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Seguir un negocio sin perderlo de vista."
-            },
-            {
-                "number": "28",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Seguir de cerca a alguien, ir en su alcance para apresarlo o hacerle daño."
-            },
-            {
-                "number": "29",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Andar tras alguien o algo."
-            },
-            {
-                "number": "30",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Vestir, aparecer o presentarse de una determinada manera."
             },
             {
-                "number": "31",
-                "type": "verbo",
+                "number": "19",
+                "type": "verbo intransitivo",
+                "definition": "Exhibir o aparentar determinada actitud, cualidad, etc.",
+                "type_extra": "coloquial"
+            },
+            {
+                "number": "20",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de un libro, de una película, de una conversación, etc.: Tratar de un tema determinado.",
-                "type_extra": "colloquial, sin verificar",
+                "type_extra": "coloquial",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -16669,33 +16584,85 @@
                 ]
             },
             {
+                "number": "21",
+                "type": "verbo intransitivo",
+                "definition": "Caracterizarse por tener cierto asunto o situación como principal o recurrente.",
+                "type_extra": "coloquial"
+            },
+            {
+                "number": "22",
+                "type": "verbo intransitivo",
+                "definition": "Perseguir u oponerse a alguien o algo."
+            },
+            {
+                "number": "23",
+                "type": "verbo intransitivo",
+                "definition": "Sentir y pensar al contrario."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
+                "definition": "Importar, interesar."
+            },
+            {
+                "number": "25",
+                "type": "verbo intransitivo",
+                "definition": "Depender de algo, estar condicionado por ello."
+            },
+            {
+                "number": "26",
+                "type": "verbo intransitivo",
+                "definition": "Sentir inclinación hacia una profesión."
+            },
+            {
+                "number": "27",
+                "type": "verbo intransitivo",
+                "definition": "Seguir una carrera."
+            },
+            {
+                "number": "28",
+                "type": "verbo intransitivo",
+                "definition": "ir a traer algo."
+            },
+            {
+                "number": "29",
+                "type": "verbo intransitivo",
+                "definition": "Avanzar en la realización de una acción, por un lugar, tiempo o situación determinadas."
+            },
+            {
+                "number": "30",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de un nombre o de un verbo: Seguir cierta declinación o conjugación."
+            },
+            {
+                "number": "31",
+                "type": "verbo intransitivo",
+                "definition": "Seguir un negocio sin perderlo de vista."
+            },
+            {
                 "number": "32",
-                "type": "verbo",
-                "definition": "Exhibir o aparentar determinada actitud, cualidad, etc.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "verbo intransitivo",
+                "definition": "Seguir de cerca a alguien, ir en su alcance para apresarlo o hacerle daño."
             },
             {
                 "number": "33",
-                "type": "verbo",
-                "definition": "Caracterizarse por tener cierto asunto o situación como principal o recurrente.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "verbo intransitivo",
+                "definition": "Andar tras alguien o algo."
             },
             {
                 "number": "34",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Morirse o estarse muriendo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, acabar, pasar, palmar1, cascar, espichar, caer, pelarse, petatearse, sonar1, ñampiarse."
+                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, acabar, pasar, palmar, cascar, espichar, caer, pelarse, petatearse, sonar, ñampiarse."
                     }
                 ]
             },
             {
                 "number": "35",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Dicho de un líquido: Salirse insensiblemente del recipiente en que está.",
                 "definition_extra": [
                     {
@@ -16706,45 +16673,39 @@
             },
             {
                 "number": "36",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Dicho de un recipiente: Dejar escapar el líquido que hay en él."
             },
             {
                 "number": "37",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Deslizarse, perder el equilibrio."
             },
             {
                 "number": "38",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Desaparecer, consumirse o perderse."
             },
             {
                 "number": "39",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Dicho de una tela: Desgarrarse, romperse, envejecerse."
             },
             {
                 "number": "40",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Ventosear o hacer sus necesidades involuntariamente."
             },
             {
                 "number": "41",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Descartarse de una o varias cartas de la baraja."
             },
             {
                 "number": "42",
-                "type": "verbo",
+                "type": "verbo intransitivo",
                 "definition": "Obrar, proceder.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "desusado"
             }
         ]
     },
@@ -16782,32 +16743,18 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Percibir con los ojos algo mediante la acción de la luz.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "mirar, observar, avistar, divisar, contemplar, ojear1, percibir, vigilar, distinguir, vislumbrar, otear, espiar1, descubrir, acechar."
+                        "content": "mirar, observar, avistar, divisar, contemplar, ojear, percibir, vigilar, distinguir, vislumbrar, otear, espiar, descubrir, acechar."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Percibir con la inteligencia algo, comprenderlo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "comprender, entender1, captar, vislumbrar, percibir, conocer."
-                    }
-                ]
-            },
-            {
-                "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Comprobar algo con algún sentido.",
                 "definition_extra": [
                     {
@@ -16817,9 +16764,44 @@
                 ]
             },
             {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Dicho de un lugar: Ser escenario de un acontecimiento."
+            },
+            {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
+                "definition": "Aparecer o mostrarse."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Percibir con la inteligencia algo, comprenderlo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "comprender, entender, captar, vislumbrar, percibir, conocer."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Darse cuenta de algo."
+            },
+            {
+                "number": "7",
+                "type": "verbo pronominal",
+                "definition": "Traslucirse la imagen o semejanza de algo."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Parecer o evidenciarse."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
                 "definition": "Observar, considerar algo.",
                 "definition_extra": [
                     {
@@ -16829,9 +16811,29 @@
                 ]
             },
             {
-                "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "10",
+                "type": "verbo transitivo",
+                "definition": "Considerar, advertir o reflexionar."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "definition": "Considerar que algo o alguien es o está de una determinada manera."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "definition": "Conjeturar o deducir un hecho del futuro por algún indicio.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "conjeturar, especular."
+                    }
+                ]
+            },
+            {
+                "number": "13",
+                "type": "verbo transitivo",
                 "definition": "Examinar algo, reconocerlo con cuidado y atención.",
                 "definition_extra": [
                     {
@@ -16841,9 +16843,8 @@
                 ]
             },
             {
-                "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "14",
+                "type": "verbo transitivo",
                 "definition": "Examinar o reconocer a alguien.",
                 "definition_extra": [
                     {
@@ -16853,21 +16854,8 @@
                 ]
             },
             {
-                "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Encontrarse con alguien o estar con él.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "encontrarse, reunirse, juntarse, citarse, recibir."
-                    }
-                ]
-            },
-            {
-                "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "15",
+                "type": "verbo transitivo",
                 "definition": "Poner atención o cuidado en lo que se ejecuta.",
                 "definition_extra": [
                     {
@@ -16877,69 +16865,41 @@
                 ]
             },
             {
-                "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Darse cuenta de algo."
-            },
-            {
-                "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Considerar, advertir o reflexionar."
-            },
-            {
-                "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Conjeturar o deducir un hecho del futuro por algún indicio.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "conjeturar, especular2."
-                    }
-                ]
-            },
-            {
-                "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Considerar que algo o alguien es o está de una determinada manera."
-            },
-            {
-                "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "16",
+                "type": "verbo transitivo",
                 "definition": "En una disertación o un texto, tratar, analizar, considerar algo."
             },
             {
-                "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un lugar: Ser escenario de un acontecimiento."
-            },
-            {
-                "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "17",
+                "type": "verbo transitivo",
                 "definition": "Dicho de un juez: Asistir a la discusión oral de un pleito o causa que ha de sentenciar."
             },
             {
-                "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Intentar, tratar de realizar algo.",
+                "number": "18",
+                "type": "verbo transitivo",
+                "definition": "Encontrarse con alguien o estar con él.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "intentar, tratar, probar, ensayar, experimentar."
+                        "content": "encontrar, reunir, juntar, citar, recibir."
                     }
                 ]
             },
             {
-                "number": "17",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "19",
+                "type": "verbo pronominal",
+                "definition": "verse las caras.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "verse las caras."
+                    }
+                ]
+            },
+            {
+                "number": "20",
+                "type": "verbo pronominal",
                 "definition": "Hallarse en algún lugar, estado o situación.",
                 "definition_extra": [
                     {
@@ -16949,27 +16909,8 @@
                 ]
             },
             {
-                "number": "18",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Traslucirse la imagen o semejanza de algo."
-            },
-            {
-                "number": "19",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Parecer o evidenciarse."
-            },
-            {
-                "number": "20",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Aparecer o mostrarse."
-            },
-            {
                 "number": "21",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Estar o hallarse en un sitio o lance.",
                 "definition_extra": [
                     {
@@ -16980,21 +16921,24 @@
             },
             {
                 "number": "22",
-                "type": "verbo",
-                "definition": "verse las caras.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "verbo intransitivo",
+                "definition": "Intentar, tratar de realizar algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "intentar, tratar, probar, ensayar, experimentar."
+                    }
+                ]
             },
             {
                 "number": "23",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Sentido de la vista."
+                "type": "nombre masculino",
+                "definition": "Parecer o apariencia de las cosas materiales o inmateriales."
             },
             {
                 "number": "24",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Parecer o apariencia de las cosas materiales o inmateriales."
+                "type": "nombre masculino",
+                "definition": "Sentido de la vista."
             }
         ]
     },
@@ -17519,50 +17463,33 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Sistema de grabación y reproducción de imágenes, acompañadas o no de sonidos, mediante cinta magnética u otros medios electrónicos."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Grabación hecha en video."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Aparato que graba y reproduce mediante cintas magnéticas u otros medios electrónicos imágenes y sonidos procedentes de la televisión o de otro aparato de video.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "magnetoscopio, videocasete, videograbador, videocasetera."
+                        "content": "magnetoscopio, video, videocasete, videocasetera, videocasetero, videograbador."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Parte de la señal de televisión que corresponde a la imagen."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "video (‖ aparato).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "magnetoscopio, videocasete, videograbador, videocasetera."
-                    }
-                ]
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "videoclub.",
                 "definition_extra": [
                     {
@@ -17812,8 +17739,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Sentido corporal con que los ojos perciben algo mediante la acción de la luz.",
                 "definition_extra": [
                     {
@@ -17828,38 +17754,34 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Conjunto de los órganos de la visión."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "visión (‖ acción de ver).",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de ver.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "visión, observación, contemplación, visualización, percepción."
+                        "content": "observación, contemplación, visualización, percepción, visión."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Aspecto o disposición de las cosas que se ven.",
+                "type": "nombre femenino",
+                "definition": "Mirada superficial o ligera.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "apariencia, aspecto, presencia, pinta."
+                        "content": "intuito, vistazo."
                     }
                 ]
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Panorama que se ofrece al espectador desde un punto.",
                 "definition_extra": [
                     {
@@ -17870,38 +17792,38 @@
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Representación pictórica o fotográfica de un lugar o monumento."
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Conocimiento claro de las cosas."
+                "type": "nombre femenino",
+                "definition": "Aspecto o disposición de las cosas que se ven.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "apariencia, aspecto, presencia, pinta."
+                    }
+                ]
             },
             {
                 "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Intento o propósito."
-            },
-            {
-                "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Parte de una cosa que no se oculta a la vista; p. ej., la parte de la teja, pizarra u hoja de plomo que queda fuera de los solapos; los puños, cuello y pechera de una camisola; las vueltas que guarnecen por delante una americana, un abrigo, etc."
             },
             {
+                "number": "9",
+                "type": "nombre femenino",
+                "definition": "Galerías, ventanas u otros huecos de pared, por donde desde un edificio se ve lo exterior."
+            },
+            {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Mirada superficial o ligera."
+                "type": "nombre femenino",
+                "definition": "Ventana, puerta u otra abertura en los edificios, por donde entra la luz para ver."
             },
             {
                 "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Sagacidad para descubrir algo que otros no ven.",
                 "definition_extra": [
                     {
@@ -17912,51 +17834,45 @@
             },
             {
                 "number": "12",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
+                "definition": "Conocimiento claro de las cosas."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
                 "definition": "Comparecencia ante un juez o tribunal en la que las partes exponen los fundamentos de sus respectivas pretensiones.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "juicio, proceso, causa1, procedimiento."
+                        "content": "juicio, proceso, causa, procedimiento."
                     }
                 ]
             },
             {
-                "number": "13",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Concurrencia de dos o más personas que se ven para fin determinado."
-            },
-            {
                 "number": "14",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Regalos que recíprocamente se hacen los novios."
-            },
-            {
-                "number": "15",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Ventana, puerta u otra abertura en los edificios, por donde entra la luz para ver."
-            },
-            {
-                "number": "16",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Galerías, ventanas u otros huecos de pared, por donde desde un edificio se ve lo exterior."
-            },
-            {
-                "number": "17",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Empleado de aduanas a cuyo cargo está el control de las mercancías."
             },
             {
+                "number": "15",
+                "type": "nombre femenino",
+                "definition": "Intento o propósito."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "definition": "Concurrencia de dos o más personas que se ven para fin determinado."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "definition": "Regalos que recíprocamente se hacen los novios."
+            },
+            {
                 "number": "18",
-                "type": "nombre",
-                "definition": "visera (‖ parte del yelmo).",
-                "type_extra": "obsolete, sin verificar"
+                "type": "nombre femenino",
+                "definition": "Parte del yelmo que cubría y protegía el rostro, unida por lo común a dos botones laterales para alzarla y bajarla, y con agujeros o hendiduras para ver.",
+                "type_extra": "desusado"
             }
         ]
     }

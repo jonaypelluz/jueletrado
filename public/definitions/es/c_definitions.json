@@ -54432,83 +54432,79 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Perteneciente o relativo a la cabeza."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una población: Principal y cabeza de un Estado, provincia o distrito.",
+                "definition": "Dicho de una población, principal y cabeza de un Estado, provincia o distrito.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "cabeza, corte2, ciudad."
+                        "content": "corte, ciudad, cabeza."
                     }
                 ]
             },
             {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Población que destaca en algún aspecto o actividad."
+            },
+            {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Principal o muy grande.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "principal, esencial, primordial, fundamental, vital, primario, básico."
+                        "content": "principal, esencial, primordial, fundamental, vital, primario, primaria, básico, básica."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "secundario, accidental, anecdótico."
+                        "content": "secundario, secundaria, accidental, anecdótico, anecdótica."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Hacienda, caudal, patrimonio.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "hacienda, patrimonio, caudal1, dinero, fondo2, bien, haber2, saldo, riqueza, fortuna."
+                        "content": "hacienda, patrimonio, caudal, dinero, fondo, bien, haber, saldo, riqueza, fortuna."
                     }
                 ]
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Valor de lo que, de manera periódica o accidental, rinde u ocasiona rentas, intereses o frutos."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cantidad de dinero que se presta, se impone o se deja a censo sobre una o varias fincas, sobre todo cuando es de alguna importancia."
-            },
-            {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Conjunto de activos y bienes económicos destinados a producir mayor riqueza."
             },
             {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Cantidad de dinero que se presta, se impone o se deja a censo sobre una o varias fincas, sobre todo cuando es de alguna importancia."
+            },
+            {
                 "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Población que destaca en algún aspecto o actividad."
+                "type": "nombre femenino",
+                "definition": "letra capital.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "letra mayúscula, mayúscula, versal."
+                    }
+                ]
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "letra capital."
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a la cabeza."
             },
             {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Línea imaginaria que es bisectriz en un ángulo saliente en el trazado de una fortificación."
             }
         ]
@@ -54642,32 +54638,28 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Acción de cargar."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Dignidad, empleo, oficio.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "empleo, puesto, destino, plaza, función, oficio, ocupación, dignidad, profesión, honor, grado1, trabajo."
+                        "content": "empleo, puesto, destino, plaza, función, oficio, ocupación, dignidad, profesión, honor, grado, trabajo, encargo."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Persona que desempeña un cargo."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Obligación de hacer o cumplir algo.",
                 "definition_extra": [
                     {
@@ -54678,14 +54670,17 @@
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Gobierno, dirección, custodia."
+                "type": "nombre masculino",
+                "definition": "Responsabilidad rotativa de organizar la fiesta patronal."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
+                "definition": "Gobierno, dirección, custodia."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
                 "definition": "Falta que se imputa a alguien en su comportamiento.",
                 "definition_extra": [
                     {
@@ -54695,9 +54690,8 @@
                 ]
             },
             {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "8",
+                "type": "nombre masculino",
                 "definition": "En las cuentas, conjunto de cantidades de las que se debe dar satisfacción.",
                 "definition_extra": [
                     {
@@ -54707,16 +54701,14 @@
                 ]
             },
             {
-                "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "9",
+                "type": "nombre masculino",
                 "definition": "Pago que se hace o debe hacerse con dinero de una cuenta, y apuntamiento que de él se hace."
             },
             {
-                "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "carga (‖ peso).",
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Peso que soporta una estructura.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -54725,56 +54717,43 @@
                 ]
             },
             {
-                "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "11",
+                "type": "nombre masculino",
                 "definition": "Cantidad de piedra para mampostería o afirmado, aproximadamente de un tercio de metro cúbico."
             },
             {
-                "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Pila de capachos llenos de aceituna molida, dispuestos para ser prensados."
-            },
-            {
                 "number": "12",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cantidad de uva ya pisada que se pone de una vez bajo la acción de la viga o la prensa en el lagar."
-            },
-            {
-                "number": "13",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Unidad de medida de maderas que se usa en Granada, equivalente a una vara cúbica."
             },
             {
+                "number": "13",
+                "type": "nombre masculino",
+                "definition": "Pila de capachos llenos de aceituna molida, dispuestos para ser prensados."
+            },
+            {
                 "number": "14",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Certificado que al pie de los escritos pone el secretario judicial para señalar el día o la hora en que fueron presentados."
+                "type": "nombre masculino",
+                "definition": "Cantidad de uva ya pisada que se pone de una vez bajo la acción de la viga o la prensa en el lagar."
             },
             {
                 "number": "15",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Constancia escrita de haber entregado un documento o expediente."
+                "type": "nombre masculino",
+                "definition": "Certificado que al pie de los escritos pone el secretario judicial para señalar el día o la hora en que fueron presentados."
             },
             {
                 "number": "16",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Responsabilidad rotativa de organizar la fiesta patronal."
+                "type": "nombre masculino",
+                "definition": "Constancia escrita de haber entregado un documento o expediente."
             },
             {
                 "number": "17",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "dintel.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "dintel, cargadero, cumbrera, entera."
+                        "content": "cargadero, cumbrera, dintel, entera."
                     }
                 ]
             }
@@ -55071,84 +55050,95 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Perteneciente o relativo al centro."
+                "definition": "Perteneciente o relativo al centro.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "céntrico, céntrica."
+                    }
+                ]
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que está en el centro físico.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "céntrico, centrado, intermedio, medio, medianero, equidistante."
+                        "content": "céntrico, céntrica, centrado, centrada, intermedio, intermedia, medio, media, medial, medianero, medianera, equidistante."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "periférico."
+                        "content": "periférico, periférica."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un lugar: Que está entre dos extremos."
+                "definition": "Dicho de un lugar, que está entre dos extremos."
             },
             {
                 "number": "4",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que ejerce su acción sobre todo un campo o territorio."
+                "definition": "Dicho de un futbolista o de un jugador de otros deportes, que actúa por el centro de la defensa."
             },
             {
                 "number": "5",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Esencial, fundamental, básico.",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "secundario."
-                    }
-                ]
+                "definition": "Dicho de un sonido, que se articula en el centro de la cavidad bucal."
             },
             {
                 "number": "6",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de ciertas organizaciones o instalaciones: principal.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "principal, esencial, fundamental, primordial, básico, elemental, importante."
-                    }
-                ]
+                "definition": "Que ejerce su acción sobre todo un campo o territorio."
             },
             {
                 "number": "7",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un futbolista o de un jugador de otros deportes: Que actúa por el centro de la defensa."
+                "definition": "Esencial, fundamental, básico.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "principal, esencial, fundamental, primordial, básico, básica, elemental, importante."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "secundario, secundaria."
+                    }
+                ]
             },
             {
                 "number": "8",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un sonido: Que se articula en el centro de la cavidad bucal."
+                "definition": "Dicho de una organización o de una instalación, principal o más importante."
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "ingenio de azúcar."
+                "type": "nombre femenino",
+                "definition": "Cada una de las diversas instalaciones donde se produce, por diferentes medios, energía eléctrica."
             },
             {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cada una de las diversas instalaciones donde se produce, por diferentes medios, energía eléctrica."
+                "type": "nombre femenino",
+                "definition": "Conjunto de aparatos para moler la caña y obtener el azúcar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "central, ingenio, ingenio de azúcar."
+                    }
+                ]
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "definition": "Finca que contiene el cañamelar y las oficinas de beneficio.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "central, ingenio, ingenio de azúcar."
+                    }
+                ]
             }
         ]
     },
@@ -55253,76 +55243,76 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "ciudadano (‖ perteneciente a la ciudad o a los ciudadanos).",
+                "definition": "Perteneciente o relativo a la ciudad o a los ciudadanos.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "ciudadano, cívico, urbano."
+                        "content": "urbano, urbana, ciudadano, ciudadana, cívico, cívica."
                     }
                 ]
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Sociable, urbano, atento.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "civilizado, educado, cortés1, considerado, afable, amable, atento, sociable."
+                        "content": "civilizado, civilizada, educado, educada, cortés, considerado, considerada, afable, amable, atento, atenta, sociable."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "incivil, incívico, incivilizado, maleducado, grosero."
+                        "content": "incivil, incívico, incívica, incivilizado, incivilizada, maleducado, maleducada, grosero, grosera."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que no es militar ni eclesiástico o religioso. a veces excluyendo también a miembros de cuerpos policiales.",
+                "definition": "Que no es militar ni eclesiástico o religioso.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "paisano."
+                        "content": "paisano, paisana."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "militar2, castrense, eclesiástico, eclesial, religioso."
+                        "content": "militar, castrense, eclesiástico, eclesiástica, eclesial, religioso, religiosa."
                     }
                 ]
             },
             {
                 "number": "4",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una obra: Destinada a un servicio público, como las carreteras, puentes o puertos."
+                "definition": "Dicho de una obra, destinada a un servicio público, como las carreteras, puentes o puertos."
             },
             {
                 "number": "5",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un ingeniero o de una ingeniería: Que se dedica a la obra civil."
+                "definition": "Dicho de un ingeniero o de una ingeniería, que se dedica a la obra civil."
             },
             {
                 "number": "6",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a las relaciones e intereses privados en orden al estado de las personas, régimen de la familia, sucesiones, condición de los bienes, contratos y responsabilidad por daños."
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "definition": "guardia civil (‖ miembro de la Guardia Civil).",
-                "type_extra": "colloquial, sin verificar"
+                "type": "nombre masculino y femenino",
+                "definition": "guardia civil.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "guardia civil, guiri, picoleto, picoleta, tricornio."
+                    }
+                ]
             },
             {
                 "number": "8",
                 "type": "adjetivo",
                 "definition": "Ruin, mezquino.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "desusado"
             }
         ]
     },
@@ -55858,57 +55848,60 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "De qué modo, de qué manera."
+                "type": "adverbio",
+                "definition": "De qué modo, de qué manera.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "¿qué tal?."
+                    }
+                ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Por qué motivo, causa o razón; en fuerza o en virtud de qué."
+                "type": "nombre masculino",
+                "definition": "Manera, modo."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Pregunta sobre la cantidad o el grado cuando modifica a adjetivos o adverbios precedidos de la preposición de."
+                "type": "adverbio",
+                "definition": "Por qué motivo, causa o razón; en fuerza o en virtud de qué."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Pregunta sobre el precio cuando va precedido de la preposición a."
+                "type": "adverbio",
+                "definition": "Pregunta sobre la cantidad o el grado cuando modifica a adjetivos o adverbios precedidos de la preposición de."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Introduce preguntas aclaratorias."
+                "type": "adverbio",
+                "definition": "Pondera una cantidad cuando modifica a adjetivos o adverbios precedidos de la preposición de."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "adverbio",
                 "definition": "Pondera una cantidad."
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Pondera una cantidad cuando modifica a adjetivos o adverbios precedidos de la preposición de. en construcciones copulativas sin la preposición de."
+                "type": "adverbio",
+                "definition": "Pregunta sobre el precio cuando va precedido de la preposición a."
             },
             {
                 "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Manera, modo. precedido del artículo el."
+                "type": "adverbio",
+                "definition": "Introduce preguntas aclaratorias."
             },
             {
                 "number": "9",
                 "type": "interjección",
-                "type_extra": "sin verificar",
-                "definition": "para denotar extrañeza o enfado."
+                "definition": "Usado para denotar extrañeza o enfado.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "caracho, caracoles, caramba, carape, caray, chita, córcholis, jinojo, por la chita, recórcholis, repámpanos."
+                    }
+                ]
             }
         ]
     },
@@ -56013,8 +56006,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Comprobación, inspección, fiscalización, intervención.",
                 "definition_extra": [
                     {
@@ -56029,13 +56021,23 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
+                "definition": "Examen parcial para comprobar la marcha de los alumnos.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "parcial, examen, ejercicio, prueba, test."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
                 "definition": "Dominio, mando, preponderancia.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "dominio, poder2, autoridad, mando, gobierno, dirección."
+                        "content": "dominio, poder, autoridad, mando, gobierno, dirección."
                     },
                     {
                         "type": "Antónimos",
@@ -56044,39 +56046,29 @@
                 ]
             },
             {
-                "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "4",
+                "type": "nombre masculino",
                 "definition": "Oficina, despacho, dependencia, etc., donde se controla."
             },
             {
-                "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "puesto de control."
-            },
-            {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Regulación, manual o automática, sobre un sistema."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "testigo (‖ muestra).",
+                "type": "nombre masculino",
+                "definition": "Lugar donde uno o varios agentes, en misión de vigilancia, inspeccionan a las personas y vehículos que pasan.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "testigo."
+                        "content": "puesto de control."
                     }
                 ]
             },
             {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Regulación, manual o automática, sobre un sistema."
+            },
+            {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Mando o dispositivo de regulación.",
                 "definition_extra": [
                     {
@@ -56087,19 +56079,17 @@
             },
             {
                 "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Tablero o panel donde se encuentran los mandos."
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Examen parcial para comprobar la marcha de los alumnos.",
+                "type": "nombre masculino",
+                "definition": "testigo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "parcial, examen, ejercicio, prueba, test."
+                        "content": "muestra, testigo."
                     }
                 ]
             }
@@ -56856,49 +56846,45 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "pimiento (‖ planta).",
+                "type": "nombre masculino",
+                "definition": "Hierba o mata de la familia de las solanáceas, originaria de México y Centroamérica, de hojas aovadas, que se cultiva ampliamente por sus frutos y de la que existen varias especies (esp. Capsicum annuum).",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "pimiento, ají, locote."
+                        "content": "ají, locote, pimiento."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "pimiento (‖ fruto).",
+                "type": "nombre masculino",
+                "definition": "Fruto del chile, generalmente de forma cónica y de color verde, rojo o amarillo, hueco, con muchas semillas, comestible, de sabor más o menos picante y ampliamente consumido.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "pimiento, ají, locote, pimentón, chipotle."
+                        "content": "ají, locote, pimentón, pimiento."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "cuento (‖ embuste).",
+                "type": "nombre masculino",
+                "definition": "Embuste, engaño.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "cuento1, mentira, aguaje."
+                        "content": "mentira, aguaje, cuento, cuento chino, embeleco, ley de la trampa, trápala."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "nombre",
+                "type": "nombre masculino",
                 "definition": "pene.",
-                "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "pene, falo, miembro, verga1."
+                        "content": "pene, falo, miembro, verga."
                     }
                 ]
             }

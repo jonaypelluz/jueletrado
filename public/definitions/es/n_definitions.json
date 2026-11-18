@@ -7260,45 +7260,39 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "para coordinar de manera aditiva vocablos o frases que denotan negación, precedida o seguida de otra u otras igualmente negativas."
+                "type": "conjunción",
+                "definition": "Usado para coordinar de manera aditiva vocablos o frases que denotan negación, precedida o seguida de otra u otras igualmente negativas."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En cláusula que empieza con verbo precedido del adverbio no y en que se niegan dos o más términos, puede omitirse o expresarse delante del primero. Si se coloca el verbo al fin de cláusulas como esta, ha de expresarse la conjunción ni precediendo a la primera y a las demás negaciones."
+                "type": "conjunción",
+                "definition": "En cláusula que empieza con verbo precedido del adverbio no y en que se niegan dos o más términos, puede omitirse o expresarse delante del primero."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Ni siquiera. encabezando una oración sin relacionarla con otra o con relación distinta de la copulativa negativa 'y no'. Forma frases que expresan el extremo a que puede llegarse en algo."
+                "type": "conjunción",
+                "definition": "Ni siquiera. Usado encabezando una oración sin relacionarla con otra o con relación distinta de la copulativa negativa 'y no'. Forma frases que expresan el extremo a que puede llegarse en algo."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "con valor semejante en exclamaciones enérgicas."
+                "type": "conjunción",
+                "definition": "Usado con valor semejante en exclamaciones enérgicas."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "No. sin otra negación anterior o posterior."
+                "type": "conjunción",
+                "definition": "No. Usado sin otra negación anterior o posterior."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Decimotercera letra del alfabeto griego (Ν, ν), que corresponde a la n del latino."
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "definition": "también como la conjunción disyuntiva o.",
-                "type_extra": "obsolete, sin verificar"
+                "type": "conjunción",
+                "definition": "Era usado también como la conjunción disyuntiva o.",
+                "type_extra": "desusado"
             }
         ]
     }

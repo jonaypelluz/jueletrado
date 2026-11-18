@@ -27528,119 +27528,53 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perfecto y libre de toda culpa.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "bueno, justo, puro, inocente, virtuoso, inmaculado."
+                        "content": "bueno, buena, justo, justa, puro, pura, inocente, virtuoso, virtuosa, inmaculado, inmaculada."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "pecador."
+                        "content": "pecador, pecadora."
                     }
                 ]
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "En el mundo cristiano, dicho de una persona: Declarada santa por la Iglesia, que manda que se le dé culto universalmente.",
+                "definition": "En el mundo cristiano, dicho de una persona, declarada santa por la Iglesia, que manda que se le dé culto universalmente.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "sagrado, venerable, sacro."
+                        "content": "sagrado, sagrada, venerable, sacro, sacra."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: De especial virtud y ejemplo."
+                "definition": "Usado por la Iglesia católica como calificativo aplicado a sí misma."
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Que está especialmente dedicada o consagrada a Dios."
-            },
-            {
-                "number": "5",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Que es venerable por algún motivo de religión."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un día: Dedicado por la Iglesia a celebrar una festividad religiosa, o que forma parte de los de la Semana Santa, que sigue al Domingo de Ramos."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Sagrado, inviolable.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "sagrado, inviolable."
-                    }
-                ]
-            },
-            {
-                "number": "8",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de algo: Que resulta especialmente provechoso."
-            },
-            {
-                "number": "9",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Que tiene singular virtud para la curación de algunas enfermedades."
-            },
-            {
-                "number": "10",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "por la Iglesia católica como calificativo aplicado a sí misma."
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "para encarecer el significado de algunos nombres."
-            },
-            {
-                "number": "12",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino y femenino",
                 "definition": "Imagen de un santo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "imagen, talla1."
+                        "content": "imagen, talla."
                     }
                 ]
             },
             {
-                "number": "13",
-                "type": "nombre",
-                "definition": "esposo (‖ persona casada).",
-                "type_extra": "colloquial, sin verificar",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "esposo, pariente."
-                    }
-                ]
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Nombre de santo que, con la seña, servía para reconocer fuerzas como amigas o enemigas."
             },
             {
-                "number": "14",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "6",
+                "type": "nombre masculino",
                 "definition": "Onomástica de una persona.",
                 "definition_extra": [
                     {
@@ -27650,26 +27584,72 @@
                 ]
             },
             {
-                "number": "15",
-                "type": "nombre",
-                "definition": "estampa (‖ dibujo que ilustra una publicación).",
-                "type_extra": "colloquial, sin verificar",
+                "number": "7",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, de especial virtud y ejemplo."
+            },
+            {
+                "number": "8",
+                "type": "adjetivo",
+                "definition": "Dicho de una cosa, que está especialmente dedicada o consagrada a Dios."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "definition": "Dicho de una cosa, que es venerable por algún motivo de religión."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
+                "definition": "Dicho de un día, dedicado por la Iglesia a celebrar una festividad religiosa, o que forma parte de los de la Semana Santa, que sigue al Domingo de Ramos."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "definition": "Sagrado, inviolable.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "estampa, imagen, dibujo, viñeta, ilustración."
+                        "content": "sagrado, sagrada, inviolable."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "adjetivo",
+                "definition": "Dicho de algo, que resulta especialmente provechoso."
+            },
+            {
+                "number": "13",
+                "type": "adjetivo",
+                "definition": "Usado para encarecer el significado de algunos nombres."
+            },
+            {
+                "number": "14",
+                "type": "adjetivo",
+                "definition": "Dicho de una cosa, que tiene singular virtud para la curación de algunas enfermedades."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "definition": "Dibujo que ilustra una publicación.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "imagen, dibujo, viñeta, ilustración, estampa."
                     }
                 ]
             },
             {
                 "number": "16",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Nombre de santo que, con la seña, servía para reconocer fuerzas como amigas o enemigas.",
+                "type": "nombre masculino y femenino",
+                "definition": "esposo.",
+                "type_extra": "coloquial",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "símbolo."
+                        "content": "cónyuge, pareja, pariente, parienta, esposo, esposa, huarmi."
                     }
                 ]
             }
@@ -27780,26 +27760,17 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "para afirmar del sujeto lo que significa el atributo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "estar."
-                    }
-                ]
+                "type": "verbo copulativo",
+                "definition": "Usado para afirmar del sujeto lo que significa el atributo."
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "para conjugar todos los verbos en la voz pasiva."
+                "type": "verbo auxiliar",
+                "definition": "Usado para conjugar todos los verbos en la voz pasiva."
             },
             {
                 "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Haber o existir.",
                 "definition_extra": [
                     {
@@ -27810,20 +27781,17 @@
             },
             {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Indica tiempo."
             },
             {
                 "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "ser capaz o servir."
             },
             {
                 "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Estar en lugar o situación.",
                 "definition_extra": [
                     {
@@ -27834,8 +27802,7 @@
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Suceder, acontecer, tener lugar.",
                 "definition_extra": [
                     {
@@ -27846,20 +27813,18 @@
             },
             {
                 "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Valer, costar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "valer1, costar, ascender."
+                        "content": "valer, costar, ascender, correr."
                     }
                 ]
             },
             {
                 "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Indica relación de posesión.",
                 "definition_extra": [
                     {
@@ -27870,26 +27835,22 @@
             },
             {
                 "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Opinar del mismo modo que alguien."
             },
             {
                 "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Seguir el partido o la opinión de alguien."
             },
             {
                 "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Mantener la amistad de alguien."
             },
             {
                 "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Corresponder, parecer propio.",
                 "definition_extra": [
                     {
@@ -27900,38 +27861,34 @@
             },
             {
                 "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Formar parte de una corporación o comunidad.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "pertenecer, depender1."
+                        "content": "pertenecer, depender."
                     }
                 ]
             },
             {
                 "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Tener principio, origen o naturaleza, hablando de los lugares o países.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "originarse, residir, vivir1."
+                        "content": "originarse, residir, vivir."
                     }
                 ]
             },
             {
                 "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "para afirmar o negar en lo que se dice o pretende."
+                "type": "verbo intransitivo",
+                "definition": "Usado para afirmar o negar en lo que se dice o pretende."
             },
             {
                 "number": "17",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Esencia o naturaleza.",
                 "definition_extra": [
                     {
@@ -27942,32 +27899,28 @@
             },
             {
                 "number": "18",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Cosa creada, especialmente las dotadas de vida."
             },
             {
                 "number": "19",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "ser humano.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "ente, entidad, criatura, espécimen, organismo, persona, hombre, humano, individuo, mortal, sujeto."
+                        "content": "ente, entidad, criatura, organismo, persona, hombre, humano, humana, individuo, mortal, sujeto."
                     }
                 ]
             },
             {
                 "number": "20",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Valor, precio, estimación de las cosas."
             },
             {
                 "number": "21",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Modo de existir."
             }
         ]
@@ -27977,26 +27930,17 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "para afirmar del sujeto lo que significa el atributo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "estar."
-                    }
-                ]
+                "type": "verbo copulativo",
+                "definition": "Usado para afirmar del sujeto lo que significa el atributo."
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "para conjugar todos los verbos en la voz pasiva."
+                "type": "verbo auxiliar",
+                "definition": "Usado para conjugar todos los verbos en la voz pasiva."
             },
             {
                 "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Haber o existir.",
                 "definition_extra": [
                     {
@@ -28007,20 +27951,17 @@
             },
             {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Indica tiempo."
             },
             {
                 "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "ser capaz o servir."
             },
             {
                 "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Estar en lugar o situación.",
                 "definition_extra": [
                     {
@@ -28031,8 +27972,7 @@
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Suceder, acontecer, tener lugar.",
                 "definition_extra": [
                     {
@@ -28043,20 +27983,18 @@
             },
             {
                 "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Valer, costar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "valer1, costar, ascender."
+                        "content": "valer, costar, ascender, correr."
                     }
                 ]
             },
             {
                 "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Indica relación de posesión.",
                 "definition_extra": [
                     {
@@ -28067,26 +28005,22 @@
             },
             {
                 "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Opinar del mismo modo que alguien."
             },
             {
                 "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Seguir el partido o la opinión de alguien."
             },
             {
                 "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Mantener la amistad de alguien."
             },
             {
                 "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Corresponder, parecer propio.",
                 "definition_extra": [
                     {
@@ -28097,38 +28031,34 @@
             },
             {
                 "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Formar parte de una corporación o comunidad.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "pertenecer, depender1."
+                        "content": "pertenecer, depender."
                     }
                 ]
             },
             {
                 "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Tener principio, origen o naturaleza, hablando de los lugares o países.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "originarse, residir, vivir1."
+                        "content": "originarse, residir, vivir."
                     }
                 ]
             },
             {
                 "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "para afirmar o negar en lo que se dice o pretende."
+                "type": "verbo intransitivo",
+                "definition": "Usado para afirmar o negar en lo que se dice o pretende."
             },
             {
                 "number": "17",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Esencia o naturaleza.",
                 "definition_extra": [
                     {
@@ -28139,32 +28069,28 @@
             },
             {
                 "number": "18",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Cosa creada, especialmente las dotadas de vida."
             },
             {
                 "number": "19",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "ser humano.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "ente, entidad, criatura, espécimen, organismo, persona, hombre, humano, individuo, mortal, sujeto."
+                        "content": "ente, entidad, criatura, organismo, persona, hombre, humano, humana, individuo, mortal, sujeto."
                     }
                 ]
             },
             {
                 "number": "20",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Valor, precio, estimación de las cosas."
             },
             {
                 "number": "21",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Modo de existir."
             }
         ]
@@ -28410,74 +28336,64 @@
             {
                 "number": "1",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
                 "definition": "Denota condición o suposición en virtud de la cual un concepto depende de otro u otros."
             },
             {
                 "number": "2",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
                 "definition": "Denota aseveración terminante."
             },
             {
                 "number": "3",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
-                "definition": "para introducir oraciones interrogativas indirectas, a veces con matiz de duda."
+                "definition": "Usado para introducir oraciones interrogativas indirectas, a veces con matiz de duda."
             },
             {
                 "number": "4",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
                 "definition": "Denota ponderación o encarecimiento."
             },
             {
                 "number": "5",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
-                "definition": "a principio de frase, da énfasis o energía a las expresiones de duda o aseveración."
+                "definition": "Usado a principio de frase, da énfasis o energía a las expresiones de duda o aseveración."
             },
             {
                 "number": "6",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
-                "definition": "para introducir oraciones desiderativas."
+                "definition": "Usado para introducir oraciones desiderativas."
             },
             {
                 "number": "7",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
-                "definition": "con valor distributivo cuando se emplea repetida para contraponer, con elipsis de verbo o no, una cláusula a otra."
+                "definition": "Usado con valor distributivo cuando se emplea repetido para contraponer, con elipsis de verbo o no, una cláusula a otra."
             },
             {
                 "number": "8",
                 "type": "conjunción",
-                "type_extra": "sin verificar",
-                "definition": "tras el adverbio como o la conjunción que, se emplea en conceptos comparativos."
+                "definition": "Usado tras el adverbio como o la conjunción que, se emplea en conceptos comparativos."
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Séptima nota de la escala musical."
             },
             {
                 "number": "10",
                 "type": "conjunción",
-                "definition": "por la conjunción adversativa sino.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
                 "definition": "aunque.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "pero3, aunque, mas."
+                        "content": "aun cuando, aunque, cuanto quier, más que, por más que, siquiera."
                     }
                 ]
+            },
+            {
+                "number": "11",
+                "type": "conjunción",
+                "definition": "Era usado por la conjunción adversativa sino.",
+                "type_extra": "desusado"
             }
         ]
     },
@@ -28486,19 +28402,17 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma reflexiva de los pronombres él, ella, ellos, ellas, precedida siempre de preposición. seguido de los adjetivos mismo y solo."
+                "type": "pronombre",
+                "definition": "Forma reflexiva de los pronombres él, ella, ellos, ellas, precedida siempre de preposición."
             },
             {
                 "number": "2",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "Expresa afirmación o confirmación. frecuentemente para responder a preguntas totales.",
+                "definition": "Expresa afirmación o confirmación.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "afirmativo, efectivamente, evidentemente."
+                        "content": "efectivamente, evidentemente, afirmativo, pues."
                     },
                     {
                         "type": "Antónimos",
@@ -28509,9 +28423,12 @@
             {
                 "number": "3",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
                 "definition": "Aporta valor contrastivo a lo expresado por el verbo o por otro elemento de la oración.",
                 "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "sí que."
+                    },
                     {
                         "type": "Antónimos",
                         "content": "no."
@@ -28520,8 +28437,7 @@
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Consentimiento, aprobación o permiso.",
                 "definition_extra": [
                     {
@@ -28725,19 +28641,22 @@
             {
                 "number": "1",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Denota carencia o falta de algo."
+                "definition": "Denota carencia o falta de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fuera de, por."
+                    }
+                ]
             },
             {
                 "number": "2",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Fuera de o además de."
             },
             {
                 "number": "3",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Ante un verbo en infinitivo, equivale a no con su participio o gerundio. Me fui sin comer, esto es, no habiendo comido."
             }
         ]
@@ -28748,12 +28667,11 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la sociedad.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "comunitario, colectivo, general."
+                        "content": "comunitario, comunitaria, colectivo, colectiva, general."
                     },
                     {
                         "type": "Antónimos",
@@ -28764,38 +28682,33 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que se produce en sociedad."
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona con un hábito o costumbre: Que lo desarrolla en compañía de otras personas, estimulada o inducida por ellas."
+                "definition": "Dicho de una persona con un hábito o costumbre, que lo desarrolla en compañía de otras personas, estimulada o inducida por ellas."
             },
             {
                 "number": "4",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a una compañía o sociedad, o a los socios o compañeros, aliados o confederados.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "benéfico."
+                        "content": "benéfico, benéfica."
                     }
                 ]
             },
             {
                 "number": "5",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Relativo a las clases sociales económicamente menos favorecidas."
             },
             {
                 "number": "6",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un orden jurisdiccional: Competente en materia laboral y de seguridad social."
+                "definition": "Dicho de un orden jurisdiccional, competente en materia laboral y de seguridad social."
             }
         ]
     },
@@ -28911,68 +28824,40 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Único en su especie.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "único, singular, exclusivo, sencillo, simple, mero2, impar, señero2."
+                        "content": "único, única, exclusivo, exclusiva, sencillo, sencilla, simple, mero, mera, impar, señero, señera, singular."
                     }
                 ]
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que está sin otra cosa o que se mira separado de ella.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "puro, desnudo, escueto, limpio, estricto, mondo, morondo, neto, pelado1, seco, simple."
+                        "content": "puro, pura, desnudo, desnuda, escueto, escueta, limpio, limpia, estricto, estricta, mondo, monda, morondo, moronda, neto, neta, pelado, pelada, seco, seca, simple."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: Sin compañía.",
+                "definition": "Dicho de una persona, sin compañía.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "solitario, separado, aislado, señero2."
+                        "content": "separado, separada, aislado, aislada, señero, señera, solitario, solitaria."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que no tiene quien le ampare, socorra o consuele en sus necesidades o aflicciones.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "abandonado, desvalido, desamparado."
-                    }
-                ]
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Juego de naipes parecido al tresillo, en el que gana quien hace por lo menos 36 tantos."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En el juego del hombre y otros de naipes, lance en que se hacen todas las bazas necesarias para ganar, sin ayuda de robo ni de compañero."
-            },
-            {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "solitario (‖ juego).",
+                "type": "nombre masculino",
+                "definition": "Juego que practica una sola persona, especialmente el de naipes.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -28981,15 +28866,8 @@
                 ]
             },
             {
-                "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Danza. Paso que se ejecuta sin pareja."
-            },
-            {
-                "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "5",
+                "type": "nombre masculino",
                 "definition": "Composición o parte de ella que canta o toca una persona sola.",
                 "definition_extra": [
                     {
@@ -28999,10 +28877,41 @@
                 ]
             },
             {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Paso que se ejecuta sin pareja."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "definition": "Que no tiene quien le ampare, socorra o consuele en sus necesidades o aflicciones.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "abandonado, abandonada, desvalido, desvalida, desamparado, desamparada."
+                    }
+                ]
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Juego de naipes parecido al tresillo, en el que gana quien hace por lo menos 36 tantos."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "En el juego del hombre y otros de naipes, lance en que se hacen todas las bazas necesarias para ganar, sin ayuda de robo ni de compañero."
+            },
+            {
                 "number": "10",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "Únicamente, solamente."
+                "definition": "Únicamente, solamente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "solamente."
+                    }
+                ]
             }
         ]
     },
@@ -29028,27 +28937,24 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Antepuesto a nombres de ciertos títulos y altas dignidades, constituye fórmulas de tratamiento que designan al interlocutor."
+                "type": "adjetivo",
+                "definition": "De él o de ella, de ellos o de ellas."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "adjetivo",
+                "definition": "De usted o de ustedes."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "suyo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "suyo."
-                    }
-                ]
+                "type": "adjetivo",
+                "definition": "Antepuesto a un nombre propio, aporta valor afectivo o enfático.",
+                "type_extra": "coloquial"
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Antepuesto a nombres de ciertos títulos y altas dignidades, constituye fórmulas de tratamiento que designan al interlocutor."
             }
         ]
     },
@@ -29193,13 +29099,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Punto cardinal situado a la espalda de un observador a cuya derecha está el este. (S).",
+                "type": "nombre masculino",
+                "definition": "Punto cardinal situado a la espalda de un observador a cuya derecha está el este (Símb. S).",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "austro, mediodía, meridión, ostro3, sud."
+                        "content": "sud, austro, mediodía, meridión, ostro."
                     },
                     {
                         "type": "Antónimos",
@@ -29209,8 +29114,7 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Región o territorio situado en la parte sur de un país o de un área geográfica determinada.",
                 "definition_extra": [
                     {
@@ -29221,10 +29125,13 @@
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Lugar situado al sur de otro lugar con cuya posición se compara.",
                 "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "mediodía, meridión."
+                    },
                     {
                         "type": "Antónimos",
                         "content": "norte."
@@ -29233,9 +29140,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "en aposición para indicar que lo designado por el sustantivo al que se pospone está orientado al sur o procede del sur.",
+                "type": "nombre masculino",
+                "definition": "Usado en aposición para indicar que lo designado por el sustantivo al que se pospone está orientado al sur o procede del sur.",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -29245,10 +29151,13 @@
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Viento procedente del sur.",
                 "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "austro, ostro."
+                    },
                     {
                         "type": "Antónimos",
                         "content": "norte."

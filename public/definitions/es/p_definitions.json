@@ -34182,8 +34182,74 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Usado ante sustantivo",
-                "definition": "primero."
+                "definition": "Dicho de una persona o de una cosa, que precede a las demás de su especie en orden, tiempo, lugar, situación, clase o jerarquía.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "inicial, original, originario, originaria, primitivo, primitiva, primigenio, primigenia, uno, una."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "último, última, postrero, postrera."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Excelente, grande y que sobresale y excede a otros.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "excelente, principal, primordial, aventajado, aventajada, superior, eminente."
+                    }
+                ]
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Antiguo, y que antes se ha tenido."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Marcha más corta del motor de un vehículo, que aplica la máxima potencia pero con la menor velocidad."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Bazas que hace un jugador antes que los demás hagan ninguna."
+            },
+            {
+                "number": "6",
+                "type": "adverbio",
+                "definition": "Antes o preferentemente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "preferentemente, antes."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Juego de naipes en que las cartas tenían otros valores que no eran los suyos y se ganaba todo con la suerte del flux."
+            },
+            {
+                "number": "8",
+                "type": "adverbio",
+                "definition": "primeramente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "antes, previamente, en primer lugar, en primer término, primeramente, primo."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "finalmente."
+                    }
+                ]
             }
         ]
     },
@@ -45266,62 +45332,64 @@
             {
                 "number": "1",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Denota el fin o término a que se encamina una acción."
+                "definition": "Denota el fin o término a que se encamina una acción.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "por."
+                    }
+                ]
             },
             {
                 "number": "2",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "hacia (‖ denota sentido de un movimiento)."
+                "definition": "Usado para indicar el lugar o tiempo a que se difiere o determina el ejecutar algo o finalizarlo."
             },
             {
                 "number": "3",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "para indicar el lugar o tiempo a que se difiere o determina el ejecutar algo o finalizarlo."
+                "definition": "Usado para determinar el uso que conviene o puede darse a algo."
             },
             {
                 "number": "4",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "para determinar el uso que conviene o puede darse a algo."
+                "definition": "Usado como partícula adversativa, significando el estado en que se halla actualmente algo, contraponiéndolo a lo que se quiere aplicar o se dice de ello."
             },
             {
                 "number": "5",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "como partícula adversativa, significando el estado en que se halla actualmente algo, contraponiéndolo a lo que se quiere aplicar o se dice de ello."
+                "definition": "Denota la relación de una cosa con otra, o lo que es propio o le toca respecto de sí misma."
             },
             {
                 "number": "6",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Denota la relación de una cosa con otra, o lo que es propio o le toca respecto de sí misma."
+                "definition": "Denota la aptitud y capacidad de una persona."
             },
             {
                 "number": "7",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Denota la aptitud y capacidad de una persona."
+                "definition": "Junto con verbo, significa la resolución, disposición o aptitud de hacer lo que el verbo denota, o la proximidad o inmediación a hacerlo, y en este último sentido se une al verbo estar."
             },
             {
                 "number": "8",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Junto con verbo, significa la resolución, disposición o aptitud de hacer lo que el verbo denota, o la proximidad o inmediación a hacerlo, y en este último sentido se une al verbo estar."
+                "definition": "Con los pronombres personales mí, sí, etc., y con algunos verbos, denota la particularidad de la persona, o que la acción de lo expresado por el verbo es interior, secreta y no se comunica a otro."
             },
             {
                 "number": "9",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Con los pronombres personales mí, sí, etc., y con algunos verbos, denota la particularidad de la persona, o que la acción de lo expresado por el verbo es interior, secreta y no se comunica a otro."
+                "definition": "Junto con algunos nombres, se usa supliendo el verbo comprar o con el sentido de 'entregar a', 'obsequiar a', etc."
             },
             {
                 "number": "10",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Junto con algunos nombres, se usa supliendo el verbo comprar o con el sentido de 'entregar a', 'obsequiar a', etc."
+                "definition": "hacia.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "contra, en dirección a, hacia."
+                    }
+                ]
             }
         ]
     },
@@ -45423,61 +45491,55 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Llevar, conducir de un lugar a otro.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "llevar, conducir, mover, transportar, trasladar, traspasar, transferir."
+                        "content": "llevar, conducir, mover, transportar, trasladar."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Mudar, trasladar a otro lugar, situación o clase.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "mudar2, cambiar, convertir, transformar."
+                        "content": "mudar, cambiar, convertir, transformar."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Cruzar de una parte a otra.",
+                "type": "verbo transitivo",
+                "definition": "Cruzar de una parte a otra."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Enviar, transmitir.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "ir, discurrir, transitar, marchar, fluir, cruzar, atravesar, franquear, penetrar, traspasar, colar2, filtrar."
+                        "content": "ir, discurrir, transitar, marchar, fluir, cruzar, atravesar, franquear, penetrar, traspasar, colar, filtrar."
                     }
                 ]
             },
             {
-                "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Enviar, transmitir."
-            },
-            {
                 "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Ir más allá de un punto limitado o determinado."
             },
             {
                 "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Penetrar o traspasar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "entrar, meter, introducir, penetrar, colar2."
+                        "content": "entrar, penetrar, colarse."
                     },
                     {
                         "type": "Antónimos",
@@ -45487,14 +45549,12 @@
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Introducir o extraer fraudulentamente géneros prohibidos o que adeudan derechos."
             },
             {
                 "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Exceder, aventajar, superar.",
                 "definition_extra": [
                     {
@@ -45505,34 +45565,40 @@
             },
             {
                 "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Transferir o trasladar algo de una persona a otra."
-            },
-            {
-                "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "sufrir (‖ tolerar).",
+                "type": "verbo transitivo",
+                "definition": "Transferir o trasladar algo de una persona a otra.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "tolerar, aguantar, aceptar, perdonar, admitir, callar, olvidar, esconder1, omitir, transigir, ocultar, disimular, sufrir, padecer, endurar."
+                        "content": "traspasar, transferir."
+                    }
+                ]
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "definition": "Tolerar o llevar con paciencia.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tolerar, aguantar, aceptar, perdonar, admitir, endurar, padecer, soportar, sufrir."
                     }
                 ]
             },
             {
                 "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Llevar algo por encima de otra cosa, de modo que la vaya tocando."
             },
             {
                 "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Introducir algo por el hueco de otra cosa.",
                 "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "meter, introducir."
+                    },
                     {
                         "type": "Antónimos",
                         "content": "sacar, extraer."
@@ -45541,34 +45607,39 @@
             },
             {
                 "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "colar (‖ pasar un líquido por una manga)."
+                "type": "verbo transitivo",
+                "definition": "pasar un líquido por una manga, un cedazo o un paño.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "colar."
+                    }
+                ]
             },
             {
                 "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Cerner, cribar, tamizar."
             },
             {
                 "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Deglutir, tragar la comida o la bebida."
             },
             {
                 "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Estar durante un tiempo determinado en un lugar o en una situación."
             },
             {
                 "number": "17",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "No poner reparo, censura o tacha en algo.",
                 "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "aprobar."
+                    },
                     {
                         "type": "Antónimos",
                         "content": "rechazar, desaprobar."
@@ -45577,74 +45648,75 @@
             },
             {
                 "number": "18",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Dicho del poder temporal: Dar o conceder el pase a las bulas, breves o decretos pontificios."
             },
             {
                 "number": "19",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Callar u omitir algo de lo que se debía decir o tratar."
+                "type": "verbo transitivo",
+                "definition": "Callar u omitir algo de lo que se debía decir o tratar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "callar, omitir, ocultar."
+                    }
+                ]
             },
             {
                 "number": "20",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Disimular o no darse por enterado de algo."
+                "type": "verbo transitivo",
+                "definition": "Disimular o no darse por enterado de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "disimular, esconder, transigir, olvidar."
+                    }
+                ]
             },
             {
                 "number": "21",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Dicho de un estudiante: Recorrer la lección, o repasarla para decirla."
             },
             {
                 "number": "22",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Recorrer, leyendo o estudiando, un libro o tratado."
             },
             {
                 "number": "23",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Leer o estudiar sin reflexión."
             },
             {
                 "number": "24",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Rezar sin devoción o sin atención."
             },
             {
                 "number": "25",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Desecar algo al sol, o al aire o con lejía."
             },
             {
                 "number": "26",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Proyectar una película cinematográfica."
             },
             {
                 "number": "27",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Dicho de un jugador: Entregar la pelota a otro de su mismo equipo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "tocar1."
+                        "content": "tocar."
                     }
                 ]
             },
             {
                 "number": "28",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de algo que se contagia o de otras cosas: Extenderse o comunicarse de unos a otros.",
                 "definition_extra": [
                     {
@@ -45655,176 +45727,147 @@
             },
             {
                 "number": "29",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Mudarse, trocarse o convertirse en otra, mejorándose o empeorándose."
             },
             {
                 "number": "30",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Tener lo necesario para vivir."
             },
             {
                 "number": "31",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "En algunos juegos de naipes, no entrar."
-            },
-            {
-                "number": "32",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "En el dominó y algunos juegos de naipes, como el cinquillo, dejar correr el turno sin poner por no tener ficha o carta adecuadas."
-            },
-            {
-                "number": "33",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Conceder graciosamente algo."
-            },
-            {
-                "number": "34",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa inmaterial: Tener movimiento o correr de una parte a otra."
-            },
-            {
-                "number": "35",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Proceder a una acción o a un lugar."
-            },
-            {
-                "number": "36",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "morir (‖ llegar al término de la vida). siempre con alguna otra voz que determina la significación."
-            },
-            {
-                "number": "37",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una mercadería o de un género vendible: Valer o tener precio."
-            },
-            {
-                "number": "38",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Vivir, tener salud."
-            },
-            {
-                "number": "39",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de la moneda: Ser admitida sin reparo o por el valor que le está señalado."
-            },
-            {
-                "number": "40",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de aquello que se podría gastar: Durar o mantenerse."
-            },
-            {
-                "number": "41",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: cesar (‖ interrumpirse o acabarse).",
+                "type": "verbo intransitivo",
+                "definition": "En algunos juegos de naipes, no entrar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "acabar, cesar, terminar, finalizar."
+                        "content": "renunciar."
                     }
                 ]
             },
             {
-                "number": "42",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un asunto: Ser tratado o manejado por alguien. Se usa hablando de los escribanos y notarios ante quienes se otorgan los instrumentos."
+                "number": "32",
+                "type": "verbo intransitivo",
+                "definition": "En el dominó y algunos juegos de naipes, como el cinquillo, dejar correr el turno sin poner por no tener ficha o carta adecuadas."
             },
             {
-                "number": "43",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "33",
+                "type": "verbo intransitivo",
+                "definition": "Conceder graciosamente algo."
+            },
+            {
+                "number": "34",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una cosa inmaterial: Tener movimiento o correr de una parte a otra."
+            },
+            {
+                "number": "35",
+                "type": "verbo intransitivo",
+                "definition": "Proceder a una acción o a un lugar."
+            },
+            {
+                "number": "36",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una mercadería o de un género vendible: Valer o tener precio."
+            },
+            {
+                "number": "37",
+                "type": "verbo intransitivo",
+                "definition": "Vivir, tener salud."
+            },
+            {
+                "number": "38",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de la moneda: Ser admitida sin reparo o por el valor que le está señalado."
+            },
+            {
+                "number": "39",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de aquello que se podría gastar: Durar o mantenerse."
+            },
+            {
+                "number": "40",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una cosa: Interrumpirse o acabarse.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "acabar, finalizar, cesar, terminar."
+                    }
+                ]
+            },
+            {
+                "number": "41",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de un asunto: Ser tratado o manejado por alguien."
+            },
+            {
+                "number": "42",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Ofrecerse ligeramente al discurso o a la imaginación."
             },
             {
-                "number": "44",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "43",
+                "type": "verbo intransitivo",
                 "definition": "Ser tenido en determinado concepto u opinión."
             },
             {
-                "number": "45",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "44",
+                "type": "verbo intransitivo",
                 "definition": "No necesitar algo."
             },
             {
-                "number": "46",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "45",
+                "type": "verbo intransitivo",
                 "definition": "Ir al punto que se designa, para cumplir un encargo o enterarse de un asunto."
             },
             {
-                "number": "47",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "46",
+                "type": "verbo intransitivo",
                 "definition": "Sufrir, tolerar algo."
             },
             {
-                "number": "48",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "47",
+                "type": "verbo intransitivo",
                 "definition": "Ocurrir, acontecer, suceder.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "ocurrir, suceder, acontecer1, acaecer1, sobrevenir."
+                        "content": "ocurrir, suceder, acontecer, acaecer, sobrevenir."
+                    }
+                ]
+            },
+            {
+                "number": "48",
+                "type": "verbo intransitivo",
+                "definition": "Mostrar desinterés o desprecio por alguien o por algo.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "desentenderse, despreocuparse, descolgarse."
                     }
                 ]
             },
             {
                 "number": "49",
-                "type": "verbo",
-                "definition": "Mostrar desinterés o desprecio por alguien o por algo.",
-                "type_extra": "colloquial, sin verificar",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "renunciar, desentenderse, despreocuparse, descolgarse."
-                    }
-                ]
-            },
-            {
-                "number": "50",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Tomar un partido contrario al que antes se tenía, o ponerse de la parte opuesta."
             },
             {
-                "number": "51",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Acabarse o dejar de ser.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, irse, acabar, palmar1, cascar, espichar, caer, pelarse, petatearse, sonar1, ñampiarse."
-                    }
-                ]
+                "number": "50",
+                "type": "verbo pronominal",
+                "definition": "Acabarse o dejar de ser."
             },
             {
-                "number": "52",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "51",
+                "type": "verbo pronominal",
                 "definition": "Olvidarse o borrarse de la memoria algo."
             },
             {
-                "number": "53",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "52",
+                "type": "verbo pronominal",
                 "definition": "Dicho de la fruta, de la carne o de algo semejante: Perder la sazón o empezarse a pudrir.",
                 "definition_extra": [
                     {
@@ -45834,70 +45877,74 @@
                 ]
             },
             {
-                "number": "54",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "53",
+                "type": "verbo pronominal",
                 "definition": "Dicho de algunas cosas: Perderse la ocasión o el tiempo de que logren su actividad en el efecto."
             },
             {
-                "number": "55",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "54",
+                "type": "verbo pronominal",
                 "definition": "Dicho de la lumbre de carbón: Encenderse bien."
             },
             {
-                "number": "56",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "55",
+                "type": "verbo pronominal",
                 "definition": "Exceder en una calidad o propiedad, o usar de ella con demasía."
             },
             {
-                "number": "57",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "56",
+                "type": "verbo pronominal",
                 "definition": "Dejar salir gotas por sus poros, rezumar."
             },
             {
-                "number": "58",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "57",
+                "type": "verbo pronominal",
                 "definition": "Entre los profesores de facultades, exponerse al examen o prueba en el consejo, juntas o universidades, para poder ejercitarlas."
             },
             {
-                "number": "59",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "58",
+                "type": "verbo pronominal",
                 "definition": "En ciertos juegos, hacer más puntos de los que se han fijado para ganar, y en consecuencia perder la partida."
             },
             {
-                "number": "60",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "59",
+                "type": "verbo pronominal",
                 "definition": "Dicho de aquellas cosas que encajan en otras, las aseguran o cierran: Estar flojas o no alcanzar el efecto que se pretende."
             },
             {
-                "number": "61",
-                "type": "verbo",
+                "number": "60",
+                "type": "verbo transitivo",
                 "definition": "Estudiar privadamente con alguien una ciencia o facultad.",
-                "type_extra": "rare, sin verificar"
+                "type_extra": "poco usado"
+            },
+            {
+                "number": "61",
+                "type": "verbo transitivo",
+                "definition": "Asistir al estudio de un abogado o acompañar al médico en sus visitas para adiestrarse en la práctica.",
+                "type_extra": "poco usado"
             },
             {
                 "number": "62",
-                "type": "verbo",
-                "definition": "Asistir al estudio de un abogado o acompañar al médico en sus visitas para adiestrarse en la práctica.",
-                "type_extra": "rare, sin verificar"
+                "type": "verbo transitivo",
+                "definition": "Explicar privadamente una facultad o ciencia a un discípulo.",
+                "type_extra": "poco usado"
             },
             {
                 "number": "63",
-                "type": "verbo",
-                "definition": "Explicar privadamente una facultad o ciencia a un discípulo.",
-                "type_extra": "rare, sin verificar"
+                "type": "verbo transitivo",
+                "definition": "Traspasar, quebrantar leyes, ordenanzas, preceptos, etc.",
+                "type_extra": "desusado"
             },
             {
                 "number": "64",
-                "type": "verbo",
-                "definition": "Traspasar, quebrantar leyes, ordenanzas, preceptos, etc.",
-                "type_extra": "obsolete, sin verificar"
+                "type": "verbo intransitivo",
+                "definition": "morir.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "acabar, apagarse, arrancársele, bajar al sepulcro, botar el pelero, caer, cantar para el carnero, cascar, cerrar el ojo, cerrar los ojos, clavar el cacho, clavar la guampa, colgar las botas, colgar los guantes, colgar los tenis, dar el pellejo, dar fin, dar la pelleja, dar las boqueadas, dejar el cacaste, descoñetar, despichar, diñarla, doblar el cacho, doblar el petate, doblar la cabeza, entregar el equipo, entregarla, entregar la guardia, entregar la zalea, espichar, espicharla, estirar la pata, expirar, fallecer, fenecer, finar, guindar el piojo, guindar el sable, irse al otro barrio, irse al tacho, irse de este mundo, irse de viaje, jetearse, liar el petate, liarlas, llamar Dios, llamar Dios a juicio, marchar, morir, ñampiarse, palmar, palmarla, pegar el riendazo, pelar el ajo, pelarse, pelearse con la huesuda, petatearse, piantarse, picar el tiquete, pringarla, quedar al campo, quedarse, sucumbir, torcer el pescuezo, torcer la cabeza, volar al cielo."
+                    }
+                ]
             }
         ]
     },
@@ -46078,59 +46125,52 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la persona."
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Propio o particular de la persona.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "propio, particular, individual, íntimo, peculiar, privado1, subjetivo."
+                        "content": "propio, propia, particular, individual, íntimo, íntima, peculiar, privado, privada, subjetivo, subjetiva."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "general, público, impersonal."
+                        "content": "general, público, pública, impersonal."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que indica persona gramatical."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Conjunto de las personas que trabajan en un mismo organismo, dependencia, fábrica, taller, etc."
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Capítulo de las cuentas de ciertas oficinas, en que se consigna el gasto del personal de ellas."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Conjunto de personas, gente.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "plantilla, servicio, dotación, empleado, trabajador."
+                        "content": "plantilla, servicio, dotación, empleado, empleada, trabajador, trabajadora."
                     }
                 ]
             },
             {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Conjunto de las personas que trabajan en un mismo organismo, dependencia, fábrica, taller, etc."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Capítulo de las cuentas de ciertas oficinas, en que se consigna el gasto del personal de ellas."
+            },
+            {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "En baloncesto, falta que comete un jugador al tocar o empujar a otro del equipo contrario para impedir una jugada."
             }
         ]
@@ -46372,14 +46412,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Altitud o nivel."
-            },
-            {
-                "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Intención, proyecto.",
                 "definition_extra": [
                     {
@@ -46389,15 +46422,13 @@
                 ]
             },
             {
-                "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "2",
+                "type": "nombre masculino",
                 "definition": "Modelo sistemático de una actuación pública o privada, que se elabora anticipadamente para dirigirla y encauzarla."
             },
             {
-                "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "3",
+                "type": "nombre masculino",
                 "definition": "Escrito en que sumariamente se precisan los detalles para realizar una obra.",
                 "definition_extra": [
                     {
@@ -46407,15 +46438,25 @@
                 ]
             },
             {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Actitud o propósito.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "actitud, modo, manera."
+                    }
+                ]
+            },
+            {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Dieta, régimen de vida, especialmente alimenticio."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Relación amorosa frívola y fugaz.",
                 "definition_extra": [
                     {
@@ -46426,51 +46467,40 @@
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Persona con la que se tiene un plan (‖ relación amorosa frívola)."
+                "type": "nombre masculino",
+                "definition": "Persona con la que se tiene un plan."
             },
             {
                 "number": "8",
-                "type": "nombre",
-                "definition": "Actitud o propósito.",
-                "type_extra": "colloquial, sin verificar",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "actitud, modo, manera."
-                    }
-                ]
+                "type": "nombre masculino",
+                "definition": "Altitud o nivel."
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "En minería, conjunto de labores a una misma profundidad."
             },
             {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Parte inferior y más ancha del fondo de un buque en la bodega."
             },
             {
                 "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Parte casi horizontal de cada lado de la quilla."
             },
             {
                 "number": "12",
-                "type": "nombre",
+                "type": "nombre masculino",
                 "definition": "Listado nominal o numérico.",
-                "type_extra": "rare, sin verificar"
+                "type_extra": "poco usado"
             },
             {
                 "number": "13",
-                "type": "nombre",
-                "definition": "plano (‖ representación esquemática).",
-                "type_extra": "obsolete, sin verificar"
+                "type": "nombre masculino",
+                "definition": "plano.",
+                "type_extra": "desusado"
             }
         ]
     },
@@ -46479,38 +46509,50 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Lugar ancho y espacioso dentro de un poblado, al que suelen afluir varias calles.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "plazoleta, plazuela, glorieta, rotonda, explanada, zócalo."
+                        "content": "plazoleta, plazuela, glorieta, explanada, zócalo."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Lugar donde se venden artículos diversos, se tiene el trato común con los vecinos, y se celebran las ferias, los mercados y las fiestas públicas.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "mercado, lonja2, zoco2, foro, coso1, ruedo, albero."
+                        "content": "mercado, lonja, zoco, foro, coso, ruedo, albero, plaza de abastos."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Lugar fortificado con muros, reparos, baluartes, etc., para que la gente se pueda defender del enemigo."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
+                "definition": "plaza de toros.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "coso, ruedo, albero, plaza de toros."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Espacio, sitio o lugar."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
                 "definition": "Sitio determinado para una persona o cosa, en el que cabe, con otras de su especie.",
                 "definition_extra": [
                     {
@@ -46520,15 +46562,8 @@
                 ]
             },
             {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Espacio, sitio o lugar."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "7",
+                "type": "nombre femenino",
                 "definition": "Cargo, ocupación, puesto o empleo.",
                 "definition_extra": [
                     {
@@ -46538,15 +46573,8 @@
                 ]
             },
             {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Asiento que se hace en los libros acerca del que voluntariamente se presenta para servir de soldado."
-            },
-            {
                 "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Población en que se hacen operaciones considerables de comercio al por mayor, y principalmente de giro.",
                 "definition_extra": [
                     {
@@ -46557,27 +46585,29 @@
             },
             {
                 "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Gremio o reunión de negociantes de una plaza de comercio."
             },
             {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
+                "definition": "Asiento que se hace en los libros acerca del que voluntariamente se presenta para servir de soldado."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
                 "definition": "Suelo del horno.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "hornera."
+                        "content": "hornera, solera."
                     }
                 ]
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "interjección",
-                "type_extra": "sin verificar",
-                "definition": "cuando salía el rey o en otras ocasiones de gran concurso para mandar a la gente que dejara libre el paso."
+                "definition": "Era usado cuando salía el rey o en otras ocasiones de gran concurso para mandar a la gente que dejara libre el paso."
             }
         ]
     },
@@ -46722,52 +46752,47 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al pueblo."
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que es peculiar del pueblo o procede de él.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "folclórico, tradicional."
+                        "content": "folclórico, folclórica, tradicional."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a la parte menos favorecida del pueblo."
             },
             {
                 "number": "4",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que está al alcance de la gente con menos recursos económicos o con menos desarrollo cultural.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "económico, barato, asequible."
+                        "content": "económico, económica, barato, barata, asequible."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "caro, inasequible, prohibitivo."
+                        "content": "caro, cara, inasequible, prohibitivo, prohibitiva."
                     }
                 ]
             },
             {
                 "number": "5",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que es estimado o, al menos, conocido por el público en general.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "conocido, famoso, célebre, afamado1, renombrado, nombrado, ilustre, insigne."
+                        "content": "conocido, conocida, famoso, famosa, célebre, afamado, afamada, renombrado, renombrada, nombrado, nombrada, ilustre, insigne."
                     },
                     {
                         "type": "Antónimos",
@@ -46783,164 +46808,156 @@
             {
                 "number": "1",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Indica el agente en las oraciones en pasiva."
             },
             {
                 "number": "2",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Ante topónimos, denota tránsito por el lugar indicado."
             },
             {
                 "number": "3",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Ante topónimos, indica localización aproximada."
             },
             {
                 "number": "4",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota parte o lugar concretos."
             },
             {
                 "number": "5",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Se junta con los nombres de tiempo, determinándolo."
             },
             {
                 "number": "6",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "En clase o calidad de."
             },
             {
                 "number": "7",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota causa."
             },
             {
                 "number": "8",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota el medio de ejecutar algo."
             },
             {
                 "number": "9",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota el modo de ejecutar algo."
             },
             {
                 "number": "10",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota precio o cuantía."
             },
             {
                 "number": "11",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "A favor o en defensa de alguien o de algo."
             },
             {
                 "number": "12",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "En sustitución de alguien o de algo."
             },
             {
                 "number": "13",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "En juicio u opinión de."
             },
             {
                 "number": "14",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Junto con algunos nombres, denota que se da o reparte con igualdad algo."
             },
             {
                 "number": "15",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota multiplicación de números."
             },
             {
                 "number": "16",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota proporción."
             },
             {
                 "number": "17",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "para comparar entre sí dos o más cosas."
+                "definition": "Usado para comparar entre sí dos o más cosas."
             },
             {
                 "number": "18",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Denota idea de compensación o equivalencia."
             },
             {
                 "number": "19",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "En orden a, acerca de."
             },
             {
                 "number": "20",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "a través de (‖ pasando de un lado al otro)."
+                "definition": "Pasando de un lado a otro de.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "a través de."
+                    }
+                ]
             },
             {
                 "number": "21",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "sin (‖ denota carencia o falta)."
+                "definition": "Denota carencia o falta de algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "sin."
+                    }
+                ]
             },
             {
                 "number": "22",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "en lugar de la preposición a y el verbo traer u otro."
+                "definition": "Usado en lugar de la preposición a y el verbo traer u otro."
             },
             {
                 "number": "23",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Con ciertos infinitivos, para (‖ denota el fin)."
+                "definition": "Con ciertos infinitivos, denota el fin o término a que se encamina una acción.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "para."
+                    }
+                ]
             },
             {
                 "number": "24",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Con ciertos infinitivos, denota la acción futura de estos verbos."
             },
             {
                 "number": "25",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Detrás de un verbo, y delante del infinitivo de ese mismo verbo, denota falta de utilidad."
             },
             {
                 "number": "26",
                 "type": "preposición",
-                "type_extra": "sin verificar",
                 "definition": "Precedida de no, o seguida de un adjetivo o un adverbio y de que, tiene valor concesivo."
             },
             {
                 "number": "27",
                 "type": "preposición",
-                "definition": "¿Por qué? para preguntar por la causa de algo.",
-                "type_extra": "colloquial, sin verificar"
+                "definition": "¿Por qué?.",
+                "type_extra": "coloquial"
             }
         ]
     },
@@ -47220,71 +47237,74 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona o de una cosa: Que tiene el primer lugar en estimación o importancia y se antepone y prefiere a otras.",
+                "definition": "Dicho de una persona o de una cosa, que tiene el primer lugar en estimación o importancia y se antepone y prefiere a otras.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "primordial, fundamental, esencial, importante, básico, troncal."
+                        "content": "primordial, fundamental, esencial, importante, básico, básica, troncal."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "secundario."
+                        "content": "secundario, secundaria."
                     }
                 ]
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: Que es la primera en un negocio o en cuya cabeza está.",
+                "definition": "Esencial o fundamental, por oposición a accesorio.",
                 "definition_extra": [
                     {
-                        "type": "Sinónimos",
-                        "content": "jefe, superior, encargado, gerente, cabeza."
+                        "type": "Antónimos",
+                        "content": "accesorio, accesoria."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Esencial o fundamental, por oposición a accesorio.",
+                "definition": "Dicho de una persona, que es la primera en un negocio o en cuya cabeza está.",
                 "definition_extra": [
                     {
-                        "type": "Antónimos",
-                        "content": "accesorio."
+                        "type": "Sinónimos",
+                        "content": "jefe, jefa, superior, superiora, encargado, encargada, gerente, gerenta, cabeza."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un piso de un edificio: Que está sobre el bajo o el entresuelo."
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En las plazas de armas, cuerpo de guardia encargado de ayudar a las providencias de policía o de justicia, y de comunicar diariamente la orden y el santo a los demás puestos de guardia de la guarnición."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Capital de una obligación o censo, en contraposición a rédito, pensión o canon."
-            },
-            {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Jefe de una casa de comercio, fábrica, almacén, etc."
             },
             {
-                "number": "8",
+                "number": "5",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
+                "definition": "Dicho de un piso de un edificio, que está sobre el bajo o el entresuelo."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "En las plazas de armas, cuerpo de guardia encargado de ayudar a las providencias de policía o de justicia, y de comunicar diariamente la orden y el santo a los demás puestos de guardia de la guarnición."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Capital de una obligación o censo, en contraposición a rédito, pensión o canon."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Persona que da poder o facultades a otra para que la represente en juicio o fuera de él.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "poderdante."
+                    }
+                ]
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
                 "definition": "prínceps.",
                 "definition_extra": [
                     {
@@ -47294,22 +47314,10 @@
                 ]
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "adjetivo",
                 "definition": "Ilustre, esclarecido en nobleza.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "poderdante.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "poderdante."
-                    }
-                ]
+                "type_extra": "desusado"
             }
         ]
     },

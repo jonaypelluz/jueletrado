@@ -33370,157 +33370,134 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Precede al complemento directo cuando este es de persona determinada o está de algún modo personificado.",
-                "level": "beginner"
+                "type": "nombre femenino",
+                "definition": "Primera letra del abecedario español, que representa el fonema vocálico abierto central."
             },
             {
                 "number": "2",
-                "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Precede al complemento indirecto.",
-                "level": "beginner"
+                "type": "nombre femenino",
+                "definition": "Sonido que representa la letra a."
             },
             {
                 "number": "3",
-                "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Introduce un complemento regido por determinados verbos, adjetivos y nombres.",
-                "level": "beginner"
+                "type": "nombre femenino",
+                "definition": "En la lógica escolástica, letra que representa la proposición universal afirmativa."
             },
             {
                 "number": "4",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Indica la dirección que lleva o el término a que se encamina alguien o algo.",
-                "level": "beginner"
+                "definition": "Precede al complemento directo cuando este es de persona determinada o está de algún modo personificado."
             },
             {
                 "number": "5",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Indica una orden o exhortación.",
-                "level": "beginner"
+                "definition": "Precede al complemento indirecto."
             },
             {
                 "number": "6",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Precisa el lugar o tiempo en que sucede algo.",
-                "level": "beginner"
+                "definition": "Introduce un complemento regido por determinados verbos, adjetivos y nombres."
             },
             {
                 "number": "7",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Indica la situación de alguien o algo.",
-                "level": "beginner"
+                "definition": "Indica la dirección que lleva o el término a que se encamina alguien o algo."
             },
             {
                 "number": "8",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Indica el término de un intervalo de lugar o de tiempo que media entre dos cosas.",
-                "level": "beginner"
+                "definition": "Indica una orden o exhortación."
             },
             {
                 "number": "9",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Denota el modo de la acción.",
-                "level": "beginner"
+                "definition": "Precisa el lugar o tiempo en que sucede algo."
             },
             {
                 "number": "10",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Precede a la designación del precio de las cosas.",
-                "level": "beginner"
+                "definition": "Indica la situación de alguien o algo."
             },
             {
                 "number": "11",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Indica distribución o cuenta proporcional.",
-                "level": "beginner"
+                "definition": "Indica el término de un intervalo de lugar o de tiempo que media entre dos cosas."
             },
             {
                 "number": "12",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Ante infinitivo, en expresiones de sentido condicional, equivale a la conjunción si con indicativo o subjuntivo.",
-                "level": "beginner"
+                "definition": "Denota el modo de la acción."
             },
             {
                 "number": "13",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "junto a.",
-                "level": "beginner"
+                "definition": "Precede a la designación del precio de las cosas."
             },
             {
                 "number": "14",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Da principio a muchas locuciones adverbiales.",
-                "level": "beginner"
+                "definition": "Indica distribución o cuenta proporcional."
             },
             {
                 "number": "15",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "Precede a la conjunción que en fórmulas interrogativas con una idea implícita de apuesta o desafío.",
-                "level": "beginner"
+                "definition": "Ante infinitivo, en expresiones de sentido condicional, equivale a la conjunción si con indicativo o subjuntivo."
             },
             {
                 "number": "16",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "ante2.",
-                "level": "beginner"
+                "definition": "junto a.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cerca de, junto a."
+                    }
+                ]
             },
             {
                 "number": "17",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "con.",
-                "level": "beginner"
+                "definition": "Da principio a muchas locuciones adverbiales."
             },
             {
                 "number": "18",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "hacia.",
-                "level": "beginner"
+                "definition": "Precede a la conjunción que en fórmulas interrogativas con una idea implícita de apuesta o desafío."
             },
             {
                 "number": "19",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "hasta.",
-                "level": "beginner"
+                "definition": "ante."
             },
             {
                 "number": "20",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "para.",
-                "level": "beginner"
+                "definition": "con."
             },
             {
                 "number": "21",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "por.",
-                "level": "beginner"
+                "definition": "hacia."
             },
             {
                 "number": "22",
                 "type": "preposición",
-                "type_extra": "sin verificar",
-                "definition": "según.",
-                "level": "beginner"
+                "definition": "hasta."
+            },
+            {
+                "number": "23",
+                "type": "preposición",
+                "definition": "para."
+            },
+            {
+                "number": "24",
+                "type": "preposición",
+                "definition": "por."
+            },
+            {
+                "number": "25",
+                "type": "preposición",
+                "definition": "según."
             }
         ]
     },
@@ -33529,42 +33506,33 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En este lugar o cerca de él.",
-                "level": "beginner"
+                "type": "adverbio",
+                "definition": "En este lugar o cerca de él."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "A este lugar o cerca de él.",
-                "level": "beginner"
+                "type": "adverbio",
+                "definition": "A este lugar o cerca de él."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Este lugar o el área próxima.",
-                "level": "beginner"
+                "type": "adverbio",
+                "definition": "Este lugar o el área próxima."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Hasta ahora. tras un complemento de tiempo introducido por de o desde, que señala el comienzo de un intervalo.",
-                "level": "beginner"
+                "type": "adverbio",
+                "definition": "Hasta ahora."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "definition": "este (‖ persona presente).",
-                "level": "beginner",
-                "type_extra": "colloquial, sin verificar",
+                "type": "pronombre",
+                "definition": "La persona presente o consabida.",
+                "type_extra": "coloquial",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "este2."
+                        "content": "este, esta."
                     }
                 ]
             }
@@ -33764,43 +33732,37 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho del tiempo en que se está: presente.",
-                "level": "beginner",
+                "definition": "Dicho del tiempo, que es aquel en que está quien habla.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "presente, contemporáneo, coetáneo, reciente, moderno, vigente, existente."
+                        "content": "contemporáneo, contemporánea, coetáneo, coetánea, reciente, moderno, moderna, vigente, existente, presente."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "pasado."
+                        "content": "pasado, pasada."
                     }
                 ]
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo al tiempo actual.",
-                "level": "beginner",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "presente, contemporáneo, coetáneo, reciente, moderno, vigente, existente."
+                        "content": "contemporáneo, contemporánea, coetáneo, coetánea, reciente, moderno, moderna, vigente, existente."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "antiguo, inactual."
+                        "content": "antiguo, antigua, inactual."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un período geológico: Que es el más reciente, iniciado hace unos 8000 o 10 000 años.",
-                "level": "beginner"
+                "definition": "Dicho de un período geológico, que es el más reciente, iniciado hace unos 8000 o 10 000 años."
             }
         ]
     },
@@ -33810,9 +33772,7 @@
             {
                 "number": "1",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "para introducir información que se añade a la ya presentada.",
-                "level": "beginner",
+                "definition": "Usado para introducir información que se añade a la ya presentada.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -33824,8 +33784,13 @@
                 "number": "2",
                 "type": "adverbio",
                 "definition": "Con demasía o exceso.",
-                "level": "beginner",
-                "type_extra": "rare, sin verificar"
+                "type_extra": "poco usado",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "valientemente."
+                    }
+                ]
             }
         ]
     },
@@ -33835,9 +33800,8 @@
             {
                 "number": "1",
                 "type": "nombre",
-                "type_extra": "sin verificar",
                 "definition": "A el; p. ej., vamos al cine, por vamos a el cine.",
-                "level": "beginner"
+                "type_extra": "sin verificar"
             }
         ]
     },
@@ -33949,317 +33913,81 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Detención o parada en la marcha o cualquier otra actividad.",
-                "level": "beginner",
+                "type": "adjetivo",
+                "definition": "Levantado, elevado sobre la tierra.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "parada1, pausa, stop, detención, interrupción."
+                        "content": "prominente, elevado, elevada, encumbrado, encumbrada."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "definition": "Señal de tráfico que indica a los conductores la obligación de detenerse.",
-                "level": "beginner",
+                "type": "adjetivo",
+                "definition": "De gran estatura.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "stop."
-                    }
-                ],
-                "type_extra": "colloquial, sin verificar"
-            },
-            {
-                "number": "3",
-                "type": "interjección",
-                "type_extra": "sin verificar",
-                "definition": "para ordenar a alguien que se detenga o que suspenda lo que está haciendo.",
-                "level": "beginner",
-                "definition_extra": [
+                        "content": "grande, espigado, espigada, talludo, talluda."
+                    },
                     {
-                        "type": "Sinónimos",
-                        "content": "stop."
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
                     }
                 ]
             },
             {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Más elevado en relación con otro término inferior."
+            },
+            {
                 "number": "4",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho del calzado: Que tiene tacón de gran altura.",
-                "level": "beginner",
+                "definition": "Dicho de una calle, de un pueblo, de un territorio o de un país, que está más elevado con respecto a otro.",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
-                        "content": "bajo."
+                        "content": "bajo, baja."
                     }
                 ]
             },
             {
                 "number": "5",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una calle, de un pueblo, de un territorio o de un país: Que está más elevado con respecto a otro.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
+                "definition": "Dicho de una persona, que habita un lugar que está más elevado con respecto a otro."
             },
             {
                 "number": "6",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: Que habita un lugar que está más elevado con respecto a otro.",
-                "level": "beginner"
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que está a gran altitud.",
-                "level": "beginner",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
-                        "content": "bajo."
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Medida de un cuerpo o de una figura considerada verticalmente desde su punto más elevado hasta su base.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "alzada, alteza, altitud, altor, altura."
                     }
                 ]
             },
             {
                 "number": "8",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un río o de otra corriente de agua: Que está cerca del nacimiento.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
-            },
-            {
-                "number": "9",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un río o de un arroyo: Muy crecido.",
-                "level": "beginner"
-            },
-            {
-                "number": "10",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de la mar: Que está encrespada.",
-                "level": "beginner"
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un determinado período histórico: Que está en sus primeras etapas.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
-            },
-            {
-                "number": "12",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: De gran dignidad o representación.",
-                "level": "beginner"
-            },
-            {
-                "number": "13",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Noble, elevada, santa, excelente.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "excelente, superior, eminente, levantado."
-                    }
-                ]
-            },
-            {
-                "number": "14",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un empleo o dignidad: De superior categoría o condición.",
-                "level": "beginner"
-            },
-            {
-                "number": "15",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una clase social o del lugar en que se establece: Opulenta, acomodada.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
-            },
-            {
-                "number": "16",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Arduo, difícil de alcanzar, comprender o ejecutar.",
-                "level": "beginner"
-            },
-            {
-                "number": "17",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un delito o de una ofensa: Gravísimo, enorme.",
-                "level": "beginner"
-            },
-            {
-                "number": "18",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho del precio de las cosas: Caro o subido.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "caro, costoso."
-                    },
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
-            },
-            {
-                "number": "19",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un sonido: De mucha intensidad.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "fuerte, intenso."
-                    },
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
-            },
-            {
-                "number": "20",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una fiesta movible o de la Cuaresma: Que cae más tarde que en otros años.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
-            },
-            {
-                "number": "21",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un período de tiempo: Avanzado o próximo a su fin.",
-                "level": "beginner"
-            },
-            {
-                "number": "22",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un animal hembra: En celo.",
-                "level": "beginner"
-            },
-            {
-                "number": "23",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un sonido: agudo (‖ que tiene frecuencia alta de vibraciones).",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "agudo."
-                    },
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo, bajo, grave."
-                    }
-                ]
-            },
-            {
-                "number": "24",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de ciertas magnitudes físicas, como la temperatura, la presión o la frecuencia: Que tienen un valor superior al ordinario.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
-            },
-            {
-                "number": "25",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una vocal: cerrada (‖ que se articula estrechando el paso del aire).",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "cerrado."
-                    },
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo, abierto."
-                    }
-                ]
-            },
-            {
-                "number": "26",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho del calzado: De capellada más larga que la común.",
-                "level": "beginner"
-            },
-            {
-                "number": "27",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "altura (‖ medida de un cuerpo desde su punto más elevado hasta su base).",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "altura, alteza, altitud, altor, alzada."
-                    }
-                ]
-            },
-            {
-                "number": "28",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Sitio elevado en el campo, como un collado o un cerro.",
-                "level": "beginner",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -34268,119 +33996,293 @@
                 ]
             },
             {
-                "number": "29",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Parte superior de algunas cosas.",
-                "level": "beginner"
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Parte superior de algunas cosas."
             },
             {
-                "number": "30",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Piso alto de un edificio.",
-                "level": "beginner"
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Piso alto de un edificio."
             },
             {
-                "number": "31",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cada uno de los distintos órdenes de habitaciones que, sobrepuestos unos a otros, forman un edificio.",
-                "level": "beginner"
+                "number": "11",
+                "type": "nombre masculino",
+                "definition": "Cada uno de los distintos órdenes de habitaciones que, sobrepuestos unos a otros, forman un edificio."
             },
             {
-                "number": "32",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Montón, gran cantidad de cosas.",
-                "level": "beginner"
+                "number": "12",
+                "type": "nombre masculino",
+                "definition": "Piso o pisos altos de una casa, por contraposición a la planta baja."
             },
             {
-                "number": "33",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Piso o pisos altos de una casa, por contraposición a la planta baja.",
-                "level": "beginner"
+                "number": "13",
+                "type": "adverbio",
+                "definition": "En lugar o parte superior.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo."
+                    }
+                ]
             },
             {
-                "number": "34",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Danza antigua cortesana de compás ternario, bailada por un caballero y una dama o por un caballero solo, con varias mudanzas.",
-                "level": "beginner"
+                "number": "14",
+                "type": "adverbio",
+                "definition": "A distancia del suelo o de otra superficie tomada como referencia.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo."
+                    }
+                ]
             },
             {
-                "number": "35",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Ejercicio que se hacía en las escuelas al danzar, bailando algunos pasos de cada danza.",
-                "level": "beginner"
+                "number": "15",
+                "type": "adjetivo",
+                "definition": "Dicho del calzado, que tiene tacón de gran altura.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
             },
             {
-                "number": "36",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "torre (‖ construcción fortificada).",
-                "level": "beginner",
+                "number": "16",
+                "type": "adjetivo",
+                "definition": "Dicho del calzado, de capellada más larga que la común."
+            },
+            {
+                "number": "17",
+                "type": "adjetivo",
+                "definition": "Dicho de un río o de otra corriente de agua, que está cerca del nacimiento.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "18",
+                "type": "adjetivo",
+                "definition": "Dicho de un determinado período histórico, que está en sus primeras etapas.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "19",
+                "type": "adjetivo",
+                "definition": "Dicho de un río o de un arroyo, muy crecido."
+            },
+            {
+                "number": "20",
+                "type": "adjetivo",
+                "definition": "Dicho de la mar, que está encrespada."
+            },
+            {
+                "number": "21",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, de gran dignidad o representación."
+            },
+            {
+                "number": "22",
+                "type": "adjetivo",
+                "definition": "Dicho de una cosa, noble, elevada, santa, excelente.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "torre, burche."
+                        "content": "excelente, superior, eminente, levantado, levantada."
+                    }
+                ]
+            },
+            {
+                "number": "23",
+                "type": "adjetivo",
+                "definition": "Dicho de un empleo o dignidad, de superior categoría o condición."
+            },
+            {
+                "number": "24",
+                "type": "adjetivo",
+                "definition": "Dicho de una clase social o del lugar en que se establece, opulenta, acomodada.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "25",
+                "type": "adjetivo",
+                "definition": "Dicho de un sonido, de mucha intensidad.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fuerte, intenso, intensa."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "26",
+                "type": "adverbio",
+                "definition": "En voz fuerte o que suene bastante.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo."
+                    }
+                ]
+            },
+            {
+                "number": "27",
+                "type": "adverbio",
+                "definition": "Con gran volumen o intensidad de sonido.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo."
+                    }
+                ]
+            },
+            {
+                "number": "28",
+                "type": "adjetivo",
+                "definition": "Dicho de ciertas magnitudes físicas, como la temperatura, la presión o la frecuencia, que tienen un valor superior al ordinario.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "29",
+                "type": "adjetivo",
+                "definition": "Dicho de un sonido, agudo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "agudo, aguda."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja, grave."
+                    }
+                ]
+            },
+            {
+                "number": "30",
+                "type": "adverbio",
+                "definition": "En tono alto.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo."
+                    }
+                ]
+            },
+            {
+                "number": "31",
+                "type": "adjetivo",
+                "definition": "Dicho del precio de las cosas, caro o subido.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "caro, cara, costoso, costosa."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "32",
+                "type": "adjetivo",
+                "definition": "Arduo, difícil de alcanzar, comprender o ejecutar."
+            },
+            {
+                "number": "33",
+                "type": "adjetivo",
+                "definition": "Dicho de un período de tiempo, avanzado o próximo a su fin."
+            },
+            {
+                "number": "34",
+                "type": "adjetivo",
+                "definition": "Dicho de una vocal, cerrada.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cerrado, cerrada."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja, abierto, abierta."
+                    }
+                ]
+            },
+            {
+                "number": "35",
+                "type": "adjetivo",
+                "definition": "Dicho de una fiesta movible o de la Cuaresma, que cae más tarde que en otros años.",
+                "definition_extra": [
+                    {
+                        "type": "Antónimos",
+                        "content": "bajo, baja."
+                    }
+                ]
+            },
+            {
+                "number": "36",
+                "type": "adjetivo",
+                "definition": "Dicho de un animal hembra, que está en celo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "alborotada, albureada, alunada, botionda, butionda, cachonda, descompuesta, embramada, morionda, salida, torionda, verrionda."
                     }
                 ]
             },
             {
                 "number": "37",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "torre (‖ edificio más alto que ancho).",
-                "level": "beginner",
+                "type": "nombre masculino",
+                "definition": "Gran cantidad de cosas.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "torre, burche."
+                        "content": "buen rato, carretada, este mundo y el otro, pencazal, pencazo, penco, tipiquil, vergazo."
                     }
                 ]
             },
             {
                 "number": "38",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Asalto público.",
-                "level": "beginner"
+                "type": "nombre femenino",
+                "definition": "Danza antigua cortesana de compás ternario, bailada por un caballero y una dama o por un caballero solo, con varias mudanzas."
             },
             {
                 "number": "39",
-                "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "En lugar o parte superior.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
+                "type": "nombre femenino",
+                "definition": "Ejercicio que se hacía en las escuelas al danzar, bailando algunos pasos de cada danza."
             },
             {
                 "number": "40",
-                "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "A distancia del suelo o de otra superficie tomada como referencia.",
-                "level": "beginner",
-                "definition_extra": [
-                    {
-                        "type": "Antónimos",
-                        "content": "bajo."
-                    }
-                ]
+                "type": "nombre femenino",
+                "definition": "Asalto público."
             },
             {
                 "number": "41",
                 "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "En voz fuerte o que suene bastante.",
-                "level": "beginner",
+                "definition": "Con nota o calificación alta.",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -34390,49 +34292,53 @@
             },
             {
                 "number": "42",
-                "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "Con gran volumen o intensidad de sonido.",
-                "level": "beginner",
+                "type": "nombre masculino",
+                "definition": "Detención o parada en la marcha o cualquier otra actividad.",
                 "definition_extra": [
                     {
-                        "type": "Antónimos",
-                        "content": "bajo."
+                        "type": "Sinónimos",
+                        "content": "parada, pausa, detención, interrupción, stop."
                     }
                 ]
             },
             {
                 "number": "43",
-                "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "En tono alto (‖ agudo).",
-                "level": "beginner",
+                "type": "interjección",
+                "definition": "Usado para ordenar a alguien que se detenga o que suspenda lo que está haciendo.",
                 "definition_extra": [
                     {
-                        "type": "Antónimos",
-                        "content": "bajo."
+                        "type": "Sinónimos",
+                        "content": "stop."
                     }
                 ]
             },
             {
                 "number": "44",
-                "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "Con nota o calificación alta.",
-                "level": "beginner",
+                "type": "nombre masculino",
+                "definition": "Señal de tráfico, adoptada internacionalmente, que indica a los conductores la obligación de detenerse.",
                 "definition_extra": [
                     {
-                        "type": "Antónimos",
-                        "content": "bajo."
+                        "type": "Sinónimos",
+                        "content": "pare, stop."
                     }
                 ]
             },
             {
                 "number": "45",
-                "type": "nombre",
-                "definition": "viola1.",
-                "level": "beginner",
-                "type_extra": "rare, sin verificar"
+                "type": "nombre masculino",
+                "definition": "viola.",
+                "type_extra": "poco usado"
+            },
+            {
+                "number": "46",
+                "type": "nombre femenino",
+                "definition": "torre.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "burche, torre."
+                    }
+                ]
             }
         ]
     },
