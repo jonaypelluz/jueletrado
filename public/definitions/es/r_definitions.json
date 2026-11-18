@@ -561,17 +561,17 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "rabión."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
                 "definition": "tren rápido."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "adverbio",
                 "definition": "rápidamente (con celeridad). Volved rápido a casa."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "rabión."
             }
         ]
     },
@@ -648,17 +648,17 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "rabión."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
                 "definition": "tren rápido."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "adverbio",
                 "definition": "rápidamente (con celeridad). Volved rápido a casa."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "rabión."
             }
         ]
     },
@@ -687,17 +687,17 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "rabión."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
                 "definition": "tren rápido."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "adverbio",
                 "definition": "rápidamente (con celeridad). Volved rápido a casa."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "rabión."
             }
         ]
     },
@@ -3411,22 +3411,22 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "antesala."
+                "definition": "Sala principal."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Sala principal."
+                "definition": "Pieza que da entrada a cada uno de los cuartos habitados."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Pieza que da entrada a cada uno de los cuartos habitados."
+                "definition": "Visita general en que una persona recibe a todas las de su amistad."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "definition": "Visita general en que una persona recibe a todas las de su amistad."
+                "definition": "antesala."
             }
         ]
     },
@@ -3590,15 +3590,15 @@
             },
             {
                 "number": "7",
-                "type": "verbo intransitivo",
-                "type_extra": "poético o poética",
-                "definition": "resonar."
-            },
-            {
-                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Usado también como transitivo",
                 "definition": "Dicho de ciertas aves de la misma especie: Llamarse unas a otras."
+            },
+            {
+                "number": "8",
+                "type": "verbo intransitivo",
+                "type_extra": "poético o poética",
+                "definition": "resonar."
             }
         ]
     },
@@ -3644,15 +3644,15 @@
             },
             {
                 "number": "7",
-                "type": "verbo intransitivo",
-                "type_extra": "poético o poética",
-                "definition": "resonar."
-            },
-            {
-                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Usado también como transitivo",
                 "definition": "Dicho de ciertas aves de la misma especie: Llamarse unas a otras."
+            },
+            {
+                "number": "8",
+                "type": "verbo intransitivo",
+                "type_extra": "poético o poética",
+                "definition": "resonar."
             }
         ]
     },
@@ -3698,15 +3698,15 @@
             },
             {
                 "number": "7",
-                "type": "verbo intransitivo",
-                "type_extra": "poético o poética",
-                "definition": "resonar."
-            },
-            {
-                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Usado también como transitivo",
                 "definition": "Dicho de ciertas aves de la misma especie: Llamarse unas a otras."
+            },
+            {
+                "number": "8",
+                "type": "verbo intransitivo",
+                "type_extra": "poético o poética",
+                "definition": "resonar."
             }
         ]
     },
@@ -4575,44 +4575,44 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
+                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
+                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
+                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
+                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
+                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
-            },
-            {
-                "number": "11",
-                "type": "verbo transitivo",
                 "definition": "Dicho de una persona: Aceptar legalmente que otra es su hija. Reconoció a Luis por hijo suyo."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "verbo pronominal",
                 "type_extra": "Biología, etcétera",
                 "definition": "Dicho de dos moléculas o agrupaciones moleculares: Interaccionar específicamente, dando origen a funciones biológicas determinadas, como la acción hormonal, la transmisión nerviosa, la inmunidad."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
             }
         ]
     },
@@ -4651,44 +4651,44 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
+                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
+                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
+                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
+                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
+                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
-            },
-            {
-                "number": "11",
-                "type": "verbo transitivo",
                 "definition": "Dicho de una persona: Aceptar legalmente que otra es su hija. Reconoció a Luis por hijo suyo."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "verbo pronominal",
                 "type_extra": "Biología, etcétera",
                 "definition": "Dicho de dos moléculas o agrupaciones moleculares: Interaccionar específicamente, dando origen a funciones biológicas determinadas, como la acción hormonal, la transmisión nerviosa, la inmunidad."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
             }
         ]
     },
@@ -4727,44 +4727,44 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
+                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
+                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
+                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
+                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
+                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
-            },
-            {
-                "number": "11",
-                "type": "verbo transitivo",
                 "definition": "Dicho de una persona: Aceptar legalmente que otra es su hija. Reconoció a Luis por hijo suyo."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "verbo pronominal",
                 "type_extra": "Biología, etcétera",
                 "definition": "Dicho de dos moléculas o agrupaciones moleculares: Interaccionar específicamente, dando origen a funciones biológicas determinadas, como la acción hormonal, la transmisión nerviosa, la inmunidad."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
             }
         ]
     },
@@ -4803,44 +4803,44 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
+                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
+                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
+                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
+                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
+                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
-            },
-            {
-                "number": "11",
-                "type": "verbo transitivo",
                 "definition": "Dicho de una persona: Aceptar legalmente que otra es su hija. Reconoció a Luis por hijo suyo."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "verbo pronominal",
                 "type_extra": "Biología, etcétera",
                 "definition": "Dicho de dos moléculas o agrupaciones moleculares: Interaccionar específicamente, dando origen a funciones biológicas determinadas, como la acción hormonal, la transmisión nerviosa, la inmunidad."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
             }
         ]
     },
@@ -4943,44 +4943,44 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
+                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "En las relaciones internacionales, aceptar un nuevo régimen o Gobierno. Europa reconoce la soberanía del nuevo Estado."
+                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar algo como legítimo. La Constitución reconoce el derecho a la enseñanza."
+                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Admitir o aceptar que alguien o algo tiene determinada cualidad o condición. Fue reconocido rey de su pueblo. Lo reconozco como jefe."
+                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Admitir como cierto algo. Juan reconoció que se había equivocado."
+                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Agradecer un beneficio o un favor recibidos. Les reconocieron su abnegada dedicación a los jóvenes."
-            },
-            {
-                "number": "11",
-                "type": "verbo transitivo",
                 "definition": "Dicho de una persona: Aceptar legalmente que otra es su hija. Reconoció a Luis por hijo suyo."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "verbo pronominal",
                 "type_extra": "Biología, etcétera",
                 "definition": "Dicho de dos moléculas o agrupaciones moleculares: Interaccionar específicamente, dando origen a funciones biológicas determinadas, como la acción hormonal, la transmisión nerviosa, la inmunidad."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "registrar (examinar para encontrar algo). Encontraron heroína al reconocer el equipaje."
             }
         ]
     },
@@ -5246,14 +5246,14 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "type_extra": "México",
-                "definition": "murmuración."
+                "type_extra": "plural",
+                "definition": "Porciones excedentes que por medio de un instrumento cortante se separan de cualquier materia trabajada hasta reducirla a la forma que conviene."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Porciones excedentes que por medio de un instrumento cortante se separan de cualquier materia trabajada hasta reducirla a la forma que conviene."
+                "type_extra": "México",
+                "definition": "murmuración."
             }
         ]
     },
@@ -7232,47 +7232,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7303,47 +7303,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7374,47 +7374,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7445,47 +7445,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7516,47 +7516,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7587,47 +7587,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7658,47 +7658,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7729,47 +7729,47 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "aferir."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística, Usado más como pronominal",
                 "definition": "Establecer una relación de referencia. El pronombre se refiere a un sintagma nominal anterior."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Lingüística",
                 "definition": "Tener referente. Los pronombres personales refieren, pero las conjunciones no."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "remitirse (atenerse a lo dicho o hecho)."
             },
             {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "aludir."
-            },
-            {
-                "number": "10",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Tratar de alguien o de algo. A esto se refieren los tres últimos capítulos."
             },
             {
-                "number": "11",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Concernir, afectar. Es muy austero en lo que se refiere a su indumentaria."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "aferir."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Aplicar, a veces sin conocimiento seguro, hechos o cualidades a alguien o algo."
+            },
+            {
+                "number": "11",
+                "type": "verbo pronominal",
+                "definition": "aludir."
             }
         ]
     },
@@ -7823,14 +7823,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "reflexionar."
+                "type": "verbo pronominal",
+                "definition": "Dicho del dolor: Sentirse en una parte del cuerpo distinta del punto en que se origina."
             },
             {
                 "number": "5",
-                "type": "verbo pronominal",
-                "definition": "Dicho del dolor: Sentirse en una parte del cuerpo distinta del punto en que se origina."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "reflexionar."
             }
         ]
     },
@@ -8228,19 +8228,19 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Gramática",
-                "definition": "rección."
+                "definition": "Término regido por otro. El régimen del verbo confiar es la preposición en."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Gramática",
-                "definition": "Término regido por otro. El régimen del verbo confiar es la preposición en."
+                "type_extra": "Tecnologías",
+                "definition": "Estado de una máquina o dispositivo cuando funciona de un modo regular y permanente."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "type_extra": "Tecnologías",
-                "definition": "Estado de una máquina o dispositivo cuando funciona de un modo regular y permanente."
+                "type_extra": "Gramática",
+                "definition": "rección."
             }
         ]
     },
@@ -8276,19 +8276,19 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Gramática",
-                "definition": "rección."
+                "definition": "Término regido por otro. El régimen del verbo confiar es la preposición en."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Gramática",
-                "definition": "Término regido por otro. El régimen del verbo confiar es la preposición en."
+                "type_extra": "Tecnologías",
+                "definition": "Estado de una máquina o dispositivo cuando funciona de un modo regular y permanente."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "type_extra": "Tecnologías",
-                "definition": "Estado de una máquina o dispositivo cuando funciona de un modo regular y permanente."
+                "type_extra": "Gramática",
+                "definition": "rección."
             }
         ]
     },
@@ -9458,30 +9458,30 @@
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Encargado de guardar los cerdos."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
                 "type_extra": "germanía",
                 "definition": "gallo (ave)."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Epifanía (festividad)."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Pieza del juego de ajedrez, la más importante después del rey, que puede moverse como cualquiera de las demás piezas, exceptuado el caballo."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "definition": "En la baraja francesa o el dado de póquer, elemento marcado con una Q y que a veces representa la figura de una reina."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Encargado de guardar los cerdos."
             }
         ]
     },
@@ -9918,19 +9918,19 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "hernia."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
                 "type_extra": "Física",
                 "definition": "Fenómeno en el que es necesario un tiempo perceptible para que un sistema reaccione ante cambios bruscos de las condiciones físicas a que está sometido."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Ingeniería",
                 "definition": "Pérdida de tensiones que sufre un material que ha estado sometido a una deformación constante."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "hernia."
             }
         ]
     },
@@ -11566,35 +11566,35 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir muchas veces o con instancia."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Venir a la boca el sabor de lo que se ha comido o bebido."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "En las universidades, efectuar la repetición."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer o decir siempre las mismas cosas. ¿ No te das cuenta de que te repites continuamente ?."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Volver a suceder regularmente. Los atascos se repiten en esa zona todos los días."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Escultura y Pintura, etcétera",
                 "definition": "Dicho de un artista: Insistir en sus obras en las mismas actitudes, perspectivas, grupos."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir muchas veces o con instancia."
             }
         ]
     },
@@ -11687,35 +11687,35 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir muchas veces o con instancia."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Venir a la boca el sabor de lo que se ha comido o bebido."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "En las universidades, efectuar la repetición."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer o decir siempre las mismas cosas. ¿ No te das cuenta de que te repites continuamente ?."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Volver a suceder regularmente. Los atascos se repiten en esa zona todos los días."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Escultura y Pintura, etcétera",
                 "definition": "Dicho de un artista: Insistir en sus obras en las mismas actitudes, perspectivas, grupos."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir muchas veces o con instancia."
             }
         ]
     },
@@ -11746,35 +11746,35 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir muchas veces o con instancia."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Venir a la boca el sabor de lo que se ha comido o bebido."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "En las universidades, efectuar la repetición."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer o decir siempre las mismas cosas. ¿ No te das cuenta de que te repites continuamente ?."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Volver a suceder regularmente. Los atascos se repiten en esa zona todos los días."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Escultura y Pintura, etcétera",
                 "definition": "Dicho de un artista: Insistir en sus obras en las mismas actitudes, perspectivas, grupos."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir muchas veces o con instancia."
             }
         ]
     },
@@ -11805,35 +11805,35 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir muchas veces o con instancia."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Venir a la boca el sabor de lo que se ha comido o bebido."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "En las universidades, efectuar la repetición."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer o decir siempre las mismas cosas. ¿ No te das cuenta de que te repites continuamente ?."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Volver a suceder regularmente. Los atascos se repiten en esa zona todos los días."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Escultura y Pintura, etcétera",
                 "definition": "Dicho de un artista: Insistir en sus obras en las mismas actitudes, perspectivas, grupos."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir muchas veces o con instancia."
             }
         ]
     },
@@ -11864,35 +11864,35 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir muchas veces o con instancia."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Venir a la boca el sabor de lo que se ha comido o bebido."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "En las universidades, efectuar la repetición."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer o decir siempre las mismas cosas. ¿ No te das cuenta de que te repites continuamente ?."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Volver a suceder regularmente. Los atascos se repiten en esa zona todos los días."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Escultura y Pintura, etcétera",
                 "definition": "Dicho de un artista: Insistir en sus obras en las mismas actitudes, perspectivas, grupos."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir muchas veces o con instancia."
             }
         ]
     },
@@ -11923,35 +11923,35 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir muchas veces o con instancia."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Venir a la boca el sabor de lo que se ha comido o bebido."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "En las universidades, efectuar la repetición."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer o decir siempre las mismas cosas. ¿ No te das cuenta de que te repites continuamente ?."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Volver a suceder regularmente. Los atascos se repiten en esa zona todos los días."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Escultura y Pintura, etcétera",
                 "definition": "Dicho de un artista: Insistir en sus obras en las mismas actitudes, perspectivas, grupos."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir muchas veces o con instancia."
             }
         ]
     },
@@ -11982,35 +11982,35 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir muchas veces o con instancia."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Venir a la boca el sabor de lo que se ha comido o bebido."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "En las universidades, efectuar la repetición."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer o decir siempre las mismas cosas. ¿ No te das cuenta de que te repites continuamente ?."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Volver a suceder regularmente. Los atascos se repiten en esa zona todos los días."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo pronominal",
                 "type_extra": "Escultura y Pintura, etcétera",
                 "definition": "Dicho de un artista: Insistir en sus obras en las mismas actitudes, perspectivas, grupos."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir muchas veces o con instancia."
             }
         ]
     },
@@ -12150,14 +12150,14 @@
             },
             {
                 "number": "9",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "presentar."
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "presentar."
             }
         ]
     },
@@ -12213,14 +12213,14 @@
             },
             {
                 "number": "9",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "presentar."
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "presentar."
             }
         ]
     },
@@ -12392,14 +12392,14 @@
             },
             {
                 "number": "9",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "presentar."
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "presentar."
             }
         ]
     },
@@ -12455,14 +12455,14 @@
             },
             {
                 "number": "9",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "presentar."
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "presentar."
             }
         ]
     },
@@ -12518,14 +12518,14 @@
             },
             {
                 "number": "9",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "presentar."
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "presentar."
             }
         ]
     },
@@ -12581,14 +12581,14 @@
             },
             {
                 "number": "9",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "presentar."
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "presentar."
             }
         ]
     },
@@ -12681,14 +12681,14 @@
             },
             {
                 "number": "9",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "presentar."
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "definition": "Dicho de una persona o de una cosa: Importar mucho o poco. La amistad representa mucho para mí."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "presentar."
             }
         ]
     },
@@ -12972,17 +12972,17 @@
             {
                 "number": "3",
                 "type": "verbo transitivo",
-                "definition": "necesitar."
+                "definition": "Dicho de una persona: Solicitar, pretender, explicar su deseo o pasión amorosa."
             },
             {
                 "number": "4",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona: Solicitar, pretender, explicar su deseo o pasión amorosa."
+                "definition": "inducir (mover a algo)."
             },
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "definition": "inducir (mover a algo)."
+                "definition": "necesitar."
             }
         ]
     },
@@ -13007,17 +13007,17 @@
             {
                 "number": "3",
                 "type": "verbo transitivo",
-                "definition": "necesitar."
+                "definition": "Dicho de una persona: Solicitar, pretender, explicar su deseo o pasión amorosa."
             },
             {
                 "number": "4",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona: Solicitar, pretender, explicar su deseo o pasión amorosa."
+                "definition": "inducir (mover a algo)."
             },
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "definition": "inducir (mover a algo)."
+                "definition": "necesitar."
             }
         ]
     },
@@ -13831,20 +13831,20 @@
             },
             {
                 "number": "7",
+                "type": "verbo pronominal",
+                "definition": "Decidirse a hacer algo. Se resolvió a hablar con la prensa."
+            },
+            {
+                "number": "8",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado, Usado también como pronominal",
                 "definition": "Deshacer o disolver algo. Los rayos del sol resuelven la niebla."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Resumir o recapitular algo."
-            },
-            {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "Decidirse a hacer algo. Se resolvió a hablar con la prensa."
             }
         ]
     },
@@ -13897,20 +13897,20 @@
             },
             {
                 "number": "7",
+                "type": "verbo pronominal",
+                "definition": "Decidirse a hacer algo. Se resolvió a hablar con la prensa."
+            },
+            {
+                "number": "8",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado, Usado también como pronominal",
                 "definition": "Deshacer o disolver algo. Los rayos del sol resuelven la niebla."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Resumir o recapitular algo."
-            },
-            {
-                "number": "9",
-                "type": "verbo pronominal",
-                "definition": "Decidirse a hacer algo. Se resolvió a hablar con la prensa."
             }
         ]
     },
@@ -14145,26 +14145,26 @@
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "respecto."
+                "type_extra": "germanía",
+                "definition": "espada (arma blanca)."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "germanía",
-                "definition": "espada (arma blanca)."
+                "definition": "Persona que tiene relaciones amorosas con otra."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "type_extra": "germanía",
-                "definition": "Persona que tiene relaciones amorosas con otra."
+                "type_extra": "plural",
+                "definition": "Manifestaciones de acatamiento que se hacen por cortesía."
             },
             {
                 "number": "8",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Manifestaciones de acatamiento que se hacen por cortesía."
+                "type_extra": "desusado",
+                "definition": "respecto."
             }
         ]
     },
@@ -16034,12 +16034,12 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "regañina."
+                "definition": "Objetivo o empeño difícil de llevar a cabo, y que constituye por ello un estímulo y un desafío para quien lo afronta."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Objetivo o empeño difícil de llevar a cabo, y que constituye por ello un estímulo y un desafío para quien lo afronta."
+                "definition": "regañina."
             },
             {
                 "number": "6",
@@ -16084,34 +16084,34 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "intro."
+                "definition": "Paga, satisfacción o recompensa del beneficio recibido."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Paga, satisfacción o recompensa del beneficio recibido."
+                "definition": "Cambio o trueque."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Cambio o trueque."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
                 "definition": "En un viaje de ida y vuelta, carruaje, caballería o mula de carga del regreso."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Marina",
                 "definition": "Motón colocado accidentalmente en determinado lugar para variar la dirección en que trabaja un cabo de labor."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "Tecnologías",
                 "definition": "En una conexión o una transmisión, fenómeno acústico debido al regreso por reflexión de las ondas radioeléctricas a la fuente emisora."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "intro."
             }
         ]
     },
@@ -16165,14 +16165,14 @@
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "type_extra": "Derecho",
-                "definition": "retracto."
+                "type_extra": "Retórica",
+                "definition": "Combinación de la descripción de los rasgos externos e internos de una persona."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Retórica",
-                "definition": "Combinación de la descripción de los rasgos externos e internos de una persona."
+                "type_extra": "Derecho",
+                "definition": "retracto."
             }
         ]
     },
@@ -16207,14 +16207,14 @@
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "type_extra": "Derecho",
-                "definition": "retracto."
+                "type_extra": "Retórica",
+                "definition": "Combinación de la descripción de los rasgos externos e internos de una persona."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Retórica",
-                "definition": "Combinación de la descripción de los rasgos externos e internos de una persona."
+                "type_extra": "Derecho",
+                "definition": "retracto."
             }
         ]
     },
@@ -17040,30 +17040,30 @@
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Encargado de guardar los cerdos."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
                 "type_extra": "germanía",
                 "definition": "gallo (ave)."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Epifanía (festividad)."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Pieza del juego de ajedrez, la más importante después del rey, que puede moverse como cualquiera de las demás piezas, exceptuado el caballo."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "definition": "En la baraja francesa o el dado de póquer, elemento marcado con una Q y que a veces representa la figura de una reina."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Encargado de guardar los cerdos."
             }
         ]
     },
@@ -17089,18 +17089,18 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "ribero."
+                "definition": "Huerto cercado que linda con un río."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Huerto cercado que linda con un río."
+                "type_extra": "Valladolid",
+                "definition": "Casa de campo con viñas y árboles frutales próxima a las orillas de los ríos o cercana a la capital."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "type_extra": "Valladolid",
-                "definition": "Casa de campo con viñas y árboles frutales próxima a las orillas de los ríos o cercana a la capital."
+                "definition": "ribero."
             }
         ]
     },
@@ -18130,50 +18130,50 @@
             },
             {
                 "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "Costa Rica",
-                "definition": "engatusar."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de un cuerpo: Dar vueltas alrededor de un eje, sin mudar de lugar, como la piedra de un molino, o mudando, como la bola que corre por el suelo."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo intransitivo",
                 "definition": "Moverse por medio de ruedas. El automóvil rodó lentamente."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Caer dando vueltas por una pendiente."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: No tener colocación fija."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "definition": "Ir de un lado para otro sin fijarse o establecerse en sitio determinado."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "verbo intransitivo",
                 "definition": "Dicho del dinero: Abundar o correr. En aquella casa rueda el dinero."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "verbo intransitivo",
                 "definition": "Andar inútilmente en pretensiones."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial",
                 "definition": "Dicho de una persona: Estar pronta y dispuesta para servir a otra y hacer cuanto mande o pida, por difícil que sea. Estaba dispuesto a rodar por aquel amigo."
+            },
+            {
+                "number": "13",
+                "type": "verbo transitivo",
+                "type_extra": "Costa Rica",
+                "definition": "engatusar."
             }
         ]
     },
@@ -18944,110 +18944,110 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "definition": "roturar."
+                "definition": "Traspasar el coto, límite o término que está puesto, o salirse de él."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "Traspasar el coto, límite o término que está puesto, o salirse de él."
+                "definition": "Dividir o separar por breve tiempo la unión o continuidad de un cuerpo fluido, al atravesarlo. Romper el aire, las aguas."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Dividir o separar por breve tiempo la unión o continuidad de un cuerpo fluido, al atravesarlo. Romper el aire, las aguas."
+                "definition": "Interrumpir la continuidad de algo no material. Romper la monotonía, el hilo del discurso, el silencio, la tregua, las negociaciones, el noviazgo."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Interrumpir la continuidad de algo no material. Romper la monotonía, el hilo del discurso, el silencio, la tregua, las negociaciones, el noviazgo."
+                "definition": "Dicho de un astro o de la luz: Vencer con su claridad, descubriéndose a la vista, el impedimento que lo ocultaba. El sol rompía la niebla, las nubes."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Dicho de un astro o de la luz: Vencer con su claridad, descubriéndose a la vista, el impedimento que lo ocultaba. El sol rompía la niebla, las nubes."
+                "definition": "Abrir espacio suficiente para pasar por el sitio o paraje ocupado de gente u obstruido de otro modo."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Abrir espacio suficiente para pasar por el sitio o paraje ocupado de gente u obstruido de otro modo."
+                "definition": "Dicho especialmente de un grupo de personas: Deshacer la fila o formación que componían."
             },
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Dicho especialmente de un grupo de personas: Deshacer la fila o formación que componían."
+                "definition": "Interrumpir a quien está hablando, o cortar la conversación."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "Interrumpir a quien está hablando, o cortar la conversación."
+                "definition": "Quebrantar la observancia de la ley, precepto, contrato u otra obligación."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Quebrantar la observancia de la ley, precepto, contrato u otra obligación."
-            },
-            {
-                "number": "14",
-                "type": "verbo transitivo",
                 "definition": "Desbaratar o deshacer un cuerpo de gente armada."
             },
             {
-                "number": "15",
+                "number": "14",
                 "type": "verbo transitivo",
                 "type_extra": "Andalucía",
                 "definition": "Quitar o cortar todo el verde vicioso de las cepas de vid."
             },
             {
-                "number": "16",
+                "number": "15",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de las olas: Deshacerse en espuma."
             },
             {
-                "number": "17",
+                "number": "16",
                 "type": "verbo intransitivo",
                 "definition": "Tener principio, empezar, comenzar. Romper el día. Romper a hablar. Romper la marcha."
             },
             {
-                "number": "18",
+                "number": "17",
                 "type": "verbo intransitivo",
                 "definition": "Manifestar a alguien la queja o el disgusto que de él se tiene, separándose de su trato y amistad. Romper con un amigo."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de la caza: Partir hacia un lado, saliéndose del ojeo o del camino que se esperaba había de llevar."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "definition": "Resolverse a la ejecución de algo en que se hallaba dificultad."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de un impedimento físico: Cesar de pronto, naturalmente o en virtud de un agente cualquiera."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Prorrumpir o brotar."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una flor: abrirse (separarse los pétalos)."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "type_extra": "Uruguay",
                 "definition": "Sufrir una avería en el automóvil durante un viaje. Juan rompió antes de llegar a Montevideo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, Uruguay",
                 "definition": "Molestar, fastidiar."
+            },
+            {
+                "number": "25",
+                "type": "verbo transitivo",
+                "definition": "roturar."
             },
             {
                 "number": "26",
@@ -19096,110 +19096,110 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "definition": "roturar."
+                "definition": "Traspasar el coto, límite o término que está puesto, o salirse de él."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "Traspasar el coto, límite o término que está puesto, o salirse de él."
+                "definition": "Dividir o separar por breve tiempo la unión o continuidad de un cuerpo fluido, al atravesarlo. Romper el aire, las aguas."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Dividir o separar por breve tiempo la unión o continuidad de un cuerpo fluido, al atravesarlo. Romper el aire, las aguas."
+                "definition": "Interrumpir la continuidad de algo no material. Romper la monotonía, el hilo del discurso, el silencio, la tregua, las negociaciones, el noviazgo."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Interrumpir la continuidad de algo no material. Romper la monotonía, el hilo del discurso, el silencio, la tregua, las negociaciones, el noviazgo."
+                "definition": "Dicho de un astro o de la luz: Vencer con su claridad, descubriéndose a la vista, el impedimento que lo ocultaba. El sol rompía la niebla, las nubes."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Dicho de un astro o de la luz: Vencer con su claridad, descubriéndose a la vista, el impedimento que lo ocultaba. El sol rompía la niebla, las nubes."
+                "definition": "Abrir espacio suficiente para pasar por el sitio o paraje ocupado de gente u obstruido de otro modo."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Abrir espacio suficiente para pasar por el sitio o paraje ocupado de gente u obstruido de otro modo."
+                "definition": "Dicho especialmente de un grupo de personas: Deshacer la fila o formación que componían."
             },
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Dicho especialmente de un grupo de personas: Deshacer la fila o formación que componían."
+                "definition": "Interrumpir a quien está hablando, o cortar la conversación."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "Interrumpir a quien está hablando, o cortar la conversación."
+                "definition": "Quebrantar la observancia de la ley, precepto, contrato u otra obligación."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Quebrantar la observancia de la ley, precepto, contrato u otra obligación."
-            },
-            {
-                "number": "14",
-                "type": "verbo transitivo",
                 "definition": "Desbaratar o deshacer un cuerpo de gente armada."
             },
             {
-                "number": "15",
+                "number": "14",
                 "type": "verbo transitivo",
                 "type_extra": "Andalucía",
                 "definition": "Quitar o cortar todo el verde vicioso de las cepas de vid."
             },
             {
-                "number": "16",
+                "number": "15",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de las olas: Deshacerse en espuma."
             },
             {
-                "number": "17",
+                "number": "16",
                 "type": "verbo intransitivo",
                 "definition": "Tener principio, empezar, comenzar. Romper el día. Romper a hablar. Romper la marcha."
             },
             {
-                "number": "18",
+                "number": "17",
                 "type": "verbo intransitivo",
                 "definition": "Manifestar a alguien la queja o el disgusto que de él se tiene, separándose de su trato y amistad. Romper con un amigo."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de la caza: Partir hacia un lado, saliéndose del ojeo o del camino que se esperaba había de llevar."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "definition": "Resolverse a la ejecución de algo en que se hallaba dificultad."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de un impedimento físico: Cesar de pronto, naturalmente o en virtud de un agente cualquiera."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Prorrumpir o brotar."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una flor: abrirse (separarse los pétalos)."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "type_extra": "Uruguay",
                 "definition": "Sufrir una avería en el automóvil durante un viaje. Juan rompió antes de llegar a Montevideo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, Uruguay",
                 "definition": "Molestar, fastidiar."
+            },
+            {
+                "number": "25",
+                "type": "verbo transitivo",
+                "definition": "roturar."
             },
             {
                 "number": "26",
@@ -19248,110 +19248,110 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
-                "definition": "roturar."
+                "definition": "Traspasar el coto, límite o término que está puesto, o salirse de él."
             },
             {
                 "number": "6",
                 "type": "verbo transitivo",
-                "definition": "Traspasar el coto, límite o término que está puesto, o salirse de él."
+                "definition": "Dividir o separar por breve tiempo la unión o continuidad de un cuerpo fluido, al atravesarlo. Romper el aire, las aguas."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
-                "definition": "Dividir o separar por breve tiempo la unión o continuidad de un cuerpo fluido, al atravesarlo. Romper el aire, las aguas."
+                "definition": "Interrumpir la continuidad de algo no material. Romper la monotonía, el hilo del discurso, el silencio, la tregua, las negociaciones, el noviazgo."
             },
             {
                 "number": "8",
                 "type": "verbo transitivo",
-                "definition": "Interrumpir la continuidad de algo no material. Romper la monotonía, el hilo del discurso, el silencio, la tregua, las negociaciones, el noviazgo."
+                "definition": "Dicho de un astro o de la luz: Vencer con su claridad, descubriéndose a la vista, el impedimento que lo ocultaba. El sol rompía la niebla, las nubes."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
-                "definition": "Dicho de un astro o de la luz: Vencer con su claridad, descubriéndose a la vista, el impedimento que lo ocultaba. El sol rompía la niebla, las nubes."
+                "definition": "Abrir espacio suficiente para pasar por el sitio o paraje ocupado de gente u obstruido de otro modo."
             },
             {
                 "number": "10",
                 "type": "verbo transitivo",
-                "definition": "Abrir espacio suficiente para pasar por el sitio o paraje ocupado de gente u obstruido de otro modo."
+                "definition": "Dicho especialmente de un grupo de personas: Deshacer la fila o formación que componían."
             },
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Dicho especialmente de un grupo de personas: Deshacer la fila o formación que componían."
+                "definition": "Interrumpir a quien está hablando, o cortar la conversación."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "Interrumpir a quien está hablando, o cortar la conversación."
+                "definition": "Quebrantar la observancia de la ley, precepto, contrato u otra obligación."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Quebrantar la observancia de la ley, precepto, contrato u otra obligación."
-            },
-            {
-                "number": "14",
-                "type": "verbo transitivo",
                 "definition": "Desbaratar o deshacer un cuerpo de gente armada."
             },
             {
-                "number": "15",
+                "number": "14",
                 "type": "verbo transitivo",
                 "type_extra": "Andalucía",
                 "definition": "Quitar o cortar todo el verde vicioso de las cepas de vid."
             },
             {
-                "number": "16",
+                "number": "15",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de las olas: Deshacerse en espuma."
             },
             {
-                "number": "17",
+                "number": "16",
                 "type": "verbo intransitivo",
                 "definition": "Tener principio, empezar, comenzar. Romper el día. Romper a hablar. Romper la marcha."
             },
             {
-                "number": "18",
+                "number": "17",
                 "type": "verbo intransitivo",
                 "definition": "Manifestar a alguien la queja o el disgusto que de él se tiene, separándose de su trato y amistad. Romper con un amigo."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de la caza: Partir hacia un lado, saliéndose del ojeo o del camino que se esperaba había de llevar."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "definition": "Resolverse a la ejecución de algo en que se hallaba dificultad."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de un impedimento físico: Cesar de pronto, naturalmente o en virtud de un agente cualquiera."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Prorrumpir o brotar."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una flor: abrirse (separarse los pétalos)."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "type_extra": "Uruguay",
                 "definition": "Sufrir una avería en el automóvil durante un viaje. Juan rompió antes de llegar a Montevideo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, Uruguay",
                 "definition": "Molestar, fastidiar."
+            },
+            {
+                "number": "25",
+                "type": "verbo transitivo",
+                "definition": "roturar."
             },
             {
                 "number": "26",
@@ -19755,33 +19755,33 @@
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una persona: Licenciosa, libre y desbaratada en las costumbres y modo de vida."
-            },
-            {
-                "number": "5",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de costumbres o del modo de vida: Propio de una persona rota."
-            },
-            {
-                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "etcétera",
                 "definition": "Desgarrón en la ropa, en un tejido."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "coloquial, Chile y México",
                 "definition": "Persona maleducada, de modales groseros."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "México",
                 "definition": "Petimetre del pueblo."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una persona: Licenciosa, libre y desbaratada en las costumbres y modo de vida."
+            },
+            {
+                "number": "8",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de costumbres o del modo de vida: Propio de una persona rota."
             }
         ]
     },
@@ -19866,31 +19866,31 @@
             },
             {
                 "number": "5",
-                "type": "adjetivo",
-                "type_extra": "coloquial, España, poco usado, Usado también como sustantivo femenino",
-                "definition": "Dicho de una moneda española de una peseta: De color dorado. Guarda algunas rubias como recuerdo."
-            },
-            {
-                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "centímetro(s)",
                 "definition": "Pez teleósteo, marino, del suborden de los acantopterigios, de unos 30 de largo, cuerpo en forma de cuña, cabeza casi cúbica, cubierta de láminas duras, con hocico saliente y partido, ojos grandes con dos espinas fuertes en la parte posterior, dorso de color rojo negruzco, vientre plateado, aletas pectorales azules, de color amarillo rojizo las demás, y delante de las primeras tres apéndices delgados y cilíndricos de tres a cuatro centímetros de largo."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "tabaco rubio. Siempre fuma rubio."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "plural, Tauromaquia",
                 "definition": "Centro de la cruz en el lomo del toro."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre femenino",
                 "definition": "Pez teleósteo de agua dulce, comestible, muy pequeño, de cuerpo alargado, casi cilíndrico, cubierto de escamas menudas, manchado de pardo y rojo, y con una pinta negra en el arranque de la cola."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "type_extra": "coloquial, España, poco usado, Usado también como sustantivo femenino",
+                "definition": "Dicho de una moneda española de una peseta: De color dorado. Guarda algunas rubias como recuerdo."
             },
             {
                 "number": "10",
@@ -20627,46 +20627,34 @@
                 "number": "3",
                 "type": "adjetivo",
                 "type_extra": "sin verificar",
-                "definition": "realista2.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "realista2."
-                    }
-                ]
+                "definition": "Regio, grandioso, suntuoso."
             },
             {
                 "number": "4",
                 "type": "adjetivo",
                 "type_extra": "sin verificar",
-                "definition": "Regio, grandioso, suntuoso."
+                "definition": "Dicho de un navío: Que estaba provisto de tres puentes y más de 120 cañones."
             },
             {
                 "number": "5",
                 "type": "adjetivo",
                 "type_extra": "sin verificar",
-                "definition": "Dicho de un navío: Que estaba provisto de tres puentes y más de 120 cañones."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Dicho de una galera: Que llevaba el estandarte real."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "adjetivo",
                 "definition": "Muy bueno.",
                 "type_extra": "colloquial, sin verificar"
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "adjetivo",
                 "definition": "Dicho de una persona: De muy buena presencia.",
                 "type_extra": "colloquial, sin verificar"
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Moneda con diverso valor y factura según épocas y lugares.",
@@ -20678,7 +20666,7 @@
                 ]
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "dinero (‖ moneda corriente).",
@@ -20690,7 +20678,7 @@
                 ]
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Campamento de un ejército, y especialmente el lugar donde está la tienda del rey o general.",
@@ -20702,16 +20690,28 @@
                 ]
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Campo donde se celebra una feria."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Huerto cercado, jardín."
+            },
+            {
+                "number": "13",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
+                "definition": "realista2.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "realista2."
+                    }
+                ]
             }
         ]
     },

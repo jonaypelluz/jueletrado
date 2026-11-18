@@ -62,14 +62,14 @@
             {
                 "number": "11",
                 "type": "nombre masculino",
-                "type_extra": "Tecnologías",
-                "definition": "retorno."
+                "type_extra": "plural",
+                "definition": "Noticias de ciertos ambientes que se publican en un medio de comunicación."
             },
             {
                 "number": "12",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Noticias de ciertos ambientes que se publican en un medio de comunicación."
+                "type_extra": "Tecnologías",
+                "definition": "retorno."
             }
         ]
     },
@@ -764,15 +764,15 @@
             },
             {
                 "number": "2",
-                "type": "adjetivo",
-                "type_extra": "desusado, Era usado también como sustantivo",
-                "definition": "expósito."
-            },
-            {
-                "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Ingeniería",
                 "definition": "En minería, buzamiento de un filón."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "desusado, Era usado también como sustantivo",
+                "definition": "expósito."
             }
         ]
     },
@@ -1491,39 +1491,39 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "eficaz."
+                "definition": "Dicho de un empleo o de un cargo: Que está en plantilla, en contraposición al interino o supernumerario o al honorífico."
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "Dicho de un empleo o de un cargo: Que está en plantilla, en contraposición al interino o supernumerario o al honorífico."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
                 "definition": "Dicho del dinero: En monedas o billetes."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "numerario (moneda acuñada)."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Número de individuos que tiene una unidad militar, en contraposición con la plantilla que le corresponde."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Totalidad de las fuerzas militares o similares que se hallan bajo un solo mando o reciben una misión conjunta."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "plural, etcétera",
                 "definition": "Conjunto de personas que integran la plantilla de un taller, de una oficina, de una empresa."
+            },
+            {
+                "number": "8",
+                "type": "adjetivo",
+                "definition": "eficaz."
             }
         ]
     },
@@ -1587,39 +1587,39 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "eficaz."
+                "definition": "Dicho de un empleo o de un cargo: Que está en plantilla, en contraposición al interino o supernumerario o al honorífico."
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "Dicho de un empleo o de un cargo: Que está en plantilla, en contraposición al interino o supernumerario o al honorífico."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
                 "definition": "Dicho del dinero: En monedas o billetes."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "numerario (moneda acuñada)."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Número de individuos que tiene una unidad militar, en contraposición con la plantilla que le corresponde."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Totalidad de las fuerzas militares o similares que se hallan bajo un solo mando o reciben una misión conjunta."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "plural, etcétera",
                 "definition": "Conjunto de personas que integran la plantilla de un taller, de una oficina, de una empresa."
+            },
+            {
+                "number": "8",
+                "type": "adjetivo",
+                "definition": "eficaz."
             }
         ]
     },
@@ -1643,39 +1643,39 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "eficaz."
+                "definition": "Dicho de un empleo o de un cargo: Que está en plantilla, en contraposición al interino o supernumerario o al honorífico."
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "Dicho de un empleo o de un cargo: Que está en plantilla, en contraposición al interino o supernumerario o al honorífico."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
                 "definition": "Dicho del dinero: En monedas o billetes."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "numerario (moneda acuñada)."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Número de individuos que tiene una unidad militar, en contraposición con la plantilla que le corresponde."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Totalidad de las fuerzas militares o similares que se hallan bajo un solo mando o reciben una misión conjunta."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "plural, etcétera",
                 "definition": "Conjunto de personas que integran la plantilla de un taller, de una oficina, de una empresa."
+            },
+            {
+                "number": "8",
+                "type": "adjetivo",
+                "definition": "eficaz."
             }
         ]
     },
@@ -3541,20 +3541,20 @@
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "coloquial, Puerto Rico",
-                "definition": "babieca."
+                "type_extra": "plural",
+                "definition": "Fundamentos y primeros principios de las ciencias y artes. Elementos de retórica."
             },
             {
                 "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "plural",
-                "definition": "Fundamentos y primeros principios de las ciencias y artes. Elementos de retórica."
+                "definition": "Fuerzas naturales capaces de alterar las condiciones atmosféricas o climáticas."
             },
             {
                 "number": "12",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Fuerzas naturales capaces de alterar las condiciones atmosféricas o climáticas."
+                "type_extra": "coloquial, Puerto Rico",
+                "definition": "babieca."
             }
         ]
     },
@@ -3617,20 +3617,20 @@
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "coloquial, Puerto Rico",
-                "definition": "babieca."
+                "type_extra": "plural",
+                "definition": "Fundamentos y primeros principios de las ciencias y artes. Elementos de retórica."
             },
             {
                 "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "plural",
-                "definition": "Fundamentos y primeros principios de las ciencias y artes. Elementos de retórica."
+                "definition": "Fuerzas naturales capaces de alterar las condiciones atmosféricas o climáticas."
             },
             {
                 "number": "12",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Fuerzas naturales capaces de alterar las condiciones atmosféricas o climáticas."
+                "type_extra": "coloquial, Puerto Rico",
+                "definition": "babieca."
             }
         ]
     },
@@ -4744,6 +4744,11 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "verbo intransitivo",
+                "definition": "Impedir, obstar."
+            },
+            {
+                "number": "2",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Dañar, ofender, causar perjuicio.",
@@ -4757,11 +4762,6 @@
                         "content": "posibilitar."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "verbo intransitivo",
-                "definition": "Impedir, obstar."
             }
         ]
     },
@@ -5622,15 +5622,15 @@
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "Usado más en América",
-                "definition": "enamoradizo."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino y femenino",
                 "type_extra": "América",
                 "definition": "Persona que mantiene con otra una relación amorosa, generalmente sin compromiso formal."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Usado más en América",
+                "definition": "enamoradizo."
             },
             {
                 "number": "6",
@@ -5800,6 +5800,22 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
+                "definition": "Cualidad o conjunto de cualidades que hacen que una persona o cosa sea muy atractiva o agradable."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Persona o cosa muy atractiva o agradable."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "plural",
+                "definition": "Atractivo físico."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
                 "definition": "encantamiento.",
                 "definition_extra": [
                     {
@@ -5811,22 +5827,6 @@
                         "content": "desencanto, desencantamiento."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Cualidad o conjunto de cualidades que hacen que una persona o cosa sea muy atractiva o agradable."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Persona o cosa muy atractiva o agradable."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Atractivo físico."
             }
         ]
     },
@@ -5861,15 +5861,15 @@
             },
             {
                 "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Echar peso sobre algo."
-            },
-            {
-                "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Cuba, República Dominicana, Uruguay y Venezuela",
                 "definition": "Dicho de una mujer: Quedar embarazada."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Echar peso sobre algo."
             }
         ]
     },
@@ -8501,20 +8501,20 @@
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Recompensa o premio."
+                "type_extra": "plural, Agricultura",
+                "definition": "Sustancias que se mezclan con las tierras para modificar favorablemente sus propiedades y hacerlas más productivas."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
-                "definition": "Satisfacción y pago del daño hecho."
+                "definition": "Recompensa o premio."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "type_extra": "plural, Agricultura",
-                "definition": "Sustancias que se mezclan con las tierras para modificar favorablemente sus propiedades y hacerlas más productivas."
+                "type_extra": "desusado",
+                "definition": "Satisfacción y pago del daño hecho."
             }
         ]
     },
@@ -10552,14 +10552,14 @@
             },
             {
                 "number": "31",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Apoderarse de una cosa."
+                "type": "verbo pronominal",
+                "definition": "Meterse o introducirse en alguna parte."
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "definition": "Meterse o introducirse en alguna parte."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Apoderarse de una cosa."
             }
         ]
     },
@@ -10928,14 +10928,14 @@
             },
             {
                 "number": "31",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Apoderarse de una cosa."
+                "type": "verbo pronominal",
+                "definition": "Meterse o introducirse en alguna parte."
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "definition": "Meterse o introducirse en alguna parte."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Apoderarse de una cosa."
             }
         ]
     },
@@ -11108,14 +11108,14 @@
             },
             {
                 "number": "31",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Apoderarse de una cosa."
+                "type": "verbo pronominal",
+                "definition": "Meterse o introducirse en alguna parte."
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "definition": "Meterse o introducirse en alguna parte."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Apoderarse de una cosa."
             }
         ]
     },
@@ -11288,14 +11288,14 @@
             },
             {
                 "number": "31",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Apoderarse de una cosa."
+                "type": "verbo pronominal",
+                "definition": "Meterse o introducirse en alguna parte."
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "definition": "Meterse o introducirse en alguna parte."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Apoderarse de una cosa."
             }
         ]
     },
@@ -11468,14 +11468,14 @@
             },
             {
                 "number": "31",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Apoderarse de una cosa."
+                "type": "verbo pronominal",
+                "definition": "Meterse o introducirse en alguna parte."
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "definition": "Meterse o introducirse en alguna parte."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Apoderarse de una cosa."
             }
         ]
     },
@@ -12850,45 +12850,45 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "escalafón."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
                 "definition": "Graduación empleada en diversos instrumentos para medir una magnitud."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "etcétera",
                 "definition": "Línea recta dividida en partes iguales que representan metros, kilómetros, leguas, y sirve de medida para dibujar proporcionadamente en un mapa o plano las distancias y dimensiones de un terreno, edificio, máquina u otro objeto, y para averiguar sobre el plano las medidas reales de lo dibujado."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "etcétera",
                 "definition": "Tamaño de un mapa, plano, diseño, según la escala a que se ajusta."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "definition": "Tamaño o proporción en que se desarrolla un plan o idea."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "definition": "Parada que efectúa una embarcación o una aeronave entre su punto de origen y el de destino. La escala en Lisboa se alargó más de lo previsto."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre femenino",
                 "definition": "Lugar donde tocan las embarcaciones o las aeronaves entre su punto de origen y el de destino."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Sucesión diatónica o cromática de las notas musicales."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "definition": "escalafón."
             }
         ]
     },
@@ -13966,20 +13966,20 @@
             },
             {
                 "number": "3",
+                "type": "nombre masculino y femenino",
+                "definition": "Alumno que asiste a la escuela para recibir la enseñanza obligatoria."
+            },
+            {
+                "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Estudiante que cursaba y seguía las escuelas universitarias."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "nigromante."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Alumno que asiste a la escuela para recibir la enseñanza obligatoria."
             }
         ]
     },
@@ -14004,20 +14004,20 @@
             },
             {
                 "number": "3",
+                "type": "nombre masculino y femenino",
+                "definition": "Alumno que asiste a la escuela para recibir la enseñanza obligatoria."
+            },
+            {
+                "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Estudiante que cursaba y seguía las escuelas universitarias."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "nigromante."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Alumno que asiste a la escuela para recibir la enseñanza obligatoria."
             }
         ]
     },
@@ -14046,20 +14046,20 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino",
-                "type_extra": "España, poco usado",
-                "definition": "Pareja de la Guardia Civil que a veces iba en los trenes de viajeros para custodia y vigilancia."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino y femenino",
                 "definition": "Persona, frecuentemente soldado o policía, que escolta algo o a alguien por razones de seguridad."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino y femenino",
                 "type_extra": "Deportes",
                 "definition": "Jugador de baloncesto que tiene como misión auxiliar al base en la organización del juego y, a la vez, contribuir al ataque como alero."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "España, poco usado",
+                "definition": "Pareja de la Guardia Civil que a veces iba en los trenes de viajeros para custodia y vigilancia."
             }
         ]
     },
@@ -15683,14 +15683,14 @@
             {
                 "number": "9",
                 "type": "nombre femenino",
-                "type_extra": "jergal, Argentina, poco usado",
-                "definition": "Ganzúa de alambre."
+                "type_extra": "plural",
+                "definition": "Palo de los cuatro que constituyen la baraja española, cuyas cartas llevan estampadas una o varias espadas."
             },
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Palo de los cuatro que constituyen la baraja española, cuyas cartas llevan estampadas una o varias espadas."
+                "type_extra": "jergal, Argentina, poco usado",
+                "definition": "Ganzúa de alambre."
             }
         ]
     },
@@ -17380,6 +17380,16 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
+                "definition": "Lustre, nobleza."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Apogeo, auge."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
                 "definition": "resplandor.",
                 "definition_extra": [
                     {
@@ -17391,16 +17401,6 @@
                         "content": "decadencia."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Lustre, nobleza."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Apogeo, auge."
             }
         ]
     },
@@ -17458,21 +17458,21 @@
             },
             {
                 "number": "2",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que ha celebrado esponsales."
-            },
-            {
-                "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Bolivia, Cuba, Ecuador y Perú",
                 "definition": "Anillo episcopal."
             },
             {
-                "number": "4",
+                "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Pareja de manillas unidas entre sí con las que se aprisionan las muñecas de alguien."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que ha celebrado esponsales."
             }
         ]
     },
@@ -17491,21 +17491,21 @@
             },
             {
                 "number": "2",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que ha celebrado esponsales."
-            },
-            {
-                "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Bolivia, Cuba, Ecuador y Perú",
                 "definition": "Anillo episcopal."
             },
             {
-                "number": "4",
+                "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Pareja de manillas unidas entre sí con las que se aprisionan las muñecas de alguien."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que ha celebrado esponsales."
             }
         ]
     },
@@ -17530,29 +17530,29 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "gomaespuma."
+                "definition": "Plato preparado con claras de huevo que dan consistencia esponjosa a los ingredientes dulces o salados que lo componen."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Plato preparado con claras de huevo que dan consistencia esponjosa a los ingredientes dulces o salados que lo componen."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
                 "definition": "Cosa o hecho carente de importancia, consistencia o profundidad."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
                 "definition": "nata (cosa más estimada)."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Andalucía",
                 "definition": "espumilla (tejido muy ligero)."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "gomaespuma."
             }
         ]
     },
@@ -17572,41 +17572,41 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "dermatoesqueleto."
+                "definition": "esqueleto interior de los vertebrados."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "esqueleto interior de los vertebrados."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
                 "definition": "Armazón que sostiene algo."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "coloquial",
                 "definition": "Persona muy flaca."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Botánica",
                 "definition": "Planta disecada."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "Colombia, Guatemala, México y Nicaragua",
                 "definition": "Modelo o patrón impreso en que se dejan blancos que se rellenan a mano."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Nicaragua",
                 "definition": "Cuerpo de una persona. Exponer el esqueleto. Salvar el esqueleto."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "dermatoesqueleto."
             }
         ]
     },
@@ -17904,14 +17904,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -18063,14 +18063,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -18222,14 +18222,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -19140,17 +19140,17 @@
             {
                 "number": "2",
                 "type": "verbo intransitivo",
-                "definition": "restallar."
+                "definition": "Sobrevenir, ocurrir violentamente. Estallar un incendio, una revolución."
             },
             {
                 "number": "3",
                 "type": "verbo intransitivo",
-                "definition": "Sobrevenir, ocurrir violentamente. Estallar un incendio, una revolución."
+                "definition": "Dicho de una persona: Sentir y manifestar repentina y violentamente ira, alegría u otra pasión o afecto."
             },
             {
                 "number": "4",
                 "type": "verbo intransitivo",
-                "definition": "Dicho de una persona: Sentir y manifestar repentina y violentamente ira, alegría u otra pasión o afecto."
+                "definition": "restallar."
             }
         ]
     },
@@ -19326,14 +19326,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -19620,14 +19620,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -19779,14 +19779,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -19938,14 +19938,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -20097,14 +20097,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -20256,14 +20256,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -20415,14 +20415,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -20574,14 +20574,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -21067,14 +21067,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -21897,14 +21897,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -22315,14 +22315,14 @@
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Especie de lienzo."
+                "type_extra": "plural",
+                "definition": "Especie de pasta, en forma de estrellas, que sirve para sopa."
             },
             {
                 "number": "14",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Especie de pasta, en forma de estrellas, que sirve para sopa."
+                "type_extra": "desusado",
+                "definition": "Especie de lienzo."
             }
         ]
     },
@@ -23033,14 +23033,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -23192,14 +23192,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -23351,14 +23351,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -23510,14 +23510,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -23669,14 +23669,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -23828,14 +23828,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -23987,14 +23987,14 @@
             },
             {
                 "number": "27",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "ser 1."
+                "type": "verbo pronominal",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
-                "type": "verbo pronominal",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "ser 1."
             }
         ]
     },
@@ -24232,19 +24232,19 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Persona que estudia o enseña moral."
-            },
-            {
-                "number": "4",
                 "type": "nombre femenino",
                 "definition": "Conjunto de normas morales que rigen la conducta de la persona en cualquier ámbito de la vida. Ética profesional, cívica, deportiva."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "definition": "Parte de la filosofía que trata del bien y del fundamento de sus valores."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Persona que estudia o enseña moral."
             }
         ]
     },
@@ -24419,6 +24419,29 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
+                "definition": "Eventualidad, hecho imprevisto, o que puede acaecer."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en América",
+                "definition": "Suceso importante y programado, de índole social, académica, artística o deportiva."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Situación descrita por un predicado, ya sea estática o dinámica."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Predicado de naturaleza dinámica."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
                 "definition": "acaecimiento.",
                 "definition_extra": [
                     {
@@ -24426,29 +24449,6 @@
                         "content": "suceso, acontecimiento, hecho, acaecimiento, acaecer, acontecer, circunstancia, imprevisto."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Eventualidad, hecho imprevisto, o que puede acaecer."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "Usado más en América",
-                "definition": "Suceso importante y programado, de índole social, académica, artística o deportiva."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "type_extra": "Lingüística",
-                "definition": "Situación descrita por un predicado, ya sea estática o dinámica."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "type_extra": "Lingüística",
-                "definition": "Predicado de naturaleza dinámica."
             }
         ]
     },
@@ -24457,6 +24457,29 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
+                "definition": "Eventualidad, hecho imprevisto, o que puede acaecer."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en América",
+                "definition": "Suceso importante y programado, de índole social, académica, artística o deportiva."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Situación descrita por un predicado, ya sea estática o dinámica."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Predicado de naturaleza dinámica."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
                 "definition": "acaecimiento.",
                 "definition_extra": [
                     {
@@ -24464,29 +24487,6 @@
                         "content": "suceso, acontecimiento, hecho, acaecimiento, acaecer, acontecer, circunstancia, imprevisto."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Eventualidad, hecho imprevisto, o que puede acaecer."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "Usado más en América",
-                "definition": "Suceso importante y programado, de índole social, académica, artística o deportiva."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "type_extra": "Lingüística",
-                "definition": "Situación descrita por un predicado, ya sea estática o dinámica."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "type_extra": "Lingüística",
-                "definition": "Predicado de naturaleza dinámica."
             }
         ]
     },
@@ -26281,6 +26281,47 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "Asunto o negocio que se sigue sin juicio contradictorio en los tribunales, a solicitud de un interesado o de oficio."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Usado",
+                "definition": "Conjunto de todos los papeles correspondientes a un asunto o negocio. señaladamente hablando de la serie ordenada de actuaciones administrativas, y también de las judiciales en los actos de jurisdicción voluntaria."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Medio, arbitrio o recurso que se emplea para dar salida a una duda o dificultad, o salvar los inconvenientes que presenta la decisión o curso de un asunto."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Despacho, curso en los negocios y causas."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Facilidad, desembarazo y prontitud en la decisión o manejo de los negocios u otras cosas."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Procedimiento administrativo en que se enjuicia la actuación de alguien."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Conjunto de calificaciones e incidencias en la carrera de un estudiante."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Relación de trabajos realizados por un funcionario o empleado."
+            },
+            {
+                "number": "9",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "conveniente (útil).",
@@ -26290,47 +26331,6 @@
                         "content": "recurso, medio, pretexto, excusa, disculpa, ocasión, currículum, historial, trayectoria, certificación, sumario, documento, documentación."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Asunto o negocio que se sigue sin juicio contradictorio en los tribunales, a solicitud de un interesado o de oficio."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "Usado",
-                "definition": "Conjunto de todos los papeles correspondientes a un asunto o negocio. señaladamente hablando de la serie ordenada de actuaciones administrativas, y también de las judiciales en los actos de jurisdicción voluntaria."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Medio, arbitrio o recurso que se emplea para dar salida a una duda o dificultad, o salvar los inconvenientes que presenta la decisión o curso de un asunto."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Despacho, curso en los negocios y causas."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Facilidad, desembarazo y prontitud en la decisión o manejo de los negocios u otras cosas."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "definition": "Procedimiento administrativo en que se enjuicia la actuación de alguien."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Conjunto de calificaciones e incidencias en la carrera de un estudiante."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Relación de trabajos realizados por un funcionario o empleado."
             },
             {
                 "number": "10",
@@ -27515,14 +27515,14 @@
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Acción y efecto de exprimir. Zumo obtenido por expresión de plantas medicinales."
+                "type_extra": "plural",
+                "definition": "recuerdos (saludo por escrito o por medio de tercera persona)."
             },
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "recuerdos (saludo por escrito o por medio de tercera persona)."
+                "type_extra": "poco usado",
+                "definition": "Acción y efecto de exprimir. Zumo obtenido por expresión de plantas medicinales."
             }
         ]
     },
@@ -27585,14 +27585,14 @@
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Acción y efecto de exprimir. Zumo obtenido por expresión de plantas medicinales."
+                "type_extra": "plural",
+                "definition": "recuerdos (saludo por escrito o por medio de tercera persona)."
             },
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "recuerdos (saludo por escrito o por medio de tercera persona)."
+                "type_extra": "poco usado",
+                "definition": "Acción y efecto de exprimir. Zumo obtenido por expresión de plantas medicinales."
             }
         ]
     },
@@ -28743,6 +28743,63 @@
             {
                 "number": "1",
                 "type": "adjetivo",
+                "definition": "Dicho de una cosa: Que está en su grado más intenso, elevado o activo. Frío, calor extremo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Excesivo, sumo, exagerado."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "distante (apartado)."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Parte primera o última de algo, principio o fin de ello."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "asunto (materia de que se trata)."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Punto último a que puede llegar algo."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Esmero sumo en una operación."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Invernadero de los ganados trashumantes, y pastos en que pacen en el invierno."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "Término primero o último de una proporción."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "type_extra": "plural, etcétera",
+                "definition": "Manifestaciones exageradas y vehementes de un afecto del ánimo, como alegría, dolor, Hacer extremos."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino y femenino",
+                "definition": "En el fútbol y otros deportes, miembro de la delantera que, en la alineación del equipo, se sitúa más próximo a las bandas derecha o izquierda del campo."
+            },
+            {
+                "number": "12",
+                "type": "adjetivo",
                 "definition": "último.",
                 "definition_extra": [
                     {
@@ -28756,72 +28813,15 @@
                 ]
             },
             {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Dicho de una cosa: Que está en su grado más intenso, elevado o activo. Frío, calor extremo."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "definition": "Excesivo, sumo, exagerado."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
-                "definition": "distante (apartado)."
-            },
-            {
-                "number": "5",
+                "number": "13",
                 "type": "adjetivo",
                 "definition": "desemejante."
             },
             {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Parte primera o última de algo, principio o fin de ello."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "definition": "asunto (materia de que se trata)."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Punto último a que puede llegar algo."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Esmero sumo en una operación."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "definition": "Invernadero de los ganados trashumantes, y pastos en que pacen en el invierno."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "type_extra": "Matemáticas",
-                "definition": "Término primero o último de una proporción."
-            },
-            {
-                "number": "12",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "padrenuestro (cuenta del rosario)."
-            },
-            {
-                "number": "13",
-                "type": "nombre masculino",
-                "type_extra": "plural, etcétera",
-                "definition": "Manifestaciones exageradas y vehementes de un afecto del ánimo, como alegría, dolor, Hacer extremos."
-            },
-            {
-                "number": "14",
-                "type": "nombre masculino y femenino",
-                "definition": "En el fútbol y otros deportes, miembro de la delantera que, en la alineación del equipo, se sitúa más próximo a las bandas derecha o izquierda del campo."
             }
         ]
     },
@@ -28855,26 +28855,26 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "superioridad (preeminencia, excelencia o ventaja)."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Cabeza, pies, manos y cola de los animales."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Pies y manos del ser humano."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Brazos y piernas o patas, en oposición al tronco."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "superioridad (preeminencia, excelencia o ventaja)."
             }
         ]
     },
@@ -28883,6 +28883,63 @@
             {
                 "number": "1",
                 "type": "adjetivo",
+                "definition": "Dicho de una cosa: Que está en su grado más intenso, elevado o activo. Frío, calor extremo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Excesivo, sumo, exagerado."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "distante (apartado)."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Parte primera o última de algo, principio o fin de ello."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "asunto (materia de que se trata)."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Punto último a que puede llegar algo."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Esmero sumo en una operación."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Invernadero de los ganados trashumantes, y pastos en que pacen en el invierno."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "Término primero o último de una proporción."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "type_extra": "plural, etcétera",
+                "definition": "Manifestaciones exageradas y vehementes de un afecto del ánimo, como alegría, dolor, Hacer extremos."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino y femenino",
+                "definition": "En el fútbol y otros deportes, miembro de la delantera que, en la alineación del equipo, se sitúa más próximo a las bandas derecha o izquierda del campo."
+            },
+            {
+                "number": "12",
+                "type": "adjetivo",
                 "definition": "último.",
                 "definition_extra": [
                     {
@@ -28896,72 +28953,15 @@
                 ]
             },
             {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Dicho de una cosa: Que está en su grado más intenso, elevado o activo. Frío, calor extremo."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "definition": "Excesivo, sumo, exagerado."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
-                "definition": "distante (apartado)."
-            },
-            {
-                "number": "5",
+                "number": "13",
                 "type": "adjetivo",
                 "definition": "desemejante."
             },
             {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Parte primera o última de algo, principio o fin de ello."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "definition": "asunto (materia de que se trata)."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Punto último a que puede llegar algo."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Esmero sumo en una operación."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "definition": "Invernadero de los ganados trashumantes, y pastos en que pacen en el invierno."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "type_extra": "Matemáticas",
-                "definition": "Término primero o último de una proporción."
-            },
-            {
-                "number": "12",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "padrenuestro (cuenta del rosario)."
-            },
-            {
-                "number": "13",
-                "type": "nombre masculino",
-                "type_extra": "plural, etcétera",
-                "definition": "Manifestaciones exageradas y vehementes de un afecto del ánimo, como alegría, dolor, Hacer extremos."
-            },
-            {
-                "number": "14",
-                "type": "nombre masculino y femenino",
-                "definition": "En el fútbol y otros deportes, miembro de la delantera que, en la alineación del equipo, se sitúa más próximo a las bandas derecha o izquierda del campo."
             }
         ]
     },
@@ -28970,6 +28970,63 @@
             {
                 "number": "1",
                 "type": "adjetivo",
+                "definition": "Dicho de una cosa: Que está en su grado más intenso, elevado o activo. Frío, calor extremo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Excesivo, sumo, exagerado."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "distante (apartado)."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Parte primera o última de algo, principio o fin de ello."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "asunto (materia de que se trata)."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Punto último a que puede llegar algo."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Esmero sumo en una operación."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Invernadero de los ganados trashumantes, y pastos en que pacen en el invierno."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "Término primero o último de una proporción."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "type_extra": "plural, etcétera",
+                "definition": "Manifestaciones exageradas y vehementes de un afecto del ánimo, como alegría, dolor, Hacer extremos."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino y femenino",
+                "definition": "En el fútbol y otros deportes, miembro de la delantera que, en la alineación del equipo, se sitúa más próximo a las bandas derecha o izquierda del campo."
+            },
+            {
+                "number": "12",
+                "type": "adjetivo",
                 "definition": "último.",
                 "definition_extra": [
                     {
@@ -28983,72 +29040,15 @@
                 ]
             },
             {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Dicho de una cosa: Que está en su grado más intenso, elevado o activo. Frío, calor extremo."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "definition": "Excesivo, sumo, exagerado."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
-                "definition": "distante (apartado)."
-            },
-            {
-                "number": "5",
+                "number": "13",
                 "type": "adjetivo",
                 "definition": "desemejante."
             },
             {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Parte primera o última de algo, principio o fin de ello."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "definition": "asunto (materia de que se trata)."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Punto último a que puede llegar algo."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Esmero sumo en una operación."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "definition": "Invernadero de los ganados trashumantes, y pastos en que pacen en el invierno."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "type_extra": "Matemáticas",
-                "definition": "Término primero o último de una proporción."
-            },
-            {
-                "number": "12",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "padrenuestro (cuenta del rosario)."
-            },
-            {
-                "number": "13",
-                "type": "nombre masculino",
-                "type_extra": "plural, etcétera",
-                "definition": "Manifestaciones exageradas y vehementes de un afecto del ánimo, como alegría, dolor, Hacer extremos."
-            },
-            {
-                "number": "14",
-                "type": "nombre masculino y femenino",
-                "definition": "En el fútbol y otros deportes, miembro de la delantera que, en la alineación del equipo, se sitúa más próximo a las bandas derecha o izquierda del campo."
             }
         ]
     },
@@ -29732,14 +29732,14 @@
             {
                 "number": "31",
                 "type": "verbo",
-                "definition": "Apoderarse de una cosa.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Meterse o introducirse en alguna parte."
             },
             {
                 "number": "32",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Meterse o introducirse en alguna parte."
+                "definition": "Apoderarse de una cosa.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -30007,14 +30007,14 @@
             {
                 "number": "27",
                 "type": "verbo",
-                "definition": "ser1.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "definition": "ser1.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -30198,14 +30198,14 @@
             {
                 "number": "27",
                 "type": "verbo",
-                "definition": "ser1.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "definition": "ser1.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -30389,14 +30389,14 @@
             {
                 "number": "27",
                 "type": "verbo",
-                "definition": "ser1.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "definition": "ser1.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -30580,14 +30580,14 @@
             {
                 "number": "27",
                 "type": "verbo",
-                "definition": "ser1.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "definition": "ser1.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -30771,14 +30771,14 @@
             {
                 "number": "27",
                 "type": "verbo",
-                "definition": "ser1.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "definition": "ser1.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -30962,14 +30962,14 @@
             {
                 "number": "27",
                 "type": "verbo",
-                "definition": "ser1.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
             },
             {
                 "number": "28",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Detenerse o tardarse en alguna cosa o en alguna parte."
+                "definition": "ser1.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },

@@ -24,6 +24,12 @@
             {
                 "number": "1",
                 "type": "adjetivo",
+                "type_extra": "Cuba, Nicaragua y Uruguay",
+                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "sensato.",
                 "definition_extra": [
@@ -32,12 +38,6 @@
                         "content": "sensato, prudente, cauto."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "Cuba, Nicaragua y Uruguay",
-                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
             }
         ]
     },
@@ -46,6 +46,12 @@
             {
                 "number": "1",
                 "type": "adjetivo",
+                "type_extra": "Cuba, Nicaragua y Uruguay",
+                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "sensato.",
                 "definition_extra": [
@@ -54,12 +60,6 @@
                         "content": "sensato, prudente, cauto."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "Cuba, Nicaragua y Uruguay",
-                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
             }
         ]
     },
@@ -1375,21 +1375,21 @@
             },
             {
                 "number": "7",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una persona: Versada en muchos saberes."
-            },
-            {
-                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Lingüística",
                 "definition": "Propiedad común a todas las lenguas. Los universales del lenguaje."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "plural, Filosofía",
                 "definition": "ideas universales."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una persona: Versada en muchos saberes."
             }
         ]
     },
@@ -1579,6 +1579,16 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "mundo (conjunto de todo lo existente)."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Conjunto de individuos o elementos cualesquiera en los cuales se consideran una o más características que se someten a estudio estadístico."
+            },
+            {
+                "number": "3",
                 "type": "adjetivo",
                 "definition": "universal.",
                 "definition_extra": [
@@ -1587,16 +1597,6 @@
                         "content": "universal, ecuménico, mundo, cosmos, orbe, globo, creación, naturaleza."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "mundo (conjunto de todo lo existente)."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Conjunto de individuos o elementos cualesquiera en los cuales se consideran una o más características que se someten a estudio estadístico."
             }
         ]
     },
@@ -2107,19 +2107,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2163,19 +2163,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2248,19 +2248,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2304,19 +2304,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2360,19 +2360,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -3314,21 +3314,21 @@
             },
             {
                 "number": "7",
-                "type": "adjetivo",
-                "definition": "Dicho de una persona: Versada en muchos saberes.",
-                "type_extra": "rare, sin verificar"
-            },
-            {
-                "number": "8",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Propiedad común a todas las lenguas."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "ideas universales."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona: Versada en muchos saberes.",
+                "type_extra": "rare, sin verificar"
             }
         ]
     },
