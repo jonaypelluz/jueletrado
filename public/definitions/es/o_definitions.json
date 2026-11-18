@@ -427,13 +427,13 @@
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Gramática",
-                "definition": "complemento directo."
+                "definition": "cosa."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "definition": "cosa."
+                "type_extra": "Gramática",
+                "definition": "complemento directo."
             },
             {
                 "number": "8",
@@ -485,13 +485,13 @@
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Gramática",
-                "definition": "complemento directo."
+                "definition": "cosa."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "definition": "cosa."
+                "type_extra": "Gramática",
+                "definition": "complemento directo."
             },
             {
                 "number": "8",
@@ -4948,19 +4948,19 @@
             },
             {
                 "number": "4",
+                "type": "nombre femenino",
+                "definition": "paz."
+            },
+            {
+                "number": "5",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo masculino",
                 "definition": "Dicho de un color: Verde semejante al de la aceituna."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "adjetivo",
                 "definition": "De color oliva."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "definition": "paz."
             }
         ]
     },
@@ -9081,26 +9081,11 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino",
-                "definition": "Decimosexta letra del abecedario español, que representa el fonema vocálico medio posterior."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Sonido que representa la letra o."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "En la lógica escolástica, letra que representa la proposición particular negativa."
-            },
-            {
-                "number": "4",
                 "type": "conjunción",
                 "definition": "Denota diferencia, separación o alternativa entre dos o más personas, cosas o ideas."
             },
             {
-                "number": "5",
+                "number": "2",
                 "type": "conjunción",
                 "definition": "Usado generalmente ante cada uno de dos o más términos contrapuestos.",
                 "definition_extra": [
@@ -9111,9 +9096,24 @@
                 ]
             },
             {
-                "number": "6",
+                "number": "3",
                 "type": "conjunción",
                 "definition": "Denota equivalencia, significando 'o sea, o lo que es lo mismo'."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Decimosexta letra del abecedario español, que representa el fonema vocálico medio posterior."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Sonido que representa la letra o."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "En la lógica escolástica, letra que representa la proposición particular negativa."
             },
             {
                 "number": "7",

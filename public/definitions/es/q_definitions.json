@@ -178,31 +178,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino",
-                "definition": "Hora de la noche, señalada en algunos pueblos para que todos se recojan, lo cual se avisa con la campana."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Campana destinada para dar aviso de la queda."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "Toque que se da con la campana para dar aviso de la queda."
-            },
-            {
-                "number": "4",
-                "type": "adverbio",
-                "definition": "Con voz baja o que apenas se oye."
-            },
-            {
-                "number": "5",
-                "type": "adverbio",
-                "definition": "Con tiento."
-            },
-            {
-                "number": "6",
                 "type": "adjetivo",
                 "definition": "quieto.",
                 "definition_extra": [
@@ -211,6 +186,31 @@
                         "content": "quieto, toque, aviso, bajo, quedamente."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Hora de la noche, señalada en algunos pueblos para que todos se recojan, lo cual se avisa con la campana."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Campana destinada para dar aviso de la queda."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Toque que se da con la campana para dar aviso de la queda."
+            },
+            {
+                "number": "5",
+                "type": "adverbio",
+                "definition": "Con voz baja o que apenas se oye."
+            },
+            {
+                "number": "6",
+                "type": "adverbio",
+                "definition": "Con tiento."
             }
         ]
     },
@@ -1786,31 +1786,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino",
-                "definition": "Hora de la noche, señalada en algunos pueblos para que todos se recojan, lo cual se avisa con la campana."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Campana destinada para dar aviso de la queda."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "Toque que se da con la campana para dar aviso de la queda."
-            },
-            {
-                "number": "4",
-                "type": "adverbio",
-                "definition": "Con voz baja o que apenas se oye."
-            },
-            {
-                "number": "5",
-                "type": "adverbio",
-                "definition": "Con tiento."
-            },
-            {
-                "number": "6",
                 "type": "adjetivo",
                 "definition": "quieto.",
                 "definition_extra": [
@@ -1819,6 +1794,31 @@
                         "content": "quieto, toque, aviso, bajo, quedamente."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Hora de la noche, señalada en algunos pueblos para que todos se recojan, lo cual se avisa con la campana."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Campana destinada para dar aviso de la queda."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Toque que se da con la campana para dar aviso de la queda."
+            },
+            {
+                "number": "5",
+                "type": "adverbio",
+                "definition": "Con voz baja o que apenas se oye."
+            },
+            {
+                "number": "6",
+                "type": "adverbio",
+                "definition": "Con tiento."
             }
         ]
     },

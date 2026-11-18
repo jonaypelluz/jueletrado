@@ -1246,14 +1246,14 @@
             {
                 "number": "15",
                 "type": "nombre femenino",
-                "type_extra": "Religión",
-                "definition": "En la teología cristiana, estado natural del ser humano, anterior al estado de gracia."
+                "type_extra": "Escultura y Pintura",
+                "definition": "natural."
             },
             {
                 "number": "16",
                 "type": "nombre femenino",
-                "type_extra": "Escultura y Pintura",
-                "definition": "natural."
+                "type_extra": "Religión",
+                "definition": "En la teología cristiana, estado natural del ser humano, anterior al estado de gracia."
             },
             {
                 "number": "17",
@@ -3270,14 +3270,14 @@
             {
                 "number": "12",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Estado psicológico agitado y tenso de una persona. Los nervios la traicionaron en el examen."
+                "type_extra": "poco usado",
+                "definition": "Cuerda de los instrumentos musicales."
             },
             {
                 "number": "13",
                 "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Cuerda de los instrumentos musicales."
+                "type_extra": "plural",
+                "definition": "Estado psicológico agitado y tenso de una persona. Los nervios la traicionaron en el examen."
             }
         ]
     },
@@ -4364,26 +4364,26 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino",
-                "definition": "Cada una de las tres partes del oficio de maitines, compuesta de antífonas, salmos y lecciones."
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Que anda siempre solo, melancólico y triste."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Música",
-                "definition": "Pieza de música vocal o instrumental, de melodía dulce, propia para recordar los sentimientos apacibles de una noche tranquila."
+                "definition": "Cada una de las tres partes del oficio de maitines, compuesta de antífonas, salmos y lecciones."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Música",
-                "definition": "Serenata en que se cantan o tocan composiciones de carácter sentimental."
+                "definition": "Pieza de música vocal o instrumental, de melodía dulce, propia para recordar los sentimientos apacibles de una noche tranquila."
             },
             {
                 "number": "8",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Que anda siempre solo, melancólico y triste."
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "Serenata en que se cantan o tocan composiciones de carácter sentimental."
             }
         ]
     },
@@ -4421,26 +4421,26 @@
             },
             {
                 "number": "5",
-                "type": "nombre masculino",
-                "definition": "Cada una de las tres partes del oficio de maitines, compuesta de antífonas, salmos y lecciones."
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Que anda siempre solo, melancólico y triste."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Música",
-                "definition": "Pieza de música vocal o instrumental, de melodía dulce, propia para recordar los sentimientos apacibles de una noche tranquila."
+                "definition": "Cada una de las tres partes del oficio de maitines, compuesta de antífonas, salmos y lecciones."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Música",
-                "definition": "Serenata en que se cantan o tocan composiciones de carácter sentimental."
+                "definition": "Pieza de música vocal o instrumental, de melodía dulce, propia para recordar los sentimientos apacibles de una noche tranquila."
             },
             {
                 "number": "8",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Que anda siempre solo, melancólico y triste."
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "Serenata en que se cantan o tocan composiciones de carácter sentimental."
             }
         ]
     },
@@ -5159,20 +5159,20 @@
             {
                 "number": "3",
                 "type": "pronombre",
-                "type_extra": "personal primera persona masculino plural",
-                "definition": "Forma que, en dativo o acusativo, designa a una persona indeterminada. En un incendio, tenemos que asegurarnos de cerrar bien las puertas."
+                "type_extra": "poco usado o usada, poco usados o usadas, Usado, usada, usados o usadas, personal primera persona masculino y femenino plural",
+                "definition": "nosotros. Venga a nos el tu reino. en la actualidad solo por ciertas personas de muy elevado rango o dignidad, como reyes, papas u obispos."
             },
             {
                 "number": "4",
                 "type": "pronombre",
-                "type_extra": "Usado especialmente en lengua escrita, personal primera persona masculino plural",
-                "definition": "me. En este artículo nos hemos ocupado de su estudio."
+                "type_extra": "personal primera persona masculino plural",
+                "definition": "Forma que, en dativo o acusativo, designa a una persona indeterminada. En un incendio, tenemos que asegurarnos de cerrar bien las puertas."
             },
             {
                 "number": "5",
                 "type": "pronombre",
-                "type_extra": "poco usado o usada, poco usados o usadas, Usado, usada, usados o usadas, personal primera persona masculino y femenino plural",
-                "definition": "nosotros. Venga a nos el tu reino. en la actualidad solo por ciertas personas de muy elevado rango o dignidad, como reyes, papas u obispos."
+                "type_extra": "Usado especialmente en lengua escrita, personal primera persona masculino plural",
+                "definition": "me. En este artículo nos hemos ocupado de su estudio."
             }
         ]
     },
@@ -5357,21 +5357,21 @@
             },
             {
                 "number": "19",
-                "type": "nombre masculino y femenino",
-                "type_extra": "coloquial, España",
-                "definition": "Persona a la que le gusta llamar la atención o que tiene un comportamiento inconveniente. Entonces el nota preguntó si nos iban a invitar a cenar."
+                "type": "nombre femenino",
+                "type_extra": "poco usado",
+                "definition": "Estilo de un escritor."
             },
             {
                 "number": "20",
                 "type": "nombre masculino y femenino",
                 "type_extra": "coloquial, España",
-                "definition": "Persona cuyo nombre y condición se ignoran o no se consideran. Un nota entró en la joyería mientras la atracaban."
+                "definition": "Persona a la que le gusta llamar la atención o que tiene un comportamiento inconveniente. Entonces el nota preguntó si nos iban a invitar a cenar."
             },
             {
                 "number": "21",
-                "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Estilo de un escritor."
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial, España",
+                "definition": "Persona cuyo nombre y condición se ignoran o no se consideran. Un nota entró en la joyería mientras la atracaban."
             }
         ]
     },

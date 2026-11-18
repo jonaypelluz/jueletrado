@@ -106,15 +106,15 @@
             },
             {
                 "number": "16",
-                "type": "nombre masculino",
-                "type_extra": "desusado, Era usado también como adjetivo",
-                "definition": "Hombre necio."
-            },
-            {
-                "number": "17",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "Dicho de una cosa: Fuerte, vigorosa."
+            },
+            {
+                "number": "17",
+                "type": "nombre masculino",
+                "type_extra": "desusado, Era usado también como adjetivo",
+                "definition": "Hombre necio."
             }
         ]
     },
@@ -544,119 +544,119 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que enseña una ciencia, arte u oficio, o tiene título para hacerlo."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino y femenino",
-                "definition": "maestro de primera enseñanza."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que es práctica en una materia y la maneja con desenvoltura."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que está aprobada en un oficio mecánico o lo ejerce públicamente. Maestro de taller."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino y femenino",
-                "definition": "Compositor de música."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Título que en algunas órdenes regulares se da a los religiosos encargados de enseñar, y que otras veces sirve para condecorar a los beneméritos."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Hombre que tenía el grado mayor en filosofía, conferido por una universidad."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "type_extra": "Marina",
-                "definition": "Palo mayor de una embarcación."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "type_extra": "México",
-                "definition": "Titulación correspondiente a la maestría (curso de posgrado)."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
-                "definition": "abeja maestra."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
-                "type_extra": "Usado más en plural",
-                "definition": "Cada una de las dos cuerdas que tiran de la red en el arte de la jábega."
-            },
-            {
-                "number": "14",
-                "type": "nombre femenino",
-                "definition": "Cordel al que se relinga un paño de red o al que se anudan las pernadas de los anzuelos de palangres."
-            },
-            {
-                "number": "15",
-                "type": "nombre femenino",
-                "definition": "Cosa que instruye o enseña. La historia es la maestra de la vida."
-            },
-            {
-                "number": "16",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "Listón de madera que se coloca a plomo, por lo común, para que sirva de guía al construir una pared."
-            },
-            {
-                "number": "17",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "línea maestra."
-            },
-            {
-                "number": "18",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "Hilera de piedras para señalar la superficie que ha de llenar el empedrado."
-            },
-            {
-                "number": "19",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "Dicho de un animal: Que está adiestrado. Perro, halcón maestro."
             },
             {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que enseña una ciencia, arte u oficio, o tiene título para hacerlo."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "definition": "maestro de primera enseñanza."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que es práctica en una materia y la maneja con desenvoltura."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que está aprobada en un oficio mecánico o lo ejerce públicamente. Maestro de taller."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "definition": "Compositor de música."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Título que en algunas órdenes regulares se da a los religiosos encargados de enseñar, y que otras veces sirve para condecorar a los beneméritos."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Hombre que tenía el grado mayor en filosofía, conferido por una universidad."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "type_extra": "Marina",
+                "definition": "Palo mayor de una embarcación."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Titulación correspondiente a la maestría (curso de posgrado)."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "definition": "abeja maestra."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "Usado más en plural",
+                "definition": "Cada una de las dos cuerdas que tiran de la red en el arte de la jábega."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "definition": "Cordel al que se relinga un paño de red o al que se anudan las pernadas de los anzuelos de palangres."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "definition": "Cosa que instruye o enseña. La historia es la maestra de la vida."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "Listón de madera que se coloca a plomo, por lo común, para que sirva de guía al construir una pared."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "línea maestra."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "Hilera de piedras para señalar la superficie que ha de llenar el empedrado."
+            },
+            {
                 "number": "20",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "cirujano."
-            },
-            {
-                "number": "21",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Maestre de una orden militar."
-            },
-            {
-                "number": "22",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Escuela de niñas. Ir a L a maestra. Venir de L a maestra."
             },
             {
-                "number": "23",
+                "number": "21",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "Mujer del maestro."
+            },
+            {
+                "number": "22",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "cirujano."
+            },
+            {
+                "number": "23",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Maestre de una orden militar."
             }
         ]
     },
@@ -684,119 +684,119 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que enseña una ciencia, arte u oficio, o tiene título para hacerlo."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino y femenino",
-                "definition": "maestro de primera enseñanza."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que es práctica en una materia y la maneja con desenvoltura."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que está aprobada en un oficio mecánico o lo ejerce públicamente. Maestro de taller."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino y femenino",
-                "definition": "Compositor de música."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Título que en algunas órdenes regulares se da a los religiosos encargados de enseñar, y que otras veces sirve para condecorar a los beneméritos."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Hombre que tenía el grado mayor en filosofía, conferido por una universidad."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "type_extra": "Marina",
-                "definition": "Palo mayor de una embarcación."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "type_extra": "México",
-                "definition": "Titulación correspondiente a la maestría (curso de posgrado)."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
-                "definition": "abeja maestra."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
-                "type_extra": "Usado más en plural",
-                "definition": "Cada una de las dos cuerdas que tiran de la red en el arte de la jábega."
-            },
-            {
-                "number": "14",
-                "type": "nombre femenino",
-                "definition": "Cordel al que se relinga un paño de red o al que se anudan las pernadas de los anzuelos de palangres."
-            },
-            {
-                "number": "15",
-                "type": "nombre femenino",
-                "definition": "Cosa que instruye o enseña. La historia es la maestra de la vida."
-            },
-            {
-                "number": "16",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "Listón de madera que se coloca a plomo, por lo común, para que sirva de guía al construir una pared."
-            },
-            {
-                "number": "17",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "línea maestra."
-            },
-            {
-                "number": "18",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "Hilera de piedras para señalar la superficie que ha de llenar el empedrado."
-            },
-            {
-                "number": "19",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "Dicho de un animal: Que está adiestrado. Perro, halcón maestro."
             },
             {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que enseña una ciencia, arte u oficio, o tiene título para hacerlo."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "definition": "maestro de primera enseñanza."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que es práctica en una materia y la maneja con desenvoltura."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que está aprobada en un oficio mecánico o lo ejerce públicamente. Maestro de taller."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "definition": "Compositor de música."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Título que en algunas órdenes regulares se da a los religiosos encargados de enseñar, y que otras veces sirve para condecorar a los beneméritos."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Hombre que tenía el grado mayor en filosofía, conferido por una universidad."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "type_extra": "Marina",
+                "definition": "Palo mayor de una embarcación."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Titulación correspondiente a la maestría (curso de posgrado)."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "definition": "abeja maestra."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "Usado más en plural",
+                "definition": "Cada una de las dos cuerdas que tiran de la red en el arte de la jábega."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "definition": "Cordel al que se relinga un paño de red o al que se anudan las pernadas de los anzuelos de palangres."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "definition": "Cosa que instruye o enseña. La historia es la maestra de la vida."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "Listón de madera que se coloca a plomo, por lo común, para que sirva de guía al construir una pared."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "línea maestra."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "Hilera de piedras para señalar la superficie que ha de llenar el empedrado."
+            },
+            {
                 "number": "20",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "cirujano."
-            },
-            {
-                "number": "21",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Maestre de una orden militar."
-            },
-            {
-                "number": "22",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Escuela de niñas. Ir a L a maestra. Venir de L a maestra."
             },
             {
-                "number": "23",
+                "number": "21",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "Mujer del maestro."
+            },
+            {
+                "number": "22",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "cirujano."
+            },
+            {
+                "number": "23",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Maestre de una orden militar."
             }
         ]
     },
@@ -824,119 +824,119 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que enseña una ciencia, arte u oficio, o tiene título para hacerlo."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino y femenino",
-                "definition": "maestro de primera enseñanza."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que es práctica en una materia y la maneja con desenvoltura."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que está aprobada en un oficio mecánico o lo ejerce públicamente. Maestro de taller."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino y femenino",
-                "definition": "Compositor de música."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Título que en algunas órdenes regulares se da a los religiosos encargados de enseñar, y que otras veces sirve para condecorar a los beneméritos."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Hombre que tenía el grado mayor en filosofía, conferido por una universidad."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "type_extra": "Marina",
-                "definition": "Palo mayor de una embarcación."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "type_extra": "México",
-                "definition": "Titulación correspondiente a la maestría (curso de posgrado)."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
-                "definition": "abeja maestra."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
-                "type_extra": "Usado más en plural",
-                "definition": "Cada una de las dos cuerdas que tiran de la red en el arte de la jábega."
-            },
-            {
-                "number": "14",
-                "type": "nombre femenino",
-                "definition": "Cordel al que se relinga un paño de red o al que se anudan las pernadas de los anzuelos de palangres."
-            },
-            {
-                "number": "15",
-                "type": "nombre femenino",
-                "definition": "Cosa que instruye o enseña. La historia es la maestra de la vida."
-            },
-            {
-                "number": "16",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "Listón de madera que se coloca a plomo, por lo común, para que sirva de guía al construir una pared."
-            },
-            {
-                "number": "17",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "línea maestra."
-            },
-            {
-                "number": "18",
-                "type": "nombre femenino",
-                "type_extra": "Construcción",
-                "definition": "Hilera de piedras para señalar la superficie que ha de llenar el empedrado."
-            },
-            {
-                "number": "19",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "Dicho de un animal: Que está adiestrado. Perro, halcón maestro."
             },
             {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que enseña una ciencia, arte u oficio, o tiene título para hacerlo."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "definition": "maestro de primera enseñanza."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que es práctica en una materia y la maneja con desenvoltura."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que está aprobada en un oficio mecánico o lo ejerce públicamente. Maestro de taller."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "definition": "Compositor de música."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Título que en algunas órdenes regulares se da a los religiosos encargados de enseñar, y que otras veces sirve para condecorar a los beneméritos."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Hombre que tenía el grado mayor en filosofía, conferido por una universidad."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "type_extra": "Marina",
+                "definition": "Palo mayor de una embarcación."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Titulación correspondiente a la maestría (curso de posgrado)."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "definition": "abeja maestra."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "Usado más en plural",
+                "definition": "Cada una de las dos cuerdas que tiran de la red en el arte de la jábega."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "definition": "Cordel al que se relinga un paño de red o al que se anudan las pernadas de los anzuelos de palangres."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "definition": "Cosa que instruye o enseña. La historia es la maestra de la vida."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "Listón de madera que se coloca a plomo, por lo común, para que sirva de guía al construir una pared."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "línea maestra."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "Hilera de piedras para señalar la superficie que ha de llenar el empedrado."
+            },
+            {
                 "number": "20",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "cirujano."
-            },
-            {
-                "number": "21",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Maestre de una orden militar."
-            },
-            {
-                "number": "22",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Escuela de niñas. Ir a L a maestra. Venir de L a maestra."
             },
             {
-                "number": "23",
+                "number": "21",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "Mujer del maestro."
+            },
+            {
+                "number": "22",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "cirujano."
+            },
+            {
+                "number": "23",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Maestre de una orden militar."
             }
         ]
     },
@@ -1028,13 +1028,13 @@
             {
                 "number": "3",
                 "type": "nombre masculino y femenino",
-                "definition": "Persona que hace encantamientos."
+                "type_extra": "poco usado",
+                "definition": "mago (persona que practica la magia)."
             },
             {
                 "number": "4",
                 "type": "nombre masculino y femenino",
-                "type_extra": "poco usado",
-                "definition": "mago (persona que practica la magia)."
+                "definition": "Persona que hace encantamientos."
             },
             {
                 "number": "5",
@@ -1065,13 +1065,13 @@
             {
                 "number": "3",
                 "type": "nombre masculino y femenino",
-                "definition": "Persona que hace encantamientos."
+                "type_extra": "poco usado",
+                "definition": "mago (persona que practica la magia)."
             },
             {
                 "number": "4",
                 "type": "nombre masculino y femenino",
-                "type_extra": "poco usado",
-                "definition": "mago (persona que practica la magia)."
+                "definition": "Persona que hace encantamientos."
             },
             {
                 "number": "5",
@@ -1605,23 +1605,23 @@
                 "number": "11",
                 "type": "adjetivo",
                 "type_extra": "coloquial",
-                "definition": "Dicho comúnmente de un muchacho: Travieso, inquieto, enredador."
+                "definition": "malvado."
             },
             {
                 "number": "12",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
+                "definition": "Dicho comúnmente de un muchacho: Travieso, inquieto, enredador."
+            },
+            {
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "diablo (príncipe de los ángeles rebelados). E l malo."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre femenino",
                 "definition": "Malilla de los juegos de naipes."
-            },
-            {
-                "number": "14",
-                "type": "adjetivo",
-                "type_extra": "coloquial",
-                "definition": "malvado."
             }
         ]
     },
@@ -1692,23 +1692,23 @@
                 "number": "11",
                 "type": "adjetivo",
                 "type_extra": "coloquial",
-                "definition": "Dicho comúnmente de un muchacho: Travieso, inquieto, enredador."
+                "definition": "malvado."
             },
             {
                 "number": "12",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
+                "definition": "Dicho comúnmente de un muchacho: Travieso, inquieto, enredador."
+            },
+            {
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "diablo (príncipe de los ángeles rebelados). E l malo."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre femenino",
                 "definition": "Malilla de los juegos de naipes."
-            },
-            {
-                "number": "14",
-                "type": "adjetivo",
-                "type_extra": "coloquial",
-                "definition": "malvado."
             }
         ]
     },
@@ -2119,21 +2119,21 @@
             },
             {
                 "number": "11",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Ofrecer, prometer algo."
-            },
-            {
-                "number": "12",
                 "type": "verbo pronominal",
                 "type_extra": "poco usado",
                 "definition": "Dicho de una pieza: En los edificios, comunicarse con otra."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "verbo pronominal",
                 "type_extra": "poco usado",
                 "definition": "Servirse de una puerta, escalera u otra comunicación."
+            },
+            {
+                "number": "13",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Ofrecer, prometer algo."
             }
         ]
     },
@@ -4755,14 +4755,14 @@
             {
                 "number": "8",
                 "type": "nombre femenino",
-                "type_extra": "Cuba",
-                "definition": "coche (automóvil)."
+                "type_extra": "coloquial, poco usado",
+                "definition": "Multitud y abundancia. Tengo una máquina de disparates."
             },
             {
                 "number": "9",
                 "type": "nombre femenino",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Multitud y abundancia. Tengo una máquina de disparates."
+                "type_extra": "Cuba",
+                "definition": "coche (automóvil)."
             },
             {
                 "number": "10",
@@ -4846,14 +4846,14 @@
             {
                 "number": "8",
                 "type": "nombre femenino",
-                "type_extra": "Cuba",
-                "definition": "coche (automóvil)."
+                "type_extra": "coloquial, poco usado",
+                "definition": "Multitud y abundancia. Tengo una máquina de disparates."
             },
             {
                 "number": "9",
                 "type": "nombre femenino",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Multitud y abundancia. Tengo una máquina de disparates."
+                "type_extra": "Cuba",
+                "definition": "coche (automóvil)."
             },
             {
                 "number": "10",
@@ -6986,29 +6986,29 @@
             },
             {
                 "number": "14",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado, Usado también como pronominal",
+                "definition": "Herir y llagar la cabalgadura por rozarla el aparejo u otra cosa."
+            },
+            {
+                "number": "15",
                 "type": "verbo intransitivo",
                 "definition": "Hacer la matanza del cerdo."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "verbo pronominal",
                 "definition": "Perder la vida involuntariamente. Se mató en un accidente."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo pronominal",
                 "definition": "Reñir, pelear con alguien. Se mataba con sus hermanos."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "verbo pronominal",
                 "definition": "Esforzarse mucho o trabajar muy intensamente para conseguir algo. Se mata por conseguir el cargo."
-            },
-            {
-                "number": "18",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado, Usado también como pronominal",
-                "definition": "Herir y llagar la cabalgadura por rozarla el aparejo u otra cosa."
             }
         ]
     },
@@ -7091,29 +7091,29 @@
             },
             {
                 "number": "14",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado, Usado también como pronominal",
+                "definition": "Herir y llagar la cabalgadura por rozarla el aparejo u otra cosa."
+            },
+            {
+                "number": "15",
                 "type": "verbo intransitivo",
                 "definition": "Hacer la matanza del cerdo."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "verbo pronominal",
                 "definition": "Perder la vida involuntariamente. Se mató en un accidente."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo pronominal",
                 "definition": "Reñir, pelear con alguien. Se mataba con sus hermanos."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "verbo pronominal",
                 "definition": "Esforzarse mucho o trabajar muy intensamente para conseguir algo. Se mata por conseguir el cargo."
-            },
-            {
-                "number": "18",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado, Usado también como pronominal",
-                "definition": "Herir y llagar la cabalgadura por rozarla el aparejo u otra cosa."
             }
         ]
     },
@@ -8159,36 +8159,36 @@
             },
             {
                 "number": "10",
-                "type": "nombre femenino",
-                "definition": "Parte de la física que trata del equilibrio y del movimiento de los cuerpos sometidos a cualquier fuerza."
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "Conductor asalariado de un automóvil."
             },
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "definition": "Pieza o conjunto de piezas que ponen en movimiento una máquina."
+                "definition": "Parte de la física que trata del equilibrio y del movimiento de los cuerpos sometidos a cualquier fuerza."
             },
             {
                 "number": "12",
                 "type": "nombre femenino",
-                "definition": "Conjunto de reglas que rigen el desarrollo de una actividad. La mecánica de un concurso."
+                "definition": "Pieza o conjunto de piezas que ponen en movimiento una máquina."
             },
             {
                 "number": "13",
+                "type": "nombre femenino",
+                "definition": "Conjunto de reglas que rigen el desarrollo de una actividad. La mecánica de un concurso."
+            },
+            {
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
                 "definition": "Buen orden interior y cuidado de los intereses y efectos de los soldados."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Bajo e indecoroso."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Conductor asalariado de un automóvil."
             },
             {
                 "number": "16",
@@ -8265,36 +8265,36 @@
             },
             {
                 "number": "10",
-                "type": "nombre femenino",
-                "definition": "Parte de la física que trata del equilibrio y del movimiento de los cuerpos sometidos a cualquier fuerza."
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "Conductor asalariado de un automóvil."
             },
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "definition": "Pieza o conjunto de piezas que ponen en movimiento una máquina."
+                "definition": "Parte de la física que trata del equilibrio y del movimiento de los cuerpos sometidos a cualquier fuerza."
             },
             {
                 "number": "12",
                 "type": "nombre femenino",
-                "definition": "Conjunto de reglas que rigen el desarrollo de una actividad. La mecánica de un concurso."
+                "definition": "Pieza o conjunto de piezas que ponen en movimiento una máquina."
             },
             {
                 "number": "13",
+                "type": "nombre femenino",
+                "definition": "Conjunto de reglas que rigen el desarrollo de una actividad. La mecánica de un concurso."
+            },
+            {
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
                 "definition": "Buen orden interior y cuidado de los intereses y efectos de los soldados."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Bajo e indecoroso."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Conductor asalariado de un automóvil."
             },
             {
                 "number": "16",
@@ -8962,76 +8962,76 @@
             {
                 "number": "25",
                 "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "Mellizo, gemelo."
+            },
+            {
+                "number": "26",
+                "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Caudal, rentas o hacienda que alguien posee o goza."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre masculino",
                 "type_extra": "plural, Tauromaquia",
                 "definition": "Tercio correspondiente al centro del ruedo."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre femenino",
                 "definition": "Mitad de algo, especialmente de una unidad de medida. Media de trigo."
             },
             {
-                "number": "28",
+                "number": "29",
                 "type": "nombre femenino",
                 "definition": "Medida para áridos de capacidad de seis celemines."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Usado",
                 "definition": "para referirse a la media hora posterior a una hora en punto consabida. Empezamos a la media en punto."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "Deportes",
                 "definition": "línea media."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "nombre femenino",
                 "type_extra": "Matemáticas",
                 "definition": "media aritmética."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "nombre femenino",
                 "type_extra": "Matemáticas",
                 "definition": "Número que resulta al efectuar una serie determinada de operaciones con un conjunto de números y que, en determinadas condiciones, puede representar por sí solo a todo el conjunto. Media aritmética. Media geométrica."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "nombre femenino",
                 "type_extra": "plural, etcétera",
                 "definition": "En el juego del mus, reunión de tres naipes del mismo valor, como tres reyes, tres cincos, en una mano."
             },
             {
-                "number": "34",
+                "number": "35",
                 "type": "adverbio",
                 "definition": "No del todo, no enteramente, no por completo. Medio asado. Medio vestido. A medio asar. A medio vestir."
             },
             {
-                "number": "35",
+                "number": "36",
                 "type": "adverbio",
                 "type_extra": "coloquial",
                 "definition": "Modifica a ciertos adjetivos que expresan cualidades negativas para suavizar falsamente su significado. Este chico es medio tonto."
             },
             {
-                "number": "36",
-                "type": "nombre masculino",
-                "definition": "médium."
-            },
-            {
                 "number": "37",
                 "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Mellizo, gemelo."
+                "definition": "médium."
             }
         ]
     },
@@ -9208,76 +9208,76 @@
             {
                 "number": "25",
                 "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "Mellizo, gemelo."
+            },
+            {
+                "number": "26",
+                "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Caudal, rentas o hacienda que alguien posee o goza."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre masculino",
                 "type_extra": "plural, Tauromaquia",
                 "definition": "Tercio correspondiente al centro del ruedo."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre femenino",
                 "definition": "Mitad de algo, especialmente de una unidad de medida. Media de trigo."
             },
             {
-                "number": "28",
+                "number": "29",
                 "type": "nombre femenino",
                 "definition": "Medida para áridos de capacidad de seis celemines."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Usado",
                 "definition": "para referirse a la media hora posterior a una hora en punto consabida. Empezamos a la media en punto."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "Deportes",
                 "definition": "línea media."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "nombre femenino",
                 "type_extra": "Matemáticas",
                 "definition": "media aritmética."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "nombre femenino",
                 "type_extra": "Matemáticas",
                 "definition": "Número que resulta al efectuar una serie determinada de operaciones con un conjunto de números y que, en determinadas condiciones, puede representar por sí solo a todo el conjunto. Media aritmética. Media geométrica."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "nombre femenino",
                 "type_extra": "plural, etcétera",
                 "definition": "En el juego del mus, reunión de tres naipes del mismo valor, como tres reyes, tres cincos, en una mano."
             },
             {
-                "number": "34",
+                "number": "35",
                 "type": "adverbio",
                 "definition": "No del todo, no enteramente, no por completo. Medio asado. Medio vestido. A medio asar. A medio vestir."
             },
             {
-                "number": "35",
+                "number": "36",
                 "type": "adverbio",
                 "type_extra": "coloquial",
                 "definition": "Modifica a ciertos adjetivos que expresan cualidades negativas para suavizar falsamente su significado. Este chico es medio tonto."
             },
             {
-                "number": "36",
-                "type": "nombre masculino",
-                "definition": "médium."
-            },
-            {
                 "number": "37",
                 "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Mellizo, gemelo."
+                "definition": "médium."
             }
         ]
     },
@@ -11254,12 +11254,6 @@
             {
                 "number": "1",
                 "type": "verbo transitivo",
-                "type_extra": "Derecho, Usado más en participio",
-                "definition": "Hacer mérito o mención."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
                 "type_extra": "Usado también como intransitivo, poco usado",
                 "definition": "merecer.",
                 "definition_extra": [
@@ -11268,6 +11262,12 @@
                         "content": "merecer."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "Derecho, Usado más en participio",
+                "definition": "Hacer mérito o mención."
             }
         ]
     },
@@ -11662,69 +11662,69 @@
             },
             {
                 "number": "15",
-                "type": "verbo pronominal",
-                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Introducir algún género defraudando las rentas públicas."
             },
             {
                 "number": "16",
                 "type": "verbo pronominal",
-                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
+                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
             },
             {
                 "number": "17",
                 "type": "verbo pronominal",
-                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
+                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
             },
             {
                 "number": "18",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
+                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
+                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
             },
             {
                 "number": "20",
                 "type": "verbo pronominal",
-                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
+                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
             },
             {
                 "number": "21",
                 "type": "verbo pronominal",
-                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
+                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
             },
             {
                 "number": "22",
                 "type": "verbo pronominal",
-                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
+                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
             },
             {
                 "number": "23",
                 "type": "verbo pronominal",
-                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
+                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
             },
             {
                 "number": "24",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
+                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
             },
             {
                 "number": "25",
                 "type": "verbo pronominal",
-                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
+                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
             },
             {
                 "number": "26",
                 "type": "verbo pronominal",
-                "definition": "Dicho del mar: Introducirse en la tierra."
+                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
             },
             {
                 "number": "27",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Introducir algún género defraudando las rentas públicas."
+                "type": "verbo pronominal",
+                "definition": "Dicho del mar: Introducirse en la tierra."
             },
             {
                 "number": "28",
@@ -11830,69 +11830,69 @@
             },
             {
                 "number": "15",
-                "type": "verbo pronominal",
-                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Introducir algún género defraudando las rentas públicas."
             },
             {
                 "number": "16",
                 "type": "verbo pronominal",
-                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
+                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
             },
             {
                 "number": "17",
                 "type": "verbo pronominal",
-                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
+                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
             },
             {
                 "number": "18",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
+                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
+                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
             },
             {
                 "number": "20",
                 "type": "verbo pronominal",
-                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
+                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
             },
             {
                 "number": "21",
                 "type": "verbo pronominal",
-                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
+                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
             },
             {
                 "number": "22",
                 "type": "verbo pronominal",
-                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
+                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
             },
             {
                 "number": "23",
                 "type": "verbo pronominal",
-                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
+                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
             },
             {
                 "number": "24",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
+                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
             },
             {
                 "number": "25",
                 "type": "verbo pronominal",
-                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
+                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
             },
             {
                 "number": "26",
                 "type": "verbo pronominal",
-                "definition": "Dicho del mar: Introducirse en la tierra."
+                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
             },
             {
                 "number": "27",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Introducir algún género defraudando las rentas públicas."
+                "type": "verbo pronominal",
+                "definition": "Dicho del mar: Introducirse en la tierra."
             },
             {
                 "number": "28",
@@ -11998,69 +11998,69 @@
             },
             {
                 "number": "15",
-                "type": "verbo pronominal",
-                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Introducir algún género defraudando las rentas públicas."
             },
             {
                 "number": "16",
                 "type": "verbo pronominal",
-                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
+                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
             },
             {
                 "number": "17",
                 "type": "verbo pronominal",
-                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
+                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
             },
             {
                 "number": "18",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
+                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
+                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
             },
             {
                 "number": "20",
                 "type": "verbo pronominal",
-                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
+                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
             },
             {
                 "number": "21",
                 "type": "verbo pronominal",
-                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
+                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
             },
             {
                 "number": "22",
                 "type": "verbo pronominal",
-                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
+                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
             },
             {
                 "number": "23",
                 "type": "verbo pronominal",
-                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
+                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
             },
             {
                 "number": "24",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
+                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
             },
             {
                 "number": "25",
                 "type": "verbo pronominal",
-                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
+                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
             },
             {
                 "number": "26",
                 "type": "verbo pronominal",
-                "definition": "Dicho del mar: Introducirse en la tierra."
+                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
             },
             {
                 "number": "27",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Introducir algún género defraudando las rentas públicas."
+                "type": "verbo pronominal",
+                "definition": "Dicho del mar: Introducirse en la tierra."
             },
             {
                 "number": "28",
@@ -12091,50 +12091,50 @@
             },
             {
                 "number": "2",
-                "type": "nombre masculino",
-                "definition": "Golpe que se da a una persona, acometiéndola."
+                "type": "adjetivo",
+                "type_extra": "América Meridional, Costa Rica, Cuba, El Salvador, Guatemala, Honduras, Nicaragua y República Dominicana, Usado más como sustantivo",
+                "definition": "entremetido."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Tela sobrante que suele dejarse metida en las costuras de una prenda de ropa."
+                "definition": "Golpe que se da a una persona, acometiéndola."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "metedor (paño)."
+                "definition": "Tela sobrante que suele dejarse metida en las costuras de una prenda de ropa."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Impulso o avance que se da a una tarea."
+                "definition": "metedor (paño)."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "definition": "tute (desgaste). Dar un metido."
+                "definition": "Impulso o avance que se da a una tarea."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "definition": "Lejía amoniacal que hacían las lavanderas con orines o con excrementos de aves."
+                "definition": "tute (desgaste). Dar un metido."
             },
             {
                 "number": "8",
+                "type": "nombre masculino",
+                "definition": "Lejía amoniacal que hacían las lavanderas con orines o con excrementos de aves."
+            },
+            {
+                "number": "9",
                 "type": "nombre masculino",
                 "type_extra": "coloquial",
                 "definition": "Reprensión, refutación o impugnación hecha vigorosa o desconsideradamente."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "Conjunto de yemas y brotes producidos en cada período de actividad vital de una planta."
-            },
-            {
-                "number": "10",
-                "type": "adjetivo",
-                "type_extra": "América Meridional, Costa Rica, Cuba, El Salvador, Guatemala, Honduras, Nicaragua y República Dominicana, Usado más como sustantivo",
-                "definition": "entremetido."
             }
         ]
     },
@@ -12228,69 +12228,69 @@
             },
             {
                 "number": "15",
-                "type": "verbo pronominal",
-                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Introducir algún género defraudando las rentas públicas."
             },
             {
                 "number": "16",
                 "type": "verbo pronominal",
-                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
+                "definition": "Introducirse en una parte o en una dependencia sin ser llamado."
             },
             {
                 "number": "17",
                 "type": "verbo pronominal",
-                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
+                "definition": "Introducirse en el trato y comunicación con una persona, frecuentando su casa y conversación."
             },
             {
                 "number": "18",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
+                "definition": "Dejarse llevar con pasión por algo o cebarse en ello. Meterse en líos, en aventuras."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
+                "definition": "Dicho de un río o de un arroyo: Desembocar en otro o en el mar."
             },
             {
                 "number": "20",
                 "type": "verbo pronominal",
-                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
+                "definition": "Arrojarse al contrario o a los enemigos con las armas en la mano."
             },
             {
                 "number": "21",
                 "type": "verbo pronominal",
-                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
+                "definition": "Entrar o dedicarse a una profesión u oficio. Meterse fraile, soldado."
             },
             {
                 "number": "22",
                 "type": "verbo pronominal",
-                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
+                "definition": "Dicho de una persona: Abrazar, aparentar o afectar en su porte una profesión, condición o estado. Meterse a labrador, a caballero."
             },
             {
                 "number": "23",
                 "type": "verbo pronominal",
-                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
+                "definition": "Arrogarse alguna capacidad o facultades que no se tienen. Meterse a juzgar, a enseñar."
             },
             {
                 "number": "24",
                 "type": "verbo pronominal",
-                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
+                "definition": "Censurar o criticar algo o a alguien. Se metía mucho con su hermano pequeño."
             },
             {
                 "number": "25",
                 "type": "verbo pronominal",
-                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
+                "definition": "Dicho de un cabo, de un promontorio o de una lengua de tierra: Introducirse en el mar."
             },
             {
                 "number": "26",
                 "type": "verbo pronominal",
-                "definition": "Dicho del mar: Introducirse en la tierra."
+                "definition": "En el juego de la cascarela, ceder la polla, conviniéndose a reponerla antes de elegir palo."
             },
             {
                 "number": "27",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Introducir algún género defraudando las rentas públicas."
+                "type": "verbo pronominal",
+                "definition": "Dicho del mar: Introducirse en la tierra."
             },
             {
                 "number": "28",
@@ -12454,18 +12454,18 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "definition": "Arzobispo, respecto de sus obispos sufragáneos."
+                "type": "adjetivo",
+                "definition": "arzobispal."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Tren subterráneo o al aire libre que circula por las grandes ciudades."
+                "definition": "Arzobispo, respecto de sus obispos sufragáneos."
             },
             {
                 "number": "5",
-                "type": "adjetivo",
-                "definition": "arzobispal."
+                "type": "nombre masculino",
+                "definition": "Tren subterráneo o al aire libre que circula por las grandes ciudades."
             }
         ]
     },
@@ -12688,15 +12688,15 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Enredar, poner división y enemistad entre las personas con chismes o cuentos."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "type_extra": "poco usado",
                 "definition": "Dicho de una familia o de un linaje: Enlazarse con otro."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Enredar, poner división y enemistad entre las personas con chismes o cuentos."
             }
         ]
     },
@@ -12975,14 +12975,14 @@
             },
             {
                 "number": "3",
-                "type": "interjección",
-                "definition": "Denota la extrañeza que causa algo."
-            },
-            {
-                "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "exvoto (ofrenda dedicada a Dios, a la Virgen o a los santos)."
+            },
+            {
+                "number": "4",
+                "type": "interjección",
+                "definition": "Denota la extrañeza que causa algo."
             }
         ]
     },
@@ -13006,14 +13006,14 @@
             },
             {
                 "number": "3",
-                "type": "interjección",
-                "definition": "Denota la extrañeza que causa algo."
-            },
-            {
-                "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "exvoto (ofrenda dedicada a Dios, a la Virgen o a los santos)."
+            },
+            {
+                "number": "4",
+                "type": "interjección",
+                "definition": "Denota la extrañeza que causa algo."
             }
         ]
     },
@@ -13383,14 +13383,14 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino",
-                "definition": "Palo flamenco típico de los mineros, de ritmo arrastrado y triste."
-            },
-            {
-                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Origen, principio o nacimiento de algo."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "Palo flamenco típico de los mineros, de ritmo arrastrado y triste."
             },
             {
                 "number": "9",
@@ -13420,30 +13420,30 @@
             {
                 "number": "2",
                 "type": "adjetivo",
+                "definition": "minucioso."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Integrante de la Sagrada Orden de los Mínimos, fundada en Italia por san Francisco de Paula en 1435. Monjas mínimas."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "Límite inferior, o extremo a que se puede reducir algo."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Honduras",
                 "definition": "plátano guineo."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Segunda de las clases en que se dividía la enseñanza de la gramática, y en la cual se enseñaban los géneros de los nombres y las primeras oraciones."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "definition": "minucioso."
             },
             {
                 "number": "7",
@@ -13473,30 +13473,30 @@
             {
                 "number": "2",
                 "type": "adjetivo",
+                "definition": "minucioso."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Integrante de la Sagrada Orden de los Mínimos, fundada en Italia por san Francisco de Paula en 1435. Monjas mínimas."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "Límite inferior, o extremo a que se puede reducir algo."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Honduras",
                 "definition": "plátano guineo."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Segunda de las clases en que se dividía la enseñanza de la gramática, y en la cual se enseñaban los géneros de los nombres y las primeras oraciones."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "definition": "minucioso."
             },
             {
                 "number": "7",
@@ -13526,30 +13526,30 @@
             {
                 "number": "2",
                 "type": "adjetivo",
+                "definition": "minucioso."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Integrante de la Sagrada Orden de los Mínimos, fundada en Italia por san Francisco de Paula en 1435. Monjas mínimas."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "Límite inferior, o extremo a que se puede reducir algo."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Honduras",
                 "definition": "plátano guineo."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Segunda de las clases en que se dividía la enseñanza de la gramática, y en la cual se enseñaban los géneros de los nombres y las primeras oraciones."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "definition": "minucioso."
             },
             {
                 "number": "7",
@@ -13579,30 +13579,30 @@
             {
                 "number": "2",
                 "type": "adjetivo",
+                "definition": "minucioso."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Integrante de la Sagrada Orden de los Mínimos, fundada en Italia por san Francisco de Paula en 1435. Monjas mínimas."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "Límite inferior, o extremo a que se puede reducir algo."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Honduras",
                 "definition": "plátano guineo."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Segunda de las clases en que se dividía la enseñanza de la gramática, y en la cual se enseñaban los géneros de los nombres y las primeras oraciones."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "definition": "minucioso."
             },
             {
                 "number": "7",
@@ -13785,15 +13785,15 @@
             },
             {
                 "number": "13",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que ministra alguna cosa."
-            },
-            {
-                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "Mujer del ministro."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que ministra alguna cosa."
             }
         ]
     },
@@ -13867,15 +13867,15 @@
             },
             {
                 "number": "13",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que ministra alguna cosa."
-            },
-            {
-                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "Mujer del ministro."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que ministra alguna cosa."
             }
         ]
     },
@@ -13949,15 +13949,15 @@
             },
             {
                 "number": "13",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que ministra alguna cosa."
-            },
-            {
-                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "Mujer del ministro."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que ministra alguna cosa."
             }
         ]
     },
@@ -15346,24 +15346,24 @@
             },
             {
                 "number": "5",
-                "type": "nombre femenino",
-                "definition": "Parte de la teología que trata de la vida espiritual y contemplativa y del conocimiento y dirección de los espíritus."
+                "type": "adjetivo",
+                "type_extra": "Andalucía, Colombia, Honduras, Panamá, Puerto Rico y Venezuela",
+                "definition": "melindroso."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "definition": "Experiencia de lo divino."
+                "definition": "Parte de la teología que trata de la vida espiritual y contemplativa y del conocimiento y dirección de los espíritus."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "definition": "Expresión literaria de la experiencia de lo divino."
+                "definition": "Experiencia de lo divino."
             },
             {
                 "number": "8",
-                "type": "adjetivo",
-                "type_extra": "Andalucía, Colombia, Honduras, Panamá, Puerto Rico y Venezuela",
-                "definition": "melindroso."
+                "type": "nombre femenino",
+                "definition": "Expresión literaria de la experiencia de lo divino."
             }
         ]
     },
@@ -17385,41 +17385,41 @@
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Amartillar o poner un arma de fuego portátil en condiciones de disparar."
+                "definition": "engastar."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Poner en el disparador un arma de fuego."
+                "definition": "Amartillar o poner un arma de fuego portátil en condiciones de disparar."
             },
             {
                 "number": "15",
+                "type": "verbo transitivo",
+                "definition": "Poner en el disparador un arma de fuego."
+            },
+            {
+                "number": "16",
                 "type": "verbo transitivo",
                 "type_extra": "Cinematografía",
                 "definition": "Seleccionar y ajustar los diversos elementos de una filmación para realizar la versión definitiva."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo transitivo",
                 "type_extra": "Marina",
                 "definition": "Mandar un buque."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "verbo transitivo",
                 "type_extra": "Marina",
                 "definition": "Dicho de un buque: Tener, o poder llevar en sus baterías, cierto número de cañones."
             },
             {
-                "number": "18",
+                "number": "19",
                 "type": "verbo transitivo",
                 "type_extra": "Marina, etcétera",
                 "definition": "Doblar un cabo, un promontorio, o pasar al otro lado."
-            },
-            {
-                "number": "19",
-                "type": "verbo transitivo",
-                "definition": "engastar."
             }
         ]
     },
@@ -17507,11 +17507,17 @@
             {
                 "number": "5",
                 "type": "nombre femenino",
+                "type_extra": "coloquial, poco usado",
+                "definition": "Mujer del montero."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
                 "type_extra": "Marina",
                 "definition": "Vela triangular de los últimos juanetes."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "montés.",
@@ -17521,12 +17527,6 @@
                         "content": "cazador, monteador, cetrero, ojeador, batidor, gorro, birrete, bonete, solideo, casquete."
                     }
                 ]
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Mujer del montero."
             }
         ]
     },
@@ -18843,36 +18843,36 @@
             {
                 "number": "5",
                 "type": "adjetivo",
+                "type_extra": "Cuba, Guatemala y Panamá",
+                "definition": "enteco."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
                 "type_extra": "Cuba y Panamá",
                 "definition": "Dicho de una fruta o de un vegetal: Que no está en sazón."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "adjetivo",
                 "type_extra": "El Salvador, Guatemala, Nicaragua y Panamá",
                 "definition": "Dicho de un huevo: Puesto en fárfara."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "nombre masculino y femenino",
                 "type_extra": "México",
                 "definition": "amante (persona que mantiene con otra una relación amorosa)."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre masculino",
                 "definition": "Acción de abortar el feto."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "metida (conjunto de yemas y brotes)."
-            },
-            {
-                "number": "10",
-                "type": "adjetivo",
-                "type_extra": "Cuba, Guatemala y Panamá",
-                "definition": "enteco."
             }
         ]
     },
@@ -19348,42 +19348,42 @@
             },
             {
                 "number": "9",
-                "type": "nombre femenino",
-                "definition": "Pala con que las lavanderas golpean la ropa, especialmente la gruesa, para poder lavarla más fácilmente."
-            },
-            {
-                "number": "10",
-                "type": "nombre femenino",
-                "definition": "Pieza de las trébedes, en forma de horquilla, en que se asegura el rabo de la sartén."
-            },
-            {
-                "number": "11",
-                "type": "nombre femenino",
-                "definition": "En algunos juegos, última mano."
-            },
-            {
-                "number": "12",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "mocero."
-            },
-            {
-                "number": "13",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "tentemozo (puntal de una cosa expuesta a caerse)."
             },
             {
-                "number": "14",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "cuelgacapas."
+                "number": "10",
+                "type": "nombre femenino",
+                "definition": "Pala con que las lavanderas golpean la ropa, especialmente la gruesa, para poder lavarla más fácilmente."
             },
             {
-                "number": "15",
+                "number": "11",
+                "type": "nombre femenino",
+                "definition": "Pieza de las trébedes, en forma de horquilla, en que se asegura el rabo de la sartén."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
+                "definition": "En algunos juegos, última mano."
+            },
+            {
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Mujer que mantenía una relación sexual o amorosa ilícita con alguien."
+            },
+            {
+                "number": "14",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "mocero."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "cuelgacapas."
             }
         ]
     },
@@ -19458,38 +19458,38 @@
             {
                 "number": "11",
                 "type": "adverbio",
-                "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "type_extra": "coloquial, poco usado",
+                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
             },
             {
                 "number": "12",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
+                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
                 "type": "adverbio",
-                "type_extra": "indefinido",
-                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
+                "type_extra": "Usado, indefinido",
+                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
                 "type": "adverbio",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
+                "type_extra": "indefinido",
+                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
     },
@@ -19668,38 +19668,38 @@
             {
                 "number": "11",
                 "type": "adverbio",
-                "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "type_extra": "coloquial, poco usado",
+                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
             },
             {
                 "number": "12",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
+                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
                 "type": "adverbio",
-                "type_extra": "indefinido",
-                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
+                "type_extra": "Usado, indefinido",
+                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
                 "type": "adverbio",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
+                "type_extra": "indefinido",
+                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
     },
@@ -19774,38 +19774,38 @@
             {
                 "number": "11",
                 "type": "adverbio",
-                "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "type_extra": "coloquial, poco usado",
+                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
             },
             {
                 "number": "12",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
+                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
                 "type": "adverbio",
-                "type_extra": "indefinido",
-                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
+                "type_extra": "Usado, indefinido",
+                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
                 "type": "adverbio",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
+                "type_extra": "indefinido",
+                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
     },
@@ -19880,38 +19880,38 @@
             {
                 "number": "11",
                 "type": "adverbio",
-                "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "type_extra": "coloquial, poco usado",
+                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
             },
             {
                 "number": "12",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "Con mucha o demasiada intensidad. Llueve mucho y se va a desbordar el río. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "13",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
+                "definition": "Con mucha o demasiada frecuencia. Viene mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "14",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
-                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+                "definition": "mucho o demasiado tiempo. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Duerme mucho para lo mayor que es."
             },
             {
                 "number": "15",
                 "type": "adverbio",
-                "type_extra": "indefinido",
-                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
+                "type_extra": "Usado, indefinido",
+                "definition": "En gran cantidad. Trabaja mucho. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
                 "number": "16",
                 "type": "adverbio",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Denota afirmación. —¿ Ha visto usted la comedia nueva ? — Mucho."
+                "type_extra": "indefinido",
+                "definition": "Ante sintagmas comparativos, expresa diferencia elevada entre las magnitudes que se comparan. Su vestido es mucho más bonito que el mío. Viaja mucho más que antes."
             }
         ]
     },
@@ -22318,6 +22318,12 @@
             },
             {
                 "number": "3",
+                "type": "nombre",
+                "definition": "Mujer del médico.",
+                "type_extra": "obsolete, sin verificar"
+            },
+            {
+                "number": "4",
                 "type": "adjetivo",
                 "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a Media, antigua región de Asia, o a los medos.",
@@ -22327,12 +22333,6 @@
                         "content": "medo."
                     }
                 ]
-            },
-            {
-                "number": "4",
-                "type": "nombre",
-                "definition": "Mujer del médico.",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },

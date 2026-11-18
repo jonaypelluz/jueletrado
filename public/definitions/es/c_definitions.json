@@ -73,26 +73,26 @@
             {
                 "number": "12",
                 "type": "nombre masculino",
+                "type_extra": "Construcción, poco usado",
+                "definition": "Depósito de tierra sobrante colocado al lado y en lo alto de un desmonte."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
                 "type_extra": "Milicia",
                 "definition": "Obra de fortificación defensiva, interior y bastante elevada sobre otras de una plaza, para protegerlas mejor con su fuego."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "Geometría",
                 "definition": "perspectiva caballera. Proyecciones representadas en caballera."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Dicho de una persona: Obstinada, que no se deja disuadir por ninguna consideración. Caballero en propósito, en empeño, en porfía, en opinión."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "type_extra": "Construcción, poco usado",
-                "definition": "Depósito de tierra sobrante colocado al lado y en lo alto de un desmonte."
             },
             {
                 "number": "16",
@@ -182,26 +182,26 @@
             {
                 "number": "12",
                 "type": "nombre masculino",
+                "type_extra": "Construcción, poco usado",
+                "definition": "Depósito de tierra sobrante colocado al lado y en lo alto de un desmonte."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
                 "type_extra": "Milicia",
                 "definition": "Obra de fortificación defensiva, interior y bastante elevada sobre otras de una plaza, para protegerlas mejor con su fuego."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "Geometría",
                 "definition": "perspectiva caballera. Proyecciones representadas en caballera."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Dicho de una persona: Obstinada, que no se deja disuadir por ninguna consideración. Caballero en propósito, en empeño, en porfía, en opinión."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "type_extra": "Construcción, poco usado",
-                "definition": "Depósito de tierra sobrante colocado al lado y en lo alto de un desmonte."
             },
             {
                 "number": "16",
@@ -805,15 +805,15 @@
             },
             {
                 "number": "6",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "Tener parte en algo o concurrir a ello."
-            },
-            {
-                "number": "7",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "admitir."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "Tener parte en algo o concurrir a ello."
             },
             {
                 "number": "8",
@@ -1560,36 +1560,36 @@
             {
                 "number": "23",
                 "type": "verbo intransitivo",
+                "definition": "sobrevenir."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
                 "type_extra": "coloquial",
                 "definition": "morir (llegar al término de la vida)."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo intransitivo",
                 "type_extra": "Marina",
                 "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Dejar caer algo o a alguien."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Tirar o hacer caer algo o a alguien."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "verbo pronominal",
                 "definition": "Desconsolarse, afligirse."
-            },
-            {
-                "number": "28",
-                "type": "verbo intransitivo",
-                "definition": "sobrevenir."
             },
             {
                 "number": "29",
@@ -1728,36 +1728,36 @@
             {
                 "number": "23",
                 "type": "verbo intransitivo",
+                "definition": "sobrevenir."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
                 "type_extra": "coloquial",
                 "definition": "morir (llegar al término de la vida)."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo intransitivo",
                 "type_extra": "Marina",
                 "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Dejar caer algo o a alguien."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Tirar o hacer caer algo o a alguien."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "verbo pronominal",
                 "definition": "Desconsolarse, afligirse."
-            },
-            {
-                "number": "28",
-                "type": "verbo intransitivo",
-                "definition": "sobrevenir."
             },
             {
                 "number": "29",
@@ -1896,36 +1896,36 @@
             {
                 "number": "23",
                 "type": "verbo intransitivo",
+                "definition": "sobrevenir."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
                 "type_extra": "coloquial",
                 "definition": "morir (llegar al término de la vida)."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo intransitivo",
                 "type_extra": "Marina",
                 "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Dejar caer algo o a alguien."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Tirar o hacer caer algo o a alguien."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "verbo pronominal",
                 "definition": "Desconsolarse, afligirse."
-            },
-            {
-                "number": "28",
-                "type": "verbo intransitivo",
-                "definition": "sobrevenir."
             },
             {
                 "number": "29",
@@ -2064,36 +2064,36 @@
             {
                 "number": "23",
                 "type": "verbo intransitivo",
+                "definition": "sobrevenir."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
                 "type_extra": "coloquial",
                 "definition": "morir (llegar al término de la vida)."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo intransitivo",
                 "type_extra": "Marina",
                 "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Dejar caer algo o a alguien."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Tirar o hacer caer algo o a alguien."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "verbo pronominal",
                 "definition": "Desconsolarse, afligirse."
-            },
-            {
-                "number": "28",
-                "type": "verbo intransitivo",
-                "definition": "sobrevenir."
             },
             {
                 "number": "29",
@@ -6749,18 +6749,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Usado más en lenguaje poético",
-                "definition": "De color blanco."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "type_extra": "Usado más en plural",
-                "definition": "Cabello que se ha vuelto blanco."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
                 "definition": "canoso.",
                 "definition_extra": [
                     {
@@ -6769,6 +6757,18 @@
                     }
                 ],
                 "type_extra": "Perú y Uruguay"
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado más en lenguaje poético",
+                "definition": "De color blanco."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Usado más en plural",
+                "definition": "Cabello que se ha vuelto blanco."
             },
             {
                 "number": "4",
@@ -7059,63 +7059,63 @@
             {
                 "number": "9",
                 "type": "verbo intransitivo",
+                "type_extra": "Marina",
+                "definition": "salomar."
+            },
+            {
+                "number": "10",
+                "type": "verbo intransitivo",
                 "type_extra": "Música",
                 "definition": "Ejecutar con un instrumento el canto de una pieza concertante."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, Deportes, España",
                 "definition": "En fútbol y otros deportes, dicho de un jugador, especialmente del portero: Fallar ostensiblemente en una situación defensiva."
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "verbo transitivo",
                 "definition": "Interpretar con la voz una composición musical. Cantar una canción, una zarzuela, un salmo."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como intransitivo",
                 "definition": "Componer o recitar textos en verso para celebrar algo o elogiar a alguien. Cantar a la tierra natal, a la amada."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "verbo transitivo",
                 "definition": "Anunciar en voz alta y con cierta entonación algo, como un premio, un precio o una medida. Acaban de cantar el gordo de la lotería. El subastador cantaba el precio del pescado."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "verbo transitivo",
                 "definition": "En ciertos juegos de naipes, manifestar el número de puntos conseguidos por tener alguna combinación especial de cartas. Canté las cuarenta, las veinte en oros."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "verbo transitivo",
                 "definition": "En el juego del bingo, manifestar que se han completado los números de una línea o de todo el cartón. Han cantado línea. He cantado un bingo."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo transitivo",
                 "definition": "celebrar (alabar). Cantar las maravillas de la vida campestre."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Usado también como intransitivo",
                 "definition": "Descubrir o confesar algo, generalmente bajo presión. El detenido lo ha cantado todo."
             },
             {
-                "number": "18",
+                "number": "19",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial",
                 "definition": "Decirle a alguien algo de forma clara y sin rodeos, y aunque le moleste. Le cantó lo que pensaba de él."
-            },
-            {
-                "number": "19",
-                "type": "verbo intransitivo",
-                "type_extra": "Marina",
-                "definition": "salomar."
             }
         ]
     },
@@ -7180,63 +7180,63 @@
             {
                 "number": "9",
                 "type": "verbo intransitivo",
+                "type_extra": "Marina",
+                "definition": "salomar."
+            },
+            {
+                "number": "10",
+                "type": "verbo intransitivo",
                 "type_extra": "Música",
                 "definition": "Ejecutar con un instrumento el canto de una pieza concertante."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, Deportes, España",
                 "definition": "En fútbol y otros deportes, dicho de un jugador, especialmente del portero: Fallar ostensiblemente en una situación defensiva."
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "verbo transitivo",
                 "definition": "Interpretar con la voz una composición musical. Cantar una canción, una zarzuela, un salmo."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como intransitivo",
                 "definition": "Componer o recitar textos en verso para celebrar algo o elogiar a alguien. Cantar a la tierra natal, a la amada."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "verbo transitivo",
                 "definition": "Anunciar en voz alta y con cierta entonación algo, como un premio, un precio o una medida. Acaban de cantar el gordo de la lotería. El subastador cantaba el precio del pescado."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "verbo transitivo",
                 "definition": "En ciertos juegos de naipes, manifestar el número de puntos conseguidos por tener alguna combinación especial de cartas. Canté las cuarenta, las veinte en oros."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "verbo transitivo",
                 "definition": "En el juego del bingo, manifestar que se han completado los números de una línea o de todo el cartón. Han cantado línea. He cantado un bingo."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo transitivo",
                 "definition": "celebrar (alabar). Cantar las maravillas de la vida campestre."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Usado también como intransitivo",
                 "definition": "Descubrir o confesar algo, generalmente bajo presión. El detenido lo ha cantado todo."
             },
             {
-                "number": "18",
+                "number": "19",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial",
                 "definition": "Decirle a alguien algo de forma clara y sin rodeos, y aunque le moleste. Le cantó lo que pensaba de él."
-            },
-            {
-                "number": "19",
-                "type": "verbo intransitivo",
-                "type_extra": "Marina",
-                "definition": "salomar."
             }
         ]
     },
@@ -7321,63 +7321,63 @@
             {
                 "number": "9",
                 "type": "verbo intransitivo",
+                "type_extra": "Marina",
+                "definition": "salomar."
+            },
+            {
+                "number": "10",
+                "type": "verbo intransitivo",
                 "type_extra": "Música",
                 "definition": "Ejecutar con un instrumento el canto de una pieza concertante."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, Deportes, España",
                 "definition": "En fútbol y otros deportes, dicho de un jugador, especialmente del portero: Fallar ostensiblemente en una situación defensiva."
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "verbo transitivo",
                 "definition": "Interpretar con la voz una composición musical. Cantar una canción, una zarzuela, un salmo."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como intransitivo",
                 "definition": "Componer o recitar textos en verso para celebrar algo o elogiar a alguien. Cantar a la tierra natal, a la amada."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "verbo transitivo",
                 "definition": "Anunciar en voz alta y con cierta entonación algo, como un premio, un precio o una medida. Acaban de cantar el gordo de la lotería. El subastador cantaba el precio del pescado."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "verbo transitivo",
                 "definition": "En ciertos juegos de naipes, manifestar el número de puntos conseguidos por tener alguna combinación especial de cartas. Canté las cuarenta, las veinte en oros."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "verbo transitivo",
                 "definition": "En el juego del bingo, manifestar que se han completado los números de una línea o de todo el cartón. Han cantado línea. He cantado un bingo."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo transitivo",
                 "definition": "celebrar (alabar). Cantar las maravillas de la vida campestre."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Usado también como intransitivo",
                 "definition": "Descubrir o confesar algo, generalmente bajo presión. El detenido lo ha cantado todo."
             },
             {
-                "number": "18",
+                "number": "19",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial",
                 "definition": "Decirle a alguien algo de forma clara y sin rodeos, y aunque le moleste. Le cantó lo que pensaba de él."
-            },
-            {
-                "number": "19",
-                "type": "verbo intransitivo",
-                "type_extra": "Marina",
-                "definition": "salomar."
             }
         ]
     },
@@ -8932,16 +8932,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Dicho de un toro: De pelo negro y blanco."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Dicho del agua: De color opalino."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
                 "definition": "amoratado.",
                 "definition_extra": [
                     {
@@ -8949,6 +8939,16 @@
                         "content": "amoratado, lívido, morado, violáceo."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Dicho de un toro: De pelo negro y blanco."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho del agua: De color opalino."
             }
         ]
     },
@@ -10522,104 +10522,104 @@
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "definition": "Sitio destinado para correr."
+                "type_extra": "por antonomasia, poco usado",
+                "definition": "carrera diplomática. Ha terminado los estudios de derecho y quiere entrar en la carrera."
             },
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "definition": "Curso de los astros."
+                "definition": "Sitio destinado para correr."
             },
             {
                 "number": "12",
                 "type": "nombre femenino",
-                "definition": "Camino real o carretero."
+                "definition": "Curso de los astros."
             },
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "definition": "Calle que fue antes camino. La carrera de San Jerónimo."
+                "definition": "Camino real o carretero."
             },
             {
                 "number": "14",
+                "type": "nombre femenino",
+                "definition": "Calle que fue antes camino. La carrera de San Jerónimo."
+            },
+            {
+                "number": "15",
                 "type": "nombre femenino",
                 "type_extra": "etcétera",
                 "definition": "Trayecto o recorrido señalado para un desfile, procesión."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "nombre femenino",
                 "definition": "Línea regular de navegación."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "nombre femenino",
                 "definition": "Conjunto o serie de cosas puestas en orden o en hilera. Carrera de árboles."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "nombre femenino",
                 "definition": "Serie de puntos que se sueltan en una media o en otra prenda de tejido análogo."
             },
             {
-                "number": "18",
+                "number": "19",
                 "type": "nombre femenino",
                 "definition": "crencha (raya que divide el cabello)."
             },
             {
-                "number": "19",
+                "number": "20",
                 "type": "nombre femenino",
                 "definition": "Camino o curso que se sigue en las acciones."
             },
             {
-                "number": "20",
+                "number": "21",
                 "type": "nombre femenino",
                 "definition": "Transcurso de la vida humana."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "nombre femenino",
                 "definition": "Camino, medio o modo de hacer algo."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "nombre femenino",
                 "definition": "Fiesta de parejas o apuestas, que se hacía a pie o a caballo para diversión o para probar la ligereza."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "nombre femenino",
                 "type_extra": "Arquitectura",
                 "definition": "Viga horizontal para sostener otras, o para enlace de las construcciones."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Danza y carrerilla."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "nombre femenino",
                 "type_extra": "Deportes",
                 "definition": "En béisbol, recorrido que hace el bateador por las diferentes bases tras golpear la pelota."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre femenino",
                 "type_extra": "Mecánica, por ejemplo",
                 "definition": "En un mecanismo, recorrido de una pieza móvil ; el de un pistón en el cilindro de un motor."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Competición de velocidad entre caballos montados por yoqueis. Un día en las carreras."
-            },
-            {
-                "number": "28",
-                "type": "nombre femenino",
-                "type_extra": "por antonomasia, poco usado",
-                "definition": "carrera diplomática. Ha terminado los estudios de derecho y quiere entrar en la carrera."
             }
         ]
     },
@@ -10682,104 +10682,104 @@
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "definition": "Sitio destinado para correr."
+                "type_extra": "por antonomasia, poco usado",
+                "definition": "carrera diplomática. Ha terminado los estudios de derecho y quiere entrar en la carrera."
             },
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "definition": "Curso de los astros."
+                "definition": "Sitio destinado para correr."
             },
             {
                 "number": "12",
                 "type": "nombre femenino",
-                "definition": "Camino real o carretero."
+                "definition": "Curso de los astros."
             },
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "definition": "Calle que fue antes camino. La carrera de San Jerónimo."
+                "definition": "Camino real o carretero."
             },
             {
                 "number": "14",
+                "type": "nombre femenino",
+                "definition": "Calle que fue antes camino. La carrera de San Jerónimo."
+            },
+            {
+                "number": "15",
                 "type": "nombre femenino",
                 "type_extra": "etcétera",
                 "definition": "Trayecto o recorrido señalado para un desfile, procesión."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "nombre femenino",
                 "definition": "Línea regular de navegación."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "nombre femenino",
                 "definition": "Conjunto o serie de cosas puestas en orden o en hilera. Carrera de árboles."
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "nombre femenino",
                 "definition": "Serie de puntos que se sueltan en una media o en otra prenda de tejido análogo."
             },
             {
-                "number": "18",
+                "number": "19",
                 "type": "nombre femenino",
                 "definition": "crencha (raya que divide el cabello)."
             },
             {
-                "number": "19",
+                "number": "20",
                 "type": "nombre femenino",
                 "definition": "Camino o curso que se sigue en las acciones."
             },
             {
-                "number": "20",
+                "number": "21",
                 "type": "nombre femenino",
                 "definition": "Transcurso de la vida humana."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "nombre femenino",
                 "definition": "Camino, medio o modo de hacer algo."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "nombre femenino",
                 "definition": "Fiesta de parejas o apuestas, que se hacía a pie o a caballo para diversión o para probar la ligereza."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "nombre femenino",
                 "type_extra": "Arquitectura",
                 "definition": "Viga horizontal para sostener otras, o para enlace de las construcciones."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Danza y carrerilla."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "nombre femenino",
                 "type_extra": "Deportes",
                 "definition": "En béisbol, recorrido que hace el bateador por las diferentes bases tras golpear la pelota."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre femenino",
                 "type_extra": "Mecánica, por ejemplo",
                 "definition": "En un mecanismo, recorrido de una pieza móvil ; el de un pistón en el cilindro de un motor."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Competición de velocidad entre caballos montados por yoqueis. Un día en las carreras."
-            },
-            {
-                "number": "28",
-                "type": "nombre femenino",
-                "type_extra": "por antonomasia, poco usado",
-                "definition": "carrera diplomática. Ha terminado los estudios de derecho y quiere entrar en la carrera."
             }
         ]
     },
@@ -12943,36 +12943,36 @@
             {
                 "number": "23",
                 "type": "verbo intransitivo",
+                "definition": "sobrevenir."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
                 "type_extra": "coloquial",
                 "definition": "morir (llegar al término de la vida)."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo intransitivo",
                 "type_extra": "Marina",
                 "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Dejar caer algo o a alguien."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Tirar o hacer caer algo o a alguien."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "verbo pronominal",
                 "definition": "Desconsolarse, afligirse."
-            },
-            {
-                "number": "28",
-                "type": "verbo intransitivo",
-                "definition": "sobrevenir."
             },
             {
                 "number": "29",
@@ -13111,36 +13111,36 @@
             {
                 "number": "23",
                 "type": "verbo intransitivo",
+                "definition": "sobrevenir."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
                 "type_extra": "coloquial",
                 "definition": "morir (llegar al término de la vida)."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo intransitivo",
                 "type_extra": "Marina",
                 "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Dejar caer algo o a alguien."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "vulgar",
                 "definition": "Tirar o hacer caer algo o a alguien."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "verbo pronominal",
                 "definition": "Desconsolarse, afligirse."
-            },
-            {
-                "number": "28",
-                "type": "verbo intransitivo",
-                "definition": "sobrevenir."
             },
             {
                 "number": "29",
@@ -16025,26 +16025,26 @@
             },
             {
                 "number": "8",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho del pan o del queso: Que no tiene ojos."
+            },
+            {
+                "number": "9",
                 "type": "nombre masculino",
                 "definition": "Pez fluvial ecuatoriano."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "Anatomía",
                 "definition": "intestino ciego."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "Argentina",
                 "definition": "Jugador que tiene malas cartas o no tiene triunfos."
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho del pan o del queso: Que no tiene ojos."
             }
         ]
     },
@@ -16099,26 +16099,26 @@
             },
             {
                 "number": "8",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho del pan o del queso: Que no tiene ojos."
+            },
+            {
+                "number": "9",
                 "type": "nombre masculino",
                 "definition": "Pez fluvial ecuatoriano."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "Anatomía",
                 "definition": "intestino ciego."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "Argentina",
                 "definition": "Jugador que tiene malas cartas o no tiene triunfos."
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho del pan o del queso: Que no tiene ojos."
             }
         ]
     },
@@ -16173,26 +16173,26 @@
             },
             {
                 "number": "8",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho del pan o del queso: Que no tiene ojos."
+            },
+            {
+                "number": "9",
                 "type": "nombre masculino",
                 "definition": "Pez fluvial ecuatoriano."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "Anatomía",
                 "definition": "intestino ciego."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "Argentina",
                 "definition": "Jugador que tiene malas cartas o no tiene triunfos."
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho del pan o del queso: Que no tiene ojos."
             }
         ]
     },
@@ -16565,20 +16565,20 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Juego de naipes que comúnmente se jugaba entre dos y en el que ganaba la suerte quien primero hacía 100 puntos."
+                "type_extra": "poco usado",
+                "definition": "Signo o conjunto de signos con que se representa el número ciento. En la pared había un ciento medio borrado."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "plural",
-                "definition": "Tributo que llegó hasta el cuatro por ciento de las cosas que se vendían y pagaban alcabala."
+                "definition": "Juego de naipes que comúnmente se jugaba entre dos y en el que ganaba la suerte quien primero hacía 100 puntos."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Signo o conjunto de signos con que se representa el número ciento. En la pared había un ciento medio borrado."
+                "type_extra": "plural",
+                "definition": "Tributo que llegó hasta el cuatro por ciento de las cosas que se vendían y pagaban alcabala."
             }
         ]
     },
@@ -16609,20 +16609,20 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Juego de naipes que comúnmente se jugaba entre dos y en el que ganaba la suerte quien primero hacía 100 puntos."
+                "type_extra": "poco usado",
+                "definition": "Signo o conjunto de signos con que se representa el número ciento. En la pared había un ciento medio borrado."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "plural",
-                "definition": "Tributo que llegó hasta el cuatro por ciento de las cosas que se vendían y pagaban alcabala."
+                "definition": "Juego de naipes que comúnmente se jugaba entre dos y en el que ganaba la suerte quien primero hacía 100 puntos."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Signo o conjunto de signos con que se representa el número ciento. En la pared había un ciento medio borrado."
+                "type_extra": "plural",
+                "definition": "Tributo que llegó hasta el cuatro por ciento de las cosas que se vendían y pagaban alcabala."
             }
         ]
     },
@@ -16667,21 +16667,21 @@
             },
             {
                 "number": "6",
+                "type": "adjetivo",
+                "type_extra": "germanía",
+                "definition": "fullero."
+            },
+            {
+                "number": "7",
                 "type": "adverbio",
                 "type_extra": "Usado",
                 "definition": "ciertamente. como expresión de asentimiento o confirmación. — La situación se complica. — Cierto."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "certero."
-            },
-            {
-                "number": "8",
-                "type": "adjetivo",
-                "type_extra": "germanía",
-                "definition": "fullero."
             }
         ]
     },
@@ -16746,21 +16746,21 @@
             },
             {
                 "number": "6",
+                "type": "adjetivo",
+                "type_extra": "germanía",
+                "definition": "fullero."
+            },
+            {
+                "number": "7",
                 "type": "adverbio",
                 "type_extra": "Usado",
                 "definition": "ciertamente. como expresión de asentimiento o confirmación. — La situación se complica. — Cierto."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "certero."
-            },
-            {
-                "number": "8",
-                "type": "adjetivo",
-                "type_extra": "germanía",
-                "definition": "fullero."
             }
         ]
     },
@@ -16805,21 +16805,21 @@
             },
             {
                 "number": "6",
+                "type": "adjetivo",
+                "type_extra": "germanía",
+                "definition": "fullero."
+            },
+            {
+                "number": "7",
                 "type": "adverbio",
                 "type_extra": "Usado",
                 "definition": "ciertamente. como expresión de asentimiento o confirmación. — La situación se complica. — Cierto."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "certero."
-            },
-            {
-                "number": "8",
-                "type": "adjetivo",
-                "type_extra": "germanía",
-                "definition": "fullero."
             }
         ]
     },
@@ -16864,21 +16864,21 @@
             },
             {
                 "number": "6",
+                "type": "adjetivo",
+                "type_extra": "germanía",
+                "definition": "fullero."
+            },
+            {
+                "number": "7",
                 "type": "adverbio",
                 "type_extra": "Usado",
                 "definition": "ciertamente. como expresión de asentimiento o confirmación. — La situación se complica. — Cierto."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "certero."
-            },
-            {
-                "number": "8",
-                "type": "adjetivo",
-                "type_extra": "germanía",
-                "definition": "fullero."
             }
         ]
     },
@@ -18648,57 +18648,57 @@
             },
             {
                 "number": "24",
-                "type": "nombre femenino",
-                "definition": "Materia blanquecina, líquida y transparente, de naturaleza albuminoidea, que rodea la yema del huevo de las aves y ha sido segregada por pequeñas glándulas existentes en las paredes del oviducto."
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "Abertura, a modo de claraboya, por donde entra luz."
             },
             {
                 "number": "25",
                 "type": "nombre femenino",
-                "definition": "En la industria pañera, pedazo de paño que por no estar bien tejido se trasluce."
+                "definition": "Materia blanquecina, líquida y transparente, de naturaleza albuminoidea, que rodea la yema del huevo de las aves y ha sido segregada por pequeñas glándulas existentes en las paredes del oviducto."
             },
             {
                 "number": "26",
                 "type": "nombre femenino",
-                "definition": "Cerveza con gaseosa."
+                "definition": "En la industria pañera, pedazo de paño que por no estar bien tejido se trasluce."
             },
             {
                 "number": "27",
                 "type": "nombre femenino",
-                "definition": "Raleza de parte del pelo, que deja ver un pedazo de la piel."
+                "definition": "Cerveza con gaseosa."
             },
             {
                 "number": "28",
+                "type": "nombre femenino",
+                "definition": "Raleza de parte del pelo, que deja ver un pedazo de la piel."
+            },
+            {
+                "number": "29",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
                 "definition": "Espacio corto durante el cual deja de caer el agua del cielo en tiempo lluvioso y hay alguna claridad. Hubo una clara."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "definition": "En un bosque, parte rala o despoblada de árboles."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "plural, Andalucía",
                 "definition": "Amanecer, crepúsculo matutino."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "adverbio",
                 "definition": "claramente. Hablaban claro."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "adverbio",
                 "type_extra": "Usado como",
                 "definition": "Ciertamente, sin duda. expresión de asentimiento o confirmación. —¿ Vendrás ? —¡ Claro !."
-            },
-            {
-                "number": "33",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Abertura, a modo de claraboya, por donde entra luz."
             }
         ]
     },
@@ -18927,57 +18927,57 @@
             },
             {
                 "number": "24",
-                "type": "nombre femenino",
-                "definition": "Materia blanquecina, líquida y transparente, de naturaleza albuminoidea, que rodea la yema del huevo de las aves y ha sido segregada por pequeñas glándulas existentes en las paredes del oviducto."
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "Abertura, a modo de claraboya, por donde entra luz."
             },
             {
                 "number": "25",
                 "type": "nombre femenino",
-                "definition": "En la industria pañera, pedazo de paño que por no estar bien tejido se trasluce."
+                "definition": "Materia blanquecina, líquida y transparente, de naturaleza albuminoidea, que rodea la yema del huevo de las aves y ha sido segregada por pequeñas glándulas existentes en las paredes del oviducto."
             },
             {
                 "number": "26",
                 "type": "nombre femenino",
-                "definition": "Cerveza con gaseosa."
+                "definition": "En la industria pañera, pedazo de paño que por no estar bien tejido se trasluce."
             },
             {
                 "number": "27",
                 "type": "nombre femenino",
-                "definition": "Raleza de parte del pelo, que deja ver un pedazo de la piel."
+                "definition": "Cerveza con gaseosa."
             },
             {
                 "number": "28",
+                "type": "nombre femenino",
+                "definition": "Raleza de parte del pelo, que deja ver un pedazo de la piel."
+            },
+            {
+                "number": "29",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
                 "definition": "Espacio corto durante el cual deja de caer el agua del cielo en tiempo lluvioso y hay alguna claridad. Hubo una clara."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "definition": "En un bosque, parte rala o despoblada de árboles."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "plural, Andalucía",
                 "definition": "Amanecer, crepúsculo matutino."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "adverbio",
                 "definition": "claramente. Hablaban claro."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "adverbio",
                 "type_extra": "Usado como",
                 "definition": "Ciertamente, sin duda. expresión de asentimiento o confirmación. —¿ Vendrás ? —¡ Claro !."
-            },
-            {
-                "number": "33",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Abertura, a modo de claraboya, por donde entra luz."
             }
         ]
     },
@@ -19116,57 +19116,57 @@
             },
             {
                 "number": "24",
-                "type": "nombre femenino",
-                "definition": "Materia blanquecina, líquida y transparente, de naturaleza albuminoidea, que rodea la yema del huevo de las aves y ha sido segregada por pequeñas glándulas existentes en las paredes del oviducto."
+                "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "Abertura, a modo de claraboya, por donde entra luz."
             },
             {
                 "number": "25",
                 "type": "nombre femenino",
-                "definition": "En la industria pañera, pedazo de paño que por no estar bien tejido se trasluce."
+                "definition": "Materia blanquecina, líquida y transparente, de naturaleza albuminoidea, que rodea la yema del huevo de las aves y ha sido segregada por pequeñas glándulas existentes en las paredes del oviducto."
             },
             {
                 "number": "26",
                 "type": "nombre femenino",
-                "definition": "Cerveza con gaseosa."
+                "definition": "En la industria pañera, pedazo de paño que por no estar bien tejido se trasluce."
             },
             {
                 "number": "27",
                 "type": "nombre femenino",
-                "definition": "Raleza de parte del pelo, que deja ver un pedazo de la piel."
+                "definition": "Cerveza con gaseosa."
             },
             {
                 "number": "28",
+                "type": "nombre femenino",
+                "definition": "Raleza de parte del pelo, que deja ver un pedazo de la piel."
+            },
+            {
+                "number": "29",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
                 "definition": "Espacio corto durante el cual deja de caer el agua del cielo en tiempo lluvioso y hay alguna claridad. Hubo una clara."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "definition": "En un bosque, parte rala o despoblada de árboles."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "plural, Andalucía",
                 "definition": "Amanecer, crepúsculo matutino."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "adverbio",
                 "definition": "claramente. Hablaban claro."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "adverbio",
                 "type_extra": "Usado como",
                 "definition": "Ciertamente, sin duda. expresión de asentimiento o confirmación. —¿ Vendrás ? —¡ Claro !."
-            },
-            {
-                "number": "33",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Abertura, a modo de claraboya, por donde entra luz."
             }
         ]
     },
@@ -19948,15 +19948,15 @@
             },
             {
                 "number": "7",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
-            },
-            {
-                "number": "8",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Departamento de los hospitales destinado a la enseñanza universitaria de la clínica."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
             }
         ]
     },
@@ -20000,15 +20000,15 @@
             },
             {
                 "number": "7",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
-            },
-            {
-                "number": "8",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Departamento de los hospitales destinado a la enseñanza universitaria de la clínica."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
             }
         ]
     },
@@ -20052,15 +20052,15 @@
             },
             {
                 "number": "7",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
-            },
-            {
-                "number": "8",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Departamento de los hospitales destinado a la enseñanza universitaria de la clínica."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
             }
         ]
     },
@@ -20104,15 +20104,15 @@
             },
             {
                 "number": "7",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
-            },
-            {
-                "number": "8",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Departamento de los hospitales destinado a la enseñanza universitaria de la clínica."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona adulta que pedía el bautismo en la cama, por hallarse en peligro de muerte."
             }
         ]
     },
@@ -20550,41 +20550,41 @@
             {
                 "number": "5",
                 "type": "verbo transitivo",
+                "definition": "enriar."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
                 "type_extra": "coloquial",
                 "definition": "Digerir la comida o los alimentos en el estómago."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como transitivo",
                 "definition": "Dicho de un líquido: hervir. El agua está cociendo."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de algunos líquidos, como el vino: fermentar."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "verbo pronominal",
                 "definition": "Padecer intensamente y por largo tiempo un dolor o incomodidad."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "verbo pronominal",
                 "type_extra": "coloquial",
-                "definition": "emborracharse (beber hasta trastornarse los sentidos)."
-            },
-            {
-                "number": "10",
-                "type": "verbo transitivo",
-                "definition": "enriar."
+                "definition": "asarse."
             },
             {
                 "number": "11",
                 "type": "verbo pronominal",
                 "type_extra": "coloquial",
-                "definition": "asarse."
+                "definition": "emborracharse (beber hasta trastornarse los sentidos)."
             }
         ]
     },
@@ -25466,55 +25466,55 @@
             {
                 "number": "5",
                 "type": "nombre masculino",
+                "definition": "tamaño."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
                 "type_extra": "etcétera",
                 "definition": "Regla o medida de algunas cosas, como la vida, las acciones, Es la medida y compás de todas las virtudes."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Esgrima",
                 "definition": "Movimiento que hace el cuerpo cuando deja un lugar para ocupar otro."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Ingeniería",
                 "definition": "En minería, brújula (instrumento para determinar las direcciones terrestres)."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre masculino",
                 "type_extra": "Marina",
                 "definition": "brújula (instrumento para indicar el rumbo de una nave)."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "Signo que determina el ritmo en cada composición o parte de ella y las relaciones de valor entre los sonidos."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "Movimiento de la mano con que se marca cada compás."
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "Ritmo o cadencia de una pieza musical."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "Espacio del pentagrama en que se escriben todas las notas correspondientes a un compás y se limita por cada lado con una raya vertical."
-            },
-            {
-                "number": "13",
-                "type": "nombre masculino",
-                "definition": "tamaño."
             }
         ]
     },
@@ -29988,11 +29988,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Endemoniado, perverso, nocivo."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "réprobo.",
                 "definition_extra": [
@@ -30001,6 +29996,11 @@
                         "content": "réprobo, maldito, excomulgado, endemoniado, endiablado, maligno, penado, convicto, procesado, reo, culpado."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Endemoniado, perverso, nocivo."
             }
         ]
     },
@@ -31941,14 +31941,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo pronominal",
-                "definition": "Dicho de dos o más personas: Llevarse bien, congeniar."
-            },
-            {
-                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Contener, comprender, abarcar algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo pronominal",
+                "definition": "Dicho de dos o más personas: Llevarse bien, congeniar."
             },
             {
                 "number": "6",
@@ -34653,15 +34653,15 @@
             },
             {
                 "number": "4",
-                "type": "nombre femenino",
-                "type_extra": "Matemáticas, etcétera",
-                "definition": "Cantidad que tiene un valor fijo en un determinado proceso, cálculo."
-            },
-            {
-                "number": "5",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "Que consta."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas, etcétera",
+                "definition": "Cantidad que tiene un valor fijo en un determinado proceso, cálculo."
             }
         ]
     },
@@ -34851,25 +34851,25 @@
             },
             {
                 "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
+            },
+            {
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Asumir obligación, cargo o cuidado. Se constituyó en fiador. Se constituyó por su guardador."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo pronominal",
                 "type_extra": "etcétera",
                 "definition": "Dicho de un tribunal, un consejo, una junta, Reunirse o congregarse. El consejo de administración se constituirá mañana en sesión ordinaria."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona, especialmente de una autoridad: Presentarse en un lugar."
-            },
-            {
-                "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
             }
         ]
     },
@@ -34905,25 +34905,25 @@
             },
             {
                 "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
+            },
+            {
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Asumir obligación, cargo o cuidado. Se constituyó en fiador. Se constituyó por su guardador."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo pronominal",
                 "type_extra": "etcétera",
                 "definition": "Dicho de un tribunal, un consejo, una junta, Reunirse o congregarse. El consejo de administración se constituirá mañana en sesión ordinaria."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona, especialmente de una autoridad: Presentarse en un lugar."
-            },
-            {
-                "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
             }
         ]
     },
@@ -34959,25 +34959,25 @@
             },
             {
                 "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
+            },
+            {
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Asumir obligación, cargo o cuidado. Se constituyó en fiador. Se constituyó por su guardador."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo pronominal",
                 "type_extra": "etcétera",
                 "definition": "Dicho de un tribunal, un consejo, una junta, Reunirse o congregarse. El consejo de administración se constituirá mañana en sesión ordinaria."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona, especialmente de una autoridad: Presentarse en un lugar."
-            },
-            {
-                "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
             }
         ]
     },
@@ -35013,25 +35013,25 @@
             },
             {
                 "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
+            },
+            {
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Asumir obligación, cargo o cuidado. Se constituyó en fiador. Se constituyó por su guardador."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo pronominal",
                 "type_extra": "etcétera",
                 "definition": "Dicho de un tribunal, un consejo, una junta, Reunirse o congregarse. El consejo de administración se constituirá mañana en sesión ordinaria."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona, especialmente de una autoridad: Presentarse en un lugar."
-            },
-            {
-                "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
             }
         ]
     },
@@ -35067,25 +35067,25 @@
             },
             {
                 "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
+            },
+            {
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Asumir obligación, cargo o cuidado. Se constituyó en fiador. Se constituyó por su guardador."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo pronominal",
                 "type_extra": "etcétera",
                 "definition": "Dicho de un tribunal, un consejo, una junta, Reunirse o congregarse. El consejo de administración se constituirá mañana en sesión ordinaria."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona, especialmente de una autoridad: Presentarse en un lugar."
-            },
-            {
-                "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
             }
         ]
     },
@@ -35148,25 +35148,25 @@
             },
             {
                 "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
+            },
+            {
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Asumir obligación, cargo o cuidado. Se constituyó en fiador. Se constituyó por su guardador."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo pronominal",
                 "type_extra": "etcétera",
                 "definition": "Dicho de un tribunal, un consejo, una junta, Reunirse o congregarse. El consejo de administración se constituirá mañana en sesión ordinaria."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona, especialmente de una autoridad: Presentarse en un lugar."
-            },
-            {
-                "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Obligar a alguien a hacer algo. Constituir a una persona en una obligación."
             }
         ]
     },
@@ -36752,21 +36752,21 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Declarar y atestiguar lo mismo que otros han dicho, conformándose en todo con ellos en su deposición o declaración."
+                "type": "verbo intransitivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una cosa: Convenirse con otra."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
-                "definition": "Comprobar o confirmar."
+                "definition": "Declarar y atestiguar lo mismo que otros han dicho, conformándose en todo con ellos en su deposición o declaración."
             },
             {
                 "number": "8",
-                "type": "verbo intransitivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una cosa: Convenirse con otra."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Comprobar o confirmar."
             }
         ]
     },
@@ -36810,21 +36810,21 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Declarar y atestiguar lo mismo que otros han dicho, conformándose en todo con ellos en su deposición o declaración."
+                "type": "verbo intransitivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una cosa: Convenirse con otra."
             },
             {
                 "number": "7",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
-                "definition": "Comprobar o confirmar."
+                "definition": "Declarar y atestiguar lo mismo que otros han dicho, conformándose en todo con ellos en su deposición o declaración."
             },
             {
                 "number": "8",
-                "type": "verbo intransitivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una cosa: Convenirse con otra."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Comprobar o confirmar."
             }
         ]
     },
@@ -38789,21 +38789,21 @@
             },
             {
                 "number": "3",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "Vivir, habitar en compañía de otros."
+                "type": "verbo transitivo",
+                "type_extra": "Ecuador",
+                "definition": "narrar."
             },
             {
                 "number": "4",
                 "type": "verbo intransitivo",
                 "type_extra": "desusado",
-                "definition": "Dicho de una o más personas: Tratar, comunicar y tener amistad con otra u otras."
+                "definition": "Vivir, habitar en compañía de otros."
             },
             {
                 "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "Ecuador",
-                "definition": "narrar."
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "Dicho de una o más personas: Tratar, comunicar y tener amistad con otra u otras."
             }
         ]
     },
@@ -40583,110 +40583,110 @@
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Mezclar un líquido con otro para modificar su fuerza o su sabor."
+                "definition": "recortar."
             },
             {
                 "number": "14",
+                "type": "verbo transitivo",
+                "definition": "Mezclar un líquido con otro para modificar su fuerza o su sabor."
+            },
+            {
+                "number": "15",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Adulterar una droga con una sustancia que rebaja su pureza."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "verbo transitivo",
                 "definition": "Suspender o interrumpir algo, principalmente una conversación o plática."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo transitivo",
                 "definition": "Decidir o ser árbitro en un negocio."
             },
             {
-                "number": "17",
+                "number": "18",
+                "type": "verbo transitivo",
+                "definition": "grabar."
+            },
+            {
+                "number": "19",
                 "type": "verbo transitivo",
                 "type_extra": "Geometría, Usado también como pronominal",
                 "definition": "Dicho de una línea, de una superficie o de un sólido: Atravesar otro elemento geométrico."
             },
             {
-                "number": "18",
+                "number": "20",
                 "type": "verbo transitivo",
                 "type_extra": "Informática, etcétera",
                 "definition": "Quitar o sacar datos, textos, carpetas, de una localización para agregarlos en otra."
             },
             {
-                "number": "19",
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "Milicia",
                 "definition": "Dividir una parte del ejército enemigo para aislarla del resto."
             },
             {
-                "number": "20",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Tauromaquia",
                 "definition": "Dicho de un torero: Conseguir como premio a su faena una oreja, las dos o el rabo del toro. Tuvo una buena tarde y cortó las dos orejas."
             },
             {
-                "number": "21",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de un instrumento con el que se corta: Tener buen o mal filo."
             },
             {
-                "number": "22",
+                "number": "24",
                 "type": "verbo intransitivo",
                 "definition": "Tomar el camino más corto."
             },
             {
-                "number": "23",
+                "number": "25",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, Chile",
                 "definition": "Tomar una dirección, echarse a andar. Cortó para el jardín."
             },
             {
-                "number": "24",
+                "number": "26",
+                "type": "verbo intransitivo",
+                "type_extra": "coloquial, Cuba",
+                "definition": "congeniar."
+            },
+            {
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Herirse o hacerse un corte."
             },
             {
-                "number": "25",
+                "number": "28",
                 "type": "verbo pronominal",
                 "definition": "Turbarse, quedarse sin palabras por causa de la turbación."
             },
             {
-                "number": "26",
+                "number": "29",
                 "type": "verbo pronominal",
                 "type_extra": "Usado también como transitivo",
                 "definition": "Dicho de la leche: Perder su continuidad e incorporación naturales al separarse la parte mantecosa de la serosa."
             },
             {
-                "number": "27",
+                "number": "30",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una salsa, de unas natillas o de otras preparaciones culinarias: Perder trabazón al separarse sus ingredientes."
             },
             {
-                "number": "28",
+                "number": "31",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una tela o de un vestido: Abrirse por los dobleces o las arrugas."
             },
             {
-                "number": "29",
+                "number": "32",
                 "type": "verbo pronominal",
                 "definition": "Ensuciarse, mancharse de excremento."
-            },
-            {
-                "number": "30",
-                "type": "verbo transitivo",
-                "definition": "recortar."
-            },
-            {
-                "number": "31",
-                "type": "verbo transitivo",
-                "definition": "grabar."
-            },
-            {
-                "number": "32",
-                "type": "verbo intransitivo",
-                "type_extra": "coloquial, Cuba",
-                "definition": "congeniar."
             },
             {
                 "number": "33",
@@ -40761,46 +40761,46 @@
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "definition": "Parte del billetaje de un teatro reservada, especialmente en los estrenos, para invitaciones."
+                "definition": "corta."
             },
             {
                 "number": "11",
                 "type": "nombre masculino",
-                "definition": "Superficie que forma cada uno de los bordes o cantos de un libro."
+                "definition": "Parte del billetaje de un teatro reservada, especialmente en los estrenos, para invitaciones."
             },
             {
                 "number": "12",
                 "type": "nombre masculino",
-                "definition": "Medio que se toma para cortar diferencias y poner de acuerdo a quienes están discordes."
+                "definition": "Superficie que forma cada uno de los bordes o cantos de un libro."
             },
             {
                 "number": "13",
+                "type": "nombre masculino",
+                "definition": "Medio que se toma para cortar diferencias y poner de acuerdo a quienes están discordes."
+            },
+            {
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "Arquitectura",
                 "definition": "sección (dibujo de perfil de un edificio)."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "nombre masculino",
                 "type_extra": "España",
                 "definition": "Trozo de helado que se corta de una barra y se come entre dos galletas."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "nombre masculino",
                 "type_extra": "Chile",
                 "definition": "Servicio o pequeña diligencia que se encomienda a alguien y por la cual se da algún pago."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "nombre masculino",
                 "definition": "Cada una de las composiciones musicales que integran un disco o una grabación. Cantó el último corte de su primer disco.",
                 "type_extra": "desusado"
-            },
-            {
-                "number": "17",
-                "type": "nombre masculino",
-                "definition": "corta."
             },
             {
                 "number": "18",
@@ -42080,44 +42080,6 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "definition": "Persona que tiene por oficio llevar y traer la correspondencia de un lugar a otro."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Persona que lleva un mensaje u otro envío."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "etcétera",
-                "definition": "Persona que lleva de un lugar a otro información, mercancías, objetos, de manera clandestina. Un correo del narcotráfico."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "type_extra": "etcétera, Usado también en aposición",
-                "definition": "Vapor, coche, tren, que lleva correspondencia."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Conjunto de cartas o pliegos de cualquier clase que se despachan o reciben. Martín está leyendo el correo."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "correo electrónico."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "type_extra": "germanía",
-                "definition": "Ladrón que va a dar aviso de algo."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
                 "definition": "Servicio público que tiene por objeto el transporte de la correspondencia oficial y privada.",
                 "definition_extra": [
                     {
@@ -42126,6 +42088,44 @@
                     }
                 ],
                 "type_extra": "Derecho, poco usado"
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Persona que tiene por oficio llevar y traer la correspondencia de un lugar a otro."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Persona que lleva un mensaje u otro envío."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "etcétera",
+                "definition": "Persona que lleva de un lugar a otro información, mercancías, objetos, de manera clandestina. Un correo del narcotráfico."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "etcétera, Usado también en aposición",
+                "definition": "Vapor, coche, tren, que lleva correspondencia."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Conjunto de cartas o pliegos de cualquier clase que se despachan o reciben. Martín está leyendo el correo."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "correo electrónico."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "germanía",
+                "definition": "Ladrón que va a dar aviso de algo."
             }
         ]
     },
@@ -45709,14 +45709,14 @@
             },
             {
                 "number": "12",
-                "type": "verbo pronominal",
-                "definition": "Dicho de un ser vivo: Desarrollarse, crecer. La niña se ha criado muy sana."
-            },
-            {
-                "number": "13",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado, Usado también como pronominal",
                 "definition": "producir (engendrar, procrear)."
+            },
+            {
+                "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Dicho de un ser vivo: Desarrollarse, crecer. La niña se ha criado muy sana."
             }
         ]
     },
@@ -46070,20 +46070,20 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "definition": "Hermano o prójimo."
+                "type": "adjetivo",
+                "type_extra": "coloquial, poco usado",
+                "definition": "Dicho del vino: Que está aguado."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "coloquial",
-                "definition": "Persona o ser humano. Por la calle no pasa un cristiano."
+                "definition": "Hermano o prójimo."
             },
             {
                 "number": "5",
-                "type": "adjetivo",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Dicho del vino: Que está aguado."
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Persona o ser humano. Por la calle no pasa un cristiano."
             }
         ]
     },
@@ -46139,20 +46139,20 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "definition": "Hermano o prójimo."
+                "type": "adjetivo",
+                "type_extra": "coloquial, poco usado",
+                "definition": "Dicho del vino: Que está aguado."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "coloquial",
-                "definition": "Persona o ser humano. Por la calle no pasa un cristiano."
+                "definition": "Hermano o prójimo."
             },
             {
                 "number": "5",
-                "type": "adjetivo",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Dicho del vino: Que está aguado."
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Persona o ser humano. Por la calle no pasa un cristiano."
             }
         ]
     },
@@ -46177,20 +46177,20 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "definition": "Hermano o prójimo."
+                "type": "adjetivo",
+                "type_extra": "coloquial, poco usado",
+                "definition": "Dicho del vino: Que está aguado."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "coloquial",
-                "definition": "Persona o ser humano. Por la calle no pasa un cristiano."
+                "definition": "Hermano o prójimo."
             },
             {
                 "number": "5",
-                "type": "adjetivo",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Dicho del vino: Que está aguado."
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Persona o ser humano. Por la calle no pasa un cristiano."
             }
         ]
     },
@@ -48258,121 +48258,121 @@
             {
                 "number": "16",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Entre los pintores y escultores y los conocedores de caballos, miembros bien proporcionados."
+                "type_extra": "poco usado",
+                "definition": "piso (vivienda)."
             },
             {
                 "number": "17",
                 "type": "nombre masculino",
-                "type_extra": "plural, coloquial",
-                "definition": "dinero (moneda corriente)."
+                "type_extra": "plural",
+                "definition": "Entre los pintores y escultores y los conocedores de caballos, miembros bien proporcionados."
             },
             {
                 "number": "18",
                 "type": "nombre masculino",
                 "type_extra": "plural, coloquial",
-                "definition": "dinero (hacienda, fortuna)."
+                "definition": "dinero (moneda corriente)."
             },
             {
                 "number": "19",
-                "type": "nombre femenino",
-                "definition": "Cada una de las cuatro partes iguales en que se divide un todo."
+                "type": "nombre masculino",
+                "type_extra": "plural, coloquial",
+                "definition": "dinero (hacienda, fortuna)."
             },
             {
                 "number": "20",
                 "type": "nombre femenino",
-                "definition": "palmo (distancia desde el extremo del pulgar al del meñique)."
+                "definition": "Cada una de las cuatro partes iguales en que se divide un todo."
             },
             {
                 "number": "21",
                 "type": "nombre femenino",
-                "definition": "cuarta funeral."
+                "definition": "palmo (distancia desde el extremo del pulgar al del meñique)."
             },
             {
                 "number": "22",
+                "type": "nombre femenino",
+                "definition": "cuarta funeral."
+            },
+            {
+                "number": "23",
                 "type": "nombre femenino",
                 "type_extra": "por ejemplo, etcétera",
                 "definition": "En el juego de los cientos, conjunto de cuatro cartas seguidas en orden de un mismo palo, que cuando empieza desde el as se denomina cuarta mayor, cuando lo hace desde el rey, cuarta real, y en el resto de los casos, según la carta primera en orden ; cuarta al caballo, a la sota."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "nombre femenino",
                 "definition": "Pieza de madera de hilo, de 11 a 25 pies de longitud, con una escuadría igual de 9 pulgadas en cada una de sus dimensiones. Era marco usado en Burgos y Valladolid."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "nombre femenino",
                 "definition": "cuartera (madero)."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "nombre femenino",
                 "definition": "En la guitarra y otros instrumentos de cuerda, la que está en cuarto lugar empezando por la prima."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre femenino",
                 "definition": "Marcha del motor de un vehículo con mayor velocidad y menor potencia que la primera, la segunda y la tercera, y menor velocidad y mayor potencia que la quinta."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre femenino",
                 "type_extra": "Física",
                 "definition": "cuadrante (instrumento compuesto de un cuarto de círculo graduado)."
             },
             {
-                "number": "28",
+                "number": "29",
                 "type": "nombre femenino",
                 "type_extra": "Marina",
                 "definition": "Cada una de las 32 partes en que está dividida la rosa náutica."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
                 "definition": "Sección formada por la cuarta parte de una compañía de infantería a las órdenes de un oficial o de un sargento."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Intervalo entre una nota y la cuarta anterior o posterior de la escala, compuesto de dos tonos y un semitono mayor."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "nombre femenino",
                 "type_extra": "Andalucía",
                 "definition": "Mula de guía en los coches de caballos."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "nombre femenino",
                 "type_extra": "rural, Asturias",
                 "definition": "Medida de capacidad para áridos, cuarta parte de un ferrado."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "nombre femenino",
                 "type_extra": "Cuba y Puerto Rico",
                 "definition": "disciplina (instrumento para azotar)."
             },
             {
-                "number": "34",
+                "number": "35",
                 "type": "nombre femenino",
                 "type_extra": "México",
                 "definition": "Látigo corto para las caballerías."
             },
             {
-                "number": "35",
+                "number": "36",
                 "type": "nombre femenino",
                 "type_extra": "Uruguay",
                 "definition": "Soga, cadena o barra que se utiliza para tirar de un vehículo atascado o detenido por fallos mecánicos."
-            },
-            {
-                "number": "36",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "piso (vivienda)."
             },
             {
                 "number": "37",
@@ -48579,121 +48579,121 @@
             {
                 "number": "16",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Entre los pintores y escultores y los conocedores de caballos, miembros bien proporcionados."
+                "type_extra": "poco usado",
+                "definition": "piso (vivienda)."
             },
             {
                 "number": "17",
                 "type": "nombre masculino",
-                "type_extra": "plural, coloquial",
-                "definition": "dinero (moneda corriente)."
+                "type_extra": "plural",
+                "definition": "Entre los pintores y escultores y los conocedores de caballos, miembros bien proporcionados."
             },
             {
                 "number": "18",
                 "type": "nombre masculino",
                 "type_extra": "plural, coloquial",
-                "definition": "dinero (hacienda, fortuna)."
+                "definition": "dinero (moneda corriente)."
             },
             {
                 "number": "19",
-                "type": "nombre femenino",
-                "definition": "Cada una de las cuatro partes iguales en que se divide un todo."
+                "type": "nombre masculino",
+                "type_extra": "plural, coloquial",
+                "definition": "dinero (hacienda, fortuna)."
             },
             {
                 "number": "20",
                 "type": "nombre femenino",
-                "definition": "palmo (distancia desde el extremo del pulgar al del meñique)."
+                "definition": "Cada una de las cuatro partes iguales en que se divide un todo."
             },
             {
                 "number": "21",
                 "type": "nombre femenino",
-                "definition": "cuarta funeral."
+                "definition": "palmo (distancia desde el extremo del pulgar al del meñique)."
             },
             {
                 "number": "22",
+                "type": "nombre femenino",
+                "definition": "cuarta funeral."
+            },
+            {
+                "number": "23",
                 "type": "nombre femenino",
                 "type_extra": "por ejemplo, etcétera",
                 "definition": "En el juego de los cientos, conjunto de cuatro cartas seguidas en orden de un mismo palo, que cuando empieza desde el as se denomina cuarta mayor, cuando lo hace desde el rey, cuarta real, y en el resto de los casos, según la carta primera en orden ; cuarta al caballo, a la sota."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "nombre femenino",
                 "definition": "Pieza de madera de hilo, de 11 a 25 pies de longitud, con una escuadría igual de 9 pulgadas en cada una de sus dimensiones. Era marco usado en Burgos y Valladolid."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "nombre femenino",
                 "definition": "cuartera (madero)."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "nombre femenino",
                 "definition": "En la guitarra y otros instrumentos de cuerda, la que está en cuarto lugar empezando por la prima."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre femenino",
                 "definition": "Marcha del motor de un vehículo con mayor velocidad y menor potencia que la primera, la segunda y la tercera, y menor velocidad y mayor potencia que la quinta."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre femenino",
                 "type_extra": "Física",
                 "definition": "cuadrante (instrumento compuesto de un cuarto de círculo graduado)."
             },
             {
-                "number": "28",
+                "number": "29",
                 "type": "nombre femenino",
                 "type_extra": "Marina",
                 "definition": "Cada una de las 32 partes en que está dividida la rosa náutica."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
                 "definition": "Sección formada por la cuarta parte de una compañía de infantería a las órdenes de un oficial o de un sargento."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Intervalo entre una nota y la cuarta anterior o posterior de la escala, compuesto de dos tonos y un semitono mayor."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "nombre femenino",
                 "type_extra": "Andalucía",
                 "definition": "Mula de guía en los coches de caballos."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "nombre femenino",
                 "type_extra": "rural, Asturias",
                 "definition": "Medida de capacidad para áridos, cuarta parte de un ferrado."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "nombre femenino",
                 "type_extra": "Cuba y Puerto Rico",
                 "definition": "disciplina (instrumento para azotar)."
             },
             {
-                "number": "34",
+                "number": "35",
                 "type": "nombre femenino",
                 "type_extra": "México",
                 "definition": "Látigo corto para las caballerías."
             },
             {
-                "number": "35",
+                "number": "36",
                 "type": "nombre femenino",
                 "type_extra": "Uruguay",
                 "definition": "Soga, cadena o barra que se utiliza para tirar de un vehículo atascado o detenido por fallos mecánicos."
-            },
-            {
-                "number": "36",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "piso (vivienda)."
             },
             {
                 "number": "37",
@@ -48799,121 +48799,121 @@
             {
                 "number": "16",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Entre los pintores y escultores y los conocedores de caballos, miembros bien proporcionados."
+                "type_extra": "poco usado",
+                "definition": "piso (vivienda)."
             },
             {
                 "number": "17",
                 "type": "nombre masculino",
-                "type_extra": "plural, coloquial",
-                "definition": "dinero (moneda corriente)."
+                "type_extra": "plural",
+                "definition": "Entre los pintores y escultores y los conocedores de caballos, miembros bien proporcionados."
             },
             {
                 "number": "18",
                 "type": "nombre masculino",
                 "type_extra": "plural, coloquial",
-                "definition": "dinero (hacienda, fortuna)."
+                "definition": "dinero (moneda corriente)."
             },
             {
                 "number": "19",
-                "type": "nombre femenino",
-                "definition": "Cada una de las cuatro partes iguales en que se divide un todo."
+                "type": "nombre masculino",
+                "type_extra": "plural, coloquial",
+                "definition": "dinero (hacienda, fortuna)."
             },
             {
                 "number": "20",
                 "type": "nombre femenino",
-                "definition": "palmo (distancia desde el extremo del pulgar al del meñique)."
+                "definition": "Cada una de las cuatro partes iguales en que se divide un todo."
             },
             {
                 "number": "21",
                 "type": "nombre femenino",
-                "definition": "cuarta funeral."
+                "definition": "palmo (distancia desde el extremo del pulgar al del meñique)."
             },
             {
                 "number": "22",
+                "type": "nombre femenino",
+                "definition": "cuarta funeral."
+            },
+            {
+                "number": "23",
                 "type": "nombre femenino",
                 "type_extra": "por ejemplo, etcétera",
                 "definition": "En el juego de los cientos, conjunto de cuatro cartas seguidas en orden de un mismo palo, que cuando empieza desde el as se denomina cuarta mayor, cuando lo hace desde el rey, cuarta real, y en el resto de los casos, según la carta primera en orden ; cuarta al caballo, a la sota."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "nombre femenino",
                 "definition": "Pieza de madera de hilo, de 11 a 25 pies de longitud, con una escuadría igual de 9 pulgadas en cada una de sus dimensiones. Era marco usado en Burgos y Valladolid."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "nombre femenino",
                 "definition": "cuartera (madero)."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "nombre femenino",
                 "definition": "En la guitarra y otros instrumentos de cuerda, la que está en cuarto lugar empezando por la prima."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre femenino",
                 "definition": "Marcha del motor de un vehículo con mayor velocidad y menor potencia que la primera, la segunda y la tercera, y menor velocidad y mayor potencia que la quinta."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre femenino",
                 "type_extra": "Física",
                 "definition": "cuadrante (instrumento compuesto de un cuarto de círculo graduado)."
             },
             {
-                "number": "28",
+                "number": "29",
                 "type": "nombre femenino",
                 "type_extra": "Marina",
                 "definition": "Cada una de las 32 partes en que está dividida la rosa náutica."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
                 "definition": "Sección formada por la cuarta parte de una compañía de infantería a las órdenes de un oficial o de un sargento."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Intervalo entre una nota y la cuarta anterior o posterior de la escala, compuesto de dos tonos y un semitono mayor."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "nombre femenino",
                 "type_extra": "Andalucía",
                 "definition": "Mula de guía en los coches de caballos."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "nombre femenino",
                 "type_extra": "rural, Asturias",
                 "definition": "Medida de capacidad para áridos, cuarta parte de un ferrado."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "nombre femenino",
                 "type_extra": "Cuba y Puerto Rico",
                 "definition": "disciplina (instrumento para azotar)."
             },
             {
-                "number": "34",
+                "number": "35",
                 "type": "nombre femenino",
                 "type_extra": "México",
                 "definition": "Látigo corto para las caballerías."
             },
             {
-                "number": "35",
+                "number": "36",
                 "type": "nombre femenino",
                 "type_extra": "Uruguay",
                 "definition": "Soga, cadena o barra que se utiliza para tirar de un vehículo atascado o detenido por fallos mecánicos."
-            },
-            {
-                "number": "36",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "piso (vivienda)."
             },
             {
                 "number": "37",
@@ -50291,14 +50291,14 @@
             },
             {
                 "number": "12",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Número, porción, cantidad."
+                "type": "interjección",
+                "definition": "cuidado."
             },
             {
                 "number": "13",
-                "type": "interjección",
-                "definition": "cuidado."
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Número, porción, cantidad."
             }
         ]
     },
@@ -50691,14 +50691,14 @@
             {
                 "number": "22",
                 "type": "nombre femenino",
-                "type_extra": "plural, Deportes",
-                "definition": "Bandas elásticas que limitan un cuadrilátero de combate."
+                "type_extra": "poco usado",
+                "definition": "Tendón, nervio o ligamento del cuerpo humano o de los animales."
             },
             {
                 "number": "23",
                 "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Tendón, nervio o ligamento del cuerpo humano o de los animales."
+                "type_extra": "plural, Deportes",
+                "definition": "Bandas elásticas que limitan un cuadrilátero de combate."
             },
             {
                 "number": "24",
@@ -51485,46 +51485,46 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "definition": "Homenaje externo de respeto y amor que el cristiano tributa a Dios, a la Virgen, a los ángeles, a los santos y a los beatos."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Conjunto de ritos y ceremonias litúrgicas con que se tributa homenaje."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Honor que se tributa religiosamente a lo que se considera divino o sagrado."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Admiración afectuosa de que son objeto algunas cosas. Rendir culto a la belleza."
-            },
-            {
-                "number": "7",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "Dicho de una tierra o de una planta: Que está cultivada."
             },
             {
-                "number": "8",
+                "number": "4",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "culterano."
             },
             {
-                "number": "9",
+                "number": "5",
                 "type": "nombre masculino",
-                "definition": "cultivo."
+                "definition": "Homenaje externo de respeto y amor que el cristiano tributa a Dios, a la Virgen, a los ángeles, a los santos y a los beatos."
             },
             {
-                "number": "10",
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Conjunto de ritos y ceremonias litúrgicas con que se tributa homenaje."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Honor que se tributa religiosamente a lo que se considera divino o sagrado."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Admiración afectuosa de que son objeto algunas cosas. Rendir culto a la belleza."
+            },
+            {
+                "number": "9",
                 "type": "adverbio",
                 "type_extra": "poco usado",
                 "definition": "cultamente."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "cultivo."
             }
         ]
     },
@@ -52539,33 +52539,33 @@
             },
             {
                 "number": "10",
-                "type": "verbo intransitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "Dicho de un enfermo o herido: Recobrar la salud. Pedro se curó en dos días."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Tratar un hilo o un lienzo para que se blanquee."
             },
             {
                 "number": "11",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
-                "definition": "Dicho de una dolencia o de una herida: Remitir o desaparecer. Estaba desanimado porque la herida no se curaba."
+                "definition": "Dicho de un enfermo o herido: Recobrar la salud. Pedro se curó en dos días."
             },
             {
                 "number": "12",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
-                "definition": "Cuidar de algo, poner cuidado. Lo dijo sin curar de aducir pruebas. Siguió adelante sin curarse de los obstáculos."
+                "definition": "Dicho de una dolencia o de una herida: Remitir o desaparecer. Estaba desanimado porque la herida no se curaba."
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "type_extra": "coloquial, Argentina, Bolivia y Chile",
-                "definition": "embriagarse (perder el dominio de sí por beber en exceso)."
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Cuidar de algo, poner cuidado. Lo dijo sin curar de aducir pruebas. Siguió adelante sin curarse de los obstáculos."
             },
             {
                 "number": "14",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Tratar un hilo o un lienzo para que se blanquee."
+                "type": "verbo pronominal",
+                "type_extra": "coloquial, Argentina, Bolivia y Chile",
+                "definition": "embriagarse (perder el dominio de sí por beber en exceso)."
             }
         ]
     },
@@ -54039,18 +54039,6 @@
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "cafeto.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "cafeto."
-                    }
-                ]
-            },
-            {
-                "number": "7",
                 "type": "adjetivo",
                 "type_extra": "sin verificar",
                 "definition": "marrón2.",
@@ -54058,6 +54046,18 @@
                     {
                         "type": "Sinónimos",
                         "content": "marrón2."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "cafeto.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "cafeto."
                     }
                 ]
             }
@@ -54069,18 +54069,6 @@
             {
                 "number": "1",
                 "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Carrera de caballos."
-            },
-            {
-                "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Elemento químico metálico, radiactivo, de 98, del grupo de los actínidos, que se obtiene artificialmente y se usa en la industria nuclear. (Cf)."
-            },
-            {
-                "number": "3",
-                "type": "nombre",
                 "definition": "californiano (‖ natural de California).",
                 "type_extra": "rare, sin verificar",
                 "definition_extra": [
@@ -54089,6 +54077,18 @@
                         "content": "californiano."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "Carrera de caballos."
+            },
+            {
+                "number": "3",
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "Elemento químico metálico, radiactivo, de 98, del grupo de los actínidos, que se obtiene artificialmente y se usa en la industria nuclear. (Cf)."
             }
         ]
     },
@@ -54985,48 +54985,6 @@
             {
                 "number": "23",
                 "type": "verbo",
-                "definition": "morir (‖ llegar al término de la vida).",
-                "type_extra": "colloquial, sin verificar",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, irse, acabar, pasar, palmar1, cascar, espichar, pelarse, petatearse, sonar1, ñampiarse."
-                    }
-                ]
-            },
-            {
-                "number": "24",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
-            },
-            {
-                "number": "25",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dejar caer algo o a alguien."
-            },
-            {
-                "number": "26",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Tirar o hacer caer algo o a alguien."
-            },
-            {
-                "number": "27",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Desconsolarse, afligirse.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "desconsolarse, afligirse, deprimirse."
-                    }
-                ]
-            },
-            {
-                "number": "28",
-                "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "sobrevenir.",
                 "definition_extra": [
@@ -55037,10 +54995,52 @@
                 ]
             },
             {
-                "number": "29",
+                "number": "24",
+                "type": "verbo",
+                "definition": "morir (‖ llegar al término de la vida).",
+                "type_extra": "colloquial, sin verificar",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, irse, acabar, pasar, palmar1, cascar, espichar, pelarse, petatearse, sonar1, ñampiarse."
+                    }
+                ]
+            },
+            {
+                "number": "25",
+                "type": "verbo",
+                "type_extra": "sin verificar",
+                "definition": "Dicho de un barco: Desviarse de su rumbo hacia una u otra banda."
+            },
+            {
+                "number": "26",
                 "type": "verbo",
                 "definition": "caber (‖ ser posible o natural).",
                 "type_extra": "obsolete, sin verificar"
+            },
+            {
+                "number": "27",
+                "type": "verbo",
+                "type_extra": "sin verificar",
+                "definition": "Dejar caer algo o a alguien."
+            },
+            {
+                "number": "28",
+                "type": "verbo",
+                "type_extra": "sin verificar",
+                "definition": "Tirar o hacer caer algo o a alguien."
+            },
+            {
+                "number": "29",
+                "type": "verbo",
+                "type_extra": "sin verificar",
+                "definition": "Desconsolarse, afligirse.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "desconsolarse, afligirse, deprimirse."
+                    }
+                ]
             }
         ]
     },
@@ -55612,6 +55612,12 @@
             {
                 "number": "24",
                 "type": "nombre",
+                "definition": "Abertura, a modo de claraboya, por donde entra luz.",
+                "type_extra": "rare, sin verificar"
+            },
+            {
+                "number": "25",
+                "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Materia blanquecina, líquida y transparente, de naturaleza albuminoidea, que rodea la yema del huevo de las aves y ha sido segregada por pequeñas glándulas existentes en las paredes del oviducto.",
                 "definition_extra": [
@@ -55622,25 +55628,25 @@
                 ]
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "En la industria pañera, pedazo de paño que por no estar bien tejido se trasluce."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Cerveza con gaseosa."
             },
             {
-                "number": "27",
+                "number": "28",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Raleza de parte del pelo, que deja ver un pedazo de la piel."
             },
             {
-                "number": "28",
+                "number": "29",
                 "type": "nombre",
                 "definition": "Espacio corto durante el cual deja de caer el agua del cielo en tiempo lluvioso y hay alguna claridad.",
                 "type_extra": "colloquial, sin verificar",
@@ -55652,37 +55658,19 @@
                 ]
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "En un bosque, parte rala o despoblada de árboles."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Amanecer, crepúsculo matutino."
             },
             {
-                "number": "31",
-                "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "Ciertamente, sin duda. expresión de asentimiento o confirmación.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "ciertamente, evidentemente, manifiestamente."
-                    }
-                ]
-            },
-            {
                 "number": "32",
-                "type": "nombre",
-                "definition": "Abertura, a modo de claraboya, por donde entra luz.",
-                "type_extra": "rare, sin verificar"
-            },
-            {
-                "number": "33",
                 "type": "adverbio",
                 "type_extra": "sin verificar",
                 "definition": "claramente.",
@@ -55690,6 +55678,18 @@
                     {
                         "type": "Sinónimos",
                         "content": "claramente, evidente."
+                    }
+                ]
+            },
+            {
+                "number": "33",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
+                "definition": "Ciertamente, sin duda. expresión de asentimiento o confirmación.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ciertamente, evidentemente, manifiestamente."
                     }
                 ]
             }
@@ -55820,18 +55820,6 @@
             {
                 "number": "11",
                 "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "colores que una entidad, equipo o club de carácter deportivo adoptan como símbolos propios en su bandera y en los uniformes de sus atletas o jugadores."
-            },
-            {
-                "number": "12",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Entidad, equipo o club que ha adoptado dichos colores."
-            },
-            {
-                "number": "13",
-                "type": "nombre",
                 "definition": "Pretexto, motivo, razón aparente para hacer algo.",
                 "type_extra": "rare, sin verificar",
                 "definition_extra": [
@@ -55840,6 +55828,18 @@
                         "content": "pretexto, motivo, ocasión, colorido."
                     }
                 ]
+            },
+            {
+                "number": "12",
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "colores que una entidad, equipo o club de carácter deportivo adoptan como símbolos propios en su bandera y en los uniformes de sus atletas o jugadores."
+            },
+            {
+                "number": "13",
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "Entidad, equipo o club que ha adoptado dichos colores."
             }
         ]
     },
@@ -56113,6 +56113,12 @@
                 "number": "1",
                 "type": "nombre",
                 "type_extra": "sin verificar",
+                "definition": "costo1."
+            },
+            {
+                "number": "2",
+                "type": "nombre",
+                "type_extra": "sin verificar",
                 "definition": "Gastos de un proceso judicial.",
                 "definition_extra": [
                     {
@@ -56122,7 +56128,7 @@
                 ]
             },
             {
-                "number": "2",
+                "number": "3",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Orilla del mar, de un río, de un lago, etc., y tierra que está cerca de ella.",
@@ -56134,22 +56140,16 @@
                 ]
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Instrumento de madera dura, de dos centímetros de largo y tres o cuatro centímetros de grueso, con muescas en los extremos, que usan los zapateros para alisar y bruñir los cantos de la suela."
             },
             {
-                "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Faja de terreno que se extiende a lo largo del pie de una sierra."
-            },
-            {
                 "number": "5",
                 "type": "nombre",
                 "type_extra": "sin verificar",
-                "definition": "costo1."
+                "definition": "Faja de terreno que se extiende a lo largo del pie de una sierra."
             },
             {
                 "number": "6",
@@ -56420,6 +56420,12 @@
             {
                 "number": "8",
                 "type": "nombre",
+                "definition": "Persona que habla con afectación o pedantería.",
+                "type_extra": "obsolete, sin verificar"
+            },
+            {
+                "number": "9",
+                "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Juicio expresado, generalmente de manera pública, sobre un espectáculo, una obra artística, etc.",
                 "definition_extra": [
@@ -56430,25 +56436,25 @@
                 ]
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Conjunto de las críticas."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Actividad de hacer críticas."
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Conjunto de las personas que, con una misma especialización, ejercen la crítica en los medios de comunicación."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Ataque verbal o comentario negativo.",
@@ -56462,12 +56468,6 @@
                         "content": "elogio, alabanza."
                     }
                 ]
-            },
-            {
-                "number": "13",
-                "type": "nombre",
-                "definition": "Persona que habla con afectación o pedantería.",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -56547,6 +56547,12 @@
             {
                 "number": "8",
                 "type": "nombre",
+                "definition": "Persona que habla con afectación o pedantería.",
+                "type_extra": "obsolete, sin verificar"
+            },
+            {
+                "number": "9",
+                "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Juicio expresado, generalmente de manera pública, sobre un espectáculo, una obra artística, etc.",
                 "definition_extra": [
@@ -56557,25 +56563,25 @@
                 ]
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Conjunto de las críticas."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Actividad de hacer críticas."
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Conjunto de las personas que, con una misma especialización, ejercen la crítica en los medios de comunicación."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Ataque verbal o comentario negativo.",
@@ -56589,12 +56595,6 @@
                         "content": "elogio, alabanza."
                     }
                 ]
-            },
-            {
-                "number": "13",
-                "type": "nombre",
-                "definition": "Persona que habla con afectación o pedantería.",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -56914,32 +56914,32 @@
             {
                 "number": "3",
                 "type": "nombre",
+                "definition": "dinero.",
+                "type_extra": "colloquial, sin verificar"
+            },
+            {
+                "number": "4",
+                "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Trozo pequeño de hachís prensado."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre",
                 "definition": "Hoguera, brasa, centelleo.",
                 "type_extra": "colloquial, sin verificar"
             },
             {
-                "number": "5",
-                "type": "nombre",
-                "definition": "dinero.",
-                "type_extra": "colloquial, sin verificar"
-            },
-            {
                 "number": "6",
                 "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "tirachinas."
+                "definition": "chino (‖ natural de China).",
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "7",
                 "type": "nombre",
-                "definition": "chino (‖ natural de China).",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "tirachinas."
             }
         ]
     }

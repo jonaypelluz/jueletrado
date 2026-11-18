@@ -117,21 +117,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino",
-                "definition": "Hombre de buen semblante, bien proporcionado y airoso en el manejo de su persona."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Hombre que galantea a una mujer."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Actor de teatro o de cine, de buena presencia y generalmente joven, que representa papeles principales de hombre enamorado o galanteador."
-            },
-            {
-                "number": "4",
                 "type": "adjetivo",
                 "definition": "galano.",
                 "definition_extra": [
@@ -144,6 +129,21 @@
                         "content": "feo."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Hombre de buen semblante, bien proporcionado y airoso en el manejo de su persona."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Hombre que galantea a una mujer."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Actor de teatro o de cine, de buena presencia y generalmente joven, que representa papeles principales de hombre enamorado o galanteador."
             }
         ]
     },
@@ -2236,31 +2236,31 @@
             },
             {
                 "number": "3",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Que posee vasta instrucción."
+            },
+            {
+                "number": "4",
                 "type": "nombre masculino y femenino",
                 "definition": "Oficial general del Ejército con la graduación de capitán general, teniente general, general de división o general de brigada, y los correspondientes en la Armada en los cuerpos distintos del cuerpo general."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Prelado superior de una orden religiosa."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "etcétera",
                 "definition": "En las antiguas universidades, seminarios, aula abierta al común de los estudiantes."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "España",
                 "definition": "Mayoría de un conjunto de cosas o personas. El general de la sociedad."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Que posee vasta instrucción."
             }
         ]
     },
@@ -3040,36 +3040,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Mucho mayor de lo considerado normal. Tamaño, capacidad gigante."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino y femenino",
-                "definition": "Ser fabuloso de enorme estatura, con figura humana, que aparece en cuentos y fábulas mitológicas."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que excede mucho en su estatura a la que se considera normal."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino y femenino",
-                "definition": "gigantón (figura gigantesca que suele llevarse en algunas procesiones)."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que destaca extraordinariamente en una actividad o posee una cualidad en grado muy elevado."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "definition": "girasol (planta)."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
                 "definition": "gigantesco.",
                 "definition_extra": [
                     {
@@ -3081,6 +3051,36 @@
                         "content": "enano, diminuto, minúsculo."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Mucho mayor de lo considerado normal. Tamaño, capacidad gigante."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "definition": "Ser fabuloso de enorme estatura, con figura humana, que aparece en cuentos y fábulas mitológicas."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que excede mucho en su estatura a la que se considera normal."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "definition": "gigantón (figura gigantesca que suele llevarse en algunas procesiones)."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que destaca extraordinariamente en una actividad o posee una cualidad en grado muy elevado."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "girasol (planta)."
             }
         ]
     },
@@ -3089,36 +3089,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Mucho mayor de lo considerado normal. Tamaño, capacidad gigante."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino y femenino",
-                "definition": "Ser fabuloso de enorme estatura, con figura humana, que aparece en cuentos y fábulas mitológicas."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que excede mucho en su estatura a la que se considera normal."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino y femenino",
-                "definition": "gigantón (figura gigantesca que suele llevarse en algunas procesiones)."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que destaca extraordinariamente en una actividad o posee una cualidad en grado muy elevado."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "definition": "girasol (planta)."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
                 "definition": "gigantesco.",
                 "definition_extra": [
                     {
@@ -3130,6 +3100,36 @@
                         "content": "enano, diminuto, minúsculo."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Mucho mayor de lo considerado normal. Tamaño, capacidad gigante."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "definition": "Ser fabuloso de enorme estatura, con figura humana, que aparece en cuentos y fábulas mitológicas."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que excede mucho en su estatura a la que se considera normal."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "definition": "gigantón (figura gigantesca que suele llevarse en algunas procesiones)."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que destaca extraordinariamente en una actividad o posee una cualidad en grado muy elevado."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "girasol (planta)."
             }
         ]
     },
@@ -4301,15 +4301,15 @@
             },
             {
                 "number": "10",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Torpe, tonto, poco avisado."
-            },
-            {
-                "number": "11",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "perra gorda."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Torpe, tonto, poco avisado."
             }
         ]
     },
@@ -4377,15 +4377,15 @@
             },
             {
                 "number": "10",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Torpe, tonto, poco avisado."
-            },
-            {
-                "number": "11",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "perra gorda."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Torpe, tonto, poco avisado."
             }
         ]
     },
@@ -4483,12 +4483,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "El Salvador",
-                "definition": "resaca (malestar por haber bebido en exceso)."
-            },
-            {
-                "number": "2",
                 "type": "adjetivo",
                 "type_extra": "Nicaragua",
                 "definition": "sabelotodo.",
@@ -4498,6 +4492,12 @@
                         "content": "sabelotodo, sabiondo, resaca, goma, cruda, guayabo, ratón, chaqui."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "El Salvador",
+                "definition": "resaca (malestar por haber bebido en exceso)."
             }
         ]
     },
@@ -6281,45 +6281,45 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "definition": "Corpulencia o cuerpo de algo."
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho del entendimiento o del talento: Oscuro, confuso y poco agudo."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Parte principal, mayor y más fuerte, de un todo. El grueso del ejército."
+                "definition": "Corpulencia o cuerpo de algo."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Trazo ancho o muy entintado de una letra, en contraposición a perfil."
+                "definition": "Parte principal, mayor y más fuerte, de un todo. El grueso del ejército."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "definition": "Espesor de algo. El grueso de la pared."
+                "definition": "Trazo ancho o muy entintado de una letra, en contraposición a perfil."
             },
             {
                 "number": "7",
+                "type": "nombre masculino",
+                "definition": "Espesor de algo. El grueso de la pared."
+            },
+            {
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Geometría",
                 "definition": "Una de las tres dimensiones de los sólidos, ordinariamente la menor."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre femenino",
                 "definition": "Número de doce docenas, especialmente de cosas menudas. Una gruesa de botones, de agujas."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "En los cabildos y capítulos eclesiásticos, renta principal de cualquier prebenda, en que no se incluyen las distribuciones."
-            },
-            {
-                "number": "10",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho del entendimiento o del talento: Oscuro, confuso y poco agudo."
             },
             {
                 "number": "11",
@@ -6353,45 +6353,45 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "definition": "Corpulencia o cuerpo de algo."
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho del entendimiento o del talento: Oscuro, confuso y poco agudo."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Parte principal, mayor y más fuerte, de un todo. El grueso del ejército."
+                "definition": "Corpulencia o cuerpo de algo."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Trazo ancho o muy entintado de una letra, en contraposición a perfil."
+                "definition": "Parte principal, mayor y más fuerte, de un todo. El grueso del ejército."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "definition": "Espesor de algo. El grueso de la pared."
+                "definition": "Trazo ancho o muy entintado de una letra, en contraposición a perfil."
             },
             {
                 "number": "7",
+                "type": "nombre masculino",
+                "definition": "Espesor de algo. El grueso de la pared."
+            },
+            {
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Geometría",
                 "definition": "Una de las tres dimensiones de los sólidos, ordinariamente la menor."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre femenino",
                 "definition": "Número de doce docenas, especialmente de cosas menudas. Una gruesa de botones, de agujas."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "En los cabildos y capítulos eclesiásticos, renta principal de cualquier prebenda, en que no se incluyen las distribuciones."
-            },
-            {
-                "number": "10",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho del entendimiento o del talento: Oscuro, confuso y poco agudo."
             },
             {
                 "number": "11",
@@ -8122,6 +8122,12 @@
             },
             {
                 "number": "4",
+                "type": "adjetivo",
+                "definition": "Que posee vasta instrucción.",
+                "type_extra": "poco usado"
+            },
+            {
+                "number": "5",
                 "type": "nombre masculino y femenino",
                 "definition": "oficial general del Ejército con la graduación de capitán general, teniente general, general de división o general de brigada, y los correspondientes en la Armada en los cuerpos distintos del cuerpo general.",
                 "definition_extra": [
@@ -8132,20 +8138,14 @@
                 ]
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Prelado superior de una orden religiosa."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre masculino",
                 "definition": "Mayoría de un conjunto de cosas o personas."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "definition": "Que posee vasta instrucción.",
-                "type_extra": "poco usado"
             }
         ]
     },
@@ -8269,18 +8269,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adverbio",
-                "type_extra": "sin verificar",
-                "definition": "De manera gratuita o sin coste.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "gratuitamente, gratis et amore, graciosamente, gratiñán, gratarola."
-                    }
-                ]
-            },
-            {
-                "number": "2",
                 "type": "adjetivo",
                 "type_extra": "sin verificar",
                 "definition": "gratuito.",
@@ -8292,6 +8280,18 @@
                     {
                         "type": "Antónimos",
                         "content": "costoso."
+                    }
+                ]
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "sin verificar",
+                "definition": "De manera gratuita o sin coste.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "gratuitamente, gratis et amore, graciosamente, gratiñán, gratarola."
                     }
                 ]
             }

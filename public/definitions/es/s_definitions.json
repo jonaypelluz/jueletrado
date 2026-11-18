@@ -920,15 +920,15 @@
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "type_extra": "México",
-                "definition": "quitarse (irse de un lugar)."
-            },
-            {
-                "number": "33",
                 "type": "verbo transitivo",
                 "type_extra": "México",
                 "definition": "reprochar."
+            },
+            {
+                "number": "33",
+                "type": "verbo pronominal",
+                "type_extra": "México",
+                "definition": "quitarse (irse de un lugar)."
             }
         ]
     },
@@ -1116,15 +1116,15 @@
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "type_extra": "México",
-                "definition": "quitarse (irse de un lugar)."
-            },
-            {
-                "number": "33",
                 "type": "verbo transitivo",
                 "type_extra": "México",
                 "definition": "reprochar."
+            },
+            {
+                "number": "33",
+                "type": "verbo pronominal",
+                "type_extra": "México",
+                "definition": "quitarse (irse de un lugar)."
             }
         ]
     },
@@ -1302,15 +1302,15 @@
             },
             {
                 "number": "32",
-                "type": "verbo pronominal",
-                "type_extra": "México",
-                "definition": "quitarse (irse de un lugar)."
-            },
-            {
-                "number": "33",
                 "type": "verbo transitivo",
                 "type_extra": "México",
                 "definition": "reprochar."
+            },
+            {
+                "number": "33",
+                "type": "verbo pronominal",
+                "type_extra": "México",
+                "definition": "quitarse (irse de un lugar)."
             }
         ]
     },
@@ -4350,15 +4350,15 @@
             },
             {
                 "number": "7",
-                "type": "interjección",
-                "type_extra": "Usado, usada, usados o usadas",
-                "definition": "para saludar a alguien o desearle un bien."
-            },
-            {
-                "number": "8",
                 "type": "nombre femenino",
                 "type_extra": "plural, poco usado",
                 "definition": "Actos y expresiones corteses."
+            },
+            {
+                "number": "8",
+                "type": "interjección",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "para saludar a alguien o desearle un bien."
             }
         ]
     },
@@ -5293,15 +5293,15 @@
             },
             {
                 "number": "2",
-                "type": "locución",
-                "type_extra": "verbal",
-                "definition": "timar (quitar con engaño)."
-            },
-            {
-                "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Acometimiento en la batalla."
+            },
+            {
+                "number": "3",
+                "type": "locución",
+                "type_extra": "verbal",
+                "definition": "timar (quitar con engaño)."
             }
         ]
     },
@@ -7388,20 +7388,20 @@
             },
             {
                 "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Geología, Usado también como sustantivo masculino",
+                "definition": "mesozoico."
+            },
+            {
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "Cuba",
                 "definition": "segundero (manecilla del reloj)."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre femenino",
                 "definition": "enseñanza secundaria."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "type_extra": "Geología, Usado también como sustantivo masculino",
-                "definition": "mesozoico."
             }
         ]
     },
@@ -7441,20 +7441,20 @@
             },
             {
                 "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Geología, Usado también como sustantivo masculino",
+                "definition": "mesozoico."
+            },
+            {
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "Cuba",
                 "definition": "segundero (manecilla del reloj)."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre femenino",
                 "definition": "enseñanza secundaria."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "type_extra": "Geología, Usado también como sustantivo masculino",
-                "definition": "mesozoico."
             }
         ]
     },
@@ -7494,20 +7494,20 @@
             },
             {
                 "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Geología, Usado también como sustantivo masculino",
+                "definition": "mesozoico."
+            },
+            {
+                "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "Cuba",
                 "definition": "segundero (manecilla del reloj)."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre femenino",
                 "definition": "enseñanza secundaria."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "type_extra": "Geología, Usado también como sustantivo masculino",
-                "definition": "mesozoico."
             }
         ]
     },
@@ -7989,19 +7989,19 @@
             },
             {
                 "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "etcétera, poco usado",
+                "definition": "Cada uno de los puntos que se van menguando en el remate del pie de las calcetas, medias, para cerrarlo."
+            },
+            {
+                "number": "4",
                 "type": "nombre femenino",
                 "definition": "Cierto baile antiguo."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "adverbio",
                 "definition": "de seguida."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "type_extra": "etcétera, poco usado",
-                "definition": "Cada uno de los puntos que se van menguando en el remate del pie de las calcetas, medias, para cerrarlo."
             }
         ]
     },
@@ -8463,57 +8463,57 @@
             },
             {
                 "number": "2",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "favorable."
+            },
+            {
+                "number": "3",
                 "type": "nombre masculino y femenino",
                 "definition": "Persona que en una institución sigue en jerarquía a quien la dirige o preside."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "En el boxeo, persona que ayuda y atiende al púgil antes del combate o en las pausas dentro del cuadrilátero."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Símbolo",
                 "definition": "Unidad de tiempo del sistema internacional, que equivale a la duración de 9 192 631 770 períodos de la radiación correspondiente a la transición entre los dos niveles hiperfinos del estado fundamental del átomo de cesio 133. ( s)."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Período muy breve de tiempo."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Geometría",
                 "definition": "Cada una de las 60 partes iguales en que se divide un minuto de circunferencia."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "nombre femenino",
                 "definition": "En las cerraduras y llaves, vuelta doble que suele hacerse en ellas."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre femenino",
                 "type_extra": "Usado más en plural con el mismo significado que en singular",
                 "definition": "segunda intención. Hablar con la segunda. Hablar con segundas."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "En algunos instrumentos de cuerda, la que está después de la prima."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Marcha del motor de un vehículo con mayor velocidad y menor potencia que la primera y menor velocidad y mayor potencia que la tercera."
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "favorable."
             },
             {
                 "number": "12",
@@ -8537,57 +8537,57 @@
             },
             {
                 "number": "2",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "favorable."
+            },
+            {
+                "number": "3",
                 "type": "nombre masculino y femenino",
                 "definition": "Persona que en una institución sigue en jerarquía a quien la dirige o preside."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "En el boxeo, persona que ayuda y atiende al púgil antes del combate o en las pausas dentro del cuadrilátero."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Símbolo",
                 "definition": "Unidad de tiempo del sistema internacional, que equivale a la duración de 9 192 631 770 períodos de la radiación correspondiente a la transición entre los dos niveles hiperfinos del estado fundamental del átomo de cesio 133. ( s)."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Período muy breve de tiempo."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Geometría",
                 "definition": "Cada una de las 60 partes iguales en que se divide un minuto de circunferencia."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "nombre femenino",
                 "definition": "En las cerraduras y llaves, vuelta doble que suele hacerse en ellas."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre femenino",
                 "type_extra": "Usado más en plural con el mismo significado que en singular",
                 "definition": "segunda intención. Hablar con la segunda. Hablar con segundas."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "En algunos instrumentos de cuerda, la que está después de la prima."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Marcha del motor de un vehículo con mayor velocidad y menor potencia que la primera y menor velocidad y mayor potencia que la tercera."
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "favorable."
             },
             {
                 "number": "12",
@@ -8611,57 +8611,57 @@
             },
             {
                 "number": "2",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "favorable."
+            },
+            {
+                "number": "3",
                 "type": "nombre masculino y femenino",
                 "definition": "Persona que en una institución sigue en jerarquía a quien la dirige o preside."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre masculino",
                 "definition": "En el boxeo, persona que ayuda y atiende al púgil antes del combate o en las pausas dentro del cuadrilátero."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Símbolo",
                 "definition": "Unidad de tiempo del sistema internacional, que equivale a la duración de 9 192 631 770 períodos de la radiación correspondiente a la transición entre los dos niveles hiperfinos del estado fundamental del átomo de cesio 133. ( s)."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Período muy breve de tiempo."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Geometría",
                 "definition": "Cada una de las 60 partes iguales en que se divide un minuto de circunferencia."
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "nombre femenino",
                 "definition": "En las cerraduras y llaves, vuelta doble que suele hacerse en ellas."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre femenino",
                 "type_extra": "Usado más en plural con el mismo significado que en singular",
                 "definition": "segunda intención. Hablar con la segunda. Hablar con segundas."
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "En algunos instrumentos de cuerda, la que está después de la prima."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Marcha del motor de un vehículo con mayor velocidad y menor potencia que la primera y menor velocidad y mayor potencia que la tercera."
-            },
-            {
-                "number": "11",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "favorable."
             },
             {
                 "number": "12",
@@ -8757,14 +8757,14 @@
             },
             {
                 "number": "15",
-                "type": "adverbio",
-                "definition": "De manera segura o que se da por segura."
-            },
-            {
-                "number": "16",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Salvoconducto, licencia o permiso que se concede para ejecutar lo que sin él no se pudiera."
+            },
+            {
+                "number": "16",
+                "type": "adverbio",
+                "definition": "De manera segura o que se da por segura."
             }
         ]
     },
@@ -8906,14 +8906,14 @@
             },
             {
                 "number": "15",
-                "type": "adverbio",
-                "definition": "De manera segura o que se da por segura."
-            },
-            {
-                "number": "16",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Salvoconducto, licencia o permiso que se concede para ejecutar lo que sin él no se pudiera."
+            },
+            {
+                "number": "16",
+                "type": "adverbio",
+                "definition": "De manera segura o que se da por segura."
             }
         ]
     },
@@ -9004,14 +9004,14 @@
             },
             {
                 "number": "15",
-                "type": "adverbio",
-                "definition": "De manera segura o que se da por segura."
-            },
-            {
-                "number": "16",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Salvoconducto, licencia o permiso que se concede para ejecutar lo que sin él no se pudiera."
+            },
+            {
+                "number": "16",
+                "type": "adverbio",
+                "definition": "De manera segura o que se da por segura."
             }
         ]
     },
@@ -9058,15 +9058,15 @@
             },
             {
                 "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "en plural",
-                "definition": "Sexta hora después de mediodía o de medianoche. Son las seis."
-            },
-            {
-                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Puerto Rico, poco usado",
                 "definition": "Baile popular individual o en pareja, especie de zapateado."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
+                "definition": "Sexta hora después de mediodía o de medianoche. Son las seis."
             }
         ]
     },
@@ -9449,24 +9449,24 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino",
-                "definition": "Período de seis meses."
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "semestral."
             },
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Cantidad que se cobra o se paga cada semestre."
+                "definition": "Período de seis meses."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Conjunto de los números de un periódico o revista publicados durante un semestre. Primer semestre de la Gaceta de este año."
+                "definition": "Cantidad que se cobra o se paga cada semestre."
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "semestral."
+                "type": "nombre masculino",
+                "definition": "Conjunto de los números de un periódico o revista publicados durante un semestre. Primer semestre de la Gaceta de este año."
             }
         ]
     },
@@ -13609,19 +13609,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -13831,19 +13831,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -13949,19 +13949,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -15078,12 +15078,12 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Importancia en cualquier orden."
+                "definition": "significado."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "significado."
+                "definition": "Importancia en cualquier orden."
             }
         ]
     },
@@ -17385,19 +17385,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -17503,19 +17503,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -17621,19 +17621,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -17739,19 +17739,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -17857,19 +17857,19 @@
             },
             {
                 "number": "18",
-                "type": "verbo pronominal",
-                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Cortejar o festejar a una dama."
             },
             {
                 "number": "19",
                 "type": "verbo pronominal",
-                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
+                "definition": "Querer o tener a bien hacer algo. Sírvase acompañarme."
             },
             {
                 "number": "20",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Cortejar o festejar a una dama."
+                "type": "verbo pronominal",
+                "definition": "Valerse de una cosa para el uso propio de ella. Servirse de un martillo."
             }
         ]
     },
@@ -26443,22 +26443,22 @@
             {
                 "number": "3",
                 "type": "verbo transitivo",
-                "definition": "Privar temporalmente a alguien del sueldo o empleo que tiene."
+                "definition": "embelesar."
             },
             {
                 "number": "4",
                 "type": "verbo transitivo",
-                "definition": "Negar la aprobación a un examinando hasta nuevo examen."
+                "definition": "Privar temporalmente a alguien del sueldo o empleo que tiene."
             },
             {
                 "number": "5",
-                "type": "verbo pronominal",
-                "definition": "Dicho de un caballo: Sostenerse con las patas delanteras en el aire."
+                "type": "verbo transitivo",
+                "definition": "Negar la aprobación a un examinando hasta nuevo examen."
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "definition": "embelesar."
+                "type": "verbo pronominal",
+                "definition": "Dicho de un caballo: Sostenerse con las patas delanteras en el aire."
             }
         ]
     },
@@ -26488,22 +26488,22 @@
             {
                 "number": "3",
                 "type": "verbo transitivo",
-                "definition": "Privar temporalmente a alguien del sueldo o empleo que tiene."
+                "definition": "embelesar."
             },
             {
                 "number": "4",
                 "type": "verbo transitivo",
-                "definition": "Negar la aprobación a un examinando hasta nuevo examen."
+                "definition": "Privar temporalmente a alguien del sueldo o empleo que tiene."
             },
             {
                 "number": "5",
-                "type": "verbo pronominal",
-                "definition": "Dicho de un caballo: Sostenerse con las patas delanteras en el aire."
+                "type": "verbo transitivo",
+                "definition": "Negar la aprobación a un examinando hasta nuevo examen."
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "definition": "embelesar."
+                "type": "verbo pronominal",
+                "definition": "Dicho de un caballo: Sostenerse con las patas delanteras en el aire."
             }
         ]
     },
@@ -27631,18 +27631,6 @@
             },
             {
                 "number": "15",
-                "type": "nombre masculino",
-                "definition": "Dibujo que ilustra una publicación.",
-                "type_extra": "coloquial",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "imagen, dibujo, viñeta, ilustración, estampa."
-                    }
-                ]
-            },
-            {
-                "number": "16",
                 "type": "nombre masculino y femenino",
                 "definition": "esposo.",
                 "type_extra": "coloquial",
@@ -27650,6 +27638,18 @@
                     {
                         "type": "Sinónimos",
                         "content": "cónyuge, pareja, pariente, parienta, esposo, esposa, huarmi."
+                    }
+                ]
+            },
+            {
+                "number": "16",
+                "type": "nombre masculino",
+                "definition": "Dibujo que ilustra una publicación.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "imagen, dibujo, viñeta, ilustración, estampa."
                     }
                 ]
             }
@@ -28375,11 +28375,6 @@
             },
             {
                 "number": "9",
-                "type": "nombre masculino",
-                "definition": "Séptima nota de la escala musical."
-            },
-            {
-                "number": "10",
                 "type": "conjunción",
                 "definition": "aunque.",
                 "definition_extra": [
@@ -28388,6 +28383,11 @@
                         "content": "aun cuando, aunque, cuanto quier, más que, por más que, siquiera."
                     }
                 ]
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Séptima nota de la escala musical."
             },
             {
                 "number": "11",
@@ -28801,6 +28801,12 @@
             {
                 "number": "8",
                 "type": "nombre",
+                "definition": "solamente.",
+                "type_extra": "obsolete, sin verificar"
+            },
+            {
+                "number": "9",
+                "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Dispersión coloidal de un sólido en un líquido.",
                 "definition_extra": [
@@ -28809,12 +28815,6 @@
                         "content": "coloide."
                     }
                 ]
-            },
-            {
-                "number": "9",
-                "type": "nombre",
-                "definition": "solamente.",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },

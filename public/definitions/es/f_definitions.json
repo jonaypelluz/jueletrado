@@ -20,27 +20,27 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Invención, artificio de algo no material."
+                "definition": "edificio."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
+                "definition": "Invención, artificio de algo no material."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
+                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "definition": "fabricación."
+                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "definition": "edificio."
+                "definition": "fabricación."
             }
         ]
     },
@@ -131,27 +131,27 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Invención, artificio de algo no material."
+                "definition": "edificio."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
+                "definition": "Invención, artificio de algo no material."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
+                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "definition": "fabricación."
+                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "definition": "edificio."
+                "definition": "fabricación."
             }
         ]
     },
@@ -249,14 +249,14 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo",
-                "type_extra": "desusado, Era usado en sentido peyorativo",
-                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
+                "type": "adverbio",
+                "definition": "fácilmente."
             },
             {
                 "number": "7",
-                "type": "adverbio",
-                "definition": "fácilmente."
+                "type": "adjetivo",
+                "type_extra": "desusado, Era usado en sentido peyorativo",
+                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
             }
         ]
     },
@@ -299,14 +299,14 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo",
-                "type_extra": "desusado, Era usado en sentido peyorativo",
-                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
+                "type": "adverbio",
+                "definition": "fácilmente."
             },
             {
                 "number": "7",
-                "type": "adverbio",
-                "definition": "fácilmente."
+                "type": "adjetivo",
+                "type_extra": "desusado, Era usado en sentido peyorativo",
+                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
             }
         ]
     },
@@ -472,48 +472,48 @@
             },
             {
                 "number": "2",
-                "type": "nombre masculino",
-                "definition": "Elemento o causa que actúan junto con otros. El factor que más influyó en la decisión fue su preparación académica."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Oficial real que en las Indias recaudaba las rentas y rendía los tributos en especie pertenecientes a la Corona."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Dependiente del comisario de guerra o del asentista, que se ocupaba de la distribución de víveres a la tropa."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "type_extra": "Matemáticas",
-                "definition": "Cada una de las cantidades o expresiones que se multiplican para obtener un producto."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "type_extra": "Matemáticas",
-                "definition": "divisor (número contenido en otro un número exacto de veces)."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "type_extra": "plural, Cuba",
-                "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
-            },
-            {
-                "number": "8",
                 "type": "nombre masculino y femenino",
                 "type_extra": "poco usado",
                 "definition": "Persona que hace algo."
             },
             {
-                "number": "9",
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Elemento o causa que actúan junto con otros. El factor que más influyó en la decisión fue su preparación académica."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Oficial real que en las Indias recaudaba las rentas y rendía los tributos en especie pertenecientes a la Corona."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Dependiente del comisario de guerra o del asentista, que se ocupaba de la distribución de víveres a la tropa."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "Cada una de las cantidades o expresiones que se multiplican para obtener un producto."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "divisor (número contenido en otro un número exacto de veces)."
+            },
+            {
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Capataz o persona que administra bienes ajenos."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "plural, Cuba",
+                "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
             },
             {
                 "number": "10",
@@ -3308,20 +3308,20 @@
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "type_extra": "coloquial, El Salvador y México",
-                "definition": "dinero (moneda corriente)."
+                "type_extra": "Costa Rica, poco usado",
+                "definition": "Añadidura, pequeño obsequio hecho por el vendedor a su cliente."
             },
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "type_extra": "México y Nicaragua",
-                "definition": "Dinero menudo, cambio."
+                "type_extra": "coloquial, El Salvador y México",
+                "definition": "dinero (moneda corriente)."
             },
             {
                 "number": "12",
                 "type": "nombre femenino",
-                "type_extra": "Costa Rica, poco usado",
-                "definition": "Añadidura, pequeño obsequio hecho por el vendedor a su cliente."
+                "type_extra": "México y Nicaragua",
+                "definition": "Dinero menudo, cambio."
             },
             {
                 "number": "13",
@@ -3951,20 +3951,20 @@
             },
             {
                 "number": "19",
-                "type": "nombre masculino y femenino",
-                "definition": "figurón (persona fantasiosa y engreída)."
+                "type": "nombre femenino",
+                "type_extra": "poco usado",
+                "definition": "Gesto, mueca."
             },
             {
                 "number": "20",
                 "type": "nombre masculino y femenino",
-                "type_extra": "coloquial, España, Usado también en sentido irónico",
-                "definition": "Persona que sobresale o se distingue entre otras. El tío es un figura que quiere hacerse famoso como sea."
+                "definition": "figurón (persona fantasiosa y engreída)."
             },
             {
                 "number": "21",
-                "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Gesto, mueca."
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial, España, Usado también en sentido irónico",
+                "definition": "Persona que sobresale o se distingue entre otras. El tío es un figura que quiere hacerse famoso como sea."
             },
             {
                 "number": "22",
@@ -3995,29 +3995,29 @@
             },
             {
                 "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "Representar o reproducir materialmente la figura de alguien o de algo. Figuraban al rey en las monedas."
+            },
+            {
+                "number": "3",
                 "type": "verbo pronominal",
                 "definition": "Imaginarse o suponer algo. Me figuro que será por aquí cerca."
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Aparecer o constar en algún lugar. Al pie del documento figura la firma del autor."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Formar parte de un determinado conjunto de personas o cosas. La película figura entre mis favoritas."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "verbo intransitivo",
                 "definition": "Destacar o ser considerado importante. Hay gente ansiosa de figurar."
-            },
-            {
-                "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "Representar o reproducir materialmente la figura de alguien o de algo. Figuraban al rey en las monedas."
             }
         ]
     },
@@ -5483,11 +5483,6 @@
             {
                 "number": "1",
                 "type": "adverbio",
-                "definition": "Real y verdaderamente."
-            },
-            {
-                "number": "2",
-                "type": "adverbio",
                 "definition": "corporalmente.",
                 "definition_extra": [
                     {
@@ -5495,6 +5490,11 @@
                         "content": "corporalmente."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "definition": "Real y verdaderamente."
             }
         ]
     },
@@ -5854,13 +5854,13 @@
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "definition": "virginidad."
+                "type_extra": "poco usado",
+                "definition": "Menstruación de la mujer."
             },
             {
                 "number": "14",
                 "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Menstruación de la mujer."
+                "definition": "virginidad."
             },
             {
                 "number": "15",
@@ -7665,24 +7665,24 @@
             {
                 "number": "2",
                 "type": "verbo transitivo",
-                "definition": "Expresar, manifestar."
+                "definition": "recetar."
             },
             {
                 "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Expresar, manifestar."
+            },
+            {
+                "number": "4",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Representar mediante fórmulas las relaciones entre las diferentes magnitudes de un enunciado."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "Química",
                 "definition": "Representar mediante símbolos químicos la composición de una sustancia o bien de las sustancias que intervienen en una reacción."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "definition": "recetar."
             }
         ]
     },
@@ -7703,24 +7703,24 @@
             {
                 "number": "2",
                 "type": "verbo transitivo",
-                "definition": "Expresar, manifestar."
+                "definition": "recetar."
             },
             {
                 "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Expresar, manifestar."
+            },
+            {
+                "number": "4",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Representar mediante fórmulas las relaciones entre las diferentes magnitudes de un enunciado."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "Química",
                 "definition": "Representar mediante símbolos químicos la composición de una sustancia o bien de las sustancias que intervienen en una reacción."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "definition": "recetar."
             }
         ]
     },
@@ -8376,29 +8376,29 @@
             {
                 "number": "10",
                 "type": "adjetivo",
-                "definition": "Exento de servicio, libre de obligación o trabajo en deberes de carácter militar."
+                "type_extra": "Aplicado a persona, usado también como sustantivo",
+                "definition": "francés."
             },
             {
                 "number": "11",
+                "type": "adjetivo",
+                "definition": "Exento de servicio, libre de obligación o trabajo en deberes de carácter militar."
+            },
+            {
+                "number": "12",
                 "type": "adjetivo",
                 "type_extra": "Comercio",
                 "definition": "Dicho de un precio: Denota que los gastos causados por una mercancía hasta llegar al lugar que se indica no son de cuenta del comprador. Franco almacén. Franco vagón."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre masculino",
                 "definition": "Lengua germánica que hablaban los antiguos francos."
-            },
-            {
-                "number": "14",
-                "type": "adjetivo",
-                "type_extra": "Aplicado a persona, usado también como sustantivo",
-                "definition": "francés."
             },
             {
                 "number": "15",
@@ -8588,29 +8588,29 @@
             {
                 "number": "10",
                 "type": "adjetivo",
-                "definition": "Exento de servicio, libre de obligación o trabajo en deberes de carácter militar."
+                "type_extra": "Aplicado a persona, usado también como sustantivo",
+                "definition": "francés."
             },
             {
                 "number": "11",
+                "type": "adjetivo",
+                "definition": "Exento de servicio, libre de obligación o trabajo en deberes de carácter militar."
+            },
+            {
+                "number": "12",
                 "type": "adjetivo",
                 "type_extra": "Comercio",
                 "definition": "Dicho de un precio: Denota que los gastos causados por una mercancía hasta llegar al lugar que se indica no son de cuenta del comprador. Franco almacén. Franco vagón."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre masculino",
                 "definition": "Lengua germánica que hablaban los antiguos francos."
-            },
-            {
-                "number": "14",
-                "type": "adjetivo",
-                "type_extra": "Aplicado a persona, usado también como sustantivo",
-                "definition": "francés."
             },
             {
                 "number": "15",
@@ -8687,29 +8687,29 @@
             {
                 "number": "10",
                 "type": "adjetivo",
-                "definition": "Exento de servicio, libre de obligación o trabajo en deberes de carácter militar."
+                "type_extra": "Aplicado a persona, usado también como sustantivo",
+                "definition": "francés."
             },
             {
                 "number": "11",
+                "type": "adjetivo",
+                "definition": "Exento de servicio, libre de obligación o trabajo en deberes de carácter militar."
+            },
+            {
+                "number": "12",
                 "type": "adjetivo",
                 "type_extra": "Comercio",
                 "definition": "Dicho de un precio: Denota que los gastos causados por una mercancía hasta llegar al lugar que se indica no son de cuenta del comprador. Franco almacén. Franco vagón."
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre masculino",
                 "definition": "Lengua germánica que hablaban los antiguos francos."
-            },
-            {
-                "number": "14",
-                "type": "adjetivo",
-                "type_extra": "Aplicado a persona, usado también como sustantivo",
-                "definition": "francés."
             },
             {
                 "number": "15",
@@ -9062,12 +9062,12 @@
             {
                 "number": "2",
                 "type": "verbo transitivo",
-                "definition": "Moderar los ímpetus."
+                "definition": "enfrenar."
             },
             {
                 "number": "3",
                 "type": "verbo transitivo",
-                "definition": "enfrenar."
+                "definition": "Moderar los ímpetus."
             }
         ]
     },
@@ -9335,47 +9335,47 @@
             {
                 "number": "9",
                 "type": "adjetivo",
+                "type_extra": "coloquial, Usado también como sustantivo",
+                "definition": "desvergonzado."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
                 "type_extra": "Nicaragua",
                 "definition": "descuidado (que falta al cuidado que debe poner en las cosas)."
             },
             {
-                "number": "10",
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una persona, especialmente de una mujer: Lozana, pero sin facciones delicadas."
+            },
+            {
+                "number": "12",
                 "type": "nombre masculino",
                 "definition": "Frío moderado."
             },
             {
-                "number": "11",
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "pintura al fresco."
             },
             {
-                "number": "12",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "Bolivia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Nicaragua, Perú y Venezuela",
                 "definition": "refresco (bebida fría)."
             },
             {
-                "number": "13",
+                "number": "15",
                 "type": "nombre femenino",
                 "definition": "fresco, especialmente el de primeras horas de la mañana o últimas de la tarde, en tiempo caluroso. Salir con la fresca."
             },
             {
-                "number": "14",
+                "number": "16",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
                 "definition": "Expresión desenfadada y algo desagradable. Decir una fresca."
-            },
-            {
-                "number": "15",
-                "type": "adjetivo",
-                "type_extra": "coloquial, Usado también como sustantivo",
-                "definition": "desvergonzado."
-            },
-            {
-                "number": "16",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una persona, especialmente de una mujer: Lozana, pero sin facciones delicadas."
             }
         ]
     },
@@ -9436,47 +9436,47 @@
             {
                 "number": "9",
                 "type": "adjetivo",
+                "type_extra": "coloquial, Usado también como sustantivo",
+                "definition": "desvergonzado."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
                 "type_extra": "Nicaragua",
                 "definition": "descuidado (que falta al cuidado que debe poner en las cosas)."
             },
             {
-                "number": "10",
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una persona, especialmente de una mujer: Lozana, pero sin facciones delicadas."
+            },
+            {
+                "number": "12",
                 "type": "nombre masculino",
                 "definition": "Frío moderado."
             },
             {
-                "number": "11",
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "pintura al fresco."
             },
             {
-                "number": "12",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "Bolivia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Nicaragua, Perú y Venezuela",
                 "definition": "refresco (bebida fría)."
             },
             {
-                "number": "13",
+                "number": "15",
                 "type": "nombre femenino",
                 "definition": "fresco, especialmente el de primeras horas de la mañana o últimas de la tarde, en tiempo caluroso. Salir con la fresca."
             },
             {
-                "number": "14",
+                "number": "16",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
                 "definition": "Expresión desenfadada y algo desagradable. Decir una fresca."
-            },
-            {
-                "number": "15",
-                "type": "adjetivo",
-                "type_extra": "coloquial, Usado también como sustantivo",
-                "definition": "desvergonzado."
-            },
-            {
-                "number": "16",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una persona, especialmente de una mujer: Lozana, pero sin facciones delicadas."
             }
         ]
     },
@@ -9537,47 +9537,47 @@
             {
                 "number": "9",
                 "type": "adjetivo",
+                "type_extra": "coloquial, Usado también como sustantivo",
+                "definition": "desvergonzado."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
                 "type_extra": "Nicaragua",
                 "definition": "descuidado (que falta al cuidado que debe poner en las cosas)."
             },
             {
-                "number": "10",
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una persona, especialmente de una mujer: Lozana, pero sin facciones delicadas."
+            },
+            {
+                "number": "12",
                 "type": "nombre masculino",
                 "definition": "Frío moderado."
             },
             {
-                "number": "11",
+                "number": "13",
                 "type": "nombre masculino",
                 "definition": "pintura al fresco."
             },
             {
-                "number": "12",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "Bolivia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Nicaragua, Perú y Venezuela",
                 "definition": "refresco (bebida fría)."
             },
             {
-                "number": "13",
+                "number": "15",
                 "type": "nombre femenino",
                 "definition": "fresco, especialmente el de primeras horas de la mañana o últimas de la tarde, en tiempo caluroso. Salir con la fresca."
             },
             {
-                "number": "14",
+                "number": "16",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
                 "definition": "Expresión desenfadada y algo desagradable. Decir una fresca."
-            },
-            {
-                "number": "15",
-                "type": "adjetivo",
-                "type_extra": "coloquial, Usado también como sustantivo",
-                "definition": "desvergonzado."
-            },
-            {
-                "number": "16",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una persona, especialmente de una mujer: Lozana, pero sin facciones delicadas."
             }
         ]
     },
@@ -9662,15 +9662,15 @@
             },
             {
                 "number": "14",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Bebida enfriada con nieve o hielo, pero líquida."
-            },
-            {
-                "number": "15",
                 "type": "nombre femenino",
                 "type_extra": "Colombia, Cuba, Guatemala, México y República Dominicana, coloquial",
                 "definition": "cerveza."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Bebida enfriada con nieve o hielo, pero líquida."
             },
             {
                 "number": "16",
@@ -10104,26 +10104,26 @@
             {
                 "number": "13",
                 "type": "nombre masculino",
+                "type_extra": "poco usado",
+                "definition": "hogar (familia). Este lugar tiene 100 fuegos."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "fuegos artificiales (luces y detonaciones de pólvora)."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "interjección",
                 "type_extra": "Usado, usada, usados o usadas",
                 "definition": "para pedir auxilio en un incendio."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "interjección",
                 "type_extra": "Milicia, Usado, usada, usados o usadas",
                 "definition": "para ordenar a la tropa que dispare las armas."
-            },
-            {
-                "number": "16",
-                "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "hogar (familia). Este lugar tiene 100 fuegos."
             }
         ]
     },
@@ -10971,14 +10971,14 @@
             {
                 "number": "6",
                 "type": "adjetivo",
-                "type_extra": "Medicina",
-                "definition": "Dicho de un síntoma o un trastorno: Que comporta una alteración morbosa de los órganos no acompañada de lesiones visibles, que es, por lo tanto, susceptible de desaparición rápida y total."
+                "type_extra": "Lingüística",
+                "definition": "gramatical."
             },
             {
                 "number": "7",
                 "type": "adjetivo",
-                "type_extra": "Lingüística",
-                "definition": "gramatical."
+                "type_extra": "Medicina",
+                "definition": "Dicho de un síntoma o un trastorno: Que comporta una alteración morbosa de los órganos no acompañada de lesiones visibles, que es, por lo tanto, susceptible de desaparición rápida y total."
             }
         ]
     },
@@ -11019,14 +11019,14 @@
             {
                 "number": "6",
                 "type": "adjetivo",
-                "type_extra": "Medicina",
-                "definition": "Dicho de un síntoma o un trastorno: Que comporta una alteración morbosa de los órganos no acompañada de lesiones visibles, que es, por lo tanto, susceptible de desaparición rápida y total."
+                "type_extra": "Lingüística",
+                "definition": "gramatical."
             },
             {
                 "number": "7",
                 "type": "adjetivo",
-                "type_extra": "Lingüística",
-                "definition": "gramatical."
+                "type_extra": "Medicina",
+                "definition": "Dicho de un síntoma o un trastorno: Que comporta una alteración morbosa de los órganos no acompañada de lesiones visibles, que es, por lo tanto, susceptible de desaparición rápida y total."
             }
         ]
     },
@@ -11724,6 +11724,12 @@
             {
                 "number": "2",
                 "type": "nombre",
+                "definition": "Persona que hace algo.",
+                "type_extra": "rare, sin verificar"
+            },
+            {
+                "number": "3",
+                "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Elemento o causa que actúan junto con otros.",
                 "definition_extra": [
@@ -11734,19 +11740,19 @@
                 ]
             },
             {
-                "number": "3",
+                "number": "4",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Oficial real que en las Indias recaudaba las rentas y rendía los tributos en especie pertenecientes a la Corona."
             },
             {
-                "number": "4",
+                "number": "5",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Dependiente del comisario de guerra o del asentista, que se ocupaba de la distribución de víveres a la tropa."
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Cada una de las cantidades o expresiones que se multiplican para obtener un producto.",
@@ -11758,7 +11764,7 @@
                 ]
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "divisor (‖ número contenido en otro un número exacto de veces).",
@@ -11770,28 +11776,22 @@
                 ]
             },
             {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
-            },
-            {
                 "number": "8",
-                "type": "nombre",
-                "definition": "Persona que hace algo.",
-                "type_extra": "rare, sin verificar"
-            },
-            {
-                "number": "9",
                 "type": "nombre",
                 "definition": "Capataz o persona que administra bienes ajenos.",
                 "type_extra": "rare, sin verificar"
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "nombre",
                 "definition": "Persona que comercia por cuenta ajena.",
                 "type_extra": "obsolete, sin verificar"
+            },
+            {
+                "number": "10",
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
             }
         ]
     },
@@ -12282,12 +12282,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino",
-                "definition": "confianza.",
-                "type_extra": "desusado"
-            },
-            {
-                "number": "2",
                 "type": "nombre femenino",
                 "definition": "fotografía.",
                 "definition_extra": [
@@ -12296,6 +12290,12 @@
                         "content": "instantánea, retrato, imagen, fotografía."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "confianza.",
+                "type_extra": "desusado"
             }
         ]
     },

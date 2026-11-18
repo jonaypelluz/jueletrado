@@ -10393,16 +10393,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que tiene por oficio labrar el hierro."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Mujer del herrero."
-            },
-            {
-                "number": "3",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "De hierro. Cuchara herrera.",
@@ -10412,6 +10402,16 @@
                         "content": "forjador, chispero, cerrajero."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que tiene por oficio labrar el hierro."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Mujer del herrero."
             }
         ]
     },
@@ -10419,16 +10419,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona que tiene por oficio labrar el hierro."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Mujer del herrero."
-            },
-            {
-                "number": "3",
                 "type": "adjetivo",
                 "type_extra": "poco usado",
                 "definition": "De hierro. Cuchara herrera.",
@@ -10438,6 +10428,16 @@
                         "content": "forjador, chispero, cerrajero."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que tiene por oficio labrar el hierro."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Mujer del herrero."
             }
         ]
     },
@@ -12755,24 +12755,24 @@
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "Perteneciente o relativo a Hispanoamérica."
+                "type_extra": "Aplicado a persona, usado también como sustantivo",
+                "definition": "español."
             },
             {
                 "number": "4",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a Hispanoamérica."
+            },
+            {
+                "number": "5",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Dicho de una persona: Que es de origen hispanoamericano y vive en los Estados Unidos de América."
             },
             {
-                "number": "5",
-                "type": "adjetivo",
-                "definition": "Perteneciente o relativo a los hispanos de los Estados Unidos de América."
-            },
-            {
                 "number": "6",
                 "type": "adjetivo",
-                "type_extra": "Aplicado a persona, usado también como sustantivo",
-                "definition": "español."
+                "definition": "Perteneciente o relativo a los hispanos de los Estados Unidos de América."
             }
         ]
     },
@@ -13720,15 +13720,15 @@
             },
             {
                 "number": "7",
-                "type": "interjección",
-                "type_extra": "Usado, usada, usados o usadas",
-                "definition": "para indicar sorpresa o asombro, o con un matiz conciliador. ¡ Hombre, no te enfades ! Hombre, no hay que ponerse así, María."
-            },
-            {
-                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "En algunos juegos de naipes, persona que dice que entra y juega contra las demás."
+            },
+            {
+                "number": "8",
+                "type": "interjección",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "para indicar sorpresa o asombro, o con un matiz conciliador. ¡ Hombre, no te enfades ! Hombre, no hay que ponerse así, María."
             }
         ]
     },
@@ -13774,15 +13774,15 @@
             },
             {
                 "number": "7",
-                "type": "interjección",
-                "type_extra": "Usado, usada, usados o usadas",
-                "definition": "para indicar sorpresa o asombro, o con un matiz conciliador. ¡ Hombre, no te enfades ! Hombre, no hay que ponerse así, María."
-            },
-            {
-                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "En algunos juegos de naipes, persona que dice que entra y juega contra las demás."
+            },
+            {
+                "number": "8",
+                "type": "interjección",
+                "type_extra": "Usado, usada, usados o usadas",
+                "definition": "para indicar sorpresa o asombro, o con un matiz conciliador. ¡ Hombre, no te enfades ! Hombre, no hay que ponerse así, María."
             }
         ]
     },
@@ -14132,31 +14132,31 @@
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "hora inesperada, desacostumbrada o inoportuna. ¿ A estas horas me lo vienes a decir ? ¡ A qué horas te levantas ! ¿ Qué horas son estas para visitar a nadie ?."
-            },
-            {
-                "number": "8",
-                "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Distancia de una legua."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre femenino",
-                "type_extra": "desusado, en plural",
-                "definition": "Libro de oraciones."
+                "type_extra": "plural",
+                "definition": "hora inesperada, desacostumbrada o inoportuna. ¿ A estas horas me lo vienes a decir ? ¡ A qué horas te levantas ! ¿ Qué horas son estas para visitar a nadie ?."
+            },
+            {
+                "number": "9",
+                "type": "adverbio",
+                "definition": "ahora."
             },
             {
                 "number": "10",
                 "type": "nombre femenino",
                 "type_extra": "desusado, en plural",
-                "definition": "Oraciones incluidas en unas horas."
+                "definition": "Libro de oraciones."
             },
             {
                 "number": "11",
-                "type": "adverbio",
-                "definition": "ahora."
+                "type": "nombre femenino",
+                "type_extra": "desusado, en plural",
+                "definition": "Oraciones incluidas en unas horas."
             }
         ]
     },
@@ -14289,31 +14289,31 @@
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "hora inesperada, desacostumbrada o inoportuna. ¿ A estas horas me lo vienes a decir ? ¡ A qué horas te levantas ! ¿ Qué horas son estas para visitar a nadie ?."
-            },
-            {
-                "number": "8",
-                "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Distancia de una legua."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre femenino",
-                "type_extra": "desusado, en plural",
-                "definition": "Libro de oraciones."
+                "type_extra": "plural",
+                "definition": "hora inesperada, desacostumbrada o inoportuna. ¿ A estas horas me lo vienes a decir ? ¡ A qué horas te levantas ! ¿ Qué horas son estas para visitar a nadie ?."
+            },
+            {
+                "number": "9",
+                "type": "adverbio",
+                "definition": "ahora."
             },
             {
                 "number": "10",
                 "type": "nombre femenino",
                 "type_extra": "desusado, en plural",
-                "definition": "Oraciones incluidas en unas horas."
+                "definition": "Libro de oraciones."
             },
             {
                 "number": "11",
-                "type": "adverbio",
-                "definition": "ahora."
+                "type": "nombre femenino",
+                "type_extra": "desusado, en plural",
+                "definition": "Oraciones incluidas en unas horas."
             }
         ]
     },
@@ -16242,6 +16242,12 @@
             {
                 "number": "4",
                 "type": "verbo",
+                "definition": "poseer (‖ tener en su poder).",
+                "type_extra": "obsolete, sin verificar"
+            },
+            {
+                "number": "5",
+                "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "ocurrir (‖ acaecer).",
                 "definition_extra": [
@@ -16252,13 +16258,13 @@
                 ]
             },
             {
-                "number": "5",
+                "number": "6",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Celebrarse, efectuarse."
             },
             {
-                "number": "6",
+                "number": "7",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Ser necesario o conveniente aquello que expresa una cláusula posterior introducida por que.",
@@ -16270,13 +16276,13 @@
                 ]
             },
             {
-                "number": "7",
+                "number": "8",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Estar realmente en alguna parte."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Hallarse o existir real o figuradamente.",
@@ -16288,19 +16294,19 @@
                 ]
             },
             {
-                "number": "9",
+                "number": "10",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Denota la culminación o cumplimiento de la medida expresada."
             },
             {
-                "number": "10",
+                "number": "11",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Portarse, proceder bien o mal."
             },
             {
-                "number": "11",
+                "number": "12",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Hacienda, caudal, conjunto de bienes y derechos pertenecientes a una persona natural o jurídica.",
@@ -16312,7 +16318,7 @@
                 ]
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Cantidad que se devenga periódicamente en retribución de servicios personales.",
@@ -16324,7 +16330,7 @@
                 ]
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Cualidades positivas o méritos que se consideran en alguien o algo, en oposición a las malas cualidades o desventajas.",
@@ -16336,7 +16342,7 @@
                 ]
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Parte, de las dos en que se divide una cuenta corriente, en la cual se anotan las sumas que se acreditan o abonan al titular.",
@@ -16346,12 +16352,6 @@
                         "content": "debe."
                     }
                 ]
-            },
-            {
-                "number": "15",
-                "type": "verbo",
-                "definition": "poseer (‖ tener en su poder).",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -16681,35 +16681,41 @@
             {
                 "number": "46",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Crecer, aumentarse, adelantarse para llegar al estado de perfección que cada cosa ha de tener."
+                "definition": "Dicho de una persona: Fingirse lo que no es.",
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "47",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Volverse, transformarse."
+                "definition": "Crecer, aumentarse, adelantarse para llegar al estado de perfección que cada cosa ha de tener."
             },
             {
                 "number": "48",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Adquirir un grado o una profesión, o abrazar un credo, una ideología, una corriente artística, etc."
+                "definition": "Volverse, transformarse."
             },
             {
                 "number": "49",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Alardear de la cualidad que expresa el adjetivo con artículo determinado al que precede."
+                "definition": "Adquirir un grado o una profesión, o abrazar un credo, una ideología, una corriente artística, etc."
             },
             {
                 "number": "50",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Hallarse, existir, estar situado."
+                "definition": "Alardear de la cualidad que expresa el adjetivo con artículo determinado al que precede."
             },
             {
                 "number": "51",
+                "type": "verbo",
+                "type_extra": "sin verificar",
+                "definition": "Hallarse, existir, estar situado."
+            },
+            {
+                "number": "52",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "apartarse (‖ retirarse).",
@@ -16721,40 +16727,34 @@
                 ]
             },
             {
-                "number": "52",
+                "number": "53",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Obtener, apoderarse de algo."
             },
             {
-                "number": "53",
+                "number": "54",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dominar, controlar."
             },
             {
-                "number": "54",
+                "number": "55",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Parecerle otra a alguien."
             },
             {
-                "number": "55",
+                "number": "56",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Llegar un determinado momento o pasar el que era oportuno para algo."
             },
             {
-                "number": "56",
+                "number": "57",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Ir a parar, resultar, ocurrir, llegar a ser, implicando a veces la inexistencia actual de la persona o cosa a que se refiere la pregunta."
-            },
-            {
-                "number": "57",
-                "type": "verbo",
-                "definition": "Dicho de una persona: Fingirse lo que no es.",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -17084,35 +17084,41 @@
             {
                 "number": "46",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Crecer, aumentarse, adelantarse para llegar al estado de perfección que cada cosa ha de tener."
+                "definition": "Dicho de una persona: Fingirse lo que no es.",
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "47",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Volverse, transformarse."
+                "definition": "Crecer, aumentarse, adelantarse para llegar al estado de perfección que cada cosa ha de tener."
             },
             {
                 "number": "48",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Adquirir un grado o una profesión, o abrazar un credo, una ideología, una corriente artística, etc."
+                "definition": "Volverse, transformarse."
             },
             {
                 "number": "49",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Alardear de la cualidad que expresa el adjetivo con artículo determinado al que precede."
+                "definition": "Adquirir un grado o una profesión, o abrazar un credo, una ideología, una corriente artística, etc."
             },
             {
                 "number": "50",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Hallarse, existir, estar situado."
+                "definition": "Alardear de la cualidad que expresa el adjetivo con artículo determinado al que precede."
             },
             {
                 "number": "51",
+                "type": "verbo",
+                "type_extra": "sin verificar",
+                "definition": "Hallarse, existir, estar situado."
+            },
+            {
+                "number": "52",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "apartarse (‖ retirarse).",
@@ -17124,40 +17130,34 @@
                 ]
             },
             {
-                "number": "52",
+                "number": "53",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Obtener, apoderarse de algo."
             },
             {
-                "number": "53",
+                "number": "54",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dominar, controlar."
             },
             {
-                "number": "54",
+                "number": "55",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Parecerle otra a alguien."
             },
             {
-                "number": "55",
+                "number": "56",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Llegar un determinado momento o pasar el que era oportuno para algo."
             },
             {
-                "number": "56",
+                "number": "57",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Ir a parar, resultar, ocurrir, llegar a ser, implicando a veces la inexistencia actual de la persona o cosa a que se refiere la pregunta."
-            },
-            {
-                "number": "57",
-                "type": "verbo",
-                "definition": "Dicho de una persona: Fingirse lo que no es.",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -17487,35 +17487,41 @@
             {
                 "number": "46",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Crecer, aumentarse, adelantarse para llegar al estado de perfección que cada cosa ha de tener."
+                "definition": "Dicho de una persona: Fingirse lo que no es.",
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "47",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Volverse, transformarse."
+                "definition": "Crecer, aumentarse, adelantarse para llegar al estado de perfección que cada cosa ha de tener."
             },
             {
                 "number": "48",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Adquirir un grado o una profesión, o abrazar un credo, una ideología, una corriente artística, etc."
+                "definition": "Volverse, transformarse."
             },
             {
                 "number": "49",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Alardear de la cualidad que expresa el adjetivo con artículo determinado al que precede."
+                "definition": "Adquirir un grado o una profesión, o abrazar un credo, una ideología, una corriente artística, etc."
             },
             {
                 "number": "50",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Hallarse, existir, estar situado."
+                "definition": "Alardear de la cualidad que expresa el adjetivo con artículo determinado al que precede."
             },
             {
                 "number": "51",
+                "type": "verbo",
+                "type_extra": "sin verificar",
+                "definition": "Hallarse, existir, estar situado."
+            },
+            {
+                "number": "52",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "apartarse (‖ retirarse).",
@@ -17527,40 +17533,34 @@
                 ]
             },
             {
-                "number": "52",
+                "number": "53",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Obtener, apoderarse de algo."
             },
             {
-                "number": "53",
+                "number": "54",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dominar, controlar."
             },
             {
-                "number": "54",
+                "number": "55",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Parecerle otra a alguien."
             },
             {
-                "number": "55",
+                "number": "56",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Llegar un determinado momento o pasar el que era oportuno para algo."
             },
             {
-                "number": "56",
+                "number": "57",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Ir a parar, resultar, ocurrir, llegar a ser, implicando a veces la inexistencia actual de la persona o cosa a que se refiere la pregunta."
-            },
-            {
-                "number": "57",
-                "type": "verbo",
-                "definition": "Dicho de una persona: Fingirse lo que no es.",
-                "type_extra": "obsolete, sin verificar"
             }
         ]
     },

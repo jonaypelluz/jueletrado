@@ -24,12 +24,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Cuba, Nicaragua y Uruguay",
-                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "sensato.",
                 "definition_extra": [
@@ -38,6 +32,12 @@
                         "content": "sensato, prudente, cauto."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Cuba, Nicaragua y Uruguay",
+                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
             }
         ]
     },
@@ -46,12 +46,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Cuba, Nicaragua y Uruguay",
-                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "sensato.",
                 "definition_extra": [
@@ -60,6 +54,12 @@
                         "content": "sensato, prudente, cauto."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Cuba, Nicaragua y Uruguay",
+                "definition": "Dicho de una persona: Que sabe comportarse adecuadamente en cada situación."
             }
         ]
     },
@@ -1375,21 +1375,21 @@
             },
             {
                 "number": "7",
+                "type": "adjetivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de una persona: Versada en muchos saberes."
+            },
+            {
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Lingüística",
                 "definition": "Propiedad común a todas las lenguas. Los universales del lenguaje."
             },
             {
-                "number": "8",
+                "number": "9",
                 "type": "nombre masculino",
                 "type_extra": "plural, Filosofía",
                 "definition": "ideas universales."
-            },
-            {
-                "number": "9",
-                "type": "adjetivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de una persona: Versada en muchos saberes."
             }
         ]
     },
@@ -1579,16 +1579,6 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino",
-                "definition": "mundo (conjunto de todo lo existente)."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Conjunto de individuos o elementos cualesquiera en los cuales se consideran una o más características que se someten a estudio estadístico."
-            },
-            {
-                "number": "3",
                 "type": "adjetivo",
                 "definition": "universal.",
                 "definition_extra": [
@@ -1597,6 +1587,16 @@
                         "content": "universal, ecuménico, mundo, cosmos, orbe, globo, creación, naturaleza."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "mundo (conjunto de todo lo existente)."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Conjunto de individuos o elementos cualesquiera en los cuales se consideran una o más características que se someten a estudio estadístico."
             }
         ]
     },
@@ -3188,21 +3188,21 @@
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Propiedad común a todas las lenguas."
+                "type": "adjetivo",
+                "definition": "Dicho de una persona: Versada en muchos saberes.",
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "8",
                 "type": "nombre",
                 "type_extra": "sin verificar",
-                "definition": "ideas universales."
+                "definition": "Propiedad común a todas las lenguas."
             },
             {
                 "number": "9",
-                "type": "adjetivo",
-                "definition": "Dicho de una persona: Versada en muchos saberes.",
-                "type_extra": "rare, sin verificar"
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "ideas universales."
             }
         ]
     },
@@ -3211,18 +3211,18 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino",
-                "definition": "Vigesimosegunda letra del abecedario español, que representa el fonema vocálico cerrado posterior. Forma parte de los dígrafos gu y qu en los que no representa sonido alguno, salvo cuando aparece con diéresis, como en cigüeña o pingüino."
+                "type": "conjunción",
+                "definition": "Usado en lugar de o ante palabras que empiezan por o o por ho."
             },
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Sonido que representa la letra u."
+                "definition": "Vigesimosegunda letra del abecedario español, que representa el fonema vocálico cerrado posterior. Forma parte de los dígrafos gu y qu en los que no representa sonido alguno, salvo cuando aparece con diéresis, como en cigüeña o pingüino."
             },
             {
                 "number": "3",
-                "type": "conjunción",
-                "definition": "Usado en lugar de o ante palabras que empiezan por o o por ho."
+                "type": "nombre femenino",
+                "definition": "Sonido que representa la letra u."
             }
         ]
     }

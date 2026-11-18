@@ -2476,14 +2476,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo pronominal",
-                "definition": "Adquirir el compromiso de participar en algo. No quiere implicarse en el proyecto."
-            },
-            {
-                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado, Usado más con negación",
                 "definition": "Impedir algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo pronominal",
+                "definition": "Adquirir el compromiso de participar en algo. No quiere implicarse en el proyecto."
             }
         ]
     },
@@ -2541,14 +2541,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo pronominal",
-                "definition": "Adquirir el compromiso de participar en algo. No quiere implicarse en el proyecto."
-            },
-            {
-                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado, Usado más con negación",
                 "definition": "Impedir algo."
+            },
+            {
+                "number": "5",
+                "type": "verbo pronominal",
+                "definition": "Adquirir el compromiso de participar en algo. No quiere implicarse en el proyecto."
             }
         ]
     },
@@ -2816,14 +2816,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo intransitivo",
-                "definition": "Convenir, interesar, afectar profundamente, ser de mucha entidad o consecuencia."
-            },
-            {
-                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Traer consigo, comportar."
+            },
+            {
+                "number": "5",
+                "type": "verbo intransitivo",
+                "definition": "Convenir, interesar, afectar profundamente, ser de mucha entidad o consecuencia."
             },
             {
                 "number": "6",
@@ -2863,14 +2863,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo intransitivo",
-                "definition": "Convenir, interesar, afectar profundamente, ser de mucha entidad o consecuencia."
-            },
-            {
-                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Traer consigo, comportar."
+            },
+            {
+                "number": "5",
+                "type": "verbo intransitivo",
+                "definition": "Convenir, interesar, afectar profundamente, ser de mucha entidad o consecuencia."
             },
             {
                 "number": "6",
@@ -3008,14 +3008,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo intransitivo",
-                "definition": "Convenir, interesar, afectar profundamente, ser de mucha entidad o consecuencia."
-            },
-            {
-                "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Traer consigo, comportar."
+            },
+            {
+                "number": "5",
+                "type": "verbo intransitivo",
+                "definition": "Convenir, interesar, afectar profundamente, ser de mucha entidad o consecuencia."
             },
             {
                 "number": "6",
@@ -4593,18 +4593,6 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Gramática",
-                "definition": "Aumento de sílabas que experimentan las palabras mediante afijos o desinencias."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "Matemáticas, Símbolo",
-                "definition": "Aumento en el valor de una variable, normalmente pequeño. ( Δ)."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
                 "definition": "aumento.",
                 "definition_extra": [
                     {
@@ -4616,6 +4604,18 @@
                         "content": "disminución."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Gramática",
+                "definition": "Aumento de sílabas que experimentan las palabras mediante afijos o desinencias."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas, Símbolo",
+                "definition": "Aumento en el valor de una variable, normalmente pequeño. ( Δ)."
             }
         ]
     },
@@ -4707,17 +4707,17 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Dicho de una persona: Que sostiene sus derechos u opiniones sin admitir intervención ajena."
+                "definition": "autónomo."
             },
             {
                 "number": "3",
-                "type": "adverbio",
-                "definition": "independientemente. Independiente de eso, quedan muchas dudas."
+                "type": "adjetivo",
+                "definition": "Dicho de una persona: Que sostiene sus derechos u opiniones sin admitir intervención ajena."
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "definition": "autónomo."
+                "type": "adverbio",
+                "definition": "independientemente. Independiente de eso, quedan muchas dudas."
             }
         ]
     },
@@ -4756,17 +4756,17 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Dicho de una persona: Que sostiene sus derechos u opiniones sin admitir intervención ajena."
+                "definition": "autónomo."
             },
             {
                 "number": "3",
-                "type": "adverbio",
-                "definition": "independientemente. Independiente de eso, quedan muchas dudas."
+                "type": "adjetivo",
+                "definition": "Dicho de una persona: Que sostiene sus derechos u opiniones sin admitir intervención ajena."
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "definition": "autónomo."
+                "type": "adverbio",
+                "definition": "independientemente. Independiente de eso, quedan muchas dudas."
             }
         ]
     },
@@ -5453,39 +5453,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Que no puede ser dividido."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino y femenino",
-                "type_extra": "coloquial",
-                "definition": "Persona cuyo nombre y condición se ignoran o no se quieren decir."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino y femenino",
-                "type_extra": "despectivo o despectiva",
-                "definition": "Persona despreciable."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Cada ser organizado, sea animal o vegetal, respecto de la especie a que pertenece."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Persona perteneciente a una clase o corporación. Individuo del Consejo de Estado, de la Academia Española."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "type_extra": "coloquial",
-                "definition": "Persona, con abstracción de las demás. Tomás cuida bien de su individuo."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
                 "definition": "individual.",
                 "definition_extra": [
                     {
@@ -5493,6 +5460,39 @@
                         "content": "individual, indivisible, inseparable, sujeto, fulano, mengano, zutano, esperancejo, tipo, tío, menda, prójimo, espécimen, ejemplar, ser, ente, persona."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que no puede ser dividido."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Persona cuyo nombre y condición se ignoran o no se quieren decir."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "despectivo o despectiva",
+                "definition": "Persona despreciable."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Cada ser organizado, sea animal o vegetal, respecto de la especie a que pertenece."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Persona perteneciente a una clase o corporación. Individuo del Consejo de Estado, de la Academia Española."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Persona, con abstracción de las demás. Tomás cuida bien de su individuo."
             }
         ]
     },
@@ -5501,39 +5501,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Que no puede ser dividido."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino y femenino",
-                "type_extra": "coloquial",
-                "definition": "Persona cuyo nombre y condición se ignoran o no se quieren decir."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino y femenino",
-                "type_extra": "despectivo o despectiva",
-                "definition": "Persona despreciable."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Cada ser organizado, sea animal o vegetal, respecto de la especie a que pertenece."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Persona perteneciente a una clase o corporación. Individuo del Consejo de Estado, de la Academia Española."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "type_extra": "coloquial",
-                "definition": "Persona, con abstracción de las demás. Tomás cuida bien de su individuo."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
                 "definition": "individual.",
                 "definition_extra": [
                     {
@@ -5541,6 +5508,39 @@
                         "content": "individual, indivisible, inseparable, sujeto, fulano, mengano, zutano, esperancejo, tipo, tío, menda, prójimo, espécimen, ejemplar, ser, ente, persona."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que no puede ser dividido."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Persona cuyo nombre y condición se ignoran o no se quieren decir."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "despectivo o despectiva",
+                "definition": "Persona despreciable."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Cada ser organizado, sea animal o vegetal, respecto de la especie a que pertenece."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Persona perteneciente a una clase o corporación. Individuo del Consejo de Estado, de la Academia Española."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Persona, con abstracción de las demás. Tomás cuida bien de su individuo."
             }
         ]
     },
@@ -10516,13 +10516,13 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "plural",
-                "definition": "Conveniencia o beneficio en el orden moral o material."
+                "definition": "bienes."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "plural",
-                "definition": "bienes."
+                "definition": "Conveniencia o beneficio en el orden moral o material."
             }
         ]
     },
@@ -10950,35 +10950,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Usado más como sustantivo",
-                "definition": "Dicho de una persona: Que reside en un centro educativo u hospitalario."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "Usado más como sustantivo",
-                "definition": "Dicho de una persona: Que está recluida en un centro penitenciario."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "type_extra": "Usado también como sustantivo",
-                "definition": "Dicho de un empleado doméstico: Que vive en la casa en la que trabaja."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
-                "type_extra": "Usado también como sustantivo",
-                "definition": "Dicho de un alumno de una facultad de Medicina: Que presta servicios auxiliares en alguna cátedra o clínica."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "médico residente."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
                 "definition": "interior.",
                 "definition_extra": [
                     {
@@ -10990,6 +10961,35 @@
                         "content": "externo, exterior."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que reside en un centro educativo u hospitalario."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que está recluida en un centro penitenciario."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de un empleado doméstico: Que vive en la casa en la que trabaja."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de un alumno de una facultad de Medicina: Que presta servicios auxiliares en alguna cátedra o clínica."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "médico residente."
             }
         ]
     },
@@ -11088,35 +11088,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Usado más como sustantivo",
-                "definition": "Dicho de una persona: Que reside en un centro educativo u hospitalario."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "Usado más como sustantivo",
-                "definition": "Dicho de una persona: Que está recluida en un centro penitenciario."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "type_extra": "Usado también como sustantivo",
-                "definition": "Dicho de un empleado doméstico: Que vive en la casa en la que trabaja."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
-                "type_extra": "Usado también como sustantivo",
-                "definition": "Dicho de un alumno de una facultad de Medicina: Que presta servicios auxiliares en alguna cátedra o clínica."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "médico residente."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
                 "definition": "interior.",
                 "definition_extra": [
                     {
@@ -11128,6 +11099,35 @@
                         "content": "externo, exterior."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que reside en un centro educativo u hospitalario."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que está recluida en un centro penitenciario."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de un empleado doméstico: Que vive en la casa en la que trabaja."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de un alumno de una facultad de Medicina: Que presta servicios auxiliares en alguna cátedra o clínica."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "médico residente."
             }
         ]
     },
@@ -11136,35 +11136,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Usado más como sustantivo",
-                "definition": "Dicho de una persona: Que reside en un centro educativo u hospitalario."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "Usado más como sustantivo",
-                "definition": "Dicho de una persona: Que está recluida en un centro penitenciario."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "type_extra": "Usado también como sustantivo",
-                "definition": "Dicho de un empleado doméstico: Que vive en la casa en la que trabaja."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
-                "type_extra": "Usado también como sustantivo",
-                "definition": "Dicho de un alumno de una facultad de Medicina: Que presta servicios auxiliares en alguna cátedra o clínica."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "médico residente."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
                 "definition": "interior.",
                 "definition_extra": [
                     {
@@ -11176,6 +11147,35 @@
                         "content": "externo, exterior."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que reside en un centro educativo u hospitalario."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Usado más como sustantivo",
+                "definition": "Dicho de una persona: Que está recluida en un centro penitenciario."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de un empleado doméstico: Que vive en la casa en la que trabaja."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de un alumno de una facultad de Medicina: Que presta servicios auxiliares en alguna cátedra o clínica."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "definition": "médico residente."
             }
         ]
     },
@@ -14531,37 +14531,37 @@
             {
                 "number": "5",
                 "type": "adjetivo",
-                "definition": "Dicho de una caballería: Que por mala formación saca los pies o manos hacia fuera y mete las rodillas hacia dentro."
+                "definition": "zurdo."
             },
             {
                 "number": "6",
                 "type": "adjetivo",
-                "definition": "torcido (no recto, con curvas)."
+                "definition": "Dicho de una caballería: Que por mala formación saca los pies o manos hacia fuera y mete las rodillas hacia dentro."
             },
             {
                 "number": "7",
-                "type": "nombre femenino",
-                "definition": "mano izquierda."
+                "type": "adjetivo",
+                "definition": "torcido (no recto, con curvas)."
             },
             {
                 "number": "8",
                 "type": "nombre femenino",
-                "definition": "Dirección correspondiente al lado izquierdo. Tuerce a la izquierda."
+                "definition": "mano izquierda."
             },
             {
                 "number": "9",
                 "type": "nombre femenino",
-                "definition": "En las asambleas parlamentarias, conjunto de los representantes de los partidos no conservadores ni centristas."
+                "definition": "Dirección correspondiente al lado izquierdo. Tuerce a la izquierda."
             },
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "definition": "Conjunto de personas que profesan ideas reformistas o, en general, no conservadoras."
+                "definition": "En las asambleas parlamentarias, conjunto de los representantes de los partidos no conservadores ni centristas."
             },
             {
                 "number": "11",
-                "type": "adjetivo",
-                "definition": "zurdo."
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas que profesan ideas reformistas o, en general, no conservadoras."
             }
         ]
     },
@@ -14600,37 +14600,37 @@
             {
                 "number": "5",
                 "type": "adjetivo",
-                "definition": "Dicho de una caballería: Que por mala formación saca los pies o manos hacia fuera y mete las rodillas hacia dentro."
+                "definition": "zurdo."
             },
             {
                 "number": "6",
                 "type": "adjetivo",
-                "definition": "torcido (no recto, con curvas)."
+                "definition": "Dicho de una caballería: Que por mala formación saca los pies o manos hacia fuera y mete las rodillas hacia dentro."
             },
             {
                 "number": "7",
-                "type": "nombre femenino",
-                "definition": "mano izquierda."
+                "type": "adjetivo",
+                "definition": "torcido (no recto, con curvas)."
             },
             {
                 "number": "8",
                 "type": "nombre femenino",
-                "definition": "Dirección correspondiente al lado izquierdo. Tuerce a la izquierda."
+                "definition": "mano izquierda."
             },
             {
                 "number": "9",
                 "type": "nombre femenino",
-                "definition": "En las asambleas parlamentarias, conjunto de los representantes de los partidos no conservadores ni centristas."
+                "definition": "Dirección correspondiente al lado izquierdo. Tuerce a la izquierda."
             },
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "definition": "Conjunto de personas que profesan ideas reformistas o, en general, no conservadoras."
+                "definition": "En las asambleas parlamentarias, conjunto de los representantes de los partidos no conservadores ni centristas."
             },
             {
                 "number": "11",
-                "type": "adjetivo",
-                "definition": "zurdo."
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas que profesan ideas reformistas o, en general, no conservadoras."
             }
         ]
     },
@@ -14669,37 +14669,37 @@
             {
                 "number": "5",
                 "type": "adjetivo",
-                "definition": "Dicho de una caballería: Que por mala formación saca los pies o manos hacia fuera y mete las rodillas hacia dentro."
+                "definition": "zurdo."
             },
             {
                 "number": "6",
                 "type": "adjetivo",
-                "definition": "torcido (no recto, con curvas)."
+                "definition": "Dicho de una caballería: Que por mala formación saca los pies o manos hacia fuera y mete las rodillas hacia dentro."
             },
             {
                 "number": "7",
-                "type": "nombre femenino",
-                "definition": "mano izquierda."
+                "type": "adjetivo",
+                "definition": "torcido (no recto, con curvas)."
             },
             {
                 "number": "8",
                 "type": "nombre femenino",
-                "definition": "Dirección correspondiente al lado izquierdo. Tuerce a la izquierda."
+                "definition": "mano izquierda."
             },
             {
                 "number": "9",
                 "type": "nombre femenino",
-                "definition": "En las asambleas parlamentarias, conjunto de los representantes de los partidos no conservadores ni centristas."
+                "definition": "Dirección correspondiente al lado izquierdo. Tuerce a la izquierda."
             },
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "definition": "Conjunto de personas que profesan ideas reformistas o, en general, no conservadoras."
+                "definition": "En las asambleas parlamentarias, conjunto de los representantes de los partidos no conservadores ni centristas."
             },
             {
                 "number": "11",
-                "type": "adjetivo",
-                "definition": "zurdo."
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas que profesan ideas reformistas o, en general, no conservadoras."
             }
         ]
     },
@@ -15197,20 +15197,20 @@
             {
                 "number": "5",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un cuerpo consultivo, de un funcionario o de cualquier persona perita: Dictaminar en asunto de su respectiva competencia."
+                "definition": "Formar, perfeccionar a alguien por medio de la instrucción y buena crianza.",
+                "type_extra": "obsolete, sin verificar"
             },
             {
                 "number": "6",
                 "type": "verbo",
                 "type_extra": "sin verificar",
-                "definition": "Dicho de un fiscal o de un abogado: Hablar en el estrado."
+                "definition": "Dicho de un cuerpo consultivo, de un funcionario o de cualquier persona perita: Dictaminar en asunto de su respectiva competencia."
             },
             {
                 "number": "7",
                 "type": "verbo",
-                "definition": "Formar, perfeccionar a alguien por medio de la instrucción y buena crianza.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Dicho de un fiscal o de un abogado: Hablar en el estrado."
             }
         ]
     },

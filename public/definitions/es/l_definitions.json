@@ -950,39 +950,6 @@
             {
                 "number": "1",
                 "type": "verbo transitivo",
-                "type_extra": "Usado más en la volatería, referido a las aves",
-                "definition": "Soltar, dejar libre."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "definition": "Promover la rápida difusión de algo nuevo."
-            },
-            {
-                "number": "3",
-                "type": "verbo transitivo",
-                "definition": "Dar, proferir, exhalar."
-            },
-            {
-                "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "Agricultura",
-                "definition": "echar (brotar)."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "Derecho",
-                "definition": "Despojar a alguien de la posesión o tenencia de algo."
-            },
-            {
-                "number": "6",
-                "type": "verbo pronominal",
-                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "arrojar.",
                 "definition_extra": [
@@ -997,10 +964,43 @@
                 ]
             },
             {
-                "number": "8",
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "Usado más en la volatería, referido a las aves",
+                "definition": "Soltar, dejar libre."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Promover la rápida difusión de algo nuevo."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Dar, proferir, exhalar."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Agricultura",
+                "definition": "echar (brotar)."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Derecho",
+                "definition": "Despojar a alguien de la posesión o tenencia de algo."
+            },
+            {
+                "number": "7",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "vomitar (arrojar violentamente por la boca)."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
             },
             {
                 "number": "9",
@@ -1021,39 +1021,6 @@
             {
                 "number": "1",
                 "type": "verbo transitivo",
-                "type_extra": "Usado más en la volatería, referido a las aves",
-                "definition": "Soltar, dejar libre."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "definition": "Promover la rápida difusión de algo nuevo."
-            },
-            {
-                "number": "3",
-                "type": "verbo transitivo",
-                "definition": "Dar, proferir, exhalar."
-            },
-            {
-                "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "Agricultura",
-                "definition": "echar (brotar)."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "Derecho",
-                "definition": "Despojar a alguien de la posesión o tenencia de algo."
-            },
-            {
-                "number": "6",
-                "type": "verbo pronominal",
-                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "arrojar.",
                 "definition_extra": [
@@ -1068,10 +1035,43 @@
                 ]
             },
             {
-                "number": "8",
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "Usado más en la volatería, referido a las aves",
+                "definition": "Soltar, dejar libre."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Promover la rápida difusión de algo nuevo."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Dar, proferir, exhalar."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Agricultura",
+                "definition": "echar (brotar)."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Derecho",
+                "definition": "Despojar a alguien de la posesión o tenencia de algo."
+            },
+            {
+                "number": "7",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "vomitar (arrojar violentamente por la boca)."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
             },
             {
                 "number": "9",
@@ -3671,32 +3671,32 @@
             {
                 "number": "9",
                 "type": "nombre femenino",
+                "type_extra": "poco usado",
+                "definition": "Lema de los emblemas y empresas."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "coloquial, poco usado",
+                "definition": "Sagacidad y astucia para manejarse. María tiene mucha letra."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Diversos ramos del saber humano."
             },
             {
-                "number": "10",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Conjunto de los saberes humanísticos, por oposición a la matemática y a las ciencias de la naturaleza."
             },
             {
-                "number": "11",
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Orden, provisión o decisión, especialmente las que se expiden en materias eclesiásticas."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Lema de los emblemas y empresas."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Sagacidad y astucia para manejarse. María tiene mucha letra."
             },
             {
                 "number": "14",
@@ -3764,32 +3764,32 @@
             {
                 "number": "9",
                 "type": "nombre femenino",
+                "type_extra": "poco usado",
+                "definition": "Lema de los emblemas y empresas."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "coloquial, poco usado",
+                "definition": "Sagacidad y astucia para manejarse. María tiene mucha letra."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Diversos ramos del saber humano."
             },
             {
-                "number": "10",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Conjunto de los saberes humanísticos, por oposición a la matemática y a las ciencias de la naturaleza."
             },
             {
-                "number": "11",
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Orden, provisión o decisión, especialmente las que se expiden en materias eclesiásticas."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Lema de los emblemas y empresas."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
-                "type_extra": "coloquial, poco usado",
-                "definition": "Sagacidad y astucia para manejarse. María tiene mucha letra."
             },
             {
                 "number": "14",
@@ -3921,83 +3921,83 @@
             {
                 "number": "20",
                 "type": "verbo transitivo",
-                "definition": "Engrandecer, ensalzar."
+                "type_extra": "Usado también como pronominal",
+                "definition": "sublevar."
             },
             {
                 "number": "21",
                 "type": "verbo transitivo",
-                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
+                "definition": "Engrandecer, ensalzar."
             },
             {
                 "number": "22",
                 "type": "verbo transitivo",
-                "definition": "Esforzar, vigorizar. Levantar el ánimo."
+                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
             },
             {
                 "number": "23",
                 "type": "verbo transitivo",
-                "definition": "Reclutar, alistar gente para el Ejército."
+                "definition": "Esforzar, vigorizar. Levantar el ánimo."
             },
             {
                 "number": "24",
+                "type": "verbo transitivo",
+                "definition": "Reclutar, alistar gente para el Ejército."
+            },
+            {
+                "number": "25",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ocasionar, formar, mover."
             },
             {
-                "number": "25",
-                "type": "verbo transitivo",
-                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
-            },
-            {
                 "number": "26",
                 "type": "verbo transitivo",
-                "type_extra": "Equitación",
-                "definition": "Llevar un caballo al galope."
+                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
             },
             {
                 "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "Equitación",
-                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+                "definition": "Llevar un caballo al galope."
             },
             {
                 "number": "28",
+                "type": "verbo transitivo",
+                "type_extra": "Equitación",
+                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+            },
+            {
+                "number": "29",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Argentina, Colombia, Cuba, Ecuador, El Salvador, Guatemala, México, Nicaragua, Paraguay, Perú, República Dominicana, Uruguay y Venezuela, En Argentina, Colombia, Cuba, México y República Dominicana, usado también como pronominal",
                 "definition": "Entablar relaciones amorosas o sexuales pasajeras con alguien."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "verbo transitivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "Buscar o recoger a alguien con un automóvil."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "verbo pronominal",
                 "definition": "Sobresalir, elevarse sobre una superficie o plano."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un enfermo o de una persona que está acostada: Dejar la cama."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "verbo pronominal",
                 "definition": "Dicho del viento o de la mar: Comenzar a alterarse."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "verbo pronominal",
                 "definition": "alzarse (apoderarse de algo). Se levantó con todo el dinero."
-            },
-            {
-                "number": "34",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "sublevar."
             }
         ]
     },
@@ -4117,83 +4117,83 @@
             {
                 "number": "20",
                 "type": "verbo transitivo",
-                "definition": "Engrandecer, ensalzar."
+                "type_extra": "Usado también como pronominal",
+                "definition": "sublevar."
             },
             {
                 "number": "21",
                 "type": "verbo transitivo",
-                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
+                "definition": "Engrandecer, ensalzar."
             },
             {
                 "number": "22",
                 "type": "verbo transitivo",
-                "definition": "Esforzar, vigorizar. Levantar el ánimo."
+                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
             },
             {
                 "number": "23",
                 "type": "verbo transitivo",
-                "definition": "Reclutar, alistar gente para el Ejército."
+                "definition": "Esforzar, vigorizar. Levantar el ánimo."
             },
             {
                 "number": "24",
+                "type": "verbo transitivo",
+                "definition": "Reclutar, alistar gente para el Ejército."
+            },
+            {
+                "number": "25",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ocasionar, formar, mover."
             },
             {
-                "number": "25",
-                "type": "verbo transitivo",
-                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
-            },
-            {
                 "number": "26",
                 "type": "verbo transitivo",
-                "type_extra": "Equitación",
-                "definition": "Llevar un caballo al galope."
+                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
             },
             {
                 "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "Equitación",
-                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+                "definition": "Llevar un caballo al galope."
             },
             {
                 "number": "28",
+                "type": "verbo transitivo",
+                "type_extra": "Equitación",
+                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+            },
+            {
+                "number": "29",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Argentina, Colombia, Cuba, Ecuador, El Salvador, Guatemala, México, Nicaragua, Paraguay, Perú, República Dominicana, Uruguay y Venezuela, En Argentina, Colombia, Cuba, México y República Dominicana, usado también como pronominal",
                 "definition": "Entablar relaciones amorosas o sexuales pasajeras con alguien."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "verbo transitivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "Buscar o recoger a alguien con un automóvil."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "verbo pronominal",
                 "definition": "Sobresalir, elevarse sobre una superficie o plano."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un enfermo o de una persona que está acostada: Dejar la cama."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "verbo pronominal",
                 "definition": "Dicho del viento o de la mar: Comenzar a alterarse."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "verbo pronominal",
                 "definition": "alzarse (apoderarse de algo). Se levantó con todo el dinero."
-            },
-            {
-                "number": "34",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "sublevar."
             }
         ]
     },
@@ -4359,83 +4359,83 @@
             {
                 "number": "20",
                 "type": "verbo transitivo",
-                "definition": "Engrandecer, ensalzar."
+                "type_extra": "Usado también como pronominal",
+                "definition": "sublevar."
             },
             {
                 "number": "21",
                 "type": "verbo transitivo",
-                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
+                "definition": "Engrandecer, ensalzar."
             },
             {
                 "number": "22",
                 "type": "verbo transitivo",
-                "definition": "Esforzar, vigorizar. Levantar el ánimo."
+                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
             },
             {
                 "number": "23",
                 "type": "verbo transitivo",
-                "definition": "Reclutar, alistar gente para el Ejército."
+                "definition": "Esforzar, vigorizar. Levantar el ánimo."
             },
             {
                 "number": "24",
+                "type": "verbo transitivo",
+                "definition": "Reclutar, alistar gente para el Ejército."
+            },
+            {
+                "number": "25",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ocasionar, formar, mover."
             },
             {
-                "number": "25",
-                "type": "verbo transitivo",
-                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
-            },
-            {
                 "number": "26",
                 "type": "verbo transitivo",
-                "type_extra": "Equitación",
-                "definition": "Llevar un caballo al galope."
+                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
             },
             {
                 "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "Equitación",
-                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+                "definition": "Llevar un caballo al galope."
             },
             {
                 "number": "28",
+                "type": "verbo transitivo",
+                "type_extra": "Equitación",
+                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+            },
+            {
+                "number": "29",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Argentina, Colombia, Cuba, Ecuador, El Salvador, Guatemala, México, Nicaragua, Paraguay, Perú, República Dominicana, Uruguay y Venezuela, En Argentina, Colombia, Cuba, México y República Dominicana, usado también como pronominal",
                 "definition": "Entablar relaciones amorosas o sexuales pasajeras con alguien."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "verbo transitivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "Buscar o recoger a alguien con un automóvil."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "verbo pronominal",
                 "definition": "Sobresalir, elevarse sobre una superficie o plano."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un enfermo o de una persona que está acostada: Dejar la cama."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "verbo pronominal",
                 "definition": "Dicho del viento o de la mar: Comenzar a alterarse."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "verbo pronominal",
                 "definition": "alzarse (apoderarse de algo). Se levantó con todo el dinero."
-            },
-            {
-                "number": "34",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "sublevar."
             }
         ]
     },
@@ -4555,83 +4555,83 @@
             {
                 "number": "20",
                 "type": "verbo transitivo",
-                "definition": "Engrandecer, ensalzar."
+                "type_extra": "Usado también como pronominal",
+                "definition": "sublevar."
             },
             {
                 "number": "21",
                 "type": "verbo transitivo",
-                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
+                "definition": "Engrandecer, ensalzar."
             },
             {
                 "number": "22",
                 "type": "verbo transitivo",
-                "definition": "Esforzar, vigorizar. Levantar el ánimo."
+                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
             },
             {
                 "number": "23",
                 "type": "verbo transitivo",
-                "definition": "Reclutar, alistar gente para el Ejército."
+                "definition": "Esforzar, vigorizar. Levantar el ánimo."
             },
             {
                 "number": "24",
+                "type": "verbo transitivo",
+                "definition": "Reclutar, alistar gente para el Ejército."
+            },
+            {
+                "number": "25",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ocasionar, formar, mover."
             },
             {
-                "number": "25",
-                "type": "verbo transitivo",
-                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
-            },
-            {
                 "number": "26",
                 "type": "verbo transitivo",
-                "type_extra": "Equitación",
-                "definition": "Llevar un caballo al galope."
+                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
             },
             {
                 "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "Equitación",
-                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+                "definition": "Llevar un caballo al galope."
             },
             {
                 "number": "28",
+                "type": "verbo transitivo",
+                "type_extra": "Equitación",
+                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+            },
+            {
+                "number": "29",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Argentina, Colombia, Cuba, Ecuador, El Salvador, Guatemala, México, Nicaragua, Paraguay, Perú, República Dominicana, Uruguay y Venezuela, En Argentina, Colombia, Cuba, México y República Dominicana, usado también como pronominal",
                 "definition": "Entablar relaciones amorosas o sexuales pasajeras con alguien."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "verbo transitivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "Buscar o recoger a alguien con un automóvil."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "verbo pronominal",
                 "definition": "Sobresalir, elevarse sobre una superficie o plano."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un enfermo o de una persona que está acostada: Dejar la cama."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "verbo pronominal",
                 "definition": "Dicho del viento o de la mar: Comenzar a alterarse."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "verbo pronominal",
                 "definition": "alzarse (apoderarse de algo). Se levantó con todo el dinero."
-            },
-            {
-                "number": "34",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "sublevar."
             }
         ]
     },
@@ -4665,26 +4665,26 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "Colombia",
-                "definition": "Edad de un bovino comprendida entre el destete y el principio de la ceba."
+                "type_extra": "poco usado",
+                "definition": "Países que caen a la parte oriental del Mediterráneo."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Colombia",
-                "definition": "Actividad pecuaria que produce bovinos de levante."
+                "definition": "Edad de un bovino comprendida entre el destete y el principio de la ceba."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "El Salvador",
-                "definition": "calumnia (acusación falsa)."
+                "type_extra": "Colombia",
+                "definition": "Actividad pecuaria que produce bovinos de levante."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "type_extra": "poco usado",
-                "definition": "Países que caen a la parte oriental del Mediterráneo."
+                "type_extra": "El Salvador",
+                "definition": "calumnia (acusación falsa)."
             },
             {
                 "number": "8",
@@ -4810,83 +4810,83 @@
             {
                 "number": "20",
                 "type": "verbo transitivo",
-                "definition": "Engrandecer, ensalzar."
+                "type_extra": "Usado también como pronominal",
+                "definition": "sublevar."
             },
             {
                 "number": "21",
                 "type": "verbo transitivo",
-                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
+                "definition": "Engrandecer, ensalzar."
             },
             {
                 "number": "22",
                 "type": "verbo transitivo",
-                "definition": "Esforzar, vigorizar. Levantar el ánimo."
+                "definition": "Impulsar hacia cosas altas. Levantar el pensamiento, el corazón."
             },
             {
                 "number": "23",
                 "type": "verbo transitivo",
-                "definition": "Reclutar, alistar gente para el Ejército."
+                "definition": "Esforzar, vigorizar. Levantar el ánimo."
             },
             {
                 "number": "24",
+                "type": "verbo transitivo",
+                "definition": "Reclutar, alistar gente para el Ejército."
+            },
+            {
+                "number": "25",
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ocasionar, formar, mover."
             },
             {
-                "number": "25",
-                "type": "verbo transitivo",
-                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
-            },
-            {
                 "number": "26",
                 "type": "verbo transitivo",
-                "type_extra": "Equitación",
-                "definition": "Llevar un caballo al galope."
+                "definition": "Atribuir, imputar maliciosamente algo falso. Levantar una calumnia, falso testimonio."
             },
             {
                 "number": "27",
                 "type": "verbo transitivo",
                 "type_extra": "Equitación",
-                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+                "definition": "Llevar un caballo al galope."
             },
             {
                 "number": "28",
+                "type": "verbo transitivo",
+                "type_extra": "Equitación",
+                "definition": "Llevar el caballo sobre el cuarto trasero y engallado."
+            },
+            {
+                "number": "29",
                 "type": "verbo transitivo",
                 "type_extra": "coloquial, Argentina, Colombia, Cuba, Ecuador, El Salvador, Guatemala, México, Nicaragua, Paraguay, Perú, República Dominicana, Uruguay y Venezuela, En Argentina, Colombia, Cuba, México y República Dominicana, usado también como pronominal",
                 "definition": "Entablar relaciones amorosas o sexuales pasajeras con alguien."
             },
             {
-                "number": "29",
+                "number": "30",
                 "type": "verbo transitivo",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "Buscar o recoger a alguien con un automóvil."
             },
             {
-                "number": "30",
+                "number": "31",
                 "type": "verbo pronominal",
                 "definition": "Sobresalir, elevarse sobre una superficie o plano."
             },
             {
-                "number": "31",
+                "number": "32",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un enfermo o de una persona que está acostada: Dejar la cama."
             },
             {
-                "number": "32",
+                "number": "33",
                 "type": "verbo pronominal",
                 "definition": "Dicho del viento o de la mar: Comenzar a alterarse."
             },
             {
-                "number": "33",
+                "number": "34",
                 "type": "verbo pronominal",
                 "definition": "alzarse (apoderarse de algo). Se levantó con todo el dinero."
-            },
-            {
-                "number": "34",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "sublevar."
             }
         ]
     },
@@ -5678,48 +5678,48 @@
             {
                 "number": "10",
                 "type": "adjetivo",
-                "definition": "Independiente o no sujeto a una autoridad superior."
+                "definition": "soltero."
             },
             {
                 "number": "11",
                 "type": "adjetivo",
-                "definition": "Desembarazado o exento de un daño o peligro. Renta libre de penas, de cuidados."
+                "definition": "Independiente o no sujeto a una autoridad superior."
             },
             {
                 "number": "12",
                 "type": "adjetivo",
-                "definition": "Que tiene esfuerzo y ánimo para hablar lo que conviene a su estado u oficio."
+                "definition": "Desembarazado o exento de un daño o peligro. Renta libre de penas, de cuidados."
             },
             {
                 "number": "13",
                 "type": "adjetivo",
-                "definition": "Dicho de un sentido o de una parte del cuerpo: Que tiene expedito el ejercicio de sus funciones. Tiene la voz libre."
+                "definition": "Que tiene esfuerzo y ánimo para hablar lo que conviene a su estado u oficio."
             },
             {
                 "number": "14",
                 "type": "adjetivo",
-                "definition": "inocente (libre de culpa)."
+                "definition": "Dicho de un sentido o de una parte del cuerpo: Que tiene expedito el ejercicio de sus funciones. Tiene la voz libre."
             },
             {
                 "number": "15",
                 "type": "adjetivo",
-                "definition": "Dicho de un tiempo: Que tiene alguien al margen de sus ocupaciones habituales."
+                "definition": "inocente (libre de culpa)."
             },
             {
                 "number": "16",
                 "type": "adjetivo",
-                "definition": "Dicho de un espacio o de un lugar: No ocupado."
+                "definition": "Dicho de un tiempo: Que tiene alguien al margen de sus ocupaciones habituales."
             },
             {
                 "number": "17",
                 "type": "adjetivo",
-                "type_extra": "Gramática",
-                "definition": "Dicho de una unidad lingüística: Que puede presentarse de forma aislada en la oración."
+                "definition": "Dicho de un espacio o de un lugar: No ocupado."
             },
             {
                 "number": "18",
                 "type": "adjetivo",
-                "definition": "soltero."
+                "type_extra": "Gramática",
+                "definition": "Dicho de una unidad lingüística: Que puede presentarse de forma aislada en la oración."
             }
         ]
     },
@@ -8255,14 +8255,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una cosa: Llegar a su perfección."
-            },
-            {
-                "number": "3",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Gozar o disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Llegar a su perfección."
             }
         ]
     },
@@ -8281,14 +8281,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una cosa: Llegar a su perfección."
-            },
-            {
-                "number": "3",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Gozar o disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Llegar a su perfección."
             }
         ]
     },
@@ -8322,14 +8322,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una cosa: Llegar a su perfección."
-            },
-            {
-                "number": "3",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Gozar o disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Llegar a su perfección."
             }
         ]
     },
@@ -8348,14 +8348,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una cosa: Llegar a su perfección."
-            },
-            {
-                "number": "3",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Gozar o disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Llegar a su perfección."
             }
         ]
     },
@@ -8374,14 +8374,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una cosa: Llegar a su perfección."
-            },
-            {
-                "number": "3",
                 "type": "verbo transitivo",
                 "type_extra": "poco usado",
                 "definition": "Gozar o disfrutar algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Llegar a su perfección."
             }
         ]
     },
@@ -9154,20 +9154,20 @@
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Claridad de la mente. Hombre de pocas luces."
+                "type_extra": "coloquial, poco usado",
+                "definition": "dinero (moneda corriente)."
             },
             {
                 "number": "14",
                 "type": "nombre femenino",
-                "type_extra": "en plural",
-                "definition": "Ilustración, cultura. El Siglo de las Luces."
+                "type_extra": "plural",
+                "definition": "Claridad de la mente. Hombre de pocas luces."
             },
             {
                 "number": "15",
                 "type": "nombre femenino",
-                "type_extra": "coloquial, poco usado",
-                "definition": "dinero (moneda corriente)."
+                "type_extra": "en plural",
+                "definition": "Ilustración, cultura. El Siglo de las Luces."
             }
         ]
     },
@@ -10488,19 +10488,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -10585,19 +10585,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -10711,19 +10711,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -10808,19 +10808,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -10905,19 +10905,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11002,19 +11002,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11099,19 +11099,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11196,19 +11196,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11293,19 +11293,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11390,19 +11390,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11487,19 +11487,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11606,19 +11606,19 @@
             },
             {
                 "number": "13",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
+                "type": "verbo transitivo",
+                "type_extra": "poco usado",
+                "definition": "allegar (juntar)."
             },
             {
                 "number": "14",
                 "type": "verbo pronominal",
-                "definition": "Ir a un sitio determinado que esté cercano."
+                "definition": "Dicho de una persona o de una cosa: Acercarse a otra."
             },
             {
                 "number": "15",
-                "type": "verbo transitivo",
-                "type_extra": "poco usado",
-                "definition": "allegar (juntar)."
+                "type": "verbo pronominal",
+                "definition": "Ir a un sitio determinado que esté cercano."
             },
             {
                 "number": "16",
@@ -11700,21 +11700,21 @@
             },
             {
                 "number": "10",
-                "type": "verbo pronominal",
-                "type_extra": "coloquial",
-                "definition": "Hartarse de comida o bebida."
+                "type": "verbo intransitivo",
+                "type_extra": "poco usado",
+                "definition": "Dicho de la Luna: Llegar al plenilunio."
             },
             {
                 "number": "11",
                 "type": "verbo pronominal",
                 "type_extra": "coloquial",
-                "definition": "Enfadarse, irritarse después de haber sufrido o aguantado por algún tiempo."
+                "definition": "Hartarse de comida o bebida."
             },
             {
                 "number": "12",
-                "type": "verbo intransitivo",
-                "type_extra": "poco usado",
-                "definition": "Dicho de la Luna: Llegar al plenilunio."
+                "type": "verbo pronominal",
+                "type_extra": "coloquial",
+                "definition": "Enfadarse, irritarse después de haber sufrido o aguantado por algún tiempo."
             }
         ]
     },
@@ -11977,89 +11977,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -12129,89 +12129,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -12290,89 +12290,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -12442,89 +12442,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -12594,89 +12594,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -12746,89 +12746,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -12898,89 +12898,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -13050,89 +13050,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -13202,89 +13202,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -13354,89 +13354,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -13506,89 +13506,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -13658,89 +13658,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -13820,89 +13820,89 @@
             {
                 "number": "11",
                 "type": "verbo transitivo",
-                "definition": "Manejar un caballo o un vehículo."
+                "definition": "lograr."
             },
             {
                 "number": "12",
                 "type": "verbo transitivo",
-                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
+                "definition": "Manejar un caballo o un vehículo."
             },
             {
                 "number": "13",
                 "type": "verbo transitivo",
-                "definition": "Tener en arrendamiento una finca."
+                "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
                 "number": "14",
                 "type": "verbo transitivo",
-                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
+                "definition": "Tener en arrendamiento una finca."
             },
             {
                 "number": "15",
                 "type": "verbo transitivo",
-                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
+                "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar. Llevaba seis años de carrera. Lleva tres meses enfermo. Llevamos aquí muchos días."
             },
             {
                 "number": "16",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
+                "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar. Llevo leídas veinte páginas del libro. Llevo sufridos muchos desengaños."
             },
             {
                 "number": "17",
                 "type": "verbo transitivo",
-                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
+                "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada. Este tipo de pasteles lleva muchas horas de trabajo."
             },
             {
                 "number": "18",
                 "type": "verbo transitivo",
-                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
+                "definition": "Ejercitar una acción determinada. Llevar por tema, por empeño, por cortesía."
             },
             {
                 "number": "19",
                 "type": "verbo transitivo",
-                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+                "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad. Mi hijo lleva al tuyo un año."
             },
             {
                 "number": "20",
+                "type": "verbo transitivo",
+                "definition": "Mantener actualizado y en orden. Llevar la cuenta, los libros, la labor."
+            },
+            {
+                "number": "21",
                 "type": "verbo transitivo",
                 "type_extra": "etcétera",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo transitivo",
                 "type_extra": "Matemáticas",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo pronominal",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente."
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Lograr algo que está en disputa. Llevarse el campeonato, el premio, la victoria."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Recibir o experimentar algo, generalmente inesperado. Llevarse una alegría, un disgusto."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica. Se lleva bien con todo el mundo."
-            },
-            {
-                "number": "27",
-                "type": "verbo transitivo",
-                "definition": "lograr."
             }
         ]
     },
@@ -14222,17 +14222,11 @@
             {
                 "number": "8",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una persona: Que es de origen latinoamericano o hispánico y vive en los Estados Unidos de América."
-            },
-            {
-                "number": "9",
-                "type": "adjetivo",
                 "definition": "Que sabe latín.",
                 "type_extra": "obsolete, sin verificar"
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "adjetivo",
                 "type_extra": "sin verificar",
                 "definition": "latinoamericano.",
@@ -14242,6 +14236,12 @@
                         "content": "latinoamericano, hispanoamericano, iberoamericano, norteamericano, centroamericano, sudamericano."
                     }
                 ]
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
+                "type_extra": "sin verificar",
+                "definition": "Dicho de una persona: Que es de origen latinoamericano o hispánico y vive en los Estados Unidos de América."
             }
         ]
     },
@@ -15020,14 +15020,14 @@
             {
                 "number": "2",
                 "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Llegar a su perfección."
+                "definition": "Gozar o disfrutar algo.",
+                "type_extra": "rare, sin verificar"
             },
             {
                 "number": "3",
                 "type": "verbo",
-                "definition": "Gozar o disfrutar algo.",
-                "type_extra": "rare, sin verificar"
+                "type_extra": "sin verificar",
+                "definition": "Dicho de una cosa: Llegar a su perfección."
             }
         ]
     },
@@ -15313,6 +15313,24 @@
             },
             {
                 "number": "13",
+                "type": "verbo pronominal",
+                "definition": "Unirse, adherirse.",
+                "type_extra": "poco usado"
+            },
+            {
+                "number": "14",
+                "type": "verbo transitivo",
+                "definition": "Recoger, juntar.",
+                "type_extra": "poco usado",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "juntar, reunir, allegar."
+                    }
+                ]
+            },
+            {
+                "number": "15",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cuenta: Importar, valer.",
                 "definition_extra": [
@@ -15323,31 +15341,13 @@
                 ]
             },
             {
-                "number": "14",
+                "number": "16",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cantidad: Ser suficiente.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
                         "content": "bastar, alcanzar."
-                    }
-                ]
-            },
-            {
-                "number": "15",
-                "type": "verbo pronominal",
-                "definition": "Unirse, adherirse.",
-                "type_extra": "poco usado"
-            },
-            {
-                "number": "16",
-                "type": "verbo transitivo",
-                "definition": "Recoger, juntar.",
-                "type_extra": "poco usado",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "juntar, reunir, allegar."
                     }
                 ]
             }
@@ -15460,6 +15460,18 @@
                 "number": "11",
                 "type": "verbo",
                 "type_extra": "sin verificar",
+                "definition": "lograr.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "lograr."
+                    }
+                ]
+            },
+            {
+                "number": "12",
+                "type": "verbo",
+                "type_extra": "sin verificar",
                 "definition": "Manejar un caballo o un vehículo.",
                 "definition_extra": [
                     {
@@ -15469,13 +15481,13 @@
                 ]
             },
             {
-                "number": "12",
+                "number": "13",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "En varios juegos de naipes, ir a robar con un número determinado de puntos o cartas."
             },
             {
-                "number": "13",
+                "number": "14",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Tener en arrendamiento una finca.",
@@ -15487,19 +15499,19 @@
                 ]
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Haber pasado un determinado período de tiempo en una misma situación o en un mismo lugar."
             },
             {
-                "number": "15",
+                "number": "16",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Haber realizado o haber experimentado una determinada acción, generalmente con la idea implícita de que tal acción continúa o puede continuar."
             },
             {
-                "number": "16",
+                "number": "17",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dicho de una cosa: Necesitar una cantidad de algo, como tiempo, para ser realizada.",
@@ -15511,37 +15523,37 @@
                 ]
             },
             {
-                "number": "17",
+                "number": "18",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Ejercitar una acción determinada."
             },
             {
-                "number": "18",
+                "number": "19",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dicho de una persona o de una cosa: Exceder a otra en una determinada cantidad."
             },
             {
-                "number": "19",
+                "number": "20",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Mantener actualizado y en orden."
             },
             {
-                "number": "20",
+                "number": "21",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Seguir o marcar el paso, el ritmo, el compás, etc."
             },
             {
-                "number": "21",
+                "number": "22",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Reservar las decenas de una suma o multiplicación parcial para agregarlas a la suma o producto del orden superior inmediato."
             },
             {
-                "number": "22",
+                "number": "23",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Quitar algo a alguien, en general con violencia, o furtivamente.",
@@ -15553,25 +15565,25 @@
                 ]
             },
             {
-                "number": "23",
+                "number": "24",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Lograr algo que está en disputa."
             },
             {
-                "number": "24",
+                "number": "25",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Recibir o experimentar algo, generalmente inesperado."
             },
             {
-                "number": "25",
+                "number": "26",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Estar de moda."
             },
             {
-                "number": "26",
+                "number": "27",
                 "type": "verbo",
                 "type_extra": "sin verificar",
                 "definition": "Dicho de dos o más personas: Congeniar o tener un trato como se indica.",
@@ -15579,18 +15591,6 @@
                     {
                         "type": "Sinónimos",
                         "content": "congeniar, conectar, avenirse."
-                    }
-                ]
-            },
-            {
-                "number": "27",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "lograr.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "lograr."
                     }
                 ]
             }

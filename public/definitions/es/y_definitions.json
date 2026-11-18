@@ -430,18 +430,6 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "El Salvador",
-                "definition": "Persona servil y aduladora."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "El Salvador",
-                "definition": "rancho (comida que se da a los presos)."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
                 "type_extra": "Cuba, El Salvador, México y Puerto Rico",
                 "definition": "yoyó.",
                 "definition_extra": [
@@ -450,6 +438,18 @@
                         "content": "yoyó, fufú, rancho."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador",
+                "definition": "Persona servil y aduladora."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador",
+                "definition": "rancho (comida que se da a los presos)."
             }
         ]
     },
@@ -683,28 +683,28 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre femenino",
-                "definition": "Vigesimosexta letra del abecedario español, que representa, cuando aparece aislada o en final de palabra precedida de una vocal, el fonema vocálico cerrado anterior y, en las demás posiciones, el fonema consonántico palatal sonoro. Se conserva como grafía arcaica representando el fonema vocálico cerrado anterior en algunos nombres propios y sus derivados, como Guaymas, guaymeño o Goytisolo. También representa este fonema en derivados de nombres propios extranjeros, como taylorismo."
-            },
-            {
-                "number": "2",
                 "type": "conjunción",
                 "definition": "Usado para unir palabras o cláusulas en concepto afirmativo. Si se coordinan más de dos vocablos o miembros del período, solo se expresa, generalmente, antes del último."
             },
             {
-                "number": "3",
+                "number": "2",
                 "type": "conjunción",
                 "definition": "Usado para formar grupos de dos o más palabras entre los cuales no se expresa."
             },
             {
-                "number": "4",
+                "number": "3",
                 "type": "conjunción",
                 "definition": "Usado a principio de período o cláusula sin enlace con vocablo o frase anterior, para dar énfasis o fuerza de expresión a lo que se dice."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "conjunción",
                 "definition": "Denota idea de repetición indefinida, precedida y seguida por una misma palabra."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Vigesimosexta letra del abecedario español, que representa, cuando aparece aislada o en final de palabra precedida de una vocal, el fonema vocálico cerrado anterior y, en las demás posiciones, el fonema consonántico palatal sonoro. Se conserva como grafía arcaica representando el fonema vocálico cerrado anterior en algunos nombres propios y sus derivados, como Guaymas, guaymeño o Goytisolo. También representa este fonema en derivados de nombres propios extranjeros, como taylorismo."
             },
             {
                 "number": "6",
