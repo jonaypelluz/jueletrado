@@ -9,6 +9,7 @@ import Logger from '@services/Logger';
 import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import { PlacedWord, generateCrossword } from '@utils/CrosswordGenerator';
+import { getDefinitionForLevel } from '@utils/DefinitionPicker';
 
 const GRID_SIZE_PX = 50;
 const LETTERS_PER_BATCH = 6;
@@ -104,11 +105,9 @@ const useCrossWordPuzzle = () => {
             }
 
             const wordDefinitions = definitions[word] ?? [];
-            const randomDef =
-                wordDefinitions[Math.floor(Math.random() * wordDefinitions.length)];
             newSelectedWords[word] = {
                 definition: wordDefinitions,
-                displayDefinition: randomDef?.definition ?? '',
+                displayDefinition: getDefinitionForLevel(wordDefinitions, gameLevel)?.definition ?? '',
                 position,
                 direction,
                 color,

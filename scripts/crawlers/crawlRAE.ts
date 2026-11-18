@@ -27,9 +27,8 @@ import { readFile, writeFile, appendFile, mkdir, readdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import * as path from 'path';
 import { config as loadEnv } from 'dotenv';
-
-loadEnv({ path: path.resolve(process.cwd(), '.env') });
-loadEnv({ path: path.resolve(process.cwd(), '.env.local'), override: true });
+import { UNVERIFIED_TYPE_MARKER } from '../../config/DefinitionConfig';
+import { ES_ENGLISH_TYPE_MAP, ES_TYPES, normalizeType } from '../words/wordAudit';
 
 const ROOT = process.cwd();
 const DEFINITIONS_DIR = path.join(ROOT, 'public/definitions/es');
@@ -60,7 +59,9 @@ interface Definition {
 interface RaeApiSense {
     meaning_number: number;
     category: string;
-    gender?: string;
+    category_labels?: string | string[];
+    gender?: string | null;
+    verb_category?: string | null;
     usage?: string;
     description: string;
     usage_notes?: string[];
@@ -102,7 +103,69 @@ function beautify(text: string): string {
     return t;
 }
 
-function formatDefinitions(meanings: RaeApiMeaning[], level?: string): Definition[] {
+/** gender / verb_category values (English, Spanish or RAE abbreviation) → Spanish qualifier of the head. */
+const QUALIFIERS: Record<string, Record<string, string>> = {
+    nombre: {
+        masculine: 'masculino', masculino: 'masculino', m: 'masculino',
+        feminine: 'femenino', femenino: 'femenino', f: 'femenino',
+        'masculine and feminine': 'masculino y femenino', 'masculino y femenino': 'masculino y femenino', 'm y f': 'masculino y femenino',
+    },
+    verbo: {
+        transitive: 'transitivo', transitivo: 'transitivo', tr: 'transitivo',
+        intransitive: 'intransitivo', intransitivo: 'intransitivo', intr: 'intransitivo',
+        pronominal: 'pronominal', prnl: 'pronominal',
+        copulative: 'copulativo', copulativo: 'copulativo', copulat: 'copulativo',
+        impersonal: 'impersonal', impers: 'impersonal',
+        auxiliary: 'auxiliar', auxiliar: 'auxiliar', aux: 'auxiliar',
+    },
+};
+
+const USAGE_LABELS: Record<string, string> = {
+    obsolete: 'desusado',
+    outdated: 'desusado',
+    rare: 'poco usado',
+    colloquial: 'coloquial',
+};
+
+type SenseType = { type: string; extras: string[] };
+
+/** RAE's own label (`sustantivo femenino`) when it maps onto ES_TYPES; null otherwise. */
+const typeFromLabel = (labels: RaeApiSense['category_labels'], onUnrecognised: (value: string) => void): SenseType | null => {
+    const [label] = Array.isArray(labels) ? labels : labels ? [labels] : [];
+    if (!label) return null;
+    const verdict = normalizeType(label.toLowerCase().replace(/^sustantivo\b/, 'nombre'), undefined, 'es');
+    if (verdict.finding?.action === 'FLAG' || verdict.typeExtra?.includes(UNVERIFIED_TYPE_MARKER)) {
+        onUnrecognised(`category_labels "${label}"`);
+        return null;
+    }
+    // A bare head ("sustantivo", "verbo") lacks the gender/verb class: let the category fallback qualify it.
+    if (QUALIFIERS[verdict.type]) return null;
+    return { type: verdict.type, extras: verdict.typeExtra ? [verdict.typeExtra] : [] };
+};
+
+/** Spanish type of a sense: category_labels first, then category + gender/verb_category, else the generic head marked unverified. */
+const mapSenseType = (sense: RaeApiSense, onUnrecognised: (value: string) => void): SenseType => {
+    const fromLabel = typeFromLabel(sense.category_labels, onUnrecognised);
+    if (fromLabel) return fromLabel;
+
+    const category = (sense.category ?? '').toLowerCase();
+    const head = ES_ENGLISH_TYPE_MAP[category] ?? (ES_TYPES.includes(category) ? category : null);
+    if (!head) {
+        if (category) onUnrecognised(`category "${sense.category}"`);
+        return { type: '', extras: [] };
+    }
+    const qualifiers = QUALIFIERS[head];
+    if (!qualifiers) return { type: head, extras: [] };
+
+    const field = head === 'nombre' ? 'gender' : 'verb_category';
+    const raw = sense[field];
+    const qualifier = raw ? qualifiers[raw.toLowerCase()] : undefined;
+    if (qualifier) return { type: `${head} ${qualifier}`, extras: [] };
+    if (raw) onUnrecognised(`${field} "${raw}"`);
+    return { type: head, extras: [UNVERIFIED_TYPE_MARKER] };
+};
+
+export function formatDefinitions(meanings: RaeApiMeaning[], onUnrecognised: (value: string) => void = () => undefined): Definition[] {
     const defs: Definition[] = [];
     let num = 1;
 
@@ -110,13 +173,15 @@ function formatDefinitions(meanings: RaeApiMeaning[], level?: string): Definitio
         for (const sense of meaning.senses ?? []) {
             if (!sense.description) continue;
 
+            const { type, extras } = mapSenseType(sense, onUnrecognised);
             const def: Definition = {
                 number: String(num++),
-                type: sense.category ?? '',
+                type,
                 definition: beautify(sense.description),
             };
 
-            if (sense.usage) def.type_extra = sense.usage;
+            const typeExtra = [USAGE_LABELS[sense.usage?.toLowerCase() ?? ''], ...extras].filter(Boolean).join(', ');
+            if (typeExtra) def.type_extra = typeExtra;
 
             const extra: DefinitionExtra[] = [];
             if (sense.synonyms?.length) extra.push({ type: 'Sinónimos', content: sense.synonyms.join(', ') + '.' });
@@ -193,6 +258,9 @@ function randomDelay(min: number, max: number): number {
 }
 
 async function main(): Promise<void> {
+    loadEnv({ path: path.resolve(process.cwd(), '.env') });
+    loadEnv({ path: path.resolve(process.cwd(), '.env.local'), override: true });
+
     const [, , wordsFile, ...flags] = process.argv;
 
     if (!wordsFile) {
@@ -277,6 +345,13 @@ async function main(): Promise<void> {
     const words = (await readFile(wordsFile, 'utf-8'))
         .split('\n').map(w => w.trim()).filter(Boolean);
 
+    const unrecognised = new Set<string>();
+    const reportUnrecognised = (value: string): void => {
+        if (unrecognised.has(value)) return;
+        unrecognised.add(value);
+        console.warn(`Unrecognised RAE label: ${value} (written as generic type, ${UNVERIFIED_TYPE_MARKER})`);
+    };
+
     let processing = !startWord;
     let processed = 0;
     let skipped = 0;
@@ -320,7 +395,7 @@ async function main(): Promise<void> {
         if (data?.ok && data.data) {
             let defs: Definition[];
             try {
-                defs = formatDefinitions(data.data.meanings, levelTag);
+                defs = formatDefinitions(data.data.meanings, reportUnrecognised);
             } catch (err) {
                 console.error(`${word}: failed to parse RAE response — ${(err as Error).message}`);
                 errors++;
@@ -371,4 +446,6 @@ async function main(): Promise<void> {
     console.log(`Not-found list: ${notFoundFile}`);
 }
 
-main().catch((err) => { console.error(err); process.exit(1); });
+if (require.main === module) {
+    main().catch((err) => { console.error(err); process.exit(1); });
+}

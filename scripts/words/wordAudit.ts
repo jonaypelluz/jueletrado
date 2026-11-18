@@ -24,7 +24,7 @@ export type Action = 'FIX' | 'DELETE' | 'FLAG';
 export type CategoryId =
     | 'W1' | 'W2' | 'W3' | 'W4' | 'W5' | 'W6' | 'W7' | 'W8' | 'W9' | 'W10'
     | 'W11' | 'W12' | 'W13' | 'W14' | 'W15'
-    | 'D1' | 'D2' | 'D3' | 'D3b' | 'D4' | 'D5' | 'D6' | 'D7' | 'D8'
+    | 'D1' | 'D2' | 'D3' | 'D3b' | 'D4' | 'D5' | 'D6' | 'D7' | 'D8' | 'D9'
     | 'T1' | 'T2' | 'T3';
 
 export type Finding = {
@@ -87,7 +87,7 @@ export const EN_TYPES: readonly string[] = [
 ];
 
 /** English labels crawlRAE.ts wrote into es senses, mapped to the generic Spanish head (R3). */
-const ES_ENGLISH_TYPE_MAP: Record<string, string> = {
+export const ES_ENGLISH_TYPE_MAP: Record<string, string> = {
     noun: 'nombre',
     verb: 'verbo',
     adjective: 'adjetivo',
@@ -137,6 +137,8 @@ const EN_FORM_OF_RE = new RegExp(
         'eye dialect of|nonstandard spelling of|(comparative|superlative) form of)\\b',
     'i',
 );
+/** D9: a sense with one of these usage labels (Spanish or legacy English) goes after the others. */
+const SECONDARY_USAGE_RE = /\b(desusado|poco usado|obsolete|outdated|rare)\b/i;
 const ES_FORM_OF_RE = /^((plural|femenino|participio|gerundio)|forma (plural|femenina|masculina)) de \p{L}+\.$/iu;
 const TRUNCATED_RE = /[,;:]\.?$/;
 /** A list lead-in left dangling once the truncated list is cut (`…, particularly.`); dropped so the sense reads as a sentence. */
@@ -392,6 +394,18 @@ const withType = (sense: Sense, type: string, typeExtra: string | undefined): Se
     return result as Sense;
 };
 
+const isSecondarySense = (sense: Sense): boolean =>
+    SECONDARY_USAGE_RE.test(sense.type_extra ?? '') || ES_SINGLE_WORD_RE.test(sense.definition);
+
+/** D9: stable partition, primary senses first, then outdated/rare/single-word senses. */
+const orderSenses = (senses: Sense[]): Sense[] => [
+    ...senses.filter((sense) => !isSecondarySense(sense)),
+    ...senses.filter(isSecondarySense),
+];
+
+const senseOrderLabel = (senses: Sense[]): string =>
+    `${senses[0].definition} (${senses.map((sense) => sense.number).join(' ')})`;
+
 /** Sense and type rules on one entry; returns the kept senses (renumbered) and pushes findings. */
 const auditSenses = (word: string, senses: Sense[], locale: Locale, findings: Finding[]): Sense[] => {
     const kept: Sense[] = [];
@@ -416,15 +430,21 @@ const auditSenses = (word: string, senses: Sense[], locale: Locale, findings: Fi
         findings.push({ word, sense: sense.number, category: 'D6', action: 'DELETE', detail: sense.definition }),
     );
 
-    return unique.map((sense, index) => {
+    const typed = unique.map((sense) => {
         const verdict = normalizeType(sense.type, sense.type_extra, locale);
-        let result = sense;
-        if (verdict.finding) {
-            findings.push({ word, sense: sense.number, ...verdict.finding, from: sense.type, to: verdict.type });
-            if (verdict.finding.action === 'FIX') result = withType(sense, verdict.type, verdict.typeExtra);
-        }
+        if (!verdict.finding) return sense;
+        findings.push({ word, sense: sense.number, ...verdict.finding, from: sense.type, to: verdict.type });
+        return verdict.finding.action === 'FIX' ? withType(sense, verdict.type, verdict.typeExtra) : sense;
+    });
+
+    const ordered = locale === 'es' ? orderSenses(typed) : typed;
+    if (ordered.some((sense, index) => sense !== typed[index])) {
+        findings.push({ word, category: 'D9', action: 'FIX', from: senseOrderLabel(typed), to: senseOrderLabel(ordered) });
+    }
+
+    return ordered.map((sense, index) => {
         const number = typeof sense.number === 'string' ? String(index + 1) : index + 1;
-        return result.number === number ? result : { ...result, number };
+        return sense.number === number ? sense : { ...sense, number };
     });
 };
 

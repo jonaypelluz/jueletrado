@@ -358,3 +358,44 @@ describe('auditLocale', () => {
         );
     });
 });
+
+describe('D9 sense order', () => {
+    const emptyLists = { beginner: [] as string[], intermediate: [] as string[], advanced: [] as string[] };
+    const audit = (locale: Locale, senses: Array<Record<string, unknown>>) =>
+        auditLocale({
+            locale,
+            lists: { ...emptyLists, beginner: ['palabra'] },
+            definitions: { p: { palabra: { definitions: senses as never } } },
+            wordSets: wordSets(),
+        });
+    const d9 = (findings: Array<{ category: string }>) => findings.filter((finding) => finding.category === 'D9');
+
+    test.each(['desusado', 'poco usado', 'obsolete, sin verificar'])(
+        'moves a %s sense and a single-word sense after the others and renumbers 1..n',
+        (typeExtra) => {
+            const result = audit('es', [
+                { number: '1', type: 'nombre femenino', type_extra: typeExtra, definition: 'Sentido antiguo.' },
+                sense('Sentido general.', 'nombre femenino', '2'),
+                sense('casa.', 'nombre femenino', '3'),
+                sense('Otro sentido.', 'nombre femenino', '4'),
+            ]);
+
+            const ordered = result.definitions.p.palabra.definitions;
+            expect(ordered.map((s: { definition: string }) => s.definition)).toEqual(['Sentido general.', 'Otro sentido.', 'Sentido antiguo.', 'casa.']);
+            expect(ordered.map((s: { number: string | number }) => s.number)).toEqual(['1', '2', '3', '4']);
+            expect(d9(result.findings)).toEqual([
+                { category: 'D9', action: 'FIX', word: 'palabra', from: 'Sentido antiguo. (1 2 3 4)', to: 'Sentido general. (2 4 1 3)' },
+            ]);
+        },
+    );
+
+    test.each([
+        ['es', [sense('Sentido general.', 'nombre femenino', '1'), { number: '2', type: 'nombre femenino', type_extra: 'desusado', definition: 'Sentido antiguo.' }]],
+        ['en', [{ number: 1, type: 'noun', type_extra: 'obsolete', definition: 'An old sense.' }, { number: 2, type: 'noun', definition: 'The usual sense.' }]],
+    ] as const)('leaves %s senses in place when no reorder applies', (locale, senses) => {
+        const result = audit(locale, [...senses]);
+
+        expect(result.definitions.p.palabra.definitions.map((s: { definition: string }) => s.definition)).toEqual(senses.map((s) => s.definition));
+        expect(d9(result.findings)).toEqual([]);
+    });
+});

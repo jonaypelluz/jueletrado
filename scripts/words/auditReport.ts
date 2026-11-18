@@ -13,7 +13,7 @@ const CATEGORY_LABELS: Record<CategoryId, string> = {
     W11: 'HTML/XML artifact', W12: 'accent-only duplicate', W13: 'in several levels', W14: 'definition in no list',
     W15: 'list duplicate', D1: 'empty sense', D2: 'markup', D3: 'cross-reference', D3b: 'single-word sense',
     D4: 'form-of', D5: 'truncated / unbalanced parens', D6: 'duplicate sense', D7: 'proper-noun sense',
-    D8: 'whitespace', T1: 'type normalisation', T2: 'unverified type', T3: 'empty type',
+    D8: 'whitespace', D9: 'sense order', T1: 'type normalisation', T2: 'unverified type', T3: 'empty type',
 };
 
 const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS) as CategoryId[];
@@ -65,6 +65,7 @@ const describe = (finding: Finding): string => {
         const change = finding.from !== undefined ? `${finding.from} → ${finding.to}` : finding.detail ?? '';
         return `${finding.word} (${finding.sense}): ${change}`;
     }
+    if (finding.category === 'D9') return `${finding.word}: ${finding.from} → ${finding.to}`;
     if (finding.to !== undefined) return `${finding.from} → ${finding.to}`;
     return finding.detail ? `${finding.word} (${finding.detail})` : finding.word;
 };
