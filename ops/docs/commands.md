@@ -92,6 +92,9 @@ crawler writes the Spanish type from the closed list (`ES_TYPES` in `scripts/wor
 | noun/verb with no usable gender or verb class | `nombre`/`verbo` + `type_extra` `sin verificar` (T2 FLAG); the raw value is logged once per run |
 | `usage` | `obsolete`/`outdated` → `desusado`, `rare` → `poco usado`, `colloquial` → `coloquial`, otherwise nothing; joined with `, ` before the marker |
 
+Only `usage` is kept: RAE domain/register labels (e.g. `América`, `Usado ante sustantivo`) are not written to
+`type_extra`, so a replaced word loses them.
+
 Sub-meanings (`sub_meaning` a/b/c) are not flattened.
 
 ### `yarn crawl:recrawl-es [--check] [--limit <n>] [--root <dir>]`
@@ -154,6 +157,9 @@ yarn crawl:merge ops/crawl-output/en/j.jsonl --locale en --letter j
 | `--locale <es\|en>` | Only process entries for this locale |
 | `--letter <l>` | Only process entries for words starting with this letter |
 | `--replace` | Replace a word's `definitions` wholesale instead of merging by `number`; `level` is kept |
+
+**Existing es words: always merge with `--replace`.** The audit's D9 renumbers es senses away from RAE order, so a
+default merge (by `number`) of a fresh RAE crawl would overwrite the wrong senses.
 
 ### `yarn crawl:check-en <inputFile> [--output <file>]`
 
@@ -283,7 +289,7 @@ its definition key, senses are renumbered 1..n):
 | D6 | Duplicate sense text in one word | DELETE the later one |
 | D7 | en `proper noun` sense | DELETE |
 | D8 | Extra whitespace | FIX |
-| D9 | es sense order: outdated/rare senses (`desusado`, `poco usado`, legacy `obsolete`/`outdated`/`rare`) and single-word senses go after the others, stable; RAE order is kept otherwise, so sense 1 is the common meaning games show first | FIX |
+| D9 | es sense order: `desusado` senses, RAE letter-name senses (`… letra del abecedario español …`, `Sonido que representa la letra …`) and one-word noun senses pointing to a word outside the beginner list (`enebro.`, `cafeto.`) go after the others, stable; RAE order is kept otherwise, so sense 1 is the common meaning games show first. `poco usado`, a lone `desusada`, legacy `obsolete`/`rare` and one-word verb/adjective senses (`donar.`, `quieto.`) or ones pointing to a beginner word (`felicidad.`) stay: they also tag core senses | FIX |
 | T1 | Type outside the closed list: mapped (es register qualifiers and subclasses go to `type_extra`) | FIX; FLAG if unmapped |
 | T2 | es English label mapped to a generic type (`type_extra` gets `sin verificar`) | FLAG |
 | T3 | Missing type | FLAG |
