@@ -12,6 +12,8 @@ import { LEVELS, LOCALES } from '../../../scripts/words/wordAudit';
 // hash as the baseline frozen from the legacy lists and filters before the change. JUE-0012 changed
 // the lists on purpose (blocklisted words out, proper nouns back with isProperNoun) and refreshed it
 // with `yarn words:level-counts --out tests/fixtures/pools/phase2-baseline.json`.
+// JUE-0009 Phase 3 refreshed it again: the D9 sense order and the RAE re-crawl change sense 1 and
+// sense counts, which moves the spellingBee/definitionMaster pools (none newly below its minimum).
 const BASELINE = path.join(__dirname, '../../fixtures/pools/phase2-baseline.json');
 
 type Snapshot = Record<string, { count: number; min: number | null; hash?: string }>;
