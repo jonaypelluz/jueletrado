@@ -964,24 +964,24 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que obra (hace algo)."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Encargado de cuidar de las obras en las iglesias o comunidades. En algunas catedrales era dignidad."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Dignidad de las órdenes militares que asiste a las juntas. Antiguamente cuidaba del convento, y, en defecto de los comendadores mayores, era capitán de lanzas."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Diezmero que en algunas partes pagaba directamente su cuota a la obrería de la iglesia catedral."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que obra (hace algo)."
             },
             {
                 "number": "8",
@@ -1017,24 +1017,24 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que obra (hace algo)."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Encargado de cuidar de las obras en las iglesias o comunidades. En algunas catedrales era dignidad."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Dignidad de las órdenes militares que asiste a las juntas. Antiguamente cuidaba del convento, y, en defecto de los comendadores mayores, era capitán de lanzas."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Diezmero que en algunas partes pagaba directamente su cuota a la obrería de la iglesia catedral."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que obra (hace algo)."
             },
             {
                 "number": "8",
@@ -1070,24 +1070,24 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que obra (hace algo)."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Encargado de cuidar de las obras en las iglesias o comunidades. En algunas catedrales era dignidad."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Dignidad de las órdenes militares que asiste a las juntas. Antiguamente cuidaba del convento, y, en defecto de los comendadores mayores, era capitán de lanzas."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Diezmero que en algunas partes pagaba directamente su cuota a la obrería de la iglesia catedral."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que obra (hace algo)."
             },
             {
                 "number": "8",
@@ -1123,24 +1123,24 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Persona que obra (hace algo)."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Encargado de cuidar de las obras en las iglesias o comunidades. En algunas catedrales era dignidad."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Dignidad de las órdenes militares que asiste a las juntas. Antiguamente cuidaba del convento, y, en defecto de los comendadores mayores, era capitán de lanzas."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Diezmero que en algunas partes pagaba directamente su cuota a la obrería de la iglesia catedral."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que obra (hace algo)."
             },
             {
                 "number": "8",
@@ -3483,14 +3483,14 @@
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Lugar en que trabajan los empleados, oficina."
+                "type_extra": "plural",
+                "definition": "Funciones de iglesia, y más particularmente las de Semana Santa."
             },
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Funciones de iglesia, y más particularmente las de Semana Santa."
+                "type_extra": "desusado",
+                "definition": "Lugar en que trabajan los empleados, oficina."
             }
         ]
     },
@@ -3546,14 +3546,14 @@
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Lugar en que trabajan los empleados, oficina."
+                "type_extra": "plural",
+                "definition": "Funciones de iglesia, y más particularmente las de Semana Santa."
             },
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Funciones de iglesia, y más particularmente las de Semana Santa."
+                "type_extra": "desusado",
+                "definition": "Lugar en que trabajan los empleados, oficina."
             }
         ]
     },
@@ -5077,19 +5077,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Hacer perder la memoria de algo."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Perder de la memoria, de la consideración o de la estima. Se olvidó de mi teléfono. Se olvidan de un detalle. Me olvidé de avisarte. Nunca se olvidó de ella."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Quedársele olvidada a alguien. Se me olvidó firmar. Se le olvidó el paraguas."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Hacer perder la memoria de algo."
             }
         ]
     },
@@ -5158,19 +5158,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Hacer perder la memoria de algo."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Perder de la memoria, de la consideración o de la estima. Se olvidó de mi teléfono. Se olvidan de un detalle. Me olvidé de avisarte. Nunca se olvidó de ella."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Quedársele olvidada a alguien. Se me olvidó firmar. Se le olvidó el paraguas."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Hacer perder la memoria de algo."
             }
         ]
     },
@@ -5215,19 +5215,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Hacer perder la memoria de algo."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Perder de la memoria, de la consideración o de la estima. Se olvidó de mi teléfono. Se olvidan de un detalle. Me olvidé de avisarte. Nunca se olvidó de ella."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Quedársele olvidada a alguien. Se me olvidó firmar. Se le olvidó el paraguas."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Hacer perder la memoria de algo."
             }
         ]
     },
@@ -5272,19 +5272,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Hacer perder la memoria de algo."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Perder de la memoria, de la consideración o de la estima. Se olvidó de mi teléfono. Se olvidan de un detalle. Me olvidé de avisarte. Nunca se olvidó de ella."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Quedársele olvidada a alguien. Se me olvidó firmar. Se le olvidó el paraguas."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Hacer perder la memoria de algo."
             }
         ]
     },
@@ -6028,30 +6028,30 @@
             },
             {
                 "number": "3",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Imputar, achacar, atribuir algo a alguien."
-            },
-            {
-                "number": "4",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Ser contraria o repugnante a otra."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Estar situada o colocada enfrente de otra."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo pronominal",
                 "definition": "Impugnar, estorbar, contradecir un designio. La junta se opuso a sus pretensiones."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "type_extra": "Lingüística",
                 "definition": "Estar en oposición distintiva."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Imputar, achacar, atribuir algo a alguien."
             },
             {
                 "number": "8",
@@ -7572,14 +7572,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Disponer el órgano para que esté acorde y templado."
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Ordenarse las actividades o distribuirse el tiempo."
             },
             {
                 "number": "5",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona: Ordenarse las actividades o distribuirse el tiempo."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Disponer el órgano para que esté acorde y templado."
             }
         ]
     },
@@ -7752,14 +7752,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Disponer el órgano para que esté acorde y templado."
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Ordenarse las actividades o distribuirse el tiempo."
             },
             {
                 "number": "5",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona: Ordenarse las actividades o distribuirse el tiempo."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Disponer el órgano para que esté acorde y templado."
             }
         ]
     },
@@ -7794,14 +7794,14 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Disponer el órgano para que esté acorde y templado."
+                "type": "verbo pronominal",
+                "definition": "Dicho de una persona: Ordenarse las actividades o distribuirse el tiempo."
             },
             {
                 "number": "5",
-                "type": "verbo pronominal",
-                "definition": "Dicho de una persona: Ordenarse las actividades o distribuirse el tiempo."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Disponer el órgano para que esté acorde y templado."
             }
         ]
     },
@@ -9081,39 +9081,13 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Decimosexta letra del abecedario español, que representa el fonema vocálico medio posterior."
-            },
-            {
-                "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Sonido que representa la letra o."
-            },
-            {
-                "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En la lógica escolástica, letra que representa la proposición particular negativa."
-            },
-            {
-                "number": "4",
-                "type": "nombre",
-                "definition": "En donde.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "conjunción",
                 "definition": "Denota diferencia, separación o alternativa entre dos o más personas, cosas o ideas."
             },
             {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "generalmente ante cada uno de dos o más términos contrapuestos.",
+                "number": "2",
+                "type": "conjunción",
+                "definition": "Usado generalmente ante cada uno de dos o más términos contrapuestos.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -9122,10 +9096,30 @@
                 ]
             },
             {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "3",
+                "type": "conjunción",
                 "definition": "Denota equivalencia, significando 'o sea, o lo que es lo mismo'."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Decimosexta letra del abecedario español, que representa el fonema vocálico medio posterior."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Sonido que representa la letra o."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "En la lógica escolástica, letra que representa la proposición particular negativa."
+            },
+            {
+                "number": "7",
+                "type": "adverbio",
+                "definition": "donde.",
+                "type_extra": "desusado"
             }
         ]
     },
@@ -9202,25 +9196,23 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Juicio o valoración que se forma una persona respecto de algo o de alguien.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "juicio, valoración, dictamen, parecer2, criterio, sentir2, veredicto."
+                        "content": "juicio, valoración, dictamen, criterio, veredicto, parecer, sentir."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Fama o concepto en que se tiene a alguien o algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "reputación, fama, prestigio, concepto1, crédito, consideración."
+                        "content": "reputación, fama, prestigio, concepto, crédito, consideración."
                     }
                 ]
             }
@@ -9391,27 +9383,23 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, en dativo o acusativo, designa, en España y ocasionalmente en América, a las personas a las que se dirige quien habla o escribe."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, en dativo o acusativo, designa a un grupo de personas entre las que se encuentra el destinatario del mensaje."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo o acusativo, designa a una o varias personas de muy alto rango o dignidad a las que se dirige quien habla o escribe. en el tratamiento reverencial de vos."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo o acusativo, designa a una o varias personas de muy alto rango o dignidad a las que se dirige quien habla o escribe."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo o acusativo, designa a la persona a la que va dirigida la enunciación. en el trato de vos en zonas del área caribeña."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo o acusativo, designa a la persona a la que va dirigida la enunciación."
             }
         ]
     }

@@ -265,14 +265,14 @@
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "type_extra": "Tauromaquia",
-                "definition": "toril."
+                "type_extra": "México",
+                "definition": "Vagoneta con rejas o barrotes a los lados."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "type_extra": "México",
-                "definition": "Vagoneta con rejas o barrotes a los lados."
+                "type_extra": "Tauromaquia",
+                "definition": "toril."
             }
         ]
     },
@@ -400,13 +400,13 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "jerarca."
+                "type_extra": "Religión",
+                "definition": "En el catolicismo, orden entre los diversos coros de los ángeles."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "type_extra": "Religión",
-                "definition": "En el catolicismo, orden entre los diversos coros de los ángeles."
+                "definition": "jerarca."
             }
         ]
     },
@@ -541,20 +541,20 @@
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Lance, ocasión, circunstancia."
+                "type_extra": "plural",
+                "definition": "Reunión o congreso, normalmente monográfico y de corta duración. Jornadas sobre el medio ambiente."
             },
             {
                 "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
-                "definition": "jornal (estipendio del trabajador)."
+                "definition": "Lance, ocasión, circunstancia."
             },
             {
                 "number": "15",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Reunión o congreso, normalmente monográfico y de corta duración. Jornadas sobre el medio ambiente."
+                "type_extra": "desusado",
+                "definition": "jornal (estipendio del trabajador)."
             }
         ]
     },
@@ -630,20 +630,20 @@
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Lance, ocasión, circunstancia."
+                "type_extra": "plural",
+                "definition": "Reunión o congreso, normalmente monográfico y de corta duración. Jornadas sobre el medio ambiente."
             },
             {
                 "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
-                "definition": "jornal (estipendio del trabajador)."
+                "definition": "Lance, ocasión, circunstancia."
             },
             {
                 "number": "15",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Reunión o congreso, normalmente monográfico y de corta duración. Jornadas sobre el medio ambiente."
+                "type_extra": "desusado",
+                "definition": "jornal (estipendio del trabajador)."
             }
         ]
     },
@@ -786,30 +786,30 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "brocamantón."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
                 "definition": "Cosa o persona ponderada, de mucha valía."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Arquitectura",
                 "definition": "astrágalo (cordón que rodea el fuste de una columna)."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
                 "definition": "astrágalo (adorno de los cañones antiguos)."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Conjunto de ropas y alhajas que llevaba una mujer cuando se casaba."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "brocamantón."
             }
         ]
     },
@@ -3208,21 +3208,19 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "soldado (‖ hombre que sirve en la milicia).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "soldado, guerrero, mílite, guripa."
-                    }
-                ]
+                "type": "nombre masculino",
+                "definition": "En germanía, cepillo de iglesia."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cepillo de iglesia."
+                "type": "nombre masculino",
+                "definition": "soldado.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "guerrero, guripa, mílite, soldado."
+                    }
+                ]
             }
         ]
     },

@@ -1024,20 +1024,20 @@
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "type_extra": "irónico o irónica",
-                "definition": "concubina."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
                 "type_extra": "poético o poética",
                 "definition": "Mujer galanteada o amada por un hombre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Juego que se ejecuta en un tablero de 64 escaques, con dos conjuntos de fichas distinguidos por el color."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "irónico o irónica",
+                "definition": "concubina."
             }
         ]
     },
@@ -1078,20 +1078,20 @@
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "type_extra": "irónico o irónica",
-                "definition": "concubina."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
                 "type_extra": "poético o poética",
                 "definition": "Mujer galanteada o amada por un hombre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Juego que se ejecuta en un tablero de 64 escaques, con dos conjuntos de fichas distinguidos por el color."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "irónico o irónica",
+                "definition": "concubina."
             }
         ]
     },
@@ -4989,18 +4989,18 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "decenio."
+                "definition": "Serie de diez. Las décadas de Tito Livio."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Serie de diez. Las décadas de Tito Livio."
+                "type_extra": "poco usado",
+                "definition": "Período de diez días. La primera década de febrero."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Período de diez días. La primera década de febrero."
+                "definition": "decenio."
             }
         ]
     },
@@ -5020,18 +5020,18 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "decenio."
+                "definition": "Serie de diez. Las décadas de Tito Livio."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Serie de diez. Las décadas de Tito Livio."
+                "type_extra": "poco usado",
+                "definition": "Período de diez días. La primera década de febrero."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "type_extra": "poco usado",
-                "definition": "Período de diez días. La primera década de febrero."
+                "definition": "decenio."
             }
         ]
     },
@@ -5142,43 +5142,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -5223,43 +5223,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -5600,43 +5600,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -5681,43 +5681,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -5762,43 +5762,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -5843,43 +5843,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -5924,43 +5924,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -7057,25 +7057,25 @@
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "type_extra": "Cuba, México, República Dominicana y Uruguay",
-                "definition": "parachoques."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
                 "type_extra": "plural, etcétera",
                 "definition": "Colmillos del elefante, cuernos del toro."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "Marina, en plural",
                 "definition": "Conjunto de objetos que se cuelgan del costado de la embarcación para que esta no roce o golpee contra el muelle u otra embarcación."
             },
             {
-                "number": "14",
+                "number": "13",
                 "type": "nombre masculino y femenino",
                 "definition": "Cada uno de los jugadores que forman la línea defensiva."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "Cuba, México, República Dominicana y Uruguay",
+                "definition": "parachoques."
             }
         ]
     },
@@ -7147,25 +7147,25 @@
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "type_extra": "Cuba, México, República Dominicana y Uruguay",
-                "definition": "parachoques."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
                 "type_extra": "plural, etcétera",
                 "definition": "Colmillos del elefante, cuernos del toro."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "Marina, en plural",
                 "definition": "Conjunto de objetos que se cuelgan del costado de la embarcación para que esta no roce o golpee contra el muelle u otra embarcación."
             },
             {
-                "number": "14",
+                "number": "13",
                 "type": "nombre masculino y femenino",
                 "definition": "Cada uno de los jugadores que forman la línea defensiva."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "Cuba, México, República Dominicana y Uruguay",
+                "definition": "parachoques."
             }
         ]
     },
@@ -7193,20 +7193,20 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Cosa que sirve para defender o proteger."
+                "type": "nombre femenino",
+                "definition": "Situación o estado del que solo trata de defenderse."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
-                "definition": "Remedio curativo consistente en un paño empapado en un líquido que se aplicaba sobre la parte enferma del cuerpo."
+                "definition": "Cosa que sirve para defender o proteger."
             },
             {
                 "number": "5",
-                "type": "nombre femenino",
-                "definition": "Situación o estado del que solo trata de defenderse."
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Remedio curativo consistente en un paño empapado en un líquido que se aplicaba sobre la parte enferma del cuerpo."
             }
         ]
     },
@@ -7844,36 +7844,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -7972,36 +7972,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -8136,36 +8136,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -8264,36 +8264,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -8392,36 +8392,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -8520,36 +8520,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -8648,36 +8648,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -8776,36 +8776,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -8904,36 +8904,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -9032,36 +9032,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -9190,36 +9190,36 @@
             },
             {
                 "number": "17",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "perdonar."
-            },
-            {
-                "number": "18",
                 "type": "verbo intransitivo",
                 "definition": "Interrumpir una acción. Dejar de fumar, de hablar."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado",
                 "definition": "como verbo auxiliar, unido a algunos participios pasivos, para explicar una precaución o provisión acerca de lo que el participio significa. Dejar dicho, escrito."
             },
             {
-                "number": "20",
+                "number": "19",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado, Usado más como pronominal",
                 "definition": "como verbo auxiliar, unido a algunos infinitivos, para indicar el modo especial de suceder o ejecutarse lo que significa el verbo que se le une. Dejarse querer, sentir, beber."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo pronominal",
                 "definition": "entregarse (ponerse en manos de alguien). Dejarse al arbitrio de la fortuna, de los vientos."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo pronominal",
                 "definition": "Abandonarse, descuidarse por desánimo o pereza."
+            },
+            {
+                "number": "22",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "perdonar."
             }
         ]
     },
@@ -9545,27 +9545,27 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Poco, corto, escaso."
-            },
-            {
-                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Marina",
                 "definition": "Cada una de las partes de los extremos de popa y de proa, en las cuales se estrecha el pantoque."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "En los cuadrúpedos, partes inferiores del vientre, hacia las ijadas."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Falda de una canal (res muerta)."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Poco, corto, escaso."
             }
         ]
     },
@@ -9608,27 +9608,27 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Poco, corto, escaso."
-            },
-            {
-                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Marina",
                 "definition": "Cada una de las partes de los extremos de popa y de proa, en las cuales se estrecha el pantoque."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "En los cuadrúpedos, partes inferiores del vientre, hacia las ijadas."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Falda de una canal (res muerta)."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Poco, corto, escaso."
             }
         ]
     },
@@ -10006,57 +10006,57 @@
             },
             {
                 "number": "3",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Que habla o dice con libertad lo que siente."
-            },
-            {
-                "number": "4",
                 "type": "pronombre",
                 "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una cantidad excesiva. para referirse a un sintagma nominal mencionado o sobrentendido. El guiso tenía poca sal pero al final le añadió demasiada."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "pronombre",
                 "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "demasiadas personas. sin referencia a un sintagma mencionado o sobrentendido. Son muchos los que buscan empleo, y demasiados los que no lo encuentran."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "pronombre",
                 "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "Una cantidad excesiva de algo. Comió demasiado. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "pronombre",
                 "type_extra": "indefinido neutro",
                 "definition": "demasiadas cosas. Ya ha hecho usted demasiado por mí."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "excesivamente. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Es demasiado inconstante para encargarle ese trabajo."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "Con una intensidad que excede el límite conveniente o aceptable. a veces con un complemento con para que expresa una base de comparación. Llueve demasiado para salir."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "Con excesiva frecuencia. Viaja demasiado. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "Un tiempo excesivo. Durmió demasiado. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que habla o dice con libertad lo que siente."
             }
         ]
     },
@@ -10086,57 +10086,57 @@
             },
             {
                 "number": "3",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Que habla o dice con libertad lo que siente."
-            },
-            {
-                "number": "4",
                 "type": "pronombre",
                 "type_extra": "Usado, usada, usados o usadas, indefinido masculino y femenino",
                 "definition": "Una cantidad excesiva. para referirse a un sintagma nominal mencionado o sobrentendido. El guiso tenía poca sal pero al final le añadió demasiada."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "pronombre",
                 "type_extra": "Usado, usada, usados o usadas, indefinido masculino plural",
                 "definition": "demasiadas personas. sin referencia a un sintagma mencionado o sobrentendido. Son muchos los que buscan empleo, y demasiados los que no lo encuentran."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "pronombre",
                 "type_extra": "Usado, usada, usados o usadas, indefinido neutro",
                 "definition": "Una cantidad excesiva de algo. Comió demasiado. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "pronombre",
                 "type_extra": "indefinido neutro",
                 "definition": "demasiadas cosas. Ya ha hecho usted demasiado por mí."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "excesivamente. a veces con un complemento introducido por la preposición para que expresa una base de comparación. Es demasiado inconstante para encargarle ese trabajo."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "Con una intensidad que excede el límite conveniente o aceptable. a veces con un complemento con para que expresa una base de comparación. Llueve demasiado para salir."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "Con excesiva frecuencia. Viaja demasiado. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "adverbio",
                 "type_extra": "Usado, indefinido",
                 "definition": "Un tiempo excesivo. Durmió demasiado. a veces con un complemento introducido por la preposición para que expresa una base de comparación."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que habla o dice con libertad lo que siente."
             }
         ]
     },
@@ -12141,14 +12141,14 @@
             },
             {
                 "number": "24",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Conjunto de perros de caza que se sueltan, según determinadas reglas, para seguir a la presa."
+                "type": "adverbio",
+                "definition": "derechamente."
             },
             {
                 "number": "25",
-                "type": "adverbio",
-                "definition": "derechamente."
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Conjunto de perros de caza que se sueltan, según determinadas reglas, para seguir a la presa."
             }
         ]
     },
@@ -12284,14 +12284,14 @@
             },
             {
                 "number": "24",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Conjunto de perros de caza que se sueltan, según determinadas reglas, para seguir a la presa."
+                "type": "adverbio",
+                "definition": "derechamente."
             },
             {
                 "number": "25",
-                "type": "adverbio",
-                "definition": "derechamente."
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Conjunto de perros de caza que se sueltan, según determinadas reglas, para seguir a la presa."
             }
         ]
     },
@@ -12427,14 +12427,14 @@
             },
             {
                 "number": "24",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Conjunto de perros de caza que se sueltan, según determinadas reglas, para seguir a la presa."
+                "type": "adverbio",
+                "definition": "derechamente."
             },
             {
                 "number": "25",
-                "type": "adverbio",
-                "definition": "derechamente."
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Conjunto de perros de caza que se sueltan, según determinadas reglas, para seguir a la presa."
             }
         ]
     },
@@ -12934,19 +12934,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -12992,19 +12992,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13050,19 +13050,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13108,19 +13108,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13166,19 +13166,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13224,19 +13224,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13282,19 +13282,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13340,19 +13340,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13398,19 +13398,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "desenrollar."
-            },
-            {
-                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Suceder, ocurrir o tener lugar."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una comunidad humana: Progresar o crecer, especialmente en el ámbito económico, social o cultural."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "desenrollar."
             }
         ]
     },
@@ -13601,17 +13601,17 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "descansillo."
+                "definition": "Asiento sobre el que se apoya, asegura o afirma algo."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Asiento sobre el que se apoya, asegura o afirma algo."
+                "definition": "Intermedio en el desarrollo de un espectáculo, audición o sesión."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Intermedio en el desarrollo de un espectáculo, audición o sesión."
+                "definition": "descansillo."
             }
         ]
     },
@@ -14181,41 +14181,41 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "déficit."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
                 "definition": "Situación de impago de las cuotas tributarias o de la seguridad social."
             },
             {
-                "number": "6",
-                "type": "nombre masculino",
-                "type_extra": "Religión, desusado",
-                "definition": "En el culto católico, exposición de la eucaristía a la adoración de los fieles."
-            },
-            {
-                "number": "7",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Pastel sin el hojaldre o la cubierta que regularmente se pone encima."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Marina",
                 "definition": "Reconocimiento del horizonte, que, al salir y al ponerse el sol, se practicaba en una escuadra por medio de los buques ligeros, y en un buque de guerra solo desde lo alto de los palos."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "Marina",
                 "definition": "Inspección del estado del aparejo del buque, que por la mañana y por la tarde ejecutan los gavieros y juaneteros en sus palos respectivos."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
                 "definition": "Reconocimiento que a ciertas horas hace la tropa para observar si en las inmediaciones hay enemigos y para inquirir su situación."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "déficit."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "type_extra": "Religión, desusado",
+                "definition": "En el culto católico, exposición de la eucaristía a la adoración de los fieles."
             },
             {
                 "number": "11",
@@ -17933,43 +17933,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -18014,43 +18014,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -18104,43 +18104,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -18464,23 +18464,23 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "adaraja."
+                "definition": "Cada una de las puntas o resaltos que presentan algunas cosas y en especial ciertos instrumentos o herramientas. Diente de sierra, de rueda, de peine."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Cada una de las puntas o resaltos que presentan algunas cosas y en especial ciertos instrumentos o herramientas. Diente de sierra, de rueda, de peine."
+                "definition": "Cada uno de los picos que quedan en los bordes de los sellos de correos y en el de ciertos documentos que están unidos a la matriz, cuando se los separa por el trepado."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Cada uno de los picos que quedan en los bordes de los sellos de correos y en el de ciertos documentos que están unidos a la matriz, cuando se los separa por el trepado."
+                "type_extra": "Imprenta",
+                "definition": "Huella que se advierte cuando, por estar mal apuntado el pliego, no se corresponden las planas del blanco con las de la retiración."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "type_extra": "Imprenta",
-                "definition": "Huella que se advierte cuando, por estar mal apuntado el pliego, no se corresponden las planas del blanco con las de la retiración."
+                "definition": "adaraja."
             }
         ]
     },
@@ -19112,20 +19112,20 @@
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Estipendio que gana el médico diariamente por visitar a un enfermo."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Estipendio que se da a quienes ejecutan algunas comisiones o encargos por cada día que se ocupan en ellos, o por el tiempo que emplean en realizarlos."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Retribución o indemnización fijada para los representantes en Cortes o cámaras legislativas."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Estipendio que gana el médico diariamente por visitar a un enfermo."
             }
         ]
     },
@@ -19603,43 +19603,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -19684,43 +19684,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -19765,43 +19765,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -19846,43 +19846,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -20072,43 +20072,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -20197,43 +20197,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -20278,43 +20278,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -20359,43 +20359,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -20440,43 +20440,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -21838,43 +21838,43 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Pedir, rogar."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Trovar, versificar."
-            },
-            {
-                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "etcétera",
                 "definition": "Dicho del juego, del año, de la cosecha, Ser o no favorable."
             },
             {
-                "number": "9",
+                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra. Este traje me dice bien."
             },
             {
-                "number": "10",
+                "number": "8",
                 "type": "verbo intransitivo",
                 "type_extra": "Cinegética",
                 "definition": "Dicho del perro: latir."
             },
             {
-                "number": "11",
+                "number": "9",
                 "type": "verbo intransitivo",
                 "type_extra": "coloquial, El Salvador, República Dominicana y Venezuela",
                 "definition": "Dar principio a una acción. Y dijo a llorar."
             },
             {
-                "number": "12",
+                "number": "10",
                 "type": "verbo pronominal",
                 "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra. Me dije: esta es la mía."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Pedir, rogar."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Trovar, versificar."
             }
         ]
     },
@@ -23420,13 +23420,13 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "disparate."
+                "type_extra": "Milicia",
+                "definition": "Elemento de munición completo."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "type_extra": "Milicia",
-                "definition": "Elemento de munición completo."
+                "definition": "disparate."
             }
         ]
     },
@@ -23446,13 +23446,13 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "disparate."
+                "type_extra": "Milicia",
+                "definition": "Elemento de munición completo."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "type_extra": "Milicia",
-                "definition": "Elemento de munición completo."
+                "definition": "disparate."
             }
         ]
     },
@@ -25065,17 +25065,17 @@
             {
                 "number": "21",
                 "type": "nombre masculino y femenino",
-                "definition": "sosias."
-            },
-            {
-                "number": "22",
-                "type": "nombre masculino y femenino",
                 "definition": "Persona que sustituye a un actor cinematográfico en determinados momentos del rodaje."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "adverbio",
                 "definition": "doblemente."
+            },
+            {
+                "number": "23",
+                "type": "nombre masculino y femenino",
+                "definition": "sosias."
             }
         ]
     },
@@ -25132,25 +25132,25 @@
             },
             {
                 "number": "2",
+                "type": "nombre femenino",
+                "definition": "Conjunto de doce unidades."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Peso de doce libras, que se usó en Navarra."
+            },
+            {
+                "number": "4",
                 "type": "adjetivo",
                 "type_extra": "desusado, Era usado también como sustantivo masculino",
                 "definition": "doceavo."
             },
             {
-                "number": "3",
+                "number": "5",
                 "type": "adjetivo",
                 "type_extra": "desusado, Era usado también como sustantivo masculino",
                 "definition": "Dicho de un paño u otro tejido de lana: Que tiene una urdimbre de doce centenares de hilos."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "definition": "Conjunto de doce unidades."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "definition": "Peso de doce libras, que se usó en Navarra."
             }
         ]
     },
@@ -26188,27 +26188,27 @@
             },
             {
                 "number": "9",
-                "type": "adverbio",
-                "type_extra": "desusado, relativo",
-                "definition": "De donde. Se acogió a las tinajas donde había sacado su agradable lágrima."
-            },
-            {
-                "number": "10",
                 "type": "preposición",
                 "type_extra": "coloquial",
                 "definition": "Cerca de o en casa de. El banco está donde la fuente. Estuve donde Antonio."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "preposición",
                 "type_extra": "coloquial, Usado precedido de preposición",
                 "definition": "El lugar de o la casa de. Merodeaba por donde Antonio."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "preposición",
                 "type_extra": "coloquial",
                 "definition": "Al lugar de o a casa de. Fuimos donde Antonio."
+            },
+            {
+                "number": "12",
+                "type": "adverbio",
+                "type_extra": "desusado, relativo",
+                "definition": "De donde. Se acogió a las tinajas donde había sacado su agradable lágrima."
             }
         ]
     },
@@ -26931,19 +26931,19 @@
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "medicamento."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
                 "type_extra": "Canarias y México",
                 "definition": "Deuda, a veces la que no se piensa pagar."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "Uruguay",
                 "definition": "Cosa aburrida, tediosa o de mala calidad."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "medicamento."
             },
             {
                 "number": "7",
@@ -27141,14 +27141,14 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Pundonor o empeño de honor."
+                "type_extra": "Usado más en plural",
+                "definition": "Fatiga, trabajo."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "Usado más en plural",
-                "definition": "Fatiga, trabajo."
+                "type_extra": "desusado",
+                "definition": "Pundonor o empeño de honor."
             }
         ]
     },
@@ -27176,30 +27176,30 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Ayo, preceptor."
-            },
-            {
-                "number": "4",
                 "type": "nombre femenino",
                 "definition": "En la lírica amorosa antigua, mujer amada."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "definition": "Monja o beata que vivía antiguamente en comunidad y solía ser mujer principal."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Mujer viuda que para autoridad y respeto, y para guarda de las demás criadas, había en las casas principales."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Era usado o usada",
                 "definition": "para referirse a la señora o mujer principal casada."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Ayo, preceptor."
             },
             {
                 "number": "8",
@@ -27233,30 +27233,30 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Ayo, preceptor."
-            },
-            {
-                "number": "4",
                 "type": "nombre femenino",
                 "definition": "En la lírica amorosa antigua, mujer amada."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "definition": "Monja o beata que vivía antiguamente en comunidad y solía ser mujer principal."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Mujer viuda que para autoridad y respeto, y para guarda de las demás criadas, había en las casas principales."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Era usado o usada",
                 "definition": "para referirse a la señora o mujer principal casada."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Ayo, preceptor."
             },
             {
                 "number": "8",
@@ -27290,30 +27290,30 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Ayo, preceptor."
-            },
-            {
-                "number": "4",
                 "type": "nombre femenino",
                 "definition": "En la lírica amorosa antigua, mujer amada."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "definition": "Monja o beata que vivía antiguamente en comunidad y solía ser mujer principal."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Mujer viuda que para autoridad y respeto, y para guarda de las demás criadas, había en las casas principales."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Era usado o usada",
                 "definition": "para referirse a la señora o mujer principal casada."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Ayo, preceptor."
             },
             {
                 "number": "8",
@@ -29334,8 +29334,8 @@
             {
                 "number": "1",
                 "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "De el; p. ej., la naturaleza del hombre, por la naturaleza de el hombre. Del águila, por de el águila."
+                "definition": "De el; p. ej., la naturaleza del hombre, por la naturaleza de el hombre. Del águila, por de el águila.",
+                "type_extra": "sin verificar"
             }
         ]
     },
@@ -29455,13 +29455,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Manifestar con palabras el pensamiento.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "hablar, articular2, recitar, parlotear, parlar, ponerse, bosticar."
+                        "content": "hablar, recitar, parlotear, parlar, bosticar, ponerse."
                     },
                     {
                         "type": "Antónimos",
@@ -29471,20 +29470,18 @@
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Asegurar, sostener, opinar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "declarar, manifestar, expresar, exponer, mencionar, formular1, anunciar, enunciar, afirmar, asegurar, aseverar, proponer, contar, sostener, enumerar, opinar."
+                        "content": "declarar, manifestar, expresar, exponer, mencionar, formular, anunciar, enunciar, afirmar, asegurar, aseverar, proponer, contar, sostener, enumerar, opinar."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Nombrar o llamar.",
                 "definition_extra": [
                     {
@@ -29495,20 +29492,7 @@
             },
             {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Denotar algo o dar muestras de ello.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "mostrar, indicar."
-                    }
-                ]
-            },
-            {
-                "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Dicho de un libro, de un escrito, etc.: Contener ciertos temas, ideas, etc.",
                 "definition_extra": [
                     {
@@ -29518,33 +29502,34 @@
                 ]
             },
             {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Denotar algo o dar muestras de ello.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "mostrar, indicar."
+                    }
+                ]
+            },
+            {
                 "number": "6",
-                "type": "verbo",
-                "definition": "Pedir, rogar.",
-                "type_extra": "obsolete, sin verificar"
+                "type": "verbo pronominal",
+                "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra."
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "definition": "Trovar, versificar.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho del juego, del año, de la cosecha, etc.: Ser o no favorable."
             },
             {
-                "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "8",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Convenir, armonizar con otra."
             },
             {
-                "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "9",
+                "type": "verbo intransitivo",
                 "definition": "Dicho del perro: latir.",
                 "definition_extra": [
                     {
@@ -29554,22 +29539,21 @@
                 ]
             },
             {
-                "number": "11",
-                "type": "verbo",
+                "number": "10",
+                "type": "verbo intransitivo",
                 "definition": "Dar principio a una acción.",
-                "type_extra": "colloquial, sin verificar"
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "echar."
+                    }
+                ]
             },
             {
-                "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Expresar un pensamiento mentalmente, o sin dirigir a otro la palabra."
-            },
-            {
-                "number": "13",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "dicho (‖ palabra o conjunto de palabras).",
+                "number": "11",
+                "type": "nombre masculino",
+                "definition": "dicho.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -29578,22 +29562,33 @@
                 ]
             },
             {
-                "number": "14",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "12",
+                "type": "nombre masculino",
                 "definition": "Dicho notable por la sentencia, por la oportunidad o por otro motivo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "máxima, sentencia, aforismo, adagio1, proverbio."
+                        "content": "máxima, sentencia, aforismo, adagio, proverbio."
                     }
                 ]
             },
             {
+                "number": "13",
+                "type": "verbo transitivo",
+                "definition": "Trovar, versificar.",
+                "type_extra": "desusado"
+            },
+            {
+                "number": "14",
+                "type": "verbo transitivo",
+                "definition": "Pedir, rogar.",
+                "type_extra": "desusado"
+            },
+            {
                 "number": "15",
-                "type": "nombre",
+                "type": "nombre masculino",
                 "definition": "Composición poética no destinada al canto.",
-                "type_extra": "obsolete, sin verificar"
+                "type_extra": "desusado"
             }
         ]
     },
@@ -29691,28 +29686,26 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que dirige.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "dirigente, directivo, conductor."
+                        "content": "directivo, directiva, conductor, conductora, dirigente."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino y femenino",
                 "definition": "Persona que dirige algo en razón de su profesión o de su cargo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "presidente, jefe, directivo, dirigente, gerente, conductor, dire, realizador, bastonero."
+                        "content": "presidente, presidenta, jefe, jefa, directivo, directiva, dirigente, gerente, gerenta, conductor, conductora, realizador, realizadora, bastonero, bastonera, dire."
                     },
                     {
                         "type": "Antónimos",
-                        "content": "subordinado, subalterno."
+                        "content": "subordinado, subordinada, subalterno, subalterna."
                     }
                 ]
             }
@@ -29964,21 +29957,24 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En qué lugar."
+                "type": "adverbio",
+                "definition": "En qué lugar.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "en dónde."
+                    }
+                ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "adverbio",
                 "definition": "Qué lugar."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "A qué lugar. generalmente con verbos que indican movimiento o destino.",
+                "type": "adverbio",
+                "definition": "A qué lugar.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -29988,9 +29984,8 @@
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Lugar o sitio. precedido generalmente del artículo el."
+                "type": "nombre masculino",
+                "definition": "Lugar o sitio."
             }
         ]
     }
