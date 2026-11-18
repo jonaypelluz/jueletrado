@@ -370,8 +370,8 @@ describe('D9 sense order', () => {
         });
     const d9 = (findings: Array<{ category: string }>) => findings.filter((finding) => finding.category === 'D9');
 
-    test.each(['desusado', 'poco usado', 'obsolete, sin verificar'])(
-        'moves a %s sense and a single-word sense after the others and renumbers 1..n',
+    test.each(['desusado', 'desusada, desusado'])(
+        'moves a %s sense and a single-word noun sense after the others and renumbers 1..n',
         (typeExtra) => {
             const result = audit('es', [
                 { number: '1', type: 'nombre femenino', type_extra: typeExtra, definition: 'Sentido antiguo.' },
@@ -389,8 +389,30 @@ describe('D9 sense order', () => {
         },
     );
 
+    test('moves letter-name senses after the common meaning', () => {
+        const result = audit('es', [
+            sense('Primera letra del abecedario español, que representa el fonema vocálico abierto.', 'nombre femenino', '1'),
+            sense('Sonido que representa la letra a.', 'nombre femenino', '2'),
+            sense('En la lógica escolástica, letra que representa la proposición universal afirmativa.', 'nombre femenino', '3'),
+            sense('Precede al complemento indirecto.', 'preposición', '4'),
+        ]);
+
+        expect(result.definitions.p.palabra.definitions.map((s: { definition: string }) => s.definition)).toEqual([
+            'Precede al complemento indirecto.',
+            'Primera letra del abecedario español, que representa el fonema vocálico abierto.',
+            'Sonido que representa la letra a.',
+            'En la lógica escolástica, letra que representa la proposición universal afirmativa.',
+        ]);
+    });
+
     test.each([
         ['es', [sense('Sentido general.', 'nombre femenino', '1'), { number: '2', type: 'nombre femenino', type_extra: 'desusado', definition: 'Sentido antiguo.' }]],
+        ['es', [{ number: '1', type: 'nombre masculino', type_extra: 'poco usado', definition: 'Autoridad municipal.' }, sense('En algunos juegos de naipes, quien reparte.', 'nombre masculino', '2')]],
+        ['es', [{ number: '1', type: 'adjetivo', type_extra: 'rare, sin verificar', definition: 'Sentido raro.' }, sense('Sentido general.', 'adjetivo', '2')]],
+        ['es', [{ number: '1', type: 'adjetivo', type_extra: 'desusada', definition: 'Conocido como verdadero.' }, sense('Sentido general.', 'adjetivo', '2')]],
+        ['es', [sense('donar.', 'verbo transitivo', '1'), sense('Ofrecer materia para algo.', 'verbo transitivo', '2')]],
+        ['es', [sense('quieto.', 'adjetivo', '1'), sense('Hora de la noche.', 'nombre femenino', '2')]],
+        ['es', [{ number: '1', type: 'nombre', type_extra: 'obsolete, sin verificar', definition: 'palabra.' }, sense('Demandante o acusador.', 'nombre', '2')]],
         ['en', [{ number: 1, type: 'noun', type_extra: 'obsolete', definition: 'An old sense.' }, { number: 2, type: 'noun', definition: 'The usual sense.' }]],
     ] as const)('leaves %s senses in place when no reorder applies', (locale, senses) => {
         const result = audit(locale, [...senses]);

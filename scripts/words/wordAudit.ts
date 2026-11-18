@@ -137,8 +137,13 @@ const EN_FORM_OF_RE = new RegExp(
         'eye dialect of|nonstandard spelling of|(comparative|superlative) form of)\\b',
     'i',
 );
-/** D9: a sense with one of these usage labels (Spanish or legacy English) goes after the others. */
-const SECONDARY_USAGE_RE = /\b(desusado|poco usado|obsolete|outdated|rare)\b/i;
+/**
+ * D9: a sense with this usage label goes after the others. `poco usado`, a lone `desusada` and the legacy English
+ * `obsolete`/`rare` are left out: they tag core senses too (alcalde, cierto, actor), so demoting them made sense 1 worse.
+ */
+const SECONDARY_USAGE_RE = /\bdesusado\b/i;
+/** D9: an RAE letter-name sense (`Primera letra del abecedario español…`), secondary to a word's common meaning (a, o, y). */
+const LETTER_NAME_RE = /\bletra del abecedario español\b|^Sonido que representa la letra\b|^En la lógica escolástica, letra\b/;
 const ES_FORM_OF_RE = /^((plural|femenino|participio|gerundio)|forma (plural|femenina|masculina)) de \p{L}+\.$/iu;
 const TRUNCATED_RE = /[,;:]\.?$/;
 /** A list lead-in left dangling once the truncated list is cut (`…, particularly.`); dropped so the sense reads as a sentence. */
@@ -394,20 +399,28 @@ const withType = (sense: Sense, type: string, typeExtra: string | undefined): Se
     return result as Sense;
 };
 
-const isSecondarySense = (sense: Sense): boolean =>
-    SECONDARY_USAGE_RE.test(sense.type_extra ?? '') || ES_SINGLE_WORD_RE.test(sense.definition);
+/**
+ * D9 secondary sense: `desusado`, a letter name, or a one-word noun sense pointing to a word outside the beginner
+ * list (enebro, hado, cafeto). A one-word verb/adjective sense (donar, quieto) or one pointing to a beginner word
+ * (felicidad, autor) is the core synonym and stays.
+ */
+const isSecondarySense = (sense: Sense, beginner: ReadonlySet<string>): boolean => {
+    if (SECONDARY_USAGE_RE.test(sense.type_extra ?? '') || LETTER_NAME_RE.test(sense.definition)) return true;
+    if (!ES_SINGLE_WORD_RE.test(sense.definition) || !sense.type?.startsWith('nombre')) return false;
+    return !beginner.has(sense.definition.replace(/\d*\.$/, ''));
+};
 
-/** D9: stable partition, primary senses first, then outdated/rare/single-word senses. */
-const orderSenses = (senses: Sense[]): Sense[] => [
-    ...senses.filter((sense) => !isSecondarySense(sense)),
-    ...senses.filter(isSecondarySense),
+/** D9: stable partition, primary senses first, then secondary senses. */
+const orderSenses = (senses: Sense[], beginner: ReadonlySet<string>): Sense[] => [
+    ...senses.filter((sense) => !isSecondarySense(sense, beginner)),
+    ...senses.filter((sense) => isSecondarySense(sense, beginner)),
 ];
 
 const senseOrderLabel = (senses: Sense[]): string =>
     `${senses[0].definition} (${senses.map((sense) => sense.number).join(' ')})`;
 
 /** Sense and type rules on one entry; returns the kept senses (renumbered) and pushes findings. */
-const auditSenses = (word: string, senses: Sense[], locale: Locale, findings: Finding[]): Sense[] => {
+const auditSenses = (word: string, senses: Sense[], locale: Locale, beginner: ReadonlySet<string>, findings: Finding[]): Sense[] => {
     const kept: Sense[] = [];
     for (const original of senses) {
         const verdict = classifySense(original, locale);
@@ -437,7 +450,7 @@ const auditSenses = (word: string, senses: Sense[], locale: Locale, findings: Fi
         return verdict.finding.action === 'FIX' ? withType(sense, verdict.type, verdict.typeExtra) : sense;
     });
 
-    const ordered = locale === 'es' ? orderSenses(typed) : typed;
+    const ordered = locale === 'es' ? orderSenses(typed, beginner) : typed;
     if (ordered.some((sense, index) => sense !== typed[index])) {
         findings.push({ word, category: 'D9', action: 'FIX', from: senseOrderLabel(typed), to: senseOrderLabel(ordered) });
     }
@@ -491,6 +504,7 @@ export const auditLocale = (input: LocaleInput): AuditResult => {
         }
     }
 
+    const beginner = new Set(lists.beginner);
     const definitions: Record<string, DefinitionFile> = {};
     for (const [letter, file] of Object.entries(input.definitions)) {
         const out: DefinitionFile = {};
@@ -503,7 +517,7 @@ export const auditLocale = (input: LocaleInput): AuditResult => {
                 findings.push({ word, category: rename.category, action: 'FLAG', detail: `merged ${key} into existing ${word}; existing senses kept` });
                 continue;
             }
-            const senses = auditSenses(word, entry.definitions ?? [], locale, findings);
+            const senses = auditSenses(word, entry.definitions ?? [], locale, beginner, findings);
             if (senses.length > 0) out[word] = { ...entry, definitions: senses };
         }
         definitions[letter] = out;
