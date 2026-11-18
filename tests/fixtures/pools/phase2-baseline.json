@@ -1,83 +1,83 @@
 {
     "es/beginner/wordBuilder": {
-        "count": 2934,
+        "count": 2933,
         "min": null,
-        "hash": "3ff9d8984e5088aa"
+        "hash": "3cccb2b579856e87"
     },
     "es/beginner/wordFinder": {
-        "count": 401,
+        "count": 400,
         "min": 60,
-        "hash": "23e2123f69aa4f73"
+        "hash": "e9a7984a98dfdfd5"
     },
     "es/beginner/spellTower": {
-        "count": 2771,
+        "count": 2770,
         "min": 120,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/wordsRain": {
-        "count": 2771,
+        "count": 2770,
         "min": 150,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/dailyWord": {
-        "count": 2771,
+        "count": 2770,
         "min": 7,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/prefetch/WORDS_DAILY": {
-        "count": 2771,
+        "count": 2770,
         "min": 7,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/prefetch/WORDS_FINDER": {
-        "count": 2431,
+        "count": 2430,
         "min": 60,
-        "hash": "61c3615e498def9c"
+        "hash": "1bc1bf07ed96b2bf"
     },
     "es/beginner/prefetch/WORDS_TOWER": {
-        "count": 2771,
+        "count": 2770,
         "min": 120,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/prefetch/WORDS_RAIN": {
-        "count": 2771,
+        "count": 2770,
         "min": 150,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/prefetch/WORDS_ACCENT": {
-        "count": 2771,
+        "count": 2770,
         "min": 80,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/prefetch/WORDS_MATCHER": {
-        "count": 2771,
+        "count": 2770,
         "min": 80,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/prefetch/WORDS_SYLLABLE": {
-        "count": 2771,
+        "count": 2770,
         "min": 60,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/wordChain/seed": {
-        "count": 2771,
+        "count": 2770,
         "min": 20,
-        "hash": "accd65e8214a35a6"
+        "hash": "c364a6a607c7b58e"
     },
     "es/beginner/accentFixer/window": {
-        "count": 1324,
+        "count": 1323,
         "min": 80,
-        "hash": "c0c75954eeae0931"
+        "hash": "d28087a9de06bd13"
     },
     "es/beginner/accentFixer/eligible": {
-        "count": 1224,
+        "count": 1223,
         "min": 10,
-        "hash": "3d5d302f7338bf95"
+        "hash": "e0ff2c27501bd3ec"
     },
     "es/beginner/letterMatcher/window": {
-        "count": 1324,
+        "count": 1323,
         "min": 80,
-        "hash": "c0c75954eeae0931"
+        "hash": "d28087a9de06bd13"
     },
     "es/beginner/letterMatcher/eligible": {
         "count": 407,
@@ -85,9 +85,9 @@
         "hash": "94df73d3f71f3bd2"
     },
     "es/beginner/syllableSplitter/window": {
-        "count": 1324,
+        "count": 1323,
         "min": 60,
-        "hash": "c0c75954eeae0931"
+        "hash": "d28087a9de06bd13"
     },
     "es/beginner/syllableSplitter/eligible": {
         "count": 1294,
