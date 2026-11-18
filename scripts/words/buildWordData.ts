@@ -55,7 +55,7 @@ export type BuildReport = {
 const frequencyPath = (root: string, locale: Locale): string => path.join(root, 'ops/scripts/frequency', `wordfreq_${locale}.txt`);
 
 /** word → 1-based rank (line index); the first occurrence of a word wins. */
-const loadFrequencyRanks = async (root: string, locale: Locale): Promise<Map<string, number>> => {
+export const loadFrequencyRanks = async (root: string, locale: Locale): Promise<Map<string, number>> => {
     const filePath = frequencyPath(root, locale);
     if (!existsSync(filePath)) throw new MissingDataFileError(filePath);
     const ranks = new Map<string, number>();

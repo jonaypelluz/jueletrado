@@ -12,6 +12,7 @@
  *   --dry-run             Print what would change, write nothing
  *   --locale <es|en>      Only process entries for this locale
  *   --letter <l>          Only process entries for words starting with this letter
+ *   --replace             Replace an existing word's senses wholesale (keeps its level) instead of merging by number
  *
  * Examples:
  *   tsx scripts/crawlers/mergeDefinitions.ts ops/crawl-output/es/1234.jsonl
@@ -23,8 +24,6 @@ import { readFile, writeFile, mkdir } from 'fs/promises';
 import { existsSync, createReadStream } from 'fs';
 import * as path from 'path';
 import * as readline from 'readline';
-
-const ROOT = process.cwd();
 
 interface DefinitionExtra {
     type: string;
@@ -56,7 +55,7 @@ interface CrawlEntry {
     definitions: Definition[];
 }
 
-async function readJSONL(filePath: string): Promise<CrawlEntry[]> {
+export async function readJSONL(filePath: string): Promise<CrawlEntry[]> {
     const entries: CrawlEntry[] = [];
     const rl = readline.createInterface({
         input: createReadStream(filePath),
@@ -74,12 +73,12 @@ async function readJSONL(filePath: string): Promise<CrawlEntry[]> {
     return entries;
 }
 
-function getDefinitionsDir(locale: string): string {
-    return path.join(ROOT, 'public/definitions', locale);
+function getDefinitionsDir(root: string, locale: string): string {
+    return path.join(root, 'public/definitions', locale);
 }
 
-function getLetterFilePath(locale: string, letter: string): string {
-    return path.join(getDefinitionsDir(locale), `${letter}_definitions.json`);
+function getLetterFilePath(root: string, locale: string, letter: string): string {
+    return path.join(getDefinitionsDir(root, locale), `${letter}_definitions.json`);
 }
 
 function firstLetter(word: string, locale: string): string {
@@ -96,7 +95,11 @@ async function loadFile(filePath: string): Promise<DefinitionsFile> {
     return JSON.parse(await readFile(filePath, 'utf-8')) as DefinitionsFile;
 }
 
-function mergeEntry(existing: WordEntry | undefined, incoming: CrawlEntry): { entry: WordEntry; changed: boolean } {
+export function mergeEntry(
+    existing: WordEntry | undefined,
+    incoming: CrawlEntry,
+    { replace = false }: { replace?: boolean } = {},
+): { entry: WordEntry; changed: boolean } {
     if (!existing) {
         return {
             entry: {
@@ -105,6 +108,11 @@ function mergeEntry(existing: WordEntry | undefined, incoming: CrawlEntry): { en
             },
             changed: true,
         };
+    }
+
+    if (replace) {
+        const entry: WordEntry = { ...existing, definitions: incoming.definitions };
+        return { entry, changed: JSON.stringify(entry) !== JSON.stringify(existing) };
     }
 
     let changed = false;
@@ -133,11 +141,72 @@ function mergeEntry(existing: WordEntry | undefined, incoming: CrawlEntry): { en
     return { entry, changed };
 }
 
+export interface MergeTotals {
+    totalWords: number;
+    totalNew: number;
+    totalUpdated: number;
+}
+
+/** Merges crawl entries into public/definitions under root, writing each changed letter file (unless dryRun). */
+export async function mergeIntoFiles(
+    root: string,
+    entries: CrawlEntry[],
+    { replace = false, dryRun = false }: { replace?: boolean; dryRun?: boolean } = {},
+): Promise<MergeTotals> {
+    // Group by locale → letter → word
+    const grouped = new Map<string, Map<string, CrawlEntry[]>>();
+    for (const entry of entries) {
+        const letter = firstLetter(entry.word, entry.locale);
+        if (!grouped.has(entry.locale)) grouped.set(entry.locale, new Map());
+        const byLetter = grouped.get(entry.locale)!;
+        if (!byLetter.has(letter)) byLetter.set(letter, []);
+        byLetter.get(letter)!.push(entry);
+    }
+
+    const totals: MergeTotals = { totalWords: 0, totalNew: 0, totalUpdated: 0 };
+
+    for (const [locale, byLetter] of grouped) {
+        for (const [letter, letterEntries] of byLetter) {
+            const filePath = getLetterFilePath(root, locale, letter);
+            const data = await loadFile(filePath);
+            let fileChanged = false;
+
+            for (const crawlEntry of letterEntries) {
+                const { entry, changed } = mergeEntry(data[crawlEntry.word], crawlEntry, { replace });
+                if (changed) {
+                    const isNew = !data[crawlEntry.word];
+                    data[crawlEntry.word] = entry;
+                    fileChanged = true;
+                    totals.totalWords++;
+                    if (isNew) {
+                        totals.totalNew++;
+                        console.log(`  [new]     ${locale}/${letter}: ${crawlEntry.word} (${entry.definitions.length} defs)`);
+                    } else {
+                        totals.totalUpdated++;
+                        console.log(`  [updated] ${locale}/${letter}: ${crawlEntry.word}`);
+                    }
+                } else {
+                    console.log(`  [no-op]   ${locale}/${letter}: ${crawlEntry.word}`);
+                }
+            }
+
+            if (fileChanged && !dryRun) {
+                await mkdir(getDefinitionsDir(root, locale), { recursive: true });
+                await writeFile(filePath, JSON.stringify(data, null, 4), 'utf-8');
+                console.log(`Wrote ${filePath}`);
+            }
+        }
+    }
+
+    return totals;
+}
+
 async function main(): Promise<void> {
     const args = process.argv.slice(2);
 
     const flagIndices = new Set<number>();
     const dryRun = args.includes('--dry-run');
+    const replace = args.includes('--replace');
     const localeIdx = args.indexOf('--locale');
     const localeFilter = localeIdx !== -1 ? args[localeIdx + 1] : null;
     const letterIdx = args.indexOf('--letter');
@@ -174,57 +243,15 @@ async function main(): Promise<void> {
         return;
     }
 
-    // Group by locale → letter → word
-    const grouped = new Map<string, Map<string, CrawlEntry[]>>();
-    for (const entry of allEntries) {
-        if (localeFilter && entry.locale !== localeFilter) continue;
-        const letter = firstLetter(entry.word, entry.locale);
-        if (letterFilter && letter !== letterFilter) continue;
+    const selected = allEntries.filter((entry) =>
+        (!localeFilter || entry.locale === localeFilter) &&
+        (!letterFilter || firstLetter(entry.word, entry.locale) === letterFilter));
 
-        if (!grouped.has(entry.locale)) grouped.set(entry.locale, new Map());
-        const byLetter = grouped.get(entry.locale)!;
-        if (!byLetter.has(letter)) byLetter.set(letter, []);
-        byLetter.get(letter)!.push(entry);
-    }
-
-    let totalWords = 0;
-    let totalNew = 0;
-    let totalUpdated = 0;
-
-    for (const [locale, byLetter] of grouped) {
-        for (const [letter, entries] of byLetter) {
-            const filePath = getLetterFilePath(locale, letter);
-            const data = await loadFile(filePath);
-            let fileChanged = false;
-
-            for (const crawlEntry of entries) {
-                const { entry, changed } = mergeEntry(data[crawlEntry.word], crawlEntry);
-                if (changed) {
-                    const isNew = !data[crawlEntry.word];
-                    data[crawlEntry.word] = entry;
-                    fileChanged = true;
-                    totalWords++;
-                    if (isNew) {
-                        totalNew++;
-                        console.log(`  [new]     ${locale}/${letter}: ${crawlEntry.word} (${entry.definitions.length} defs)`);
-                    } else {
-                        totalUpdated++;
-                        console.log(`  [updated] ${locale}/${letter}: ${crawlEntry.word}`);
-                    }
-                } else {
-                    console.log(`  [no-op]   ${locale}/${letter}: ${crawlEntry.word}`);
-                }
-            }
-
-            if (fileChanged && !dryRun) {
-                await mkdir(getDefinitionsDir(locale), { recursive: true });
-                await writeFile(filePath, JSON.stringify(data, null, 4), 'utf-8');
-                console.log(`Wrote ${filePath}`);
-            }
-        }
-    }
+    const { totalNew, totalUpdated, totalWords } = await mergeIntoFiles(process.cwd(), selected, { replace, dryRun });
 
     console.log(`\nDone. New: ${totalNew}  Updated: ${totalUpdated}  Total changed: ${totalWords}${dryRun ? ' (dry-run, nothing written)' : ''}`);
 }
 
-main().catch((err) => { console.error(err); process.exit(1); });
+if (require.main === module) {
+    main().catch((err) => { console.error(err); process.exit(1); });
+}

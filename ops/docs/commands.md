@@ -104,7 +104,7 @@ for any other reason is logged and the run continues.
 ### `tsx scripts/crawlers/crawlRAE.ts <wordsFile> [options]`
 
 Fetches ES definitions from [rae-api.com](https://rae-api.com) (unofficial RAE
-API). Requires `RAE_API_KEY` in `.env.local`. Free tier: 10 req/min, 100 req/day.
+API). Reads `RAE_API_KEY` from `.env.local` (optional, see below). Free tier: 10 req/min, 100 req/day.
 
 ```bash
 yarn tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt \
@@ -123,6 +123,51 @@ yarn tsx scripts/crawlers/crawlRAE.ts ops/scripts/words/es/beginner_words.txt \
 | `--delay <min>-<max>` | Random delay in ms between requests (default `7000-15000`) |
 | `--quiet-skip` | Suppress per-word skip messages, show a total at the end |
 | `--not-found-file <f>` | Track words with no RAE entry (default: `ops/crawl-output/es/not-found.txt`) |
+
+`RAE_API_KEY` is optional: without it the crawler warns and uses the anonymous tier (same limits).
+
+**Type mapping** (every run, including `crawl:all`): rae-api returns English categories, so the
+crawler writes the Spanish type from the closed list (`ES_TYPES` in `scripts/words/wordAudit.ts`):
+
+| Source, in order | Result |
+|---|---|
+| `category_labels[0]` (`sustantivo` → `nombre`), normalised like the audit's T1 | e.g. `sustantivo femenino` → `nombre femenino`, `verbo copulativo`; a bare `sustantivo`/`verbo` falls through |
+| `category` + `gender` (noun) / `verb_category` (verb); English, Spanish or RAE abbreviation (`m`, `f`, `m y f`, `tr`, `intr`, `prnl`, `copulat`, `impers`, `aux`) | `nombre masculino`, `verbo transitivo`, `adjetivo`… |
+| noun/verb with no usable gender or verb class | `nombre`/`verbo` + `type_extra` `sin verificar` (T2 FLAG); the raw value is logged once per run |
+| `usage` | `obsolete`/`outdated` → `desusado`, `rare` → `poco usado`, `colloquial` → `coloquial`, otherwise nothing; joined with `, ` before the marker |
+
+Only `usage` is kept: RAE domain/register labels (e.g. `América`, `Usado ante sustantivo`) are not written to
+`type_extra`, so a replaced word loses them.
+
+Sub-meanings (`sub_meaning` a/b/c) are not flattened.
+
+### `yarn crawl:recrawl-es [--check] [--limit <n>] [--root <dir>]`
+
+Re-crawls es words with weak definitions from RAE and **replaces** their senses (JUE-0009 Phase 3).
+Run it once a day until `--check` shows 0 pending.
+
+- **Queue** = C1 ∪ C2: C1 every sense is a single word (D3b) or a form-of reference; C2 a sense has an
+  empty type or `sin verificar` in `type_extra`. C3 (more than 6 senses) is printed for information only:
+  those words already have Spanish types and labels, a re-crawl would drop the labels and often adds
+  sub-senses, so the audit's D9 sense order handles them.
+- **Order:** frequency rank (`ops/scripts/frequency/wordfreq_es.txt`), unranked words last in Spanish
+  alphabetical order. At most `--limit` words per run (1–100, default 100: the RAE daily quota).
+- **Files:** `ops/crawl-output/es-recrawl/` (gitignored) holds `queue.txt`, the crawler JSONL and
+  `not-found.txt`. Progress is tracked in git at `ops/crawl-progress/es-recrawl.json`:
+  `{ "version": 1, "done": { "<word>": { "status": "replaced" | "not-found", "at": "YYYY-MM-DD" } } }`.
+- **Resume:** words already in the JSONL or the not-found file are not re-fetched; leftover JSONL
+  entries from an interrupted run are merged on the next run. A word whose fetch failed is not recorded,
+  so a later run retries it. A not-found word keeps its current entry.
+- **Merge:** replace mode (`crawl:merge --replace`), only for words already in `public/definitions/es/`.
+- `--check` prints C1/C2/C3, the queue, done words by status, pending and the next 20, and writes nothing.
+
+| Exit | Meaning |
+|---|---|
+| `0` | Check done, or run finished (also "nothing to re-crawl") |
+| `1` | I/O failure, invalid progress file, or the crawler failed (no merge; saved progress kept) |
+| `2` | Bad arguments, or the RAE daily quota ran out (merge and progress are written first) |
+
+Then, as after any crawl: `yarn words:audit --fix`, `yarn words:build`.
 
 ### `tsx scripts/crawlers/crawlDictionary.ts <wordsFile> [options]`
 
@@ -155,6 +200,10 @@ yarn crawl:merge ops/crawl-output/en/j.jsonl --locale en --letter j
 | `--dry-run` | Print what would change, write nothing |
 | `--locale <es\|en>` | Only process entries for this locale |
 | `--letter <l>` | Only process entries for words starting with this letter |
+| `--replace` | Replace a word's `definitions` wholesale instead of merging by `number`; `level` is kept |
+
+**Existing es words: always merge with `--replace`.** The audit's D9 renumbers es senses away from RAE order, so a
+default merge (by `number`) of a fresh RAE crawl would overwrite the wrong senses.
 
 ### `yarn crawl:check-en <inputFile> [--output <file>]`
 
@@ -284,6 +333,7 @@ its definition key, senses are renumbered 1..n):
 | D6 | Duplicate sense text in one word | DELETE the later one |
 | D7 | en `proper noun` sense | DELETE |
 | D8 | Extra whitespace | FIX |
+| D9 | es sense order: `desusado` senses, RAE letter-name senses (`… letra del abecedario español …`, `Sonido que representa la letra …`) and one-word noun senses pointing to a word outside the beginner list (`enebro.`, `cafeto.`) go after the others, stable; RAE order is kept otherwise, so sense 1 is the common meaning games show first. `poco usado`, a lone `desusada`, legacy `obsolete`/`rare` and one-word verb/adjective senses (`donar.`, `quieto.`) or ones pointing to a beginner word (`felicidad.`) stay: they also tag core senses | FIX |
 | T1 | Type outside the closed list: mapped (es register qualifiers and subclasses go to `type_extra`) | FIX; FLAG if unmapped |
 | T2 | es English label mapped to a generic type (`type_extra` gets `sin verificar`) | FLAG |
 | T3 | Missing type | FLAG |

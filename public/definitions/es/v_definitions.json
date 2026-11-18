@@ -184,49 +184,49 @@
             },
             {
                 "number": "34",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "Obrar, proceder."
-            },
-            {
-                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Morirse o estarse muriendo."
             },
             {
-                "number": "36",
+                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un líquido: Salirse insensiblemente del recipiente en que está."
             },
             {
-                "number": "37",
+                "number": "36",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un recipiente: Dejar escapar el líquido que hay en él. Este vaso, esta fuente se va."
             },
             {
-                "number": "38",
+                "number": "37",
                 "type": "verbo pronominal",
                 "definition": "Deslizarse, perder el equilibrio. Irse los pies. Irse la pared."
             },
             {
-                "number": "39",
+                "number": "38",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Desaparecer, consumirse o perderse. Esa idea se ha ido ya de mi mente."
             },
             {
-                "number": "40",
+                "number": "39",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una tela: Desgarrarse, romperse, envejecerse."
             },
             {
-                "number": "41",
+                "number": "40",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Ventosear o hacer sus necesidades involuntariamente."
             },
             {
-                "number": "42",
+                "number": "41",
                 "type": "verbo pronominal",
                 "definition": "Descartarse de una o varias cartas de la baraja. Se fue de los ases."
+            },
+            {
+                "number": "42",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "Obrar, proceder."
             }
         ]
     },
@@ -609,15 +609,15 @@
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Vacante, vaco."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Aragón",
                 "definition": "Solar vacío."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Vacante, vaco."
             }
         ]
     },
@@ -652,15 +652,15 @@
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Vacante, vaco."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Aragón",
                 "definition": "Solar vacío."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Vacante, vaco."
             }
         ]
     },
@@ -681,33 +681,33 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Adiós o despedida que se da a un muerto, o el que se dice al remate o término de algo. Vale último, postrero."
+                "definition": "Nota o apuntación firmada y a veces sellada, que se da a quien ha de entregar algo, para que después acredite la entrega y cobre el importe."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Nota o apuntación firmada y a veces sellada, que se da a quien ha de entregar algo, para que después acredite la entrega y cobre el importe."
+                "definition": "Papel que en algunos centros de enseñanza se da como premio a un discípulo para que en caso necesario pueda aspirar a una recompensa mayor, o para redimir y hacerse perdonar una falta."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Papel que en algunos centros de enseñanza se da como premio a un discípulo para que en caso necesario pueda aspirar a una recompensa mayor, o para redimir y hacerse perdonar una falta."
+                "definition": "Envite que con las primeras cartas se hace en algunos juegos de naipes."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Envite que con las primeras cartas se hace en algunos juegos de naipes."
+                "definition": "Entrada gratuita para un espectáculo público."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "definition": "Entrada gratuita para un espectáculo público."
+                "definition": "vale real."
             },
             {
                 "number": "7",
                 "type": "nombre masculino",
-                "definition": "vale real."
+                "type_extra": "desusado",
+                "definition": "Adiós o despedida que se da a un muerto, o el que se dice al remate o término de algo. Vale último, postrero."
             }
         ]
     },
@@ -1219,14 +1219,14 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "vanguardismo."
+                "type_extra": "en plural",
+                "definition": "Lugares, en los ribazos y orillas de los ríos, donde arrancan las obras de construcción de un puente o de una presa."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "type_extra": "en plural",
-                "definition": "Lugares, en los ribazos y orillas de los ríos, donde arrancan las obras de construcción de un puente o de una presa."
+                "type_extra": "plural",
+                "definition": "vanguardismo."
             }
         ]
     },
@@ -2037,49 +2037,49 @@
             },
             {
                 "number": "34",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "Obrar, proceder."
-            },
-            {
-                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Morirse o estarse muriendo."
             },
             {
-                "number": "36",
+                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un líquido: Salirse insensiblemente del recipiente en que está."
             },
             {
-                "number": "37",
+                "number": "36",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un recipiente: Dejar escapar el líquido que hay en él. Este vaso, esta fuente se va."
             },
             {
-                "number": "38",
+                "number": "37",
                 "type": "verbo pronominal",
                 "definition": "Deslizarse, perder el equilibrio. Irse los pies. Irse la pared."
             },
             {
-                "number": "39",
+                "number": "38",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Desaparecer, consumirse o perderse. Esa idea se ha ido ya de mi mente."
             },
             {
-                "number": "40",
+                "number": "39",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una tela: Desgarrarse, romperse, envejecerse."
             },
             {
-                "number": "41",
+                "number": "40",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Ventosear o hacer sus necesidades involuntariamente."
             },
             {
-                "number": "42",
+                "number": "41",
                 "type": "verbo pronominal",
                 "definition": "Descartarse de una o varias cartas de la baraja. Se fue de los ases."
+            },
+            {
+                "number": "42",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "Obrar, proceder."
             }
         ]
     },
@@ -2202,41 +2202,41 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "orinal."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
                 "type_extra": "etcétera",
                 "definition": "Obra de escultura, en forma de jarrón florero o pebetero, que, colocada sobre un zócalo, pedestal o peana, sirve para decorar edificios, jardines."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Receptáculo o depósito natural de mayor o menor capacidad, que contiene algún líquido."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Casco o uña de las bestias caballares."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Botánica",
                 "definition": "Conducto por el que circula en el vegetal la savia o el látex."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Fisiología",
                 "definition": "Conducto por el que circula la sangre o la linfa."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "nombre masculino",
                 "type_extra": "rural, coloquial, Uruguay",
                 "definition": "Uña de una persona, especialmente cuando es muy dura."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "orinal."
             },
             {
                 "number": "11",
@@ -2278,41 +2278,41 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "orinal."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
                 "type_extra": "etcétera",
                 "definition": "Obra de escultura, en forma de jarrón florero o pebetero, que, colocada sobre un zócalo, pedestal o peana, sirve para decorar edificios, jardines."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Receptáculo o depósito natural de mayor o menor capacidad, que contiene algún líquido."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino",
                 "definition": "Casco o uña de las bestias caballares."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Botánica",
                 "definition": "Conducto por el que circula en el vegetal la savia o el látex."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Fisiología",
                 "definition": "Conducto por el que circula la sangre o la linfa."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "nombre masculino",
                 "type_extra": "rural, coloquial, Uruguay",
                 "definition": "Uña de una persona, especialmente cuando es muy dura."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "orinal."
             },
             {
                 "number": "11",
@@ -2581,49 +2581,49 @@
             },
             {
                 "number": "34",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "Obrar, proceder."
-            },
-            {
-                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Morirse o estarse muriendo."
             },
             {
-                "number": "36",
+                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un líquido: Salirse insensiblemente del recipiente en que está."
             },
             {
-                "number": "37",
+                "number": "36",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un recipiente: Dejar escapar el líquido que hay en él. Este vaso, esta fuente se va."
             },
             {
-                "number": "38",
+                "number": "37",
                 "type": "verbo pronominal",
                 "definition": "Deslizarse, perder el equilibrio. Irse los pies. Irse la pared."
             },
             {
-                "number": "39",
+                "number": "38",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Desaparecer, consumirse o perderse. Esa idea se ha ido ya de mi mente."
             },
             {
-                "number": "40",
+                "number": "39",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una tela: Desgarrarse, romperse, envejecerse."
             },
             {
-                "number": "41",
+                "number": "40",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Ventosear o hacer sus necesidades involuntariamente."
             },
             {
-                "number": "42",
+                "number": "41",
                 "type": "verbo pronominal",
                 "definition": "Descartarse de una o varias cartas de la baraja. Se fue de los ases."
+            },
+            {
+                "number": "42",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "Obrar, proceder."
             }
         ]
     },
@@ -2632,12 +2632,11 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "América",
-                "definition": "uve.",
+                "definition": "Letra v.",
                 "definition_extra": [
                     {
-                        "type": "Sinónimos o afines",
-                        "content": "uve."
+                        "type": "Sinónimos",
+                        "content": "uve, ve baja."
                     }
                 ]
             }
@@ -5822,14 +5821,14 @@
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Deleite sexual o acto carnal."
+                "type_extra": "Alquimia",
+                "definition": "cobre (elemento químico)."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "type_extra": "Alquimia",
-                "definition": "cobre (elemento químico)."
+                "type_extra": "desusado",
+                "definition": "Deleite sexual o acto carnal."
             }
         ]
     },
@@ -7028,20 +7027,20 @@
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Listón o larguero delantero de las puertas."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
                 "type_extra": "germanía",
                 "definition": "Toca de la mujer."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Órganos sexuales externos del ser humano. La pintura muestra a Adán con una hoja de parra cubriendo sus vergüenzas."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Listón o larguero delantero de las puertas."
             }
         ]
     },
@@ -7884,14 +7883,14 @@
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Cantidad que se da, recibe, o bebe de un golpe."
+                "type_extra": "plural",
+                "definition": "Ministerio, autoridad o jurisdicción que alguien ejerce supliendo a otra persona o representándola. Hacer las veces de otro. Hacer uno con otro veces de padre."
             },
             {
                 "number": "8",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Ministerio, autoridad o jurisdicción que alguien ejerce supliendo a otra persona o representándola. Hacer las veces de otro. Hacer uno con otro veces de padre."
+                "type_extra": "desusado",
+                "definition": "Cantidad que se da, recibe, o bebe de un golpe."
             }
         ]
     },
@@ -8238,25 +8237,25 @@
             {
                 "number": "13",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Espacio que hay entre los carriles que señalan las ruedas de los carruajes."
-            },
-            {
-                "number": "14",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Carril que dejan las ruedas de los carruajes."
-            },
-            {
-                "number": "15",
-                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "En lenguaje bíblico, mandatos o leyes de Dios. Mostradnos, Señor, vuestras vías."
             },
             {
-                "number": "16",
+                "number": "14",
                 "type": "preposición",
                 "definition": "Por, pasando por, o haciendo escala en. La fotografía se ha recibido vía satélite. He venido vía París."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Espacio que hay entre los carriles que señalan las ruedas de los carruajes."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Carril que dejan las ruedas de los carruajes."
             }
         ]
     },
@@ -8763,26 +8762,26 @@
             },
             {
                 "number": "10",
-                "type": "nombre masculino",
-                "type_extra": "plural, coloquial, desusado",
-                "definition": "Pelos de las sienes."
-            },
-            {
-                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Pez del grupo de las doradas, común en las islas Canarias y de carne muy apreciada."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Álava",
                 "definition": "Cuaresma (tiempo litúrgico)."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Bolivia y México",
                 "definition": "mujer (persona del sexo femenino)."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "type_extra": "plural, coloquial, desusado",
+                "definition": "Pelos de las sienes."
             }
         ]
     },
@@ -8850,26 +8849,26 @@
             },
             {
                 "number": "10",
-                "type": "nombre masculino",
-                "type_extra": "plural, coloquial, desusado",
-                "definition": "Pelos de las sienes."
-            },
-            {
-                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Pez del grupo de las doradas, común en las islas Canarias y de carne muy apreciada."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Álava",
                 "definition": "Cuaresma (tiempo litúrgico)."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Bolivia y México",
                 "definition": "mujer (persona del sexo femenino)."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "type_extra": "plural, coloquial, desusado",
+                "definition": "Pelos de las sienes."
             }
         ]
     },
@@ -8937,26 +8936,26 @@
             },
             {
                 "number": "10",
-                "type": "nombre masculino",
-                "type_extra": "plural, coloquial, desusado",
-                "definition": "Pelos de las sienes."
-            },
-            {
-                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Pez del grupo de las doradas, común en las islas Canarias y de carne muy apreciada."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Álava",
                 "definition": "Cuaresma (tiempo litúrgico)."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Bolivia y México",
                 "definition": "mujer (persona del sexo femenino)."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "type_extra": "plural, coloquial, desusado",
+                "definition": "Pelos de las sienes."
             }
         ]
     },
@@ -9024,26 +9023,26 @@
             },
             {
                 "number": "10",
-                "type": "nombre masculino",
-                "type_extra": "plural, coloquial, desusado",
-                "definition": "Pelos de las sienes."
-            },
-            {
-                "number": "11",
                 "type": "nombre femenino",
                 "definition": "Pez del grupo de las doradas, común en las islas Canarias y de carne muy apreciada."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Álava",
                 "definition": "Cuaresma (tiempo litúrgico)."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Bolivia y México",
                 "definition": "mujer (persona del sexo femenino)."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "type_extra": "plural, coloquial, desusado",
+                "definition": "Pelos de las sienes."
             }
         ]
     },
@@ -12515,12 +12514,12 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "advocación."
+                "definition": "Inclinación a un estado, una profesión o una carrera."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Inclinación a un estado, una profesión o una carrera."
+                "definition": "advocación."
             },
             {
                 "number": "4",
@@ -12755,40 +12754,40 @@
             {
                 "number": "12",
                 "type": "nombre masculino",
-                "definition": "bádminton."
+                "definition": "Criado de librea que iba a pie delante del coche o caballo de su amo, aunque las más veces iba a la trasera."
             },
             {
                 "number": "13",
                 "type": "nombre masculino",
-                "definition": "Criado de librea que iba a pie delante del coche o caballo de su amo, aunque las más veces iba a la trasera."
-            },
-            {
-                "number": "14",
-                "type": "nombre masculino",
                 "definition": "Adorno pendiente hecho de tela delicada, que usaban las mujeres para la cabeza."
             },
             {
-                "number": "15",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "Física",
                 "definition": "Rueda grande y pesada que por la inercia de su giro regulariza el movimiento de una máquina motora."
             },
             {
-                "number": "16",
+                "number": "15",
                 "type": "nombre masculino",
                 "type_extra": "América",
                 "definition": "Hoja impresa, de carácter político o publicitario, que se reparte en lugares públicos."
             },
             {
-                "number": "17",
+                "number": "16",
                 "type": "nombre masculino",
                 "type_extra": "Argentina",
                 "definition": "Persona que tiene habilidad para conducir automóviles."
             },
             {
-                "number": "18",
+                "number": "17",
                 "type": "nombre femenino",
                 "definition": "Coche de caballos que se usa en las Antillas, semejante al quitrín, con varas muy largas y ruedas de gran diámetro, y cuya cubierta no puede plegarse."
+            },
+            {
+                "number": "18",
+                "type": "nombre masculino",
+                "definition": "bádminton."
             }
         ]
     },
@@ -13316,50 +13315,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -13471,50 +13470,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -13626,50 +13625,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -13781,50 +13780,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -13936,50 +13935,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -14091,50 +14090,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -14246,50 +14245,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -14401,50 +14400,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -14556,50 +14555,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -14711,50 +14710,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -15175,49 +15174,49 @@
             },
             {
                 "number": "34",
-                "type": "verbo intransitivo",
-                "type_extra": "desusado",
-                "definition": "Obrar, proceder."
-            },
-            {
-                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Morirse o estarse muriendo."
             },
             {
-                "number": "36",
+                "number": "35",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un líquido: Salirse insensiblemente del recipiente en que está."
             },
             {
-                "number": "37",
+                "number": "36",
                 "type": "verbo pronominal",
                 "definition": "Dicho de un recipiente: Dejar escapar el líquido que hay en él. Este vaso, esta fuente se va."
             },
             {
-                "number": "38",
+                "number": "37",
                 "type": "verbo pronominal",
                 "definition": "Deslizarse, perder el equilibrio. Irse los pies. Irse la pared."
             },
             {
-                "number": "39",
+                "number": "38",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Desaparecer, consumirse o perderse. Esa idea se ha ido ya de mi mente."
             },
             {
-                "number": "40",
+                "number": "39",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una tela: Desgarrarse, romperse, envejecerse."
             },
             {
-                "number": "41",
+                "number": "40",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Ventosear o hacer sus necesidades involuntariamente."
             },
             {
-                "number": "42",
+                "number": "41",
                 "type": "verbo pronominal",
                 "definition": "Descartarse de una o varias cartas de la baraja. Se fue de los ases."
+            },
+            {
+                "number": "42",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "Obrar, proceder."
             }
         ]
     },
@@ -15369,47 +15368,47 @@
             {
                 "number": "8",
                 "type": "nombre masculino",
-                "definition": "vuelillo."
+                "definition": "Tramoya de teatro que lleva por el aire a alguien o algo."
             },
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "definition": "Tramoya de teatro que lleva por el aire a alguien o algo."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
                 "definition": "Arbolado de un monte."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "Arquitectura",
                 "definition": "Parte de una fábrica, que sale fuera del paramento de la pared que la sostiene."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "Arquitectura",
                 "definition": "Extensión del vuelo, contada en dirección perpendicular al paramento."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre masculino",
                 "type_extra": "Cinegética",
                 "definition": "Ave de caza enseñada y amaestrada para perseguir a otras aves."
             },
             {
-                "number": "14",
+                "number": "13",
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "En algunas divisiones tradicionales de la propiedad, derecho al arbolado con separación del que otra persona tenga sobre el suelo."
             },
             {
-                "number": "15",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "Cuba y República Dominicana",
                 "definition": "volante (guarnición rizada)."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "definition": "vuelillo."
             }
         ]
     },
@@ -15461,47 +15460,47 @@
             {
                 "number": "8",
                 "type": "nombre masculino",
-                "definition": "vuelillo."
+                "definition": "Tramoya de teatro que lleva por el aire a alguien o algo."
             },
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "definition": "Tramoya de teatro que lleva por el aire a alguien o algo."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
                 "definition": "Arbolado de un monte."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre masculino",
                 "type_extra": "Arquitectura",
                 "definition": "Parte de una fábrica, que sale fuera del paramento de la pared que la sostiene."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "Arquitectura",
                 "definition": "Extensión del vuelo, contada en dirección perpendicular al paramento."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre masculino",
                 "type_extra": "Cinegética",
                 "definition": "Ave de caza enseñada y amaestrada para perseguir a otras aves."
             },
             {
-                "number": "14",
+                "number": "13",
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "En algunas divisiones tradicionales de la propiedad, derecho al arbolado con separación del que otra persona tenga sobre el suelo."
             },
             {
-                "number": "15",
+                "number": "14",
                 "type": "nombre masculino",
                 "type_extra": "Cuba y República Dominicana",
                 "definition": "volante (guarnición rizada)."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "definition": "vuelillo."
             }
         ]
     },
@@ -15661,44 +15660,44 @@
             {
                 "number": "28",
                 "type": "nombre femenino",
-                "type_extra": "Música",
-                "definition": "retornelo."
-            },
-            {
-                "number": "29",
-                "type": "nombre femenino",
                 "type_extra": "rural, Aragón, por extensión",
                 "definition": "Bóveda, y, techo."
             },
             {
-                "number": "30",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Riña, alboroto."
-            },
-            {
-                "number": "31",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Cada uno de los dos tercetos del soneto."
-            },
-            {
-                "number": "32",
+                "number": "29",
                 "type": "interjección",
                 "type_extra": "Usado, usada, usados o usadas",
                 "definition": "para reprobar con enfado la obstinación o terquedad."
             },
             {
-                "number": "33",
+                "number": "30",
                 "type": "interjección",
                 "type_extra": "Usado, usada, usados o usadas",
                 "definition": "para mandar a alguien que vuelva algo hacia alguna parte."
             },
             {
-                "number": "34",
+                "number": "31",
                 "type": "interjección",
                 "type_extra": "Usado, usada, usados o usadas",
                 "definition": "para indicar que alguien da en repetir con impertinencia algún acto. ¡ Vuelta a empezar !."
+            },
+            {
+                "number": "32",
+                "type": "nombre femenino",
+                "type_extra": "Música",
+                "definition": "retornelo."
+            },
+            {
+                "number": "33",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Riña, alboroto."
+            },
+            {
+                "number": "34",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Cada uno de los dos tercetos del soneto."
             }
         ]
     },
@@ -15826,50 +15825,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -15981,50 +15980,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -16136,50 +16135,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -16291,50 +16290,50 @@
             },
             {
                 "number": "19",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Resolver, mezclar."
-            },
-            {
-                "number": "20",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Ir al lugar de donde se partió."
             },
             {
-                "number": "21",
+                "number": "20",
                 "type": "verbo intransitivo",
                 "definition": "Anudar el hilo de la historia o discurso que se había interrumpido con alguna digresión, haciendo llamada a la atención."
             },
             {
-                "number": "22",
+                "number": "21",
                 "type": "verbo intransitivo",
                 "definition": "Torcer o dejar el camino o línea recta. Este camino vuelve hacia la izquierda."
             },
             {
-                "number": "23",
+                "number": "22",
                 "type": "verbo intransitivo",
                 "definition": "Repetir o reiterar lo que antes se ha hecho. Volver a entrar, a empezar."
             },
             {
-                "number": "24",
+                "number": "23",
                 "type": "verbo intransitivo",
                 "definition": "Defender o patrocinar a alguien o algo."
             },
             {
-                "number": "25",
+                "number": "24",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertos líquidos, especialmente del vino: Acedarse, avinagrarse o dañarse."
             },
             {
-                "number": "26",
+                "number": "25",
                 "type": "verbo pronominal",
                 "definition": "Inclinar el cuerpo o el rostro en señal de dirigir la plática o conversación a determinadas personas."
             },
             {
-                "number": "27",
+                "number": "26",
                 "type": "verbo pronominal",
                 "definition": "Girar la cabeza, el torso, o todo el cuerpo, para mirar lo que estaba a la espalda."
+            },
+            {
+                "number": "27",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Resolver, mezclar."
             }
         ]
     },
@@ -16444,13 +16443,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Moverse de un lugar hacia otro apartado de la persona que habla.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "dirigirse, encaminarse, trasladarse, alejarse, andar1, transitar, marcharse, ausentarse, huir, partir, salir, emigrar, largarse, pirarse, abrirse."
+                        "content": "dirigirse, encaminarse, trasladarse, alejarse, andar, transitar, marchar, ausentarse, huir, partir, salir, emigrar, largarse, pirarse, abrirse."
                     },
                     {
                         "type": "Antónimos",
@@ -16460,8 +16458,7 @@
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Sentar bien o mal a algo o a alguien.",
                 "definition_extra": [
                     {
@@ -16472,20 +16469,17 @@
             },
             {
                 "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Caminar de acá para allá."
             },
             {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una persona o de una cosa: Diferenciarse de otra."
             },
             {
                 "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dirigirse, llevar o conducir a un lugar apartado de quien habla.",
                 "definition_extra": [
                     {
@@ -16496,8 +16490,7 @@
             },
             {
                 "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa: Extenderse en el tiempo o en el espacio, desde un punto a otro.",
                 "definition_extra": [
                     {
@@ -16508,159 +16501,81 @@
             },
             {
                 "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "En varios juegos de naipes, entrar, tomar sobre sí el empeño de ganar la apuesta."
             },
             {
                 "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Considerar las cosas por un aspecto especial o dirigirlas a un fin determinado."
             },
             {
                 "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Denota la actual y progresiva ejecución de una acción."
             },
             {
                 "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Denota que una acción empieza a verificarse."
             },
             {
                 "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "con ciertos adjetivos o participios pasivos, para expresar irónicamente lo contrario de lo que estos significan."
+                "type": "verbo intransitivo",
+                "definition": "Usado, con ciertos adjetivos o participios pasivos, para expresar irónicamente lo contrario de lo que estos significan."
             },
             {
                 "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Junto con el participio de los verbos transitivos, significa padecer su acción, y con el de los reflexivos, hallarse en el estado producido por ella."
             },
             {
                 "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa, especialmente de una cantidad de dinero: En una disputa o competencia, ser apostada."
             },
             {
                 "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Disponerse para la acción del verbo con que se junta."
             },
             {
                 "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "con valor exhortativo."
+                "type": "verbo intransitivo",
+                "definition": "Usado con valor exhortativo."
             },
             {
                 "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Concurrir habitualmente.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "acudir, asistir, frecuentar."
+                        "content": "acudir, asistir, frecuentar, concurrir."
                     }
                 ]
             },
             {
                 "number": "17",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Comportarse o actuar de un determinado modo."
             },
             {
                 "number": "18",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Perseguir u oponerse a alguien o algo."
-            },
-            {
-                "number": "19",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Sentir y pensar al contrario."
-            },
-            {
-                "number": "20",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Importar, interesar."
-            },
-            {
-                "number": "21",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Depender de algo, estar condicionado por ello."
-            },
-            {
-                "number": "22",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Sentir inclinación hacia una profesión."
-            },
-            {
-                "number": "23",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Seguir una carrera."
-            },
-            {
-                "number": "24",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "ir a traer algo."
-            },
-            {
-                "number": "25",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Avanzar en la realización de una acción, por un lugar, tiempo o situación determinadas."
-            },
-            {
-                "number": "26",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un nombre o de un verbo: Seguir cierta declinación o conjugación."
-            },
-            {
-                "number": "27",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Seguir un negocio sin perderlo de vista."
-            },
-            {
-                "number": "28",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Seguir de cerca a alguien, ir en su alcance para apresarlo o hacerle daño."
-            },
-            {
-                "number": "29",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Andar tras alguien o algo."
-            },
-            {
-                "number": "30",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Vestir, aparecer o presentarse de una determinada manera."
             },
             {
-                "number": "31",
-                "type": "verbo",
+                "number": "19",
+                "type": "verbo intransitivo",
+                "definition": "Exhibir o aparentar determinada actitud, cualidad, etc.",
+                "type_extra": "coloquial"
+            },
+            {
+                "number": "20",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de un libro, de una película, de una conversación, etc.: Tratar de un tema determinado.",
-                "type_extra": "colloquial, sin verificar",
+                "type_extra": "coloquial",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -16669,39 +16584,85 @@
                 ]
             },
             {
+                "number": "21",
+                "type": "verbo intransitivo",
+                "definition": "Caracterizarse por tener cierto asunto o situación como principal o recurrente.",
+                "type_extra": "coloquial"
+            },
+            {
+                "number": "22",
+                "type": "verbo intransitivo",
+                "definition": "Perseguir u oponerse a alguien o algo."
+            },
+            {
+                "number": "23",
+                "type": "verbo intransitivo",
+                "definition": "Sentir y pensar al contrario."
+            },
+            {
+                "number": "24",
+                "type": "verbo intransitivo",
+                "definition": "Importar, interesar."
+            },
+            {
+                "number": "25",
+                "type": "verbo intransitivo",
+                "definition": "Depender de algo, estar condicionado por ello."
+            },
+            {
+                "number": "26",
+                "type": "verbo intransitivo",
+                "definition": "Sentir inclinación hacia una profesión."
+            },
+            {
+                "number": "27",
+                "type": "verbo intransitivo",
+                "definition": "Seguir una carrera."
+            },
+            {
+                "number": "28",
+                "type": "verbo intransitivo",
+                "definition": "ir a traer algo."
+            },
+            {
+                "number": "29",
+                "type": "verbo intransitivo",
+                "definition": "Avanzar en la realización de una acción, por un lugar, tiempo o situación determinadas."
+            },
+            {
+                "number": "30",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de un nombre o de un verbo: Seguir cierta declinación o conjugación."
+            },
+            {
+                "number": "31",
+                "type": "verbo intransitivo",
+                "definition": "Seguir un negocio sin perderlo de vista."
+            },
+            {
                 "number": "32",
-                "type": "verbo",
-                "definition": "Exhibir o aparentar determinada actitud, cualidad, etc.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "verbo intransitivo",
+                "definition": "Seguir de cerca a alguien, ir en su alcance para apresarlo o hacerle daño."
             },
             {
                 "number": "33",
-                "type": "verbo",
-                "definition": "Caracterizarse por tener cierto asunto o situación como principal o recurrente.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "verbo intransitivo",
+                "definition": "Andar tras alguien o algo."
             },
             {
                 "number": "34",
-                "type": "verbo",
-                "definition": "Obrar, proceder.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "35",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Morirse o estarse muriendo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, acabar, pasar, palmar1, cascar, espichar, caer, pelarse, petatearse, sonar1, ñampiarse."
+                        "content": "morir, fallecer, expirar, perecer, fenecer, sucumbir, finar, quedarse, apagarse, acabar, pasar, palmar, cascar, espichar, caer, pelarse, petatearse, sonar, ñampiarse."
                     }
                 ]
             },
             {
-                "number": "36",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "35",
+                "type": "verbo pronominal",
                 "definition": "Dicho de un líquido: Salirse insensiblemente del recipiente en que está.",
                 "definition_extra": [
                     {
@@ -16711,40 +16672,40 @@
                 ]
             },
             {
-                "number": "37",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "36",
+                "type": "verbo pronominal",
                 "definition": "Dicho de un recipiente: Dejar escapar el líquido que hay en él."
             },
             {
-                "number": "38",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "37",
+                "type": "verbo pronominal",
                 "definition": "Deslizarse, perder el equilibrio."
             },
             {
-                "number": "39",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "38",
+                "type": "verbo pronominal",
                 "definition": "Dicho de una cosa: Desaparecer, consumirse o perderse."
             },
             {
-                "number": "40",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "39",
+                "type": "verbo pronominal",
                 "definition": "Dicho de una tela: Desgarrarse, romperse, envejecerse."
             },
             {
-                "number": "41",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "40",
+                "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Ventosear o hacer sus necesidades involuntariamente."
             },
             {
-                "number": "42",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "41",
+                "type": "verbo pronominal",
                 "definition": "Descartarse de una o varias cartas de la baraja."
+            },
+            {
+                "number": "42",
+                "type": "verbo intransitivo",
+                "definition": "Obrar, proceder.",
+                "type_extra": "desusado"
             }
         ]
     },
@@ -16782,32 +16743,18 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Percibir con los ojos algo mediante la acción de la luz.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "mirar, observar, avistar, divisar, contemplar, ojear1, percibir, vigilar, distinguir, vislumbrar, otear, espiar1, descubrir, acechar."
+                        "content": "mirar, observar, avistar, divisar, contemplar, ojear, percibir, vigilar, distinguir, vislumbrar, otear, espiar, descubrir, acechar."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Percibir con la inteligencia algo, comprenderlo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "comprender, entender1, captar, vislumbrar, percibir, conocer."
-                    }
-                ]
-            },
-            {
-                "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo transitivo",
                 "definition": "Comprobar algo con algún sentido.",
                 "definition_extra": [
                     {
@@ -16817,9 +16764,44 @@
                 ]
             },
             {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Dicho de un lugar: Ser escenario de un acontecimiento."
+            },
+            {
                 "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
+                "definition": "Aparecer o mostrarse."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Percibir con la inteligencia algo, comprenderlo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "comprender, entender, captar, vislumbrar, percibir, conocer."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Darse cuenta de algo."
+            },
+            {
+                "number": "7",
+                "type": "verbo pronominal",
+                "definition": "Traslucirse la imagen o semejanza de algo."
+            },
+            {
+                "number": "8",
+                "type": "verbo pronominal",
+                "definition": "Dicho de una cosa: Parecer o evidenciarse."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
                 "definition": "Observar, considerar algo.",
                 "definition_extra": [
                     {
@@ -16829,9 +16811,29 @@
                 ]
             },
             {
-                "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "10",
+                "type": "verbo transitivo",
+                "definition": "Considerar, advertir o reflexionar."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "definition": "Considerar que algo o alguien es o está de una determinada manera."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "definition": "Conjeturar o deducir un hecho del futuro por algún indicio.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "conjeturar, especular."
+                    }
+                ]
+            },
+            {
+                "number": "13",
+                "type": "verbo transitivo",
                 "definition": "Examinar algo, reconocerlo con cuidado y atención.",
                 "definition_extra": [
                     {
@@ -16841,9 +16843,8 @@
                 ]
             },
             {
-                "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "14",
+                "type": "verbo transitivo",
                 "definition": "Examinar o reconocer a alguien.",
                 "definition_extra": [
                     {
@@ -16853,21 +16854,8 @@
                 ]
             },
             {
-                "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Encontrarse con alguien o estar con él.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "encontrarse, reunirse, juntarse, citarse, recibir."
-                    }
-                ]
-            },
-            {
-                "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "15",
+                "type": "verbo transitivo",
                 "definition": "Poner atención o cuidado en lo que se ejecuta.",
                 "definition_extra": [
                     {
@@ -16877,69 +16865,41 @@
                 ]
             },
             {
-                "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Darse cuenta de algo."
-            },
-            {
-                "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Considerar, advertir o reflexionar."
-            },
-            {
-                "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Conjeturar o deducir un hecho del futuro por algún indicio.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "conjeturar, especular2."
-                    }
-                ]
-            },
-            {
-                "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Considerar que algo o alguien es o está de una determinada manera."
-            },
-            {
-                "number": "13",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "16",
+                "type": "verbo transitivo",
                 "definition": "En una disertación o un texto, tratar, analizar, considerar algo."
             },
             {
-                "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un lugar: Ser escenario de un acontecimiento."
-            },
-            {
-                "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "17",
+                "type": "verbo transitivo",
                 "definition": "Dicho de un juez: Asistir a la discusión oral de un pleito o causa que ha de sentenciar."
             },
             {
-                "number": "16",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Intentar, tratar de realizar algo.",
+                "number": "18",
+                "type": "verbo transitivo",
+                "definition": "Encontrarse con alguien o estar con él.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "intentar, tratar, probar, ensayar, experimentar."
+                        "content": "encontrar, reunir, juntar, citar, recibir."
                     }
                 ]
             },
             {
-                "number": "17",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "19",
+                "type": "verbo pronominal",
+                "definition": "verse las caras.",
+                "type_extra": "coloquial",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "verse las caras."
+                    }
+                ]
+            },
+            {
+                "number": "20",
+                "type": "verbo pronominal",
                 "definition": "Hallarse en algún lugar, estado o situación.",
                 "definition_extra": [
                     {
@@ -16949,27 +16909,8 @@
                 ]
             },
             {
-                "number": "18",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Traslucirse la imagen o semejanza de algo."
-            },
-            {
-                "number": "19",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cosa: Parecer o evidenciarse."
-            },
-            {
-                "number": "20",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Aparecer o mostrarse."
-            },
-            {
                 "number": "21",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Estar o hallarse en un sitio o lance.",
                 "definition_extra": [
                     {
@@ -16980,21 +16921,24 @@
             },
             {
                 "number": "22",
-                "type": "verbo",
-                "definition": "verse las caras.",
-                "type_extra": "colloquial, sin verificar"
+                "type": "verbo intransitivo",
+                "definition": "Intentar, tratar de realizar algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "intentar, tratar, probar, ensayar, experimentar."
+                    }
+                ]
             },
             {
                 "number": "23",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Sentido de la vista."
+                "type": "nombre masculino",
+                "definition": "Parecer o apariencia de las cosas materiales o inmateriales."
             },
             {
                 "number": "24",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Parecer o apariencia de las cosas materiales o inmateriales."
+                "type": "nombre masculino",
+                "definition": "Sentido de la vista."
             }
         ]
     },
@@ -17519,55 +17463,38 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Sistema de grabación y reproducción de imágenes, acompañadas o no de sonidos, mediante cinta magnética u otros medios electrónicos."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Grabación hecha en video."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Aparato que graba y reproduce mediante cintas magnéticas u otros medios electrónicos imágenes y sonidos procedentes de la televisión o de otro aparato de video.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "magnetoscopio, videocasete, videograbador, videocasetera."
+                        "content": "magnetoscopio, video, videocasete, videocasetera, videocasetero, videograbador."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Parte de la señal de televisión que corresponde a la imagen."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "videoclub.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
                         "content": "videoclub."
-                    }
-                ]
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "video (‖ aparato).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "magnetoscopio, videocasete, videograbador, videocasetera."
                     }
                 ]
             }
@@ -17610,11 +17537,11 @@
                 "number": "5",
                 "type": "nombre",
                 "type_extra": "sin verificar",
-                "definition": "videoclub.",
+                "definition": "video (‖ aparato).",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "videoclub."
+                        "content": "magnetoscopio, videocasete, videograbador, videocasetera."
                     }
                 ]
             },
@@ -17622,11 +17549,11 @@
                 "number": "6",
                 "type": "nombre",
                 "type_extra": "sin verificar",
-                "definition": "video (‖ aparato).",
+                "definition": "videoclub.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "magnetoscopio, videocasete, videograbador, videocasetera."
+                        "content": "videoclub."
                     }
                 ]
             }
@@ -17812,8 +17739,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Sentido corporal con que los ojos perciben algo mediante la acción de la luz.",
                 "definition_extra": [
                     {
@@ -17828,38 +17754,34 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Conjunto de los órganos de la visión."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "visión (‖ acción de ver).",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de ver.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "visión, observación, contemplación, visualización, percepción."
+                        "content": "observación, contemplación, visualización, percepción, visión."
                     }
                 ]
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Aspecto o disposición de las cosas que se ven.",
+                "type": "nombre femenino",
+                "definition": "Mirada superficial o ligera.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "apariencia, aspecto, presencia, pinta."
+                        "content": "intuito, vistazo."
                     }
                 ]
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Panorama que se ofrece al espectador desde un punto.",
                 "definition_extra": [
                     {
@@ -17870,38 +17792,38 @@
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Representación pictórica o fotográfica de un lugar o monumento."
             },
             {
                 "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Conocimiento claro de las cosas."
+                "type": "nombre femenino",
+                "definition": "Aspecto o disposición de las cosas que se ven.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "apariencia, aspecto, presencia, pinta."
+                    }
+                ]
             },
             {
                 "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Intento o propósito."
-            },
-            {
-                "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Parte de una cosa que no se oculta a la vista; p. ej., la parte de la teja, pizarra u hoja de plomo que queda fuera de los solapos; los puños, cuello y pechera de una camisola; las vueltas que guarnecen por delante una americana, un abrigo, etc."
             },
             {
+                "number": "9",
+                "type": "nombre femenino",
+                "definition": "Galerías, ventanas u otros huecos de pared, por donde desde un edificio se ve lo exterior."
+            },
+            {
                 "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Mirada superficial o ligera."
+                "type": "nombre femenino",
+                "definition": "Ventana, puerta u otra abertura en los edificios, por donde entra la luz para ver."
             },
             {
                 "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Sagacidad para descubrir algo que otros no ven.",
                 "definition_extra": [
                     {
@@ -17912,51 +17834,45 @@
             },
             {
                 "number": "12",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
+                "definition": "Conocimiento claro de las cosas."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
                 "definition": "Comparecencia ante un juez o tribunal en la que las partes exponen los fundamentos de sus respectivas pretensiones.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "juicio, proceso, causa1, procedimiento."
+                        "content": "juicio, proceso, causa, procedimiento."
                     }
                 ]
             },
             {
-                "number": "13",
-                "type": "nombre",
-                "definition": "visera (‖ parte del yelmo).",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
                 "number": "14",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Concurrencia de dos o más personas que se ven para fin determinado."
+                "type": "nombre masculino",
+                "definition": "Empleado de aduanas a cuyo cargo está el control de las mercancías."
             },
             {
                 "number": "15",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Regalos que recíprocamente se hacen los novios."
+                "type": "nombre femenino",
+                "definition": "Intento o propósito."
             },
             {
                 "number": "16",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Ventana, puerta u otra abertura en los edificios, por donde entra la luz para ver."
+                "type": "nombre femenino",
+                "definition": "Concurrencia de dos o más personas que se ven para fin determinado."
             },
             {
                 "number": "17",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Galerías, ventanas u otros huecos de pared, por donde desde un edificio se ve lo exterior."
+                "type": "nombre femenino",
+                "definition": "Regalos que recíprocamente se hacen los novios."
             },
             {
                 "number": "18",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Empleado de aduanas a cuyo cargo está el control de las mercancías."
+                "type": "nombre femenino",
+                "definition": "Parte del yelmo que cubría y protegía el rostro, unida por lo común a dos botones laterales para alzarla y bajarla, y con agujeros o hendiduras para ver.",
+                "type_extra": "desusado"
             }
         ]
     }

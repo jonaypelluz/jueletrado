@@ -20,27 +20,27 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "fabricación."
+                "definition": "edificio."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "edificio."
+                "definition": "Invención, artificio de algo no material."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Invención, artificio de algo no material."
+                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
+                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
+                "definition": "fabricación."
             }
         ]
     },
@@ -131,27 +131,27 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "fabricación."
+                "definition": "edificio."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "edificio."
+                "definition": "Invención, artificio de algo no material."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Invención, artificio de algo no material."
+                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "definition": "En las iglesias, renta o derecho que se cobraba para repararlas y costear los gastos del culto divino."
+                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "definition": "Fondo que solía haber en las iglesias para repararlas y costear los gastos del culto divino."
+                "definition": "fabricación."
             }
         ]
     },
@@ -249,14 +249,14 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo",
-                "type_extra": "desusado, Era usado en sentido peyorativo",
-                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
+                "type": "adverbio",
+                "definition": "fácilmente."
             },
             {
                 "number": "7",
-                "type": "adverbio",
-                "definition": "fácilmente."
+                "type": "adjetivo",
+                "type_extra": "desusado, Era usado en sentido peyorativo",
+                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
             }
         ]
     },
@@ -299,14 +299,14 @@
             },
             {
                 "number": "6",
-                "type": "adjetivo",
-                "type_extra": "desusado, Era usado en sentido peyorativo",
-                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
+                "type": "adverbio",
+                "definition": "fácilmente."
             },
             {
                 "number": "7",
-                "type": "adverbio",
-                "definition": "fácilmente."
+                "type": "adjetivo",
+                "type_extra": "desusado, Era usado en sentido peyorativo",
+                "definition": "Dicho de una persona: Que con ligereza se deja llevar del parecer de otra."
             }
         ]
     },
@@ -512,14 +512,14 @@
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Persona que comercia por cuenta ajena."
+                "type_extra": "plural, Cuba",
+                "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
             },
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "plural, Cuba",
-                "definition": "Representantes de los diferentes órganos de dirección de una empresa o de una institución."
+                "type_extra": "desusado",
+                "definition": "Persona que comercia por cuenta ajena."
             }
         ]
     },
@@ -741,41 +741,41 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "type_extra": "Usado más en plural",
-                "definition": "quehacer."
+                "definition": "Acción y efecto de faenar (matar reses)."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Acción y efecto de faenar (matar reses)."
+                "definition": "Mala pasada."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Mala pasada."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
                 "definition": "Servicio que se hace a alguien."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Tauromaquia",
                 "definition": "En el campo, cada una de las operaciones que se verifican con el toro."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "Tauromaquia",
                 "definition": "En la plaza, cada una de las operaciones que efectúa el diestro durante la lidia, y principalmente la brega con la muleta, preliminar de la estocada."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre femenino",
                 "type_extra": "Guatemala",
                 "definition": "Trabajo que se hace en una hacienda en horas extraordinarias."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Usado más en plural",
+                "definition": "quehacer."
             }
         ]
     },
@@ -848,20 +848,20 @@
             {
                 "number": "12",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "halda (arpillera para empacar y envolver)."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
                 "type_extra": "plural, coloquial",
                 "definition": "Mujer o mujeres. Cuestión de faldas."
             },
             {
-                "number": "14",
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Autoridad o protección materna respecto de una persona, especialmente un niño o un muchacho. Seguía pegado a las faldas de su madre."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "halda (arpillera para empacar y envolver)."
             }
         ]
     },
@@ -922,43 +922,43 @@
             },
             {
                 "number": "9",
-                "type": "adjetivo",
-                "type_extra": "desusado, Usado en Aragón",
-                "definition": "Cobarde, pusilánime."
-            },
-            {
-                "number": "10",
                 "type": "nombre masculino",
                 "definition": "Pieza de la misma tela, que se pone interiormente en la parte del vestido donde la costura hace más fuerza, para que no se rompa o falsee."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre masculino",
                 "definition": "Ruedo de un vestido."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "germanía",
                 "definition": "Verdugo que ajusticia a los reos."
             },
             {
+                "number": "12",
+                "type": "nombre femenino",
+                "type_extra": "México",
+                "definition": "En los libros, hoja que va solo con el título."
+            },
+            {
                 "number": "13",
+                "type": "adjetivo",
+                "type_extra": "desusado, Usado en Aragón",
+                "definition": "Cobarde, pusilánime."
+            },
+            {
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "Albacete, Argentina y México",
                 "definition": "falsilla."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "nombre femenino",
                 "type_extra": "Murcia y Argentina",
                 "definition": "desván."
-            },
-            {
-                "number": "15",
-                "type": "nombre femenino",
-                "type_extra": "México",
-                "definition": "En los libros, hoja que va solo con el título."
             }
         ]
     },
@@ -1049,43 +1049,43 @@
             },
             {
                 "number": "9",
-                "type": "adjetivo",
-                "type_extra": "desusado, Usado en Aragón",
-                "definition": "Cobarde, pusilánime."
-            },
-            {
-                "number": "10",
                 "type": "nombre masculino",
                 "definition": "Pieza de la misma tela, que se pone interiormente en la parte del vestido donde la costura hace más fuerza, para que no se rompa o falsee."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre masculino",
                 "definition": "Ruedo de un vestido."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "germanía",
                 "definition": "Verdugo que ajusticia a los reos."
             },
             {
+                "number": "12",
+                "type": "nombre femenino",
+                "type_extra": "México",
+                "definition": "En los libros, hoja que va solo con el título."
+            },
+            {
                 "number": "13",
+                "type": "adjetivo",
+                "type_extra": "desusado, Usado en Aragón",
+                "definition": "Cobarde, pusilánime."
+            },
+            {
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "Albacete, Argentina y México",
                 "definition": "falsilla."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "nombre femenino",
                 "type_extra": "Murcia y Argentina",
                 "definition": "desván."
-            },
-            {
-                "number": "15",
-                "type": "nombre femenino",
-                "type_extra": "México",
-                "definition": "En los libros, hoja que va solo con el título."
             }
         ]
     },
@@ -1146,43 +1146,43 @@
             },
             {
                 "number": "9",
-                "type": "adjetivo",
-                "type_extra": "desusado, Usado en Aragón",
-                "definition": "Cobarde, pusilánime."
-            },
-            {
-                "number": "10",
                 "type": "nombre masculino",
                 "definition": "Pieza de la misma tela, que se pone interiormente en la parte del vestido donde la costura hace más fuerza, para que no se rompa o falsee."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre masculino",
                 "definition": "Ruedo de un vestido."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre masculino",
                 "type_extra": "germanía",
                 "definition": "Verdugo que ajusticia a los reos."
             },
             {
+                "number": "12",
+                "type": "nombre femenino",
+                "type_extra": "México",
+                "definition": "En los libros, hoja que va solo con el título."
+            },
+            {
                 "number": "13",
+                "type": "adjetivo",
+                "type_extra": "desusado, Usado en Aragón",
+                "definition": "Cobarde, pusilánime."
+            },
+            {
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "Albacete, Argentina y México",
                 "definition": "falsilla."
             },
             {
-                "number": "14",
+                "number": "15",
                 "type": "nombre femenino",
                 "type_extra": "Murcia y Argentina",
                 "definition": "desván."
-            },
-            {
-                "number": "15",
-                "type": "nombre femenino",
-                "type_extra": "México",
-                "definition": "En los libros, hoja que va solo con el título."
             }
         ]
     },
@@ -2409,6 +2409,12 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
+                "type_extra": "Medicina",
+                "definition": "Medicamento elaborado con una molécula específica."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
                 "definition": "medicamento.",
                 "definition_extra": [
                     {
@@ -2416,12 +2422,6 @@
                         "content": "medicamento, medicina, preparado, remedio, poción."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "Medicina",
-                "definition": "Medicamento elaborado con una molécula específica."
             }
         ]
     },
@@ -3835,14 +3835,14 @@
             {
                 "number": "9",
                 "type": "nombre femenino",
-                "type_extra": "coloquial, desusado",
-                "definition": "Chanza, broma."
+                "type_extra": "plural",
+                "definition": "Sucesión de varios días de fiesta en que se celebra una solemnidad. Pasaré las fiestas navideñas en el pueblo."
             },
             {
                 "number": "10",
                 "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Sucesión de varios días de fiesta en que se celebra una solemnidad. Pasaré las fiestas navideñas en el pueblo."
+                "type_extra": "coloquial, desusado",
+                "definition": "Chanza, broma."
             }
         ]
     },
@@ -3957,26 +3957,26 @@
             },
             {
                 "number": "20",
+                "type": "nombre masculino y femenino",
+                "definition": "figurón (persona fantasiosa y engreída)."
+            },
+            {
+                "number": "21",
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial, España, Usado también en sentido irónico",
+                "definition": "Persona que sobresale o se distingue entre otras. El tío es un figura que quiere hacerse famoso como sea."
+            },
+            {
+                "number": "22",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "cara (parte anterior de la cabeza)."
             },
             {
-                "number": "21",
+                "number": "23",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "En el ámbito judicial, forma o modo de proceder."
-            },
-            {
-                "number": "22",
-                "type": "nombre masculino y femenino",
-                "definition": "figurón (persona fantasiosa y engreída)."
-            },
-            {
-                "number": "23",
-                "type": "nombre masculino y femenino",
-                "type_extra": "coloquial, España, Usado también en sentido irónico",
-                "definition": "Persona que sobresale o se distingue entre otras. El tío es un figura que quiere hacerse famoso como sea."
             }
         ]
     },
@@ -4025,6 +4025,46 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cantidad fija. Piden un fijo por actuar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "teléfono fijo. Mejor llámame al fijo."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Arquitectura",
+                "definition": "Paleta larga y estrecha, que sirve para sacar los calzos de entre los sillares sentados en obra y para introducir la mezcla en las juntas. La emplean también los empedradores para introducir arena o mezcla entre los adoquines."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, Chile, Uruguay y Venezuela, por extensión",
+                "definition": "En el lenguaje hípico, triunfo seguro que se adjudica a un competidor, y, el propio competidor. Tener la fija. Ser una fija."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, Uruguay y Venezuela",
+                "definition": "Información pretendidamente cierta respecto de algún asunto controvertido o posible."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "Arpón que se utiliza para capturar peces."
+            },
+            {
+                "number": "7",
+                "type": "adverbio",
+                "type_extra": "coloquial",
+                "definition": "Con total seguridad. Fijo que viene a la cena."
+            },
+            {
+                "number": "8",
                 "type": "nombre masculino y femenino",
                 "type_extra": "desusado",
                 "definition": "hijo.",
@@ -4040,56 +4080,16 @@
                 ]
             },
             {
-                "number": "2",
+                "number": "9",
                 "type": "nombre masculino y femenino",
                 "type_extra": "desusado",
                 "definition": "Persona que desciende de otra."
             },
             {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Cantidad fija. Piden un fijo por actuar."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "teléfono fijo. Mejor llámame al fijo."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "Arquitectura",
-                "definition": "Paleta larga y estrecha, que sirve para sacar los calzos de entre los sillares sentados en obra y para introducir la mezcla en las juntas. La emplean también los empedradores para introducir arena o mezcla entre los adoquines."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "Argentina, Bolivia, Chile, Uruguay y Venezuela, por extensión",
-                "definition": "En el lenguaje hípico, triunfo seguro que se adjudica a un competidor, y, el propio competidor. Tener la fija. Ser una fija."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "Argentina, Bolivia, Uruguay y Venezuela",
-                "definition": "Información pretendidamente cierta respecto de algún asunto controvertido o posible."
-            },
-            {
-                "number": "8",
-                "type": "nombre femenino",
-                "type_extra": "Cuba",
-                "definition": "Arpón que se utiliza para capturar peces."
-            },
-            {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "bisagra (herraje de dos piezas)."
-            },
-            {
-                "number": "10",
-                "type": "adverbio",
-                "type_extra": "coloquial",
-                "definition": "Con total seguridad. Fijo que viene a la cena."
             }
         ]
     },
@@ -4230,6 +4230,46 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cantidad fija. Piden un fijo por actuar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "teléfono fijo. Mejor llámame al fijo."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Arquitectura",
+                "definition": "Paleta larga y estrecha, que sirve para sacar los calzos de entre los sillares sentados en obra y para introducir la mezcla en las juntas. La emplean también los empedradores para introducir arena o mezcla entre los adoquines."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, Chile, Uruguay y Venezuela, por extensión",
+                "definition": "En el lenguaje hípico, triunfo seguro que se adjudica a un competidor, y, el propio competidor. Tener la fija. Ser una fija."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, Uruguay y Venezuela",
+                "definition": "Información pretendidamente cierta respecto de algún asunto controvertido o posible."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "Arpón que se utiliza para capturar peces."
+            },
+            {
+                "number": "7",
+                "type": "adverbio",
+                "type_extra": "coloquial",
+                "definition": "Con total seguridad. Fijo que viene a la cena."
+            },
+            {
+                "number": "8",
                 "type": "nombre masculino y femenino",
                 "type_extra": "desusado",
                 "definition": "hijo.",
@@ -4245,56 +4285,16 @@
                 ]
             },
             {
-                "number": "2",
+                "number": "9",
                 "type": "nombre masculino y femenino",
                 "type_extra": "desusado",
                 "definition": "Persona que desciende de otra."
             },
             {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Cantidad fija. Piden un fijo por actuar."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "teléfono fijo. Mejor llámame al fijo."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "Arquitectura",
-                "definition": "Paleta larga y estrecha, que sirve para sacar los calzos de entre los sillares sentados en obra y para introducir la mezcla en las juntas. La emplean también los empedradores para introducir arena o mezcla entre los adoquines."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "Argentina, Bolivia, Chile, Uruguay y Venezuela, por extensión",
-                "definition": "En el lenguaje hípico, triunfo seguro que se adjudica a un competidor, y, el propio competidor. Tener la fija. Ser una fija."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "Argentina, Bolivia, Uruguay y Venezuela",
-                "definition": "Información pretendidamente cierta respecto de algún asunto controvertido o posible."
-            },
-            {
-                "number": "8",
-                "type": "nombre femenino",
-                "type_extra": "Cuba",
-                "definition": "Arpón que se utiliza para capturar peces."
-            },
-            {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "bisagra (herraje de dos piezas)."
-            },
-            {
-                "number": "10",
-                "type": "adverbio",
-                "type_extra": "coloquial",
-                "definition": "Con total seguridad. Fijo que viene a la cena."
             }
         ]
     },
@@ -4302,6 +4302,46 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cantidad fija. Piden un fijo por actuar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "teléfono fijo. Mejor llámame al fijo."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Arquitectura",
+                "definition": "Paleta larga y estrecha, que sirve para sacar los calzos de entre los sillares sentados en obra y para introducir la mezcla en las juntas. La emplean también los empedradores para introducir arena o mezcla entre los adoquines."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, Chile, Uruguay y Venezuela, por extensión",
+                "definition": "En el lenguaje hípico, triunfo seguro que se adjudica a un competidor, y, el propio competidor. Tener la fija. Ser una fija."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, Uruguay y Venezuela",
+                "definition": "Información pretendidamente cierta respecto de algún asunto controvertido o posible."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "Arpón que se utiliza para capturar peces."
+            },
+            {
+                "number": "7",
+                "type": "adverbio",
+                "type_extra": "coloquial",
+                "definition": "Con total seguridad. Fijo que viene a la cena."
+            },
+            {
+                "number": "8",
                 "type": "nombre masculino y femenino",
                 "type_extra": "desusado",
                 "definition": "hijo.",
@@ -4317,56 +4357,16 @@
                 ]
             },
             {
-                "number": "2",
+                "number": "9",
                 "type": "nombre masculino y femenino",
                 "type_extra": "desusado",
                 "definition": "Persona que desciende de otra."
             },
             {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Cantidad fija. Piden un fijo por actuar."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "teléfono fijo. Mejor llámame al fijo."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "Arquitectura",
-                "definition": "Paleta larga y estrecha, que sirve para sacar los calzos de entre los sillares sentados en obra y para introducir la mezcla en las juntas. La emplean también los empedradores para introducir arena o mezcla entre los adoquines."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "Argentina, Bolivia, Chile, Uruguay y Venezuela, por extensión",
-                "definition": "En el lenguaje hípico, triunfo seguro que se adjudica a un competidor, y, el propio competidor. Tener la fija. Ser una fija."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "Argentina, Bolivia, Uruguay y Venezuela",
-                "definition": "Información pretendidamente cierta respecto de algún asunto controvertido o posible."
-            },
-            {
-                "number": "8",
-                "type": "nombre femenino",
-                "type_extra": "Cuba",
-                "definition": "Arpón que se utiliza para capturar peces."
-            },
-            {
-                "number": "9",
+                "number": "10",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "bisagra (herraje de dos piezas)."
-            },
-            {
-                "number": "10",
-                "type": "adverbio",
-                "type_extra": "coloquial",
-                "definition": "Con total seguridad. Fijo que viene a la cena."
             }
         ]
     },
@@ -4941,6 +4941,18 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
+                "type_extra": "plural",
+                "definition": "Caudales, bienes."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "en plural",
+                "definition": "Hacienda pública."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "Obligación que alguien asume para responder de la obligación de otra persona.",
                 "definition_extra": [
@@ -4951,28 +4963,16 @@
                 ]
             },
             {
-                "number": "2",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "rescate (acción de rescatar)."
             },
             {
-                "number": "3",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "rescate (dinero con que se rescata, o que se pide para ello)."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "type_extra": "plural",
-                "definition": "Caudales, bienes."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "en plural",
-                "definition": "Hacienda pública."
             }
         ]
     },
@@ -5113,20 +5113,20 @@
             },
             {
                 "number": "4",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "afianzar (afirmar)."
-            },
-            {
-                "number": "5",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Confiar en alguien."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Esperar con firmeza o seguridad algo grato. Fío en Dios que me socorrerá."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "afianzar (afirmar)."
             }
         ]
     },
@@ -5190,14 +5190,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Afirmar, dar firmeza y seguridad a algo."
+                "type": "verbo pronominal",
+                "definition": "Usar tal o cual nombre o título en la firma."
             },
             {
                 "number": "3",
-                "type": "verbo pronominal",
-                "definition": "Usar tal o cual nombre o título en la firma."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Afirmar, dar firmeza y seguridad a algo."
             }
         ]
     },
@@ -5216,14 +5216,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Afirmar, dar firmeza y seguridad a algo."
+                "type": "verbo pronominal",
+                "definition": "Usar tal o cual nombre o título en la firma."
             },
             {
                 "number": "3",
-                "type": "verbo pronominal",
-                "definition": "Usar tal o cual nombre o título en la firma."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Afirmar, dar firmeza y seguridad a algo."
             }
         ]
     },
@@ -5242,14 +5242,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Afirmar, dar firmeza y seguridad a algo."
+                "type": "verbo pronominal",
+                "definition": "Usar tal o cual nombre o título en la firma."
             },
             {
                 "number": "3",
-                "type": "verbo pronominal",
-                "definition": "Usar tal o cual nombre o título en la firma."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Afirmar, dar firmeza y seguridad a algo."
             }
         ]
     },
@@ -5354,14 +5354,14 @@
             },
             {
                 "number": "2",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Afirmar, dar firmeza y seguridad a algo."
+                "type": "verbo pronominal",
+                "definition": "Usar tal o cual nombre o título en la firma."
             },
             {
                 "number": "3",
-                "type": "verbo pronominal",
-                "definition": "Usar tal o cual nombre o título en la firma."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Afirmar, dar firmeza y seguridad a algo."
             }
         ]
     },
@@ -5456,19 +5456,19 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado, En Castilla, usado como rural",
-                "definition": "Profesor de medicina, médico."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Exterior de una persona ; lo que forma su constitución y naturaleza."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Ciencia que estudia las propiedades de la materia y de la energía, y las relaciones entre ambas."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado, En Castilla, usado como rural",
+                "definition": "Profesor de medicina, médico."
             },
             {
                 "number": "7",
@@ -5527,19 +5527,19 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado, En Castilla, usado como rural",
-                "definition": "Profesor de medicina, médico."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Exterior de una persona ; lo que forma su constitución y naturaleza."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Ciencia que estudia las propiedades de la materia y de la energía, y las relaciones entre ambas."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado, En Castilla, usado como rural",
+                "definition": "Profesor de medicina, médico."
             },
             {
                 "number": "7",
@@ -5578,19 +5578,19 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado, En Castilla, usado como rural",
-                "definition": "Profesor de medicina, médico."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Exterior de una persona ; lo que forma su constitución y naturaleza."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Ciencia que estudia las propiedades de la materia y de la energía, y las relaciones entre ambas."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado, En Castilla, usado como rural",
+                "definition": "Profesor de medicina, médico."
             },
             {
                 "number": "7",
@@ -5629,19 +5629,19 @@
             },
             {
                 "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado, En Castilla, usado como rural",
-                "definition": "Profesor de medicina, médico."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "definition": "Exterior de una persona ; lo que forma su constitución y naturaleza."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "Ciencia que estudia las propiedades de la materia y de la energía, y las relaciones entre ambas."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado, En Castilla, usado como rural",
+                "definition": "Profesor de medicina, médico."
             },
             {
                 "number": "7",
@@ -5806,61 +5806,61 @@
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "virginidad."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
                 "type_extra": "Usado más en plural",
                 "definition": "Piropo, requiebro."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "etcétera",
                 "definition": "Polvillo que tienen ciertas frutas como las ciruelas, las uvas."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "definition": "Nata que hace el vino en lo alto de la vasija."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "definition": "Dulce que imita en su forma a la flor, hecho con huevos, leche y harina, que se fríe en aceite y se rocía con azúcar o miel."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre femenino",
                 "definition": "Irisaciones que se producen en las láminas delgadas de metales, cuando pasan candentes por el agua."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "nombre femenino",
                 "definition": "Juego de naipes que presenta distintas variedades."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre femenino",
                 "definition": "En algunos juegos de naipes, reunión de tres cartas del mismo palo."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "definition": "En las pieles adobadas, parte exterior, que admite pulimento, a distinción de la llamada carnaza."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "Argentina",
                 "definition": "alcachofa (pieza agujereada de la ducha)."
             },
             {
-                "number": "14",
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Menstruación de la mujer."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "definition": "virginidad."
             },
             {
                 "number": "15",
@@ -5953,14 +5953,14 @@
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "type_extra": "Ecuador, Honduras y México",
-                "definition": "caterva."
+                "type_extra": "Cuba",
+                "definition": "llana 1."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "type_extra": "Cuba",
-                "definition": "llana 1."
+                "type_extra": "Ecuador, Honduras y México",
+                "definition": "caterva."
             }
         ]
     },
@@ -6225,6 +6225,176 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "Superficie sólida sobre la cual está el agua. Fondo del mar, del río, de un pozo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Extensión interior de un edificio. Esta casa tiene mucho fondo, aunque poca fachada."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Zona más alejada de la entrada o de un determinado punto de referencia. El fondo del pasillo, de la calle."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Color o dibujo que cubre una superficie y sobre el cual resaltan los adornos, dibujos o manchas de otro u otros colores. Un papel con flores sobre fondo amarillo."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Caudal o conjunto de bienes que posee una persona o comunidad."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Condición o índole de alguien. Persona de buen fondo."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en plural",
+                "definition": "Porción de dinero."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "artículo de fondo."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Parte principal y esencial de algo, en contraposición a la forma."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Caudal de algo. Fondo de sabiduría, de virtud, de malicia."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "definition": "Dinero que se juega en común."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "definition": "Conjunto de impresos y manuscritos que tiene una biblioteca."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "definition": "Cada una de las colecciones de impresos o manuscritos de una biblioteca que ingresan de una determinada procedencia."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
+                "definition": "Conjunto de libros publicados por una editorial."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "definition": "Falda de debajo sobre la cual se arma el vestido."
+            },
+            {
+                "number": "16",
+                "type": "nombre masculino",
+                "definition": "Grueso que tienen los diamantes."
+            },
+            {
+                "number": "17",
+                "type": "nombre masculino",
+                "definition": "Cada uno de los dos témpanos de la cuba o del tonel."
+            },
+            {
+                "number": "18",
+                "type": "nombre masculino",
+                "type_extra": "Deportes",
+                "definition": "Resistencia física, reserva de energía corporal para aguantar esfuerzos prolongados."
+            },
+            {
+                "number": "19",
+                "type": "nombre masculino",
+                "type_extra": "Deportes",
+                "definition": "En atletismo y otros deportes, prueba de largo recorrido."
+            },
+            {
+                "number": "20",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "En un proceso, cuestión de derecho sustantivo, por contraposición a las de trámite y admisión."
+            },
+            {
+                "number": "21",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Conjunto de recursos destinado a un objeto determinado."
+            },
+            {
+                "number": "22",
+                "type": "nombre masculino",
+                "type_extra": "Esgrima",
+                "definition": "Acción ofensiva que consiste en la extensión del brazo que porta el arma, seguida del lanzamiento, vuelo y caída de la pierna adelantada, mientras la otra pierna queda estirada detrás."
+            },
+            {
+                "number": "23",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Espacio en que se forman las hileras y ocupan los soldados pecho con espalda."
+            },
+            {
+                "number": "24",
+                "type": "nombre masculino",
+                "type_extra": "Pintura",
+                "definition": "Espacio que no tiene figuras o sobre el cual se representan."
+            },
+            {
+                "number": "25",
+                "type": "nombre masculino",
+                "type_extra": "Álava",
+                "definition": "Arte de pesca compuesto de una cuerda a cuyo extremo hay dos anzuelos y un plomo."
+            },
+            {
+                "number": "26",
+                "type": "nombre masculino",
+                "type_extra": "Argentina, Ecuador, Uruguay y Venezuela",
+                "definition": "Patio interior o posterior de una casa."
+            },
+            {
+                "number": "27",
+                "type": "nombre masculino",
+                "type_extra": "Cuba y Ecuador",
+                "definition": "En la industria azucarera, caldera en que se cocina el guarapo y la miel."
+            },
+            {
+                "number": "28",
+                "type": "nombre masculino",
+                "type_extra": "Ecuador y Venezuela",
+                "definition": "combinación (prenda de vestir)."
+            },
+            {
+                "number": "29",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Saya blanca que las mujeres llevan debajo de las enaguas."
+            },
+            {
+                "number": "30",
+                "type": "nombre masculino",
+                "type_extra": "plural, Comercio, etcétera",
+                "definition": "Caudales, dinero, papel moneda, pertenecientes al tesoro público o al haber de un negociante."
+            },
+            {
+                "number": "31",
+                "type": "nombre masculino",
+                "type_extra": "plural, Marina",
+                "definition": "Parte sumergida del casco de un buque."
+            },
+            {
+                "number": "32",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "hondo.",
@@ -6240,179 +6410,9 @@
                 ]
             },
             {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Superficie sólida sobre la cual está el agua. Fondo del mar, del río, de un pozo."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "hondura."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Extensión interior de un edificio. Esta casa tiene mucho fondo, aunque poca fachada."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Zona más alejada de la entrada o de un determinado punto de referencia. El fondo del pasillo, de la calle."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Color o dibujo que cubre una superficie y sobre el cual resaltan los adornos, dibujos o manchas de otro u otros colores. Un papel con flores sobre fondo amarillo."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "definition": "Caudal o conjunto de bienes que posee una persona o comunidad."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Condición o índole de alguien. Persona de buen fondo."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "type_extra": "Usado más en plural",
-                "definition": "Porción de dinero."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "definition": "artículo de fondo."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "definition": "Parte principal y esencial de algo, en contraposición a la forma."
-            },
-            {
-                "number": "12",
-                "type": "nombre masculino",
-                "definition": "Caudal de algo. Fondo de sabiduría, de virtud, de malicia."
-            },
-            {
-                "number": "13",
-                "type": "nombre masculino",
-                "definition": "Dinero que se juega en común."
-            },
-            {
-                "number": "14",
-                "type": "nombre masculino",
-                "definition": "Conjunto de impresos y manuscritos que tiene una biblioteca."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "definition": "Cada una de las colecciones de impresos o manuscritos de una biblioteca que ingresan de una determinada procedencia."
-            },
-            {
-                "number": "16",
-                "type": "nombre masculino",
-                "definition": "Conjunto de libros publicados por una editorial."
-            },
-            {
-                "number": "17",
-                "type": "nombre masculino",
-                "definition": "Falda de debajo sobre la cual se arma el vestido."
-            },
-            {
-                "number": "18",
-                "type": "nombre masculino",
-                "definition": "Grueso que tienen los diamantes."
-            },
-            {
-                "number": "19",
-                "type": "nombre masculino",
-                "definition": "Cada uno de los dos témpanos de la cuba o del tonel."
-            },
-            {
-                "number": "20",
-                "type": "nombre masculino",
-                "type_extra": "Deportes",
-                "definition": "Resistencia física, reserva de energía corporal para aguantar esfuerzos prolongados."
-            },
-            {
-                "number": "21",
-                "type": "nombre masculino",
-                "type_extra": "Deportes",
-                "definition": "En atletismo y otros deportes, prueba de largo recorrido."
-            },
-            {
-                "number": "22",
-                "type": "nombre masculino",
-                "type_extra": "Derecho",
-                "definition": "En un proceso, cuestión de derecho sustantivo, por contraposición a las de trámite y admisión."
-            },
-            {
-                "number": "23",
-                "type": "nombre masculino",
-                "type_extra": "Derecho",
-                "definition": "Conjunto de recursos destinado a un objeto determinado."
-            },
-            {
-                "number": "24",
-                "type": "nombre masculino",
-                "type_extra": "Esgrima",
-                "definition": "Acción ofensiva que consiste en la extensión del brazo que porta el arma, seguida del lanzamiento, vuelo y caída de la pierna adelantada, mientras la otra pierna queda estirada detrás."
-            },
-            {
-                "number": "25",
-                "type": "nombre masculino",
-                "type_extra": "Milicia",
-                "definition": "Espacio en que se forman las hileras y ocupan los soldados pecho con espalda."
-            },
-            {
-                "number": "26",
-                "type": "nombre masculino",
-                "type_extra": "Pintura",
-                "definition": "Espacio que no tiene figuras o sobre el cual se representan."
-            },
-            {
-                "number": "27",
-                "type": "nombre masculino",
-                "type_extra": "Álava",
-                "definition": "Arte de pesca compuesto de una cuerda a cuyo extremo hay dos anzuelos y un plomo."
-            },
-            {
-                "number": "28",
-                "type": "nombre masculino",
-                "type_extra": "Argentina, Ecuador, Uruguay y Venezuela",
-                "definition": "Patio interior o posterior de una casa."
-            },
-            {
-                "number": "29",
-                "type": "nombre masculino",
-                "type_extra": "Cuba y Ecuador",
-                "definition": "En la industria azucarera, caldera en que se cocina el guarapo y la miel."
-            },
-            {
-                "number": "30",
-                "type": "nombre masculino",
-                "type_extra": "Ecuador y Venezuela",
-                "definition": "combinación (prenda de vestir)."
-            },
-            {
-                "number": "31",
-                "type": "nombre masculino",
-                "type_extra": "México",
-                "definition": "Saya blanca que las mujeres llevan debajo de las enaguas."
-            },
-            {
-                "number": "32",
-                "type": "nombre masculino",
-                "type_extra": "plural, Comercio, etcétera",
-                "definition": "Caudales, dinero, papel moneda, pertenecientes al tesoro público o al haber de un negociante."
-            },
-            {
                 "number": "33",
                 "type": "nombre masculino",
-                "type_extra": "plural, Marina",
-                "definition": "Parte sumergida del casco de un buque."
+                "definition": "hondura."
             }
         ]
     },
@@ -6420,6 +6420,176 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "Superficie sólida sobre la cual está el agua. Fondo del mar, del río, de un pozo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Extensión interior de un edificio. Esta casa tiene mucho fondo, aunque poca fachada."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Zona más alejada de la entrada o de un determinado punto de referencia. El fondo del pasillo, de la calle."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Color o dibujo que cubre una superficie y sobre el cual resaltan los adornos, dibujos o manchas de otro u otros colores. Un papel con flores sobre fondo amarillo."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Caudal o conjunto de bienes que posee una persona o comunidad."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Condición o índole de alguien. Persona de buen fondo."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en plural",
+                "definition": "Porción de dinero."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "artículo de fondo."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Parte principal y esencial de algo, en contraposición a la forma."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Caudal de algo. Fondo de sabiduría, de virtud, de malicia."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "definition": "Dinero que se juega en común."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "definition": "Conjunto de impresos y manuscritos que tiene una biblioteca."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "definition": "Cada una de las colecciones de impresos o manuscritos de una biblioteca que ingresan de una determinada procedencia."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
+                "definition": "Conjunto de libros publicados por una editorial."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "definition": "Falda de debajo sobre la cual se arma el vestido."
+            },
+            {
+                "number": "16",
+                "type": "nombre masculino",
+                "definition": "Grueso que tienen los diamantes."
+            },
+            {
+                "number": "17",
+                "type": "nombre masculino",
+                "definition": "Cada uno de los dos témpanos de la cuba o del tonel."
+            },
+            {
+                "number": "18",
+                "type": "nombre masculino",
+                "type_extra": "Deportes",
+                "definition": "Resistencia física, reserva de energía corporal para aguantar esfuerzos prolongados."
+            },
+            {
+                "number": "19",
+                "type": "nombre masculino",
+                "type_extra": "Deportes",
+                "definition": "En atletismo y otros deportes, prueba de largo recorrido."
+            },
+            {
+                "number": "20",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "En un proceso, cuestión de derecho sustantivo, por contraposición a las de trámite y admisión."
+            },
+            {
+                "number": "21",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Conjunto de recursos destinado a un objeto determinado."
+            },
+            {
+                "number": "22",
+                "type": "nombre masculino",
+                "type_extra": "Esgrima",
+                "definition": "Acción ofensiva que consiste en la extensión del brazo que porta el arma, seguida del lanzamiento, vuelo y caída de la pierna adelantada, mientras la otra pierna queda estirada detrás."
+            },
+            {
+                "number": "23",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Espacio en que se forman las hileras y ocupan los soldados pecho con espalda."
+            },
+            {
+                "number": "24",
+                "type": "nombre masculino",
+                "type_extra": "Pintura",
+                "definition": "Espacio que no tiene figuras o sobre el cual se representan."
+            },
+            {
+                "number": "25",
+                "type": "nombre masculino",
+                "type_extra": "Álava",
+                "definition": "Arte de pesca compuesto de una cuerda a cuyo extremo hay dos anzuelos y un plomo."
+            },
+            {
+                "number": "26",
+                "type": "nombre masculino",
+                "type_extra": "Argentina, Ecuador, Uruguay y Venezuela",
+                "definition": "Patio interior o posterior de una casa."
+            },
+            {
+                "number": "27",
+                "type": "nombre masculino",
+                "type_extra": "Cuba y Ecuador",
+                "definition": "En la industria azucarera, caldera en que se cocina el guarapo y la miel."
+            },
+            {
+                "number": "28",
+                "type": "nombre masculino",
+                "type_extra": "Ecuador y Venezuela",
+                "definition": "combinación (prenda de vestir)."
+            },
+            {
+                "number": "29",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Saya blanca que las mujeres llevan debajo de las enaguas."
+            },
+            {
+                "number": "30",
+                "type": "nombre masculino",
+                "type_extra": "plural, Comercio, etcétera",
+                "definition": "Caudales, dinero, papel moneda, pertenecientes al tesoro público o al haber de un negociante."
+            },
+            {
+                "number": "31",
+                "type": "nombre masculino",
+                "type_extra": "plural, Marina",
+                "definition": "Parte sumergida del casco de un buque."
+            },
+            {
+                "number": "32",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "hondo.",
@@ -6435,179 +6605,9 @@
                 ]
             },
             {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Superficie sólida sobre la cual está el agua. Fondo del mar, del río, de un pozo."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "hondura."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Extensión interior de un edificio. Esta casa tiene mucho fondo, aunque poca fachada."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Zona más alejada de la entrada o de un determinado punto de referencia. El fondo del pasillo, de la calle."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Color o dibujo que cubre una superficie y sobre el cual resaltan los adornos, dibujos o manchas de otro u otros colores. Un papel con flores sobre fondo amarillo."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "definition": "Caudal o conjunto de bienes que posee una persona o comunidad."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Condición o índole de alguien. Persona de buen fondo."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "type_extra": "Usado más en plural",
-                "definition": "Porción de dinero."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "definition": "artículo de fondo."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "definition": "Parte principal y esencial de algo, en contraposición a la forma."
-            },
-            {
-                "number": "12",
-                "type": "nombre masculino",
-                "definition": "Caudal de algo. Fondo de sabiduría, de virtud, de malicia."
-            },
-            {
-                "number": "13",
-                "type": "nombre masculino",
-                "definition": "Dinero que se juega en común."
-            },
-            {
-                "number": "14",
-                "type": "nombre masculino",
-                "definition": "Conjunto de impresos y manuscritos que tiene una biblioteca."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "definition": "Cada una de las colecciones de impresos o manuscritos de una biblioteca que ingresan de una determinada procedencia."
-            },
-            {
-                "number": "16",
-                "type": "nombre masculino",
-                "definition": "Conjunto de libros publicados por una editorial."
-            },
-            {
-                "number": "17",
-                "type": "nombre masculino",
-                "definition": "Falda de debajo sobre la cual se arma el vestido."
-            },
-            {
-                "number": "18",
-                "type": "nombre masculino",
-                "definition": "Grueso que tienen los diamantes."
-            },
-            {
-                "number": "19",
-                "type": "nombre masculino",
-                "definition": "Cada uno de los dos témpanos de la cuba o del tonel."
-            },
-            {
-                "number": "20",
-                "type": "nombre masculino",
-                "type_extra": "Deportes",
-                "definition": "Resistencia física, reserva de energía corporal para aguantar esfuerzos prolongados."
-            },
-            {
-                "number": "21",
-                "type": "nombre masculino",
-                "type_extra": "Deportes",
-                "definition": "En atletismo y otros deportes, prueba de largo recorrido."
-            },
-            {
-                "number": "22",
-                "type": "nombre masculino",
-                "type_extra": "Derecho",
-                "definition": "En un proceso, cuestión de derecho sustantivo, por contraposición a las de trámite y admisión."
-            },
-            {
-                "number": "23",
-                "type": "nombre masculino",
-                "type_extra": "Derecho",
-                "definition": "Conjunto de recursos destinado a un objeto determinado."
-            },
-            {
-                "number": "24",
-                "type": "nombre masculino",
-                "type_extra": "Esgrima",
-                "definition": "Acción ofensiva que consiste en la extensión del brazo que porta el arma, seguida del lanzamiento, vuelo y caída de la pierna adelantada, mientras la otra pierna queda estirada detrás."
-            },
-            {
-                "number": "25",
-                "type": "nombre masculino",
-                "type_extra": "Milicia",
-                "definition": "Espacio en que se forman las hileras y ocupan los soldados pecho con espalda."
-            },
-            {
-                "number": "26",
-                "type": "nombre masculino",
-                "type_extra": "Pintura",
-                "definition": "Espacio que no tiene figuras o sobre el cual se representan."
-            },
-            {
-                "number": "27",
-                "type": "nombre masculino",
-                "type_extra": "Álava",
-                "definition": "Arte de pesca compuesto de una cuerda a cuyo extremo hay dos anzuelos y un plomo."
-            },
-            {
-                "number": "28",
-                "type": "nombre masculino",
-                "type_extra": "Argentina, Ecuador, Uruguay y Venezuela",
-                "definition": "Patio interior o posterior de una casa."
-            },
-            {
-                "number": "29",
-                "type": "nombre masculino",
-                "type_extra": "Cuba y Ecuador",
-                "definition": "En la industria azucarera, caldera en que se cocina el guarapo y la miel."
-            },
-            {
-                "number": "30",
-                "type": "nombre masculino",
-                "type_extra": "Ecuador y Venezuela",
-                "definition": "combinación (prenda de vestir)."
-            },
-            {
-                "number": "31",
-                "type": "nombre masculino",
-                "type_extra": "México",
-                "definition": "Saya blanca que las mujeres llevan debajo de las enaguas."
-            },
-            {
-                "number": "32",
-                "type": "nombre masculino",
-                "type_extra": "plural, Comercio, etcétera",
-                "definition": "Caudales, dinero, papel moneda, pertenecientes al tesoro público o al haber de un negociante."
-            },
-            {
                 "number": "33",
                 "type": "nombre masculino",
-                "type_extra": "plural, Marina",
-                "definition": "Parte sumergida del casco de un buque."
+                "definition": "hondura."
             }
         ]
     },
@@ -6728,20 +6728,20 @@
             {
                 "number": "17",
                 "type": "nombre femenino",
-                "type_extra": "desusado, etcétera",
-                "definition": "Tamaño de un libro según sus dimensiones de largo y ancho, como folio, cuarto, octavo."
-            },
-            {
-                "number": "18",
-                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Configuración del cuerpo humano, especialmente el pecho, la cintura y las caderas de la mujer. Ya empieza a tener formas."
             },
             {
-                "number": "19",
+                "number": "18",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Manera o modo de comportarse según las normas de educación. Qué malas formas tiene."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "type_extra": "desusado, etcétera",
+                "definition": "Tamaño de un libro según sus dimensiones de largo y ancho, como folio, cuarto, octavo."
             }
         ]
     },
@@ -8220,6 +8220,12 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
+                "type_extra": "Huesca",
+                "definition": "fresa 1."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
                 "definition": "frambueso.",
                 "definition_extra": [
                     {
@@ -8227,12 +8233,6 @@
                         "content": "frambueso, sangüeso, chordón, breñal, breñar."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "type_extra": "Huesca",
-                "definition": "fresa 1."
             }
         ]
     },
@@ -8392,25 +8392,25 @@
             },
             {
                 "number": "13",
+                "type": "nombre masculino",
+                "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
+                "definition": "Lengua germánica que hablaban los antiguos francos."
+            },
+            {
+                "number": "15",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Liberal, dadivoso."
             },
             {
-                "number": "14",
+                "number": "16",
                 "type": "adjetivo",
                 "type_extra": "desusado, Aplicado a persona, era usado también como sustantivo",
                 "definition": "En la costa de África, europeo."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
-            },
-            {
-                "number": "16",
-                "type": "nombre masculino",
-                "definition": "Lengua germánica que hablaban los antiguos francos."
             }
         ]
     },
@@ -8604,25 +8604,25 @@
             },
             {
                 "number": "13",
+                "type": "nombre masculino",
+                "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
+                "definition": "Lengua germánica que hablaban los antiguos francos."
+            },
+            {
+                "number": "15",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Liberal, dadivoso."
             },
             {
-                "number": "14",
+                "number": "16",
                 "type": "adjetivo",
                 "type_extra": "desusado, Aplicado a persona, era usado también como sustantivo",
                 "definition": "En la costa de África, europeo."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
-            },
-            {
-                "number": "16",
-                "type": "nombre masculino",
-                "definition": "Lengua germánica que hablaban los antiguos francos."
             }
         ]
     },
@@ -8703,25 +8703,25 @@
             },
             {
                 "number": "13",
+                "type": "nombre masculino",
+                "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
+                "definition": "Lengua germánica que hablaban los antiguos francos."
+            },
+            {
+                "number": "15",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Liberal, dadivoso."
             },
             {
-                "number": "14",
+                "number": "16",
                 "type": "adjetivo",
                 "type_extra": "desusado, Aplicado a persona, era usado también como sustantivo",
                 "definition": "En la costa de África, europeo."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Suiza y otros países, que en Francia, Bélgica, Luxemburgo y Mónaco estuvo en vigor hasta la implantación del euro."
-            },
-            {
-                "number": "16",
-                "type": "nombre masculino",
-                "definition": "Lengua germánica que hablaban los antiguos francos."
             }
         ]
     },
@@ -8806,36 +8806,36 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "idiotismo."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
                 "definition": "Modo particular de una lengua o uso que de ella hace un escritor u orador. La frase castellana tiende a la sobriedad."
             },
             {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "Gramática",
-                "definition": "sintagma."
-            },
-            {
-                "number": "6",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Gramática",
                 "definition": "oración (estructura gramatical)."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "Lingüística",
                 "definition": "Expresión acuñada constituida por dos o más palabras cuyo significado conjunto no se obtiene a partir del de los elementos que la componen."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Sección breve de una composición, con sentido propio."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "idiotismo."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Gramática",
+                "definition": "sintagma."
             }
         ]
     },
@@ -8860,36 +8860,36 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "idiotismo."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
                 "definition": "Modo particular de una lengua o uso que de ella hace un escritor u orador. La frase castellana tiende a la sobriedad."
             },
             {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "Gramática",
-                "definition": "sintagma."
-            },
-            {
-                "number": "6",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Gramática",
                 "definition": "oración (estructura gramatical)."
             },
             {
-                "number": "7",
+                "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "Lingüística",
                 "definition": "Expresión acuñada constituida por dos o más palabras cuyo significado conjunto no se obtiene a partir del de los elementos que la componen."
             },
             {
-                "number": "8",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Sección breve de una composición, con sentido propio."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "idiotismo."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Gramática",
+                "definition": "sintagma."
             }
         ]
     },
@@ -9662,15 +9662,15 @@
             },
             {
                 "number": "14",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Bebida enfriada con nieve o hielo, pero líquida."
-            },
-            {
-                "number": "15",
                 "type": "nombre femenino",
                 "type_extra": "Colombia, Cuba, Guatemala, México y República Dominicana, coloquial",
                 "definition": "cerveza."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Bebida enfriada con nieve o hielo, pero líquida."
             },
             {
                 "number": "16",
@@ -9814,39 +9814,39 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "frentero."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
                 "definition": "Caudillo o jefe militar que mandaba la frontera."
             },
             {
-                "number": "4",
+                "number": "3",
                 "type": "nombre femenino",
                 "definition": "Confín de un Estado."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Usado más en plural",
                 "definition": "límite. Su codicia no tiene fronteras."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "frontis (fachada)."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "definition": "Cada una de las fajas o fuerzas que se ponen en el serón por la parte de abajo para su mayor firmeza."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "Arquitectura",
                 "definition": "Tablero fortificado con barrotes que sirve para sostener los tapiales que forman el molde de la tapia cuando se llega con ella a las esquinas o vanos."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "frentero."
             }
         ]
     },
@@ -9866,39 +9866,39 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "frentero."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
                 "definition": "Caudillo o jefe militar que mandaba la frontera."
             },
             {
-                "number": "4",
+                "number": "3",
                 "type": "nombre femenino",
                 "definition": "Confín de un Estado."
             },
             {
-                "number": "5",
+                "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Usado más en plural",
                 "definition": "límite. Su codicia no tiene fronteras."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre femenino",
                 "definition": "frontis (fachada)."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "definition": "Cada una de las fajas o fuerzas que se ponen en el serón por la parte de abajo para su mayor firmeza."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "Arquitectura",
                 "definition": "Tablero fortificado con barrotes que sirve para sostener los tapiales que forman el molde de la tapia cuando se llega con ella a las esquinas o vanos."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "frentero."
             }
         ]
     },
@@ -11390,6 +11390,12 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Heredad o finca rústica."
+            },
+            {
+                "number": "2",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "profundo.",
@@ -11399,12 +11405,6 @@
                         "content": "heredad, hacienda, predio."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "Derecho",
-                "definition": "Heredad o finca rústica."
             }
         ]
     },
@@ -11943,33 +11943,24 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Ayuda o socorro que se concede a alguien.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "ayuda, socorro, amparo, auxilio, fautoría."
+                        "content": "fautoría."
                     }
                 ]
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Honra, beneficio, gracia.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "atención, patrocinio, fomento, protección."
-                    }
-                ]
+                "type": "nombre masculino",
+                "definition": "Honra, beneficio, gracia."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "privanza.",
+                "type": "nombre masculino",
+                "definition": "Primer lugar en la gracia y confianza de un príncipe o alto personaje, y, por ext., de cualquier otra persona.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -11979,15 +11970,13 @@
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Expresión de agrado que suelen hacer las damas."
+                "type": "nombre masculino",
+                "definition": "Cinta, flor u otra cosa semejante dada por una dama a un caballero, y que en las fiestas públicas llevaba este en el sombrero o en el brazo."
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cinta, flor u otra cosa semejante dada por una dama a un caballero, y que en las fiestas públicas llevaba este en el sombrero o en el brazo."
+                "type": "nombre masculino",
+                "definition": "Expresión de agrado que suelen hacer las damas."
             }
         ]
     },
@@ -12119,12 +12108,6 @@
             {
                 "number": "1",
                 "type": "nombre",
-                "definition": "festivo.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "2",
-                "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Fiesta, especialmente musical.",
                 "definition_extra": [
@@ -12135,10 +12118,16 @@
                 ]
             },
             {
-                "number": "3",
+                "number": "2",
                 "type": "nombre",
                 "type_extra": "sin verificar",
                 "definition": "Conjunto de representaciones dedicadas a un artista o a un arte."
+            },
+            {
+                "number": "3",
+                "type": "nombre",
+                "definition": "festivo.",
+                "type_extra": "obsolete, sin verificar"
             }
         ]
     },
@@ -12147,13 +12136,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Término, remate o consumación de algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "final, conclusión, desenlace, término, terminación, consumación, remate, cabo1."
+                        "content": "final, conclusión, desenlace, término, terminación, consumación, remate, cabo."
                     },
                     {
                         "type": "Antónimos",
@@ -12163,20 +12151,18 @@
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Límite, confín.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "extremo, límite, término, final, cabo1."
+                        "content": "extremo, límite, término, final, cabo."
                     }
                 ]
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Objeto o motivo con que se ejecuta algo.",
                 "definition_extra": [
                     {
@@ -12193,7 +12179,6 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Que termina o cierra.",
                 "definition_extra": [
                     {
@@ -12205,24 +12190,21 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que remata y perfecciona algo."
+                "definition": "Que remata o perfecciona algo."
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que expresa finalidad."
+                "definition": "Dicho de una oración, que expresa finalidad."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Término y remate de algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "fin, conclusión, desenlace, remate, término, límite, colofón, consumación, expiración, acabamiento, terminación, amén1."
+                        "content": "fin, conclusión, desenlace, remate, término, límite, colofón, consumación, expiración, acabamiento, terminación, amén."
                     },
                     {
                         "type": "Antónimos",
@@ -12232,14 +12214,12 @@
             },
             {
                 "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Última y decisiva competición en un campeonato o concurso."
             },
             {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Treta que se compone de seis movimientos."
             }
         ]
@@ -12302,21 +12282,20 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "definition": "confianza.",
-                "type_extra": "obsolete, sin verificar"
-            },
-            {
-                "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "fotografía (‖ imagen).",
+                "type": "nombre femenino",
+                "definition": "fotografía.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "fotografía, instantánea, retrato, imagen."
+                        "content": "instantánea, retrato, imagen, fotografía."
                     }
                 ]
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "confianza.",
+                "type_extra": "desusado"
             }
         ]
     },

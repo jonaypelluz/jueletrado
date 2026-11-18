@@ -4,6 +4,12 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Millón de pesetas."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
                 "definition": "kilogramo.",
                 "definition_extra": [
                     {
@@ -11,12 +17,6 @@
                         "content": "kilogramo."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "coloquial",
-                "definition": "Millón de pesetas."
             }
         ]
     },
@@ -35,6 +35,12 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Millón de pesetas."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
                 "definition": "kilogramo.",
                 "definition_extra": [
                     {
@@ -42,12 +48,6 @@
                         "content": "kilogramo."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "coloquial",
-                "definition": "Millón de pesetas."
             }
         ]
     },

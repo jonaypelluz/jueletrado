@@ -999,20 +999,20 @@
             },
             {
                 "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Echar, imponer, cargar."
+                "type": "verbo pronominal",
+                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
-                "definition": "Emplear, invertir, gastar."
+                "definition": "Echar, imponer, cargar."
             },
             {
                 "number": "10",
-                "type": "verbo pronominal",
-                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Emplear, invertir, gastar."
             }
         ]
     },
@@ -1070,20 +1070,20 @@
             },
             {
                 "number": "8",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Echar, imponer, cargar."
+                "type": "verbo pronominal",
+                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
             },
             {
                 "number": "9",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
-                "definition": "Emplear, invertir, gastar."
+                "definition": "Echar, imponer, cargar."
             },
             {
                 "number": "10",
-                "type": "verbo pronominal",
-                "definition": "Empezar una acción con mucho ánimo o con irreflexión."
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Emplear, invertir, gastar."
             }
         ]
     },
@@ -1111,6 +1111,16 @@
         "definitions": [
             {
                 "number": "1",
+                "type": "nombre masculino",
+                "definition": "Tiempo entre dos límites."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Caída en una culpa o error."
+            },
+            {
+                "number": "3",
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Que ha caído en un delito o error.",
@@ -1120,16 +1130,6 @@
                         "content": "transcurso, decurso, curso, paso, intervalo, intersticio, hueco, período, etapa, plazo, tiempo, espacio."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Tiempo entre dos límites."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Caída en una culpa o error."
             }
         ]
     },
@@ -1574,6 +1574,33 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
+                "definition": "Envase hecho de hojalata. Una lata de tabaco, de salmón, de pimientos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Tabla delgada sobre la cual se aseguran las tejas."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Madero, por lo común en rollo y sin pulir, de menor tamaño que el cuartón."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Discurso o conversación fastidiosa."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Cosa que causa hastío y disgusto a alguien. Aquello fue una lata. ¡ Qué lata !."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
                 "definition": "hojalata.",
                 "definition_extra": [
                     {
@@ -1585,33 +1612,6 @@
                         "content": "gusto, delicia."
                     }
                 ]
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Envase hecho de hojalata. Una lata de tabaco, de salmón, de pimientos."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "Tabla delgada sobre la cual se aseguran las tejas."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "definition": "Madero, por lo común en rollo y sin pulir, de menor tamaño que el cuartón."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "coloquial",
-                "definition": "Discurso o conversación fastidiosa."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "coloquial",
-                "definition": "Cosa que causa hastío y disgusto a alguien. Aquello fue una lata. ¡ Qué lata !."
             }
         ]
     },
@@ -3158,34 +3158,34 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "eslogan."
+                "definition": "tema (proposición o texto de un discurso)."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "tema (proposición o texto de un discurso)."
+                "definition": "tema (asunto o materia)."
             },
             {
                 "number": "6",
                 "type": "nombre masculino",
-                "definition": "tema (asunto o materia)."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
                 "definition": "Palabra o palabras que por contraseña se escriben en los pliegos cerrados de oposiciones y certámenes, para conocer, después del fallo, a quién pertenece cada obra, o averiguar el nombre de los autores premiados."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre masculino",
                 "type_extra": "Lingüística",
                 "definition": "Palabra que encabeza un artículo de un diccionario o de una enciclopedia."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre masculino",
                 "type_extra": "Matemáticas",
                 "definition": "Proposición que es preciso demostrar antes de probar un teorema."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "eslogan."
             }
         ]
     },
@@ -3424,26 +3424,26 @@
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Dicho de un árbol o de un arbusto: Flexible o correoso."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "largo (movimiento)."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "largo (composición)."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "adverbio",
                 "definition": "lentamente. Los soldados avanzan lento."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Dicho de un árbol o de un arbusto: Flexible o correoso."
             }
         ]
     },
@@ -3542,26 +3542,26 @@
             },
             {
                 "number": "4",
-                "type": "adjetivo",
-                "type_extra": "desusado",
-                "definition": "Dicho de un árbol o de un arbusto: Flexible o correoso."
-            },
-            {
-                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "largo (movimiento)."
             },
             {
-                "number": "6",
+                "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "largo (composición)."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "adverbio",
                 "definition": "lentamente. Los soldados avanzan lento."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Dicho de un árbol o de un arbusto: Flexible o correoso."
             }
         ]
     },
@@ -3683,32 +3683,32 @@
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "carta."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Letrero con que se hace público algo."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Diversos ramos del saber humano."
             },
             {
-                "number": "14",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Conjunto de los saberes humanísticos, por oposición a la matemática y a las ciencias de la naturaleza."
             },
             {
-                "number": "15",
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Orden, provisión o decisión, especialmente las que se expiden en materias eclesiásticas."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "carta."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Letrero con que se hace público algo."
             }
         ]
     },
@@ -3776,32 +3776,32 @@
             {
                 "number": "11",
                 "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "carta."
-            },
-            {
-                "number": "12",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Letrero con que se hace público algo."
-            },
-            {
-                "number": "13",
-                "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Diversos ramos del saber humano."
             },
             {
-                "number": "14",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Conjunto de los saberes humanísticos, por oposición a la matemática y a las ciencias de la naturaleza."
             },
             {
-                "number": "15",
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Orden, provisión o decisión, especialmente las que se expiden en materias eclesiásticas."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "carta."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Letrero con que se hace público algo."
             }
         ]
     },
@@ -5203,24 +5203,24 @@
             },
             {
                 "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Hacer, contraer alianza con alguien."
-            },
-            {
-                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Ponerse a ejecutar con vehemencia. Se liaron a dar voces."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dar un golpe. Antonio y Pedro se liaron a bofetadas."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos personas: Enredarse con fin deshonesto, amancebarse."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Hacer, contraer alianza con alguien."
             }
         ]
     },
@@ -7169,24 +7169,24 @@
             },
             {
                 "number": "5",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Hacer, contraer alianza con alguien."
-            },
-            {
-                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Ponerse a ejecutar con vehemencia. Se liaron a dar voces."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Dar un golpe. Antonio y Pedro se liaron a bofetadas."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Dicho de dos personas: Enredarse con fin deshonesto, amancebarse."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Hacer, contraer alianza con alguien."
             }
         ]
     },
@@ -7499,14 +7499,14 @@
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "type_extra": "coloquial",
-                "definition": "palabrería."
+                "type_extra": "Música",
+                "definition": "Conjunto de obras musicales escritas para un determinado instrumento o grupo instrumental. Literatura pianística."
             },
             {
                 "number": "7",
                 "type": "nombre femenino",
-                "type_extra": "Música",
-                "definition": "Conjunto de obras musicales escritas para un determinado instrumento o grupo instrumental. Literatura pianística."
+                "type_extra": "coloquial",
+                "definition": "palabrería."
             },
             {
                 "number": "8",
@@ -7626,32 +7626,32 @@
             },
             {
                 "number": "8",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Embriaguez, borrachera."
-            },
-            {
-                "number": "9",
                 "type": "nombre femenino",
                 "definition": "Lomo no removido por el arado, entre surco y surco."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "En la América colonial, nacido de indio y negra, o de negro e india."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "adjetivo",
                 "type_extra": "Chile",
                 "definition": "Arisco, huraño."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "adjetivo",
                 "type_extra": "Perú, Usado también como sustantivo",
                 "definition": "astuto (agudo, hábil)."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Embriaguez, borrachera."
             }
         ]
     },
@@ -8503,14 +8503,14 @@
             {
                 "number": "9",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "loma."
+                "type_extra": "plural",
+                "definition": "Espalda del cuerpo humano."
             },
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "plural",
-                "definition": "Espalda del cuerpo humano."
+                "type_extra": "desusado",
+                "definition": "loma."
             }
         ]
     },
@@ -8730,15 +8730,15 @@
             },
             {
                 "number": "4",
-                "type": "adverbio",
-                "type_extra": "desusado, Usado en América",
-                "definition": "Prontamente, sin dilación."
-            },
-            {
-                "number": "5",
                 "type": "conjunción",
                 "type_extra": "ilativa",
                 "definition": "Por consiguiente, por lo tanto. Pienso, luego existo. ¿ Luego era fundado mi temor ?."
+            },
+            {
+                "number": "5",
+                "type": "adverbio",
+                "type_extra": "desusado, Usado en América",
+                "definition": "Prontamente, sin dilación."
             }
         ]
     },
@@ -8969,68 +8969,68 @@
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "lunación."
+                "definition": "Satélite natural de un planeta. Júpiter tiene numerosas lunas."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Satélite natural de un planeta. Júpiter tiene numerosas lunas."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
                 "definition": "Espejo cuyo tamaño permite ver a las personas de cuerpo entero."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "etcétera",
                 "definition": "Lámina de cristal, vidrio u otra materia transparente, que se emplea en ventanas, escaparates, parabrisas."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "nombre femenino",
                 "definition": "Cristal de los anteojos."
             },
             {
-                "number": "9",
+                "number": "8",
                 "type": "nombre femenino",
                 "definition": "pez luna."
             },
             {
-                "number": "10",
+                "number": "9",
                 "type": "nombre femenino",
                 "definition": "Supuesto efecto que ejerce la Luna en algunas personas."
             },
             {
-                "number": "11",
+                "number": "10",
                 "type": "nombre femenino",
                 "type_extra": "Alquimia",
                 "definition": "plata (elemento químico)."
             },
             {
-                "number": "12",
+                "number": "11",
                 "type": "nombre femenino",
                 "type_extra": "Aragón",
                 "definition": "Patio abierto o descubierto."
             },
             {
-                "number": "13",
+                "number": "12",
                 "type": "nombre femenino",
                 "type_extra": "coloquial, Argentina, Bolivia, Honduras, Paraguay y Uruguay",
                 "definition": "mal humor."
             },
             {
-                "number": "14",
+                "number": "13",
                 "type": "nombre femenino",
                 "type_extra": "germanía",
                 "definition": "camisa (prenda interior)."
             },
             {
-                "number": "15",
+                "number": "14",
                 "type": "nombre femenino",
                 "type_extra": "germanía",
                 "definition": "escudo (arma defensiva)."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "definition": "lunación."
             }
         ]
     },
@@ -11781,32 +11781,32 @@
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Plenitud o culminación de algo."
+                "type_extra": "plural, Marina",
+                "definition": "Forma de los fondos del buque cuando se acerca a la redondez."
             },
             {
                 "number": "11",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Momento en que algo se completa o alcanza su mayor intensidad."
+                "type_extra": "plural, Marina",
+                "definition": "Parte del casco comprendida entre los raceles."
             },
             {
                 "number": "12",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
-                "definition": "Abundancia o cantidad grande de algo."
+                "definition": "Plenitud o culminación de algo."
             },
             {
                 "number": "13",
                 "type": "nombre masculino",
-                "type_extra": "plural, Marina",
-                "definition": "Forma de los fondos del buque cuando se acerca a la redondez."
+                "type_extra": "desusado",
+                "definition": "Momento en que algo se completa o alcanza su mayor intensidad."
             },
             {
                 "number": "14",
                 "type": "nombre masculino",
-                "type_extra": "plural, Marina",
-                "definition": "Parte del casco comprendida entre los raceles."
+                "type_extra": "desusado",
+                "definition": "Abundancia o cantidad grande de algo."
             }
         ]
     },
@@ -11873,32 +11873,32 @@
             {
                 "number": "10",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Plenitud o culminación de algo."
+                "type_extra": "plural, Marina",
+                "definition": "Forma de los fondos del buque cuando se acerca a la redondez."
             },
             {
                 "number": "11",
                 "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Momento en que algo se completa o alcanza su mayor intensidad."
+                "type_extra": "plural, Marina",
+                "definition": "Parte del casco comprendida entre los raceles."
             },
             {
                 "number": "12",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
-                "definition": "Abundancia o cantidad grande de algo."
+                "definition": "Plenitud o culminación de algo."
             },
             {
                 "number": "13",
                 "type": "nombre masculino",
-                "type_extra": "plural, Marina",
-                "definition": "Forma de los fondos del buque cuando se acerca a la redondez."
+                "type_extra": "desusado",
+                "definition": "Momento en que algo se completa o alcanza su mayor intensidad."
             },
             {
                 "number": "14",
                 "type": "nombre masculino",
-                "type_extra": "plural, Marina",
-                "definition": "Parte del casco comprendida entre los raceles."
+                "type_extra": "desusado",
+                "definition": "Abundancia o cantidad grande de algo."
             }
         ]
     },
@@ -14250,15 +14250,13 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo, designa a alguien o algo mencionado en el discurso, distinto de quien lo enuncia y del destinatario. referido a personas."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo, designa a alguien o algo mencionado en el discurso, distinto de quien lo enuncia y del destinatario."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo, designa a la persona a la que se dirige quien habla o escribe. como tratamiento de cortesía, respeto o distanciamiento."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo, designa a la persona a la que se dirige quien habla o escribe."
             }
         ]
     },
@@ -14448,6 +14446,18 @@
             {
                 "number": "4",
                 "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "Juego entre dos muchachos, uno de los cuales dispone de catorce tantos o piedrecillas, que se llaman perros, y el otro de uno, que se llama león; es juego parecido al del asalto y al ajedrez. Si los perros encierran al león en la parte del tablero que figura ser su casa o en otro punto, ganan el juego; pero si él se come la mayor parte de ellos, lo pierden."
+            },
+            {
+                "number": "5",
+                "type": "nombre",
+                "type_extra": "sin verificar",
+                "definition": "Tanto o piedra pequeña del juego del león."
+            },
+            {
+                "number": "6",
+                "type": "nombre",
                 "definition": "puma.",
                 "type_extra": "colloquial, sin verificar",
                 "definition_extra": [
@@ -14456,18 +14466,6 @@
                         "content": "puma."
                     }
                 ]
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Juego entre dos muchachos, uno de los cuales dispone de catorce tantos o piedrecillas, que se llaman perros, y el otro de uno, que se llama león; es juego parecido al del asalto y al ajedrez. Si los perros encierran al león en la parte del tablero que figura ser su casa o en otro punto, ganan el juego; pero si él se come la mayor parte de ellos, lo pierden."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Tanto o piedra pequeña del juego del león."
             }
         ]
     },
@@ -14476,15 +14474,13 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo, designa a alguien o algo mencionado en el discurso, distinto de quien lo enuncia y del destinatario. referido a personas."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo, designa a alguien o algo mencionado en el discurso, distinto de quien lo enuncia y del destinatario."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en dativo, designa a la persona a la que se dirige quien habla o escribe. como tratamiento de cortesía, respeto o distanciamiento."
+                "type": "pronombre",
+                "definition": "Forma que, en dativo, designa a la persona a la que se dirige quien habla o escribe."
             }
         ]
     },
@@ -14684,32 +14680,70 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Sucesión continua e indefinida de puntos."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Medida longitudinal que equivale a cerca de dos milímetros."
-            },
-            {
-                "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
                 "definition": "Raya en un cuerpo cualquiera.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "raya1, trazo, renglón, recta, lista, estría, vírgula."
+                        "content": "raya, recta, estría, vírgula, trazo."
                     }
                 ]
             },
             {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Medida longitudinal que equivale a cerca de dos milímetros."
+            },
+            {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre femenino",
+                "definition": "Sucesión de personas o cosas situadas una detrás de otra o una al lado de otra.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "fila, hilera, serie, sarta, ristra, cadena, ringlera, columna, andana."
+                    }
+                ]
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Serie de palabras o caracteres escritos o impresos en línea recta.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "renglón."
+                    }
+                ]
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Serie de grados que indica la proximidad del parentesco."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "En el juego del bingo, serie de los números que constituyen cada una de las filas horizontales del cartón de un jugador."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "En el juego del bingo, premio que gana el jugador que antes consigue completar los números de una línea de su cartón."
+            },
+            {
+                "number": "9",
+                "type": "interjección",
+                "definition": "Usado en el juego del bingo para indicar públicamente que se ha completado una línea del cartón."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
                 "definition": "Forma, silueta o perfil.",
                 "definition_extra": [
                     {
@@ -14719,9 +14753,13 @@
                 ]
             },
             {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "11",
+                "type": "nombre femenino",
+                "definition": "En pintura, el dibujo, por contraposición al color."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
                 "definition": "Figura esbelta y armoniosa de una persona.",
                 "definition_extra": [
                     {
@@ -14731,93 +14769,78 @@
                 ]
             },
             {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Conducta o comportamiento en una determinada dirección."
-            },
-            {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Dirección, tendencia, orientación o estilo de un arte o de un saber cualquiera.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "tendencia, orientación, lineamiento."
-                    }
-                ]
-            },
-            {
-                "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "término (‖ límite).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "término, límite, borde1."
-                    }
-                ]
-            },
-            {
-                "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "renglón (‖ serie de palabras o caracteres).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "renglón."
-                    }
-                ]
-            },
-            {
-                "number": "10",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Sucesión de personas o cosas situadas una detrás de otra o una al lado de otra.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "fila, hilera, serie, sarta, ristra, cadena, ringlera, columna, andana1."
-                    }
-                ]
-            },
-            {
-                "number": "11",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En el juego del bingo, serie de los números que constituyen cada una de las filas horizontales del cartón de un jugador."
-            },
-            {
-                "number": "12",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En el juego del bingo, premio que gana el jugador que antes consigue completar los números de una línea de su cartón."
-            },
-            {
                 "number": "13",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En pintura, el dibujo, por contraposición al color."
+                "type": "nombre femenino",
+                "definition": "Límite o extremo de algo inmaterial.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "límite, borde, término."
+                    }
+                ]
             },
             {
                 "number": "14",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Conjunto de hilos o cables que conducen la corriente eléctrica de un punto a otro."
+                "type": "nombre femenino",
+                "definition": "primera línea.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "frente, primera línea."
+                    }
+                ]
             },
             {
                 "number": "15",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Comunicación telefónica o suministro eléctrico."
+                "type": "nombre femenino",
+                "definition": "línea equinoccial.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "ecuador, ecuador terrestre, equinoccial, línea equinoccial."
+                    }
+                ]
             },
             {
                 "number": "16",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino y femenino",
+                "definition": "En fútbol, juez de línea.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "juez de línea, jueza de línea, linier."
+                    }
+                ]
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "definition": "Formación de tropas en orden de batalla."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "definition": "En el fútbol y otros deportes, cada una de las series de jugadores que suelen desempeñar una misión semejante en el desarrollo del juego."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "definition": "Formación de varios buques semejantes alineados."
+            },
+            {
+                "number": "20",
+                "type": "nombre femenino",
+                "definition": "Formación de soldados o de unidades en que unos quedan al costado de los otros, cuando tiene un fondo de dos o tres soldados.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "línea de columnas."
+                    }
+                ]
+            },
+            {
+                "number": "21",
+                "type": "nombre femenino",
                 "definition": "Vía terrestre, marítima o aérea.",
                 "definition_extra": [
                     {
@@ -14827,9 +14850,8 @@
                 ]
             },
             {
-                "number": "17",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "22",
+                "type": "nombre femenino",
                 "definition": "Servicio regular de vehículos que recorren un itinerario determinado.",
                 "definition_extra": [
                     {
@@ -14839,88 +14861,46 @@
                 ]
             },
             {
-                "number": "18",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "number": "23",
+                "type": "nombre femenino",
+                "definition": "Conjunto de hilos o cables que conducen la corriente eléctrica de un punto a otro."
+            },
+            {
+                "number": "24",
+                "type": "nombre femenino",
+                "definition": "Comunicación telefónica o suministro eléctrico."
+            },
+            {
+                "number": "25",
+                "type": "nombre femenino",
+                "definition": "Dirección, tendencia, orientación o estilo de un arte o de un saber cualquiera.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tendencia, orientación, lineamiento."
+                    }
+                ]
+            },
+            {
+                "number": "26",
+                "type": "nombre femenino",
+                "definition": "Conducta o comportamiento en una determinada dirección."
+            },
+            {
+                "number": "27",
+                "type": "nombre femenino",
                 "definition": "Especialmente en el comercio, clase, género, especie.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "serie, gama2, clase, tipo."
+                        "content": "serie, gama, clase, tipo."
                     }
                 ]
-            },
-            {
-                "number": "19",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Serie de grados que indica la proximidad del parentesco."
-            },
-            {
-                "number": "20",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En el fútbol y otros deportes, cada una de las series de jugadores que suelen desempeñar una misión semejante en el desarrollo del juego."
-            },
-            {
-                "number": "21",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Cada uno de los posibles espacios de movimiento del arma de un tirador."
-            },
-            {
-                "number": "22",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "línea equinoccial.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "equinoccial."
-                    }
-                ]
-            },
-            {
-                "number": "23",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Formación de varios buques semejantes alineados."
-            },
-            {
-                "number": "24",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Formación de tropas en orden de batalla."
-            },
-            {
-                "number": "25",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Formación de soldados o de unidades en que unos quedan al costado de los otros, cuando tiene un fondo de dos o tres soldados."
-            },
-            {
-                "number": "26",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "frente (‖ extensión o línea de territorio en que se enfrentan los ejércitos).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "frente."
-                    }
-                ]
-            },
-            {
-                "number": "27",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En fútbol, juez de línea."
             },
             {
                 "number": "28",
-                "type": "interjección",
-                "type_extra": "sin verificar",
-                "definition": "en el juego del bingo para indicar públicamente que se ha completado una línea del cartón."
+                "type": "nombre femenino",
+                "definition": "Cada uno de los posibles espacios de movimiento del arma de un tirador."
             }
         ]
     },
@@ -14929,26 +14909,22 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "pronombre",
                 "definition": "Forma que, en acusativo, designa a alguien o algo mencionado en el discurso, distinto de quien lo enuncia y del destinatario."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Forma que, en acusativo, designa a la persona a la que se dirige quien habla o escribe. como tratamiento de cortesía, respeto o distanciamiento."
+                "type": "pronombre",
+                "definition": "Forma que, en acusativo, designa a la persona a la que se dirige quien habla o escribe."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "en locuciones verbales y expresiones sin referencia a un sustantivo expreso o sobrentendido."
+                "type": "pronombre",
+                "definition": "Usado en locuciones verbales y expresiones sin referencia a un sustantivo expreso o sobrentendido."
             },
             {
                 "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Cada una de las relingas de caída en las velas redondas."
             }
         ]
@@ -14959,25 +14935,22 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a un lugar."
             },
             {
                 "number": "2",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Perteneciente o relativo a un territorio, a una comarca o a un país.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "vernáculo, regional, comarcal."
+                        "content": "vernáculo, vernácula, regional, comarcal."
                     }
                 ]
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
                 "definition": "Municipal o provincial, por oposición a general o nacional.",
                 "definition_extra": [
                     {
@@ -14993,24 +14966,7 @@
             {
                 "number": "4",
                 "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Que solo afecta a una parte del cuerpo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "limitado, particular, específico."
-                    },
-                    {
-                        "type": "Antónimos",
-                        "content": "total, general."
-                    }
-                ]
-            },
-            {
-                "number": "5",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de un equipo o de un deportista: Que compite en su propio campo o terreno de juego.",
+                "definition": "Dicho de un equipo o de un deportista, que compite en su propio campo o terreno de juego.",
                 "definition_extra": [
                     {
                         "type": "Antónimos",
@@ -15019,10 +14975,24 @@
                 ]
             },
             {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Que solo afecta a una parte del cuerpo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "específico, específica, limitado, limitada, particular."
+                    },
+                    {
+                        "type": "Antónimos",
+                        "content": "total, general."
+                    }
+                ]
+            },
+            {
                 "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Sitio cercado o cerrado y cubierto.",
+                "type": "nombre masculino",
+                "definition": "Lugar cercado o cerrado y cubierto, especialmente el dedicado al comercio o al entretenimiento.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
@@ -15066,8 +15036,7 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
+                "type": "nombre masculino",
                 "definition": "Antigua moneda francesa de oro, que equivalía a veinte francos."
             }
         ]
@@ -15220,13 +15189,12 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
                 "definition": "Alcanzar el fin o término de un desplazamiento.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "arribar, venir, advenir, allegar, abordar, aterrizar."
+                        "content": "arribar, venir, advenir, abordar, aterrizar, allegar."
                     },
                     {
                         "type": "Antónimos",
@@ -15236,8 +15204,12 @@
             },
             {
                 "number": "2",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo intransitivo",
+                "definition": "En las carreras deportivas, alcanzar la línea de meta."
+            },
+            {
+                "number": "3",
+                "type": "verbo intransitivo",
                 "definition": "Durar hasta época o tiempo determinados.",
                 "definition_extra": [
                     {
@@ -15247,9 +15219,8 @@
                 ]
             },
             {
-                "number": "3",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "4",
+                "type": "verbo intransitivo",
                 "definition": "Dicho de una cosa o de una acción: Venir por su orden o tocar por su turno a alguien.",
                 "definition_extra": [
                     {
@@ -15259,9 +15230,24 @@
                 ]
             },
             {
-                "number": "4",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "5",
+                "type": "verbo intransitivo",
+                "definition": "Venir, verificarse, empezar a correr un cierto y determinado tiempo."
+            },
+            {
+                "number": "6",
+                "type": "verbo intransitivo",
+                "definition": "Venir el tiempo de ser o hacerse algo.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "tocar."
+                    }
+                ]
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
                 "definition": "Alcanzar una situación, una categoría, un grado, etc.",
                 "definition_extra": [
                     {
@@ -15271,9 +15257,8 @@
                 ]
             },
             {
-                "number": "5",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "8",
+                "type": "verbo intransitivo",
                 "definition": "Alcanzar o producir una determinada acción.",
                 "definition_extra": [
                     {
@@ -15283,93 +15268,30 @@
                 ]
             },
             {
-                "number": "6",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "9",
+                "type": "verbo intransitivo",
                 "definition": "Tocar, alcanzar algo.",
                 "definition_extra": [
                     {
                         "type": "Sinónimos",
-                        "content": "tocar1, alcanzar."
-                    }
-                ]
-            },
-            {
-                "number": "7",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Venir, verificarse, empezar a correr un cierto y determinado tiempo."
-            },
-            {
-                "number": "8",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Venir el tiempo de ser o hacerse algo.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "tocar1."
-                    }
-                ]
-            },
-            {
-                "number": "9",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "ascender (‖ importar).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "ascender, valer1, importar, montar, salir."
+                        "content": "tocar, alcanzar."
                     }
                 ]
             },
             {
                 "number": "10",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "En las carreras deportivas, alcanzar la línea de meta."
+                "type": "verbo transitivo",
+                "definition": "Acercar o poner algo junto a otra cosa.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "acercar, allegar, arrimar."
+                    }
+                ]
             },
             {
                 "number": "11",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "Dicho de una cantidad: Ser suficiente.",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "bastar1, alcanzar."
-                    }
-                ]
-            },
-            {
-                "number": "12",
-                "type": "verbo",
-                "type_extra": "sin verificar",
-                "definition": "arrimar (‖ acercar).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "arrimar, acercar, allegar."
-                    }
-                ]
-            },
-            {
-                "number": "13",
-                "type": "verbo",
-                "definition": "allegar (‖ juntar).",
-                "type_extra": "rare, sin verificar",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "allegar, juntar, reunir."
-                    }
-                ]
-            },
-            {
-                "number": "14",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "type": "verbo pronominal",
                 "definition": "Dicho de una persona o de una cosa: Acercarse a otra.",
                 "definition_extra": [
                     {
@@ -15379,9 +15301,8 @@
                 ]
             },
             {
-                "number": "15",
-                "type": "verbo",
-                "type_extra": "sin verificar",
+                "number": "12",
+                "type": "verbo pronominal",
                 "definition": "Ir a un sitio determinado que esté cercano.",
                 "definition_extra": [
                     {
@@ -15391,10 +15312,44 @@
                 ]
             },
             {
-                "number": "16",
-                "type": "verbo",
+                "number": "13",
+                "type": "verbo pronominal",
                 "definition": "Unirse, adherirse.",
-                "type_extra": "rare, sin verificar"
+                "type_extra": "poco usado"
+            },
+            {
+                "number": "14",
+                "type": "verbo transitivo",
+                "definition": "Recoger, juntar.",
+                "type_extra": "poco usado",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "juntar, reunir, allegar."
+                    }
+                ]
+            },
+            {
+                "number": "15",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una cuenta: Importar, valer.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "montar, sumar, costar, salir, ascender."
+                    }
+                ]
+            },
+            {
+                "number": "16",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una cantidad: Ser suficiente.",
+                "definition_extra": [
+                    {
+                        "type": "Sinónimos",
+                        "content": "bastar, alcanzar."
+                    }
+                ]
             }
         ]
     },

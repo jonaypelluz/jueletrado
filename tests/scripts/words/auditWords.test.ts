@@ -10,7 +10,7 @@ const FIXTURE_ROOT = path.join(__dirname, '../../fixtures/words');
 
 const FIX_DELETE_CATEGORIES = [
     'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W9', 'W10', 'W11', 'W15',
-    'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'T1',
+    'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'T1',
 ];
 
 type Sense = { number: string | number; type: string; type_extra?: string; definition: string };

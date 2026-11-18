@@ -2107,19 +2107,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2163,19 +2163,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2248,19 +2248,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2304,19 +2304,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2360,19 +2360,19 @@
             },
             {
                 "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Tratar y comunicar."
-            },
-            {
-                "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Tener costumbre."
             },
             {
-                "number": "8",
+                "number": "7",
                 "type": "verbo pronominal",
                 "definition": "Estar de moda."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Tratar y comunicar."
             }
         ]
     },
@@ -2971,135 +2971,9 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Expresa unidad. ante nombres contables en singular."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "primero (‖ que precede a los demás de su especie).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "primero."
-                    }
-                ]
-            },
-            {
-                "number": "3",
                 "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Denota un elemento de un conjunto. referido a un sintagma nominal mencionado o sobrentendido. con un sintagma nominal pospuesto e introducido por la preposición de."
-            },
-            {
-                "number": "4",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "El mismo, uno solo."
-            },
-            {
-                "number": "5",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Unidad, cantidad que se toma como término de comparación."
-            },
-            {
-                "number": "6",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Signo con que se representa el número uno."
-            },
-            {
-                "number": "7",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "En la baraja, el dado, el dominó, etc., elemento marcado con una sola señal."
-            },
-            {
-                "number": "8",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Individuo de cualquier especie."
-            },
-            {
-                "number": "9",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Primera hora en punto después de mediodía o de medianoche."
-            },
-            {
-                "number": "10",
-                "type": "artículo",
-                "type_extra": "sin verificar",
-                "definition": "Indica que lo designado por el nombre o el grupo nominal al que precede se refiere a entidades no consabidas por los interlocutores."
-            },
-            {
-                "number": "11",
-                "type": "artículo",
-                "type_extra": "sin verificar",
-                "definition": "Indica valoración cualitativa o cuantitativa de una propiedad no manifiesta. seguido de una subordinada introducida por la conjunción que. a veces sin la subordinada y con entonación suspendida."
-            },
-            {
-                "number": "12",
-                "type": "artículo",
-                "type_extra": "sin verificar",
-                "definition": "Indica que lo denotado por el nombre o el grupo nominal al que precede no designa un individuo particular, sino un tipo."
-            },
-            {
-                "number": "13",
-                "type": "artículo",
-                "type_extra": "sin verificar",
-                "definition": "Con nombres propios de persona, designa a alguien con las cualidades de quien se menciona."
-            },
-            {
-                "number": "14",
-                "type": "artículo",
-                "type_extra": "sin verificar",
-                "definition": "alguno (‖ indica un número no elevado).",
-                "definition_extra": [
-                    {
-                        "type": "Sinónimos",
-                        "content": "alguno."
-                    }
-                ]
-            },
-            {
-                "number": "15",
-                "type": "adjetivo",
-                "type_extra": "sin verificar",
-                "definition": "Indica que la cantidad que lo sigue es aproximada. antepuesto a un numeral cardinal."
-            },
-            {
-                "number": "16",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Indica que lo designado se refiere a entidades no consabidas por los interlocutores. referido a un sintagma nominal mencionado o sobrentendido."
-            },
-            {
-                "number": "17",
-                "type": "nombre",
-                "definition": "una persona.",
-                "type_extra": "colloquial, sin verificar"
-            },
-            {
-                "number": "18",
-                "type": "nombre",
-                "definition": "Designa al hablante.",
-                "type_extra": "colloquial, sin verificar"
-            },
-            {
-                "number": "19",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "contrapuesto a otro, con sentido distributivo."
-            },
-            {
-                "number": "20",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Designa a una persona indeterminada."
+                "definition": "V. uno, una.",
+                "type_extra": "sin verificar"
             }
         ]
     },
@@ -3337,21 +3211,18 @@
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Vigesimosegunda letra del abecedario español, que representa el fonema vocálico cerrado posterior."
+                "type": "conjunción",
+                "definition": "Usado en lugar de o ante palabras que empiezan por o o por ho."
             },
             {
                 "number": "2",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "Sonido que representa la letra u."
+                "type": "nombre femenino",
+                "definition": "Vigesimosegunda letra del abecedario español, que representa el fonema vocálico cerrado posterior. Forma parte de los dígrafos gu y qu en los que no representa sonido alguno, salvo cuando aparece con diéresis, como en cigüeña o pingüino."
             },
             {
                 "number": "3",
-                "type": "nombre",
-                "type_extra": "sin verificar",
-                "definition": "en lugar de o ante palabras que empiezan por o o por ho."
+                "type": "nombre femenino",
+                "definition": "Sonido que representa la letra u."
             }
         ]
     }
