@@ -125,7 +125,8 @@ implicit minimum; `exclude` rejects records whose flag is 1; `minSyllables` need
   (`/definitions/<locale>/<letter>_definitions.json`, `Record<word, WordEntry>`) filtered by sense count
   and character length (`filterDefinitions`), `null` when it cannot be fetched (definitionMaster,
   spellingBee, crossWordPuzzle). `level` (the game level) drops a `source: 'wiktionary'` entry whose
-  `level` is above it (cumulative: beginner gets beginner Wiktionary words, advanced gets all); RAE
+  `level` is above it (cumulative: beginner gets beginner Wiktionary words, advanced gets all; the import
+  writes every Wiktionary entry at `advanced`, so beginner and intermediate get none today); RAE
   entries and an unknown level are never filtered. The three definition games pass `gameLevel`.
   For a locale of `ADVANCED_DEFINITION_LOCALES` (es), level `advanced` or unset also fetches
   `/definitions/<locale>/<letter>_definitions_advanced.json` (advanced Wiktionary entries) and merges it

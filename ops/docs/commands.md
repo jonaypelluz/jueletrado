@@ -438,13 +438,20 @@ The report records the latest revision timestamp found in the dump.
   `crawl:recrawl-es` queue it when it is a candidate.
 - A re-import that removes a stale Wiktionary key leaves its word in the level
   list, like any listed word without definitions (most list words have none).
-- The entry `level` is `computeLevel(rank, [], 'es')`: the frequency band,
-  unranked → advanced, whatever list already holds the word (lists of listed
-  words are never changed). A new word in no level list is appended to the list
-  of that level. The definition games use the entry `level` to keep rare
-  Wiktionary words out of lower levels, and advanced entries go to
-  `{letter}_definitions_advanced.json` (split rule above). Rerun the import
-  after `LEVEL_BANDS` changes.
+- The entry `level` is always `advanced`, whatever the word's frequency or list
+  (lists of listed words are never changed): nobody has reviewed the Wiktionary
+  senses, and a rare homograph of a common form (`partes`, `odia`, `fernando`)
+  must not reach the lower-level definition games. The definition games use the
+  entry `level` to keep Wiktionary entries out of beginner and intermediate, and
+  every Wiktionary entry goes to `{letter}_definitions_advanced.json` (split rule
+  above). A new word in no level list is appended to the advanced list only;
+  a new word ranked in the beginner or intermediate frequency band goes to no
+  list (`words:build` would serve it at its band; audit W14 flags it) until
+  someone reviews it.
+- Sense cleanup also strips references to another page's numbered sense
+  (`pato₁`, `aforar₁₋₂`, `atmósfera(1)`), keeping chemical formulas (`Fe³⁺`,
+  `Ca₃`) and units (`m²`, `cm³`); senses in the `Wiki` domain (wiki jargon) are
+  dropped; the `lgbt` domain is written `LGBT`.
 - Writes the report to `ops/crawl-output/wiktionary/es-import-report.md`
   (per letter before → after, skips by reason, list additions, a 20-entry sample
   per letter, top unresolved templates and unmapped POS headers).
@@ -470,10 +477,9 @@ level-list additions, then the `words:build` output.
 **Licence and attribution.** Entries with `source: "wiktionary"` come from
 [Wikcionario](https://es.wiktionary.org) (its contributors), licensed
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), adapted: markup
-removed, senses filtered and relabelled. Share-alike: the es definition data that
-includes them (`public/definitions/es/`) is shared under the same licence (see
-`public/definitions/es/LICENSE`); any redistribution must keep the attribution and
-the licence.
+removed, senses filtered and relabelled. Only those entries are CC BY-SA 4.0 (see
+`public/definitions/es/LICENSE`); the RAE entries in the same files are not. Any
+redistribution of the Wiktionary entries must keep the attribution and the licence.
 
 ### `yarn words:from-book <es|en> [bookFile]`
 

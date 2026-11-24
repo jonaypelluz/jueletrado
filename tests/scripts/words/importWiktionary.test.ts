@@ -108,6 +108,15 @@ test('cleanSense keeps numeric super/subscripts and drops other scripted text', 
     expect(cleanSense('Fórmula x<sup>n</sup>')).toHaveProperty('drop');
 });
 
+test('cleanSense strips sense references but keeps formulas and units', () => {
+    expect(cleanSense('Persona de carácter de {{plm|apuesto}}{{-sub|3}}')).toEqual({ text: 'Persona de carácter de Apuesto.' });
+    expect(cleanSense('Acción o efecto de aforar<sub>1-2</sub>')).toEqual({ text: 'Acción o efecto de aforar.' });
+    expect(cleanSense('Fruto de la alborocera(1)')).toEqual({ text: 'Fruto de la alborocera.' });
+    expect(cleanSense('Mineral de fórmula Fe<sup>3+</sup>O, 5 m<sup>2</sup> o 8 kg/cm<sup>3</sup>')).toEqual({
+        text: 'Mineral de fórmula Fe³⁺O, 5 m² o 8 kg/cm³.',
+    });
+});
+
 test('cleanSense drops a sense with a leftover link pipe', () => {
     expect(cleanSense('Medida agraria de superficie utilizar|utilizada en Cuba')).toHaveProperty('drop');
 });
@@ -192,6 +201,18 @@ describe('runCli on a fixture dump', () => {
         expect(readDefs('a')).not.toHaveProperty('ácaro');
         expect(readList('intermediate')).toEqual(intermediateBefore);
         expect(advancedList()).not.toContain('ácaro');
+    });
+
+    test('a top-ranked new word is imported as advanced and added to no list (words:build would serve it at beginner)', async () => {
+        const freq = path.join(root, 'ops/scripts/frequency/wordfreq_es.txt');
+        fs.writeFileSync(freq, `cabaña\n${fs.readFileSync(freq, 'utf-8')}`);
+        const lists = () => ['beginner', 'intermediate', 'advanced'].map(readList);
+        const listsBefore = lists();
+
+        await expect(run()).resolves.toBe(0);
+
+        expect(readAdvancedDefs('c').cabaña).toEqual(expect.objectContaining({ level: 'advanced', source: 'wiktionary' }));
+        expect(lists().map((list) => list.filter((word) => word !== 'ácaro'))).toEqual(listsBefore);
     });
 
     test('a second run on the same dump changes no byte', async () => {

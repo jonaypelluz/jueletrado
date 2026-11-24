@@ -6,8 +6,8 @@
  * Streams the dump (`.bz2` through `bzcat`, `.xml` read directly), keeps ns-0 single-word lowercase titles,
  * reads the lemma POS sections of the `{{lengua|es}}` section, cleans each sense into plain text and runs the
  * words:audit sense and word rules on it. RAE wins: a key without `source` is never touched. A new key is
- * written as `{ level, source: 'wiktionary', definitions }` with level = computeLevel(rank, [], 'es') (unranked →
- * advanced); a new word in no level list is appended to the list of that level, listed words keep their lists.
+ * written as `{ level: 'advanced', source: 'wiktionary', definitions }` (nobody reviewed it for the lower levels); a new
+ * word in no level list is appended to the advanced list, listed words keep their lists.
  * Each letter is written split by isAdvancedOnly (advanced entries → `<letter>_definitions_advanced.json`).
  * `--dry-run` writes no data file. Run `yarn words:audit --locale es --fix` and `yarn words:build` afterwards
  * (see ops/docs/commands.md).
@@ -45,7 +45,7 @@ import {
 
 export type WikiPage = { title: string; ns: string; text: string; timestamp?: string; redirect: boolean };
 export type PosMapping = { type: string; typeExtra?: string };
-export type DropReason = 'form-of' | 'offensive' | 'unresolved-template' | 'too-short' | 'audit';
+export type DropReason = 'form-of' | 'offensive' | 'wiki' | 'unresolved-template' | 'too-short' | 'audit';
 export type CleanResult = { text: string } | { drop: DropReason; template?: string };
 export type PageSkip = 'not-lemma' | 'form-of-only' | 'no-usable-sense';
 /** Caller-owned accumulator for the report; parse functions stay pure apart from incrementing it. */
@@ -60,6 +60,8 @@ export const DEFAULT_DUMP = 'ops/crawl-output/wiktionary/eswiktionary-latest-pag
 export const REPORT_PATH = 'ops/crawl-output/wiktionary/es-import-report.md';
 const DUMP_URL = 'https://dumps.wikimedia.org/eswiktionary/latest/eswiktionary-latest-pages-articles.xml.bz2';
 
+/** Level of every imported entry and list addition. */
+const IMPORT_LEVEL: Level = 'advanced';
 const TITLE_RE = /^[a-záéíóúüñ]+$/;
 const LETTER_COUNT_MIN = 3;
 const SAMPLE_SIZE = 20;
@@ -223,6 +225,17 @@ const cleanLabel = (value: string): string | null => {
 /** Senses that only point to another form (`Contaminar (uso pronominal de...).`, `Forma pronominal de x.`). */
 const POINTER_SENSE_RES = [/\(uso pronominal de\b[^)]*\)/i, /^(forma|uso) pronominal de \p{L}+\.?$/iu];
 
+/** A word ending in a lowercase letter + a digit sub/superscript run (`pato₁`, `aforar₁₋₂`, `corte¹₄`). */
+const SENSE_REF_RE = /(\p{L}*\p{Ll})([₀-₉⁰¹²³⁴-⁹][₀-₉₊₋⁰¹²³⁴-⁹⁺⁻]*)/gu;
+/** Chemical symbols (`Fe³⁺`, `Na₂`) and units (`m²`, `cm³`, `s²`) keep their scripts. */
+const KEEPS_SCRIPT_RE = /^(?:(?:[A-Z][a-z]?)+|[kcdmh]?m|s)$/;
+
+/** Sense references to another page's numbered sense (`pelotudo₁`, `apuesto₃`, `atmósfera(1)`) out; formulas and units kept. */
+const stripSenseRefs = (text: string): string =>
+    text
+        .replace(SENSE_REF_RE, (match, word: string) => (KEEPS_SCRIPT_RE.test(word) ? match : word))
+        .replace(/(\p{Ll})\(\d{1,2}\)/gu, '$1');
+
 /** `..` at the end (not `...`) → `.`. */
 const collapseFinalDots = (text: string): string => text.replace(/(?<!\.)\.\.$/, '.');
 
@@ -247,7 +260,7 @@ export const cleanSense = (wikitext: string): CleanResult => {
     text = resolveLinks(text);
     if (MARKUP_RE.test(text)) return { drop: 'unresolved-template', template: '(markup)' };
 
-    text = upperFirst(text.replace(/\s+/g, ' ').replace(/\s+([.,;:])/g, '$1').trim());
+    text = upperFirst(stripSenseRefs(text).replace(/\s+/g, ' ').replace(/\s+([.,;:])/g, '$1').trim());
     text = collapseFinalDots(text);
     if ((text.match(/\p{L}/gu)?.length ?? 0) < LETTER_COUNT_MIN) return { drop: 'too-short' };
     if (POINTER_SENSE_RES.some((re) => re.test(text))) return { drop: 'form-of' };
@@ -261,6 +274,10 @@ export const cleanSense = (wikitext: string): CleanResult => {
 const OFFENSIVE_LABELS = ['vulgar', 'malsonante', 'obsceno', 'ofensivo', 'despectivo', 'peyorativo', 'insult'];
 /** csem domains a family game leaves out, like the offensive usage labels. */
 const OFFENSIVE_DOMAINS = new Set(['sexualidad', 'sexo']);
+/** csem domain of wiki jargon (`bibliotecario` → "Administrador."), not general Spanish. */
+const WIKI_DOMAIN = 'wiki';
+/** csem domains written as acronyms rather than upperFirst. */
+const CSEM_LABELS: Record<string, string> = { lgbt: 'LGBT' };
 /**
  * `{{uso|…}}` codes and aliases (es.wiktionary Módulo:contexto/uso) in RAE-style wording. Disused labels become
  * `desusado` so audit D9 moves them last; `vulg`/`soez`/`grosero` map to labels the offensive guard drops.
@@ -330,7 +347,7 @@ const headerText = (content: string): { text: string; isTemplate: boolean } => {
 
 const typeExtraOf = ({ csem, ambito, uso }: Labels, posExtra: string | undefined): string | undefined => {
     const parts = [
-        ...csem.map(upperFirst),
+        ...csem.map((value) => CSEM_LABELS[value.toLowerCase()] ?? upperFirst(value)),
         ...ambito,
         ...uso,
         ...(posExtra ? [posExtra] : []),
@@ -397,6 +414,7 @@ const buildSense = ({ pos, labels, body }: RawSense, tally?: ParseTally): { sens
         labels.uso.some((value) => OFFENSIVE_LABELS.some((label) => value.toLowerCase().includes(label))) ||
         labels.csem.some((value) => OFFENSIVE_DOMAINS.has(value.toLowerCase()));
     if (isOffensive) return dropped('offensive');
+    if (labels.csem.some((value) => value.toLowerCase() === WIKI_DOMAIN)) return dropped('wiki');
     const cleaned = cleanSense(body);
     if ('drop' in cleaned) return dropped(cleaned.drop, cleaned.template);
     const verdict = classifySense({ type: pos.type, definition: cleaned.text }, 'es');
@@ -581,13 +599,15 @@ export type ImportReport = {
     skips: Record<string, number>;
     wordRules: Partial<Record<CategoryId, number>>;
     listAdditions: Record<Level, number>;
+    /** New words ranked in a lower band: imported (advanced) but put in no list. */
+    unlisted: string[];
     tally: ParseTally;
     seconds: number;
 };
 
 const newTally = (): ParseTally => ({
     pageSkips: { 'not-lemma': 0, 'form-of-only': 0, 'no-usable-sense': 0 },
-    senseDrops: { 'form-of': 0, offensive: 0, 'unresolved-template': 0, 'too-short': 0, audit: 0 },
+    senseDrops: { 'form-of': 0, offensive: 0, wiki: 0, 'unresolved-template': 0, 'too-short': 0, audit: 0 },
     unresolvedTemplates: new Map(),
     unmappedPos: new Map(),
 });
@@ -643,22 +663,28 @@ export const runImport = async ({ root, dump, letter, dryRun }: ImportOptions): 
     }
     await done;
 
-    // A new word in no list goes to the list of its computed level (keeps audit W14).
+    // A new word in no list goes to the advanced list only (keeps audit W14): nobody reviewed it for the lower levels.
+    // words:build serves a ranked word at its frequency band whatever its list, so a new word ranked in a lower band
+    // (`facebook`, `lol`) goes to no list (audit W14 flags it) until someone reviews it.
     const lists = Object.fromEntries(LEVELS.map((level) => [level, [...input.lists[level]]])) as Record<Level, string[]>;
     const listAdditions = Object.fromEntries(LEVELS.map((level) => [level, 0])) as Record<Level, number>;
+    const unlisted: string[] = [];
     for (const word of sortWords([...imported.keys()].filter((w) => !listed.has(w)), collator)) {
-        const level = computeLevel(ranks.get(word) ?? null, [], 'es');
-        lists[level].push(word);
-        listAdditions[level]++;
+        if (computeLevel(ranks.get(word) ?? null, [], 'es') !== IMPORT_LEVEL) {
+            unlisted.push(word);
+            continue;
+        }
+        lists[IMPORT_LEVEL].push(word);
+        listAdditions[IMPORT_LEVEL]++;
     }
 
-    // The entry level ignores the source lists (an unranked word is advanced), so it picks the file split.
+    // Every imported entry is advanced, whatever its frequency: a rare homograph of a common form (`partes`, `odia`)
+    // must not reach the lower-level definition games unreviewed. It also picks the file split.
     const byLetter = new Map<string, Map<string, Entry>>();
     for (const [word, entry] of imported) {
-        const level = computeLevel(ranks.get(word) ?? null, [], 'es');
         const key = definitionLetter(word);
         if (!byLetter.has(key)) byLetter.set(key, new Map());
-        byLetter.get(key)!.set(word, { level, source: 'wiktionary', definitions: entry.definitions });
+        byLetter.get(key)!.set(word, { level: IMPORT_LEVEL, source: 'wiktionary', definitions: entry.definitions });
     }
 
     // Lists first: a run that fails midway then leaves listed words without
@@ -677,7 +703,7 @@ export const runImport = async ({ root, dump, letter, dryRun }: ImportOptions): 
         if (!dryRun) await writeLetterDefinitions(root, 'es', key, file);
     }
 
-    return { dump, dumpDate, dryRun, pagesRead, letters, skips, wordRules, listAdditions, tally, seconds: Math.round((Date.now() - started) / 1000) };
+    return { dump, dumpDate, dryRun, pagesRead, letters, skips, wordRules, listAdditions, unlisted, tally, seconds: Math.round((Date.now() - started) / 1000) };
 };
 
 // ---------------------------------------------------------------------------
@@ -699,6 +725,7 @@ const summaryLines = (report: ImportReport): string[] => {
             `no usable sense ${pageSkips['no-usable-sense']}, word rule ${Object.entries(report.wordRules).map(([id, n]) => `${id} ${n}`).join(' ') || '0'}`,
         `Sense drops: ${Object.entries(senseDrops).map(([reason, n]) => `${reason} ${n}`).join(', ')}`,
         `List additions: ${LEVELS.map((level) => `${level} ${report.listAdditions[level]}`).join(', ')}`,
+        `Not listed (new, ranked in a lower band): ${report.unlisted.length}${report.unlisted.length > 0 ? ` (${report.unlisted.join(', ')})` : ''}`,
     ];
 };
 

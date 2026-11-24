@@ -396,8 +396,9 @@ Creative Commons may be contacted at creativecommons.org.
 
 =======================================================================
 
-Exception: the Spanish definition data in public/definitions/es/ includes
-definitions adapted from Wikcionario (es.wiktionary.org) and is licensed under
-CC BY-SA 4.0. See public/definitions/es/LICENSE. Everything else in this
-repository is licensed under the Creative Commons Attribution 4.0 International
-licence above.
+Exception: the entries marked "source": "wiktionary" in the Spanish definition
+data (public/definitions/es/) are adapted from Wikcionario (es.wiktionary.org)
+and licensed under CC BY-SA 4.0. See public/definitions/es/LICENSE. Only those
+entries are under CC BY-SA 4.0; the other entries in that folder (RAE
+definitions, no "source" field) are not. Everything else in this repository is
+licensed under the Creative Commons Attribution 4.0 International licence above.
