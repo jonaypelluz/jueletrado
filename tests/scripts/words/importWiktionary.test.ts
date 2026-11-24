@@ -58,6 +58,25 @@ describe('parsePage', () => {
         });
     });
 
+    test('maps {{uso|utcs}} to RAE wording and drops the soez and insult senses', () => {
+        const wikitext = [
+            '== {{lengua|es}} ==',
+            '=== {{adjetivo|es}} ===',
+            ';1: Que trabaja en el campo.',
+            '{{uso|utcs}}',
+            ';2: Que habla con palabras groseras.',
+            '{{uso|soez}}',
+            ';3: Persona torpe y necia.',
+            '{{uso|insulto}}',
+        ].join('\n');
+
+        expect(parsePage('gorzobia', wikitext)).toEqual({
+            definitions: [
+                { number: '1', type: 'adjetivo', type_extra: 'Usado también como sustantivo', definition: 'Que trabaja en el campo.' },
+            ],
+        });
+    });
+
     test('a page whose only sense holds an unknown template is null (markup never leaks)', () => {
         const wikitext = ['== {{lengua|es}} ==', '=== {{sustantivo masculino|es}} ===', ';1: {{plantilla inventada|agua}} de río.'].join('\n');
 

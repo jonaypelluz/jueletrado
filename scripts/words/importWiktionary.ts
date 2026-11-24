@@ -258,7 +258,7 @@ export const cleanSense = (wikitext: string): CleanResult => {
 // Page parsing
 // ---------------------------------------------------------------------------
 
-const OFFENSIVE_LABELS = ['vulgar', 'malsonante', 'obsceno', 'ofensivo', 'despectivo', 'peyorativo', 'insultante'];
+const OFFENSIVE_LABELS = ['vulgar', 'malsonante', 'obsceno', 'ofensivo', 'despectivo', 'peyorativo', 'insult'];
 /** csem domains a family game leaves out, like the offensive usage labels. */
 const OFFENSIVE_DOMAINS = new Set(['sexualidad', 'sexo']);
 /**
