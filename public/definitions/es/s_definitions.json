@@ -1314,6 +1314,18 @@
             }
         ]
     },
+    "sacas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Juegos, Aragón, Navarra",
+                "definition": "Juego parecido al de los cantillos, que se juega con 12 tabas de carnero y una bolita de cristal."
+            }
+        ]
+    },
     "sacerdote": {
         "definitions": [
             {
@@ -1534,6 +1546,22 @@
                 "type": "nombre masculino",
                 "type_extra": "coloquial",
                 "definition": "Operación quirúrgica muy cruenta y peligrosa."
+            }
+        ]
+    },
+    "saga": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Mujer que se finge hace encantos y maleficios."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Cada una de las leyendas poéticas contenidas en su mayor parte en las dos colecdones de primitivas tradiciones heroicas y mitológicas de la antigua Escandinavia."
             }
         ]
     },
@@ -2051,6 +2079,41 @@
                 "type": "verbo pronominal",
                 "type_extra": "desusado",
                 "definition": "Iniciar la intervención en un pleito o una causa como fiscal o como parte."
+            }
+        ]
+    },
+    "sale": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "México, acortamiento de la locución \"sale, vale\", por rima con la interjección vale",
+                "definition": "Indica que se está de acuerdo con algo o que se está dispuesto para una acción."
+            }
+        ]
+    },
+    "sales": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Química",
+                "definition": "Mezcla de diversos compuestos salinos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Química",
+                "definition": "Sustancia química que se usa para reanimar a las personas desmayadas."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Sustancia que se disuelve en el agua de una bañera para perfumarla."
             }
         ]
     },
@@ -4476,6 +4539,22 @@
             }
         ]
     },
+    "saludos": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Usada para despedirse."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Señal de reconocimiento o de recuerdo que uno envía hacia alguien que no está presente en una conversación, con el fin de que otro que lo frecuenta se lo haga saber."
+            }
+        ]
+    },
     "salva": {
         "definitions": [
             {
@@ -4793,6 +4872,18 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Exceptuado, omitido."
+            }
+        ]
+    },
+    "sam": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Gastronomía",
+                "definition": "Plato de la gastronomía coreana en el que se usan hojas de alguna verdura para envolver un trozo de carne."
             }
         ]
     },
@@ -5533,6 +5624,87 @@
             }
         ]
     },
+    "saque": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de sacar (en sus diferentes acepciones)."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Deporte",
+                "definition": "Acción y resultado de dar a la pelota o al balón el impulso de inicio al comienzo de un partido, de un segmento, o después de una falta."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Deporte",
+                "definition": "Línea o área desde donde se hace el saque₂."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Deporte",
+                "definition": "Persona que hace el saque₂."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Rioplatense",
+                "definition": "Golpe fuerte que se da con la mano abierta."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Rioplatense, lunfardismo",
+                "definition": "Acción de esnifar o aspirar ciertas drogas por la nariz."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "lunfardismo, desusado",
+                "definition": "Acción que se realiza con ímpetu."
+            }
+        ]
+    },
+    "sara": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Grupo étnico centroafricano, mayormente del Chad."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Usado también como adjetivo",
+                "definition": "Individuo perteneciente a dicha etnia."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "germanía",
+                "definition": "Sargento."
+            }
+        ]
+    },
+    "sarcasmo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Un tipo de ironía que se realiza con el fin de herir u ofender a una persona o institución."
+            }
+        ]
+    },
     "sargento": {
         "definitions": [
             {
@@ -5561,6 +5733,18 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "definition": "Alcalde de corte inmediato en antigüedad a los cinco que tenían a su cargo el juzgado de provincia, de quienes era suplente."
+            }
+        ]
+    },
+    "sarmiento": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Agricultura, Botánica, Enología, Viticultura",
+                "definition": "Tallo de la vid."
             }
         ]
     },
@@ -12637,6 +12821,18 @@
             }
         ]
     },
+    "sera": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Castilla",
+                "definition": "Cesta o capacho de esparto, resistente para la carga de productos alimenticios y otros como carbón, arena, etc."
+            }
+        ]
+    },
     "serán": {
         "definitions": [
             {
@@ -14119,6 +14315,18 @@
             }
         ]
     },
+    "set": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Tenis",
+                "definition": "Subdivisión del partido o match, la cual se obtiene ganando 6 juegos o games (con diferencia de dos o con tie break en su defecto)."
+            }
+        ]
+    },
     "seta": {
         "definitions": [
             {
@@ -14411,6 +14619,30 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "definition": "Apetito sexual, propensión al placer carnal."
+            }
+        ]
+    },
+    "shock": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Medicina",
+                "definition": "Disminución repentina del flujo sanguíneo en todo el cuerpo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Electricidad",
+                "definition": "Choque eléctrico."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Política, Economía",
+                "definition": "Liberación repentina de los precios y controles de divisas, la retirada de los subsidios estatales, y la apertura comercial inmediata dentro de un país, por lo general también incluida la privatización a gran escala de los activos anteriormente de propiedad pública."
             }
         ]
     },
@@ -17010,6 +17242,18 @@
             }
         ]
     },
+    "sinónimo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Lingüistica, Usado también como sustantivo masculino",
+                "definition": "Dicho de dos o más vocablos: Que tienen una misma o muy parecida significación."
+            }
+        ]
+    },
     "síntesis": {
         "definitions": [
             {
@@ -18384,6 +18628,35 @@
             }
         ]
     },
+    "so": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Úsase para detener los caballos."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "type_extra": "Venezuela",
+                "definition": "Úsa para espantar a las gallinas."
+            },
+            {
+                "number": "3",
+                "type": "interjección",
+                "type_extra": "Venezuela",
+                "definition": "Úsase para hacer callar."
+            },
+            {
+                "number": "4",
+                "type": "preposición",
+                "type_extra": "desusado, no productivo, solamente en expresiones fijas",
+                "definition": "Bajo, debajo de."
+            }
+        ]
+    },
     "soberanía": {
         "definitions": [
             {
@@ -18596,6 +18869,24 @@
             }
         ]
     },
+    "sobretodo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Vestimenta",
+                "definition": "Prenda de vestir ancha, larga, y con mangas, que se lleva encima del traje ordinario, y es generalmente más ligera que el gabán."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Vestimenta, América",
+                "definition": "Prenda de abrigo que se viste por encima de las restantes ropas, a modo de una chaqueta gruesa y de largo variable, llegando los más cortos a las corvas y los más largos a los tobillos."
+            }
+        ]
+    },
     "sobrevivir": {
         "definitions": [
             {
@@ -18622,6 +18913,18 @@
                 "number": "3",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de una persona o de una cosa: Permanecer en el tiempo, perdurar. Esa tradición sobrevive en las zonas rurales."
+            }
+        ]
+    },
+    "sobrina": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Parentesco",
+                "definition": "Hija de un hermano o hermana."
             }
         ]
     },
@@ -19122,6 +19425,44 @@
             }
         ]
     },
+    "solar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne al Sol."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Porción de terreno donde se ha edificado o que se destina a edificar o urbanizar en él."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Casa que representa a una estirpe."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Colombia, Costa Rica, Venezuela",
+                "definition": "Terreno cercado; patio trasero."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Construcción",
+                "definition": "Revestir el suelo con ladrillo, losas u otro material."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Echar suelas a los zapatos."
+            }
+        ]
+    },
     "solares": {
         "definitions": [
             {
@@ -19594,6 +19935,34 @@
             }
         ]
     },
+    "sólido": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "De estructura dura, maciza y densa al tacto."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Física, Química, Usado también como sustantivo masculino o femenino",
+                "definition": "Tal que las partículas que la conforman mantienen su forma y volumen."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Bien establecido y fundado en su estado."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Geometría",
+                "definition": "Objeto definido en 3 dimensiones."
+            }
+        ]
+    },
     "solidos": {
         "definitions": [
             {
@@ -19821,6 +20190,30 @@
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Anular, quitar."
+            }
+        ]
+    },
+    "soltero": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que, estando capacitado para hacerlo, no ha contraído matrimonio."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo, por extensión",
+                "definition": "Que no tiene pareja (novio o novia)."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que no está sujeto a otra cosa."
             }
         ]
     },
@@ -21503,6 +21896,23 @@
             }
         ]
     },
+    "sostenible": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que puede sostenerse."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Ecología",
+                "definition": "Que puede ser manufacturado o sustentado por un periodo indefinido sin dañar el medioambiente o sin agotar un recurso."
+            }
+        ]
+    },
     "sostenido": {
         "definitions": [
             {
@@ -21858,6 +22268,23 @@
             }
         ]
     },
+    "stop": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Música, generalmente con las locuciones “poner stop”, “darle al stop”, “apretar el stop”, etc",
+                "definition": "En los reproductores de música, el botón con el símbolo de cuadrado que se usa para detener la canción."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "definition": "Alto."
+            }
+        ]
+    },
     "suave": {
         "definitions": [
             {
@@ -21979,6 +22406,18 @@
                         "content": "aspereza, fuerza, brusquedad."
                     }
                 ]
+            }
+        ]
+    },
+    "suba": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Argentina, Paraguay, Uruguay",
+                "definition": "Alza o subida de precio de tierras, mercaderías, acciones u otras cosas."
             }
         ]
     },
@@ -22956,6 +23395,28 @@
             }
         ]
     },
+    "subsidio": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Ayuda económica concedida por un organismo oficial."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Carga impositiva que pagan el comercio y la industria."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Nicargua",
+                "definition": "Licencia con sueldo por motivo de enfermedad que otorga el empleador."
+            }
+        ]
+    },
     "sucede": {
         "definitions": [
             {
@@ -23523,6 +23984,35 @@
             }
         ]
     },
+    "sucre": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Monedas, Historia",
+                "definition": "Antigua unidad monetaria de Ecuador, que circuló entre 1884 y 2000, luego de lo cual su economía fue dolarizada. Su fracción era de cien centavos."
+            }
+        ]
+    },
+    "sudeste": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Geografía",
+                "definition": "Punto del horizonte ubicado entre el sur y el este, a igual distancia de ambos, es decir, a 45 grados de cada uno."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Viento que sopla desde el sudeste."
+            }
+        ]
+    },
     "sudor": {
         "definitions": [
             {
@@ -23945,6 +24435,81 @@
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "Remisión o perdón de una deuda."
+            }
+        ]
+    },
+    "suelto": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Dicho de un objeto, que no está fijo en su posición y puede ser movido."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que no está ajustado."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Expedito, ágil o hábil en la ejecución de una cosa."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Libre, atrevido y desenvuelto."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Se aplica a quien padece diarrea."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "definition": "Tratándose del lenguaje, estilo, etc.: fácil, corriente."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "definition": "Separado y que no hace juego y que no forma con otras cosas la unión debida."
+            },
+            {
+                "number": "8",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Se aplica al conjunto de monedas (y billetes) fraccionarias de bajo valor, o de menor valor en relación a otras de más valor."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "definition": "Que no es parte de un conjunto empaquetado; que no está ni envasado ni en medidas fijas."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Dinero fraccionario de moneda."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "type_extra": "Periodismo",
+                "definition": "Noticia de prensa de menor extensión e importancia que un artículo, pero mayor que una gacetilla."
+            },
+            {
+                "number": "12",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Ligero, veloz."
+            },
+            {
+                "number": "13",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Soltero."
             }
         ]
     },
@@ -24754,6 +25319,17 @@
                 "type": "verbo intransitivo",
                 "type_extra": "desusado",
                 "definition": "Contenerse, reprimirse."
+            }
+        ]
+    },
+    "sugerencia": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Insinuación, inspiración, idea que se sugiere."
             }
         ]
     },
@@ -25689,6 +26265,18 @@
             }
         ]
     },
+    "supermercado": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Economía",
+                "definition": "Establecimiento grande y acondicionado para la venta de todo tipo de productos alimentarios y para la casa. Normalmente contiene otros establecimientos de venta más pequeños, como pescadería, carnicería, frutería, etc."
+            }
+        ]
+    },
     "supero": {
         "definitions": [
             {
@@ -25722,6 +26310,17 @@
                 "number": "5",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Hacer algo mejor que en otras ocasiones."
+            }
+        ]
+    },
+    "supervisión": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de supervisar."
             }
         ]
     },
@@ -26153,6 +26752,24 @@
                 "type": "nombre masculino",
                 "type_extra": "Filosofía",
                 "definition": "Todo ser que es principio de sus acciones."
+            }
+        ]
+    },
+    "supuestamente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "De un modo supuesto o hipotético, que se supone, que parte de una hipótesis."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "De un modo implícito, que no está expresado, pero se entiende de manera tácita."
             }
         ]
     },
