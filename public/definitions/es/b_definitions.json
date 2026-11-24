@@ -2244,6 +2244,18 @@
             }
         ]
     },
+    "bang": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "onomatopeya",
+                "type_extra": "Usado más repetido",
+                "definition": "Onomatopeya del sonido del disparo de un arma de fuego semiautomática."
+            }
+        ]
+    },
     "baño": {
         "definitions": [
             {
@@ -2463,6 +2475,18 @@
                     }
                 ],
                 "type_extra": "Física, Símbolo"
+            }
+        ]
+    },
+    "barata": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Insectos, Chile",
+                "definition": "Cucaracha."
             }
         ]
     },
@@ -3985,6 +4009,23 @@
             }
         ]
     },
+    "batallón": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Unidad táctica de infantería compuesta de varias compañías."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "En lo antiguo: escuadrón de caballería."
+            }
+        ]
+    },
     "batasuna": {
         "definitions": [
             {
@@ -4258,6 +4299,22 @@
             }
         ]
     },
+    "be": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Nombre de la letra b."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Voz emitida por la oveja o el cordero."
+            }
+        ]
+    },
     "bebe": {
         "definitions": [
             {
@@ -4379,6 +4436,17 @@
             }
         ]
     },
+    "beca": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Ayuda financiera, proveniente de fondos privados o públicos, por méritos académicos otorgada por la duración de un curso o de un periodo de estudios."
+            }
+        ]
+    },
     "beisbol": {
         "definitions": [
             {
@@ -4391,6 +4459,50 @@
                         "content": "pelota."
                     }
                 ]
+            }
+        ]
+    },
+    "béisbol": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Deporte de pelota cuyo objetivo es anotar al recorrer bases mientras la pelota está en juego."
+            }
+        ]
+    },
+    "belén": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Representación plástica del nacimiento de Jesucristo, que se suele exponer durante las fiestas de Navidad en hogares, iglesias, comercios, etc."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Lugar donde hay una gran confusión o desorden."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Asunto que puede provocar complicaciones."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Botánica, México",
+                "definition": "Planta anual, frecuentemente utilizada en jardinería, que no suele sobrepasar los 50 cm, de tallos erguidos y rectos muy ramificados. Las hojas son lanceoladas y de color verde claro, tienen cortos peciolos y bordes aserrados."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Flor de dicha planta."
             }
         ]
     },
@@ -4506,6 +4618,22 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Bueno, excelente."
+            }
+        ]
+    },
+    "bendición": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de bendecir."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Dícise sobre algún favor o dicha que alguien o algo pueda tener."
             }
         ]
     },
@@ -4714,6 +4842,18 @@
             }
         ]
     },
+    "berlín": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Alimentos, Chile",
+                "definition": "Bollo de masa dulce leudada, frito, espolvoreado con azúcar y relleno, típico de la gastronomía alemana y portuguesa."
+            }
+        ]
+    },
     "bernardo": {
         "definitions": [
             {
@@ -4838,6 +4978,35 @@
             }
         ]
     },
+    "beta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Segunda letra del alfabeto griego."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Astronomía",
+                "definition": "Nombre con el que se suele designar a la segunda estrella, en orden de magnitud, de una constelación."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Informática",
+                "definition": "Versión del software que esta en fase de pruebas."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas",
+                "definition": "Con la letra griega de tal nombre se designan cantidades y puntos, como vértices de ángulos, etc., enumerados en segundo término."
+            }
+        ]
+    },
     "biblia": {
         "definitions": [
             {
@@ -4958,6 +5127,102 @@
                 "number": "6",
                 "type": "nombre femenino",
                 "definition": "Colección de libros o tratados análogos o semejantes entre sí, ya por las materias de que tratan, ya por la época y nación o autores a que pertenecen. Biblioteca de Jurisprudencia y Legislación. Biblioteca de Escritores Clásicos Españoles."
+            }
+        ]
+    },
+    "bicho": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Animales, coloquial",
+                "definition": "En particular, cualquier animal artrópodo similar a un insecto₁, pertenezca o no a esta clase, incluyendo arañas, ciempiés, etc."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Tauromaquia",
+                "definition": "Toro de lidia."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Cuba, Venezuela, coloquial, Usado más en plural",
+                "definition": "Parásito del sistema intestinal."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Colombia, Venezuela, coloquial",
+                "definition": "Objeto, cosa, en particular de pequeño tamaño."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Chile, figurado",
+                "definition": "Obsesión o fuerte gusto por determinada actividad, o entidad que los produce."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Bolivia, El Salvador, Guatemala, Honduras, República Dominicana, coloquial, jocoso",
+                "definition": "Persona joven, en su infancia o mocedad."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Argentina, Uruguay, coloquial, Usado también como adjetivo",
+                "definition": "Persona de inteligencia alerta, aguda y perspicaz."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Puerto Rico, coloquial",
+                "definition": "Persona altanero y de carácter poco simpático."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Argentina, Uruguay, Venezuela, coloquial",
+                "definition": "Fórmula de tratamiento cariñoso para dirigirse a otra persona."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
+                "type_extra": "El Salvador, coloquial",
+                "definition": "Joven."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "Cuba, coloquial, Usado también como sustantivo",
+                "definition": "Dicho de alguien: De gran astucia o capacidad para sacar provecho de las situaciones."
+            },
+            {
+                "number": "12",
+                "type": "adjetivo",
+                "type_extra": "Costa Rica, jovial",
+                "definition": "Dicho de alguien: Con gran experiencia o capacidad."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino y femenino",
+                "type_extra": "El Salvador, coloquial, jocoso",
+                "definition": "Novio."
+            }
+        ]
+    },
+    "bici": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Vehículos, coloquial",
+                "definition": "Bicicleta (vehículo de dos ruedas)."
             }
         ]
     },
@@ -5270,6 +5535,22 @@
             }
         ]
     },
+    "bienvenido": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Se dice de algo o de alguien que es recibido con gozo y alegría."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "definition": "¡Bienvenido! (o -a, -os, -as). Se usa para recibir con alegría a alguien."
+            }
+        ]
+    },
     "billete": {
         "definitions": [
             {
@@ -5455,6 +5736,18 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Natural o que implica respeto al medio ambiente al evitar el uso de productos químicos."
+            }
+        ]
+    },
+    "bla": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "Usado más repetido",
+                "definition": "Se utiliza para representar el habla continuada e insustancial."
             }
         ]
     },
@@ -6159,6 +6452,28 @@
             }
         ]
     },
+    "bloquear": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Impedir el tránsito, cerrar el paso."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Impedir que algo funcione correctamente."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "Informática",
+                "definition": "Impedir o negar el acceso a un portal web o a algún perfil en redes sociales."
+            }
+        ]
+    },
     "bloqueo": {
         "definitions": [
             {
@@ -6181,6 +6496,30 @@
                 "type": "nombre masculino",
                 "type_extra": "Marina",
                 "definition": "Fuerza marítima que bloquea."
+            }
+        ]
+    },
+    "bo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "Uruguay",
+                "definition": "Para llamar, expresar admiración, sorpresa y de uso completivo variado."
+            }
+        ]
+    },
+    "bob": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Estética",
+                "definition": "Tipo de peinado femenino corto y recto que llega hasta la mandíbula, aproximadamente."
             }
         ]
     },
@@ -6367,6 +6706,39 @@
             }
         ]
     },
+    "bodega": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Almacén de vinos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Establecimiento dedicado a la elaboración de vinos."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Almacén de comestibles en general."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Náutica, Aeronáutica",
+                "definition": "Espacio de un barco destinado a alojar la carga o en un avión para maletas y otras cargas."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Comercio, Venezuela",
+                "definition": "Local destinado a venta de comestibles al detal, de menor tamaño que un abasto y común mayormente en los pueblos y caseríos."
+            }
+        ]
+    },
     "bola": {
         "definitions": [
             {
@@ -6517,6 +6889,39 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "boleta (billete)."
+            }
+        ]
+    },
+    "boleto": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Pequeña hoja impresa para ingresar a algún recinto cerrado y con entrada restringida a los socios o a quienes han pagado una entrada."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Comprobante de juego de azar."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Pasaje."
+            }
+        ]
+    },
+    "bolívar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Monedas",
+                "definition": "Unidad monetaria de Venezuela desde 1879."
             }
         ]
     },
@@ -6877,6 +7282,17 @@
             }
         ]
     },
+    "bombardeo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción y efecto de bombardear."
+            }
+        ]
+    },
     "bomberos": {
         "definitions": [
             {
@@ -7218,6 +7634,52 @@
             }
         ]
     },
+    "borrador": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que borra (hace desaparecer o desvanecer), o que sirve para ello."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Utensilios",
+                "definition": "Pieza de goma preparada específicamente con la finalidad de eliminar trazos hechos sobre papel. Pueden ser piezas sueltas o estar sujetas al extremo de un lápiz, entre otras presentaciones."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Utensilios",
+                "definition": "Pieza diseñada específicamente para borrar lo escrito en tableros, pizarras o pizarrones, generalmente dotado de un mango rectangular y de algún material de tela, fieltro o espuma."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Escrito provisional que está sujeto a cambios."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Boceto o primera versión de una obra gráfica (dibujo, pintura, cómic, etc.)."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Comercio",
+                "definition": "Cuaderno o libro en que provisionalmente se apuntan transacciones para luego hacer el balance de cuentas."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Programa que sobrescribe archivos o datos para evitar que puedan recuperarse."
+            }
+        ]
+    },
     "borrar": {
         "definitions": [
             {
@@ -7304,6 +7766,88 @@
                 "type": "nombre masculino",
                 "type_extra": "germanía",
                 "definition": "barba (pelo que nace en la cara)."
+            }
+        ]
+    },
+    "bot": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Programa informático que efectúa automáticamente tareas reiterativas mediante Internet a través de una cadena de comandos o funciones autónomas previas para asignar un rol establecido; y que posee capacidad de interacción, cambiando de estado para responder a un estímulo."
+            }
+        ]
+    },
+    "bote": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Náutica, Transporte",
+                "definition": "Embarcación pequeña, sin cubierta, a remos y con tablones como asientos."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Honduras, Guatemala, México, coloquial",
+                "definition": "Cárcel, prisión."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Salto de un cuerpo que choca con una superficie más dura."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Brinco de persona o animal."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Golpe dado con un arma blanca que posee un asta, cual una lanza."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Boche (hoyo)."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Recipiente de forma cilíndrica por lo general, que se usa para guardar cualquier tipo de alimentos, conservas, medicamentos, sustancias y objetos."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Recipiente para las propinas de los empleados en los bares, cafés y restaurantes."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Propina que se deposita en dicho recipiente."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Cantidad de dinero que no habiendo sido ganada por los concursantes de un juego de azar, se acumula para el sorteo siguiente."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "type_extra": "Cuba",
+                "definition": "Hoja de tabaco usada para hacer la picadura."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "type_extra": "Transporte, Uruguay, coloquial",
+                "definition": "Ómnibus."
             }
         ]
     },
@@ -7549,6 +8093,30 @@
                         "content": "pugilismo, box, lucha, combate."
                     }
                 ]
+            }
+        ]
+    },
+    "boy": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "España",
+                "definition": "Chico del cuerpo de baile en las revistas y espectáculos musicales."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "España",
+                "definition": "Chico que actúa bailando en espectáculos eróticos cuyo número principal consiste en ir desnudándose al ritmo de la música."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "España, Argentina",
+                "definition": "Sirviente nativo, doméstico o personal, de las colonias africanas y asiáticas."
             }
         ]
     },
@@ -7922,6 +8490,32 @@
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "peones (jornaleros)."
+            }
+        ]
+    },
+    "brecha": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Roca sedimentaria compuesta de fragmentos angulosos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Rotura irregular."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Separación o espacio abierto en un frente de batalla."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Herida."
             }
         ]
     },
@@ -8371,6 +8965,18 @@
             }
         ]
     },
+    "bro": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "coloquial, juvenil, Usado también como adjetivo",
+                "definition": "Vocativo usado entre hombres jóvenes para dirigirse a alguien de mucha confianza o muy querido."
+            }
+        ]
+    },
     "broma": {
         "definitions": [
             {
@@ -8409,6 +9015,36 @@
             }
         ]
     },
+    "bronca": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "España",
+                "definition": "Conflicto ruidoso y agresivo entre dos o más partes."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "España",
+                "definition": "Corrección verbal de marcada vehemencia."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "América Latina",
+                "definition": "Sentimiento de ira e irritación apenas contenida que provoca algo."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "México",
+                "definition": "Situación incómoda o perniciosa de difícil solución."
+            }
+        ]
+    },
     "bronce": {
         "definitions": [
             {
@@ -8439,6 +9075,54 @@
                 "type": "nombre masculino",
                 "type_extra": "Numismática",
                 "definition": "Moneda de cobre."
+            }
+        ]
+    },
+    "bruja": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Historia, Folclore",
+                "definition": "Mujer a la que se le atribuyen poderes mágicos y sobrenaturales, en la mayoría de los casos empleados para hacer el mal."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Venezuela, coloquial",
+                "definition": "Persona que delata a otra."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Aves, Chile",
+                "definition": "Ave pelecaniforme de la familia Ardeidae ampliamente distribuida por Eurasia, África y América. De tamaño medio (entre 60 y 65 cm), ojos de color rojo intenso, garganta, pecho y partes inferiores de un blanco puro; la parte superior de la cabeza y el dorso son de un gris oscuro; de la nuca le salen tres largas plumas blancas; las patas y pies son de color amarillo pálido (algo más intenso en época de cría), y el pico, fuerte aunque no excesivamente largo, es verdoso en la base y negro en la parte superior. Es notable la escasa longitud de su cuello, si lo comparamos con el de otras garzas como la garza real o la garceta común."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Meteorología, Castilla",
+                "definition": "Remolino o tolvanera propia del verano, especialmente cuando alcanza gran altura."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Argentina",
+                "definition": "Fregona (herramienta para limpiar el piso)."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "rioplatense, lunfardo",
+                "definition": "Suegra."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Chile, jocoso",
+                "definition": "Esposa."
             }
         ]
     },
@@ -8493,6 +9177,22 @@
                 "type": "nombre femenino",
                 "type_extra": "en plural",
                 "definition": "Pinzas anchas que usan los plateros para arrancar los pallones de oro o plata que quedan en las copelas al hacer los ensayos."
+            }
+        ]
+    },
+    "brutal": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Dotado de violencia no atemperada por la reflexión o la civilización."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Desmesuradamente grande o fuerte."
             }
         ]
     },
@@ -8606,6 +9306,18 @@
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "Hacienda o bienes, herencia."
+            }
+        ]
+    },
+    "buenas": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "coloquial",
+                "definition": "Usado como respuesta a «buenas tardes» equivale a esta misma frase."
             }
         ]
     },
@@ -8870,6 +9582,83 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "definition": "Administración ineficiente a causa del papeleo, la rigidez y las formalidades superfluas."
+            }
+        ]
+    },
+    "burro": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Mamíferos",
+                "definition": "Animal doméstico de la familia de los équidos, más pequeño y con orejas más largas que el caballo doméstico."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "figurado, Usado también como adjetivo",
+                "definition": "Persona ignorante o tonta."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Zoología, rioplatense, lunfardismo",
+                "definition": "Caballo, en especial de carreras."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Naipes",
+                "definition": "Juego de naipes con baraja española. El objetivo es quedarse sin cartas en la mano antes que los oponentes y para ello se debe poner sobre la mesa en cada turno una carta de la misma pinta que la puesta por el primer jugador. Quien ponga la carta de valor más alto inicia el turno siguiente. Cuando alguien no tiene en su mano una carta de la pinta que se está jugando, debe robar más cartas de la baraja hasta encontrarla. El jugador que pierde recibe el apelativo de \"burro\" y es usual cumplir con una penitencia luego de cierta cantidad de partidas perdidas."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Tabla o mesa donde se colocan las telas para su planchado, generalmente con patas plegables."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Cabo que servía como braza para manejar la verga de la mesana y sujetar el car."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Medicina, Bolivia, Cuba",
+                "definition": "Armazón de cuatro patas que se agarra con ambas manos, que ayuda a caminar a quienes se les hace difícil."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Imprenta, Argentina, desusado",
+                "definition": "Mueble en donde se guardaban todas las piezas con las formas de las letras y otros moldes utilizados en una máquina tipográfica."
+            }
+        ]
+    },
+    "bus": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Vehículos",
+                "definition": "Vehículo automotor para pasajeros de gran capacidad y recorrido fijo dentro de una urbe."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Vehículo para pasajeros de gran capacidad que une diferentes poblaciones."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Cable que transmite información (bits) entre dos computadores o entre diversos elementos de una misma computadora."
             }
         ]
     },
