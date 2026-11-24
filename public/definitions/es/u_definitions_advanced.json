@@ -683,6 +683,17 @@
             }
         ]
     },
+    "uh": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Denota desilusión o desdén."
+            }
+        ]
+    },
     "uigur": {
         "level": "advanced",
         "source": "wiktionary",
@@ -1173,6 +1184,24 @@
             }
         ]
     },
+    "últimamente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Al cabo, finalmente."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Hace poco tiempo o en los días previos al actual."
+            }
+        ]
+    },
     "ultimar": {
         "level": "advanced",
         "source": "wiktionary",
@@ -1248,6 +1277,18 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Vengador."
+            }
+        ]
+    },
+    "ultra": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Fútbol, España, Europa",
+                "definition": "Miembro de los ultras de un equipo."
             }
         ]
     },
@@ -1802,6 +1843,18 @@
             }
         ]
     },
+    "unas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "artículo",
+                "type_extra": "se anteponer, sustantivos femeninos en plural, indicando que deben tomarse como información nueva, indefinido, como un miembro cualquiera de su clase general, indeterminado",
+                "definition": "Artículo indeterminado femenino plural."
+            }
+        ]
+    },
     "unbibio": {
         "level": "advanced",
         "source": "wiktionary",
@@ -1910,13 +1963,13 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Medicina",
-                "definition": "En particular, unción₁ con ungüento de mercurio, usada antiguamente para tratar la sífilis."
+                "definition": "En particular, unción con ungüento de mercurio, usada antiguamente para tratar la sífilis."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Religión",
-                "definition": "En particular, unción₁ ritual con óleo consagrado que se da a los enfermos graves o moribundos."
+                "definition": "En particular, unción ritual con óleo consagrado que se da a los enfermos graves o moribundos."
             },
             {
                 "number": "4",
@@ -4561,6 +4614,17 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Que se ve, escucha, se hace o se observa con mucha frecuencia."
+            }
+        ]
+    },
+    "usualmente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "definition": "De modo usual o habitual."
             }
         ]
     },
