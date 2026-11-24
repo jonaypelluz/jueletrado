@@ -1,6 +1,8 @@
 import { Level, WordFilter, WordFlagName, WordRecord } from '../models/types';
+import { LEVEL_ORDER } from './WordRecord';
 
-export type DefinitionFileFilter = { minSenses?: number; minLen?: number };
+/** level: a Wiktionary entry above this level is dropped (cumulative); RAE entries and an unknown level are unaffected. */
+export type DefinitionFileFilter = { minSenses?: number; minLen?: number; level?: string };
 
 /**
  * True when the record passes every option of the filter: level is pool membership (record.levels),
@@ -16,12 +18,24 @@ export const matchesQuery = (record: WordRecord, { level, minLen, maxLen, exclud
     return true;
 };
 
-/** Entries of a definition file with at least minSenses senses and minLen characters (not UTF-16 units). */
-export const filterDefinitions = <T extends { definitions: unknown[] }>(file: Record<string, T>, { minSenses, minLen }: DefinitionFileFilter): Record<string, T> => {
-    if (minSenses === undefined && minLen === undefined) return file;
+/** True when a Wiktionary entry sits above the game level; an RAE entry or an unknown level never is. */
+const isAboveLevel = (entry: { level?: string; source?: string }, level: string | undefined): boolean => {
+    const max = LEVEL_ORDER.indexOf(level as Level);
+    return max !== -1 && entry.source === 'wiktionary' && LEVEL_ORDER.indexOf((entry.level ?? 'advanced') as Level) > max;
+};
+
+/** Entries of a definition file with at least minSenses senses and minLen characters (not UTF-16 units), within level. */
+export const filterDefinitions = <T extends { definitions: unknown[]; level?: string; source?: string }>(
+    file: Record<string, T>,
+    { minSenses, minLen, level }: DefinitionFileFilter,
+): Record<string, T> => {
+    if (minSenses === undefined && minLen === undefined && level === undefined) return file;
     return Object.fromEntries(
         Object.entries(file).filter(
-            ([word, entry]) => (minSenses === undefined || entry.definitions.length >= minSenses) && (minLen === undefined || Array.from(word).length >= minLen),
+            ([word, entry]) =>
+                (minSenses === undefined || entry.definitions.length >= minSenses) &&
+                (minLen === undefined || Array.from(word).length >= minLen) &&
+                !isAboveLevel(entry, level),
         ),
     );
 };

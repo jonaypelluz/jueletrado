@@ -1,0 +1,15 @@
+Spanish definition data (public/definitions/es/: <letter>_definitions.json and
+<letter>_definitions_advanced.json)
+
+Entries marked "source": "wiktionary" are adapted from Wikcionario, the Spanish
+Wiktionary (https://es.wiktionary.org), by its contributors (page histories at
+https://es.wiktionary.org). They were imported from the Wikimedia dump
+(https://dumps.wikimedia.org/eswiktionary/) with `yarn words:import-wiktionary`.
+Adapted: wiki markup removed, senses filtered and relabelled.
+
+Because it includes that material, the definition data in this folder is
+licensed under the Creative Commons Attribution-ShareAlike 4.0 International
+licence (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+
+Any redistribution of these files, or of material adapted from them, must keep
+this attribution and be shared under the same licence.

@@ -51,7 +51,7 @@ import { buildLetterChallenge } from '../../utils/LetterMatchProcessor';
 import { isUsableClue } from '../../utils/SpellingComparer';
 import { filterDefinitions, matchesQuery } from '../../utils/WordQuery';
 import { hydrateChunk } from '../../utils/WordRecord';
-import { LEVELS, LOCALES } from './wordAudit';
+import { LEVELS, LOCALES, Locale, readLetterDefinitions } from './wordAudit';
 
 const ROOT = process.cwd();
 const DEFAULT_OUT = 'ops/crawl-output/audit/level-counts.json';
@@ -77,10 +77,10 @@ const loadRecords = async (root: string, locale: string): Promise<WordRecord[]> 
     return [...records.values()];
 };
 
-const loadDefinitions = async (root: string, locale: string): Promise<Definitions> => {
+const loadDefinitions = async (root: string, locale: Locale): Promise<Definitions> => {
     const definitions: Definitions = {};
     for (const letter of DEFINITION_LETTERS) {
-        definitions[letter] = JSON.parse(await readFile(path.join(root, 'public/definitions', locale, `${letter}_definitions.json`), 'utf-8'));
+        definitions[letter] = await readLetterDefinitions<WordEntry>(root, locale, letter);
     }
     return definitions;
 };
@@ -96,7 +96,7 @@ const hasUsableClue = (word: string, entry: WordEntry, level: string, locale: st
 export const poolHash = (words: readonly string[]): string =>
     createHash('sha256').update([...words].sort().join('\n')).digest('hex').slice(0, 16);
 
-const countLocale = async (locale: string, root: string = ROOT): Promise<Counts> => {
+const countLocale = async (locale: Locale, root: string = ROOT): Promise<Counts> => {
     const counts: Counts = {};
     const put = (key: string, words: readonly string[], min: number | null) => {
         counts[`${locale}/${key}`] = { count: words.length, min, hash: poolHash(words) };
@@ -143,14 +143,14 @@ const countLocale = async (locale: string, root: string = ROOT): Promise<Counts>
 
         if (isAvailable('definitionMaster', locale)) {
             for (const letter of definitionLetters) {
-                const offered = Object.keys(filterDefinitions(definitions[letter], { minSenses: MIN_DEFINITIONS_BY_LEVEL[level] }));
+                const offered = Object.keys(filterDefinitions(definitions[letter], { minSenses: MIN_DEFINITIONS_BY_LEVEL[level], level }));
                 put(`${level}/definitionMaster/${letter}`, offered, TOTAL_QUIZ_DEFINITIONS);
             }
         }
         if (isAvailable('spellingBee', locale)) {
             const lettersWithRounds: string[] = [];
             for (const letter of definitionLetters) {
-                const usable = Object.entries(filterDefinitions(definitions[letter], { minLen: SPELLING_MIN_LENGTH }))
+                const usable = Object.entries(filterDefinitions(definitions[letter], { minLen: SPELLING_MIN_LENGTH, level }))
                     .filter(([word, entry]) => hasUsableClue(word, entry, level, locale))
                     .map(([word]) => word);
                 put(`${level}/spellingBee/${letter}`, usable, 1);
@@ -159,7 +159,7 @@ const countLocale = async (locale: string, root: string = ROOT): Promise<Counts>
             put(`${level}/spellingBee/total-letters`, lettersWithRounds, TOTAL_ROUNDS);
         }
         if (isAvailable('crossWordPuzzle', locale)) {
-            const keys = Object.values(definitions).flatMap((file) => Object.keys(file).map(stripAccents));
+            const keys = Object.values(definitions).flatMap((file) => Object.keys(filterDefinitions(file, { level })).map(stripAccents));
             put(`${level}/crossWordPuzzle`, keys.filter((k) => k.length >= CROSSWORD_MIN_LENGTH && k.length <= GRID_SIZE), WORDS_PER_LEVEL[level]);
         }
     }

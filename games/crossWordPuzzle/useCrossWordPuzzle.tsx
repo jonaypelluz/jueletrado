@@ -64,7 +64,7 @@ const useCrossWordPuzzle = () => {
     const getWordsFromRandomLetters = async (count: number): Promise<DefinitionWords> => {
         const shuffledLetters = [...letters].sort(() => 0.5 - Math.random()).slice(0, count);
 
-        const promises = shuffledLetters.map((letter) => getDefinitions({ locale, firstLetter: letter }));
+        const promises = shuffledLetters.map((letter) => getDefinitions({ locale, firstLetter: letter, level: gameLevel ?? undefined }));
         const letterDefinitions = await Promise.all(promises);
 
         const mergedDefinitions = letterDefinitions.reduce<Record<string, unknown>>(

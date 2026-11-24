@@ -84,6 +84,17 @@ describe('filterDefinitions', () => {
         expect(Object.keys(filterDefinitions(file, { minLen: 4 }))).toEqual(['ñandú']);
     });
 
+    test('level drops only a Wiktionary entry above that level', () => {
+        const file = {
+            rara: { ...senses(1), level: 'advanced', source: 'wiktionary' },
+            rae: { ...senses(1), level: 'advanced' },
+            facil: { ...senses(1), level: 'beginner', source: 'wiktionary' },
+        };
+        const filter = { minSenses: 1, level: 'beginner' };
+
+        expect(Object.keys(filterDefinitions(file, filter))).toEqual(['rae', 'facil']);
+    });
+
     test('keeps a `constructor` entry as an own key', () => {
         const file = { constructor: senses(2) } as Record<string, ReturnType<typeof senses>>;
 

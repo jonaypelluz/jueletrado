@@ -1,12 +1,13 @@
 import LevelsConfig from '@config/LevelConfig';
 import { WORD_GROUP_FETCH_CONFIG } from '@config/WordGroupConfig';
+import { ADVANCED_DEFINITION_LOCALES, definitionFileName } from '@config/DefinitionConfig';
 import { dbService } from '@services/DBService';
 import Logger from '@services/Logger';
 import StorageService, { StorageKey } from '@store/StorageService';
 import { Level, WordChunk, WordEntry, WordQuery, WordRecord } from '@models/types';
 import { DefinitionFileFilter, filterDefinitions, matchesQuery } from '@utils/WordQuery';
 import { WORDS_DATA_VERSION } from '@config/WordsDataVersion';
-import { assertChunkFormat, baseLetter, WORD_CHUNK_VERSION } from '@utils/WordRecord';
+import { assertChunkFormat, definitionLetter, WORD_CHUNK_VERSION } from '@utils/WordRecord';
 
 type SetErrorFunction = (error: Error | null) => void;
 type SetLoadingProgressFunction = (progress: number) => void;
@@ -113,13 +114,32 @@ const loadChunk = async (level: string, n: number, locale: string): Promise<Word
 
 const loadDefinition = async (letter: string, locale: string): Promise<Record<string, WordEntry> | undefined> => {
     try {
-        const response = await fetch(`/definitions/${locale}/${letter}_definitions.json`);
+        const response = await fetch(`/definitions/${locale}/${definitionFileName(letter)}`);
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
         return await response.json();
     } catch (error) {
         Logger.error('Error fetching definitions:', error);
+    }
+};
+
+/**
+ * The letter's advanced-only file (es Wiktionary advanced entries); empty for a locale without advanced files.
+ * A 404 (letter without the file) is empty, not an error; any other failure is logged and read as empty.
+ */
+const loadAdvancedDefinition = async (letter: string, locale: string): Promise<Record<string, WordEntry>> => {
+    if (!ADVANCED_DEFINITION_LOCALES.includes(locale)) return {};
+    try {
+        const response = await fetch(`/definitions/${locale}/${definitionFileName(letter, true)}`);
+        if (response.status === 404) return {};
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return await response.json();
+    } catch (error) {
+        Logger.error('Error fetching advanced definitions:', error);
+        return {};
     }
 };
 
@@ -342,22 +362,39 @@ const getWordRecordsImpl = async (words: string[], locale: string): Promise<Word
     }
 };
 
-/** One letter's definition file, filtered by sense count / word length; null when it cannot be fetched. */
+/**
+ * One letter's definition file, filtered by sense count / word length / level; null when it cannot be fetched.
+ * Level advanced or unset also fetches the letter's advanced file and merges it after the main one
+ * (a word in both keeps the main copy).
+ */
 const getDefinitions = async ({
     locale,
     firstLetter,
     minSenses,
     minLen,
+    level,
 }: { locale: string; firstLetter: string } & DefinitionFileFilter): Promise<Record<string, WordEntry> | null> => {
-    const file = await loadDefinition(firstLetter, locale);
-    return file ? filterDefinitions(file, { minSenses, minLen }) : null;
+    const withAdvanced = level === undefined || level === 'advanced';
+    const [file, advanced] = await Promise.all([
+        loadDefinition(firstLetter, locale),
+        withAdvanced ? loadAdvancedDefinition(firstLetter, locale) : Promise.resolve<Record<string, WordEntry>>({}),
+    ]);
+    if (!file) return null;
+    const merged = { ...file };
+    for (const [word, entry] of Object.entries(advanced)) {
+        if (!Object.hasOwn(merged, word)) merged[word] = entry;
+    }
+    return filterDefinitions(merged, { minSenses, minLen, level });
 };
 
-/** The definition entry of one word (read from its base-letter file, ñ → n), or null. */
+/** The definition entry of one word (its base-letter file, ñ → n, then that letter's advanced file), or null. */
 const getDefinition = async (word: string, locale: string): Promise<WordEntry | null> => {
-    const letter = baseLetter(Array.from(word)[0] ?? '').replace('ñ', 'n');
+    const letter = definitionLetter(word);
     const file = await loadDefinition(letter, locale);
-    return file && Object.hasOwn(file, word) ? file[word] : null;
+    if (!file) return null;
+    if (Object.hasOwn(file, word)) return file[word];
+    const advanced = await loadAdvancedDefinition(letter, locale);
+    return Object.hasOwn(advanced, word) ? advanced[word] : null;
 };
 
 /** The stamp of the word data this build serves: its chunk format and the hash of its chunks. */

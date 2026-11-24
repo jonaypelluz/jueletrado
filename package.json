@@ -18,6 +18,7 @@
         "words:check": "tsx scripts/words/checkWords.ts",
         "words:audit": "tsx scripts/words/auditWords.ts",
         "words:level-counts": "tsx scripts/words/levelCounts.ts",
+        "words:import-wiktionary": "tsx scripts/words/importWiktionary.ts",
         "words:clean": "tsx scripts/words/cleanWords.ts",
         "words:sort-by-frequency": "tsx scripts/words/sortByFrequency.ts",
         "words:from-book": "tsx scripts/words/fromBook.ts",

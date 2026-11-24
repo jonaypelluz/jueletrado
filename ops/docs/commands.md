@@ -11,10 +11,26 @@ ops/scripts/words/{locale}/{level}_words.txt   ──► crawler ──► ops/c
 ops/scripts/words/{locale}/{level}_words.txt  ┐
 ops/scripts/frequency/wordfreq_{locale}.txt   ├──► words:build ──► public/words/{locale}/{level}_{n}.json + config/LevelConfig.ts
 public/definitions/{locale}/*.json            ┘
+
+es.wiktionary dump (.xml.bz2) ──► words:import-wiktionary ──► public/definitions/es/{letter}_definitions[_advanced].json + es/{level}_words.txt
+                                   (then words:audit --locale es --fix ──► words:build ──► words:level-counts)
 ```
 
 - Crawlers never write directly to `public/definitions/` — they append to JSONL
-  staging files, which are then merged.
+  staging files, which are then merged. The one exception is
+  `words:import-wiktionary`, which merges es.wiktionary lemmas straight into
+  `public/definitions/es/` (RAE keys are never touched).
+- **Definition file split (es):** an entry with `source: "wiktionary"` and
+  `level: "advanced"` lives in `public/definitions/es/{letter}_definitions_advanced.json`;
+  every other entry stays in `{letter}_definitions.json` (same JSON format; a
+  missing advanced file is empty). The rule is `isAdvancedOnly` in
+  `scripts/words/wordAudit.ts`. Readers merge both files per letter with
+  `loadLetterFiles` (a key in both keeps the main copy)
+  (`loadLocaleInput` → audit / build / recrawl-es / import, `words:level-counts`,
+  `crawl:merge`, the crawlers' `--skip-existing`); writers (`words:audit --fix`,
+  `crawl:merge`, `words:import-wiktionary`) write each entry to its file, the
+  advanced file only when it has entries or already exists, and before the main
+  file. An RAE merge drops `source`, so the word moves to the main file.
 - Word lists (`*_words.txt`) are the source of truth for which words get crawled;
   the frequency file sets the level of every ranked word, the lists that of the
   unranked ones.
@@ -186,7 +202,8 @@ runs it automatically.
 
 ### `yarn crawl:merge [files...] [options]`
 
-Merges JSONL crawl output into `public/definitions/{locale}/{letter}_definitions.json`.
+Merges JSONL crawl output into `public/definitions/{locale}/{letter}_definitions.json`
+(reads the letter's `_advanced` file too and writes each word to its file by the split rule above).
 Files are read in the order given — pass them oldest-first, because later entries win on conflict. Merges definitions
 by their `number` field and sets `level` on the word entry if not already present.
 
@@ -380,6 +397,83 @@ the current pools still match it.
 Use it around a data clean-up: save a baseline first, clean, build, then
 compare. If a definitions letter ends with 0 usable words, add it to
 `LETTERS_WITHOUT_DEFINITIONS` in `config/DefinitionConfig.ts`.
+
+### `yarn words:import-wiktionary [--dump <path>] [--letter <l>] [--dry-run] [--root <dir>]`
+
+Imports Spanish lemmas from the es.wiktionary dump into `public/definitions/es/`
+(`scripts/words/importWiktionary.ts`). Download the dump first into the gitignored
+cache (never commit it):
+
+```
+curl -L -o ops/crawl-output/wiktionary/eswiktionary-latest-pages-articles.xml.bz2 \
+  https://dumps.wikimedia.org/eswiktionary/latest/eswiktionary-latest-pages-articles.xml.bz2
+```
+
+For a reproducible run use the dated dump:
+`https://dumps.wikimedia.org/eswiktionary/<YYYYMMDD>/eswiktionary-<YYYYMMDD>-pages-articles.xml.bz2`.
+The report records the latest revision timestamp found in the dump.
+
+- Streams the dump (`.bz2` through `bzcat`, `.xml` read directly); no network.
+- Keeps ns-0 pages whose title matches `^[a-záéíóúüñ]+$`, reads the lemma POS
+  sections of `{{lengua|es}}` (every `Forma …` section is ignored), maps each POS
+  onto the closed es types, cleans each sense into plain text and runs the
+  `words:audit` sense and word rules on it. Form-of and pointer senses
+  (`… (uso pronominal de …)`), senses with an unresolved template and senses
+  labelled vulgar / offensive / derogatory (or with the `sexualidad` / `sexo`
+  domain) are dropped. Digit-only `<sup>`/`<sub>` and `{{-sup}}`/`{{-sub}}` become
+  Unicode super/subscripts.
+- Labels go to `type_extra`. "Others as-is" for `{{uso|…}}` is read as: the
+  usage codes of es.wiktionary `Módulo:contexto/uso` (`utcs`, `utcp`, `umep`…)
+  are written in RAE wording (`Usado también como sustantivo`), aliases map to
+  their label (`raro` → `poco usado`, `vulg` → `vulgar`), disused labels become
+  `desusado`, an unknown code-like value is dropped, and any other value is
+  kept as written.
+- **RAE wins:** a key without `source` is never touched. A new key is written as
+  `{ "level", "source": "wiktionary", "definitions" }`; an existing
+  `source: "wiktionary"` key is refreshed, or removed when it no longer parses.
+  A later RAE crawl (`crawl:merge` / `crawl:recrawl-es`) replaces every sense of a
+  Wiktionary entry and drops its `source`. `crawl:all` (`--skip-existing`) skips
+  Wiktionary keys like any key with definitions; to move one to RAE, crawl it
+  explicitly with `crawlRAE.ts` (no `--skip-existing`) and `crawl:merge`, or let
+  `crawl:recrawl-es` queue it when it is a candidate.
+- A re-import that removes a stale Wiktionary key leaves its word in the level
+  list, like any listed word without definitions (most list words have none).
+- The entry `level` is `computeLevel(rank, [], 'es')`: the frequency band,
+  unranked → advanced, whatever list already holds the word (lists of listed
+  words are never changed). A new word in no level list is appended to the list
+  of that level. The definition games use the entry `level` to keep rare
+  Wiktionary words out of lower levels, and advanced entries go to
+  `{letter}_definitions_advanced.json` (split rule above). Rerun the import
+  after `LEVEL_BANDS` changes.
+- Writes the report to `ops/crawl-output/wiktionary/es-import-report.md`
+  (per letter before → after, skips by reason, list additions, a 20-entry sample
+  per letter, top unresolved templates and unmapped POS headers).
+
+| Flag | Meaning |
+|---|---|
+| `--dump <path>` | Dump file (default `ops/crawl-output/wiktionary/eswiktionary-latest-pages-articles.xml.bz2`) |
+| `--letter <l>` | Only that definition letter (a–z) |
+| `--dry-run` | Report only; writes no data file |
+| `--root <dir>` | Repo root (tests use a fixture copy) |
+
+Exit codes: `0` ok; `1` I/O failure, `bzcat` failure or a missing data file
+(unlike `words:audit`, which exits `2` for a missing data file); `2` bad
+arguments or a missing dump (prints the `curl` command).
+
+Pipeline order: `yarn words:import-wiktionary` → `yarn words:audit --locale es --fix`
+→ `yarn words:audit --locale es` (must exit 0) → `yarn words:build` →
+`yarn words:level-counts --baseline <before.json>`. Commit each changed letter
+(`public/definitions/es/<letter>_definitions.json` and `<letter>_definitions_advanced.json`
+together) in its own commit, then the
+level-list additions, then the `words:build` output.
+
+**Licence and attribution.** Entries with `source: "wiktionary"` come from
+[Wikcionario](https://es.wiktionary.org) (its contributors), licensed
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), adapted: markup
+removed, senses filtered and relabelled. Share-alike: the es definition data that
+includes them (`public/definitions/es/`) is shared under the same licence (see
+`public/definitions/es/LICENSE`); any redistribution must keep the attribution and
+the licence.
 
 ### `yarn words:from-book <es|en> [bookFile]`
 

@@ -99,7 +99,7 @@ describe('useSpellingBee', () => {
                 expect(letter).toMatch(/^[a-z]$/);
                 expect(excluded).not.toContain(letter);
             });
-            mockGetDefinitions.mock.calls.forEach(([options]: [DefinitionOptions]) => expect(options).toEqual({ locale, firstLetter: options.firstLetter, minLen: 4 }));
+            mockGetDefinitions.mock.calls.forEach(([options]: [DefinitionOptions]) => expect(options).toEqual({ locale, firstLetter: options.firstLetter, minLen: 4, level: 'beginner' }));
         });
 
         test('isLoadingLetter is true while definitions load and false once rounds are built', async () => {

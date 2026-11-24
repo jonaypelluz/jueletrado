@@ -61,7 +61,7 @@ const useDefinitionMaster = () => {
         setIsLoadingLetter(true);
         setLoadError(false);
         const minSenses = MIN_DEFINITIONS_BY_LEVEL[gameLevel ?? ''] ?? MIN_DEFINITIONS_BY_LEVEL.advanced;
-        const words = await getDefinitions({ locale, firstLetter: letter, minSenses });
+        const words = await getDefinitions({ locale, firstLetter: letter, minSenses, level: gameLevel ?? undefined });
         setIsLoadingLetter(false);
 
         if (!words) {

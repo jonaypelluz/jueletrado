@@ -221,7 +221,7 @@ describe('useDefinitionMaster', () => {
             expect(result.current.quizWords.length).toBeGreaterThan(0);
         });
 
-        expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'es', firstLetter: 'g', minSenses: 1 });
+        expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'es', firstLetter: 'g', minSenses: 1, level: 'beginner' });
         const correctEntry = result.current.quizWords[0].find(q => q.isCorrect);
         expect(correctEntry?.definition).toBe('Animal felino doméstico');
     });

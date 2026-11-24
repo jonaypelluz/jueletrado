@@ -119,7 +119,7 @@ describe('useCrossWordPuzzle', () => {
         });
 
         await waitFor(() => {
-            expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'en', firstLetter: expect.stringMatching(/^[a-z]$/) });
+            expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'en', firstLetter: expect.stringMatching(/^[a-z]$/), level: 'beginner' });
         });
     });
 

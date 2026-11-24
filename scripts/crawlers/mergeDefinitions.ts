@@ -1,5 +1,6 @@
 /**
- * Merges JSONL crawl output files into public/definitions/{locale}/{letter}_definitions.json.
+ * Merges JSONL crawl output files into public/definitions/{locale}/{letter}_definitions.json
+ * (+ {letter}_definitions_advanced.json: both are read, each word is written to its file by words:audit's isAdvancedOnly).
  *
  * Reads JSONL files in the order given (oldest-first = newer entries win on conflict).
  * For each word, merges definitions by their `number` field: updates existing entries,
@@ -20,10 +21,11 @@
  *   tsx scripts/crawlers/mergeDefinitions.ts ops/crawl-output/en/1234.jsonl --locale en --letter j
  */
 
-import { readFile, writeFile, mkdir } from 'fs/promises';
+import { mkdir } from 'fs/promises';
 import { existsSync, createReadStream } from 'fs';
 import * as path from 'path';
 import * as readline from 'readline';
+import { DefinitionFile, Locale, loadLetterFiles, writeLetterDefinitions } from '../words/wordAudit';
 
 interface DefinitionExtra {
     type: string;
@@ -41,6 +43,7 @@ interface Definition {
 
 interface WordEntry {
     level?: string;
+    source?: string;
     definitions: Definition[];
 }
 
@@ -77,10 +80,6 @@ function getDefinitionsDir(root: string, locale: string): string {
     return path.join(root, 'public/definitions', locale);
 }
 
-function getLetterFilePath(root: string, locale: string, letter: string): string {
-    return path.join(getDefinitionsDir(root, locale), `${letter}_definitions.json`);
-}
-
 function firstLetter(word: string, locale: string): string {
     const ch = word[0]?.toLowerCase() ?? 'a';
     if (locale === 'es') {
@@ -88,11 +87,6 @@ function firstLetter(word: string, locale: string): string {
         return accentMap[ch] ?? ch;
     }
     return ch;
-}
-
-async function loadFile(filePath: string): Promise<DefinitionsFile> {
-    if (!existsSync(filePath)) return {};
-    return JSON.parse(await readFile(filePath, 'utf-8')) as DefinitionsFile;
 }
 
 export function mergeEntry(
@@ -108,6 +102,13 @@ export function mergeEntry(
             },
             changed: true,
         };
+    }
+
+    // RAE wins over Wiktionary: an RAE crawl replaces every imported sense and the entry becomes RAE (no source).
+    if (existing.source === 'wiktionary' && incoming.source === 'rae-api') {
+        const entry: WordEntry = { ...existing, definitions: incoming.definitions };
+        delete entry.source;
+        return { entry, changed: true };
     }
 
     if (replace) {
@@ -167,8 +168,7 @@ export async function mergeIntoFiles(
 
     for (const [locale, byLetter] of grouped) {
         for (const [letter, letterEntries] of byLetter) {
-            const filePath = getLetterFilePath(root, locale, letter);
-            const data = await loadFile(filePath);
+            const data = await loadLetterFiles<WordEntry>(getDefinitionsDir(root, locale), letter);
             let fileChanged = false;
 
             for (const crawlEntry of letterEntries) {
@@ -192,8 +192,8 @@ export async function mergeIntoFiles(
 
             if (fileChanged && !dryRun) {
                 await mkdir(getDefinitionsDir(root, locale), { recursive: true });
-                await writeFile(filePath, JSON.stringify(data, null, 4), 'utf-8');
-                console.log(`Wrote ${filePath}`);
+                await writeLetterDefinitions(root, locale as Locale, letter, data as DefinitionFile);
+                console.log(`Wrote ${locale}/${letter}`);
             }
         }
     }

@@ -85,7 +85,7 @@ client hydrator, `level-counts` and the tests):
 | `firstLetter`, `lastLetter` | Lowercase, accent stripped (`ü` → `u`), `ñ` kept. |
 | `letters` | The word's characters sorted. |
 | `pos`, `senseCount` | Type of the first sense and number of senses in `public/definitions` (`null` / 0 without definitions). Senses are not stored; read them with `getDefinition(s)`. |
-| `source` | `'rae'` for an es word with senses; `null` otherwise. For en `null` means "unknown" (filled later). |
+| `source` | `'wiktionary'` for an es word whose definition entry has `source: "wiktionary"` (imported by `words:import-wiktionary`); `'rae'` for an es word with senses and no `source`; `null` otherwise. For en `null` means "unknown" (filled later). |
 | flags (0/1) | `hasAccent` (`[áéíóú]`), `hasEnye`, `hasDieresis`, `hasTl`, `hasDiphthong`, `hasHiatus` (`vowelFeatures` in `utils/SyllableSplitter.ts`), `isPlural`, `isVerbForm` (approximate suffix heuristics against the locale word set; no game uses them yet), `isProperNoun` (the word is in `ops/scripts/words/proper_nouns_<locale>.txt`; proper nouns stay in the levels, a game drops them with `exclude: { isProperNoun: true }` or keeps only them by filtering `getWordRecords` on the flag; no game uses it yet). |
 
 Flag bit order in chunks is `WORD_FLAGS` (the order above); a new flag goes at the end.
@@ -121,11 +121,18 @@ implicit minimum; `exclude` rejects records whose flag is 1; `minSyllables` need
 - `getFullWordSet(locale, setError?, setLoadingProgress?)` → `Set<string>` — every word of the locale,
   to validate words/variants. Populates IndexedDB on first call (slow first time → show loading UI, see
   spellTower's `isLoadingWords` + `setLoadingProgress`).
-- `getDefinitions({ locale, firstLetter, minSenses?, minLen? })` → the letter file
+- `getDefinitions({ locale, firstLetter, minSenses?, minLen?, level? })` → the letter file
   (`/definitions/<locale>/<letter>_definitions.json`, `Record<word, WordEntry>`) filtered by sense count
   and character length (`filterDefinitions`), `null` when it cannot be fetched (definitionMaster,
-  spellingBee, crossWordPuzzle).
-- `getDefinition(word, locale)` → the word's `WordEntry` from its base-letter file (`ñ` → `n`), or `null`.
+  spellingBee, crossWordPuzzle). `level` (the game level) drops a `source: 'wiktionary'` entry whose
+  `level` is above it (cumulative: beginner gets beginner Wiktionary words, advanced gets all); RAE
+  entries and an unknown level are never filtered. The three definition games pass `gameLevel`.
+  For a locale of `ADVANCED_DEFINITION_LOCALES` (es), level `advanced` or unset also fetches
+  `/definitions/<locale>/<letter>_definitions_advanced.json` (advanced Wiktionary entries) and merges it
+  after the main file (a word in both keeps the main copy); beginner/intermediate fetch only the main file.
+  A 404 on the advanced file is empty, not an error; any other failure is logged and read as empty.
+- `getDefinition(word, locale)` → the word's `WordEntry` from its base-letter file (`ñ` → `n`), then from
+  that letter's advanced file when the word is not in the main one, or `null`.
 
 Static game queries live in the game's `config.ts` as `WordFilter` objects (`WORD_LENGTH_BY_LEVEL`,
 `LEVEL_FETCH_OPTIONS`, `SYLLABLE_WINDOW` / `SYLLABLE_QUERY`, `SEED_QUERY`), and `WORD_GROUP_FETCH_CONFIG`

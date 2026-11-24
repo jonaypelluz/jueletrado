@@ -100,6 +100,18 @@ describe('buildLocale', () => {
         expect(árbol[FIELDS.indexOf('source')]).toBe('rae');
     });
 
+    test('an entry imported from Wiktionary is served with source wiktionary', async () => {
+        const file = path.join(root, 'public/definitions/es/m_definitions.json');
+        const m = JSON.parse(fs.readFileSync(file, 'utf-8'));
+        m.mesa.source = 'wiktionary';
+        fs.writeFileSync(file, JSON.stringify(m, null, 4));
+
+        await buildLocale(root, 'es');
+
+        const mesa = readChunk('es', 'beginner_1.json').rows.find((row) => row[0] === 'mesa')!;
+        expect(mesa[FIELDS.indexOf('source')]).toBe('wiktionary');
+    });
+
     test('`constructor` in a list is served with no senses and no pos (no Object.prototype lookup)', async () => {
         fs.appendFileSync(path.join(root, 'ops/scripts/words/es/advanced_words.txt'), 'constructor\n');
 
