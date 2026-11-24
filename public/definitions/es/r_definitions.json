@@ -93,6 +93,49 @@
             }
         ]
     },
+    "racismo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Convicción o doctrina que sostiene que algunas etnias o linajes humanos, especialmente el propio, son intrínsecamente superiores a otros."
+            }
+        ]
+    },
+    "racista": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Relacionado o perteneciente al racismo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que está a favor de las doctrinas o teorías del racismo."
+            }
+        ]
+    },
+    "radar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Dispositivo radioeléctrico para la detección que proporciona información acerca de distancia, azimut y/o elevación de objetos."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Sistema electrónico capaz de captar la presencia de objetos que se encuentran fuera del alcance de la vista, y que además, permite saber a que distancia se encuentran."
+            }
+        ]
+    },
     "radiación": {
         "definitions": [
             {
@@ -144,6 +187,57 @@
                 "number": "3",
                 "type": "verbo intransitivo",
                 "definition": "consistir (estar fundado algo en otra cosa). El problema radica en su falta de generosidad."
+            }
+        ]
+    },
+    "radical": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Prerteneciente o relativo a la raíz."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Fundamental, de raíz."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que genera o exige cambios totales o de raíz."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Partidario de reformas extremas, especialmente en sentido democrático."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Política, Argentina",
+                "definition": "Que pertenece al partido de la Unión Cívica Radical."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "Signo ( √ ) con que se representa la operación aritmética de extraer la raíz de un número."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Química",
+                "definition": "Grupo de átomos que, como una unidad, forman parte de los compuestos químicos radical ácido orgánico (O=C-OH) o radical alcohol (C-OH)."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "La raíz de una palabra que se puede usar para formar múltiples palabras y formas que remiten a un significado común."
             }
         ]
     },
@@ -261,6 +355,17 @@
                 "type": "nombre femenino",
                 "type_extra": "Ingeniería",
                 "definition": "Plano inclinado que se labra en la roca para apoyar un arco de la fortificación."
+            }
+        ]
+    },
+    "raíces": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Origen de una persona, tanto familiar, como en cuanto al lugar de donde procede."
             }
         ]
     },
@@ -494,6 +599,69 @@
             }
         ]
     },
+    "rancho": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Platos",
+                "definition": "Comida simple que se hace como plato único para un grupo grande de personas."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Provisión de comida que se embarca para la tripulación de un buque."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Grupo de personas que toman el rancho₁ en común."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Recinto o paraje rural usado como vivienda."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "En particular, casa o choza pobre en el campo."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Espacio de una embarcación destinado a alojar la tripulación."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Grupo de tripulantes que cumple servicio y toma el rancho₁ en un mismo turno."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Andalucía, América Central, México",
+                "definition": "Establecimiento rural destinado a la cría de ganado o el cultivo."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "Venezuela",
+                "definition": "Casucha o vivienda improvisada, construida con materiales de mala calidad y de condiciones sanitarias precarias."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "type_extra": "Venezuela",
+                "definition": "Por extensión, vivienda mal construida o a medio construir."
+            }
+        ]
+    },
     "rango": {
         "definitions": [
             {
@@ -533,6 +701,29 @@
                 "type": "nombre masculino",
                 "type_extra": "Ecuador",
                 "definition": "Fila de escolares colocados en línea."
+            }
+        ]
+    },
+    "ranking": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Lista o clasificación de un número determinado de cosas o personas, ordenadas en función de los criterios que se hayan establecido previamente."
+            }
+        ]
+    },
+    "rap": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "Estilo musical basado en la recitación rítmica de rimas, juegos de palabras y poesía surgido a mediados del siglo XX entre la comunidad negra de los Estados Unidos."
             }
         ]
     },
@@ -879,6 +1070,59 @@
                 "number": "8",
                 "type": "nombre masculino",
                 "definition": "En Madrid, mercado callejero donde suelen venderse todo tipo de objetos viejos o nuevos."
+            }
+        ]
+    },
+    "rata": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Mamíferos",
+                "definition": "Animal roedor, algo más grandes que sus parientes cercanos los ratones, pudiendo alcanzar los 500 gramos de peso. Existen unas 56 especies, de las cuales algunas son domésticas, y otras, muy agresivas, colonizan de manera oportunista el hábitat humano."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Zoología",
+                "definition": "Por extensión, varios roedores de tamaño mediano, como los del género Neotoma."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "de manera enfática se emplea la locución rata inmunda",
+                "definition": "Persona que provoca desprecio."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Ladrón, persona que roba."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Milicia, Historia, España",
+                "definition": "Nombre usado durante la Guerra Civil española (años 1930) con el que el bando golpista se referia al avión ruso Polikárpov I-16."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Venezuela, coloquial, figurado, se usa mayormente el diminutivo ratica",
+                "definition": "Persona astuta que oculta sus instintos bajos bajo una careta de amabilidad."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Estadística",
+                "definition": "Procentaje o parte proporcional, generalmente aplicado a pagos, repartos o mediciones."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Física",
+                "definition": "Variación de una cantidad en relación con una unidad de tiempo."
             }
         ]
     },
@@ -2479,6 +2723,32 @@
             }
         ]
     },
+    "receptor": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que recepta o recibe."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Dícese del motor que recibe la energía de un generador instalado a distancia."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dícese del aparato que sirve para recibir las señales eléctricas, telegráficas o telefónicas."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que recibe un mensaje."
+            }
+        ]
+    },
     "receptores": {
         "definitions": [
             {
@@ -2778,6 +3048,17 @@
                 "number": "14",
                 "type": "verbo pronominal",
                 "definition": "Dicho de una persona: Tomar la investidura o el título conveniente para ejercer alguna facultad o profesión."
+            }
+        ]
+    },
+    "recibí": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Fórmula que se coloca en ciertos documentos antes de firmarlos para expresar la conformidad de lo que se ha recibido."
             }
         ]
     },
@@ -4407,6 +4688,22 @@
             }
         ]
     },
+    "recolección": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "El acto en sí mismo de recolectar o reunir algo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Acto de recoger frutos o productos de la tierra."
+            }
+        ]
+    },
     "recomendable": {
         "definitions": [
             {
@@ -4518,6 +4815,22 @@
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Hacer recomendable a alguien."
+            }
+        ]
+    },
+    "recompensa": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de recompensar."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Lo que ayuda para recompensar."
             }
         ]
     },
@@ -5016,6 +5329,35 @@
                 "number": "2",
                 "type": "verbo transitivo",
                 "definition": "Unir, allegar, evocar recuerdos o ideas para completar el conocimiento de un hecho o el concepto de algo."
+            }
+        ]
+    },
+    "recopilación": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Colección catalogada de objetos o escritos sobre un tema particular."
+            }
+        ]
+    },
+    "récord": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Deporte",
+                "definition": "Marca máxima en una prueba de competición."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "figurado",
+                "definition": "Acción que supera una anterior."
             }
         ]
     },
@@ -7081,6 +7423,33 @@
             }
         ]
     },
+    "reemplazar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Poner una cosa o persona en lugar de otra."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Tomar el lugar que ocupaba otra persona en un cargo o condición, de manera temporal o permanente."
+            }
+        ]
+    },
+    "reemplazo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de reemplazar."
+            }
+        ]
+    },
     "reestructuración": {
         "definitions": [
             {
@@ -7150,6 +7519,17 @@
                 "type": "nombre femenino",
                 "type_extra": "Lingüística",
                 "definition": "referente."
+            }
+        ]
+    },
+    "referéndum": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Procedimiento democrático o elección, con el cual el cuerpo electoral de un país o nación expresa su voluntad respecto a un asunto o decisión."
             }
         ]
     },
@@ -8136,6 +8516,34 @@
             }
         ]
     },
+    "regalar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Ceder un bien material sin recibir a cambio un pago, a menudo para agradar a quien lo recibe."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Halagar, acariciar o hacer expresiones de afecto y benevolencia."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Recrear o deleitar."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal, desusado",
+                "definition": "Cambiar algo de estado sólido o congelado a líquido a causa de un aumento de temperatura."
+            }
+        ]
+    },
     "regalo": {
         "definitions": [
             {
@@ -8289,6 +8697,51 @@
                 "type": "nombre masculino",
                 "type_extra": "Gramática",
                 "definition": "rección."
+            }
+        ]
+    },
+    "regimiento": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de regir."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Cuerpo de tropas de una misma arma compuesto de varios batallones, cuyo jefe es normalmente un coronel."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Cargo u oficio del regidor."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Cuerpo o conjunto de los regidores de una administración local o municipal."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "coloquial, figurado",
+                "definition": "Número grande de personas o cosas."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Transporte, desusado",
+                "definition": "Libro que contenía las reglas y preceptos para los pilotos."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Manera de regirse, controlarse o autogobernarse en ciertos aspectos."
             }
         ]
     },
@@ -8607,6 +9060,43 @@
                 "number": "15",
                 "type": "verbo pronominal",
                 "definition": "Dicho de ciertas realidades que pueden medirse o cuantificarse: Producirse, suceder."
+            }
+        ]
+    },
+    "registrar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Inspeccionar algún objeto."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Buscar reconociendo todos los sitios."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Poner de manifiesto alguna cosa para su registro."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Copiar en los libros de registro."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Poner alguna señal en las hojas de un libro para un fin particular."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Venezuela, Usado también como intransitivo",
+                "definition": "Hurgar entre objetos guardados."
             }
         ]
     },
@@ -9346,6 +9836,30 @@
                 "number": "14",
                 "type": "adverbio",
                 "definition": "Medianamente, no demasiado bien. En las pruebas me fue regular."
+            }
+        ]
+    },
+    "regularmente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Que se da de forma común, ordinaria o natural."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Según reglas."
+            },
+            {
+                "number": "3",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Ni bien ni mal o de manera mediana."
             }
         ]
     },
@@ -10931,6 +11445,22 @@
             }
         ]
     },
+    "rendición": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción de rendir o rendirse."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Imposición de una voluntad."
+            }
+        ]
+    },
     "rendimiento": {
         "definitions": [
             {
@@ -12073,6 +12603,32 @@
             }
         ]
     },
+    "reporte": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Suceso o novedad que se comunica."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Noticia verdadera o falsa con que se pretende indisponer unas personas con otras."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Prueba de litografía que sirve para estampar de nuevo un dibujo en otras piedras y multiplicar las tiradas."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de reportar o reportarse."
+            }
+        ]
+    },
     "reposo": {
         "definitions": [
             {
@@ -12924,6 +13480,22 @@
             }
         ]
     },
+    "reputación": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Opinión que el común de la gente se hace sobre algo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "En particular, reputación₁ favorable."
+            }
+        ]
+    },
     "requerimientos": {
         "definitions": [
             {
@@ -13153,6 +13725,38 @@
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "En los seguros de vida, derecho del tomador de apartarse del contrato, percibiendo la parte correspondiente de las primas destinadas a reservas por riesgos futuros."
+            }
+        ]
+    },
+    "reseña": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de reseñar."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Nota que se toma de las señales más distintivas del cuerpo de una persona, de un animal o de otra cosa para conocerlo fácilmente."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Opinión breve que se publica sobre algún tema."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Revista que se hace de la tropa."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "poco usado",
+                "definition": "Señal que anuncia o da a entender una cosa."
             }
         ]
     },
@@ -15694,6 +16298,17 @@
             }
         ]
     },
+    "resurrección": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de resucitar."
+            }
+        ]
+    },
     "retención": {
         "definitions": [
             {
@@ -16061,6 +16676,29 @@
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como transitivo",
                 "definition": "Emplear retóricas o una retórica impropia."
+            }
+        ]
+    },
+    "retórica": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Retórica",
+                "definition": "Arte de dar eficacia al lenguaje para obtener el objetivo deseado, especialmente estético o persuasivo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Conjunto de conceptos para el análisis y estudio de la composición literaria, así como de la expresión oral."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "coloquial, Usado más en plural",
+                "definition": "Excusas o explicaciones que no se consideran relevantes."
             }
         ]
     },
@@ -16677,6 +17315,17 @@
             }
         ]
     },
+    "revisión": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de revisar y rever."
+            }
+        ]
+    },
     "revista": {
         "definitions": [
             {
@@ -16989,6 +17638,17 @@
             }
         ]
     },
+    "revuelta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Alboroto generado por una multitud, que perturba el orden o la paz."
+            }
+        ]
+    },
     "rey": {
         "definitions": [
             {
@@ -17064,6 +17724,47 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "Encargado de guardar los cerdos."
+            }
+        ]
+    },
+    "rezar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Religión",
+                "definition": "Pedir, solicitar, o rogar algo a una divinidad."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "Religión",
+                "definition": "Oficiar un clérigo una ceremonia religiosa."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "Religión",
+                "definition": "En particular, oficiarla de viva voz pero sin cantarla."
+            },
+            {
+                "number": "4",
+                "type": "verbo intransitivo",
+                "definition": "Manifestar verbalmente desaprobación."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "desusado, literario",
+                "definition": "Decir algo un mensaje o texto."
+            },
+            {
+                "number": "6",
+                "type": "verbo intransitivo",
+                "type_extra": "coloquial, desusado",
+                "definition": "Ser importante o pertinente para alguno."
             }
         ]
     },
@@ -17904,6 +18605,18 @@
             }
         ]
     },
+    "river": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Juegos",
+                "definition": "En el póquer, quinta y última carta que se coloca boca arriba después del flop y del turn."
+            }
+        ]
+    },
     "rivera": {
         "definitions": [
             {
@@ -18031,6 +18744,22 @@
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "Delito que se comete apoderándose con ánimo de lucro de una cosa mueble ajena, empleándose violencia o intimidación sobre las personas, o fuerza en las cosas."
+            }
+        ]
+    },
+    "robot": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Máquina automática que ejecuta autónomamente un cierto tipo de tareas, reaccionando inteligentemente a los cambios en su entorno de manera que recuerda a la humana."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Programa informático análogo a un robot₁."
             }
         ]
     },
@@ -18711,6 +19440,47 @@
             }
         ]
     },
+    "rollo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Porción de material acomodado de forma cilíndrica por rodamiento."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Argentina, Chile, coloquial",
+                "definition": "Pliegue de gordura que se forma en la parte inferior del tronco."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "México, coloquial",
+                "definition": "Discurso vacío, carente de contenido o significado."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "España",
+                "definition": "Algo aburrido o pesado de aguantar."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "España",
+                "definition": "Historia, normalmente inverosímil o fuera de lo común, que alguien le cuenta a otro para justificarse o como excusa."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "España",
+                "definition": "Lío amoroso sin muchas pretensiones."
+            }
+        ]
+    },
     "roma": {
         "definitions": [
             {
@@ -18739,6 +19509,47 @@
                 "type": "locución",
                 "type_extra": "Marina, verbal",
                 "definition": "romanear (trasladar pesos)."
+            }
+        ]
+    },
+    "romance": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Lingüística, Usado también como masculino",
+                "definition": "Se dice de las lenguas que se desarrollaron durante la Edad Media a partir del latín hablado en varias zonas que fueron parte del imperio romano, como las actuales España, Francia, Italia, Portugal y Rumania."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Por antonomasia, la lengua romance₁ de España."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Poesía",
+                "definition": "Composición en verso de origen español, habitualmente de tema épico o lírico, con rima asonante idéntica en los versos pares y sin rima en los impares."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Poesía",
+                "definition": "En particular, romance₃ en versos octosílabos."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Literatura",
+                "definition": "Narrativa heroica de tema caballeresco que idealizaba aspectos de la vida medieval tales como el heroísmo, la lealtad y el amor entre un caballero y su dama."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Relación amorosa intensa, a menudo de breve duración."
             }
         ]
     },
@@ -19358,6 +20169,18 @@
                 "type": "verbo pronominal",
                 "type_extra": "desusado",
                 "definition": "Despejarse y adquirir soltura en el porte y las acciones."
+            }
+        ]
+    },
+    "ron": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Bebida",
+                "definition": "Bebida alcohólica obtenida de la fermentación y destilación de la melaza de caña de azúcar, a la que opcionalmente se envejece en barricas de madera."
             }
         ]
     },
@@ -20178,6 +21001,17 @@
                 "type": "nombre femenino",
                 "type_extra": "plural",
                 "definition": "Restos de uno o más edificios arruinados."
+            }
+        ]
+    },
+    "ruinas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Lo que queda de un edificio, una ciudad o una civilización destruidos."
             }
         ]
     },
