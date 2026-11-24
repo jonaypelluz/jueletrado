@@ -1593,6 +1593,23 @@
             }
         ]
     },
+    "ecuatoriano": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Persona originaria o habitante del Ecuador."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Se dice de algo que proviene o tiene relación con el Ecuador."
+            }
+        ]
+    },
     "ecuestre": {
         "level": "advanced",
         "source": "wiktionary",
@@ -1838,13 +1855,13 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Cartel en que se publica o anuncia un edicto₁."
+                "definition": "Cartel en que se publica o anuncia un edicto."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
-                "definition": "En particular, edicto₂ que se publica en sede judicial o a través de la prensa para notificar a los interesados de domicilio desconocido de una resolución del tribunal."
+                "definition": "En particular, edicto que se publica en sede judicial o a través de la prensa para notificar a los interesados de domicilio desconocido de una resolución del tribunal."
             }
         ]
     },
@@ -1986,6 +2003,74 @@
             }
         ]
     },
+    "editar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Preparar una obra escrita para la imprenta u otra forma de difusión."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Dar difusión pública a una obra tal."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Dirigir una publicación periódica o una colección de libros u obras similares."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Preparar una grabación de audio o video para su difusión."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Informática",
+                "definition": "Modificar un documento con una herramienta informática."
+            }
+        ]
+    },
+    "editor": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que edita."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Persona que edita y mejora la redacción de un texto."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Persona que saca a luz pública una obra, ajena por lo regular, valiéndose de la imprenta o de otro arte gráfico para multiplicar los ejemplares."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Persona que edita contenido audiovisual para que sea publicado en un formato adecuado."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Programa que sirve para editar archivos, por lo general de texto o de código fuente."
+            }
+        ]
+    },
     "edo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -2022,7 +2107,7 @@
                 "number": "1",
                 "type": "verbo transitivo",
                 "type_extra": "Agricultura",
-                "definition": "Binar₁₋₂."
+                "definition": "Binar."
             }
         ]
     },
@@ -2038,7 +2123,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Cobertor para la cama, en forma de ancho y fino almohadón, relleno de edredón₁ u otro material (lana, poliéster, algodón, etc.)."
+                "definition": "Cobertor para la cama, en forma de ancho y fino almohadón, relleno de edredón u otro material (lana, poliéster, algodón, etc.)."
             }
         ]
     },
@@ -2062,6 +2147,17 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Propio de la educación o relativo a ella."
+            }
+        ]
+    },
+    "educado": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que sabe comportarse con decoro y respeto de acuerdo con las normas de etiqueta."
             }
         ]
     },
@@ -2092,6 +2188,33 @@
                 "type": "adjetivo",
                 "type_extra": "Educación, Usado también como sustantivo",
                 "definition": "Que recibe enseñanza en una institución educativa."
+            }
+        ]
+    },
+    "educar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Psicología",
+                "definition": "Dirigir o encaminar el proceso de aprendizaje en un ser humano, o en un animal, para promover ciertas reacciones habituales, hábitos complejos o actitudes deseadas por el educador."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Desarrollar, estimular o perfeccionar facultades intelectuales o morales de alguien."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Adiestrar o perfeccionar los sentidos."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Instruir a alguien en los usos de la cortesía, la etiqueta o la urbanidad."
             }
         ]
     },
@@ -2254,12 +2377,12 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Registro de una efeméride₁."
+                "definition": "Registro de una efeméride."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Conmemoración de una efeméride₁."
+                "definition": "Conmemoración de una efeméride."
             }
         ]
     },
@@ -2950,6 +3073,29 @@
                 "type": "adjetivo",
                 "type_extra": "Literatura",
                 "definition": "Que pertenece o concierne a la égloga."
+            }
+        ]
+    },
+    "ego": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Filosofía, Psicología",
+                "definition": "Conciencia de la persona humana, en especial en cuanto es capaz de percibir la realidad."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Psicología",
+                "definition": "En el modelo estructural de Freud, fuerza psíquica desarrollada de acuerdo al principio de realidad, que media entre las regiones conscientes e inconscientes de la vida psíquica llevando a cabo varias funciones, entre ellas la memoria, la sensación, la defensa psíquica y el análisis racional."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Valoración positiva que un sujeto hace de sí mismo."
             }
         ]
     },
@@ -3746,12 +3892,12 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Objeto elástico₁, generalmente con forma delgada, alargada y circular, que se usa para apretar y sujetar una o más cosas pequeñas."
+                "definition": "Objeto elástico, generalmente con forma delgada, alargada y circular, que se usa para apretar y sujetar una o más cosas pequeñas."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "Cualquier cinta o banda con propiedades elásticas₁."
+                "definition": "Cualquier cinta o banda con propiedades elásticas."
             },
             {
                 "number": "6",
@@ -4609,6 +4755,18 @@
             }
         ]
     },
+    "elefante": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Mamíferos",
+                "definition": "Cualquiera de tres especies de animales mamíferos de enorme tamaño que habitan las sabanas y selvas de África y el sur de Asia. Son herbívoros muy corpulentos, de gran altura y cuerpo robusto, cubierto de una gruesa piel de color grisáceo; presentan una característica prolongación de la nariz y el labio superior denominada probóscide o trompa, que usan como extremidad prénsil, y colmillos muy prolongados. Son gregarios y sumamente inteligentes. Pueden alcanzar las 6 toneladas de peso. El periodo de gestación de sus crías alcanza los 3 años."
+            }
+        ]
+    },
     "elefantiásico": {
         "level": "advanced",
         "source": "wiktionary",
@@ -5213,6 +5371,22 @@
             }
         ]
     },
+    "élite": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Minoría selecta y rectora."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Lo escogido, lo selecto, la flor y nata."
+            }
+        ]
+    },
     "elitismo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -5295,6 +5469,24 @@
                 "type": "pronombre",
                 "type_extra": "subestándar, propuesto, personal neutro",
                 "definition": "Nominativo, dativo y preposicional del pronombre personal de la tercera persona del singular en género indefinido o no binario."
+            }
+        ]
+    },
+    "ello": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "pronombre",
+                "type_extra": "personal neutro",
+                "definition": "Nominativo del pronombre personal de tercera persona en género neutro. Con preposición, empléase también en el caso oblicuo (o preposicional)."
+            },
+            {
+                "number": "2",
+                "type": "pronombre",
+                "type_extra": "personal neutro",
+                "definition": "Precedido de algunas personas del verbo ser y de ciertos adverbios de tiempo o nombres que lo denoten, tiene la misma significación que ella."
             }
         ]
     },
@@ -6668,7 +6860,7 @@
                 "number": "3",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
-                "definition": "Por extensión, atascarse₂ en una situación de la cual no se puede salir sin ayuda."
+                "definition": "Por extensión, atascarse en una situación de la cual no se puede salir sin ayuda."
             }
         ]
     },
@@ -7696,12 +7888,12 @@
             {
                 "number": "1",
                 "type": "verbo transitivo",
-                "definition": "Manchar con un borrón₁ un escrito."
+                "definition": "Manchar con un borrón un escrito."
             },
             {
                 "number": "2",
                 "type": "verbo transitivo",
-                "definition": "Manchar con un borrón₂ cualquier otra cosa."
+                "definition": "Manchar con un borrón cualquier otra cosa."
             }
         ]
     },
@@ -8023,7 +8215,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Manilla o pedal para activar el embrague₂."
+                "definition": "Manilla o pedal para activar el embrague."
             }
         ]
     },
@@ -8166,7 +8358,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "literario, desusado",
-                "definition": "Por extensión, enajenación similar a la embriaguez₁ producida por otro fármaco o por una intensa emoción."
+                "definition": "Por extensión, enajenación similar a la embriaguez producida por otro fármaco o por una intensa emoción."
             }
         ]
     },
@@ -8386,12 +8578,12 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Embuste₁."
+                "definition": "Situación embarazosa; conflicto del cual no se sabe cómo salir."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Situación embarazosa; conflicto del cual no se sabe cómo salir."
+                "definition": "Embuste."
             }
         ]
     },
@@ -9136,6 +9328,18 @@
             }
         ]
     },
+    "emilio": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Informática, coloquial",
+                "definition": "Mensaje electrónico enviado por internet."
+            }
+        ]
+    },
     "emincé": {
         "level": "advanced",
         "source": "wiktionary",
@@ -9349,17 +9553,12 @@
             {
                 "number": "3",
                 "type": "nombre masculino y femenino",
-                "definition": "Persona o grupo de personas asociadas con la subcultura y el estilo musical emo₁."
+                "definition": "Persona o grupo de personas asociadas con la subcultura y el estilo musical emo."
             },
             {
                 "number": "4",
                 "type": "nombre masculino y femenino",
-                "definition": "Persona o grupo de personas asociadas con la subcultura y el estilo musical emo₃."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "definition": "Persona joven considerado muy emocional y que corresponde con el estereotipo emo₄."
+                "definition": "Persona joven considerado muy emocional y que corresponde con el estereotipo emo."
             }
         ]
     },
@@ -9414,6 +9613,17 @@
                 "number": "2",
                 "type": "adverbio",
                 "definition": "En el campo de los afectos o en el aspecto de las emociones."
+            }
+        ]
+    },
+    "emocionante": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que causa emoción, estimula o conmueve de manera particular y generalmente intensa."
             }
         ]
     },
@@ -11497,7 +11707,7 @@
             {
                 "number": "1",
                 "type": "verbo pronominal",
-                "definition": "Dedicarse a algo movido por un gran deseo o empeño₂."
+                "definition": "Dedicarse a algo movido por un gran deseo o empeño."
             },
             {
                 "number": "2",
@@ -11861,7 +12071,7 @@
                 "number": "2",
                 "type": "verbo transitivo",
                 "type_extra": "Náutica",
-                "definition": "En particular, empernar₁ las piezas de construcción de un barco, trabándolas entre sí."
+                "definition": "En particular, empernar las piezas de construcción de un barco, trabándolas entre sí."
             },
             {
                 "number": "3",
@@ -11920,6 +12130,18 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Acción o efecto de emperrarse, insistencia en algo de manera obstinada, irracional o arbitraria."
+            }
+        ]
+    },
+    "empiece": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Principio."
             }
         ]
     },
@@ -14168,6 +14390,17 @@
             }
         ]
     },
+    "encabezado": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "La cabecera de la página de un libro u otro documento."
+            }
+        ]
+    },
     "encabezamiento": {
         "level": "advanced",
         "source": "wiktionary",
@@ -15066,6 +15299,28 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Encantador."
+            }
+        ]
+    },
+    "encantado": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Distraído o embobado."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Hablando de un palacio, casa o edificio, muy grande y que habitan pocos."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que está bajo el efecto de un hechizo o encantamiento."
             }
         ]
     },
@@ -17015,7 +17270,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que le sale₂ todo lo que intenta, especialmente referido a deportes."
+                "definition": "Que le sale todo lo que intenta, especialmente referido a deportes."
             }
         ]
     },
@@ -18917,7 +19172,7 @@
                 "number": "2",
                 "type": "verbo transitivo",
                 "type_extra": "Derecho",
-                "definition": "Llevar a cabo el encubrimiento₃ de un delito."
+                "definition": "Llevar a cabo el encubrimiento de un delito."
             }
         ]
     },
@@ -19241,7 +19496,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que está formado de endecasílabos₁."
+                "definition": "Que está formado de endecasílabos."
             }
         ]
     },
@@ -20256,7 +20511,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que tiene forma de eneadecágono₁."
+                "definition": "Que tiene forma de eneadecágono."
             }
         ]
     },
@@ -20296,7 +20551,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que tiene forma de enéagono₁."
+                "definition": "Que tiene forma de enéagono."
             }
         ]
     },
@@ -22109,7 +22364,7 @@
             {
                 "number": "2",
                 "type": "verbo transitivo",
-                "definition": "En especial, engastar₁ una piedra preciosa en un chatón metálico."
+                "definition": "En especial, engastar una piedra preciosa en un chatón metálico."
             }
         ]
     },
@@ -23652,6 +23907,32 @@
                 "type": "verbo pronominal",
                 "type_extra": "Tauromaquia",
                 "definition": "Ponerse delante de un toro."
+            }
+        ]
+    },
+    "enhorabuena": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Felicitación, congratulación."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "definition": "Con bien, con felicidad."
+            },
+            {
+                "number": "3",
+                "type": "adverbio",
+                "definition": "Empléase también para denotar aprobación, aquiescencia o conformidad."
+            },
+            {
+                "number": "4",
+                "type": "interjección",
+                "definition": "Empléase para felicitar a alguien."
             }
         ]
     },
@@ -26071,6 +26352,22 @@
             }
         ]
     },
+    "enojado": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Valentón, iracundo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que tiene un enojo."
+            }
+        ]
+    },
     "enojante": {
         "level": "advanced",
         "source": "wiktionary",
@@ -26124,6 +26421,23 @@
                 "number": "3",
                 "type": "verbo pronominal",
                 "definition": "Dicho de mares, vientos y otros fenómenos naturales, alborotarse, enfurecerse."
+            }
+        ]
+    },
+    "enojo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Conmoción del ánimo, que causa ira o enfado."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Agravio, ofensa."
             }
         ]
     },
@@ -27317,7 +27631,7 @@
             {
                 "number": "1",
                 "type": "verbo pronominal",
-                "definition": "Envolverse sobre sí mismo, dentro de otro material, formando un rollo₁."
+                "definition": "Envolverse sobre sí mismo, dentro de otro material, formando un rollo."
             },
             {
                 "number": "2",
@@ -28180,7 +28494,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Conjunto de obras de ensayística₁."
+                "definition": "Conjunto de obras de ensayística."
             },
             {
                 "number": "3",
@@ -29359,7 +29673,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Filosofía",
-                "definition": "Por extensión, principio activo que impulsa a todo ente a la entelequia₁."
+                "definition": "Por extensión, principio activo que impulsa a todo ente a la entelequia."
             },
             {
                 "number": "3",
@@ -30303,7 +30617,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "definition": "Acción o efecto de entontecer o entontecerse₁."
+                "definition": "Acción o efecto de entontecer o entontecerse."
             }
         ]
     },
@@ -31382,7 +31696,7 @@
                 "number": "2",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
-                "definition": "Dicho de una persona: Que adopta o apoya una postura entreguista₁."
+                "definition": "Dicho de una persona: Que adopta o apoya una postura entreguista."
             }
         ]
     },
@@ -31669,6 +31983,24 @@
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Mostrar o manifestar escasa e imperfectamente una cosa."
+            }
+        ]
+    },
+    "entrenar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Hacer que una persona o animal mejore su habilidad o destreza en alguna actividad, procedimiento o conducta, mediante la práctica y la instrucción."
+            },
+            {
+                "number": "2",
+                "type": "verbo intransitivo",
+                "type_extra": "Deporte",
+                "definition": "Hacer ciertas prácticas y rutinas para mantener y mejorar la condición física y el desempeño."
             }
         ]
     },
@@ -32550,7 +32882,7 @@
                 "number": "2",
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como pronominal",
-                "definition": "Tullirse₁."
+                "definition": "Tullirse."
             }
         ]
     },
@@ -33536,6 +33868,22 @@
             }
         ]
     },
+    "envío": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cantidad de material, mercancía, dinero, etc. que se traslada por algún medio de una posición inicial a una posición final."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de enviar."
+            }
+        ]
+    },
     "envión": {
         "level": "advanced",
         "source": "wiktionary",
@@ -34055,7 +34403,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que pertenece o concierne al eocénico₁."
+                "definition": "Que pertenece o concierne al eocénico."
             }
         ]
     },
@@ -34306,7 +34654,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Grupo de obras que pertenecen al género épico₁."
+                "definition": "Grupo de obras que pertenecen al género épico."
             },
             {
                 "number": "3",
@@ -34808,7 +35156,7 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Arquitectura",
-                "definition": "En particular, epígrafe₄ grabado en un edificio para identificarlo."
+                "definition": "En particular, epígrafe grabado en un edificio para identificarlo."
             }
         ]
     },
@@ -34928,7 +35276,7 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Retórica",
-                "definition": "Peroración₂."
+                "definition": "Peroración."
             },
             {
                 "number": "5",
@@ -35786,6 +36134,32 @@
             }
         ]
     },
+    "equidad": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Igualdad de ánimo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Justicia, imparcialidad en un trato o repartición."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Moderación en el rigor del uso de las leyes, que mira más a la intencion del legislador que a la letra y rigor de la ley."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Moderación en el precio de las cosas que se venden o en las condiciones que se ponen en los contratos."
+            }
+        ]
+    },
     "equidistancia": {
         "level": "advanced",
         "source": "wiktionary",
@@ -36240,7 +36614,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Retórica",
-                "definition": "Figura que se comete empleando adrede en el discurso palabras homónimas o una equívoca₁ en dos o más acepciones distintas."
+                "definition": "Figura que se comete empleando adrede en el discurso palabras homónimas o una equívoca en dos o más acepciones distintas."
             },
             {
                 "number": "4",
@@ -36440,7 +36814,7 @@
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "Dicho de una persona, que está teniendo una erección₂."
+                "definition": "Dicho de una persona, que está teniendo una erección."
             }
         ]
     },
@@ -37494,7 +37868,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Hoja o pliego que acompaña a una publicación impresa a modo de correctivo para las erratas₁ que contiene."
+                "definition": "Hoja o pliego que acompaña a una publicación impresa a modo de correctivo para las erratas que contiene."
             }
         ]
     },
@@ -37843,12 +38217,6 @@
             },
             {
                 "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "Wiki",
-                "definition": "Artículo válido que todavía no proporciona toda la información que se espera, y por consiguiente es necesario ampliarlo."
-            },
-            {
-                "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Biología",
                 "definition": "Tejido embrionario que aún no ha alcanzado su plena madurez."
@@ -39203,7 +39571,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Más específicamente, propio de, relativo a o natural de los países escandinavos₁ de habla germánica, es decir, excluyendo Finlandia."
+                "definition": "Más específicamente, propio de, relativo a o natural de los países escandinavos de habla germánica, es decir, excluyendo Finlandia."
             }
         ]
     },
@@ -39619,7 +39987,7 @@
             {
                 "number": "3",
                 "type": "verbo intransitivo",
-                "definition": "Referido a una cabalgadura, moverse de un lado a otro como en el tipo de enfrentamiento de la escaramuza₂."
+                "definition": "Referido a una cabalgadura, moverse de un lado a otro como en el tipo de enfrentamiento de la escaramuza."
             }
         ]
     },
@@ -39833,7 +40201,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "El fenómeno climático de reducción de la temperatura hasta el punto de congelación que causa la aparición de escarcha₁."
+                "definition": "El fenómeno climático de reducción de la temperatura hasta el punto de congelación que causa la aparición de escarcha."
             },
             {
                 "number": "3",
@@ -41702,7 +42070,7 @@
             {
                 "number": "2",
                 "type": "verbo transitivo",
-                "definition": "Escoltar₁, pero como señal de respeto, sin que medie ninguna posible amenaza."
+                "definition": "Escoltar, pero como señal de respeto, sin que medie ninguna posible amenaza."
             }
         ]
     },
@@ -41790,6 +42158,27 @@
                 "type": "nombre masculino",
                 "type_extra": "Gastronomía, Usado más en plural",
                 "definition": "Pequeño y sabroso pan de hojaldre, a veces horneado en una plancha. Generalmente se hace con harina de trigo o avena, con polvo para hornear como agente leudante y se hornea en bandejas para horno."
+            }
+        ]
+    },
+    "esconder": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Ocultar, apartar de la vista con algún fin."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Guardar algo de modo que no se sepa dónde está."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Mantener en secreto algo, no manifestarlo."
             }
         ]
     },
@@ -42151,7 +42540,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Antigua máquina de guerra, que debió su nombre a unas tenazas parecidas a las del escorpión₁, con que agarraba las piedras o dardos que arrojaba para el ataque y defensa de plazas."
+                "definition": "Antigua máquina de guerra, que debió su nombre a unas tenazas parecidas a las del escorpión, con que agarraba las piedras o dardos que arrojaba para el ataque y defensa de plazas."
             },
             {
                 "number": "3",
@@ -42508,6 +42897,22 @@
                 "type": "verbo transitivo",
                 "type_extra": "Informática",
                 "definition": "Extraer, organizar y clasificar la información de un sitio web de forma automatizada utilizando procedimientos poco ortodoxos que consistan en acceder a todas las páginas y procesar la sintaxis HTML en crudo para obtener la información que sea relevante."
+            }
+        ]
+    },
+    "escriba": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Persona que tiene por oficio copiar a mano escritos ajenos."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Entre los hebreos persona experta en la interpretación de la ley o Sagradas Escrituras."
             }
         ]
     },
@@ -43057,6 +43462,53 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "definition": "Grupo de aviones que realizan un vuelo conjunto y son comandados por un jefe."
+            }
+        ]
+    },
+    "escuadrón": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Milicia, Historia",
+                "definition": "En la milicia antigua, la porción de tropa formada en filas con cierta disposición."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Parte del ejército compuesta de infantería y caballería."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Una de las partes en que se divide un regimiento de caballería, generalmente comandada por un capitán."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Milicia, España",
+                "definition": "Unidad del ejército del Aire, equivalente al batallón del ejército de tierra."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Unidad aérea compuesta por varios aviones."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Pequeña unidad de asalto especializada en el combate urbano y rescate de rehenes."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Enjambre, multitud."
             }
         ]
     },
@@ -43948,7 +44400,7 @@
                 "number": "2",
                 "type": "adjetivo",
                 "type_extra": "Poesía",
-                "definition": "Se dice de un verso que termina en una palabra esdrújula₁."
+                "definition": "Se dice de un verso que termina en una palabra esdrújula."
             }
         ]
     },
@@ -44576,17 +45028,17 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Originario, relativo a, o propio de los pueblos eslavos₁."
+                "definition": "Originario, relativo a, o propio de los pueblos eslavos."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Lengua hablada por el pueblo eslavo₁."
+                "definition": "Lengua hablada por el pueblo eslavo."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Persona de origen eslavo₁."
+                "definition": "Persona de origen eslavo."
             }
         ]
     },
@@ -45871,7 +46323,7 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
-                "definition": "Enfermedad supersticiosamente causada por el espanto₁."
+                "definition": "Enfermedad supersticiosamente causada por el espanto."
             }
         ]
     },
@@ -46528,6 +46980,28 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "definition": "Condición de ser ajustado y apropiado para un uso específico."
+            }
+        ]
+    },
+    "específico": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que es característico de algo y lo diferencia de otras cosas."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Claro y sin ambigüedad."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Medicina",
+                "definition": "Referido a un medicamento, que es el adecuado para una enfermedad concreta."
             }
         ]
     },
@@ -47556,6 +48030,40 @@
             }
         ]
     },
+    "espía": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que con disimulo y secreto observa o escucha lo que pasa, para comunicarlo al que tiene interés en saberlo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Por extensión, persona que trabaja espiando y obteniendo información para un país u organización distinta en la que está internado."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de espiar (cazar el cabo)."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Náutica",
+                "definition": "Cabo o calabrote que sirve para espiar."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Náutica",
+                "definition": "Cada una de las cuerdas o tiros con que se mantiene fijo y vertical un madero."
+            }
+        ]
+    },
     "espiar": {
         "level": "advanced",
         "source": "wiktionary",
@@ -48262,7 +48770,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Física",
-                "definition": "Un espinor es un campo de espinores₁ que se emplea en diferentes teorías por ejemplo: para describir en la teoría cuántica de campos a los fermiones, o para describir el espín relativista del electrón."
+                "definition": "Un espinor es un campo de espinores que se emplea en diferentes teorías por ejemplo: para describir en la teoría cuántica de campos a los fermiones, o para describir el espín relativista del electrón."
             }
         ]
     },
@@ -48351,7 +48859,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Organización establecida para el espionaje₁."
+                "definition": "Organización establecida para el espionaje."
             }
         ]
     },
@@ -48844,7 +49352,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Semilla del espliego(1)."
+                "definition": "Semilla del espliego."
             }
         ]
     },
@@ -49222,7 +49730,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Frutos",
-                "definition": "Fruto de la esponjilla₁, empleado como vermífugo (para matar parásitos intestinales), purgante y sudorífico."
+                "definition": "Fruto de la esponjilla, empleado como vermífugo (para matar parásitos intestinales), purgante y sudorífico."
             },
             {
                 "number": "3",
@@ -49429,6 +49937,18 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Deporte electrónico."
+            }
+        ]
+    },
+    "esposas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Utensilios",
+                "definition": "Utensilio formado por dos aros metálicos unidos por un eslabón que se colocan en las muñecas de una persona para limitar sus movimientos."
             }
         ]
     },
@@ -50756,6 +51276,28 @@
             }
         ]
     },
+    "estacionamiento": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de estacionar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Zona en donde se pueden estacionar los vehículos."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Milicia",
+                "definition": "Puesto en donde se detiene una tropa a descansar."
+            }
+        ]
+    },
     "estacionar": {
         "level": "advanced",
         "source": "wiktionary",
@@ -50951,6 +51493,22 @@
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Dar a algo características estadounidenses."
+            }
+        ]
+    },
+    "estafa": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Robo estructurado utilizando la buena fe de la gente a la que se le roba."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Engaño o treta para apoderarse de los bienes ajenos."
             }
         ]
     },
@@ -51942,6 +52500,22 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Afán inmoderado de levantar estatuas aun a personas o asuntos que no las merecen; manía de estatuas."
+            }
+        ]
+    },
+    "estatus": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Condición o estima de la que un individuo goza dentro de su grupo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "En general, estado o posición de algo dentro de un marco de referencia dado."
             }
         ]
     },
@@ -53761,6 +54335,18 @@
             }
         ]
     },
+    "esto": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "Chiloé, Algunas áreas del archipiélago de Chiloé, de tiempo",
+                "definition": "En el momento actual."
+            }
+        ]
+    },
     "estoar": {
         "level": "advanced",
         "source": "wiktionary",
@@ -53785,13 +54371,13 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Por extensión, herida que produce una estocada₁."
+                "definition": "Por extensión, herida que produce una estocada."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Tauromaquia",
-                "definition": "En particular, estocada₁ que da el torero dejando el arma clavada en el toro para darle muerte."
+                "definition": "En particular, estocada que da el torero dejando el arma clavada en el toro para darle muerte."
             },
             {
                 "number": "4",
@@ -54210,6 +54796,28 @@
             }
         ]
     },
+    "estómago": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Anatomía",
+                "definition": "Parte del tubo digestivo muy ensanchada, situada entre el esófago y el intestino delgado. Su función es mezclar los alimentos gracias a los movimientos de su musculatura, y degradarlos por medio de ácidos y enzimas. En el ser humano su parte superior se llama cardias; su parte principal, cuerpo; le sigue el antro, en donde se va estrechando; y termina con el píloro. En los rumiantes se compone de rumen o panza, retículo ( o bonete o redecilla)), omaso (o librillo o libro) y abomaso (o cuajar o cuajo)."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Parte de la anatomía humana correspondiente a la zona anterior del cuerpo, a la misma altura en que se ubica el órgano digestivo del mismo nombre."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Capacidad para soportar situaciones, hecho o cosas desagradables o para poder hacer cosas que repugnan a los sentidos o a la moral."
+            }
+        ]
+    },
     "estomatología": {
         "level": "advanced",
         "source": "wiktionary",
@@ -54426,7 +55034,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "definition": "Álabe₂."
+                "definition": "Álabe."
             }
         ]
     },
@@ -54892,7 +55500,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Medicina",
-                "definition": "Pequeña cánula, sonda o vejiga que en ocasiones se pone a los pacientes de estangurria₁ para facilitar la expulsión de orina."
+                "definition": "Pequeña cánula, sonda o vejiga que en ocasiones se pone a los pacientes de estangurria para facilitar la expulsión de orina."
             }
         ]
     },
@@ -56123,7 +56731,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Insectos",
-                "definition": "Este mismo insecto (estro₂) en su forma adulta."
+                "definition": "Este mismo insecto (estro) en su forma adulta."
             },
             {
                 "number": "4",
@@ -56200,7 +56808,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Literatura",
-                "definition": "Cada una de estas estrofas₁, aunque no se ajusten a un tipo preestablecido."
+                "definition": "Cada una de estas estrofas, aunque no se ajusten a un tipo preestablecido."
             },
             {
                 "number": "3",
@@ -56987,6 +57595,17 @@
             }
         ]
     },
+    "estupendo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Admirable, asombroso, célebre, pasmoso."
+            }
+        ]
+    },
     "estúpidamente": {
         "level": "advanced",
         "source": "wiktionary",
@@ -56996,6 +57615,55 @@
                 "type": "adverbio",
                 "type_extra": "de modo",
                 "definition": "De modo estúpido o torpe; con estupidez, sin inteligencia o astucia."
+            }
+        ]
+    },
+    "estupidez": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Torpeza notable en comprender las cosas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Falta de entendimiento o inteligencia."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Acción de consecuencias graves o que denota falta de inteligencia o atención, propia de un estúpido."
+            }
+        ]
+    },
+    "estúpido": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Falto de inteligencia o entendimiento."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Dicho de una cosa, propia de alguien estúpido."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Por extensión, carente de lógica, razón o coherencia."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Afectado de estupor."
             }
         ]
     },
@@ -57124,7 +57792,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Versión dextrógira de la esvástica₁."
+                "definition": "Versión dextrógira de la esvástica."
             }
         ]
     },
@@ -57346,6 +58014,28 @@
                 "type": "nombre masculino",
                 "type_extra": "Filosofía",
                 "definition": "Punto de partida de la ideas que conforman el carácter de determinado sistema o escuela de pensamiento. Es el lugar o ámbito intelectual desde donde se conforma una unidad teórica."
+            }
+        ]
+    },
+    "ética": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Conjunto de principios que determinan la conducta, especialmente la que se considera apropiada o moral."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Filosofía",
+                "definition": "Disciplina que estudia los principios que determinan la buena conducta. Teoría o ciencia del comportamiento moral."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Que pertenece a la ética o se relaciona con ella."
             }
         ]
     },
@@ -57859,6 +58549,18 @@
             }
         ]
     },
+    "eu": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "Argentina",
+                "definition": "Usada para llamar la atención de otra persona."
+            }
+        ]
+    },
     "eucalipto": {
         "level": "advanced",
         "source": "wiktionary",
@@ -57877,7 +58579,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Extracto que se obtiene combinando las hojas de eucalipto(1) con disolventes organicos."
+                "definition": "Extracto que se obtiene combinando las hojas de eucalipto con disolventes organicos."
             }
         ]
     },
@@ -58238,6 +58940,24 @@
             }
         ]
     },
+    "euro": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "literario",
+                "definition": "Viento del este, o, más propiamente, del sudeste cuarto este."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Monedas",
+                "definition": "Unidad monetaria de la Unión Europea, en vigor desde el 2002."
+            }
+        ]
+    },
     "euroasiatismo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -58414,7 +59134,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que pertenece o concierne a la lengua euskera₁."
+                "definition": "Que pertenece o concierne a la lengua euskera."
             }
         ]
     },
@@ -58442,7 +59162,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que pertenece o concierne a la lengua euskera₁."
+                "definition": "Que pertenece o concierne a la lengua euskera."
             }
         ]
     },
@@ -58625,6 +59345,17 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Perteneciente o relativo a la eutrapelia."
+            }
+        ]
+    },
+    "eva": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Mujer extraordinariamente bella."
             }
         ]
     },
@@ -58889,6 +59620,18 @@
             }
         ]
     },
+    "evangelio": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Religión",
+                "definition": "Escrito que narra la vida de Jesús de Nazaret."
+            }
+        ]
+    },
     "evangelista": {
         "level": "advanced",
         "source": "wiktionary",
@@ -59139,15 +59882,21 @@
             }
         ]
     },
-    "eventualismo": {
+    "eventualmente": {
         "level": "advanced",
         "source": "wiktionary",
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Filosofía, Wiki",
-                "definition": "Filosofía que predomina en las wikis y en otros proyectos colaborativos en donde se prioriza el valor que tendrán las páginas a futuro tras la colaboración de sucesivas generaciones, priorizando la supervivencia a largo plazo por sobre el valor tiempo de las entradas o la necesidad de expandirse rápidamente en un corto plazo."
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Incierta o casualmente."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Tarde o temprano."
             }
         ]
     },
@@ -59263,6 +60012,48 @@
                 "type": "adjetivo",
                 "type_extra": "Política, Usado también como sustantivo",
                 "definition": "Que pertenece o concierne al evitismo."
+            }
+        ]
+    },
+    "evo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Religión",
+                "definition": "Duración eterna."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "literario",
+                "definition": "Figuradamente, período muy largo o infinito de tiempo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "literario",
+                "definition": "Duración de mil años o diez siglos."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Mitología",
+                "definition": "Personificación de la fuerza inmutable del tiempo entre los romanos. Se le representaba en forma de un hombre desnudo, con cara de león."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Filosofía",
+                "definition": "Duración de aquello que es inmutable en su esencia, pero no en sus acciones u operaciones."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Glotónimos",
+                "definition": "Lengua de la familia papúa oriental, muy próxima al rotokas, hablada en la isla de Bougainville, en Papúa Nueva Guinea."
             }
         ]
     },
@@ -60513,6 +61304,22 @@
             }
         ]
     },
+    "exclusión": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de excluir (sacar de consideración o participación, dejar o quedar por fuera, rechazar, omitir, ser incompatible)."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Elemento, aspecto o situación que no tiene cubrimiento en un seguro de vida, de salud, de accidente, etc."
+            }
+        ]
+    },
     "exclusividad": {
         "level": "advanced",
         "source": "wiktionary",
@@ -61720,6 +62527,22 @@
             }
         ]
     },
+    "exitoso": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que tiene éxito y buena fama."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que resultó con éxito."
+            }
+        ]
+    },
     "éxitus": {
         "level": "advanced",
         "source": "wiktionary",
@@ -62831,6 +63654,48 @@
             }
         ]
     },
+    "explosión": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción de abrirse y saltar en pedazos, con estruendo, el cuerpo continente de un gas comprimido que repentinamente se dilata."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Estruendo producido por la dilatación repentina de un gas expelido del cuerpo que lo contiene, sin que este estalle ni se rompa; como se observa en el disparo de un arma de fuego."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Declaración brusca de sentimientos largo tiempo comprimidos o reconcentrados."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Manifestación brusca y repentina de cualquier cosa."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Desarrollo súbito y de proporciones de algo."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Liberación de energía súbita y ruidosa."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Lingüística",
+                "definition": "Salida explosiva del aire al cesar la oclusión en el momento de articular una consonante explosiva."
+            }
+        ]
+    },
     "explosionable": {
         "level": "advanced",
         "source": "wiktionary",
@@ -63750,7 +64615,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
-                "definition": "Apeador o deslindador de términos₄."
+                "definition": "Apeador o deslindador de términos."
             }
         ]
     },
@@ -64064,6 +64929,27 @@
             }
         ]
     },
+    "extracto": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Resumen o compilado de información obtenida de a partir de un elemento con el fin de obtener lo más relevante."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Resumen de las transacciones de una cuenta bancaria."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Concentrado de alguna sustancia."
+            }
+        ]
+    },
     "extractor": {
         "level": "advanced",
         "source": "wiktionary",
@@ -64288,6 +65174,32 @@
             }
         ]
     },
+    "extrañar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Apartar, privar a alguno del trato y comunicación que se tenía con él."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Ver u oír con admiración y extrañeza."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Afear, reprender."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Desterrar, sacar del reino."
+            }
+        ]
+    },
     "extrañarse": {
         "level": "advanced",
         "source": "wiktionary",
@@ -64413,6 +65325,17 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Circunscripción que se extiende fuera de la demarcación o radio de una población."
+            }
+        ]
+    },
+    "extras": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Composición que imita el diamante."
             }
         ]
     },
@@ -65123,7 +66046,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Cristianismo, Catolicismo",
-                "definition": "Exvoto₁, como figura de cera, cuadro, tablilla, etcétera, que se le ofrece a Dios, a la Virgen o los santos, el cual se cuelga en los muros o en el techo de los templos."
+                "definition": "Exvoto, como figura de cera, cuadro, tablilla, etcétera, que se le ofrece a Dios, a la Virgen o los santos, el cual se cuelga en los muros o en el techo de los templos."
             }
         ]
     },
