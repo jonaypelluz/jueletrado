@@ -28,6 +28,17 @@
             }
         ]
     },
+    "vacaciones": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Periodo de varios días en que una persona descansa de sus actividades o rutinas diarias, de trabajo o estudio, y va a la playa, a la montaña, a practicar algún deporte, a leer algún libro o desarrollar alguna otra actividad. Los periodos de vacaciones dependen del país y la temporada del año."
+            }
+        ]
+    },
     "vacada": {
         "level": "advanced",
         "source": "wiktionary",
@@ -126,6 +137,18 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Ruido enorme y colectivo que puede extenderse a larga distancia, como un vecindario o una ciudad entera."
+            }
+        ]
+    },
+    "vacas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Vacaciones."
             }
         ]
     },
@@ -373,7 +396,7 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Ecuador, coloquial, juvenil",
-                "definition": "Persona con la que se tiene un vacile₃ o amorío pasajero."
+                "definition": "Persona con la que se tiene un vacile o amorío pasajero."
             },
             {
                 "number": "5",
@@ -1006,6 +1029,64 @@
             }
         ]
     },
+    "vaina": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Funda en la que se guardan los cuchillos y otras armas blancas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Envoltura metálica que contiene la carga de un cartucho o bala."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Botánica",
+                "definition": "Envoltura alargada y tierna de las semillas de las plantas leguminosas."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Botánica",
+                "definition": "Ensanchamiento del pecíolo de ciertas hojas que envuelve el tallo."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Botánica",
+                "definition": "Fruto seco dehiscente y bivalvo, de muchas semillas, característico de las leguminosas."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Náutica",
+                "definition": "Refuerzo a modo de funda que se cose a las caídas de una vela o enseña."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Colombia, República Dominicana, Ecuador, Perú, Venezuela, coloquial",
+                "definition": "Objeto cuyo nombre se desconoce, se ha olvidado o resulta irrelevante."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Aragón, Asturias, Castilla, La Rioja, Navarra, País Vasco",
+                "definition": "Fruto inmaduro de la planta de judía, una legumbre de color verde, con semillas no completamente desarrolladas, apta para el consumo humano."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Bebida, Chile",
+                "definition": "Cóctel elaborado a base de vino tinto dulce, crema de cacao, coñac o vermut, pisco y yema de huevo espolvoreado con canela molida."
+            }
+        ]
+    },
     "vainilla": {
         "level": "advanced",
         "source": "wiktionary",
@@ -1179,6 +1260,33 @@
             }
         ]
     },
+    "valentía": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Fuerza del ánimo para enfrentar problemas o dificultades, en especial los que ponen en riesgo la propia integridad."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Acción ejecutada con valentía."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Alarde de valentía u otra virtud cortés que carece de fundamento."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Mercado de zapatos de segunda mano que antiguamente existía en las ciudades de Castilla."
+            }
+        ]
+    },
     "valentón": {
         "level": "advanced",
         "source": "wiktionary",
@@ -1188,6 +1296,66 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Que se jacta de su arrogancia."
+            }
+        ]
+    },
+    "valer": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Tener un precio para la venta o compra."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "se emplea también en sentido figurado",
+                "definition": "Generar un producto o resultado."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "se emplea también como intransitivo",
+                "definition": "Sumar o ser equivalente a algo en aprecio, número o valor."
+            },
+            {
+                "number": "4",
+                "type": "verbo intransitivo",
+                "definition": "Tener valor, ser digno de aprecio o estima."
+            },
+            {
+                "number": "5",
+                "type": "verbo intransitivo",
+                "definition": "Tener validez o vigencia."
+            },
+            {
+                "number": "6",
+                "type": "verbo intransitivo",
+                "definition": "Ser válido o útil para un fin o función."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "definition": "Dar defensa o protección."
+            },
+            {
+                "number": "8",
+                "type": "verbo intransitivo",
+                "type_extra": "coloquial",
+                "definition": "Con ciertos sustantivos, usado para expresar indiferencia o no importar."
+            },
+            {
+                "number": "9",
+                "type": "verbo intransitivo",
+                "type_extra": "México, coloquial",
+                "definition": "Elipsis de valer verga: estar en problemas."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Valor."
             }
         ]
     },
@@ -1909,7 +2077,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Tecnología",
-                "definition": "Por extensión, dispositivo mecánico que cumple una función similar a una válvula₁."
+                "definition": "Por extensión, dispositivo mecánico que cumple una función similar a una válvula."
             },
             {
                 "number": "3",
@@ -2977,6 +3145,55 @@
             }
         ]
     },
+    "variable": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que varía o puede variar."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Inestable, inconstante y mudable."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Matemáticas, también se utiliza como sustantivo femenino",
+                "definition": "Cantidad variable."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Propiedad que puede variar y cuya variación es susceptible de medirse u observarse."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Características o atributos que admiten diferentes valores."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas",
+                "definition": "Cantidad variable o símbolo que la represanta."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Conjunto de factores que intervienen en los resultados de algunos hechos."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Informática",
+                "definition": "En programación: zona de memoria utilizada por los programas para almacenar valores que pueden variar. Típicamente se referencia por medio de su nombre (nombre de la variable), aunque también puede referenciarse por medio de su dirección (especialmente en código máquina)."
+            }
+        ]
+    },
     "variádico": {
         "level": "advanced",
         "source": "wiktionary",
@@ -3772,7 +3989,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Por extensión, habitación en que se instala el váter₁."
+                "definition": "Por extensión, habitación en que se instala el váter."
             }
         ]
     },
@@ -3919,12 +4136,23 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Parroquiano₃."
+                "definition": "Persona que guarda turno o vez para alguna cosa."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Persona que guarda turno o vez₃ para alguna cosa."
+                "definition": "Parroquiano."
+            }
+        ]
+    },
+    "veces": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Ministerio, autoridad o jurisdicción que una persona ejerce supliendo a otra o representándola."
             }
         ]
     },
@@ -3957,6 +4185,34 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "Contorno de un sitio."
+            }
+        ]
+    },
+    "vecindario": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Conjunto de vecinos de una población o unidad administrativa."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "sin uso",
+                "definition": "Nómina de un vecindario."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "sin uso",
+                "definition": "Cualidad o condición de vecino."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Por extensión, parte en que se divide una población o un distrito."
             }
         ]
     },
@@ -5304,6 +5560,17 @@
             }
         ]
     },
+    "velas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Moco que cuelga de las narices de un niño."
+            }
+        ]
+    },
     "velatón": {
         "level": "advanced",
         "source": "wiktionary",
@@ -5577,7 +5844,7 @@
                 "number": "6",
                 "type": "nombre masculino",
                 "type_extra": "Numismática",
-                "definition": "Moneda de vellón₁."
+                "definition": "Moneda de vellón."
             },
             {
                 "number": "7",
@@ -6622,6 +6889,18 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Variedad de xenofobia dirigida contra las personas de origen venezolano."
+            }
+        ]
+    },
+    "venga": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "España",
+                "definition": "Indica aceptación o disposición a actuar ante una propuesta o perspectiva."
             }
         ]
     },
@@ -7913,6 +8192,39 @@
             }
         ]
     },
+    "verbal": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne a la palabra, o la emplea."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que se lleva a cabo con la voz y no a través de la escritura."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Lingüística",
+                "definition": "Que pertenece o concierne al verbo (tipo de palabra que contiene en sí marcas gramaticales de persona, número, tiempo, modo y aspecto)."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Referido a una estructura sintáctica: Que tiene un verbo como su núcleo."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Lingüística",
+                "definition": "Se dice de una palabra que deriva de un verbo."
+            }
+        ]
+    },
     "verbalización": {
         "level": "advanced",
         "source": "wiktionary",
@@ -7995,7 +8307,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Nombre común de varias especies similares al verbasco₁."
+                "definition": "Nombre común de varias especies similares al verbasco."
             }
         ]
     },
@@ -8058,7 +8370,7 @@
                 "number": "2",
                 "type": "adverbio",
                 "type_extra": "modal",
-                "definition": "Úsase para introducir un verbigracia₁."
+                "definition": "Úsase para introducir un verbigracia."
             }
         ]
     },
@@ -8726,13 +9038,13 @@
                 "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "España, desusado",
-                "definition": "En especial, vereda₁ para el ganado, de aproximadamente un tercio de la anchura de la cañada."
+                "definition": "En especial, vereda para el ganado, de aproximadamente un tercio de la anchura de la cañada."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
                 "type_extra": "España, desusado",
-                "definition": "Mensaje oficial enviado a varias localidades sobre la misma vereda₁ o camino."
+                "definition": "Mensaje oficial enviado a varias localidades sobre la misma vereda o camino."
             },
             {
                 "number": "7",
@@ -8756,6 +9068,40 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "Opinión o juicio manifestado autorizada y reflexivamente."
+            }
+        ]
+    },
+    "verga": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Náutica",
+                "definition": "Palo horizontal que sostiene una vela de un barco y que es transversal a un mástil."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Armas",
+                "definition": "Pieza arqueada que conforma la parte frontal del mecanismo en la ballesta, y cuya tensión dispara el lance o virote."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Varilla de plomo utilizada para fijar los vidrios de las ventanas."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Rama fina y larga como las que se usan para golpear o para hacer cercos."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Colombia",
+                "definition": "De uso adjetivado con el artículo determinado: Muy bueno."
             }
         ]
     },
@@ -8855,6 +9201,23 @@
             }
         ]
     },
+    "vergonzoso": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Hecho o situación que causa vergüenza."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que siente vergüenza fácilmente."
+            }
+        ]
+    },
     "vergoñoso": {
         "level": "advanced",
         "source": "wiktionary",
@@ -8921,6 +9284,17 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Cualidad o condición de verificable."
+            }
+        ]
+    },
+    "verificación": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de verificar."
             }
         ]
     },
@@ -9435,7 +9809,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Botánica",
-                "definition": "Por extensión, excrecencia similar a una verruga₁ en la superficie de una planta."
+                "definition": "Por extensión, excrecencia similar a una verruga en la superficie de una planta."
             },
             {
                 "number": "3",
@@ -9544,6 +9918,32 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Cualidad o condición de versátil."
+            }
+        ]
+    },
+    "verse": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo pronominal",
+                "definition": "Percibir con los ojos o la vista la imagen de uno mismo."
+            },
+            {
+                "number": "2",
+                "type": "verbo pronominal",
+                "definition": "Percibirse o considerarse en cierto estado o situación."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "definition": "Estar en un lugar o situación desde donde otros lo ven a uno; generar cierta percepción o respuesta por parte de otros; tener cierta apariencia."
+            },
+            {
+                "number": "4",
+                "type": "verbo pronominal",
+                "definition": "Enfrentar o avistar a alguien con el propósito de reñir, regañar o reprenderle."
             }
         ]
     },
@@ -9756,6 +10156,22 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Cualidad o condición de vertible."
+            }
+        ]
+    },
+    "vertical": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Orientado de arriba a abajo, o viceversa."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que, siendo alargado, la parte más larga es la que recorre el eje de ordenadas o vertical."
             }
         ]
     },
@@ -10672,7 +11088,7 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Fonética",
-                "definition": "Sonido o fonema vibrante₃."
+                "definition": "Sonido o fonema vibrante."
             }
         ]
     },
@@ -10705,7 +11121,7 @@
             {
                 "number": "3",
                 "type": "verbo intransitivo",
-                "definition": "Sonar entrecortadamente una voz, como si el cuerpo que la emite vibrara₁."
+                "definition": "Sonar entrecortadamente una voz, como si el cuerpo que la emite vibrara."
             },
             {
                 "number": "4",
@@ -10716,7 +11132,7 @@
                 "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
-                "definition": "Arrojar o mover algo haciéndolo vibrar₁."
+                "definition": "Arrojar o mover algo haciéndolo vibrar."
             }
         ]
     },
@@ -10842,7 +11258,7 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Religión",
-                "definition": "En particular, religioso regular que ejerce de vicario₁ del superior en ausencia o incapacidad de este."
+                "definition": "En particular, religioso regular que ejerce de vicario del superior en ausencia o incapacidad de este."
             },
             {
                 "number": "5",
@@ -10861,6 +11277,24 @@
                 "type": "nombre masculino",
                 "type_extra": "Plantas",
                 "definition": "Planta de la familia de las liliáceas, con escapo central de dos o tres decímetros, hojas radicales erguidas, estrechas y casi tan largas como el bohordo; flores en corimbo laxo, blancas con una línea verde en el dorso de cada pétalo; fruto capsular casi esférico, negro y brillante, y raíz de varios bulbos con una cubierta escamosa. Es común en España."
+            }
+        ]
+    },
+    "vice": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Vicepresidente."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Vicedirector."
             }
         ]
     },
@@ -12553,7 +12987,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Poesía",
-                "definition": "Tipo de poema con versos arte menor, generalmente hexasílabos u octosílabos, que siempre incluye un estribillo. Igual que su versión musical₂, fue cultivado en toda la Península Ibérica y en sus territorios de América."
+                "definition": "Tipo de poema con versos arte menor, generalmente hexasílabos u octosílabos, que siempre incluye un estribillo. Igual que su versión musical, fue cultivado en toda la Península Ibérica y en sus territorios de América."
             }
         ]
     },
@@ -12870,6 +13304,35 @@
             }
         ]
     },
+    "vínculo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Conexión, unión o atadura de dos o más seres (personas, animales, cosas)."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Ligamen. Impedimento para un nuevo matrimonio."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Derecho, España",
+                "definition": "Acción de vincular o sujetar un patrimonio (bienes, fondos) a determinado beneficiario según la voluntad de quien funda o lega la sujeción."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Porción de texto o imagen que, al pulsar sobre ellos (con el dedo, con el ratón, etc.), ejecutan cierta función, especialmente la de hacer visible otro texto o página."
+            }
+        ]
+    },
     "vindicador": {
         "level": "advanced",
         "source": "wiktionary",
@@ -13040,6 +13503,17 @@
             }
         ]
     },
+    "viña": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Finca plantada de vides."
+            }
+        ]
+    },
     "viñamarino": {
         "level": "advanced",
         "source": "wiktionary",
@@ -13092,6 +13566,58 @@
             }
         ]
     },
+    "viola": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Instrumentos musicales",
+                "definition": "Instrumento de cuerda que se toca por frotación. Es mayor que el violín."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Honduras",
+                "definition": "Barriga, panza, en especial cuando es de una persona obesa."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Honduras",
+                "definition": "Canica nueva o con poco uso."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Músico que toca la viola."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Botánica",
+                "definition": "Cualquiera de las plantas herbáceas de la familia de las violáceas."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Instrumentos musicales, Río de la Plata, coloquial",
+                "definition": "Guitarra."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Violeta."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Argentina, coloquial",
+                "definition": "Violador."
+            }
+        ]
+    },
     "violáceo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -13134,6 +13660,38 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Que obliga a otra persona a mantener una relación sexual."
+            }
+        ]
+    },
+    "violar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Actuar de manera prohibida por una norma."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Entrar por la fuerza en algún sitio."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "Religión",
+                "definition": "En particular, violar un lugar sagrado."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Obligar a alguien a mantener relaciones sexuales a la fuerza y/o en contra de su voluntad."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Provocar deterioro en el aspecto físico de una cosa."
             }
         ]
     },
@@ -13187,7 +13745,7 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "type_extra": "Instrumentos musicales",
-                "definition": "Instrumento de cuerda que se toca por frotación, con cuatro cuerdas afinadas en intervalos de quintas, siendo la tercera en la₄ fijada normalmente a 440 Hz. Es el de tamaño más reducido y tono más agudo de los instrumentos de cuerda clásicos. Se toca con un arco o vara estrecha, suavemente curvada, dotada de una cuerda de crin de caballo."
+                "definition": "Instrumento de cuerda que se toca por frotación, con cuatro cuerdas afinadas en intervalos de quintas, siendo la tercera en la fijada normalmente a 440 Hz. Es el de tamaño más reducido y tono más agudo de los instrumentos de cuerda clásicos. Se toca con un arco o vara estrecha, suavemente curvada, dotada de una cuerda de crin de caballo."
             },
             {
                 "number": "2",
@@ -13397,7 +13955,7 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "type_extra": "Náutica, se usa mucho como plural",
-                "definition": "Curva₅ que puede adoptar diversas formas y que sirve para formar los jardines₂ de una embarcación."
+                "definition": "Curva que puede adoptar diversas formas y que sirve para formar los jardines de una embarcación."
             }
         ]
     },
@@ -13490,6 +14048,23 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "definition": "Cambio relativamente notable o radical en la orientación, tendencia o preferencia hacia ciertas corrientes de pensamiento, emociones, comportamiento y actitud."
+            }
+        ]
+    },
+    "viral": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio de los virus, o relacionado con ellos."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Informática",
+                "definition": "Dicho de un archivo multimedia (imagen, vídeo, sonido), noticias u otros contenidos que son propagados rápidamente por los usuarios de Internet o redes sociales."
             }
         ]
     },
@@ -13884,7 +14459,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "La duración del virreino₁."
+                "definition": "La duración del virreino."
             },
             {
                 "number": "3",
@@ -13905,7 +14480,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "La duración del virreino₁."
+                "definition": "La duración del virreino."
             },
             {
                 "number": "3",
@@ -13922,6 +14497,23 @@
                 "number": "1",
                 "type": "nombre masculino y femenino",
                 "definition": "Se dice de una persona que gobierna en el lugar del rey."
+            }
+        ]
+    },
+    "virtual": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que tiene virtud para realizar un acto aunque no lo produzca."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Física",
+                "definition": "Aparente, pero que no corresponde a la realidad."
             }
         ]
     },
@@ -14143,6 +14735,17 @@
             }
         ]
     },
+    "visa": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Norma o convenio bilateral entre países para legalizar una entrada o estancia de personas en un país donde este no resida, tenga nacionalidad o libre tránsito, fundamentado por una razón bien definida."
+            }
+        ]
+    },
     "visado": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14339,6 +14942,23 @@
             }
         ]
     },
+    "visibilidad": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad o condición de visible, capacidad para ver en un determinado contexto."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Sociología, LGBT, Feminismo",
+                "definition": "Situación en la que un grupo social minoritario o discriminado es conocido por la mayoría de la población. También situación de una persona cuya pertenencia a este grupo es conocida."
+            }
+        ]
+    },
     "visibilización": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14347,6 +14967,27 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Acción o efecto de visibilizar."
+            }
+        ]
+    },
+    "visible": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que se puede ver."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Tan cierto y evidente que no admite duda."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona: Notable o que llama la atención por alguna singularidad."
             }
         ]
     },
@@ -14626,6 +15267,37 @@
             }
         ]
     },
+    "vistas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Concurrencia de dos o más sujetos que se ven para fin determinado."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Regalos que recíprocamente se hacen los novios."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Ventana, puerta u otra abertura en los edificios, por donde entra la luz para ver."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Galerías, ventanas u otros huecos de pared, por donde desde un edificio se ve lo exterior."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Cuello, pechera y puños de la camisa."
+            }
+        ]
+    },
     "vistasoleño": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14634,6 +15306,17 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Originario, relativo a, o propio de la localidad española de La Gangosa Vistasol."
+            }
+        ]
+    },
+    "vistazo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Mirada superficial o ligera."
             }
         ]
     },
@@ -14685,6 +15368,23 @@
                 "type": "nombre masculino",
                 "type_extra": "Vestimenta",
                 "definition": "El sayo o vestido."
+            }
+        ]
+    },
+    "visual": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Anatomía, Biología",
+                "definition": "Que pertenece o concierne a la vista o a la visión."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Línea recta tirada desde el ojo a un objeto."
             }
         ]
     },
@@ -14760,6 +15460,27 @@
             }
         ]
     },
+    "vital": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que es relativo o propio de la vida."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que posee gran importancia."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, que es enérgica en la realización de acciones."
+            }
+        ]
+    },
     "vitalicio": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14772,7 +15493,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Pensión vitalicia₁."
+                "definition": "Pensión vitalicia."
             },
             {
                 "number": "3",
@@ -14931,7 +15652,7 @@
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Anilla de papel que identifica la vitola₄ y demás características en un cigarro puro."
+                "definition": "Anilla de papel que identifica la vitola y demás características en un cigarro puro."
             },
             {
                 "number": "6",
@@ -15297,7 +16018,7 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Chile, coloquial",
-                "definition": "Por extensión, la reunión en que se comparte un vituperio₃."
+                "definition": "Por extensión, la reunión en que se comparte un vituperio."
             }
         ]
     },
@@ -15878,6 +16599,68 @@
             }
         ]
     },
+    "vocabulario": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Conjunto de palabras empleadas en una lengua."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Libro o lista en que se contienen las susodichas palabras."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Conjunto de vocablos usados en una región, ciencia, oficio, etc., o que usa un autor."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Colección de palabras con sus definiciones, donde la primeras están ordenadas alfabéticamente o con otro sistema."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Lingüística",
+                "definition": "Conjunto de palabras empleadas o conocidas por una persona o por un grupo de personas."
+            }
+        ]
+    },
+    "vocal": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio de, o relativo a, la voz."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Fonema que se articula dejando libre de obstrucciones el tracto vocal."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Signo gráfico que representa un fonema de este tipo."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Miembro de un grupo con derecho a voto."
+            }
+        ]
+    },
     "vocalista": {
         "level": "advanced",
         "source": "wiktionary",
@@ -16273,6 +17056,18 @@
             }
         ]
     },
+    "volando": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "coloquial",
+                "definition": "Con mucha velocidad o prisa."
+            }
+        ]
+    },
     "volanta": {
         "level": "advanced",
         "source": "wiktionary",
@@ -16464,6 +17259,29 @@
                 "number": "1",
                 "type": "verbo transitivo",
                 "definition": "Volatilizar."
+            }
+        ]
+    },
+    "volcán": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Geología",
+                "definition": "Abertura en la corteza terrestre o de algún planeta a través de la cual pueden salir piroclastos, lava fundida, cenizas y gases."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Pasión intensa."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Pirotecnia",
+                "definition": "Elemento pirotécnico en forma de cono que al ser encendido emite gran cantidad de chispas a lo alto que luego caen imitando a un volcán."
             }
         ]
     },
@@ -17403,7 +18221,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Meteorología",
-                "definition": "Centro de un vórtex₁."
+                "definition": "Centro de un vórtex."
             },
             {
                 "number": "3",
@@ -17415,7 +18233,7 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Tecnología",
-                "definition": "Mezclador de laboratorio dotado de un motor al que se fija un recipiente ligeramente excéntrico, de tal modo que la rotación de aquel genere un vórtex₁ en el contenido del recipiente."
+                "definition": "Mezclador de laboratorio dotado de un motor al que se fija un recipiente ligeramente excéntrico, de tal modo que la rotación de aquel genere un vórtex en el contenido del recipiente."
             }
         ]
     },
@@ -18126,6 +18944,29 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "definition": "Susceptibilidad de una unidad de obtener un resultado negativo derivado de un choque externo."
+            }
+        ]
+    },
+    "vulnerable": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "En riesgo probable de recibir daño, herida, lesión o ataque, física o emocionalmente."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Informática",
+                "definition": "Con el riesgo potencial o probable de exponerse a virus o programas dañinos."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Biología, Ecología",
+                "definition": "Referido a una especie: con alta probabilidad de convertirse en \"especie en peligro de extinción\" a causa de la disminución o confinamiento de su población."
             }
         ]
     },
