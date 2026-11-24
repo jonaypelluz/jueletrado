@@ -705,94 +705,94 @@
         "hash": "0f8c16ae84d9d865"
     },
     "es/advanced/wordBuilder": {
-        "count": 682232,
+        "count": 682229,
         "min": null,
-        "hash": "2884f481bb4dea3b"
+        "hash": "8ca6cde29fe14b8a"
     },
     "es/advanced/wordFinder": {
-        "count": 263505,
+        "count": 263504,
         "min": 60,
-        "hash": "50f20e7bb8acf00d"
+        "hash": "19112b424fc673fc"
     },
     "es/advanced/spellTower": {
-        "count": 681209,
+        "count": 681206,
         "min": 120,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/wordsRain": {
-        "count": 681209,
+        "count": 681206,
         "min": 150,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/prefetch/WORDS_DAILY": {
-        "count": 681209,
+        "count": 681206,
         "min": 7,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/prefetch/WORDS_FINDER": {
-        "count": 281868,
+        "count": 281867,
         "min": 60,
-        "hash": "1b0e60b7fd953c0f"
+        "hash": "9cc90e42a190d8b1"
     },
     "es/advanced/prefetch/WORDS_TOWER": {
-        "count": 681209,
+        "count": 681206,
         "min": 120,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/prefetch/WORDS_RAIN": {
-        "count": 681209,
+        "count": 681206,
         "min": 150,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/prefetch/WORDS_ACCENT": {
-        "count": 681209,
+        "count": 681206,
         "min": 80,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/prefetch/WORDS_MATCHER": {
-        "count": 681209,
+        "count": 681206,
         "min": 80,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/prefetch/WORDS_SYLLABLE": {
-        "count": 681209,
+        "count": 681206,
         "min": 60,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/wordChain/seed": {
-        "count": 681209,
+        "count": 681206,
         "min": 20,
-        "hash": "0a843a36c6320f1d"
+        "hash": "c97c3e760ce3ce5a"
     },
     "es/advanced/accentFixer/window": {
-        "count": 662846,
+        "count": 662843,
         "min": 80,
-        "hash": "fe726c5ee557c0e3"
+        "hash": "21c4b4aa76a8c9e3"
     },
     "es/advanced/accentFixer/eligible": {
-        "count": 570735,
+        "count": 570732,
         "min": 10,
-        "hash": "6bddbee5f4be74ed"
+        "hash": "80fdb2725a2acb0c"
     },
     "es/advanced/letterMatcher/window": {
-        "count": 662846,
+        "count": 662843,
         "min": 80,
-        "hash": "fe726c5ee557c0e3"
+        "hash": "21c4b4aa76a8c9e3"
     },
     "es/advanced/letterMatcher/eligible": {
-        "count": 361387,
+        "count": 361384,
         "min": 10,
-        "hash": "755ec93667ee6864"
+        "hash": "3afc15ee33cc496c"
     },
     "es/advanced/syllableSplitter/window": {
-        "count": 546353,
+        "count": 546352,
         "min": 60,
-        "hash": "934a3e97d809dc46"
+        "hash": "f3d76c25966d7862"
     },
     "es/advanced/syllableSplitter/eligible": {
-        "count": 545685,
+        "count": 545684,
         "min": 10,
-        "hash": "40303bce40c042eb"
+        "hash": "793b6949dc5ab368"
     },
     "es/advanced/definitionMaster/a": {
         "count": 2024,
