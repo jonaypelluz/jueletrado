@@ -1,4 +1,22 @@
 {
+    "na": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "pronombre",
+                "type_extra": "Andalucía, Extremadura, coloquial, subestándar, indefinido neutro",
+                "definition": "Forma acortada de nada."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "type_extra": "Paraguay, coloquial, subestándar",
+                "definition": "Por favor."
+            }
+        ]
+    },
     "naan": {
         "level": "advanced",
         "source": "wiktionary",
@@ -2331,6 +2349,40 @@
             }
         ]
     },
+    "nasa": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cesta de red o mimbre, en forma de embudo, usada para la pesca."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Propio de, relativo o perteneciente a un pueblo amerindio que habita el departamento del Cauca en la zona andina del suroccidente de la República de Colombia."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Propio de o relativo a la lengua de este pueblo, de clasificación incierta."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Cesta para llevar pescado."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Tinaja para alimentos no perecederos."
+            }
+        ]
+    },
     "nasal": {
         "level": "advanced",
         "source": "wiktionary",
@@ -2368,7 +2420,7 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "type_extra": "Música",
-                "definition": "Registro₁₃ del órgano que produce un sonido nasal aflautado."
+                "definition": "Registro del órgano que produce un sonido nasal aflautado."
             }
         ]
     },
@@ -2439,7 +2491,7 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Capa análoga a la nata₁ que se forma en algunos licores."
+                "definition": "Capa análoga a la nata que se forma en algunos licores."
             },
             {
                 "number": "4",
@@ -2601,6 +2653,17 @@
                 "type": "adjetivo",
                 "type_extra": "Filosofía",
                 "definition": "Que pertenece o concierne al innatismo."
+            }
+        ]
+    },
+    "nativo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que es originario del lugar referenciado."
             }
         ]
     },
@@ -2982,6 +3045,22 @@
             }
         ]
     },
+    "naval": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Relativo a la navegación."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Relativo o perteneciente a la marina."
+            }
+        ]
+    },
     "navarrense": {
         "level": "advanced",
         "source": "wiktionary",
@@ -3043,6 +3122,22 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Que navega."
+            }
+        ]
+    },
+    "navegar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo intransitivo",
+                "definition": "Viajar o moverse mediante una nave por el agua u otro medio."
+            },
+            {
+                "number": "2",
+                "type": "verbo intransitivo",
+                "definition": "Explorar la red internet utilizando un navegador."
             }
         ]
     },
@@ -3333,6 +3428,24 @@
             }
         ]
     },
+    "nazi": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Historia, Política",
+                "definition": "Relativo al nacionalsocialismo o nazismo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Historia, Política",
+                "definition": "Que profesa el nacionalsocialismo."
+            }
+        ]
+    },
     "nazireato": {
         "level": "advanced",
         "source": "wiktionary",
@@ -3599,6 +3712,17 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Que está carente de lo necesario; que tiene necesidad."
+            }
+        ]
+    },
+    "necesitar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Tener necesidad de algo."
             }
         ]
     },
@@ -6133,6 +6257,24 @@
             }
         ]
     },
+    "neta": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "México, coloquial",
+                "definition": "Que es lo supremo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "México, coloquial",
+                "definition": "Verdad."
+            }
+        ]
+    },
     "netbook": {
         "level": "advanced",
         "source": "wiktionary",
@@ -6828,6 +6970,24 @@
             }
         ]
     },
+    "neutral": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que en una contienda o conflicto permanece imparcial sin inclinarse por ninguna de las partes."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Se aplica al Estado o nación que no toma parte en la guerra o controversia que envuelve a otros, manteniendo sus relaciones sin cambios con las naciones beligerantes."
+            }
+        ]
+    },
     "neutralidad": {
         "level": "advanced",
         "source": "wiktionary",
@@ -7404,6 +7564,17 @@
             }
         ]
     },
+    "nick": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "En foros, chats y otros sitios de internet similares, seudónimo que usa cada participante."
+            }
+        ]
+    },
     "nicolaíta": {
         "level": "advanced",
         "source": "wiktionary",
@@ -7566,6 +7737,37 @@
                 "type": "nombre femenino",
                 "type_extra": "Ecología, poco frecuente",
                 "definition": "Proceso de construir el ave un nido y habitarlo, en especial durante la época de reproducción."
+            }
+        ]
+    },
+    "nido": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Lecho construido por aves para incubar sus huevos y criar a los polluelos."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Lugar utilizado por animales, peces, insectos para depositar los huevos y ayudarlos a salir del cascarón."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Lugar donde se reúnen animales o cosas despreciables."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Lugar donde se ha vivido con los padres y durante la infancia."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Lugar o situación donde nace o se origina algo."
             }
         ]
     },
@@ -8880,6 +9082,43 @@
             }
         ]
     },
+    "noble": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio de o perteneciente a la nobleza."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que muestra singular excelencia en alguno de sus rasgos, en especial en sentido moral."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "En particular, dicho de una persona, de carácter honrado y generoso."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Dicho de un animal, leal y valiente."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Química",
+                "definition": "Dicho de un elemento o sustancia, que por su naturaleza no reacciona fácilmente ni se combina con otros."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Antigua moneda de oro usada en España."
+            }
+        ]
+    },
     "noblemente": {
         "level": "advanced",
         "source": "wiktionary",
@@ -9477,6 +9716,30 @@
             }
         ]
     },
+    "nomás": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Tan solo, solamente, solo."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Exhortativamente, añade énfasis a la expresión. Dormí nomás."
+            },
+            {
+                "number": "3",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Apenas, precisamente."
+            }
+        ]
+    },
     "nomatofobia": {
         "level": "advanced",
         "source": "wiktionary",
@@ -9829,6 +10092,22 @@
             }
         ]
     },
+    "non": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Dícese del número no divisible por dos."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Impar."
+            }
+        ]
+    },
     "nona": {
         "level": "advanced",
         "source": "wiktionary",
@@ -9923,7 +10202,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que tiene forma de nonágono₁."
+                "definition": "Que tiene forma de nonágono."
             }
         ]
     },
@@ -10163,7 +10442,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Alimentos",
-                "definition": "Penca del nopal₁, una paleta de pulpa comestible que se desprende de la planta, con la piel verde cubierta de espinas."
+                "definition": "Penca del nopal, una paleta de pulpa comestible que se desprende de la planta, con la piel verde cubierta de espinas."
             }
         ]
     },
@@ -10244,7 +10523,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Viento que sopla desde el nordeste₁."
+                "definition": "Viento que sopla desde el nordeste."
             }
         ]
     },
@@ -10271,7 +10550,7 @@
                 "number": "4",
                 "type": "adjetivo",
                 "type_extra": "Lingüística",
-                "definition": "Propio de, relativo o perteneciente a la rama nórdica₁ de la familia germánica, distintiva a partir del siglo II, y cuyos exponentes vivos son el danés, el feroés, el islandés, el noruego y el sueco, además de otros idiomas de ámbito más reducido como el gútnico y el elfdaliano."
+                "definition": "Propio de, relativo o perteneciente a la rama nórdica de la familia germánica, distintiva a partir del siglo II, y cuyos exponentes vivos son el danés, el feroés, el islandés, el noruego y el sueco, además de otros idiomas de ámbito más reducido como el gútnico y el elfdaliano."
             },
             {
                 "number": "5",
@@ -10306,7 +10585,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Pozo del que la noria₁ extrae el agua."
+                "definition": "Pozo del que la noria extrae el agua."
             },
             {
                 "number": "3",
@@ -10986,6 +11265,22 @@
                 "type": "nombre masculino",
                 "type_extra": "Telecomunicación, Argentina, Bolivia, Ecuador, Honduras, Paraguay, Perú, Puerto Rico, República Dominicana, Uruguay, Venezuela",
                 "definition": "Programa de radio o televisión dedicado a la difusión de noticias."
+            }
+        ]
+    },
+    "notificación": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción y efecto de notificar."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Documento en que se hace constar algo notificado."
             }
         ]
     },
@@ -11809,6 +12104,48 @@
                 "type": "nombre femenino",
                 "type_extra": "Meteorología",
                 "definition": "Se habla de nubosidad al referirse a un estado temporal en el que abundan las aglomeraciones de nubes."
+            }
+        ]
+    },
+    "nuclear": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio o relativo al núcleo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Física",
+                "definition": "Propio o relativo al núcleo atómico."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Propio o relativo a la energía liberada por la desintegración del átomo."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Propio o relativo a la industria que aprovecha esta energía."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Propio o relativo a las armas atómicas."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Juntar, apretar alrededor de un núcleo o en un núcleo."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Formar un núcleo o parte central."
             }
         ]
     },
@@ -12752,7 +13089,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "desusado, literario",
-                "definition": "Fiesta con la que se celebran las nupcias₁."
+                "definition": "Fiesta con la que se celebran las nupcias."
             }
         ]
     },
@@ -13150,7 +13487,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Chile, Argentina",
-                "definition": "Cualquier preparación hecha con ñaco₂, sobre todo la más simple, con agua y azúcar."
+                "definition": "Cualquier preparación hecha con ñaco, sobre todo la más simple, con agua y azúcar."
             },
             {
                 "number": "4",
@@ -13197,7 +13534,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "El suelo que hay en los ñadis₁."
+                "definition": "El suelo que hay en los ñadis."
             },
             {
                 "number": "3",
