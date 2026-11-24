@@ -1,4 +1,22 @@
 {
+    "ta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "onomatopeya",
+                "type_extra": "Usado más repetido",
+                "definition": "Se usa para significar los golpes que se dan en la puerta para llamar."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "type_extra": "Argentina, Uruguay, coloquial",
+                "definition": "De acuerdo, está bien, ok."
+            }
+        ]
+    },
     "tabaco": {
         "definitions": [
             {
@@ -262,6 +280,196 @@
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "Mapa de la Tierra o de una parte de ella."
+            }
+        ]
+    },
+    "tablas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Ajedrez, Juego",
+                "definition": "Situación de un partido, especialmente en las damas y el ajedrez, en la que ninguno de los dos jugadores se lleva la victoria."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Ajedrez, Juego",
+                "definition": "Por extensión, situación en donde la partida está igualada."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Teatro",
+                "definition": "Espacio donde se realiza la representación de una obra y, por metonimia, la actividad profesional del teatro en general."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Tauromaquia",
+                "definition": "Valla, barrera o tablazón que hay alrededor del ruedo o arena dentro de la cual se lidian los toros."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Juego",
+                "definition": "Antiguo juego, similar al de las damas, en que las piezas o trebejos se mueven según lo que indiquen los dados."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "Piedras planas sobre las que, según la Biblia, se inscribieron los diez mandamientos."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Historia",
+                "definition": "Conjunto de tres tablillas que se hacen sonar, para diferentes funciones tradicionales, como indicar la cercanía de un leproso, despertar a los frailes de conventos, etc."
+            }
+        ]
+    },
+    "tablero": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Tabla, sobre todo de madera, que está destinada con algún fin en específico."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Juegos",
+                "definition": "Superficie con diseño específico para diferentes juegos, en particular la escaqueada para jugar ajedrez o damas."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Superficie de escritura reutilizable en la cual el texto o figuras se realizan con tiza u otro tipo de rotuladores borrables, especialmente empleada en clases, conferencias y espacios destinados a la presentación de información."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Superficie horizontal de las mesas."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Dibujo técnico",
+                "definition": "Por extensión, superficie usada para trabajos manuales, como el dibujo o la costura."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Superficie en la que se encuentran los diferentes controles de un aparato, sistema, máquina, etc."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Automovilismo",
+                "definition": "En particular, panel de un automóvil, situado frente al conductor donde se encuentran los mandos y otros dispositivos."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Cuadro, tabla o diagrama en el que se registran datos de modo sistemático."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "Carpintería, Construcción",
+                "definition": "Tipo de tablazón o tablaje que se coloca en cuadros formados con maderos (largueros y peinazos)."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "definition": "Tablar (de huerta)."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "definition": "Suelo bien cimentado de una represa en un canal."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "type_extra": "Aves",
+                "definition": "Especie de petrel, muy parecido a la gaviota, común en los mares de las altas latitudes antárticas y que se distingue por el aspecto de su pluma, pintada a manera de ajedrezado blanco y negro."
+            },
+            {
+                "number": "13",
+                "type": "nombre masculino",
+                "definition": "Lugar en donde se desarrolla un evento."
+            },
+            {
+                "number": "14",
+                "type": "nombre masculino",
+                "type_extra": "Arquitectura",
+                "definition": "Plano resaltado, liso o con molduras, para ornato de algunas partes del edificio."
+            },
+            {
+                "number": "15",
+                "type": "nombre masculino",
+                "type_extra": "Carpintería",
+                "definition": "Tablazón que se coloca en los cuadros formados por los largueros y peinazos de una hoja de puerta o ventana."
+            },
+            {
+                "number": "16",
+                "type": "nombre masculino",
+                "type_extra": "Ingeniería",
+                "definition": "Parte de un puente por donde pasan los vehículos."
+            },
+            {
+                "number": "17",
+                "type": "nombre masculino",
+                "type_extra": "Arte, Pintura",
+                "definition": "Parte cuadrada y resaltada de un retablo."
+            },
+            {
+                "number": "18",
+                "type": "nombre masculino",
+                "type_extra": "Cuba",
+                "definition": "Caja de madera de poca altura que usan los vendedores ambulantes para guardar su mercancía."
+            },
+            {
+                "number": "19",
+                "type": "adjetivo",
+                "type_extra": "Carpintería",
+                "definition": "Se dice de un madero, tronco o tipo demadera que se consideran adecuados para serrarse y producir tablas."
+            },
+            {
+                "number": "20",
+                "type": "nombre masculino",
+                "type_extra": "Arquitectura",
+                "definition": "Ábaco."
+            },
+            {
+                "number": "21",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Mamparo."
+            },
+            {
+                "number": "22",
+                "type": "nombre masculino",
+                "type_extra": "Tauromaquia, Usado más en plural",
+                "definition": "Tablas."
+            },
+            {
+                "number": "23",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Mostrador de un negocio."
+            },
+            {
+                "number": "24",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Patíbulo."
             }
         ]
     },
@@ -688,6 +896,61 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "definition": "Palo flamenco con copla de tres o cuatro versos octosílabos que tiene diversas modalidades."
+            }
+        ]
+    },
+    "tanque": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Contenedor grande destinado a almacenar líquidos o gases."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Vehículo que transporta un contenedor como el antedicho."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Embarcación destinada al transporte de agua dulce."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Caribe, Rioplatense",
+                "definition": "Depósito que en los vehículos dotados de motor de combustión interna almacena el combustible."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "España, Argentina",
+                "definition": "Vaso de gran capacidad y con una sola asa, empleado sobre todo para cerveza."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Cuba",
+                "definition": "Lugar para encerrar a los condenados y procesados por la justicia."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Estanque artificial destinado a la práctica de la natación y el esparcimiento."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "definition": "Vehículo bélico blindado, equipado con artillería y otro armamento y montado sobre orugas."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Por extensión, persona de gran corpulencia."
             }
         ]
     },
@@ -1651,6 +1914,51 @@
             }
         ]
     },
+    "tatuaje": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Arte",
+                "definition": "Acción de tatuar, decorar la piel mediante el injerto de tinturas de colores."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Diseño aplicado en la piel mediante esta acción."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Marca alrededor de una herida por disparo a quemarropa."
+            }
+        ]
+    },
+    "taxi": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Transporte",
+                "definition": "Vehículo de alquiler que se contrata con su conductor para breves trayectos urbanos, pagándose el recorrido según la distancia a una tarifa indicada por un dispositivo ad hoc."
+            }
+        ]
+    },
+    "taxis": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Movimiento de orientación o crecimiento con el que reacciona un organismo frente a un estímulo externo."
+            }
+        ]
+    },
     "taza": {
         "definitions": [
             {
@@ -1866,6 +2174,34 @@
             }
         ]
     },
+    "teclado": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Conjunto de teclas de un instrumento o mecanismo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Se dice de una persona falta de inteligencia que intenta llamar la atención y destacar sobre el resto. También se usa tecla."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Periférico de entrada utilizado para la introducción de órdenes y datos en una computadora."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Instrumentos musicales",
+                "definition": "Instrumento musical que consta de una serie de teclas adosadas a un instrumento musical de viento, cuerda, percusión o electrónicos, las cuales se usan para controlar la producción de sonidos de éste último."
+            }
+        ]
+    },
     "técnica": {
         "definitions": [
             {
@@ -1919,6 +2255,18 @@
                 "number": "8",
                 "type": "nombre femenino",
                 "definition": "Habilidad para ejecutar cualquier cosa, o para conseguir algo."
+            }
+        ]
+    },
+    "técnicamente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "De forma técnica."
             }
         ]
     },
@@ -3111,6 +3459,24 @@
                 "type": "nombre masculino",
                 "type_extra": "poco usado",
                 "definition": "Buena o mala calidad o constitución del tiempo."
+            }
+        ]
+    },
+    "temporalmente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "De un modo temporal."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Por algún tiempo."
             }
         ]
     },
@@ -5873,6 +6239,40 @@
             }
         ]
     },
+    "tensión": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Estado de un cuerpo expuesto a la acción de fuerzas opuestas que lo extienden o estiran."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Física",
+                "definition": "Fuerza que impide separarse unas de otras a las partes de un mismo cuerpo cuando se halla en dicho estado."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Nerviosismo provocado por situaciones angustiosas que originan reacciones psicosomáticas."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Electricidad",
+                "definition": "Diferencia de potencial."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Medicina",
+                "definition": "Presión sanguínea."
+            }
+        ]
+    },
     "tentación": {
         "definitions": [
             {
@@ -6855,6 +7255,41 @@
             }
         ]
     },
+    "terminal": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Central de autobuses."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Informática",
+                "definition": "Consola, shell, interfaz de línea de comandos."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Informática",
+                "definition": "Hace referencia a cualquier computadora conectada a una red."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Informática, España",
+                "definition": "Por extensión, un teléfono, o un PDA."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Ubicado al final."
+            }
+        ]
+    },
     "terminan": {
         "definitions": [
             {
@@ -7509,6 +7944,27 @@
             }
         ]
     },
+    "terror": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Miedo, espanto."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Miedo de gran intensidad."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Persona que por su personalidad o hazañas infunde un miedo intenso de encontrarlo o enfrentarlo."
+            }
+        ]
+    },
     "terrorismo": {
         "definitions": [
             {
@@ -7652,6 +8108,28 @@
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "Conjunto escondido de monedas o cosas preciosas, de cuyo dueño no queda memoria."
+            }
+        ]
+    },
+    "test": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Psicología",
+                "definition": "Prueba para estudiar una característica o función psicológica específica."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Prueba."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Examen."
             }
         ]
     },
@@ -8125,6 +8603,41 @@
             }
         ]
     },
+    "tía": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Hermana de la madre o del padre de una persona."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "España",
+                "definition": "En ciertas partes, trato respetuoso a una mujer mayor."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "España",
+                "definition": "Tratamiento de los niños a sus profesoras, en particular de los más pequeños."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Aragón, Extremadura",
+                "definition": "Madrastra."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Aragón, Extremadura",
+                "definition": "Suegra."
+            }
+        ]
+    },
     "tibia": {
         "definitions": [
             {
@@ -8148,6 +8661,30 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "flauta (instrumento musical)."
+            }
+        ]
+    },
+    "tic": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Tiempo",
+                "definition": "Cada una de las pulsaciones o golpes que da un reloj analógico."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Electrónica, Informática",
+                "definition": "Por extensión, cada uno de los flancos de la señal del reloj, los cuales sincronizan las acciones de un crircuito digital y a la vez permiten contar el tiempo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Neurología",
+                "definition": "Movimiento motor o vocal repentino, repetitivo y no rítmico el cual involucra uno o varios músculos."
             }
         ]
     },
@@ -10274,6 +10811,18 @@
             }
         ]
     },
+    "tiroteo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "España, Venezuela",
+                "definition": "Disparos de arma de fuego de pequeño y mediano calibre de procedencia no individualizable y con destino casual entre dos o más contendientes."
+            }
+        ]
+    },
     "tito": {
         "definitions": [
             {
@@ -10517,6 +11066,17 @@
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Cargo de médico o de farmacéutico titular de un lugar. La titular quedó vacante antes de que concluyera yo la licenciatura."
+            }
+        ]
+    },
+    "toalla": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Trozo de tela absorbente cuyo uso principal es secar la humedad del cuerpo humano mediante el contacto directo; el secado de los objetos se realiza mediante paños o trapos."
             }
         ]
     },
@@ -14587,6 +15147,27 @@
             }
         ]
     },
+    "tontería": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Condición de tonto."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Acción o dicho propio de una persona tonta."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Por extensión, acción, dicho o cosa carente de importancia o relevancia."
+            }
+        ]
+    },
     "tonto": {
         "definitions": [
             {
@@ -14650,6 +15231,71 @@
                 "type": "nombre masculino",
                 "type_extra": "Colombia y Costa Rica",
                 "definition": "mona (juego de naipes)."
+            }
+        ]
+    },
+    "tony": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Entretenimiento, Cultura, Chile, Argentina, Uruguay",
+                "definition": "En el folclore chileno, payaso que hace las veces de bobo."
+            }
+        ]
+    },
+    "top": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Argentina, coloquial",
+                "definition": "Dicho de una cosa: de alto nivel, principal, que tiene el primer lugar de estimación o importancia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Argentina, coloquial",
+                "definition": "Dicho de una cosa: que está a la moda."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Argentina, coloquial",
+                "definition": "Dicho de una persona: que tiene alto poder adquisitivo o que es considerada muy importante o famosa."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Vestimenta",
+                "definition": "Prenda de vestir que cubre el pecho de la mujer, dejando el abdomen al descubierto."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "En una clasificación, lista con los ganadores de los primeros puestos."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Argentina",
+                "definition": "Referencia que da una persona que presencia un hecho, generalmente el paso de algo o alguien por un lugar determinado, a otra que no está presente."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Argentina",
+                "definition": "Sonido o serie de sonidos agudos que regularmente indican la hora oficial. Por antonomasia, los sonidos que cada treinta minutos la señalan en las radios de amplitud modulada."
+            },
+            {
+                "number": "8",
+                "type": "interjección",
+                "type_extra": "Náutica",
+                "definition": "Para ordenar que una maniobra sea detenida."
             }
         ]
     },
@@ -15128,6 +15774,65 @@
             }
         ]
     },
+    "torta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "España",
+                "definition": "Masa de pan o similar, que se moldea de forma aplanada y circular y se tuesta lentamente."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Alimentos, Bolivia, Chile, Ecuador, Paraguay, Perú, Rioplatense, Venezuela",
+                "definition": "Bizcocho o pastel dulce de buen tamaño."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Alimentos, México",
+                "definition": "Alimento elaborado con un tipo especial de pan blanco que contiene algo en su interior."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Alimentos, Argentina",
+                "definition": "Masa con base de harina utilizada para envolver ingredientes dulces."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Golpe dado en la cara con la mano abierta."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Por extensión, golpe violento o colisión de cualquier clase."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Mensaje en cadena de correo electrónico con textos melifluos adornados de efectos, música de las mismas características, e imágenes de atardeceres, paisajes o mascotas."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Pirotecnia",
+                "definition": "Grupo de tubos unidos entre sí, donde cada tubo viene precargado con una carga pirotécnica de un efecto en particular y vienen todos conectados con una mecha interna lo que permita que puedan ser detonados uno después del otro (o por lotes o grupos) con encender una única mecha."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, coloquial",
+                "definition": "Mujer homosexual."
+            }
+        ]
+    },
     "tortura": {
         "definitions": [
             {
@@ -15316,6 +16021,22 @@
                         "content": "parcialmente."
                     }
                 ]
+            }
+        ]
+    },
+    "tour": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Viaje de un artista, o por extensión de un turista, recorriendo varias plazas antes de retornar a su punto de partida."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Itinerario regular que un viajante u otro profesional recorre en el curso de sus tareas."
             }
         ]
     },
@@ -16471,6 +17192,29 @@
             }
         ]
     },
+    "traducir": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Expresar un mensaje en una lengua diferente a la que se usó originalmente para transmitirlo."
+            }
+        ]
+    },
+    "traductor": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Ocupaciones, Usado también como sustantivo",
+                "definition": "Se dice de la persona o sistema que traduce, que expresa en un idioma lo que esta escritio en otro."
+            }
+        ]
+    },
     "trae": {
         "definitions": [
             {
@@ -16998,6 +17742,23 @@
             }
         ]
     },
+    "traidor": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que traiciona o incumple con la confianza depositada en él."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que tiene reacciones o consecuencias impredecibles, inesperadas; en que no se puede confiar."
+            }
+        ]
+    },
     "traje": {
         "definitions": [
             {
@@ -17409,6 +18170,24 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Dicho de una persona: Que se toma las cosas con tiempo, sin nerviosismos ni agobios, y que no se preocupa por quedar bien o mal ante la opinión de los demás."
+            }
+        ]
+    },
+    "trans": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Lgbt, Usado también como sustantivo",
+                "definition": "Transgénero o transexual."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Química",
+                "definition": "Dicho de una grasa insaturada: que contiene al menos un enlace doble en configuración transenlace. Estas grasas han sido asociadas a numerosas enfermedades y cánceres."
             }
         ]
     },
@@ -18191,6 +18970,23 @@
                 "type": "nombre femenino",
                 "type_extra": "Filosofía",
                 "definition": "Aquello que está más allá de los límites naturales."
+            }
+        ]
+    },
+    "trasero": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Situado en la parte de atrás de algo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Anatomía",
+                "definition": "Conjunto de la musculatura de la parte posterior de la cadera."
             }
         ]
     },
@@ -19337,6 +20133,22 @@
             }
         ]
     },
+    "trauma": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Trastorno ocasionado por una fuerte y negativa impresión emocional."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Daño físico causado por un golpe, impacto, desgarro u otro tipo de lesión."
+            }
+        ]
+    },
     "través": {
         "definitions": [
             {
@@ -20043,6 +20855,38 @@
             }
         ]
     },
+    "tributo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Economía",
+                "definition": "Suma de dinero que un ciudadano tiene que pagar al estado para sostener los gastos públicos."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Carga continua u obligación que se debe soportar por disfrutar de una cosa."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Muestra de agradecimiento, reconocimiento, respeto o admiración que se manifiesta hacia una persona."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "En el feudalismo, cantidad de dinero o de otra cosa que el vasallo debía entregar a su príncipe o señor como reconocimiento de su señorío."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Sentimiento favorable que se muestra hacia una persona."
+            }
+        ]
+    },
     "trigo": {
         "definitions": [
             {
@@ -20101,6 +20945,58 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "definition": "Conjunto de números de un periódico o revista, publicados durante un trimestre. El primer trimestre de la Gaceta de este año."
+            }
+        ]
+    },
+    "trinidad": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "Unión de tres personas distintas que forman una sola, única e indivisible naturaleza divina."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Coloquial",
+                "definition": "Unidad de tres personas en una transacción."
+            }
+        ]
+    },
+    "triple": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Matemáticas, Usado también como masculino",
+                "definition": "Que es exactamente tres veces más grande que otro, que lo contiene tres veces; que triplica un número, una cantidad o una cualidad."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Se dice de algo que aparece, se alía o se usa junto con otros dos para cumplir cierta función o formar parte de un trío, tripleta o triplete."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Deporte, Baloncesto",
+                "definition": "Lanzamiento a la canasta o cesto que tiene un valor de tres puntos."
+            }
+        ]
+    },
+    "tripulación": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Grupo de personas que trabajan en una tarea en común, generalmente bajo una estructura jerarquizada. Especialmente designa al personal de conducción y de servicios de una nave o aeronave."
             }
         ]
     },
@@ -20624,6 +21520,22 @@
             }
         ]
     },
+    "tropical": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio o relativo al trópico."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que tiene el carácter expansivo, extrovertido y alegre, que se supone propio de los habitantes de las zonas tropicales."
+            }
+        ]
+    },
     "trozo": {
         "definitions": [
             {
@@ -20675,6 +21587,49 @@
                 "type": "nombre masculino",
                 "type_extra": "Milicia",
                 "definition": "Cada una de las dos partes, de vanguardia y retaguardia, en que se dividía una columna."
+            }
+        ]
+    },
+    "truco": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Medio artificioso y planeado con el que se obtienen ciertos efectos inesperados o poco comunes en artes de diversa índole tal como el ilusionismo, el teatro, la fotografía etc."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Juegos, Argentina, Uruguay",
+                "definition": "Juego de cartas con la baraja española, en el que se enfrentan dos equipos que deben sumar puntos mediante el envido o el truco. Se puede jugar de a dos, cuatro o seis jugadores."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Específicamente en sentido propio, es la segunda fase de una mano en el juego del truco que se juega una vez que ambos jugadores tuvieron la oportunidad de cantar (o dejar pasar) el envido y la gana quien gane dos de las tres rondas jugadas."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Ardid, medio usado con el fin de entrampar o engañar."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Cencerro de tamaño más grande que el normal."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Conjunto de habilidades adquiridas en el ejercicio de una disciplina."
+            },
+            {
+                "number": "7",
+                "type": "interjección",
+                "type_extra": "Juegos",
+                "definition": "En el juego del truco, forma de iniciar una apuesta por dos puntos durante la fase del truco."
             }
         ]
     },
@@ -20765,6 +21720,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Electricidad, electrónica",
                 "definition": "válvula (elemento de los aparatos de radio y televisión)."
+            }
+        ]
+    },
+    "tuit": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Mensaje breve que se publica en la red social Twitter."
             }
         ]
     },
@@ -23886,6 +24853,17 @@
                         "content": "túmido, hinchado, abultado."
                     }
                 ]
+            }
+        ]
+    },
+    "tuyos": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Los que son del partido, o son allegados o parientes de la persona con quien se habla."
             }
         ]
     }
