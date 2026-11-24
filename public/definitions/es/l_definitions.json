@@ -1533,6 +1533,30 @@
             }
         ]
     },
+    "las": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "artículo",
+                "type_extra": "determinado",
+                "definition": "Artículo determinado femenino plural. Antecede a sustantivos femeninos en plural denotando que estos deben tomarse como información general consabida."
+            },
+            {
+                "number": "2",
+                "type": "pronombre",
+                "type_extra": "personal",
+                "definition": "Pronombre personal femenino de objeto directo (acusativo), tercera persona del plural."
+            },
+            {
+                "number": "3",
+                "type": "pronombre",
+                "type_extra": "personal",
+                "definition": "Pronombre acusativo de tercera persona del plural sin referencia a sustantivo expreso y con valor enfático o emotivo."
+            }
+        ]
+    },
     "lástima": {
         "definitions": [
             {
@@ -1707,6 +1731,77 @@
             }
         ]
     },
+    "latín": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Lengua hablada antiguamente en la Península Itálica y en las zonas de influencia del Imperio Romano, de la cual derivan las lenguas romances."
+            }
+        ]
+    },
+    "latino": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Persona originaria o habitante del Lacio, antigua región de la península italiana."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Se dice de algo que proviene o tiene relación con el Lacio, sus pueblos, su idioma y sus costumbres."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Propio de la lengua latina."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Propio de la iglesia cristiana de Occidente en contraposición con la de rito griego."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo aesta iglesia occidental."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a los pueblos americanos y europeos que hablan lenguas derivadas del latín (como el italiano, rumano, español, francés y portugués)."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Persona originaria de uno de estos pueblos que habla un idioma derivado del latín."
+            },
+            {
+                "number": "8",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Persona de habla española y/o portuguesa originaria de Norteamérica (México), Centroamérica, el Caribe, Suramérica, España o Portugal y que vive en los Estados Unidos como inmigrante o desciendente de ellos. Puede poseer ya la nacionalidad estadounidense o estar aun aspirando a ella."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "definition": "Se dice de un tipo de vela triangular y del aparejo que la porta, así como de la embarcación que lleva tal tipo de vela."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que comprende el latín."
+            }
+        ]
+    },
     "latinoamericana": {
         "definitions": [
             {
@@ -1770,6 +1865,17 @@
             }
         ]
     },
+    "laura": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Nombre dado en Oriente al conjunto de celdas o chozas."
+            }
+        ]
+    },
     "laurel": {
         "definitions": [
             {
@@ -1787,6 +1893,36 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "Corona, triunfo, premio."
+            }
+        ]
+    },
+    "lava": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Geología",
+                "definition": "Mezcla de distintos minerales derretidos, que brota de la tierra en las erupciones volcánicas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Minerales",
+                "definition": "Mineral sólido que resulta de la erupción de un volcán al enfriarse, y que se emplea en la construcción y otros usos."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Colores, Usado también como adjetivo",
+                "definition": "Matiz o tono del color rojo, similar al de la lava₁ caliente."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Ingeniería",
+                "definition": "Proceso y resultado de lavar o purificar los minerales."
             }
         ]
     },
@@ -1870,6 +2006,17 @@
                 "number": "7",
                 "type": "verbo intransitivo",
                 "definition": "Dicho de un tejido: Prestarse más o menos al lavado. Esta cretona lava bien."
+            }
+        ]
+    },
+    "lazo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Trenza formada con tientos de cuero vacuno de cuatro, seis y hasta ocho ramales de diez a doce brazas de largo; en una de sus extremidades llamada llapa -generalmente de uno o dos ramales más que el resto- se asegura una argolla de fierro o de bronce para formar la armada que se escurra rápidamente una vez arrojada a brazo sobre el animal que se quiere enlazar. La armada se revolea por encima de la cabeza sosteniendo el resto en rollos concéntricos con la izquierda. En el extremo opuesto termina el lazo en una presilla de lonja la cual sirve para que no se escurra de la mano cuando se trabaja de a pie o para asegurarla en la sidera de la cincha cuando se trabaja a caballo. El formado por cuatro o más ramales de tientos trenzados es lo que propiamente se llama lazo entre nosotros, distinguiéndose así de otro más corto y resistente compuesto de una o dos tiras gruesas de cuero retorcidas al cual se denomina sobeo o lazo pampa."
             }
         ]
     },
@@ -2012,6 +2159,18 @@
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Legalidad, verdad, realidad."
+            }
+        ]
+    },
+    "lean": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Química, Drogas",
+                "definition": "Bebida de drogas recreativas, la cual es preparada mezclando jarabe para la tos o resfriado con receta médica que contiene codeína y prometazina con refresco y dulces."
             }
         ]
     },
@@ -2814,6 +2973,18 @@
             }
         ]
     },
+    "legítima": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Derecho",
+                "definition": "Parte de la herencia de la cual el testador no puede disponer por completo puesto que está asignada por ley a ciertos herederos."
+            }
+        ]
+    },
     "legitimidad": {
         "definitions": [
             {
@@ -2865,6 +3036,27 @@
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Habilitar a alguien, de suyo inhábil, para un oficio o empleo."
+            }
+        ]
+    },
+    "legítimo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que se ajusta a la ley."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Aceptable por razón, sentido común o justicia."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que se ajusta a la verdad en cualquier sentido."
             }
         ]
     },
@@ -3578,6 +3770,18 @@
                         "content": "leonino."
                     }
                 ]
+            }
+        ]
+    },
+    "leones": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Ropa, Rioplatense, lunfardismo, desusado",
+                "definition": "Prenda de vestir de largo variable, que cubre desde la cintura hacia abajo ciñendo cada pierna separadamente."
             }
         ]
     },
@@ -5570,6 +5774,24 @@
             }
         ]
     },
+    "libertador": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que liberta."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Religión",
+                "definition": "Cada uno de los sectarios que enseñaban que, cuando Cristo bajó al infierno, libró a todos los impíos que creyeron entonces en él."
+            }
+        ]
+    },
     "libra": {
         "definitions": [
             {
@@ -5970,6 +6192,33 @@
             }
         ]
     },
+    "licenciatura": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "El grado recibido a terminar con estudios de nivel educacional universitario."
+            }
+        ]
+    },
+    "liceo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Centro de enseñanza de muchos países generalmente institucionalizado para enseñanzas medias."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Asociación cultural creada por socios particulares."
+            }
+        ]
+    },
     "licitación": {
         "definitions": [
             {
@@ -6060,6 +6309,41 @@
                         "content": "toreo, corrida, pelea, combate, batalla, lucha, contienda, pugna, liza."
                     }
                 ]
+            }
+        ]
+    },
+    "lidiar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Tauromaquia, Usado también como pronominal",
+                "definition": "Burlar al toro luchando con él y esquivando sus acometidas hasta darle muerte según las reglas de la tauromaquia."
+            },
+            {
+                "number": "2",
+                "type": "verbo intransitivo",
+                "definition": "Batallar, pelear."
+            },
+            {
+                "number": "3",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como transitivo",
+                "definition": "Hacer frente a uno, oponérsele."
+            },
+            {
+                "number": "4",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como transitivo",
+                "definition": "Tratar, comerciar con una o más personas que causan molestia y ejercitan la paciencia."
+            },
+            {
+                "number": "5",
+                "type": "verbo intransitivo",
+                "type_extra": "desusado",
+                "definition": "Litigar."
             }
         ]
     },
@@ -6338,6 +6622,28 @@
                 "type": "adjetivo",
                 "type_extra": "Química",
                 "definition": "Dicho de una fracción: Que es la primera que se produce en una destilación."
+            }
+        ]
+    },
+    "light": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Gastronomía",
+                "definition": "Reducido en calorías, grasas, sodio o alguna sustancia considerada perjudicial."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Dicho de un cigarrillo: Mostrado como menos dañino."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que es moderado en su ideología."
             }
         ]
     },
@@ -7290,6 +7596,29 @@
             }
         ]
     },
+    "líquido": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo masculino",
+                "definition": "Estado fundamental de la materia, el cual posee un volumen relativamente constante pero una forma indefinida y puede ser contenido dentro de un vaso o recipiente similar adoptando su forma."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo masculino",
+                "definition": "Se dice de una sustancia o mezcla relativamente homogénea que posee las propiedades de este estado de la materia."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Saldo de cuantía cierta que resulta de la comparación del cargo con la data."
+            }
+        ]
+    },
     "lírica": {
         "definitions": [
             {
@@ -7340,6 +7669,24 @@
             }
         ]
     },
+    "lisa": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Peces",
+                "definition": "Pez teleósteo de río, parecido a la locha, de cinco a seis centímetros de longitud y de carne insípida. Abunda en el Manzanares y otros ríos del centro de España."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Peces",
+                "definition": "Pez del orden de los acantopterigios, de unos siete decímetros de largo, con cabeza aplastada por encima, hocico corto, dientes muy pequeños y ojos medio cubiertos por una membrana translúcida; cuerpo casi cilíndrico, lomo pardusco, con dos aletas, la primera de sólo cuatro espinas, costados grises y a lo largo seis o siete listas más obscuras, y vientre plateado. Abunda en nuestros mares, principalmente en el Mediterráneo, y su carne y sus huevas son muy estimadas."
+            }
+        ]
+    },
     "lista": {
         "definitions": [
             {
@@ -7363,6 +7710,23 @@
                 "type": "nombre femenino",
                 "type_extra": "etcétera",
                 "definition": "Enumeración, generalmente en forma de columna, de personas, cosas, cantidades, que se hace con determinado propósito."
+            }
+        ]
+    },
+    "listado": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que tiene rayas o listas."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Peces",
+                "definition": "Especie de peces de la familia de los escómbridos en el orden de los perciformes."
             }
         ]
     },
@@ -7405,6 +7769,33 @@
                 "type": "adjetivo",
                 "type_extra": "despectivo o despectiva, coloquial, Usado también como sustantivo, Usado más en diminutivo",
                 "definition": "Hábil para sacar beneficio o ventaja de cualquier situación. Solo los listillos sacan beneficio en situaciones adversas."
+            }
+        ]
+    },
+    "literal": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Letra por letra."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Relacionado a la literatura."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Tal cual."
+            },
+            {
+                "number": "4",
+                "type": "adverbio",
+                "type_extra": "Latinoamérica, coloquial",
+                "definition": "Literalmente, efectivamente."
             }
         ]
     },
@@ -8240,6 +8631,23 @@
             }
         ]
     },
+    "logo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Figura en dos o tres dimensiones, con una imagen o letras artísticas, que se usa como distintivo de una empresa, marca, equipo deportivo, etc."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "desusado",
+                "definition": "Luego."
+            }
+        ]
+    },
     "logra": {
         "definitions": [
             {
@@ -8435,6 +8843,18 @@
             }
         ]
     },
+    "lol": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Carcajada, risa alta."
+            }
+        ]
+    },
     "lola": {
         "definitions": [
             {
@@ -8543,6 +8963,98 @@
                 "type": "nombre femenino",
                 "type_extra": "Geografía",
                 "definition": "Distancia angular medida en grados sobre el ecuador entre el meridiano de un punto y otro de referencia, actualmente el que pasa por Greenwich."
+            }
+        ]
+    },
+    "lord": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Título de los pares británicos que se antepone al nombre o al apellido."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Miembro de la cámara alta del parlamento británico."
+            }
+        ]
+    },
+    "los": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "artículo",
+                "type_extra": "determinado",
+                "definition": "Artículo determinado masculino plural. El singular es lo."
+            },
+            {
+                "number": "2",
+                "type": "pronombre",
+                "type_extra": "personal",
+                "definition": "Pronombre personal masculino de objeto directo (acusativo), tercera persona del plural."
+            }
+        ]
+    },
+    "lote": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cada una de las partes en que se divide un todo que se ha de distribuir entre varias personas."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Conjunto de cosas con características en común."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Conjunto de bienes producidos en una unidad de trabajo."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Cada una de las partes en que se divide un terreno."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Lo que le toca a cada uno en la lotería o en otros juegos en que se sortean sumas desiguales."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Juegos",
+                "definition": "Dote."
+            }
+        ]
+    },
+    "lotería": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Sorteo que se hace de dinero u objetos autorizado públicamente."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Establecimiento donde se venden boletos de lotería."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Asunto que se decide por azar."
             }
         ]
     },
@@ -8700,6 +9212,17 @@
                 "number": "3",
                 "type": "verbo intransitivo",
                 "definition": "Disputar, bregar, abrirse paso en la vida."
+            }
+        ]
+    },
+    "lucro": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Beneficio o provecho, principalmente económico."
             }
         ]
     },
