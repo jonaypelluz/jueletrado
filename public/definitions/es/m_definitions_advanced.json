@@ -227,7 +227,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Fruta",
-                "definition": "Fruto que da la macagüita₁."
+                "definition": "Fruto que da la macagüita."
             }
         ]
     },
@@ -428,7 +428,7 @@
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "Dicho de una cosa, propia de alguien macarra₃."
+                "definition": "Dicho de una cosa, propia de alguien macarra."
             }
         ]
     },
@@ -2311,6 +2311,29 @@
             }
         ]
     },
+    "madero": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Trozo largo de madera en forma de rectángulo o cilindro."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Carpintería, Construcción",
+                "definition": "Pieza de madera labrada a cuatro caras (escuadrada) para fines de construcción."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Náutica, Vehículos",
+                "definition": "Barco, buque, embarcación, nave (vehículo para navegar)."
+            }
+        ]
+    },
     "madrastra": {
         "level": "advanced",
         "source": "wiktionary",
@@ -2520,12 +2543,12 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Frutas",
-                "definition": "Baya del árbol del madroño₁."
+                "definition": "Baya del árbol del madroño."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Borla que se asemeja a la baya del madroño₁."
+                "definition": "Borla que se asemeja a la baya del madroño."
             },
             {
                 "number": "4",
@@ -2726,17 +2749,17 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Conjunto de oficinas y talleres análogos a este₂, para la artillería y efectos movibles de los buques de guerra."
+                "definition": "Conjunto de oficinas y talleres análogos a este, para la artillería y efectos movibles de los buques de guerra."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Local o edificio ocupado por unos₂ y otros talleres."
+                "definition": "Local o edificio ocupado por unos y otros talleres."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Conjunto de operarios que trabajan en ellos₂, o en los demás de un arsenal."
+                "definition": "Conjunto de operarios que trabajan en ellos, o en los demás de un arsenal."
             },
             {
                 "number": "6",
@@ -2857,6 +2880,17 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "En algunas universidades, cancelario."
+            }
+        ]
+    },
+    "maestría": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Estudio univeritario después del grado."
             }
         ]
     },
@@ -3261,7 +3295,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Tiempo que dura una magistratura₁."
+                "definition": "Tiempo que dura una magistratura."
             },
             {
                 "number": "3",
@@ -3732,6 +3766,17 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Magnífico."
+            }
+        ]
+    },
+    "magnífico": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que destaca por sus excelentes cualidades."
             }
         ]
     },
@@ -4324,6 +4369,28 @@
                 "type": "nombre masculino",
                 "type_extra": "Construcción, Chile",
                 "definition": "Piedrecilla menuda, como cuarzo desmenuzado, de color amarillento, que se saca generalmente de los cerros y se usa para el pavimento de senderos, carreteras y jardines."
+            }
+        ]
+    },
+    "mail": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Informática, Argentina, Chile",
+                "definition": "Correo electrónico."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Mensaje que se envía a través del correo electrónico."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Dirección de correo electrónico."
             }
         ]
     },
@@ -5108,7 +5175,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Pieza de diferentes materiales utilizada como contrapeso y tope en un malacate₁. Usualmente tiene forma de disco o de esfera con un orificio central."
+                "definition": "Pieza de diferentes materiales utilizada como contrapeso y tope en un malacate. Usualmente tiene forma de disco o de esfera con un orificio central."
             },
             {
                 "number": "3",
@@ -5253,6 +5320,18 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Que no tiene fortuna o buena suerte; que trae o sufre adversidad."
+            }
+        ]
+    },
+    "málaga": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Bebida",
+                "definition": "Vino generoso, naturalmente dulce, elaborado a partir de uvas de las variedades Pedro Ximénez y Moscatel en la provincia española de Málaga."
             }
         ]
     },
@@ -5903,6 +5982,34 @@
             }
         ]
     },
+    "maldad": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Condición de malo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Acción mala e injusta."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "América",
+                "definition": "Jugueteo o acción traviesa."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Cuba, República Dominicana, Venezuela, Uruguay",
+                "definition": "Broma de mal gusto, inconveniente."
+            }
+        ]
+    },
     "maldadosamente": {
         "level": "advanced",
         "source": "wiktionary",
@@ -6033,6 +6140,37 @@
                 "type": "adverbio",
                 "type_extra": "de modo",
                 "definition": "Con maledicencia."
+            }
+        ]
+    },
+    "maldición": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de maldecir."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Expresión maleducada e irrespetuosa."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Conjunto de males que sobrevienen a alguno, y que los supersticiosos atribuían a castigo providencial o a la influencia de un genio maléfico."
+            },
+            {
+                "number": "4",
+                "type": "interjección",
+                "definition": "Expresión de cólera."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Murmuración."
             }
         ]
     },
@@ -7877,6 +8015,22 @@
             }
         ]
     },
+    "maltrato": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de maltratar o de maltratarse."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Trato cruel o dañino."
+            }
+        ]
+    },
     "maltrecho": {
         "level": "advanced",
         "source": "wiktionary",
@@ -8361,7 +8515,7 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Cuba, El Salvador, Guatemala, Honduras, Nicaragua, Puerto Rico, México",
-                "definition": "Implemento en forma de pezón que se pone en la mamadera₂ para facilitar la succión del líquido."
+                "definition": "Implemento en forma de pezón que se pone en la mamadera para facilitar la succión del líquido."
             },
             {
                 "number": "4",
@@ -8992,7 +9146,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Colombia, coloquial, juvenil",
-                "definition": "Actividad o situación frente a la que se siente mamera₁."
+                "definition": "Actividad o situación frente a la que se siente mamera."
             }
         ]
     },
@@ -9035,6 +9189,48 @@
                 "type": "nombre masculino",
                 "type_extra": "Gastronomía, Botánica",
                 "definition": "Fruta perennifolia de la familia Calophyllaceae de frutos dulces, comestibles. Característica de Centroamérica."
+            }
+        ]
+    },
+    "mami": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Bolivia, Costa Rica, Cuba, Nicaragua, Panamá, Puerto Rico, República Dominicana, Venezuela, coloquial",
+                "definition": "Mujer hermosa o atractiva."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Bolivia, Colombia, Cuba, Ecuador, México, Panamá, Puerto Rico, República Dominicana, Venezuela",
+                "definition": "Fórmula afectuosa empleada por jóvenes y adultos para dirigirse a la novia, a la esposa o a una niña pequeña."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Panamá, coloquial",
+                "definition": "Piropo para llamar la atención de una mujer."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Perú",
+                "definition": "Mujer que maneja un burdel."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Honduras",
+                "definition": "Hombre que siente atracción sexual por otros hombres, o que tiene modales asociados con lo femenino."
+            },
+            {
+                "number": "6",
+                "type": "interjección",
+                "type_extra": "Costa Rica, Puerto Rico",
+                "definition": "Manifiesta admiración por la belleza de una mujer."
             }
         ]
     },
@@ -9467,7 +9663,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Frutos, Colombia, Cuba, Ecuador, Panamá, Puerto Rico",
-                "definition": "Fruto del mamoncillo₁, pequeño, redondo y comestible, de sabor dulce y carnosidad babosa, cáscara verde y pulpa de color rosado a naranja."
+                "definition": "Fruto del mamoncillo, pequeño, redondo y comestible, de sabor dulce y carnosidad babosa, cáscara verde y pulpa de color rosado a naranja."
             },
             {
                 "number": "3",
@@ -9629,7 +9825,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "El oficio de quien construye con mamposterías(1)."
+                "definition": "El oficio de quien construye con mamposterías."
             }
         ]
     },
@@ -9759,7 +9955,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Cualquiera de los productos de características y propiedades afines a las del maná₂ que se obtienen mediante incisiones de otras especies vegetales como el eucalipto, el alerce y otros."
+                "definition": "Cualquiera de los productos de características y propiedades afines a las del maná que se obtienen mediante incisiones de otras especies vegetales como el eucalipto, el alerce y otros."
             }
         ]
     },
@@ -10026,7 +10222,7 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
-                "definition": "Cualidad o condición de mancebo₁ (en edad juvenil, en los años inciales o inmediatamente anteriores al estado adulto)."
+                "definition": "Cualidad o condición de mancebo (en edad juvenil, en los años inciales o inmediatamente anteriores al estado adulto)."
             }
         ]
     },
@@ -10053,7 +10249,7 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
-                "definition": "Cualidad o condición de mancebo₁ (en edad juvenil, en los años inciales o inmediatamente anteriores al estado adulto)."
+                "definition": "Cualidad o condición de mancebo (en edad juvenil, en los años inciales o inmediatamente anteriores al estado adulto)."
             }
         ]
     },
@@ -10675,7 +10871,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Árboles",
-                "definition": "Nombre de varias especies de árboles frutales, especialmente Citrus reticulata, de la familia de las rutáceas, de porte mediano, hojas perennes muy verdes, medianas, alargadas, y terminadas en punta. Las flores aparecen en las axilas de las hojas, solitarias o en racimos. Su fruto es la mandarina₁."
+                "definition": "Nombre de varias especies de árboles frutales, especialmente Citrus reticulata, de la familia de las rutáceas, de porte mediano, hojas perennes muy verdes, medianas, alargadas, y terminadas en punta. Las flores aparecen en las axilas de las hojas, solitarias o en racimos. Su fruto es la mandarina."
             },
             {
                 "number": "3",
@@ -10756,6 +10952,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Religión",
                 "definition": "Ritual del lavatorio de pies que se celebra en el mandátum (el canto comenzaba diciendo mandatum novum do vobis) todos los sábados y el Jueves Santo. Se decía mandatum fratrum cuando se trataba de los monjes y mandatum pauperum cuando el rito se hacía con los pobres."
+            }
+        ]
+    },
+    "mande": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "México",
+                "definition": "Indica que el escuchador no entendió el mensaje."
             }
         ]
     },
@@ -10885,7 +11093,7 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Fécula extraída de la raíz de la mandioca₁."
+                "definition": "Fécula extraída de la raíz de la mandioca."
             }
         ]
     },
@@ -11610,6 +11818,47 @@
             }
         ]
     },
+    "mango": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Saliente larga y estrecha de un utensilio que sirve para sujetarlo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Árbol",
+                "definition": "Árbol con una altura de entre 10 y 30 m, tronco recto, corteza gris, hojas alternas de color verde oscuro por arriba y verde claro por el envés, inflorescencia verde amarilla y fruto en drupa carnosa."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Frutas",
+                "definition": "Fruto comestible de este árbol, de piel verde a rojiza, pulpa amarilla y forma ovoide, con un peso que va desde los 150 gramos a los dos kilos."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador, Guatemala, Honduras, México, Nicaragua",
+                "definition": "Persona físicamente atractiva."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Rioplatense, coloquial, lunfardismo",
+                "definition": "Unidad de dinero."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Plantas",
+                "definition": "Planta de la familia de las poáceas, cultivada en el sur de América en época precolombina como cereal hasta su desplazamiento por otros cultivos importados por los conquistadores; se presumía extinta hasta su redescubrimiento en estado silvestre en la Argentina en 1987."
+            }
+        ]
+    },
     "mangoneador": {
         "level": "advanced",
         "source": "wiktionary",
@@ -11676,7 +11925,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Frutas",
-                "definition": "Fruto del mangostino₁, con una corteza morada y un interior comestible blanco muy dulce y algo cítrico."
+                "definition": "Fruto del mangostino, con una corteza morada y un interior comestible blanco muy dulce y algo cítrico."
             }
         ]
     },
@@ -12401,6 +12650,33 @@
             }
         ]
     },
+    "manipular": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Trabajar algo manualmente."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Cambiar las informaciones a conveniencia o interés de una persona o una causa."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Manosear un objeto."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "type_extra": "coloquial",
+                "definition": "Controlar los actos de una persona impidiendo su autonomía."
+            }
+        ]
+    },
     "manipuleo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -12953,7 +13229,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Habitación que se forma bajo la mansarda₁."
+                "definition": "Habitación que se forma bajo la mansarda."
             }
         ]
     },
@@ -13344,7 +13620,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "definition": "Mantilla₁."
+                "definition": "Mantilla."
             }
         ]
     },
@@ -14460,6 +14736,23 @@
             }
         ]
     },
+    "mapuche": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que pertenece o concierne a una etnia nativa del sur de Sudamérica que ocupaba parte del actual territorio chileno en la época de la conquista, de organización tribal, avanzada agricultura e industria textil, y disposición belicosa que los llevó a resistir la ocupación inca y luego colonial durante siglos."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Lengua polisintética, de origen incierto, hablada tradicionalmente por los mapuche y hoy por unas 200.000 personas en el sur de Chile."
+            }
+        ]
+    },
     "mapudungún": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14513,7 +14806,7 @@
             {
                 "number": "5",
                 "type": "nombre masculino",
-                "definition": "El fruto del maqui₁."
+                "definition": "El fruto del maqui."
             }
         ]
     },
@@ -14565,7 +14858,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Fruto del maqui₁, alto en antioxidantes, que se consume crudo o en conservas y mermeladas, y también se usa para teñir."
+                "definition": "Fruto del maqui, alto en antioxidantes, que se consume crudo o en conservas y mermeladas, y también se usa para teñir."
             },
             {
                 "number": "3",
@@ -14664,6 +14957,17 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "Cine, Teatro",
                 "definition": "Persona encargada de aplicar maquillaje sobre el cuerpo a personas que interpretan los papeles en una película o un espectáculo."
+            }
+        ]
+    },
+    "maquillaje": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Producto o sustancia que sirve para embellecer la piel y otras partes visibles del cuerpo."
             }
         ]
     },
@@ -15255,6 +15559,28 @@
             }
         ]
     },
+    "maratón": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre ambiguo",
+                "definition": "Actividad desarrollada en una sola sesión."
+            },
+            {
+                "number": "2",
+                "type": "nombre ambiguo",
+                "type_extra": "Deporte",
+                "definition": "Competencia olímpica en la que se corre una distancia aproximada de 42 kilómetros."
+            },
+            {
+                "number": "3",
+                "type": "nombre ambiguo",
+                "definition": "Competición."
+            }
+        ]
+    },
     "maratoneable": {
         "level": "advanced",
         "source": "wiktionary",
@@ -15606,6 +15932,91 @@
                 "type": "nombre masculino",
                 "type_extra": "Náutica",
                 "definition": "Cabo pendiente a lo largo de las vergas y que sirve para sostener a la marinería que trabaja en ellas."
+            }
+        ]
+    },
+    "marchar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo intransitivo",
+                "definition": "Ir a pie de un lado para otro."
+            },
+            {
+                "number": "2",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dejar un lugar, salir hacia otra parte."
+            },
+            {
+                "number": "3",
+                "type": "verbo intransitivo",
+                "definition": "Funcionar un aparato o mecanismo que se mueve o que tiene piezas móviles."
+            },
+            {
+                "number": "4",
+                "type": "verbo intransitivo",
+                "definition": "Desarrollarse una situación, funcionar una cosa material o inmaterial."
+            },
+            {
+                "number": "5",
+                "type": "verbo intransitivo",
+                "definition": "Dicho de una tropa: caminar o también desfilar, guardando el orden y la alineación."
+            },
+            {
+                "number": "6",
+                "type": "verbo intransitivo",
+                "definition": "Ir en determinada posición con relación a los demás."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "type_extra": "Uruguay, coloquial",
+                "definition": "Perder la vida."
+            },
+            {
+                "number": "8",
+                "type": "verbo intransitivo",
+                "type_extra": "Uruguay, coloquial",
+                "definition": "Perder un combate."
+            },
+            {
+                "number": "9",
+                "type": "verbo intransitivo",
+                "type_extra": "Uruguay, coloquial",
+                "definition": "Sobreponerse a una dificultad persistente."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "Paraguay",
+                "definition": "Dicho del dueño de una casa: echar a un huésped de mala manera."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "type_extra": "República Dominicana",
+                "definition": "Embestir."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "type_extra": "República Dominicana",
+                "definition": "Pretender o desear a otra persona."
+            },
+            {
+                "number": "13",
+                "type": "verbo transitivo",
+                "type_extra": "República Dominicana",
+                "definition": "Encarar a otra persona, para proponerle o para hablar sobre algún asunto."
+            },
+            {
+                "number": "14",
+                "type": "verbo transitivo",
+                "type_extra": "Argentina",
+                "definition": "Dicho de un mozo: ordenar la preparación de algún plato."
             }
         ]
     },
@@ -16660,6 +17071,24 @@
             }
         ]
     },
+    "marihuana": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Plantas",
+                "definition": "Variedad del cáñamo, de escaso valor como textil y alta concentración de tetrahidrocannabinol, cultivada para su uso como narcótico."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Fármacos",
+                "definition": "Picadura de las sumidades floridas de esta planta, utilizada como psicoactivo."
+            }
+        ]
+    },
     "marihuanero": {
         "level": "advanced",
         "source": "wiktionary",
@@ -16929,6 +17358,39 @@
             }
         ]
     },
+    "mariposa": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Insectos",
+                "definition": "Cualquiera de muchos millares de especies de insectos lepidópteros, característicos en su forma adulta (imago) por poseer alas de gran tamaño en relación al cuerpo y con frecuencia de vistoso colorido. Son holometabólicos, atravesando una etapa de larva (oruga) áptera tras la eclosión del huevo, una fase de crisálida intermedia, y finalmente la imago; pese a la extendida creencia en la brevedad de su vida, su ciclo vital depende de la especie, variando entre pocas horas y un año, más aún considerando los períodos de dormancia de la pupa. Los adultos se alimentan primariamente libando néctar floral. La distinción entre mariposas y polillas se basa en la apariencia, y no en criterios taxonómicos, que las consideran partes de un mismo grupo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Natación",
+                "definition": "Estilo de natación en que el practicante se impulsa mediante la vigorosa ondulación del cuerpo, a la vez que avanza los brazos en círculos por encima de la espalda al recoger y junto al pecho al impulsarse."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Tipo de rosca o tornillo dotado de dos lengüetas similares en forma a alas para permitir su movimiento con los dedos, sin necesidad de herramientas."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Aspersor mecánico usado en algunos sistemas de riego, dotado de varias bocas que recuerdan alas por su disposición."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Navaja en la que el mango está dividido en dos mitades que pueden pivotar a ambos lados de la base de la hoja. Su apertura se puede realizar por inercia mediante un movimiento circular y rápido de la mano que sostiene la navaja."
+            }
+        ]
+    },
     "mariposario": {
         "level": "advanced",
         "source": "wiktionary",
@@ -17013,6 +17475,22 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Perteneciente al marido o a la vida conyugal."
+            }
+        ]
+    },
+    "marítimo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne al mar."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Se dice de lo que hay o vive en el mar o cerca de él."
             }
         ]
     },
@@ -17502,6 +17980,22 @@
             }
         ]
     },
+    "marqués": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Señor poseedor de una tierra situada en la marca de un reino."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "definition": "Hombre con el título nobiliario inferior al de duque y superior al de conde, entre la nobleza europea."
+            }
+        ]
+    },
     "marquesa": {
         "level": "advanced",
         "source": "wiktionary",
@@ -17720,6 +18214,64 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Mazo pesado y de mango largo, utilizado para partir piedras."
+            }
+        ]
+    },
+    "marrón": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Colores, Usado también como sustantivo",
+                "definition": "Color producido mediante la mezcla de pigmento rojo y verde, naranja y azul, o amarillo y violeta. Similar al del café, el chocolate, la madera, la cáscara de frutos secos (castañas, avellanas, coco), etc."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Cualquier tarea desagradable que le toca hacer a alguien."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Deportista que oficialmente es aficionado, pero en realidad es un profesional."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "galicismo",
+                "definition": "Castaña, en particular la confitada."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Bebida, Venezuela",
+                "definition": "Café cortado, con poca leche."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Numismática, Venezuela, coloquial",
+                "definition": "Billete antiguo con el valor de cien (100) bolívares."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Juegos, Utensilios",
+                "definition": "Piedra lanzada en el juego del marro."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "México, Canarias, Puerto Rico, Uruguay",
+                "definition": "Maza utilizada para romper piedras."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "Puerto Rico",
+                "definition": "Péndulo metálico que golpea los costados de la campana."
             }
         ]
     },
@@ -18426,6 +18978,17 @@
             }
         ]
     },
+    "masacre": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Matanza masiva, deliberada y cruel de personas, en especial cuando éstas están indefensas."
+            }
+        ]
+    },
     "masacúa": {
         "level": "advanced",
         "source": "wiktionary",
@@ -18587,7 +19150,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Sitio en que se reúne esta gente₁."
+                "definition": "Sitio en que se reúne esta gente."
             },
             {
                 "number": "3",
@@ -18694,6 +19257,34 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "Puñetazo."
+            }
+        ]
+    },
+    "mascota": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Persona, objeto o animal considerado como portador de buena suerte."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Deporte",
+                "definition": "Personaje, generalmente no humano, que hace de emblema y representa un grupo de personas o una institución. Frecuentemente aparece en eventos, competencias o certámenes."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Animal doméstico o de compañía."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Ropa, Andalucía",
+                "definition": "Sombrero flexible."
             }
         ]
     },
@@ -19237,7 +19828,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Náutica",
-                "definition": "Vara algo más ligera que el mástil₁ que se coloca sobre este a continuación de la cofa, formando el extremo de aquel."
+                "definition": "Vara algo más ligera que el mástil que se coloca sobre este a continuación de la cofa, formando el extremo de aquel."
             },
             {
                 "number": "3",
@@ -20644,6 +21235,18 @@
             }
         ]
     },
+    "mató": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Gastronomía",
+                "definition": "Tipo de queso fresco, típico de la gastronomía de Cataluña, elaborado con leche de cabra u oveja."
+            }
+        ]
+    },
     "matojo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -20895,6 +21498,37 @@
             }
         ]
     },
+    "matrícula": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de matricular o matricularse."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Catálogo o lista donde están registrados oficialmente los nombres, los bienes o las entidades para realizar un objetivo determinado."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Documento que demuestra la matriculación."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Grupo de personas que se han matriculado."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Placa que indica el número de registro de un vehículo de tracción propia, según el lugar donde ha sido alistado."
+            }
+        ]
+    },
     "matrimonial": {
         "level": "advanced",
         "source": "wiktionary",
@@ -20920,7 +21554,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Arte, Juguetes",
-                "definition": "Cada muñeca de la matrioska₁."
+                "definition": "Cada muñeca de la matrioska."
             },
             {
                 "number": "3",
@@ -21358,7 +21992,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "En particular, cada uno de los huesos de la región maxilar₁ superior, por oposición a la mandíbula o maxilar inferior."
+                "definition": "En particular, cada uno de los huesos de la región maxilar superior, por oposición a la mandíbula o maxilar inferior."
             }
         ]
     },
@@ -21499,7 +22133,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "type_extra": "Lgbt, México, coloquial",
+                "type_extra": "LGBT, México, coloquial",
                 "definition": "Hombre que sostiene relaciones sexuales con otros hombres, indistintamente de su orientación sexual, a cambio de un beneficio."
             }
         ]
@@ -21563,7 +22197,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Alimentos",
-                "definition": "Manjar ligado con mayonesa₁."
+                "definition": "Manjar ligado con mayonesa."
             }
         ]
     },
@@ -21594,30 +22228,30 @@
             {
                 "number": "5",
                 "type": "nombre masculino y femenino",
-                "definition": "Mampostero₂."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino y femenino",
                 "definition": "En los hospitales de San Lárazo, quien administra o gobierna."
             },
             {
-                "number": "7",
+                "number": "6",
                 "type": "nombre masculino y femenino",
                 "type_extra": "España",
                 "definition": "En el mundo de los pastores el mayoral es el encargado de todo, incluso de los salarios. Señala los chozos de verano, fabrica los necesarios. Es la máxima autoridad."
             },
             {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "definition": "Mampostero."
+            },
+            {
                 "number": "8",
                 "type": "nombre masculino y femenino",
                 "type_extra": "Germanía",
-                "definition": "Alguacil₁."
+                "definition": "Alguacil."
             },
             {
                 "number": "9",
                 "type": "nombre masculino y femenino",
                 "type_extra": "Germanía",
-                "definition": "Corregidor₂."
+                "definition": "Corregidor."
             }
         ]
     },
@@ -21661,7 +22295,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino y femenino",
-                "definition": "El hijo mayor de una persona que goza y posee mayorazgo₂."
+                "definition": "El hijo mayor de una persona que goza y posee mayorazgo."
             },
             {
                 "number": "4",
@@ -21893,6 +22527,18 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "Ocupaciones",
                 "definition": "Comerciante que vende grandes cantidades de géneros a otros comerciantes, que a su vez son quienes venden al público."
+            }
+        ]
+    },
+    "mayormente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Principalmente, con especialidad."
             }
         ]
     },
@@ -22343,7 +22989,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Alimentos",
-                "definition": "Figura o bombón de mazapán₁."
+                "definition": "Figura o bombón de mazapán."
             },
             {
                 "number": "3",
@@ -23319,7 +23965,7 @@
             {
                 "number": "4",
                 "type": "adjetivo",
-                "definition": "Que pertenece o tiene relación con los mechones₃."
+                "definition": "Que pertenece o tiene relación con los mechones."
             }
         ]
     },
@@ -23537,7 +24183,7 @@
                 "number": "1",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
-                "definition": "Originario, relativo a, o propio de Medellín₂, ciudad en Antioquia, Colombia."
+                "definition": "Originario, relativo a, o propio de Medellín, ciudad en Antioquia, Colombia."
             }
         ]
     },
@@ -24069,6 +24715,17 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "Agro",
                 "definition": "Agricultor que participa en un contrato de mediería."
+            }
+        ]
+    },
+    "medieval": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne a la Edad Media."
             }
         ]
     },
@@ -25660,13 +26317,13 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Bocadillo₃."
+                "type_extra": "se emplea más en plural",
+                "definition": "Afectada y demasiada delicadeza en palabras, acciones y ademanes."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "type_extra": "se emplea más en plural",
-                "definition": "Afectada y demasiada delicadeza en palabras, acciones y ademanes."
+                "definition": "Bocadillo."
             }
         ]
     },
@@ -27056,7 +27713,7 @@
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Tiempo que dura esta menguante₃."
+                "definition": "Tiempo que dura esta menguante."
             },
             {
                 "number": "5",
@@ -27196,7 +27853,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Período de la vida en que se produce la menopausia₁."
+                "definition": "Período de la vida en que se produce la menopausia."
             }
         ]
     },
@@ -27567,7 +28224,7 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Menstruoso₁."
+                "definition": "Menstruoso."
             },
             {
                 "number": "2",
@@ -27600,13 +28257,13 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Perteneciente o relativo al menstruo₃."
+                "definition": "Perteneciente o relativo al menstruo."
             },
             {
                 "number": "2",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo femenino",
-                "definition": "Aplícase a la mujer que está con el menstruo₃."
+                "definition": "Aplícase a la mujer que está con el menstruo."
             }
         ]
     },
@@ -27844,6 +28501,17 @@
             }
         ]
     },
+    "mentir": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo intransitivo",
+                "definition": "Decir algo que es falso o negar la verdad."
+            }
+        ]
+    },
     "mentirijilla": {
         "level": "advanced",
         "source": "wiktionary",
@@ -27859,6 +28527,24 @@
                 "type": "nombre femenino",
                 "type_extra": "España",
                 "definition": "Mentira sin importancia."
+            }
+        ]
+    },
+    "mentiroso": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "se usa también como sustantivo",
+                "definition": "Se dice de la persona que falta a la verdad, que miente."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Juegos",
+                "definition": "Desconfío (juego de naipes)."
             }
         ]
     },
@@ -28484,7 +29170,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Propio o relativo a los mercenarios₁."
+                "definition": "Propio o relativo a los mercenarios."
             },
             {
                 "number": "3",
@@ -28708,6 +29394,22 @@
             }
         ]
     },
+    "merecido": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Justo. Que ha sido ganado como consecuencia lógica de acciones, cualidades, actitudes o méritos propios."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Castigo a que alguno se ha hecho acreedor."
+            }
+        ]
+    },
     "merecimiento": {
         "level": "advanced",
         "source": "wiktionary",
@@ -28838,7 +29540,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Estilo de baile con el que se danza el merengue₂."
+                "definition": "Estilo de baile con el que se danza el merengue."
             },
             {
                 "number": "4",
@@ -29118,6 +29820,28 @@
                 "type": "verbo intransitivo",
                 "type_extra": "infrecuente",
                 "definition": "Actuar de modo meritorio (digno de aprobación), generalmente para preparar u obtener el logro de algo."
+            }
+        ]
+    },
+    "mérito": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción, circunstancia o cualidad que hace a algo o alguien digno de aprecio, valor o reconocimiento."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Acción que hace a una persona digna de premio o de castigo."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que merece reconocimiento o que corresponde a su condición o dignidad."
             }
         ]
     },
@@ -30305,7 +31029,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Teoría o sistema acerca de la metafísica₁ propuesto por un autor o su escuela."
+                "definition": "Teoría o sistema acerca de la metafísica propuesto por un autor o su escuela."
             },
             {
                 "number": "3",
@@ -32261,6 +32985,23 @@
             }
         ]
     },
+    "miami": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Tribu de amerindios algonquinos de Norteamérica."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Glotónimos",
+                "definition": "Lengua algonquina hablada por los miamis (ISO 639-3 mia)."
+            }
+        ]
+    },
     "miar": {
         "level": "advanced",
         "source": "wiktionary",
@@ -32513,13 +33254,13 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Frutas",
-                "definition": "El fruto del michay₁; es una baya cerúlea con semillas ricas en amigdalina, un compuesto usado para disuadir a los herbívoros."
+                "definition": "El fruto del michay; es una baya cerúlea con semillas ricas en amigdalina, un compuesto usado para disuadir a los herbívoros."
             },
             {
                 "number": "5",
                 "type": "nombre masculino",
                 "type_extra": "Frutas",
-                "definition": "El fruto del michay₃; es una baya globosa de 5 a 6 milímetros de longitud que contiene entre una y cinco semillas, las cuales miden de 3 a 5 milímetros de largo."
+                "definition": "El fruto del michay; es una baya globosa de 5 a 6 milímetros de longitud que contiene entre una y cinco semillas, las cuales miden de 3 a 5 milímetros de largo."
             }
         ]
     },
@@ -32841,6 +33582,54 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "Chile, Bolivia",
                 "definition": "Conductor del micro."
+            }
+        ]
+    },
+    "micro": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Vehículos, Argentina, sur de Chile, coloquial",
+                "definition": "Vehículo automóvil de gran capacidad para transportar pasajeros en trayectos urbanos e interurbanos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Chile, coloquial, Usado también como sustantivo masculino",
+                "definition": "Bus urbano para el transporte de pasajeros."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Programa de radio de duración muy corta."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Micrófono."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Informática, coloquial",
+                "definition": "Microprocesador."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Informática, coloquial",
+                "definition": "Microcontrolador."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Economía, coloquial",
+                "definition": "Microeconomía."
             }
         ]
     },
@@ -33214,6 +34003,24 @@
             }
         ]
     },
+    "micrófono": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Electrónica",
+                "definition": "Por extensión, cualquier dispositivo capaz de transformar una onda sonora en una señal eléctrica para su amplificación, transmisión o grabación."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Electrónica, desusado",
+                "definition": "Dispositivo capaz de amplificar sonidos tenues."
+            }
+        ]
+    },
     "microfútbol": {
         "level": "advanced",
         "source": "wiktionary",
@@ -33269,7 +34076,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "Lgbt",
+                "type_extra": "LGBT",
                 "definition": "Comportamiento sutil que infravalora a las personas homosexuales respecto a las heterosexuales."
             }
         ]
@@ -34154,6 +34961,24 @@
             }
         ]
     },
+    "miente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en plural",
+                "definition": "Pensamiento; facultad de pensar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Gana o voluntad."
+            }
+        ]
+    },
     "mientra": {
         "level": "advanced",
         "source": "wiktionary",
@@ -34373,6 +35198,28 @@
                 "type": "nombre femenino",
                 "type_extra": "México, coloquial",
                 "definition": "Cuerpo de los agentes de inmigración de la frontera de Estados Unidos."
+            }
+        ]
+    },
+    "migración": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Desplazamiento más o menos permanente del lugar de residencia de una persona o grupo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Desplazamiento periódico de un grupo de animal por exigencias de la alimentación o la reproducción."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Informática",
+                "definition": "Rediseño de un programa o sistema para su adaptación a otra plataforma."
             }
         ]
     },
@@ -34811,7 +35658,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Propio de o relativo a los mileuristas₁."
+                "definition": "Propio de o relativo a los mileuristas."
             }
         ]
     },
@@ -35391,6 +36238,34 @@
             }
         ]
     },
+    "millonario": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que se mide o cuenta por millones."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que posee uno o más millones de algún tipo de moneda."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "figurado, Usado también como sustantivo",
+                "definition": "Inmensamente rico; acaudalado."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Fútbol, Argentina, coloquial, Usado también como sustantivo",
+                "definition": "Que pertenece o concierne a Club Atlético River Plate o es hincha de ese equipo argentino."
+            }
+        ]
+    },
     "millonésimo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -35909,6 +36784,27 @@
             }
         ]
     },
+    "mineral": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Sustancia natural, generalmente sólida, que se ha originado con una composición química determinada y una estructura cristalina definida."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Perteneciente o relativo a las sustancias inorgánicas creadas de modo natural."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Mena."
+            }
+        ]
+    },
     "mineralogía": {
         "level": "advanced",
         "source": "wiktionary",
@@ -35952,6 +36848,54 @@
                 "type": "nombre masculino",
                 "type_extra": "Mineralogía",
                 "definition": "Sustancia que visualmente parece mineral, pero cuyos átomos no están ordenados en estructura cristalina."
+            }
+        ]
+    },
+    "minería": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Arte de laborear, explotar y explorar las minas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas dedicadas al trabajo de explotación de minas."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Industria o actividad minera."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Conjunto de las minas de una nación, comarca, región, etc."
+            }
+        ]
+    },
+    "minero": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne a la minería o a la mina."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Trabajador dedicado a la minería."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Aves",
+                "definition": "Pájaro chileno de plumaje gris rojizo y cola corta."
             }
         ]
     },
@@ -36063,6 +37007,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Nicaragua",
                 "definition": "Compañero de equipo."
+            }
+        ]
+    },
+    "mini": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Guatemala",
+                "definition": "Minifalda."
             }
         ]
     },
@@ -37322,13 +38278,13 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "type_extra": "Plantas",
-                "definition": "Palmera endémica de Cuba y Yucatán con hojas en forma de abanico, de la envoltura de cuyas bayas se extrae el miraguano₂."
+                "definition": "Palmera endémica de Cuba y Yucatán con hojas en forma de abanico, de la envoltura de cuyas bayas se extrae el miraguano."
             },
             {
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Textiles",
-                "definition": "Sustancia algodonosa muy ligera, utilizada en la industria textil como relleno de almohadones, que se extrae del miraguano₁."
+                "definition": "Sustancia algodonosa muy ligera, utilizada en la industria textil como relleno de almohadones, que se extrae del miraguano."
             }
         ]
     },
@@ -37408,6 +38364,18 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Se dice de algo que proviene o tiene relación con Miranda, en Venezuela."
+            }
+        ]
+    },
+    "miras": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Náutica",
+                "definition": "Cañones que se ponen en dos portas, mayores que las de los costados, que están en el castillo a uno y otro lado del bauprés."
             }
         ]
     },
@@ -37851,7 +38819,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Botánica",
-                "definition": "Género de plantas, nativas del sur de Europa y el norte de África, dentro del cual se clasifican diferentes especies de mirto₁."
+                "definition": "Género de plantas, nativas del sur de Europa y el norte de África, dentro del cual se clasifican diferentes especies de mirto."
             }
         ]
     },
@@ -38061,6 +39029,51 @@
                 "type": "nombre masculino",
                 "type_extra": "Medicina",
                 "definition": "Cólico miserere."
+            }
+        ]
+    },
+    "misericordia": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Inclinación a perdonar o a sentir compasión por quienes sufren, especialmente por aquellos que son más desfavorecidos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Cualidad moral o virtud que nos hace apiadarnos de la desgracia ajena y proceder en consecuencia."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "Cualidad de Dios de perdonar los pecados y debilidades humanas."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "Atributo divino de perdonar a los pecadores."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Pieza pequeña adosada en el revés del asiento del coro que se deja ver cuando éste está levantado, sobre la que se apoyan ligeramente los canónigos cuando tienen que estar mucho tiempo de pie; aparentemente están erguidos pero realmente están ligeramente sentados."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "poco usado",
+                "definition": "Pequeña cantidad de algo que se da como limosna o caridad."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Puñal del caballero para rematar a los heridos."
             }
         ]
     },
@@ -38321,6 +39334,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Religión",
                 "definition": "Congregantes instituidos por san Vicente de Paul, para hacer misiones."
+            }
+        ]
+    },
+    "misiones": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "Las casas que en distintas épocas han fundado los misioneros en las fronteras de los indios salvajes de América, y aun en poblaciones habitadas solamente por estos."
             }
         ]
     },
@@ -38770,12 +39795,12 @@
             {
                 "number": "1",
                 "type": "verbo transitivo",
-                "definition": "Convertir en mito₁ cualquier cosa."
+                "definition": "Convertir en mito cualquier cosa."
             },
             {
                 "number": "2",
                 "type": "verbo transitivo",
-                "definition": "Hacer un mito₂ o una leyenda de alguna persona, evento, cosa, etc."
+                "definition": "Hacer un mito o una leyenda de alguna persona, evento, cosa, etc."
             }
         ]
     },
@@ -39121,12 +40146,12 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Originario, relativo a, o propio de este pueblo₁."
+                "definition": "Originario, relativo a, o propio de este pueblo."
             },
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "En lengua mixe₄ o relativo a esta."
+                "definition": "En lengua mixe o relativo a esta."
             },
             {
                 "number": "4",
@@ -39202,7 +40227,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Se dice de algo que proviene o tiene relación con los mixtecos₁ o su cultura."
+                "definition": "Se dice de algo que proviene o tiene relación con los mixtecos o su cultura."
             },
             {
                 "number": "3",
@@ -39843,6 +40868,59 @@
             }
         ]
     },
+    "mochila": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Bolsa de material resistente que se sujeta a la espalda."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Bolivia, Colombia, Paraguay",
+                "definition": "Bolso tejido de tela o de fibra que se lleva colgado del hombro."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Informática, coloquial",
+                "definition": "Dispositivo que sirve para conectar al computador ciertos accesorios como impresoras o proyectores."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Chile, figurado",
+                "definition": "Situación, generalmente financiera, que se experimenta como una carga o preocupación."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Puerto Rico, República Dominicana",
+                "definition": "Saco que emplean los galleros para transportar los gallos a la pelea."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "rioplatense",
+                "definition": "Tanque de agua, sin empotrar, para un inodoro."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Provisión de vituallas y otros materiales de subsistencia que llevaban los soldados en campaña."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Tipo de cubierta que se ajustaba en ciertas sillas de montar a la jineta."
+            }
+        ]
+    },
     "mochilear": {
         "level": "advanced",
         "source": "wiktionary",
@@ -39897,7 +40975,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Frutos",
-                "definition": "Fruto de la mochilita₁, empleado como vermífugo (para matar parásitos intestinales), purgante y sudorífico."
+                "definition": "Fruto de la mochilita, empleado como vermífugo (para matar parásitos intestinales), purgante y sudorífico."
             }
         ]
     },
@@ -40098,7 +41176,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Idioma de la familia guaicurú, hablado por los mocovíes₁."
+                "definition": "Idioma de la familia guaicurú, hablado por los mocovíes."
             }
         ]
     },
@@ -41070,7 +42148,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Superficie o parte de los materiales que es afectada o cubierta de moho₁."
+                "definition": "Superficie o parte de los materiales que es afectada o cubierta de moho."
             },
             {
                 "number": "3",
@@ -41116,6 +42194,17 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Lleno de moho."
+            }
+        ]
+    },
+    "moisés": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cuna portátil hecha con mimbre."
             }
         ]
     },
@@ -42105,6 +43194,38 @@
             }
         ]
     },
+    "molestar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Causar molestias o incomodidades de alguna clase."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Impedir o perturbar la correcta ejecución de una tarea."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Causar dolor ligero."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Fatigar."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Causar ira o enojo."
+            }
+        ]
+    },
     "molestarse": {
         "level": "advanced",
         "source": "wiktionary",
@@ -42113,6 +43234,27 @@
                 "number": "1",
                 "type": "verbo pronominal",
                 "definition": "Enojarse, malhumorarse."
+            }
+        ]
+    },
+    "molestia": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Incomodidad, fatiga."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Fastidio."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Cansancio."
             }
         ]
     },
@@ -42307,6 +43449,35 @@
             }
         ]
     },
+    "molino": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Herramientas",
+                "definition": "Utensilio, máquina o instalación destinanda a moler."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Agricultura",
+                "definition": "En particular, aquel, destinado a moler principalmente grano, que consta de una rueda, movida por la fuerza del agua o del viento, mediante distintos engranajes mueve una piedra o muela sobre otra que permanece fija, depositándose el grano entre medias de ellas."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Edificio que alberga la instalación anterior."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Ajedrez",
+                "definition": "Combinación que permite ganar material con la torre y el alfil mediante una secuencia de consecutivos jaques a la descubierta, manteniendo al rey del rival encerrado en un rincón del tablero."
+            }
+        ]
+    },
     "molismofobia": {
         "level": "advanced",
         "source": "wiktionary",
@@ -42388,7 +43559,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Zootomía",
-                "definition": "Estómago muscular de otros grupos de animales, vertebrados o invertebrados, que funciona de modo análogo a la molleja₁."
+                "definition": "Estómago muscular de otros grupos de animales, vertebrados o invertebrados, que funciona de modo análogo a la molleja."
             },
             {
                 "number": "3",
@@ -42693,6 +43864,22 @@
                 "type": "nombre masculino",
                 "type_extra": "Mitología, Venezuela",
                 "definition": "Personaje místico muy parecido a los duendes, es de origen indígena y propio de la población de Boconó, en el estado Trujillo."
+            }
+        ]
+    },
+    "mona": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Hembra del mono."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Estado de embriaguez por consumo de alcohol."
             }
         ]
     },
@@ -43299,6 +44486,64 @@
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "Doctrina que defiende la validez de los tratados internacionales una vez entran en vigencia, irrevocable e ineludible por ninguna autoridad local, las cuales deberán acatarlos y no podrán promulgar leyes que los contradigan."
+            }
+        ]
+    },
+    "monitor": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Persona encargada de guiar y orientar a un grupo de personas."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Persona que amonesta o avisa."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Cierto subalterno que acompañaba al orador romano en el foro, con el encargo de recordarle y presentarle los documentos y objetos de que debía servirse en su peroración."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Esclavo que acompañaba a su señor en las calles para recordarle los nombres de las personas a quienes iba encontrando."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Instrumento que entrega datos de algún tipo (visual, numérico, auditivo) de un proceso o fenómeno."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Periférico de ordenador provisto de una pantalla."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "definition": "Programa o aparato dedicado a recabar información de algún tipo."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Nombre dado a un tipo de barco de guerra del siglo XIX, artillado, acorazado y con espolón de acero a proa, que navegaba casi sumergido para ofrecer menos blanco vulnerable."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "definition": "Familia de lagartos tropicales."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "En programación, tipo abstracto de datos que constituye el método clásico para restringir o permitir el acceso a recursos compartidos (por ejemplo, un recurso de almacenamiento) en un entorno de multiprocesamiento."
             }
         ]
     },
@@ -45347,6 +46592,24 @@
             }
         ]
     },
+    "montevideo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Aves",
+                "definition": "Pájaro americano de la familia de los tiránidos, de unos 25 cm de longitud con el vientre y el pecho amarillos. Es natural de zonas húmedas, donde se alimenta cazando insectos al vuelo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Cuba",
+                "definition": "Carne de res secada y salada para su mejor conservación."
+            }
+        ]
+    },
     "montículo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -45499,12 +46762,12 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "definition": "Animal domesticado y usado para montar₃."
+                "definition": "Animal domesticado y usado para montar."
             },
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Asiento adaptado para ir sobre el lomo de una montura₁."
+                "definition": "Asiento adaptado para ir sobre el lomo de una montura."
             }
         ]
     },
@@ -45749,7 +47012,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "definition": "Pañuelo₂ para limpiarse los mocos."
+                "definition": "Pañuelo para limpiarse los mocos."
             },
             {
                 "number": "2",
@@ -46924,7 +48187,7 @@
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Estudio y análisis de la morfología₄."
+                "definition": "Estudio y análisis de la morfología."
             }
         ]
     },
@@ -48892,7 +50155,7 @@
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Por analogía con el tamaño de la mostaza₂, perdigón de pequeño tamaño."
+                "definition": "Por analogía con el tamaño de la mostaza, perdigón de pequeño tamaño."
             }
         ]
     },
@@ -49785,6 +51048,18 @@
             }
         ]
     },
+    "movida": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, coloquial",
+                "definition": "Sucesión de eventos afines, concertados previamente o no."
+            }
+        ]
+    },
     "movidito": {
         "level": "advanced",
         "source": "wiktionary",
@@ -49927,6 +51202,28 @@
                 "type": "nombre femenino",
                 "type_extra": "Gastronomía",
                 "definition": "Queso fresco de cuajada estirada preparado con leche de búfala o de vaca, en formas redondas o trenzadas."
+            }
+        ]
+    },
+    "mu": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "onomatopeya",
+                "definition": "Onomatopeya del mugido o bramido de un bovino."
+            },
+            {
+                "number": "2",
+                "type": "onomatopeya",
+                "definition": "Mugido."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Acto de dormir. Se usaba por las nodrizas cuando querían que se durmieran los niños. Vamos a la mu."
             }
         ]
     },
@@ -50442,7 +51739,7 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Música",
-                "definition": "Mudanza₁ de los nombres de las notas del solfeo, que se empleaba para identificar el si antes de que le fuera asignado un nombre propio."
+                "definition": "Mudanza de los nombres de las notas del solfeo, que se empleaba para identificar el si antes de que le fuera asignado un nombre propio."
             },
             {
                 "number": "5",
@@ -51005,7 +52302,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Técnica para la selección de una muestra₁ a partir de una población."
+                "definition": "Técnica para la selección de una muestra a partir de una población."
             }
         ]
     },
@@ -51295,7 +52592,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Glotónimos",
-                "definition": "Lengua hablada por los muiscas₁ en la zona central andina de Colombia hasta la época colonial española y hoy en proceso de recuperación. Su nombre en muisca es muysccubun pero el de codificación internacional es \"chibcha\", nombre con que se le conoció a partir de la colonización española."
+                "definition": "Lengua hablada por los muiscas en la zona central andina de Colombia hasta la época colonial española y hoy en proceso de recuperación. Su nombre en muisca es muysccubun pero el de codificación internacional es \"chibcha\", nombre con que se le conoció a partir de la colonización española."
             }
         ]
     },
@@ -51898,7 +53195,7 @@
                 "number": "2",
                 "type": "nombre masculino y femenino",
                 "type_extra": "Mamíferos, Usado más en femenino",
-                "definition": "Por extensión, animal híbrido nacido de la cruza entre un caballo y una burra. Es más dificil de criar que la mula₁ y no tiene las mismas aptitudes como animal de carga."
+                "definition": "Por extensión, animal híbrido nacido de la cruza entre un caballo y una burra. Es más dificil de criar que la mula y no tiene las mismas aptitudes como animal de carga."
             },
             {
                 "number": "3",
@@ -53091,7 +54388,7 @@
                 "number": "2",
                 "type": "nombre masculino y femenino",
                 "type_extra": "Ocupaciones",
-                "definition": "Artista cuya obra es similar a la de los muralistas₁."
+                "definition": "Artista cuya obra es similar a la de los muralistas."
             }
         ]
     },
@@ -53538,7 +54835,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Naipes",
-                "definition": "En el juego del mus₁, descarte."
+                "definition": "En el juego del mus, descarte."
             }
         ]
     },
@@ -54168,7 +55465,7 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Biología",
-                "definition": "Individuo que ha heredado una mutación₂, en especial si esta altera su fenotipo."
+                "definition": "Individuo que ha heredado una mutación, en especial si esta altera su fenotipo."
             },
             {
                 "number": "4",
@@ -54392,7 +55689,7 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Asociación, entidad o agrupación con un régimen de mutualidad₂."
+                "definition": "Asociación, entidad o agrupación con un régimen de mutualidad."
             }
         ]
     },
@@ -54508,7 +55805,7 @@
             {
                 "number": "4",
                 "type": "adjetivo",
-                "definition": "Propio de o relativo a los muyahidines₁."
+                "definition": "Propio de o relativo a los muyahidines."
             }
         ]
     },
