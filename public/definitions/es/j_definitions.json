@@ -62,6 +62,18 @@
             }
         ]
     },
+    "jaja": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Risa."
+            }
+        ]
+    },
     "james": {
         "definitions": [
             {
@@ -290,6 +302,29 @@
             }
         ]
     },
+    "jean": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Yin."
+            }
+        ]
+    },
+    "jefa": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "desusado, coloquial",
+                "definition": "Mujer del jefe."
+            }
+        ]
+    },
     "jefatura": {
         "definitions": [
             {
@@ -419,6 +454,24 @@
             }
         ]
     },
+    "jersey": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Vestimenta, España",
+                "definition": "Prenda de vestir tejida en lana que cubre el torso y los brazos."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Textiles",
+                "definition": "Tejido de punto utilizado principalmente para la confección de prendas de vestir. Originalmente estaba hecho de lana, pero ahora está hecho de lana, algodón y fibras sintéticas."
+            }
+        ]
+    },
     "jinete": {
         "definitions": [
             {
@@ -451,6 +504,54 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "definition": "Soldado de a caballo que peleaba con lanza y adarga, y llevaba encogidas las piernas, con estribos cortos."
+            }
+        ]
+    },
+    "jo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "España",
+                "definition": "Expresa decepción, hastío, asombro o enfado."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "type_extra": "rural",
+                "definition": "Voz de mando para parar a las caballerizas o animales de ganado."
+            },
+            {
+                "number": "3",
+                "type": "onomatopeya",
+                "type_extra": "Usado más repetido",
+                "definition": "Imita una risa socarrona."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Artes marciales",
+                "definition": "Bastón corto de madera redonda utilizada como arma con unas dimensiones son 2,54 cm (una pulgada) de diámetro y 128 cm de longitud."
+            }
+        ]
+    },
+    "joda": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Paraguay, Uruguay",
+                "definition": "Broma, diversión."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Uruguay",
+                "definition": "Daño, perjuicio."
             }
         ]
     },
@@ -765,6 +866,63 @@
             }
         ]
     },
+    "joya": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Objeto de ornato hecho de uno o más metales preciosos con piedras preciosas o gemas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Obsequio otorgado como premio."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Ropa",
+                "definition": "Joya grande de oro o piedras preciosas, a manera de broche, que traían las mujeres al pecho."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Persona o cosa con mucho valor."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Arquitectura",
+                "definition": "Cordón en forma de anillo, que abraza la columna y se pone en dos partes: sobre la basa y debajo del friso del capitel."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Milicia",
+                "definition": "Anillo de adorno en los cañones de artillería, cerca de la boca."
+            },
+            {
+                "number": "7",
+                "type": "adverbio",
+                "type_extra": "Argentina, Uruguay, coloquial",
+                "definition": "Excelente, muy bien."
+            },
+            {
+                "number": "8",
+                "type": "adverbio",
+                "type_extra": "Argentina, Uruguay, coloquial",
+                "definition": "De buen humor."
+            },
+            {
+                "number": "9",
+                "type": "interjección",
+                "type_extra": "Argentina, Uruguay, coloquial",
+                "definition": "Indica acuerdo o aceptación en el máximo grado."
+            }
+        ]
+    },
     "joyas": {
         "definitions": [
             {
@@ -871,6 +1029,30 @@
                         "content": "tristeza, pena."
                     }
                 ]
+            }
+        ]
+    },
+    "judía": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "España",
+                "definition": "Frijol (semilla)."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Frutos, España",
+                "definition": "Judía verde."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Plantas, España",
+                "definition": "Por extensión, planta del frijol."
             }
         ]
     },
@@ -2195,6 +2377,32 @@
             }
         ]
     },
+    "juguete": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Objeto destinado al juego de los niños."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Persona o cosa que es dominada y controlada por otros, por fuerzas naturales, el azar, el destino u otro poder."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Dicho burlesco o gracioso."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Obra musical o teatral de corta duración, de carácter ligero y desenfadado."
+            }
+        ]
+    },
     "juguetes": {
         "definitions": [
             {
@@ -2393,6 +2601,18 @@
             }
         ]
     },
+    "junior": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Religión",
+                "definition": "Persona católica que después de haber profesado sigue sujeto a la enseñanza y obediencia del maestro."
+            }
+        ]
+    },
     "junta": {
         "definitions": [
             {
@@ -2459,6 +2679,47 @@
                 "type": "nombre femenino",
                 "type_extra": "Costa Rica",
                 "definition": "Época durante la cual se recoge el café seco y caído."
+            }
+        ]
+    },
+    "juntar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Unir dos o más cosas."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Recolectar o guardar suministros."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Coleccionar objetos o cosas de valor."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Dejar cerrada, sin seguro, la hoja de una puerta o de una ventana."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Acercar una cosa a otra."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Asociar."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Unir, convocar, congregar muchas personas en un mismo lugar."
             }
         ]
     },
@@ -2554,6 +2815,32 @@
                 "number": "5",
                 "type": "nombre masculino y femenino",
                 "definition": "Miembro de un jurado."
+            }
+        ]
+    },
+    "juramento": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de jurar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Aseveración o negación de alguna cosa, poniendo a Dios por testigo, en sí mismo o en un ser querido."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Palabra malsonante."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Promesa de hacer o cumplir algo."
             }
         ]
     },
