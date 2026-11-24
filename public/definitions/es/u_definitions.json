@@ -63,6 +63,17 @@
             }
         ]
     },
+    "uh": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Denota desilusión o desdén."
+            }
+        ]
+    },
     "última": {
         "definitions": [
             {
@@ -113,6 +124,24 @@
             }
         ]
     },
+    "últimamente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Al cabo, finalmente."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Hace poco tiempo o en los días previos al actual."
+            }
+        ]
+    },
     "último": {
         "definitions": [
             {
@@ -160,6 +189,18 @@
                 "type": "adverbio",
                 "type_extra": "desusado",
                 "definition": "por último."
+            }
+        ]
+    },
+    "ultra": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Fútbol, España, Europa",
+                "definition": "Miembro de los ultras de un equipo."
             }
         ]
     },
@@ -310,6 +351,18 @@
                         "content": "disconformidad, discrepancia, desavenencia."
                     }
                 ]
+            }
+        ]
+    },
+    "unas": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "artículo",
+                "type_extra": "se anteponer, sustantivos femeninos en plural, indicando que deben tomarse como información nueva, indefinido, como un miembro cualquiera de su clase general, indeterminado",
+                "definition": "Artículo indeterminado femenino plural."
             }
         ]
     },
@@ -2523,6 +2576,17 @@
                 "type": "pronombre",
                 "type_extra": "personal tercera persona masculino y femenino plural",
                 "definition": "Forma que, en nominativo, en vocativo o precedida de preposición, designa, en Canarias, en parte de Andalucía y en América, a las personas a las que se dirige quien habla o escribe, sin hacer distinción de familiaridad, respeto o cortesía. Niños, hay merienda para ustedes en la cocina."
+            }
+        ]
+    },
+    "usualmente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "definition": "De modo usual o habitual."
             }
         ]
     },
