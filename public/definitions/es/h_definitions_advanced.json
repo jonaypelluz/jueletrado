@@ -1667,7 +1667,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Haldada, lo que cabe en el halda₁."
+                "definition": "Haldada, lo que cabe en el halda."
             },
             {
                 "number": "3",
@@ -2194,6 +2194,24 @@
                 "type": "adjetivo",
                 "type_extra": "Gentilicios, Usado también como sustantivo masculino o femenino",
                 "definition": "De Hamburgo."
+            }
+        ]
+    },
+    "hamburguesa": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Alimentos",
+                "definition": "Tortita de carne picada aglutinada en forma de filete, cocinada a la parrilla o a la plancha, aunque también puede freírse u hornearse."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Alimentos",
+                "definition": "Bocadillo que se hace con dicha carne acompañado con queso americano, bacon, lechuga, pepinillos y tomate y que se suele aliñar con algún condimento como kétchup, mayonesa y/o mostaza."
             }
         ]
     },
@@ -2742,6 +2760,18 @@
             }
         ]
     },
+    "hardware": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Conjunto de partes físicas, tangibles, de un sistema informático, sus componentes eléctricos, electrónicos y electromecánicos, los periféricos de todo tipo, y cualquier otro elemento físico involucrado en el."
+            }
+        ]
+    },
     "harén": {
         "level": "advanced",
         "source": "wiktionary",
@@ -2823,7 +2853,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Estaciones",
-                "definition": "Estación que se corresponde con el periodo durante el cual sopla el harmatán₁."
+                "definition": "Estación que se corresponde con el periodo durante el cual sopla el harmatán."
             }
         ]
     },
@@ -3172,6 +3202,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Informática, Matemática",
                 "definition": "Función que mapea y codifica los elementos desde un dominio a otro espacio. Debe cumplir con las propiedades de ser: determinística, no monótona, resistente a la preimagen, no inyectiva y resistente a las colisiones. Sus usos principales son para codificar información o guardar la información de un diccionario informático."
+            }
+        ]
+    },
+    "hashtag": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Internet",
+                "definition": "Etiqueta de metadatos precedida por un carácter especial, usada en las redes sociales con el fin de identificar por referencias cruzadas a otras publicaciones pertenecientes al mismo tópico."
             }
         ]
     },
@@ -4749,7 +4791,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Estudio o aprecio de Grecia y su cultura, en particular la del período helenístico₁."
+                "definition": "Estudio o aprecio de Grecia y su cultura, en particular la del período helenístico."
             },
             {
                 "number": "3",
@@ -4957,7 +4999,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Propulsor empleado en náutica y aeronáutica, conformado por varias palas unidas a un eje que gira a alta velocidad, desplazando el vehículo hacia delante por el diferencial de presión que así se crea. Aunque la forma del propulsor no es helicoidal, el recorrido que realizan los extremos exteriores de las palas al avanzar el vehículo describe una hélice₁, a lo que debe su nombre."
+                "definition": "Propulsor empleado en náutica y aeronáutica, conformado por varias palas unidas a un eje que gira a alta velocidad, desplazando el vehículo hacia delante por el diferencial de presión que así se crea. Aunque la forma del propulsor no es helicoidal, el recorrido que realizan los extremos exteriores de las palas al avanzar el vehículo describe una hélice, a lo que debe su nombre."
             },
             {
                 "number": "3",
@@ -7053,6 +7095,40 @@
             }
         ]
     },
+    "hermandad": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad o condición de hermano."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "En particular, hermandad que agrupa a trabajadores de un mismo sector o estudiantes de una universidad."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "En particular, hermandad de fieles católicos que prestan un servicio o culto especial."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Grupo de personas relacionadas para un fin común."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "En particular, hermandad conformada por varias villas o pueblos para la defensa conjunta de caminos y campos."
+            }
+        ]
+    },
     "hermanecer": {
         "level": "advanced",
         "source": "wiktionary",
@@ -7612,7 +7688,7 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Mamíferos",
-                "definition": "Tipo de murciélago cuyos orificios nasales están rodeados por una membrana que se parece a la forma de la herradura₁."
+                "definition": "Tipo de murciélago cuyos orificios nasales están rodeados por una membrana que se parece a la forma de la herradura."
             }
         ]
     },
@@ -8087,7 +8163,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Lgbt, Sociología",
+                "type_extra": "LGBT, Sociología",
                 "definition": "Práctica de otorgar a las personas heterosexuales y a su punto de vista una posición central en el mundo, las sociedades, la cultura o la historia."
             }
         ]
@@ -8334,7 +8410,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Sociología, Lgbt, neologismo",
+                "type_extra": "Sociología, LGBT, neologismo",
                 "definition": "Asociación entre una ideología nacionalista e ideales heterosexuales usada contra las personas LGBTI y como antagonismo hacia países que han legislado derechos LGBTI."
             }
         ]
@@ -8369,7 +8445,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "Sociología, Lgbt",
+                "type_extra": "Sociología, LGBT",
                 "definition": "Asunción de que todos los seres humanos son hombres o mujeres tanto en sexo como en género y de que la atracción romántica y sexual sólo ocurre y es normal entre personas de sexos diferentes."
             }
         ]
@@ -8381,7 +8457,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "Sociología, Lgbt",
+                "type_extra": "Sociología, LGBT",
                 "definition": "Asunción de que todos los seres humanos son hombres o mujeres tanto en sexo como en género y de que la atracción romántica y sexual sólo ocurre y es normal entre personas de sexos diferentes."
             }
         ]
@@ -8468,7 +8544,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Sociología, Lgbt",
+                "type_extra": "Sociología, LGBT",
                 "definition": "Sistema de sesgos, actitudes y discriminación que favorece la sexualidad y las relaciones entre personas de distinto sexo."
             }
         ]
@@ -8486,7 +8562,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Propio o prototípico de una persona heterosexual₁ o una relación entre personas heterosexuales₁."
+                "definition": "Propio o prototípico de una persona heterosexual o una relación entre personas heterosexuales."
             }
         ]
     },
@@ -8513,7 +8589,7 @@
             {
                 "number": "1",
                 "type": "verbo transitivo",
-                "type_extra": "Lgbt",
+                "type_extra": "LGBT",
                 "definition": "Hacer o hacer parecer heterosexual."
             }
         ]
@@ -8707,7 +8783,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que tiene forma de hexadecágono₁."
+                "definition": "Que tiene forma de hexadecágono."
             }
         ]
     },
@@ -8723,7 +8799,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Que esta codificado en el sistema de numeración hexadecimal₁ que emplea los dígitos del 0 al 9 y las letras de la A a la F."
+                "definition": "Que esta codificado en el sistema de numeración hexadecimal que emplea los dígitos del 0 al 9 y las letras de la A a la F."
             }
         ]
     },
@@ -11275,13 +11351,13 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "literario",
-                "definition": "Fiesta con la que se celebra el himeneo₁."
+                "definition": "Fiesta con la que se celebra el himeneo."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "literario",
-                "definition": "Obra poética compuesta para celebrar un himeneo₁."
+                "definition": "Obra poética compuesta para celebrar un himeneo."
             }
         ]
     },
@@ -11912,7 +11988,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Geometría",
-                "definition": "Figura de un sólido limitado por una superficie hiperboloide₁."
+                "definition": "Figura de un sólido limitado por una superficie hiperboloide."
             }
         ]
     },
@@ -13087,6 +13163,53 @@
             }
         ]
     },
+    "hipocresía": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción de fingir una cualidad o sentimiento que no se tiene."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Hábito de actuar de tal modo."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Darle mayor importancia a lo que piensen los demás que a lo que seas tu."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Actitud de conducirse de modo que no se note la verdadera intención."
+            }
+        ]
+    },
+    "hipócrita": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Se dice de quien finge ser o sentir lo contrario de lo que es o lo que siente."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Persona que muestra sentimientos falsos o fingidos."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Por extensión, persona que actúa con malicia ocultando sus verdaderas intenciones tras una fachada de zalamería y falsa bondad."
+            }
+        ]
+    },
     "hipodérmica": {
         "level": "advanced",
         "source": "wiktionary",
@@ -13378,12 +13501,12 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Derecho, Economía",
-                "definition": "Derecho real que afecta a una hipoteca₁."
+                "definition": "Derecho real que afecta a una hipoteca."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Por extensión, crédito otorgado contra una hipoteca₁."
+                "definition": "Por extensión, crédito otorgado contra una hipoteca."
             }
         ]
     },
@@ -14127,6 +14250,34 @@
                 "type": "adjetivo",
                 "type_extra": "Arte",
                 "definition": "Se dice de una obra de arte que incluye escenas del evento o acontecimiento del que se ocupa."
+            }
+        ]
+    },
+    "historial": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne a la historia."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Lista o reseña de los eventos sucesivos en la trayectoria de algo o de alguien."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Informática",
+                "definition": "Grabación secuencial en un archivo o en una base de datos de los acontecimientos que afectan un proceso particular (aplicación, actividad de una red informática, etc.)."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Historia, desusado",
+                "definition": "Se decía de la persona que se dedica a registrar o escribir la historia."
             }
         ]
     },
@@ -15488,7 +15639,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Imagen óptica tridimensional que se crea empleando un haz de luz láser que ilumina un holograma₁."
+                "definition": "Imagen óptica tridimensional que se crea empleando un haz de luz láser que ilumina un holograma."
             }
         ]
     },
@@ -16100,13 +16251,13 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Psicología, Lgbt",
+                "type_extra": "Psicología, LGBT",
                 "definition": "Aversión o desconfianza hacia los homosexuales."
             },
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "type_extra": "Psicología, Lgbt",
+                "type_extra": "Psicología, LGBT",
                 "definition": "Temor a ser homosexual."
             }
         ]
@@ -16328,7 +16479,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Sociología, Lgbt",
+                "type_extra": "Sociología, LGBT",
                 "definition": "Asociación favorable de las personas LGBT y/o los derechos de éstas con una ideología nacionalista."
             }
         ]
@@ -16340,7 +16491,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "Lgbt",
+                "type_extra": "LGBT",
                 "definition": "Actitud negativa hacia la homosexualidad."
             }
         ]
@@ -16382,7 +16533,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "Sociología, Lgbt",
+                "type_extra": "Sociología, LGBT",
                 "definition": "Asimilación de ideales, valores, normas, comportamientos e instituciones heteronormativas por personas LGBTI."
             }
         ]
@@ -16394,7 +16545,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Feminismo, Lgbt, Sociología",
+                "type_extra": "Feminismo, LGBT, Sociología",
                 "definition": "Subsistema social en el que los hombres homosexuales cisgénero predominan sobre otras personas LGBTI."
             }
         ]
@@ -16437,6 +16588,42 @@
             }
         ]
     },
+    "homosexual": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "LGBT, Usado también como sustantivo",
+                "definition": "Que siente atracción sexual hacia individuos del mismo sexo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "LGBT",
+                "definition": "Que pertenece o concierne a la homosexualidad u homosexualismo, o a la relación erótica entre individuos del mismo sexo."
+            }
+        ]
+    },
+    "homosexualidad": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "LGBT",
+                "definition": "Condición o carácter de homosexual."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "LGBT",
+                "definition": "Relación erótica entre personas del mismo sexo."
+            }
+        ]
+    },
     "homosexualizar": {
         "level": "advanced",
         "source": "wiktionary",
@@ -16444,7 +16631,7 @@
             {
                 "number": "1",
                 "type": "verbo transitivo",
-                "type_extra": "Lgbt",
+                "type_extra": "LGBT",
                 "definition": "Hacer o hacer parecer homosexual."
             }
         ]
@@ -16536,7 +16723,7 @@
                 "number": "3",
                 "type": "verbo transitivo",
                 "type_extra": "Germanía",
-                "definition": "Tantear₂."
+                "definition": "Tantear."
             },
             {
                 "number": "4",
@@ -16679,6 +16866,18 @@
             }
         ]
     },
+    "honestamente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "De modo honesto, con honestidad."
+            }
+        ]
+    },
     "honestismo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -16699,6 +16898,32 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Que pertenece o concierne a honestismo."
+            }
+        ]
+    },
+    "honesto": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Conforme al pudor y las buenas costumbres."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Veraz, acertado. Que dice siempre la verdad."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Persona que posee integridad en el ser y en el actuar."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Respetuoso de los bienes ajenos o las leyes."
             }
         ]
     },
@@ -16779,6 +17004,17 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Calidad o cualidad de una persona honorable."
+            }
+        ]
+    },
+    "honorable": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Digno de respecto, obediencia y estima."
             }
         ]
     },
@@ -17087,22 +17323,22 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Yugo en forma de horca₁ que se empleaba antiguamente para pasear públicamente a los vencidos en batalla o a los condenados a penas de escarnio."
+                "definition": "Yugo en forma de horca que se empleaba antiguamente para pasear públicamente a los vencidos en batalla o a los condenados a penas de escarnio."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Dispositivo similar a una horca₃ que se coloca al cuello de los animales para impedirles pasar entre cercados."
+                "definition": "Dispositivo similar a una horca que se coloca al cuello de los animales para impedirles pasar entre cercados."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Estructura, antiguamente en forma de horca₁, que se emplea para ejecutar a los reos de pena de muerte colgándolos."
+                "definition": "Estructura, antiguamente en forma de horca, que se emplea para ejecutar a los reos de pena de muerte colgándolos."
             },
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "definition": "Horca₁ con que se soporta un larguero horizontal o una rama de árbol."
+                "definition": "Horca con que se soporta un larguero horizontal o una rama de árbol."
             },
             {
                 "number": "7",
@@ -17249,6 +17485,22 @@
             }
         ]
     },
+    "horizontal": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Orientado de derecha a izquierda, o viceversa."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Se dice de algo que se encuentra en una posición tal que su dimensión mayor se encuentra paralela a la línea del horizonte, o al eje de abcisas."
+            }
+        ]
+    },
     "horizontalidad": {
         "level": "advanced",
         "source": "wiktionary",
@@ -17382,7 +17634,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Población de hormigas que habita en un hormiguero₂."
+                "definition": "Población de hormigas que habita en un hormiguero."
             },
             {
                 "number": "4",
@@ -17933,6 +18185,40 @@
             }
         ]
     },
+    "horror": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Emoción intensa en respuesta a lo terrible, a algo o alguien que produce miedo, pavor."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "se emplea a menudo en plural",
+                "definition": "Cualquier cosa que puede producir esta emoción."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Rechazo, aversión o repulsión intensa hacia algo o alguien."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Usado también como adverbio",
+                "definition": "Cualidad o condición de grande, numeroso, o muy intenso."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Literatura, Cine",
+                "definition": "Género literario o cinematográfico que se concentra en emociones y experiencias horripilantes o de miedo, pavor."
+            }
+        ]
+    },
     "horrorosamente": {
         "level": "advanced",
         "source": "wiktionary",
@@ -18186,12 +18472,12 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Cantidad requerida en pago al hospedaje²."
+                "definition": "Cantidad requerida en pago al hospedaje."
             },
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Establecimiento donde se ofrece hospedaje²."
+                "definition": "Establecimiento donde se ofrece hospedaje."
             }
         ]
     },
@@ -18518,7 +18804,7 @@
                 "number": "1",
                 "type": "adjetivo",
                 "type_extra": "Bolivia, Chile, Perú",
-                "definition": "Fastidioso₂, molestoso."
+                "definition": "Fastidioso, molestoso."
             }
         ]
     },
@@ -18658,7 +18944,7 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Golf",
-                "definition": "Cada una de las fases del juego, en que los jugadores deben introducir una bola en un hoyo₁ practicado en el suelo."
+                "definition": "Cada una de las fases del juego, en que los jugadores deben introducir una bola en un hoyo practicado en el suelo."
             }
         ]
     },
@@ -19309,7 +19595,7 @@
                 "number": "2",
                 "type": "nombre masculino y femenino",
                 "type_extra": "Chile",
-                "definition": "Hombre que viste un atuendo estereotipado que se considera propio de los huasos₁ para bailar cueca chilena, participar de rodeos o en otro tipo de celebraciones folklóricas o patrióticas."
+                "definition": "Hombre que viste un atuendo estereotipado que se considera propio de los huasos para bailar cueca chilena, participar de rodeos o en otro tipo de celebraciones folklóricas o patrióticas."
             },
             {
                 "number": "3",
@@ -19410,7 +19696,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Frutos, Yucatán",
-                "definition": "Fruto de la huaya₁."
+                "definition": "Fruto de la huaya."
             }
         ]
     },
@@ -19544,18 +19830,18 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "definition": "Yugada₁."
+                "definition": "Par de mulas y mozo que se alquilan para trabajar un día entero."
             },
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Par de mulas y mozo que se alquilan para trabajar un día entero."
+                "type_extra": "germanía",
+                "definition": "Baraja de naipes."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "type_extra": "germanía",
-                "definition": "Baraja de naipes."
+                "definition": "Yugada."
             },
             {
                 "number": "4",
@@ -20105,7 +20391,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Persona que aloja a un huésped₁ en su propia vivienda o establecimiento."
+                "definition": "Persona que aloja a un huésped en su propia vivienda o establecimiento."
             },
             {
                 "number": "3",
@@ -21635,7 +21921,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Originario, relativo a, o propio de pueblo hurrita₁."
+                "definition": "Originario, relativo a, o propio de pueblo hurrita."
             }
         ]
     },
