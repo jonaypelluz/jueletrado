@@ -1,4 +1,21 @@
 {
+    "karma": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Religión",
+                "definition": "Energía que surge a partir de los actos de un individuo durante su vida y que condiciona todas y cada una de sus sucesivas reencarnaciones, hasta alcanzar un estado de perfección."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Fuerza espiritual."
+            }
+        ]
+    },
     "kilo": {
         "definitions": [
             {
@@ -30,6 +47,18 @@
             }
         ]
     },
+    "kilómetro": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Metrología",
+                "definition": "Unidad de longitud, equivalente a mil metros o 10³ metros."
+            }
+        ]
+    },
     "kilos": {
         "definitions": [
             {
@@ -48,6 +77,17 @@
                         "content": "kilogramo."
                     }
                 ]
+            }
+        ]
+    },
+    "kit": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Conjunto de herramientas que suelen destinarse para un rubro particular."
             }
         ]
     },
