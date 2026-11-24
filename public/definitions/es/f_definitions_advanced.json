@@ -1,4 +1,28 @@
 {
+    "fa": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "En solfeo, cuarta nota de la escala musical."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "type_extra": "Argentina",
+                "definition": "Expresión de asco."
+            },
+            {
+                "number": "3",
+                "type": "interjección",
+                "type_extra": "Argentina",
+                "definition": "Expresión de alegría o sorpresa."
+            }
+        ]
+    },
     "faba": {
         "level": "advanced",
         "source": "wiktionary",
@@ -382,6 +406,17 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Con demasiada fuerza en sus opiniones y entusiasmos, especialmente en cuanto a sus creencias políticas disidentes, causando insubordinación o disturbio en la sociedad."
+            }
+        ]
+    },
+    "facebook": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cualquier perfil generado por una persona en la red social homónima."
             }
         ]
     },
@@ -2364,7 +2399,7 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "type_extra": "desusado",
-                "definition": "Hallazgo₁."
+                "definition": "Hallazgo."
             }
         ]
     },
@@ -2456,7 +2491,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Representación artística o simbólica del falo₁."
+                "definition": "Representación artística o simbólica del falo."
             }
         ]
     },
@@ -2902,17 +2937,17 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Familiatura₁₋₂."
+                "definition": "Conocimiento profundo por el constante contacto que se tiene con aquello."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "Conocimiento profundo por el constante contacto que se tiene con aquello."
+                "definition": "Facilidad para ejecutar una acción o tarea."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
-                "definition": "Facilidad para ejecutar una acción o tarea."
+                "definition": "Familiatura."
             },
             {
                 "number": "5",
@@ -3009,6 +3044,17 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "México",
                 "definition": "Persona que se dedica al servicio doméstico."
+            }
+        ]
+    },
+    "fan": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Persona que siente gusto y entusiasmo por algo, en particular por un cantante o deportista."
             }
         ]
     },
@@ -3117,7 +3163,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Danza",
-                "definition": "Baile que se danza al ritmo del fandango₁."
+                "definition": "Baile que se danza al ritmo del fandango."
             },
             {
                 "number": "3",
@@ -3187,7 +3233,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Cantidad de granos o áridos que cabe en una fanega₁."
+                "definition": "Cantidad de granos o áridos que cabe en una fanega."
             },
             {
                 "number": "3",
@@ -4876,6 +4922,27 @@
             }
         ]
     },
+    "farsa": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Comedia bufa y chabacana. Pieza dramática breve."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Enredo con el propósito de engañar a alguien."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Género operístico bufonesco, difundido entre la última década del siglo XVIII y las primeras del siglo XIX, principalmente en Venecia y Nápoles (Italia)."
+            }
+        ]
+    },
     "farsálico": {
         "level": "advanced",
         "source": "wiktionary",
@@ -5075,6 +5142,27 @@
                 "type": "nombre femenino",
                 "type_extra": "Medicina, Enfermedades",
                 "definition": "Zoonosis causada por un gusano, que afecta principalmente al ganado y ocasionalmente al hombre, de varias fases, cuyos síntomas principales son fiebre, malestar, dolor abdominal, síntomas gastrointestinales, urticaria, anemia, ictericia, síntomas respiratorios; y posteriormente la inflamación de los conductos biliares, de la vesícula biliar, cálculos biliares y fibrosis."
+            }
+        ]
+    },
+    "fascista": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que tiene relación con el fascismo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Adherente de esta doctrina."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Persona extremadamente autoritaria."
             }
         ]
     },
@@ -5342,6 +5430,45 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Amigo del fausto y el lujo."
+            }
+        ]
+    },
+    "fatal": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne a los hados."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Por extensión, que no puede evitarse."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Derecho",
+                "definition": "En especial, dicho de un plazo, que no puede prorrogarse."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Por extensión, que causa desgracia o infelicidad."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Usado también como adverbio",
+                "definition": "Muy malo."
+            },
+            {
+                "number": "6",
+                "type": "adverbio",
+                "type_extra": "coloquial, de modo",
+                "definition": "Del peor modo posible."
             }
         ]
     },
@@ -5727,7 +5854,7 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "type_extra": "literario",
-                "definition": "Céfiro₁₋₂."
+                "definition": "Céfiro."
             }
         ]
     },
@@ -6584,6 +6711,17 @@
             }
         ]
     },
+    "felicidades": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Se emplea para felicitar a alguien o expresar aprobación por lo que ha hecho alguien."
+            }
+        ]
+    },
     "felicitación": {
         "level": "advanced",
         "source": "wiktionary",
@@ -6885,7 +7023,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "definition": "Subcultura que se manifiesta como comunidades virtuales de mujeres que dicen ser incapaces de tener relaciones románticas y relaciones sexuales con hombres, íncel₁ femenina."
+                "definition": "Subcultura que se manifiesta como comunidades virtuales de mujeres que dicen ser incapaces de tener relaciones románticas y relaciones sexuales con hombres, íncel femenina."
             },
             {
                 "number": "2",
@@ -7072,6 +7210,41 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Conjunto de características y comportamientos atribuidos socialmente a las mujeres."
+            }
+        ]
+    },
+    "feminismo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Feminismo",
+                "definition": "Conjunto de teorías sociales y prácticas políticas en abierta crítica a la desigualdad social entre mujeres y hombres que proclaman la igualdad legal y social entre ambos géneros."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Feminismo, Sociedad",
+                "definition": "Movimiento social que apoya y promueve dichas teorías y prácticas."
+            }
+        ]
+    },
+    "feminista": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio del feminismo o relacionado con él."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de la persona partidaria del feminismo."
             }
         ]
     },
@@ -7763,7 +7936,7 @@
                 "number": "2",
                 "type": "adjetivo",
                 "type_extra": "desusado, literario",
-                "definition": "Que tiene propiedades ferinas₁."
+                "definition": "Que tiene propiedades ferinas."
             }
         ]
     },
@@ -7870,6 +8043,18 @@
         ]
     },
     "fernandito": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Bebidas, Argentina",
+                "definition": "Fernet con coca (gaseosa)."
+            }
+        ]
+    },
+    "fernando": {
         "level": "advanced",
         "source": "wiktionary",
         "definitions": [
@@ -8056,7 +8241,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Conjunto de útiles metálicos que pueden adquirirse en una ferretería₁."
+                "definition": "Conjunto de útiles metálicos que pueden adquirirse en una ferretería."
             },
             {
                 "number": "3",
@@ -8941,6 +9126,18 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "Residuo que se precipita al fondo de un recipiente que contiene un líquido."
+            }
+        ]
+    },
+    "fi": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Tipografía",
+                "definition": "Vigésima primera letra del alfabeto griego (Φ, φ), que se convierte en ph en el alfabeto latino y en f y también en ph en las lenguas derivadas del latín."
             }
         ]
     },
@@ -10059,6 +10256,17 @@
             }
         ]
     },
+    "fiestas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Sucesión de varios días de fiesta."
+            }
+        ]
+    },
     "fiestero": {
         "level": "advanced",
         "source": "wiktionary",
@@ -10172,7 +10380,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "definition": "Figurilla figulina₁."
+                "definition": "Figurilla figulina."
             }
         ]
     },
@@ -11012,6 +11220,23 @@
             }
         ]
     },
+    "film": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Cocina",
+                "definition": "Papel film."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Película."
+            }
+        ]
+    },
     "filmación": {
         "level": "advanced",
         "source": "wiktionary",
@@ -11333,6 +11558,27 @@
             }
         ]
     },
+    "filósofo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne a la filosofía."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que profesa o que es erudita en filosofía."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona virtuosa y austera que vive retirada y huye de las distracciones y concurrencias."
+            }
+        ]
+    },
     "filosofobia": {
         "level": "advanced",
         "source": "wiktionary",
@@ -11492,6 +11738,76 @@
                 "type": "verbo intransitivo",
                 "type_extra": "Cuba, coloquial",
                 "definition": "Demostrar la inteligencia en una determinada materia."
+            }
+        ]
+    },
+    "filtro": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Membrana a través de lo cual se hace pasar cualquier líquido que se pretende separarlo de sus partículas de impurezas."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Cualquier componente o elemento que reciba determinadas entradas y deje pasar algunas de ellas, y rechaze a otras en función de un determinado criterio."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Electrónica",
+                "definition": "Circuito electrónico que deja pasar determinados armónicos o frecuencias de una señal mientras que elimina o atenúa otras."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Física",
+                "definition": "Aparato que filtra determinados gases a la vez que deja pasar otros, en función de la sustancia a la que pertenezcan."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Educación",
+                "definition": "Materia muy difícil, que muy pocos alumnos logran aprobarla."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Fotografía",
+                "definition": "Programa que permite filtrar determinadas componentes espectrales, y en algunos casos aplicar efectos adicionales, sobre una imagen para embellecerla."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Geografía",
+                "definition": "Manantial de agua dulce en la costa del mar y a veces hasta en parajes bañados por el mar."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Gastronomía",
+                "definition": "La carne de cerdo con la que se prepara el chicharrón."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino",
+                "type_extra": "Cuba",
+                "definition": "Persona muy inteligente."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino",
+                "type_extra": "Bebidas, Mitología",
+                "definition": "Brebaje con efectos mágicos, a menudo con el poder de conseguir el afecto de otra persona."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino",
+                "type_extra": "Anatomía",
+                "definition": "Depresión en forma de una línea vertical sobre el centro del labio superior."
             }
         ]
     },
@@ -11741,6 +12057,18 @@
             }
         ]
     },
+    "finde": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Argentina, España, Chile, Uruguay, Perú, coloquial",
+                "definition": "Fin de semana."
+            }
+        ]
+    },
     "finés": {
         "level": "advanced",
         "source": "wiktionary",
@@ -11779,6 +12107,22 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "Fábula o ficción."
+            }
+        ]
+    },
+    "fingir": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Producir deliberadamente la impresión de que se es o se siente algo sin ser ese el caso."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Producir artificialmente una ilusión verosímil."
             }
         ]
     },
@@ -12137,6 +12481,17 @@
                 "type": "adverbio",
                 "type_extra": "de modo",
                 "definition": "De forma firme, con firmeza."
+            }
+        ]
+    },
+    "firmes": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Orden para formar a la tropa."
             }
         ]
     },
@@ -13388,7 +13743,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Resplandor o reflejo del fuego o de una llama₁."
+                "definition": "Resplandor o reflejo del fuego o de una llama."
             },
             {
                 "number": "3",
@@ -13516,7 +13871,7 @@
                 "number": "3",
                 "type": "verbo intransitivo",
                 "type_extra": "Náutica",
-                "definition": "En particular, dicho de una vela, flamear₂ por recibir el viento por el canto y no por una de sus caras."
+                "definition": "En particular, dicho de una vela, flamear por recibir el viento por el canto y no por una de sus caras."
             },
             {
                 "number": "4",
@@ -13914,6 +14269,18 @@
             }
         ]
     },
+    "flash": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Bebidas, Golosinas, España",
+                "definition": "Tipo de helado elaborado a partir de jugo de frutas naturales o de una solución azucarada con colorantes y saborizantes artificiales que se envuelve en un empaque o bolsa de plástico sellada que tiene usualmente una forma cilíndrica y alargada, la cual es posteriormente congelada."
+            }
+        ]
+    },
     "flashback": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14186,6 +14553,23 @@
             }
         ]
     },
+    "flecha": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Armas",
+                "definition": "Proyectil con forma estrecha y fina, con punta triangular normalmente afilada. Se proyecta mediante un arco."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Símbolo o señal que indica dirección."
+            }
+        ]
+    },
     "flechadura": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14361,7 +14745,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Tenis",
-                "definition": "Por extensión, tira similar a un fleje₁ que se emplea para delimitar una cancha de tenis."
+                "definition": "Por extensión, tira similar a un fleje que se emplea para delimitar una cancha de tenis."
             },
             {
                 "number": "4",
@@ -14789,7 +15173,7 @@
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Por extensión, ejercicio gimnástico que consiste principalmente en movimientos de flexión₁."
+                "definition": "Por extensión, ejercicio gimnástico que consiste principalmente en movimientos de flexión."
             },
             {
                 "number": "6",
@@ -18468,18 +18852,6 @@
             }
         ]
     },
-    "forear": {
-        "level": "advanced",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "type_extra": "Wiki",
-                "definition": "Utilizar una wiki como si fuera un foro personal, esto es, publicar mensajes que reflejan opiniones personales no verificadas, lo que incluye a la propaganda política o ideológica y a la promoción innecesaria de personas e intereses personales específicos."
-            }
-        ]
-    },
     "forense": {
         "level": "advanced",
         "source": "wiktionary",
@@ -18651,7 +19023,7 @@
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Metal trabajado por forja₄, por oposición al de fundición."
+                "definition": "Metal trabajado por forja, por oposición al de fundición."
             }
         ]
     },
@@ -18775,6 +19147,32 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "Queso."
+            }
+        ]
+    },
+    "formal": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio de o relativo a la forma."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que se ajusta a las normas establecidas en su conformación o comportamiento."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, que mantiene una actitud seria y compuesta."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, que da muestras de seriedad en el cumplimiento de sus obligaciones."
             }
         ]
     },
@@ -18922,6 +19320,22 @@
                 "number": "2",
                 "type": "verbo pronominal",
                 "definition": "Obtener o adquirir conocimientos, educación o preparación de tipo académico, intelectual, moral o profesional."
+            }
+        ]
+    },
+    "formas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Conjunto de reglas o acciones externas relacionadas con la buena educación y el comportamiento que se considera adecuado o refinado dentro del protocolo social, las costumbres, la urbanidad o la tradición."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Conjunto de características que conforman la imagen visual del cuerpo humano, en particular las consideradas atractivas o deseables."
             }
         ]
     },
@@ -19095,6 +19509,56 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Originario, relativo a, o propio de la provincia de Formosa, en la Argentina."
+            }
+        ]
+    },
+    "fórmula": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Modo ya establecido para explicar o pedir, ejecutar o resolver una cosa con palabras precisas y determinadas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Prescripción facultativa."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Nota que comprende aquello de que debe componerse una cosa, y el modo de hacerlo."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas",
+                "definition": "Resultado de un cálculo, cuya expresión, reducida a sus más simples términos, sirve de pauta y regla para la resolución de todos los casos análogos."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Química",
+                "definition": "Representación simbólica de la composición de un cuerpo por medio de letras y signos determinados."
+            }
+        ]
+    },
+    "formulario": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Plantilla o página con espacios vacíos que han de ser rellenados con datos para alguna finalidad."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "Compendio de fórmulas matemáticas o algebraicas pertenecientes a una o varias categorías que sirve de guía o recordatorio para el momento de aplicarlas."
             }
         ]
     },
@@ -19414,6 +19878,41 @@
             }
         ]
     },
+    "forro": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Capa de material empleada para proteger, aislar, o dar forma, este puede ser de uso interno como en la ropa interior o bien externo como las cubiertas de libros."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Chile, figurado, coloquial",
+                "definition": "Apariencia física, en particular la relacionada con el atractivo sexual."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Costa Rica, coloquial",
+                "definition": "Apuntes sobre las materias estudiadas que se ocultan y consultan durante los exámenes y pruebas, haciendo trampa."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Chile",
+                "definition": "Asunto desagradable."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "México, coloquial",
+                "definition": "Persona muy atractiva."
+            }
+        ]
+    },
     "forsterita": {
         "level": "advanced",
         "source": "wiktionary",
@@ -19671,6 +20170,51 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Inflamación purulenta localizada en la piel y tejido subcutáneo, que se inicia con la infección de un folículo piloso."
+            }
+        ]
+    },
+    "forzado": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que por fuerza u obligación ha sido ocupado, retenido, sacado, desplazado, etc."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que no parece voluntario, sincero, natural, normal o espontáneo."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Obligado por imprevistos o por circunstancias adversas."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "infrecuente",
+                "definition": "Que por fuerza del destino o de la casualidad tuvo que ser así, sin intervención de la decisión o voluntad propia."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Ajedrez",
+                "definition": "Dicho de una variante: que obliga al adversario a responder de una determinada manera."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Historia",
+                "definition": "Galeote condenado a servir al remo en las galeras."
+            },
+            {
+                "number": "7",
+                "type": "adverbio",
+                "type_extra": "desusado, de modo",
+                "definition": "Por fuerza, contra la propia voluntad; con violencia; de un modo ineludible."
             }
         ]
     },
@@ -19997,7 +20541,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Utensilio para encender fuego formado por un trozo de madera con un extremo o cabeza recubierto de una sustancia inflamable, originalmente fósforo₁ y más tarde mezclas con azufre, que al frotarla contra una superficie rugosa produce una llama."
+                "definition": "Utensilio para encender fuego formado por un trozo de madera con un extremo o cabeza recubierto de una sustancia inflamable, originalmente fósforo y más tarde mezclas con azufre, que al frotarla contra una superficie rugosa produce una llama."
             }
         ]
     },
@@ -20223,7 +20767,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Grabado o imagen realizados con este procedimiento₁."
+                "definition": "Grabado o imagen realizados con este procedimiento."
             }
         ]
     },
@@ -21508,7 +22052,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Botánica, Agricultura",
-                "definition": "Planta que produce frambuesas₁."
+                "definition": "Planta que produce frambuesas."
             }
         ]
     },
@@ -21728,7 +22272,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Dicho de un territorio, habitado mayoritariamente por francófonos₁."
+                "definition": "Dicho de un territorio, habitado mayoritariamente por francófonos."
             },
             {
                 "number": "3",
@@ -22022,6 +22566,46 @@
                 "type": "nombre femenino",
                 "type_extra": "Náutica, franquearse, estar en franquía",
                 "definition": "Situación en la cual un buque tiene paso franco para hacerse a la mar o tomar determinado rumbo."
+            }
+        ]
+    },
+    "franquicia": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Por extensión, exención de pago u obligación."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Derecho, Economía",
+                "definition": "Contrato por el que una firma autoriza a otra a realizar negocios usando su nombre y otras propiedades intelectuales."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Establecimiento en régimen de franquicia."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Derecho",
+                "definition": "Importe mínimo a partir del que un asegurador se hace responsable."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Deporte",
+                "definition": "Entidad empresarial que administra un equipo deportivo profesional."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Privilegio de inmunidad que se concedía antiguamente los terrenos propiedad de embajadores y dignatarios extranjeros."
             }
         ]
     },
@@ -23857,7 +24441,7 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "type_extra": "Platos, Bolivia, Colombia, Ecuador, América, se emplea más en plural",
-                "definition": "Guiso o sopa preparados con semillas de fríjol₁."
+                "definition": "Guiso o sopa preparados con semillas de fríjol."
             },
             {
                 "number": "5",
@@ -23899,7 +24483,7 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "type_extra": "Platos, América Central, Bolivia, Caribe, Colombia, Ecuador, Perú",
-                "definition": "Guiso o sopa preparados con semillas de frijol₁."
+                "definition": "Guiso o sopa preparados con semillas de frijol."
             }
         ]
     },
@@ -24447,7 +25031,7 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "type_extra": "Colombia",
-                "definition": "Lugar o puesto donde se vende fritanga₁."
+                "definition": "Lugar o puesto donde se vende fritanga."
             },
             {
                 "number": "2",
@@ -25476,6 +26060,22 @@
             }
         ]
     },
+    "fu": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Utilizada para expresar desprecio."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "definition": "Utilizada para simbolizar el bufido del gato."
+            }
+        ]
+    },
     "fua": {
         "level": "advanced",
         "source": "wiktionary",
@@ -25609,7 +26209,7 @@
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "De color fucsia₂."
+                "definition": "De color fucsia."
             }
         ]
     },
@@ -26463,6 +27063,30 @@
             }
         ]
     },
+    "full": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Venezuela, coloquial",
+                "definition": "Anglicismo por repleto, saturado, completamente lleno."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Venezuela, Argentina, coloquial",
+                "definition": "Dicho de una persona, que está demasiado ocupada y no puede atender otros asuntos."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Juegos, Naipes",
+                "definition": "Full house."
+            }
+        ]
+    },
     "fullería": {
         "level": "advanced",
         "source": "wiktionary",
@@ -27138,7 +27762,7 @@
             {
                 "number": "4",
                 "type": "verbo transitivo",
-                "definition": "Emplear moldes para dar forma al metal fundido₁."
+                "definition": "Emplear moldes para dar forma al metal fundido."
             },
             {
                 "number": "5",
@@ -27221,6 +27845,23 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "coloquial, Usado también como adjetivo",
                 "definition": "Hincha del club Chacarita Juniors."
+            }
+        ]
+    },
+    "funeral": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio o relativo al enterramiento de un cadáver y las ceremonias asociadas."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "con el mismo significado en plural",
+                "definition": "Conjunto de ceremonias realizadas en un entierro."
             }
         ]
     },
@@ -27691,6 +28332,32 @@
             }
         ]
     },
+    "furioso": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Lleno de ira o furia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que tiene gran violencia y fuerza."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Más grande de lo usual, excesivo."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Con ataque violento de demencia."
+            }
+        ]
+    },
     "furor": {
         "level": "advanced",
         "source": "wiktionary",
@@ -28128,6 +28795,28 @@
                 "type": "nombre masculino",
                 "type_extra": "Comida",
                 "definition": "Tirabuzón (pasta)."
+            }
+        ]
+    },
+    "fusión": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Unión o integración de dos o más elementos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de fundir o fundirse."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Comercio, Economía",
+                "definition": "Proceso y resultado de unir o integrar dos empresas o entidades en una sola, bajo una sola administración y conjunto de propietarios."
             }
         ]
     },
