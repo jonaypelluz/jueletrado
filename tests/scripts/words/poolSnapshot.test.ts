@@ -15,6 +15,9 @@ import { LEVELS, LOCALES } from '../../../scripts/words/wordAudit';
 // JUE-0009 Phase 3 refreshed it again: the D9 sense order and the RAE re-crawl change sense 1 and
 // sense counts, which moves the spellingBee/definitionMaster pools (none newly below its minimum), and
 // `juan` left the es beginner list (each es beginner pool −1).
+// JUE-0009 Phase 4 refreshed it again: the es.wiktionary import adds ~58.6k es definitions and
+// ~14.4k list words (mostly advanced), which grows the definition-game pools by level (none newly
+// below its minimum).
 const BASELINE = path.join(__dirname, '../../fixtures/pools/phase2-baseline.json');
 
 type Snapshot = Record<string, { count: number; min: number | null; hash?: string }>;
