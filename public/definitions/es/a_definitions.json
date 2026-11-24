@@ -574,6 +574,18 @@
             }
         ]
     },
+    "abiertos": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "Voz anticuada, usada por Alfonso X el Sabio en las Partidas. Significa \"examinados\"."
+            }
+        ]
+    },
     "abismo": {
         "definitions": [
             {
@@ -2747,6 +2759,18 @@
             }
         ]
     },
+    "abu": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Parentesco, coloquial, infantil",
+                "definition": "Abuelo, abuela."
+            }
+        ]
+    },
     "abuela": {
         "definitions": [
             {
@@ -2977,6 +3001,27 @@
             }
         ]
     },
+    "aburrido": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que no es interesante."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Hastiado, molesto por algo repetitivo, desagradable o monótono."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, con la que es molesto estar por no tener propuestas agradables o entretenidas."
+            }
+        ]
+    },
     "abuso": {
         "definitions": [
             {
@@ -3014,6 +3059,24 @@
                     }
                 ],
                 "type_extra": "Derecho"
+            }
+        ]
+    },
+    "aca": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, Perú, coloquial",
+                "definition": "Residuo sólido indigerible del bolo alimenticio, que se excreta a través del ano."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "La Rioja (Argentina), Tucumán, coloquial",
+                "definition": "Avaro."
             }
         ]
     },
@@ -3628,6 +3691,23 @@
             }
         ]
     },
+    "acabe": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de acabar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Puerto Rico",
+                "definition": "Fiesta que se organiza para celebrar el final de la cocecha del café."
+            }
+        ]
+    },
     "acabo": {
         "definitions": [
             {
@@ -3946,6 +4026,17 @@
                 "number": "4",
                 "type": "verbo intransitivo",
                 "definition": "Tener acceso a algo, especialmente a una situación, condición o grado superiores, o llegar a alcanzarlos. Acceder a la presidencia, a la educación."
+            }
+        ]
+    },
+    "accesible": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "De fácil disponibilidad y acceso."
             }
         ]
     },
@@ -5597,6 +5688,22 @@
             }
         ]
     },
+    "acondicionado": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Con los adverbios bien, mal u otros semejantes sirve para explicar la condición o genio de alguno."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Con los adverbios bien o mal se aplica a los comestibles, mercaderías u otra cosa para su buena o mala calidad, colocación o estado."
+            }
+        ]
+    },
     "aconsejable": {
         "definitions": [
             {
@@ -5680,6 +5787,67 @@
                 "number": "5",
                 "type": "nombre femenino",
                 "definition": "Cuerpo policial establecido en México en el siglo XVIII para aprehender y juzgar a los salteadores."
+            }
+        ]
+    },
+    "acordar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Adoptar en común una resolución varias personas, deliberando previamente acerca del asunto."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Resolver o determinar una persona acerca de algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Poner de acuerdo posiciones o ideas que estaban enfrentadas."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Atraer a la memoria de alguien un recuerdo."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Música",
+                "definition": "Templar o afinar voces e instrumentos para que no se produzcan disonancias entre sí."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Pintura",
+                "definition": "Armonizar la distribución de tonalidades o colores presentes en un dibujo o pintura."
+            },
+            {
+                "number": "7",
+                "type": "verbo intransitivo",
+                "definition": "Estar una cosa en concordancia o conformidad con alguna otra."
+            },
+            {
+                "number": "8",
+                "type": "verbo intransitivo",
+                "type_extra": "León, Bolivia, Honduras, Uruguay",
+                "definition": "Reparar en algo, o tomar conciencia de una cosa de la que no se había percatado."
+            },
+            {
+                "number": "9",
+                "type": "verbo intransitivo",
+                "type_extra": "Salamanca",
+                "definition": "Despertar, pasar del estado de sueño al de vigilia."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Hacer que alguien vuelva a retomar el juicio o la cordura."
             }
         ]
     },
@@ -6083,6 +6251,17 @@
             }
         ]
     },
+    "activar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer activo. Poner en funcionamiento."
+            }
+        ]
+    },
     "actividad": {
         "definitions": [
             {
@@ -6164,6 +6343,18 @@
                 "type": "nombre femenino",
                 "type_extra": "Física",
                 "definition": "Magnitud física que expresa el número de átomos de una sustancia radiactiva que se desintegran por unidad de tiempo, y cuya unidad en el sistema internacional es el becquerel."
+            }
+        ]
+    },
+    "activista": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Política, Usado también como adjetivo",
+                "definition": "Miembro de un grupo o movimiento que actúa en favor de una causa social o política con acciones directas."
             }
         ]
     },
@@ -6686,6 +6877,40 @@
                         "content": "renovación, modernización, reajuste."
                     }
                 ]
+            }
+        ]
+    },
+    "actualizar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Adaptar algo a los tiempos actuales, al presente."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Hacer que algo o alguien quede al día."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "Informática",
+                "definition": "Descargar e instalar la última versión o parche de alguna aplicación."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "type_extra": "Filosofía",
+                "definition": "Efectuar el acto o los actos requeridos para convertir algo potencial en real."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Internet",
+                "definition": "Recargar."
             }
         ]
     },
@@ -8021,6 +8246,24 @@
             }
         ]
     },
+    "adecuadamente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "De modo adecuado, con adecuación, a propósito, con oportunidad."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Por extensión, correctamente."
+            }
+        ]
+    },
     "adecuado": {
         "definitions": [
             {
@@ -8288,6 +8531,23 @@
                 "type": "nombre femenino",
                 "type_extra": "Física",
                 "definition": "Fuerza de atracción que mantiene unidas moléculas de distinta especie química."
+            }
+        ]
+    },
+    "adicción": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Psicología",
+                "definition": "Estado de dependencia psicológica y fisiológica, asociado con el ansia, un alivio temporal y consecuencias negativas a largo plazo, junto con un impedimento para controlarlo, de modo que la persona desea dejarlo y no puede; como adicción al alcohol, drogas o, a prácticas como los juegos, las compras, el trabajo, etc."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Afición excesiva a algo en particular."
             }
         ]
     },
@@ -9335,6 +9595,27 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "Persona cuyos servicios o ayuda se consideran valiosos."
+            }
+        ]
+    },
+    "aduana": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Organismo del Estado encargado de percibir las tasas y derechos que gravan los bienes que se comercian atravesando las fronteras."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Por extensión, gravámenes que este organismo impone."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Por analogía, organismo que controla el tráfico de objetos peligrosos, animales y trabajadores entre estados."
             }
         ]
     },
@@ -10666,6 +10947,72 @@
             }
         ]
     },
+    "afueras": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Terreno contiguo a una población."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Milicia",
+                "definition": "Terreno despejado alrededor de una plaza a defender, que impide a los atacantes acercarse a cubierto."
+            }
+        ]
+    },
+    "agarrar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Asir algo con la mano o los miembros."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Hacerse con alguna cosa."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Tomar a alguno por sorpresa."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Penetrar en el significado de lo que se dice o se hace, hacerse una idea de algo usando las facultades mentales."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Chile, coloquial, se emplea también como intransitivo",
+                "definition": "Pelear."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "España, Usado también como intransitivo, coloquial",
+                "definition": "Practicar el acto sexual."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Tomar repentinamente una acción o curso."
+            },
+            {
+                "number": "8",
+                "type": "verbo intransitivo",
+                "type_extra": "Chile, Perú, coloquial",
+                "definition": "Besuquear, besar."
+            }
+        ]
+    },
     "agencia": {
         "definitions": [
             {
@@ -10988,6 +11335,44 @@
                 "type": "adjetivo",
                 "type_extra": "desusado",
                 "definition": "Dicho de una persona: Que tiene complacencia o gusto en hacer algo."
+            }
+        ]
+    },
+    "agradecer": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Manifestar que se aprecia un bien, beneficio o favor recibidos. Expresar agradecimiento; dar las gracias; reconocer."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Sentir gratitud por algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Responder bien una cosa a los cuidados o trabajo invertidos en mantenerla, conservarla o mejorarla, funcionando o prosperando como se espera."
+            }
+        ]
+    },
+    "agradecido": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que reconoce, aprecia y agradece el favor o bien que alguien ha hecho; que siente gratitud o agradecimiento."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Se dice de algo que responde bien a los cuidados o trabajo invertidos en mantenerlo, conservarlo o mejorarlo, funcionando o prosperando como se espera."
             }
         ]
     },
@@ -11713,6 +12098,29 @@
             }
         ]
     },
+    "aguas": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cuerpos de aguas (mares, ríos, lagos, canales, etc.)."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "México",
+                "definition": "Forma abreviada de \"aguas frescas\"."
+            },
+            {
+                "number": "3",
+                "type": "interjección",
+                "type_extra": "México, coloquial",
+                "definition": "Exclamación con la que se advierte a alguien que tenga cuidado con algo, incluso en forma de amenaza."
+            }
+        ]
+    },
     "aguda": {
         "definitions": [
             {
@@ -11908,6 +12316,35 @@
                 "number": "16",
                 "type": "nombre masculino",
                 "definition": "Letra y danza que acompañan el agudo."
+            }
+        ]
+    },
+    "águila": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Aves",
+                "definition": "Cualquiera de las Aves carnívoras pertenecientes a la familia de los accipítridos, que tiene un pico fuerte en forma de gancho y una visión muy aguda."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Insignia principal de la legión romana, hecha de plata o de bronce. Tenía las alas extendidas."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Golf",
+                "definition": "Puntaje correspondiente a finalizar un hoyo con dos golpes menos que los indicados como media (par) para el mismo."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Heráldica",
+                "definition": "La ave como figura o soporte."
             }
         ]
     },
@@ -12166,6 +12603,18 @@
             }
         ]
     },
+    "agustín": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Gastronomía, Usado también como sustantivo masculino",
+                "definition": "Se dice de la masa de mosto (jugo de uva antes de convertirse en vino) cocido con harina, especias y, en ocasiones, pedazos de fruta picada."
+            }
+        ]
+    },
     "ah": {
         "definitions": [
             {
@@ -12298,6 +12747,51 @@
                 "type": "conjunción",
                 "type_extra": "distributiva",
                 "definition": "Introduce posibilidades contrapuestas. Ahora hable de ciencias, ahora de artes, siempre es atinado su juicio."
+            }
+        ]
+    },
+    "ahorita": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de tiempo",
+                "definition": "Ahora, En un momento, enseguida, ahora mismo o hace un momento."
+            }
+        ]
+    },
+    "ahorrar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Evitar consumir innecesariamente algún recurso."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Guardar dinero para el futuro o con algún propósito."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Aprovechar los descuentos o rebajas de precios al comprar artículos."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo",
+                "definition": "Evitar gastos superfluos."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Evitar consecuencias negativas derivadas de ciertas actitudes."
             }
         ]
     },
@@ -12876,6 +13370,67 @@
             }
         ]
     },
+    "ala": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Zootomía",
+                "definition": "Las alas son extremidades o apéndices que poseen algunos grupos de animales, normalmente utilizan estas alas para poder volar."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Aeronáutica",
+                "definition": "Un cuerpo de perfil aerodinámico capaz de generar una diferencia de presiones entre su intradós y extradós al desplazarse por el aire lo que, a su vez, produce sustentación."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Extensión de la parte principal de un edificio."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Parte que sobresale de un tejado para resguardarlo de la lluvia."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Borde saliente de algo, especialmente de un sombrero."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Movimiento político, especialmente si se aparta de la corriente mayoritaria."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Construcción",
+                "definition": "En un perfil metálico en T, cada una de las secciones que están en los extremos, que son paralelas entre sí y están unidas de forma perpendicular por el alma."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Ajedrez",
+                "definition": "En el juego del ajedrez las que forman los peones de cada uno de los caballos con el peón del roque inmediato, y por consiguiente cada jugador tiene su ala izquierda y derecha."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Anatomía",
+                "definition": "Nombre de algunas secciones del esfenoides."
+            },
+            {
+                "number": "10",
+                "type": "interjección",
+                "definition": "Expresión para demandar prisa o sorpresa."
+            }
+        ]
+    },
     "alarma": {
         "definitions": [
             {
@@ -13189,6 +13744,18 @@
                 "number": "5",
                 "type": "nombre femenino",
                 "type_extra": "poco usado, coloquial",
+                "definition": "Mujer del alcalde."
+            }
+        ]
+    },
+    "alcaldesa": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "coloquial, desusado",
                 "definition": "Mujer del alcalde."
             }
         ]
@@ -14016,6 +14583,18 @@
             }
         ]
     },
+    "alegra": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Náutica",
+                "definition": "Especie de barrena para taladrar las bombas."
+            }
+        ]
+    },
     "alegre": {
         "definitions": [
             {
@@ -14160,6 +14739,30 @@
                 "type": "nombre femenino",
                 "type_extra": "germanía",
                 "definition": "taberna."
+            }
+        ]
+    },
+    "alegro": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "Palabra italiana que se usa para designar cierto grado de viveza en el movimiento de los trozos, haciendo abstracción de su carácter alegre o triste."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "Composición musical, o parte de ella, que se canta con viveza y ligereza."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Música",
+                "definition": "Uno de los aires o movimientos principales del ritmo musical; es moderadamente vivo."
             }
         ]
     },
@@ -14997,6 +15600,39 @@
             }
         ]
     },
+    "alias": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Nombre con que se conoce a alguien, además del de pila u original."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Palabra o grupo de palabras que están asociados unívocamente con una cuenta bancaria o billetera digital, usada como identificación junto con el CVU o CBU para hacer transacciones."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Programación",
+                "definition": "En un tipo de dato definido arbitrariamente por el programador, etiqueta que se elige para poder identificarlo unívocamente."
+            },
+            {
+                "number": "4",
+                "type": "adverbio",
+                "definition": "Por otro nombre."
+            },
+            {
+                "number": "5",
+                "type": "adverbio",
+                "type_extra": "desusado",
+                "definition": "De otro modo."
+            }
+        ]
+    },
     "alicante": {
         "definitions": [
             {
@@ -15101,6 +15737,27 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "Actividad industrial o comercial de productos alimenticios. Ramo de la alimentación."
+            }
+        ]
+    },
+    "alimentar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Dar comida o alimentos."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Suministrar a algo o alguien lo necesario para su mantención y subsistencia."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Alentar. Fomentar. Animar a seguir un camino u opción."
             }
         ]
     },
@@ -16018,6 +16675,27 @@
                 "type": "nombre femenino",
                 "type_extra": "poco usado",
                 "definition": "Servicio en que se turnan dos o más personas."
+            }
+        ]
+    },
+    "alternativo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que se dice, hace o sucede con alternancia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Capaz de ejercer una función igual o parecida a otra cosa."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Especialmente refiriéndose a actitudes culturales, que se contrapone a otras mayoritariamente aceptadas."
             }
         ]
     },
@@ -18619,6 +19297,100 @@
                         "content": "alna."
                     }
                 ]
+            }
+        ]
+    },
+    "andando": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Expresión para animar a alguien a comenzar una acción o a realizarla más rápidamente."
+            }
+        ]
+    },
+    "andas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Tablero comúnmente cuadrado que, sostenido por dos varas paralelas y horizontales, sirve para conducir personas, efigies o cosas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Féretro o caja con varas, en que se llevan a enterrar los muertos."
+            }
+        ]
+    },
+    "animación": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de animar."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Viveza en las acciones, movimientos o palabras."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Esparcimiento o regocijo de la gente en una fiesta u otro lugar."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Técnica de diseño y preparación de dibujos en serie para una película animada."
+            }
+        ]
+    },
+    "anime": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Material pegajoso, generalmente de color chocolate pálido, que se extrae de la savia de diversos árboles, especialmente del género Hymenaea."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Árboles, América",
+                "definition": "Árbol maderable de América tropical, perteneciente a la familia de las papilionáceas que puede llegar a unos siete metros de altura, con flores amarillas en ramillete, frutos en vaina y madera de color rojizo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Venezuela",
+                "definition": "Poliestireno expandido."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Arte",
+                "definition": "Estilo de animación de procedencia japonesa, caracterizado por personajes humanos con ojos grandes y rostro infantil o estilizado."
+            }
+        ]
+    },
+    "ano": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Anatomía",
+                "definition": "Extremo terminal del tubo digestivo, constituido por un esfínter voluntario recubierto de mucosa, siendo una abertura a través de la cual los materiales de desecho de la digestión (heces fecales) salen del cuerpo."
             }
         ]
     },
@@ -21465,6 +22237,17 @@
             }
         ]
     },
+    "apagar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que un aparato electrónico deje de estar encendido."
+            }
+        ]
+    },
     "aparato": {
         "definitions": [
             {
@@ -22149,6 +22932,18 @@
                 "type": "adverbio",
                 "type_extra": "Usado",
                 "definition": "En el teatro y referido al modo de decir su texto un personaje, fingiendo hablar consigo mismo o dirigiéndose a otro u otros, dando por supuesto que no lo oyen los demás. normalmente como acotación."
+            }
+        ]
+    },
+    "apelación": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Derecho",
+                "definition": "Acción de apelar."
             }
         ]
     },
@@ -23049,6 +23844,46 @@
             }
         ]
     },
+    "apostar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Pactar que si no se verifica lo que alguno asegura perderá una cantidad o cosa."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Adornar, componer, ataviar."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Poner en juego, dar como prenda, exponer dinero o cosas que pasarán a manos de quien gane la apuesta."
+            },
+            {
+                "number": "4",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Dirimir dos o más personas su superioridad o habilidad en alguna cosa."
+            },
+            {
+                "number": "5",
+                "type": "verbo intransitivo",
+                "definition": "Confiar infundadamente o con poca base en alguien o algo."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Poner una o más personas o caballerías en un puesto señalado."
+            }
+        ]
+    },
     "apoya": {
         "definitions": [
             {
@@ -23518,6 +24353,22 @@
                 "type": "verbo pronominal",
                 "type_extra": "desusado",
                 "definition": "preciarse."
+            }
+        ]
+    },
+    "aprecio": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de apreciar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Apreciación."
             }
         ]
     },
@@ -24180,6 +25031,41 @@
             }
         ]
     },
+    "apuesto": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, físicamente atractiva."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que sucede o se realiza en el momento adecuado."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Condición o carácter de apuesto₃."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Epíteto que se usa para designar o interpelar a una persona, en atención a su carácter y acciones."
+            },
+            {
+                "number": "5",
+                "type": "adverbio",
+                "type_extra": "desusado, de modo",
+                "definition": "De manera apuesta₂."
+            }
+        ]
+    },
     "apunta": {
         "definitions": [
             {
@@ -24786,6 +25672,24 @@
             }
         ]
     },
+    "aquello": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "pronombre",
+                "type_extra": "demostrativo neutro",
+                "definition": "Se refiere a algo que está lejos, en el espacio o en el tiempo, de la persona que habla y de la persona con quien se habla."
+            },
+            {
+                "number": "2",
+                "type": "pronombre",
+                "type_extra": "coloquial, demostrativo neutro",
+                "definition": "Designa un objeto cuyo nombre no quiere mencionarse, denotando complicidad con quien se habla."
+            }
+        ]
+    },
     "aquellos": {
         "definitions": [
             {
@@ -24953,6 +25857,70 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "definition": "Lengua semítica occidental, originaria de Arabia, que se habla en el norte de África y el sudoeste de Asia, y también en comunidades árabes de diversos países del mundo."
+            }
+        ]
+    },
+    "araña": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Arácnidos",
+                "definition": "Clase de artrópodos arácnidos cuyo cuerpo se divide en cefalotórax y abdomen. Del primero parten cuatro pares de patas (cada una dividida en siete secciones llamadas artejos), así como otros dos pares de apéndices más (los quelíceros, especie de uñas prensiles, y los palpos o pedipalpos, de carácter táctil). En el abdomen poseen órganos productores de un tipo de seda muy resistente que usan para tejer sus características telarañas, así como para recubrir su nido y para formar capullos en los que depositan sus huevos. En general, tienen una vista pobre a pesar de poseer muchos ojos (usualmente cuatro pares), de distinta disposición según la especie."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Por extensión, cualquier animal o cosa semejante en algún aspecto a un arácnido."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Mobiliario",
+                "definition": "Tipo de candelabro o lámpara carente de pie, suspendido del techo y con numerosos brazos."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Caza",
+                "definition": "Especie de red que, colocada entre dos árboles, sirve para atrapar pájaros."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Minería",
+                "definition": "Red de galerías subterráneas que parten de una misma excavación de entrada."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Palitroque de madera con diferentes orificios, por los que se hacen pasar los cabos con el fin de mantener un orden y evitar que se enreden en su proximidad a los palos de una embarcación. Dicho palitroque posee, en el extremo frontalmente opuesto a la hilera de agujeros, una cuerda amarrada en dos partes y unidas entre sí formando un triángulo del que el operario se sirve para manejar según los usos que se precisen."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Botánica",
+                "definition": "Nombre común dos plantas de la familia de las ranunculáceas."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Vehículos, Argentina, Sinaloa (México), Uruguay",
+                "definition": "Tipo de carruaje, ligero y de pequeño tamaño. Semejante al bombé."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Guatemala",
+                "definition": "Aparato con ruedas que posee un agujero en el centro del cual se pende una silla flexible donde se suspende a un niño de manera que sus pies toquen el suelo para que pueda movilizarse y aprender a caminar."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "Milicia, desusado",
+                "definition": "En siglos pasados, se llamaba así a las mechas que partían de un mismo origen del que prendían fuego, para detonar al mismo tiempo diferentes explosivos con fines militares."
             }
         ]
     },
@@ -26066,6 +27034,106 @@
             }
         ]
     },
+    "armar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Proveer con armas a grupos de personas tales como ejércitos, hordas, bandas, etc."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Darle una o varias armas a una persona."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Hablando de países, tribus o grupos sociales, aprestarse a una guerra o enfrentamiento armado."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Dicho de un arma, ponerla en condiciones de ser usada."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Juntar las piezas que vienen separadas de un mueble, aparato, juguete, rompecabezas, etc. dándole al objeto su forma funcional o lógica."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Crear o fundar algo sobre otra cosa."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "type_extra": "Náutica",
+                "definition": "Disponer todo lo necesario para una embarcación, dejarla en condiciones de navegar."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Hacerse o crearse algo, sea de forma natural o sea obra de personas."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "definition": "En jardinería, podar y dejarle guías a los árboles para que tomen cierta forma."
+            },
+            {
+                "number": "10",
+                "type": "verbo transitivo",
+                "definition": "Instalarle la armazón a algo para sostenerlo."
+            },
+            {
+                "number": "11",
+                "type": "verbo transitivo",
+                "definition": "Poner un metal precioso sobre otro de inferior calidad."
+            },
+            {
+                "number": "12",
+                "type": "verbo transitivo",
+                "definition": "Originar una situación enojosa como jaleos, escándalos, disputas, etc."
+            },
+            {
+                "number": "13",
+                "type": "verbo transitivo",
+                "type_extra": "Argentina, Uruguay",
+                "definition": "Hacer un cigarrillo usando papel de fumar y tabaco."
+            },
+            {
+                "number": "14",
+                "type": "verbo transitivo",
+                "type_extra": "coloquial",
+                "definition": "Darle a una persona las ropas, aperos y herramientas para viajar, trabajar o realizar alguna otra actividad."
+            },
+            {
+                "number": "15",
+                "type": "verbo intransitivo",
+                "definition": "Estar bien y conforme algo para alguien."
+            },
+            {
+                "number": "16",
+                "type": "verbo intransitivo",
+                "type_extra": "Minería",
+                "definition": "Contener la mena o roca el mineral explotable."
+            },
+            {
+                "number": "17",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Preparar una armazón de palos o trampa para atrapar una res."
+            }
+        ]
+    },
     "armario": {
         "definitions": [
             {
@@ -26078,6 +27146,50 @@
                         "content": "ropero, guardarropa, almario, cómoda, escaparate, aparador."
                     }
                 ]
+            }
+        ]
+    },
+    "armas": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Conjunto de los instrumentos que tiene un guerrero -o un grupo de estos- para atacar o defenderse."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Conjunto de todas las fuerzas militares de un Estado o país."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Biología",
+                "definition": "Conjunto de medios biológicos que tiene un organismo para defenderse de enfermedades, virus y agentes nocivos."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Profesión en el campo militar, o dedicación a este tipo de actividad."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Manera o conjunto de medios para obtener un resultado."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Heráldica",
+                "definition": "Cada uno de los elementos gráficos (figuras, símbolos, señales, etc.) que decoran un escudo."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Heráldica",
+                "definition": "Figura gráfica, generalmente en forma de escudo, que representa un apellido, familia, Estado, población, etc."
             }
         ]
     },
@@ -26215,6 +27327,180 @@
                 "type": "nombre femenino",
                 "type_extra": "Informática",
                 "definition": "Estructura lógica y física de los componentes de una computadora."
+            }
+        ]
+    },
+    "arrancar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Quitar hasta la raíz un objeto fijo al suelo."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Quitar violentamente una parte de su lugar."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Arrebatar violentamente algo que está en posesión ajena."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Echar flema por la boca."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Por extensión, hacer salir alguna otra cosa de la boca, como el aliento o la voz."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "Arquitectura",
+                "definition": "Comenzar la construcción (de un arco)."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "type_extra": "Náutica",
+                "definition": "Tirar de un cabo a la leva."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "type_extra": "Náutica",
+                "definition": "Imprimir mayor velocidad a una embarcación."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Náutica",
+                "definition": "Largar el ancla el fondo o desprenderse de éste la uña."
+            },
+            {
+                "number": "10",
+                "type": "verbo intransitivo",
+                "definition": "Comenzar a correr."
+            },
+            {
+                "number": "11",
+                "type": "verbo intransitivo",
+                "type_extra": "coloquial",
+                "definition": "Por extensión: empezar, iniciar, comenzar (con algo)."
+            },
+            {
+                "number": "12",
+                "type": "verbo intransitivo",
+                "type_extra": "coloquial",
+                "definition": "Abandonar un sitio."
+            },
+            {
+                "number": "13",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como transitivo",
+                "definition": "Dicho de una máquina, comenzar a funcionar."
+            },
+            {
+                "number": "14",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como transitivo",
+                "definition": "En especial, dicho de un vehículo: comenzar a marchar."
+            },
+            {
+                "number": "15",
+                "type": "verbo intransitivo",
+                "type_extra": "Arquitectura",
+                "definition": "Dicho de un arco o de una bóveda: comenzar a formarse su curvatura sobre el salmer o la imposta."
+            },
+            {
+                "number": "16",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Vencer, derrotar."
+            },
+            {
+                "number": "17",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Acometer, embestir, asaltar."
+            }
+        ]
+    },
+    "arrestado": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Audaz, arrojado, intrépido."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Heráldica",
+                "definition": "Se dice del animal puesto sobre sus cuatro pies, sin pasar un pie delante de otro respectivamente."
+            }
+        ]
+    },
+    "arresto": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción de arrestar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Arrojo o determinación para emprender alguna cosa ardua."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Detención provisional del presunto reo."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Reclusión por un tiempo breve, como corrección o pena."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Prisión."
+            }
+        ]
+    },
+    "arsenal": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Depósito de armas, munición y otros pertrechos militares."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Figuradamente, repertorio de datos y recursos argumentales."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Náutica, desusado",
+                "definition": "Taller dedicado a la construcción, reparación o conservación de barcos."
             }
         ]
     },
@@ -26613,6 +27899,27 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "arte (maña, astucia)."
+            }
+        ]
+    },
+    "artificial": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que no ha sido hecho por la naturaleza, sino por el ser humano u otro ser inteligente."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Carente de naturalidad."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que no es sincero."
             }
         ]
     },
@@ -27476,6 +28783,47 @@
             }
         ]
     },
+    "asado": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Cocido por convección directa del calor a través del aire."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "figurado, coloquial",
+                "definition": "Que sufre de mucho calor."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Alimentos",
+                "definition": "Carne asada."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Argentina, Chile, Perú",
+                "definition": "Carne, en especial de vacuno, cocinada a las brasas sobre un asador o una parrilla."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Río de la Plata, Chile, Perú",
+                "definition": "Plato formado por carnes, vísceras o embutidos asados, servidos con diversas guarniciones."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "type_extra": "Chile, Río de la Plata",
+                "definition": "La reunión social de carácter festivo que se hace para consumir estos platos."
+            }
+        ]
+    },
     "asalto": {
         "definitions": [
             {
@@ -27967,6 +29315,36 @@
             }
         ]
     },
+    "asegurarse": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo pronominal",
+                "type_extra": "con frecuencia va seguido de la preposición \"de\"",
+                "definition": "Cerciorarse, verificar o comprobar que algo sea verdadero o se haga."
+            },
+            {
+                "number": "2",
+                "type": "verbo pronominal",
+                "type_extra": "se emplea más como transitivo: asegurar",
+                "definition": "Hacer lo necesario para sentir confianza, tranquilidad, seguridad; despojarse de la preocupación o el miedo."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "type_extra": "se emplea más como transitivo: asegurar",
+                "definition": "Quedar en condiciones que dificulten el propio daño, robo, invasión o peligro."
+            },
+            {
+                "number": "4",
+                "type": "verbo pronominal",
+                "type_extra": "se emplea más como transitivo: asegurar",
+                "definition": "Obtener un seguro o promesa que, a cambio de ciertas condiciones contratadas, se recibirá la indemnización económica por la pérdida de algo (por robo, accidente, incendio, enfermedad, etc.), o el cubrimiento profesional de los servicios necesarios para recuperar algo (la salud, un edificio, un vehículo, etc.)."
+            }
+        ]
+    },
     "aseguro": {
         "definitions": [
             {
@@ -28005,6 +29383,38 @@
                 "number": "3",
                 "type": "verbo transitivo",
                 "definition": "Dicho de una persona en quien se confía: Engañar en un asunto grave."
+            }
+        ]
+    },
+    "asesinar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Quitar la vida de modo premeditado, con alevosía, ensañamiento y otros agravantes."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Causar pesar y aflicción."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Traicionar la confianza de alguien."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Desvirtuar, interpretar mal alguna cosa."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "type_extra": "familiar",
+                "definition": "Perseguir, importunar constantemente."
             }
         ]
     },
@@ -28172,6 +29582,35 @@
                 "type": "adverbio",
                 "type_extra": "desusado, Era usado o usada",
                 "definition": "De tal manera. en correlación con la conjunción que con valor consecutivo. Así le habían desfigurado las penas, que no lo conocí."
+            }
+        ]
+    },
+    "asia": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Minería, Argentina, Bolivia, Perú",
+                "definition": "Derrumbe que obstruye la salida de una galería de mina."
+            }
+        ]
+    },
+    "asiático": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Persona originaria o habitante del Asia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Se dice de algo que proviene o tiene relación con el Asia."
             }
         ]
     },
@@ -29479,6 +30918,33 @@
             }
         ]
     },
+    "asqueroso": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que produce asco o repulsa, sea moral o físico."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Propenso a sentir asco."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Venezuela, coloquial",
+                "definition": "Sumamente sucio."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Dicho de una persona, carente de hábitos higiénicos."
+            }
+        ]
+    },
     "asume": {
         "definitions": [
             {
@@ -29826,6 +31292,34 @@
                 "type": "verbo pronominal",
                 "type_extra": "México",
                 "definition": "Estar sorprendido y enojado a la vez."
+            }
+        ]
+    },
+    "atado": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que depende totalmente de otras personas, que carece de autonomía."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Conjunto de cosas atadas, y a veces reunidas como fardo, paquete o bulto."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Argentina",
+                "definition": "Paquete de cigarrillos."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que se intimida fácilmente."
             }
         ]
     },
@@ -30256,6 +31750,38 @@
             }
         ]
     },
+    "atlas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Colección de mapas en un volumen."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Colección de láminas organizadas temáticamente."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Primera de las vértebras cervicales."
+            }
+        ]
+    },
+    "atleta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre",
+                "definition": "Persona que realiza un deporte."
+            }
+        ]
+    },
     "atletas": {
         "definitions": [
             {
@@ -30360,6 +31886,34 @@
                 "type": "nombre femenino",
                 "type_extra": "Física, milímetro(s)",
                 "definition": "Unidad de presión igual a la presión de una columna de mercurio de 760 de alto."
+            }
+        ]
+    },
+    "atmósfera": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Meteorología, Geología",
+                "definition": "Los gases que rodean a la Tierra o cualquier otro cuerpo astronómico."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "El aire en un lugar en partícular."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "El humor o ánimo de una situación, el espacio que cubre la influencia de este ánimo."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Física",
+                "definition": "Unidad de presión, Una atmósfera es igual a la presión ejercida por la atmósfera(1) en el nivel del mar, es equivalente a 101325 N/m²."
             }
         ]
     },
@@ -31070,6 +32624,22 @@
             }
         ]
     },
+    "au": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "definition": "Indica dolor."
+            },
+            {
+                "number": "2",
+                "type": "interjección",
+                "definition": "Utilizada para imitar el aullido (sonido del lobo)."
+            }
+        ]
+    },
     "audiencia": {
         "definitions": [
             {
@@ -31548,6 +33118,32 @@
             }
         ]
     },
+    "aurora": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Luces que indican el despuntar del día antes del amanecer."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Por extensión, momento del día en que se vislumbra la aurora₁."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "En sentido figurado, cualquier cosa cuya belleza radique en su coloración rosácea."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Principio o comienzo de algo."
+            }
+        ]
+    },
     "ausencia": {
         "definitions": [
             {
@@ -31641,6 +33237,32 @@
             }
         ]
     },
+    "auténtica": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Certificación de la entidad y verdad de alguna reliquia o milagro."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Cualquiera de las constituciones recopiladas de orden de Justiniano al fin del código."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Copia autorizada."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Por extensión, cualquier documento comprobativo de algún hecho."
+            }
+        ]
+    },
     "autentico": {
         "definitions": [
             {
@@ -31653,6 +33275,48 @@
                         "content": "autentificar, certificar, acreditar, autorizar, legalizar, legitimar, refrendar, sancionar, formalizar."
                     }
                 ]
+            }
+        ]
+    },
+    "auténtico": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que es verdaderamente lo que dice o parece ser."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Autorizado o legalizado."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Paladino, evidente, patente, etc."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Se dice del sujeto honrado y constituido en dignidad."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "definition": "Se denomina así al escritor clásico."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "definition": "Llámase el volumen que contiene las últimas constituciones de Justiniano."
+            },
+            {
+                "number": "7",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Se aplicaba a los bienes sujetos a alguna carga."
             }
         ]
     },
@@ -31693,6 +33357,17 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "autocar."
+            }
+        ]
+    },
+    "autoestima": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Estima, valoración o idea que una persona tiene sobre sí misma."
             }
         ]
     },
@@ -31760,6 +33435,18 @@
                 "number": "10",
                 "type": "nombre femenino",
                 "definition": "Ciencia que trata de sustituir en un proceso el operador humano por dispositivos mecánicos o electrónicos."
+            }
+        ]
+    },
+    "automáticamente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "De modo automático."
             }
         ]
     },
@@ -32310,6 +33997,18 @@
             }
         ]
     },
+    "autos": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Derecho",
+                "definition": "Actuaciones en una causa judicial."
+            }
+        ]
+    },
     "auxiliar": {
         "definitions": [
             {
@@ -32375,6 +34074,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "Ayuda que se prestan entre sí autoridades y órganos de distintos órdenes. Auxilio administrativo, judicial, jurisdiccional."
+            }
+        ]
+    },
+    "av": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Judaísmo",
+                "definition": "Decimoprimer mes del calendario hebreo, de 30 días de duración. La conmemoración de Tishá Beav tiene lugar en este mes."
             }
         ]
     },
@@ -32858,6 +34569,33 @@
             }
         ]
     },
+    "avisar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Dar noticia de alguna cosa."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Advertir, aconsejar."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Notar, observar."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Instruirse."
+            }
+        ]
+    },
     "aviso": {
         "definitions": [
             {
@@ -33285,6 +35023,32 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "definition": "En el juego de pelota, esquina, puerta, ventana u otro estorbo."
+            }
+        ]
+    },
+    "azteca": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio de, relativo o perteneciente a un pueblo precolombino que ocupaba un amplio territorio centrado en la ciudad de Tenochtitlán, en el lago Texcoco, donde hoy se levanta Ciudad de México."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Por extensión, propio de, relativo o perteneciente al imperio gobernado por la triple alianza entre los aztecas₁, alcohuas y tepanecas."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Por extensión, propio de, relativo o perteneciente a la cultura común a la Centroamérica precolombina, de habla náhuatl, sociedad agricultora basada en el maíz y un complejo panteón."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Por extensión, Originario, relativo a, o propio de el actual país de México."
             }
         ]
     },
