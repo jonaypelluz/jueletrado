@@ -987,29 +987,6 @@
             }
         ]
     },
-    "dale": {
-        "level": "beginner",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "interjección",
-                "type_extra": "coloquial",
-                "definition": "Se emplea para mostrar aceptación."
-            },
-            {
-                "number": "2",
-                "type": "interjección",
-                "definition": "Se emplea para presionar o apurar a alguien para que haga algo."
-            },
-            {
-                "number": "3",
-                "type": "interjección",
-                "type_extra": "Argentina",
-                "definition": "Se emplea para mostrar que no se está de acuerdo con lo que el interlocutor ha dicho o para hacerlo actuar de modo diferente."
-            }
-        ]
-    },
     "dama": {
         "definitions": [
             {
@@ -1115,18 +1092,6 @@
                 "type": "nombre femenino",
                 "type_extra": "irónico o irónica",
                 "definition": "concubina."
-            }
-        ]
-    },
-    "dame": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Danza",
-                "definition": "Figura simple dentro de la salsa cubana, donde se cambia a la pareja por el dile que no a la siguiente chica."
             }
         ]
     },
@@ -1736,29 +1701,6 @@
                 "type": "verbo pronominal",
                 "type_extra": "México",
                 "definition": "darse por vencido (reconocerse equivocado)."
-            }
-        ]
-    },
-    "dañar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "definition": "Hacer que alguien tener herida."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "Malograr el correcto funcionamiento de una cosa."
-            },
-            {
-                "number": "3",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "Desprestigiar, corromper, pervertir."
             }
         ]
     },
@@ -3971,51 +3913,6 @@
             }
         ]
     },
-    "data": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Nota que indica el lugar y fecha en que algo acontece o se lleva a cabo, en particular como referencia en un documento."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Fecha, hora o tiempo en que tiene lugar un evento o acción."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "Compuerta o abertura por donde puede desviarse parte del agua de una represa o corriente."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "type_extra": "Comercio",
-                "definition": "Anotación contable de una salida o descargo de lo que se ha recibido."
-            },
-            {
-                "number": "5",
-                "type": "adjetivo",
-                "type_extra": "Frutos",
-                "definition": "Se aplica a un tipo de ciruela muy jugosa y de color oscuro, la \"ciruela de data\" o \"ciruela de pernigón\"."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "desusado",
-                "definition": "Autorización o permiso escritos para ejecutar algo."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "coloquial",
-                "definition": "Información."
-            }
-        ]
-    },
     "dato": {
         "definitions": [
             {
@@ -4309,17 +4206,6 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "Contienda, lucha, combate."
-            }
-        ]
-    },
-    "debatir": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo intransitivo",
-                "definition": "Oponer ideas o propuestas con el objeto de llegar a una conclusión, o el enriquecimiento de los asistentes."
             }
         ]
     },
@@ -5087,17 +4973,6 @@
             }
         ]
     },
-    "debut": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Acción o efecto de debutar."
-            }
-        ]
-    },
     "década": {
         "definitions": [
             {
@@ -5203,47 +5078,6 @@
                 "type": "nombre femenino",
                 "type_extra": "Música",
                 "definition": "Octava de la tercera."
-            }
-        ]
-    },
-    "decente": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "definition": "De proceder honesto, justo, debido."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Conforme al estado o calidad de la persona."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "definition": "Limpio, aseado, ordenado, arreglado."
-            },
-            {
-                "number": "4",
-                "type": "adjetivo",
-                "definition": "Digno."
-            },
-            {
-                "number": "5",
-                "type": "adjetivo",
-                "definition": "Bien portado."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "definition": "De calidad o cantidad suficiente, moderadamente satisfactorio."
-            },
-            {
-                "number": "7",
-                "type": "adjetivo",
-                "definition": "Que observa las reglas de la moral, el pudor y el recato."
             }
         ]
     },
@@ -5722,35 +5556,6 @@
                 "number": "6",
                 "type": "verbo pronominal",
                 "definition": "Hacer una elección tras reflexionar sobre ella. Al final se decidieron por la casa más cara."
-            }
-        ]
-    },
-    "décimo": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "type_extra": "ordinal",
-                "definition": "Que ocupa el puesto siguiente al noveno en una serie ordenada. Ordinal del diez."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "type_extra": "Fraccionarios, Usado también como masculino, ordinal",
-                "definition": "Que es una de diez partes iguales en las que se divide un todo."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Fracción de un billete de lotería dividido en diez (como en España)."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "type_extra": "Numismática, Colombia, Ecuador",
-                "definition": "Tipo de moneda de plata."
             }
         ]
     },
@@ -7512,23 +7317,6 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Dicho de una persona: Que tiene deficiencia mental."
-            }
-        ]
-    },
-    "déficit": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Economía, Comercio, Finanzas",
-                "definition": "Deuda obtenida cuando los pagos (haber) superan las inversiones e ingresos recibidos (debe)."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Escasez o falta de una cosa necesaria."
             }
         ]
     },
@@ -9518,55 +9306,6 @@
             }
         ]
     },
-    "delantera": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Parte anterior."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "En la plaza de toros y en la cazuela de los teatros cada uno de los asientos de primera fila."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "El cuarto delantero de una chupa, jubón o casaca, o de las caídas de una capa basquiña."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "definition": "Frontera de una ciudad, villa, etc."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "definition": "El espacio o distancia conque uno se adelanta a otro en el camino."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "Fútbol",
-                "definition": "El conjunto de delanteros de un equipo."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "Fútbol",
-                "definition": "La zona en donde estos juegan."
-            },
-            {
-                "number": "8",
-                "type": "nombre femenino",
-                "type_extra": "Milicia, desusado",
-                "definition": "Vanguardia."
-            }
-        ]
-    },
     "delantero": {
         "definitions": [
             {
@@ -10031,22 +9770,6 @@
             }
         ]
     },
-    "delicioso": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "definition": "Muy placentero, que da delicia o deleite."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Que agrada a los sentidos en especial al olfato o al gusto."
-            }
-        ]
-    },
     "delincuencia": {
         "definitions": [
             {
@@ -10074,18 +9797,6 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "definition": "Colectividad de delincuentes."
-            }
-        ]
-    },
-    "delincuente": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino y femenino",
-                "type_extra": "Usado también como adjetivo",
-                "definition": "Persona que comete un delito o crimen."
             }
         ]
     },
@@ -10172,29 +9883,6 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "Acto o hecho reprobable. Es un delito gastar tanto en un traje."
-            }
-        ]
-    },
-    "delta": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Cuarta letra del alfabeto griego, a la que le correponde la letra d en el alfabeto latino."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "type_extra": "Geografía",
-                "definition": "Desembocadura con forma de triángulo, por semejanza con el símbolo griego en mayúsculas₁, comprendida entre dos ríos o cauces que desembocan en el mar."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "type_extra": "Matemáticas",
-                "definition": "Cota de valores próximos a otro."
             }
         ]
     },
@@ -12222,27 +11910,6 @@
             }
         ]
     },
-    "depósito": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Contrato por el que se entrega a una persona un bien para que lo guarde y custodie con obligación de restituirlo posteriormente."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Lugar en el cual se guarda alguna cosa."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Sedimento restante de algún efecto natural cómo el paso del agua."
-            }
-        ]
-    },
     "depresión": {
         "definitions": [
             {
@@ -13018,45 +12685,6 @@
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Deshacer, descomponer."
-            }
-        ]
-    },
-    "desafío": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Acción o efecto de desafiar, de enfrentarse a alguien o a algo en batalla, competencia, o para ver quién es más fuerte o capaz."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Situación, condición u objetivo percibidos como algo muy difícil que pone a prueba la decisión, fuerza o firmeza de alguien."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Enemistad que resulta de una competencia muy intensa entre personas o grupos."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "type_extra": "Historia",
-                "definition": "Explicación oral o escrita que daban los reyes de Aragón sobre sus motivos para desafiar a una persona influyente o de la nobleza."
-            }
-        ]
-    },
-    "desafortunadamente": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adverbio",
-                "type_extra": "de modo",
-                "definition": "De una manera desafortunada."
             }
         ]
     },
@@ -14034,56 +13662,6 @@
             }
         ]
     },
-    "descargar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como intransitivo",
-                "definition": "Retirar o bajar la carga de un transporte."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "type_extra": "Informática, Usado también como intransitivo, Usado también como pronominal",
-                "definition": "Copiar algún tipo de información, programa o archivos, a través de internet, desde un servidor donde se encuentran alojados al ordenador personal, móvil o tableta de uno mismo."
-            },
-            {
-                "number": "3",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "Liberar una carga₇ emocional o tensión acumulada, normalmente en las personas que se encuentran cerca, mediante hablar o desahogarse de algún otro modo."
-            },
-            {
-                "number": "4",
-                "type": "verbo transitivo",
-                "definition": "Disparar o hacer detonar un arma de fuego."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "definition": "Sacarle la carga o munición a un arma."
-            },
-            {
-                "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como intransitivo",
-                "definition": "Dar un golpe de manera violenta."
-            },
-            {
-                "number": "7",
-                "type": "verbo intransitivo",
-                "definition": "Desembocar un río, terminar su curso desaguando o entrando en una masa de agua."
-            },
-            {
-                "number": "8",
-                "type": "verbo intransitivo",
-                "definition": "Precipitarse una nube en forma de lluvia o granizo hasta deshacerse."
-            }
-        ]
-    },
     "descarta": {
         "definitions": [
             {
@@ -14906,23 +14484,6 @@
                 "number": "8",
                 "type": "verbo pronominal",
                 "definition": "quitarse el sombrero."
-            }
-        ]
-    },
-    "descuento": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Acción o efecto de descontar."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "Comercio",
-                "definition": "Cantidad rebajada en el precio, cuenta o deuda de algo."
             }
         ]
     },
@@ -16372,22 +15933,6 @@
             }
         ]
     },
-    "despierto": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "definition": "En estado de vigilia, no durmiendo."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Que tiene los sentidos y la atención bien alertas, con la inteligencia activa y eficaz."
-            }
-        ]
-    },
     "desplazamiento": {
         "definitions": [
             {
@@ -17017,18 +16562,6 @@
                 "type": "verbo transitivo",
                 "type_extra": "Telecomunicación",
                 "definition": "Extraer de la onda modulada la señal transmitida."
-            }
-        ]
-    },
-    "detective": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino y femenino",
-                "type_extra": "desusado",
-                "definition": "Oficial de policía o investigador privado cuya función es buscar información como evidencia para resolver un crimen."
             }
         ]
     },
@@ -17819,24 +17352,6 @@
             }
         ]
     },
-    "diabetes": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "Medicina",
-                "definition": "Enfermedad muy grave caracterizada por excesiva secreción de orina más o menos cargada de glucosa, sed inextinguible y enflaquecimiento progresivo."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "type_extra": "Mecánica",
-                "definition": "Diabeto."
-            }
-        ]
-    },
     "diablo": {
         "definitions": [
             {
@@ -17912,24 +17427,6 @@
                 "type": "verbo transitivo",
                 "type_extra": "Medicina",
                 "definition": "Determinar el carácter de una enfermedad mediante el examen de sus signos."
-            }
-        ]
-    },
-    "diagnóstico": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Medicina",
-                "definition": "Reconocimiento de enfermedad sobre la base de sus síntomas, el examen médico y los resultados de los análisis de laboratorio."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "Medicina",
-                "definition": "Diagnosis dada por el médico a la enfermedad."
             }
         ]
     },
@@ -18046,30 +17543,6 @@
             }
         ]
     },
-    "diamante": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Minerales",
-                "definition": "Piedra preciosa, alótropo del carbón de estructura cristalina en tetraedro, de gran dureza y muy apreciado como ornamento."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "type_extra": "Béisbol, Colombia, Cuba, México, República Dominicana, Venezuela",
-                "definition": "Terreno interno del campo de béisbol y deportes afines."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "Utensilios",
-                "definition": "Lámpara de petróleo con reflector que se usa en las minas."
-            }
-        ]
-    },
     "diámetro": {
         "definitions": [
             {
@@ -18088,53 +17561,6 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "Anchura máxima de un cuerpo circular. El diámetro de un estanque."
-            }
-        ]
-    },
-    "diana": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "Milicia",
-                "definition": "Toque militar que se ejecuta para despertar a la tropa."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Por extensión, toque de una agrupación musical que señala el comienzo de un día festivo."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "type_extra": "Milicia, Arquería",
-                "definition": "Centro de un objetivo al que se apunta con una flecha o proyectil."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "type_extra": "Arquería",
-                "definition": "Objeto que sirve de blanco para el tiro de una flecha o proyectil. Suele ser una superficie plana con círculos concéntricos."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "type_extra": "Biología, Química",
-                "definition": "Órgano objetivo al que se dirige la acción de un reactivo o enzima."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "type_extra": "Fútbol, Deporte, poco usado",
-                "definition": "Gol (anotación en el arco rival)."
-            },
-            {
-                "number": "7",
-                "type": "nombre femenino",
-                "type_extra": "Cine",
-                "definition": "Pequeña bandera redonda, generalmentede entre 7 a 23 cm de ancho y hecha de material opaco, que normalmente se sitúa delante de la cámara para impedir que entre luz en el objetivo o se sitúa en el decorado para crear una sombra."
             }
         ]
     },
@@ -18371,17 +17797,6 @@
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Vida o existencia de alguien. Terminó sus días allí."
-            }
-        ]
-    },
-    "dibujar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "definition": "Hacer un dibujo."
             }
         ]
     },
@@ -23015,22 +22430,6 @@
             }
         ]
     },
-    "discapacidad": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Dificultad que poseen algunas personas para poder realizar actividades, aprender u obtener cosas con normalidad."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Enfermedad o condición que puede impedir temporal o permanentemente a una persona desenvolverse normalmente."
-            }
-        ]
-    },
     "disciplina": {
         "definitions": [
             {
@@ -23360,47 +22759,6 @@
             }
         ]
     },
-    "disculpa": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Argumento con el que se intenta negar o quitar importancia a una culpa."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "La razón y causa que se da para excusarse."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "Pretexto, achaque para cubrir el expediente."
-            },
-            {
-                "number": "4",
-                "type": "interjección",
-                "definition": "Expresa arrepentimiento o compunción."
-            },
-            {
-                "number": "5",
-                "type": "interjección",
-                "definition": "Usada para excusarse."
-            },
-            {
-                "number": "6",
-                "type": "interjección",
-                "definition": "Usada para llamar la atención de alguien."
-            },
-            {
-                "number": "7",
-                "type": "interjección",
-                "definition": "Usada para corregir lo que se acaba de decir."
-            }
-        ]
-    },
     "discurso": {
         "definitions": [
             {
@@ -23637,17 +22995,6 @@
             }
         ]
     },
-    "diseñador": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino y femenino",
-                "definition": "Profesional que ejerce el oficio del diseño o persona que se dedica a diseñar (arquitectura, modas, joyas, paisaje, productos de la industria, multimedia, obras de ingeniería, etc.)."
-            }
-        ]
-    },
     "diseñar": {
         "definitions": [
             {
@@ -23776,17 +23123,6 @@
                 "number": "4",
                 "type": "verbo intransitivo",
                 "definition": "gozar (sentir placer)."
-            }
-        ]
-    },
-    "disfrute": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Acción o efecto de disfrutar."
             }
         ]
     },
@@ -25404,38 +24740,6 @@
             }
         ]
     },
-    "dividir": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "definition": "Acción de separar, cortar en pedazos, para poder distribuir una cosa."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "type_extra": "Matemáticas",
-                "definition": "Acción de separarse en partes iguales. Operación matemática inversa a la multiplicación, Operación entre dos numeros: dividendo y divisor mediante la cual se calcula el cociente de tal forma que el cociente multiplicado por el divisor es igual al dividendo."
-            },
-            {
-                "number": "3",
-                "type": "verbo transitivo",
-                "definition": "Mediar entre dos cosas."
-            },
-            {
-                "number": "4",
-                "type": "verbo transitivo",
-                "definition": "Distribuir, repartir entre varios."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "definition": "Desunir los ánimos y voluntades."
-            }
-        ]
-    },
     "divina": {
         "definitions": [
             {
@@ -25623,22 +24927,6 @@
             }
         ]
     },
-    "divulgación": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Acción o efecto de divulgar."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Género literario o en general artístico que trata de dar a conocer al público general conocimientos científicos o culturales."
-            }
-        ]
-    },
     "do": {
         "definitions": [
             {
@@ -25788,30 +25076,6 @@
                 "number": "23",
                 "type": "nombre masculino y femenino",
                 "definition": "sosias."
-            }
-        ]
-    },
-    "dobles": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Deportes",
-                "definition": "En el tenis y otros deportes similares, partido que se juega con dos jugadores por lado."
-            }
-        ]
-    },
-    "doc": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino y femenino",
-                "type_extra": "coloquial",
-                "definition": "Persona que ejerce la Medicina."
             }
         ]
     },
@@ -25973,17 +25237,6 @@
                 "type": "nombre femenino",
                 "type_extra": "coloquial, desusado",
                 "definition": "Mujer que blasona de sabia y entendida."
-            }
-        ]
-    },
-    "doctorado": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Grado o cualidad de doctor."
             }
         ]
     },
@@ -26171,128 +25424,6 @@
             }
         ]
     },
-    "dólar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Economía, Banca, Finanzas, Monedas",
-                "definition": "Unidad monetaria de Australia."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Bahamas."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Barbados."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Belice."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Bermuda."
-            },
-            {
-                "number": "6",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Brunéi."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Canadá."
-            },
-            {
-                "number": "8",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Estados Unidos."
-            },
-            {
-                "number": "9",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Fiji."
-            },
-            {
-                "number": "10",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Guyana."
-            },
-            {
-                "number": "11",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Hong Kong."
-            },
-            {
-                "number": "12",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Islas Caimán."
-            },
-            {
-                "number": "13",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Jamaica."
-            },
-            {
-                "number": "14",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria del Caribe Oriental."
-            },
-            {
-                "number": "15",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de la República de China."
-            },
-            {
-                "number": "16",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de las Islas Salomón."
-            },
-            {
-                "number": "17",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Liberia."
-            },
-            {
-                "number": "18",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Namibia."
-            },
-            {
-                "number": "19",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Nueva Zelandia."
-            },
-            {
-                "number": "20",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Singapur."
-            },
-            {
-                "number": "21",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Surinam, desde el 1 de enero de 2004."
-            },
-            {
-                "number": "22",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Trinidad y Tobago."
-            },
-            {
-                "number": "23",
-                "type": "nombre masculino",
-                "definition": "Unidad monetaria de Zimbabue."
-            }
-        ]
-    },
     "dólares": {
         "definitions": [
             {
@@ -26460,39 +25591,6 @@
                 "type": "verbo transitivo",
                 "type_extra": "Usado también como pronominal",
                 "definition": "Hacer tratable a alguien que no lo es, moderar la aspereza de carácter."
-            }
-        ]
-    },
-    "doméstico": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "definition": "Propio o relativo al hogar o casa."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Se dice del animal criado por el hombre."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino y femenino",
-                "type_extra": "Ocupaciones, Usado también como adjetivo",
-                "definition": "Persona que trabaja haciendo labores de aseo y servicios para una familia."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "definition": "Ciclista que en las pruebas de equipo realiza una labor de apoyo para facilitarle la carrera a un compañero."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino",
-                "type_extra": "Chile, coloquial",
-                "definition": "Ladrón que roba en el mismo barrio en donde vive."
             }
         ]
     },
@@ -27007,33 +26105,6 @@
                 "type": "nombre femenino",
                 "type_extra": "desusado",
                 "definition": "monja."
-            }
-        ]
-    },
-    "donación": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Efecto y acción de dar o donar."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Regalo, presente u ofrenda."
-            }
-        ]
-    },
-    "donar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "definition": "Ceder un bien material sin obtener a cambio un pago de quien recibe."
             }
         ]
     },
@@ -27688,53 +26759,6 @@
             }
         ]
     },
-    "dragón": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Mitología, Usado también como sustantivo femenino",
-                "definition": "Animal fantástico, a modo de enorme reptil, frecuente en diversas mitologías de todo el mundo. En Occidente es con frecuencia maligno, alado y capaz de arrojar fuego, mientras que en Oriente es temible, pero sabio y benéfico."
-            },
-            {
-                "number": "2",
-                "type": "nombre masculino",
-                "definition": "Soldado de cualquiera de varios antiguos cuerpos de infantería introducidos en el siglo XVI, que empleaban monturas para el transporte, reconocimiento y eventualmente el combate, formando así un híbrido con la caballería, o de cualquiera de los cuerpos que por razones históricas conservan esa designación."
-            },
-            {
-                "number": "3",
-                "type": "nombre masculino",
-                "type_extra": "Plantas",
-                "definition": "Hierba perenne, de la familia de las plantagináceas, nativa de la cuenca del Mediterráneo y ampliamente cultivada por sus flores."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino",
-                "type_extra": "Chile, coloquial",
-                "definition": "Olor desagradable que sale por la boca, en particular el producido por ingerir bebidas alcohólicas."
-            },
-            {
-                "number": "5",
-                "type": "adjetivo",
-                "type_extra": "Fútbol, Usado también como sustantivo",
-                "definition": "Que pertenece o concierne al Club Atlético Defensores de Belgrano (club de fútbol argentino)."
-            },
-            {
-                "number": "6",
-                "type": "adjetivo",
-                "type_extra": "Fútbol, Usado también como sustantivo",
-                "definition": "Que pertenece o concierne al Club Atlético Kimberley (club de fútbol argentino)."
-            },
-            {
-                "number": "7",
-                "type": "nombre masculino",
-                "type_extra": "desusado",
-                "definition": "Cualquiera de varias especies de animales que recuerdan en apariencia a dicha bestia, como los varanos."
-            }
-        ]
-    },
     "drama": {
         "definitions": [
             {
@@ -27929,42 +26953,6 @@
             }
         ]
     },
-    "ducha": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Acción o efecto de duchar o ducharse."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Lluvia rápida, repentina y breve."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "Dispositivo para bañarse, en forma de tubo con un extremo perforado que deja caer una lluvia de agua."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "definition": "Instalación de baño provista de una ducha ₂."
-            },
-            {
-                "number": "5",
-                "type": "nombre femenino",
-                "definition": "Banda de color diferente en una tela producida por un defecto al teñirla."
-            },
-            {
-                "number": "6",
-                "type": "nombre femenino",
-                "definition": "Sección recta de terreno que siega cada segador de corrido."
-            }
-        ]
-    },
     "duda": {
         "definitions": [
             {
@@ -28081,18 +27069,6 @@
                 "number": "3",
                 "type": "verbo intransitivo",
                 "definition": "Desconfiar o recelar de alguien o algo. Todos dudan de él y de sus promesas."
-            }
-        ]
-    },
-    "dudo": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Juegos",
-                "definition": "Juego de dados popular en Latinoamérica, donde el objetivo es tirar los dados ocultándolos del rival e ir haciendo especulaciones sobre la cantidad de repeticiones de un determinado número en la mesa."
             }
         ]
     },
