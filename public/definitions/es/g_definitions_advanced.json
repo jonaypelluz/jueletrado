@@ -524,7 +524,7 @@
             {
                 "number": "3",
                 "type": "adjetivo",
-                "definition": "Que pertenece o concierne al gaélico₁."
+                "definition": "Que pertenece o concierne al gaélico."
             }
         ]
     },
@@ -575,6 +575,36 @@
                 "type": "verbo transitivo",
                 "type_extra": "coloquial",
                 "definition": "Dar mala suerte a alguien o a algo."
+            }
+        ]
+    },
+    "gafas": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Óptica, España",
+                "definition": "Lentes (instrumento o accesorio usado para corregir la visión)."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Óptica",
+                "definition": "Gafas que tienen otro uso distinto que el de corregir defectos en la visión."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Argentina",
+                "definition": "En particular, gafas que se usan para proteger los ojos a la hora de soldar."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Chile",
+                "definition": "Gafas de sol."
             }
         ]
     },
@@ -1339,6 +1369,18 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "Hombre alto, desgarbado y dejado, inútil para el trabajo."
+            }
+        ]
+    },
+    "galaxia": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Astronomía",
+                "definition": "Un conjunto de millones de estrellas, polvo galáctico, agujeros negros, nebulosas, etc, agrupados por la fuerza gravitacional. En el universo observable hay millones de galaxias, probablemente mas de 10 ¹¹."
             }
         ]
     },
@@ -2929,7 +2971,7 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "type_extra": "México",
-                "definition": "Grafía alternativa de gayola₄ (lugar de la grada que es más barato)."
+                "definition": "Grafía alternativa de gayola (lugar de la grada que es más barato)."
             }
         ]
     },
@@ -3097,7 +3139,7 @@
             {
                 "number": "2",
                 "type": "verbo intransitivo",
-                "definition": "Cabalgar una persona en un caballo que galopa₁."
+                "definition": "Cabalgar una persona en un caballo que galopa."
             }
         ]
     },
@@ -3407,7 +3449,7 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "type_extra": "Rioplatense, lunfardismo",
-                "definition": "En especial, gamba₁ del ser humano."
+                "definition": "En especial, gamba del ser humano."
             },
             {
                 "number": "2",
@@ -3673,6 +3715,18 @@
                 "type": "nombre femenino",
                 "type_extra": "Náutica",
                 "definition": "Depósito o despensa de los barcos mercantes donde se guardan los víveres."
+            }
+        ]
+    },
+    "game": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Tenis",
+                "definition": "En un partido, subdivisión del set que se obtiene ganando cuatro pelotas (con diferencia de dos)."
             }
         ]
     },
@@ -4126,6 +4180,33 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "Manta de cama."
+            }
+        ]
+    },
+    "ganarse": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo pronominal",
+                "type_extra": "Chile, coloquial",
+                "definition": "Ubicarse, situarse en un determinado lugar."
+            },
+            {
+                "number": "2",
+                "type": "verbo pronominal",
+                "definition": "Usado para explicar de que forma una persona obtiene algún bien básico, como dinero o alimento."
+            },
+            {
+                "number": "3",
+                "type": "verbo pronominal",
+                "definition": "Granjearse, captarse, merecer alguna cosa."
+            },
+            {
+                "number": "4",
+                "type": "verbo pronominal",
+                "definition": "Obtener las cosas por medio de esfuerzos o méritos para conseguirlas."
             }
         ]
     },
@@ -5255,7 +5336,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Frutos",
-                "definition": "Semilla del garbanzo₁, apreciada en gastronomía."
+                "definition": "Semilla del garbanzo, apreciada en gastronomía."
             }
         ]
     },
@@ -6177,12 +6258,12 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "España",
-                "definition": "En particular, garrafa₁ de cuello largo empleada antiguamente para enfriar bebidas o elaborar helados."
+                "definition": "En particular, garrafa de cuello largo empleada antiguamente para enfriar bebidas o elaborar helados."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
-                "definition": "En particular, garrafa₁ en forma de vasija forrada de mimbre, empleada para almacenar bebidas o aceites comestibles."
+                "definition": "En particular, garrafa en forma de vasija forrada de mimbre, empleada para almacenar bebidas o aceites comestibles."
             },
             {
                 "number": "4",
@@ -6859,19 +6940,19 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Pieza o tira de gasa₁."
+                "definition": "Pieza o tira de gasa."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Medicina",
-                "definition": "En particular, gasa₂ esterilizada que se emplea para cubrir y proteger heridas."
+                "definition": "En particular, gasa esterilizada que se emplea para cubrir y proteger heridas."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "desusado",
-                "definition": "En particular, gasa₂ de color negro que se viste en señal de luto."
+                "definition": "En particular, gasa de color negro que se viste en señal de luto."
             }
         ]
     },
@@ -7221,6 +7302,50 @@
             }
         ]
     },
+    "gastar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "se usa también como verbo pronominal, gastarse",
+                "definition": "Provocar el consumo, deterioro o destrucción de algo por el uso."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Usar el dinero consumiéndolo o agotándolo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Utilizar algo que disminuye o se acaba con el uso."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Tener una determinada actitud, en particular si es negativa."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Tener o usar algo distintivo."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Arrasar un territorio."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Digerir, asimilar los alimentos."
+            }
+        ]
+    },
     "gastarse": {
         "level": "advanced",
         "source": "wiktionary",
@@ -7365,6 +7490,22 @@
                 "type": "adjetivo",
                 "type_extra": "Anatomía, Medicina",
                 "definition": "Perteneciente o relativo al estómago y al hígado."
+            }
+        ]
+    },
+    "gastronomía": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "El arte y la práctica del buen comer."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Un estilo de cocinar o de comer."
             }
         ]
     },
@@ -8355,7 +8496,7 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "type_extra": "Lgbt, Sociología, crítico",
+                "type_extra": "LGBT, Sociología, crítico",
                 "definition": "Apropiación y asimilación capitalista de la diversidad sexual, especialmente en lo referido a hombres gais cisgéneros."
             }
         ]
@@ -8373,7 +8514,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "El fruto de esa planta₁."
+                "definition": "El fruto de esa planta."
             }
         ]
     },
@@ -8397,7 +8538,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Tauromaquia",
-                "definition": "Lidia del gayumbo₂."
+                "definition": "Lidia del gayumbo."
             },
             {
                 "number": "4",
@@ -8549,7 +8690,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Gastronomía",
-                "definition": "Fruta de sartén o bollo horneado, relleno, en forma de gaznate₂."
+                "definition": "Fruta de sartén o bollo horneado, relleno, en forma de gaznate."
             }
         ]
     },
@@ -8734,12 +8875,12 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "En particular, gel₁ que se emplea como fijador para el cabello."
+                "definition": "En particular, gel que se emplea como fijador para el cabello."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "En particular, gel₁ jabonoso que se emplea para la higiene personal."
+                "definition": "En particular, gel jabonoso que se emplea para la higiene personal."
             }
         ]
     },
@@ -9073,7 +9214,7 @@
                 "number": "2",
                 "type": "verbo transitivo",
                 "type_extra": "Lingüística",
-                "definition": "Dicho de una consonante: Geminar₁, duplicarse."
+                "definition": "Dicho de una consonante: Geminar, duplicarse."
             }
         ]
     },
@@ -9213,7 +9354,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Documento que contiene la genealogía₁."
+                "definition": "Documento que contiene la genealogía."
             },
             {
                 "number": "3",
@@ -9926,6 +10067,17 @@
             }
         ]
     },
+    "genocidio": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Conjunto de acciones llevadas a cabo con el objetivo de destruir total o parcialmente una nación, una etnia, una raza, un grupo religioso, político o cualquier grupo humano con alguna particularidad."
+            }
+        ]
+    },
     "genofobia": {
         "level": "advanced",
         "source": "wiktionary",
@@ -10133,7 +10285,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Alguien con los valores que hacen ser un gentilhombre₁."
+                "definition": "Alguien con los valores que hacen ser un gentilhombre."
             }
         ]
     },
@@ -10830,7 +10982,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Cultura, Literatura",
-                "definition": "Corpus o conjunto de escritos sobre geoponía₁ y vida en el campo, especialmente los provenientes de la Antigüedad romana y griega."
+                "definition": "Corpus o conjunto de escritos sobre geoponía y vida en el campo, especialmente los provenientes de la Antigüedad romana y griega."
             }
         ]
     },
@@ -10848,7 +11000,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Cultura, Literatura",
-                "definition": "Corpus o conjunto de escritos sobre geopónica₁ y vida en el campo, especialmente los provenientes de la Antigüedad romana y griega."
+                "definition": "Corpus o conjunto de escritos sobre geopónica y vida en el campo, especialmente los provenientes de la Antigüedad romana y griega."
             }
         ]
     },
@@ -10864,7 +11016,7 @@
             {
                 "number": "2",
                 "type": "adjetivo",
-                "definition": "Se dice del conjunto de escritos sobre geopónica₁ y vida en el campo, especialmente los provenientes de la Antigüedad romana y griega."
+                "definition": "Se dice del conjunto de escritos sobre geopónica y vida en el campo, especialmente los provenientes de la Antigüedad romana y griega."
             }
         ]
     },
@@ -11709,6 +11861,27 @@
             }
         ]
     },
+    "gestionar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Llevar el avance, curso o desarrollo de un proyecto, iniciativa o proceso; asumir y ejercer la responsabilidad de un conjunto de actividades."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Administrar y coordinar el funcionamiento de una organización, empresa o proceso."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Hacer las gestiones, diligencias o trámites necesarios para lograr algo o manejar una situación."
+            }
+        ]
+    },
     "gestor": {
         "level": "advanced",
         "source": "wiktionary",
@@ -12268,6 +12441,17 @@
             }
         ]
     },
+    "gimnasio": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Lugar donde se practica la gimnasia u otras actividades físicas en interior, normalmente equipado con máquinas adecuadas para ello y algunas veces con otras actividades complementarias."
+            }
+        ]
+    },
     "gimnasta": {
         "level": "advanced",
         "source": "wiktionary",
@@ -12620,7 +12804,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Las raíces del ginseng₁."
+                "definition": "Las raíces del ginseng."
             }
         ]
     },
@@ -14569,6 +14753,17 @@
             }
         ]
     },
+    "gobierna": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Pieza de metal, ordinariamente en forma de saeta, que se coloca en lo alto de las torres u otros edificios de modo que pueda girar alrededor de un eje vertical y señalar la dirección del viento."
+            }
+        ]
+    },
     "gobio": {
         "level": "advanced",
         "source": "wiktionary",
@@ -14821,7 +15016,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Argentina",
-                "definition": "Cualquier preparación hecha con gofio₂, sobre todo la más simple, con agua y azúcar."
+                "definition": "Cualquier preparación hecha con gofio, sobre todo la más simple, con agua y azúcar."
             }
         ]
     },
@@ -14995,6 +15190,18 @@
                 "type": "nombre femenino",
                 "type_extra": "Náutica",
                 "definition": "Embarcación fina y con borda de poca altura, con dos palos, y a veces tres, y una vela cangreja en cada uno. Algunas llevan masteleros para largar gavias y juanetes."
+            }
+        ]
+    },
+    "golf": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Deporte",
+                "definition": "Deporte de origen escocés, que consiste en introducir una bola en una serie de agujeros con el menor número de golpes posible. Se hace avanzar la bola golpeándola con palos."
             }
         ]
     },
@@ -15302,6 +15509,23 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Que golpea."
+            }
+        ]
+    },
+    "golpear": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Impactar con fuerza una cosa en otra."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Producir una persona deliberadamente ese impacto, utilizando un miembro o una herramienta a ese efecto."
             }
         ]
     },
@@ -16396,7 +16620,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Pintura realizada al gotelé₁."
+                "definition": "Pintura realizada al gotelé."
             }
         ]
     },
@@ -16423,7 +16647,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "La hendidura por la que se produce la gotera₁."
+                "definition": "La hendidura por la que se produce la gotera."
             },
             {
                 "number": "3",
@@ -16564,7 +16788,7 @@
             {
                 "number": "8",
                 "type": "adjetivo",
-                "definition": "Relacionado con la subcultura urbana inspirada en la literatura gótica₇."
+                "definition": "Relacionado con la subcultura urbana inspirada en la literatura gótica."
             },
             {
                 "number": "9",
@@ -16900,7 +17124,7 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Que posee o demuestra gracia₁₅ en su movimiento, forma, o proporciones."
+                "definition": "Que posee o demuestra gracia en su movimiento, forma, o proporciones."
             },
             {
                 "number": "2",
@@ -16974,6 +17198,41 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "Conjunto de cualidades que hacen agradable o apreciable o atractiva a la cosa o persona que las tiene."
+            }
+        ]
+    },
+    "gracioso": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo masculino o femenino",
+                "definition": "Que tiene o hace gracia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que place a la vista."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "irónico, coloquial, Usado también como sustantivo masculino o femenino",
+                "definition": "Desagradable, que no hace reír."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Teatro",
+                "definition": "Actor que interpreta papeles cómicos."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Literatura",
+                "definition": "Personaje típico de la comedia clásica española, casi siempre un criado, que se caracteriza por ser ingenioso y socarrón."
             }
         ]
     },
@@ -17094,6 +17353,27 @@
             }
         ]
     },
+    "graduación": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Escala de distintos valores para poder medir o cuantificar la intensidad de algún fenómeno."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de graduar o graduarse."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Acto de entrega de título o reconocimiento a aquellos que se gradúan."
+            }
+        ]
+    },
     "graduado": {
         "level": "advanced",
         "source": "wiktionary",
@@ -17101,7 +17381,7 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "definition": "Que tiene diversos grados₂ o graduación."
+                "definition": "Que tiene diversos grados o graduación."
             },
             {
                 "number": "2",
@@ -17113,7 +17393,7 @@
                 "number": "3",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
-                "definition": "Estudiante que ha hecho o acabado un grado₄ en alguna especialidad."
+                "definition": "Estudiante que ha hecho o acabado un grado en alguna especialidad."
             }
         ]
     },
@@ -17155,6 +17435,18 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Que pertenece o concierne a gradualismo."
+            }
+        ]
+    },
+    "gradualmente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Que se hace de forma gradual."
             }
         ]
     },
@@ -17507,6 +17799,18 @@
             }
         ]
     },
+    "gramática": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Lingüística",
+                "definition": "Rama de la lingüística que estudia la estructura y las tendencias de las lenguas."
+            }
+        ]
+    },
     "gramatical": {
         "level": "advanced",
         "source": "wiktionary",
@@ -17782,12 +18086,12 @@
             {
                 "number": "6",
                 "type": "nombre femenino",
-                "definition": "Color rojo obtenido de este modo(3)."
+                "definition": "Color rojo obtenido de este modo."
             },
             {
                 "number": "7",
                 "type": "adjetivo",
-                "definition": "Se dice del color rojo semejante al de la grana(3)."
+                "definition": "Se dice del color rojo semejante al de la grana."
             },
             {
                 "number": "8",
@@ -18365,7 +18669,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "El evento en que cae granizo₁ desde las nubes."
+                "definition": "El evento en que cae granizo desde las nubes."
             },
             {
                 "number": "3",
@@ -18671,7 +18975,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Medicina",
-                "definition": "En especial, grapa₁ usada para unir los bordes de una herida."
+                "definition": "En especial, grapa usada para unir los bordes de una herida."
             },
             {
                 "number": "3",
@@ -18993,6 +19297,22 @@
                 "type": "adverbio",
                 "type_extra": "de modo",
                 "definition": "De un modo arbitrario (gratuito), sin base, justificación, prueba o fundamento lógicos."
+            }
+        ]
+    },
+    "gratuito": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que se da u ofrece sin tener que pagarse por ello; sin costo; sin cargo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Sin base o fundamento lógicos o reales."
             }
         ]
     },
@@ -19686,7 +20006,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Medicina",
-                "definition": "En especial, lesión en forma de grieta₁ que afecta la piel o mucosa."
+                "definition": "En especial, lesión en forma de grieta que afecta la piel o mucosa."
             },
             {
                 "number": "3",
@@ -19789,7 +20109,7 @@
                 "number": "6",
                 "type": "adjetivo",
                 "type_extra": "Caribe",
-                "definition": "Dicho de una persona, que tiene el cabello grifo₅ típico de las personas de ascendencia negra o mulata."
+                "definition": "Dicho de una persona, que tiene el cabello grifo típico de las personas de ascendencia negra o mulata."
             },
             {
                 "number": "7",
@@ -20006,7 +20326,7 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "type_extra": "Chile",
-                "definition": "Multitud, muchedumbre, montón₁ (gran cantidad de cosas o personas)."
+                "definition": "Multitud, muchedumbre, montón (gran cantidad de cosas o personas)."
             }
         ]
     },
@@ -20165,6 +20485,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Frutas",
                 "definition": "Variedad de melocotón pequeño y sabroso, de piel lisa y muy colorada."
+            }
+        ]
+    },
+    "gripe": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Enfermedades",
+                "definition": "Enfermedad viral muy contagiosa, que afecta las vías respiratorias y causa fiebre."
             }
         ]
     },
@@ -20648,24 +20980,24 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Milicia",
-                "definition": "Antigua máquina de asedio de estructura similar a una grúa₂."
+                "definition": "Antigua máquina de asedio de estructura similar a una grúa."
             },
             {
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "Transporte",
-                "definition": "Vehículo automotor dotado de una grúa₂ para remolcar coches."
+                "definition": "Vehículo automotor dotado de una grúa para remolcar coches."
             },
             {
                 "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "figurado, metonimia, antonomasia",
-                "definition": "Por antonomasia, grúa₄ que retira los vehículos aparcados en una plaza prohibida."
+                "definition": "Por antonomasia, grúa que retira los vehículos aparcados en una plaza prohibida."
             },
             {
                 "number": "5",
                 "type": "nombre femenino",
-                "definition": "Dispositivo similar a una grúa₂ sobre el que se coloca una cámara de vídeo para facilitar los desplazamientos durante una toma."
+                "definition": "Dispositivo similar a una grúa sobre el que se coloca una cámara de vídeo para facilitar los desplazamientos durante una toma."
             },
             {
                 "number": "6",
@@ -21115,7 +21447,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Este mismo juego₁."
+                "definition": "Este mismo juego."
             }
         ]
     },
@@ -21131,7 +21463,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Fruta de la guaba₁, en forma de vaina de color verde oscuro."
+                "definition": "Fruta de la guaba, en forma de vaina de color verde oscuro."
             }
         ]
     },
@@ -21167,7 +21499,7 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "type_extra": "América Central",
-                "definition": "Recipiente de alfarería en que se encuentran guardados los tesoros funerarios en una guaca₁."
+                "definition": "Recipiente de alfarería en que se encuentran guardados los tesoros funerarios en una guaca."
             },
             {
                 "number": "4",
@@ -21191,7 +21523,7 @@
                 "number": "7",
                 "type": "nombre femenino",
                 "type_extra": "Cuba",
-                "definition": "Dinero ahorrado en una guaca₆."
+                "definition": "Dinero ahorrado en una guaca."
             },
             {
                 "number": "8",
@@ -22107,7 +22439,7 @@
             {
                 "number": "4",
                 "type": "nombre masculino",
-                "definition": "Lengua de familia lingüística arahuaca, tronco norte de la subfamilia maipureana, hablada en la península de La Guajira por el pueblo wayúu o guajiro₁. Su nombre original es wayúunaiki."
+                "definition": "Lengua de familia lingüística arahuaca, tronco norte de la subfamilia maipureana, hablada en la península de La Guajira por el pueblo wayúu o guajiro. Su nombre original es wayúunaiki."
             }
         ]
     },
@@ -22142,7 +22474,7 @@
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Tintura que se extraía de la gualda₁."
+                "definition": "Tintura que se extraía de la gualda."
             },
             {
                 "number": "3",
@@ -22153,7 +22485,7 @@
             {
                 "number": "4",
                 "type": "adjetivo",
-                "definition": "De color gualda₃."
+                "definition": "De color gualda."
             }
         ]
     },
@@ -22217,7 +22549,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Chile",
-                "definition": "Calzado de gran tamaño, semejante a una gualeta₁ que usan los buceadores, para darse mayor impulso con los pies al nadar bajo la superficie del agua."
+                "definition": "Calzado de gran tamaño, semejante a una gualeta que usan los buceadores, para darse mayor impulso con los pies al nadar bajo la superficie del agua."
             },
             {
                 "number": "3",
@@ -22352,7 +22684,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Idioma del pueblo guambiano₁."
+                "definition": "Idioma del pueblo guambiano."
             }
         ]
     },
@@ -22412,7 +22744,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Paraguay",
-                "definition": "Recipiente hecho de una guampa₁. Se usa principalmente para prepar el mate y el tereré."
+                "definition": "Recipiente hecho de una guampa. Se usa principalmente para prepar el mate y el tereré."
             },
             {
                 "number": "3",
@@ -22512,7 +22844,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Chile, coloquial",
-                "definition": "Tambor de metal que está partido en sentido vertical y unidas las mitades con bisagras, de modo que puede cerrarse. Esta estructura se suelda sobre un soporte y se perfora por uno de sus extremos para añadirle un tubo curvo que le da cierta semejanza a un guanaco₁. Se utiliza para cocinar asados."
+                "definition": "Tambor de metal que está partido en sentido vertical y unidas las mitades con bisagras, de modo que puede cerrarse. Esta estructura se suelda sobre un soporte y se perfora por uno de sus extremos para añadirle un tubo curvo que le da cierta semejanza a un guanaco. Se utiliza para cocinar asados."
             },
             {
                 "number": "3",
@@ -23032,13 +23364,13 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Alimentos",
-                "definition": "Pasta de semillas de guaraná₁, usada en la preparación de bebidas estimulantes."
+                "definition": "Pasta de semillas de guaraná, usada en la preparación de bebidas estimulantes."
             },
             {
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Bebida",
-                "definition": "Bebida preparada con guaraná₂ en solución."
+                "definition": "Bebida preparada con guaraná en solución."
             }
         ]
     },
@@ -23098,7 +23430,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Glotónimos",
-                "definition": "Lengua de la familia tupí-guaraní hablada por los guaraníes₁, hoy oficial en el Paraguay."
+                "definition": "Lengua de la familia tupí-guaraní hablada por los guaraníes, hoy oficial en el Paraguay."
             },
             {
                 "number": "3",
@@ -23548,6 +23880,17 @@
                 "type": "nombre masculino",
                 "type_extra": "desusado",
                 "definition": "Guardador."
+            }
+        ]
+    },
+    "guardado": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Reservado."
             }
         ]
     },
@@ -24786,7 +25129,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Colombia, Ecuador, Venezuela, desusado",
-                "definition": "En especial, guaricha₁ joven y soltera."
+                "definition": "En especial, guaricha joven y soltera."
             }
         ]
     },
@@ -25654,7 +25997,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "Platos, Chile",
-                "definition": "Cualquiera de los platos o guisados que tienen a las guatitas₁ como ingrediente principal."
+                "definition": "Cualquiera de los platos o guisados que tienen a las guatitas como ingrediente principal."
             }
         ]
     },
@@ -26526,13 +26869,13 @@
                 "number": "5",
                 "type": "verbo transitivo",
                 "type_extra": "Botánica",
-                "definition": "Poner guía₄ a las plantas, para orientar su crecimiento."
+                "definition": "Poner guía a las plantas, para orientar su crecimiento."
             },
             {
                 "number": "6",
                 "type": "verbo intransitivo",
                 "type_extra": "Botánica",
-                "definition": "Crecer la guía₁₄ de una planta."
+                "definition": "Crecer la guía de una planta."
             }
         ]
     },
@@ -26549,6 +26892,17 @@
                 "number": "2",
                 "type": "verbo pronominal",
                 "definition": "Dejarse llevar, tomar una decisión, por indicios, señales, ideas o motivaciones."
+            }
+        ]
+    },
+    "guías": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cuerdas con que se dirigen o gobiernan los animales de tiro (caballos, perros, etc.) en ciertos vehículos."
             }
         ]
     },
@@ -26866,7 +27220,7 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "type_extra": "coloquial",
-                "definition": "Por analogía con el uso de guindas₁ para decorar tartas, elemento que remata o concluye algo."
+                "definition": "Por analogía con el uso de guindas para decorar tartas, elemento que remata o concluye algo."
             },
             {
                 "number": "3",
@@ -27034,6 +27388,18 @@
                 "type": "nombre femenino",
                 "type_extra": "Náutica",
                 "definition": "Barquilla de la corredera."
+            }
+        ]
+    },
+    "guinea": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Historia, Monedas",
+                "definition": "Moneda de oro que se acuñaba en Inglaterra, la cual tenía un valor de 21 chelines."
             }
         ]
     },
@@ -27598,7 +27964,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Plantas",
-                "definition": "Planta de la familia de las leguminosas cuyas semillas son los guisantes₁."
+                "definition": "Planta de la familia de las leguminosas cuyas semillas son los guisantes."
             }
         ]
     },
@@ -27989,7 +28355,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Glotónimos",
-                "definition": "Idioma hablado por los cunas₁, de la lenguas chibchenses. Su autoglotónimo es dule (/ ˈtu.le /)."
+                "definition": "Idioma hablado por los cunas, de la lenguas chibchenses. Su autoglotónimo es dule (/ ˈtu.le /)."
             }
         ]
     },
@@ -28356,6 +28722,49 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "En el medio acuático, larvas de insectos (como los tricópteros y los mosquitos) o renacuajos."
+            }
+        ]
+    },
+    "gustar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo intransitivo",
+                "definition": "Ser agradable, obtener aprobación."
+            },
+            {
+                "number": "2",
+                "type": "verbo intransitivo",
+                "type_extra": "poco usado, literario, seguido de la preposición \"de\"",
+                "definition": "Encontrar placer, gusto o deleite en algo."
+            },
+            {
+                "number": "3",
+                "type": "verbo intransitivo",
+                "definition": "Ser algo placentero para alguien."
+            },
+            {
+                "number": "4",
+                "type": "verbo intransitivo",
+                "definition": "Ser atractivo a otro, especialmente en sentido sexual o romántico."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Usar el paladar (las papilas gustativas) para sentir el sabor."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Examinar la calidad o las propiedades de algo, especialmente a través de los sentidos del gusto y el olfato."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "type_extra": "infrecuente",
+                "definition": "Tener deseo o apetencia por algo."
             }
         ]
     },

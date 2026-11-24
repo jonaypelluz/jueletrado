@@ -44,36 +44,6 @@
             }
         ]
     },
-    "gafas": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "Óptica, España",
-                "definition": "Lentes (instrumento o accesorio usado para corregir la visión)."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "type_extra": "Óptica",
-                "definition": "Gafas que tienen otro uso distinto que el de corregir defectos en la visión."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "type_extra": "Argentina",
-                "definition": "En particular, gafas que se usan para proteger los ojos a la hora de soldar."
-            },
-            {
-                "number": "4",
-                "type": "nombre femenino",
-                "type_extra": "Chile",
-                "definition": "Gafas de sol."
-            }
-        ]
-    },
     "gal": {
         "definitions": [
             {
@@ -174,18 +144,6 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "definition": "Actor de teatro o de cine, de buena presencia y generalmente joven, que representa papeles principales de hombre enamorado o galanteador."
-            }
-        ]
-    },
-    "galaxia": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "Astronomía",
-                "definition": "Un conjunto de millones de estrellas, polvo galáctico, agujeros negros, nebulosas, etc, agrupados por la fuerza gravitacional. En el universo observable hay millones de galaxias, probablemente mas de 10 ¹¹."
             }
         ]
     },
@@ -832,18 +790,6 @@
             }
         ]
     },
-    "game": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Tenis",
-                "definition": "En un partido, subdivisión del set que se obtiene ganando cuatro pelotas (con diferencia de dos)."
-            }
-        ]
-    },
     "gana": {
         "definitions": [
             {
@@ -1409,33 +1355,6 @@
             }
         ]
     },
-    "ganarse": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo pronominal",
-                "type_extra": "Chile, coloquial",
-                "definition": "Ubicarse, situarse en un determinado lugar."
-            },
-            {
-                "number": "2",
-                "type": "verbo pronominal",
-                "definition": "Usado para explicar de que forma una persona obtiene algún bien básico, como dinero o alimento."
-            },
-            {
-                "number": "3",
-                "type": "verbo pronominal",
-                "definition": "Granjearse, captarse, merecer alguna cosa."
-            },
-            {
-                "number": "4",
-                "type": "verbo pronominal",
-                "definition": "Obtener las cosas por medio de esfuerzos o méritos para conseguirlas."
-            }
-        ]
-    },
     "gano": {
         "definitions": [
             {
@@ -1767,50 +1686,6 @@
             }
         ]
     },
-    "gastar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "type_extra": "se usa también como verbo pronominal, gastarse",
-                "definition": "Provocar el consumo, deterioro o destrucción de algo por el uso."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "definition": "Usar el dinero consumiéndolo o agotándolo."
-            },
-            {
-                "number": "3",
-                "type": "verbo transitivo",
-                "definition": "Utilizar algo que disminuye o se acaba con el uso."
-            },
-            {
-                "number": "4",
-                "type": "verbo transitivo",
-                "definition": "Tener una determinada actitud, en particular si es negativa."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "definition": "Tener o usar algo distintivo."
-            },
-            {
-                "number": "6",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Arrasar un territorio."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "desusado",
-                "definition": "Digerir, asimilar los alimentos."
-            }
-        ]
-    },
     "gasto": {
         "definitions": [
             {
@@ -1868,22 +1743,6 @@
                 "type": "nombre masculino",
                 "type_extra": "Física",
                 "definition": "Cantidad de fluido que, en determinadas circunstancias, pasa por un orificio o por una tubería cada unidad de tiempo."
-            }
-        ]
-    },
-    "gastronomía": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "El arte y la práctica del buen comer."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Un estilo de cocinar o de comer."
             }
         ]
     },
@@ -2860,17 +2719,6 @@
             }
         ]
     },
-    "genocidio": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Conjunto de acciones llevadas a cabo con el objetivo de destruir total o parcialmente una nación, una etnia, una raza, un grupo religioso, político o cualquier grupo humano con alguna particularidad."
-            }
-        ]
-    },
     "gente": {
         "definitions": [
             {
@@ -3115,27 +2963,6 @@
             }
         ]
     },
-    "gestionar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "definition": "Llevar el avance, curso o desarrollo de un proyecto, iniciativa o proceso; asumir y ejercer la responsabilidad de un conjunto de actividades."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "definition": "Administrar y coordinar el funcionamiento de una organización, empresa o proceso."
-            },
-            {
-                "number": "3",
-                "type": "verbo transitivo",
-                "definition": "Hacer las gestiones, diligencias o trámites necesarios para lograr algo o manejar una situación."
-            }
-        ]
-    },
     "gesto": {
         "definitions": [
             {
@@ -3367,17 +3194,6 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "Práctica o ejercicio que adiestra en cualquier actividad o función."
-            }
-        ]
-    },
-    "gimnasio": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Lugar donde se practica la gimnasia u otras actividades físicas en interior, normalmente equipado con máquinas adecuadas para ello y algunas veces con otras actividades complementarias."
             }
         ]
     },
@@ -3906,17 +3722,6 @@
             }
         ]
     },
-    "gobierna": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Pieza de metal, ordinariamente en forma de saeta, que se coloca en lo alto de las torres u otros edificios de modo que pueda girar alrededor de un eje vertical y señalar la dirección del viento."
-            }
-        ]
-    },
     "gobierno": {
         "definitions": [
             {
@@ -4098,18 +3903,6 @@
             }
         ]
     },
-    "golf": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Deporte",
-                "definition": "Deporte de origen escocés, que consiste en introducir una bola en una serie de agujeros con el menor número de golpes posible. Se hace avanzar la bola golpeándola con palos."
-            }
-        ]
-    },
     "golfo": {
         "definitions": [
             {
@@ -4259,23 +4052,6 @@
                 "type": "nombre masculino",
                 "type_extra": "coloquial, Uruguay",
                 "definition": "Encuentro amoroso."
-            }
-        ]
-    },
-    "golpear": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo transitivo",
-                "type_extra": "Usado también como pronominal",
-                "definition": "Impactar con fuerza una cosa en otra."
-            },
-            {
-                "number": "2",
-                "type": "verbo transitivo",
-                "definition": "Producir una persona deliberadamente ese impacto, utilizando un miembro o una herramienta a ese efecto."
             }
         ]
     },
@@ -5063,41 +4839,6 @@
             }
         ]
     },
-    "gracioso": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "type_extra": "Usado también como sustantivo masculino o femenino",
-                "definition": "Que tiene o hace gracia."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Que place a la vista."
-            },
-            {
-                "number": "3",
-                "type": "adjetivo",
-                "type_extra": "irónico, coloquial, Usado también como sustantivo masculino o femenino",
-                "definition": "Desagradable, que no hace reír."
-            },
-            {
-                "number": "4",
-                "type": "nombre masculino y femenino",
-                "type_extra": "Teatro",
-                "definition": "Actor que interpreta papeles cómicos."
-            },
-            {
-                "number": "5",
-                "type": "nombre masculino y femenino",
-                "type_extra": "Literatura",
-                "definition": "Personaje típico de la comedia clásica española, casi siempre un criado, que se caracteriza por ser ingenioso y socarrón."
-            }
-        ]
-    },
     "grado": {
         "definitions": [
             {
@@ -5300,27 +5041,6 @@
             }
         ]
     },
-    "graduación": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "definition": "Escala₂ de distintos valores para poder medir o cuantificar la intensidad de algún fenómeno."
-            },
-            {
-                "number": "2",
-                "type": "nombre femenino",
-                "definition": "Acción o efecto de graduar o graduarse."
-            },
-            {
-                "number": "3",
-                "type": "nombre femenino",
-                "definition": "Acto de entrega de título o reconocimiento a aquellos que se gradúan."
-            }
-        ]
-    },
     "gradual": {
         "definitions": [
             {
@@ -5343,18 +5063,6 @@
                 "type": "nombre masculino",
                 "type_extra": "Religión",
                 "definition": "Parte de la misa que se reza entre la epístola y el evangelio."
-            }
-        ]
-    },
-    "gradualmente": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adverbio",
-                "type_extra": "de modo",
-                "definition": "Que se hace de forma gradual."
             }
         ]
     },
@@ -5463,18 +5171,6 @@
                 "number": "5",
                 "type": "nombre femenino",
                 "definition": "gráfico (representación por medio de líneas)."
-            }
-        ]
-    },
-    "gramática": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "Lingüística",
-                "definition": "Rama de la lingüística que estudia la estructura y las tendencias de las lenguas."
             }
         ]
     },
@@ -6019,22 +5715,6 @@
             }
         ]
     },
-    "gratuito": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "definition": "Que se da u ofrece sin tener que pagarse por ello; sin costo; sin cargo."
-            },
-            {
-                "number": "2",
-                "type": "adjetivo",
-                "definition": "Sin base o fundamento lógicos o reales."
-            }
-        ]
-    },
     "gravedad": {
         "definitions": [
             {
@@ -6269,18 +5949,6 @@
                 "type": "nombre masculino",
                 "type_extra": "coloquial, poco usado",
                 "definition": "tahúr (jugador fullero)."
-            }
-        ]
-    },
-    "gripe": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "Enfermedades",
-                "definition": "Enfermedad viral muy contagiosa, que afecta las vías respiratorias y causa fiebre."
             }
         ]
     },
@@ -7171,17 +6839,6 @@
             }
         ]
     },
-    "guardado": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "adjetivo",
-                "definition": "Reservado."
-            }
-        ]
-    },
     "guardan": {
         "definitions": [
             {
@@ -7831,29 +7488,6 @@
             }
         ]
     },
-    "guías": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "definition": "Cuerdas con que se dirigen o gobiernan los animales de tiro (caballos, perros, etc.) en ciertos vehículos."
-            }
-        ]
-    },
-    "guinea": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre femenino",
-                "type_extra": "Historia, Monedas",
-                "definition": "Moneda de oro que se acuñaba en Inglaterra, la cual tenía un valor de 21 chelines."
-            }
-        ]
-    },
     "guion": {
         "definitions": [
             {
@@ -8109,49 +7743,6 @@
                 "number": "5",
                 "type": "verbo intransitivo",
                 "definition": "Desear, querer y tener complacencia en algo. Gustar de correr, de jugar."
-            }
-        ]
-    },
-    "gustar": {
-        "level": "intermediate",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "verbo intransitivo",
-                "definition": "Ser agradable, obtener aprobación."
-            },
-            {
-                "number": "2",
-                "type": "verbo intransitivo",
-                "type_extra": "poco usado, literario, seguido de la preposición \"de\"",
-                "definition": "Encontrar placer, gusto o deleite en algo."
-            },
-            {
-                "number": "3",
-                "type": "verbo intransitivo",
-                "definition": "Ser algo placentero para alguien."
-            },
-            {
-                "number": "4",
-                "type": "verbo intransitivo",
-                "definition": "Ser atractivo a otro, especialmente en sentido sexual o romántico."
-            },
-            {
-                "number": "5",
-                "type": "verbo transitivo",
-                "definition": "Usar el paladar (las papilas gustativas) para sentir el sabor."
-            },
-            {
-                "number": "6",
-                "type": "verbo transitivo",
-                "definition": "Examinar la calidad o las propiedades de algo, especialmente a través de los sentidos del gusto y el olfato."
-            },
-            {
-                "number": "7",
-                "type": "verbo transitivo",
-                "type_extra": "infrecuente",
-                "definition": "Tener deseo o apetencia por algo."
             }
         ]
     },
