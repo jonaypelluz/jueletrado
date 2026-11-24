@@ -268,6 +268,27 @@
             }
         ]
     },
+    "pack": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Paquete, envoltorio en el que se vende algún producto."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Lote de productos del mismo tipo que se comercializa."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Conjunto de fotos o videos con contenido sexual (pagas o gratuitas) que se difunden por internet."
+            }
+        ]
+    },
     "paco": {
         "definitions": [
             {
@@ -1330,6 +1351,18 @@
             }
         ]
     },
+    "pal": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Linguete de gran tamaño, sobre todo el del cabrestante."
+            }
+        ]
+    },
     "palabra": {
         "definitions": [
             {
@@ -2216,6 +2249,50 @@
             }
         ]
     },
+    "panel": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cada uno de los compartimentos, limitados comúnmente por fajas o molduras, en que para su ornamentación se dividen los lienzos de pared, las hojas de puertas, etc."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Construcción",
+                "definition": "Pieza hecha que se utiliza a modo de pared en las viviendas."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Cartel publicitario de gran tamaño, generalmente metálico."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Elemento de forma mas o menos cuadrangular y plana de un tamaño considerable."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Náutica",
+                "definition": "Las tablas que forman el suelo de algunos pequeños navíos."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Seleccionado y acotado grupo de personas generalmente especializado."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Derecho, Puerto Rico",
+                "definition": "Lista de jurados."
+            }
+        ]
+    },
     "pánico": {
         "definitions": [
             {
@@ -2600,6 +2677,29 @@
             }
         ]
     },
+    "papas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Puches o sopas claras que se dan a los niños."
+            }
+        ]
+    },
+    "papás": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Parentesco, coloquial, afectuoso",
+                "definition": "Padre y madre de una persona o animal."
+            }
+        ]
+    },
     "pape": {
         "definitions": [
             {
@@ -2773,6 +2873,18 @@
                 "type": "nombre masculino",
                 "type_extra": "plural",
                 "definition": "Documentos con que se acreditan las circunstancias personales de alguien."
+            }
+        ]
+    },
+    "papi": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "familiar",
+                "definition": "Padre, papá."
             }
         ]
     },
@@ -3656,6 +3768,46 @@
             }
         ]
     },
+    "pare": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Acción o efecto de parar."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Caribe, Suramérica",
+                "definition": "Señal convencional de tráfico, representada normalmente por un cartel octogonal de color rojo con la inscripción «PARE» en letras blancas, que indica al conductor que debe detener completamente la marcha."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador",
+                "definition": "Acción de generar deliberadamente una reacción de enojo o indignación en otro."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador",
+                "definition": "Acción de pactar que quien tenga razón sobre algo que aún no se sabe o que está en duda, reciba un pago o compensación por haber acertado."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "El Salvador",
+                "definition": "Ayuda que se le brinda a alguien."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Mecanismo que detiene o corta una acción mecánica."
+            }
+        ]
+    },
     "parece": {
         "definitions": [
             {
@@ -4282,6 +4434,36 @@
             }
         ]
     },
+    "pariente": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Respecto de una persona, dícese de cada uno de los ascendientes, descendientes y colaterales de su misma familia, por consanguinidad o afinidad."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "España, rio de la plata, coloquial",
+                "definition": "Varón casado respecto de su cónyuge."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "coloquial, desusado",
+                "definition": "Por extensión: Que se asemeja a otra persona como si fuera de la misma familia."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Trato de cortesía que extendía el rey de Castilla a los nobles del reino sin título de grandeza."
+            }
+        ]
+    },
     "parlamentaria": {
         "definitions": [
             {
@@ -4727,6 +4909,24 @@
             }
         ]
     },
+    "partes": {
+        "level": "beginner",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Órganos sexuales, considerados solo en su porción anatómica externa."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "infrecuente",
+                "definition": "Atributos, dotes o virtudes de una persona."
+            }
+        ]
+    },
     "participa": {
         "definitions": [
             {
@@ -4890,6 +5090,18 @@
                 "number": "5",
                 "type": "verbo transitivo",
                 "definition": "Dar parte, noticiar, comunicar."
+            }
+        ]
+    },
+    "participante": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que participa."
             }
         ]
     },
@@ -5383,6 +5595,17 @@
                 "number": "5",
                 "type": "nombre masculino",
                 "definition": "guerrillero."
+            }
+        ]
+    },
+    "partidas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Las cualidades morales que adornan a una persona."
             }
         ]
     },
@@ -6814,6 +7037,33 @@
                 "type": "nombre masculino",
                 "type_extra": "Música",
                 "definition": "Tránsito o mutación hecha con arte, de una voz o de un tono a otro."
+            }
+        ]
+    },
+    "pasajero": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que no dura mucho, de corta duración."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Viajero, que está de paso."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que viaja en un vehículo y que no es el conductor, ni forma parte de su tripulación."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Argentina, Chile, Colombia",
+                "definition": "Persona que aloja en un hotel o casa de huéspedes."
             }
         ]
     },
@@ -9739,6 +9989,29 @@
             }
         ]
     },
+    "pascua": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Judaísmo",
+                "definition": "Fiesta anual en la que los judíos celebra la liberación de la esclavitud de los judíos en Egipto."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Especie de arbusto caducifolio poco ramificado, originario de México, que alcanza hasta cuatro metros de altura."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Guatemala",
+                "definition": "Flor de la pascua, de un intenso color rojo."
+            }
+        ]
+    },
     "pascual": {
         "definitions": [
             {
@@ -10584,6 +10857,149 @@
             }
         ]
     },
+    "pasta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Material sólido, blando y maleable, elaborado a partir de ingredientes pulverulentos y líquidos."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Gastronomía",
+                "definition": "En particular, el que se hace de harina de cereal para elaborar alimentos."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Gastronomía",
+                "definition": "Manjar hecho de este material, relleno o cubierto de dulce."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Gastronomía",
+                "definition": "Alimento elaborado a base de trigo candeal, originario de Italia, el cual generalmente se cuece en agua salada hirviendo y se sirve con algún tipo de salsa. En algunos casos se puede preparar al horno (gratinado)."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Masa de papel o trapo deshechos que se emplea para la elaboración de cartón."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Cartón obtenido de la pasta₅, usado típicamente para las tapas de libros."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Figuradamente, carácter propio e idiosincrático de algo o alguien."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "España, coloquial",
+                "definition": "Bien que se usa para el pago de otros bienes y servicios y como unidad de medida de la riqueza."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "España, coloquial",
+                "definition": "Conjunto de bienes que alguien posee, en especial los líquidos."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "Calma y lentitud excesivas en el habla y la acción."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "type_extra": "El Salvador",
+                "definition": "Ración de droga recreativa."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
+                "definition": "Pulpa de frutas o verduras de consistencia muy blanda aunque no líquida."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "type_extra": "Chile, coloquial",
+                "definition": "Droga de bajo costo que es un producto intermedio en la producción del clorhidrato de cocaína. Tiene el aspecto de un polvo con un color que varía entre el blanco sucio y el marrón. Está compuesto de cocaína base, ecgonina, benzoilecgonina, tropacocaína, cinamoilcocaína, sulfatos y carbonatos."
+            }
+        ]
+    },
+    "pastel": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Alimentos",
+                "definition": "Masa con base de harina utilizada para envolver ingredientes dulces o salados."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Lápiz en forma de barra que contiene colorantes."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "definition": "Técnica de pintura en la que se utilizan lápices blandos."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "definition": "Texto usado en diseño gráfico para simular el espacio. Un elemento para dibujar y pintar."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "definition": "Pacto hecho con malos propósitos."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino",
+                "definition": "Ganancias de algo, especialmente si se reparten."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino",
+                "type_extra": "Chile, coloquial",
+                "definition": "Error, metedura de pata."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino",
+                "type_extra": "Chile, coloquial",
+                "definition": "Persona que comete errores tontos, que no sabe comportarse y mete la pata."
+            },
+            {
+                "number": "9",
+                "type": "adjetivo",
+                "definition": "Tonalidad suave de un color."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
+                "definition": "Persona de carácter simplón."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "definition": "Persona baja y rechoncha."
+            }
+        ]
+    },
     "pasto": {
         "definitions": [
             {
@@ -10638,6 +11054,30 @@
             }
         ]
     },
+    "pastor": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Persona que cría o cuida ganado, en particular si es ganado ovino o caprino."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Cristianismo",
+                "definition": "En el protestantismo, sacerdote dentro de la jerarquía de una iglesia que tiene fieles a su cargo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Perros",
+                "definition": "Perro que tiene aptitudes o entrenamiento para el trabajo con ganado. Existen razas especializadas en esta tarea."
+            }
+        ]
+    },
     "pata": {
         "definitions": [
             {
@@ -10672,6 +11112,53 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "coloquial, Bolivia, Cuba y Perú",
                 "definition": "amigo (persona que tiene amistad)."
+            }
+        ]
+    },
+    "patada": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Golpe dado con el pie o la pata."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Visita rápida para un propósito puntual."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Chile, El Salvador, coloquial",
+                "definition": "Movimiento de retroceso que hacen las armas de fuego cuando se disparan."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Contracción muscular dolorosa experimentada por una descarga eléctrica."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Costa Rica, El Salvador, coloquial",
+                "definition": "Olor desagradable, en especial el de origen corporal."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Chile, coloquial",
+                "definition": "Interrupción unilateral y brusca de una relación sentimental."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Venezuela, coloquial",
+                "definition": "Desaire, mala acción, respuesta violenta o brusca."
             }
         ]
     },
@@ -10790,6 +11277,134 @@
             }
         ]
     },
+    "patético": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que provoca piedad, pena, u otro padecimiento moral por simpatía."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que provoca desdén o desprecio, en especial por su incapacidad."
+            }
+        ]
+    },
+    "patio": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Espacio cerrado con paredes o galerías, que en las casas y otros edificios se deja al descubierto."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Espacio que media entre las líneas de árboles y el término o margen de un campo."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "México",
+                "definition": "Espacio descubierto cerca de las estaciones de ferrocarril, en el cual se maniobran las locomotoras."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Situación o estado en el que se encuentran las cosas."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Campo (parte baja de una grada que no tiene butacas)."
+            }
+        ]
+    },
+    "pato": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Aves",
+                "definition": "Ave palmípeda del orden de las anseriformes, que se encuentra en estado silvestre y es domesticada para aprovechar sus huevos, plumas y carne."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Chile, Colombia, Cuba, Ecuador, México",
+                "definition": "Tiesto que permite orinar a los enfermos en los hospitales y clínicas, sin bajarse de la cama."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "type_extra": "El Salvador, Venezuela",
+                "definition": "Tiesto para recoger excrementos de los enfermos."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Cuba, Nicaragua, Puerto Rico, Venezuela, Usado también como adjetivo",
+                "definition": "Hombre que siente atracción sexual por personas de su mismo sexo biológico."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "type_extra": "España, Usado también como adjetivo",
+                "definition": "Individuo patoso, sin gracia y torpe."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Deporte",
+                "definition": "Juego tradicional argentino en que dos equipos de jinetes se disputan una canasta que tiene un pato₁ en su interior con el objetivo de hacerlo pasar por un aro puesto en la línea de fondo del equipo rival. En su versión reglamentada participan cuatro jinetes por equipo y el \"pato\" es un objeto circular de seis asas."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Colombia",
+                "definition": "Persona que asiste a una fiesta sin ser invitada."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Chile, coloquial",
+                "definition": "El contenido de un vaso grande de vino."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ecuador, Usado también como adjetivo",
+                "definition": "Persona víctima de pullas y burlas."
+            },
+            {
+                "number": "10",
+                "type": "adjetivo",
+                "type_extra": "Chile, coloquial",
+                "definition": "Se dice de la persona que ha quedado sin dinero."
+            },
+            {
+                "number": "11",
+                "type": "adjetivo",
+                "type_extra": "Colombia, Ecuador",
+                "definition": "Persona que como dice el refrán en la Argentina de \"a cada paso una cagada\" queriendo esto decir que es una persona incompetente y chambón para trabajar."
+            },
+            {
+                "number": "12",
+                "type": "nombre masculino",
+                "type_extra": "Wiki",
+                "definition": "Usuario que presenta un comportamiento muy similar a otro; por ejemplo, replicando las mismas acciones, editando en los mismos artículos o participando de las mismas discusiones con los mismos argumentos; lo que da lugar a altas sospechas de que sea un títere."
+            }
+        ]
+    },
     "patología": {
         "definitions": [
             {
@@ -10896,6 +11511,34 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "definition": "patrimonialidad."
+            }
+        ]
+    },
+    "patriota": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que ama a su patria y esta dispuesta a protegerla y a trabajar celosamente por ella."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "desusado",
+                "definition": "Persona que tiene la misma patria que otra."
+            }
+        ]
+    },
+    "patriotismo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Amor a la patria."
             }
         ]
     },
@@ -11252,6 +11895,17 @@
                 "number": "8",
                 "type": "nombre femenino",
                 "definition": "portapaz."
+            }
+        ]
+    },
+    "pe": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Nombre de la letra p."
             }
         ]
     },
@@ -11776,6 +12430,73 @@
             }
         ]
     },
+    "pega": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción de pegar o conglutinar una cosa con otra."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Baño que se da con la pez a los vasos o vasijas; como son tinajas, ollas, cántaros, pellejos, etc."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Peces",
+                "definition": "Pez marino del orden de los acantopterigios, de unos cuarenta centímetros de largo y de siete a nueve en su mayor diámetro; fusiforme, de color ceniciento, con una aleta dorsal y otra ventral que nacen en la mitad del cuerpo y se prolongan hasta la cola, y encima de la cabeza un disco oval, formado por una serie de láminas cartilaginosas movibles, con el cual hace el vacío para adherirse fuertemente a los objetos flotantes. Los antiguos le atribuían la propiedad de detener las naves."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Burla o engaño que se hace a uno por entretenimiento y diversión. Dícese más comúnmente de los que se dan en carnaval."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Entre estudiantes, pregunta difícil de contestar en exámenes."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "familiar",
+                "definition": "Castigo que se da a uno, especialmente de azotes o golpes."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Minería",
+                "definition": "Acción de pegar fuego a un barreno."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "Obstáculo o contratiempo."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Chile, coloquial",
+                "definition": "Empleo, ocupación en un trabajo remunerado."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "Venezuela, coloquial",
+                "definition": "Pegamento, substancia utilizada para unir cosas."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "type_extra": "Aves",
+                "definition": "Pájaro que tiene cerca de medio metro de largo y unos seis decímetros de envergadura, con pico y pies negruzcos, y plumaje blanco en el vientre y arranque de las alas, y negro con reflejos metálicos en el resto del cuerpo. Abunda en España, se domestica con facilidad, es vocinglera, remeda palabras y trozos cortos de música, y suele llevarse al nido objetos pequeños, sobre todo si son brillantes."
+            }
+        ]
+    },
     "pegado": {
         "definitions": [
             {
@@ -11808,6 +12529,102 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "definition": "Acción de pegar."
+            }
+        ]
+    },
+    "pegar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Hacer que una cosa quede adherida a otra mediante el pegamento."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Juntar dos cosas de modo que no quede virtualmente espacio entre ellas."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "type_extra": "coloquial, Usado también como pronominal",
+                "definition": "Contagiar un vicio o enfermedad a otra persona."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Infligir castigo físico mediante golpes."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Propinar un golpe específico."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "type_extra": "coloquial",
+                "definition": "Acertar, atinar."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Junto con algunos nombres, indica la significación de las acciones que éstos indican."
+            },
+            {
+                "number": "8",
+                "type": "verbo transitivo",
+                "definition": "Dicho de una planta: arraigar."
+            },
+            {
+                "number": "9",
+                "type": "verbo transitivo",
+                "type_extra": "Informática",
+                "definition": "Insertar en la carpeta de destino los archivos que fueron seleccionados para copiar o mover."
+            },
+            {
+                "number": "10",
+                "type": "verbo intransitivo",
+                "definition": "Hacer efecto en el ánimo."
+            },
+            {
+                "number": "11",
+                "type": "verbo intransitivo",
+                "definition": "Armonizar o combinar correctamente una cosa con otra."
+            },
+            {
+                "number": "12",
+                "type": "verbo intransitivo",
+                "definition": "Rimar (un verso con otro)."
+            },
+            {
+                "number": "13",
+                "type": "verbo intransitivo",
+                "definition": "Dar o tropezar en una cosa con fuerte impulso."
+            },
+            {
+                "number": "14",
+                "type": "verbo intransitivo",
+                "definition": "Asirse o unirse por su naturaleza una cosa a otra, de modo que sea dificultoso separarla."
+            },
+            {
+                "number": "15",
+                "type": "verbo intransitivo",
+                "definition": "Incidir fuertemente (la luz del sol sobre una superficie)."
+            },
+            {
+                "number": "16",
+                "type": "verbo intransitivo",
+                "type_extra": "Cuba, coloquial",
+                "definition": "Trabajar."
+            },
+            {
+                "number": "17",
+                "type": "verbo intransitivo",
+                "type_extra": "Cuba, Puerto Rico, coloquial",
+                "definition": "Comenzar a hacer algo vigorosamente."
             }
         ]
     },
@@ -11878,6 +12695,18 @@
                 "number": "8",
                 "type": "verbo pronominal",
                 "definition": "Desavenirse, enemistarse, separarse en discordia."
+            }
+        ]
+    },
+    "peli": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Cine, familiar",
+                "definition": "Película, habitualmente un largometraje de ficción."
             }
         ]
     },
@@ -12432,6 +13261,46 @@
             }
         ]
     },
+    "pelotas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Vestimenta, Panamá",
+                "definition": "Arreglo o moño que lleva la empollerada sobre el pecho y la espalda como parte del atuendo típico panameño (pollera)."
+            }
+        ]
+    },
+    "pelotudo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Dicho de una acción, propia de un pelotudo₁."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Dicho de una actividad o tarea, extremadamente fácil o sencilla."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "El Salvador, Panamá, Uruguay",
+                "definition": "Dado a la pereza y a la inactividad; haragán."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Río de la Plata",
+                "definition": "De grandes dimensiones en cuanto a tamaño o valor."
+            }
+        ]
+    },
     "pena": {
         "definitions": [
             {
@@ -12491,6 +13360,42 @@
                 "type": "nombre femenino",
                 "type_extra": "Costa Rica, México y Panamá",
                 "definition": "encogimiento (cortedad)."
+            }
+        ]
+    },
+    "penas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "germanía",
+                "definition": "Galeras."
+            }
+        ]
+    },
+    "pene": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Anatomía",
+                "definition": "Órgano eréctil que presenta el macho de los vertebrados, homólogo del clítoris femenino, en el que desembocan los conductos del tracto genitourinario. En algunos animales se retrae en la ingle, y sólo se extiende durante la excreción y la cópula; en el ser humano no es retráctil. Está compuesto en su mayor parte por tejidos esponjosos, llamados cuerpos cavernosos, que al saturarse de sangre producen la erección."
+            }
+        ]
+    },
+    "península": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Geografía",
+                "definition": "Porción de tierra que se encuentra rodeada por todas partes de agua, salvo por una franja relativamente estrecha, llamada istmo, que la une a una extensión de tierra mayor."
             }
         ]
     },
@@ -14728,6 +15633,23 @@
             }
         ]
     },
+    "perdonar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Librar a alguno de la culpa o daño que de otro modo se le atribuiría por un acto."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "casi siempre en negativo, coloquial",
+                "definition": "Dejar de realizar una acción habitual."
+            }
+        ]
+    },
     "perejil": {
         "definitions": [
             {
@@ -15290,6 +16212,45 @@
                 "type": "nombre masculino",
                 "type_extra": "Derecho",
                 "definition": "Indemnización que se ha de pagar por un perjuicio."
+            }
+        ]
+    },
+    "perla": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Biología",
+                "definition": "Concreción densa, lustrosa y esferoide que se forma con capas concéntricas de nácar en el interior de la concha de algunos moluscos como reacción anómala a la penetración natural o artificial de un cuerpo extraño en su interior. Se utiliza socialmente como gema o como adorno."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Sustantivo aplicado a cualquier persona o cosa para mostrar su aprecio."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "irónico",
+                "definition": "Sustantivo que aplicado a una persona muestra rechazo por su comportamiento o actitud."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Figura en forma de y, que forma parte de las piezas principales de un escudo, y que se daba a los caballeros como premio de una carrera a caballo."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Bola pequeña rellena de algún medicamento o preparado alimenticio destinada para consumo animal o humano."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "irónico",
+                "definition": "Sentencia inoportuna y desacertada."
             }
         ]
     },
@@ -16144,6 +17105,46 @@
             }
         ]
     },
+    "perra": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Mamíferos",
+                "definition": "Hembra del perro."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Insistencia en algo de manera obstinada, irracional o arbitraria."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Enfado por una causa trivial o poco razonable."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Estado de intoxicación etílica, embriaguez, borrachera."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "España, Filipinas, coloquial, frecuentemente en plural",
+                "definition": "Dinero, especialmente en forma de monedas."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Honduras",
+                "definition": "Comentario distendido, de intención graciosa, picante o equívoca."
+            }
+        ]
+    },
     "persecución": {
         "definitions": [
             {
@@ -16167,6 +17168,47 @@
                 "number": "3",
                 "type": "nombre femenino",
                 "definition": "Instancia enfadosa y continua con que se acosa a alguien a fin de que condescienda a lo que de él se solicita."
+            }
+        ]
+    },
+    "perseguir": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Ir tras quien huye para alcanzarlo."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Ir con denuedo tras una cosa o un fin para alcanzarlo."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Ir constantemente tras una persona importunándola."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Buscar permanentemente a una persona para dañarla."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Ocurrirle algo a alguien, presentársele repetidamente, en especial si se trata de algo negativo."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Actuar la justicia contra un delito o una persona."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "definition": "Intentar conseguir una cosa o un fin."
             }
         ]
     },
@@ -17908,6 +18950,29 @@
             }
         ]
     },
+    "pi": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Decimosexta letra del alfabeto griego (Π, π)."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Matemáticas",
+                "definition": "Razón entre la circunferencia y el diámetro de un círculo, que es un número irracional, con un valor aproximado de: 3.1415926535897..."
+            },
+            {
+                "number": "3",
+                "type": "onomatopeya",
+                "type_extra": "Usado más repetido",
+                "definition": "Representa el ruido de un bocinazo."
+            }
+        ]
+    },
     "pianista": {
         "definitions": [
             {
@@ -17920,6 +18985,60 @@
                         "content": "músico, instrumentista, intérprete, ejecutante."
                     }
                 ]
+            }
+        ]
+    },
+    "piano": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Instrumentos musicales",
+                "definition": "Instrumento musical de cuerda, que consta de una gran caja de resonancia en cuyo interior se aloja el arpa, y un teclado que acciona los martillos que la pulsan."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "Música, úsase sobre todo en notación musical, indicándose en el pentagrama con una p",
+                "definition": "Con suavidad y delicadeza."
+            }
+        ]
+    },
+    "pib": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Gastronomía",
+                "definition": "Horno típico de la península de Yucatán que se excava bajo tierra, sobre el cual se enciende un fogón con leña y piedras y se cocina la comida (tradicionalmente cerdo o pollo) a fuego lento, todo tapado con más tierra."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Alimentos, Yucatán, coloquial",
+                "definition": "Especie de tamal grande preparado a partir de masa de maíz, manteca de cerdo, carne de pollo y diversos condimentos, que se cocina tradicionalmente en un horno de tierra."
+            }
+        ]
+    },
+    "pibe": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Argentina, Uruguay, Río de la Plata, Canarias",
+                "definition": "Persona que se encuentra en la adolescencia o juventud."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Argentina",
+                "definition": "Vocativo afectuoso usado entre personas de cierto grado de intimidad."
             }
         ]
     },
@@ -19625,6 +20744,104 @@
             }
         ]
     },
+    "pija": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "lunfardo, coloquial",
+                "definition": "Dicho de una persona: astuta, avispada, sagaz."
+            }
+        ]
+    },
+    "pila": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Conjunto de cosas puestas unas sobre otras."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Por extensión, gran cantidad de cosas."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "En particular, pila₁ de lana correspondiente a un propietario en una esquila."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Arquitectura",
+                "definition": "Pilar de un puente."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Electricidad",
+                "definition": "Dispositivo formado por una o más células electrolíticas, empleado para generar energía eléctrica a partir de energía química."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Heráldica",
+                "definition": "Pieza triangular en un blasón."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "Recipiente fijo para agua, de piedra, cerámica o mampostería."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "En particular, pila₁ que se emplea para el bautismo en las iglesias."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Religión",
+                "definition": "Por extensión, conjunto de fieles que habitan en una parroquia."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "Ingeniería",
+                "definition": "Por analogía, recipiente para el metal fundido en los hornos."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "type_extra": "Bolivia, Cuba",
+                "definition": "Llave que regula el paso de un líquido a través de un conducto, y en especial la que le da salida."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
+                "definition": "Recipiente de piedra, fábrica, etc., donde cae o se echa el agua para varios usos."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "type_extra": "Venezuela",
+                "definition": "Por extensión, fuente pública de agua potable."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "El Salvador",
+                "definition": "Idea a la que se dedica atención obsesiva."
+            }
+        ]
+    },
     "pilar": {
         "definitions": [
             {
@@ -19682,6 +20899,18 @@
                 "number": "4",
                 "type": "nombre masculino",
                 "definition": "Cosa que sostiene o en que se apoya algo."
+            }
+        ]
+    },
+    "pilas": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "Colombia, Guatemala, coloquial",
+                "definition": "Exhortación a estar alerta, a tener cuidado o a poner más energía en una actividad."
             }
         ]
     },
@@ -19822,6 +21051,47 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "definition": "Cosecha de pimientos."
+            }
+        ]
+    },
+    "pinche": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Usado más en plural",
+                "definition": "Obstáculo pinchudo y puntiagudo que por lo general se fija al suelo."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Chile",
+                "definition": "Objeto formado por dos trozos flexibles de plástico o metal, que se usa para sostener en su sitio porciones del cabello."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Chile",
+                "definition": "Persona con quien se tiene una relación amorosa no formalizada."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Mozo ordinario o galopín de cocina."
+            },
+            {
+                "number": "5",
+                "type": "adjetivo",
+                "type_extra": "Costa Rica, El Salvador, Nicaragua, México",
+                "definition": "Tacaño, miserable."
+            },
+            {
+                "number": "6",
+                "type": "adjetivo",
+                "type_extra": "México",
+                "definition": "Se usa como expletivo para manifestar asombro."
             }
         ]
     },
@@ -20050,6 +21320,30 @@
             }
         ]
     },
+    "pinto": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "América Central",
+                "definition": "Que tiene pintas o manchas."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "rioplatense, desusado",
+                "definition": "Dicho del pelaje del yeguarizo, de diversos colores o con una mancha pequeña."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Enfermedades, México",
+                "definition": "Carate."
+            }
+        ]
+    },
     "pintor": {
         "definitions": [
             {
@@ -20209,6 +21503,166 @@
             }
         ]
     },
+    "piña": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Botánica",
+                "definition": "Infrutescencia de los pinos y otras muchas coníferas, en la que sobre un eje vertical van insertas helicoidalmente las escamas que amparan las semillas."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Plantas, Chile, Colombia, España, México, Venezuela",
+                "definition": "Planta de la familia de las bromeliáceas, nativa de América del Sur. Es una hierba perenne, de escaso porte y hojas duras y lanceoladas de hasta un metro de largo, que fructifica una vez cada tres años produciendo un único fruto fragante y dulce, muy apreciado en gastronomía. Es un cultivo claramente tropical pero muy versátil en cuanto a suelos; en volumen es el segundo fruto tropical en producción, sólo superado por la banana."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "Frutas, Chile, Colombia, España, México, Venezuela",
+                "definition": "Fruto de esta planta."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Canarias",
+                "definition": "Mazorca de maíz."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Tejido blanco mate, transparente y finísimo fabricado en Filipinas con los filamentos de las hojas de la piña. Sirve para hacer pañuelos, toallas, fajas, camisas y vestidos de niños y señoras."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Conjunto de personas o cosas unidas o agregadas estrechamente."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Náutica",
+                "definition": "Especie de nudo, generalmente redondeado, que se teje con los chicotes descolchados de un cabo."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "Mineralogía",
+                "definition": "Masa esponjosa de plata, de figura cónica, que queda en los moldes, donde se destila en los hornos la pella sacada de minerales argentíferos."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "México, Honduras",
+                "definition": "Triángulo formado por las quince bolas en un juego de billar."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "type_extra": "México, Puerto Rico",
+                "definition": "Cubo (pieza central de la rueda)."
+            },
+            {
+                "number": "11",
+                "type": "nombre femenino",
+                "type_extra": "México",
+                "definition": "Tambor (parte giratoria de un revólver)."
+            },
+            {
+                "number": "12",
+                "type": "nombre femenino",
+                "type_extra": "México",
+                "definition": "Corazón de un agave que es utilizado para hacer pulque y tequila."
+            },
+            {
+                "number": "13",
+                "type": "nombre femenino",
+                "type_extra": "Argentina, Bolivia, República Dominicana",
+                "definition": "Enfrentamiento, pelea."
+            },
+            {
+                "number": "14",
+                "type": "nombre femenino",
+                "type_extra": "Bolivia, Cuba, Honduras, Paraguay, Uruguay, Argentina, Venezuela",
+                "definition": "Golpe dado con el puño cerrado."
+            },
+            {
+                "number": "15",
+                "type": "nombre femenino",
+                "type_extra": "Perú, Usado también como adjetivo",
+                "definition": "Persona desafortunada."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "type_extra": "Guatemala, Honduras, El Salvador, Nicaragua",
+                "definition": "Multitud (cantidad grande de personas o cosas)."
+            },
+            {
+                "number": "17",
+                "type": "nombre femenino",
+                "type_extra": "Honduras, rural",
+                "definition": "Conjunto de huevos que una gallina aún no ha puesto."
+            },
+            {
+                "number": "18",
+                "type": "nombre femenino",
+                "type_extra": "Venezuela",
+                "definition": "Persona o cosa o enfadosa, generalmente por ser reiterativa y con insistencia."
+            },
+            {
+                "number": "19",
+                "type": "nombre femenino",
+                "type_extra": "Guatemala",
+                "definition": "Trozos de piel de cerdo a los que se les han removido las cerdas para consumirlos cocidos o fritos y aliñados."
+            },
+            {
+                "number": "20",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "Regleta de tres enchufes."
+            },
+            {
+                "number": "21",
+                "type": "nombre femenino",
+                "type_extra": "Cuba",
+                "definition": "Conjunto de personas que ejercen el poder subrepticiamente y por fuera de los procedimientos formales."
+            },
+            {
+                "number": "22",
+                "type": "nombre femenino",
+                "type_extra": "Nicaragua",
+                "definition": "Racimo o mano de frutos."
+            },
+            {
+                "number": "23",
+                "type": "nombre femenino",
+                "type_extra": "Hongos, Chile",
+                "definition": "Hongo comestible de Chile."
+            },
+            {
+                "number": "24",
+                "type": "nombre femenino",
+                "type_extra": "Perú",
+                "definition": "Infortunio."
+            },
+            {
+                "number": "25",
+                "type": "nombre femenino",
+                "type_extra": "El Salvador",
+                "definition": "Heces."
+            },
+            {
+                "number": "26",
+                "type": "nombre femenino",
+                "type_extra": "Nicaragua",
+                "definition": "Porro."
+            }
+        ]
+    },
     "pio": {
         "definitions": [
             {
@@ -20327,6 +21781,70 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "definition": "Monumento, por lo común de piedra o ladrillo, con forma de pirámide."
+            }
+        ]
+    },
+    "pirata": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que practica la piratería."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "México, Venezuela",
+                "definition": "De mala calidad o ilegal."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "México",
+                "definition": "Feo, malo."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "definition": "Bandido de los mares."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino y femenino",
+                "definition": "Por extensión, cualquiera que se dedique a robos bien sea en el mar o en la carretera."
+            },
+            {
+                "number": "6",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Argentina",
+                "definition": "Adúltero, infiel."
+            },
+            {
+                "number": "7",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Paraguay",
+                "definition": "Persona que asiste a fiestas sin ser invitada."
+            },
+            {
+                "number": "8",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Venezuela",
+                "definition": "Persona que ejerce su profesión incorrectamente o no la sabe ejercer."
+            },
+            {
+                "number": "9",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Venezuela",
+                "definition": "Transportista que no está asociado a una línea en específico y cobra incluso un precio mayor al especificado, a más de no brindar seguridad a los viajeros."
+            },
+            {
+                "number": "10",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Fútbol, Argentina",
+                "definition": "Hincha del Club Atlético Belgrano de Córdoba."
             }
         ]
     },
@@ -20581,6 +22099,18 @@
                 "type": "nombre femenino",
                 "type_extra": "El Salvador y Nicaragua, en plural",
                 "definition": "cartucheras (acumulación de grasa)."
+            }
+        ]
+    },
+    "pizza": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Platos",
+                "definition": "Torta plana de harina leudada, cubierta con salsa, queso y otros aderezos, que de la gastronomía italiana se ha extendido a todo el mundo."
             }
         ]
     },
@@ -22020,6 +23550,23 @@
             }
         ]
     },
+    "play": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Música, generalmente con las locuciones “poner play”, “darle al play”, “apretar el play”, etc",
+                "definition": "En los reproductores de música, el botón con el símbolo de triángulo que se usa para iniciar la canción."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Consola de videojuegos de la marca Play Station."
+            }
+        ]
+    },
     "playa": {
         "definitions": [
             {
@@ -22608,6 +24155,48 @@
                 "type": "nombre masculino",
                 "type_extra": "Gramática",
                 "definition": "número plural."
+            }
+        ]
+    },
+    "plus": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Añadido, adicional, extra (cualidad adicional que se da o se pide por encima de lo normal)."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Sobreprecio."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Sobresueldo."
+            }
+        ]
+    },
+    "po": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "interjección",
+                "type_extra": "Chile, familiar, enfático, al final de la frase",
+                "definition": "Denota impaciencia, frustración, alegría y otros sentimientos según la entonación que se le dé."
+            },
+            {
+                "number": "2",
+                "type": "adverbio",
+                "type_extra": "Paraguay, Nordeste argentino, familiar, no estándar",
+                "definition": "Poco, algo."
             }
         ]
     },
@@ -23999,6 +25588,42 @@
             }
         ]
     },
+    "polaco": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo masculino o femenino",
+                "definition": "Originario, relativo a, o propio de Polonia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Argentina, Chile, Costa Rica, coloquial",
+                "definition": "De ascendencia eslava."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Historia",
+                "definition": "Propio de o relativo al partido conservador que gobernó el Consejo de Ministros de España durante la primera mitad de la década de 1850."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Glotónimos",
+                "definition": "Lengua eslava hablada en Polonia."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Costa Rica, Cuba",
+                "definition": "Vendedor ambulante de indumentaria."
+            }
+        ]
+    },
     "polémica": {
         "definitions": [
             {
@@ -24503,6 +26128,66 @@
             }
         ]
     },
+    "polla": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Aves",
+                "definition": "Hembra del pollo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "América",
+                "definition": "Apuesta, principalmente la que se hace en una carrera de caballos."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "type_extra": "América",
+                "definition": "Carrera de caballos donde ocurre una polla₂."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Chile",
+                "definition": "Juego público de azar, en que se dan a la venta billetes numerados de los cuales se premian varios."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Ecuador",
+                "definition": "Apunte que se lleva a los exámenes para copiar."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Bebida, México",
+                "definition": "Bebida hecha con leche, huevos y canela, y a la que a veces se le añade licor."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "El Salvador",
+                "definition": "Flema causada por la irritación de los bronquios, que se libera por la tos."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "type_extra": "desusado, coloquial, usado más en diminutivo (pollita)",
+                "definition": "Mujer joven."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "desusado",
+                "definition": "Cantidad que el perdedor de una mano debe adelantar para la siguiente en algunos juegos de naipes."
+            }
+        ]
+    },
     "polo": {
         "definitions": [
             {
@@ -24722,6 +26407,18 @@
                 "type": "nombre masculino",
                 "type_extra": "Argentina y Uruguay",
                 "definition": "Juguete, por lo común cilíndrico y flexible, con el que se arroja agua durante el carnaval."
+            }
+        ]
+    },
+    "pon": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Puerto Rico",
+                "definition": "Se emplea solo en la locución pedir pon."
             }
         ]
     },
@@ -27458,6 +29155,35 @@
             }
         ]
     },
+    "porno": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "coloquial",
+                "definition": "Pornográfico; que pertenece o concierne a la pornografía."
+            },
+            {
+                "number": "2",
+                "type": "nombre ambiguo",
+                "type_extra": "coloquial",
+                "definition": "Película pornográfica."
+            },
+            {
+                "number": "3",
+                "type": "nombre ambiguo",
+                "definition": "Excesivo intento de apelar a los gustos de un determinado grupo."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "coloquial",
+                "definition": "Pornografía."
+            }
+        ]
+    },
     "porque": {
         "definitions": [
             {
@@ -27552,6 +29278,42 @@
             }
         ]
     },
+    "portal": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Arquitectura",
+                "definition": "Sala por la que se entra en un edificio."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Arquitectura",
+                "definition": "Soportal, techumbre sostenida con arcos ante las fachadas de las casas."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Internet",
+                "definition": "Sitio web o página⁴ que actúa como entrada a otros sitios webs, páginas, o recursos."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Ciencia ficción, Ficción",
+                "definition": "Entrada mágica o tecnológica que lleva a otra ubicación, período en el tiempo, o dimensión."
+            },
+            {
+                "number": "5",
+                "type": "nombre masculino",
+                "type_extra": "Religión",
+                "definition": "Nacimiento, pesebre."
+            }
+        ]
+    },
     "portavoces": {
         "definitions": [
             {
@@ -27629,6 +29391,29 @@
             }
         ]
     },
+    "portugués": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Originario, relativo a, o propio de Portugal."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "type_extra": "Glotónimos",
+                "definition": "Idioma romance oficial en Portugal, en Brasil, en algunos países de África, como Angola y Mozambique, y en algunos de Asia como Timor Oriental."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Historia, Monedas",
+                "definition": "Moneda de oro que tuvo circulación en España durante el siglo XVI."
+            }
+        ]
+    },
     "portuguesa": {
         "definitions": [
             {
@@ -27682,6 +29467,30 @@
                 "type": "nombre masculino",
                 "type_extra": "etcétera",
                 "definition": "Situación futura en la vida de una persona, de una empresa."
+            }
+        ]
+    },
+    "pos": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "preposición",
+                "type_extra": "coloquial",
+                "definition": "Después de (el/la)."
+            },
+            {
+                "number": "2",
+                "type": "conjunción",
+                "type_extra": "coloquial",
+                "definition": "Pues."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "desusado",
+                "definition": "Postre."
             }
         ]
     },
@@ -28399,6 +30208,117 @@
                 "type": "adjetivo",
                 "type_extra": "Física",
                 "definition": "Que tiene carga eléctrica de tipo opuesto a la del electrón."
+            }
+        ]
+    },
+    "posta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Grupo de caballos que se ubicaba en determinados lugares de los caminos para el relevo de los correos o de las diligencias en sus viajes."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Lugar donde estaban estos grupos de caballos y donde los correos o las diligencias a veces hacían paradas."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Distancia entre una y otra posta₁."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "type_extra": "Chile",
+                "definition": "Establecimiento médico en que se realiza atención primaria y controles de rutina de los miembros de una comunidad."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Bala de plomo pequeña para cargar algunas armas de fuego."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Alimentos",
+                "definition": "Trozo o tajada de carne, de pollo o de pescado."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "type_extra": "Alimentos, Chile",
+                "definition": "Corte de carne de vacuno que se obtiene de la parte inferior de los cuartos traseros."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "Cantidad de dinero que se pone sobre la mesa en un juego de apuestas."
+            },
+            {
+                "number": "9",
+                "type": "nombre femenino",
+                "type_extra": "Arquitectura",
+                "definition": "Dibujo ornamental con curvas onduladas que se emplea para espacios de mucha longitud."
+            },
+            {
+                "number": "10",
+                "type": "nombre femenino",
+                "definition": "Cartel o letrero conmemorativo."
+            },
+            {
+                "number": "11",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que iba por la posta₁."
+            },
+            {
+                "number": "12",
+                "type": "adjetivo",
+                "type_extra": "Rioplatense, lunfardismo",
+                "definition": "Dicho de una persona: leal, fiel."
+            },
+            {
+                "number": "13",
+                "type": "adjetivo",
+                "type_extra": "Rioplatense, lunfardismo",
+                "definition": "Dicho de una cosa: verdadera; fiable, fidedigna."
+            },
+            {
+                "number": "14",
+                "type": "adjetivo",
+                "type_extra": "Rioplatense, lunfardismo",
+                "definition": "Dicho de una cosa: excelente, de muy buena calidad."
+            },
+            {
+                "number": "15",
+                "type": "adverbio",
+                "type_extra": "Rioplatense, lunfardismo",
+                "definition": "Seguro, seguramente."
+            },
+            {
+                "number": "16",
+                "type": "nombre femenino",
+                "type_extra": "Rioplatense, lunfardismo",
+                "definition": "Verdad."
+            }
+        ]
+    },
+    "postal": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Propio de o relativo al correo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Tarjeta ilustrada por una cara y escrita por la otra, que se envía como carta breve."
             }
         ]
     },
@@ -29512,6 +31432,18 @@
             }
         ]
     },
+    "pre": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "preposición",
+                "type_extra": "coloquial",
+                "definition": "Antes de (el/la)."
+            }
+        ]
+    },
     "precaución": {
         "definitions": [
             {
@@ -29838,6 +31770,37 @@
                 "type": "verbo intransitivo",
                 "type_extra": "Usado también como transitivo",
                 "definition": "Ser necesario o imprescindible."
+            }
+        ]
+    },
+    "precisión": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Obligación o necesidad indispensable de hacer alguna cosa."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de precisar."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Determinación clara y exacta de una cosa."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Concisión en el estilo y lenguaje."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "definition": "Abstracción mental en virtud de la cual se conciben como separadas cosas que realmente no lo están."
             }
         ]
     },
@@ -30485,6 +32448,27 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "definition": "Opinión previa y tenaz, por lo general desfavorable, acerca de algo que se conoce mal."
+            }
+        ]
+    },
+    "preliminar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que sirve de introducción en una materia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Antecede una acción."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que se hace con anterioridad a una cosa y sirve como preparación."
             }
         ]
     },
@@ -35273,6 +37257,17 @@
             }
         ]
     },
+    "privacidad": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad o condición de privado."
+            }
+        ]
+    },
     "privada": {
         "definitions": [
             {
@@ -37418,6 +39413,18 @@
             }
         ]
     },
+    "profe": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "coloquial",
+                "definition": "Persona que enseña una disciplina específica en el nivel secundario o superior."
+            }
+        ]
+    },
     "profesión": {
         "definitions": [
             {
@@ -37606,6 +39613,23 @@
                         "content": "alumno."
                     }
                 ]
+            }
+        ]
+    },
+    "profeta": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona que goza o dice gozar del don de predecir el futuro por medios sobrenaturales."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Religión",
+                "definition": "Persona que habla o dice hablar por inspiración divina."
             }
         ]
     },
@@ -38203,6 +40227,38 @@
             }
         ]
     },
+    "prohibido": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que por ley, autoridad o estatuto no está consentido y es ilegítimo. Que no se permite."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Por extensión, alimento o bebida que se excluye de la alimentación por orden médica como parte del tratamiento de algunas enfermedades."
+            }
+        ]
+    },
+    "prohibir": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Negar el permiso o la posibilidad para la ejecución de una acción (o modo de obrar) o para el uso, consumo o presencia de algo en determinadas circunstancias."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Negar el consumo de algún alimento como parte de un tratamiento médico."
+            }
+        ]
+    },
     "proliferación": {
         "definitions": [
             {
@@ -38484,6 +40540,36 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "definition": "Conjunto de actividades cuyo objetivo es dar a conocer algo o incrementar sus ventas."
+            }
+        ]
+    },
+    "promocionar": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como pronominal",
+                "definition": "Darle publicidad o relevancia sobre los demás a un producto o una cualidad."
+            },
+            {
+                "number": "2",
+                "type": "verbo intransitivo",
+                "type_extra": "Usado también como transitivo",
+                "definition": "Dicho de una persona, ascender por los cargos o posiciones de la jerarquía de una organización o sistema."
+            },
+            {
+                "number": "3",
+                "type": "verbo intransitivo",
+                "type_extra": "Deporte",
+                "definition": "Dicho de un equipo, ascender de una división de una liga a una superior."
+            },
+            {
+                "number": "4",
+                "type": "verbo intransitivo",
+                "type_extra": "Educación, Argentina",
+                "definition": "En las universidades argentinas, aprobar una asignatura sin rendir examen final."
             }
         ]
     },
@@ -40307,6 +42393,24 @@
             }
         ]
     },
+    "proveedor": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que provee."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de una persona: que suministra la materia prima utilizada para producir los bienes o servicios necesarios para una actividad."
+            }
+        ]
+    },
     "proveedores": {
         "definitions": [
             {
@@ -40320,6 +42424,33 @@
                         "content": "abastecedor, provisor, suministrador, distribuidor, administrador, agente."
                     }
                 ]
+            }
+        ]
+    },
+    "proveer": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Dar, suministrar, facilitar, preparar o reunir lo que se necesita o requiere para un fin."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Tramitar o hacer avanzar un asunto o negocio."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Otorgar o conferir un cargo o dignidad."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "type_extra": "Derecho",
+                "definition": "Hacer el juez o el tribunal un dictamen o una resolución, a menudo considerada sentencia definitiva."
             }
         ]
     },
@@ -41304,6 +43435,18 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Perteneciente o relativo a la psicología."
+            }
+        ]
+    },
+    "psicólogo": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Psicología, Ocupaciones, Medicina",
+                "definition": "Persona dedicada al estudio y curación de las patologías de la mente."
             }
         ]
     },
@@ -43486,6 +45629,32 @@
                 "number": "7",
                 "type": "nombre masculino",
                 "definition": "sien."
+            }
+        ]
+    },
+    "puntuación": {
+        "level": "intermediate",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de puntuar o escribir los signos necesarios para reconocer diversos aspectos de la pronunciación, entonación y agrupación de las palabras."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Conjunto de los signos empleados en la escritura para clarificar el sentido, separando grupos de palabras e indicando otros elementos relacionados con la entonación y la pronunciación."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Suma de los puntos obtenidos en una actividad, competencia o examen."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Método a través del cual se asigna la puntuación₃."
             }
         ]
     },
