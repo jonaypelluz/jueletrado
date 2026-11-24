@@ -881,7 +881,7 @@
                 "number": "2",
                 "type": "nombre masculino",
                 "type_extra": "Informática",
-                "definition": "Identificador₁ único que designa una entidad definible en un programa, como una variable o una rutina."
+                "definition": "Identificador único que designa una entidad definible en un programa, como una variable o una rutina."
             }
         ]
     },
@@ -1030,7 +1030,7 @@
                 "number": "1",
                 "type": "adjetivo",
                 "type_extra": "neologismo",
-                "definition": "Que pertenece o concierne al ideoléxico₂."
+                "definition": "Que pertenece o concierne al ideoléxico."
             },
             {
                 "number": "2",
@@ -1591,6 +1591,23 @@
                 "number": "2",
                 "type": "adjetivo",
                 "definition": "Que ha sido afrentado públicamente."
+            }
+        ]
+    },
+    "ignorante": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Falto de conocimiento, inteligencia, madurez, o educación."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que no tiene conocimiento o información de un tema en particular."
             }
         ]
     },
@@ -3362,6 +3379,24 @@
             }
         ]
     },
+    "imbécil": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "desusado",
+                "definition": "Que tiene poca fuerza, en particular física."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Medicina, Psicología, Usado también como sustantivo, desusado",
+                "definition": "En particular, que padece una deficiencia cognitiva que le impide alfabetizarse, aunque sea capaz de utilizar el lenguaje hablado."
+            }
+        ]
+    },
     "imbecilidad": {
         "level": "advanced",
         "source": "wiktionary",
@@ -4242,6 +4277,53 @@
             }
         ]
     },
+    "imperial": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne al imperio."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que pertenece o concierne al emperador."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Se aplica a una especie de ciruela."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Parte superior de un coche de camino o diligencia."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Arquitectura",
+                "definition": "Especie de cúpula terminada en aguja."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "definition": "Antigua moneda de oro de Rusia que valía diez rublos."
+            },
+            {
+                "number": "7",
+                "type": "nombre femenino",
+                "definition": "El tejadillo o cobertura de las carrozas."
+            },
+            {
+                "number": "8",
+                "type": "nombre femenino",
+                "definition": "Parte superior de algunos vehículos donde pueden sentarse viajeros."
+            }
+        ]
+    },
     "imperialismo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -4408,7 +4490,7 @@
             {
                 "number": "3",
                 "type": "nombre masculino",
-                "definition": "Sobretodo impermeable₁."
+                "definition": "Sobretodo impermeable."
             }
         ]
     },
@@ -4741,6 +4823,17 @@
                 "type": "nombre femenino",
                 "type_extra": "Medicina, Odontología",
                 "definition": "Especialidad o rama de la Odontología y la cirugía que se ocupa los procesos relacionados con implantes (reemplazos de dientes y otros órganos)."
+            }
+        ]
+    },
+    "implementar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Poner en marcha un proceso, organización o programa ya planificado."
             }
         ]
     },
@@ -5503,6 +5596,17 @@
             }
         ]
     },
+    "impreso": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Material que tiene texto impreso."
+            }
+        ]
+    },
     "impresor": {
         "level": "advanced",
         "source": "wiktionary",
@@ -5614,7 +5718,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "definition": "Conjunto de componentes con los que se hace la imprimación₁."
+                "definition": "Conjunto de componentes con los que se hace la imprimación."
             }
         ]
     },
@@ -5666,6 +5770,48 @@
                 "number": "1",
                 "type": "nombre masculino",
                 "definition": "Permiso o licencia final, tras un proceso de censura, que otorga la Iglesia católica romana para que se publique algo, autorizando su lectura por parte de los fieles."
+            }
+        ]
+    },
+    "imprimir": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Marcar en un material (generalmente papel) signos, letras o dibujos en color o relieve mediante procedimientos manuales, mecánicos o digitales."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Poner, mediante presión de un molde con tinta o pintura, imágenes sobre tela, cuero, papel u otro material."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Fabricar un libro, revista, diario u otro impreso."
+            },
+            {
+                "number": "4",
+                "type": "verbo transitivo",
+                "definition": "Marcar una vivencia o experiencia el carácter de una persona."
+            },
+            {
+                "number": "5",
+                "type": "verbo transitivo",
+                "definition": "Marcar una huella o rastro en la tierra, arena u otro material."
+            },
+            {
+                "number": "6",
+                "type": "verbo transitivo",
+                "definition": "Dar un giro, orientación o dirección a una conducta, afecto o idea."
+            },
+            {
+                "number": "7",
+                "type": "verbo transitivo",
+                "type_extra": "desusado",
+                "definition": "Introducir, meter haciendo fuerza algo en otra cosa."
             }
         ]
     },
@@ -8488,7 +8634,7 @@
                 "number": "2",
                 "type": "adjetivo",
                 "type_extra": "desusado",
-                "definition": "Propio de o relativo al incesto₁."
+                "definition": "Propio de o relativo al incesto."
             }
         ]
     },
@@ -9261,15 +9407,19 @@
             }
         ]
     },
-    "inclusionismo": {
+    "inclusión": {
         "level": "advanced",
         "source": "wiktionary",
         "definitions": [
             {
                 "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Wiki",
-                "definition": "Priorización de la inclusión de contenido por sobre la eliminación, argumentando que las entradas defectuosas o en desarrollo deben ser mejoradas y expandidas en lugar de ser borradas."
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de incluir."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Conexión o amistad de una persona con otra."
             }
         ]
     },
@@ -9286,6 +9436,18 @@
         ]
     },
     "inclusivamente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "type_extra": "de modo",
+                "definition": "Con inclusión."
+            }
+        ]
+    },
+    "inclusive": {
         "level": "advanced",
         "source": "wiktionary",
         "definitions": [
@@ -9653,6 +9815,22 @@
                 "number": "2",
                 "type": "nombre femenino",
                 "definition": "Carencia de comodidad."
+            }
+        ]
+    },
+    "incómodo": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Carente o falto de comodidad, que causa que sea difícil relajarse o estar en un estado físicamente agradable."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que causa desagrado, molestia o disgusto."
             }
         ]
     },
@@ -11550,6 +11728,17 @@
                 "number": "1",
                 "type": "nombre femenino",
                 "definition": "Incredibilidad."
+            }
+        ]
+    },
+    "increíblemente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adverbio",
+                "definition": "De una manera increíble."
             }
         ]
     },
@@ -13855,7 +14044,7 @@
                 "number": "2",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
-                "definition": "Lengua hipotética de las que descenderían las lenguas de la familia indoeuropea₁."
+                "definition": "Lengua hipotética de las que descenderían las lenguas de la familia indoeuropea."
             }
         ]
     },
@@ -14545,7 +14734,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "definition": "Cualidad o naturaleza de inerrante₂."
+                "definition": "Cualidad o naturaleza de inerrante."
             }
         ]
     },
@@ -15095,6 +15284,18 @@
                 "type": "nombre masculino y femenino",
                 "type_extra": "desusado",
                 "definition": "Persona de linaje real."
+            }
+        ]
+    },
+    "infantería": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Milicia",
+                "definition": "Unidad militar que combate a pie."
             }
         ]
     },
@@ -16097,6 +16298,18 @@
             }
         ]
     },
+    "info": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "coloquial",
+                "definition": "Información."
+            }
+        ]
+    },
     "infobesidad": {
         "level": "advanced",
         "source": "wiktionary",
@@ -16204,6 +16417,22 @@
             }
         ]
     },
+    "informado": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que ha sido advertido, avisado o instruido de algo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que está al tanto de los sucesos notables que ocurren."
+            }
+        ]
+    },
     "informador": {
         "level": "advanced",
         "source": "wiktionary",
@@ -16218,6 +16447,34 @@
                 "number": "2",
                 "type": "nombre masculino y femenino",
                 "definition": "Persona cuyo cometido es informar o dar información relevante a una parte interesada en ella."
+            }
+        ]
+    },
+    "informal": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que no sigue o tiene las formas, reglas, normas o convenciones establecidas."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que no requiere formalidad, gravedad o solemnidad."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Perú, Usado también como sustantivo",
+                "definition": "Que vende artículos a pequeña escala por las calles, plazas, etc."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Economía",
+                "definition": "Se dice de las actividades económicas, como negocios, empleos, etc., que no se ubican fácilmente dentro de los parámetros o clasificaciones convencionales y normalmente contempladas en la legislación."
             }
         ]
     },
@@ -16462,18 +16719,6 @@
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
                 "definition": "Que no posee las dotes necesarias para la tarea que se le ha encomendado."
-            }
-        ]
-    },
-    "infraesbozo": {
-        "level": "advanced",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Wiki",
-                "definition": "Entrada que no tiene suficiente contenido como para constituir un esbozo de artículo o anexo válido."
             }
         ]
     },
@@ -18101,7 +18346,7 @@
                 "number": "3",
                 "type": "nombre masculino",
                 "type_extra": "Botánica",
-                "definition": "Planta que ha recibido un injerto₂."
+                "definition": "Planta que ha recibido un injerto."
             },
             {
                 "number": "4",
@@ -19024,6 +19269,17 @@
                 "type": "adjetivo",
                 "type_extra": "Biología",
                 "definition": "Perteneciente o relacionado con las causas, mecanismos o efectos de la inmunidad."
+            }
+        ]
+    },
+    "inmunidad": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Cualidad o condición de inmune."
             }
         ]
     },
@@ -20862,6 +21118,33 @@
             }
         ]
     },
+    "inspector": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "El que inspecciona."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "definition": "Jefe de una inspección."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "definition": "Empleado público o particular que tiene a su cargo la inspección y vigilancia en el ramo a que pertenece y del cual toma título especial el destino que desempeña."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Que reconoce y examina una cosa."
+            }
+        ]
+    },
     "inspectoría": {
         "level": "advanced",
         "source": "wiktionary",
@@ -21481,6 +21764,38 @@
             }
         ]
     },
+    "insultar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Decir cosas obscenas o malsonantes dirigidas a alguien."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "definition": "Causar una ofensa, con los actos incluso, aun cuando no se ha dicho nada."
+            }
+        ]
+    },
+    "insulto": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Cualquier palabra o afirmación despectiva y desagradable dirigida a una persona o grupo con intención de ofender."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Falta de respeto."
+            }
+        ]
+    },
     "insumir": {
         "level": "advanced",
         "source": "wiktionary",
@@ -21725,6 +22040,46 @@
                 "type": "nombre masculino",
                 "type_extra": "Electrónica",
                 "definition": "Dispositivo cuya respuesta es la integral temporal de la señal eléctrica de entrada."
+            }
+        ]
+    },
+    "integral": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que esta completo, que hace referencia a la totalidad de algo."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Filosofía",
+                "definition": "Aplícase a las partes que entran en la composición de un todo, a distinción de las partes que se llaman esenciales, sin las que no puede subsistir una cosa."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "type_extra": "Alimentos",
+                "definition": "Dicho de un alimento: que conserva todos sus compuestos que trae por naturaleza."
+            },
+            {
+                "number": "4",
+                "type": "adjetivo",
+                "definition": "Dicho de una comida: hecha con alimentos integrales."
+            },
+            {
+                "number": "5",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas",
+                "definition": "Operador que representa la operación de integración, operación que extiende el concepto de suma."
+            },
+            {
+                "number": "6",
+                "type": "nombre femenino",
+                "type_extra": "Matemáticas",
+                "definition": "El valor de la aplicación del operador integral sobre una función en un dominio."
             }
         ]
     },
@@ -22023,6 +22378,17 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "definition": "Sede, casa, despacho u oficina donde vive, administra o trabaja el o la intendente."
+            }
+        ]
+    },
+    "intendente": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "definition": "Persona a cargo de administrar, superentender, manejar, liderar, vigilar, dirigir o gobernar una operación, empresa, jurisdicción, zona, territorio, población o sección."
             }
         ]
     },
@@ -22910,6 +23276,28 @@
             }
         ]
     },
+    "interino": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que provisionalmente suple la ausencia de otra persona o cosa."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Dicho de la persona que desempeña un puesto, cargo o una función para cubrir la ausencia de otra."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Dicho de la persona que trabaja en el servicio doméstico y que no pasa la noche en la casa donde labora."
+            }
+        ]
+    },
     "interinstitucional": {
         "level": "advanced",
         "source": "wiktionary",
@@ -23518,6 +23906,36 @@
             }
         ]
     },
+    "intérprete": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Persona que traduce oralmente de una lengua hacia otra."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Artista que toca un instrumento en una obra musical, o que tiene un papel en una obra coreográfica, danza, teatro, cine, etc."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Ocupaciones",
+                "definition": "Persona que sabe ver en un texto un significado oculto, o que lo explica de una forma diferente a la textual."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino y femenino",
+                "type_extra": "Informática",
+                "definition": "Programa que realiza varias fases del compilador. Se diferencia de este, en que no genera código o no lo traduce a otro lenguaje, sino que lo ejecuta. Ejemplos de intérpretes son: los navegadores de internet, que interpretan lenguaje html y lo muestran; las líneas de comandos SQL, que interpretan y ejecutan las consultas."
+            }
+        ]
+    },
     "interracial": {
         "level": "advanced",
         "source": "wiktionary",
@@ -23811,6 +24229,23 @@
             }
         ]
     },
+    "interrupción": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Acción o efecto de interrumpir."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Informática",
+                "definition": "Evento que suspende la ejecución normal del programa, forzando al procesador a iniciar una rutina de interrupción (ISR) que es de mayor prioridad a la de la rutina en la que se disparó el evento."
+            }
+        ]
+    },
     "interruptor": {
         "level": "advanced",
         "source": "wiktionary",
@@ -23895,7 +24330,7 @@
             {
                 "number": "1",
                 "type": "adjetivo",
-                "type_extra": "Lgbt, Usado también como sustantivo",
+                "type_extra": "LGBT, Usado también como sustantivo",
                 "definition": "Propio o relacionado con los individuos que presentan características de ambos sexos."
             }
         ]
@@ -23907,7 +24342,7 @@
             {
                 "number": "1",
                 "type": "nombre femenino",
-                "type_extra": "Lgbt",
+                "type_extra": "LGBT",
                 "definition": "Situación por la que un individuo presenta características físicas de ambos sexos, que presenta ambos sexos o que no es inequívocamente macho o hembra."
             }
         ]
@@ -24021,18 +24456,6 @@
                 "type": "verbo transitivo",
                 "type_extra": "desusado",
                 "definition": "Entrevistar."
-            }
-        ]
-    },
-    "interwiki": {
-        "level": "advanced",
-        "source": "wiktionary",
-        "definitions": [
-            {
-                "number": "1",
-                "type": "nombre masculino",
-                "type_extra": "Wiki",
-                "definition": "Enlace de Internet entre proyectos de wikimedia en diferentes lenguas, que permite con un click pasar de una página en un idioma a su equivalente en otro."
             }
         ]
     },
@@ -25326,6 +25749,17 @@
             }
         ]
     },
+    "inusual": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Poco frecuente, no usual."
+            }
+        ]
+    },
     "inutilidad": {
         "level": "advanced",
         "source": "wiktionary",
@@ -25448,7 +25882,7 @@
                 "number": "3",
                 "type": "adjetivo",
                 "type_extra": "Usado también como sustantivo",
-                "definition": "En particular, dicho de un militar activo o retirado, inválido₂ por heridas sufridas en acto de servicio."
+                "definition": "En particular, dicho de un militar activo o retirado, inválido por heridas sufridas en acto de servicio."
             },
             {
                 "number": "4",
@@ -25525,6 +25959,23 @@
             }
         ]
     },
+    "invasión": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "definition": "Efecto y acto de invadir."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "type_extra": "Fútbol",
+                "definition": "Infracción que se comete cuando un jugador no está en su propio lado del campo de juego al momento de sacar del centro."
+            }
+        ]
+    },
     "invasor": {
         "level": "advanced",
         "source": "wiktionary",
@@ -25591,6 +26042,22 @@
                 "number": "1",
                 "type": "verbo transitivo",
                 "definition": "Construir el inventario de un bien."
+            }
+        ]
+    },
+    "inventario": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "definition": "Lista exhaustiva de objetos de una colección, generalmente realizada para conocer la cuantía y valor de los bienes de una persona o institución."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Conjunto de bienes materiales, tangibles, palpables que conforman el activo, si son aportados como capital por los socios de la empresa, o como bienes en calidad de arrendamiento o prestamo, si son aportados por prestamistas o proveedores, que se van a utilizar durante el proceso productivo y generador de contraprestación para la sociedad, ya que pueden consistir en materia prima, en productos derivados y/o de consumo, vehículos, locales y/o equipos destinados exclusivamente para comercializar (transportar, vender y entregar) los productos y servicios que presta o vende dicha empresa."
             }
         ]
     },
@@ -25988,6 +26455,33 @@
             }
         ]
     },
+    "invisible": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Que no se puede ver."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "definition": "Que evita ser visto."
+            },
+            {
+                "number": "3",
+                "type": "adjetivo",
+                "definition": "Que es muy pequeño, y por lo tanto difícil de ver."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Bisutería",
+                "definition": "Horquilla invisible."
+            }
+        ]
+    },
     "invisiblemente": {
         "level": "advanced",
         "source": "wiktionary",
@@ -26042,6 +26536,28 @@
                 "number": "1",
                 "type": "adjetivo",
                 "definition": "Que invita."
+            }
+        ]
+    },
+    "invitar": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "verbo transitivo",
+                "definition": "Pedirle a alguien que vaya a cierto lugar."
+            },
+            {
+                "number": "2",
+                "type": "verbo transitivo",
+                "type_extra": "Usado también como intransitivo",
+                "definition": "Pagar la cuenta a alguien por su consumo de bebidas, comida u otro."
+            },
+            {
+                "number": "3",
+                "type": "verbo transitivo",
+                "definition": "Incitar o excitar."
             }
         ]
     },
@@ -26701,6 +27217,33 @@
             }
         ]
     },
+    "ira": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre femenino",
+                "type_extra": "Sentimientos",
+                "definition": "Enfado o enojo."
+            },
+            {
+                "number": "2",
+                "type": "nombre femenino",
+                "definition": "Deseos de venganza."
+            },
+            {
+                "number": "3",
+                "type": "nombre femenino",
+                "definition": "Uno de los siete pecados capitales que proclama la Iglesia católica."
+            },
+            {
+                "number": "4",
+                "type": "nombre femenino",
+                "definition": "Furia."
+            }
+        ]
+    },
     "iracundia": {
         "level": "advanced",
         "source": "wiktionary",
@@ -26907,6 +27450,17 @@
                 "type": "adverbio",
                 "type_extra": "de modo",
                 "definition": "Con ironía."
+            }
+        ]
+    },
+    "irónico": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "definition": "Relativo o perteneciente a la ironía, o que la contiene."
             }
         ]
     },
@@ -28010,6 +28564,35 @@
             }
         ]
     },
+    "islam": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "nombre masculino",
+                "type_extra": "Religión",
+                "definition": "Religión monoteísta cuyo dios es Alá, del mismo tronco judeocristiano, que sigue las enseñanzas de Mahoma y que tiene sus principales lugares sagrados en La Meca, Medina y Jerusalén."
+            },
+            {
+                "number": "2",
+                "type": "nombre masculino",
+                "definition": "Conjunto de países que adhieren mayoritariamente a esta religión."
+            }
+        ]
+    },
+    "islámico": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Religión",
+                "definition": "Propio de, relativo a, o devoto del Islam."
+            }
+        ]
+    },
     "islamismo": {
         "level": "advanced",
         "source": "wiktionary",
@@ -28697,6 +29280,18 @@
             }
         ]
     },
+    "israelí": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Originario, relativo a, o propio de el moderno Estado de Israel."
+            }
+        ]
+    },
     "israelita": {
         "level": "advanced",
         "source": "wiktionary",
@@ -28769,6 +29364,36 @@
                 "type": "nombre masculino",
                 "type_extra": "México",
                 "definition": "Provisión de comida que se lleva en un paquete."
+            }
+        ]
+    },
+    "italiano": {
+        "level": "advanced",
+        "source": "wiktionary",
+        "definitions": [
+            {
+                "number": "1",
+                "type": "adjetivo",
+                "type_extra": "Usado también como sustantivo",
+                "definition": "Originario, relativo a, o propio de Italia."
+            },
+            {
+                "number": "2",
+                "type": "adjetivo",
+                "type_extra": "Chile",
+                "definition": "Indica que una preparación culinaria que es acompañado por tomate, palta y mayonesa como la variante del completo llamada del misma forma. Se denomina de esa forma a juzgar por los colores de la bandera de Italia."
+            },
+            {
+                "number": "3",
+                "type": "nombre masculino",
+                "type_extra": "Glotónimos",
+                "definition": "Idioma románico, fruto de la progresiva evolución del latín, que en Italia dio lugar a numerosos dialectos, uno de los cuales, el florentino culto, convertido en lengua literaria gracias al prestigio de Dante Alighieri, Francesco Petrarca y Giovanni Boccaccio, se convirtió en lengua oficial."
+            },
+            {
+                "number": "4",
+                "type": "nombre masculino",
+                "type_extra": "Gastronomía, Chile",
+                "definition": "Tipo de sándwich que consiste en un pan que lleva en su interior una salchicha, tomate picado, palta molida y sobre este mayonesa, una de las variantes más populares del completo. Llamado así porque los ingrediente tomate, palta y mayonesa forman los colores de la bandera de Italia, opcionalmente se le pueden agregar otras salsas como ketchup, mostaza o ají en pasta."
             }
         ]
     },
