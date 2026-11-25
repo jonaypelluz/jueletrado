@@ -86,6 +86,12 @@ client hydrator, `level-counts` and the tests):
 | `letters` | The word's characters sorted. |
 | `pos`, `senseCount` | Type of the first sense and number of senses in `public/definitions` (`null` / 0 without definitions). Senses are not stored; read them with `getDefinition(s)`. |
 | `source` | `'wiktionary'` for an es word whose definition entry has `source: "wiktionary"` (imported by `words:import-wiktionary`); `'rae'` for an es word with senses and no `source`; `null` otherwise. For en `null` means "unknown" (filled later). |
+
+`pos`, `senseCount` and `source` describe only a definition entry the games serve at the word's `level`
+(an RAE entry always; a Wiktionary entry only from its own entry `level` up, the `getDefinitions` level rule).
+An entry not served there counts as no entry: `pos` `null`, `senseCount` 0, `source` `null`. One row serves
+every level file of the word, so it is judged at the word's lowest level (`level`): today a beginner or
+intermediate word with only a Wiktionary entry (all at `advanced`) has no `pos`, senses or `source`.
 | flags (0/1) | `hasAccent` (`[áéíóú]`), `hasEnye`, `hasDieresis`, `hasTl`, `hasDiphthong`, `hasHiatus` (`vowelFeatures` in `utils/SyllableSplitter.ts`), `isPlural`, `isVerbForm` (approximate suffix heuristics against the locale word set; no game uses them yet), `isProperNoun` (the word is in `ops/scripts/words/proper_nouns_<locale>.txt`; proper nouns stay in the levels, a game drops them with `exclude: { isProperNoun: true }` or keeps only them by filtering `getWordRecords` on the flag; no game uses it yet). |
 
 Flag bit order in chunks is `WORD_FLAGS` (the order above); a new flag goes at the end.
@@ -128,9 +134,10 @@ implicit minimum; `exclude` rejects records whose flag is 1; `minSyllables` need
   `level` is above it (cumulative: beginner gets beginner Wiktionary words, advanced gets all; the import
   writes every Wiktionary entry at `advanced`, so beginner and intermediate get none today); RAE
   entries and an unknown level are never filtered. The three definition games pass `gameLevel`.
-  For a locale of `ADVANCED_DEFINITION_LOCALES` (es), level `advanced` or unset also fetches
+  For a locale of `ADVANCED_DEFINITION_LOCALES` (es), only level `advanced` also fetches
   `/definitions/<locale>/<letter>_definitions_advanced.json` (advanced Wiktionary entries) and merges it
-  after the main file (a word in both keeps the main copy); beginner/intermediate fetch only the main file.
+  after the main file (a word in both keeps the main copy); beginner, intermediate and an unset level fetch
+  only the main file.
   A 404 on the advanced file is empty, not an error; any other failure is logged and read as empty.
 - `getDefinition(word, locale)` → the word's `WordEntry` from its base-letter file (`ñ` → `n`), then from
   that letter's advanced file when the word is not in the main one, or `null`.
@@ -197,7 +204,8 @@ New storage keys: add to the `StorageKey` union AND the static map in `store/Sto
 Word-processing utils:
 - `utils/WordGameProcessor.ts` — `processWord(word)` (misspelled variants via `config/ChangeRules.ts`), `processWordWithAccent(word)` (accent variants), `filterWordsByLetters(letters, allWords)`. Constructor: `new WordGameProcessor(locale, wordSet)` — `wordSet` used to reject variants that are real words.
 - `config/AccentRules.ts` — `NonAccentedVowels` (`a→á`...), `AccentedVowels` (`á→a`...).
-- `config/DefinitionConfig.ts` (`DEFINITION_LETTERS`, `LETTERS_WITHOUT_DEFINITIONS`) and `utils/DefinitionPicker.ts` (`getDefinitionForLevel`, `formatDefinition`) — shared by definition-based games (definitionMaster, spellingBee); reuse them instead of copying.
+- `config/DefinitionConfig.ts` (`DEFINITION_LETTERS`, `LETTERS_WITHOUT_DEFINITIONS`) and `utils/DefinitionPicker.ts` (`getDefinitionForLevel`, `formatDefinition`, `clueDefinitionsForLevel`) — shared by definition-based games (definitionMaster, spellingBee, crossWordPuzzle); reuse them instead of copying.
+- A clue never gives the answer away: definitionMaster and crossWordPuzzle keep only the senses of `clueDefinitionsForLevel` (the level's senses minus those containing the headword, `revealsWord` from `utils/SpellingComparer.ts`) and skip a word with none left; spellingBee does the same through `isUsableClue`. No data is deleted; `words:level-counts` counts the pools the same way.
 - `hooks/useWordProcessor.ts` — hook wrapper around WordGameProcessor.
 
 The definitions/words data behind `WordsService` is produced by the pipeline in [commands.md](commands.md).
@@ -206,6 +214,7 @@ The definitions/words data behind `WordsService` is produced by the pipeline in 
 
 - `Hero` (`@components/Hero`) — game header: `image`, `title`, plus children.
 - `GameRules` (`@components/GameRules`) — renders `gameConfig.gameRules` before the game starts.
+- `WiktionaryCredit` (`@components/WiktionaryCredit`) — the CC BY-SA 4.0 §3(a) credit line ("Definiciones de Wikcionario, CC BY-SA 4.0", key `wiktionaryCredit`, linking to es.wiktionary.org and the licence). A game that shows definition text renders it under the definitions while at least one shown definition comes from an entry with `source: 'wiktionary'` (definitionMaster `showWiktionaryCredit`, crossWordPuzzle `showWiktionaryCredit`, spellingBee `clue.source`).
 - Start-button / countdown / stats overlay: copy from `games/spellTower/UI.tsx` and `games/wordFinder/UI.tsx`.
 
 ## Test conventions

@@ -277,6 +277,9 @@ Builds the served word data (`scripts/words/buildWordData.ts`). Inputs:
   syllabify failures. Overrides and failures are reported, never fatal.
 - Deterministic: a rerun on unchanged inputs changes no byte.
 
+- `pos`, `senseCount` and `source` come only from a definition entry served at the word's level (a
+  Wiktionary entry from its own `level` up); otherwise they are `null` / 0 / `null` (rule in
+  `game-conventions.md`, Word model).
 - Marks every word of `proper_nouns_{locale}.txt` with the `isProperNoun` flag (proper nouns stay in the
   levels; a game excludes them with `exclude: { isProperNoun: true }`).
 - Fails before writing anything when a level list holds a word of `offensive_{locale}.txt` or the
@@ -378,7 +381,8 @@ Counts, per locale, level and game, the words each game can draw from the served
 data (the v2 chunks in `public/words` and `public/definitions`), building every
 pool through `matchesQuery` with the games' own exported queries and filters
 (length windows, prefetch groups, the wordChain seed, `LETTERS_WITHOUT_DEFINITIONS`,
-clue rules). Writes a flat JSON map
+clue rules: definitionMaster and crossWordPuzzle count only words left with a sense
+that does not contain the headword, `clueDefinitionsForLevel`). Writes a flat JSON map
 `"<locale>/<level>/<game>[/<part>]": { count, min, hash }` (default
 `ops/crawl-output/audit/level-counts.json`); `hash` is the first 16 hex characters
 of the sha256 of the sorted pool.
@@ -427,7 +431,8 @@ The report records the latest revision timestamp found in the dump.
 - Labels go to `type_extra`. "Others as-is" for `{{uso|…}}` is read as: the
   usage codes of es.wiktionary `Módulo:contexto/uso` (`utcs`, `utcp`, `umep`…)
   are written in RAE wording (`Usado también como sustantivo`), aliases map to
-  their label (`raro` → `poco usado`, `vulg` → `vulgar`), disused labels become
+  their label (`raro` → `poco usado`, `vulg` → `vulgar`, `eufemismo`/`eufemístico` →
+  `eufemismo`), disused labels become
   `desusado`, an unknown code-like value is dropped, and any other value is
   kept as written.
 - **RAE wins:** a key without `source` is never touched. A new key is written as
@@ -453,7 +458,13 @@ The report records the latest revision timestamp found in the dump.
 - Sense cleanup also strips references to another page's numbered sense
   (`pato₁`, `aforar₁₋₂`, `atmósfera(1)`), keeping chemical formulas (`Fe³⁺`,
   `Ca₃`) and units (`m²`, `cm³`); senses in the `Wiki` domain (wiki jargon) are
-  dropped; the `lgbt` domain is written `LGBT`.
+  dropped; the `lgbt` domain is written `LGBT`. A usage example written into the
+  sense line is cut from `Por ejemplo` on ("De ojos azules. Por ejemplo: Después…"
+  → "De ojos azules."). `{{plm|x}}` / `{{ucf|x}}` capitalise their argument only at
+  a sentence start or after a colon, RAE style ("Dicho de una persona: Alentar…";
+  mid-sentence "Persona de carácter de apuesto."). Unbalanced parentheses
+  (~25 senses, "De modo conquistador (que conquista.") are in the dump text and
+  are kept as written.
 - Writes the report to `ops/crawl-output/wiktionary/es-import-report.md`
   (per letter before → after, skips by reason, list additions, a 20-entry sample
   per letter, top unresolved templates and unmapped POS headers).
