@@ -46,7 +46,7 @@ import { WordChunk, WordEntry, WordFilter, WordRecord } from '../../models/types
 import StorageService from '../../store/StorageService';
 import { buildChallenge } from '../../utils/AccentGameProcessor';
 import { MIN_WORD_LENGTH as CROSSWORD_MIN_LENGTH } from '../../utils/CrosswordGenerator';
-import { eligibleDefinitionsForLevel, formatDefinition } from '../../utils/DefinitionPicker';
+import { clueDefinitionsForLevel, eligibleDefinitionsForLevel, formatDefinition } from '../../utils/DefinitionPicker';
 import { buildLetterChallenge } from '../../utils/LetterMatchProcessor';
 import { isUsableClue } from '../../utils/SpellingComparer';
 import { filterDefinitions, matchesQuery } from '../../utils/WordQuery';
@@ -86,6 +86,10 @@ const loadDefinitions = async (root: string, locale: Locale): Promise<Definition
 };
 
 const stripAccents = (word: string): string => Array.from(word).map((c) => AccentedVowels[c] ?? c).join('');
+
+/** Keys of a filtered definition file left with a sense that does not reveal the headword (definitionMaster, crossword). */
+const withClues = (file: Record<string, WordEntry>, level: string): string[] =>
+    Object.entries(file).filter(([word, entry]) => clueDefinitionsForLevel(word, entry.definitions, level).length > 0).map(([word]) => word);
 
 const hasUsableClue = (word: string, entry: WordEntry, level: string, locale: string): boolean =>
     eligibleDefinitionsForLevel(entry.definitions, level).some((d) =>
@@ -143,7 +147,7 @@ const countLocale = async (locale: Locale, root: string = ROOT): Promise<Counts>
 
         if (isAvailable('definitionMaster', locale)) {
             for (const letter of definitionLetters) {
-                const offered = Object.keys(filterDefinitions(definitions[letter], { minSenses: MIN_DEFINITIONS_BY_LEVEL[level], level }));
+                const offered = withClues(filterDefinitions(definitions[letter], { minSenses: MIN_DEFINITIONS_BY_LEVEL[level], level }), level);
                 put(`${level}/definitionMaster/${letter}`, offered, TOTAL_QUIZ_DEFINITIONS);
             }
         }
@@ -159,7 +163,7 @@ const countLocale = async (locale: Locale, root: string = ROOT): Promise<Counts>
             put(`${level}/spellingBee/total-letters`, lettersWithRounds, TOTAL_ROUNDS);
         }
         if (isAvailable('crossWordPuzzle', locale)) {
-            const keys = Object.values(definitions).flatMap((file) => Object.keys(filterDefinitions(file, { level })).map(stripAccents));
+            const keys = Object.values(definitions).flatMap((file) => withClues(filterDefinitions(file, { level }), level).map(stripAccents));
             put(`${level}/crossWordPuzzle`, keys.filter((k) => k.length >= CROSSWORD_MIN_LENGTH && k.length <= GRID_SIZE), WORDS_PER_LEVEL[level]);
         }
     }

@@ -89,10 +89,12 @@ export const buildLocale = async (root: string, locale: Locale): Promise<BuildRe
 
     const senses = new Map<string, Sense[]>();
     const sources = new Map<string, Entry['source']>();
+    const entryLevels = new Map<string, Entry['level']>();
     for (const file of Object.values(input.definitions)) {
         for (const [word, entry] of Object.entries(file)) {
             senses.set(word, entry.definitions);
             sources.set(word, entry.source);
+            entryLevels.set(word, entry.level);
         }
     }
 
@@ -109,7 +111,7 @@ export const buildLocale = async (root: string, locale: Locale): Promise<BuildRe
     const records = new Map<string, WordRecord>();
     const overrides: BuildReport['overrides'] = [];
     for (const [word, lists] of listsOf) {
-        const record = deriveWordRecord({ word, locale, freqRank: ranks.get(word) ?? null, lists, senses: senses.get(word), wordSet, properNouns, source: sources.get(word) });
+        const record = deriveWordRecord({ word, locale, freqRank: ranks.get(word) ?? null, lists, senses: senses.get(word), wordSet, properNouns, source: sources.get(word), entryLevel: entryLevels.get(word) });
         records.set(word, record);
         if (record.freqRank !== null && (lists.length !== 1 || lists[0] !== record.level)) overrides.push({ word, lists, level: record.level });
     }

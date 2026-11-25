@@ -1,5 +1,5 @@
 import { Definition } from '@models/types';
-import { formatDefinition, getDefinitionForLevel } from '@utils/DefinitionPicker';
+import { clueDefinitionsForLevel, formatDefinition, getDefinitionForLevel } from '@utils/DefinitionPicker';
 
 const def = (number: number | string): Definition =>
     ({ number, type: 'sustantivo', definition: `definición ${number}` }) as Definition;
@@ -31,6 +31,19 @@ describe('getDefinitionForLevel', () => {
 
     test('treats a string definition number as numeric for beginner', () => {
         expect(getDefinitionForLevel([def('1'), def(2)], 'beginner').number).toBe('1');
+    });
+});
+
+describe('clueDefinitionsForLevel', () => {
+    const sense = (number: number, definition: string): Definition => ({ number, type: 'nombre', definition });
+
+    test('drops the senses that contain the headword, within the level', () => {
+        const senses = [sense(1, 'Cría del Gato.'), sense(2, 'Animal felino.'), sense(4, 'Herramienta.')];
+        expect(clueDefinitionsForLevel('gato', senses, 'intermediate')).toEqual([sense(2, 'Animal felino.')]);
+    });
+
+    test('is empty when every eligible sense reveals the word', () => {
+        expect(clueDefinitionsForLevel('gato', [sense(1, 'Relativo al gato.'), sense(2, 'Animal.')], 'beginner')).toEqual([]);
     });
 });
 

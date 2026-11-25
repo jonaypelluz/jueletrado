@@ -40,6 +40,7 @@ const buildRound = (
             definition: formatDefinition(definition.definition),
             type: definition.type,
             typeExtra: definition.type_extra,
+            ...(words[word].source === 'wiktionary' && { source: 'wiktionary' as const }),
         };
         if (isUsableClue(clue, locale)) return clue;
     }

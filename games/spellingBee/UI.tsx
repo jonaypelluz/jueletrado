@@ -7,6 +7,7 @@ import { SpellingClue, SpellingHint } from '@utils/SpellingComparer';
 import { SpellingFeedback } from '@games/spellingBee/useSpellingBee';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
+import WiktionaryCredit from '@components/WiktionaryCredit';
 import '@styles/Buttons.scss';
 
 type SpellingBeeUIProps = {
@@ -146,6 +147,7 @@ const UI: React.FC<SpellingBeeUIProps> = ({
                         <FormattedMessage id="gameQuizWordNextWord" />
                     </button>
                 )}
+                {clue.source === 'wiktionary' && <WiktionaryCredit />}
             </div>
         );
     };

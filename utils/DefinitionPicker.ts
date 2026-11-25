@@ -1,4 +1,5 @@
 import { Definition } from '@models/types';
+import { revealsWord } from '@utils/SpellingComparer';
 
 /** Senses a level may draw from: sense 1 for beginner, 1–3 for intermediate, all otherwise; all when none qualify. */
 export const eligibleDefinitionsForLevel = (definitions: Definition[], gameLevel: string | null): Definition[] => {
@@ -12,6 +13,13 @@ export const eligibleDefinitionsForLevel = (definitions: Definition[], gameLevel
     }
     return eligible.length === 0 ? definitions : eligible;
 };
+
+/**
+ * The senses of `word` a level may draw from, minus those whose text contains the headword (`revealsWord`,
+ * the spellingBee check), so a clue never gives the answer away. Empty when none is left: skip the word.
+ */
+export const clueDefinitionsForLevel = (word: string, definitions: Definition[], gameLevel: string | null): Definition[] =>
+    eligibleDefinitionsForLevel(definitions, gameLevel).filter((d) => !revealsWord(d.definition, word));
 
 export const getDefinitionForLevel = (definitions: Definition[], gameLevel: string | null): Definition => {
     const eligible = eligibleDefinitionsForLevel(definitions, gameLevel);

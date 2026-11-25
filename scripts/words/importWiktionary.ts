@@ -165,7 +165,8 @@ const parseTemplate = (body: string): Template => {
 
 type Resolution = string | { drop: DropReason; template?: string };
 
-const resolveTemplate = ({ name, args, named }: Template): Resolution => {
+/** `atSentenceStart`: nothing but space before the template, a sentence end or a colon (RAE: "Dicho de algo: Que…"). */
+const resolveTemplate = ({ name, args, named }: Template, atSentenceStart: boolean): Resolution => {
     const [first = '', second = ''] = args;
     if (isFormOf(name)) return { drop: 'form-of' };
     if (STRIPPED.has(name) || REFERENCE_PREFIX_RE.test(name)) return '';
@@ -173,7 +174,8 @@ const resolveTemplate = ({ name, args, named }: Template): Resolution => {
     switch (name) {
         case 'plm':
         case 'ucf':
-            return upperFirst(second || first);
+            // The template capitalises its argument, which reads wrong mid-sentence ("de Apuesto").
+            return atSentenceStart ? upperFirst(second || first) : second || first;
         case 'l':
         case 'l+':
             return args[2] || second;
@@ -245,6 +247,9 @@ const stripSenseRefs = (text: string): string =>
         .replace(SENSE_REF_RE, (match, word: string) => (KEEPS_SCRIPT_RE.test(word) ? match : word))
         .replace(/(\p{Ll})\(\d{1,2}\)/gu, '$1');
 
+/** A usage example written into the sense line ("De ojos azules. Por ejemplo: Después don Porfirio…"): cut from there. */
+const EXAMPLE_TAIL_RE = /[,;:]?\s*\bPor ejemplo\b[\s\S]*$/u;
+
 /** `..` at the end (not `...`) → `.`. */
 const collapseFinalDots = (text: string): string => text.replace(/(?<!\.)\.\.$/, '.');
 
@@ -261,7 +266,7 @@ export const cleanSense = (wikitext: string): CleanResult => {
     if (unscriptable) return { drop: 'unresolved-template', template: '(sup/sub)' };
     let text = resolveLinks(stripTags(scripted).replace(/'{2,}/g, ''));
     for (let match = TEMPLATE_RE.exec(text); match; match = TEMPLATE_RE.exec(text)) {
-        const resolved = resolveTemplate(parseTemplate(match[1]));
+        const resolved = resolveTemplate(parseTemplate(match[1]), /^\s*$|[.!?:]\s*$/.test(text.slice(0, match.index)));
         if (typeof resolved !== 'string') return resolved;
         text = text.slice(0, match.index) + resolved + text.slice(match.index + match[0].length);
     }
@@ -269,7 +274,7 @@ export const cleanSense = (wikitext: string): CleanResult => {
     text = resolveLinks(text);
     if (MARKUP_RE.test(text)) return { drop: 'unresolved-template', template: '(markup)' };
 
-    text = upperFirst(stripSenseRefs(text).replace(/\s+/g, ' ').replace(/\s+([.,;:])/g, '$1').trim());
+    text = upperFirst(stripSenseRefs(text).replace(EXAMPLE_TAIL_RE, '').replace(/\s+/g, ' ').replace(/\s+([.,;:])/g, '$1').trim());
     text = collapseFinalDots(text);
     if ((text.match(/\p{L}/gu)?.length ?? 0) < LETTER_COUNT_MIN) return { drop: 'too-short' };
     if (POINTER_SENSE_RES.some((re) => re.test(text))) return { drop: 'form-of' };
@@ -294,6 +299,7 @@ const CSEM_LABELS: Record<string, string> = { lgbt: 'LGBT' };
 const USO_LABELS: Record<string, string> = {
     anticuado: 'desusado', desusado: 'desusado', obsoleto: 'desusado', desus: 'desusado', 'desus.': 'desusado', desuso: 'desusado',
     desusada: 'desusado', 'en desuso': 'desusado', antiguo: 'desusado', arcaico: 'desusado',
+    eufemismo: 'eufemismo', eufemístico: 'eufemismo', eufemística: 'eufemismo',
     coloq: 'coloquial', 'coloq.': 'coloquial', rur: 'rural', raro: 'poco usado', rara: 'poco usado', slang: 'jergal', jerga: 'jergal',
     vulg: 'vulgar', soez: 'malsonante', grosero: 'malsonante', 'despect.': 'despectivo',
     utcs: 'Usado también como sustantivo', setc: 'Usado también como sustantivo', utcsmf: 'Usado también como sustantivo',

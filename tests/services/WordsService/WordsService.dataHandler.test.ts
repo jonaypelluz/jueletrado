@@ -61,7 +61,7 @@ describe('WordsService definitions', () => {
         ['beginner', [MAIN]],
         ['intermediate', [MAIN]],
         ['advanced', [MAIN, ADVANCED]],
-        [undefined, [MAIN, ADVANCED]],
+        [undefined, [MAIN]],
     ])('getDefinitions at level %s fetches %j', async (level, urls) => {
         serve({ abajo: { definitions: [sense(1)] } });
         serve({ ábaco: imported });

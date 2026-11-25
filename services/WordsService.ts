@@ -364,7 +364,7 @@ const getWordRecordsImpl = async (words: string[], locale: string): Promise<Word
 
 /**
  * One letter's definition file, filtered by sense count / word length / level; null when it cannot be fetched.
- * Level advanced or unset also fetches the letter's advanced file and merges it after the main one
+ * Only level advanced also fetches the letter's advanced file (an unset level does not) and merges it after the main one
  * (a word in both keeps the main copy).
  */
 const getDefinitions = async ({
@@ -374,7 +374,7 @@ const getDefinitions = async ({
     minLen,
     level,
 }: { locale: string; firstLetter: string } & DefinitionFileFilter): Promise<Record<string, WordEntry> | null> => {
-    const withAdvanced = level === undefined || level === 'advanced';
+    const withAdvanced = level === 'advanced';
     const [file, advanced] = await Promise.all([
         loadDefinition(firstLetter, locale),
         withAdvanced ? loadAdvancedDefinition(firstLetter, locale) : Promise.resolve<Record<string, WordEntry>>({}),

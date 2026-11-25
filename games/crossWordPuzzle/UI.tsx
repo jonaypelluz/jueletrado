@@ -6,6 +6,7 @@ import { ICell } from '@models/interfaces';
 import { GameConfig, SelectedWord } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
+import WiktionaryCredit from '@components/WiktionaryCredit';
 import '@styles/Buttons.scss';
 import '@styles/CrossWordPuzzle.scss';
 
@@ -20,6 +21,7 @@ type CrossWordPuzzleUIProps = {
     isGameStarted: boolean;
     isGenerating: boolean;
     isComplete: boolean;
+    showWiktionaryCredit?: boolean;
     checkCellValue: (i: number, j: number) => (event: ChangeEvent<HTMLInputElement>) => void;
     handleGameStartClick: () => void;
 };
@@ -45,6 +47,7 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
     isGameStarted,
     isGenerating,
     isComplete,
+    showWiktionaryCredit = false,
     checkCellValue,
     handleGameStartClick,
 }) => {
@@ -98,6 +101,7 @@ const UI: FC<CrossWordPuzzleUIProps> = ({
                                 </li>
                             ))}
                         </ul>
+                        {showWiktionaryCredit && <WiktionaryCredit />}
                     </div>
                     <div
                         className="crossword-grid-container"

@@ -26,7 +26,7 @@ describe('parsePage', () => {
 
         expect(parsePage('pinzona', wikitext)).toEqual({
             definitions: [
-                { number: '1', type: 'nombre femenino', type_extra: 'Aves', definition: 'Pájaro pequeño de la familia de los Fringílidos.' },
+                { number: '1', type: 'nombre femenino', type_extra: 'Aves', definition: 'Pájaro pequeño de la familia de los fringílidos.' },
                 { number: '2', type: 'nombre femenino', definition: 'Persona que canta bien.' },
             ],
         });
@@ -58,7 +58,7 @@ describe('parsePage', () => {
         });
     });
 
-    test('maps {{uso|utcs}} to RAE wording and drops the soez and insult senses', () => {
+    test('maps {{uso|utcs}} to RAE wording, keeps eufemismo and drops the soez and insult senses', () => {
         const wikitext = [
             '== {{lengua|es}} ==',
             '=== {{adjetivo|es}} ===',
@@ -68,11 +68,14 @@ describe('parsePage', () => {
             '{{uso|soez}}',
             ';3: Persona torpe y necia.',
             '{{uso|insulto}}',
+            ';4: Persona que no tiene dinero.',
+            '{{uso|coloquial|eufemismo}}',
         ].join('\n');
 
         expect(parsePage('gorzobia', wikitext)).toEqual({
             definitions: [
                 { number: '1', type: 'adjetivo', type_extra: 'Usado también como sustantivo', definition: 'Que trabaja en el campo.' },
+                { number: '2', type: 'adjetivo', type_extra: 'coloquial, eufemismo', definition: 'Persona que no tiene dinero.' },
             ],
         });
     });
@@ -109,12 +112,22 @@ test('cleanSense keeps numeric super/subscripts and drops other scripted text', 
 });
 
 test('cleanSense strips sense references but keeps formulas and units', () => {
-    expect(cleanSense('Persona de carácter de {{plm|apuesto}}{{-sub|3}}')).toEqual({ text: 'Persona de carácter de Apuesto.' });
+    expect(cleanSense('Persona de carácter de {{plm|apuesto}}{{-sub|3}}')).toEqual({ text: 'Persona de carácter de apuesto.' });
     expect(cleanSense('Acción o efecto de aforar<sub>1-2</sub>')).toEqual({ text: 'Acción o efecto de aforar.' });
     expect(cleanSense('Fruto de la alborocera(1)')).toEqual({ text: 'Fruto de la alborocera.' });
     expect(cleanSense('Mineral de fórmula Fe<sup>3+</sup>O, 5 m<sup>2</sup> o 8 kg/cm<sup>3</sup>')).toEqual({
         text: 'Mineral de fórmula Fe³⁺O, 5 m² o 8 kg/cm³.',
     });
+});
+
+test('cleanSense capitalises a plm argument only at a sentence start or after a colon', () => {
+    expect(cleanSense('{{plm|raíz}} de un diente. {{plm|parte}} oculta')).toEqual({ text: 'Raíz de un diente. Parte oculta.' });
+    expect(cleanSense('Dicho de una persona: {{plm|alentar}} a otra')).toEqual({ text: 'Dicho de una persona: Alentar a otra.' });
+});
+
+test('cleanSense cuts a usage example written into the sense line', () => {
+    expect(cleanSense('De ojos azules. Por ejemplo: Después don Porfirio...y del brazo de una señora ojiazul')).toEqual({ text: 'De ojos azules.' });
+    expect(cleanSense('De [[Berbería]] Por ejemplo:G. Camps cree que')).toEqual({ text: 'De Berbería.' });
 });
 
 test('cleanSense drops named template args with accented keys and renders the gentilicio contraction', () => {
