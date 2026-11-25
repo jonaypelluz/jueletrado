@@ -117,6 +117,34 @@ test('cleanSense strips sense references but keeps formulas and units', () => {
     });
 });
 
+test('cleanSense drops named template args with accented keys and renders the gentilicio contraction', () => {
+    expect(cleanSense('Persona {{l|es|basto|núm=1}}')).toEqual({ text: 'Persona basto.' });
+    expect(cleanSense('{{gentilicio|contracción=sí|[[Tíbet]]}}')).toEqual({ text: 'Originario, relativo a, o propio del Tíbet.' });
+    expect(cleanSense('{{gentilicio|[[Chile]]}}')).toEqual({ text: 'Originario, relativo a, o propio de Chile.' });
+    // Safety net: a named arg that leaks anyway is dropped; a formula with `=` is kept.
+    expect(cleanSense('Persona núm=1 tosca')).toHaveProperty('drop');
+    expect(cleanSense('Análogo n-dimensional de un cubo (n=3)')).toEqual({ text: 'Análogo n-dimensional de un cubo (n=3).' });
+});
+
+test('parsePage drops an entry whose offensive-labelled gloss is repeated in an unlabelled sense', () => {
+    const wikitext = [
+        '== {{lengua|es}} ==',
+        '=== {{sustantivo masculino|es}} ===',
+        ';1: Hueco pequeño.',
+        ';2: {{plm|homosexual}}.',
+        '{{uso|despectivo}}',
+        ';3: Homosexual.',
+    ].join('\n');
+
+    expect(parsePage('gorzobio', wikitext)).toBeNull();
+    expect(parsePage('gorzobio', wikitext.replace(';3: Homosexual.', ';3: Agujero redondo.'))).toEqual({
+        definitions: [
+            { number: '1', type: 'nombre masculino', definition: 'Hueco pequeño.' },
+            { number: '2', type: 'nombre masculino', definition: 'Agujero redondo.' },
+        ],
+    });
+});
+
 test('cleanSense drops a sense with a leftover link pipe', () => {
     expect(cleanSense('Medida agraria de superficie utilizar|utilizada en Cuba')).toHaveProperty('drop');
 });

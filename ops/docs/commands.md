@@ -420,7 +420,9 @@ The report records the latest revision timestamp found in the dump.
   `words:audit` sense and word rules on it. Form-of and pointer senses
   (`… (uso pronominal de …)`), senses with an unresolved template and senses
   labelled vulgar / offensive / derogatory (or with the `sexualidad` / `sexo`
-  domain) are dropped. Digit-only `<sup>`/`<sub>` and `{{-sup}}`/`{{-sub}}` become
+  domain) are dropped; an entry whose unlabelled sense repeats the gloss of an
+  offensive-labelled sense ("Homosexual." twice, once `despectivo`) is dropped
+  whole. Words in `offensive_es.txt` are never imported (W10). Digit-only `<sup>`/`<sub>` and `{{-sup}}`/`{{-sub}}` become
   Unicode super/subscripts.
 - Labels go to `type_extra`. "Others as-is" for `{{uso|…}}` is read as: the
   usage codes of es.wiktionary `Módulo:contexto/uso` (`utcs`, `utcp`, `umep`…)

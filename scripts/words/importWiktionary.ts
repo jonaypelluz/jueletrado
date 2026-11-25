@@ -47,7 +47,7 @@ export type WikiPage = { title: string; ns: string; text: string; timestamp?: st
 export type PosMapping = { type: string; typeExtra?: string };
 export type DropReason = 'form-of' | 'offensive' | 'wiki' | 'unresolved-template' | 'too-short' | 'audit';
 export type CleanResult = { text: string } | { drop: DropReason; template?: string };
-export type PageSkip = 'not-lemma' | 'form-of-only' | 'no-usable-sense';
+export type PageSkip = 'not-lemma' | 'form-of-only' | 'no-usable-sense' | 'offensive-gloss';
 /** Caller-owned accumulator for the report; parse functions stay pure apart from incrementing it. */
 export type ParseTally = {
     pageSkips: Record<PageSkip, number>;
@@ -150,17 +150,22 @@ const toScript = (content: string, map: Record<string, string>): string | null =
     return /^[0-9+-]*$/.test(trimmed) ? Array.from(trimmed, (char) => map[char]).join('') : null;
 };
 
-type Template = { name: string; args: string[] };
+type Template = { name: string; args: string[]; named: Set<string> };
 
-/** `name|a|b|key=v` → lowercase name and positional args (named args dropped). */
+/** A named template arg (`key=v`, `núm=1`, `contracción=sí`); Unicode-aware so accented keys are dropped too. */
+const NAMED_ARG_RE = /^\s*([\p{L}\d_-]+)\s*=\s*\S/u;
+const NAMED_KEY_RE = /^\s*[\p{L}\d_-]+\s*=/u;
+
+/** `name|a|b|key=v` → lowercase name, positional args and the keys of the non-empty named args. */
 const parseTemplate = (body: string): Template => {
     const [name, ...rest] = body.split('|');
-    return { name: name.trim().toLowerCase(), args: rest.filter((arg) => !/^\s*[\w-]+\s*=/.test(arg)).map((arg) => arg.trim()) };
+    const named = new Set(rest.flatMap((arg) => NAMED_ARG_RE.exec(arg)?.[1] ?? []));
+    return { name: name.trim().toLowerCase(), args: rest.filter((arg) => !NAMED_KEY_RE.test(arg)).map((arg) => arg.trim()), named };
 };
 
 type Resolution = string | { drop: DropReason; template?: string };
 
-const resolveTemplate = ({ name, args }: Template): Resolution => {
+const resolveTemplate = ({ name, args, named }: Template): Resolution => {
     const [first = '', second = ''] = args;
     if (isFormOf(name)) return { drop: 'form-of' };
     if (STRIPPED.has(name) || REFERENCE_PREFIX_RE.test(name)) return '';
@@ -185,7 +190,8 @@ const resolveTemplate = ({ name, args }: Template): Resolution => {
         case 'adverbio de adjetivo':
             return `De modo ${first}`;
         case 'gentilicio':
-            return `Originario, relativo a, o propio de ${first}`;
+            // Plantilla:gentilicio writes `del` when `contracción` is set (`{{gentilicio|contracción=sí|Tíbet}}`).
+            return `Originario, relativo a, o propio ${named.has('contracción') ? 'del' : 'de'} ${first}`;
         default:
             return { drop: 'unresolved-template', template: name };
     }
@@ -195,8 +201,11 @@ const LINK_RE = /\[\[([^[\]|]*)(?:\|([^[\]]*))?\]\]([\p{Ll}\p{Lu}]*)/gu;
 const EXTERNAL_LINK_RE = /\[(?:https?:)?\/\/[^\s\]]+\s*([^\]]*)\]/g;
 const FILE_LINK_RE = /^\s*(archivo|categoría|file|imagen|image)\s*:/i;
 const TEMPLATE_RE = /\{\{([^{}]*)\}\}/;
-/** Markup that must never reach the output: templates, wiki/external links, tags, comments, entities. */
-const MARKUP_RE = /\{\{|\}\}|\[\[|\]\]|\[https?:|<|>|&[#\w]+;|\|/;
+/**
+ * Markup that must never reach the output: templates, wiki/external links, tags, comments, entities, and a leaked named
+ * template arg (`núm=`: a lowercase word of 3+ letters right before `=`; formulas such as `n=3`, `H2C=O` stay).
+ */
+const MARKUP_RE = /\{\{|\}\}|\[\[|\]\]|\[https?:|<|>|&[#\w]+;|\||\p{Ll}{3,}=/u;
 /** HTML entities left after the XML decode (`&amp;mdash;` in the wikitext). */
 const HTML_ENTITIES: Record<string, string> = { nbsp: ' ', mdash: '—', ndash: '–', hellip: '…', laquo: '«', raquo: '»', amp: '&', quot: '"' };
 
@@ -404,8 +413,13 @@ const countDrop = (tally: ParseTally | undefined, reason: DropReason, template?:
     if (template) tally.unresolvedTemplates.set(template, (tally.unresolvedTemplates.get(template) ?? 0) + 1);
 };
 
-/** One raw sense → a sense (number set later), or null when dropped. */
-const buildSense = ({ pos, labels, body }: RawSense, tally?: ParseTally): { sense: Sense | null; formOf: boolean } => {
+/** A gloss compared case- and final-punctuation-insensitively (`Homosexual.` = `homosexual`). */
+const glossKey = (text: string): string => text.toLowerCase().replace(/[.,;:!?\s]+$/, '');
+
+type BuiltSense = { sense: Sense | null; formOf: boolean; offensiveGloss?: string };
+
+/** One raw sense → a sense (number set later), or null when dropped; an offensive sense keeps its gloss for parsePage. */
+const buildSense = ({ pos, labels, body }: RawSense, tally?: ParseTally): BuiltSense => {
     const dropped = (reason: DropReason, template?: string) => {
         countDrop(tally, reason, template);
         return { sense: null, formOf: reason === 'form-of' };
@@ -413,7 +427,10 @@ const buildSense = ({ pos, labels, body }: RawSense, tally?: ParseTally): { sens
     const isOffensive =
         labels.uso.some((value) => OFFENSIVE_LABELS.some((label) => value.toLowerCase().includes(label))) ||
         labels.csem.some((value) => OFFENSIVE_DOMAINS.has(value.toLowerCase()));
-    if (isOffensive) return dropped('offensive');
+    if (isOffensive) {
+        const cleaned = cleanSense(body);
+        return { ...dropped('offensive'), ...('text' in cleaned && { offensiveGloss: glossKey(cleaned.text) }) };
+    }
     if (labels.csem.some((value) => value.toLowerCase() === WIKI_DOMAIN)) return dropped('wiki');
     const cleaned = cleanSense(body);
     if ('drop' in cleaned) return dropped(cleaned.drop, cleaned.template);
@@ -432,6 +449,14 @@ export const parsePage = (title: string, wikitext: string, tally?: ParseTally): 
     const { senses: raw, sawPos } = collectSenses(wikitext, tally);
     const built = raw.map((sense) => buildSense(sense, tally));
     const kept = dedupeSenses(built.flatMap(({ sense }) => (sense ? [sense] : [])));
+
+    // A gloss labelled offensive in one sense is offensive in its unlabelled repeat too (2 despectivo "Homosexual.",
+    // 3 "Homosexual."): the whole entry goes.
+    const offensiveGlosses = new Set(built.flatMap(({ offensiveGloss }) => (offensiveGloss ? [offensiveGloss] : [])));
+    if (kept.some((sense) => offensiveGlosses.has(glossKey(sense.definition)))) {
+        if (tally) tally.pageSkips['offensive-gloss']++;
+        return null;
+    }
 
     if (kept.length === 0) {
         const skip: PageSkip = !sawPos ? 'not-lemma' : built.length > 0 && built.every(({ formOf }) => formOf) ? 'form-of-only' : 'no-usable-sense';
@@ -606,7 +631,7 @@ export type ImportReport = {
 };
 
 const newTally = (): ParseTally => ({
-    pageSkips: { 'not-lemma': 0, 'form-of-only': 0, 'no-usable-sense': 0 },
+    pageSkips: { 'not-lemma': 0, 'form-of-only': 0, 'no-usable-sense': 0, 'offensive-gloss': 0 },
     senseDrops: { 'form-of': 0, offensive: 0, wiki: 0, 'unresolved-template': 0, 'too-short': 0, audit: 0 },
     unresolvedTemplates: new Map(),
     unmappedPos: new Map(),
@@ -722,7 +747,7 @@ const summaryLines = (report: ImportReport): string[] => {
         `Pages read: ${report.pagesRead}  Runtime: ${report.seconds}s`,
         `Keys: ${total((l) => l.before)} → ${total((l) => l.after)}  added ${total((l) => l.added.length)}, refreshed ${total((l) => l.refreshed)}, removed ${total((l) => l.removed)}`,
         `Skips: already RAE ${report.skips['already RAE']}, not lemma / unmapped POS ${pageSkips['not-lemma']}, form-of only ${pageSkips['form-of-only']}, ` +
-            `no usable sense ${pageSkips['no-usable-sense']}, word rule ${Object.entries(report.wordRules).map(([id, n]) => `${id} ${n}`).join(' ') || '0'}`,
+            `no usable sense ${pageSkips['no-usable-sense']}, offensive gloss repeated unlabelled ${pageSkips['offensive-gloss']}, word rule ${Object.entries(report.wordRules).map(([id, n]) => `${id} ${n}`).join(' ') || '0'}`,
         `Sense drops: ${Object.entries(senseDrops).map(([reason, n]) => `${reason} ${n}`).join(', ')}`,
         `List additions: ${LEVELS.map((level) => `${level} ${report.listAdditions[level]}`).join(', ')}`,
         `Not listed (new, ranked in a lower band): ${report.unlisted.length}${report.unlisted.length > 0 ? ` (${report.unlisted.join(', ')})` : ''}`,
