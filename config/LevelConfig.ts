@@ -9,12 +9,12 @@ const LevelsConfig: LevelConfig[] = [
     {
         level: 'intermediate',
         totalChunks: { en: 1, es: 1 },
-        minimumPopulatedCount: { en: 31293, es: 73348 },
+        minimumPopulatedCount: { en: 31293, es: 73343 },
     },
     {
         level: 'advanced',
         totalChunks: { en: 4, es: 7 },
-        minimumPopulatedCount: { en: 354643, es: 682228 },
+        minimumPopulatedCount: { en: 354643, es: 682203 },
     },
 ];
 
