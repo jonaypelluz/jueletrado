@@ -6885,7 +6885,7 @@
             {
                 "number": "1",
                 "type": "locución",
-                "type_extra": "Argentina, Bolivia, Chile, Colombia, coloquial, verbal",
+                "type_extra": "Argentina, Bolivia, Chile, Colombia, coloquial, eufemismo, verbal",
                 "definition": "Cometer un error o equivocación que trae malas consecuencias."
             }
         ]
@@ -7467,12 +7467,12 @@
             {
                 "number": "1",
                 "type": "nombre masculino",
-                "definition": "Pabellón. Por ejemplo: Sobre esto último, usted recordará que la CIA hizo algunos huecos en la punta de un viejo B-26, le pintó el emblema cubano y sostuvo que era uno de los tres aviones que se había escapado."
+                "definition": "Figura con un mote."
             },
             {
                 "number": "2",
                 "type": "nombre masculino",
-                "definition": "Figura con un mote. Por ejemplo:Los emblemas son signos que conllevan un sentido bien determinado… una suerte de alegoría."
+                "definition": "Pabellón."
             }
         ]
     },
@@ -9126,7 +9126,7 @@
             {
                 "number": "2",
                 "type": "nombre femenino",
-                "type_extra": "coloquial",
+                "type_extra": "coloquial, eufemismo",
                 "definition": "Cosa fea, de mala calidad o desagradable."
             }
         ]
@@ -10142,7 +10142,7 @@
                 "number": "4",
                 "type": "nombre femenino",
                 "type_extra": "Alimentos, Venezuela",
-                "definition": "Masa de maíz rellena de carne picada, queso u otros ingredientes en forma semicircular que se fríe en Aceite hirviendo."
+                "definition": "Masa de maíz rellena de carne picada, queso u otros ingredientes en forma semicircular que se fríe en aceite hirviendo."
             }
         ]
     },
@@ -25424,7 +25424,7 @@
                 "number": "2",
                 "type": "verbo pronominal",
                 "type_extra": "Colombia, Puerto Rico, figurado",
-                "definition": "Dicho de un negocio o proceso, Complicarse, llenarse de trabas, enredarse o entorpecerse."
+                "definition": "Dicho de un negocio o proceso, complicarse, llenarse de trabas, enredarse o entorpecerse."
             }
         ]
     },
@@ -29170,7 +29170,7 @@
                 "number": "1",
                 "type": "verbo pronominal",
                 "type_extra": "Usado también como transitivo",
-                "definition": "Cubrirse de suciedad, Ponerse sucio."
+                "definition": "Cubrirse de suciedad, ponerse sucio."
             },
             {
                 "number": "2",
@@ -32169,6 +32169,7 @@
             {
                 "number": "3",
                 "type": "nombre femenino",
+                "type_extra": "eufemismo",
                 "definition": "Genitales."
             }
         ]
@@ -36008,7 +36009,7 @@
                 "number": "1",
                 "type": "adjetivo",
                 "type_extra": "culto, Usado más como sustantivo",
-                "definition": "Que su nombre propio (de una persona o lugar) da nombre a algo, especialmente a una localidad o una época, o a un concepto. Por ejemplo: Arconte de Atenas, trompas de Falopio, ohm."
+                "definition": "Que su nombre propio (de una persona o lugar) da nombre a algo, especialmente a una localidad o una época, o a un concepto."
             }
         ]
     },
