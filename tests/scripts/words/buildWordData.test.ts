@@ -100,6 +100,25 @@ describe('buildLocale', () => {
         expect(árbol[FIELDS.indexOf('source')]).toBe('rae');
     });
 
+    // mesa is a beginner word: its Wiktionary entry counts only when the games serve it at beginner.
+    test.each([
+        ['beginner', { source: 'wiktionary', senseCount: 1 }],
+        // pos null, senseCount 0 and source null are trailing fields, trimmed from the row.
+        ['advanced', { source: null, senseCount: null, pos: null }],
+    ])('a Wiktionary entry at level %s gives the beginner row %o', async (level, expected) => {
+        const file = path.join(root, 'public/definitions/es/m_definitions.json');
+        const m = JSON.parse(fs.readFileSync(file, 'utf-8'));
+        m.mesa.source = 'wiktionary';
+        m.mesa.level = level;
+        fs.writeFileSync(file, JSON.stringify(m, null, 4));
+
+        await buildLocale(root, 'es');
+
+        const mesa = readChunk('es', 'beginner_1.json').rows.find((row) => row[0] === 'mesa')!;
+        const fields = Object.fromEntries(Object.keys(expected).map((field) => [field, mesa[FIELDS.indexOf(field)] ?? null]));
+        expect(fields).toEqual(expected);
+    });
+
     test('`constructor` in a list is served with no senses and no pos (no Object.prototype lookup)', async () => {
         fs.appendFileSync(path.join(root, 'ops/scripts/words/es/advanced_words.txt'), 'constructor\n');
 

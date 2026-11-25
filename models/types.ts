@@ -29,6 +29,8 @@ export type Definition = {
 
 export type WordEntry = {
     level?: string;
+    /** Absent = RAE for es; `wiktionary` = imported by `words:import-wiktionary`. */
+    source?: 'wiktionary';
     definitions: Definition[];
 };
 
@@ -128,7 +130,7 @@ export type WordRecord = {
     letters: string;
     pos: string | null;
     senseCount: number;
-    source: 'rae' | null;
+    source: 'rae' | 'wiktionary' | null;
 } & Record<WordFlagName, 0 | 1>;
 
 export type WordFilter = {

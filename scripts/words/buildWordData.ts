@@ -2,7 +2,7 @@
  * Builds the served word data (v2 chunks) from the curated sources:
  *   ops/scripts/words/<locale>/<level>_words.txt   (pool membership of unranked words)
  *   ops/scripts/frequency/wordfreq_<locale>.txt     (rank = 1-based line index, first occurrence wins)
- *   public/definitions/<locale>/<letter>_definitions.json (pos, sense count, source)
+ *   public/definitions/<locale>/<letter>_definitions.json + <letter>_definitions_advanced.json (pos, sense count, source)
  *
  * Writes public/words/<locale>/<level>_<n>.json ({ version: 2, locale, level, fields, rows },
  * ≤ 100k rows each, collator order; a word in several levels has the same row in each level file),
@@ -25,7 +25,7 @@ import * as path from 'path';
 import { Level, WordChunk, WordRecord } from '../../models/types';
 import { syllabify } from '../../utils/SyllableSplitter';
 import { WORD_CHUNK_FIELDS, WORD_CHUNK_ROWS, WORD_CHUNK_VERSION, WORD_FLAGS, deriveWordRecord, encodeRow } from '../../utils/WordRecord';
-import { LEVELS, LOCALES, Locale, MissingDataFileError, Sense, loadLocaleInput } from './wordAudit';
+import { Entry, LEVELS, LOCALES, Locale, MissingDataFileError, Sense, loadLocaleInput } from './wordAudit';
 
 const CHUNK_SIZE = WORD_CHUNK_ROWS;
 const USAGE = 'Usage: yarn words:build [--locale es|en] [--root <dir>]';
@@ -88,8 +88,14 @@ export const buildLocale = async (root: string, locale: Locale): Promise<BuildRe
     if (blocklisted.length > 0) throw new BlocklistedWordError(locale, blocklisted);
 
     const senses = new Map<string, Sense[]>();
+    const sources = new Map<string, Entry['source']>();
+    const entryLevels = new Map<string, Entry['level']>();
     for (const file of Object.values(input.definitions)) {
-        for (const [word, entry] of Object.entries(file)) senses.set(word, entry.definitions);
+        for (const [word, entry] of Object.entries(file)) {
+            senses.set(word, entry.definitions);
+            sources.set(word, entry.source);
+            entryLevels.set(word, entry.level);
+        }
     }
 
     const listsOf = new Map<string, Level[]>();
@@ -105,7 +111,7 @@ export const buildLocale = async (root: string, locale: Locale): Promise<BuildRe
     const records = new Map<string, WordRecord>();
     const overrides: BuildReport['overrides'] = [];
     for (const [word, lists] of listsOf) {
-        const record = deriveWordRecord({ word, locale, freqRank: ranks.get(word) ?? null, lists, senses: senses.get(word), wordSet, properNouns });
+        const record = deriveWordRecord({ word, locale, freqRank: ranks.get(word) ?? null, lists, senses: senses.get(word), wordSet, properNouns, source: sources.get(word), entryLevel: entryLevels.get(word) });
         records.set(word, record);
         if (record.freqRank !== null && (lists.length !== 1 || lists[0] !== record.level)) overrides.push({ word, lists, level: record.level });
     }

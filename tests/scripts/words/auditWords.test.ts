@@ -230,6 +230,37 @@ describe('words:audit on the fixture tree', () => {
         });
     });
 
+    describe('advanced definition file', () => {
+        const senseOf = (number: string) => ({ number, type: 'nombre masculino', definition: 'Arácnido diminuto que vive como parásito.' });
+        const seedAcaro = (definitions: Sense[]) => {
+            fs.appendFileSync(path.join(root, 'ops/scripts/words/es/advanced_words.txt'), 'ácaro\n');
+            fs.writeFileSync(
+                path.join(root, 'public/definitions/es/a_definitions_advanced.json'),
+                JSON.stringify({ ácaro: { level: 'advanced', source: 'wiktionary', definitions } }, null, 4),
+            );
+        };
+
+        test('loadLocaleInput merges the advanced file into the letter definitions', async () => {
+            seedAcaro([senseOf('1')]);
+
+            const { definitions } = await loadLocaleInput(root, 'es');
+
+            expect(definitions.a.ácaro).toEqual({ level: 'advanced', source: 'wiktionary', definitions: [senseOf('1')] });
+            expect(definitions.a).toHaveProperty('atender');
+        });
+
+        test('--fix writes a fixed advanced entry back to the advanced file, not the main file', async () => {
+            seedAcaro([senseOf('1'), senseOf('2')]);
+
+            await runCli(['--fix', '--locale', 'es', '--root', root], root);
+
+            expect(JSON.parse(read('public/definitions/es/a_definitions_advanced.json'))).toEqual({
+                ácaro: { level: 'advanced', source: 'wiktionary', definitions: [senseOf('1')] },
+            });
+            expect(readDefinitions('es', 'a')).not.toHaveProperty('ácaro');
+        });
+    });
+
     describe('bad input', () => {
         test.each([
             ['an unknown locale', ['--locale', 'fr']],

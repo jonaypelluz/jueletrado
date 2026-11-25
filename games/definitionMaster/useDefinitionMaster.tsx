@@ -6,7 +6,7 @@ import { MIN_DEFINITIONS_BY_LEVEL, TOTAL_QUIZ_DEFINITIONS } from '@games/definit
 import { DefinitionWords, QuizDefinition } from '@models/types';
 import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
-import { getDefinitionForLevel } from '@utils/DefinitionPicker';
+import { clueDefinitionsForLevel, getDefinitionForLevel } from '@utils/DefinitionPicker';
 
 type SelectedAnswersType = { [key: string]: boolean };
 
@@ -24,6 +24,7 @@ const useDefinitionMaster = () => {
     const [quizWords, setQuizWords] = useState<QuizDefinition[][]>([]);
     const [selectedAnswers, setSelectedAnswers] = useState<SelectedAnswersType>({});
     const [quizScore, setQuizScore] = useState<number>(0);
+    const [wiktionaryWords, setWiktionaryWords] = useState<Set<string>>(new Set());
 
     const isLetterDisabled = (letter: string): boolean => {
         return LETTERS_WITHOUT_DEFINITIONS[locale]?.has(letter) ?? false;
@@ -61,7 +62,7 @@ const useDefinitionMaster = () => {
         setIsLoadingLetter(true);
         setLoadError(false);
         const minSenses = MIN_DEFINITIONS_BY_LEVEL[gameLevel ?? ''] ?? MIN_DEFINITIONS_BY_LEVEL.advanced;
-        const words = await getDefinitions({ locale, firstLetter: letter, minSenses });
+        const words = await getDefinitions({ locale, firstLetter: letter, minSenses, level: gameLevel ?? undefined });
         setIsLoadingLetter(false);
 
         if (!words) {
@@ -70,8 +71,10 @@ const useDefinitionMaster = () => {
         }
 
         const preChosenWords: DefinitionWords = {};
+        setWiktionaryWords(new Set(Object.keys(words).filter((key) => words[key].source === 'wiktionary')));
         for (const [key, entry] of Object.entries(words)) {
-            preChosenWords[key] = entry.definitions;
+            const clues = clueDefinitionsForLevel(key, entry.definitions, gameLevel);
+            if (clues.length > 0) preChosenWords[key] = clues;
         }
 
         const theChosenWords: DefinitionWords = {};
@@ -168,8 +171,12 @@ const useDefinitionMaster = () => {
         }
     }, [chosenWords]);
 
+    // CC BY-SA credit while a shown definition comes from Wiktionary.
+    const showWiktionaryCredit = quizWords[currentQuizIndex]?.some((q) => wiktionaryWords.has(q.word)) ?? false;
+
     return {
         gameLevel,
+        showWiktionaryCredit,
         isGameStarted,
         isLoadingLetter,
         isLetterDisabled,

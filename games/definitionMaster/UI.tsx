@@ -5,6 +5,7 @@ import { FormattedMessage } from 'react-intl';
 import { GameConfig, QuizDefinition } from '@models/types';
 import GameRules from '@components/GameRules';
 import Hero from '@components/Hero';
+import WiktionaryCredit from '@components/WiktionaryCredit';
 import { formatDefinition } from '@utils/DefinitionPicker';
 import '@styles/Buttons.scss';
 
@@ -25,6 +26,7 @@ type DefinitionMasterUIProps = {
     quizScore: number;
     currentQuizIndex: number;
     selectedAnswers: SelectedAnswersType;
+    showWiktionaryCredit?: boolean;
     handleLetterClick: (letter: string) => Promise<void>;
     handleGameStartClick: () => void;
     handleResetLetterClick: () => void;
@@ -47,6 +49,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
     quizScore,
     currentQuizIndex,
     selectedAnswers,
+    showWiktionaryCredit = false,
     handleLetterClick,
     handleGameStartClick,
     handleResetLetterClick,
@@ -159,6 +162,7 @@ const UI: React.FC<DefinitionMasterUIProps> = ({
                                                     <FormattedMessage id="gameQuizWordNextWord" />
                                                 </button>
                                             )}
+                                            {showWiktionaryCredit && <WiktionaryCredit />}
                                         </div>
                                     )}
                                 </>

@@ -221,9 +221,52 @@ describe('useDefinitionMaster', () => {
             expect(result.current.quizWords.length).toBeGreaterThan(0);
         });
 
-        expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'es', firstLetter: 'g', minSenses: 1 });
+        expect(mockGetDefinitions).toHaveBeenCalledWith({ locale: 'es', firstLetter: 'g', minSenses: 1, level: 'beginner' });
         const correctEntry = result.current.quizWords[0].find(q => q.isCorrect);
         expect(correctEntry?.definition).toBe('Animal felino doméstico');
+    });
+
+    test('skips senses that contain the headword and words with no other sense', async () => {
+        mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'advanced' }));
+        mockGetDefinitions.mockResolvedValue({
+            gato: {
+                definitions: [
+                    { number: 1, definition: 'Cría del gato' },
+                    { number: 2, definition: 'Animal felino doméstico' },
+                ],
+            },
+            gatear: { definitions: [{ number: 1, definition: 'Acción de gatear sin parar' }] },
+        });
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        await act(async () => {
+            await result.current.handleLetterClick('g');
+        });
+
+        await waitFor(() => {
+            expect(result.current.quizWords.length).toBe(1);
+        });
+        expect(result.current.quizWords[0]).toEqual([{ isCorrect: true, definition: 'Animal felino doméstico', word: 'gato' }]);
+    });
+
+    test.each([
+        ['wiktionary', true],
+        [undefined, false],
+    ])('showWiktionaryCredit for a shown entry with source %p is %p', async (source, expected) => {
+        mockUseWordsContext.mockReturnValue(makeContext({ gameLevel: 'advanced' }));
+        mockGetDefinitions.mockResolvedValue({ gato: { source, definitions: [{ number: 1, definition: 'Animal felino doméstico' }] } });
+
+        const { result } = renderHook(() => useDefinitionMaster());
+
+        await act(async () => {
+            await result.current.handleLetterClick('g');
+        });
+
+        await waitFor(() => {
+            expect(result.current.quizWords.length).toBe(1);
+        });
+        expect(result.current.showWiktionaryCredit).toBe(expected);
     });
 
     test('isLoadingLetter is false initially', () => {

@@ -14,6 +14,8 @@ export type SpellingClue = {
     definition: string;
     type: string;
     typeExtra?: string;
+    /** The entry's `source`: a Wiktionary clue shows the CC BY-SA credit. */
+    source?: 'wiktionary';
 };
 
 // ñ is deliberately absent: n/ñ are different letters, not an accent.

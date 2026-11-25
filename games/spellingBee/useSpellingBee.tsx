@@ -40,6 +40,7 @@ const buildRound = (
             definition: formatDefinition(definition.definition),
             type: definition.type,
             typeExtra: definition.type_extra,
+            ...(words[word].source === 'wiktionary' && { source: 'wiktionary' as const }),
         };
         if (isUsableClue(clue, locale)) return clue;
     }
@@ -56,7 +57,7 @@ const loadRounds = async (locale: string, gameLevel: string | null): Promise<Spe
         if (round) rounds.push(round);
     };
 
-    const loadLetter = (firstLetter: string) => getDefinitions({ locale, firstLetter, minLen: MIN_WORD_LENGTH });
+    const loadLetter = (firstLetter: string) => getDefinitions({ locale, firstLetter, minLen: MIN_WORD_LENGTH, level: gameLevel ?? undefined });
 
     const batch = await Promise.all(letters.slice(0, TOTAL_ROUNDS).map(loadLetter));
     for (const words of batch) {

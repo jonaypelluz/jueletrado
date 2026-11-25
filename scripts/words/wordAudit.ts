@@ -1,7 +1,7 @@
 /**
  * words:audit library: finds and removes junk in the word lists
  * (ops/scripts/words/<locale>/<level>_words.txt) and the definitions
- * (public/definitions/<locale>/<letter>_definitions.json).
+ * (public/definitions/<locale>/<letter>_definitions.json + <letter>_definitions_advanced.json, split by isAdvancedOnly).
  *
  * Every finding is FIX, DELETE or FLAG. Check mode only reports; --fix applies
  * FIX/DELETE (FLAG is report-only). The CLI entry is scripts/words/auditWords.ts.
@@ -12,7 +12,7 @@
 import { readFile, writeFile, mkdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import * as path from 'path';
-import { DEFINITION_LETTERS, UNVERIFIED_TYPE_MARKER } from '../../config/DefinitionConfig';
+import { DEFINITION_LETTERS, UNVERIFIED_TYPE_MARKER, definitionFileName } from '../../config/DefinitionConfig';
 import { printSummary, renderReport } from './auditReport';
 
 export const LOCALES = ['es', 'en'] as const;
@@ -45,7 +45,7 @@ export type Sense = {
     definition_extra?: unknown;
 };
 
-export type Entry = { definitions: Sense[]; level?: string };
+export type Entry = { definitions: Sense[]; level?: string; source?: 'wiktionary' };
 
 export type DefinitionFile = Record<string, Entry>;
 
@@ -103,6 +103,9 @@ const REGISTER_QUALIFIERS = ['desusado', 'poco usado', 'coloquial'];
 const ES_HEADS = ['adjetivo', 'adverbio', 'pronombre', 'conjunción', 'locución', 'locuciones'];
 const ES_RENAMES: Record<string, { type: string; extra?: string }> = {
     'nombre femenino plural': { type: 'nombre femenino', extra: 'en plural' },
+    'nombre masculino plural': { type: 'nombre masculino', extra: 'en plural' },
+    'nombre femenino y masculino': { type: 'nombre masculino y femenino' },
+    'nombre femenino o masculino': { type: 'nombre masculino o femenino' },
     'verbo intransitivo impersonal': { type: 'verbo impersonal' },
     'participio irregular': { type: 'participio' },
 };
@@ -559,13 +562,69 @@ export const hasFixOrDelete = (findings: Finding[]): boolean => findings.some((f
 // ---------------------------------------------------------------------------
 
 const wordsDir = (root: string): string => path.join(root, 'ops/scripts/words');
-const listPath = (root: string, locale: Locale, level: Level): string => path.join(wordsDir(root), locale, `${level}_words.txt`);
-const definitionPath = (root: string, locale: Locale, letter: string): string =>
-    path.join(root, 'public/definitions', locale, `${letter}_definitions.json`);
+export const listPath = (root: string, locale: Locale, level: Level): string => path.join(wordsDir(root), locale, `${level}_words.txt`);
+export const definitionPath = (root: string, locale: Locale, letter: string): string =>
+    path.join(root, 'public/definitions', locale, definitionFileName(letter));
+export const advancedDefinitionPath = (root: string, locale: Locale, letter: string): string =>
+    path.join(root, 'public/definitions', locale, definitionFileName(letter, true));
+
+/** The split rule: an advanced-level Wiktionary entry lives in the letter's advanced file, everything else in the main one. */
+export const isAdvancedOnly = (entry: Entry): boolean => entry.source === 'wiktionary' && entry.level === 'advanced';
+
+/** Splits one letter's definitions by isAdvancedOnly, each part keeping the input order. */
+export const splitDefinitionFile = (file: DefinitionFile): { main: DefinitionFile; advanced: DefinitionFile } => {
+    const main: DefinitionFile = {};
+    const advanced: DefinitionFile = {};
+    for (const [word, entry] of Object.entries(file)) {
+        (isAdvancedOnly(entry) ? advanced : main)[word] = entry;
+    }
+    return { main, advanced };
+};
 
 const readRequired = async (filePath: string): Promise<string> => {
     if (!existsSync(filePath)) throw new MissingDataFileError(filePath);
     return readFile(filePath, 'utf-8');
+};
+
+const readJsonOrEmpty = async <T>(filePath: string): Promise<Record<string, T>> =>
+    existsSync(filePath) ? JSON.parse(await readFile(filePath, 'utf-8')) : {};
+
+/**
+ * One letter's definitions read from a definitions folder (`public/definitions/<locale>`): the main file's keys,
+ * then the advanced file's; a key in both keeps the main (RAE) copy. A missing file is empty.
+ */
+export const loadLetterFiles = async <T = Entry>(dir: string, letter: string): Promise<Record<string, T>> => {
+    const merged = await readJsonOrEmpty<T>(path.join(dir, definitionFileName(letter)));
+    for (const [word, entry] of Object.entries(await readJsonOrEmpty<T>(path.join(dir, definitionFileName(letter, true))))) {
+        if (!Object.hasOwn(merged, word)) merged[word] = entry;
+    }
+    return merged;
+};
+
+/** One letter's definitions (loadLetterFiles); the main file is required. */
+export const readLetterDefinitions = async <T = Entry>(root: string, locale: Locale, letter: string): Promise<Record<string, T>> => {
+    const mainPath = definitionPath(root, locale, letter);
+    if (!existsSync(mainPath)) throw new MissingDataFileError(mainPath);
+    return loadLetterFiles<T>(path.dirname(mainPath), letter);
+};
+
+const writeIfChanged = async (filePath: string, content: string): Promise<void> => {
+    if (existsSync(filePath) && (await readFile(filePath, 'utf-8')) === content) return;
+    await writeFile(filePath, content, 'utf-8');
+};
+
+/**
+ * Writes one letter's definitions split by isAdvancedOnly (4-space JSON, only the files whose content changed);
+ * the advanced file only when it has entries or already exists.
+ */
+export const writeLetterDefinitions = async (root: string, locale: Locale, letter: string, file: DefinitionFile): Promise<void> => {
+    const { main, advanced } = splitDefinitionFile(file);
+    // Advanced first: an interrupted move to the main file leaves the word in both, and the main copy wins on read.
+    const advancedPath = advancedDefinitionPath(root, locale, letter);
+    if (Object.keys(advanced).length > 0 || existsSync(advancedPath)) {
+        await writeIfChanged(advancedPath, JSON.stringify(advanced, null, 4));
+    }
+    await writeIfChanged(definitionPath(root, locale, letter), JSON.stringify(main, null, 4));
 };
 
 /** One word per line, `#` comments; a missing file is an empty list. */
@@ -596,7 +655,7 @@ const loadWordSets = async (root: string, locale: Locale): Promise<WordSets> => 
     };
 };
 
-/** Loads the 3 lists, the 26 definition files and the block/allow lists. A missing list or letter file throws. */
+/** Loads the 3 lists, the 26 definition letters (main + advanced file) and the block/allow lists. A missing list or letter file throws. */
 export const loadLocaleInput = async (root: string, locale: Locale): Promise<LocaleInput> => {
     const lists = {} as Record<Level, string[]>;
     for (const level of LEVELS) {
@@ -605,12 +664,12 @@ export const loadLocaleInput = async (root: string, locale: Locale): Promise<Loc
     }
     const definitions: Record<string, DefinitionFile> = {};
     for (const letter of DEFINITION_LETTERS) {
-        definitions[letter] = JSON.parse(await readRequired(definitionPath(root, locale, letter)));
+        definitions[letter] = await readLetterDefinitions(root, locale, letter);
     }
     return { locale, lists, definitions, wordSets: await loadWordSets(root, locale) };
 };
 
-/** Writes only the list and definition files whose content changed. */
+/** Writes only the list and definition files whose content changed (definitions split by isAdvancedOnly). */
 const writeLocaleOutput = async (root: string, original: LocaleInput, result: AuditResult): Promise<void> => {
     for (const level of LEVELS) {
         if (result.lists[level].join('\n') !== original.lists[level].join('\n')) {
@@ -618,10 +677,7 @@ const writeLocaleOutput = async (root: string, original: LocaleInput, result: Au
         }
     }
     for (const letter of Object.keys(result.definitions)) {
-        const content = JSON.stringify(result.definitions[letter], null, 4);
-        if (content !== JSON.stringify(original.definitions[letter], null, 4)) {
-            await writeFile(definitionPath(root, original.locale, letter), content, 'utf-8');
-        }
+        await writeLetterDefinitions(root, original.locale, letter, result.definitions[letter]);
     }
 };
 

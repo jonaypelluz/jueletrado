@@ -14,9 +14,13 @@ export type DeriveWordRecordInput = {
     wordSet?: ReadonlySet<string>;
     /** Words of `proper_nouns_<locale>.txt`: they stay in the levels, marked `isProperNoun`. */
     properNouns?: ReadonlySet<string>;
+    /** The definition entry's `source`; absent = RAE for es. */
+    source?: 'wiktionary';
+    /** The definition entry's `level` (a Wiktionary entry is served from that level up; absent = advanced). */
+    entryLevel?: string;
 };
 
-const LEVEL_ORDER: readonly Level[] = ['beginner', 'intermediate', 'advanced'];
+export const LEVEL_ORDER: readonly Level[] = ['beginner', 'intermediate', 'advanced'];
 
 /** Bit of each level in the chunk `levels` mask. */
 const LEVEL_BITS: Record<Level, number> = { beginner: 1, intermediate: 2, advanced: 4 };
@@ -67,6 +71,9 @@ export const baseLetter = (char: string): string => {
     return AccentedVowels[lower] ?? (lower === 'ü' ? 'u' : lower);
 };
 
+/** Definition file letter of a word: base letter of its first character, ñ → n. */
+export const definitionLetter = (word: string): string => baseLetter(Array.from(word)[0] ?? '').replace('ñ', 'n');
+
 /**
  * Level from frequency: rank within the locale bands (LEVEL_BANDS). An unranked word keeps the
  * lowest source list that contains it; unranked and in no list → advanced.
@@ -107,12 +114,23 @@ const derivedFields = (word: string, locale: string, freqRank: number | null, le
     };
 };
 
-export const deriveWordRecord = ({ word, locale, freqRank, lists, senses, wordSet = new Set(), properNouns = new Set() }: DeriveWordRecordInput): WordRecord => {
+/**
+ * True when the definition games serve the entry at the word's level: an RAE entry always, a Wiktionary entry
+ * only from its own `level` up (as `filterDefinitions`). One row serves every level file of the word, so it
+ * is judged at the word's lowest level (`level`).
+ */
+const isServedAt = (level: Level, source: 'wiktionary' | undefined, entryLevel: string | undefined): boolean =>
+    source !== 'wiktionary' || LEVEL_ORDER.indexOf((entryLevel ?? 'advanced') as Level) <= LEVEL_ORDER.indexOf(level);
+
+export const deriveWordRecord = ({ word, locale, freqRank, lists, senses: entrySenses, wordSet = new Set(), properNouns = new Set(), source, entryLevel }: DeriveWordRecordInput): WordRecord => {
     const level = computeLevel(freqRank, lists, locale);
     const levels = levelsFor(freqRank, lists, level);
     const isSpanish = locale === 'es';
     const syllables = isSpanish ? syllabify(word) : null;
     const { hasDiphthong, hasHiatus } = isSpanish ? vowelFeatures(word) : { hasDiphthong: 0 as const, hasHiatus: 0 as const };
+    // An entry not served at the word's level counts as no entry: pos null, senseCount 0, source null.
+    const served = isServedAt(level, source, entryLevel);
+    const senses = served ? entrySenses : null;
     const senseCount = senses?.length ?? 0;
     const inWordSet = (stems: string[]) => stems.some((stem) => wordSet.has(stem));
 
@@ -124,7 +142,7 @@ export const deriveWordRecord = ({ word, locale, freqRank, lists, senses, wordSe
         stressedSyllable: syllables ? stressedSyllableIndex(syllables) : null,
         pos: senses?.[0]?.type ?? null,
         senseCount,
-        source: isSpanish && senseCount > 0 ? 'rae' : null,
+        source: source === 'wiktionary' && served ? 'wiktionary' : isSpanish && senseCount > 0 ? 'rae' : null,
         hasAccent: flag(ACUTE_ACCENT.test(word)),
         hasEnye: flag(word.includes('ñ')),
         hasDieresis: flag(word.includes('ü')),
@@ -160,7 +178,7 @@ export const hydrateRow = (row: WordRow, locale: string): WordRecord => {
         number | null | undefined,
         string | null,
         number,
-        'rae' | null,
+        'rae' | 'wiktionary' | null,
     ];
     const levels = levelsOfMask(levelMask);
     const flags = Object.fromEntries(WORD_FLAGS.map((name, bit) => [name, flag((flagMask & (1 << bit)) !== 0)])) as Record<WordFlagName, 0 | 1>;

@@ -29,6 +29,7 @@
 import { readFile, writeFile, appendFile, mkdir, readdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import * as path from 'path';
+import { loadLetterFiles } from '../words/wordAudit';
 import * as dotenv from 'dotenv';
 
 dotenv.config({ path: '.env.local' });
@@ -162,14 +163,10 @@ async function fetchDefinitions(word: string): Promise<FetchResult> {
     }
 }
 
+/** The letter's main definitions file merged with its advanced file (a missing file is empty). */
 async function loadExistingFile(letter: string): Promise<DefinitionsFile> {
     if (existingCache.has(letter)) return existingCache.get(letter)!;
-    const filePath = path.join(DEFINITIONS_DIR, `${letter}_definitions.json`);
-    if (!existsSync(filePath)) {
-        existingCache.set(letter, {});
-        return {};
-    }
-    const data = JSON.parse(await readFile(filePath, 'utf-8')) as DefinitionsFile;
+    const data = await loadLetterFiles<DefinitionsFile[string]>(DEFINITIONS_DIR, letter);
     existingCache.set(letter, data);
     return data;
 }

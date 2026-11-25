@@ -4,12 +4,12 @@ import { ChangeEvent, useState } from 'react';
 import { AccentedVowels } from '@config/AccentRules';
 import { GRID_SIZE, WORDS_PER_LEVEL } from '@games/crossWordPuzzle/config';
 import { ICell } from '@models/interfaces';
-import { Definition, DefinitionWords, SelectedWord } from '@models/types';
+import { DefinitionWords, SelectedWord, WordEntry } from '@models/types';
 import Logger from '@services/Logger';
 import { getDefinitions } from '@services/WordsService';
 import { useWordsContext } from '@store/WordsContext';
 import { PlacedWord, generateCrossword } from '@utils/CrosswordGenerator';
-import { getDefinitionForLevel } from '@utils/DefinitionPicker';
+import { clueDefinitionsForLevel, getDefinitionForLevel } from '@utils/DefinitionPicker';
 
 const GRID_SIZE_PX = 50;
 const LETTERS_PER_BATCH = 6;
@@ -53,37 +53,46 @@ const useCrossWordPuzzle = () => {
     const [isComplete, setIsComplete] = useState<boolean>(false);
     const [crossword, setCrossword] = useState<ICell[][]>(matrixInitialState);
     const [completedWords, setCompletedWords] = useState<Set<string>>(new Set());
+    const [showWiktionaryCredit, setShowWiktionaryCredit] = useState<boolean>(false);
 
     const resetCrossword = () => {
         setSelectedWords({});
         setCrossword(matrixInitialState());
         setIsComplete(false);
         setCompletedWords(new Set());
+        setShowWiktionaryCredit(false);
     };
 
-    const getWordsFromRandomLetters = async (count: number): Promise<DefinitionWords> => {
+    /** Clue senses by accent-stripped word, and the words whose entry comes from Wiktionary. */
+    const getWordsFromRandomLetters = async (count: number): Promise<{ definitions: DefinitionWords; wiktionaryWords: Set<string> }> => {
         const shuffledLetters = [...letters].sort(() => 0.5 - Math.random()).slice(0, count);
 
-        const promises = shuffledLetters.map((letter) => getDefinitions({ locale, firstLetter: letter }));
+        const promises = shuffledLetters.map((letter) => getDefinitions({ locale, firstLetter: letter, level: gameLevel ?? undefined }));
         const letterDefinitions = await Promise.all(promises);
 
-        const mergedDefinitions = letterDefinitions.reduce<Record<string, unknown>>(
+        const mergedDefinitions = letterDefinitions.reduce<Record<string, WordEntry>>(
             (acc, definition) => ({ ...acc, ...(definition ?? {}) }),
             {},
         );
 
-        return Object.entries(mergedDefinitions).reduce<DefinitionWords>((obj, [key, value]) => {
+        const wiktionaryWords = new Set<string>();
+        const definitions = Object.entries(mergedDefinitions).reduce<DefinitionWords>((obj, [key, value]) => {
+            const clues = clueDefinitionsForLevel(key, value.definitions, gameLevel);
+            if (clues.length === 0) return obj;
             const newKey = key
                 .split('')
                 .map((char) => AccentedVowels[char] || char)
                 .join('');
-            obj[newKey] = (value as { definitions: Definition[] }).definitions;
+            obj[newKey] = clues;
+            if (value.source === 'wiktionary') wiktionaryWords.add(newKey);
+            else wiktionaryWords.delete(newKey);
             return obj;
         }, {});
+        return { definitions, wiktionaryWords };
     };
 
     /** Renders the generated layout into grid + clue state in a single pass. */
-    const applyGeneratedCrossword = (placed: PlacedWord[], definitions: DefinitionWords) => {
+    const applyGeneratedCrossword = (placed: PlacedWord[], definitions: DefinitionWords, wiktionaryWords: Set<string>) => {
         const matrix = matrixInitialState();
         const availableColors = [...originalColors];
         const newSelectedWords: SelectedWord = {};
@@ -124,6 +133,7 @@ const useCrossWordPuzzle = () => {
 
         setCrossword(matrix);
         setSelectedWords(newSelectedWords);
+        setShowWiktionaryCredit(placed.some(({ word }) => wiktionaryWords.has(word)));
     };
 
     const handleGameStartClick = async () => {
@@ -137,14 +147,14 @@ const useCrossWordPuzzle = () => {
             // Each batch fetches definitions for a fresh random set of letters;
             // retry with a new batch when the pool can't produce a full layout.
             for (let batch = 0; batch < MAX_GENERATION_BATCHES; batch++) {
-                const definitions = await getWordsFromRandomLetters(LETTERS_PER_BATCH);
+                const { definitions, wiktionaryWords } = await getWordsFromRandomLetters(LETTERS_PER_BATCH);
                 const placed = generateCrossword(
                     Object.keys(definitions),
                     targetCount,
                     GRID_SIZE,
                 );
                 if (placed) {
-                    applyGeneratedCrossword(placed, definitions);
+                    applyGeneratedCrossword(placed, definitions, wiktionaryWords);
                     return;
                 }
             }
@@ -231,6 +241,7 @@ const useCrossWordPuzzle = () => {
         isGameStarted,
         isGenerating,
         isComplete,
+        showWiktionaryCredit,
         checkCellValue,
         handleGameStartClick,
     };
