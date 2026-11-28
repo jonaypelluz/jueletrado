@@ -18,6 +18,9 @@ import { LEVELS, LOCALES } from '../../../scripts/words/wordAudit';
 // JUE-0009 Phase 4 refreshed it again: the es.wiktionary import adds ~58.6k es definitions and
 // ~14.4k list words (mostly advanced), which grows the definition-game pools by level (none newly
 // below its minimum).
+// JUE-0009 Phase 5 refreshed it again: words:audit --fix drops the en definitions not in wordfreq (D10)
+// and the archaic/obsolete senses (D11), which shrinks the en definition-game pools (none newly below
+// its minimum); es unchanged.
 const BASELINE = path.join(__dirname, '../../fixtures/pools/phase2-baseline.json');
 
 type Snapshot = Record<string, { count: number; min: number | null; hash?: string }>;
