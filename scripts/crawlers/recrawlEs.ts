@@ -25,8 +25,7 @@ import { mkdir, readFile, readdir, writeFile } from 'fs/promises';
 import { spawnSync } from 'child_process';
 import * as path from 'path';
 import { UNVERIFIED_TYPE_MARKER } from '../../config/DefinitionConfig';
-import { loadFrequencyRanks } from '../words/buildWordData';
-import { DefinitionFile, Sense, classifySense, loadLocaleInput } from '../words/wordAudit';
+import { DefinitionFile, Sense, classifySense, loadFrequencyRanks, loadLocaleInput } from '../words/wordAudit';
 import { mergeIntoFiles, readJSONL } from './mergeDefinitions';
 
 const OUTPUT_DIR = 'ops/crawl-output/es-recrawl';

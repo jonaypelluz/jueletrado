@@ -23,8 +23,8 @@ export type Level = (typeof LEVELS)[number];
 export type Action = 'FIX' | 'DELETE' | 'FLAG';
 export type CategoryId =
     | 'W1' | 'W2' | 'W3' | 'W4' | 'W5' | 'W6' | 'W7' | 'W8' | 'W9' | 'W10'
-    | 'W11' | 'W12' | 'W13' | 'W14' | 'W15'
-    | 'D1' | 'D2' | 'D3' | 'D3b' | 'D4' | 'D5' | 'D6' | 'D7' | 'D8' | 'D9'
+    | 'W11' | 'W12' | 'W13' | 'W14' | 'W15' | 'W16'
+    | 'D1' | 'D2' | 'D3' | 'D3b' | 'D4' | 'D5' | 'D6' | 'D7' | 'D8' | 'D9' | 'D10' | 'D11'
     | 'T1' | 'T2' | 'T3';
 
 export type Finding = {
@@ -63,6 +63,8 @@ export type LocaleInput = {
     lists: Record<Level, string[]>;
     definitions: Record<string, DefinitionFile>;
     wordSets: WordSets;
+    /** wordfreq rank by word (en only); absent → D10 off. */
+    ranks?: ReadonlyMap<string, number>;
 };
 
 export type AuditResult = {
@@ -269,7 +271,18 @@ const hasHtml = (text: string): boolean => text.search(HTML_TAG_RE) !== -1 || te
 const hasUnbalancedParens = (text: string): boolean =>
     (text.match(/\(/g)?.length ?? 0) !== (text.match(/\)/g)?.length ?? 0);
 
-/** D1 → D7 → D2 → D8 → D3 → D4 → D5 on one sense. */
+const LEADING_LABEL_RE = /^\(([^)]*)\)/;
+const ARCHAIC_LABEL_RE = /^(now )?(archaic|obsolete)$/i;
+
+/** D11: the leading label has an `archaic`/`obsolete` part (`(now archaic)`, `(regional, obsolete)`) and no `except` part. */
+const isArchaicSense = (text: string): boolean => {
+    const label = text.match(LEADING_LABEL_RE);
+    if (!label) return false;
+    const parts = label[1].split(/,| or /).map((part) => part.trim());
+    return !parts.some((part) => /^except\b/i.test(part)) && parts.some((part) => ARCHAIC_LABEL_RE.test(part));
+};
+
+/** D1 → D7 → D2 → D8 → D11 → D3 → D4 → D5 on one sense. */
 export const classifySense = (sense: Pick<Sense, 'type' | 'definition'>, locale: Locale): SenseVerdict => {
     const deleteAs = (category: CategoryId): SenseVerdict => ({ delete: category, flags: [] });
     let text = sense.definition ?? '';
@@ -290,6 +303,8 @@ export const classifySense = (sense: Pick<Sense, 'type' | 'definition'>, locale:
         text = collapsed;
         fix = fix ?? 'D8';
     }
+
+    if (locale === 'en' && isArchaicSense(text)) return deleteAs('D11');
 
     const flags: CategoryId[] = [];
     const isCrossRef = (candidate: string): boolean =>
@@ -464,6 +479,10 @@ const auditSenses = (word: string, senses: Sense[], locale: Locale, beginner: Re
     });
 };
 
+/** D10: an en entry not in wordfreq, nor allowlisted, nor a proper noun. */
+const isObscure = (word: string, { locale, ranks, wordSets }: LocaleInput): boolean =>
+    locale === 'en' && !!ranks && !ranks.has(word) && !wordSets.allow.has(word) && !wordSets.properNouns.has(word);
+
 /** Audits one locale and returns the findings plus the data with every FIX/DELETE applied. Never mutates input. */
 export const auditLocale = (input: LocaleInput): AuditResult => {
     const { locale, wordSets } = input;
@@ -520,6 +539,10 @@ export const auditLocale = (input: LocaleInput): AuditResult => {
                 findings.push({ word, category: rename.category, action: 'FLAG', detail: `merged ${key} into existing ${word}; existing senses kept` });
                 continue;
             }
+            if (isObscure(word, input)) {
+                findings.push({ word, category: 'D10', action: 'DELETE' });
+                continue;
+            }
             const senses = auditSenses(word, entry.definitions ?? [], locale, beginner, findings);
             if (senses.length > 0) out[word] = { ...entry, definitions: senses };
         }
@@ -530,7 +553,40 @@ export const auditLocale = (input: LocaleInput): AuditResult => {
     return { findings, lists, definitions };
 };
 
-/** W9 pattern, W12, W13 and W14 FLAGs on the cleaned data. */
+/** W16 suffix rules: US form → UK form (`$n` back-references). */
+const SPELLING_PAIR_RULES: ReadonlyArray<{ re: RegExp; uk: string; minLength?: number }> = [
+    { re: /or(s|ed|ing|ful|less|able|ably|ite|ites)?$/, uk: 'our$1' },
+    { re: /([bcdgtv])er(s)?$/, uk: '$1re$2' },
+    { re: /(log|gog)(s)?$/, uk: '$1ue$2' },
+    { re: /ense(s)?$/, uk: 'ence$1' },
+    { re: /([aeiou])l(ed|ing|er|ers)$/, uk: '$1ll$2' },
+    // Shorter keys give noise (all/al, bell/bel, tell/tel).
+    { re: /ll(s)?$/, uk: 'l$1', minLength: 6 },
+    { re: /yz(e|es|ed|ing|er|ers)$/, uk: 'ys$1' },
+];
+const AE_OE_RE = /[ao]e/g;
+const MIN_AE_OE_US_LENGTH = 4;
+
+/** W16: US/UK spelling pairs where both forms are keys (color/colour, anemia/anaemia); -ize/-ise is not a pair. */
+const spellingPairFlags = (keys: string[]): Finding[] => {
+    const keySet = new Set(keys);
+    const pairs = new Map<string, string>();
+    const add = (us: string, uk: string) => {
+        if (us !== uk && keySet.has(us) && keySet.has(uk)) pairs.set(`${us}/${uk}`, us);
+    };
+    for (const key of keySet) {
+        for (const { re, uk, minLength } of SPELLING_PAIR_RULES) {
+            if (!minLength || key.length >= minLength) add(key, key.replace(re, uk));
+        }
+        for (const match of key.matchAll(AE_OE_RE)) {
+            const us = key.slice(0, match.index) + 'e' + key.slice(match.index + 2);
+            if (us.length >= MIN_AE_OE_US_LENGTH) add(us, key);
+        }
+    }
+    return [...pairs].map(([detail, us]) => ({ word: us, category: 'W16', action: 'FLAG', detail }));
+};
+
+/** W9 pattern, W12, W13, W14 and W16 FLAGs on the cleaned data. */
 const crossListFlags = (locale: Locale, lists: Record<Level, string[]>, definitions: Record<string, DefinitionFile>): Finding[] => {
     const flags: Finding[] = [];
     const levelsByWord = new Map<string, Level[]>();
@@ -552,6 +608,7 @@ const crossListFlags = (locale: Locale, lists: Record<Level, string[]>, definiti
     for (const [base, group] of groups) {
         if (group.length > 1 && group.includes(base)) flags.push({ word: base, category: 'W12', action: 'FLAG', detail: group.join(', ') });
     }
+    if (locale === 'en') flags.push(...spellingPairFlags(keys));
     return flags;
 };
 
@@ -584,6 +641,23 @@ export const splitDefinitionFile = (file: DefinitionFile): { main: DefinitionFil
 const readRequired = async (filePath: string): Promise<string> => {
     if (!existsSync(filePath)) throw new MissingDataFileError(filePath);
     return readFile(filePath, 'utf-8');
+};
+
+const frequencyPath = (root: string, locale: Locale): string => path.join(root, 'ops/scripts/frequency', `wordfreq_${locale}.txt`);
+
+/** word → 1-based rank (line index); the first occurrence of a word wins. */
+export const loadFrequencyRanks = async (root: string, locale: Locale): Promise<Map<string, number>> => {
+    const filePath = frequencyPath(root, locale);
+    if (!existsSync(filePath)) throw new MissingDataFileError(filePath);
+    const ranks = new Map<string, number>();
+    (await readFile(filePath, 'utf-8'))
+        .split('\n')
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .forEach((word, i) => {
+            if (!ranks.has(word)) ranks.set(word, i + 1);
+        });
+    return ranks;
 };
 
 const readJsonOrEmpty = async <T>(filePath: string): Promise<Record<string, T>> =>
@@ -655,7 +729,10 @@ const loadWordSets = async (root: string, locale: Locale): Promise<WordSets> => 
     };
 };
 
-/** Loads the 3 lists, the 26 definition letters (main + advanced file) and the block/allow lists. A missing list or letter file throws. */
+/**
+ * Loads the 3 lists, the 26 definition letters (main + advanced file), the block/allow lists and, for en, the
+ * wordfreq ranks. A missing list, letter or (en) frequency file throws.
+ */
 export const loadLocaleInput = async (root: string, locale: Locale): Promise<LocaleInput> => {
     const lists = {} as Record<Level, string[]>;
     for (const level of LEVELS) {
@@ -666,7 +743,13 @@ export const loadLocaleInput = async (root: string, locale: Locale): Promise<Loc
     for (const letter of DEFINITION_LETTERS) {
         definitions[letter] = await readLetterDefinitions(root, locale, letter);
     }
-    return { locale, lists, definitions, wordSets: await loadWordSets(root, locale) };
+    return {
+        locale,
+        lists,
+        definitions,
+        wordSets: await loadWordSets(root, locale),
+        ...(locale === 'en' && { ranks: await loadFrequencyRanks(root, locale) }),
+    };
 };
 
 /** Writes only the list and definition files whose content changed (definitions split by isAdvancedOnly). */

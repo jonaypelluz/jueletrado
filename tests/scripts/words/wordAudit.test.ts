@@ -140,6 +140,9 @@ describe('classifySense', () => {
         ['es', sense('de,'), 'D5'],
         ['en', sense('A city in Nebraska.', 'proper noun', 1), 'D7'],
         ['en', sense('(proper noun) A city in Nebraska.', 'noun', 1), 'D7'],
+        ['en', sense('(now archaic) To set at naught.', 'verb', 1), 'D11'],
+        ['en', sense('(regional, obsolete) A small loaf.', 'noun', 1), 'D11'],
+        ['en', sense('(dated or archaic) A young woman.', 'noun', 1), 'D11'],
     ] as const)('in locale %p deletes %p as %s', (locale, input, category) => {
         expect(classifySense(input, locale).delete).toBe(category);
     });
@@ -150,6 +153,9 @@ describe('classifySense', () => {
         ['es', sense('Que termina en de.')],
         ['en', sense('See you later; goodbye.', 'interjection', 1)],
         ['en', sense('See the main entry for full details.', 'noun', 1)],
+        ['en', sense('(possibly obsolete) A kind of cloth.', 'noun', 1)],
+        ['en', sense('(obsolete, except in one sense of phrase on top of) Above.', 'preposition', 1)],
+        ['en', sense('(faux-archaic) Olde; quaint.', 'adjective', 1)],
     ] as const)('in locale %p keeps %p', (locale, input) => {
         expect(classifySense(input, locale).delete).toBeUndefined();
     });

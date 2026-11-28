@@ -10,7 +10,7 @@ const FIXTURE_ROOT = path.join(__dirname, '../../fixtures/words');
 
 const FIX_DELETE_CATEGORIES = [
     'W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W9', 'W10', 'W11', 'W15',
-    'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'T1',
+    'D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10', 'D11', 'T1',
 ];
 
 type Sense = { number: string | number; type: string; type_extra?: string; definition: string };
@@ -228,6 +228,23 @@ describe('words:audit on the fixture tree', () => {
             expect(listWords('es')).not.toContain('XIV');
             expect(listWords('es')).not.toContain('xiv');
         });
+
+        test('cleans obscure en entries and archaic senses, and flags US/UK pairs', async () => {
+            await runCli(['--fix', '--root', root], root);
+
+            expect(readDefinitions('en', 'm')).not.toHaveProperty('macilent');
+            expect(read('ops/scripts/words/en/advanced_words.txt').split('\n')).toContain('macilent');
+            expect(readDefinitions('en', 'h')).toHaveProperty('hmm');
+            expect(readDefinitions('en', 'c')).toHaveProperty('cat');
+            expect(readDefinitions('es', 'g')).toHaveProperty('gobierno');
+            expect(readDefinitions('en', 'c').colour.definitions).toEqual([
+                { number: 1, definition: 'The property of reflected light.', type: 'noun' },
+                { number: 2, definition: '(obsolete in the US) A flag.', type: 'noun' },
+            ]);
+            const report = read('ops/crawl-output/audit/en-report.md');
+            expect(report).toContain('color/colour');
+            expect(report).not.toContain('organize/organise');
+        });
     });
 
     describe('advanced definition file', () => {
@@ -280,6 +297,13 @@ describe('words:audit on the fixture tree', () => {
             fs.rmSync(path.join(root, 'ops/scripts/words/en/advanced_words.txt'));
 
             await expect(runCli(['--locale', 'en', '--root', root], root)).resolves.toBe(2);
+        });
+
+        test('exits 2 when the en frequency list is missing, and es does not need it', async () => {
+            fs.rmSync(path.join(root, 'ops/scripts/frequency/wordfreq_en.txt'));
+
+            await expect(runCli(['--locale', 'en', '--root', root], root)).resolves.toBe(2);
+            await expect(runCli(['--locale', 'es', '--root', root], root)).resolves.toBe(1);
         });
     });
 });

@@ -16,5 +16,33 @@
                 "type": "noun"
             }
         ]
+    },
+    "color": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The property of reflected light.",
+                "type": "noun"
+            }
+        ]
+    },
+    "colour": {
+        "definitions": [
+            {
+                "number": 1,
+                "definition": "The property of reflected light.",
+                "type": "noun"
+            },
+            {
+                "number": 2,
+                "definition": "(obsolete) A pretext.",
+                "type": "noun"
+            },
+            {
+                "number": 3,
+                "definition": "(obsolete in the US) A flag.",
+                "type": "noun"
+            }
+        ]
     }
 }
