@@ -549,7 +549,7 @@ export const auditLocale = (input: LocaleInput): AuditResult => {
         definitions[letter] = out;
     }
 
-    findings.push(...crossListFlags(locale, lists, definitions));
+    findings.push(...crossListFlags(locale, lists, definitions, input.ranks));
     return { findings, lists, definitions };
 };
 
@@ -567,8 +567,11 @@ const SPELLING_PAIR_RULES: ReadonlyArray<{ re: RegExp; uk: string; minLength?: n
 const AE_OE_RE = /[ao]e/g;
 const MIN_AE_OE_US_LENGTH = 4;
 
-/** W16: US/UK spelling pairs where both forms are keys (color/colour, anemia/anaemia); -ize/-ise is not a pair. */
-const spellingPairFlags = (keys: string[]): Finding[] => {
+/**
+ * W16: US/UK spelling pairs where both forms are keys (color/colour, anemia/anaemia), and US-pattern keys
+ * whose UK form is ranked but not a key (honor/honour); -ize/-ise is not a pair.
+ */
+const spellingPairFlags = (keys: string[], ranks?: ReadonlyMap<string, number>): Finding[] => {
     const keySet = new Set(keys);
     const pairs = new Map<string, string>();
     const add = (us: string, uk: string) => {
@@ -576,7 +579,10 @@ const spellingPairFlags = (keys: string[]): Finding[] => {
     };
     for (const key of keySet) {
         for (const { re, uk, minLength } of SPELLING_PAIR_RULES) {
-            if (!minLength || key.length >= minLength) add(key, key.replace(re, uk));
+            if (minLength && key.length < minLength) continue;
+            const ukForm = key.replace(re, uk);
+            add(key, ukForm);
+            if (ukForm !== key && !keySet.has(ukForm) && ranks?.has(ukForm)) pairs.set(`${key}/${ukForm} (uk not a key)`, key);
         }
         for (const match of key.matchAll(AE_OE_RE)) {
             const us = key.slice(0, match.index) + 'e' + key.slice(match.index + 2);
@@ -587,7 +593,12 @@ const spellingPairFlags = (keys: string[]): Finding[] => {
 };
 
 /** W9 pattern, W12, W13, W14 and W16 FLAGs on the cleaned data. */
-const crossListFlags = (locale: Locale, lists: Record<Level, string[]>, definitions: Record<string, DefinitionFile>): Finding[] => {
+const crossListFlags = (
+    locale: Locale,
+    lists: Record<Level, string[]>,
+    definitions: Record<string, DefinitionFile>,
+    ranks?: ReadonlyMap<string, number>,
+): Finding[] => {
     const flags: Finding[] = [];
     const levelsByWord = new Map<string, Level[]>();
     for (const level of LEVELS) {
@@ -608,7 +619,7 @@ const crossListFlags = (locale: Locale, lists: Record<Level, string[]>, definiti
     for (const [base, group] of groups) {
         if (group.length > 1 && group.includes(base)) flags.push({ word: base, category: 'W12', action: 'FLAG', detail: group.join(', ') });
     }
-    if (locale === 'en') flags.push(...spellingPairFlags(keys));
+    if (locale === 'en') flags.push(...spellingPairFlags(keys, ranks));
     return flags;
 };
 

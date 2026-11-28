@@ -236,6 +236,7 @@ describe('words:audit on the fixture tree', () => {
             expect(read('ops/scripts/words/en/advanced_words.txt').split('\n')).toContain('macilent');
             expect(readDefinitions('en', 'h')).toHaveProperty('hmm');
             expect(readDefinitions('en', 'c')).toHaveProperty('cat');
+            expect(readDefinitions('en', 'd')).toHaveProperty('dickens');
             expect(readDefinitions('es', 'g')).toHaveProperty('gobierno');
             expect(readDefinitions('en', 'c').colour.definitions).toEqual([
                 { number: 1, definition: 'The property of reflected light.', type: 'noun' },
@@ -243,6 +244,7 @@ describe('words:audit on the fixture tree', () => {
             ]);
             const report = read('ops/crawl-output/audit/en-report.md');
             expect(report).toContain('color/colour');
+            expect(report).toContain('honor/honour (uk not a key)');
             expect(report).not.toContain('organize/organise');
         });
     });
