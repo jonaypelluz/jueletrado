@@ -179,3 +179,47 @@ PR: https://github.com/jonaypelluz/jueletrado/pull/68
   temporizadores sin probar en un teléfono real; el manifiesto en tiene `id: /en/` con `scope: /` (se
   pueden instalar dos apps) y las instalaciones antiguas cambian de `id`; el `puppeteer.launch` se repite
   en tres scripts; los breakpoints 899/905 px no coinciden (cosmético).
+
+## JUE-0009 — Datos de palabras: limpiar basura, arreglar definiciones, ampliar listas (es + en) (done 2026-11-28)
+PRs: Fase 1 https://github.com/jonaypelluz/jueletrado/pull/60 · Fase 2 https://github.com/jonaypelluz/jueletrado/pull/64 ·
+Fase 3 https://github.com/jonaypelluz/jueletrado/pull/69 · Fase 4 https://github.com/jonaypelluz/jueletrado/pull/70 ·
+Fase 5 https://github.com/jonaypelluz/jueletrado/pull/71
+- Fase 1: auditoría y limpieza (`yarn words:audit`, categorías W/D/T en `ops/docs/commands.md`). Fase 2: modelo
+  de palabra, IndexedDB v2, API de consulta (`ops/docs/game-conventions.md`). Fase 3: calidad de las
+  definiciones es (`crawl:recrawl-es`, `crawl:merge --replace`, D9, pista del crucigrama por nivel). Fase 4:
+  importación de es.wiktionary (`yarn words:import-wiktionary`): es 8.982 → 67.494 lemas, todas las entradas
+  Wiktionary en avanzado (`<letra>_definitions_advanced.json`), crédito CC BY-SA en pantalla.
+- Fase 5 (en): D10 borra la entrada de definición cuyo término no está en `wordfreq_en.txt` (ni allowlist ni
+  nombre propio) sin tocar las listas; D11 borra acepciones con etiqueta `archaic`/`obsolete` sin matiz; W16
+  marca pares EE. UU./RU. (también cuando la forma británica está en wordfreq pero no es clave; nunca
+  -ize/-ise). en 45.764 → 38.703 claves, 206.338 → 193.501 acepciones; W16 357 FLAG (~la mitad de los 90
+  ae/oe es ruido). Política de ortografía inglesa en `commands.md`: referencia británica, las grafías EE. UU.
+  se quedan.
+- Residual (todo FLAG en `words:audit`, nada bloquea un juego):
+  - **Owner a confirmar:** las 7.061 palabras sin definición tras D10 siguen en las listas en (2 en beginner:
+    trackback, trackbacks); ítem Pending en JUE-0018. D10 borró algunas claves británicas no rankeadas y dejó
+    su gemela EE. UU. (anaesthetize, dolour, oecumenical…).
+  - en: orden de acepciones (size "An assize", told "To count"); ~8.818 claves de forma flexionada; los juegos
+    de definición en ignoran el nivel (JUE-0017); `LETTERS_WITHOUT_DEFINITIONS` en j/k/l/z parece obsoleto;
+    acepciones ofensivas/adultas (`bdsm` 29, `sometimes offensive` 29); tokens de corpus (gonna); un
+    `crawl:merge` de JSONL antiguo puede volver a meter palabras D10 (`words:audit --fix` las quita);
+    `buildWordData` lee `wordfreq_en.txt` dos veces.
+  - es: cola de re-crawl 2.583 (`crawl:recrawl-es --check`), 3.517 acepciones `sin verificar` (T2); palabras
+    con más de 6 acepciones (3.003) sin re-crawl (decisión owner: p. ej. limitar avanzado a las N primeras);
+    fallos D9 aparcados (juan, kilo(s), matriz, alcoba, yerba, planteo, convicción(es)); etiquetas RAE sin
+    mapear (`artículo determinado …`, `contracción`, `prefijo`); FLAGs D3b 5.741, W9 2.447, W12 381, W13, D5
+    25, W14 30; 29 palabras Wiktionary de banda beginner/intermediate sin lista (facebook, jaja, online…);
+    duplicados pronominales `-se` (1.516), entradas solo de diminutivo/aumentativo (~47), textos de
+    definición duplicados (15.899 grupos); 349 acepciones sexuales y 234 de drogas sin etiquetar en avanzado
+    (decisión owner pendiente); 8 entradas Wiktionary con sentido 1 `desusado`; plantillas sin resolver
+    (`gentilicio1/2`, `adverbio de sustantivo`, ~160); 5 páginas `Uso:` antiguas sin leer; `x` es (77 lemas)
+    sigue en `LETTERS_WITHOUT_DEFINITIONS`; definitionMaster es avanzado K/W sin pool (cuelgue previo);
+    opciones duplicadas en definitionMaster; los juegos de definición avanzados descargan el fichero
+    `_advanced` grande (seguimiento: índice de definiciones por nivel); repetir la importación tras cambiar
+    `LEVEL_BANDS`.
+  - Fase 2 QA: primer populate es ~2,5× tiempo y ~1,8× almacenamiento de v1; `DBUpgradeBlockedError` deja la
+    página cargando; `getFullWordSet` de otro nivel vacía las colas por juego; ventanas de longitud del
+    prefetch distintas de las de cada juego; un juego puede empezar con 0 palabras si falla el populate.
+  - Dejado a propósito: palabras sin rango conservan el nivel de su lista (JUE-0017/0018); `LEVEL_BANDS`
+    3000/10000 provisional (JUE-0017); `source` es `rae`, `wiktionary` o `null`.
+- Tras cualquier crawl, importación o edición de listas: `yarn words:audit --fix` y luego `yarn words:build`.
