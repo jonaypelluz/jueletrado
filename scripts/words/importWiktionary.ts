@@ -23,7 +23,6 @@ import * as readline from 'readline';
 import { DEFINITION_LETTERS } from '../../config/DefinitionConfig';
 import { Level } from '../../models/types';
 import { computeLevel, definitionLetter } from '../../utils/WordRecord';
-import { loadFrequencyRanks } from './buildWordData';
 import {
     CategoryId,
     DefinitionFile,
@@ -37,6 +36,7 @@ import {
     dedupeSenses,
     isAdvancedOnly,
     listPath,
+    loadFrequencyRanks,
     loadLocaleInput,
     normalizeType,
     splitDefinitionFile,

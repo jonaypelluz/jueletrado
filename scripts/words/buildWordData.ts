@@ -18,14 +18,13 @@
  * Exit code: 0 ok, 1 missing or invalid input file or a blocklisted word in a list, 2 bad args.
  */
 
-import { existsSync } from 'fs';
 import { createHash } from 'crypto';
 import { mkdir, readFile, readdir, unlink, writeFile } from 'fs/promises';
 import * as path from 'path';
 import { Level, WordChunk, WordRecord } from '../../models/types';
 import { syllabify } from '../../utils/SyllableSplitter';
 import { WORD_CHUNK_FIELDS, WORD_CHUNK_ROWS, WORD_CHUNK_VERSION, WORD_FLAGS, deriveWordRecord, encodeRow } from '../../utils/WordRecord';
-import { Entry, LEVELS, LOCALES, Locale, MissingDataFileError, Sense, loadLocaleInput } from './wordAudit';
+import { Entry, LEVELS, LOCALES, Locale, MissingDataFileError, Sense, loadFrequencyRanks, loadLocaleInput } from './wordAudit';
 
 const CHUNK_SIZE = WORD_CHUNK_ROWS;
 const USAGE = 'Usage: yarn words:build [--locale es|en] [--root <dir>]';
@@ -50,23 +49,6 @@ export type BuildReport = {
     flagCounts: Record<string, number>;
     orphanDefinitions: string[];
     syllabifyFailures: string[];
-};
-
-const frequencyPath = (root: string, locale: Locale): string => path.join(root, 'ops/scripts/frequency', `wordfreq_${locale}.txt`);
-
-/** word → 1-based rank (line index); the first occurrence of a word wins. */
-export const loadFrequencyRanks = async (root: string, locale: Locale): Promise<Map<string, number>> => {
-    const filePath = frequencyPath(root, locale);
-    if (!existsSync(filePath)) throw new MissingDataFileError(filePath);
-    const ranks = new Map<string, number>();
-    (await readFile(filePath, 'utf-8'))
-        .split('\n')
-        .map((line) => line.trim())
-        .filter(Boolean)
-        .forEach((word, i) => {
-            if (!ranks.has(word)) ranks.set(word, i + 1);
-        });
-    return ranks;
 };
 
 /** True when syllabify loses characters or the word has no vowel nucleus. */

@@ -11,9 +11,10 @@ const CATEGORY_LABELS: Record<CategoryId, string> = {
     W1: 'encoding', W2: 'case', W3: 'charset', W4: 'single letter', W5: 'abbreviation',
     W6: 'roman numeral', W7: 'elongation', W8: 'proper noun', W9: 'foreign', W10: 'blocklisted word',
     W11: 'HTML/XML artifact', W12: 'accent-only duplicate', W13: 'in several levels', W14: 'definition in no list',
-    W15: 'list duplicate', D1: 'empty sense', D2: 'markup', D3: 'cross-reference', D3b: 'single-word sense',
-    D4: 'form-of', D5: 'truncated / unbalanced parens', D6: 'duplicate sense', D7: 'proper-noun sense',
-    D8: 'whitespace', D9: 'sense order', T1: 'type normalisation', T2: 'unverified type', T3: 'empty type',
+    W15: 'list duplicate', W16: 'US/UK spelling pair', D1: 'empty sense', D2: 'markup', D3: 'cross-reference',
+    D3b: 'single-word sense', D4: 'form-of', D5: 'truncated / unbalanced parens', D6: 'duplicate sense',
+    D7: 'proper-noun sense', D8: 'whitespace', D9: 'sense order', D10: 'obscure (not in wordfreq)',
+    D11: 'archaic/obsolete sense', T1: 'type normalisation', T2: 'unverified type', T3: 'empty type',
 };
 
 const CATEGORY_ORDER = Object.keys(CATEGORY_LABELS) as CategoryId[];

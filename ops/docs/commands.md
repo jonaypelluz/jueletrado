@@ -303,6 +303,11 @@ locales. Each finding is **FIX**, **DELETE** or **FLAG**:
   newline, lists one word per line in their original order. FLAGs are never
   applied; they are the backlog in the report.
 
+Inputs: the lists, the definitions, the list files below and, for en only,
+`ops/scripts/frequency/wordfreq_{locale}.txt` (one word per line; the first
+occurrence of a word is its rank). A missing `wordfreq_en.txt` exits `2` on any run
+that includes en (the default both-locales run too); es never reads it.
+
 | Flag | Default | Meaning |
 |---|---|---|
 | `--locale es\|en` | both | Audit one locale only. |
@@ -338,9 +343,12 @@ the first match wins):
 | W13 | Same word in several levels | FLAG |
 | W14 | Definition key in no list | FLAG |
 | W15 | Duplicate line inside one list | FIX |
+| W16 | en US/UK spelling pair, both forms definition keys (or the UK form ranked in `wordfreq_en.txt` but not a key: `(uk not a key)`): `-or/-our` (`favor/favour`), `-er/-re` (`centers/centres`), `-og/-ogue`, `-ense/-ence`, `-l/-ll` (`traveled/travelled`; final `-ll/-l` only for keys of 6+ letters: `fulfill/fulfil`), `-yze/-yse`, `ae`/`oe` → `e` (`anesthesia/anaesthesia`, `feces/faeces`); `-ize/-ise` is never a pair. Some are false pairs (`tor/tour`, `pets/poets`, `acer/acre`). See English spelling policy | FLAG |
 
 **Sense and type categories** (definitions only; a word left with no sense loses
-its definition key, senses are renumbered 1..n):
+its definition key, senses are renumbered 1..n). D10 runs on the whole entry
+first; then each sense goes D1 → D7 → D2 → D8 → D11 → D3 → D4 → D5 (first
+DELETE wins), then D6, the type rules and D9:
 
 | Id | Category | Action |
 |---|---|---|
@@ -353,7 +361,9 @@ its definition key, senses are renumbered 1..n):
 | D6 | Duplicate sense text in one word | DELETE the later one |
 | D7 | en `proper noun` sense | DELETE |
 | D8 | Extra whitespace | FIX |
-| D9 | es sense order: `desusado` senses, RAE letter-name senses (`… letra del abecedario español …`, `Sonido que representa la letra …`) and one-word noun senses pointing to a word outside the beginner list (`enebro.`, `cafeto.`) go after the others, stable; RAE order is kept otherwise, so sense 1 is the common meaning games show first. `poco usado`, a lone `desusada`, legacy `obsolete`/`rare` and one-word verb/adjective senses (`donar.`, `quieto.`) or ones pointing to a beginner word (`felicidad.`) stay: they also tag core senses | FIX |
+| D9 | (es; en archaic/obsolete senses: D11) es sense order: `desusado` senses, RAE letter-name senses (`… letra del abecedario español …`, `Sonido que representa la letra …`) and one-word noun senses pointing to a word outside the beginner list (`enebro.`, `cafeto.`) go after the others, stable; RAE order is kept otherwise, so sense 1 is the common meaning games show first. `poco usado`, a lone `desusada`, legacy `obsolete`/`rare` and one-word verb/adjective senses (`donar.`, `quieto.`) or ones pointing to a beginner word (`felicidad.`) stay: they also tag core senses | FIX |
+| D10 | en obscure entry: key not in `wordfreq_en.txt`, nor in `allowlist_en.txt` or `proper_nouns_en.txt` (key after any W1/W2 rename). Only the definition entry goes; the level lists keep the word (list regeneration: JUE-0018) | DELETE |
+| D11 | en archaic/obsolete sense: the leading `(…)` label has a part (split on `,` and ` or `) that is exactly `archaic`, `obsolete`, `now archaic` or `now obsolete`, and no `except …` part. `(now archaic)`, `(regional, obsolete)`, `(dated or archaic)` go; `(possibly obsolete)`, `(obsolete in the US)`, `(obsolete, except in …)`, `(faux-archaic)` stay | DELETE |
 | T1 | Type outside the closed list: mapped (es register qualifiers and subclasses go to `type_extra`) | FIX; FLAG if unmapped |
 | T2 | es English label mapped to a generic type (`type_extra` gets `sin verificar`) | FLAG |
 | T3 | Missing type | FLAG |
@@ -363,9 +373,9 @@ missing file counts as empty):
 
 | File | Use |
 |---|---|
-| `allowlist_{locale}.txt` | Real words exempt from W4–W7 and from every list rule (e.g. `version`, `hmm`, `mi`). |
+| `allowlist_{locale}.txt` | Real words exempt from W4–W7 and from every list rule (e.g. `version`, `hmm`, `mi`); en: also exempt from D10. |
 | `offensive_{locale}.txt` | Slurs, words whose main meaning is vulgar, and words whose common use is vulgar or adult in a family word game (W10; `words:build` fails on them). |
-| `proper_nouns_{locale}.txt` | Names of people, places, organisations, brands whose usual use is the name, even with a rare common sense in the repo (`japan` = varnish, `corea` = chorea) (W8). They stay in the levels, keep their senses and get the `isProperNoun` flag. Never a demonym, nationality, language or religion word (en), never a name whose usual use is a common word (`china`, `rosa`). |
+| `proper_nouns_{locale}.txt` | Names of people, places, organisations, brands whose usual use is the name, even with a rare common sense in the repo (`japan` = varnish, `corea` = chorea) (W8). They stay in the levels, keep their senses and get the `isProperNoun` flag; en: exempt from D10. Never a demonym, nationality, language or religion word (en), never a name whose usual use is a common word (`china`, `rosa`). |
 | `foreign_es.txt` | Clear non-Spanish words (W9). DLE loanwords stay. |
 | `abbreviations_{locale}.txt` | Abbreviations that contain a vowel (W5). |
 | `html_xml_blocklist.txt`, `html_xml_blocklist_{locale}.txt` | Markup and web artifacts (W11); also used by `words:from-book`. |
@@ -373,7 +383,26 @@ missing file counts as empty):
 **When to run:** after `crawl:merge`, `words:from-book` or any edit to the word
 lists or the files above: `yarn words:audit --fix`, then `yarn words:build`.
 `tests/scripts/words/auditRealData.test.ts` fails while the real data has
-pending FIX/DELETE findings.
+pending FIX/DELETE findings. A `crawl:merge` of old en JSONL can re-add D10
+words; the `words:audit --fix` after the merge removes them again.
+
+#### English spelling policy
+
+- British spelling is the reference for en (the README, definition text and any new hand-written data; existing US-spelled keys stay, see below).
+- US spellings stay valid words: their definition entries are kept, nothing is
+  deleted for being American (many are common beginner words, e.g. `color`,
+  `center`, and pattern pairs include false matches such as `filed/filled`).
+- `-ize` is accepted (Oxford spelling), so `-ize/-ise` is never a pair.
+- W16 lists the US/UK pairs where both forms are definition keys as a FLAG
+  backlog, plus the US-pattern keys whose British form is in `wordfreq_en.txt`
+  but is not a key (`neighbor/neighbour`, `fetal/foetal (uk not a key)`);
+  nothing is deleted. The ranked `ae`/`oe` forms are about half noise
+  (names and Latin plurals: `being/boeing`, `stele/stelae`).
+- D10 can remove an unranked British key while its ranked US twin stays
+  (`anaesthetize`, `amenorrhoea`, `antitumour`, `arbours`, `dolour`,
+  `oecumenical`, `paraesthesia`); kept as backlog.
+- Merriam-Webster (`crawlMerriamWebster.ts`) is an American fallback only, for
+  words dictionaryapi.dev cannot resolve; its entries follow the same policy.
 
 ### `yarn words:level-counts [--out <json>] [--baseline <json>] [--strict]`
 
