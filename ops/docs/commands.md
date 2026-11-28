@@ -343,7 +343,7 @@ the first match wins):
 | W13 | Same word in several levels | FLAG |
 | W14 | Definition key in no list | FLAG |
 | W15 | Duplicate line inside one list | FIX |
-| W16 | en US/UK spelling pair, both forms definition keys: `-or/-our` (`favor/favour`), `-er/-re` (`centers/centres`), `-og/-ogue`, `-ense/-ence`, `-l/-ll` (`traveled/travelled`; final `-ll/-l` only for keys of 6+ letters: `fulfill/fulfil`), `-yze/-yse`, `ae`/`oe` → `e` (`anesthesia/anaesthesia`, `feces/faeces`); `-ize/-ise` is never a pair. Some are false pairs (`tor/tour`, `pets/poets`, `acer/acre`). See English spelling policy | FLAG |
+| W16 | en US/UK spelling pair, both forms definition keys (or the UK form ranked in `wordfreq_en.txt` but not a key: `(uk not a key)`): `-or/-our` (`favor/favour`), `-er/-re` (`centers/centres`), `-og/-ogue`, `-ense/-ence`, `-l/-ll` (`traveled/travelled`; final `-ll/-l` only for keys of 6+ letters: `fulfill/fulfil`), `-yze/-yse`, `ae`/`oe` → `e` (`anesthesia/anaesthesia`, `feces/faeces`); `-ize/-ise` is never a pair. Some are false pairs (`tor/tour`, `pets/poets`, `acer/acre`). See English spelling policy | FLAG |
 
 **Sense and type categories** (definitions only; a word left with no sense loses
 its definition key, senses are renumbered 1..n). D10 runs on the whole entry
@@ -394,7 +394,11 @@ words; the `words:audit --fix` after the merge removes them again.
   `center`, and pattern pairs include false matches such as `filed/filled`).
 - `-ize` is accepted (Oxford spelling), so `-ize/-ise` is never a pair.
 - W16 lists the US/UK pairs where both forms are definition keys as a FLAG
-  backlog; nothing is deleted.
+  backlog, plus the US-pattern keys whose British form is in `wordfreq_en.txt`
+  but is not a key (`neighbor/neighbour (uk not a key)`); nothing is deleted.
+- D10 can remove an unranked British key while its ranked US twin stays
+  (`anaesthetize`, `amenorrhoea`, `antitumour`, `arbours`, `dolour`,
+  `oecumenical`, `paraesthesia`); kept as backlog.
 - Merriam-Webster (`crawlMerriamWebster.ts`) is an American fallback only, for
   words dictionaryapi.dev cannot resolve; its entries follow the same policy.
 
