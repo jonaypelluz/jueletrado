@@ -395,7 +395,9 @@ words; the `words:audit --fix` after the merge removes them again.
 - `-ize` is accepted (Oxford spelling), so `-ize/-ise` is never a pair.
 - W16 lists the US/UK pairs where both forms are definition keys as a FLAG
   backlog, plus the US-pattern keys whose British form is in `wordfreq_en.txt`
-  but is not a key (`neighbor/neighbour (uk not a key)`); nothing is deleted.
+  but is not a key (`neighbor/neighbour`, `fetal/foetal (uk not a key)`);
+  nothing is deleted. The ranked `ae`/`oe` forms are about half noise
+  (names and Latin plurals: `being/boeing`, `stele/stelae`).
 - D10 can remove an unranked British key while its ranked US twin stays
   (`anaesthetize`, `amenorrhoea`, `antitumour`, `arbours`, `dolour`,
   `oecumenical`, `paraesthesia`); kept as backlog.

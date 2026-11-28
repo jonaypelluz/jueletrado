@@ -569,7 +569,7 @@ const MIN_AE_OE_US_LENGTH = 4;
 
 /**
  * W16: US/UK spelling pairs where both forms are keys (color/colour, anemia/anaemia), and US-pattern keys
- * whose UK form is ranked but not a key (honor/honour); -ize/-ise is not a pair.
+ * whose UK form is ranked but not a key (honor/honour, fetal/foetal); -ize/-ise is not a pair.
  */
 const spellingPairFlags = (keys: string[], ranks?: ReadonlyMap<string, number>): Finding[] => {
     const keySet = new Set(keys);
@@ -587,6 +587,13 @@ const spellingPairFlags = (keys: string[], ranks?: ReadonlyMap<string, number>):
         for (const match of key.matchAll(AE_OE_RE)) {
             const us = key.slice(0, match.index) + 'e' + key.slice(match.index + 2);
             if (us.length >= MIN_AE_OE_US_LENGTH) add(us, key);
+        }
+    }
+    for (const word of ranks?.keys() ?? []) {
+        if (keySet.has(word)) continue;
+        for (const match of word.matchAll(AE_OE_RE)) {
+            const us = word.slice(0, match.index) + 'e' + word.slice(match.index + 2);
+            if (us.length >= MIN_AE_OE_US_LENGTH && keySet.has(us)) pairs.set(`${us}/${word} (uk not a key)`, us);
         }
     }
     return [...pairs].map(([detail, us]) => ({ word: us, category: 'W16', action: 'FLAG', detail }));
